@@ -13,54 +13,46 @@ def get_next_ngram(s, ngram_types):
 
 K = 10
 TARGET_LEMMAS = 80
-DATA_DIR = "unimorph/"
+DATA_DIR = "unimorph/processed/"
 OUTPUT_DIR = "ldl_results/"
-CELLS_LEMMA = 4.0
+SEED_NUM = 97
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# --- 0. DATA FILTERING & SELECTION ---
+# --- 0. DATA LOADING (Filtering removed) ---
 langs_to_process = []
 lang_data = {}
 
-for file in tqdm(os.listdir(DATA_DIR), desc="Filtering languages"):
+for file in tqdm(os.listdir(DATA_DIR), desc="Loading languages"):
     if not file.endswith(".csv"):
         continue
 
     lang = file.replace(".csv", "")
-    output_dir_lang = OUTPUT_DIR + lang + "/"
-    os.makedirs(output_dir_lang, exist_ok=True)
 
-    # Read the data, accounting for the new format: lemma (0), form (1), slot (2)
+    # Read the data, expecting the new format:
+    # lemma (0), form (1), paradigm_slot (2), form_freq (3), lemma_freq (4), phonemicized (5)
     lines = [
         l.strip().split(",")
         for l in open(os.path.join(DATA_DIR, file), "r", encoding="utf-8")
         if l.strip()
     ]
 
-    # Map lemmas to their rows to check our conditions
     lemma_dict = defaultdict(list)
     for row in lines:
-        if len(row) == 3:
+        if len(row) >= 6:
             lemma_dict[row[0]].append(row)
 
-    num_lemmas = len(lemma_dict)
-
-    if num_lemmas == 0:
+    if not lemma_dict:
         continue
 
-    avg_cells = sum(len(forms) for forms in lemma_dict.values()) / num_lemmas
-
-    # Condition: >= 80 lemmas AND >= 4 cells per lemma on average
-    if num_lemmas >= TARGET_LEMMAS and avg_cells >= CELLS_LEMMA:
-        langs_to_process.append(lang)
-        lang_data[lang] = lemma_dict
+    langs_to_process.append(lang)
+    lang_data[lang] = lemma_dict
 
 langs_to_process = sorted(langs_to_process)
-print(f"Filtered down to {len(langs_to_process)} languages.")
+print(f"Loaded {len(langs_to_process)} languages.")
 
 # --- 1. PROCESSING ---
-limit = 5
+limit = -1
 count = 0
 for lang in tqdm(langs_to_process, desc="Processing langs"):
 
@@ -72,10 +64,13 @@ for lang in tqdm(langs_to_process, desc="Processing langs"):
     for sample_seed in range(3):
         for split_seed in range(3):
 
-            # --- Sample exactly 80 lemmas to control vocabulary size ---
+            # --- Sample lemmas to control vocabulary size ---
             random.seed(sample_seed)
             all_lemmas = list(lang_data[lang].keys())
-            sampled_lemmas = random.sample(all_lemmas, TARGET_LEMMAS)
+            # Safely sample up to TARGET_LEMMAS
+            sampled_lemmas = random.sample(
+                all_lemmas, min(TARGET_LEMMAS, len(all_lemmas))
+            )
 
             # Flatten back into a text list for the sampled lemmas only
             text = []
@@ -86,8 +81,8 @@ for lang in tqdm(langs_to_process, desc="Processing langs"):
             ngrams = []
             for l in text:
                 l_ = []
-                # Form is now at index 1
-                w = ["#"] + list(l[1]) + ["$"]
+                # Target is now 'phonemicized' at index 5
+                w = ["#"] + list(l[5]) + ["$"]
                 for i in range(len(w) - (K_ngram - 1)):
                     l_.append(tuple(w[i : i + K_ngram]))
                 ngrams.append(l_)
@@ -103,7 +98,7 @@ for lang in tqdm(langs_to_process, desc="Processing langs"):
 
             # --- 2. LDL CONTINUOUS SEMANTIC SIMULATION ---
             unique_lemmas = sorted(list(set([l[0] for l in text])))
-            # Features are now at index 2
+            # Features (paradigm_slot) are still at index 2
             unique_features = sorted(
                 list(set([f for l in text for f in l[2].split(";")]))
             )
@@ -111,7 +106,7 @@ for lang in tqdm(langs_to_process, desc="Processing langs"):
             vec_dim = len(ngram_types)
 
             # Seed for consistent vector generation across runs
-            np.random.seed(97)
+            np.random.seed(SEED_NUM)
 
             lemma_vectors = {
                 lemma: np.random.normal(0.0, 4.0, vec_dim) for lemma in unique_lemmas
@@ -162,7 +157,11 @@ for lang in tqdm(langs_to_process, desc="Processing langs"):
                 )
 
                 with open(output_filename, "w", encoding="utf-8") as f:
-                    print("lemma\tform\tfeatures\tpredicted_form", file=f)
+                    # Update header to reflect new columns
+                    print(
+                        "lemma\tform\tparadigm_slot\tform_freq\tlemma_freq\tphonemicized\tpredicted_phonemicized",
+                        file=f,
+                    )
 
                     for i in range(sem_test.shape[0]):
                         try:
@@ -196,7 +195,7 @@ for lang in tqdm(langs_to_process, desc="Processing langs"):
                                 if winner[-1] == "$":
                                     break
 
-                            # text[test_inds[i]] contains [lemma, form, features]
+                            # text[test_inds[i]] contains the full 6-column row
                             predicted = "".join([s[1] for s in output])
                             line_to_print = text[test_inds[i]] + [predicted]
                             print("\t".join(line_to_print), file=f)
@@ -229,7 +228,7 @@ def levenshtein_distance(s1, s2):
 
 def calculate_smart_average_ld(output_dir):
     """
-    Calculates the slot-averaged Levenshtein distance for each language.
+    Calculates the slot-averaged norm. Levenshtein distance for each language.
     """
     lang_metrics = {}
 
@@ -258,22 +257,22 @@ def calculate_smart_average_ld(output_dir):
                     continue
 
                 for row in reader:
-                    # Ensure the row has lemma, form, features, and predicted_form
-                    if len(row) < 4:
+                    # Ensure the row has all 7 columns (6 originals + 1 predicted)
+                    if len(row) < 7:
                         continue
 
-                    target_form = row[1]
-                    features = row[2]
-                    predicted_form = row[3]
+                    features = row[2]  # paradigm_slot is at index 2
+                    target_phon = row[5]  # phonemicized is at index 5
+                    predicted_phon = row[6]  # predicted_phonemicized is at index 6
 
                     # 3. Handle decode failures
-                    if predicted_form == "DECODE_FAILED":
+                    if predicted_phon == "DECODE_FAILED":
                         # Penalize failure by treating the prediction as an empty string
                         dist = 1.0
                     else:
-                        dist = levenshtein_distance(target_form, predicted_form)
+                        dist = levenshtein_distance(target_phon, predicted_phon)
                         # normalize it
-                        dist = dist / max(len(target_form), len(predicted_form))
+                        dist = dist / max(len(target_phon), len(predicted_phon))
 
                     slot_distances[features].append(dist)
 
@@ -294,7 +293,8 @@ def calculate_smart_average_ld(output_dir):
 
 
 # --- Execution Example ---
-OUTPUT_DIR = "ldl-cont_sem-results/"
+# Notice directory change to match the output script above
+OUTPUT_DIR = "ldl_results/"
 results = calculate_smart_average_ld(OUTPUT_DIR)
 
 with open("ldl_summary_results.tsv", "w", encoding="utf-8") as f:
