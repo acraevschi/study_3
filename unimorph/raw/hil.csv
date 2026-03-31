@@ -1,0 +1,1257 @@
+lemma,form,paradigm_slot
+baton,baton,"V;NFIN"
+baton,ginbaton,"V;PST"
+baton,ginbaton,"V;PROG;PST"
+baton,ginbaton na,"V;PRF;PST"
+baton,ginbaton pa,"V;PRF+PROG;PST"
+baton,ginabaton,"V;PRS"
+baton,ginabaton,"V;PROG;PRS"
+baton,ginabaton na,"V;PRF;PRS"
+baton,ginabaton pa,"V;PRF+PROG;PRS"
+baton,magabaton,"V;FUT"
+baton,magabaton,"V;PROG;FUT"
+baton,magabaton na,"V;PRF;FUT"
+baton,magabaton pa,"V;PRF+PROG;FUT"
+aku,aku,"V;NFIN"
+aku,nag-aku,"V;PST"
+aku,nag-aku,"V;PROG;PST"
+aku,gin-aku na,"V;PRF;PST"
+aku,gin-aku pa,"V;PRF+PROG;PST"
+aku,nagaaku,"V;PRS"
+aku,nagaaku,"V;PROG;PRS"
+aku,ginaaku na,"V;PRF;PRS"
+aku,ginaaku pa,"V;PRF+PROG;PRS"
+aku,magaaku,"V;FUT"
+aku,magaaku,"V;PROG;FUT"
+aku,magaaku na,"V;PRF;FUT"
+aku,magaaku pa,"V;PRF+PROG;FUT"
+sabat,sabat,"V;NFIN"
+sabat,ginsabat,"V;PST"
+sabat,ginsabat,"V;PROG;PST"
+sabat,ginsabat na,"V;PRF;PST"
+sabat,ginsabat pa,"V;PRF+PROG;PST"
+sabat,ginasabat,"V;PRS"
+sabat,ginasabat,"V;PROG;PRS"
+sabat,ginasabat na,"V;PRF;PRS"
+sabat,ginasabat pa,"V;PRF+PROG;PRS"
+sabat,magasabat,"V;FUT"
+sabat,magasabat,"V;PROG;FUT"
+sabat,magasabat na,"V;PRF;FUT"
+sabat,magasabat pa,"V;PRF+PROG;FUT"
+pakita,pakita,"V;NFIN"
+pakita,nagpakita,"V;PST"
+pakita,nagpakita,"V;PROG;PST"
+pakita,nagpakita na,"V;PRF;PST"
+pakita,nagpakita pa,"V;PRF+PROG;PST"
+pakita,nagapakita,"V;PRS"
+pakita,nagapakita,"V;PROG;PRS"
+pakita,nagapakita na,"V;PRF;PRS"
+pakita,nagapakita pa,"V;PRF+PROG;PRS"
+pakita,magapakita,"V;FUT"
+pakita,magapakita,"V;PROG;FUT"
+pakita,magapakita na,"V;PRF;FUT"
+pakita,magapakita pa,"V;PRF+PROG;FUT"
+pamangkot,pamangkot,"V;NFIN"
+pamangkot,nagpamangkot,"V;PST"
+pamangkot,nagpamangkot,"V;PROG;PST"
+pamangkot,nagpamangkot na,"V;PRF;PST"
+pamangkot,nagpamangkot pa,"V;PRF+PROG;PST"
+pamangkot,nagapamangkot,"V;PRS"
+pamangkot,nagapamangkot,"V;PROG;PRS"
+pamangkot,nagapamangkot na,"V;PRF;PRS"
+pamangkot,nagapamangkot pa,"V;PRF+PROG;PRS"
+pamangkot,magapamangkot,"V;FUT"
+pamangkot,magapamangkot,"V;PROG;FUT"
+pamangkot,magapamangkot na,"V;PRF;FUT"
+pamangkot,magapamangkot pa,"V;PRF+PROG;FUT"
+mangin/nangin,mangin,"V;NFIN"
+mangin/nangin,nangin,"V;PRF;PST"
+mangin/nangin,mangin,"V;PRS"
+mangin/nangin,nangin,"V;PRF;PRS"
+maka/naka,maka,"V;NFIN"
+maka/naka,naka,"V;PROG;PST"
+maka/naka,maka,"V;PROG;FUT"
+mangin/nangin,mangin,"V;NFIN"
+mangin/nangin,nangin,"V;PST"
+mangin/nangin,nangin,"V;PROG;PST"
+mangin/nangin,nangin,"V;PRF;PST"
+mangin/nangin,nangin,"V;PRF+PROG;PST"
+mangin/nangin,mangin,"V;PRS"
+mangin/nangin,mangin,"V;PROG;PRS"
+mangin/nangin,nangin,"V;PRF;PRS"
+mangin/nangin,nangin,"V;PRF+PROG;PRS"
+mangin/nangin,mangin,"V;FUT"
+mangin/nangin,mangin,"V;PROG;FUT"
+mangin/nangin,mangin,"V;PRF;FUT"
+mangin/nangin,mangin,"V;PRF+PROG;FUT"
+sugod,sugod,"V;NFIN"
+sugod,nagsugod,"V;PST"
+sugod,nagsugod,"V;PROG;PST"
+sugod,nagsugod na,"V;PRF;PST"
+sugod,nagsugod pa,"V;PRF+PROG;PST"
+sugod,nagasugod,"V;PRS"
+sugod,nagasugod,"V;PROG;PRS"
+sugod,nagasugod na,"V;PRF;PRS"
+sugod,nagasugod pa,"V;PRF+PROG;PRS"
+sugod,magasugod,"V;FUT"
+sugod,magasugod,"V;PROG;FUT"
+sugod,magasugod na,"V;PRF;FUT"
+sugod,magasugod pa,"V;PRF+PROG;FUT"
+buka,buka,"V;NFIN"
+buka,ginbuka,"V;PST"
+buka,ginbuka,"V;PROG;PST"
+buka,ginbuka na,"V;PRF;PST"
+buka,ginbuka pa,"V;PRF+PROG;PST"
+buka,ginabuka,"V;PRS"
+buka,ginabuka,"V;PROG;PRS"
+buka,ginabuka na,"V;PRF;PRS"
+buka,ginabuka pa,"V;PRF+PROG;PRS"
+buka,pagabuka,"V;FUT"
+buka,pagabuka,"V;PROG;FUT"
+buka,pagabuka na,"V;PRF;FUT"
+buka,pagabuka pa,"V;PRF+PROG;FUT"
+ginhawa,ginhawa,"V;NFIN"
+ginhawa,nagginhawa,"V;PST"
+ginhawa,nagginhawa,"V;PROG;PST"
+ginhawa,nagginhawa na,"V;PRF;PST"
+ginhawa,nagginhawa pa,"V;PRF+PROG;PST"
+ginhawa,nagaginhawa,"V;PRS"
+ginhawa,nagaginhawa,"V;PROG;PRS"
+ginhawa,nagaginhawa na,"V;PRF;PRS"
+ginhawa,nagaginhawa pa,"V;PRF+PROG;PRS"
+ginhawa,magaginhawa,"V;FUT"
+ginhawa,magaginhawa,"V;PROG;FUT"
+ginhawa,magaginhawa na,"V;PRF;FUT"
+ginhawa,magaginhawa pa,"V;PRF+PROG;FUT"
+bakal,bakal,"V;NFIN"
+bakal,nagbakal,"V;PST"
+bakal,nagbakal,"V;PROG;PST"
+bakal,nagbakal na,"V;PRF;PST"
+bakal,nagbakal pa,"V;PRF+PROG;PST"
+bakal,nagabakal,"V;PRS"
+bakal,nagabakal,"V;PROG;PRS"
+bakal,nagabakal na,"V;PRF;PRS"
+bakal,nagabakal pa,"V;PRF+PROG;PRS"
+bakal,magabakal,"V;FUT"
+bakal,magabakal,"V;PROG;FUT"
+bakal,magabakal na,"V;PRF;FUT"
+bakal,magabakal pa,"V;PRF+PROG;FUT"
+tawag,tawag,"V;NFIN"
+tawag,nagtawag,"V;PST"
+tawag,nagtawag,"V;PROG;PST"
+tawag,nagtawag na,"V;PRF;PST"
+tawag,nagtawag pa,"V;PRF+PROG;PST"
+tawag,nagatawag,"V;PRS"
+tawag,nagatawag,"V;PROG;PRS"
+tawag,nagatawag na,"V;PRF;PRS"
+tawag,nagatawag pa,"V;PRF+PROG;PRS"
+tawag,magatawag,"V;FUT"
+tawag,magatawag,"V;PROG;FUT"
+tawag,magatawag na,"V;PRF;FUT"
+tawag,magatawag pa,"V;PRF+PROG;FUT"
+sarang,sarang,"V;NFIN"
+sarang,nakasarang,"V;PST"
+sarang,makasarang,"V;PRS"
+pili,pili,"V;NFIN"
+pili,nagpili,"V;PST"
+pili,nagpili,"V;PROG;PST"
+pili,nagpili na,"V;PRF;PST"
+pili,nagpili pa,"V;PRF+PROG;PST"
+pili,nagapili,"V;PRS"
+pili,nagapili,"V;PROG;PRS"
+pili,nagapili na,"V;PRF;PRS"
+pili,nagapili pa,"V;PRF+PROG;PRS"
+pili,magapili,"V;FUT"
+pili,magapili,"V;PROG;FUT"
+pili,magapili na,"V;PRF;FUT"
+pili,magapili pa,"V;PRF+PROG;FUT"
+sira,sira,"V;NFIN"
+sira,ginsira,"V;PST"
+sira,ginsira,"V;PROG;PST"
+sira,ginsira na,"V;PRF;PST"
+sira,ginsira pa,"V;PRF+PROG;PST"
+sira,ginasira,"V;PRS"
+sira,ginasira,"V;PROG;PRS"
+sira,ginasira na,"V;PRF;PRS"
+sira,ginasira pa,"V;PRF+PROG;PRS"
+sira,magasira,"V;FUT"
+sira,magasira,"V;PROG;FUT"
+sira,magasira na,"V;PRF;FUT"
+sira,magasira pa,"V;PRF+PROG;FUT"
+abot,abot,"V;NFIN"
+abot,nag-abot,"V;PST"
+abot,nag-abot,"V;PROG;PST"
+abot,nag-abot na,"V;PRF;PST"
+abot,nag-abot pa,"V;PRF+PROG;PST"
+abot,nagaabot,"V;PRS"
+abot,nagaabot,"V;PROG;PRS"
+abot,nagaabot na,"V;PRF;PRS"
+abot,nagaabot pa,"V;PRF+PROG;PRS"
+abot,magaabot,"V;FUT"
+abot,magaabot,"V;PROG;FUT"
+abot,magaabot na,"V;PRF;FUT"
+abot,magaabot pa,"V;PRF+PROG;FUT"
+luto,luto,"V;NFIN"
+luto,nagluto,"V;PST"
+luto,nagluto,"V;PROG;PST"
+luto,nagluto na,"V;PRF;PST"
+luto,nagluto pa,"V;PRF+PROG;PST"
+luto,nagaluto,"V;PRS"
+luto,nagaluto,"V;PROG;PRS"
+luto,nagaluto na,"V;PRF;PRS"
+luto,nagaluto pa,"V;PRF+PROG;PRS"
+luto,magaluto,"V;FUT"
+luto,magaluto,"V;PROG;FUT"
+luto,magaluto na,"V;PRF;FUT"
+luto,magaluto pa,"V;PRF+PROG;FUT"
+hibi,hibi,"V;NFIN"
+hibi,naghibi,"V;PST"
+hibi,naghibi,"V;PROG;PST"
+hibi,naghibi na,"V;PRF;PST"
+hibi,naghibi pa,"V;PRF+PROG;PST"
+hibi,nagahibi,"V;PRS"
+hibi,nagahibi,"V;PROG;PRS"
+hibi,nagahibi na,"V;PRF;PRS"
+hibi,nagahibi pa,"V;PRF+PROG;PRS"
+hibi,magahibi,"V;FUT"
+hibi,magahibi,"V;PROG;FUT"
+hibi,magahibi na,"V;PRF;FUT"
+hibi,magahibi pa,"V;PRF+PROG;FUT"
+saot,saot,"V;NFIN"
+saot,nagsaot,"V;PST"
+saot,nagsaot,"V;PROG;PST"
+saot,nagsaot na,"V;PRF;PST"
+saot,nagsaot pa,"V;PRF+PROG;PST"
+saot,nagasaot,"V;PRS"
+saot,nagasaot,"V;PROG;PRS"
+saot,nagasaot na,"V;PRF;PRS"
+saot,nagasaot pa,"V;PRF+PROG;PRS"
+saot,magasaot,"V;FUT"
+saot,magasaot,"V;PROG;FUT"
+saot,magasaot na,"V;PRF;FUT"
+saot,magasaot pa,"V;PRF+PROG;FUT"
+desisyon,desisyon,"V;NFIN"
+desisyon,nagdesisyon,"V;PST"
+desisyon,nagdesisyon,"V;PROG;PST"
+desisyon,nagdesisyon na,"V;PRF;PST"
+desisyon,nagdesisyon pa,"V;PRF+PROG;PST"
+desisyon,nagadesisyon,"V;PRS"
+desisyon,nagadesisyon,"V;PROG;PRS"
+desisyon,nagadesisyon na,"V;PRF;PRS"
+desisyon,nagadesisyon pa,"V;PRF+PROG;PRS"
+desisyon,magadesisyon,"V;FUT"
+desisyon,magadesisyon,"V;PROG;FUT"
+desisyon,magadesisyon na,"V;PRF;FUT"
+desisyon,magadesisyon pa,"V;PRF+PROG;FUT"
+buhin,buhin,"V;NFIN"
+buhin,nagbuhin,"V;PST"
+buhin,nagbuhin,"V;PROG;PST"
+buhin,nagbuhin na,"V;PRF;PST"
+buhin,nagbuhin pa,"V;PRF+PROG;PST"
+buhin,nagabuhin,"V;PRS"
+buhin,nagabuhin,"V;PROG;PRS"
+buhin,nagabuhin na,"V;PRF;PRS"
+buhin,nagabuhin pa,"V;PRF+PROG;PRS"
+buhin,magabuhin,"V;FUT"
+buhin,magabuhin,"V;PROG;FUT"
+buhin,magabuhin na,"V;PRF;FUT"
+buhin,magabuhin pa,"V;PRF+PROG;FUT"
+patay/tagumatayon,patay,"V;NFIN"
+patay/tagumatayon,napatay,"V;PST"
+patay/tagumatayon,napatay,"V;PROG;PST"
+patay/tagumatayon,naptay na,"V;PRF;PST"
+patay/tagumatayon,nagtagumatayon pa,"V;PRF+PROG;PST"
+patay/tagumatayon,napatay,"V;PRS"
+patay/tagumatayon,nagatagumatayon,"V;PROG;PRS"
+patay/tagumatayon,napatay na,"V;PRF;PRS"
+patay/tagumatayon,nagatagumatayon pa,"V;PRF+PROG;PRS"
+patay/tagumatayon,mapatay,"V;FUT"
+patay/tagumatayon,mapatay,"V;PROG;FUT"
+patay/tagumatayon,mapatay na,"V;PRF;FUT"
+patay/tagumatayon,mapatay pa,"V;PRF+PROG;FUT"
+himo,himo,"V;NFIN"
+himo,naghimo,"V;PST"
+himo,naghimo,"V;PROG;PST"
+himo,naghimo na,"V;PRF;PST"
+himo,naghimo pa,"V;PRF+PROG;PST"
+himo,nagahimo,"V;PRS"
+himo,nagahimo,"V;PROG;PRS"
+himo,nagahimo na,"V;PRF;PRS"
+himo,nagahimo pa,"V;PRF+PROG;PRS"
+himo,magahimo,"V;FUT"
+himo,magahimo,"V;PROG;FUT"
+himo,magahimo na,"V;PRF;FUT"
+himo,magahimo pa,"V;PRF+PROG;FUT"
+inom,inom,"V;NFIN"
+inom,nag-inom,"V;PST"
+inom,nag-inom,"V;PROG;PST"
+inom,nag-inom na,"V;PRF;PST"
+inom,nag-inom pa,"V;PRF+PROG;PST"
+inom,nagainom,"V;PRS"
+inom,nagainom,"V;PROG;PRS"
+inom,nagainom na,"V;PRF;PRS"
+inom,nagainom pa,"V;PRF+PROG;PRS"
+inom,magainom,"V;FUT"
+inom,magainom,"V;PROG;FUT"
+inom,magainom na,"V;PRF;FUT"
+inom,magainom pa,"V;PRF+PROG;FUT"
+maneho,maneho,"V;NFIN"
+maneho,nagmaneho,"V;PST"
+maneho,nagmaneho,"V;PROG;PST"
+maneho,nagmaneho na,"V;PRF;PST"
+maneho,nagmaneho pa,"V;PRF+PROG;PST"
+maneho,nagamaneho,"V;PRS"
+maneho,nagamaneho,"V;PROG;PRS"
+maneho,nagamaneho na,"V;PRF;PRS"
+maneho,nagamaneho pa,"V;PRF+PROG;PRS"
+maneho,magamaneho,"V;FUT"
+maneho,magamaneho,"V;PROG;FUT"
+maneho,magamaneho na,"V;PRF;FUT"
+maneho,magamaneho pa,"V;PRF+PROG;FUT"
+kaon,kaon,"V;NFIN"
+kaon,nagkaon,"V;PST"
+kaon,nagkaon,"V;PROG;PST"
+kaon,nagkaon na,"V;PRF;PST"
+kaon,nagkaon pa,"V;PRF+PROG;PST"
+kaon,nagakaon,"V;PRS"
+kaon,nagakaon,"V;PROG;PRS"
+kaon,nagakaon na,"V;PRF;PRS"
+kaon,nagakaon pa,"V;PRF+PROG;PRS"
+kaon,magakaon,"V;FUT"
+kaon,magakaon,"V;PROG;FUT"
+kaon,magakaon na,"V;PRF;FUT"
+kaon,magakaon pa,"V;PRF+PROG;FUT"
+sulod,sulod,"V;NFIN"
+sulod,nagsulod,"V;PST"
+sulod,nagsulod,"V;PROG;PST"
+sulod,nagsulod na,"V;PRF;PST"
+sulod,nagsulod pa,"V;PRF+PROG;PST"
+sulod,nagasulod,"V;PRS"
+sulod,nagasulod,"V;PROG;PRS"
+sulod,nagasulod na,"V;PRF;PRS"
+sulod,nagasulod pa,"V;PRF+PROG;PRS"
+sulod,magasulod,"V;FUT"
+sulod,magasulod,"V;PROG;FUT"
+sulod,magasulod na,"V;PRF;FUT"
+sulod,magasulod pa,"V;PRF+PROG;FUT"
+gua,gua,"V;NFIN"
+gua,naggua,"V;PST"
+gua,naggua,"V;PROG;PST"
+gua,naggua na,"V;PRF;PST"
+gua,naggua pa,"V;PRF+PROG;PST"
+gua,nagagua,"V;PRS"
+gua,nagagua,"V;PROG;PRS"
+gua,nagagua na,"V;PRF;PRS"
+gua,nagagua pa,"V;PRF+PROG;PRS"
+gua,magagua,"V;FUT"
+gua,magagua,"V;PROG;FUT"
+gua,magagua na,"V;PRF;FUT"
+gua,magagua pa,"V;PRF+PROG;FUT"
+paathag,paathag,"V;NFIN"
+paathag,nagpaathag,"V;PST"
+paathag,nagpaathag,"V;PROG;PST"
+paathag,nagpaathag na,"V;PRF;PST"
+paathag,nagpaathag pa,"V;PRF+PROG;PST"
+paathag,nagapaathag,"V;PRS"
+paathag,nagapaathag,"V;PROG;PRS"
+paathag,nagapaathag na,"V;PRF;PRS"
+paathag,nagapaathag pa,"V;PRF+PROG;PRS"
+paathag,magapaathag,"V;FUT"
+paathag,magapaathag,"V;PROG;FUT"
+paathag,magapaathag na,"V;PRF;FUT"
+paathag,magapaathag pa,"V;PRF+PROG;FUT"
+hulog/kahulog,hulog,"V;NFIN"
+hulog/kahulog,nahulog,"V;PST"
+hulog/kahulog,nagakahulog,"V;PROG;PST"
+hulog/kahulog,nahulog na,"V;PRF;PST"
+hulog/kahulog,nakagahulog pa,"V;PRF+PROG;PST"
+hulog/kahulog,nagakahulog,"V;PRS"
+hulog/kahulog,nagakahulog,"V;PROG;PRS"
+hulog/kahulog,nagakahulog na,"V;PRF;PRS"
+hulog/kahulog,nagakahulog pa,"V;PRF+PROG;PRS"
+hulog/kahulog,mahulog,"V;FUT"
+hulog/kahulog,mahulog,"V;PROG;FUT"
+hulog/kahulog,mahulog na,"V;PRF;FUT"
+hulog/kahulog,mahulog pa,"V;PRF+PROG;FUT"
+batyag,batyag,"V;NFIN"
+batyag,nagbatyag,"V;PST"
+batyag,nagbatyag,"V;PROG;PST"
+batyag,nagbatyag na,"V;PRF;PST"
+batyag,nagbatyag pa,"V;PRF+PROG;PST"
+batyag,nagabatyag,"V;PRS"
+batyag,nagabatyag,"V;PROG;PRS"
+batyag,nagabatyag na,"V;PRF;PRS"
+batyag,nagabatyag pa,"V;PRF+PROG;PRS"
+batyag,magabatyag,"V;FUT"
+batyag,magabatyag,"V;PROG;FUT"
+batyag,magabatyag na,"V;PRF;FUT"
+batyag,magabatyag pa,"V;PRF+PROG;FUT"
+away,away,"V;NFIN"
+away,nag-away,"V;PST"
+away,nag-away,"V;PROG;PST"
+away,nag-away na,"V;PRF;PST"
+away,nag-away pa,"V;PRF+PROG;PST"
+away,nagaaway,"V;PRS"
+away,nagaaway,"V;PROG;PRS"
+away,nagaaway na,"V;PRF;PRS"
+away,nagaaway pa,"V;PRF+PROG;PRS"
+away,magaaway,"V;FUT"
+away,magaaway,"V;PROG;FUT"
+away,magaaway na,"V;PRF;FUT"
+away,magaaway pa,"V;PRF+PROG;FUT"
+kita/pangita,kita,"V;NFIN"
+kita/pangita,nakita,"V;PST"
+kita/pangita,ginpangita,"V;PROG;PST"
+kita/pangita,nakita na,"V;PRF;PST"
+kita/pangita,ginpangita pa,"V;PRF+PROG;PST"
+kita/pangita,nakita,"V;PRS"
+kita/pangita,ginapangita,"V;PROG;PRS"
+kita/pangita,nakita na,"V;PRF;PRS"
+kita/pangita,ginapangita pa,"V;PRF+PROG;PRS"
+kita/pangita,makita,"V;FUT"
+kita/pangita,magapangita,"V;PROG;FUT"
+kita/pangita,magapangita na,"V;PRF;FUT"
+kita/pangita,magapangita pa,"V;PRF+PROG;FUT"
+tapos,tapos,"V;NFIN"
+tapos,gintapos,"V;PST"
+tapos,gintapos,"V;PROG;PST"
+tapos,gintapos na,"V;PRF;PST"
+tapos,gintapos pa,"V;PRF+PROG;PST"
+tapos,ginatapos,"V;PRS"
+tapos,ginatapos,"V;PROG;PRS"
+tapos,ginatapos na,"V;PRF;PRS"
+tapos,ginatapos pa,"V;PRF+PROG;PRS"
+tapos,magataps,"V;FUT"
+tapos,magataps,"V;PROG;FUT"
+tapos,magataps na,"V;PRF;FUT"
+tapos,magataps pa,"V;PRF+PROG;FUT"
+lupad,lupad,"V;NFIN"
+lupad,naglupad,"V;PST"
+lupad,naglupad,"V;PROG;PST"
+lupad,naglupad na,"V;PRF;PST"
+lupad,naglupad pa,"V;PRF+PROG;PST"
+lupad,nagalupad,"V;PRS"
+lupad,nagalupad,"V;PROG;PRS"
+lupad,nagalupad na,"V;PRF;PRS"
+lupad,nagalupad pa,"V;PRF+PROG;PRS"
+lupad,magalupad,"V;FUT"
+lupad,magalupad,"V;PROG;FUT"
+lupad,magalupad na,"V;PRF;FUT"
+lupad,magalupad pa,"V;PRF+PROG;FUT"
+kallimtan,kallimtan,"V;NFIN"
+kallimtan,ginkallimtan,"V;PST"
+kallimtan,ginkallimtan,"V;PROG;PST"
+kallimtan,ginkallimtan na,"V;PRF;PST"
+kallimtan,ginkallimtan pa,"V;PRF+PROG;PST"
+kallimtan,ginakallimtan,"V;PRS"
+kallimtan,ginakallimtan,"V;PROG;PRS"
+kallimtan,ginakallimtan na,"V;PRF;PRS"
+kallimtan,ginakallimtan pa,"V;PRF+PROG;PRS"
+kallimtan,pagakallimtan,"V;FUT"
+kallimtan,pagakallimtan,"V;PROG;FUT"
+kallimtan,pagakallimtan na,"V;PRF;FUT"
+kallimtan,pagakallimtan pa,"V;PRF+PROG;FUT"
+nagon,nagon,"V;NFIN"
+nagon,nagnagon,"V;PST"
+nagon,nagnagon,"V;PROG;PST"
+nagon,nagnagon na,"V;PRF;PST"
+nagon,nagnagon pa,"V;PRF+PROG;PST"
+nagon,naganagon,"V;PRS"
+nagon,naganagon,"V;PROG;PRS"
+nagon,naganagon na,"V;PRF;PRS"
+nagon,naganagon pa,"V;PRF+PROG;PRS"
+nagon,maganagon,"V;FUT"
+nagon,maganagon,"V;PROG;FUT"
+nagon,maganagon na,"V;PRF;FUT"
+nagon,maganagon pa,"V;PRF+PROG;FUT"
+hatag,hatag,"V;NFIN"
+hatag,naghatag,"V;PST"
+hatag,naghatag,"V;PROG;PST"
+hatag,naghatag na,"V;PRF;PST"
+hatag,naghatag pa,"V;PRF+PROG;PST"
+hatag,nagahatag,"V;PRS"
+hatag,nagahatag,"V;PROG;PRS"
+hatag,nagahatag na,"V;PRF;PRS"
+hatag,nagahatag pa,"V;PRF+PROG;PRS"
+hatag,magahatag,"V;FUT"
+hatag,magahatag,"V;PROG;FUT"
+hatag,magahatag na,"V;PRF;FUT"
+hatag,magahatag pa,"V;PRF+PROG;FUT"
+kado,kado,"V;NFIN"
+kado,nagkado,"V;PST"
+kado,nagkado,"V;PROG;PST"
+kado,nagkado na,"V;PRF;PST"
+kado,nagkado pa,"V;PRF+PROG;PST"
+kado,nagakado,"V;PRS"
+kado,nagakado,"V;PROG;PRS"
+kado,nagakado na,"V;PRF;PRS"
+kado,nagakado pa,"V;PRF+PROG;PRS"
+kado,magakado,"V;FUT"
+kado,magakado,"V;PROG;FUT"
+kado,magakado na,"V;PRF;FUT"
+kado,magakado pa,"V;PRF+PROG;FUT"
+tabo/katabo,tabo,"V;NFIN"
+tabo/katabo,natabo,"V;PST"
+tabo/katabo,natabo,"V;PROG;PST"
+tabo/katabo,natabo na,"V;PRF;PST"
+tabo/katabo,natabo pa,"V;PRF+PROG;PST"
+tabo/katabo,nagakatabo,"V;PRS"
+tabo/katabo,nagakatabo,"V;PROG;PRS"
+tabo/katabo,nagakatabo na,"V;PRF;PRS"
+tabo/katabo,nagakatabo pa,"V;PRF+PROG;PRS"
+tabo/katabo,matabo,"V;FUT"
+tabo/katabo,matabo,"V;PROG;FUT"
+tabo/katabo,matabo na,"V;PRF;FUT"
+tabo/katabo,matabo pa,"V;PRF+PROG;FUT"
+na/naga,na,"V;NFIN"
+na/naga,na,"V;PST"
+na/naga,naga,"V;PRS"
+bati/batian/pamatian,bati,"V;NFIN"
+bati/batian/pamatian,nabatian,"V;PST"
+bati/batian/pamatian,ginpamantian,"V;PROG;PST"
+bati/batian/pamatian,nabatian na,"V;PRF;PST"
+bati/batian/pamatian,ginpamatian pa,"V;PRF+PROG;PST"
+bati/batian/pamatian,nabatian,"V;PRS"
+bati/batian/pamatian,ginpamantian,"V;PROG;PRS"
+bati/batian/pamatian,nabatian na,"V;PRF;PRS"
+bati/batian/pamatian,ginpamatian pa,"V;PRF+PROG;PRS"
+bati/batian/pamatian,pagapamatian,"V;FUT"
+bati/batian/pamatian,pagapamatian,"V;PROG;FUT"
+bati/batian/pamatian,pagapamatian na,"V;PRF;FUT"
+bati/batian/pamatian,pagapamatian pa,"V;PRF+PROG;FUT"
+bulig/buligan,bulig,"V;NFIN"
+bulig/buligan,ginbuligan,"V;PST"
+bulig/buligan,ginbuligan,"V;PROG;PST"
+bulig/buligan,ginbuligan na,"V;PRF;PST"
+bulig/buligan,ginbuligan pa,"V;PRF+PROG;PST"
+bulig/buligan,ginabuligan,"V;PRS"
+bulig/buligan,ginabuligan,"V;PROG;PRS"
+bulig/buligan,ginabuligan na,"V;PRF;PRS"
+bulig/buligan,ginabuligan pa,"V;PRF+PROG;PRS"
+bulig/buligan,magabulig,"V;FUT"
+bulig/buligan,magabulig,"V;PROG;FUT"
+bulig/buligan,magabulig na,"V;PRF;FUT"
+bulig/buligan,magabulig pa,"V;PRF+PROG;FUT"
+uyat/uyatan,uyat,"V;NFIN"
+uyat/uyatan,gin-uyatan,"V;PST"
+uyat/uyatan,gin-uyatan,"V;PROG;PST"
+uyat/uyatan,gin-uyatan na,"V;PRF;PST"
+uyat/uyatan,gin-uyatan pa,"V;PRF+PROG;PST"
+uyat/uyatan,ginauyatan,"V;PRS"
+uyat/uyatan,ginauyatan,"V;PROG;PRS"
+uyat/uyatan,ginauyatan na,"V;PRF;PRS"
+uyat/uyatan,ginauyatan pa,"V;PRF+PROG;PRS"
+uyat/uyatan,magauyat,"V;FUT"
+uyat/uyatan,magauyat,"V;PROG;FUT"
+uyat/uyatan,magauyat na,"V;PRF;FUT"
+uyat/uyatan,magauyat pa,"V;PRF+PROG;FUT"
+dugang,dugang,"V;NFIN"
+dugang,nagdugang,"V;PST"
+dugang,nagdugang,"V;PROG;PST"
+dugang,nagdugang na,"V;PRF;PST"
+dugang,nagdugang pa,"V;PRF+PROG;PST"
+dugang,nagadugang,"V;PRS"
+dugang,nagadugang,"V;PROG;PRS"
+dugang,nagadugang na,"V;PRF;PRS"
+dugang,nagadugang pa,"V;PRF+PROG;PRS"
+dugang,magadugang,"V;FUT"
+dugang,magadugang,"V;PROG;FUT"
+dugang,magadugang na,"V;PRF;FUT"
+dugang,magadugang pa,"V;PRF+PROG;FUT"
+pakilala,pakilala,"V;NFIN"
+pakilala,nagpakilala,"V;PST"
+pakilala,nagpakilala,"V;PROG;PST"
+pakilala,nagpakilala na,"V;PRF;PST"
+pakilala,nagpakilala pa,"V;PRF+PROG;PST"
+pakilala,nagapakilala,"V;PRS"
+pakilala,nagapakilala,"V;PROG;PRS"
+pakilala,nagapakilala na,"V;PRF;PRS"
+pakilala,nagapakilala pa,"V;PRF+PROG;PRS"
+pakilala,magapakilala,"V;FUT"
+pakilala,magapakilala,"V;PROG;FUT"
+pakilala,magapakilala na,"V;PRF;FUT"
+pakilala,magapakilala pa,"V;PRF+PROG;FUT"
+agda,agda,"V;NFIN"
+agda,gin-agda,"V;PST"
+agda,gin-agda,"V;PROG;PST"
+agda,gin-agda na,"V;PRF;PST"
+agda,gin-agda pa,"V;PRF+PROG;PST"
+agda,ginaagda,"V;PRS"
+agda,ginaagda,"V;PROG;PRS"
+agda,ginaagda na,"V;PRF;PRS"
+agda,ginaagda pa,"V;PRF+PROG;PRS"
+agda,magaagda,"V;FUT"
+agda,magaagda,"V;PROG;FUT"
+agda,magaagda na,"V;PRF;FUT"
+agda,magaagda pa,"V;PRF+PROG;FUT"
+patay,patay,"V;NFIN"
+patay,ginpatay,"V;PST"
+patay,ginpatay,"V;PROG;PST"
+patay,ginpatay na,"V;PRF;PST"
+patay,ginpatay pa,"V;PRF+PROG;PST"
+patay,ginapatay,"V;PRS"
+patay,ginapatay,"V;PROG;PRS"
+patay,ginapatay na,"V;PRF;PRS"
+patay,ginapatay pa,"V;PRF+PROG;PRS"
+patay,magapatay,"V;FUT"
+patay,magapatay,"V;PROG;FUT"
+patay,magapatay na,"V;PRF;FUT"
+patay,magapatay pa,"V;PRF+PROG;FUT"
+halok/halukan,halok,"V;NFIN"
+halok/halukan,ginhalukan,"V;PST"
+halok/halukan,ginhalukan,"V;PROG;PST"
+halok/halukan,ginhalukan na,"V;PRF;PST"
+halok/halukan,ginhalukan pa,"V;PRF+PROG;PST"
+halok/halukan,ginahalukan,"V;PRS"
+halok/halukan,ginahalukan,"V;PROG;PRS"
+halok/halukan,ginahalukan na,"V;PRF;PRS"
+halok/halukan,ginahalukan pa,"V;PRF+PROG;PRS"
+halok/halukan,magahalok,"V;FUT"
+halok/halukan,magahalok,"V;PROG;FUT"
+halok/halukan,magahalok na,"V;PRF;FUT"
+halok/halukan,magahalok pa,"V;PRF+PROG;FUT"
+hibalo/hibaluan,hibalo,"V;NFIN"
+hibalo/hibaluan,nahibaluan,"V;PST"
+hibalo/hibaluan,ginhibalo,"V;PROG;PST"
+hibalo/hibaluan,nahibaluan na,"V;PRF;PST"
+hibalo/hibaluan,ginhibalo pa,"V;PRF+PROG;PST"
+hibalo/hibaluan,nakahibalo,"V;PRS"
+hibalo/hibaluan,ginahibalo,"V;PROG;PRS"
+hibalo/hibaluan,nahibaluan na,"V;PRF;PRS"
+hibalo/hibaluan,ginahibalo pa,"V;PRF+PROG;PRS"
+hibalo/hibaluan,mahibaluan,"V;FUT"
+hibalo/hibaluan,mahibaluan,"V;PROG;FUT"
+hibalo/hibaluan,magahibalo na,"V;PRF;FUT"
+hibalo/hibaluan,mahibaluan pa,"V;PRF+PROG;FUT"
+kadlaw,kadlaw,"V;NFIN"
+kadlaw,nagkadlaw,"V;PST"
+kadlaw,nagkadlaw,"V;PROG;PST"
+kadlaw,nagkadlaw na,"V;PRF;PST"
+kadlaw,nagkadlaw pa,"V;PRF+PROG;PST"
+kadlaw,nagakadlaw,"V;PRS"
+kadlaw,nagakadlaw,"V;PROG;PRS"
+kadlaw,nagakadlaw na,"V;PRF;PRS"
+kadlaw,nagakadlaw pa,"V;PRF+PROG;PRS"
+kadlaw,magakadlaw,"V;FUT"
+kadlaw,magakadlaw,"V;PROG;FUT"
+kadlaw,magakadlaw na,"V;PRF;FUT"
+kadlaw,magakadlaw pa,"V;PRF+PROG;FUT"
+tuon,tuon,"V;NFIN"
+tuon,nagtuon,"V;PST"
+tuon,nagtuon,"V;PROG;PST"
+tuon,nagtuon na,"V;PRF;PST"
+tuon,nagtuon pa,"V;PRF+PROG;PST"
+tuon,nagatuon,"V;PRS"
+tuon,nagatuon,"V;PROG;PRS"
+tuon,nagatuon na,"V;PRF;PRS"
+tuon,nagatuon pa,"V;PRF+PROG;PRS"
+tuon,magatuon,"V;FUT"
+tuon,magatuon,"V;PROG;FUT"
+tuon,magatuon na,"V;PRF;FUT"
+tuon,magatuon pa,"V;PRF+PROG;FUT"
+higda,higda,"V;NFIN"
+higda,naghigda,"V;PST"
+higda,naghigda,"V;PROG;PST"
+higda,naghigda na,"V;PRF;PST"
+higda,naghigda pa,"V;PRF+PROG;PST"
+higda,nagahigda,"V;PRS"
+higda,nagahigda,"V;PROG;PRS"
+higda,nagahigda na,"V;PRF;PRS"
+higda,nagahigda pa,"V;PRF+PROG;PRS"
+higda,magahigda,"V;FUT"
+higda,magahigda,"V;PROG;FUT"
+higda,magahigda na,"V;PRF;FUT"
+higda,magahigda pa,"V;PRF+PROG;FUT"
+gustuhan,gustuhan,"V;NFIN"
+gustuhan,nagustuhan,"V;PST"
+gustuhan,nagustuhan,"V;PROG;PST"
+gustuhan,nagustuhan na,"V;PRF;PST"
+gustuhan,nagustuhan pa,"V;PRF+PROG;PST"
+gustuhan,nagustuhan,"V;PRS"
+gustuhan,nagustuhan,"V;PROG;PRS"
+gustuhan,nagustuhan na,"V;PRF;PRS"
+gustuhan,nagustuhan pa,"V;PRF+PROG;PRS"
+gustuhan,magustuhan,"V;FUT"
+gustuhan,magustuhan,"V;PROG;FUT"
+gustuhan,magustuhan na,"V;PRF;FUT"
+gustuhan,magustuhan pa,"V;PRF+PROG;FUT"
+pamati,pamati,"V;NFIN"
+pamati,nagpamati,"V;PST"
+pamati,nagpamati,"V;PROG;PST"
+pamati,nagpamati na,"V;PRF;PST"
+pamati,nagpamati pa,"V;PRF+PROG;PST"
+pamati,nagapamati,"V;PRS"
+pamati,nagapamati,"V;PROG;PRS"
+pamati,nagapamati na,"V;PRF;PRS"
+pamati,nagapamati pa,"V;PRF+PROG;PRS"
+pamati,magapamati,"V;FUT"
+pamati,magapamati,"V;PROG;FUT"
+pamati,magapamati na,"V;PRF;FUT"
+pamati,magapamati pa,"V;PRF+PROG;FUT"
+kabuhi,kabuhi,"V;NFIN"
+kabuhi,nagkabuhi,"V;PST"
+kabuhi,nagkabuhi,"V;PROG;PST"
+kabuhi,nagkabuhi na,"V;PRF;PST"
+kabuhi,nagkabuhi pa,"V;PRF+PROG;PST"
+kabuhi,nagakabuhi,"V;PRS"
+kabuhi,nagakabuhi,"V;PROG;PRS"
+kabuhi,nagakabuhi na,"V;PRF;PRS"
+kabuhi,nagakabuhi pa,"V;PRF+PROG;PRS"
+kabuhi,magakabuhi,"V;FUT"
+kabuhi,magakabuhi,"V;PROG;FUT"
+kabuhi,magakabuhi na,"V;PRF;FUT"
+kabuhi,magakabuhi pa,"V;PRF+PROG;FUT"
+dula,dula,"V;NFIN"
+dula,nadula,"V;PST"
+dula,gindula,"V;PROG;PST"
+dula,nadula na,"V;PRF;PST"
+dula,gindula pa,"V;PRF+PROG;PST"
+dula,nadula,"V;PRS"
+dula,ginadula,"V;PROG;PRS"
+dula,nadula na,"V;PRF;PRS"
+dula,ginadula pa,"V;PRF+PROG;PRS"
+dula,madula,"V;FUT"
+dula,madula,"V;PROG;FUT"
+dula,madula na,"V;PRF;FUT"
+dula,madula pa,"V;PRF+PROG;FUT"
+higugma/higugmaon,higugma,"V;NFIN"
+higugma/higugmaon,ginhigugma,"V;PST"
+higugma/higugmaon,ginhigugma,"V;PROG;PST"
+higugma/higugmaon,ginhigugma na,"V;PRF;PST"
+higugma/higugmaon,ginhigugma pa,"V;PRF+PROG;PST"
+higugma/higugmaon,ginahigugma,"V;PRS"
+higugma/higugmaon,ginahigugma,"V;PROG;PRS"
+higugma/higugmaon,ginahigugma na,"V;PRF;PRS"
+higugma/higugmaon,ginahigugma pa,"V;PRF+PROG;PRS"
+higugma/higugmaon,pagahigugmaon,"V;FUT"
+higugma/higugmaon,pagahigugmaon,"V;PROG;FUT"
+higugma/higugmaon,pagahigugmaon na,"V;PRF;FUT"
+higugma/higugmaon,pagahigugmaon pa,"V;PRF+PROG;FUT"
+sugata,sugata,"V;NFIN"
+sugata,nagsugata,"V;PST"
+sugata,nagsugata,"V;PROG;PST"
+sugata,nagsugata na,"V;PRF;PST"
+sugata,nagsugata pa,"V;PRF+PROG;PST"
+sugata,nagasugata,"V;PRS"
+sugata,nagasugata,"V;PROG;PRS"
+sugata,nagasugata na,"V;PRF;PRS"
+sugata,nagasugata pa,"V;PRF+PROG;PRS"
+sugata,magasugata,"V;FUT"
+sugata,magasugata,"V;PROG;FUT"
+sugata,magasugata na,"V;PRF;FUT"
+sugata,magasugata pa,"V;PRF+PROG;FUT"
+kinahanglan,kinahanglan,"V;NFIN"
+kinahanglan,nagkinahanglan,"V;PST"
+kinahanglan,nagkinahanglan,"V;PROG;PST"
+kinahanglan,nagkinahanglan na,"V;PRF;PST"
+kinahanglan,nagkinahanglan pa,"V;PRF+PROG;PST"
+kinahanglan,nagakinahanglan,"V;PRS"
+kinahanglan,nagakinahanglan,"V;PROG;PRS"
+kinahanglan,nagakinahanglan na,"V;PRF;PRS"
+kinahanglan,nagakinahanglan pa,"V;PRF+PROG;PRS"
+kinahanglan,magakinahanglan,"V;FUT"
+kinahanglan,magakinahanglan,"V;PROG;FUT"
+kinahanglan,magakinahanglan na,"V;PRF;FUT"
+kinahanglan,magakinahanglan pa,"V;PRF+PROG;FUT"
+talupangdan/talupangod/talupangdon,talupangdan,"V;NFIN"
+talupangdan/talupangod/talupangdon,natalupangdan,"V;PST"
+talupangdan/talupangod/talupangdon,gintalupangod,"V;PROG;PST"
+talupangdan/talupangod/talupangdon,natalupangdan na,"V;PRF;PST"
+talupangdan/talupangod/talupangdon,gintalupangod pa,"V;PRF+PROG;PST"
+talupangdan/talupangod/talupangdon,natalupangdan,"V;PRS"
+talupangdan/talupangod/talupangdon,ginatalupangod,"V;PROG;PRS"
+talupangdan/talupangod/talupangdon,natalupangdan na,"V;PRF;PRS"
+talupangdan/talupangod/talupangdon,ginatalupangod pa,"V;PRF+PROG;PRS"
+talupangdan/talupangod/talupangdon,matalupangdon,"V;FUT"
+talupangdan/talupangod/talupangdon,pagatalupangdon,"V;PROG;FUT"
+talupangdan/talupangod/talupangdon,matalupangdan na,"V;PRF;FUT"
+talupangdan/talupangod/talupangdon,pagatalupangdon pa,"V;PRF+PROG;FUT"
+buksan,buksan,"V;NFIN"
+buksan,ginbuksan,"V;PST"
+buksan,ginbuksan,"V;PROG;PST"
+buksan,ginbuksan na,"V;PRF;PST"
+buksan,ginbuksan pa,"V;PRF+PROG;PST"
+buksan,ginabuksan,"V;PRS"
+buksan,ginabuksan,"V;PROG;PRS"
+buksan,ginabuksan na,"V;PRF;PRS"
+buksan,ginabuksan pa,"V;PRF+PROG;PRS"
+buksan,pagabuksan,"V;FUT"
+buksan,pagabuksan,"V;PROG;FUT"
+buksan,pagabuksan na,"V;PRF;FUT"
+buksan,pagabuksan pa,"V;PRF+PROG;FUT"
+hampang,hampang,"V;NFIN"
+hampang,naghampang,"V;PST"
+hampang,naghampang,"V;PROG;PST"
+hampang,naghampang na,"V;PRF;PST"
+hampang,naghampang pa,"V;PRF+PROG;PST"
+hampang,nagahampang,"V;PRS"
+hampang,nagahampang,"V;PROG;PRS"
+hampang,nagahampang na,"V;PRF;PRS"
+hampang,nagahampang pa,"V;PRF+PROG;PRS"
+hampang,magahampang,"V;FUT"
+hampang,magahampang,"V;PROG;FUT"
+hampang,magahampang na,"V;PRF;FUT"
+hampang,magahampang pa,"V;PRF+PROG;FUT"
+butang,butang,"V;NFIN"
+butang,nagbutang,"V;PST"
+butang,nagbutang,"V;PROG;PST"
+butang,nagbutang na,"V;PRF;PST"
+butang,nagbutang pa,"V;PRF+PROG;PST"
+butang,nagabutang,"V;PRS"
+butang,nagabutang,"V;PROG;PRS"
+butang,nagabutang na,"V;PRF;PRS"
+butang,nagabutang pa,"V;PRF+PROG;PRS"
+butang,magabutang,"V;FUT"
+butang,magabutang,"V;PROG;FUT"
+butang,magabutang na,"V;PRF;FUT"
+butang,magabutang pa,"V;PRF+PROG;FUT"
+basa,basa,"V;NFIN"
+basa,nagbasa,"V;PST"
+basa,nagbasa,"V;PROG;PST"
+basa,nagbasa na,"V;PRF;PST"
+basa,nagbasa pa,"V;PRF+PROG;PST"
+basa,nagabasa,"V;PRS"
+basa,nagabasa,"V;PROG;PRS"
+basa,nagabasa na,"V;PRF;PRS"
+basa,nagabasa pa,"V;PRF+PROG;PRS"
+basa,magabasa,"V;FUT"
+basa,magabasa,"V;PROG;FUT"
+basa,magabasa na,"V;PRF;FUT"
+basa,magabasa pa,"V;PRF+PROG;FUT"
+baton,baton,"V;NFIN"
+baton,ginbaton,"V;PST"
+baton,ginbaton,"V;PROG;PST"
+baton,ginbaton na,"V;PRF;PST"
+baton,ginbaton pa,"V;PRF+PROG;PST"
+baton,ginabaton,"V;PRS"
+baton,ginabaton,"V;PROG;PRS"
+baton,ginabaton na,"V;PRF;PRS"
+baton,ginabaton pa,"V;PRF+PROG;PRS"
+baton,magabaton,"V;FUT"
+baton,magabaton,"V;PROG;FUT"
+baton,magabaton na,"V;PRF;FUT"
+baton,magabaton pa,"V;PRF+PROG;FUT"
+dumdom,dumdom,"V;NFIN"
+dumdom,gindumdom,"V;PST"
+dumdom,gindumdom,"V;PROG;PST"
+dumdom,gindumdom na,"V;PRF;PST"
+dumdom,gindumdom pa,"V;PRF+PROG;PST"
+dumdom,ginadumdom,"V;PRS"
+dumdom,ginadumdom,"V;PROG;PRS"
+dumdom,ginadumdom na,"V;PRF;PRS"
+dumdom,ginadumdom pa,"V;PRF+PROG;PRS"
+dumdom,magadumdom,"V;FUT"
+dumdom,magadumdom,"V;PROG;FUT"
+dumdom,magadumdom na,"V;PRF;FUT"
+dumdom,magadumdom pa,"V;PRF+PROG;FUT"
+sulit,sulit,"V;NFIN"
+sulit,ginsulit,"V;PST"
+sulit,ginsulit,"V;PROG;PST"
+sulit,ginsulit na,"V;PRF;PST"
+sulit,ginsulit pa,"V;PRF+PROG;PST"
+sulit,ginasulit,"V;PRS"
+sulit,ginasulit,"V;PROG;PRS"
+sulit,ginasulit na,"V;PRF;PRS"
+sulit,ginasulit pa,"V;PRF+PROG;PRS"
+sulit,magasulit,"V;FUT"
+sulit,magasulit,"V;PROG;FUT"
+sulit,magasulit na,"V;PRF;FUT"
+sulit,magasulit pa,"V;PRF+PROG;FUT"
+balik,balik,"V;NFIN"
+balik,nagbalik,"V;PST"
+balik,nagbalik,"V;PROG;PST"
+balik,nagbalik na,"V;PRF;PST"
+balik,nagbalik pa,"V;PRF+PROG;PST"
+balik,nagabalik,"V;PRS"
+balik,nagabalik,"V;PROG;PRS"
+balik,nagabalik na,"V;PRF;PRS"
+balik,nagabalik pa,"V;PRF+PROG;PRS"
+balik,magabalik,"V;FUT"
+balik,magabalik,"V;PROG;FUT"
+balik,magabalik na,"V;PRF;FUT"
+balik,magabalik pa,"V;PRF+PROG;FUT"
+dalagan,dalagan,"V;NFIN"
+dalagan,nagdalagan,"V;PST"
+dalagan,nagdalagan,"V;PROG;PST"
+dalagan,nagdalagan na,"V;PRF;PST"
+dalagan,nagdalagan pa,"V;PRF+PROG;PST"
+dalagan,nagadalagan,"V;PRS"
+dalagan,nagadalagan,"V;PROG;PRS"
+dalagan,nagadalagan na,"V;PRF;PRS"
+dalagan,nagadalagan pa,"V;PRF+PROG;PRS"
+dalagan,magadalagan,"V;FUT"
+dalagan,magadalagan,"V;PROG;FUT"
+dalagan,magadalagan na,"V;PRF;FUT"
+dalagan,magadalagan pa,"V;PRF+PROG;FUT"
+siling,siling,"V;NFIN"
+siling,nagsiling,"V;PST"
+siling,nagsiling,"V;PROG;PST"
+siling,nagsiling na,"V;PRF;PST"
+siling,nagsiling pa,"V;PRF+PROG;PST"
+siling,nagasiling,"V;PRS"
+siling,nagasiling,"V;PROG;PRS"
+siling,nagasiling na,"V;PRF;PRS"
+siling,nagasiling pa,"V;PRF+PROG;PRS"
+siling,magasiling,"V;FUT"
+siling,magasiling,"V;PROG;FUT"
+siling,magasiling na,"V;PRF;FUT"
+siling,magasiling pa,"V;PRF+PROG;FUT"
+singgit,singgit,"V;NFIN"
+singgit,nagsinggit,"V;PST"
+singgit,nagsinggit,"V;PROG;PST"
+singgit,nagsinggit na,"V;PRF;PST"
+singgit,nagsinggit pa,"V;PRF+PROG;PST"
+singgit,nagasinggit,"V;PRS"
+singgit,nagasinggit,"V;PROG;PRS"
+singgit,nagasinggit na,"V;PRF;PRS"
+singgit,nagasinggit pa,"V;PRF+PROG;PRS"
+singgit,magasinggit,"V;FUT"
+singgit,magasinggit,"V;PROG;FUT"
+singgit,magasinggit na,"V;PRF;FUT"
+singgit,magasinggit pa,"V;PRF+PROG;FUT"
+kita,kita,"V;NFIN"
+kita,nakita,"V;PST"
+kita,nakita,"V;PROG;PST"
+kita,nakita na,"V;PRF;PST"
+kita,nakita pa,"V;PRF+PROG;PST"
+kita,nakita,"V;PRS"
+kita,nakita,"V;PROG;PRS"
+kita,nakita na,"V;PRF;PRS"
+kita,nakita pa,"V;PRF+PROG;PRS"
+kita,makita,"V;FUT"
+kita,makita,"V;PROG;FUT"
+kita,makita na,"V;PRF;FUT"
+kita,makita pa,"V;PRF+PROG;FUT"
+daw,daw,"V;NFIN"
+daw,daw,"V;PST"
+daw,daw,"V;PRF;PST"
+daw,daw,"V;PRS"
+daw,daw,"V;PRF;PRS"
+baligya,baligya,"V;NFIN"
+baligya,nagbaligya,"V;PST"
+baligya,nagbaligya,"V;PROG;PST"
+baligya,nagbaligya na,"V;PRF;PST"
+baligya,nagbaligya pa,"V;PRF+PROG;PST"
+baligya,nagabaligya,"V;PRS"
+baligya,nagabaligya,"V;PROG;PRS"
+baligya,nagabaligya na,"V;PRF;PRS"
+baligya,nagabaligya pa,"V;PRF+PROG;PRS"
+baligya,magabaligya,"V;FUT"
+baligya,magabaligya,"V;PROG;FUT"
+baligya,magabaligya na,"V;PRF;FUT"
+baligya,magabaligya pa,"V;PRF+PROG;FUT"
+padala,padala,"V;NFIN"
+padala,nagpadala,"V;PST"
+padala,nagpadala,"V;PROG;PST"
+padala,nagpadala na,"V;PRF;PST"
+padala,nagpadala pa,"V;PRF+PROG;PST"
+padala,nagapadala,"V;PRS"
+padala,nagapadala,"V;PROG;PRS"
+padala,nagapadala na,"V;PRF;PRS"
+padala,nagapadala pa,"V;PRF+PROG;PRS"
+padala,magapadala,"V;FUT"
+padala,magapadala,"V;PROG;FUT"
+padala,magapadala na,"V;PRF;FUT"
+padala,magapadala pa,"V;PRF+PROG;FUT"
+pakita,pakita,"V;NFIN"
+pakita,nagpakita,"V;PST"
+pakita,nagpakita,"V;PROG;PST"
+pakita,nagpakita na,"V;PRF;PST"
+pakita,nagpakita pa,"V;PRF+PROG;PST"
+pakita,nagapakita,"V;PRS"
+pakita,nagapakita,"V;PROG;PRS"
+pakita,nagapakita na,"V;PRF;PRS"
+pakita,nagapakita pa,"V;PRF+PROG;PRS"
+pakita,magapakita,"V;FUT"
+pakita,magapakita,"V;PROG;FUT"
+pakita,magapakita na,"V;PRF;FUT"
+pakita,magapakita pa,"V;PRF+PROG;FUT"
+kanta,kanta,"V;NFIN"
+kanta,nagkanta,"V;PST"
+kanta,nagkanta,"V;PROG;PST"
+kanta,nagkanta na,"V;PRF;PST"
+kanta,nagkanta pa,"V;PRF+PROG;PST"
+kanta,nagakanta,"V;PRS"
+kanta,nagakanta,"V;PROG;PRS"
+kanta,nagakanta na,"V;PRF;PRS"
+kanta,nagakanta pa,"V;PRF+PROG;PRS"
+kanta,magakanta,"V;FUT"
+kanta,magakanta,"V;PROG;FUT"
+kanta,magakanta na,"V;PRF;FUT"
+kanta,magakanta pa,"V;PRF+PROG;FUT"
+pungko,pungko,"V;NFIN"
+pungko,nagpungko,"V;PST"
+pungko,nagpungko,"V;PROG;PST"
+pungko,nagpungko na,"V;PRF;PST"
+pungko,nagpungko pa,"V;PRF+PROG;PST"
+pungko,nagapungko,"V;PRS"
+pungko,nagapungko,"V;PROG;PRS"
+pungko,nagapungko na,"V;PRF;PRS"
+pungko,nagapungko pa,"V;PRF+PROG;PRS"
+pungko,magapungko,"V;FUT"
+pungko,magapungko,"V;PROG;FUT"
+pungko,magapungko na,"V;PRF;FUT"
+pungko,magapungko pa,"V;PRF+PROG;FUT"
+tulog,tulog,"V;NFIN"
+tulog,nagtulog,"V;PST"
+tulog,nagtulog,"V;PROG;PST"
+tulog,nagtulog na,"V;PRF;PST"
+tulog,nagtulog pa,"V;PRF+PROG;PST"
+tulog,nagatulog,"V;PRS"
+tulog,nagatulog,"V;PROG;PRS"
+tulog,nagatulog na,"V;PRF;PRS"
+tulog,nagatulog pa,"V;PRF+PROG;PRS"
+tulog,magatulog,"V;FUT"
+tulog,magatulog,"V;PROG;FUT"
+tulog,magatulog na,"V;PRF;FUT"
+tulog,magatulog pa,"V;PRF+PROG;FUT"
+yuhom,yuhom,"V;NFIN"
+yuhom,nagyuhom,"V;PST"
+yuhom,nagyuhom,"V;PROG;PST"
+yuhom,nagyuhom na,"V;PRF;PST"
+yuhom,nagyuhom pa,"V;PRF+PROG;PST"
+yuhom,nagayuhom,"V;PRS"
+yuhom,nagayuhom,"V;PROG;PRS"
+yuhom,nagayuhom na,"V;PRF;PRS"
+yuhom,nagayuhom pa,"V;PRF+PROG;PRS"
+yuhom,magayuhom,"V;FUT"
+yuhom,magayuhom,"V;PROG;FUT"
+yuhom,magayuhom na,"V;PRF;FUT"
+yuhom,magayuhom pa,"V;PRF+PROG;FUT"
+hambal,hambal,"V;NFIN"
+hambal,naghambal,"V;PST"
+hambal,naghambal,"V;PROG;PST"
+hambal,naghambal na,"V;PRF;PST"
+hambal,naghambal pa,"V;PRF+PROG;PST"
+hambal,nagahambal,"V;PRS"
+hambal,nagahambal,"V;PROG;PRS"
+hambal,nagahambal na,"V;PRF;PRS"
+hambal,nagahambal pa,"V;PRF+PROG;PRS"
+hambal,magahambal,"V;FUT"
+hambal,magahambal,"V;PROG;FUT"
+hambal,magahambal na,"V;PRF;FUT"
+hambal,magahambal pa,"V;PRF+PROG;FUT"
+tindog,tindog,"V;NFIN"
+tindog,nagtindog,"V;PST"
+tindog,nagtindog,"V;PROG;PST"
+tindog,nagtindog na,"V;PRF;PST"
+tindog,nagtindog pa,"V;PRF+PROG;PST"
+tindog,nagatindog,"V;PRS"
+tindog,nagatindog,"V;PROG;PRS"
+tindog,nagatindog na,"V;PRF;PRS"
+tindog,nagatindog pa,"V;PRF+PROG;PRS"
+tindog,magatindog,"V;FUT"
+tindog,magatindog,"V;PROG;FUT"
+tindog,magatindog na,"V;PRF;FUT"
+tindog,magatindog pa,"V;PRF+PROG;FUT"
+sugod,sugod,"V;NFIN"
+sugod,nagsugod,"V;PST"
+sugod,nagsugod,"V;PROG;PST"
+sugod,nagsugod na,"V;PRF;PST"
+sugod,nagsugod pa,"V;PRF+PROG;PST"
+sugod,nagasugod,"V;PRS"
+sugod,nagasugod,"V;PROG;PRS"
+sugod,nagasugod na,"V;PRF;PRS"
+sugod,nagasugod pa,"V;PRF+PROG;PRS"
+sugod,magasugod,"V;FUT"
+sugod,magasugod,"V;PROG;FUT"
+sugod,magasugod na,"V;PRF;FUT"
+sugod,magasugod pa,"V;PRF+PROG;FUT"
+istar,istar,"V;NFIN"
+istar,nagistar,"V;PST"
+istar,nagistar,"V;PROG;PST"
+istar,nagistar na,"V;PRF;PST"
+istar,nagistar pa,"V;PRF+PROG;PST"
+istar,nagaistar,"V;PRS"
+istar,nagaistar,"V;PROG;PRS"
+istar,nagaistar na,"V;PRF;PRS"
+istar,nagaistar pa,"V;PRF+PROG;PRS"
+istar,magaistar,"V;FUT"
+istar,magaistar,"V;PROG;FUT"
+istar,magaistar na,"V;PRF;FUT"
+istar,magaistar pa,"V;PRF+PROG;FUT"
+kuha,kuha,"V;NFIN"
+kuha,nagkuha,"V;PST"
+kuha,nagkuha,"V;PROG;PST"
+kuha,nagkuha na,"V;PRF;PST"
+kuha,nagkuha pa,"V;PRF+PROG;PST"
+kuha,nagakuha,"V;PRS"
+kuha,nagakuha,"V;PROG;PRS"
+kuha,nagakuha na,"V;PRF;PRS"
+kuha,nagakuha pa,"V;PRF+PROG;PRS"
+kuha,magakuha,"V;FUT"
+kuha,magakuha,"V;PROG;FUT"
+kuha,magakuha na,"V;PRF;FUT"
+kuha,magakuha pa,"V;PRF+PROG;FUT"
+istorya,istorya,"V;NFIN"
+istorya,nag-istorya,"V;PST"
+istorya,nag-istorya,"V;PROG;PST"
+istorya,nag-istorya na,"V;PRF;PST"
+istorya,nag-istorya pa,"V;PRF+PROG;PST"
+istorya,nagaistorya,"V;PRS"
+istorya,nagaistorya,"V;PROG;PRS"
+istorya,nagaistorya na,"V;PRF;PRS"
+istorya,nagaistorya pa,"V;PRF+PROG;PRS"
+istorya,magaistorya,"V;FUT"
+istorya,magaistorya,"V;PROG;FUT"
+istorya,magaistorya na,"V;PRF;FUT"
+istorya,magaistorya pa,"V;PRF+PROG;FUT"
+tudlo,tudlo,"V;NFIN"
+tudlo,nagtudlo,"V;PST"
+tudlo,nagtudlo,"V;PROG;PST"
+tudlo,nagtudlo na,"V;PRF;PST"
+tudlo,nagtudlo pa,"V;PRF+PROG;PST"
+tudlo,nagatudlo,"V;PRS"
+tudlo,nagatudlo,"V;PROG;PRS"
+tudlo,nagatudlo na,"V;PRF;PRS"
+tudlo,nagatudlo pa,"V;PRF+PROG;PRS"
+tudlo,magatudlo,"V;FUT"
+tudlo,magatudlo,"V;PROG;FUT"
+tudlo,magatudlo na,"V;PRF;FUT"
+tudlo,magatudlo pa,"V;PRF+PROG;FUT"
+hunahuna,hunahuna,"V;NFIN"
+hunahuna,naghunahuna,"V;PST"
+hunahuna,naghunahuna,"V;PROG;PST"
+hunahuna,naghunahuna na,"V;PRF;PST"
+hunahuna,naghunahuna pa,"V;PRF+PROG;PST"
+hunahuna,nagahunahuna,"V;PRS"
+hunahuna,nagahunahuna,"V;PROG;PRS"
+hunahuna,nagahunahuna na,"V;PRF;PRS"
+hunahuna,nagahunahuna pa,"V;PRF+PROG;PRS"
+hunahuna,magahunahuna,"V;FUT"
+hunahuna,magahunahuna,"V;PROG;FUT"
+hunahuna,magahunahuna na,"V;PRF;FUT"
+hunahuna,magahunahuna pa,"V;PRF+PROG;FUT"
+tandog,tandog,"V;NFIN"
+tandog,nagtandog,"V;PST"
+tandog,nagtandog,"V;PROG;PST"
+tandog,nagtandog na,"V;PRF;PST"
+tandog,nagtandog pa,"V;PRF+PROG;PST"
+tandog,nagatandog,"V;PRS"
+tandog,nagatandog,"V;PROG;PRS"
+tandog,nagatandog na,"V;PRF;PRS"
+tandog,nagatandog pa,"V;PRF+PROG;PRS"
+tandog,magatandog,"V;FUT"
+tandog,magatandog,"V;PROG;FUT"
+tandog,magatandog na,"V;PRF;FUT"
+tandog,magatandog pa,"V;PRF+PROG;FUT"
+byahe,byahe,"V;NFIN"
+byahe,nagbyahe,"V;PST"
+byahe,nagbyahe,"V;PROG;PST"
+byahe,nagbyahe na,"V;PRF;PST"
+byahe,nagbyahe pa,"V;PRF+PROG;PST"
+byahe,nagabyahe,"V;PRS"
+byahe,nagabyahe,"V;PROG;PRS"
+byahe,nagabyahe na,"V;PRF;PRS"
+byahe,nagabyahe pa,"V;PRF+PROG;PRS"
+byahe,magabyahe,"V;FUT"
+byahe,magabyahe,"V;PROG;FUT"
+byahe,magabyahe na,"V;PRF;FUT"
+byahe,magabyahe pa,"V;PRF+PROG;FUT"
+hangop/hangpan,hangop,"V;NFIN"
+hangop/hangpan,nahangpan,"V;PST"
+hangop/hangpan,ginhangop,"V;PROG;PST"
+hangop/hangpan,nahangpan na,"V;PRF;PST"
+hangop/hangpan,ginhangpan pa,"V;PRF+PROG;PST"
+hangop/hangpan,nahangpan,"V;PRS"
+hangop/hangpan,ginahangop,"V;PROG;PRS"
+hangop/hangpan,nahangpan na,"V;PRF;PRS"
+hangop/hangpan,ginahangop pa,"V;PRF+PROG;PRS"
+hangop/hangpan,mahangpan,"V;FUT"
+hangop/hangpan,mahangpan,"V;PROG;FUT"
+hangop/hangpan,mahangpan na,"V;PRF;FUT"
+hangop/hangpan,mahangpan pa,"V;PRF+PROG;FUT"
+gamit,gamit,"V;NFIN"
+gamit,naggamit,"V;PST"
+gamit,naggamit,"V;PROG;PST"
+gamit,naggamit na,"V;PRF;PST"
+gamit,naggamit pa,"V;PRF+PROG;PST"
+gamit,nagagamit,"V;PRS"
+gamit,nagagamit,"V;PROG;PRS"
+gamit,nagagamit na,"V;PRF;PRS"
+gamit,nagagamit pa,"V;PRF+PROG;PRS"
+gamit,magagamit,"V;FUT"
+gamit,magagamit,"V;PROG;FUT"
+gamit,magagamit na,"V;PRF;FUT"
+gamit,magagamit pa,"V;PRF+PROG;FUT"
+hular,hular,"V;NFIN"
+hular,naghular,"V;PST"
+hular,naghular,"V;PROG;PST"
+hular,naghular na,"V;PRF;PST"
+hular,naghular pa,"V;PRF+PROG;PST"
+hular,nagahular,"V;PRS"
+hular,nagahular,"V;PROG;PRS"
+hular,nagahular na,"V;PRF;PRS"
+hular,nagahular pa,"V;PRF+PROG;PRS"
+hular,magahular,"V;FUT"
+hular,magahular,"V;PROG;FUT"
+hular,magahular na,"V;PRF;FUT"
+hular,magahular pa,"V;PRF+PROG;FUT"
+lakat,lakat,"V;NFIN"
+lakat,naglakat,"V;PST"
+lakat,naglakat,"V;PROG;PST"
+lakat,naglakat na,"V;PRF;PST"
+lakat,naglakat pa,"V;PRF+PROG;PST"
+lakat,nagalakat,"V;PRS"
+lakat,nagalakat,"V;PROG;PRS"
+lakat,nagalakat na,"V;PRF;PRS"
+lakat,nagalakat pa,"V;PRF+PROG;PRS"
+lakat,magalakat,"V;FUT"
+lakat,magalakat,"V;PROG;FUT"
+lakat,magalakat na,"V;PRF;FUT"
+lakat,magalakat pa,"V;PRF+PROG;FUT"
+gusto/gustuhan,gusto,"V;NFIN"
+gusto/gustuhan,nagustuhan,"V;PST"
+gusto/gustuhan,gusto,"V;PRS"
+tan-aw,tan-aw,"V;NFIN"
+tan-aw,nagtan-aw,"V;PST"
+tan-aw,nagtan-aw,"V;PROG;PST"
+tan-aw,nagtan-aw na,"V;PRF;PST"
+tan-aw,nagtan-aw pa,"V;PRF+PROG;PST"
+tan-aw,nagatan-aw,"V;PRS"
+tan-aw,nagatan-aw,"V;PROG;PRS"
+tan-aw,nagatan-aw na,"V;PRF;PRS"
+tan-aw,nagatan-aw pa,"V;PRF+PROG;PRS"
+tan-aw,magatan-aw,"V;FUT"
+tan-aw,magatan-aw,"V;PROG;FUT"
+tan-aw,magatan-aw na,"V;PRF;FUT"
+tan-aw,magatan-aw pa,"V;PRF+PROG;FUT"
+daog,daog,"V;NFIN"
+daog,nag-daog,"V;PST"
+daog,nag-daog,"V;PROG;PST"
+daog,nag-daog na,"V;PRF;PST"
+daog,nag-daog pa,"V;PRF+PROG;PST"
+daog,nagadaog,"V;PRS"
+daog,nagadaog,"V;PROG;PRS"
+daog,nagadaog na,"V;PRF;PRS"
+daog,nagadaog pa,"V;PRF+PROG;PRS"
+daog,magadaog,"V;FUT"
+daog,magadaog,"V;PROG;FUT"
+daog,magadaog na,"V;PRF;FUT"
+daog,magadaog pa,"V;PRF+PROG;FUT"
+obra,obra,"V;NFIN"
+obra,nagobra,"V;PST"
+obra,nagobra,"V;PROG;PST"
+obra,nagobra na,"V;PRF;PST"
+obra,nagobra pa,"V;PRF+PROG;PST"
+obra,nagaobra,"V;PRS"
+obra,nagaobra,"V;PROG;PRS"
+obra,nagaobra na,"V;PRF;PRS"
+obra,nagaobra pa,"V;PRF+PROG;PRS"
+obra,magaobra,"V;FUT"
+obra,magaobra,"V;PROG;FUT"
+obra,magaobra na,"V;PRF;FUT"
+obra,magaobra pa,"V;PRF+PROG;FUT"
+sulat,sulat,"V;NFIN"
+sulat,nagsulat,"V;PST"
+sulat,nagsulat,"V;PROG;PST"
+sulat,nagsulat na,"V;PRF;PST"
+sulat,nagsulat pa,"V;PRF+PROG;PST"
+sulat,nagasulat,"V;PRS"
+sulat,nagasulat,"V;PROG;PRS"
+sulat,nagasulat na,"V;PRF;PRS"
+sulat,nagasulat pa,"V;PRF+PROG;PRS"
+sulat,magasulat,"V;FUT"
+sulat,magasulat,"V;PROG;FUT"
+sulat,magasulat na,"V;PRF;FUT"
+sulat,magasulat pa,V;PRF+PROG;FUT

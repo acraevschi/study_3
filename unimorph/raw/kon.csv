@@ -1,0 +1,829 @@
+lemma,form,paradigm_slot
+sumba,kusumba,"V;NFIN"
+sumba,ke sumba,"V;PRS"
+sumba,ta kusumba,"V;FUT"
+sumba,sumbaka,"V;PST"
+klikia,kuklikia,"V;NFIN"
+klikia,ke klikia,"V;PRS"
+klikia,ta kuklikia,"V;FUT"
+klikia,klikiaka,"V;PST"
+kuiza,kukuiza,"V;NFIN"
+kuiza,ke kuiza,"V;PRS"
+kuiza,ta kukuiza,"V;FUT"
+kuiza,kuizaka,"V;PST"
+nwa,kunwa,"V;NFIN"
+nwa,ke nwa,"V;PRS"
+nwa,ta kunwa,"V;FUT"
+nwa,nwaka,"V;PST"
+dia,kudia,"V;NFIN"
+dia,ke dia,"V;PRS"
+dia,ta kudia,"V;FUT"
+dia,diaka,"V;PST"
+enda,kuenda,"V;NFIN"
+enda,ke enda,"V;PRS"
+enda,ta kuenda,"V;FUT"
+enda,endaka,"V;PST"
+vova,kuvova,"V;NFIN"
+vova,ke vova,"V;PRS"
+vova,ta kuvova,"V;FUT"
+vova,vovaka,"V;PST"
+fonga,kufonga,"V;NFIN"
+fonga,ke fonga,"V;PRS"
+fonga,ta kufonga,"V;FUT"
+fonga,fongaka,"V;PST"
+zieta,kuzieta,"V;NFIN"
+zieta,ke zieta,"V;PRS"
+zieta,ta kuzieta,"V;FUT"
+zieta,zietaka,"V;PST"
+vwata,kuvwata,"V;NFIN"
+vwata,ke vwata,"V;PRS"
+vwata,ta kuvwata,"V;FUT"
+vwata,vwataka,"V;PST"
+palangana,kupalangana,"V;NFIN"
+palangana,ke palangana,"V;PRS"
+palangana,ta kupalangana,"V;FUT"
+palangana,palanganaka,"V;PST"
+pamuka,kupamuka,"V;NFIN"
+pamuka,ke pamuka,"V;PRS"
+pamuka,ta kupamuka,"V;FUT"
+pamuka,pamukaka,"V;PST"
+pamuna,kupamuna,"V;NFIN"
+pamuna,ke pamuna,"V;PRS"
+pamuna,ta kupamuna,"V;FUT"
+pamuna,pamunaka,"V;PST"
+panza,kupanza,"V;NFIN"
+panza,ke panza,"V;PRS"
+panza,ta kupanza,"V;FUT"
+panza,panzaka,"V;PST"
+panzana,kupanzana,"V;NFIN"
+panzana,ke panzana,"V;PRS"
+panzana,ta kupanzana,"V;FUT"
+panzana,panzanaka,"V;PST"
+pasuka,kupasuka,"V;NFIN"
+pasuka,ke pasuka,"V;PRS"
+pasuka,ta kupasuka,"V;FUT"
+pasuka,pasukaka,"V;PST"
+pasula,kupasula,"V;NFIN"
+pasula,ke pasula,"V;PRS"
+pasula,ta kupasula,"V;FUT"
+pasula,pasulaka,"V;PST"
+pidila,kupidila,"V;NFIN"
+pidila,ke pidila,"V;PRS"
+pidila,ta kupidila,"V;FUT"
+pidila,pidilaka,"V;PST"
+pisuka,kupisuka,"V;NFIN"
+pisuka,ke pisuka,"V;PRS"
+pisuka,ta kupisuka,"V;FUT"
+pisuka,pisukaka,"V;PST"
+pitakasa,kupitakasa,"V;NFIN"
+pitakasa,ke pitakasa,"V;PRS"
+pitakasa,ta kupitakasa,"V;FUT"
+pitakasa,pitakasaka,"V;PST"
+pola,kupola,"V;NFIN"
+pola,ke pola,"V;PRS"
+pola,ta kupola,"V;FUT"
+pola,polaka,"V;PST"
+puluka,kupuluka,"V;NFIN"
+puluka,ke puluka,"V;PRS"
+puluka,ta kupuluka,"V;FUT"
+puluka,pulukaka,"V;PST"
+pulusa,kupulusa,"V;NFIN"
+pulusa,ke pulusa,"V;PRS"
+pulusa,ta kupulusa,"V;FUT"
+pulusa,pulusaka,"V;PST"
+pungula,kupungula,"V;NFIN"
+pungula,ke pungula,"V;PRS"
+pungula,ta kupungula,"V;FUT"
+pungula,pungulaka,"V;PST"
+pusa,kupusa,"V;NFIN"
+pusa,ke pusa,"V;PRS"
+pusa,ta kupusa,"V;FUT"
+pusa,pusaka,"V;PST"
+sa,kusa,"V;NFIN"
+sa,ke sa,"V;PRS"
+sa,ta kusa,"V;FUT"
+sa,saka,"V;PST"
+sabuka,kusabuka,"V;NFIN"
+sabuka,ke sabuka,"V;PRS"
+sabuka,ta kusabuka,"V;FUT"
+sabuka,sabukaka,"V;PST"
+sabula,kusabula,"V;NFIN"
+sabula,ke sabula,"V;PRS"
+sabula,ta kusabula,"V;FUT"
+sabula,sabulaka,"V;PST"
+sadila,kusadila,"V;NFIN"
+sadila,ke sadila,"V;PRS"
+sadila,ta kusadila,"V;FUT"
+sadila,sadilaka,"V;PST"
+sadisa,kusadisa,"V;NFIN"
+sadisa,ke sadisa,"V;PRS"
+sadisa,ta kusadisa,"V;FUT"
+sadisa,sadisaka,"V;PST"
+saka,kusaka,"V;NFIN"
+saka,ke saka,"V;PRS"
+saka,ta kusaka,"V;FUT"
+saka,sakaka,"V;PST"
+saka,kusaka,"V;NFIN"
+saka,ke saka,"V;PRS"
+saka,ta kusaka,"V;FUT"
+saka,sakaka,"V;PST"
+sakalala,kusakalala,"V;NFIN"
+sakalala,ke sakalala,"V;PRS"
+sakalala,ta kusakalala,"V;FUT"
+sakalala,sakalalaka,"V;PST"
+sakana,kusakana,"V;NFIN"
+sakana,ke sakana,"V;PRS"
+sakana,ta kusakana,"V;FUT"
+sakana,sakanaka,"V;PST"
+sakumuna,kusakumuna,"V;NFIN"
+sakumuna,ke sakumuna,"V;PRS"
+sakumuna,ta kusakumuna,"V;FUT"
+sakumuna,sakumunaka,"V;PST"
+sala,kusala,"V;NFIN"
+sala,ke sala,"V;PRS"
+sala,ta kusala,"V;FUT"
+sala,salaka,"V;PST"
+salama ,kusalama ,"V;NFIN"
+salama ,ke salama ,"V;PRS"
+salama ,ta kusalama ,"V;FUT"
+salama ,salama ka,"V;PST"
+salasana,kusalasana,"V;NFIN"
+salasana,ke salasana,"V;PRS"
+salasana,ta kusalasana,"V;FUT"
+salasana,salasanaka,"V;PST"
+samba,kusamba,"V;NFIN"
+samba,ke samba,"V;PRS"
+samba,ta kusamba,"V;FUT"
+samba,sambaka,"V;PST"
+samba,kusamba,"V;NFIN"
+samba,ke samba,"V;PRS"
+samba,ta kusamba,"V;FUT"
+samba,sambaka,"V;PST"
+sambila,kusambila,"V;NFIN"
+sambila,ke sambila,"V;PRS"
+sambila,ta kusambila,"V;FUT"
+sambila,sambilaka,"V;PST"
+sambisa,kusambisa,"V;NFIN"
+sambisa,ke sambisa,"V;PRS"
+sambisa,ta kusambisa,"V;FUT"
+sambisa,sambisaka,"V;PST"
+sampuka,kusampuka,"V;NFIN"
+sampuka,ke sampuka,"V;PRS"
+sampuka,ta kusampuka,"V;FUT"
+sampuka,sampukaka,"V;PST"
+samuna ,kusamuna ,"V;NFIN"
+samuna ,ke samuna ,"V;PRS"
+samuna ,ta kusamuna ,"V;FUT"
+samuna ,samuna ka,"V;PST"
+sana,kusana,"V;NFIN"
+sana,ke sana,"V;PRS"
+sana,ta kusana,"V;FUT"
+sana,sanaka,"V;PST"
+sanduka,kusanduka,"V;NFIN"
+sanduka,ke sanduka,"V;PRS"
+sanduka,ta kusanduka,"V;FUT"
+sanduka,sandukaka,"V;PST"
+sangana ,kusangana ,"V;NFIN"
+sangana ,ke sangana ,"V;PRS"
+sangana ,ta kusangana ,"V;FUT"
+sangana ,sangana ka,"V;PST"
+sanisina,kusanisina,"V;NFIN"
+sanisina,ke sanisina,"V;PRS"
+sanisina,ta kusanisina,"V;FUT"
+sanisina,sanisinaka,"V;PST"
+sansa,kusansa,"V;NFIN"
+sansa,ke sansa,"V;PRS"
+sansa,ta kusansa,"V;FUT"
+sansa,sansaka,"V;PST"
+santisa ,kusantisa ,"V;NFIN"
+santisa ,ke santisa ,"V;PRS"
+santisa ,ta kusantisa ,"V;FUT"
+santisa ,santisa ka,"V;PST"
+sasa,kusasa,"V;NFIN"
+sasa,ke sasa,"V;PRS"
+sasa,ta kusasa,"V;FUT"
+sasa,sasaka,"V;PST"
+sasuka,kusasuka,"V;NFIN"
+sasuka,ke sasuka,"V;PRS"
+sasuka,ta kusasuka,"V;FUT"
+sasuka,sasukaka,"V;PST"
+sasula,kusasula,"V;NFIN"
+sasula,ke sasula,"V;PRS"
+sasula,ta kusasula,"V;FUT"
+sasula,sasulaka,"V;PST"
+savukisa ,kusavukisa ,"V;NFIN"
+savukisa ,ke savukisa ,"V;PRS"
+savukisa ,ta kusavukisa ,"V;FUT"
+savukisa ,savukisa ka,"V;PST"
+seka,kuseka,"V;NFIN"
+seka,ke seka,"V;PRS"
+seka,ta kuseka,"V;FUT"
+seka,sekaka,"V;PST"
+sekisa,kusekisa,"V;NFIN"
+sekisa,ke sekisa,"V;PRS"
+sekisa,ta kusekisa,"V;FUT"
+sekisa,sekisaka,"V;PST"
+sekula,kusekula,"V;NFIN"
+sekula,ke sekula,"V;PRS"
+sekula,ta kusekula,"V;FUT"
+sekula,sekulaka,"V;PST"
+seloka,kuseloka,"V;NFIN"
+seloka,ke seloka,"V;PRS"
+seloka,ta kuseloka,"V;FUT"
+seloka,selokaka,"V;PST"
+sema,kusema,"V;NFIN"
+sema,ke sema,"V;PRS"
+sema,ta kusema,"V;FUT"
+sema,semaka,"V;PST"
+semba,kusemba,"V;NFIN"
+semba,ke semba,"V;PRS"
+semba,ta kusemba,"V;FUT"
+semba,sembaka,"V;PST"
+senda,kusenda,"V;NFIN"
+senda,ke senda,"V;PRS"
+senda,ta kusenda,"V;FUT"
+senda,sendaka,"V;PST"
+sengula,kusengula,"V;NFIN"
+sengula,ke sengula,"V;PRS"
+sengula,ta kusengula,"V;FUT"
+sengula,sengulaka,"V;PST"
+sesa,kusesa,"V;NFIN"
+sesa,ke sesa,"V;PRS"
+sesa,ta kusesa,"V;FUT"
+sesa,sesaka,"V;PST"
+seva,kuseva,"V;NFIN"
+seva,ke seva,"V;PRS"
+seva,ta kuseva,"V;FUT"
+seva,sevaka,"V;PST"
+sevisa,kusevisa,"V;NFIN"
+sevisa,ke sevisa,"V;PRS"
+sevisa,ta kusevisa,"V;FUT"
+sevisa,sevisaka,"V;PST"
+siama,kusiama,"V;NFIN"
+siama,ke siama,"V;PRS"
+siama,ta kusiama,"V;FUT"
+siama,siamaka,"V;PST"
+siamisa,kusiamisa,"V;NFIN"
+siamisa,ke siamisa,"V;PRS"
+siamisa,ta kusiamisa,"V;FUT"
+siamisa,siamisaka,"V;PST"
+sielumuka,kusielumuka,"V;NFIN"
+sielumuka,ke sielumuka,"V;PRS"
+sielumuka,ta kusielumuka,"V;FUT"
+sielumuka,sielumukaka,"V;PST"
+sika,kusika,"V;NFIN"
+sika,ke sika,"V;PRS"
+sika,ta kusika,"V;FUT"
+sika,sikaka,"V;PST"
+sika,kusika,"V;NFIN"
+sika,ke sika,"V;PRS"
+sika,ta kusika,"V;FUT"
+sika,sikaka,"V;PST"
+sikama,kusikama,"V;NFIN"
+sikama,ke sikama,"V;PRS"
+sikama,ta kusikama,"V;FUT"
+sikama,sikamaka,"V;PST"
+sikila ,kusikila ,"V;NFIN"
+sikila ,ke sikila ,"V;PRS"
+sikila ,ta kusikila ,"V;FUT"
+sikila ,sikila ka,"V;PST"
+sikimisa,kusikimisa,"V;NFIN"
+sikimisa,ke sikimisa,"V;PRS"
+sikimisa,ta kusikimisa,"V;FUT"
+sikimisa,sikimisaka,"V;PST"
+simba,kusimba,"V;NFIN"
+simba,ke simba,"V;PRS"
+simba,ta kusimba,"V;FUT"
+simba,simbaka,"V;PST"
+simbidila,kusimbidila,"V;NFIN"
+simbidila,ke simbidila,"V;PRS"
+simbidila,ta kusimbidila,"V;FUT"
+simbidila,simbidilaka,"V;PST"
+simbisa,kusimbisa,"V;NFIN"
+simbisa,ke simbisa,"V;PRS"
+simbisa,ta kusimbisa,"V;FUT"
+simbisa,simbisaka,"V;PST"
+sindika,kusindika,"V;NFIN"
+sindika,ke sindika,"V;PRS"
+sindika,ta kusindika,"V;FUT"
+sindika,sindikaka,"V;PST"
+sindisa,kusindisa,"V;NFIN"
+sindisa,ke sindisa,"V;PRS"
+sindisa,ta kusindisa,"V;FUT"
+sindisa,sindisaka,"V;PST"
+singa,kusinga,"V;NFIN"
+singa,ke singa,"V;PRS"
+singa,ta kusinga,"V;FUT"
+singa,singaka,"V;PST"
+sinsana,kusinsana,"V;NFIN"
+sinsana,ke sinsana,"V;PRS"
+sinsana,ta kusinsana,"V;FUT"
+sinsana,sinsanaka,"V;PST"
+sinzila,kusinzila,"V;NFIN"
+sinzila,ke sinzila,"V;PRS"
+sinzila,ta kusinzila,"V;FUT"
+sinzila,sinzilaka,"V;PST"
+sisa,kusisa,"V;NFIN"
+sisa,ke sisa,"V;PRS"
+sisa,ta kusisa,"V;FUT"
+sisa,sisaka,"V;PST"
+sisila,kusisila,"V;NFIN"
+sisila,ke sisila,"V;PRS"
+sisila,ta kusisila,"V;FUT"
+sisila,sisilaka,"V;PST"
+sivika,kusivika,"V;NFIN"
+sivika,ke sivika,"V;PRS"
+sivika,ta kusivika,"V;FUT"
+sivika,sivikaka,"V;PST"
+soba,kusoba,"V;NFIN"
+soba,ke soba,"V;PRS"
+soba,ta kusoba,"V;FUT"
+soba,sobaka,"V;PST"
+sobasana,kusobasana,"V;NFIN"
+sobasana,ke sobasana,"V;PRS"
+sobasana,ta kusobasana,"V;FUT"
+sobasana,sobasanaka,"V;PST"
+soka,kusoka,"V;NFIN"
+soka,ke soka,"V;PRS"
+soka,ta kusoka,"V;FUT"
+soka,sokaka,"V;PST"
+sokumuna,kusokumuna,"V;NFIN"
+sokumuna,ke sokumuna,"V;PRS"
+sokumuna,ta kusokumuna,"V;FUT"
+sokumuna,sokumunaka,"V;PST"
+sola,kusola,"V;NFIN"
+sola,ke sola,"V;PRS"
+sola,ta kusola,"V;FUT"
+sola,solaka,"V;PST"
+sompa,kusompa,"V;NFIN"
+sompa,ke sompa,"V;PRS"
+sompa,ta kusompa,"V;FUT"
+sompa,sompaka,"V;PST"
+sompisa,kusompisa,"V;NFIN"
+sompisa,ke sompisa,"V;PRS"
+sompisa,ta kusompisa,"V;FUT"
+sompisa,sompisaka,"V;PST"
+sonika,kusonika,"V;NFIN"
+sonika,ke sonika,"V;PRS"
+sonika,ta kusonika,"V;FUT"
+sonika,sonikaka,"V;PST"
+sonikina,kusonikina,"V;NFIN"
+sonikina,ke sonikina,"V;PRS"
+sonikina,ta kusonikina,"V;FUT"
+sonikina,sonikinaka,"V;PST"
+sonikisa,kusonikisa,"V;NFIN"
+sonikisa,ke sonikisa,"V;PRS"
+sonikisa,ta kusonikisa,"V;FUT"
+sonikisa,sonikisaka,"V;PST"
+songa,kusonga,"V;NFIN"
+songa,ke songa,"V;PRS"
+songa,ta kusonga,"V;FUT"
+songa,songaka,"V;PST"
+songisa,kusongisa,"V;NFIN"
+songisa,ke songisa,"V;PRS"
+songisa,ta kusongisa,"V;FUT"
+songisa,songisaka,"V;PST"
+sosila,kososila,"V;NFIN"
+sosila,ke sosila,"V;PRS"
+sosila,ta kososila,"V;FUT"
+sosila,sosilaka,"V;PST"
+suama,kusuama,"V;NFIN"
+suama,ke suama,"V;PRS"
+suama,ta kusuama,"V;FUT"
+suama,suamaka,"V;PST"
+suasuana,kusuasuana,"V;NFIN"
+suasuana,ke suasuana,"V;PRS"
+suasuana,ta kusuasuana,"V;FUT"
+suasuana,suasuanaka,"V;PST"
+suasuanisa,kusuasuanisa,"V;NFIN"
+suasuanisa,ke suasuanisa,"V;PRS"
+suasuanisa,ta kusuasuanisa,"V;FUT"
+suasuanisa,suasuanisaka,"V;PST"
+suba,kusuba,"V;NFIN"
+suba,ke suba,"V;PRS"
+suba,ta kusuba,"V;FUT"
+suba,subaka,"V;PST"
+sueka,kusueka,"V;NFIN"
+sueka,ke sueka,"V;PRS"
+sueka,ta kusueka,"V;FUT"
+sueka,suekaka,"V;PST"
+suka,kusuka,"V;NFIN"
+suka,ke suka,"V;PRS"
+suka,ta kusuka,"V;FUT"
+suka,sukaka,"V;PST"
+sukula,kusukula,"V;NFIN"
+sukula,ke sukula,"V;PRS"
+sukula,ta kusukula,"V;FUT"
+sukula,sukulaka,"V;PST"
+sumba,kusumba,"V;NFIN"
+sumba,ke sumba,"V;PRS"
+sumba,ta kusumba,"V;FUT"
+sumba,sumbaka,"V;PST"
+sumuka,kusumuka,"V;NFIN"
+sumuka,ke sumuka,"V;PRS"
+sumuka,ta kusumuka,"V;FUT"
+sumuka,sumukaka,"V;PST"
+sumuna,kusumuna,"V;NFIN"
+sumuna,ke sumuna,"V;PRS"
+sumuna,ta kusumuna,"V;FUT"
+sumuna,sumunaka,"V;PST"
+sunda,kusunda,"V;NFIN"
+sunda,ke sunda,"V;PRS"
+sunda,ta kusunda,"V;FUT"
+sunda,sundaka,"V;PST"
+sungama,kusungama,"V;NFIN"
+sungama,ke sungama,"V;PRS"
+sungama,ta kusungama,"V;FUT"
+sungama,sungamaka,"V;PST"
+sungika,kusungika,"V;NFIN"
+sungika,ke sungika,"V;PRS"
+sungika,ta kusungika,"V;FUT"
+sungika,sungikaka,"V;PST"
+sunzula,kusunzula,"V;NFIN"
+sunzula,ke sunzula,"V;PRS"
+sunzula,ta kusunzula,"V;FUT"
+sunzula,sunzulaka,"V;PST"
+susumuka,kususumuka,"V;NFIN"
+susumuka,ke susumuka,"V;PRS"
+susumuka,ta kususumuka,"V;FUT"
+susumuka,susumukaka,"V;PST"
+sutuka,kusutuka,"V;NFIN"
+sutuka,ke sutuka,"V;PRS"
+sutuka,ta kusutuka,"V;FUT"
+sutuka,sutukaka,"V;PST"
+ta,kuta,"V;NFIN"
+ta,ke ta,"V;PRS"
+ta,ta kuta,"V;FUT"
+ta,taka,"V;PST"
+tabula,kutabula,"V;NFIN"
+tabula,ke tabula,"V;PRS"
+tabula,ta kutabula,"V;FUT"
+tabula,tabulaka,"V;PST"
+tadisa,kutadisa,"V;NFIN"
+tadisa,ke tadisa,"V;PRS"
+tadisa,ta kutadisa,"V;FUT"
+tadisa,tadisaka,"V;PST"
+tafuna,kutafuna,"V;NFIN"
+tafuna,ke tafuna,"V;PRS"
+tafuna,ta kutafuna,"V;FUT"
+tafuna,tafunaka,"V;PST"
+tala,kutala,"V;NFIN"
+tala,ke tala,"V;PRS"
+tala,ta kutala,"V;FUT"
+tala,talaka,"V;PST"
+tambika,kutambika,"V;NFIN"
+tambika,ke tambika,"V;PRS"
+tambika,ta kutambika,"V;FUT"
+tambika,tambikaka,"V;PST"
+tambikisa,kutambikisa,"V;NFIN"
+tambikisa,ke tambikisa,"V;PRS"
+tambikisa,ta kutambikisa,"V;FUT"
+tambikisa,tambikisaka,"V;PST"
+tambudila,kutambudila,"V;NFIN"
+tambudila,ke tambudila,"V;PRS"
+tambudila,ta kutambudila,"V;FUT"
+tambudila,tambudilaka,"V;PST"
+tambula,kutambula,"V;NFIN"
+tambula,ke tambula,"V;PRS"
+tambula,ta kutambula,"V;FUT"
+tambula,tambulaka,"V;PST"
+tambula,kutambula,"V;NFIN"
+tambula,ke tambula,"V;PRS"
+tambula,ta kutambula,"V;FUT"
+tambula,tambulaka,"V;PST"
+tambusa,kutambusa,"V;NFIN"
+tambusa,ke tambusa,"V;PRS"
+tambusa,ta kutambusa,"V;FUT"
+tambusa,tambusaka,"V;PST"
+tanda,kutanda,"V;NFIN"
+tanda,ke tanda,"V;PRS"
+tanda,ta kutanda,"V;FUT"
+tanda,tandaka,"V;PST"
+tanga,kutanga,"V;NFIN"
+tanga,ke tanga,"V;PRS"
+tanga,ta kutanga,"V;FUT"
+tanga,tangaka,"V;PST"
+tanginina,kutanginina,"V;NFIN"
+tanginina,ke tanginina,"V;PRS"
+tanginina,ta kutanginina,"V;FUT"
+tanginina,tangininaka,"V;PST"
+tangisa,kutangisa,"V;NFIN"
+tangisa,ke tangisa,"V;PRS"
+tangisa,ta kutangisa,"V;FUT"
+tangisa,tangisaka,"V;PST"
+tanguna ,kutanguna ,"V;NFIN"
+tanguna ,ke tanguna ,"V;PRS"
+tanguna ,ta kutanguna ,"V;FUT"
+tanguna ,tanguna ka,"V;PST"
+tanina ,kutanina ,"V;NFIN"
+tanina ,ke tanina ,"V;PRS"
+tanina ,ta kutanina ,"V;FUT"
+tanina ,tanina ka,"V;PST"
+tatamana,kutatamana,"V;NFIN"
+tatamana,ke tatamana,"V;PRS"
+tatamana,ta kutatamana,"V;FUT"
+tatamana,tatamanaka,"V;PST"
+tatika ,kutatika ,"V;NFIN"
+tatika ,ke tatika ,"V;PRS"
+tatika ,ta kutatika ,"V;FUT"
+tatika ,tatika ka,"V;PST"
+tatuka ,kutatuka ,"V;NFIN"
+tatuka ,ke tatuka ,"V;PRS"
+tatuka ,ta kutatuka ,"V;FUT"
+tatuka ,tatuka ka,"V;PST"
+tatula,kutatula,"V;NFIN"
+tatula,ke tatula,"V;PRS"
+tatula,ta kutatula,"V;FUT"
+tatula,tatulaka,"V;PST"
+tedika,kutedika,"V;NFIN"
+tedika,ke tedika,"V;PRS"
+tedika,ta kutedika,"V;FUT"
+tedika,tedikaka,"V;PST"
+teka,kuteka,"V;NFIN"
+teka,ke teka,"V;PRS"
+teka,ta kuteka,"V;FUT"
+teka,tekaka,"V;PST"
+teka,kuteka,"V;NFIN"
+teka,ke teka,"V;PRS"
+teka,ta kuteka,"V;FUT"
+teka,tekaka,"V;PST"
+teka,kuteka,"V;NFIN"
+teka,ke teka,"V;PRS"
+teka,ta kuteka,"V;FUT"
+teka,tekaka,"V;PST"
+tekila,kutekila,"V;NFIN"
+tekila,ke tekila,"V;PRS"
+tekila,ta kutekila,"V;FUT"
+tekila,tekilaka,"V;PST"
+tekisa,kutekisa,"V;NFIN"
+tekisa,ke tekisa,"V;PRS"
+tekisa,ta kutekisa,"V;FUT"
+tekisa,tekisaka,"V;PST"
+tekita,kutekita,"V;NFIN"
+tekita,ke tekita,"V;PRS"
+tekita,ta kutekita,"V;FUT"
+tekita,tekitaka,"V;PST"
+telama,kutelama,"V;NFIN"
+telama,ke telama,"V;PRS"
+telama,ta kutelama,"V;FUT"
+telama,telamaka,"V;PST"
+teleka,kuteleka,"V;NFIN"
+teleka,ke teleka,"V;PRS"
+teleka,ta kuteleka,"V;FUT"
+teleka,telekaka,"V;PST"
+telemisa,kutelemisa,"V;NFIN"
+telemisa,ke telemisa,"V;PRS"
+telemisa,ta kutelemisa,"V;FUT"
+telemisa,telemisaka,"V;PST"
+temoka,kutemoka,"V;NFIN"
+temoka,ke temoka,"V;PRS"
+temoka,ta kutemoka,"V;FUT"
+temoka,temokaka,"V;PST"
+temona,kutemona,"V;NFIN"
+temona,ke temona,"V;PRS"
+temona,ta kutemona,"V;FUT"
+temona,temonaka,"V;PST"
+tenda,kutenda,"V;NFIN"
+tenda,ke tenda,"V;PRS"
+tenda,ta kutenda,"V;FUT"
+tenda,tendaka,"V;PST"
+tengama,kutengama,"V;NFIN"
+tengama,ke tengama,"V;PRS"
+tengama,ta kutengama,"V;FUT"
+tengama,tengamaka,"V;PST"
+tengika,kutengika,"V;NFIN"
+tengika,ke tengika,"V;PRS"
+tengika,ta kutengika,"V;FUT"
+tengika,tengikaka,"V;PST"
+tengola,kutengola,"V;NFIN"
+tengola,ke tengola,"V;PRS"
+tengola,ta kutengola,"V;FUT"
+tengola,tengolaka,"V;PST"
+tensika,kutensika,"V;NFIN"
+tensika,ke tensika,"V;PRS"
+tensika,ta kutensika,"V;FUT"
+tensika,tensikaka,"V;PST"
+tentika,kutentika,"V;NFIN"
+tentika,ke tentika,"V;PRS"
+tentika,ta kutentika,"V;FUT"
+tentika,tentikaka,"V;PST"
+teta,kuteta,"V;NFIN"
+teta,ke teta,"V;PRS"
+teta,ta kuteta,"V;FUT"
+teta,tetaka,"V;PST"
+teza,kuteza,"V;NFIN"
+teza,ke teza,"V;PRS"
+teza,ta kuteza,"V;FUT"
+teza,tezaka,"V;PST"
+tiaba,kutiaba,"V;NFIN"
+tiaba,ke tiaba,"V;PRS"
+tiaba,ta kutiaba,"V;FUT"
+tiaba,tiabaka,"V;PST"
+tilumuka,kutilumuka,"V;NFIN"
+tilumuka,ke tilumuka,"V;PRS"
+tilumuka,ta kutilumuka,"V;FUT"
+tilumuka,tilumukaka,"V;PST"
+tilumuna,kutilumuna,"V;NFIN"
+tilumuna,ke tilumuna,"V;PRS"
+tilumuna,ta kutilumuna,"V;FUT"
+tilumuna,tilumunaka,"V;PST"
+tima,kutima,"V;NFIN"
+tima,ke tima,"V;PRS"
+tima,ta kutima,"V;FUT"
+tima,timaka,"V;PST"
+timba,kutimba,"V;NFIN"
+timba,ke timba,"V;PRS"
+timba,ta kutimba,"V;FUT"
+timba,timbaka,"V;PST"
+timbula,kutimbula,"V;NFIN"
+timbula,ke timbula,"V;PRS"
+timbula,ta kutimbula,"V;FUT"
+timbula,timbulaka,"V;PST"
+tina,kutina,"V;NFIN"
+tina,ke tina,"V;PRS"
+tina,ta kutina,"V;FUT"
+tina,tinaka,"V;PST"
+tinguna,kutinguna,"V;NFIN"
+tinguna,ke tinguna,"V;PRS"
+tinguna,ta kutinguna,"V;FUT"
+tinguna,tingunaka,"V;PST"
+toboka,kutoboka,"V;NFIN"
+toboka,ke toboka,"V;PRS"
+toboka,ta kutoboka,"V;FUT"
+toboka,tobokaka,"V;PST"
+tobola,kutobola,"V;NFIN"
+tobola,ke tobola,"V;PRS"
+tobola,ta kutobola,"V;FUT"
+tobola,tobolaka,"V;PST"
+tola,kutola,"V;NFIN"
+tola,ke tola,"V;PRS"
+tola,ta kutola,"V;FUT"
+tola,tolaka,"V;PST"
+toloka,kutoloka,"V;NFIN"
+toloka,ke toloka,"V;PRS"
+toloka,ta kutoloka,"V;FUT"
+toloka,tolokaka,"V;PST"
+tolola,kutolola,"V;NFIN"
+tolola,ke tolola,"V;PRS"
+tolola,ta kutolola,"V;FUT"
+tolola,tololaka,"V;PST"
+toma,kutoma,"V;NFIN"
+toma,ke toma,"V;PRS"
+toma,ta kutoma,"V;FUT"
+toma,tomaka,"V;PST"
+tomba,kutomba,"V;NFIN"
+tomba,ke tomba,"V;PRS"
+tomba,ta kutomba,"V;FUT"
+tomba,tombaka,"V;PST"
+tomboka,kutomboka,"V;NFIN"
+tomboka,ke tomboka,"V;PRS"
+tomboka,ta kutomboka,"V;FUT"
+tomboka,tombokaka,"V;PST"
+tombola,kutombola,"V;NFIN"
+tombola,ke tombola,"V;PRS"
+tombola,ta kutombola,"V;FUT"
+tombola,tombolaka,"V;PST"
+tomisa,kutomisa,"V;NFIN"
+tomisa,ke tomisa,"V;PRS"
+tomisa,ta kutomisa,"V;FUT"
+tomisa,tomisaka,"V;PST"
+tonda,kutonda,"V;NFIN"
+tonda,ke tonda,"V;PRS"
+tonda,ta kutonda,"V;FUT"
+tonda,tondaka,"V;PST"
+tonganana,kutonganana,"V;NFIN"
+tonganana,ke tonganana,"V;PRS"
+tonganana,ta kutonganana,"V;FUT"
+tonganana,tongananaka,"V;PST"
+tonta,kutonta,"V;NFIN"
+tonta,ke tonta,"V;PRS"
+tonta,ta kutonta,"V;FUT"
+tonta,tontaka,"V;PST"
+tota,kutota,"V;NFIN"
+tota,ke tota,"V;PRS"
+tota,ta kutota,"V;FUT"
+tota,totaka,"V;PST"
+totoka,kutotoka,"V;NFIN"
+totoka,ke totoka,"V;PRS"
+totoka,ta kutotoka,"V;FUT"
+totoka,totokaka,"V;PST"
+tsamuka ,kutsamuka ,"V;NFIN"
+tsamuka ,ke tsamuka ,"V;PRS"
+tsamuka ,ta kutsamuka ,"V;FUT"
+tsamuka ,tsamuka ka,"V;PST"
+tsamuna,kutsamuna,"V;NFIN"
+tsamuna,ke tsamuna,"V;PRS"
+tsamuna,ta kutsamuna,"V;FUT"
+tsamuna,tsamunaka,"V;PST"
+tsoka,kutsoka,"V;NFIN"
+tsoka,ke tsoka,"V;PRS"
+tsoka,ta kutsoka,"V;FUT"
+tsoka,tsokaka,"V;PST"
+tsoma,kutsoma,"V;NFIN"
+tsoma,ke tsoma,"V;PRS"
+tsoma,ta kutsoma,"V;FUT"
+tsoma,tsomaka,"V;PST"
+tsona ,kutsona ,"V;NFIN"
+tsona ,ke tsona ,"V;PRS"
+tsona ,ta kutsona ,"V;FUT"
+tsona ,tsona ka,"V;PST"
+tsuba,kutsuba,"V;NFIN"
+tsuba,ke tsuba,"V;PRS"
+tsuba,ta kutsuba,"V;FUT"
+tsuba,tsubaka,"V;PST"
+tsubuka,kutsubuka,"V;NFIN"
+tsubuka,ke tsubuka,"V;PRS"
+tsubuka,ta kutsubuka,"V;FUT"
+tsubuka,tsubukaka,"V;PST"
+tsubula,kutsubula,"V;NFIN"
+tsubula,ke tsubula,"V;PRS"
+tsubula,ta kutsubula,"V;FUT"
+tsubula,tsubulaka,"V;PST"
+tsuma,kutsuma,"V;NFIN"
+tsuma,ke tsuma,"V;PRS"
+tsuma,ta kutsuma,"V;FUT"
+tsuma,tsumaka,"V;PST"
+tua,kutua,"V;NFIN"
+tua,ke tua,"V;PRS"
+tua,ta kutua,"V;FUT"
+tua,tuaka,"V;PST"
+tuadisa,kutuadisa,"V;NFIN"
+tuadisa,ke tuadisa,"V;PRS"
+tuadisa,ta kutuadisa,"V;FUT"
+tuadisa,tuadisaka,"V;PST"
+tuba,kutuba,"V;NFIN"
+tuba,ke tuba,"V;PRS"
+tuba,ta kutuba,"V;FUT"
+tuba,tubaka,"V;PST"
+tuela,kutuela,"V;NFIN"
+tuela,ke tuela,"V;PRS"
+tuela,ta kutuela,"V;FUT"
+tuela,tuelaka,"V;PST"
+tuika,kutuika,"V;NFIN"
+tuika,ke tuika,"V;PRS"
+tuika,ta kutuika,"V;FUT"
+tuika,tuikaka,"V;PST"
+tuka ,kutuka ,"V;NFIN"
+tuka ,ke tuka ,"V;PRS"
+tuka ,ta kutuka ,"V;FUT"
+tuka ,tuka ka,"V;PST"
+tula,kutula,"V;NFIN"
+tula,ke tula,"V;PRS"
+tula,ta kutula,"V;FUT"
+tula,tulaka,"V;PST"
+tulula,kutulula,"V;NFIN"
+tulula,ke tulula,"V;PRS"
+tulula,ta kutulula,"V;FUT"
+tulula,tululaka,"V;PST"
+tuma,kutuma,"V;NFIN"
+tuma,ke tuma,"V;PRS"
+tuma,ta kutuma,"V;FUT"
+tuma,tumaka,"V;PST"
+tumama,kutumama,"V;NFIN"
+tumama,ke tumama,"V;PRS"
+tumama,ta kutumama,"V;FUT"
+tumama,tumamaka,"V;PST"
+tumbudila,kutumbudila,"V;NFIN"
+tumbudila,ke tumbudila,"V;PRS"
+tumbudila,ta kutumbudila,"V;FUT"
+tumbudila,tumbudilaka,"V;PST"
+tumbula,kutumbula,"V;NFIN"
+tumbula,ke tumbula,"V;PRS"
+tumbula,ta kutumbula,"V;FUT"
+tumbula,tumbulaka,"V;PST"
+tunga,kutunga,"V;NFIN"
+tunga,ke tunga,"V;PRS"
+tunga,ta kutunga,"V;FUT"
+tunga,tungaka,"V;PST"
+tungisa ,kutungisa ,"V;NFIN"
+tungisa ,ke tungisa ,"V;PRS"
+tungisa ,ta kutungisa ,"V;FUT"
+tungisa ,tungisa ka,"V;PST"
+tungulula,kutungulula,"V;NFIN"
+tungulula,ke tungulula,"V;PRS"
+tungulula,ta kutungulula,"V;FUT"
+tungulula,tungululaka,"V;PST"
+tunta,kutunta,"V;NFIN"
+tunta,ke tunta,"V;PRS"
+tunta,ta kutunta,"V;FUT"
+tunta,tuntaka,"V;PST"
+tuta,kotuta,"V;NFIN"
+tuta,ke tuta,"V;PRS"
+tuta,ta kotuta,"V;FUT"
+tuta,tutaka,"V;PST"
+tutana,kotutana,"V;NFIN"
+tutana,ke tutana,"V;PRS"
+tutana,ta kotutana,"V;FUT"
+tutana,tutanaka,"V;PST"
+tutisa,kututisa,"V;NFIN"
+tutisa,ke tutisa,"V;PRS"
+tutisa,ta kututisa,"V;FUT"
+tutisa,tutisaka,"V;PST"
+vambana,kuvambana,"V;NFIN"
+vambana,ke vambana,"V;PRS"
+vambana,ta kuvambana,"V;FUT"
+vambana,vambanaka,"V;PST"
+vambasa,kuvambasa,"V;NFIN"
+vambasa,ke vambasa,"V;PRS"
+vambasa,ta kuvambasa,"V;FUT"
+vambasa,vambasaka,V;PST

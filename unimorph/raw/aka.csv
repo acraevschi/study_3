@@ -1,0 +1,4183 @@
+lemma,form,paradigm_slot
+bisa,bisa,"V;NFIN"
+bisa,bisa,"V;HAB;PRS"
+bisa,mmbisa,"V;HAB;NEG;PRS"
+bisa,kɔbisa,"V;PRS;LGSPEC1"
+bisa,nnkɔbisa,"V;NEG;PRS;LGSPEC1"
+bisa,rebisa,"V;HAB+PROG;PRS"
+bisa,remmbisa,"V;HAB+PROG;NEG;PRS"
+bisa,rebɛbisa,"V;PROG;PRS+IMMED"
+bisa,remmbɛbisa,"V;PROG;NEG;PRS+IMMED"
+bisa,rekɔbisa,"V;PROG;PRS;LGSPEC1"
+bisa,rennkɔbisa,"V;PROG;NEG;PRS;LGSPEC1"
+bisa,abisa,"V;HAB+PRF;PRS"
+bisa,mmbisaee,"V;HAB+PRF;NEG;PRS"
+bisa,abɛbisa,"V;PRF;PRS+IMMED"
+bisa,mmbɛbisaee,"V;PRF;NEG;PRS+IMMED"
+bisa,akɔbisa,"V;PRF;PRS;LGSPEC1"
+bisa,nnkɔbisaee,"V;PRF;NEG;PRS;LGSPEC1"
+bisa,mbisa,"V;SBJV;PRS"
+bisa,mma mmbisa,"V;SBJV;NEG;PRS"
+bisa,bisa,"V;IMP;PRS"
+bisa,mma mmbisa,"V;IMP;NEG;PRS"
+bisa,bisaee,"V;HAB;PST"
+bisa,ammbisa,"V;HAB;NEG;PST"
+bisa,bɛbisaee,"V;PST+IMMED"
+bisa,ammbɛbisa,"V;NEG;PST+IMMED"
+bisa,kɔbisaee,"V;PST;LGSPEC1"
+bisa,ammkɔbisa,"V;NEG;PST;LGSPEC1"
+bisa,nna rebisa,"V;HAB+PROG;PST"
+bisa,nna remmbisa,"V;HAB+PROG;NEG;PST"
+bisa,nna rebɛbisa,"V;PROG;PST+IMMED"
+bisa,nna remmbɛbisa,"V;PROG;NEG;PST+IMMED"
+bisa,nna rekɔbisa,"V;PROG;PST;LGSPEC1"
+bisa,nna rennkɔbisa,"V;PROG;NEG;PST;LGSPEC1"
+bisa,nna abisa,"V;HAB+PRF;PST"
+bisa,nna mmbisaee,"V;HAB+PRF;NEG;PST"
+bisa,nna abɛbisa,"V;PRF;PST+IMMED"
+bisa,nna mmbɛbisaee,"V;PRF;NEG;PST+IMMED"
+bisa,nna akɔbisa,"V;PRF;PST;LGSPEC1"
+bisa,nna nnkɔbisaee,"V;PRF;NEG;PST;LGSPEC1"
+bisa,bɛbisa,"V;HAB;FUT"
+bisa,remmbisa,"V;HAB;NEG;FUT"
+guare,guare,"V;NFIN"
+guare,guare,"V;HAB;PRS"
+guare,nnguare,"V;HAB;NEG;PRS"
+guare,kɔguare,"V;PRS;LGSPEC1"
+guare,nnkɔguare,"V;NEG;PRS;LGSPEC1"
+guare,reguare,"V;HAB+PROG;PRS"
+guare,rennguare,"V;HAB+PROG;NEG;PRS"
+guare,rebɛguare,"V;PROG;PRS+IMMED"
+guare,remmbɛguare,"V;PROG;NEG;PRS+IMMED"
+guare,rekɔguare,"V;PROG;PRS;LGSPEC1"
+guare,rennkɔguare,"V;PROG;NEG;PRS;LGSPEC1"
+guare,aguare,"V;HAB+PRF;PRS"
+guare,nnguaree,"V;HAB+PRF;NEG;PRS"
+guare,abɛguare,"V;PRF;PRS+IMMED"
+guare,mmbɛguaree,"V;PRF;NEG;PRS+IMMED"
+guare,akɔguare,"V;PRF;PRS;LGSPEC1"
+guare,nnkɔguaree,"V;PRF;NEG;PRS;LGSPEC1"
+guare,nguare,"V;SBJV;PRS"
+guare,mma nnguare,"V;SBJV;NEG;PRS"
+guare,guare,"V;IMP;PRS"
+guare,mma nnguare,"V;IMP;NEG;PRS"
+guare,guaree,"V;HAB;PST"
+guare,annguare,"V;HAB;NEG;PST"
+guare,bɛguaree,"V;PST+IMMED"
+guare,ammbɛguare,"V;NEG;PST+IMMED"
+guare,kɔguaree,"V;PST;LGSPEC1"
+guare,ammkɔguare,"V;NEG;PST;LGSPEC1"
+guare,nna reguare,"V;HAB+PROG;PST"
+guare,nna rennguare,"V;HAB+PROG;NEG;PST"
+guare,nna rebɛguare,"V;PROG;PST+IMMED"
+guare,nna remmbɛguare,"V;PROG;NEG;PST+IMMED"
+guare,nna rekɔguare,"V;PROG;PST;LGSPEC1"
+guare,nna rennkɔguare,"V;PROG;NEG;PST;LGSPEC1"
+guare,nna aguare,"V;HAB+PRF;PST"
+guare,nna nnguaree,"V;HAB+PRF;NEG;PST"
+guare,nna abɛguare,"V;PRF;PST+IMMED"
+guare,nna mmbɛguaree,"V;PRF;NEG;PST+IMMED"
+guare,nna akɔguare,"V;PRF;PST;LGSPEC1"
+guare,nna nnkɔguaree,"V;PRF;NEG;PST;LGSPEC1"
+guare,bɛguare,"V;HAB;FUT"
+guare,rennguare,"V;HAB;NEG;FUT"
+tɔ,tɔ,"V;NFIN"
+tɔ,tɔ,"V;HAB;PRS"
+tɔ,nntɔ,"V;HAB;NEG;PRS"
+tɔ,kɔtɔ,"V;PRS;LGSPEC1"
+tɔ,nnkɔtɔ,"V;NEG;PRS;LGSPEC1"
+tɔ,retɔ,"V;HAB+PROG;PRS"
+tɔ,renntɔ,"V;HAB+PROG;NEG;PRS"
+tɔ,rebɛtɔ,"V;PROG;PRS+IMMED"
+tɔ,remmbɛtɔ,"V;PROG;NEG;PRS+IMMED"
+tɔ,rekɔtɔ,"V;PROG;PRS;LGSPEC1"
+tɔ,rennkɔtɔ,"V;PROG;NEG;PRS;LGSPEC1"
+tɔ,atɔ,"V;HAB+PRF;PRS"
+tɔ,nntɔee,"V;HAB+PRF;NEG;PRS"
+tɔ,abɛtɔ,"V;PRF;PRS+IMMED"
+tɔ,mmbɛtɔee,"V;PRF;NEG;PRS+IMMED"
+tɔ,akɔtɔ,"V;PRF;PRS;LGSPEC1"
+tɔ,nnkɔtɔee,"V;PRF;NEG;PRS;LGSPEC1"
+tɔ,ntɔ,"V;SBJV;PRS"
+tɔ,mma nntɔ,"V;SBJV;NEG;PRS"
+tɔ,tɔ,"V;IMP;PRS"
+tɔ,mma nntɔ,"V;IMP;NEG;PRS"
+tɔ,tɔee,"V;HAB;PST"
+tɔ,anntɔ,"V;HAB;NEG;PST"
+tɔ,bɛtɔee,"V;PST+IMMED"
+tɔ,ammbɛtɔ,"V;NEG;PST+IMMED"
+tɔ,kɔtɔee,"V;PST;LGSPEC1"
+tɔ,ammkɔtɔ,"V;NEG;PST;LGSPEC1"
+tɔ,nna retɔ,"V;HAB+PROG;PST"
+tɔ,nna renntɔ,"V;HAB+PROG;NEG;PST"
+tɔ,nna rebɛtɔ,"V;PROG;PST+IMMED"
+tɔ,nna remmbɛtɔ,"V;PROG;NEG;PST+IMMED"
+tɔ,nna rekɔtɔ,"V;PROG;PST;LGSPEC1"
+tɔ,nna rennkɔtɔ,"V;PROG;NEG;PST;LGSPEC1"
+tɔ,nna atɔ,"V;HAB+PRF;PST"
+tɔ,nna nntɔee,"V;HAB+PRF;NEG;PST"
+tɔ,nna abɛtɔ,"V;PRF;PST+IMMED"
+tɔ,nna mmbɛtɔee,"V;PRF;NEG;PST+IMMED"
+tɔ,nna akɔtɔ,"V;PRF;PST;LGSPEC1"
+tɔ,nna nnkɔtɔee,"V;PRF;NEG;PST;LGSPEC1"
+tɔ,bɛtɔ,"V;HAB;FUT"
+tɔ,renntɔ,"V;HAB;NEG;FUT"
+frɛ,frɛ,"V;NFIN"
+frɛ,frɛ,"V;HAB;PRS"
+frɛ,mmfrɛ,"V;HAB;NEG;PRS"
+frɛ,kɔfrɛ,"V;PRS;LGSPEC1"
+frɛ,nnkɔfrɛ,"V;NEG;PRS;LGSPEC1"
+frɛ,refrɛ,"V;HAB+PROG;PRS"
+frɛ,remmfrɛ,"V;HAB+PROG;NEG;PRS"
+frɛ,rebɛfrɛ,"V;PROG;PRS+IMMED"
+frɛ,remmbɛfrɛ,"V;PROG;NEG;PRS+IMMED"
+frɛ,rekɔfrɛ,"V;PROG;PRS;LGSPEC1"
+frɛ,rennkɔfrɛ,"V;PROG;NEG;PRS;LGSPEC1"
+frɛ,afrɛ,"V;HAB+PRF;PRS"
+frɛ,mmfrɛee,"V;HAB+PRF;NEG;PRS"
+frɛ,abɛfrɛ,"V;PRF;PRS+IMMED"
+frɛ,mmbɛfrɛee,"V;PRF;NEG;PRS+IMMED"
+frɛ,akɔfrɛ,"V;PRF;PRS;LGSPEC1"
+frɛ,nnkɔfrɛee,"V;PRF;NEG;PRS;LGSPEC1"
+frɛ,mfrɛ,"V;SBJV;PRS"
+frɛ,mma mmfrɛ,"V;SBJV;NEG;PRS"
+frɛ,frɛ,"V;IMP;PRS"
+frɛ,mma mmfrɛ,"V;IMP;NEG;PRS"
+frɛ,frɛee,"V;HAB;PST"
+frɛ,ammfrɛ,"V;HAB;NEG;PST"
+frɛ,bɛfrɛee,"V;PST+IMMED"
+frɛ,ammbɛfrɛ,"V;NEG;PST+IMMED"
+frɛ,kɔfrɛee,"V;PST;LGSPEC1"
+frɛ,ammkɔfrɛ,"V;NEG;PST;LGSPEC1"
+frɛ,nna refrɛ,"V;HAB+PROG;PST"
+frɛ,nna remmfrɛ,"V;HAB+PROG;NEG;PST"
+frɛ,nna rebɛfrɛ,"V;PROG;PST+IMMED"
+frɛ,nna remmbɛfrɛ,"V;PROG;NEG;PST+IMMED"
+frɛ,nna rekɔfrɛ,"V;PROG;PST;LGSPEC1"
+frɛ,nna rennkɔfrɛ,"V;PROG;NEG;PST;LGSPEC1"
+frɛ,nna afrɛ,"V;HAB+PRF;PST"
+frɛ,nna mmfrɛee,"V;HAB+PRF;NEG;PST"
+frɛ,nna abɛfrɛ,"V;PRF;PST+IMMED"
+frɛ,nna mmbɛfrɛee,"V;PRF;NEG;PST+IMMED"
+frɛ,nna akɔfrɛ,"V;PRF;PST;LGSPEC1"
+frɛ,nna nnkɔfrɛee,"V;PRF;NEG;PST;LGSPEC1"
+frɛ,bɛfrɛ,"V;HAB;FUT"
+frɛ,remmfrɛ,"V;HAB;NEG;FUT"
+bɔ nsamu,bɔ nsamu,"V;NFIN"
+bɔ nsamu,bɔ nsamu,"V;HAB;PRS"
+bɔ nsamu,mmbɔ nsamu,"V;HAB;NEG;PRS"
+bɔ nsamu,kɔbɔ nsamu,"V;PRS;LGSPEC1"
+bɔ nsamu,nnkɔbɔ nsamu,"V;NEG;PRS;LGSPEC1"
+bɔ nsamu,rebɔ nsamu,"V;HAB+PROG;PRS"
+bɔ nsamu,remmbɔ nsamu,"V;HAB+PROG;NEG;PRS"
+bɔ nsamu,rebɛbɔ nsamu,"V;PROG;PRS+IMMED"
+bɔ nsamu,remmbɛbɔ nsamu,"V;PROG;NEG;PRS+IMMED"
+bɔ nsamu,rekɔbɔ nsamu,"V;PROG;PRS;LGSPEC1"
+bɔ nsamu,rennkɔbɔ nsamu,"V;PROG;NEG;PRS;LGSPEC1"
+bɔ nsamu,abɔ nsamu,"V;HAB+PRF;PRS"
+bɔ nsamu,mmbɔ nsamuee,"V;HAB+PRF;NEG;PRS"
+bɔ nsamu,abɛbɔ nsamu,"V;PRF;PRS+IMMED"
+bɔ nsamu,mmbɛbɔ nsamuee,"V;PRF;NEG;PRS+IMMED"
+bɔ nsamu,akɔbɔ nsamu,"V;PRF;PRS;LGSPEC1"
+bɔ nsamu,nnkɔbɔ nsamuee,"V;PRF;NEG;PRS;LGSPEC1"
+bɔ nsamu,mbɔ nsamu,"V;SBJV;PRS"
+bɔ nsamu,mma mmbɔ nsamu,"V;SBJV;NEG;PRS"
+bɔ nsamu,bɔ nsamu,"V;IMP;PRS"
+bɔ nsamu,mma mmbɔ nsamu,"V;IMP;NEG;PRS"
+bɔ nsamu,bɔ nsamuee,"V;HAB;PST"
+bɔ nsamu,ammbɔ nsamu,"V;HAB;NEG;PST"
+bɔ nsamu,bɛbɔ nsamuee,"V;PST+IMMED"
+bɔ nsamu,ammbɛbɔ nsamu,"V;NEG;PST+IMMED"
+bɔ nsamu,kɔbɔ nsamuee,"V;PST;LGSPEC1"
+bɔ nsamu,ammkɔbɔ nsamu,"V;NEG;PST;LGSPEC1"
+bɔ nsamu,nna rebɔ nsamu,"V;HAB+PROG;PST"
+bɔ nsamu,nna remmbɔ nsamu,"V;HAB+PROG;NEG;PST"
+bɔ nsamu,nna rebɛbɔ nsamu,"V;PROG;PST+IMMED"
+bɔ nsamu,nna remmbɛbɔ nsamu,"V;PROG;NEG;PST+IMMED"
+bɔ nsamu,nna rekɔbɔ nsamu,"V;PROG;PST;LGSPEC1"
+bɔ nsamu,nna rennkɔbɔ nsamu,"V;PROG;NEG;PST;LGSPEC1"
+bɔ nsamu,nna abɔ nsamu,"V;HAB+PRF;PST"
+bɔ nsamu,nna mmbɔ nsamuee,"V;HAB+PRF;NEG;PST"
+bɔ nsamu,nna abɛbɔ nsamu,"V;PRF;PST+IMMED"
+bɔ nsamu,nna mmbɛbɔ nsamuee,"V;PRF;NEG;PST+IMMED"
+bɔ nsamu,nna akɔbɔ nsamu,"V;PRF;PST;LGSPEC1"
+bɔ nsamu,nna nnkɔbɔ nsamuee,"V;PRF;NEG;PST;LGSPEC1"
+bɔ nsamu,bɛbɔ nsamu,"V;HAB;FUT"
+bɔ nsamu,remmbɔ nsamu,"V;HAB;NEG;FUT"
+we,we,"V;NFIN"
+we,we,"V;HAB;PRS"
+we,nnwe,"V;HAB;NEG;PRS"
+we,kɔwe,"V;PRS;LGSPEC1"
+we,nnkɔwe,"V;NEG;PRS;LGSPEC1"
+we,rewe,"V;HAB+PROG;PRS"
+we,rennwe,"V;HAB+PROG;NEG;PRS"
+we,rebɛwe,"V;PROG;PRS+IMMED"
+we,remmbɛwe,"V;PROG;NEG;PRS+IMMED"
+we,rekɔwe,"V;PROG;PRS;LGSPEC1"
+we,rennkɔwe,"V;PROG;NEG;PRS;LGSPEC1"
+we,awe,"V;HAB+PRF;PRS"
+we,nnwee,"V;HAB+PRF;NEG;PRS"
+we,abɛwe,"V;PRF;PRS+IMMED"
+we,mmbɛwee,"V;PRF;NEG;PRS+IMMED"
+we,akɔwe,"V;PRF;PRS;LGSPEC1"
+we,nnkɔwee,"V;PRF;NEG;PRS;LGSPEC1"
+we,nwe,"V;SBJV;PRS"
+we,mma nnwe,"V;SBJV;NEG;PRS"
+we,we,"V;IMP;PRS"
+we,mma nnwe,"V;IMP;NEG;PRS"
+we,wee,"V;HAB;PST"
+we,annwe,"V;HAB;NEG;PST"
+we,bɛwee,"V;PST+IMMED"
+we,ammbɛwe,"V;NEG;PST+IMMED"
+we,kɔwee,"V;PST;LGSPEC1"
+we,ammkɔwe,"V;NEG;PST;LGSPEC1"
+we,nna rewe,"V;HAB+PROG;PST"
+we,nna rennwe,"V;HAB+PROG;NEG;PST"
+we,nna rebɛwe,"V;PROG;PST+IMMED"
+we,nna remmbɛwe,"V;PROG;NEG;PST+IMMED"
+we,nna rekɔwe,"V;PROG;PST;LGSPEC1"
+we,nna rennkɔwe,"V;PROG;NEG;PST;LGSPEC1"
+we,nna awe,"V;HAB+PRF;PST"
+we,nna nnwee,"V;HAB+PRF;NEG;PST"
+we,nna abɛwe,"V;PRF;PST+IMMED"
+we,nna mmbɛwee,"V;PRF;NEG;PST+IMMED"
+we,nna akɔwe,"V;PRF;PST;LGSPEC1"
+we,nna nnkɔwee,"V;PRF;NEG;PST;LGSPEC1"
+we,bɛwe,"V;HAB;FUT"
+we,rennwe,"V;HAB;NEG;FUT"
+fow,fow,"V;NFIN"
+fow,fow,"V;HAB;PRS"
+fow,mmfow,"V;HAB;NEG;PRS"
+fow,kɔfow,"V;PRS;LGSPEC1"
+fow,nnkɔfow,"V;NEG;PRS;LGSPEC1"
+fow,refow,"V;HAB+PROG;PRS"
+fow,remmfow,"V;HAB+PROG;NEG;PRS"
+fow,rebɛfow,"V;PROG;PRS+IMMED"
+fow,remmbɛfow,"V;PROG;NEG;PRS+IMMED"
+fow,rekɔfow,"V;PROG;PRS;LGSPEC1"
+fow,rennkɔfow,"V;PROG;NEG;PRS;LGSPEC1"
+fow,afow,"V;HAB+PRF;PRS"
+fow,mmfowee,"V;HAB+PRF;NEG;PRS"
+fow,abɛfow,"V;PRF;PRS+IMMED"
+fow,mmbɛfowee,"V;PRF;NEG;PRS+IMMED"
+fow,akɔfow,"V;PRF;PRS;LGSPEC1"
+fow,nnkɔfowee,"V;PRF;NEG;PRS;LGSPEC1"
+fow,mfow,"V;SBJV;PRS"
+fow,mma mmfow,"V;SBJV;NEG;PRS"
+fow,fow,"V;IMP;PRS"
+fow,mma mmfow,"V;IMP;NEG;PRS"
+fow,fowee,"V;HAB;PST"
+fow,ammfow,"V;HAB;NEG;PST"
+fow,bɛfowee,"V;PST+IMMED"
+fow,ammbɛfow,"V;NEG;PST+IMMED"
+fow,kɔfowee,"V;PST;LGSPEC1"
+fow,ammkɔfow,"V;NEG;PST;LGSPEC1"
+fow,nna refow,"V;HAB+PROG;PST"
+fow,nna remmfow,"V;HAB+PROG;NEG;PST"
+fow,nna rebɛfow,"V;PROG;PST+IMMED"
+fow,nna remmbɛfow,"V;PROG;NEG;PST+IMMED"
+fow,nna rekɔfow,"V;PROG;PST;LGSPEC1"
+fow,nna rennkɔfow,"V;PROG;NEG;PST;LGSPEC1"
+fow,nna afow,"V;HAB+PRF;PST"
+fow,nna mmfowee,"V;HAB+PRF;NEG;PST"
+fow,nna abɛfow,"V;PRF;PST+IMMED"
+fow,nna mmbɛfowee,"V;PRF;NEG;PST+IMMED"
+fow,nna akɔfow,"V;PRF;PST;LGSPEC1"
+fow,nna nnkɔfowee,"V;PRF;NEG;PST;LGSPEC1"
+fow,bɛfow,"V;HAB;FUT"
+fow,remmfow,"V;HAB;NEG;FUT"
+tow .. mu,tow .. mu,"V;NFIN"
+tow .. mu,tow .. mu,"V;HAB;PRS"
+tow .. mu,nntow .. mu,"V;HAB;NEG;PRS"
+tow .. mu,kɔtow .. mu,"V;PRS;LGSPEC1"
+tow .. mu,nnkɔtow .. mu,"V;NEG;PRS;LGSPEC1"
+tow .. mu,retow .. mu,"V;HAB+PROG;PRS"
+tow .. mu,renntow .. mu,"V;HAB+PROG;NEG;PRS"
+tow .. mu,rebɛtow .. mu,"V;PROG;PRS+IMMED"
+tow .. mu,remmbɛtow .. mu,"V;PROG;NEG;PRS+IMMED"
+tow .. mu,rekɔtow .. mu,"V;PROG;PRS;LGSPEC1"
+tow .. mu,rennkɔtow .. mu,"V;PROG;NEG;PRS;LGSPEC1"
+tow .. mu,atow .. mu,"V;HAB+PRF;PRS"
+tow .. mu,nntow .. muee,"V;HAB+PRF;NEG;PRS"
+tow .. mu,abɛtow .. mu,"V;PRF;PRS+IMMED"
+tow .. mu,mmbɛtow .. muee,"V;PRF;NEG;PRS+IMMED"
+tow .. mu,akɔtow .. mu,"V;PRF;PRS;LGSPEC1"
+tow .. mu,nnkɔtow .. muee,"V;PRF;NEG;PRS;LGSPEC1"
+tow .. mu,ntow .. mu,"V;SBJV;PRS"
+tow .. mu,mma nntow .. mu,"V;SBJV;NEG;PRS"
+tow .. mu,tow .. mu,"V;IMP;PRS"
+tow .. mu,mma nntow .. mu,"V;IMP;NEG;PRS"
+tow .. mu,tow .. muee,"V;HAB;PST"
+tow .. mu,anntow .. mu,"V;HAB;NEG;PST"
+tow .. mu,bɛtow .. muee,"V;PST+IMMED"
+tow .. mu,ammbɛtow .. mu,"V;NEG;PST+IMMED"
+tow .. mu,kɔtow .. muee,"V;PST;LGSPEC1"
+tow .. mu,ammkɔtow .. mu,"V;NEG;PST;LGSPEC1"
+tow .. mu,nna retow .. mu,"V;HAB+PROG;PST"
+tow .. mu,nna renntow .. mu,"V;HAB+PROG;NEG;PST"
+tow .. mu,nna rebɛtow .. mu,"V;PROG;PST+IMMED"
+tow .. mu,nna remmbɛtow .. mu,"V;PROG;NEG;PST+IMMED"
+tow .. mu,nna rekɔtow .. mu,"V;PROG;PST;LGSPEC1"
+tow .. mu,nna rennkɔtow .. mu,"V;PROG;NEG;PST;LGSPEC1"
+tow .. mu,nna atow .. mu,"V;HAB+PRF;PST"
+tow .. mu,nna nntow .. muee,"V;HAB+PRF;NEG;PST"
+tow .. mu,nna abɛtow .. mu,"V;PRF;PST+IMMED"
+tow .. mu,nna mmbɛtow .. muee,"V;PRF;NEG;PST+IMMED"
+tow .. mu,nna akɔtow .. mu,"V;PRF;PST;LGSPEC1"
+tow .. mu,nna nnkɔtow .. muee,"V;PRF;NEG;PST;LGSPEC1"
+tow .. mu,bɛtow .. mu,"V;HAB;FUT"
+tow .. mu,renntow .. mu,"V;HAB;NEG;FUT"
+gye,gye,"V;NFIN"
+gye,gye,"V;HAB;PRS"
+gye,nngye,"V;HAB;NEG;PRS"
+gye,kɔgye,"V;PRS;LGSPEC1"
+gye,nnkɔgye,"V;NEG;PRS;LGSPEC1"
+gye,regye,"V;HAB+PROG;PRS"
+gye,renngye,"V;HAB+PROG;NEG;PRS"
+gye,rebɛgye,"V;PROG;PRS+IMMED"
+gye,remmbɛgye,"V;PROG;NEG;PRS+IMMED"
+gye,rekɔgye,"V;PROG;PRS;LGSPEC1"
+gye,rennkɔgye,"V;PROG;NEG;PRS;LGSPEC1"
+gye,agye,"V;HAB+PRF;PRS"
+gye,nngyee,"V;HAB+PRF;NEG;PRS"
+gye,abɛgye,"V;PRF;PRS+IMMED"
+gye,mmbɛgyee,"V;PRF;NEG;PRS+IMMED"
+gye,akɔgye,"V;PRF;PRS;LGSPEC1"
+gye,nnkɔgyee,"V;PRF;NEG;PRS;LGSPEC1"
+gye,ngye,"V;SBJV;PRS"
+gye,mma nngye,"V;SBJV;NEG;PRS"
+gye,gye,"V;IMP;PRS"
+gye,mma nngye,"V;IMP;NEG;PRS"
+gye,gyee,"V;HAB;PST"
+gye,anngye,"V;HAB;NEG;PST"
+gye,bɛgyee,"V;PST+IMMED"
+gye,ammbɛgye,"V;NEG;PST+IMMED"
+gye,kɔgyee,"V;PST;LGSPEC1"
+gye,ammkɔgye,"V;NEG;PST;LGSPEC1"
+gye,nna regye,"V;HAB+PROG;PST"
+gye,nna renngye,"V;HAB+PROG;NEG;PST"
+gye,nna rebɛgye,"V;PROG;PST+IMMED"
+gye,nna remmbɛgye,"V;PROG;NEG;PST+IMMED"
+gye,nna rekɔgye,"V;PROG;PST;LGSPEC1"
+gye,nna rennkɔgye,"V;PROG;NEG;PST;LGSPEC1"
+gye,nna agye,"V;HAB+PRF;PST"
+gye,nna nngyee,"V;HAB+PRF;NEG;PST"
+gye,nna abɛgye,"V;PRF;PST+IMMED"
+gye,nna mmbɛgyee,"V;PRF;NEG;PST+IMMED"
+gye,nna akɔgye,"V;PRF;PST;LGSPEC1"
+gye,nna nnkɔgyee,"V;PRF;NEG;PST;LGSPEC1"
+gye,bɛgye,"V;HAB;FUT"
+gye,renngye,"V;HAB;NEG;FUT"
+ba,ba,"V;NFIN"
+ba,ba,"V;HAB;PRS"
+ba,mmba,"V;HAB;NEG;PRS"
+ba,kɔba,"V;PRS;LGSPEC1"
+ba,nnkɔba,"V;NEG;PRS;LGSPEC1"
+ba,reba,"V;HAB+PROG;PRS"
+ba,remmba,"V;HAB+PROG;NEG;PRS"
+ba,rebɛba,"V;PROG;PRS+IMMED"
+ba,remmbɛba,"V;PROG;NEG;PRS+IMMED"
+ba,rekɔba,"V;PROG;PRS;LGSPEC1"
+ba,rennkɔba,"V;PROG;NEG;PRS;LGSPEC1"
+ba,aba,"V;HAB+PRF;PRS"
+ba,mmbaee,"V;HAB+PRF;NEG;PRS"
+ba,abɛba,"V;PRF;PRS+IMMED"
+ba,mmbɛbaee,"V;PRF;NEG;PRS+IMMED"
+ba,akɔba,"V;PRF;PRS;LGSPEC1"
+ba,nnkɔbaee,"V;PRF;NEG;PRS;LGSPEC1"
+ba,mba,"V;SBJV;PRS"
+ba,mma mmba,"V;SBJV;NEG;PRS"
+ba,ba,"V;IMP;PRS"
+ba,mma mmba,"V;IMP;NEG;PRS"
+ba,baee,"V;HAB;PST"
+ba,ammba,"V;HAB;NEG;PST"
+ba,bɛbaee,"V;PST+IMMED"
+ba,ammbɛba,"V;NEG;PST+IMMED"
+ba,kɔbaee,"V;PST;LGSPEC1"
+ba,ammkɔba,"V;NEG;PST;LGSPEC1"
+ba,nna reba,"V;HAB+PROG;PST"
+ba,nna remmba,"V;HAB+PROG;NEG;PST"
+ba,nna rebɛba,"V;PROG;PST+IMMED"
+ba,nna remmbɛba,"V;PROG;NEG;PST+IMMED"
+ba,nna rekɔba,"V;PROG;PST;LGSPEC1"
+ba,nna rennkɔba,"V;PROG;NEG;PST;LGSPEC1"
+ba,nna aba,"V;HAB+PRF;PST"
+ba,nna mmbaee,"V;HAB+PRF;NEG;PST"
+ba,nna abɛba,"V;PRF;PST+IMMED"
+ba,nna mmbɛbaee,"V;PRF;NEG;PST+IMMED"
+ba,nna akɔba,"V;PRF;PST;LGSPEC1"
+ba,nna nnkɔbaee,"V;PRF;NEG;PST;LGSPEC1"
+ba,bɛba,"V;HAB;FUT"
+ba,remmba,"V;HAB;NEG;FUT"
+bɔ waw,bɔ waw,"V;NFIN"
+bɔ waw,bɔ waw,"V;HAB;PRS"
+bɔ waw,mmbɔ waw,"V;HAB;NEG;PRS"
+bɔ waw,kɔbɔ waw,"V;PRS;LGSPEC1"
+bɔ waw,nnkɔbɔ waw,"V;NEG;PRS;LGSPEC1"
+bɔ waw,rebɔ waw,"V;HAB+PROG;PRS"
+bɔ waw,remmbɔ waw,"V;HAB+PROG;NEG;PRS"
+bɔ waw,rebɛbɔ waw,"V;PROG;PRS+IMMED"
+bɔ waw,remmbɛbɔ waw,"V;PROG;NEG;PRS+IMMED"
+bɔ waw,rekɔbɔ waw,"V;PROG;PRS;LGSPEC1"
+bɔ waw,rennkɔbɔ waw,"V;PROG;NEG;PRS;LGSPEC1"
+bɔ waw,abɔ waw,"V;HAB+PRF;PRS"
+bɔ waw,mmbɔ wawee,"V;HAB+PRF;NEG;PRS"
+bɔ waw,abɛbɔ waw,"V;PRF;PRS+IMMED"
+bɔ waw,mmbɛbɔ wawee,"V;PRF;NEG;PRS+IMMED"
+bɔ waw,akɔbɔ waw,"V;PRF;PRS;LGSPEC1"
+bɔ waw,nnkɔbɔ wawee,"V;PRF;NEG;PRS;LGSPEC1"
+bɔ waw,mbɔ waw,"V;SBJV;PRS"
+bɔ waw,mma mmbɔ waw,"V;SBJV;NEG;PRS"
+bɔ waw,bɔ waw,"V;IMP;PRS"
+bɔ waw,mma mmbɔ waw,"V;IMP;NEG;PRS"
+bɔ waw,bɔ wawee,"V;HAB;PST"
+bɔ waw,ammbɔ waw,"V;HAB;NEG;PST"
+bɔ waw,bɛbɔ wawee,"V;PST+IMMED"
+bɔ waw,ammbɛbɔ waw,"V;NEG;PST+IMMED"
+bɔ waw,kɔbɔ wawee,"V;PST;LGSPEC1"
+bɔ waw,ammkɔbɔ waw,"V;NEG;PST;LGSPEC1"
+bɔ waw,nna rebɔ waw,"V;HAB+PROG;PST"
+bɔ waw,nna remmbɔ waw,"V;HAB+PROG;NEG;PST"
+bɔ waw,nna rebɛbɔ waw,"V;PROG;PST+IMMED"
+bɔ waw,nna remmbɛbɔ waw,"V;PROG;NEG;PST+IMMED"
+bɔ waw,nna rekɔbɔ waw,"V;PROG;PST;LGSPEC1"
+bɔ waw,nna rennkɔbɔ waw,"V;PROG;NEG;PST;LGSPEC1"
+bɔ waw,nna abɔ waw,"V;HAB+PRF;PST"
+bɔ waw,nna mmbɔ wawee,"V;HAB+PRF;NEG;PST"
+bɔ waw,nna abɛbɔ waw,"V;PRF;PST+IMMED"
+bɔ waw,nna mmbɛbɔ wawee,"V;PRF;NEG;PST+IMMED"
+bɔ waw,nna akɔbɔ waw,"V;PRF;PST;LGSPEC1"
+bɔ waw,nna nnkɔbɔ wawee,"V;PRF;NEG;PST;LGSPEC1"
+bɔ waw,bɛbɔ waw,"V;HAB;FUT"
+bɔ waw,remmbɔ waw,"V;HAB;NEG;FUT"
+su,su,"V;NFIN"
+su,su,"V;HAB;PRS"
+su,nnsu,"V;HAB;NEG;PRS"
+su,kɔsu,"V;PRS;LGSPEC1"
+su,nnkɔsu,"V;NEG;PRS;LGSPEC1"
+su,resu,"V;HAB+PROG;PRS"
+su,rennsu,"V;HAB+PROG;NEG;PRS"
+su,rebɛsu,"V;PROG;PRS+IMMED"
+su,remmbɛsu,"V;PROG;NEG;PRS+IMMED"
+su,rekɔsu,"V;PROG;PRS;LGSPEC1"
+su,rennkɔsu,"V;PROG;NEG;PRS;LGSPEC1"
+su,asu,"V;HAB+PRF;PRS"
+su,nnsuee,"V;HAB+PRF;NEG;PRS"
+su,abɛsu,"V;PRF;PRS+IMMED"
+su,mmbɛsuee,"V;PRF;NEG;PRS+IMMED"
+su,akɔsu,"V;PRF;PRS;LGSPEC1"
+su,nnkɔsuee,"V;PRF;NEG;PRS;LGSPEC1"
+su,nsu,"V;SBJV;PRS"
+su,mma nnsu,"V;SBJV;NEG;PRS"
+su,su,"V;IMP;PRS"
+su,mma nnsu,"V;IMP;NEG;PRS"
+su,suee,"V;HAB;PST"
+su,annsu,"V;HAB;NEG;PST"
+su,bɛsuee,"V;PST+IMMED"
+su,ammbɛsu,"V;NEG;PST+IMMED"
+su,kɔsuee,"V;PST;LGSPEC1"
+su,ammkɔsu,"V;NEG;PST;LGSPEC1"
+su,nna resu,"V;HAB+PROG;PST"
+su,nna rennsu,"V;HAB+PROG;NEG;PST"
+su,nna rebɛsu,"V;PROG;PST+IMMED"
+su,nna remmbɛsu,"V;PROG;NEG;PST+IMMED"
+su,nna rekɔsu,"V;PROG;PST;LGSPEC1"
+su,nna rennkɔsu,"V;PROG;NEG;PST;LGSPEC1"
+su,nna asu,"V;HAB+PRF;PST"
+su,nna nnsuee,"V;HAB+PRF;NEG;PST"
+su,nna abɛsu,"V;PRF;PST+IMMED"
+su,nna mmbɛsuee,"V;PRF;NEG;PST+IMMED"
+su,nna akɔsu,"V;PRF;PST;LGSPEC1"
+su,nna nnkɔsuee,"V;PRF;NEG;PST;LGSPEC1"
+su,bɛsu,"V;HAB;FUT"
+su,rennsu,"V;HAB;NEG;FUT"
+twa,twa,"V;NFIN"
+twa,twa,"V;HAB;PRS"
+twa,nntwa,"V;HAB;NEG;PRS"
+twa,kɔtwa,"V;PRS;LGSPEC1"
+twa,nnkɔtwa,"V;NEG;PRS;LGSPEC1"
+twa,retwa,"V;HAB+PROG;PRS"
+twa,renntwa,"V;HAB+PROG;NEG;PRS"
+twa,rebɛtwa,"V;PROG;PRS+IMMED"
+twa,remmbɛtwa,"V;PROG;NEG;PRS+IMMED"
+twa,rekɔtwa,"V;PROG;PRS;LGSPEC1"
+twa,rennkɔtwa,"V;PROG;NEG;PRS;LGSPEC1"
+twa,atwa,"V;HAB+PRF;PRS"
+twa,nntwaee,"V;HAB+PRF;NEG;PRS"
+twa,abɛtwa,"V;PRF;PRS+IMMED"
+twa,mmbɛtwaee,"V;PRF;NEG;PRS+IMMED"
+twa,akɔtwa,"V;PRF;PRS;LGSPEC1"
+twa,nnkɔtwaee,"V;PRF;NEG;PRS;LGSPEC1"
+twa,ntwa,"V;SBJV;PRS"
+twa,mma nntwa,"V;SBJV;NEG;PRS"
+twa,twa,"V;IMP;PRS"
+twa,mma nntwa,"V;IMP;NEG;PRS"
+twa,twaee,"V;HAB;PST"
+twa,anntwa,"V;HAB;NEG;PST"
+twa,bɛtwaee,"V;PST+IMMED"
+twa,ammbɛtwa,"V;NEG;PST+IMMED"
+twa,kɔtwaee,"V;PST;LGSPEC1"
+twa,ammkɔtwa,"V;NEG;PST;LGSPEC1"
+twa,nna retwa,"V;HAB+PROG;PST"
+twa,nna renntwa,"V;HAB+PROG;NEG;PST"
+twa,nna rebɛtwa,"V;PROG;PST+IMMED"
+twa,nna remmbɛtwa,"V;PROG;NEG;PST+IMMED"
+twa,nna rekɔtwa,"V;PROG;PST;LGSPEC1"
+twa,nna rennkɔtwa,"V;PROG;NEG;PST;LGSPEC1"
+twa,nna atwa,"V;HAB+PRF;PST"
+twa,nna nntwaee,"V;HAB+PRF;NEG;PST"
+twa,nna abɛtwa,"V;PRF;PST+IMMED"
+twa,nna mmbɛtwaee,"V;PRF;NEG;PST+IMMED"
+twa,nna akɔtwa,"V;PRF;PST;LGSPEC1"
+twa,nna nnkɔtwaee,"V;PRF;NEG;PST;LGSPEC1"
+twa,bɛtwa,"V;HAB;FUT"
+twa,renntwa,"V;HAB;NEG;FUT"
+saw,saw,"V;NFIN"
+saw,saw,"V;HAB;PRS"
+saw,nnsaw,"V;HAB;NEG;PRS"
+saw,kɔsaw,"V;PRS;LGSPEC1"
+saw,nnkɔsaw,"V;NEG;PRS;LGSPEC1"
+saw,resaw,"V;HAB+PROG;PRS"
+saw,rennsaw,"V;HAB+PROG;NEG;PRS"
+saw,rebɛsaw,"V;PROG;PRS+IMMED"
+saw,remmbɛsaw,"V;PROG;NEG;PRS+IMMED"
+saw,rekɔsaw,"V;PROG;PRS;LGSPEC1"
+saw,rennkɔsaw,"V;PROG;NEG;PRS;LGSPEC1"
+saw,asaw,"V;HAB+PRF;PRS"
+saw,nnsawee,"V;HAB+PRF;NEG;PRS"
+saw,abɛsaw,"V;PRF;PRS+IMMED"
+saw,mmbɛsawee,"V;PRF;NEG;PRS+IMMED"
+saw,akɔsaw,"V;PRF;PRS;LGSPEC1"
+saw,nnkɔsawee,"V;PRF;NEG;PRS;LGSPEC1"
+saw,nsaw,"V;SBJV;PRS"
+saw,mma nnsaw,"V;SBJV;NEG;PRS"
+saw,saw,"V;IMP;PRS"
+saw,mma nnsaw,"V;IMP;NEG;PRS"
+saw,sawee,"V;HAB;PST"
+saw,annsaw,"V;HAB;NEG;PST"
+saw,bɛsawee,"V;PST+IMMED"
+saw,ammbɛsaw,"V;NEG;PST+IMMED"
+saw,kɔsawee,"V;PST;LGSPEC1"
+saw,ammkɔsaw,"V;NEG;PST;LGSPEC1"
+saw,nna resaw,"V;HAB+PROG;PST"
+saw,nna rennsaw,"V;HAB+PROG;NEG;PST"
+saw,nna rebɛsaw,"V;PROG;PST+IMMED"
+saw,nna remmbɛsaw,"V;PROG;NEG;PST+IMMED"
+saw,nna rekɔsaw,"V;PROG;PST;LGSPEC1"
+saw,nna rennkɔsaw,"V;PROG;NEG;PST;LGSPEC1"
+saw,nna asaw,"V;HAB+PRF;PST"
+saw,nna nnsawee,"V;HAB+PRF;NEG;PST"
+saw,nna abɛsaw,"V;PRF;PST+IMMED"
+saw,nna mmbɛsawee,"V;PRF;NEG;PST+IMMED"
+saw,nna akɔsaw,"V;PRF;PST;LGSPEC1"
+saw,nna nnkɔsawee,"V;PRF;NEG;PST;LGSPEC1"
+saw,bɛsaw,"V;HAB;FUT"
+saw,rennsaw,"V;HAB;NEG;FUT"
+tew,tew,"V;NFIN"
+tew,tew,"V;HAB;PRS"
+tew,nntew,"V;HAB;NEG;PRS"
+tew,kɔtew,"V;PRS;LGSPEC1"
+tew,nnkɔtew,"V;NEG;PRS;LGSPEC1"
+tew,retew,"V;HAB+PROG;PRS"
+tew,renntew,"V;HAB+PROG;NEG;PRS"
+tew,rebɛtew,"V;PROG;PRS+IMMED"
+tew,remmbɛtew,"V;PROG;NEG;PRS+IMMED"
+tew,rekɔtew,"V;PROG;PRS;LGSPEC1"
+tew,rennkɔtew,"V;PROG;NEG;PRS;LGSPEC1"
+tew,atew,"V;HAB+PRF;PRS"
+tew,nntewee,"V;HAB+PRF;NEG;PRS"
+tew,abɛtew,"V;PRF;PRS+IMMED"
+tew,mmbɛtewee,"V;PRF;NEG;PRS+IMMED"
+tew,akɔtew,"V;PRF;PRS;LGSPEC1"
+tew,nnkɔtewee,"V;PRF;NEG;PRS;LGSPEC1"
+tew,ntew,"V;SBJV;PRS"
+tew,mma nntew,"V;SBJV;NEG;PRS"
+tew,tew,"V;IMP;PRS"
+tew,mma nntew,"V;IMP;NEG;PRS"
+tew,tewee,"V;HAB;PST"
+tew,anntew,"V;HAB;NEG;PST"
+tew,bɛtewee,"V;PST+IMMED"
+tew,ammbɛtew,"V;NEG;PST+IMMED"
+tew,kɔtewee,"V;PST;LGSPEC1"
+tew,ammkɔtew,"V;NEG;PST;LGSPEC1"
+tew,nna retew,"V;HAB+PROG;PST"
+tew,nna renntew,"V;HAB+PROG;NEG;PST"
+tew,nna rebɛtew,"V;PROG;PST+IMMED"
+tew,nna remmbɛtew,"V;PROG;NEG;PST+IMMED"
+tew,nna rekɔtew,"V;PROG;PST;LGSPEC1"
+tew,nna rennkɔtew,"V;PROG;NEG;PST;LGSPEC1"
+tew,nna atew,"V;HAB+PRF;PST"
+tew,nna nntewee,"V;HAB+PRF;NEG;PST"
+tew,nna abɛtew,"V;PRF;PST+IMMED"
+tew,nna mmbɛtewee,"V;PRF;NEG;PST+IMMED"
+tew,nna akɔtew,"V;PRF;PST;LGSPEC1"
+tew,nna nnkɔtewee,"V;PRF;NEG;PST;LGSPEC1"
+tew,bɛtew,"V;HAB;FUT"
+tew,renntew,"V;HAB;NEG;FUT"
+we,we,"V;NFIN"
+we,we,"V;HAB;PRS"
+we,nnwe,"V;HAB;NEG;PRS"
+we,kɔwe,"V;PRS;LGSPEC1"
+we,nnkɔwe,"V;NEG;PRS;LGSPEC1"
+we,rewe,"V;HAB+PROG;PRS"
+we,rennwe,"V;HAB+PROG;NEG;PRS"
+we,rebɛwe,"V;PROG;PRS+IMMED"
+we,remmbɛwe,"V;PROG;NEG;PRS+IMMED"
+we,rekɔwe,"V;PROG;PRS;LGSPEC1"
+we,rennkɔwe,"V;PROG;NEG;PRS;LGSPEC1"
+we,awe,"V;HAB+PRF;PRS"
+we,nnwee,"V;HAB+PRF;NEG;PRS"
+we,abɛwe,"V;PRF;PRS+IMMED"
+we,mmbɛwee,"V;PRF;NEG;PRS+IMMED"
+we,akɔwe,"V;PRF;PRS;LGSPEC1"
+we,nnkɔwee,"V;PRF;NEG;PRS;LGSPEC1"
+we,nwe,"V;SBJV;PRS"
+we,mma nnwe,"V;SBJV;NEG;PRS"
+we,we,"V;IMP;PRS"
+we,mma nnwe,"V;IMP;NEG;PRS"
+we,wee,"V;HAB;PST"
+we,annwe,"V;HAB;NEG;PST"
+we,bɛwee,"V;PST+IMMED"
+we,ammbɛwe,"V;NEG;PST+IMMED"
+we,kɔwee,"V;PST;LGSPEC1"
+we,ammkɔwe,"V;NEG;PST;LGSPEC1"
+we,nna rewe,"V;HAB+PROG;PST"
+we,nna rennwe,"V;HAB+PROG;NEG;PST"
+we,nna rebɛwe,"V;PROG;PST+IMMED"
+we,nna remmbɛwe,"V;PROG;NEG;PST+IMMED"
+we,nna rekɔwe,"V;PROG;PST;LGSPEC1"
+we,nna rennkɔwe,"V;PROG;NEG;PST;LGSPEC1"
+we,nna awe,"V;HAB+PRF;PST"
+we,nna nnwee,"V;HAB+PRF;NEG;PST"
+we,nna abɛwe,"V;PRF;PST+IMMED"
+we,nna mmbɛwee,"V;PRF;NEG;PST+IMMED"
+we,nna akɔwe,"V;PRF;PST;LGSPEC1"
+we,nna nnkɔwee,"V;PRF;NEG;PST;LGSPEC1"
+we,bɛwe,"V;HAB;FUT"
+we,rennwe,"V;HAB;NEG;FUT"
+tutu,tutu,"V;NFIN"
+tutu,tutu,"V;HAB;PRS"
+tutu,nntutu,"V;HAB;NEG;PRS"
+tutu,kɔtutu,"V;PRS;LGSPEC1"
+tutu,nnkɔtutu,"V;NEG;PRS;LGSPEC1"
+tutu,retutu,"V;HAB+PROG;PRS"
+tutu,renntutu,"V;HAB+PROG;NEG;PRS"
+tutu,rebɛtutu,"V;PROG;PRS+IMMED"
+tutu,remmbɛtutu,"V;PROG;NEG;PRS+IMMED"
+tutu,rekɔtutu,"V;PROG;PRS;LGSPEC1"
+tutu,rennkɔtutu,"V;PROG;NEG;PRS;LGSPEC1"
+tutu,atutu,"V;HAB+PRF;PRS"
+tutu,nntutuee,"V;HAB+PRF;NEG;PRS"
+tutu,abɛtutu,"V;PRF;PRS+IMMED"
+tutu,mmbɛtutuee,"V;PRF;NEG;PRS+IMMED"
+tutu,akɔtutu,"V;PRF;PRS;LGSPEC1"
+tutu,nnkɔtutuee,"V;PRF;NEG;PRS;LGSPEC1"
+tutu,ntutu,"V;SBJV;PRS"
+tutu,mma nntutu,"V;SBJV;NEG;PRS"
+tutu,tutu,"V;IMP;PRS"
+tutu,mma nntutu,"V;IMP;NEG;PRS"
+tutu,tutuee,"V;HAB;PST"
+tutu,anntutu,"V;HAB;NEG;PST"
+tutu,bɛtutuee,"V;PST+IMMED"
+tutu,ammbɛtutu,"V;NEG;PST+IMMED"
+tutu,kɔtutuee,"V;PST;LGSPEC1"
+tutu,ammkɔtutu,"V;NEG;PST;LGSPEC1"
+tutu,nna retutu,"V;HAB+PROG;PST"
+tutu,nna renntutu,"V;HAB+PROG;NEG;PST"
+tutu,nna rebɛtutu,"V;PROG;PST+IMMED"
+tutu,nna remmbɛtutu,"V;PROG;NEG;PST+IMMED"
+tutu,nna rekɔtutu,"V;PROG;PST;LGSPEC1"
+tutu,nna rennkɔtutu,"V;PROG;NEG;PST;LGSPEC1"
+tutu,nna atutu,"V;HAB+PRF;PST"
+tutu,nna nntutuee,"V;HAB+PRF;NEG;PST"
+tutu,nna abɛtutu,"V;PRF;PST+IMMED"
+tutu,nna mmbɛtutuee,"V;PRF;NEG;PST+IMMED"
+tutu,nna akɔtutu,"V;PRF;PST;LGSPEC1"
+tutu,nna nnkɔtutuee,"V;PRF;NEG;PST;LGSPEC1"
+tutu,bɛtutu,"V;HAB;FUT"
+tutu,renntutu,"V;HAB;NEG;FUT"
+tɔ nko,tɔ nko,"V;NFIN"
+tɔ nko,tɔ nko,"V;HAB;PRS"
+tɔ nko,nntɔ nko,"V;HAB;NEG;PRS"
+tɔ nko,kɔtɔ nko,"V;PRS;LGSPEC1"
+tɔ nko,nnkɔtɔ nko,"V;NEG;PRS;LGSPEC1"
+tɔ nko,retɔ nko,"V;HAB+PROG;PRS"
+tɔ nko,renntɔ nko,"V;HAB+PROG;NEG;PRS"
+tɔ nko,rebɛtɔ nko,"V;PROG;PRS+IMMED"
+tɔ nko,remmbɛtɔ nko,"V;PROG;NEG;PRS+IMMED"
+tɔ nko,rekɔtɔ nko,"V;PROG;PRS;LGSPEC1"
+tɔ nko,rennkɔtɔ nko,"V;PROG;NEG;PRS;LGSPEC1"
+tɔ nko,atɔ nko,"V;HAB+PRF;PRS"
+tɔ nko,nntɔ nkoee,"V;HAB+PRF;NEG;PRS"
+tɔ nko,abɛtɔ nko,"V;PRF;PRS+IMMED"
+tɔ nko,mmbɛtɔ nkoee,"V;PRF;NEG;PRS+IMMED"
+tɔ nko,akɔtɔ nko,"V;PRF;PRS;LGSPEC1"
+tɔ nko,nnkɔtɔ nkoee,"V;PRF;NEG;PRS;LGSPEC1"
+tɔ nko,ntɔ nko,"V;SBJV;PRS"
+tɔ nko,mma nntɔ nko,"V;SBJV;NEG;PRS"
+tɔ nko,tɔ nko,"V;IMP;PRS"
+tɔ nko,mma nntɔ nko,"V;IMP;NEG;PRS"
+tɔ nko,tɔ nkoee,"V;HAB;PST"
+tɔ nko,anntɔ nko,"V;HAB;NEG;PST"
+tɔ nko,bɛtɔ nkoee,"V;PST+IMMED"
+tɔ nko,ammbɛtɔ nko,"V;NEG;PST+IMMED"
+tɔ nko,kɔtɔ nkoee,"V;PST;LGSPEC1"
+tɔ nko,ammkɔtɔ nko,"V;NEG;PST;LGSPEC1"
+tɔ nko,nna retɔ nko,"V;HAB+PROG;PST"
+tɔ nko,nna renntɔ nko,"V;HAB+PROG;NEG;PST"
+tɔ nko,nna rebɛtɔ nko,"V;PROG;PST+IMMED"
+tɔ nko,nna remmbɛtɔ nko,"V;PROG;NEG;PST+IMMED"
+tɔ nko,nna rekɔtɔ nko,"V;PROG;PST;LGSPEC1"
+tɔ nko,nna rennkɔtɔ nko,"V;PROG;NEG;PST;LGSPEC1"
+tɔ nko,nna atɔ nko,"V;HAB+PRF;PST"
+tɔ nko,nna nntɔ nkoee,"V;HAB+PRF;NEG;PST"
+tɔ nko,nna abɛtɔ nko,"V;PRF;PST+IMMED"
+tɔ nko,nna mmbɛtɔ nkoee,"V;PRF;NEG;PST+IMMED"
+tɔ nko,nna akɔtɔ nko,"V;PRF;PST;LGSPEC1"
+tɔ nko,nna nnkɔtɔ nkoee,"V;PRF;NEG;PST;LGSPEC1"
+tɔ nko,bɛtɔ nko,"V;HAB;FUT"
+tɔ nko,renntɔ nko,"V;HAB;NEG;FUT"
+so dae,so dae,"V;NFIN"
+so dae,so dae,"V;HAB;PRS"
+so dae,nnso dae,"V;HAB;NEG;PRS"
+so dae,kɔso dae,"V;PRS;LGSPEC1"
+so dae,nnkɔso dae,"V;NEG;PRS;LGSPEC1"
+so dae,reso dae,"V;HAB+PROG;PRS"
+so dae,rennso dae,"V;HAB+PROG;NEG;PRS"
+so dae,rebɛso dae,"V;PROG;PRS+IMMED"
+so dae,remmbɛso dae,"V;PROG;NEG;PRS+IMMED"
+so dae,rekɔso dae,"V;PROG;PRS;LGSPEC1"
+so dae,rennkɔso dae,"V;PROG;NEG;PRS;LGSPEC1"
+so dae,aso dae,"V;HAB+PRF;PRS"
+so dae,nnso daee,"V;HAB+PRF;NEG;PRS"
+so dae,abɛso dae,"V;PRF;PRS+IMMED"
+so dae,mmbɛso daee,"V;PRF;NEG;PRS+IMMED"
+so dae,akɔso dae,"V;PRF;PRS;LGSPEC1"
+so dae,nnkɔso daee,"V;PRF;NEG;PRS;LGSPEC1"
+so dae,nso dae,"V;SBJV;PRS"
+so dae,mma nnso dae,"V;SBJV;NEG;PRS"
+so dae,so dae,"V;IMP;PRS"
+so dae,mma nnso dae,"V;IMP;NEG;PRS"
+so dae,so daee,"V;HAB;PST"
+so dae,annso dae,"V;HAB;NEG;PST"
+so dae,bɛso daee,"V;PST+IMMED"
+so dae,ammbɛso dae,"V;NEG;PST+IMMED"
+so dae,kɔso daee,"V;PST;LGSPEC1"
+so dae,ammkɔso dae,"V;NEG;PST;LGSPEC1"
+so dae,nna reso dae,"V;HAB+PROG;PST"
+so dae,nna rennso dae,"V;HAB+PROG;NEG;PST"
+so dae,nna rebɛso dae,"V;PROG;PST+IMMED"
+so dae,nna remmbɛso dae,"V;PROG;NEG;PST+IMMED"
+so dae,nna rekɔso dae,"V;PROG;PST;LGSPEC1"
+so dae,nna rennkɔso dae,"V;PROG;NEG;PST;LGSPEC1"
+so dae,nna aso dae,"V;HAB+PRF;PST"
+so dae,nna nnso daee,"V;HAB+PRF;NEG;PST"
+so dae,nna abɛso dae,"V;PRF;PST+IMMED"
+so dae,nna mmbɛso daee,"V;PRF;NEG;PST+IMMED"
+so dae,nna akɔso dae,"V;PRF;PST;LGSPEC1"
+so dae,nna nnkɔso daee,"V;PRF;NEG;PST;LGSPEC1"
+so dae,bɛso dae,"V;HAB;FUT"
+so dae,rennso dae,"V;HAB;NEG;FUT"
+nom,nom,"V;NFIN"
+nom,nom,"V;HAB;PRS"
+nom,nnnom,"V;HAB;NEG;PRS"
+nom,kɔnom,"V;PRS;LGSPEC1"
+nom,nnkɔnom,"V;NEG;PRS;LGSPEC1"
+nom,renom,"V;HAB+PROG;PRS"
+nom,rennnom,"V;HAB+PROG;NEG;PRS"
+nom,rebɛnom,"V;PROG;PRS+IMMED"
+nom,remmbɛnom,"V;PROG;NEG;PRS+IMMED"
+nom,rekɔnom,"V;PROG;PRS;LGSPEC1"
+nom,rennkɔnom,"V;PROG;NEG;PRS;LGSPEC1"
+nom,anom,"V;HAB+PRF;PRS"
+nom,nnnomee,"V;HAB+PRF;NEG;PRS"
+nom,abɛnom,"V;PRF;PRS+IMMED"
+nom,mmbɛnomee,"V;PRF;NEG;PRS+IMMED"
+nom,akɔnom,"V;PRF;PRS;LGSPEC1"
+nom,nnkɔnomee,"V;PRF;NEG;PRS;LGSPEC1"
+nom,nnom,"V;SBJV;PRS"
+nom,mma nnnom,"V;SBJV;NEG;PRS"
+nom,nom,"V;IMP;PRS"
+nom,mma nnnom,"V;IMP;NEG;PRS"
+nom,nomee,"V;HAB;PST"
+nom,annnom,"V;HAB;NEG;PST"
+nom,bɛnomee,"V;PST+IMMED"
+nom,ammbɛnom,"V;NEG;PST+IMMED"
+nom,kɔnomee,"V;PST;LGSPEC1"
+nom,ammkɔnom,"V;NEG;PST;LGSPEC1"
+nom,nna renom,"V;HAB+PROG;PST"
+nom,nna rennnom,"V;HAB+PROG;NEG;PST"
+nom,nna rebɛnom,"V;PROG;PST+IMMED"
+nom,nna remmbɛnom,"V;PROG;NEG;PST+IMMED"
+nom,nna rekɔnom,"V;PROG;PST;LGSPEC1"
+nom,nna rennkɔnom,"V;PROG;NEG;PST;LGSPEC1"
+nom,nna anom,"V;HAB+PRF;PST"
+nom,nna nnnomee,"V;HAB+PRF;NEG;PST"
+nom,nna abɛnom,"V;PRF;PST+IMMED"
+nom,nna mmbɛnomee,"V;PRF;NEG;PST+IMMED"
+nom,nna akɔnom,"V;PRF;PST;LGSPEC1"
+nom,nna nnkɔnomee,"V;PRF;NEG;PST;LGSPEC1"
+nom,bɛnom,"V;HAB;FUT"
+nom,rennnom,"V;HAB;NEG;FUT"
+hata,hata,"V;NFIN"
+hata,hata,"V;HAB;PRS"
+hata,nnhata,"V;HAB;NEG;PRS"
+hata,kɔhata,"V;PRS;LGSPEC1"
+hata,nnkɔhata,"V;NEG;PRS;LGSPEC1"
+hata,rehata,"V;HAB+PROG;PRS"
+hata,rennhata,"V;HAB+PROG;NEG;PRS"
+hata,rebɛhata,"V;PROG;PRS+IMMED"
+hata,remmbɛhata,"V;PROG;NEG;PRS+IMMED"
+hata,rekɔhata,"V;PROG;PRS;LGSPEC1"
+hata,rennkɔhata,"V;PROG;NEG;PRS;LGSPEC1"
+hata,ahata,"V;HAB+PRF;PRS"
+hata,nnhataee,"V;HAB+PRF;NEG;PRS"
+hata,abɛhata,"V;PRF;PRS+IMMED"
+hata,mmbɛhataee,"V;PRF;NEG;PRS+IMMED"
+hata,akɔhata,"V;PRF;PRS;LGSPEC1"
+hata,nnkɔhataee,"V;PRF;NEG;PRS;LGSPEC1"
+hata,nhata,"V;SBJV;PRS"
+hata,mma nnhata,"V;SBJV;NEG;PRS"
+hata,hata,"V;IMP;PRS"
+hata,mma nnhata,"V;IMP;NEG;PRS"
+hata,hataee,"V;HAB;PST"
+hata,annhata,"V;HAB;NEG;PST"
+hata,bɛhataee,"V;PST+IMMED"
+hata,ammbɛhata,"V;NEG;PST+IMMED"
+hata,kɔhataee,"V;PST;LGSPEC1"
+hata,ammkɔhata,"V;NEG;PST;LGSPEC1"
+hata,nna rehata,"V;HAB+PROG;PST"
+hata,nna rennhata,"V;HAB+PROG;NEG;PST"
+hata,nna rebɛhata,"V;PROG;PST+IMMED"
+hata,nna remmbɛhata,"V;PROG;NEG;PST+IMMED"
+hata,nna rekɔhata,"V;PROG;PST;LGSPEC1"
+hata,nna rennkɔhata,"V;PROG;NEG;PST;LGSPEC1"
+hata,nna ahata,"V;HAB+PRF;PST"
+hata,nna nnhataee,"V;HAB+PRF;NEG;PST"
+hata,nna abɛhata,"V;PRF;PST+IMMED"
+hata,nna mmbɛhataee,"V;PRF;NEG;PST+IMMED"
+hata,nna akɔhata,"V;PRF;PST;LGSPEC1"
+hata,nna nnkɔhataee,"V;PRF;NEG;PST;LGSPEC1"
+hata,bɛhata,"V;HAB;FUT"
+hata,rennhata,"V;HAB;NEG;FUT"
+di,di,"V;NFIN"
+di,di,"V;HAB;PRS"
+di,nndi,"V;HAB;NEG;PRS"
+di,kɔdi,"V;PRS;LGSPEC1"
+di,nnkɔdi,"V;NEG;PRS;LGSPEC1"
+di,redi,"V;HAB+PROG;PRS"
+di,renndi,"V;HAB+PROG;NEG;PRS"
+di,rebɛdi,"V;PROG;PRS+IMMED"
+di,remmbɛdi,"V;PROG;NEG;PRS+IMMED"
+di,rekɔdi,"V;PROG;PRS;LGSPEC1"
+di,rennkɔdi,"V;PROG;NEG;PRS;LGSPEC1"
+di,adi,"V;HAB+PRF;PRS"
+di,nndiee,"V;HAB+PRF;NEG;PRS"
+di,abɛdi,"V;PRF;PRS+IMMED"
+di,mmbɛdiee,"V;PRF;NEG;PRS+IMMED"
+di,akɔdi,"V;PRF;PRS;LGSPEC1"
+di,nnkɔdiee,"V;PRF;NEG;PRS;LGSPEC1"
+di,ndi,"V;SBJV;PRS"
+di,mma nndi,"V;SBJV;NEG;PRS"
+di,di,"V;IMP;PRS"
+di,mma nndi,"V;IMP;NEG;PRS"
+di,diee,"V;HAB;PST"
+di,anndi,"V;HAB;NEG;PST"
+di,bɛdiee,"V;PST+IMMED"
+di,ammbɛdi,"V;NEG;PST+IMMED"
+di,kɔdiee,"V;PST;LGSPEC1"
+di,ammkɔdi,"V;NEG;PST;LGSPEC1"
+di,nna redi,"V;HAB+PROG;PST"
+di,nna renndi,"V;HAB+PROG;NEG;PST"
+di,nna rebɛdi,"V;PROG;PST+IMMED"
+di,nna remmbɛdi,"V;PROG;NEG;PST+IMMED"
+di,nna rekɔdi,"V;PROG;PST;LGSPEC1"
+di,nna rennkɔdi,"V;PROG;NEG;PST;LGSPEC1"
+di,nna adi,"V;HAB+PRF;PST"
+di,nna nndiee,"V;HAB+PRF;NEG;PST"
+di,nna abɛdi,"V;PRF;PST+IMMED"
+di,nna mmbɛdiee,"V;PRF;NEG;PST+IMMED"
+di,nna akɔdi,"V;PRF;PST;LGSPEC1"
+di,nna nnkɔdiee,"V;PRF;NEG;PST;LGSPEC1"
+di,bɛdi,"V;HAB;FUT"
+di,renndi,"V;HAB;NEG;FUT"
+wie,wie,"V;NFIN"
+wie,wie,"V;HAB;PRS"
+wie,nnwie,"V;HAB;NEG;PRS"
+wie,kɔwie,"V;PRS;LGSPEC1"
+wie,nnkɔwie,"V;NEG;PRS;LGSPEC1"
+wie,rewie,"V;HAB+PROG;PRS"
+wie,rennwie,"V;HAB+PROG;NEG;PRS"
+wie,rebɛwie,"V;PROG;PRS+IMMED"
+wie,remmbɛwie,"V;PROG;NEG;PRS+IMMED"
+wie,rekɔwie,"V;PROG;PRS;LGSPEC1"
+wie,rennkɔwie,"V;PROG;NEG;PRS;LGSPEC1"
+wie,awie,"V;HAB+PRF;PRS"
+wie,nnwiee,"V;HAB+PRF;NEG;PRS"
+wie,abɛwie,"V;PRF;PRS+IMMED"
+wie,mmbɛwiee,"V;PRF;NEG;PRS+IMMED"
+wie,akɔwie,"V;PRF;PRS;LGSPEC1"
+wie,nnkɔwiee,"V;PRF;NEG;PRS;LGSPEC1"
+wie,nwie,"V;SBJV;PRS"
+wie,mma nnwie,"V;SBJV;NEG;PRS"
+wie,wie,"V;IMP;PRS"
+wie,mma nnwie,"V;IMP;NEG;PRS"
+wie,wiee,"V;HAB;PST"
+wie,annwie,"V;HAB;NEG;PST"
+wie,bɛwiee,"V;PST+IMMED"
+wie,ammbɛwie,"V;NEG;PST+IMMED"
+wie,kɔwiee,"V;PST;LGSPEC1"
+wie,ammkɔwie,"V;NEG;PST;LGSPEC1"
+wie,nna rewie,"V;HAB+PROG;PST"
+wie,nna rennwie,"V;HAB+PROG;NEG;PST"
+wie,nna rebɛwie,"V;PROG;PST+IMMED"
+wie,nna remmbɛwie,"V;PROG;NEG;PST+IMMED"
+wie,nna rekɔwie,"V;PROG;PST;LGSPEC1"
+wie,nna rennkɔwie,"V;PROG;NEG;PST;LGSPEC1"
+wie,nna awie,"V;HAB+PRF;PST"
+wie,nna nnwiee,"V;HAB+PRF;NEG;PST"
+wie,nna abɛwie,"V;PRF;PST+IMMED"
+wie,nna mmbɛwiee,"V;PRF;NEG;PST+IMMED"
+wie,nna akɔwie,"V;PRF;PST;LGSPEC1"
+wie,nna nnkɔwiee,"V;PRF;NEG;PST;LGSPEC1"
+wie,bɛwie,"V;HAB;FUT"
+wie,rennwie,"V;HAB;NEG;FUT"
+tutu,tutu,"V;NFIN"
+tutu,tutu,"V;HAB;PRS"
+tutu,nntutu,"V;HAB;NEG;PRS"
+tutu,kɔtutu,"V;PRS;LGSPEC1"
+tutu,nnkɔtutu,"V;NEG;PRS;LGSPEC1"
+tutu,retutu,"V;HAB+PROG;PRS"
+tutu,renntutu,"V;HAB+PROG;NEG;PRS"
+tutu,rebɛtutu,"V;PROG;PRS+IMMED"
+tutu,remmbɛtutu,"V;PROG;NEG;PRS+IMMED"
+tutu,rekɔtutu,"V;PROG;PRS;LGSPEC1"
+tutu,rennkɔtutu,"V;PROG;NEG;PRS;LGSPEC1"
+tutu,atutu,"V;HAB+PRF;PRS"
+tutu,nntutuee,"V;HAB+PRF;NEG;PRS"
+tutu,abɛtutu,"V;PRF;PRS+IMMED"
+tutu,mmbɛtutuee,"V;PRF;NEG;PRS+IMMED"
+tutu,akɔtutu,"V;PRF;PRS;LGSPEC1"
+tutu,nnkɔtutuee,"V;PRF;NEG;PRS;LGSPEC1"
+tutu,ntutu,"V;SBJV;PRS"
+tutu,mma nntutu,"V;SBJV;NEG;PRS"
+tutu,tutu,"V;IMP;PRS"
+tutu,mma nntutu,"V;IMP;NEG;PRS"
+tutu,tutuee,"V;HAB;PST"
+tutu,anntutu,"V;HAB;NEG;PST"
+tutu,bɛtutuee,"V;PST+IMMED"
+tutu,ammbɛtutu,"V;NEG;PST+IMMED"
+tutu,kɔtutuee,"V;PST;LGSPEC1"
+tutu,ammkɔtutu,"V;NEG;PST;LGSPEC1"
+tutu,nna retutu,"V;HAB+PROG;PST"
+tutu,nna renntutu,"V;HAB+PROG;NEG;PST"
+tutu,nna rebɛtutu,"V;PROG;PST+IMMED"
+tutu,nna remmbɛtutu,"V;PROG;NEG;PST+IMMED"
+tutu,nna rekɔtutu,"V;PROG;PST;LGSPEC1"
+tutu,nna rennkɔtutu,"V;PROG;NEG;PST;LGSPEC1"
+tutu,nna atutu,"V;HAB+PRF;PST"
+tutu,nna nntutuee,"V;HAB+PRF;NEG;PST"
+tutu,nna abɛtutu,"V;PRF;PST+IMMED"
+tutu,nna mmbɛtutuee,"V;PRF;NEG;PST+IMMED"
+tutu,nna akɔtutu,"V;PRF;PST;LGSPEC1"
+tutu,nna nnkɔtutuee,"V;PRF;NEG;PST;LGSPEC1"
+tutu,bɛtutu,"V;HAB;FUT"
+tutu,renntutu,"V;HAB;NEG;FUT"
+bobɔw,bobɔw,"V;NFIN"
+bobɔw,bobɔw,"V;HAB;PRS"
+bobɔw,mmbobɔw,"V;HAB;NEG;PRS"
+bobɔw,kɔbobɔw,"V;PRS;LGSPEC1"
+bobɔw,nnkɔbobɔw,"V;NEG;PRS;LGSPEC1"
+bobɔw,rebobɔw,"V;HAB+PROG;PRS"
+bobɔw,remmbobɔw,"V;HAB+PROG;NEG;PRS"
+bobɔw,rebɛbobɔw,"V;PROG;PRS+IMMED"
+bobɔw,remmbɛbobɔw,"V;PROG;NEG;PRS+IMMED"
+bobɔw,rekɔbobɔw,"V;PROG;PRS;LGSPEC1"
+bobɔw,rennkɔbobɔw,"V;PROG;NEG;PRS;LGSPEC1"
+bobɔw,abobɔw,"V;HAB+PRF;PRS"
+bobɔw,mmbobɔwee,"V;HAB+PRF;NEG;PRS"
+bobɔw,abɛbobɔw,"V;PRF;PRS+IMMED"
+bobɔw,mmbɛbobɔwee,"V;PRF;NEG;PRS+IMMED"
+bobɔw,akɔbobɔw,"V;PRF;PRS;LGSPEC1"
+bobɔw,nnkɔbobɔwee,"V;PRF;NEG;PRS;LGSPEC1"
+bobɔw,mbobɔw,"V;SBJV;PRS"
+bobɔw,mma mmbobɔw,"V;SBJV;NEG;PRS"
+bobɔw,bobɔw,"V;IMP;PRS"
+bobɔw,mma mmbobɔw,"V;IMP;NEG;PRS"
+bobɔw,bobɔwee,"V;HAB;PST"
+bobɔw,ammbobɔw,"V;HAB;NEG;PST"
+bobɔw,bɛbobɔwee,"V;PST+IMMED"
+bobɔw,ammbɛbobɔw,"V;NEG;PST+IMMED"
+bobɔw,kɔbobɔwee,"V;PST;LGSPEC1"
+bobɔw,ammkɔbobɔw,"V;NEG;PST;LGSPEC1"
+bobɔw,nna rebobɔw,"V;HAB+PROG;PST"
+bobɔw,nna remmbobɔw,"V;HAB+PROG;NEG;PST"
+bobɔw,nna rebɛbobɔw,"V;PROG;PST+IMMED"
+bobɔw,nna remmbɛbobɔw,"V;PROG;NEG;PST+IMMED"
+bobɔw,nna rekɔbobɔw,"V;PROG;PST;LGSPEC1"
+bobɔw,nna rennkɔbobɔw,"V;PROG;NEG;PST;LGSPEC1"
+bobɔw,nna abobɔw,"V;HAB+PRF;PST"
+bobɔw,nna mmbobɔwee,"V;HAB+PRF;NEG;PST"
+bobɔw,nna abɛbobɔw,"V;PRF;PST+IMMED"
+bobɔw,nna mmbɛbobɔwee,"V;PRF;NEG;PST+IMMED"
+bobɔw,nna akɔbobɔw,"V;PRF;PST;LGSPEC1"
+bobɔw,nna nnkɔbobɔwee,"V;PRF;NEG;PST;LGSPEC1"
+bobɔw,bɛbobɔw,"V;HAB;FUT"
+bobɔw,remmbobɔw,"V;HAB;NEG;FUT"
+yew,yew,"V;NFIN"
+yew,yew,"V;HAB;PRS"
+yew,nnyew,"V;HAB;NEG;PRS"
+yew,kɔyew,"V;PRS;LGSPEC1"
+yew,nnkɔyew,"V;NEG;PRS;LGSPEC1"
+yew,reyew,"V;HAB+PROG;PRS"
+yew,rennyew,"V;HAB+PROG;NEG;PRS"
+yew,rebɛyew,"V;PROG;PRS+IMMED"
+yew,remmbɛyew,"V;PROG;NEG;PRS+IMMED"
+yew,rekɔyew,"V;PROG;PRS;LGSPEC1"
+yew,rennkɔyew,"V;PROG;NEG;PRS;LGSPEC1"
+yew,ayew,"V;HAB+PRF;PRS"
+yew,nnyewee,"V;HAB+PRF;NEG;PRS"
+yew,abɛyew,"V;PRF;PRS+IMMED"
+yew,mmbɛyewee,"V;PRF;NEG;PRS+IMMED"
+yew,akɔyew,"V;PRF;PRS;LGSPEC1"
+yew,nnkɔyewee,"V;PRF;NEG;PRS;LGSPEC1"
+yew,nyew,"V;SBJV;PRS"
+yew,mma nnyew,"V;SBJV;NEG;PRS"
+yew,yew,"V;IMP;PRS"
+yew,mma nnyew,"V;IMP;NEG;PRS"
+yew,yewee,"V;HAB;PST"
+yew,annyew,"V;HAB;NEG;PST"
+yew,bɛyewee,"V;PST+IMMED"
+yew,ammbɛyew,"V;NEG;PST+IMMED"
+yew,kɔyewee,"V;PST;LGSPEC1"
+yew,ammkɔyew,"V;NEG;PST;LGSPEC1"
+yew,nna reyew,"V;HAB+PROG;PST"
+yew,nna rennyew,"V;HAB+PROG;NEG;PST"
+yew,nna rebɛyew,"V;PROG;PST+IMMED"
+yew,nna remmbɛyew,"V;PROG;NEG;PST+IMMED"
+yew,nna rekɔyew,"V;PROG;PST;LGSPEC1"
+yew,nna rennkɔyew,"V;PROG;NEG;PST;LGSPEC1"
+yew,nna ayew,"V;HAB+PRF;PST"
+yew,nna nnyewee,"V;HAB+PRF;NEG;PST"
+yew,nna abɛyew,"V;PRF;PST+IMMED"
+yew,nna mmbɛyewee,"V;PRF;NEG;PST+IMMED"
+yew,nna akɔyew,"V;PRF;PST;LGSPEC1"
+yew,nna nnkɔyewee,"V;PRF;NEG;PST;LGSPEC1"
+yew,bɛyew,"V;HAB;FUT"
+yew,rennyew,"V;HAB;NEG;FUT"
+ma,ma,"V;NFIN"
+ma,ma,"V;HAB;PRS"
+ma,mmma,"V;HAB;NEG;PRS"
+ma,kɔma,"V;PRS;LGSPEC1"
+ma,nnkɔma,"V;NEG;PRS;LGSPEC1"
+ma,rema,"V;HAB+PROG;PRS"
+ma,remmma,"V;HAB+PROG;NEG;PRS"
+ma,rebɛma,"V;PROG;PRS+IMMED"
+ma,remmbɛma,"V;PROG;NEG;PRS+IMMED"
+ma,rekɔma,"V;PROG;PRS;LGSPEC1"
+ma,rennkɔma,"V;PROG;NEG;PRS;LGSPEC1"
+ma,ama,"V;HAB+PRF;PRS"
+ma,mmmaee,"V;HAB+PRF;NEG;PRS"
+ma,abɛma,"V;PRF;PRS+IMMED"
+ma,mmbɛmaee,"V;PRF;NEG;PRS+IMMED"
+ma,akɔma,"V;PRF;PRS;LGSPEC1"
+ma,nnkɔmaee,"V;PRF;NEG;PRS;LGSPEC1"
+ma,mma,"V;SBJV;PRS"
+ma,mma mmma,"V;SBJV;NEG;PRS"
+ma,ma,"V;IMP;PRS"
+ma,mma mmma,"V;IMP;NEG;PRS"
+ma,maee,"V;HAB;PST"
+ma,ammma,"V;HAB;NEG;PST"
+ma,bɛmaee,"V;PST+IMMED"
+ma,ammbɛma,"V;NEG;PST+IMMED"
+ma,kɔmaee,"V;PST;LGSPEC1"
+ma,ammkɔma,"V;NEG;PST;LGSPEC1"
+ma,nna rema,"V;HAB+PROG;PST"
+ma,nna remmma,"V;HAB+PROG;NEG;PST"
+ma,nna rebɛma,"V;PROG;PST+IMMED"
+ma,nna remmbɛma,"V;PROG;NEG;PST+IMMED"
+ma,nna rekɔma,"V;PROG;PST;LGSPEC1"
+ma,nna rennkɔma,"V;PROG;NEG;PST;LGSPEC1"
+ma,nna ama,"V;HAB+PRF;PST"
+ma,nna mmmaee,"V;HAB+PRF;NEG;PST"
+ma,nna abɛma,"V;PRF;PST+IMMED"
+ma,nna mmbɛmaee,"V;PRF;NEG;PST+IMMED"
+ma,nna akɔma,"V;PRF;PST;LGSPEC1"
+ma,nna nnkɔmaee,"V;PRF;NEG;PST;LGSPEC1"
+ma,bɛma,"V;HAB;FUT"
+ma,remmma,"V;HAB;NEG;FUT"
+wo,wo,"V;NFIN"
+wo,wo,"V;HAB;PRS"
+wo,nnwo,"V;HAB;NEG;PRS"
+wo,kɔwo,"V;PRS;LGSPEC1"
+wo,nnkɔwo,"V;NEG;PRS;LGSPEC1"
+wo,rewo,"V;HAB+PROG;PRS"
+wo,rennwo,"V;HAB+PROG;NEG;PRS"
+wo,rebɛwo,"V;PROG;PRS+IMMED"
+wo,remmbɛwo,"V;PROG;NEG;PRS+IMMED"
+wo,rekɔwo,"V;PROG;PRS;LGSPEC1"
+wo,rennkɔwo,"V;PROG;NEG;PRS;LGSPEC1"
+wo,awo,"V;HAB+PRF;PRS"
+wo,nnwoee,"V;HAB+PRF;NEG;PRS"
+wo,abɛwo,"V;PRF;PRS+IMMED"
+wo,mmbɛwoee,"V;PRF;NEG;PRS+IMMED"
+wo,akɔwo,"V;PRF;PRS;LGSPEC1"
+wo,nnkɔwoee,"V;PRF;NEG;PRS;LGSPEC1"
+wo,nwo,"V;SBJV;PRS"
+wo,mma nnwo,"V;SBJV;NEG;PRS"
+wo,wo,"V;IMP;PRS"
+wo,mma nnwo,"V;IMP;NEG;PRS"
+wo,woee,"V;HAB;PST"
+wo,annwo,"V;HAB;NEG;PST"
+wo,bɛwoee,"V;PST+IMMED"
+wo,ammbɛwo,"V;NEG;PST+IMMED"
+wo,kɔwoee,"V;PST;LGSPEC1"
+wo,ammkɔwo,"V;NEG;PST;LGSPEC1"
+wo,nna rewo,"V;HAB+PROG;PST"
+wo,nna rennwo,"V;HAB+PROG;NEG;PST"
+wo,nna rebɛwo,"V;PROG;PST+IMMED"
+wo,nna remmbɛwo,"V;PROG;NEG;PST+IMMED"
+wo,nna rekɔwo,"V;PROG;PST;LGSPEC1"
+wo,nna rennkɔwo,"V;PROG;NEG;PST;LGSPEC1"
+wo,nna awo,"V;HAB+PRF;PST"
+wo,nna nnwoee,"V;HAB+PRF;NEG;PST"
+wo,nna abɛwo,"V;PRF;PST+IMMED"
+wo,nna mmbɛwoee,"V;PRF;NEG;PST+IMMED"
+wo,nna akɔwo,"V;PRF;PST;LGSPEC1"
+wo,nna nnkɔwoee,"V;PRF;NEG;PST;LGSPEC1"
+wo,bɛwo,"V;HAB;FUT"
+wo,rennwo,"V;HAB;NEG;FUT"
+kɔ,kɔ,"V;NFIN"
+kɔ,kɔ,"V;HAB;PRS"
+kɔ,nnkɔ,"V;HAB;NEG;PRS"
+kɔ,kɔkɔ,"V;PRS;LGSPEC1"
+kɔ,nnkɔkɔ,"V;NEG;PRS;LGSPEC1"
+kɔ,rekɔ,"V;HAB+PROG;PRS"
+kɔ,rennkɔ,"V;HAB+PROG;NEG;PRS"
+kɔ,rebɛkɔ,"V;PROG;PRS+IMMED"
+kɔ,remmbɛkɔ,"V;PROG;NEG;PRS+IMMED"
+kɔ,rekɔkɔ,"V;PROG;PRS;LGSPEC1"
+kɔ,rennkɔkɔ,"V;PROG;NEG;PRS;LGSPEC1"
+kɔ,akɔ,"V;HAB+PRF;PRS"
+kɔ,nnkɔee,"V;HAB+PRF;NEG;PRS"
+kɔ,abɛkɔ,"V;PRF;PRS+IMMED"
+kɔ,mmbɛkɔee,"V;PRF;NEG;PRS+IMMED"
+kɔ,akɔkɔ,"V;PRF;PRS;LGSPEC1"
+kɔ,nnkɔkɔee,"V;PRF;NEG;PRS;LGSPEC1"
+kɔ,nkɔ,"V;SBJV;PRS"
+kɔ,mma nnkɔ,"V;SBJV;NEG;PRS"
+kɔ,kɔ,"V;IMP;PRS"
+kɔ,mma nnkɔ,"V;IMP;NEG;PRS"
+kɔ,kɔee,"V;HAB;PST"
+kɔ,annkɔ,"V;HAB;NEG;PST"
+kɔ,bɛkɔee,"V;PST+IMMED"
+kɔ,ammbɛkɔ,"V;NEG;PST+IMMED"
+kɔ,kɔkɔee,"V;PST;LGSPEC1"
+kɔ,ammkɔkɔ,"V;NEG;PST;LGSPEC1"
+kɔ,nna rekɔ,"V;HAB+PROG;PST"
+kɔ,nna rennkɔ,"V;HAB+PROG;NEG;PST"
+kɔ,nna rebɛkɔ,"V;PROG;PST+IMMED"
+kɔ,nna remmbɛkɔ,"V;PROG;NEG;PST+IMMED"
+kɔ,nna rekɔkɔ,"V;PROG;PST;LGSPEC1"
+kɔ,nna rennkɔkɔ,"V;PROG;NEG;PST;LGSPEC1"
+kɔ,nna akɔ,"V;HAB+PRF;PST"
+kɔ,nna nnkɔee,"V;HAB+PRF;NEG;PST"
+kɔ,nna abɛkɔ,"V;PRF;PST+IMMED"
+kɔ,nna mmbɛkɔee,"V;PRF;NEG;PST+IMMED"
+kɔ,nna akɔkɔ,"V;PRF;PST;LGSPEC1"
+kɔ,nna nnkɔkɔee,"V;PRF;NEG;PST;LGSPEC1"
+kɔ,bɛkɔ,"V;HAB;FUT"
+kɔ,rennkɔ,"V;HAB;NEG;FUT"
+kɔ tiefi,kɔ tiefi,"V;NFIN"
+kɔ tiefi,kɔ tiefi,"V;HAB;PRS"
+kɔ tiefi,nnkɔ tiefi,"V;HAB;NEG;PRS"
+kɔ tiefi,kɔkɔ tiefi,"V;PRS;LGSPEC1"
+kɔ tiefi,nnkɔkɔ tiefi,"V;NEG;PRS;LGSPEC1"
+kɔ tiefi,rekɔ tiefi,"V;HAB+PROG;PRS"
+kɔ tiefi,rennkɔ tiefi,"V;HAB+PROG;NEG;PRS"
+kɔ tiefi,rebɛkɔ tiefi,"V;PROG;PRS+IMMED"
+kɔ tiefi,remmbɛkɔ tiefi,"V;PROG;NEG;PRS+IMMED"
+kɔ tiefi,rekɔkɔ tiefi,"V;PROG;PRS;LGSPEC1"
+kɔ tiefi,rennkɔkɔ tiefi,"V;PROG;NEG;PRS;LGSPEC1"
+kɔ tiefi,akɔ tiefi,"V;HAB+PRF;PRS"
+kɔ tiefi,nnkɔ tiefiee,"V;HAB+PRF;NEG;PRS"
+kɔ tiefi,abɛkɔ tiefi,"V;PRF;PRS+IMMED"
+kɔ tiefi,mmbɛkɔ tiefiee,"V;PRF;NEG;PRS+IMMED"
+kɔ tiefi,akɔkɔ tiefi,"V;PRF;PRS;LGSPEC1"
+kɔ tiefi,nnkɔkɔ tiefiee,"V;PRF;NEG;PRS;LGSPEC1"
+kɔ tiefi,nkɔ tiefi,"V;SBJV;PRS"
+kɔ tiefi,mma nnkɔ tiefi,"V;SBJV;NEG;PRS"
+kɔ tiefi,kɔ tiefi,"V;IMP;PRS"
+kɔ tiefi,mma nnkɔ tiefi,"V;IMP;NEG;PRS"
+kɔ tiefi,kɔ tiefiee,"V;HAB;PST"
+kɔ tiefi,annkɔ tiefi,"V;HAB;NEG;PST"
+kɔ tiefi,bɛkɔ tiefiee,"V;PST+IMMED"
+kɔ tiefi,ammbɛkɔ tiefi,"V;NEG;PST+IMMED"
+kɔ tiefi,kɔkɔ tiefiee,"V;PST;LGSPEC1"
+kɔ tiefi,ammkɔkɔ tiefi,"V;NEG;PST;LGSPEC1"
+kɔ tiefi,nna rekɔ tiefi,"V;HAB+PROG;PST"
+kɔ tiefi,nna rennkɔ tiefi,"V;HAB+PROG;NEG;PST"
+kɔ tiefi,nna rebɛkɔ tiefi,"V;PROG;PST+IMMED"
+kɔ tiefi,nna remmbɛkɔ tiefi,"V;PROG;NEG;PST+IMMED"
+kɔ tiefi,nna rekɔkɔ tiefi,"V;PROG;PST;LGSPEC1"
+kɔ tiefi,nna rennkɔkɔ tiefi,"V;PROG;NEG;PST;LGSPEC1"
+kɔ tiefi,nna akɔ tiefi,"V;HAB+PRF;PST"
+kɔ tiefi,nna nnkɔ tiefiee,"V;HAB+PRF;NEG;PST"
+kɔ tiefi,nna abɛkɔ tiefi,"V;PRF;PST+IMMED"
+kɔ tiefi,nna mmbɛkɔ tiefiee,"V;PRF;NEG;PST+IMMED"
+kɔ tiefi,nna akɔkɔ tiefi,"V;PRF;PST;LGSPEC1"
+kɔ tiefi,nna nnkɔkɔ tiefiee,"V;PRF;NEG;PST;LGSPEC1"
+kɔ tiefi,bɛkɔ tiefi,"V;HAB;FUT"
+kɔ tiefi,rennkɔ tiefi,"V;HAB;NEG;FUT"
+kyia,kyia,"V;NFIN"
+kyia,kyia,"V;HAB;PRS"
+kyia,nnkyia,"V;HAB;NEG;PRS"
+kyia,kɔkyia,"V;PRS;LGSPEC1"
+kyia,nnkɔkyia,"V;NEG;PRS;LGSPEC1"
+kyia,rekyia,"V;HAB+PROG;PRS"
+kyia,rennkyia,"V;HAB+PROG;NEG;PRS"
+kyia,rebɛkyia,"V;PROG;PRS+IMMED"
+kyia,remmbɛkyia,"V;PROG;NEG;PRS+IMMED"
+kyia,rekɔkyia,"V;PROG;PRS;LGSPEC1"
+kyia,rennkɔkyia,"V;PROG;NEG;PRS;LGSPEC1"
+kyia,akyia,"V;HAB+PRF;PRS"
+kyia,nnkyiaee,"V;HAB+PRF;NEG;PRS"
+kyia,abɛkyia,"V;PRF;PRS+IMMED"
+kyia,mmbɛkyiaee,"V;PRF;NEG;PRS+IMMED"
+kyia,akɔkyia,"V;PRF;PRS;LGSPEC1"
+kyia,nnkɔkyiaee,"V;PRF;NEG;PRS;LGSPEC1"
+kyia,nkyia,"V;SBJV;PRS"
+kyia,mma nnkyia,"V;SBJV;NEG;PRS"
+kyia,kyia,"V;IMP;PRS"
+kyia,mma nnkyia,"V;IMP;NEG;PRS"
+kyia,kyiaee,"V;HAB;PST"
+kyia,annkyia,"V;HAB;NEG;PST"
+kyia,bɛkyiaee,"V;PST+IMMED"
+kyia,ammbɛkyia,"V;NEG;PST+IMMED"
+kyia,kɔkyiaee,"V;PST;LGSPEC1"
+kyia,ammkɔkyia,"V;NEG;PST;LGSPEC1"
+kyia,nna rekyia,"V;HAB+PROG;PST"
+kyia,nna rennkyia,"V;HAB+PROG;NEG;PST"
+kyia,nna rebɛkyia,"V;PROG;PST+IMMED"
+kyia,nna remmbɛkyia,"V;PROG;NEG;PST+IMMED"
+kyia,nna rekɔkyia,"V;PROG;PST;LGSPEC1"
+kyia,nna rennkɔkyia,"V;PROG;NEG;PST;LGSPEC1"
+kyia,nna akyia,"V;HAB+PRF;PST"
+kyia,nna nnkyiaee,"V;HAB+PRF;NEG;PST"
+kyia,nna abɛkyia,"V;PRF;PST+IMMED"
+kyia,nna mmbɛkyiaee,"V;PRF;NEG;PST+IMMED"
+kyia,nna akɔkyia,"V;PRF;PST;LGSPEC1"
+kyia,nna nnkɔkyiaee,"V;PRF;NEG;PST;LGSPEC1"
+kyia,bɛkyia,"V;HAB;FUT"
+kyia,rennkyia,"V;HAB;NEG;FUT"
+nyam,nyam,"V;NFIN"
+nyam,nyam,"V;HAB;PRS"
+nyam,nnnyam,"V;HAB;NEG;PRS"
+nyam,kɔnyam,"V;PRS;LGSPEC1"
+nyam,nnkɔnyam,"V;NEG;PRS;LGSPEC1"
+nyam,renyam,"V;HAB+PROG;PRS"
+nyam,rennnyam,"V;HAB+PROG;NEG;PRS"
+nyam,rebɛnyam,"V;PROG;PRS+IMMED"
+nyam,remmbɛnyam,"V;PROG;NEG;PRS+IMMED"
+nyam,rekɔnyam,"V;PROG;PRS;LGSPEC1"
+nyam,rennkɔnyam,"V;PROG;NEG;PRS;LGSPEC1"
+nyam,anyam,"V;HAB+PRF;PRS"
+nyam,nnnyamee,"V;HAB+PRF;NEG;PRS"
+nyam,abɛnyam,"V;PRF;PRS+IMMED"
+nyam,mmbɛnyamee,"V;PRF;NEG;PRS+IMMED"
+nyam,akɔnyam,"V;PRF;PRS;LGSPEC1"
+nyam,nnkɔnyamee,"V;PRF;NEG;PRS;LGSPEC1"
+nyam,nnyam,"V;SBJV;PRS"
+nyam,mma nnnyam,"V;SBJV;NEG;PRS"
+nyam,nyam,"V;IMP;PRS"
+nyam,mma nnnyam,"V;IMP;NEG;PRS"
+nyam,nyamee,"V;HAB;PST"
+nyam,annnyam,"V;HAB;NEG;PST"
+nyam,bɛnyamee,"V;PST+IMMED"
+nyam,ammbɛnyam,"V;NEG;PST+IMMED"
+nyam,kɔnyamee,"V;PST;LGSPEC1"
+nyam,ammkɔnyam,"V;NEG;PST;LGSPEC1"
+nyam,nna renyam,"V;HAB+PROG;PST"
+nyam,nna rennnyam,"V;HAB+PROG;NEG;PST"
+nyam,nna rebɛnyam,"V;PROG;PST+IMMED"
+nyam,nna remmbɛnyam,"V;PROG;NEG;PST+IMMED"
+nyam,nna rekɔnyam,"V;PROG;PST;LGSPEC1"
+nyam,nna rennkɔnyam,"V;PROG;NEG;PST;LGSPEC1"
+nyam,nna anyam,"V;HAB+PRF;PST"
+nyam,nna nnnyamee,"V;HAB+PRF;NEG;PST"
+nyam,nna abɛnyam,"V;PRF;PST+IMMED"
+nyam,nna mmbɛnyamee,"V;PRF;NEG;PST+IMMED"
+nyam,nna akɔnyam,"V;PRF;PST;LGSPEC1"
+nyam,nna nnkɔnyamee,"V;PRF;NEG;PST;LGSPEC1"
+nyam,bɛnyam,"V;HAB;FUT"
+nyam,rennnyam,"V;HAB;NEG;FUT"
+kyiri,kyiri,"V;NFIN"
+kyiri,kyiri,"V;HAB;PRS"
+kyiri,nnkyiri,"V;HAB;NEG;PRS"
+kyiri,kɔkyiri,"V;PRS;LGSPEC1"
+kyiri,nnkɔkyiri,"V;NEG;PRS;LGSPEC1"
+kyiri,rekyiri,"V;HAB+PROG;PRS"
+kyiri,rennkyiri,"V;HAB+PROG;NEG;PRS"
+kyiri,rebɛkyiri,"V;PROG;PRS+IMMED"
+kyiri,remmbɛkyiri,"V;PROG;NEG;PRS+IMMED"
+kyiri,rekɔkyiri,"V;PROG;PRS;LGSPEC1"
+kyiri,rennkɔkyiri,"V;PROG;NEG;PRS;LGSPEC1"
+kyiri,akyiri,"V;HAB+PRF;PRS"
+kyiri,nnkyiriee,"V;HAB+PRF;NEG;PRS"
+kyiri,abɛkyiri,"V;PRF;PRS+IMMED"
+kyiri,mmbɛkyiriee,"V;PRF;NEG;PRS+IMMED"
+kyiri,akɔkyiri,"V;PRF;PRS;LGSPEC1"
+kyiri,nnkɔkyiriee,"V;PRF;NEG;PRS;LGSPEC1"
+kyiri,nkyiri,"V;SBJV;PRS"
+kyiri,mma nnkyiri,"V;SBJV;NEG;PRS"
+kyiri,kyiri,"V;IMP;PRS"
+kyiri,mma nnkyiri,"V;IMP;NEG;PRS"
+kyiri,kyiriee,"V;HAB;PST"
+kyiri,annkyiri,"V;HAB;NEG;PST"
+kyiri,bɛkyiriee,"V;PST+IMMED"
+kyiri,ammbɛkyiri,"V;NEG;PST+IMMED"
+kyiri,kɔkyiriee,"V;PST;LGSPEC1"
+kyiri,ammkɔkyiri,"V;NEG;PST;LGSPEC1"
+kyiri,nna rekyiri,"V;HAB+PROG;PST"
+kyiri,nna rennkyiri,"V;HAB+PROG;NEG;PST"
+kyiri,nna rebɛkyiri,"V;PROG;PST+IMMED"
+kyiri,nna remmbɛkyiri,"V;PROG;NEG;PST+IMMED"
+kyiri,nna rekɔkyiri,"V;PROG;PST;LGSPEC1"
+kyiri,nna rennkɔkyiri,"V;PROG;NEG;PST;LGSPEC1"
+kyiri,nna akyiri,"V;HAB+PRF;PST"
+kyiri,nna nnkyiriee,"V;HAB+PRF;NEG;PST"
+kyiri,nna abɛkyiri,"V;PRF;PST+IMMED"
+kyiri,nna mmbɛkyiriee,"V;PRF;NEG;PST+IMMED"
+kyiri,nna akɔkyiri,"V;PRF;PST;LGSPEC1"
+kyiri,nna nnkɔkyiriee,"V;PRF;NEG;PST;LGSPEC1"
+kyiri,bɛkyiri,"V;HAB;FUT"
+kyiri,rennkyiri,"V;HAB;NEG;FUT"
+tew,tew,"V;NFIN"
+tew,tew,"V;HAB;PRS"
+tew,nntew,"V;HAB;NEG;PRS"
+tew,kɔtew,"V;PRS;LGSPEC1"
+tew,nnkɔtew,"V;NEG;PRS;LGSPEC1"
+tew,retew,"V;HAB+PROG;PRS"
+tew,renntew,"V;HAB+PROG;NEG;PRS"
+tew,rebɛtew,"V;PROG;PRS+IMMED"
+tew,remmbɛtew,"V;PROG;NEG;PRS+IMMED"
+tew,rekɔtew,"V;PROG;PRS;LGSPEC1"
+tew,rennkɔtew,"V;PROG;NEG;PRS;LGSPEC1"
+tew,atew,"V;HAB+PRF;PRS"
+tew,nntewee,"V;HAB+PRF;NEG;PRS"
+tew,abɛtew,"V;PRF;PRS+IMMED"
+tew,mmbɛtewee,"V;PRF;NEG;PRS+IMMED"
+tew,akɔtew,"V;PRF;PRS;LGSPEC1"
+tew,nnkɔtewee,"V;PRF;NEG;PRS;LGSPEC1"
+tew,ntew,"V;SBJV;PRS"
+tew,mma nntew,"V;SBJV;NEG;PRS"
+tew,tew,"V;IMP;PRS"
+tew,mma nntew,"V;IMP;NEG;PRS"
+tew,tewee,"V;HAB;PST"
+tew,anntew,"V;HAB;NEG;PST"
+tew,bɛtewee,"V;PST+IMMED"
+tew,ammbɛtew,"V;NEG;PST+IMMED"
+tew,kɔtewee,"V;PST;LGSPEC1"
+tew,ammkɔtew,"V;NEG;PST;LGSPEC1"
+tew,nna retew,"V;HAB+PROG;PST"
+tew,nna renntew,"V;HAB+PROG;NEG;PST"
+tew,nna rebɛtew,"V;PROG;PST+IMMED"
+tew,nna remmbɛtew,"V;PROG;NEG;PST+IMMED"
+tew,nna rekɔtew,"V;PROG;PST;LGSPEC1"
+tew,nna rennkɔtew,"V;PROG;NEG;PST;LGSPEC1"
+tew,nna atew,"V;HAB+PRF;PST"
+tew,nna nntewee,"V;HAB+PRF;NEG;PST"
+tew,nna abɛtew,"V;PRF;PST+IMMED"
+tew,nna mmbɛtewee,"V;PRF;NEG;PST+IMMED"
+tew,nna akɔtew,"V;PRF;PST;LGSPEC1"
+tew,nna nnkɔtewee,"V;PRF;NEG;PST;LGSPEC1"
+tew,bɛtew,"V;HAB;FUT"
+tew,renntew,"V;HAB;NEG;FUT"
+boa,boa,"V;NFIN"
+boa,boa,"V;HAB;PRS"
+boa,mmboa,"V;HAB;NEG;PRS"
+boa,kɔboa,"V;PRS;LGSPEC1"
+boa,nnkɔboa,"V;NEG;PRS;LGSPEC1"
+boa,reboa,"V;HAB+PROG;PRS"
+boa,remmboa,"V;HAB+PROG;NEG;PRS"
+boa,rebɛboa,"V;PROG;PRS+IMMED"
+boa,remmbɛboa,"V;PROG;NEG;PRS+IMMED"
+boa,rekɔboa,"V;PROG;PRS;LGSPEC1"
+boa,rennkɔboa,"V;PROG;NEG;PRS;LGSPEC1"
+boa,aboa,"V;HAB+PRF;PRS"
+boa,mmboaee,"V;HAB+PRF;NEG;PRS"
+boa,abɛboa,"V;PRF;PRS+IMMED"
+boa,mmbɛboaee,"V;PRF;NEG;PRS+IMMED"
+boa,akɔboa,"V;PRF;PRS;LGSPEC1"
+boa,nnkɔboaee,"V;PRF;NEG;PRS;LGSPEC1"
+boa,mboa,"V;SBJV;PRS"
+boa,mma mmboa,"V;SBJV;NEG;PRS"
+boa,boa,"V;IMP;PRS"
+boa,mma mmboa,"V;IMP;NEG;PRS"
+boa,boaee,"V;HAB;PST"
+boa,ammboa,"V;HAB;NEG;PST"
+boa,bɛboaee,"V;PST+IMMED"
+boa,ammbɛboa,"V;NEG;PST+IMMED"
+boa,kɔboaee,"V;PST;LGSPEC1"
+boa,ammkɔboa,"V;NEG;PST;LGSPEC1"
+boa,nna reboa,"V;HAB+PROG;PST"
+boa,nna remmboa,"V;HAB+PROG;NEG;PST"
+boa,nna rebɛboa,"V;PROG;PST+IMMED"
+boa,nna remmbɛboa,"V;PROG;NEG;PST+IMMED"
+boa,nna rekɔboa,"V;PROG;PST;LGSPEC1"
+boa,nna rennkɔboa,"V;PROG;NEG;PST;LGSPEC1"
+boa,nna aboa,"V;HAB+PRF;PST"
+boa,nna mmboaee,"V;HAB+PRF;NEG;PST"
+boa,nna abɛboa,"V;PRF;PST+IMMED"
+boa,nna mmbɛboaee,"V;PRF;NEG;PST+IMMED"
+boa,nna akɔboa,"V;PRF;PST;LGSPEC1"
+boa,nna nnkɔboaee,"V;PRF;NEG;PST;LGSPEC1"
+boa,bɛboa,"V;HAB;FUT"
+boa,remmboa,"V;HAB;NEG;FUT"
+suma,suma,"V;NFIN"
+suma,suma,"V;HAB;PRS"
+suma,nnsuma,"V;HAB;NEG;PRS"
+suma,kɔsuma,"V;PRS;LGSPEC1"
+suma,nnkɔsuma,"V;NEG;PRS;LGSPEC1"
+suma,resuma,"V;HAB+PROG;PRS"
+suma,rennsuma,"V;HAB+PROG;NEG;PRS"
+suma,rebɛsuma,"V;PROG;PRS+IMMED"
+suma,remmbɛsuma,"V;PROG;NEG;PRS+IMMED"
+suma,rekɔsuma,"V;PROG;PRS;LGSPEC1"
+suma,rennkɔsuma,"V;PROG;NEG;PRS;LGSPEC1"
+suma,asuma,"V;HAB+PRF;PRS"
+suma,nnsumaee,"V;HAB+PRF;NEG;PRS"
+suma,abɛsuma,"V;PRF;PRS+IMMED"
+suma,mmbɛsumaee,"V;PRF;NEG;PRS+IMMED"
+suma,akɔsuma,"V;PRF;PRS;LGSPEC1"
+suma,nnkɔsumaee,"V;PRF;NEG;PRS;LGSPEC1"
+suma,nsuma,"V;SBJV;PRS"
+suma,mma nnsuma,"V;SBJV;NEG;PRS"
+suma,suma,"V;IMP;PRS"
+suma,mma nnsuma,"V;IMP;NEG;PRS"
+suma,sumaee,"V;HAB;PST"
+suma,annsuma,"V;HAB;NEG;PST"
+suma,bɛsumaee,"V;PST+IMMED"
+suma,ammbɛsuma,"V;NEG;PST+IMMED"
+suma,kɔsumaee,"V;PST;LGSPEC1"
+suma,ammkɔsuma,"V;NEG;PST;LGSPEC1"
+suma,nna resuma,"V;HAB+PROG;PST"
+suma,nna rennsuma,"V;HAB+PROG;NEG;PST"
+suma,nna rebɛsuma,"V;PROG;PST+IMMED"
+suma,nna remmbɛsuma,"V;PROG;NEG;PST+IMMED"
+suma,nna rekɔsuma,"V;PROG;PST;LGSPEC1"
+suma,nna rennkɔsuma,"V;PROG;NEG;PST;LGSPEC1"
+suma,nna asuma,"V;HAB+PRF;PST"
+suma,nna nnsumaee,"V;HAB+PRF;NEG;PST"
+suma,nna abɛsuma,"V;PRF;PST+IMMED"
+suma,nna mmbɛsumaee,"V;PRF;NEG;PST+IMMED"
+suma,nna akɔsuma,"V;PRF;PST;LGSPEC1"
+suma,nna nnkɔsumaee,"V;PRF;NEG;PST;LGSPEC1"
+suma,bɛsuma,"V;HAB;FUT"
+suma,rennsuma,"V;HAB;NEG;FUT"
+bɔ,bɔ,"V;NFIN"
+bɔ,bɔ,"V;HAB;PRS"
+bɔ,mmbɔ,"V;HAB;NEG;PRS"
+bɔ,kɔbɔ,"V;PRS;LGSPEC1"
+bɔ,nnkɔbɔ,"V;NEG;PRS;LGSPEC1"
+bɔ,rebɔ,"V;HAB+PROG;PRS"
+bɔ,remmbɔ,"V;HAB+PROG;NEG;PRS"
+bɔ,rebɛbɔ,"V;PROG;PRS+IMMED"
+bɔ,remmbɛbɔ,"V;PROG;NEG;PRS+IMMED"
+bɔ,rekɔbɔ,"V;PROG;PRS;LGSPEC1"
+bɔ,rennkɔbɔ,"V;PROG;NEG;PRS;LGSPEC1"
+bɔ,abɔ,"V;HAB+PRF;PRS"
+bɔ,mmbɔee,"V;HAB+PRF;NEG;PRS"
+bɔ,abɛbɔ,"V;PRF;PRS+IMMED"
+bɔ,mmbɛbɔee,"V;PRF;NEG;PRS+IMMED"
+bɔ,akɔbɔ,"V;PRF;PRS;LGSPEC1"
+bɔ,nnkɔbɔee,"V;PRF;NEG;PRS;LGSPEC1"
+bɔ,mbɔ,"V;SBJV;PRS"
+bɔ,mma mmbɔ,"V;SBJV;NEG;PRS"
+bɔ,bɔ,"V;IMP;PRS"
+bɔ,mma mmbɔ,"V;IMP;NEG;PRS"
+bɔ,bɔee,"V;HAB;PST"
+bɔ,ammbɔ,"V;HAB;NEG;PST"
+bɔ,bɛbɔee,"V;PST+IMMED"
+bɔ,ammbɛbɔ,"V;NEG;PST+IMMED"
+bɔ,kɔbɔee,"V;PST;LGSPEC1"
+bɔ,ammkɔbɔ,"V;NEG;PST;LGSPEC1"
+bɔ,nna rebɔ,"V;HAB+PROG;PST"
+bɔ,nna remmbɔ,"V;HAB+PROG;NEG;PST"
+bɔ,nna rebɛbɔ,"V;PROG;PST+IMMED"
+bɔ,nna remmbɛbɔ,"V;PROG;NEG;PST+IMMED"
+bɔ,nna rekɔbɔ,"V;PROG;PST;LGSPEC1"
+bɔ,nna rennkɔbɔ,"V;PROG;NEG;PST;LGSPEC1"
+bɔ,nna abɔ,"V;HAB+PRF;PST"
+bɔ,nna mmbɔee,"V;HAB+PRF;NEG;PST"
+bɔ,nna abɛbɔ,"V;PRF;PST+IMMED"
+bɔ,nna mmbɛbɔee,"V;PRF;NEG;PST+IMMED"
+bɔ,nna akɔbɔ,"V;PRF;PST;LGSPEC1"
+bɔ,nna nnkɔbɔee,"V;PRF;NEG;PST;LGSPEC1"
+bɔ,bɛbɔ,"V;HAB;FUT"
+bɔ,remmbɔ,"V;HAB;NEG;FUT"
+suo mu,suo mu,"V;NFIN"
+suo mu,suo mu,"V;HAB;PRS"
+suo mu,nnsuo mu,"V;HAB;NEG;PRS"
+suo mu,kɔsuo mu,"V;PRS;LGSPEC1"
+suo mu,nnkɔsuo mu,"V;NEG;PRS;LGSPEC1"
+suo mu,resuo mu,"V;HAB+PROG;PRS"
+suo mu,rennsuo mu,"V;HAB+PROG;NEG;PRS"
+suo mu,rebɛsuo mu,"V;PROG;PRS+IMMED"
+suo mu,remmbɛsuo mu,"V;PROG;NEG;PRS+IMMED"
+suo mu,rekɔsuo mu,"V;PROG;PRS;LGSPEC1"
+suo mu,rennkɔsuo mu,"V;PROG;NEG;PRS;LGSPEC1"
+suo mu,asuo mu,"V;HAB+PRF;PRS"
+suo mu,nnsuo muee,"V;HAB+PRF;NEG;PRS"
+suo mu,abɛsuo mu,"V;PRF;PRS+IMMED"
+suo mu,mmbɛsuo muee,"V;PRF;NEG;PRS+IMMED"
+suo mu,akɔsuo mu,"V;PRF;PRS;LGSPEC1"
+suo mu,nnkɔsuo muee,"V;PRF;NEG;PRS;LGSPEC1"
+suo mu,nsuo mu,"V;SBJV;PRS"
+suo mu,mma nnsuo mu,"V;SBJV;NEG;PRS"
+suo mu,suo mu,"V;IMP;PRS"
+suo mu,mma nnsuo mu,"V;IMP;NEG;PRS"
+suo mu,suo muee,"V;HAB;PST"
+suo mu,annsuo mu,"V;HAB;NEG;PST"
+suo mu,bɛsuo muee,"V;PST+IMMED"
+suo mu,ammbɛsuo mu,"V;NEG;PST+IMMED"
+suo mu,kɔsuo muee,"V;PST;LGSPEC1"
+suo mu,ammkɔsuo mu,"V;NEG;PST;LGSPEC1"
+suo mu,nna resuo mu,"V;HAB+PROG;PST"
+suo mu,nna rennsuo mu,"V;HAB+PROG;NEG;PST"
+suo mu,nna rebɛsuo mu,"V;PROG;PST+IMMED"
+suo mu,nna remmbɛsuo mu,"V;PROG;NEG;PST+IMMED"
+suo mu,nna rekɔsuo mu,"V;PROG;PST;LGSPEC1"
+suo mu,nna rennkɔsuo mu,"V;PROG;NEG;PST;LGSPEC1"
+suo mu,nna asuo mu,"V;HAB+PRF;PST"
+suo mu,nna nnsuo muee,"V;HAB+PRF;NEG;PST"
+suo mu,nna abɛsuo mu,"V;PRF;PST+IMMED"
+suo mu,nna mmbɛsuo muee,"V;PRF;NEG;PST+IMMED"
+suo mu,nna akɔsuo mu,"V;PRF;PST;LGSPEC1"
+suo mu,nna nnkɔsuo muee,"V;PRF;NEG;PST;LGSPEC1"
+suo mu,bɛsuo mu,"V;HAB;FUT"
+suo mu,rennsuo mu,"V;HAB;NEG;FUT"
+huruw,huruw,"V;NFIN"
+huruw,huruw,"V;HAB;PRS"
+huruw,nnhuruw,"V;HAB;NEG;PRS"
+huruw,kɔhuruw,"V;PRS;LGSPEC1"
+huruw,nnkɔhuruw,"V;NEG;PRS;LGSPEC1"
+huruw,rehuruw,"V;HAB+PROG;PRS"
+huruw,rennhuruw,"V;HAB+PROG;NEG;PRS"
+huruw,rebɛhuruw,"V;PROG;PRS+IMMED"
+huruw,remmbɛhuruw,"V;PROG;NEG;PRS+IMMED"
+huruw,rekɔhuruw,"V;PROG;PRS;LGSPEC1"
+huruw,rennkɔhuruw,"V;PROG;NEG;PRS;LGSPEC1"
+huruw,ahuruw,"V;HAB+PRF;PRS"
+huruw,nnhuruwee,"V;HAB+PRF;NEG;PRS"
+huruw,abɛhuruw,"V;PRF;PRS+IMMED"
+huruw,mmbɛhuruwee,"V;PRF;NEG;PRS+IMMED"
+huruw,akɔhuruw,"V;PRF;PRS;LGSPEC1"
+huruw,nnkɔhuruwee,"V;PRF;NEG;PRS;LGSPEC1"
+huruw,nhuruw,"V;SBJV;PRS"
+huruw,mma nnhuruw,"V;SBJV;NEG;PRS"
+huruw,huruw,"V;IMP;PRS"
+huruw,mma nnhuruw,"V;IMP;NEG;PRS"
+huruw,huruwee,"V;HAB;PST"
+huruw,annhuruw,"V;HAB;NEG;PST"
+huruw,bɛhuruwee,"V;PST+IMMED"
+huruw,ammbɛhuruw,"V;NEG;PST+IMMED"
+huruw,kɔhuruwee,"V;PST;LGSPEC1"
+huruw,ammkɔhuruw,"V;NEG;PST;LGSPEC1"
+huruw,nna rehuruw,"V;HAB+PROG;PST"
+huruw,nna rennhuruw,"V;HAB+PROG;NEG;PST"
+huruw,nna rebɛhuruw,"V;PROG;PST+IMMED"
+huruw,nna remmbɛhuruw,"V;PROG;NEG;PST+IMMED"
+huruw,nna rekɔhuruw,"V;PROG;PST;LGSPEC1"
+huruw,nna rennkɔhuruw,"V;PROG;NEG;PST;LGSPEC1"
+huruw,nna ahuruw,"V;HAB+PRF;PST"
+huruw,nna nnhuruwee,"V;HAB+PRF;NEG;PST"
+huruw,nna abɛhuruw,"V;PRF;PST+IMMED"
+huruw,nna mmbɛhuruwee,"V;PRF;NEG;PST+IMMED"
+huruw,nna akɔhuruw,"V;PRF;PST;LGSPEC1"
+huruw,nna nnkɔhuruwee,"V;PRF;NEG;PST;LGSPEC1"
+huruw,bɛhuruw,"V;HAB;FUT"
+huruw,rennhuruw,"V;HAB;NEG;FUT"
+ku,ku,"V;NFIN"
+ku,ku,"V;HAB;PRS"
+ku,nnku,"V;HAB;NEG;PRS"
+ku,kɔku,"V;PRS;LGSPEC1"
+ku,nnkɔku,"V;NEG;PRS;LGSPEC1"
+ku,reku,"V;HAB+PROG;PRS"
+ku,rennku,"V;HAB+PROG;NEG;PRS"
+ku,rebɛku,"V;PROG;PRS+IMMED"
+ku,remmbɛku,"V;PROG;NEG;PRS+IMMED"
+ku,rekɔku,"V;PROG;PRS;LGSPEC1"
+ku,rennkɔku,"V;PROG;NEG;PRS;LGSPEC1"
+ku,aku,"V;HAB+PRF;PRS"
+ku,nnkuee,"V;HAB+PRF;NEG;PRS"
+ku,abɛku,"V;PRF;PRS+IMMED"
+ku,mmbɛkuee,"V;PRF;NEG;PRS+IMMED"
+ku,akɔku,"V;PRF;PRS;LGSPEC1"
+ku,nnkɔkuee,"V;PRF;NEG;PRS;LGSPEC1"
+ku,nku,"V;SBJV;PRS"
+ku,mma nnku,"V;SBJV;NEG;PRS"
+ku,ku,"V;IMP;PRS"
+ku,mma nnku,"V;IMP;NEG;PRS"
+ku,kuee,"V;HAB;PST"
+ku,annku,"V;HAB;NEG;PST"
+ku,bɛkuee,"V;PST+IMMED"
+ku,ammbɛku,"V;NEG;PST+IMMED"
+ku,kɔkuee,"V;PST;LGSPEC1"
+ku,ammkɔku,"V;NEG;PST;LGSPEC1"
+ku,nna reku,"V;HAB+PROG;PST"
+ku,nna rennku,"V;HAB+PROG;NEG;PST"
+ku,nna rebɛku,"V;PROG;PST+IMMED"
+ku,nna remmbɛku,"V;PROG;NEG;PST+IMMED"
+ku,nna rekɔku,"V;PROG;PST;LGSPEC1"
+ku,nna rennkɔku,"V;PROG;NEG;PST;LGSPEC1"
+ku,nna aku,"V;HAB+PRF;PST"
+ku,nna nnkuee,"V;HAB+PRF;NEG;PST"
+ku,nna abɛku,"V;PRF;PST+IMMED"
+ku,nna mmbɛkuee,"V;PRF;NEG;PST+IMMED"
+ku,nna akɔku,"V;PRF;PST;LGSPEC1"
+ku,nna nnkɔkuee,"V;PRF;NEG;PST;LGSPEC1"
+ku,bɛku,"V;HAB;FUT"
+ku,rennku,"V;HAB;NEG;FUT"
+nyim,nyim,"V;NFIN"
+nyim,nyim,"V;HAB;PRS"
+nyim,nnnyim,"V;HAB;NEG;PRS"
+nyim,kɔnyim,"V;PRS;LGSPEC1"
+nyim,nnkɔnyim,"V;NEG;PRS;LGSPEC1"
+nyim,renyim,"V;HAB+PROG;PRS"
+nyim,rennnyim,"V;HAB+PROG;NEG;PRS"
+nyim,rebɛnyim,"V;PROG;PRS+IMMED"
+nyim,remmbɛnyim,"V;PROG;NEG;PRS+IMMED"
+nyim,rekɔnyim,"V;PROG;PRS;LGSPEC1"
+nyim,rennkɔnyim,"V;PROG;NEG;PRS;LGSPEC1"
+nyim,anyim,"V;HAB+PRF;PRS"
+nyim,nnnyimee,"V;HAB+PRF;NEG;PRS"
+nyim,abɛnyim,"V;PRF;PRS+IMMED"
+nyim,mmbɛnyimee,"V;PRF;NEG;PRS+IMMED"
+nyim,akɔnyim,"V;PRF;PRS;LGSPEC1"
+nyim,nnkɔnyimee,"V;PRF;NEG;PRS;LGSPEC1"
+nyim,nnyim,"V;SBJV;PRS"
+nyim,mma nnnyim,"V;SBJV;NEG;PRS"
+nyim,nyim,"V;IMP;PRS"
+nyim,mma nnnyim,"V;IMP;NEG;PRS"
+nyim,nyimee,"V;HAB;PST"
+nyim,annnyim,"V;HAB;NEG;PST"
+nyim,bɛnyimee,"V;PST+IMMED"
+nyim,ammbɛnyim,"V;NEG;PST+IMMED"
+nyim,kɔnyimee,"V;PST;LGSPEC1"
+nyim,ammkɔnyim,"V;NEG;PST;LGSPEC1"
+nyim,nna renyim,"V;HAB+PROG;PST"
+nyim,nna rennnyim,"V;HAB+PROG;NEG;PST"
+nyim,nna rebɛnyim,"V;PROG;PST+IMMED"
+nyim,nna remmbɛnyim,"V;PROG;NEG;PST+IMMED"
+nyim,nna rekɔnyim,"V;PROG;PST;LGSPEC1"
+nyim,nna rennkɔnyim,"V;PROG;NEG;PST;LGSPEC1"
+nyim,nna anyim,"V;HAB+PRF;PST"
+nyim,nna nnnyimee,"V;HAB+PRF;NEG;PST"
+nyim,nna abɛnyim,"V;PRF;PST+IMMED"
+nyim,nna mmbɛnyimee,"V;PRF;NEG;PST+IMMED"
+nyim,nna akɔnyim,"V;PRF;PST;LGSPEC1"
+nyim,nna nnkɔnyimee,"V;PRF;NEG;PST;LGSPEC1"
+nyim,bɛnyim,"V;HAB;FUT"
+nyim,rennnyim,"V;HAB;NEG;FUT"
+serew,serew,"V;NFIN"
+serew,serew,"V;HAB;PRS"
+serew,nnserew,"V;HAB;NEG;PRS"
+serew,kɔserew,"V;PRS;LGSPEC1"
+serew,nnkɔserew,"V;NEG;PRS;LGSPEC1"
+serew,reserew,"V;HAB+PROG;PRS"
+serew,rennserew,"V;HAB+PROG;NEG;PRS"
+serew,rebɛserew,"V;PROG;PRS+IMMED"
+serew,remmbɛserew,"V;PROG;NEG;PRS+IMMED"
+serew,rekɔserew,"V;PROG;PRS;LGSPEC1"
+serew,rennkɔserew,"V;PROG;NEG;PRS;LGSPEC1"
+serew,aserew,"V;HAB+PRF;PRS"
+serew,nnserewee,"V;HAB+PRF;NEG;PRS"
+serew,abɛserew,"V;PRF;PRS+IMMED"
+serew,mmbɛserewee,"V;PRF;NEG;PRS+IMMED"
+serew,akɔserew,"V;PRF;PRS;LGSPEC1"
+serew,nnkɔserewee,"V;PRF;NEG;PRS;LGSPEC1"
+serew,nserew,"V;SBJV;PRS"
+serew,mma nnserew,"V;SBJV;NEG;PRS"
+serew,serew,"V;IMP;PRS"
+serew,mma nnserew,"V;IMP;NEG;PRS"
+serew,serewee,"V;HAB;PST"
+serew,annserew,"V;HAB;NEG;PST"
+serew,bɛserewee,"V;PST+IMMED"
+serew,ammbɛserew,"V;NEG;PST+IMMED"
+serew,kɔserewee,"V;PST;LGSPEC1"
+serew,ammkɔserew,"V;NEG;PST;LGSPEC1"
+serew,nna reserew,"V;HAB+PROG;PST"
+serew,nna rennserew,"V;HAB+PROG;NEG;PST"
+serew,nna rebɛserew,"V;PROG;PST+IMMED"
+serew,nna remmbɛserew,"V;PROG;NEG;PST+IMMED"
+serew,nna rekɔserew,"V;PROG;PST;LGSPEC1"
+serew,nna rennkɔserew,"V;PROG;NEG;PST;LGSPEC1"
+serew,nna aserew,"V;HAB+PRF;PST"
+serew,nna nnserewee,"V;HAB+PRF;NEG;PST"
+serew,nna abɛserew,"V;PRF;PST+IMMED"
+serew,nna mmbɛserewee,"V;PRF;NEG;PST+IMMED"
+serew,nna akɔserew,"V;PRF;PST;LGSPEC1"
+serew,nna nnkɔserewee,"V;PRF;NEG;PST;LGSPEC1"
+serew,bɛserew,"V;HAB;FUT"
+serew,rennserew,"V;HAB;NEG;FUT"
+sua,sua,"V;NFIN"
+sua,sua,"V;HAB;PRS"
+sua,nnsua,"V;HAB;NEG;PRS"
+sua,kɔsua,"V;PRS;LGSPEC1"
+sua,nnkɔsua,"V;NEG;PRS;LGSPEC1"
+sua,resua,"V;HAB+PROG;PRS"
+sua,rennsua,"V;HAB+PROG;NEG;PRS"
+sua,rebɛsua,"V;PROG;PRS+IMMED"
+sua,remmbɛsua,"V;PROG;NEG;PRS+IMMED"
+sua,rekɔsua,"V;PROG;PRS;LGSPEC1"
+sua,rennkɔsua,"V;PROG;NEG;PRS;LGSPEC1"
+sua,asua,"V;HAB+PRF;PRS"
+sua,nnsuaee,"V;HAB+PRF;NEG;PRS"
+sua,abɛsua,"V;PRF;PRS+IMMED"
+sua,mmbɛsuaee,"V;PRF;NEG;PRS+IMMED"
+sua,akɔsua,"V;PRF;PRS;LGSPEC1"
+sua,nnkɔsuaee,"V;PRF;NEG;PRS;LGSPEC1"
+sua,nsua,"V;SBJV;PRS"
+sua,mma nnsua,"V;SBJV;NEG;PRS"
+sua,sua,"V;IMP;PRS"
+sua,mma nnsua,"V;IMP;NEG;PRS"
+sua,suaee,"V;HAB;PST"
+sua,annsua,"V;HAB;NEG;PST"
+sua,bɛsuaee,"V;PST+IMMED"
+sua,ammbɛsua,"V;NEG;PST+IMMED"
+sua,kɔsuaee,"V;PST;LGSPEC1"
+sua,ammkɔsua,"V;NEG;PST;LGSPEC1"
+sua,nna resua,"V;HAB+PROG;PST"
+sua,nna rennsua,"V;HAB+PROG;NEG;PST"
+sua,nna rebɛsua,"V;PROG;PST+IMMED"
+sua,nna remmbɛsua,"V;PROG;NEG;PST+IMMED"
+sua,nna rekɔsua,"V;PROG;PST;LGSPEC1"
+sua,nna rennkɔsua,"V;PROG;NEG;PST;LGSPEC1"
+sua,nna asua,"V;HAB+PRF;PST"
+sua,nna nnsuaee,"V;HAB+PRF;NEG;PST"
+sua,nna abɛsua,"V;PRF;PST+IMMED"
+sua,nna mmbɛsuaee,"V;PRF;NEG;PST+IMMED"
+sua,nna akɔsua,"V;PRF;PST;LGSPEC1"
+sua,nna nnkɔsuaee,"V;PRF;NEG;PST;LGSPEC1"
+sua,bɛsua,"V;HAB;FUT"
+sua,rennsua,"V;HAB;NEG;FUT"
+tafeere,tafeere,"V;NFIN"
+tafeere,tafeere,"V;HAB;PRS"
+tafeere,nntafeere,"V;HAB;NEG;PRS"
+tafeere,kɔtafeere,"V;PRS;LGSPEC1"
+tafeere,nnkɔtafeere,"V;NEG;PRS;LGSPEC1"
+tafeere,retafeere,"V;HAB+PROG;PRS"
+tafeere,renntafeere,"V;HAB+PROG;NEG;PRS"
+tafeere,rebɛtafeere,"V;PROG;PRS+IMMED"
+tafeere,remmbɛtafeere,"V;PROG;NEG;PRS+IMMED"
+tafeere,rekɔtafeere,"V;PROG;PRS;LGSPEC1"
+tafeere,rennkɔtafeere,"V;PROG;NEG;PRS;LGSPEC1"
+tafeere,atafeere,"V;HAB+PRF;PRS"
+tafeere,nntafeeree,"V;HAB+PRF;NEG;PRS"
+tafeere,abɛtafeere,"V;PRF;PRS+IMMED"
+tafeere,mmbɛtafeeree,"V;PRF;NEG;PRS+IMMED"
+tafeere,akɔtafeere,"V;PRF;PRS;LGSPEC1"
+tafeere,nnkɔtafeeree,"V;PRF;NEG;PRS;LGSPEC1"
+tafeere,ntafeere,"V;SBJV;PRS"
+tafeere,mma nntafeere,"V;SBJV;NEG;PRS"
+tafeere,tafeere,"V;IMP;PRS"
+tafeere,mma nntafeere,"V;IMP;NEG;PRS"
+tafeere,tafeeree,"V;HAB;PST"
+tafeere,anntafeere,"V;HAB;NEG;PST"
+tafeere,bɛtafeeree,"V;PST+IMMED"
+tafeere,ammbɛtafeere,"V;NEG;PST+IMMED"
+tafeere,kɔtafeeree,"V;PST;LGSPEC1"
+tafeere,ammkɔtafeere,"V;NEG;PST;LGSPEC1"
+tafeere,nna retafeere,"V;HAB+PROG;PST"
+tafeere,nna renntafeere,"V;HAB+PROG;NEG;PST"
+tafeere,nna rebɛtafeere,"V;PROG;PST+IMMED"
+tafeere,nna remmbɛtafeere,"V;PROG;NEG;PST+IMMED"
+tafeere,nna rekɔtafeere,"V;PROG;PST;LGSPEC1"
+tafeere,nna rennkɔtafeere,"V;PROG;NEG;PST;LGSPEC1"
+tafeere,nna atafeere,"V;HAB+PRF;PST"
+tafeere,nna nntafeeree,"V;HAB+PRF;NEG;PST"
+tafeere,nna abɛtafeere,"V;PRF;PST+IMMED"
+tafeere,nna mmbɛtafeeree,"V;PRF;NEG;PST+IMMED"
+tafeere,nna akɔtafeere,"V;PRF;PST;LGSPEC1"
+tafeere,nna nnkɔtafeeree,"V;PRF;NEG;PST;LGSPEC1"
+tafeere,bɛtafeere,"V;HAB;FUT"
+tafeere,renntafeere,"V;HAB;NEG;FUT"
+ma so,ma so,"V;NFIN"
+ma so,ma so,"V;HAB;PRS"
+ma so,mmma so,"V;HAB;NEG;PRS"
+ma so,kɔma so,"V;PRS;LGSPEC1"
+ma so,nnkɔma so,"V;NEG;PRS;LGSPEC1"
+ma so,rema so,"V;HAB+PROG;PRS"
+ma so,remmma so,"V;HAB+PROG;NEG;PRS"
+ma so,rebɛma so,"V;PROG;PRS+IMMED"
+ma so,remmbɛma so,"V;PROG;NEG;PRS+IMMED"
+ma so,rekɔma so,"V;PROG;PRS;LGSPEC1"
+ma so,rennkɔma so,"V;PROG;NEG;PRS;LGSPEC1"
+ma so,ama so,"V;HAB+PRF;PRS"
+ma so,mmma soee,"V;HAB+PRF;NEG;PRS"
+ma so,abɛma so,"V;PRF;PRS+IMMED"
+ma so,mmbɛma soee,"V;PRF;NEG;PRS+IMMED"
+ma so,akɔma so,"V;PRF;PRS;LGSPEC1"
+ma so,nnkɔma soee,"V;PRF;NEG;PRS;LGSPEC1"
+ma so,mma so,"V;SBJV;PRS"
+ma so,mma mmma so,"V;SBJV;NEG;PRS"
+ma so,ma so,"V;IMP;PRS"
+ma so,mma mmma so,"V;IMP;NEG;PRS"
+ma so,ma soee,"V;HAB;PST"
+ma so,ammma so,"V;HAB;NEG;PST"
+ma so,bɛma soee,"V;PST+IMMED"
+ma so,ammbɛma so,"V;NEG;PST+IMMED"
+ma so,kɔma soee,"V;PST;LGSPEC1"
+ma so,ammkɔma so,"V;NEG;PST;LGSPEC1"
+ma so,nna rema so,"V;HAB+PROG;PST"
+ma so,nna remmma so,"V;HAB+PROG;NEG;PST"
+ma so,nna rebɛma so,"V;PROG;PST+IMMED"
+ma so,nna remmbɛma so,"V;PROG;NEG;PST+IMMED"
+ma so,nna rekɔma so,"V;PROG;PST;LGSPEC1"
+ma so,nna rennkɔma so,"V;PROG;NEG;PST;LGSPEC1"
+ma so,nna ama so,"V;HAB+PRF;PST"
+ma so,nna mmma soee,"V;HAB+PRF;NEG;PST"
+ma so,nna abɛma so,"V;PRF;PST+IMMED"
+ma so,nna mmbɛma soee,"V;PRF;NEG;PST+IMMED"
+ma so,nna akɔma so,"V;PRF;PST;LGSPEC1"
+ma so,nna nnkɔma soee,"V;PRF;NEG;PST;LGSPEC1"
+ma so,bɛma so,"V;HAB;FUT"
+ma so,remmma so,"V;HAB;NEG;FUT"
+tie,tie,"V;NFIN"
+tie,tie,"V;HAB;PRS"
+tie,nntie,"V;HAB;NEG;PRS"
+tie,kɔtie,"V;PRS;LGSPEC1"
+tie,nnkɔtie,"V;NEG;PRS;LGSPEC1"
+tie,retie,"V;HAB+PROG;PRS"
+tie,renntie,"V;HAB+PROG;NEG;PRS"
+tie,rebɛtie,"V;PROG;PRS+IMMED"
+tie,remmbɛtie,"V;PROG;NEG;PRS+IMMED"
+tie,rekɔtie,"V;PROG;PRS;LGSPEC1"
+tie,rennkɔtie,"V;PROG;NEG;PRS;LGSPEC1"
+tie,atie,"V;HAB+PRF;PRS"
+tie,nntiee,"V;HAB+PRF;NEG;PRS"
+tie,abɛtie,"V;PRF;PRS+IMMED"
+tie,mmbɛtiee,"V;PRF;NEG;PRS+IMMED"
+tie,akɔtie,"V;PRF;PRS;LGSPEC1"
+tie,nnkɔtiee,"V;PRF;NEG;PRS;LGSPEC1"
+tie,ntie,"V;SBJV;PRS"
+tie,mma nntie,"V;SBJV;NEG;PRS"
+tie,tie,"V;IMP;PRS"
+tie,mma nntie,"V;IMP;NEG;PRS"
+tie,tiee,"V;HAB;PST"
+tie,anntie,"V;HAB;NEG;PST"
+tie,bɛtiee,"V;PST+IMMED"
+tie,ammbɛtie,"V;NEG;PST+IMMED"
+tie,kɔtiee,"V;PST;LGSPEC1"
+tie,ammkɔtie,"V;NEG;PST;LGSPEC1"
+tie,nna retie,"V;HAB+PROG;PST"
+tie,nna renntie,"V;HAB+PROG;NEG;PST"
+tie,nna rebɛtie,"V;PROG;PST+IMMED"
+tie,nna remmbɛtie,"V;PROG;NEG;PST+IMMED"
+tie,nna rekɔtie,"V;PROG;PST;LGSPEC1"
+tie,nna rennkɔtie,"V;PROG;NEG;PST;LGSPEC1"
+tie,nna atie,"V;HAB+PRF;PST"
+tie,nna nntiee,"V;HAB+PRF;NEG;PST"
+tie,nna abɛtie,"V;PRF;PST+IMMED"
+tie,nna mmbɛtiee,"V;PRF;NEG;PST+IMMED"
+tie,nna akɔtie,"V;PRF;PST;LGSPEC1"
+tie,nna nnkɔtiee,"V;PRF;NEG;PST;LGSPEC1"
+tie,bɛtie,"V;HAB;FUT"
+tie,renntie,"V;HAB;NEG;FUT"
+hwehwɛ,hwehwɛ,"V;NFIN"
+hwehwɛ,hwehwɛ,"V;HAB;PRS"
+hwehwɛ,nnhwehwɛ,"V;HAB;NEG;PRS"
+hwehwɛ,kɔhwehwɛ,"V;PRS;LGSPEC1"
+hwehwɛ,nnkɔhwehwɛ,"V;NEG;PRS;LGSPEC1"
+hwehwɛ,rehwehwɛ,"V;HAB+PROG;PRS"
+hwehwɛ,rennhwehwɛ,"V;HAB+PROG;NEG;PRS"
+hwehwɛ,rebɛhwehwɛ,"V;PROG;PRS+IMMED"
+hwehwɛ,remmbɛhwehwɛ,"V;PROG;NEG;PRS+IMMED"
+hwehwɛ,rekɔhwehwɛ,"V;PROG;PRS;LGSPEC1"
+hwehwɛ,rennkɔhwehwɛ,"V;PROG;NEG;PRS;LGSPEC1"
+hwehwɛ,ahwehwɛ,"V;HAB+PRF;PRS"
+hwehwɛ,nnhwehwɛee,"V;HAB+PRF;NEG;PRS"
+hwehwɛ,abɛhwehwɛ,"V;PRF;PRS+IMMED"
+hwehwɛ,mmbɛhwehwɛee,"V;PRF;NEG;PRS+IMMED"
+hwehwɛ,akɔhwehwɛ,"V;PRF;PRS;LGSPEC1"
+hwehwɛ,nnkɔhwehwɛee,"V;PRF;NEG;PRS;LGSPEC1"
+hwehwɛ,nhwehwɛ,"V;SBJV;PRS"
+hwehwɛ,mma nnhwehwɛ,"V;SBJV;NEG;PRS"
+hwehwɛ,hwehwɛ,"V;IMP;PRS"
+hwehwɛ,mma nnhwehwɛ,"V;IMP;NEG;PRS"
+hwehwɛ,hwehwɛee,"V;HAB;PST"
+hwehwɛ,annhwehwɛ,"V;HAB;NEG;PST"
+hwehwɛ,bɛhwehwɛee,"V;PST+IMMED"
+hwehwɛ,ammbɛhwehwɛ,"V;NEG;PST+IMMED"
+hwehwɛ,kɔhwehwɛee,"V;PST;LGSPEC1"
+hwehwɛ,ammkɔhwehwɛ,"V;NEG;PST;LGSPEC1"
+hwehwɛ,nna rehwehwɛ,"V;HAB+PROG;PST"
+hwehwɛ,nna rennhwehwɛ,"V;HAB+PROG;NEG;PST"
+hwehwɛ,nna rebɛhwehwɛ,"V;PROG;PST+IMMED"
+hwehwɛ,nna remmbɛhwehwɛ,"V;PROG;NEG;PST+IMMED"
+hwehwɛ,nna rekɔhwehwɛ,"V;PROG;PST;LGSPEC1"
+hwehwɛ,nna rennkɔhwehwɛ,"V;PROG;NEG;PST;LGSPEC1"
+hwehwɛ,nna ahwehwɛ,"V;HAB+PRF;PST"
+hwehwɛ,nna nnhwehwɛee,"V;HAB+PRF;NEG;PST"
+hwehwɛ,nna abɛhwehwɛ,"V;PRF;PST+IMMED"
+hwehwɛ,nna mmbɛhwehwɛee,"V;PRF;NEG;PST+IMMED"
+hwehwɛ,nna akɔhwehwɛ,"V;PRF;PST;LGSPEC1"
+hwehwɛ,nna nnkɔhwehwɛee,"V;PRF;NEG;PST;LGSPEC1"
+hwehwɛ,bɛhwehwɛ,"V;HAB;FUT"
+hwehwɛ,rennhwehwɛ,"V;HAB;NEG;FUT"
+yɛ,yɛ,"V;NFIN"
+yɛ,yɛ,"V;HAB;PRS"
+yɛ,nnyɛ,"V;HAB;NEG;PRS"
+yɛ,kɔyɛ,"V;PRS;LGSPEC1"
+yɛ,nnkɔyɛ,"V;NEG;PRS;LGSPEC1"
+yɛ,reyɛ,"V;HAB+PROG;PRS"
+yɛ,rennyɛ,"V;HAB+PROG;NEG;PRS"
+yɛ,rebɛyɛ,"V;PROG;PRS+IMMED"
+yɛ,remmbɛyɛ,"V;PROG;NEG;PRS+IMMED"
+yɛ,rekɔyɛ,"V;PROG;PRS;LGSPEC1"
+yɛ,rennkɔyɛ,"V;PROG;NEG;PRS;LGSPEC1"
+yɛ,ayɛ,"V;HAB+PRF;PRS"
+yɛ,nnyɛee,"V;HAB+PRF;NEG;PRS"
+yɛ,abɛyɛ,"V;PRF;PRS+IMMED"
+yɛ,mmbɛyɛee,"V;PRF;NEG;PRS+IMMED"
+yɛ,akɔyɛ,"V;PRF;PRS;LGSPEC1"
+yɛ,nnkɔyɛee,"V;PRF;NEG;PRS;LGSPEC1"
+yɛ,nyɛ,"V;SBJV;PRS"
+yɛ,mma nnyɛ,"V;SBJV;NEG;PRS"
+yɛ,yɛ,"V;IMP;PRS"
+yɛ,mma nnyɛ,"V;IMP;NEG;PRS"
+yɛ,yɛee,"V;HAB;PST"
+yɛ,annyɛ,"V;HAB;NEG;PST"
+yɛ,bɛyɛee,"V;PST+IMMED"
+yɛ,ammbɛyɛ,"V;NEG;PST+IMMED"
+yɛ,kɔyɛee,"V;PST;LGSPEC1"
+yɛ,ammkɔyɛ,"V;NEG;PST;LGSPEC1"
+yɛ,nna reyɛ,"V;HAB+PROG;PST"
+yɛ,nna rennyɛ,"V;HAB+PROG;NEG;PST"
+yɛ,nna rebɛyɛ,"V;PROG;PST+IMMED"
+yɛ,nna remmbɛyɛ,"V;PROG;NEG;PST+IMMED"
+yɛ,nna rekɔyɛ,"V;PROG;PST;LGSPEC1"
+yɛ,nna rennkɔyɛ,"V;PROG;NEG;PST;LGSPEC1"
+yɛ,nna ayɛ,"V;HAB+PRF;PST"
+yɛ,nna nnyɛee,"V;HAB+PRF;NEG;PST"
+yɛ,nna abɛyɛ,"V;PRF;PST+IMMED"
+yɛ,nna mmbɛyɛee,"V;PRF;NEG;PST+IMMED"
+yɛ,nna akɔyɛ,"V;PRF;PST;LGSPEC1"
+yɛ,nna nnkɔyɛee,"V;PRF;NEG;PST;LGSPEC1"
+yɛ,bɛyɛ,"V;HAB;FUT"
+yɛ,rennyɛ,"V;HAB;NEG;FUT"
+fra,fra,"V;NFIN"
+fra,fra,"V;HAB;PRS"
+fra,mmfra,"V;HAB;NEG;PRS"
+fra,kɔfra,"V;PRS;LGSPEC1"
+fra,nnkɔfra,"V;NEG;PRS;LGSPEC1"
+fra,refra,"V;HAB+PROG;PRS"
+fra,remmfra,"V;HAB+PROG;NEG;PRS"
+fra,rebɛfra,"V;PROG;PRS+IMMED"
+fra,remmbɛfra,"V;PROG;NEG;PRS+IMMED"
+fra,rekɔfra,"V;PROG;PRS;LGSPEC1"
+fra,rennkɔfra,"V;PROG;NEG;PRS;LGSPEC1"
+fra,afra,"V;HAB+PRF;PRS"
+fra,mmfraee,"V;HAB+PRF;NEG;PRS"
+fra,abɛfra,"V;PRF;PRS+IMMED"
+fra,mmbɛfraee,"V;PRF;NEG;PRS+IMMED"
+fra,akɔfra,"V;PRF;PRS;LGSPEC1"
+fra,nnkɔfraee,"V;PRF;NEG;PRS;LGSPEC1"
+fra,mfra,"V;SBJV;PRS"
+fra,mma mmfra,"V;SBJV;NEG;PRS"
+fra,fra,"V;IMP;PRS"
+fra,mma mmfra,"V;IMP;NEG;PRS"
+fra,fraee,"V;HAB;PST"
+fra,ammfra,"V;HAB;NEG;PST"
+fra,bɛfraee,"V;PST+IMMED"
+fra,ammbɛfra,"V;NEG;PST+IMMED"
+fra,kɔfraee,"V;PST;LGSPEC1"
+fra,ammkɔfra,"V;NEG;PST;LGSPEC1"
+fra,nna refra,"V;HAB+PROG;PST"
+fra,nna remmfra,"V;HAB+PROG;NEG;PST"
+fra,nna rebɛfra,"V;PROG;PST+IMMED"
+fra,nna remmbɛfra,"V;PROG;NEG;PST+IMMED"
+fra,nna rekɔfra,"V;PROG;PST;LGSPEC1"
+fra,nna rennkɔfra,"V;PROG;NEG;PST;LGSPEC1"
+fra,nna afra,"V;HAB+PRF;PST"
+fra,nna mmfraee,"V;HAB+PRF;NEG;PST"
+fra,nna abɛfra,"V;PRF;PST+IMMED"
+fra,nna mmbɛfraee,"V;PRF;NEG;PST+IMMED"
+fra,nna akɔfra,"V;PRF;PST;LGSPEC1"
+fra,nna nnkɔfraee,"V;PRF;NEG;PST;LGSPEC1"
+fra,bɛfra,"V;HAB;FUT"
+fra,remmfra,"V;HAB;NEG;FUT"
+hia,hia,"V;NFIN"
+hia,hia,"V;HAB;PRS"
+hia,nnhia,"V;HAB;NEG;PRS"
+hia,kɔhia,"V;PRS;LGSPEC1"
+hia,nnkɔhia,"V;NEG;PRS;LGSPEC1"
+hia,rehia,"V;HAB+PROG;PRS"
+hia,rennhia,"V;HAB+PROG;NEG;PRS"
+hia,rebɛhia,"V;PROG;PRS+IMMED"
+hia,remmbɛhia,"V;PROG;NEG;PRS+IMMED"
+hia,rekɔhia,"V;PROG;PRS;LGSPEC1"
+hia,rennkɔhia,"V;PROG;NEG;PRS;LGSPEC1"
+hia,ahia,"V;HAB+PRF;PRS"
+hia,nnhiaee,"V;HAB+PRF;NEG;PRS"
+hia,abɛhia,"V;PRF;PRS+IMMED"
+hia,mmbɛhiaee,"V;PRF;NEG;PRS+IMMED"
+hia,akɔhia,"V;PRF;PRS;LGSPEC1"
+hia,nnkɔhiaee,"V;PRF;NEG;PRS;LGSPEC1"
+hia,nhia,"V;SBJV;PRS"
+hia,mma nnhia,"V;SBJV;NEG;PRS"
+hia,hia,"V;IMP;PRS"
+hia,mma nnhia,"V;IMP;NEG;PRS"
+hia,hiaee,"V;HAB;PST"
+hia,annhia,"V;HAB;NEG;PST"
+hia,bɛhiaee,"V;PST+IMMED"
+hia,ammbɛhia,"V;NEG;PST+IMMED"
+hia,kɔhiaee,"V;PST;LGSPEC1"
+hia,ammkɔhia,"V;NEG;PST;LGSPEC1"
+hia,nna rehia,"V;HAB+PROG;PST"
+hia,nna rennhia,"V;HAB+PROG;NEG;PST"
+hia,nna rebɛhia,"V;PROG;PST+IMMED"
+hia,nna remmbɛhia,"V;PROG;NEG;PST+IMMED"
+hia,nna rekɔhia,"V;PROG;PST;LGSPEC1"
+hia,nna rennkɔhia,"V;PROG;NEG;PST;LGSPEC1"
+hia,nna ahia,"V;HAB+PRF;PST"
+hia,nna nnhiaee,"V;HAB+PRF;NEG;PST"
+hia,nna abɛhia,"V;PRF;PST+IMMED"
+hia,nna mmbɛhiaee,"V;PRF;NEG;PST+IMMED"
+hia,nna akɔhia,"V;PRF;PST;LGSPEC1"
+hia,nna nnkɔhiaee,"V;PRF;NEG;PST;LGSPEC1"
+hia,bɛhia,"V;HAB;FUT"
+hia,rennhia,"V;HAB;NEG;FUT"
+bue,bue,"V;NFIN"
+bue,bue,"V;HAB;PRS"
+bue,mmbue,"V;HAB;NEG;PRS"
+bue,kɔbue,"V;PRS;LGSPEC1"
+bue,nnkɔbue,"V;NEG;PRS;LGSPEC1"
+bue,rebue,"V;HAB+PROG;PRS"
+bue,remmbue,"V;HAB+PROG;NEG;PRS"
+bue,rebɛbue,"V;PROG;PRS+IMMED"
+bue,remmbɛbue,"V;PROG;NEG;PRS+IMMED"
+bue,rekɔbue,"V;PROG;PRS;LGSPEC1"
+bue,rennkɔbue,"V;PROG;NEG;PRS;LGSPEC1"
+bue,abue,"V;HAB+PRF;PRS"
+bue,mmbuee,"V;HAB+PRF;NEG;PRS"
+bue,abɛbue,"V;PRF;PRS+IMMED"
+bue,mmbɛbuee,"V;PRF;NEG;PRS+IMMED"
+bue,akɔbue,"V;PRF;PRS;LGSPEC1"
+bue,nnkɔbuee,"V;PRF;NEG;PRS;LGSPEC1"
+bue,mbue,"V;SBJV;PRS"
+bue,mma mmbue,"V;SBJV;NEG;PRS"
+bue,bue,"V;IMP;PRS"
+bue,mma mmbue,"V;IMP;NEG;PRS"
+bue,buee,"V;HAB;PST"
+bue,ammbue,"V;HAB;NEG;PST"
+bue,bɛbuee,"V;PST+IMMED"
+bue,ammbɛbue,"V;NEG;PST+IMMED"
+bue,kɔbuee,"V;PST;LGSPEC1"
+bue,ammkɔbue,"V;NEG;PST;LGSPEC1"
+bue,nna rebue,"V;HAB+PROG;PST"
+bue,nna remmbue,"V;HAB+PROG;NEG;PST"
+bue,nna rebɛbue,"V;PROG;PST+IMMED"
+bue,nna remmbɛbue,"V;PROG;NEG;PST+IMMED"
+bue,nna rekɔbue,"V;PROG;PST;LGSPEC1"
+bue,nna rennkɔbue,"V;PROG;NEG;PST;LGSPEC1"
+bue,nna abue,"V;HAB+PRF;PST"
+bue,nna mmbuee,"V;HAB+PRF;NEG;PST"
+bue,nna abɛbue,"V;PRF;PST+IMMED"
+bue,nna mmbɛbuee,"V;PRF;NEG;PST+IMMED"
+bue,nna akɔbue,"V;PRF;PST;LGSPEC1"
+bue,nna nnkɔbuee,"V;PRF;NEG;PST;LGSPEC1"
+bue,bɛbue,"V;HAB;FUT"
+bue,remmbue,"V;HAB;NEG;FUT"
+tare,tare,"V;NFIN"
+tare,tare,"V;HAB;PRS"
+tare,nntare,"V;HAB;NEG;PRS"
+tare,kɔtare,"V;PRS;LGSPEC1"
+tare,nnkɔtare,"V;NEG;PRS;LGSPEC1"
+tare,retare,"V;HAB+PROG;PRS"
+tare,renntare,"V;HAB+PROG;NEG;PRS"
+tare,rebɛtare,"V;PROG;PRS+IMMED"
+tare,remmbɛtare,"V;PROG;NEG;PRS+IMMED"
+tare,rekɔtare,"V;PROG;PRS;LGSPEC1"
+tare,rennkɔtare,"V;PROG;NEG;PRS;LGSPEC1"
+tare,atare,"V;HAB+PRF;PRS"
+tare,nntaree,"V;HAB+PRF;NEG;PRS"
+tare,abɛtare,"V;PRF;PRS+IMMED"
+tare,mmbɛtaree,"V;PRF;NEG;PRS+IMMED"
+tare,akɔtare,"V;PRF;PRS;LGSPEC1"
+tare,nnkɔtaree,"V;PRF;NEG;PRS;LGSPEC1"
+tare,ntare,"V;SBJV;PRS"
+tare,mma nntare,"V;SBJV;NEG;PRS"
+tare,tare,"V;IMP;PRS"
+tare,mma nntare,"V;IMP;NEG;PRS"
+tare,taree,"V;HAB;PST"
+tare,anntare,"V;HAB;NEG;PST"
+tare,bɛtaree,"V;PST+IMMED"
+tare,ammbɛtare,"V;NEG;PST+IMMED"
+tare,kɔtaree,"V;PST;LGSPEC1"
+tare,ammkɔtare,"V;NEG;PST;LGSPEC1"
+tare,nna retare,"V;HAB+PROG;PST"
+tare,nna renntare,"V;HAB+PROG;NEG;PST"
+tare,nna rebɛtare,"V;PROG;PST+IMMED"
+tare,nna remmbɛtare,"V;PROG;NEG;PST+IMMED"
+tare,nna rekɔtare,"V;PROG;PST;LGSPEC1"
+tare,nna rennkɔtare,"V;PROG;NEG;PST;LGSPEC1"
+tare,nna atare,"V;HAB+PRF;PST"
+tare,nna nntaree,"V;HAB+PRF;NEG;PST"
+tare,nna abɛtare,"V;PRF;PST+IMMED"
+tare,nna mmbɛtaree,"V;PRF;NEG;PST+IMMED"
+tare,nna akɔtare,"V;PRF;PST;LGSPEC1"
+tare,nna nnkɔtaree,"V;PRF;NEG;PST;LGSPEC1"
+tare,bɛtare,"V;HAB;FUT"
+tare,renntare,"V;HAB;NEG;FUT"
+huane,huane,"V;NFIN"
+huane,huane,"V;HAB;PRS"
+huane,nnhuane,"V;HAB;NEG;PRS"
+huane,kɔhuane,"V;PRS;LGSPEC1"
+huane,nnkɔhuane,"V;NEG;PRS;LGSPEC1"
+huane,rehuane,"V;HAB+PROG;PRS"
+huane,rennhuane,"V;HAB+PROG;NEG;PRS"
+huane,rebɛhuane,"V;PROG;PRS+IMMED"
+huane,remmbɛhuane,"V;PROG;NEG;PRS+IMMED"
+huane,rekɔhuane,"V;PROG;PRS;LGSPEC1"
+huane,rennkɔhuane,"V;PROG;NEG;PRS;LGSPEC1"
+huane,ahuane,"V;HAB+PRF;PRS"
+huane,nnhuanee,"V;HAB+PRF;NEG;PRS"
+huane,abɛhuane,"V;PRF;PRS+IMMED"
+huane,mmbɛhuanee,"V;PRF;NEG;PRS+IMMED"
+huane,akɔhuane,"V;PRF;PRS;LGSPEC1"
+huane,nnkɔhuanee,"V;PRF;NEG;PRS;LGSPEC1"
+huane,nhuane,"V;SBJV;PRS"
+huane,mma nnhuane,"V;SBJV;NEG;PRS"
+huane,huane,"V;IMP;PRS"
+huane,mma nnhuane,"V;IMP;NEG;PRS"
+huane,huanee,"V;HAB;PST"
+huane,annhuane,"V;HAB;NEG;PST"
+huane,bɛhuanee,"V;PST+IMMED"
+huane,ammbɛhuane,"V;NEG;PST+IMMED"
+huane,kɔhuanee,"V;PST;LGSPEC1"
+huane,ammkɔhuane,"V;NEG;PST;LGSPEC1"
+huane,nna rehuane,"V;HAB+PROG;PST"
+huane,nna rennhuane,"V;HAB+PROG;NEG;PST"
+huane,nna rebɛhuane,"V;PROG;PST+IMMED"
+huane,nna remmbɛhuane,"V;PROG;NEG;PST+IMMED"
+huane,nna rekɔhuane,"V;PROG;PST;LGSPEC1"
+huane,nna rennkɔhuane,"V;PROG;NEG;PST;LGSPEC1"
+huane,nna ahuane,"V;HAB+PRF;PST"
+huane,nna nnhuanee,"V;HAB+PRF;NEG;PST"
+huane,nna abɛhuane,"V;PRF;PST+IMMED"
+huane,nna mmbɛhuanee,"V;PRF;NEG;PST+IMMED"
+huane,nna akɔhuane,"V;PRF;PST;LGSPEC1"
+huane,nna nnkɔhuanee,"V;PRF;NEG;PST;LGSPEC1"
+huane,bɛhuane,"V;HAB;FUT"
+huane,rennhuane,"V;HAB;NEG;FUT"
+dua,dua,"V;NFIN"
+dua,dua,"V;HAB;PRS"
+dua,nndua,"V;HAB;NEG;PRS"
+dua,kɔdua,"V;PRS;LGSPEC1"
+dua,nnkɔdua,"V;NEG;PRS;LGSPEC1"
+dua,redua,"V;HAB+PROG;PRS"
+dua,renndua,"V;HAB+PROG;NEG;PRS"
+dua,rebɛdua,"V;PROG;PRS+IMMED"
+dua,remmbɛdua,"V;PROG;NEG;PRS+IMMED"
+dua,rekɔdua,"V;PROG;PRS;LGSPEC1"
+dua,rennkɔdua,"V;PROG;NEG;PRS;LGSPEC1"
+dua,adua,"V;HAB+PRF;PRS"
+dua,nnduaee,"V;HAB+PRF;NEG;PRS"
+dua,abɛdua,"V;PRF;PRS+IMMED"
+dua,mmbɛduaee,"V;PRF;NEG;PRS+IMMED"
+dua,akɔdua,"V;PRF;PRS;LGSPEC1"
+dua,nnkɔduaee,"V;PRF;NEG;PRS;LGSPEC1"
+dua,ndua,"V;SBJV;PRS"
+dua,mma nndua,"V;SBJV;NEG;PRS"
+dua,dua,"V;IMP;PRS"
+dua,mma nndua,"V;IMP;NEG;PRS"
+dua,duaee,"V;HAB;PST"
+dua,anndua,"V;HAB;NEG;PST"
+dua,bɛduaee,"V;PST+IMMED"
+dua,ammbɛdua,"V;NEG;PST+IMMED"
+dua,kɔduaee,"V;PST;LGSPEC1"
+dua,ammkɔdua,"V;NEG;PST;LGSPEC1"
+dua,nna redua,"V;HAB+PROG;PST"
+dua,nna renndua,"V;HAB+PROG;NEG;PST"
+dua,nna rebɛdua,"V;PROG;PST+IMMED"
+dua,nna remmbɛdua,"V;PROG;NEG;PST+IMMED"
+dua,nna rekɔdua,"V;PROG;PST;LGSPEC1"
+dua,nna rennkɔdua,"V;PROG;NEG;PST;LGSPEC1"
+dua,nna adua,"V;HAB+PRF;PST"
+dua,nna nnduaee,"V;HAB+PRF;NEG;PST"
+dua,nna abɛdua,"V;PRF;PST+IMMED"
+dua,nna mmbɛduaee,"V;PRF;NEG;PST+IMMED"
+dua,nna akɔdua,"V;PRF;PST;LGSPEC1"
+dua,nna nnkɔduaee,"V;PRF;NEG;PST;LGSPEC1"
+dua,bɛdua,"V;HAB;FUT"
+dua,renndua,"V;HAB;NEG;FUT"
+siw,siw,"V;NFIN"
+siw,siw,"V;HAB;PRS"
+siw,nnsiw,"V;HAB;NEG;PRS"
+siw,kɔsiw,"V;PRS;LGSPEC1"
+siw,nnkɔsiw,"V;NEG;PRS;LGSPEC1"
+siw,resiw,"V;HAB+PROG;PRS"
+siw,rennsiw,"V;HAB+PROG;NEG;PRS"
+siw,rebɛsiw,"V;PROG;PRS+IMMED"
+siw,remmbɛsiw,"V;PROG;NEG;PRS+IMMED"
+siw,rekɔsiw,"V;PROG;PRS;LGSPEC1"
+siw,rennkɔsiw,"V;PROG;NEG;PRS;LGSPEC1"
+siw,asiw,"V;HAB+PRF;PRS"
+siw,nnsiwee,"V;HAB+PRF;NEG;PRS"
+siw,abɛsiw,"V;PRF;PRS+IMMED"
+siw,mmbɛsiwee,"V;PRF;NEG;PRS+IMMED"
+siw,akɔsiw,"V;PRF;PRS;LGSPEC1"
+siw,nnkɔsiwee,"V;PRF;NEG;PRS;LGSPEC1"
+siw,nsiw,"V;SBJV;PRS"
+siw,mma nnsiw,"V;SBJV;NEG;PRS"
+siw,siw,"V;IMP;PRS"
+siw,mma nnsiw,"V;IMP;NEG;PRS"
+siw,siwee,"V;HAB;PST"
+siw,annsiw,"V;HAB;NEG;PST"
+siw,bɛsiwee,"V;PST+IMMED"
+siw,ammbɛsiw,"V;NEG;PST+IMMED"
+siw,kɔsiwee,"V;PST;LGSPEC1"
+siw,ammkɔsiw,"V;NEG;PST;LGSPEC1"
+siw,nna resiw,"V;HAB+PROG;PST"
+siw,nna rennsiw,"V;HAB+PROG;NEG;PST"
+siw,nna rebɛsiw,"V;PROG;PST+IMMED"
+siw,nna remmbɛsiw,"V;PROG;NEG;PST+IMMED"
+siw,nna rekɔsiw,"V;PROG;PST;LGSPEC1"
+siw,nna rennkɔsiw,"V;PROG;NEG;PST;LGSPEC1"
+siw,nna asiw,"V;HAB+PRF;PST"
+siw,nna nnsiwee,"V;HAB+PRF;NEG;PST"
+siw,nna abɛsiw,"V;PRF;PST+IMMED"
+siw,nna mmbɛsiwee,"V;PRF;NEG;PST+IMMED"
+siw,nna akɔsiw,"V;PRF;PST;LGSPEC1"
+siw,nna nnkɔsiwee,"V;PRF;NEG;PST;LGSPEC1"
+siw,bɛsiw,"V;HAB;FUT"
+siw,rennsiw,"V;HAB;NEG;FUT"
+yi ayɛw,yi ayɛw,"V;NFIN"
+yi ayɛw,yi ayɛw,"V;HAB;PRS"
+yi ayɛw,nnyi ayɛw,"V;HAB;NEG;PRS"
+yi ayɛw,kɔyi ayɛw,"V;PRS;LGSPEC1"
+yi ayɛw,nnkɔyi ayɛw,"V;NEG;PRS;LGSPEC1"
+yi ayɛw,reyi ayɛw,"V;HAB+PROG;PRS"
+yi ayɛw,rennyi ayɛw,"V;HAB+PROG;NEG;PRS"
+yi ayɛw,rebɛyi ayɛw,"V;PROG;PRS+IMMED"
+yi ayɛw,remmbɛyi ayɛw,"V;PROG;NEG;PRS+IMMED"
+yi ayɛw,rekɔyi ayɛw,"V;PROG;PRS;LGSPEC1"
+yi ayɛw,rennkɔyi ayɛw,"V;PROG;NEG;PRS;LGSPEC1"
+yi ayɛw,ayi ayɛw,"V;HAB+PRF;PRS"
+yi ayɛw,nnyi ayɛwee,"V;HAB+PRF;NEG;PRS"
+yi ayɛw,abɛyi ayɛw,"V;PRF;PRS+IMMED"
+yi ayɛw,mmbɛyi ayɛwee,"V;PRF;NEG;PRS+IMMED"
+yi ayɛw,akɔyi ayɛw,"V;PRF;PRS;LGSPEC1"
+yi ayɛw,nnkɔyi ayɛwee,"V;PRF;NEG;PRS;LGSPEC1"
+yi ayɛw,nyi ayɛw,"V;SBJV;PRS"
+yi ayɛw,mma nnyi ayɛw,"V;SBJV;NEG;PRS"
+yi ayɛw,yi ayɛw,"V;IMP;PRS"
+yi ayɛw,mma nnyi ayɛw,"V;IMP;NEG;PRS"
+yi ayɛw,yi ayɛwee,"V;HAB;PST"
+yi ayɛw,annyi ayɛw,"V;HAB;NEG;PST"
+yi ayɛw,bɛyi ayɛwee,"V;PST+IMMED"
+yi ayɛw,ammbɛyi ayɛw,"V;NEG;PST+IMMED"
+yi ayɛw,kɔyi ayɛwee,"V;PST;LGSPEC1"
+yi ayɛw,ammkɔyi ayɛw,"V;NEG;PST;LGSPEC1"
+yi ayɛw,nna reyi ayɛw,"V;HAB+PROG;PST"
+yi ayɛw,nna rennyi ayɛw,"V;HAB+PROG;NEG;PST"
+yi ayɛw,nna rebɛyi ayɛw,"V;PROG;PST+IMMED"
+yi ayɛw,nna remmbɛyi ayɛw,"V;PROG;NEG;PST+IMMED"
+yi ayɛw,nna rekɔyi ayɛw,"V;PROG;PST;LGSPEC1"
+yi ayɛw,nna rennkɔyi ayɛw,"V;PROG;NEG;PST;LGSPEC1"
+yi ayɛw,nna ayi ayɛw,"V;HAB+PRF;PST"
+yi ayɛw,nna nnyi ayɛwee,"V;HAB+PRF;NEG;PST"
+yi ayɛw,nna abɛyi ayɛw,"V;PRF;PST+IMMED"
+yi ayɛw,nna mmbɛyi ayɛwee,"V;PRF;NEG;PST+IMMED"
+yi ayɛw,nna akɔyi ayɛw,"V;PRF;PST;LGSPEC1"
+yi ayɛw,nna nnkɔyi ayɛwee,"V;PRF;NEG;PST;LGSPEC1"
+yi ayɛw,bɛyi ayɛw,"V;HAB;FUT"
+yi ayɛw,rennyi ayɛw,"V;HAB;NEG;FUT"
+bɔ mpae,bɔ mpae,"V;NFIN"
+bɔ mpae,bɔ mpae,"V;HAB;PRS"
+bɔ mpae,mmbɔ mpae,"V;HAB;NEG;PRS"
+bɔ mpae,kɔbɔ mpae,"V;PRS;LGSPEC1"
+bɔ mpae,nnkɔbɔ mpae,"V;NEG;PRS;LGSPEC1"
+bɔ mpae,rebɔ mpae,"V;HAB+PROG;PRS"
+bɔ mpae,remmbɔ mpae,"V;HAB+PROG;NEG;PRS"
+bɔ mpae,rebɛbɔ mpae,"V;PROG;PRS+IMMED"
+bɔ mpae,remmbɛbɔ mpae,"V;PROG;NEG;PRS+IMMED"
+bɔ mpae,rekɔbɔ mpae,"V;PROG;PRS;LGSPEC1"
+bɔ mpae,rennkɔbɔ mpae,"V;PROG;NEG;PRS;LGSPEC1"
+bɔ mpae,abɔ mpae,"V;HAB+PRF;PRS"
+bɔ mpae,mmbɔ mpaee,"V;HAB+PRF;NEG;PRS"
+bɔ mpae,abɛbɔ mpae,"V;PRF;PRS+IMMED"
+bɔ mpae,mmbɛbɔ mpaee,"V;PRF;NEG;PRS+IMMED"
+bɔ mpae,akɔbɔ mpae,"V;PRF;PRS;LGSPEC1"
+bɔ mpae,nnkɔbɔ mpaee,"V;PRF;NEG;PRS;LGSPEC1"
+bɔ mpae,mbɔ mpae,"V;SBJV;PRS"
+bɔ mpae,mma mmbɔ mpae,"V;SBJV;NEG;PRS"
+bɔ mpae,bɔ mpae,"V;IMP;PRS"
+bɔ mpae,mma mmbɔ mpae,"V;IMP;NEG;PRS"
+bɔ mpae,bɔ mpaee,"V;HAB;PST"
+bɔ mpae,ammbɔ mpae,"V;HAB;NEG;PST"
+bɔ mpae,bɛbɔ mpaee,"V;PST+IMMED"
+bɔ mpae,ammbɛbɔ mpae,"V;NEG;PST+IMMED"
+bɔ mpae,kɔbɔ mpaee,"V;PST;LGSPEC1"
+bɔ mpae,ammkɔbɔ mpae,"V;NEG;PST;LGSPEC1"
+bɔ mpae,nna rebɔ mpae,"V;HAB+PROG;PST"
+bɔ mpae,nna remmbɔ mpae,"V;HAB+PROG;NEG;PST"
+bɔ mpae,nna rebɛbɔ mpae,"V;PROG;PST+IMMED"
+bɔ mpae,nna remmbɛbɔ mpae,"V;PROG;NEG;PST+IMMED"
+bɔ mpae,nna rekɔbɔ mpae,"V;PROG;PST;LGSPEC1"
+bɔ mpae,nna rennkɔbɔ mpae,"V;PROG;NEG;PST;LGSPEC1"
+bɔ mpae,nna abɔ mpae,"V;HAB+PRF;PST"
+bɔ mpae,nna mmbɔ mpaee,"V;HAB+PRF;NEG;PST"
+bɔ mpae,nna abɛbɔ mpae,"V;PRF;PST+IMMED"
+bɔ mpae,nna mmbɛbɔ mpaee,"V;PRF;NEG;PST+IMMED"
+bɔ mpae,nna akɔbɔ mpae,"V;PRF;PST;LGSPEC1"
+bɔ mpae,nna nnkɔbɔ mpaee,"V;PRF;NEG;PST;LGSPEC1"
+bɔ mpae,bɛbɔ mpae,"V;HAB;FUT"
+bɔ mpae,remmbɔ mpae,"V;HAB;NEG;FUT"
+mia,mia,"V;NFIN"
+mia,mia,"V;HAB;PRS"
+mia,mmmia,"V;HAB;NEG;PRS"
+mia,kɔmia,"V;PRS;LGSPEC1"
+mia,nnkɔmia,"V;NEG;PRS;LGSPEC1"
+mia,remia,"V;HAB+PROG;PRS"
+mia,remmmia,"V;HAB+PROG;NEG;PRS"
+mia,rebɛmia,"V;PROG;PRS+IMMED"
+mia,remmbɛmia,"V;PROG;NEG;PRS+IMMED"
+mia,rekɔmia,"V;PROG;PRS;LGSPEC1"
+mia,rennkɔmia,"V;PROG;NEG;PRS;LGSPEC1"
+mia,amia,"V;HAB+PRF;PRS"
+mia,mmmiaee,"V;HAB+PRF;NEG;PRS"
+mia,abɛmia,"V;PRF;PRS+IMMED"
+mia,mmbɛmiaee,"V;PRF;NEG;PRS+IMMED"
+mia,akɔmia,"V;PRF;PRS;LGSPEC1"
+mia,nnkɔmiaee,"V;PRF;NEG;PRS;LGSPEC1"
+mia,mmia,"V;SBJV;PRS"
+mia,mma mmmia,"V;SBJV;NEG;PRS"
+mia,mia,"V;IMP;PRS"
+mia,mma mmmia,"V;IMP;NEG;PRS"
+mia,miaee,"V;HAB;PST"
+mia,ammmia,"V;HAB;NEG;PST"
+mia,bɛmiaee,"V;PST+IMMED"
+mia,ammbɛmia,"V;NEG;PST+IMMED"
+mia,kɔmiaee,"V;PST;LGSPEC1"
+mia,ammkɔmia,"V;NEG;PST;LGSPEC1"
+mia,nna remia,"V;HAB+PROG;PST"
+mia,nna remmmia,"V;HAB+PROG;NEG;PST"
+mia,nna rebɛmia,"V;PROG;PST+IMMED"
+mia,nna remmbɛmia,"V;PROG;NEG;PST+IMMED"
+mia,nna rekɔmia,"V;PROG;PST;LGSPEC1"
+mia,nna rennkɔmia,"V;PROG;NEG;PST;LGSPEC1"
+mia,nna amia,"V;HAB+PRF;PST"
+mia,nna mmmiaee,"V;HAB+PRF;NEG;PST"
+mia,nna abɛmia,"V;PRF;PST+IMMED"
+mia,nna mmbɛmiaee,"V;PRF;NEG;PST+IMMED"
+mia,nna akɔmia,"V;PRF;PST;LGSPEC1"
+mia,nna nnkɔmiaee,"V;PRF;NEG;PST;LGSPEC1"
+mia,bɛmia,"V;HAB;FUT"
+mia,remmmia,"V;HAB;NEG;FUT"
+tintim,tintim,"V;NFIN"
+tintim,tintim,"V;HAB;PRS"
+tintim,nntintim,"V;HAB;NEG;PRS"
+tintim,kɔtintim,"V;PRS;LGSPEC1"
+tintim,nnkɔtintim,"V;NEG;PRS;LGSPEC1"
+tintim,retintim,"V;HAB+PROG;PRS"
+tintim,renntintim,"V;HAB+PROG;NEG;PRS"
+tintim,rebɛtintim,"V;PROG;PRS+IMMED"
+tintim,remmbɛtintim,"V;PROG;NEG;PRS+IMMED"
+tintim,rekɔtintim,"V;PROG;PRS;LGSPEC1"
+tintim,rennkɔtintim,"V;PROG;NEG;PRS;LGSPEC1"
+tintim,atintim,"V;HAB+PRF;PRS"
+tintim,nntintimee,"V;HAB+PRF;NEG;PRS"
+tintim,abɛtintim,"V;PRF;PRS+IMMED"
+tintim,mmbɛtintimee,"V;PRF;NEG;PRS+IMMED"
+tintim,akɔtintim,"V;PRF;PRS;LGSPEC1"
+tintim,nnkɔtintimee,"V;PRF;NEG;PRS;LGSPEC1"
+tintim,ntintim,"V;SBJV;PRS"
+tintim,mma nntintim,"V;SBJV;NEG;PRS"
+tintim,tintim,"V;IMP;PRS"
+tintim,mma nntintim,"V;IMP;NEG;PRS"
+tintim,tintimee,"V;HAB;PST"
+tintim,anntintim,"V;HAB;NEG;PST"
+tintim,bɛtintimee,"V;PST+IMMED"
+tintim,ammbɛtintim,"V;NEG;PST+IMMED"
+tintim,kɔtintimee,"V;PST;LGSPEC1"
+tintim,ammkɔtintim,"V;NEG;PST;LGSPEC1"
+tintim,nna retintim,"V;HAB+PROG;PST"
+tintim,nna renntintim,"V;HAB+PROG;NEG;PST"
+tintim,nna rebɛtintim,"V;PROG;PST+IMMED"
+tintim,nna remmbɛtintim,"V;PROG;NEG;PST+IMMED"
+tintim,nna rekɔtintim,"V;PROG;PST;LGSPEC1"
+tintim,nna rennkɔtintim,"V;PROG;NEG;PST;LGSPEC1"
+tintim,nna atintim,"V;HAB+PRF;PST"
+tintim,nna nntintimee,"V;HAB+PRF;NEG;PST"
+tintim,nna abɛtintim,"V;PRF;PST+IMMED"
+tintim,nna mmbɛtintimee,"V;PRF;NEG;PST+IMMED"
+tintim,nna akɔtintim,"V;PRF;PST;LGSPEC1"
+tintim,nna nnkɔtintimee,"V;PRF;NEG;PST;LGSPEC1"
+tintim,bɛtintim,"V;HAB;FUT"
+tintim,renntintim,"V;HAB;NEG;FUT"
+twe,twe,"V;NFIN"
+twe,twe,"V;HAB;PRS"
+twe,nntwe,"V;HAB;NEG;PRS"
+twe,kɔtwe,"V;PRS;LGSPEC1"
+twe,nnkɔtwe,"V;NEG;PRS;LGSPEC1"
+twe,retwe,"V;HAB+PROG;PRS"
+twe,renntwe,"V;HAB+PROG;NEG;PRS"
+twe,rebɛtwe,"V;PROG;PRS+IMMED"
+twe,remmbɛtwe,"V;PROG;NEG;PRS+IMMED"
+twe,rekɔtwe,"V;PROG;PRS;LGSPEC1"
+twe,rennkɔtwe,"V;PROG;NEG;PRS;LGSPEC1"
+twe,atwe,"V;HAB+PRF;PRS"
+twe,nntwee,"V;HAB+PRF;NEG;PRS"
+twe,abɛtwe,"V;PRF;PRS+IMMED"
+twe,mmbɛtwee,"V;PRF;NEG;PRS+IMMED"
+twe,akɔtwe,"V;PRF;PRS;LGSPEC1"
+twe,nnkɔtwee,"V;PRF;NEG;PRS;LGSPEC1"
+twe,ntwe,"V;SBJV;PRS"
+twe,mma nntwe,"V;SBJV;NEG;PRS"
+twe,twe,"V;IMP;PRS"
+twe,mma nntwe,"V;IMP;NEG;PRS"
+twe,twee,"V;HAB;PST"
+twe,anntwe,"V;HAB;NEG;PST"
+twe,bɛtwee,"V;PST+IMMED"
+twe,ammbɛtwe,"V;NEG;PST+IMMED"
+twe,kɔtwee,"V;PST;LGSPEC1"
+twe,ammkɔtwe,"V;NEG;PST;LGSPEC1"
+twe,nna retwe,"V;HAB+PROG;PST"
+twe,nna renntwe,"V;HAB+PROG;NEG;PST"
+twe,nna rebɛtwe,"V;PROG;PST+IMMED"
+twe,nna remmbɛtwe,"V;PROG;NEG;PST+IMMED"
+twe,nna rekɔtwe,"V;PROG;PST;LGSPEC1"
+twe,nna rennkɔtwe,"V;PROG;NEG;PST;LGSPEC1"
+twe,nna atwe,"V;HAB+PRF;PST"
+twe,nna nntwee,"V;HAB+PRF;NEG;PST"
+twe,nna abɛtwe,"V;PRF;PST+IMMED"
+twe,nna mmbɛtwee,"V;PRF;NEG;PST+IMMED"
+twe,nna akɔtwe,"V;PRF;PST;LGSPEC1"
+twe,nna nnkɔtwee,"V;PRF;NEG;PST;LGSPEC1"
+twe,bɛtwe,"V;HAB;FUT"
+twe,renntwe,"V;HAB;NEG;FUT"
+pia,pia,"V;NFIN"
+pia,pia,"V;HAB;PRS"
+pia,mmpia,"V;HAB;NEG;PRS"
+pia,kɔpia,"V;PRS;LGSPEC1"
+pia,nnkɔpia,"V;NEG;PRS;LGSPEC1"
+pia,repia,"V;HAB+PROG;PRS"
+pia,remmpia,"V;HAB+PROG;NEG;PRS"
+pia,rebɛpia,"V;PROG;PRS+IMMED"
+pia,remmbɛpia,"V;PROG;NEG;PRS+IMMED"
+pia,rekɔpia,"V;PROG;PRS;LGSPEC1"
+pia,rennkɔpia,"V;PROG;NEG;PRS;LGSPEC1"
+pia,apia,"V;HAB+PRF;PRS"
+pia,mmpiaee,"V;HAB+PRF;NEG;PRS"
+pia,abɛpia,"V;PRF;PRS+IMMED"
+pia,mmbɛpiaee,"V;PRF;NEG;PRS+IMMED"
+pia,akɔpia,"V;PRF;PRS;LGSPEC1"
+pia,nnkɔpiaee,"V;PRF;NEG;PRS;LGSPEC1"
+pia,mpia,"V;SBJV;PRS"
+pia,mma mmpia,"V;SBJV;NEG;PRS"
+pia,pia,"V;IMP;PRS"
+pia,mma mmpia,"V;IMP;NEG;PRS"
+pia,piaee,"V;HAB;PST"
+pia,ammpia,"V;HAB;NEG;PST"
+pia,bɛpiaee,"V;PST+IMMED"
+pia,ammbɛpia,"V;NEG;PST+IMMED"
+pia,kɔpiaee,"V;PST;LGSPEC1"
+pia,ammkɔpia,"V;NEG;PST;LGSPEC1"
+pia,nna repia,"V;HAB+PROG;PST"
+pia,nna remmpia,"V;HAB+PROG;NEG;PST"
+pia,nna rebɛpia,"V;PROG;PST+IMMED"
+pia,nna remmbɛpia,"V;PROG;NEG;PST+IMMED"
+pia,nna rekɔpia,"V;PROG;PST;LGSPEC1"
+pia,nna rennkɔpia,"V;PROG;NEG;PST;LGSPEC1"
+pia,nna apia,"V;HAB+PRF;PST"
+pia,nna mmpiaee,"V;HAB+PRF;NEG;PST"
+pia,nna abɛpia,"V;PRF;PST+IMMED"
+pia,nna mmbɛpiaee,"V;PRF;NEG;PST+IMMED"
+pia,nna akɔpia,"V;PRF;PST;LGSPEC1"
+pia,nna nnkɔpiaee,"V;PRF;NEG;PST;LGSPEC1"
+pia,bɛpia,"V;HAB;FUT"
+pia,remmpia,"V;HAB;NEG;FUT"
+kenkan,kenkan,"V;NFIN"
+kenkan,kenkan,"V;HAB;PRS"
+kenkan,nnkenkan,"V;HAB;NEG;PRS"
+kenkan,kɔkenkan,"V;PRS;LGSPEC1"
+kenkan,nnkɔkenkan,"V;NEG;PRS;LGSPEC1"
+kenkan,rekenkan,"V;HAB+PROG;PRS"
+kenkan,rennkenkan,"V;HAB+PROG;NEG;PRS"
+kenkan,rebɛkenkan,"V;PROG;PRS+IMMED"
+kenkan,remmbɛkenkan,"V;PROG;NEG;PRS+IMMED"
+kenkan,rekɔkenkan,"V;PROG;PRS;LGSPEC1"
+kenkan,rennkɔkenkan,"V;PROG;NEG;PRS;LGSPEC1"
+kenkan,akenkan,"V;HAB+PRF;PRS"
+kenkan,nnkenkanee,"V;HAB+PRF;NEG;PRS"
+kenkan,abɛkenkan,"V;PRF;PRS+IMMED"
+kenkan,mmbɛkenkanee,"V;PRF;NEG;PRS+IMMED"
+kenkan,akɔkenkan,"V;PRF;PRS;LGSPEC1"
+kenkan,nnkɔkenkanee,"V;PRF;NEG;PRS;LGSPEC1"
+kenkan,nkenkan,"V;SBJV;PRS"
+kenkan,mma nnkenkan,"V;SBJV;NEG;PRS"
+kenkan,kenkan,"V;IMP;PRS"
+kenkan,mma nnkenkan,"V;IMP;NEG;PRS"
+kenkan,kenkanee,"V;HAB;PST"
+kenkan,annkenkan,"V;HAB;NEG;PST"
+kenkan,bɛkenkanee,"V;PST+IMMED"
+kenkan,ammbɛkenkan,"V;NEG;PST+IMMED"
+kenkan,kɔkenkanee,"V;PST;LGSPEC1"
+kenkan,ammkɔkenkan,"V;NEG;PST;LGSPEC1"
+kenkan,nna rekenkan,"V;HAB+PROG;PST"
+kenkan,nna rennkenkan,"V;HAB+PROG;NEG;PST"
+kenkan,nna rebɛkenkan,"V;PROG;PST+IMMED"
+kenkan,nna remmbɛkenkan,"V;PROG;NEG;PST+IMMED"
+kenkan,nna rekɔkenkan,"V;PROG;PST;LGSPEC1"
+kenkan,nna rennkɔkenkan,"V;PROG;NEG;PST;LGSPEC1"
+kenkan,nna akenkan,"V;HAB+PRF;PST"
+kenkan,nna nnkenkanee,"V;HAB+PRF;NEG;PST"
+kenkan,nna abɛkenkan,"V;PRF;PST+IMMED"
+kenkan,nna mmbɛkenkanee,"V;PRF;NEG;PST+IMMED"
+kenkan,nna akɔkenkan,"V;PRF;PST;LGSPEC1"
+kenkan,nna nnkɔkenkanee,"V;PRF;NEG;PST;LGSPEC1"
+kenkan,bɛkenkan,"V;HAB;FUT"
+kenkan,rennkenkan,"V;HAB;NEG;FUT"
+kae,kae,"V;NFIN"
+kae,kae,"V;HAB;PRS"
+kae,nnkae,"V;HAB;NEG;PRS"
+kae,kɔkae,"V;PRS;LGSPEC1"
+kae,nnkɔkae,"V;NEG;PRS;LGSPEC1"
+kae,rekae,"V;HAB+PROG;PRS"
+kae,rennkae,"V;HAB+PROG;NEG;PRS"
+kae,rebɛkae,"V;PROG;PRS+IMMED"
+kae,remmbɛkae,"V;PROG;NEG;PRS+IMMED"
+kae,rekɔkae,"V;PROG;PRS;LGSPEC1"
+kae,rennkɔkae,"V;PROG;NEG;PRS;LGSPEC1"
+kae,akae,"V;HAB+PRF;PRS"
+kae,nnkaee,"V;HAB+PRF;NEG;PRS"
+kae,abɛkae,"V;PRF;PRS+IMMED"
+kae,mmbɛkaee,"V;PRF;NEG;PRS+IMMED"
+kae,akɔkae,"V;PRF;PRS;LGSPEC1"
+kae,nnkɔkaee,"V;PRF;NEG;PRS;LGSPEC1"
+kae,nkae,"V;SBJV;PRS"
+kae,mma nnkae,"V;SBJV;NEG;PRS"
+kae,kae,"V;IMP;PRS"
+kae,mma nnkae,"V;IMP;NEG;PRS"
+kae,kaee,"V;HAB;PST"
+kae,annkae,"V;HAB;NEG;PST"
+kae,bɛkaee,"V;PST+IMMED"
+kae,ammbɛkae,"V;NEG;PST+IMMED"
+kae,kɔkaee,"V;PST;LGSPEC1"
+kae,ammkɔkae,"V;NEG;PST;LGSPEC1"
+kae,nna rekae,"V;HAB+PROG;PST"
+kae,nna rennkae,"V;HAB+PROG;NEG;PST"
+kae,nna rebɛkae,"V;PROG;PST+IMMED"
+kae,nna remmbɛkae,"V;PROG;NEG;PST+IMMED"
+kae,nna rekɔkae,"V;PROG;PST;LGSPEC1"
+kae,nna rennkɔkae,"V;PROG;NEG;PST;LGSPEC1"
+kae,nna akae,"V;HAB+PRF;PST"
+kae,nna nnkaee,"V;HAB+PRF;NEG;PST"
+kae,nna abɛkae,"V;PRF;PST+IMMED"
+kae,nna mmbɛkaee,"V;PRF;NEG;PST+IMMED"
+kae,nna akɔkae,"V;PRF;PST;LGSPEC1"
+kae,nna nnkɔkaee,"V;PRF;NEG;PST;LGSPEC1"
+kae,bɛkae,"V;HAB;FUT"
+kae,rennkae,"V;HAB;NEG;FUT"
+yi,yi,"V;NFIN"
+yi,yi,"V;HAB;PRS"
+yi,nnyi,"V;HAB;NEG;PRS"
+yi,kɔyi,"V;PRS;LGSPEC1"
+yi,nnkɔyi,"V;NEG;PRS;LGSPEC1"
+yi,reyi,"V;HAB+PROG;PRS"
+yi,rennyi,"V;HAB+PROG;NEG;PRS"
+yi,rebɛyi,"V;PROG;PRS+IMMED"
+yi,remmbɛyi,"V;PROG;NEG;PRS+IMMED"
+yi,rekɔyi,"V;PROG;PRS;LGSPEC1"
+yi,rennkɔyi,"V;PROG;NEG;PRS;LGSPEC1"
+yi,ayi,"V;HAB+PRF;PRS"
+yi,nnyiee,"V;HAB+PRF;NEG;PRS"
+yi,abɛyi,"V;PRF;PRS+IMMED"
+yi,mmbɛyiee,"V;PRF;NEG;PRS+IMMED"
+yi,akɔyi,"V;PRF;PRS;LGSPEC1"
+yi,nnkɔyiee,"V;PRF;NEG;PRS;LGSPEC1"
+yi,nyi,"V;SBJV;PRS"
+yi,mma nnyi,"V;SBJV;NEG;PRS"
+yi,yi,"V;IMP;PRS"
+yi,mma nnyi,"V;IMP;NEG;PRS"
+yi,yiee,"V;HAB;PST"
+yi,annyi,"V;HAB;NEG;PST"
+yi,bɛyiee,"V;PST+IMMED"
+yi,ammbɛyi,"V;NEG;PST+IMMED"
+yi,kɔyiee,"V;PST;LGSPEC1"
+yi,ammkɔyi,"V;NEG;PST;LGSPEC1"
+yi,nna reyi,"V;HAB+PROG;PST"
+yi,nna rennyi,"V;HAB+PROG;NEG;PST"
+yi,nna rebɛyi,"V;PROG;PST+IMMED"
+yi,nna remmbɛyi,"V;PROG;NEG;PST+IMMED"
+yi,nna rekɔyi,"V;PROG;PST;LGSPEC1"
+yi,nna rennkɔyi,"V;PROG;NEG;PST;LGSPEC1"
+yi,nna ayi,"V;HAB+PRF;PST"
+yi,nna nnyiee,"V;HAB+PRF;NEG;PST"
+yi,nna abɛyi,"V;PRF;PST+IMMED"
+yi,nna mmbɛyiee,"V;PRF;NEG;PST+IMMED"
+yi,nna akɔyi,"V;PRF;PST;LGSPEC1"
+yi,nna nnkɔyiee,"V;PRF;NEG;PST;LGSPEC1"
+yi,bɛyi,"V;HAB;FUT"
+yi,rennyi,"V;HAB;NEG;FUT"
+san,san,"V;NFIN"
+san,san,"V;HAB;PRS"
+san,nnsan,"V;HAB;NEG;PRS"
+san,kɔsan,"V;PRS;LGSPEC1"
+san,nnkɔsan,"V;NEG;PRS;LGSPEC1"
+san,resan,"V;HAB+PROG;PRS"
+san,rennsan,"V;HAB+PROG;NEG;PRS"
+san,rebɛsan,"V;PROG;PRS+IMMED"
+san,remmbɛsan,"V;PROG;NEG;PRS+IMMED"
+san,rekɔsan,"V;PROG;PRS;LGSPEC1"
+san,rennkɔsan,"V;PROG;NEG;PRS;LGSPEC1"
+san,asan,"V;HAB+PRF;PRS"
+san,nnsanee,"V;HAB+PRF;NEG;PRS"
+san,abɛsan,"V;PRF;PRS+IMMED"
+san,mmbɛsanee,"V;PRF;NEG;PRS+IMMED"
+san,akɔsan,"V;PRF;PRS;LGSPEC1"
+san,nnkɔsanee,"V;PRF;NEG;PRS;LGSPEC1"
+san,nsan,"V;SBJV;PRS"
+san,mma nnsan,"V;SBJV;NEG;PRS"
+san,san,"V;IMP;PRS"
+san,mma nnsan,"V;IMP;NEG;PRS"
+san,sanee,"V;HAB;PST"
+san,annsan,"V;HAB;NEG;PST"
+san,bɛsanee,"V;PST+IMMED"
+san,ammbɛsan,"V;NEG;PST+IMMED"
+san,kɔsanee,"V;PST;LGSPEC1"
+san,ammkɔsan,"V;NEG;PST;LGSPEC1"
+san,nna resan,"V;HAB+PROG;PST"
+san,nna rennsan,"V;HAB+PROG;NEG;PST"
+san,nna rebɛsan,"V;PROG;PST+IMMED"
+san,nna remmbɛsan,"V;PROG;NEG;PST+IMMED"
+san,nna rekɔsan,"V;PROG;PST;LGSPEC1"
+san,nna rennkɔsan,"V;PROG;NEG;PST;LGSPEC1"
+san,nna asan,"V;HAB+PRF;PST"
+san,nna nnsanee,"V;HAB+PRF;NEG;PST"
+san,nna abɛsan,"V;PRF;PST+IMMED"
+san,nna mmbɛsanee,"V;PRF;NEG;PST+IMMED"
+san,nna akɔsan,"V;PRF;PST;LGSPEC1"
+san,nna nnkɔsanee,"V;PRF;NEG;PST;LGSPEC1"
+san,bɛsan,"V;HAB;FUT"
+san,rennsan,"V;HAB;NEG;FUT"
+soɛr,soɛr,"V;NFIN"
+soɛr,soɛr,"V;HAB;PRS"
+soɛr,nnsoɛr,"V;HAB;NEG;PRS"
+soɛr,kɔsoɛr,"V;PRS;LGSPEC1"
+soɛr,nnkɔsoɛr,"V;NEG;PRS;LGSPEC1"
+soɛr,resoɛr,"V;HAB+PROG;PRS"
+soɛr,rennsoɛr,"V;HAB+PROG;NEG;PRS"
+soɛr,rebɛsoɛr,"V;PROG;PRS+IMMED"
+soɛr,remmbɛsoɛr,"V;PROG;NEG;PRS+IMMED"
+soɛr,rekɔsoɛr,"V;PROG;PRS;LGSPEC1"
+soɛr,rennkɔsoɛr,"V;PROG;NEG;PRS;LGSPEC1"
+soɛr,asoɛr,"V;HAB+PRF;PRS"
+soɛr,nnsoɛree,"V;HAB+PRF;NEG;PRS"
+soɛr,abɛsoɛr,"V;PRF;PRS+IMMED"
+soɛr,mmbɛsoɛree,"V;PRF;NEG;PRS+IMMED"
+soɛr,akɔsoɛr,"V;PRF;PRS;LGSPEC1"
+soɛr,nnkɔsoɛree,"V;PRF;NEG;PRS;LGSPEC1"
+soɛr,nsoɛr,"V;SBJV;PRS"
+soɛr,mma nnsoɛr,"V;SBJV;NEG;PRS"
+soɛr,soɛr,"V;IMP;PRS"
+soɛr,mma nnsoɛr,"V;IMP;NEG;PRS"
+soɛr,soɛree,"V;HAB;PST"
+soɛr,annsoɛr,"V;HAB;NEG;PST"
+soɛr,bɛsoɛree,"V;PST+IMMED"
+soɛr,ammbɛsoɛr,"V;NEG;PST+IMMED"
+soɛr,kɔsoɛree,"V;PST;LGSPEC1"
+soɛr,ammkɔsoɛr,"V;NEG;PST;LGSPEC1"
+soɛr,nna resoɛr,"V;HAB+PROG;PST"
+soɛr,nna rennsoɛr,"V;HAB+PROG;NEG;PST"
+soɛr,nna rebɛsoɛr,"V;PROG;PST+IMMED"
+soɛr,nna remmbɛsoɛr,"V;PROG;NEG;PST+IMMED"
+soɛr,nna rekɔsoɛr,"V;PROG;PST;LGSPEC1"
+soɛr,nna rennkɔsoɛr,"V;PROG;NEG;PST;LGSPEC1"
+soɛr,nna asoɛr,"V;HAB+PRF;PST"
+soɛr,nna nnsoɛree,"V;HAB+PRF;NEG;PST"
+soɛr,nna abɛsoɛr,"V;PRF;PST+IMMED"
+soɛr,nna mmbɛsoɛree,"V;PRF;NEG;PST+IMMED"
+soɛr,nna akɔsoɛr,"V;PRF;PST;LGSPEC1"
+soɛr,nna nnkɔsoɛree,"V;PRF;NEG;PST;LGSPEC1"
+soɛr,bɛsoɛr,"V;HAB;FUT"
+soɛr,rennsoɛr,"V;HAB;NEG;FUT"
+tu nguan,tu nguan,"V;NFIN"
+tu nguan,tu nguan,"V;HAB;PRS"
+tu nguan,nntu nguan,"V;HAB;NEG;PRS"
+tu nguan,kɔtu nguan,"V;PRS;LGSPEC1"
+tu nguan,nnkɔtu nguan,"V;NEG;PRS;LGSPEC1"
+tu nguan,retu nguan,"V;HAB+PROG;PRS"
+tu nguan,renntu nguan,"V;HAB+PROG;NEG;PRS"
+tu nguan,rebɛtu nguan,"V;PROG;PRS+IMMED"
+tu nguan,remmbɛtu nguan,"V;PROG;NEG;PRS+IMMED"
+tu nguan,rekɔtu nguan,"V;PROG;PRS;LGSPEC1"
+tu nguan,rennkɔtu nguan,"V;PROG;NEG;PRS;LGSPEC1"
+tu nguan,atu nguan,"V;HAB+PRF;PRS"
+tu nguan,nntu nguanee,"V;HAB+PRF;NEG;PRS"
+tu nguan,abɛtu nguan,"V;PRF;PRS+IMMED"
+tu nguan,mmbɛtu nguanee,"V;PRF;NEG;PRS+IMMED"
+tu nguan,akɔtu nguan,"V;PRF;PRS;LGSPEC1"
+tu nguan,nnkɔtu nguanee,"V;PRF;NEG;PRS;LGSPEC1"
+tu nguan,ntu nguan,"V;SBJV;PRS"
+tu nguan,mma nntu nguan,"V;SBJV;NEG;PRS"
+tu nguan,tu nguan,"V;IMP;PRS"
+tu nguan,mma nntu nguan,"V;IMP;NEG;PRS"
+tu nguan,tu nguanee,"V;HAB;PST"
+tu nguan,anntu nguan,"V;HAB;NEG;PST"
+tu nguan,bɛtu nguanee,"V;PST+IMMED"
+tu nguan,ammbɛtu nguan,"V;NEG;PST+IMMED"
+tu nguan,kɔtu nguanee,"V;PST;LGSPEC1"
+tu nguan,ammkɔtu nguan,"V;NEG;PST;LGSPEC1"
+tu nguan,nna retu nguan,"V;HAB+PROG;PST"
+tu nguan,nna renntu nguan,"V;HAB+PROG;NEG;PST"
+tu nguan,nna rebɛtu nguan,"V;PROG;PST+IMMED"
+tu nguan,nna remmbɛtu nguan,"V;PROG;NEG;PST+IMMED"
+tu nguan,nna rekɔtu nguan,"V;PROG;PST;LGSPEC1"
+tu nguan,nna rennkɔtu nguan,"V;PROG;NEG;PST;LGSPEC1"
+tu nguan,nna atu nguan,"V;HAB+PRF;PST"
+tu nguan,nna nntu nguanee,"V;HAB+PRF;NEG;PST"
+tu nguan,nna abɛtu nguan,"V;PRF;PST+IMMED"
+tu nguan,nna mmbɛtu nguanee,"V;PRF;NEG;PST+IMMED"
+tu nguan,nna akɔtu nguan,"V;PRF;PST;LGSPEC1"
+tu nguan,nna nnkɔtu nguanee,"V;PRF;NEG;PST;LGSPEC1"
+tu nguan,bɛtu nguan,"V;HAB;FUT"
+tu nguan,renntu nguan,"V;HAB;NEG;FUT"
+twerɛw,twerɛw,"V;NFIN"
+twerɛw,twerɛw,"V;HAB;PRS"
+twerɛw,nntwerɛw,"V;HAB;NEG;PRS"
+twerɛw,kɔtwerɛw,"V;PRS;LGSPEC1"
+twerɛw,nnkɔtwerɛw,"V;NEG;PRS;LGSPEC1"
+twerɛw,retwerɛw,"V;HAB+PROG;PRS"
+twerɛw,renntwerɛw,"V;HAB+PROG;NEG;PRS"
+twerɛw,rebɛtwerɛw,"V;PROG;PRS+IMMED"
+twerɛw,remmbɛtwerɛw,"V;PROG;NEG;PRS+IMMED"
+twerɛw,rekɔtwerɛw,"V;PROG;PRS;LGSPEC1"
+twerɛw,rennkɔtwerɛw,"V;PROG;NEG;PRS;LGSPEC1"
+twerɛw,atwerɛw,"V;HAB+PRF;PRS"
+twerɛw,nntwerɛwee,"V;HAB+PRF;NEG;PRS"
+twerɛw,abɛtwerɛw,"V;PRF;PRS+IMMED"
+twerɛw,mmbɛtwerɛwee,"V;PRF;NEG;PRS+IMMED"
+twerɛw,akɔtwerɛw,"V;PRF;PRS;LGSPEC1"
+twerɛw,nnkɔtwerɛwee,"V;PRF;NEG;PRS;LGSPEC1"
+twerɛw,ntwerɛw,"V;SBJV;PRS"
+twerɛw,mma nntwerɛw,"V;SBJV;NEG;PRS"
+twerɛw,twerɛw,"V;IMP;PRS"
+twerɛw,mma nntwerɛw,"V;IMP;NEG;PRS"
+twerɛw,twerɛwee,"V;HAB;PST"
+twerɛw,anntwerɛw,"V;HAB;NEG;PST"
+twerɛw,bɛtwerɛwee,"V;PST+IMMED"
+twerɛw,ammbɛtwerɛw,"V;NEG;PST+IMMED"
+twerɛw,kɔtwerɛwee,"V;PST;LGSPEC1"
+twerɛw,ammkɔtwerɛw,"V;NEG;PST;LGSPEC1"
+twerɛw,nna retwerɛw,"V;HAB+PROG;PST"
+twerɛw,nna renntwerɛw,"V;HAB+PROG;NEG;PST"
+twerɛw,nna rebɛtwerɛw,"V;PROG;PST+IMMED"
+twerɛw,nna remmbɛtwerɛw,"V;PROG;NEG;PST+IMMED"
+twerɛw,nna rekɔtwerɛw,"V;PROG;PST;LGSPEC1"
+twerɛw,nna rennkɔtwerɛw,"V;PROG;NEG;PST;LGSPEC1"
+twerɛw,nna atwerɛw,"V;HAB+PRF;PST"
+twerɛw,nna nntwerɛwee,"V;HAB+PRF;NEG;PST"
+twerɛw,nna abɛtwerɛw,"V;PRF;PST+IMMED"
+twerɛw,nna mmbɛtwerɛwee,"V;PRF;NEG;PST+IMMED"
+twerɛw,nna akɔtwerɛw,"V;PRF;PST;LGSPEC1"
+twerɛw,nna nnkɔtwerɛwee,"V;PRF;NEG;PST;LGSPEC1"
+twerɛw,bɛtwerɛw,"V;HAB;FUT"
+twerɛw,renntwerɛw,"V;HAB;NEG;FUT"
+hu,hu,"V;NFIN"
+hu,hu,"V;HAB;PRS"
+hu,nnhu,"V;HAB;NEG;PRS"
+hu,kɔhu,"V;PRS;LGSPEC1"
+hu,nnkɔhu,"V;NEG;PRS;LGSPEC1"
+hu,rehu,"V;HAB+PROG;PRS"
+hu,rennhu,"V;HAB+PROG;NEG;PRS"
+hu,rebɛhu,"V;PROG;PRS+IMMED"
+hu,remmbɛhu,"V;PROG;NEG;PRS+IMMED"
+hu,rekɔhu,"V;PROG;PRS;LGSPEC1"
+hu,rennkɔhu,"V;PROG;NEG;PRS;LGSPEC1"
+hu,ahu,"V;HAB+PRF;PRS"
+hu,nnhuee,"V;HAB+PRF;NEG;PRS"
+hu,abɛhu,"V;PRF;PRS+IMMED"
+hu,mmbɛhuee,"V;PRF;NEG;PRS+IMMED"
+hu,akɔhu,"V;PRF;PRS;LGSPEC1"
+hu,nnkɔhuee,"V;PRF;NEG;PRS;LGSPEC1"
+hu,nhu,"V;SBJV;PRS"
+hu,mma nnhu,"V;SBJV;NEG;PRS"
+hu,hu,"V;IMP;PRS"
+hu,mma nnhu,"V;IMP;NEG;PRS"
+hu,huee,"V;HAB;PST"
+hu,annhu,"V;HAB;NEG;PST"
+hu,bɛhuee,"V;PST+IMMED"
+hu,ammbɛhu,"V;NEG;PST+IMMED"
+hu,kɔhuee,"V;PST;LGSPEC1"
+hu,ammkɔhu,"V;NEG;PST;LGSPEC1"
+hu,nna rehu,"V;HAB+PROG;PST"
+hu,nna rennhu,"V;HAB+PROG;NEG;PST"
+hu,nna rebɛhu,"V;PROG;PST+IMMED"
+hu,nna remmbɛhu,"V;PROG;NEG;PST+IMMED"
+hu,nna rekɔhu,"V;PROG;PST;LGSPEC1"
+hu,nna rennkɔhu,"V;PROG;NEG;PST;LGSPEC1"
+hu,nna ahu,"V;HAB+PRF;PST"
+hu,nna nnhuee,"V;HAB+PRF;NEG;PST"
+hu,nna abɛhu,"V;PRF;PST+IMMED"
+hu,nna mmbɛhuee,"V;PRF;NEG;PST+IMMED"
+hu,nna akɔhu,"V;PRF;PST;LGSPEC1"
+hu,nna nnkɔhuee,"V;PRF;NEG;PST;LGSPEC1"
+hu,bɛhu,"V;HAB;FUT"
+hu,rennhu,"V;HAB;NEG;FUT"
+tɔn,tɔn,"V;NFIN"
+tɔn,tɔn,"V;HAB;PRS"
+tɔn,nntɔn,"V;HAB;NEG;PRS"
+tɔn,kɔtɔn,"V;PRS;LGSPEC1"
+tɔn,nnkɔtɔn,"V;NEG;PRS;LGSPEC1"
+tɔn,retɔn,"V;HAB+PROG;PRS"
+tɔn,renntɔn,"V;HAB+PROG;NEG;PRS"
+tɔn,rebɛtɔn,"V;PROG;PRS+IMMED"
+tɔn,remmbɛtɔn,"V;PROG;NEG;PRS+IMMED"
+tɔn,rekɔtɔn,"V;PROG;PRS;LGSPEC1"
+tɔn,rennkɔtɔn,"V;PROG;NEG;PRS;LGSPEC1"
+tɔn,atɔn,"V;HAB+PRF;PRS"
+tɔn,nntɔnee,"V;HAB+PRF;NEG;PRS"
+tɔn,abɛtɔn,"V;PRF;PRS+IMMED"
+tɔn,mmbɛtɔnee,"V;PRF;NEG;PRS+IMMED"
+tɔn,akɔtɔn,"V;PRF;PRS;LGSPEC1"
+tɔn,nnkɔtɔnee,"V;PRF;NEG;PRS;LGSPEC1"
+tɔn,ntɔn,"V;SBJV;PRS"
+tɔn,mma nntɔn,"V;SBJV;NEG;PRS"
+tɔn,tɔn,"V;IMP;PRS"
+tɔn,mma nntɔn,"V;IMP;NEG;PRS"
+tɔn,tɔnee,"V;HAB;PST"
+tɔn,anntɔn,"V;HAB;NEG;PST"
+tɔn,bɛtɔnee,"V;PST+IMMED"
+tɔn,ammbɛtɔn,"V;NEG;PST+IMMED"
+tɔn,kɔtɔnee,"V;PST;LGSPEC1"
+tɔn,ammkɔtɔn,"V;NEG;PST;LGSPEC1"
+tɔn,nna retɔn,"V;HAB+PROG;PST"
+tɔn,nna renntɔn,"V;HAB+PROG;NEG;PST"
+tɔn,nna rebɛtɔn,"V;PROG;PST+IMMED"
+tɔn,nna remmbɛtɔn,"V;PROG;NEG;PST+IMMED"
+tɔn,nna rekɔtɔn,"V;PROG;PST;LGSPEC1"
+tɔn,nna rennkɔtɔn,"V;PROG;NEG;PST;LGSPEC1"
+tɔn,nna atɔn,"V;HAB+PRF;PST"
+tɔn,nna nntɔnee,"V;HAB+PRF;NEG;PST"
+tɔn,nna abɛtɔn,"V;PRF;PST+IMMED"
+tɔn,nna mmbɛtɔnee,"V;PRF;NEG;PST+IMMED"
+tɔn,nna akɔtɔn,"V;PRF;PST;LGSPEC1"
+tɔn,nna nnkɔtɔnee,"V;PRF;NEG;PST;LGSPEC1"
+tɔn,bɛtɔn,"V;HAB;FUT"
+tɔn,renntɔn,"V;HAB;NEG;FUT"
+wosow,wosow,"V;NFIN"
+wosow,wosow,"V;HAB;PRS"
+wosow,nnwosow,"V;HAB;NEG;PRS"
+wosow,kɔwosow,"V;PRS;LGSPEC1"
+wosow,nnkɔwosow,"V;NEG;PRS;LGSPEC1"
+wosow,rewosow,"V;HAB+PROG;PRS"
+wosow,rennwosow,"V;HAB+PROG;NEG;PRS"
+wosow,rebɛwosow,"V;PROG;PRS+IMMED"
+wosow,remmbɛwosow,"V;PROG;NEG;PRS+IMMED"
+wosow,rekɔwosow,"V;PROG;PRS;LGSPEC1"
+wosow,rennkɔwosow,"V;PROG;NEG;PRS;LGSPEC1"
+wosow,awosow,"V;HAB+PRF;PRS"
+wosow,nnwosowee,"V;HAB+PRF;NEG;PRS"
+wosow,abɛwosow,"V;PRF;PRS+IMMED"
+wosow,mmbɛwosowee,"V;PRF;NEG;PRS+IMMED"
+wosow,akɔwosow,"V;PRF;PRS;LGSPEC1"
+wosow,nnkɔwosowee,"V;PRF;NEG;PRS;LGSPEC1"
+wosow,nwosow,"V;SBJV;PRS"
+wosow,mma nnwosow,"V;SBJV;NEG;PRS"
+wosow,wosow,"V;IMP;PRS"
+wosow,mma nnwosow,"V;IMP;NEG;PRS"
+wosow,wosowee,"V;HAB;PST"
+wosow,annwosow,"V;HAB;NEG;PST"
+wosow,bɛwosowee,"V;PST+IMMED"
+wosow,ammbɛwosow,"V;NEG;PST+IMMED"
+wosow,kɔwosowee,"V;PST;LGSPEC1"
+wosow,ammkɔwosow,"V;NEG;PST;LGSPEC1"
+wosow,nna rewosow,"V;HAB+PROG;PST"
+wosow,nna rennwosow,"V;HAB+PROG;NEG;PST"
+wosow,nna rebɛwosow,"V;PROG;PST+IMMED"
+wosow,nna remmbɛwosow,"V;PROG;NEG;PST+IMMED"
+wosow,nna rekɔwosow,"V;PROG;PST;LGSPEC1"
+wosow,nna rennkɔwosow,"V;PROG;NEG;PST;LGSPEC1"
+wosow,nna awosow,"V;HAB+PRF;PST"
+wosow,nna nnwosowee,"V;HAB+PRF;NEG;PST"
+wosow,nna abɛwosow,"V;PRF;PST+IMMED"
+wosow,nna mmbɛwosowee,"V;PRF;NEG;PST+IMMED"
+wosow,nna akɔwosow,"V;PRF;PST;LGSPEC1"
+wosow,nna nnkɔwosowee,"V;PRF;NEG;PST;LGSPEC1"
+wosow,bɛwosow,"V;HAB;FUT"
+wosow,rennwosow,"V;HAB;NEG;FUT"
+sensen,sensen,"V;NFIN"
+sensen,sensen,"V;HAB;PRS"
+sensen,nnsensen,"V;HAB;NEG;PRS"
+sensen,kɔsensen,"V;PRS;LGSPEC1"
+sensen,nnkɔsensen,"V;NEG;PRS;LGSPEC1"
+sensen,resensen,"V;HAB+PROG;PRS"
+sensen,rennsensen,"V;HAB+PROG;NEG;PRS"
+sensen,rebɛsensen,"V;PROG;PRS+IMMED"
+sensen,remmbɛsensen,"V;PROG;NEG;PRS+IMMED"
+sensen,rekɔsensen,"V;PROG;PRS;LGSPEC1"
+sensen,rennkɔsensen,"V;PROG;NEG;PRS;LGSPEC1"
+sensen,asensen,"V;HAB+PRF;PRS"
+sensen,nnsensenee,"V;HAB+PRF;NEG;PRS"
+sensen,abɛsensen,"V;PRF;PRS+IMMED"
+sensen,mmbɛsensenee,"V;PRF;NEG;PRS+IMMED"
+sensen,akɔsensen,"V;PRF;PRS;LGSPEC1"
+sensen,nnkɔsensenee,"V;PRF;NEG;PRS;LGSPEC1"
+sensen,nsensen,"V;SBJV;PRS"
+sensen,mma nnsensen,"V;SBJV;NEG;PRS"
+sensen,sensen,"V;IMP;PRS"
+sensen,mma nnsensen,"V;IMP;NEG;PRS"
+sensen,sensenee,"V;HAB;PST"
+sensen,annsensen,"V;HAB;NEG;PST"
+sensen,bɛsensenee,"V;PST+IMMED"
+sensen,ammbɛsensen,"V;NEG;PST+IMMED"
+sensen,kɔsensenee,"V;PST;LGSPEC1"
+sensen,ammkɔsensen,"V;NEG;PST;LGSPEC1"
+sensen,nna resensen,"V;HAB+PROG;PST"
+sensen,nna rennsensen,"V;HAB+PROG;NEG;PST"
+sensen,nna rebɛsensen,"V;PROG;PST+IMMED"
+sensen,nna remmbɛsensen,"V;PROG;NEG;PST+IMMED"
+sensen,nna rekɔsensen,"V;PROG;PST;LGSPEC1"
+sensen,nna rennkɔsensen,"V;PROG;NEG;PST;LGSPEC1"
+sensen,nna asensen,"V;HAB+PRF;PST"
+sensen,nna nnsensenee,"V;HAB+PRF;NEG;PST"
+sensen,nna abɛsensen,"V;PRF;PST+IMMED"
+sensen,nna mmbɛsensenee,"V;PRF;NEG;PST+IMMED"
+sensen,nna akɔsensen,"V;PRF;PST;LGSPEC1"
+sensen,nna nnkɔsensenee,"V;PRF;NEG;PST;LGSPEC1"
+sensen,bɛsensen,"V;HAB;FUT"
+sensen,rennsensen,"V;HAB;NEG;FUT"
+kekamu,kekamu,"V;NFIN"
+kekamu,kekamu,"V;HAB;PRS"
+kekamu,nnkekamu,"V;HAB;NEG;PRS"
+kekamu,kɔkekamu,"V;PRS;LGSPEC1"
+kekamu,nnkɔkekamu,"V;NEG;PRS;LGSPEC1"
+kekamu,rekekamu,"V;HAB+PROG;PRS"
+kekamu,rennkekamu,"V;HAB+PROG;NEG;PRS"
+kekamu,rebɛkekamu,"V;PROG;PRS+IMMED"
+kekamu,remmbɛkekamu,"V;PROG;NEG;PRS+IMMED"
+kekamu,rekɔkekamu,"V;PROG;PRS;LGSPEC1"
+kekamu,rennkɔkekamu,"V;PROG;NEG;PRS;LGSPEC1"
+kekamu,akekamu,"V;HAB+PRF;PRS"
+kekamu,nnkekamuee,"V;HAB+PRF;NEG;PRS"
+kekamu,abɛkekamu,"V;PRF;PRS+IMMED"
+kekamu,mmbɛkekamuee,"V;PRF;NEG;PRS+IMMED"
+kekamu,akɔkekamu,"V;PRF;PRS;LGSPEC1"
+kekamu,nnkɔkekamuee,"V;PRF;NEG;PRS;LGSPEC1"
+kekamu,nkekamu,"V;SBJV;PRS"
+kekamu,mma nnkekamu,"V;SBJV;NEG;PRS"
+kekamu,kekamu,"V;IMP;PRS"
+kekamu,mma nnkekamu,"V;IMP;NEG;PRS"
+kekamu,kekamuee,"V;HAB;PST"
+kekamu,annkekamu,"V;HAB;NEG;PST"
+kekamu,bɛkekamuee,"V;PST+IMMED"
+kekamu,ammbɛkekamu,"V;NEG;PST+IMMED"
+kekamu,kɔkekamuee,"V;PST;LGSPEC1"
+kekamu,ammkɔkekamu,"V;NEG;PST;LGSPEC1"
+kekamu,nna rekekamu,"V;HAB+PROG;PST"
+kekamu,nna rennkekamu,"V;HAB+PROG;NEG;PST"
+kekamu,nna rebɛkekamu,"V;PROG;PST+IMMED"
+kekamu,nna remmbɛkekamu,"V;PROG;NEG;PST+IMMED"
+kekamu,nna rekɔkekamu,"V;PROG;PST;LGSPEC1"
+kekamu,nna rennkɔkekamu,"V;PROG;NEG;PST;LGSPEC1"
+kekamu,nna akekamu,"V;HAB+PRF;PST"
+kekamu,nna nnkekamuee,"V;HAB+PRF;NEG;PST"
+kekamu,nna abɛkekamu,"V;PRF;PST+IMMED"
+kekamu,nna mmbɛkekamuee,"V;PRF;NEG;PST+IMMED"
+kekamu,nna akɔkekamu,"V;PRF;PST;LGSPEC1"
+kekamu,nna nnkɔkekamuee,"V;PRF;NEG;PST;LGSPEC1"
+kekamu,bɛkekamu,"V;HAB;FUT"
+kekamu,rennkekamu,"V;HAB;NEG;FUT"
+tow,tow,"V;NFIN"
+tow,tow,"V;HAB;PRS"
+tow,nntow,"V;HAB;NEG;PRS"
+tow,kɔtow,"V;PRS;LGSPEC1"
+tow,nnkɔtow,"V;NEG;PRS;LGSPEC1"
+tow,retow,"V;HAB+PROG;PRS"
+tow,renntow,"V;HAB+PROG;NEG;PRS"
+tow,rebɛtow,"V;PROG;PRS+IMMED"
+tow,remmbɛtow,"V;PROG;NEG;PRS+IMMED"
+tow,rekɔtow,"V;PROG;PRS;LGSPEC1"
+tow,rennkɔtow,"V;PROG;NEG;PRS;LGSPEC1"
+tow,atow,"V;HAB+PRF;PRS"
+tow,nntowee,"V;HAB+PRF;NEG;PRS"
+tow,abɛtow,"V;PRF;PRS+IMMED"
+tow,mmbɛtowee,"V;PRF;NEG;PRS+IMMED"
+tow,akɔtow,"V;PRF;PRS;LGSPEC1"
+tow,nnkɔtowee,"V;PRF;NEG;PRS;LGSPEC1"
+tow,ntow,"V;SBJV;PRS"
+tow,mma nntow,"V;SBJV;NEG;PRS"
+tow,tow,"V;IMP;PRS"
+tow,mma nntow,"V;IMP;NEG;PRS"
+tow,towee,"V;HAB;PST"
+tow,anntow,"V;HAB;NEG;PST"
+tow,bɛtowee,"V;PST+IMMED"
+tow,ammbɛtow,"V;NEG;PST+IMMED"
+tow,kɔtowee,"V;PST;LGSPEC1"
+tow,ammkɔtow,"V;NEG;PST;LGSPEC1"
+tow,nna retow,"V;HAB+PROG;PST"
+tow,nna renntow,"V;HAB+PROG;NEG;PST"
+tow,nna rebɛtow,"V;PROG;PST+IMMED"
+tow,nna remmbɛtow,"V;PROG;NEG;PST+IMMED"
+tow,nna rekɔtow,"V;PROG;PST;LGSPEC1"
+tow,nna rennkɔtow,"V;PROG;NEG;PST;LGSPEC1"
+tow,nna atow,"V;HAB+PRF;PST"
+tow,nna nntowee,"V;HAB+PRF;NEG;PST"
+tow,nna abɛtow,"V;PRF;PST+IMMED"
+tow,nna mmbɛtowee,"V;PRF;NEG;PST+IMMED"
+tow,nna akɔtow,"V;PRF;PST;LGSPEC1"
+tow,nna nnkɔtowee,"V;PRF;NEG;PST;LGSPEC1"
+tow,bɛtow,"V;HAB;FUT"
+tow,renntow,"V;HAB;NEG;FUT"
+tena,tena,"V;NFIN"
+tena,tena,"V;HAB;PRS"
+tena,nntena,"V;HAB;NEG;PRS"
+tena,kɔtena,"V;PRS;LGSPEC1"
+tena,nnkɔtena,"V;NEG;PRS;LGSPEC1"
+tena,retena,"V;HAB+PROG;PRS"
+tena,renntena,"V;HAB+PROG;NEG;PRS"
+tena,rebɛtena,"V;PROG;PRS+IMMED"
+tena,remmbɛtena,"V;PROG;NEG;PRS+IMMED"
+tena,rekɔtena,"V;PROG;PRS;LGSPEC1"
+tena,rennkɔtena,"V;PROG;NEG;PRS;LGSPEC1"
+tena,atena,"V;HAB+PRF;PRS"
+tena,nntenaee,"V;HAB+PRF;NEG;PRS"
+tena,abɛtena,"V;PRF;PRS+IMMED"
+tena,mmbɛtenaee,"V;PRF;NEG;PRS+IMMED"
+tena,akɔtena,"V;PRF;PRS;LGSPEC1"
+tena,nnkɔtenaee,"V;PRF;NEG;PRS;LGSPEC1"
+tena,ntena,"V;SBJV;PRS"
+tena,mma nntena,"V;SBJV;NEG;PRS"
+tena,tena,"V;IMP;PRS"
+tena,mma nntena,"V;IMP;NEG;PRS"
+tena,tenaee,"V;HAB;PST"
+tena,anntena,"V;HAB;NEG;PST"
+tena,bɛtenaee,"V;PST+IMMED"
+tena,ammbɛtena,"V;NEG;PST+IMMED"
+tena,kɔtenaee,"V;PST;LGSPEC1"
+tena,ammkɔtena,"V;NEG;PST;LGSPEC1"
+tena,nna retena,"V;HAB+PROG;PST"
+tena,nna renntena,"V;HAB+PROG;NEG;PST"
+tena,nna rebɛtena,"V;PROG;PST+IMMED"
+tena,nna remmbɛtena,"V;PROG;NEG;PST+IMMED"
+tena,nna rekɔtena,"V;PROG;PST;LGSPEC1"
+tena,nna rennkɔtena,"V;PROG;NEG;PST;LGSPEC1"
+tena,nna atena,"V;HAB+PRF;PST"
+tena,nna nntenaee,"V;HAB+PRF;NEG;PST"
+tena,nna abɛtena,"V;PRF;PST+IMMED"
+tena,nna mmbɛtenaee,"V;PRF;NEG;PST+IMMED"
+tena,nna akɔtena,"V;PRF;PST;LGSPEC1"
+tena,nna nnkɔtenaee,"V;PRF;NEG;PST;LGSPEC1"
+tena,bɛtena,"V;HAB;FUT"
+tena,renntena,"V;HAB;NEG;FUT"
+da,da,"V;NFIN"
+da,da,"V;HAB;PRS"
+da,nnda,"V;HAB;NEG;PRS"
+da,kɔda,"V;PRS;LGSPEC1"
+da,nnkɔda,"V;NEG;PRS;LGSPEC1"
+da,reda,"V;HAB+PROG;PRS"
+da,rennda,"V;HAB+PROG;NEG;PRS"
+da,rebɛda,"V;PROG;PRS+IMMED"
+da,remmbɛda,"V;PROG;NEG;PRS+IMMED"
+da,rekɔda,"V;PROG;PRS;LGSPEC1"
+da,rennkɔda,"V;PROG;NEG;PRS;LGSPEC1"
+da,ada,"V;HAB+PRF;PRS"
+da,nndaee,"V;HAB+PRF;NEG;PRS"
+da,abɛda,"V;PRF;PRS+IMMED"
+da,mmbɛdaee,"V;PRF;NEG;PRS+IMMED"
+da,akɔda,"V;PRF;PRS;LGSPEC1"
+da,nnkɔdaee,"V;PRF;NEG;PRS;LGSPEC1"
+da,nda,"V;SBJV;PRS"
+da,mma nnda,"V;SBJV;NEG;PRS"
+da,da,"V;IMP;PRS"
+da,mma nnda,"V;IMP;NEG;PRS"
+da,daee,"V;HAB;PST"
+da,annda,"V;HAB;NEG;PST"
+da,bɛdaee,"V;PST+IMMED"
+da,ammbɛda,"V;NEG;PST+IMMED"
+da,kɔdaee,"V;PST;LGSPEC1"
+da,ammkɔda,"V;NEG;PST;LGSPEC1"
+da,nna reda,"V;HAB+PROG;PST"
+da,nna rennda,"V;HAB+PROG;NEG;PST"
+da,nna rebɛda,"V;PROG;PST+IMMED"
+da,nna remmbɛda,"V;PROG;NEG;PST+IMMED"
+da,nna rekɔda,"V;PROG;PST;LGSPEC1"
+da,nna rennkɔda,"V;PROG;NEG;PST;LGSPEC1"
+da,nna ada,"V;HAB+PRF;PST"
+da,nna nndaee,"V;HAB+PRF;NEG;PST"
+da,nna abɛda,"V;PRF;PST+IMMED"
+da,nna mmbɛdaee,"V;PRF;NEG;PST+IMMED"
+da,nna akɔda,"V;PRF;PST;LGSPEC1"
+da,nna nnkɔdaee,"V;PRF;NEG;PST;LGSPEC1"
+da,bɛda,"V;HAB;FUT"
+da,rennda,"V;HAB;NEG;FUT"
+hua,hua,"V;NFIN"
+hua,hua,"V;HAB;PRS"
+hua,nnhua,"V;HAB;NEG;PRS"
+hua,kɔhua,"V;PRS;LGSPEC1"
+hua,nnkɔhua,"V;NEG;PRS;LGSPEC1"
+hua,rehua,"V;HAB+PROG;PRS"
+hua,rennhua,"V;HAB+PROG;NEG;PRS"
+hua,rebɛhua,"V;PROG;PRS+IMMED"
+hua,remmbɛhua,"V;PROG;NEG;PRS+IMMED"
+hua,rekɔhua,"V;PROG;PRS;LGSPEC1"
+hua,rennkɔhua,"V;PROG;NEG;PRS;LGSPEC1"
+hua,ahua,"V;HAB+PRF;PRS"
+hua,nnhuaee,"V;HAB+PRF;NEG;PRS"
+hua,abɛhua,"V;PRF;PRS+IMMED"
+hua,mmbɛhuaee,"V;PRF;NEG;PRS+IMMED"
+hua,akɔhua,"V;PRF;PRS;LGSPEC1"
+hua,nnkɔhuaee,"V;PRF;NEG;PRS;LGSPEC1"
+hua,nhua,"V;SBJV;PRS"
+hua,mma nnhua,"V;SBJV;NEG;PRS"
+hua,hua,"V;IMP;PRS"
+hua,mma nnhua,"V;IMP;NEG;PRS"
+hua,huaee,"V;HAB;PST"
+hua,annhua,"V;HAB;NEG;PST"
+hua,bɛhuaee,"V;PST+IMMED"
+hua,ammbɛhua,"V;NEG;PST+IMMED"
+hua,kɔhuaee,"V;PST;LGSPEC1"
+hua,ammkɔhua,"V;NEG;PST;LGSPEC1"
+hua,nna rehua,"V;HAB+PROG;PST"
+hua,nna rennhua,"V;HAB+PROG;NEG;PST"
+hua,nna rebɛhua,"V;PROG;PST+IMMED"
+hua,nna remmbɛhua,"V;PROG;NEG;PST+IMMED"
+hua,nna rekɔhua,"V;PROG;PST;LGSPEC1"
+hua,nna rennkɔhua,"V;PROG;NEG;PST;LGSPEC1"
+hua,nna ahua,"V;HAB+PRF;PST"
+hua,nna nnhuaee,"V;HAB+PRF;NEG;PST"
+hua,nna abɛhua,"V;PRF;PST+IMMED"
+hua,nna mmbɛhuaee,"V;PRF;NEG;PST+IMMED"
+hua,nna akɔhua,"V;PRF;PST;LGSPEC1"
+hua,nna nnkɔhuaee,"V;PRF;NEG;PST;LGSPEC1"
+hua,bɛhua,"V;HAB;FUT"
+hua,rennhua,"V;HAB;NEG;FUT"
+serew,serew,"V;NFIN"
+serew,serew,"V;HAB;PRS"
+serew,nnserew,"V;HAB;NEG;PRS"
+serew,kɔserew,"V;PRS;LGSPEC1"
+serew,nnkɔserew,"V;NEG;PRS;LGSPEC1"
+serew,reserew,"V;HAB+PROG;PRS"
+serew,rennserew,"V;HAB+PROG;NEG;PRS"
+serew,rebɛserew,"V;PROG;PRS+IMMED"
+serew,remmbɛserew,"V;PROG;NEG;PRS+IMMED"
+serew,rekɔserew,"V;PROG;PRS;LGSPEC1"
+serew,rennkɔserew,"V;PROG;NEG;PRS;LGSPEC1"
+serew,aserew,"V;HAB+PRF;PRS"
+serew,nnserewee,"V;HAB+PRF;NEG;PRS"
+serew,abɛserew,"V;PRF;PRS+IMMED"
+serew,mmbɛserewee,"V;PRF;NEG;PRS+IMMED"
+serew,akɔserew,"V;PRF;PRS;LGSPEC1"
+serew,nnkɔserewee,"V;PRF;NEG;PRS;LGSPEC1"
+serew,nserew,"V;SBJV;PRS"
+serew,mma nnserew,"V;SBJV;NEG;PRS"
+serew,serew,"V;IMP;PRS"
+serew,mma nnserew,"V;IMP;NEG;PRS"
+serew,serewee,"V;HAB;PST"
+serew,annserew,"V;HAB;NEG;PST"
+serew,bɛserewee,"V;PST+IMMED"
+serew,ammbɛserew,"V;NEG;PST+IMMED"
+serew,kɔserewee,"V;PST;LGSPEC1"
+serew,ammkɔserew,"V;NEG;PST;LGSPEC1"
+serew,nna reserew,"V;HAB+PROG;PST"
+serew,nna rennserew,"V;HAB+PROG;NEG;PST"
+serew,nna rebɛserew,"V;PROG;PST+IMMED"
+serew,nna remmbɛserew,"V;PROG;NEG;PST+IMMED"
+serew,nna rekɔserew,"V;PROG;PST;LGSPEC1"
+serew,nna rennkɔserew,"V;PROG;NEG;PST;LGSPEC1"
+serew,nna aserew,"V;HAB+PRF;PST"
+serew,nna nnserewee,"V;HAB+PRF;NEG;PST"
+serew,nna abɛserew,"V;PRF;PST+IMMED"
+serew,nna mmbɛserewee,"V;PRF;NEG;PST+IMMED"
+serew,nna akɔserew,"V;PRF;PST;LGSPEC1"
+serew,nna nnkɔserewee,"V;PRF;NEG;PST;LGSPEC1"
+serew,bɛserew,"V;HAB;FUT"
+serew,rennserew,"V;HAB;NEG;FUT"
+hunti,hunti,"V;NFIN"
+hunti,hunti,"V;HAB;PRS"
+hunti,nnhunti,"V;HAB;NEG;PRS"
+hunti,kɔhunti,"V;PRS;LGSPEC1"
+hunti,nnkɔhunti,"V;NEG;PRS;LGSPEC1"
+hunti,rehunti,"V;HAB+PROG;PRS"
+hunti,rennhunti,"V;HAB+PROG;NEG;PRS"
+hunti,rebɛhunti,"V;PROG;PRS+IMMED"
+hunti,remmbɛhunti,"V;PROG;NEG;PRS+IMMED"
+hunti,rekɔhunti,"V;PROG;PRS;LGSPEC1"
+hunti,rennkɔhunti,"V;PROG;NEG;PRS;LGSPEC1"
+hunti,ahunti,"V;HAB+PRF;PRS"
+hunti,nnhuntiee,"V;HAB+PRF;NEG;PRS"
+hunti,abɛhunti,"V;PRF;PRS+IMMED"
+hunti,mmbɛhuntiee,"V;PRF;NEG;PRS+IMMED"
+hunti,akɔhunti,"V;PRF;PRS;LGSPEC1"
+hunti,nnkɔhuntiee,"V;PRF;NEG;PRS;LGSPEC1"
+hunti,nhunti,"V;SBJV;PRS"
+hunti,mma nnhunti,"V;SBJV;NEG;PRS"
+hunti,hunti,"V;IMP;PRS"
+hunti,mma nnhunti,"V;IMP;NEG;PRS"
+hunti,huntiee,"V;HAB;PST"
+hunti,annhunti,"V;HAB;NEG;PST"
+hunti,bɛhuntiee,"V;PST+IMMED"
+hunti,ammbɛhunti,"V;NEG;PST+IMMED"
+hunti,kɔhuntiee,"V;PST;LGSPEC1"
+hunti,ammkɔhunti,"V;NEG;PST;LGSPEC1"
+hunti,nna rehunti,"V;HAB+PROG;PST"
+hunti,nna rennhunti,"V;HAB+PROG;NEG;PST"
+hunti,nna rebɛhunti,"V;PROG;PST+IMMED"
+hunti,nna remmbɛhunti,"V;PROG;NEG;PST+IMMED"
+hunti,nna rekɔhunti,"V;PROG;PST;LGSPEC1"
+hunti,nna rennkɔhunti,"V;PROG;NEG;PST;LGSPEC1"
+hunti,nna ahunti,"V;HAB+PRF;PST"
+hunti,nna nnhuntiee,"V;HAB+PRF;NEG;PST"
+hunti,nna abɛhunti,"V;PRF;PST+IMMED"
+hunti,nna mmbɛhuntiee,"V;PRF;NEG;PST+IMMED"
+hunti,nna akɔhunti,"V;PRF;PST;LGSPEC1"
+hunti,nna nnkɔhuntiee,"V;PRF;NEG;PST;LGSPEC1"
+hunti,bɛhunti,"V;HAB;FUT"
+hunti,rennhunti,"V;HAB;NEG;FUT"
+dua,dua,"V;NFIN"
+dua,dua,"V;HAB;PRS"
+dua,nndua,"V;HAB;NEG;PRS"
+dua,kɔdua,"V;PRS;LGSPEC1"
+dua,nnkɔdua,"V;NEG;PRS;LGSPEC1"
+dua,redua,"V;HAB+PROG;PRS"
+dua,renndua,"V;HAB+PROG;NEG;PRS"
+dua,rebɛdua,"V;PROG;PRS+IMMED"
+dua,remmbɛdua,"V;PROG;NEG;PRS+IMMED"
+dua,rekɔdua,"V;PROG;PRS;LGSPEC1"
+dua,rennkɔdua,"V;PROG;NEG;PRS;LGSPEC1"
+dua,adua,"V;HAB+PRF;PRS"
+dua,nnduaee,"V;HAB+PRF;NEG;PRS"
+dua,abɛdua,"V;PRF;PRS+IMMED"
+dua,mmbɛduaee,"V;PRF;NEG;PRS+IMMED"
+dua,akɔdua,"V;PRF;PRS;LGSPEC1"
+dua,nnkɔduaee,"V;PRF;NEG;PRS;LGSPEC1"
+dua,ndua,"V;SBJV;PRS"
+dua,mma nndua,"V;SBJV;NEG;PRS"
+dua,dua,"V;IMP;PRS"
+dua,mma nndua,"V;IMP;NEG;PRS"
+dua,duaee,"V;HAB;PST"
+dua,anndua,"V;HAB;NEG;PST"
+dua,bɛduaee,"V;PST+IMMED"
+dua,ammbɛdua,"V;NEG;PST+IMMED"
+dua,kɔduaee,"V;PST;LGSPEC1"
+dua,ammkɔdua,"V;NEG;PST;LGSPEC1"
+dua,nna redua,"V;HAB+PROG;PST"
+dua,nna renndua,"V;HAB+PROG;NEG;PST"
+dua,nna rebɛdua,"V;PROG;PST+IMMED"
+dua,nna remmbɛdua,"V;PROG;NEG;PST+IMMED"
+dua,nna rekɔdua,"V;PROG;PST;LGSPEC1"
+dua,nna rennkɔdua,"V;PROG;NEG;PST;LGSPEC1"
+dua,nna adua,"V;HAB+PRF;PST"
+dua,nna nnduaee,"V;HAB+PRF;NEG;PST"
+dua,nna abɛdua,"V;PRF;PST+IMMED"
+dua,nna mmbɛduaee,"V;PRF;NEG;PST+IMMED"
+dua,nna akɔdua,"V;PRF;PST;LGSPEC1"
+dua,nna nnkɔduaee,"V;PRF;NEG;PST;LGSPEC1"
+dua,bɛdua,"V;HAB;FUT"
+dua,renndua,"V;HAB;NEG;FUT"
+ka,ka,"V;NFIN"
+ka,ka,"V;HAB;PRS"
+ka,nnka,"V;HAB;NEG;PRS"
+ka,kɔka,"V;PRS;LGSPEC1"
+ka,nnkɔka,"V;NEG;PRS;LGSPEC1"
+ka,reka,"V;HAB+PROG;PRS"
+ka,rennka,"V;HAB+PROG;NEG;PRS"
+ka,rebɛka,"V;PROG;PRS+IMMED"
+ka,remmbɛka,"V;PROG;NEG;PRS+IMMED"
+ka,rekɔka,"V;PROG;PRS;LGSPEC1"
+ka,rennkɔka,"V;PROG;NEG;PRS;LGSPEC1"
+ka,aka,"V;HAB+PRF;PRS"
+ka,nnkaee,"V;HAB+PRF;NEG;PRS"
+ka,abɛka,"V;PRF;PRS+IMMED"
+ka,mmbɛkaee,"V;PRF;NEG;PRS+IMMED"
+ka,akɔka,"V;PRF;PRS;LGSPEC1"
+ka,nnkɔkaee,"V;PRF;NEG;PRS;LGSPEC1"
+ka,nka,"V;SBJV;PRS"
+ka,mma nnka,"V;SBJV;NEG;PRS"
+ka,ka,"V;IMP;PRS"
+ka,mma nnka,"V;IMP;NEG;PRS"
+ka,kaee,"V;HAB;PST"
+ka,annka,"V;HAB;NEG;PST"
+ka,bɛkaee,"V;PST+IMMED"
+ka,ammbɛka,"V;NEG;PST+IMMED"
+ka,kɔkaee,"V;PST;LGSPEC1"
+ka,ammkɔka,"V;NEG;PST;LGSPEC1"
+ka,nna reka,"V;HAB+PROG;PST"
+ka,nna rennka,"V;HAB+PROG;NEG;PST"
+ka,nna rebɛka,"V;PROG;PST+IMMED"
+ka,nna remmbɛka,"V;PROG;NEG;PST+IMMED"
+ka,nna rekɔka,"V;PROG;PST;LGSPEC1"
+ka,nna rennkɔka,"V;PROG;NEG;PST;LGSPEC1"
+ka,nna aka,"V;HAB+PRF;PST"
+ka,nna nnkaee,"V;HAB+PRF;NEG;PST"
+ka,nna abɛka,"V;PRF;PST+IMMED"
+ka,nna mmbɛkaee,"V;PRF;NEG;PST+IMMED"
+ka,nna akɔka,"V;PRF;PST;LGSPEC1"
+ka,nna nnkɔkaee,"V;PRF;NEG;PST;LGSPEC1"
+ka,bɛka,"V;HAB;FUT"
+ka,rennka,"V;HAB;NEG;FUT"
+hyina,hyina,"V;NFIN"
+hyina,hyina,"V;HAB;PRS"
+hyina,nnhyina,"V;HAB;NEG;PRS"
+hyina,kɔhyina,"V;PRS;LGSPEC1"
+hyina,nnkɔhyina,"V;NEG;PRS;LGSPEC1"
+hyina,rehyina,"V;HAB+PROG;PRS"
+hyina,rennhyina,"V;HAB+PROG;NEG;PRS"
+hyina,rebɛhyina,"V;PROG;PRS+IMMED"
+hyina,remmbɛhyina,"V;PROG;NEG;PRS+IMMED"
+hyina,rekɔhyina,"V;PROG;PRS;LGSPEC1"
+hyina,rennkɔhyina,"V;PROG;NEG;PRS;LGSPEC1"
+hyina,ahyina,"V;HAB+PRF;PRS"
+hyina,nnhyinaee,"V;HAB+PRF;NEG;PRS"
+hyina,abɛhyina,"V;PRF;PRS+IMMED"
+hyina,mmbɛhyinaee,"V;PRF;NEG;PRS+IMMED"
+hyina,akɔhyina,"V;PRF;PRS;LGSPEC1"
+hyina,nnkɔhyinaee,"V;PRF;NEG;PRS;LGSPEC1"
+hyina,nhyina,"V;SBJV;PRS"
+hyina,mma nnhyina,"V;SBJV;NEG;PRS"
+hyina,hyina,"V;IMP;PRS"
+hyina,mma nnhyina,"V;IMP;NEG;PRS"
+hyina,hyinaee,"V;HAB;PST"
+hyina,annhyina,"V;HAB;NEG;PST"
+hyina,bɛhyinaee,"V;PST+IMMED"
+hyina,ammbɛhyina,"V;NEG;PST+IMMED"
+hyina,kɔhyinaee,"V;PST;LGSPEC1"
+hyina,ammkɔhyina,"V;NEG;PST;LGSPEC1"
+hyina,nna rehyina,"V;HAB+PROG;PST"
+hyina,nna rennhyina,"V;HAB+PROG;NEG;PST"
+hyina,nna rebɛhyina,"V;PROG;PST+IMMED"
+hyina,nna remmbɛhyina,"V;PROG;NEG;PST+IMMED"
+hyina,nna rekɔhyina,"V;PROG;PST;LGSPEC1"
+hyina,nna rennkɔhyina,"V;PROG;NEG;PST;LGSPEC1"
+hyina,nna ahyina,"V;HAB+PRF;PST"
+hyina,nna nnhyinaee,"V;HAB+PRF;NEG;PST"
+hyina,nna abɛhyina,"V;PRF;PST+IMMED"
+hyina,nna mmbɛhyinaee,"V;PRF;NEG;PST+IMMED"
+hyina,nna akɔhyina,"V;PRF;PST;LGSPEC1"
+hyina,nna nnkɔhyinaee,"V;PRF;NEG;PST;LGSPEC1"
+hyina,bɛhyina,"V;HAB;FUT"
+hyina,rennhyina,"V;HAB;NEG;FUT"
+hyɛ ase,hyɛ ase,"V;NFIN"
+hyɛ ase,hyɛ ase,"V;HAB;PRS"
+hyɛ ase,nnhyɛ ase,"V;HAB;NEG;PRS"
+hyɛ ase,kɔhyɛ ase,"V;PRS;LGSPEC1"
+hyɛ ase,nnkɔhyɛ ase,"V;NEG;PRS;LGSPEC1"
+hyɛ ase,rehyɛ ase,"V;HAB+PROG;PRS"
+hyɛ ase,rennhyɛ ase,"V;HAB+PROG;NEG;PRS"
+hyɛ ase,rebɛhyɛ ase,"V;PROG;PRS+IMMED"
+hyɛ ase,remmbɛhyɛ ase,"V;PROG;NEG;PRS+IMMED"
+hyɛ ase,rekɔhyɛ ase,"V;PROG;PRS;LGSPEC1"
+hyɛ ase,rennkɔhyɛ ase,"V;PROG;NEG;PRS;LGSPEC1"
+hyɛ ase,ahyɛ ase,"V;HAB+PRF;PRS"
+hyɛ ase,nnhyɛ asee,"V;HAB+PRF;NEG;PRS"
+hyɛ ase,abɛhyɛ ase,"V;PRF;PRS+IMMED"
+hyɛ ase,mmbɛhyɛ asee,"V;PRF;NEG;PRS+IMMED"
+hyɛ ase,akɔhyɛ ase,"V;PRF;PRS;LGSPEC1"
+hyɛ ase,nnkɔhyɛ asee,"V;PRF;NEG;PRS;LGSPEC1"
+hyɛ ase,nhyɛ ase,"V;SBJV;PRS"
+hyɛ ase,mma nnhyɛ ase,"V;SBJV;NEG;PRS"
+hyɛ ase,hyɛ ase,"V;IMP;PRS"
+hyɛ ase,mma nnhyɛ ase,"V;IMP;NEG;PRS"
+hyɛ ase,hyɛ asee,"V;HAB;PST"
+hyɛ ase,annhyɛ ase,"V;HAB;NEG;PST"
+hyɛ ase,bɛhyɛ asee,"V;PST+IMMED"
+hyɛ ase,ammbɛhyɛ ase,"V;NEG;PST+IMMED"
+hyɛ ase,kɔhyɛ asee,"V;PST;LGSPEC1"
+hyɛ ase,ammkɔhyɛ ase,"V;NEG;PST;LGSPEC1"
+hyɛ ase,nna rehyɛ ase,"V;HAB+PROG;PST"
+hyɛ ase,nna rennhyɛ ase,"V;HAB+PROG;NEG;PST"
+hyɛ ase,nna rebɛhyɛ ase,"V;PROG;PST+IMMED"
+hyɛ ase,nna remmbɛhyɛ ase,"V;PROG;NEG;PST+IMMED"
+hyɛ ase,nna rekɔhyɛ ase,"V;PROG;PST;LGSPEC1"
+hyɛ ase,nna rennkɔhyɛ ase,"V;PROG;NEG;PST;LGSPEC1"
+hyɛ ase,nna ahyɛ ase,"V;HAB+PRF;PST"
+hyɛ ase,nna nnhyɛ asee,"V;HAB+PRF;NEG;PST"
+hyɛ ase,nna abɛhyɛ ase,"V;PRF;PST+IMMED"
+hyɛ ase,nna mmbɛhyɛ asee,"V;PRF;NEG;PST+IMMED"
+hyɛ ase,nna akɔhyɛ ase,"V;PRF;PST;LGSPEC1"
+hyɛ ase,nna nnkɔhyɛ asee,"V;PRF;NEG;PST;LGSPEC1"
+hyɛ ase,bɛhyɛ ase,"V;HAB;FUT"
+hyɛ ase,rennhyɛ ase,"V;HAB;NEG;FUT"
+mene,mene,"V;NFIN"
+mene,mene,"V;HAB;PRS"
+mene,mmmene,"V;HAB;NEG;PRS"
+mene,kɔmene,"V;PRS;LGSPEC1"
+mene,nnkɔmene,"V;NEG;PRS;LGSPEC1"
+mene,remene,"V;HAB+PROG;PRS"
+mene,remmmene,"V;HAB+PROG;NEG;PRS"
+mene,rebɛmene,"V;PROG;PRS+IMMED"
+mene,remmbɛmene,"V;PROG;NEG;PRS+IMMED"
+mene,rekɔmene,"V;PROG;PRS;LGSPEC1"
+mene,rennkɔmene,"V;PROG;NEG;PRS;LGSPEC1"
+mene,amene,"V;HAB+PRF;PRS"
+mene,mmmenee,"V;HAB+PRF;NEG;PRS"
+mene,abɛmene,"V;PRF;PRS+IMMED"
+mene,mmbɛmenee,"V;PRF;NEG;PRS+IMMED"
+mene,akɔmene,"V;PRF;PRS;LGSPEC1"
+mene,nnkɔmenee,"V;PRF;NEG;PRS;LGSPEC1"
+mene,mmene,"V;SBJV;PRS"
+mene,mma mmmene,"V;SBJV;NEG;PRS"
+mene,mene,"V;IMP;PRS"
+mene,mma mmmene,"V;IMP;NEG;PRS"
+mene,menee,"V;HAB;PST"
+mene,ammmene,"V;HAB;NEG;PST"
+mene,bɛmenee,"V;PST+IMMED"
+mene,ammbɛmene,"V;NEG;PST+IMMED"
+mene,kɔmenee,"V;PST;LGSPEC1"
+mene,ammkɔmene,"V;NEG;PST;LGSPEC1"
+mene,nna remene,"V;HAB+PROG;PST"
+mene,nna remmmene,"V;HAB+PROG;NEG;PST"
+mene,nna rebɛmene,"V;PROG;PST+IMMED"
+mene,nna remmbɛmene,"V;PROG;NEG;PST+IMMED"
+mene,nna rekɔmene,"V;PROG;PST;LGSPEC1"
+mene,nna rennkɔmene,"V;PROG;NEG;PST;LGSPEC1"
+mene,nna amene,"V;HAB+PRF;PST"
+mene,nna mmmenee,"V;HAB+PRF;NEG;PST"
+mene,nna abɛmene,"V;PRF;PST+IMMED"
+mene,nna mmbɛmenee,"V;PRF;NEG;PST+IMMED"
+mene,nna akɔmene,"V;PRF;PST;LGSPEC1"
+mene,nna nnkɔmenee,"V;PRF;NEG;PST;LGSPEC1"
+mene,bɛmene,"V;HAB;FUT"
+mene,remmmene,"V;HAB;NEG;FUT"
+boro,boro,"V;NFIN"
+boro,boro,"V;HAB;PRS"
+boro,mmboro,"V;HAB;NEG;PRS"
+boro,kɔboro,"V;PRS;LGSPEC1"
+boro,nnkɔboro,"V;NEG;PRS;LGSPEC1"
+boro,reboro,"V;HAB+PROG;PRS"
+boro,remmboro,"V;HAB+PROG;NEG;PRS"
+boro,rebɛboro,"V;PROG;PRS+IMMED"
+boro,remmbɛboro,"V;PROG;NEG;PRS+IMMED"
+boro,rekɔboro,"V;PROG;PRS;LGSPEC1"
+boro,rennkɔboro,"V;PROG;NEG;PRS;LGSPEC1"
+boro,aboro,"V;HAB+PRF;PRS"
+boro,mmboroee,"V;HAB+PRF;NEG;PRS"
+boro,abɛboro,"V;PRF;PRS+IMMED"
+boro,mmbɛboroee,"V;PRF;NEG;PRS+IMMED"
+boro,akɔboro,"V;PRF;PRS;LGSPEC1"
+boro,nnkɔboroee,"V;PRF;NEG;PRS;LGSPEC1"
+boro,mboro,"V;SBJV;PRS"
+boro,mma mmboro,"V;SBJV;NEG;PRS"
+boro,boro,"V;IMP;PRS"
+boro,mma mmboro,"V;IMP;NEG;PRS"
+boro,boroee,"V;HAB;PST"
+boro,ammboro,"V;HAB;NEG;PST"
+boro,bɛboroee,"V;PST+IMMED"
+boro,ammbɛboro,"V;NEG;PST+IMMED"
+boro,kɔboroee,"V;PST;LGSPEC1"
+boro,ammkɔboro,"V;NEG;PST;LGSPEC1"
+boro,nna reboro,"V;HAB+PROG;PST"
+boro,nna remmboro,"V;HAB+PROG;NEG;PST"
+boro,nna rebɛboro,"V;PROG;PST+IMMED"
+boro,nna remmbɛboro,"V;PROG;NEG;PST+IMMED"
+boro,nna rekɔboro,"V;PROG;PST;LGSPEC1"
+boro,nna rennkɔboro,"V;PROG;NEG;PST;LGSPEC1"
+boro,nna aboro,"V;HAB+PRF;PST"
+boro,nna mmboroee,"V;HAB+PRF;NEG;PST"
+boro,nna abɛboro,"V;PRF;PST+IMMED"
+boro,nna mmbɛboroee,"V;PRF;NEG;PST+IMMED"
+boro,nna akɔboro,"V;PRF;PST;LGSPEC1"
+boro,nna nnkɔboroee,"V;PRF;NEG;PST;LGSPEC1"
+boro,bɛboro,"V;HAB;FUT"
+boro,remmboro,"V;HAB;NEG;FUT"
+fa,fa,"V;NFIN"
+fa,fa,"V;HAB;PRS"
+fa,mmfa,"V;HAB;NEG;PRS"
+fa,kɔfa,"V;PRS;LGSPEC1"
+fa,nnkɔfa,"V;NEG;PRS;LGSPEC1"
+fa,refa,"V;HAB+PROG;PRS"
+fa,remmfa,"V;HAB+PROG;NEG;PRS"
+fa,rebɛfa,"V;PROG;PRS+IMMED"
+fa,remmbɛfa,"V;PROG;NEG;PRS+IMMED"
+fa,rekɔfa,"V;PROG;PRS;LGSPEC1"
+fa,rennkɔfa,"V;PROG;NEG;PRS;LGSPEC1"
+fa,afa,"V;HAB+PRF;PRS"
+fa,mmfaee,"V;HAB+PRF;NEG;PRS"
+fa,abɛfa,"V;PRF;PRS+IMMED"
+fa,mmbɛfaee,"V;PRF;NEG;PRS+IMMED"
+fa,akɔfa,"V;PRF;PRS;LGSPEC1"
+fa,nnkɔfaee,"V;PRF;NEG;PRS;LGSPEC1"
+fa,mfa,"V;SBJV;PRS"
+fa,mma mmfa,"V;SBJV;NEG;PRS"
+fa,fa,"V;IMP;PRS"
+fa,mma mmfa,"V;IMP;NEG;PRS"
+fa,faee,"V;HAB;PST"
+fa,ammfa,"V;HAB;NEG;PST"
+fa,bɛfaee,"V;PST+IMMED"
+fa,ammbɛfa,"V;NEG;PST+IMMED"
+fa,kɔfaee,"V;PST;LGSPEC1"
+fa,ammkɔfa,"V;NEG;PST;LGSPEC1"
+fa,nna refa,"V;HAB+PROG;PST"
+fa,nna remmfa,"V;HAB+PROG;NEG;PST"
+fa,nna rebɛfa,"V;PROG;PST+IMMED"
+fa,nna remmbɛfa,"V;PROG;NEG;PST+IMMED"
+fa,nna rekɔfa,"V;PROG;PST;LGSPEC1"
+fa,nna rennkɔfa,"V;PROG;NEG;PST;LGSPEC1"
+fa,nna afa,"V;HAB+PRF;PST"
+fa,nna mmfaee,"V;HAB+PRF;NEG;PST"
+fa,nna abɛfa,"V;PRF;PST+IMMED"
+fa,nna mmbɛfaee,"V;PRF;NEG;PST+IMMED"
+fa,nna akɔfa,"V;PRF;PST;LGSPEC1"
+fa,nna nnkɔfaee,"V;PRF;NEG;PST;LGSPEC1"
+fa,bɛfa,"V;HAB;FUT"
+fa,remmfa,"V;HAB;NEG;FUT"
+kasa,kasa,"V;NFIN"
+kasa,kasa,"V;HAB;PRS"
+kasa,nnkasa,"V;HAB;NEG;PRS"
+kasa,kɔkasa,"V;PRS;LGSPEC1"
+kasa,nnkɔkasa,"V;NEG;PRS;LGSPEC1"
+kasa,rekasa,"V;HAB+PROG;PRS"
+kasa,rennkasa,"V;HAB+PROG;NEG;PRS"
+kasa,rebɛkasa,"V;PROG;PRS+IMMED"
+kasa,remmbɛkasa,"V;PROG;NEG;PRS+IMMED"
+kasa,rekɔkasa,"V;PROG;PRS;LGSPEC1"
+kasa,rennkɔkasa,"V;PROG;NEG;PRS;LGSPEC1"
+kasa,akasa,"V;HAB+PRF;PRS"
+kasa,nnkasaee,"V;HAB+PRF;NEG;PRS"
+kasa,abɛkasa,"V;PRF;PRS+IMMED"
+kasa,mmbɛkasaee,"V;PRF;NEG;PRS+IMMED"
+kasa,akɔkasa,"V;PRF;PRS;LGSPEC1"
+kasa,nnkɔkasaee,"V;PRF;NEG;PRS;LGSPEC1"
+kasa,nkasa,"V;SBJV;PRS"
+kasa,mma nnkasa,"V;SBJV;NEG;PRS"
+kasa,kasa,"V;IMP;PRS"
+kasa,mma nnkasa,"V;IMP;NEG;PRS"
+kasa,kasaee,"V;HAB;PST"
+kasa,annkasa,"V;HAB;NEG;PST"
+kasa,bɛkasaee,"V;PST+IMMED"
+kasa,ammbɛkasa,"V;NEG;PST+IMMED"
+kasa,kɔkasaee,"V;PST;LGSPEC1"
+kasa,ammkɔkasa,"V;NEG;PST;LGSPEC1"
+kasa,nna rekasa,"V;HAB+PROG;PST"
+kasa,nna rennkasa,"V;HAB+PROG;NEG;PST"
+kasa,nna rebɛkasa,"V;PROG;PST+IMMED"
+kasa,nna remmbɛkasa,"V;PROG;NEG;PST+IMMED"
+kasa,nna rekɔkasa,"V;PROG;PST;LGSPEC1"
+kasa,nna rennkɔkasa,"V;PROG;NEG;PST;LGSPEC1"
+kasa,nna akasa,"V;HAB+PRF;PST"
+kasa,nna nnkasaee,"V;HAB+PRF;NEG;PST"
+kasa,nna abɛkasa,"V;PRF;PST+IMMED"
+kasa,nna mmbɛkasaee,"V;PRF;NEG;PST+IMMED"
+kasa,nna akɔkasa,"V;PRF;PST;LGSPEC1"
+kasa,nna nnkɔkasaee,"V;PRF;NEG;PST;LGSPEC1"
+kasa,bɛkasa,"V;HAB;FUT"
+kasa,rennkasa,"V;HAB;NEG;FUT"
+kyerɛ,kyerɛ,"V;NFIN"
+kyerɛ,kyerɛ,"V;HAB;PRS"
+kyerɛ,nnkyerɛ,"V;HAB;NEG;PRS"
+kyerɛ,kɔkyerɛ,"V;PRS;LGSPEC1"
+kyerɛ,nnkɔkyerɛ,"V;NEG;PRS;LGSPEC1"
+kyerɛ,rekyerɛ,"V;HAB+PROG;PRS"
+kyerɛ,rennkyerɛ,"V;HAB+PROG;NEG;PRS"
+kyerɛ,rebɛkyerɛ,"V;PROG;PRS+IMMED"
+kyerɛ,remmbɛkyerɛ,"V;PROG;NEG;PRS+IMMED"
+kyerɛ,rekɔkyerɛ,"V;PROG;PRS;LGSPEC1"
+kyerɛ,rennkɔkyerɛ,"V;PROG;NEG;PRS;LGSPEC1"
+kyerɛ,akyerɛ,"V;HAB+PRF;PRS"
+kyerɛ,nnkyerɛee,"V;HAB+PRF;NEG;PRS"
+kyerɛ,abɛkyerɛ,"V;PRF;PRS+IMMED"
+kyerɛ,mmbɛkyerɛee,"V;PRF;NEG;PRS+IMMED"
+kyerɛ,akɔkyerɛ,"V;PRF;PRS;LGSPEC1"
+kyerɛ,nnkɔkyerɛee,"V;PRF;NEG;PRS;LGSPEC1"
+kyerɛ,nkyerɛ,"V;SBJV;PRS"
+kyerɛ,mma nnkyerɛ,"V;SBJV;NEG;PRS"
+kyerɛ,kyerɛ,"V;IMP;PRS"
+kyerɛ,mma nnkyerɛ,"V;IMP;NEG;PRS"
+kyerɛ,kyerɛee,"V;HAB;PST"
+kyerɛ,annkyerɛ,"V;HAB;NEG;PST"
+kyerɛ,bɛkyerɛee,"V;PST+IMMED"
+kyerɛ,ammbɛkyerɛ,"V;NEG;PST+IMMED"
+kyerɛ,kɔkyerɛee,"V;PST;LGSPEC1"
+kyerɛ,ammkɔkyerɛ,"V;NEG;PST;LGSPEC1"
+kyerɛ,nna rekyerɛ,"V;HAB+PROG;PST"
+kyerɛ,nna rennkyerɛ,"V;HAB+PROG;NEG;PST"
+kyerɛ,nna rebɛkyerɛ,"V;PROG;PST+IMMED"
+kyerɛ,nna remmbɛkyerɛ,"V;PROG;NEG;PST+IMMED"
+kyerɛ,nna rekɔkyerɛ,"V;PROG;PST;LGSPEC1"
+kyerɛ,nna rennkɔkyerɛ,"V;PROG;NEG;PST;LGSPEC1"
+kyerɛ,nna akyerɛ,"V;HAB+PRF;PST"
+kyerɛ,nna nnkyerɛee,"V;HAB+PRF;NEG;PST"
+kyerɛ,nna abɛkyerɛ,"V;PRF;PST+IMMED"
+kyerɛ,nna mmbɛkyerɛee,"V;PRF;NEG;PST+IMMED"
+kyerɛ,nna akɔkyerɛ,"V;PRF;PST;LGSPEC1"
+kyerɛ,nna nnkɔkyerɛee,"V;PRF;NEG;PST;LGSPEC1"
+kyerɛ,bɛkyerɛ,"V;HAB;FUT"
+kyerɛ,rennkyerɛ,"V;HAB;NEG;FUT"
+da ase,da ase,"V;NFIN"
+da ase,da ase,"V;HAB;PRS"
+da ase,nnda ase,"V;HAB;NEG;PRS"
+da ase,kɔda ase,"V;PRS;LGSPEC1"
+da ase,nnkɔda ase,"V;NEG;PRS;LGSPEC1"
+da ase,reda ase,"V;HAB+PROG;PRS"
+da ase,rennda ase,"V;HAB+PROG;NEG;PRS"
+da ase,rebɛda ase,"V;PROG;PRS+IMMED"
+da ase,remmbɛda ase,"V;PROG;NEG;PRS+IMMED"
+da ase,rekɔda ase,"V;PROG;PRS;LGSPEC1"
+da ase,rennkɔda ase,"V;PROG;NEG;PRS;LGSPEC1"
+da ase,ada ase,"V;HAB+PRF;PRS"
+da ase,nnda asee,"V;HAB+PRF;NEG;PRS"
+da ase,abɛda ase,"V;PRF;PRS+IMMED"
+da ase,mmbɛda asee,"V;PRF;NEG;PRS+IMMED"
+da ase,akɔda ase,"V;PRF;PRS;LGSPEC1"
+da ase,nnkɔda asee,"V;PRF;NEG;PRS;LGSPEC1"
+da ase,nda ase,"V;SBJV;PRS"
+da ase,mma nnda ase,"V;SBJV;NEG;PRS"
+da ase,da ase,"V;IMP;PRS"
+da ase,mma nnda ase,"V;IMP;NEG;PRS"
+da ase,da asee,"V;HAB;PST"
+da ase,annda ase,"V;HAB;NEG;PST"
+da ase,bɛda asee,"V;PST+IMMED"
+da ase,ammbɛda ase,"V;NEG;PST+IMMED"
+da ase,kɔda asee,"V;PST;LGSPEC1"
+da ase,ammkɔda ase,"V;NEG;PST;LGSPEC1"
+da ase,nna reda ase,"V;HAB+PROG;PST"
+da ase,nna rennda ase,"V;HAB+PROG;NEG;PST"
+da ase,nna rebɛda ase,"V;PROG;PST+IMMED"
+da ase,nna remmbɛda ase,"V;PROG;NEG;PST+IMMED"
+da ase,nna rekɔda ase,"V;PROG;PST;LGSPEC1"
+da ase,nna rennkɔda ase,"V;PROG;NEG;PST;LGSPEC1"
+da ase,nna ada ase,"V;HAB+PRF;PST"
+da ase,nna nnda asee,"V;HAB+PRF;NEG;PST"
+da ase,nna abɛda ase,"V;PRF;PST+IMMED"
+da ase,nna mmbɛda asee,"V;PRF;NEG;PST+IMMED"
+da ase,nna akɔda ase,"V;PRF;PST;LGSPEC1"
+da ase,nna nnkɔda asee,"V;PRF;NEG;PST;LGSPEC1"
+da ase,bɛda ase,"V;HAB;FUT"
+da ase,rennda ase,"V;HAB;NEG;FUT"
+ka,ka,"V;NFIN"
+ka,ka,"V;HAB;PRS"
+ka,nnka,"V;HAB;NEG;PRS"
+ka,kɔka,"V;PRS;LGSPEC1"
+ka,nnkɔka,"V;NEG;PRS;LGSPEC1"
+ka,reka,"V;HAB+PROG;PRS"
+ka,rennka,"V;HAB+PROG;NEG;PRS"
+ka,rebɛka,"V;PROG;PRS+IMMED"
+ka,remmbɛka,"V;PROG;NEG;PRS+IMMED"
+ka,rekɔka,"V;PROG;PRS;LGSPEC1"
+ka,rennkɔka,"V;PROG;NEG;PRS;LGSPEC1"
+ka,aka,"V;HAB+PRF;PRS"
+ka,nnkaee,"V;HAB+PRF;NEG;PRS"
+ka,abɛka,"V;PRF;PRS+IMMED"
+ka,mmbɛkaee,"V;PRF;NEG;PRS+IMMED"
+ka,akɔka,"V;PRF;PRS;LGSPEC1"
+ka,nnkɔkaee,"V;PRF;NEG;PRS;LGSPEC1"
+ka,nka,"V;SBJV;PRS"
+ka,mma nnka,"V;SBJV;NEG;PRS"
+ka,ka,"V;IMP;PRS"
+ka,mma nnka,"V;IMP;NEG;PRS"
+ka,kaee,"V;HAB;PST"
+ka,annka,"V;HAB;NEG;PST"
+ka,bɛkaee,"V;PST+IMMED"
+ka,ammbɛka,"V;NEG;PST+IMMED"
+ka,kɔkaee,"V;PST;LGSPEC1"
+ka,ammkɔka,"V;NEG;PST;LGSPEC1"
+ka,nna reka,"V;HAB+PROG;PST"
+ka,nna rennka,"V;HAB+PROG;NEG;PST"
+ka,nna rebɛka,"V;PROG;PST+IMMED"
+ka,nna remmbɛka,"V;PROG;NEG;PST+IMMED"
+ka,nna rekɔka,"V;PROG;PST;LGSPEC1"
+ka,nna rennkɔka,"V;PROG;NEG;PST;LGSPEC1"
+ka,nna aka,"V;HAB+PRF;PST"
+ka,nna nnkaee,"V;HAB+PRF;NEG;PST"
+ka,nna abɛka,"V;PRF;PST+IMMED"
+ka,nna mmbɛkaee,"V;PRF;NEG;PST+IMMED"
+ka,nna akɔka,"V;PRF;PST;LGSPEC1"
+ka,nna nnkɔkaee,"V;PRF;NEG;PST;LGSPEC1"
+ka,bɛka,"V;HAB;FUT"
+ka,rennka,"V;HAB;NEG;FUT"
+dum,dum,"V;NFIN"
+dum,dum,"V;HAB;PRS"
+dum,nndum,"V;HAB;NEG;PRS"
+dum,kɔdum,"V;PRS;LGSPEC1"
+dum,nnkɔdum,"V;NEG;PRS;LGSPEC1"
+dum,redum,"V;HAB+PROG;PRS"
+dum,renndum,"V;HAB+PROG;NEG;PRS"
+dum,rebɛdum,"V;PROG;PRS+IMMED"
+dum,remmbɛdum,"V;PROG;NEG;PRS+IMMED"
+dum,rekɔdum,"V;PROG;PRS;LGSPEC1"
+dum,rennkɔdum,"V;PROG;NEG;PRS;LGSPEC1"
+dum,adum,"V;HAB+PRF;PRS"
+dum,nndumee,"V;HAB+PRF;NEG;PRS"
+dum,abɛdum,"V;PRF;PRS+IMMED"
+dum,mmbɛdumee,"V;PRF;NEG;PRS+IMMED"
+dum,akɔdum,"V;PRF;PRS;LGSPEC1"
+dum,nnkɔdumee,"V;PRF;NEG;PRS;LGSPEC1"
+dum,ndum,"V;SBJV;PRS"
+dum,mma nndum,"V;SBJV;NEG;PRS"
+dum,dum,"V;IMP;PRS"
+dum,mma nndum,"V;IMP;NEG;PRS"
+dum,dumee,"V;HAB;PST"
+dum,anndum,"V;HAB;NEG;PST"
+dum,bɛdumee,"V;PST+IMMED"
+dum,ammbɛdum,"V;NEG;PST+IMMED"
+dum,kɔdumee,"V;PST;LGSPEC1"
+dum,ammkɔdum,"V;NEG;PST;LGSPEC1"
+dum,nna redum,"V;HAB+PROG;PST"
+dum,nna renndum,"V;HAB+PROG;NEG;PST"
+dum,nna rebɛdum,"V;PROG;PST+IMMED"
+dum,nna remmbɛdum,"V;PROG;NEG;PST+IMMED"
+dum,nna rekɔdum,"V;PROG;PST;LGSPEC1"
+dum,nna rennkɔdum,"V;PROG;NEG;PST;LGSPEC1"
+dum,nna adum,"V;HAB+PRF;PST"
+dum,nna nndumee,"V;HAB+PRF;NEG;PST"
+dum,nna abɛdum,"V;PRF;PST+IMMED"
+dum,nna mmbɛdumee,"V;PRF;NEG;PST+IMMED"
+dum,nna akɔdum,"V;PRF;PST;LGSPEC1"
+dum,nna nnkɔdumee,"V;PRF;NEG;PST;LGSPEC1"
+dum,bɛdum,"V;HAB;FUT"
+dum,renndum,"V;HAB;NEG;FUT"
+te ase,te ase,"V;NFIN"
+te ase,te ase,"V;HAB;PRS"
+te ase,nnte ase,"V;HAB;NEG;PRS"
+te ase,kɔte ase,"V;PRS;LGSPEC1"
+te ase,nnkɔte ase,"V;NEG;PRS;LGSPEC1"
+te ase,rete ase,"V;HAB+PROG;PRS"
+te ase,rennte ase,"V;HAB+PROG;NEG;PRS"
+te ase,rebɛte ase,"V;PROG;PRS+IMMED"
+te ase,remmbɛte ase,"V;PROG;NEG;PRS+IMMED"
+te ase,rekɔte ase,"V;PROG;PRS;LGSPEC1"
+te ase,rennkɔte ase,"V;PROG;NEG;PRS;LGSPEC1"
+te ase,ate ase,"V;HAB+PRF;PRS"
+te ase,nnte asee,"V;HAB+PRF;NEG;PRS"
+te ase,abɛte ase,"V;PRF;PRS+IMMED"
+te ase,mmbɛte asee,"V;PRF;NEG;PRS+IMMED"
+te ase,akɔte ase,"V;PRF;PRS;LGSPEC1"
+te ase,nnkɔte asee,"V;PRF;NEG;PRS;LGSPEC1"
+te ase,nte ase,"V;SBJV;PRS"
+te ase,mma nnte ase,"V;SBJV;NEG;PRS"
+te ase,te ase,"V;IMP;PRS"
+te ase,mma nnte ase,"V;IMP;NEG;PRS"
+te ase,te asee,"V;HAB;PST"
+te ase,annte ase,"V;HAB;NEG;PST"
+te ase,bɛte asee,"V;PST+IMMED"
+te ase,ammbɛte ase,"V;NEG;PST+IMMED"
+te ase,kɔte asee,"V;PST;LGSPEC1"
+te ase,ammkɔte ase,"V;NEG;PST;LGSPEC1"
+te ase,nna rete ase,"V;HAB+PROG;PST"
+te ase,nna rennte ase,"V;HAB+PROG;NEG;PST"
+te ase,nna rebɛte ase,"V;PROG;PST+IMMED"
+te ase,nna remmbɛte ase,"V;PROG;NEG;PST+IMMED"
+te ase,nna rekɔte ase,"V;PROG;PST;LGSPEC1"
+te ase,nna rennkɔte ase,"V;PROG;NEG;PST;LGSPEC1"
+te ase,nna ate ase,"V;HAB+PRF;PST"
+te ase,nna nnte asee,"V;HAB+PRF;NEG;PST"
+te ase,nna abɛte ase,"V;PRF;PST+IMMED"
+te ase,nna mmbɛte asee,"V;PRF;NEG;PST+IMMED"
+te ase,nna akɔte ase,"V;PRF;PST;LGSPEC1"
+te ase,nna nnkɔte asee,"V;PRF;NEG;PST;LGSPEC1"
+te ase,bɛte ase,"V;HAB;FUT"
+te ase,rennte ase,"V;HAB;NEG;FUT"
+gu nsu,gu nsu,"V;NFIN"
+gu nsu,gu nsu,"V;HAB;PRS"
+gu nsu,nngu nsu,"V;HAB;NEG;PRS"
+gu nsu,kɔgu nsu,"V;PRS;LGSPEC1"
+gu nsu,nnkɔgu nsu,"V;NEG;PRS;LGSPEC1"
+gu nsu,regu nsu,"V;HAB+PROG;PRS"
+gu nsu,renngu nsu,"V;HAB+PROG;NEG;PRS"
+gu nsu,rebɛgu nsu,"V;PROG;PRS+IMMED"
+gu nsu,remmbɛgu nsu,"V;PROG;NEG;PRS+IMMED"
+gu nsu,rekɔgu nsu,"V;PROG;PRS;LGSPEC1"
+gu nsu,rennkɔgu nsu,"V;PROG;NEG;PRS;LGSPEC1"
+gu nsu,agu nsu,"V;HAB+PRF;PRS"
+gu nsu,nngu nsuee,"V;HAB+PRF;NEG;PRS"
+gu nsu,abɛgu nsu,"V;PRF;PRS+IMMED"
+gu nsu,mmbɛgu nsuee,"V;PRF;NEG;PRS+IMMED"
+gu nsu,akɔgu nsu,"V;PRF;PRS;LGSPEC1"
+gu nsu,nnkɔgu nsuee,"V;PRF;NEG;PRS;LGSPEC1"
+gu nsu,ngu nsu,"V;SBJV;PRS"
+gu nsu,mma nngu nsu,"V;SBJV;NEG;PRS"
+gu nsu,gu nsu,"V;IMP;PRS"
+gu nsu,mma nngu nsu,"V;IMP;NEG;PRS"
+gu nsu,gu nsuee,"V;HAB;PST"
+gu nsu,anngu nsu,"V;HAB;NEG;PST"
+gu nsu,bɛgu nsuee,"V;PST+IMMED"
+gu nsu,ammbɛgu nsu,"V;NEG;PST+IMMED"
+gu nsu,kɔgu nsuee,"V;PST;LGSPEC1"
+gu nsu,ammkɔgu nsu,"V;NEG;PST;LGSPEC1"
+gu nsu,nna regu nsu,"V;HAB+PROG;PST"
+gu nsu,nna renngu nsu,"V;HAB+PROG;NEG;PST"
+gu nsu,nna rebɛgu nsu,"V;PROG;PST+IMMED"
+gu nsu,nna remmbɛgu nsu,"V;PROG;NEG;PST+IMMED"
+gu nsu,nna rekɔgu nsu,"V;PROG;PST;LGSPEC1"
+gu nsu,nna rennkɔgu nsu,"V;PROG;NEG;PST;LGSPEC1"
+gu nsu,nna agu nsu,"V;HAB+PRF;PST"
+gu nsu,nna nngu nsuee,"V;HAB+PRF;NEG;PST"
+gu nsu,nna abɛgu nsu,"V;PRF;PST+IMMED"
+gu nsu,nna mmbɛgu nsuee,"V;PRF;NEG;PST+IMMED"
+gu nsu,nna akɔgu nsu,"V;PRF;PST;LGSPEC1"
+gu nsu,nna nnkɔgu nsuee,"V;PRF;NEG;PST;LGSPEC1"
+gu nsu,bɛgu nsu,"V;HAB;FUT"
+gu nsu,renngu nsu,"V;HAB;NEG;FUT"
+tweɔn,tweɔn,"V;NFIN"
+tweɔn,tweɔn,"V;HAB;PRS"
+tweɔn,nntweɔn,"V;HAB;NEG;PRS"
+tweɔn,kɔtweɔn,"V;PRS;LGSPEC1"
+tweɔn,nnkɔtweɔn,"V;NEG;PRS;LGSPEC1"
+tweɔn,retweɔn,"V;HAB+PROG;PRS"
+tweɔn,renntweɔn,"V;HAB+PROG;NEG;PRS"
+tweɔn,rebɛtweɔn,"V;PROG;PRS+IMMED"
+tweɔn,remmbɛtweɔn,"V;PROG;NEG;PRS+IMMED"
+tweɔn,rekɔtweɔn,"V;PROG;PRS;LGSPEC1"
+tweɔn,rennkɔtweɔn,"V;PROG;NEG;PRS;LGSPEC1"
+tweɔn,atweɔn,"V;HAB+PRF;PRS"
+tweɔn,nntweɔnee,"V;HAB+PRF;NEG;PRS"
+tweɔn,abɛtweɔn,"V;PRF;PRS+IMMED"
+tweɔn,mmbɛtweɔnee,"V;PRF;NEG;PRS+IMMED"
+tweɔn,akɔtweɔn,"V;PRF;PRS;LGSPEC1"
+tweɔn,nnkɔtweɔnee,"V;PRF;NEG;PRS;LGSPEC1"
+tweɔn,ntweɔn,"V;SBJV;PRS"
+tweɔn,mma nntweɔn,"V;SBJV;NEG;PRS"
+tweɔn,tweɔn,"V;IMP;PRS"
+tweɔn,mma nntweɔn,"V;IMP;NEG;PRS"
+tweɔn,tweɔnee,"V;HAB;PST"
+tweɔn,anntweɔn,"V;HAB;NEG;PST"
+tweɔn,bɛtweɔnee,"V;PST+IMMED"
+tweɔn,ammbɛtweɔn,"V;NEG;PST+IMMED"
+tweɔn,kɔtweɔnee,"V;PST;LGSPEC1"
+tweɔn,ammkɔtweɔn,"V;NEG;PST;LGSPEC1"
+tweɔn,nna retweɔn,"V;HAB+PROG;PST"
+tweɔn,nna renntweɔn,"V;HAB+PROG;NEG;PST"
+tweɔn,nna rebɛtweɔn,"V;PROG;PST+IMMED"
+tweɔn,nna remmbɛtweɔn,"V;PROG;NEG;PST+IMMED"
+tweɔn,nna rekɔtweɔn,"V;PROG;PST;LGSPEC1"
+tweɔn,nna rennkɔtweɔn,"V;PROG;NEG;PST;LGSPEC1"
+tweɔn,nna atweɔn,"V;HAB+PRF;PST"
+tweɔn,nna nntweɔnee,"V;HAB+PRF;NEG;PST"
+tweɔn,nna abɛtweɔn,"V;PRF;PST+IMMED"
+tweɔn,nna mmbɛtweɔnee,"V;PRF;NEG;PST+IMMED"
+tweɔn,nna akɔtweɔn,"V;PRF;PST;LGSPEC1"
+tweɔn,nna nnkɔtweɔnee,"V;PRF;NEG;PST;LGSPEC1"
+tweɔn,bɛtweɔn,"V;HAB;FUT"
+tweɔn,renntweɔn,"V;HAB;NEG;FUT"
+nantew,nantew,"V;NFIN"
+nantew,nantew,"V;HAB;PRS"
+nantew,nnnantew,"V;HAB;NEG;PRS"
+nantew,kɔnantew,"V;PRS;LGSPEC1"
+nantew,nnkɔnantew,"V;NEG;PRS;LGSPEC1"
+nantew,renantew,"V;HAB+PROG;PRS"
+nantew,rennnantew,"V;HAB+PROG;NEG;PRS"
+nantew,rebɛnantew,"V;PROG;PRS+IMMED"
+nantew,remmbɛnantew,"V;PROG;NEG;PRS+IMMED"
+nantew,rekɔnantew,"V;PROG;PRS;LGSPEC1"
+nantew,rennkɔnantew,"V;PROG;NEG;PRS;LGSPEC1"
+nantew,anantew,"V;HAB+PRF;PRS"
+nantew,nnnantewee,"V;HAB+PRF;NEG;PRS"
+nantew,abɛnantew,"V;PRF;PRS+IMMED"
+nantew,mmbɛnantewee,"V;PRF;NEG;PRS+IMMED"
+nantew,akɔnantew,"V;PRF;PRS;LGSPEC1"
+nantew,nnkɔnantewee,"V;PRF;NEG;PRS;LGSPEC1"
+nantew,nnantew,"V;SBJV;PRS"
+nantew,mma nnnantew,"V;SBJV;NEG;PRS"
+nantew,nantew,"V;IMP;PRS"
+nantew,mma nnnantew,"V;IMP;NEG;PRS"
+nantew,nantewee,"V;HAB;PST"
+nantew,annnantew,"V;HAB;NEG;PST"
+nantew,bɛnantewee,"V;PST+IMMED"
+nantew,ammbɛnantew,"V;NEG;PST+IMMED"
+nantew,kɔnantewee,"V;PST;LGSPEC1"
+nantew,ammkɔnantew,"V;NEG;PST;LGSPEC1"
+nantew,nna renantew,"V;HAB+PROG;PST"
+nantew,nna rennnantew,"V;HAB+PROG;NEG;PST"
+nantew,nna rebɛnantew,"V;PROG;PST+IMMED"
+nantew,nna remmbɛnantew,"V;PROG;NEG;PST+IMMED"
+nantew,nna rekɔnantew,"V;PROG;PST;LGSPEC1"
+nantew,nna rennkɔnantew,"V;PROG;NEG;PST;LGSPEC1"
+nantew,nna anantew,"V;HAB+PRF;PST"
+nantew,nna nnnantewee,"V;HAB+PRF;NEG;PST"
+nantew,nna abɛnantew,"V;PRF;PST+IMMED"
+nantew,nna mmbɛnantewee,"V;PRF;NEG;PST+IMMED"
+nantew,nna akɔnantew,"V;PRF;PST;LGSPEC1"
+nantew,nna nnkɔnantewee,"V;PRF;NEG;PST;LGSPEC1"
+nantew,bɛnantew,"V;HAB;FUT"
+nantew,rennnantew,"V;HAB;NEG;FUT"
+pɛ,pɛ,"V;NFIN"
+pɛ,pɛ,"V;HAB;PRS"
+pɛ,mmpɛ,"V;HAB;NEG;PRS"
+pɛ,kɔpɛ,"V;PRS;LGSPEC1"
+pɛ,nnkɔpɛ,"V;NEG;PRS;LGSPEC1"
+pɛ,repɛ,"V;HAB+PROG;PRS"
+pɛ,remmpɛ,"V;HAB+PROG;NEG;PRS"
+pɛ,rebɛpɛ,"V;PROG;PRS+IMMED"
+pɛ,remmbɛpɛ,"V;PROG;NEG;PRS+IMMED"
+pɛ,rekɔpɛ,"V;PROG;PRS;LGSPEC1"
+pɛ,rennkɔpɛ,"V;PROG;NEG;PRS;LGSPEC1"
+pɛ,apɛ,"V;HAB+PRF;PRS"
+pɛ,mmpɛee,"V;HAB+PRF;NEG;PRS"
+pɛ,abɛpɛ,"V;PRF;PRS+IMMED"
+pɛ,mmbɛpɛee,"V;PRF;NEG;PRS+IMMED"
+pɛ,akɔpɛ,"V;PRF;PRS;LGSPEC1"
+pɛ,nnkɔpɛee,"V;PRF;NEG;PRS;LGSPEC1"
+pɛ,mpɛ,"V;SBJV;PRS"
+pɛ,mma mmpɛ,"V;SBJV;NEG;PRS"
+pɛ,pɛ,"V;IMP;PRS"
+pɛ,mma mmpɛ,"V;IMP;NEG;PRS"
+pɛ,pɛee,"V;HAB;PST"
+pɛ,ammpɛ,"V;HAB;NEG;PST"
+pɛ,bɛpɛee,"V;PST+IMMED"
+pɛ,ammbɛpɛ,"V;NEG;PST+IMMED"
+pɛ,kɔpɛee,"V;PST;LGSPEC1"
+pɛ,ammkɔpɛ,"V;NEG;PST;LGSPEC1"
+pɛ,nna repɛ,"V;HAB+PROG;PST"
+pɛ,nna remmpɛ,"V;HAB+PROG;NEG;PST"
+pɛ,nna rebɛpɛ,"V;PROG;PST+IMMED"
+pɛ,nna remmbɛpɛ,"V;PROG;NEG;PST+IMMED"
+pɛ,nna rekɔpɛ,"V;PROG;PST;LGSPEC1"
+pɛ,nna rennkɔpɛ,"V;PROG;NEG;PST;LGSPEC1"
+pɛ,nna apɛ,"V;HAB+PRF;PST"
+pɛ,nna mmpɛee,"V;HAB+PRF;NEG;PST"
+pɛ,nna abɛpɛ,"V;PRF;PST+IMMED"
+pɛ,nna mmbɛpɛee,"V;PRF;NEG;PST+IMMED"
+pɛ,nna akɔpɛ,"V;PRF;PST;LGSPEC1"
+pɛ,nna nnkɔpɛee,"V;PRF;NEG;PST;LGSPEC1"
+pɛ,bɛpɛ,"V;HAB;FUT"
+pɛ,remmpɛ,"V;HAB;NEG;FUT"
+hohoro,hohoro,"V;NFIN"
+hohoro,hohoro,"V;HAB;PRS"
+hohoro,nnhohoro,"V;HAB;NEG;PRS"
+hohoro,kɔhohoro,"V;PRS;LGSPEC1"
+hohoro,nnkɔhohoro,"V;NEG;PRS;LGSPEC1"
+hohoro,rehohoro,"V;HAB+PROG;PRS"
+hohoro,rennhohoro,"V;HAB+PROG;NEG;PRS"
+hohoro,rebɛhohoro,"V;PROG;PRS+IMMED"
+hohoro,remmbɛhohoro,"V;PROG;NEG;PRS+IMMED"
+hohoro,rekɔhohoro,"V;PROG;PRS;LGSPEC1"
+hohoro,rennkɔhohoro,"V;PROG;NEG;PRS;LGSPEC1"
+hohoro,ahohoro,"V;HAB+PRF;PRS"
+hohoro,nnhohoroee,"V;HAB+PRF;NEG;PRS"
+hohoro,abɛhohoro,"V;PRF;PRS+IMMED"
+hohoro,mmbɛhohoroee,"V;PRF;NEG;PRS+IMMED"
+hohoro,akɔhohoro,"V;PRF;PRS;LGSPEC1"
+hohoro,nnkɔhohoroee,"V;PRF;NEG;PRS;LGSPEC1"
+hohoro,nhohoro,"V;SBJV;PRS"
+hohoro,mma nnhohoro,"V;SBJV;NEG;PRS"
+hohoro,hohoro,"V;IMP;PRS"
+hohoro,mma nnhohoro,"V;IMP;NEG;PRS"
+hohoro,hohoroee,"V;HAB;PST"
+hohoro,annhohoro,"V;HAB;NEG;PST"
+hohoro,bɛhohoroee,"V;PST+IMMED"
+hohoro,ammbɛhohoro,"V;NEG;PST+IMMED"
+hohoro,kɔhohoroee,"V;PST;LGSPEC1"
+hohoro,ammkɔhohoro,"V;NEG;PST;LGSPEC1"
+hohoro,nna rehohoro,"V;HAB+PROG;PST"
+hohoro,nna rennhohoro,"V;HAB+PROG;NEG;PST"
+hohoro,nna rebɛhohoro,"V;PROG;PST+IMMED"
+hohoro,nna remmbɛhohoro,"V;PROG;NEG;PST+IMMED"
+hohoro,nna rekɔhohoro,"V;PROG;PST;LGSPEC1"
+hohoro,nna rennkɔhohoro,"V;PROG;NEG;PST;LGSPEC1"
+hohoro,nna ahohoro,"V;HAB+PRF;PST"
+hohoro,nna nnhohoroee,"V;HAB+PRF;NEG;PST"
+hohoro,nna abɛhohoro,"V;PRF;PST+IMMED"
+hohoro,nna mmbɛhohoroee,"V;PRF;NEG;PST+IMMED"
+hohoro,nna akɔhohoro,"V;PRF;PST;LGSPEC1"
+hohoro,nna nnkɔhohoroee,"V;PRF;NEG;PST;LGSPEC1"
+hohoro,bɛhohoro,"V;HAB;FUT"
+hohoro,rennhohoro,"V;HAB;NEG;FUT"
+hwɛ,hwɛ,"V;NFIN"
+hwɛ,hwɛ,"V;HAB;PRS"
+hwɛ,nnhwɛ,"V;HAB;NEG;PRS"
+hwɛ,kɔhwɛ,"V;PRS;LGSPEC1"
+hwɛ,nnkɔhwɛ,"V;NEG;PRS;LGSPEC1"
+hwɛ,rehwɛ,"V;HAB+PROG;PRS"
+hwɛ,rennhwɛ,"V;HAB+PROG;NEG;PRS"
+hwɛ,rebɛhwɛ,"V;PROG;PRS+IMMED"
+hwɛ,remmbɛhwɛ,"V;PROG;NEG;PRS+IMMED"
+hwɛ,rekɔhwɛ,"V;PROG;PRS;LGSPEC1"
+hwɛ,rennkɔhwɛ,"V;PROG;NEG;PRS;LGSPEC1"
+hwɛ,ahwɛ,"V;HAB+PRF;PRS"
+hwɛ,nnhwɛee,"V;HAB+PRF;NEG;PRS"
+hwɛ,abɛhwɛ,"V;PRF;PRS+IMMED"
+hwɛ,mmbɛhwɛee,"V;PRF;NEG;PRS+IMMED"
+hwɛ,akɔhwɛ,"V;PRF;PRS;LGSPEC1"
+hwɛ,nnkɔhwɛee,"V;PRF;NEG;PRS;LGSPEC1"
+hwɛ,nhwɛ,"V;SBJV;PRS"
+hwɛ,mma nnhwɛ,"V;SBJV;NEG;PRS"
+hwɛ,hwɛ,"V;IMP;PRS"
+hwɛ,mma nnhwɛ,"V;IMP;NEG;PRS"
+hwɛ,hwɛee,"V;HAB;PST"
+hwɛ,annhwɛ,"V;HAB;NEG;PST"
+hwɛ,bɛhwɛee,"V;PST+IMMED"
+hwɛ,ammbɛhwɛ,"V;NEG;PST+IMMED"
+hwɛ,kɔhwɛee,"V;PST;LGSPEC1"
+hwɛ,ammkɔhwɛ,"V;NEG;PST;LGSPEC1"
+hwɛ,nna rehwɛ,"V;HAB+PROG;PST"
+hwɛ,nna rennhwɛ,"V;HAB+PROG;NEG;PST"
+hwɛ,nna rebɛhwɛ,"V;PROG;PST+IMMED"
+hwɛ,nna remmbɛhwɛ,"V;PROG;NEG;PST+IMMED"
+hwɛ,nna rekɔhwɛ,"V;PROG;PST;LGSPEC1"
+hwɛ,nna rennkɔhwɛ,"V;PROG;NEG;PST;LGSPEC1"
+hwɛ,nna ahwɛ,"V;HAB+PRF;PST"
+hwɛ,nna nnhwɛee,"V;HAB+PRF;NEG;PST"
+hwɛ,nna abɛhwɛ,"V;PRF;PST+IMMED"
+hwɛ,nna mmbɛhwɛee,"V;PRF;NEG;PST+IMMED"
+hwɛ,nna akɔhwɛ,"V;PRF;PST;LGSPEC1"
+hwɛ,nna nnkɔhwɛee,"V;PRF;NEG;PST;LGSPEC1"
+hwɛ,bɛhwɛ,"V;HAB;FUT"
+hwɛ,rennhwɛ,"V;HAB;NEG;FUT"
+di nkonim,di nkonim,"V;NFIN"
+di nkonim,di nkonim,"V;HAB;PRS"
+di nkonim,nndi nkonim,"V;HAB;NEG;PRS"
+di nkonim,kɔdi nkonim,"V;PRS;LGSPEC1"
+di nkonim,nnkɔdi nkonim,"V;NEG;PRS;LGSPEC1"
+di nkonim,redi nkonim,"V;HAB+PROG;PRS"
+di nkonim,renndi nkonim,"V;HAB+PROG;NEG;PRS"
+di nkonim,rebɛdi nkonim,"V;PROG;PRS+IMMED"
+di nkonim,remmbɛdi nkonim,"V;PROG;NEG;PRS+IMMED"
+di nkonim,rekɔdi nkonim,"V;PROG;PRS;LGSPEC1"
+di nkonim,rennkɔdi nkonim,"V;PROG;NEG;PRS;LGSPEC1"
+di nkonim,adi nkonim,"V;HAB+PRF;PRS"
+di nkonim,nndi nkonimee,"V;HAB+PRF;NEG;PRS"
+di nkonim,abɛdi nkonim,"V;PRF;PRS+IMMED"
+di nkonim,mmbɛdi nkonimee,"V;PRF;NEG;PRS+IMMED"
+di nkonim,akɔdi nkonim,"V;PRF;PRS;LGSPEC1"
+di nkonim,nnkɔdi nkonimee,"V;PRF;NEG;PRS;LGSPEC1"
+di nkonim,ndi nkonim,"V;SBJV;PRS"
+di nkonim,mma nndi nkonim,"V;SBJV;NEG;PRS"
+di nkonim,di nkonim,"V;IMP;PRS"
+di nkonim,mma nndi nkonim,"V;IMP;NEG;PRS"
+di nkonim,di nkonimee,"V;HAB;PST"
+di nkonim,anndi nkonim,"V;HAB;NEG;PST"
+di nkonim,bɛdi nkonimee,"V;PST+IMMED"
+di nkonim,ammbɛdi nkonim,"V;NEG;PST+IMMED"
+di nkonim,kɔdi nkonimee,"V;PST;LGSPEC1"
+di nkonim,ammkɔdi nkonim,"V;NEG;PST;LGSPEC1"
+di nkonim,nna redi nkonim,"V;HAB+PROG;PST"
+di nkonim,nna renndi nkonim,"V;HAB+PROG;NEG;PST"
+di nkonim,nna rebɛdi nkonim,"V;PROG;PST+IMMED"
+di nkonim,nna remmbɛdi nkonim,"V;PROG;NEG;PST+IMMED"
+di nkonim,nna rekɔdi nkonim,"V;PROG;PST;LGSPEC1"
+di nkonim,nna rennkɔdi nkonim,"V;PROG;NEG;PST;LGSPEC1"
+di nkonim,nna adi nkonim,"V;HAB+PRF;PST"
+di nkonim,nna nndi nkonimee,"V;HAB+PRF;NEG;PST"
+di nkonim,nna abɛdi nkonim,"V;PRF;PST+IMMED"
+di nkonim,nna mmbɛdi nkonimee,"V;PRF;NEG;PST+IMMED"
+di nkonim,nna akɔdi nkonim,"V;PRF;PST;LGSPEC1"
+di nkonim,nna nnkɔdi nkonimee,"V;PRF;NEG;PST;LGSPEC1"
+di nkonim,bɛdi nkonim,"V;HAB;FUT"
+di nkonim,renndi nkonim,"V;HAB;NEG;FUT"
+pepa,pepa,"V;NFIN"
+pepa,pepa,"V;HAB;PRS"
+pepa,mmpepa,"V;HAB;NEG;PRS"
+pepa,kɔpepa,"V;PRS;LGSPEC1"
+pepa,nnkɔpepa,"V;NEG;PRS;LGSPEC1"
+pepa,repepa,"V;HAB+PROG;PRS"
+pepa,remmpepa,"V;HAB+PROG;NEG;PRS"
+pepa,rebɛpepa,"V;PROG;PRS+IMMED"
+pepa,remmbɛpepa,"V;PROG;NEG;PRS+IMMED"
+pepa,rekɔpepa,"V;PROG;PRS;LGSPEC1"
+pepa,rennkɔpepa,"V;PROG;NEG;PRS;LGSPEC1"
+pepa,apepa,"V;HAB+PRF;PRS"
+pepa,mmpepaee,"V;HAB+PRF;NEG;PRS"
+pepa,abɛpepa,"V;PRF;PRS+IMMED"
+pepa,mmbɛpepaee,"V;PRF;NEG;PRS+IMMED"
+pepa,akɔpepa,"V;PRF;PRS;LGSPEC1"
+pepa,nnkɔpepaee,"V;PRF;NEG;PRS;LGSPEC1"
+pepa,mpepa,"V;SBJV;PRS"
+pepa,mma mmpepa,"V;SBJV;NEG;PRS"
+pepa,pepa,"V;IMP;PRS"
+pepa,mma mmpepa,"V;IMP;NEG;PRS"
+pepa,pepaee,"V;HAB;PST"
+pepa,ammpepa,"V;HAB;NEG;PST"
+pepa,bɛpepaee,"V;PST+IMMED"
+pepa,ammbɛpepa,"V;NEG;PST+IMMED"
+pepa,kɔpepaee,"V;PST;LGSPEC1"
+pepa,ammkɔpepa,"V;NEG;PST;LGSPEC1"
+pepa,nna repepa,"V;HAB+PROG;PST"
+pepa,nna remmpepa,"V;HAB+PROG;NEG;PST"
+pepa,nna rebɛpepa,"V;PROG;PST+IMMED"
+pepa,nna remmbɛpepa,"V;PROG;NEG;PST+IMMED"
+pepa,nna rekɔpepa,"V;PROG;PST;LGSPEC1"
+pepa,nna rennkɔpepa,"V;PROG;NEG;PST;LGSPEC1"
+pepa,nna apepa,"V;HAB+PRF;PST"
+pepa,nna mmpepaee,"V;HAB+PRF;NEG;PST"
+pepa,nna abɛpepa,"V;PRF;PST+IMMED"
+pepa,nna mmbɛpepaee,"V;PRF;NEG;PST+IMMED"
+pepa,nna akɔpepa,"V;PRF;PST;LGSPEC1"
+pepa,nna nnkɔpepaee,"V;PRF;NEG;PST;LGSPEC1"
+pepa,bɛpepa,"V;HAB;FUT"
+pepa,remmpepa,"V;HAB;NEG;FUT"
+yɛ adwuma,yɛ adwuma,"V;NFIN"
+yɛ adwuma,yɛ adwuma,"V;HAB;PRS"
+yɛ adwuma,nnyɛ adwuma,"V;HAB;NEG;PRS"
+yɛ adwuma,kɔyɛ adwuma,"V;PRS;LGSPEC1"
+yɛ adwuma,nnkɔyɛ adwuma,"V;NEG;PRS;LGSPEC1"
+yɛ adwuma,reyɛ adwuma,"V;HAB+PROG;PRS"
+yɛ adwuma,rennyɛ adwuma,"V;HAB+PROG;NEG;PRS"
+yɛ adwuma,rebɛyɛ adwuma,"V;PROG;PRS+IMMED"
+yɛ adwuma,remmbɛyɛ adwuma,"V;PROG;NEG;PRS+IMMED"
+yɛ adwuma,rekɔyɛ adwuma,"V;PROG;PRS;LGSPEC1"
+yɛ adwuma,rennkɔyɛ adwuma,"V;PROG;NEG;PRS;LGSPEC1"
+yɛ adwuma,ayɛ adwuma,"V;HAB+PRF;PRS"
+yɛ adwuma,nnyɛ adwumaee,"V;HAB+PRF;NEG;PRS"
+yɛ adwuma,abɛyɛ adwuma,"V;PRF;PRS+IMMED"
+yɛ adwuma,mmbɛyɛ adwumaee,"V;PRF;NEG;PRS+IMMED"
+yɛ adwuma,akɔyɛ adwuma,"V;PRF;PRS;LGSPEC1"
+yɛ adwuma,nnkɔyɛ adwumaee,"V;PRF;NEG;PRS;LGSPEC1"
+yɛ adwuma,nyɛ adwuma,"V;SBJV;PRS"
+yɛ adwuma,mma nnyɛ adwuma,"V;SBJV;NEG;PRS"
+yɛ adwuma,yɛ adwuma,"V;IMP;PRS"
+yɛ adwuma,mma nnyɛ adwuma,"V;IMP;NEG;PRS"
+yɛ adwuma,yɛ adwumaee,"V;HAB;PST"
+yɛ adwuma,annyɛ adwuma,"V;HAB;NEG;PST"
+yɛ adwuma,bɛyɛ adwumaee,"V;PST+IMMED"
+yɛ adwuma,ammbɛyɛ adwuma,"V;NEG;PST+IMMED"
+yɛ adwuma,kɔyɛ adwumaee,"V;PST;LGSPEC1"
+yɛ adwuma,ammkɔyɛ adwuma,"V;NEG;PST;LGSPEC1"
+yɛ adwuma,nna reyɛ adwuma,"V;HAB+PROG;PST"
+yɛ adwuma,nna rennyɛ adwuma,"V;HAB+PROG;NEG;PST"
+yɛ adwuma,nna rebɛyɛ adwuma,"V;PROG;PST+IMMED"
+yɛ adwuma,nna remmbɛyɛ adwuma,"V;PROG;NEG;PST+IMMED"
+yɛ adwuma,nna rekɔyɛ adwuma,"V;PROG;PST;LGSPEC1"
+yɛ adwuma,nna rennkɔyɛ adwuma,"V;PROG;NEG;PST;LGSPEC1"
+yɛ adwuma,nna ayɛ adwuma,"V;HAB+PRF;PST"
+yɛ adwuma,nna nnyɛ adwumaee,"V;HAB+PRF;NEG;PST"
+yɛ adwuma,nna abɛyɛ adwuma,"V;PRF;PST+IMMED"
+yɛ adwuma,nna mmbɛyɛ adwumaee,"V;PRF;NEG;PST+IMMED"
+yɛ adwuma,nna akɔyɛ adwuma,"V;PRF;PST;LGSPEC1"
+yɛ adwuma,nna nnkɔyɛ adwumaee,"V;PRF;NEG;PST;LGSPEC1"
+yɛ adwuma,bɛyɛ adwuma,"V;HAB;FUT"
+yɛ adwuma,rennyɛ adwuma,"V;HAB;NEG;FUT"
+kyereɛw,kyereɛw,"V;NFIN"
+kyereɛw,kyereɛw,"V;HAB;PRS"
+kyereɛw,nnkyereɛw,"V;HAB;NEG;PRS"
+kyereɛw,kɔkyereɛw,"V;PRS;LGSPEC1"
+kyereɛw,nnkɔkyereɛw,"V;NEG;PRS;LGSPEC1"
+kyereɛw,rekyereɛw,"V;HAB+PROG;PRS"
+kyereɛw,rennkyereɛw,"V;HAB+PROG;NEG;PRS"
+kyereɛw,rebɛkyereɛw,"V;PROG;PRS+IMMED"
+kyereɛw,remmbɛkyereɛw,"V;PROG;NEG;PRS+IMMED"
+kyereɛw,rekɔkyereɛw,"V;PROG;PRS;LGSPEC1"
+kyereɛw,rennkɔkyereɛw,"V;PROG;NEG;PRS;LGSPEC1"
+kyereɛw,akyereɛw,"V;HAB+PRF;PRS"
+kyereɛw,nnkyereɛwee,"V;HAB+PRF;NEG;PRS"
+kyereɛw,abɛkyereɛw,"V;PRF;PRS+IMMED"
+kyereɛw,mmbɛkyereɛwee,"V;PRF;NEG;PRS+IMMED"
+kyereɛw,akɔkyereɛw,"V;PRF;PRS;LGSPEC1"
+kyereɛw,nnkɔkyereɛwee,"V;PRF;NEG;PRS;LGSPEC1"
+kyereɛw,nkyereɛw,"V;SBJV;PRS"
+kyereɛw,mma nnkyereɛw,"V;SBJV;NEG;PRS"
+kyereɛw,kyereɛw,"V;IMP;PRS"
+kyereɛw,mma nnkyereɛw,"V;IMP;NEG;PRS"
+kyereɛw,kyereɛwee,"V;HAB;PST"
+kyereɛw,annkyereɛw,"V;HAB;NEG;PST"
+kyereɛw,bɛkyereɛwee,"V;PST+IMMED"
+kyereɛw,ammbɛkyereɛw,"V;NEG;PST+IMMED"
+kyereɛw,kɔkyereɛwee,"V;PST;LGSPEC1"
+kyereɛw,ammkɔkyereɛw,"V;NEG;PST;LGSPEC1"
+kyereɛw,nna rekyereɛw,"V;HAB+PROG;PST"
+kyereɛw,nna rennkyereɛw,"V;HAB+PROG;NEG;PST"
+kyereɛw,nna rebɛkyereɛw,"V;PROG;PST+IMMED"
+kyereɛw,nna remmbɛkyereɛw,"V;PROG;NEG;PST+IMMED"
+kyereɛw,nna rekɔkyereɛw,"V;PROG;PST;LGSPEC1"
+kyereɛw,nna rennkɔkyereɛw,"V;PROG;NEG;PST;LGSPEC1"
+kyereɛw,nna akyereɛw,"V;HAB+PRF;PST"
+kyereɛw,nna nnkyereɛwee,"V;HAB+PRF;NEG;PST"
+kyereɛw,nna abɛkyereɛw,"V;PRF;PST+IMMED"
+kyereɛw,nna mmbɛkyereɛwee,"V;PRF;NEG;PST+IMMED"
+kyereɛw,nna akɔkyereɛw,"V;PRF;PST;LGSPEC1"
+kyereɛw,nna nnkɔkyereɛwee,"V;PRF;NEG;PST;LGSPEC1"
+kyereɛw,bɛkyereɛw,"V;HAB;FUT"
+kyereɛw,rennkyereɛw,V;HAB;NEG;FUT

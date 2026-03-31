@@ -1,0 +1,134 @@
+lemma,form,paradigm_slot
+abair,ag ràdh,V;V.PTCP;PRS
+abair,theireadh,V;COND;ACT
+abair,theirear,V;FUT;PASS
+abair,theirteadh,V;COND;PASS
+abair,their,V;FUT;ACT
+abair,thuirteadh,V;PST;PASS
+abair,thuirt,V;PST;ACT
+beir,a' breith,V;V.PTCP;PRS
+beir,beirear,V;FUT;PASS
+beir,beiridh,V;FUT;ACT
+beir,bheireadh,V;COND;ACT
+beir,bheirteadh,V;COND;PASS
+beir,rugadh,V;PST;PASS
+beir,rug,V;PST;ACT
+caidil,a' cadal,V;V.PTCP;PRS
+caidil,caidilear,V;FUT;PASS
+caidil,caidilidh,V;FUT;ACT
+caidil,chaidileadhnote,V;COND;ACT
+caidil,chaidileadh,V;PST;PASS
+caidil,chaidilteadh,V;COND;PASS
+caidil,chaidil,V;PST;ACT
+crùb,a' crùbadh,V;V.PTCP;PRS
+crùb,chrùbadh,V;COND;ACT
+crùb,chrùbadh,V;PST;PASS
+crùb,chrùb,V;PST;ACT
+crùb,crùbaidh,V;FUT;ACT
+crùb,crùbar,V;FUT;PASS
+crùb,crùbtadh,V;COND;PASS
+dòth,a' dòthadh,V;V.PTCP;PRS
+dòth,dhòthadh,V;COND;ACT
+dòth,dhòthadh,V;PST;PASS
+dòth,dhòthtadh,V;COND;PASS
+dòth,dhòth,V;PST;ACT
+dòth,dòthaidh,V;FUT;ACT
+dòth,dòthar,V;FUT;PASS
+faigh,a' faighinn,V;V.PTCP;PRS
+faigh,fhuair,V;PST;ACT
+faigh,fhuaras,V;PST;PASS
+faigh,gheibhadh,V;COND;ACT
+faigh,gheibhear,V;FUT;PASS
+faigh,gheibhteadh,V;COND;PASS
+faigh,gheibh,V;FUT;ACT
+glac,a' glacadh,V;V.PTCP;PRS
+glac,ghlacadh,V;COND;ACT
+glac,ghlacadh,V;PST;PASS
+glac,ghlactadh,V;COND;PASS
+glac,ghlac,V;PST;ACT
+glac,glacaidh,V;FUT;ACT
+glac,glacar,V;FUT;PASS
+ioma-ghlac,ag ioma-ghlacadh,V;V.PTCP;PRS
+ioma-ghlac,dh'ioma-ghlacadh,V;COND;ACT
+ioma-ghlac,dh'ioma-ghlacadh,V;PST;PASS
+ioma-ghlac,dh'ioma-ghlactadh,V;COND;PASS
+ioma-ghlac,dh'ioma-ghlac,V;PST;ACT
+ioma-ghlac,ioma-ghlacaidh,V;FUT;ACT
+ioma-ghlac,ioma-ghlacar,V;FUT;PASS
+ligh,a' lì,V;V.PTCP;PRS
+ligh,ligheadh,V;COND;ACT
+ligh,ligheadh,V;PST;PASS
+ligh,lighear,V;FUT;PASS
+ligh,lighidh,V;FUT;ACT
+ligh,lighteadh,V;COND;PASS
+ligh,ligh,V;PST;ACT
+rèitich,a' rèiteachadh,V;V.PTCP;PRS
+rèitich,rèiticheadh,V;COND;ACT
+rèitich,rèiticheadh,V;PST;PASS
+rèitich,rèitichear,V;FUT;PASS
+rèitich,rèitichidh,V;FUT;ACT
+rèitich,rèitichteadh,V;COND;PASS
+rèitich,rèitich,V;PST;ACT
+ruig,a' ruigsinn,V;V.PTCP;PRS
+ruig,ràinig,V;PST;ACT
+ruig,ruigeadh,V;COND;ACT
+ruig,ruigeadh,V;PST;PASS
+ruig,ruigear,V;FUT;PASS
+ruig,ruigidh,V;FUT;ACT
+ruig,ruigteadh,V;COND;PASS
+searg,a' seargadh,V;V.PTCP;PRS
+searg,seargaidh,V;FUT;ACT
+searg,seargar,V;FUT;PASS
+searg,sheargadh,V;COND;ACT
+searg,sheargadh,V;PST;PASS
+searg,sheargtadh,V;COND;PASS
+searg,shearg,V;PST;ACT
+seòl,a' seòladh,V;V.PTCP;PRS
+seòl,seòlaidh,V;FUT;ACT
+seòl,seòlar,V;FUT;PASS
+seòl,sheòladh,V;COND;ACT
+seòl,sheòladh,V;PST;PASS
+seòl,sheòltadh,V;COND;PASS
+seòl,sheòl,V;PST;ACT
+stad,a' stadadh,V;V.PTCP;PRS
+stad,stadadh,V;COND;ACT
+stad,stadadh,V;PST;PASS
+stad,stadaidh,V;FUT;ACT
+stad,stadar,V;FUT;PASS
+stad,stadtadh,V;COND;PASS
+stad,stad,V;PST;ACT
+stiùir,a' stiùireadh,V;V.PTCP;PRS
+stiùir,stiùireadh,V;COND;ACT
+stiùir,stiùireadh,V;PST;PASS
+stiùir,stiùirear,V;FUT;PASS
+stiùir,stiùiridh,V;FUT;ACT
+stiùir,stiùirteadh,V;COND;PASS
+stiùir,stiùir,V;PST;ACT
+sùgh,a' sùghadh,V;V.PTCP;PRS
+sùgh,shùghadh,V;COND;ACT
+sùgh,shùghadh,V;PST;PASS
+sùgh,shùghteadh,V;COND;PASS
+sùgh,shùgh,V;PST;ACT
+sùgh,sùghaidh,V;FUT;ACT
+sùgh,sùghar,V;FUT;PASS
+suidh,a' suidhe,V;V.PTCP;PRS
+suidh,shuidheadh,V;COND;ACT
+suidh,shuidheadh,V;PST;PASS
+suidh,shuidhteadh,V;COND;PASS
+suidh,shuidh,V;PST;ACT
+suidh,suidhear,V;FUT;PASS
+suidh,suidhidh,V;FUT;ACT
+toilich,a' toileachadh,V;V.PTCP;PRS
+toilich,thoilicheadh,V;COND;ACT
+toilich,thoilicheadh,V;PST;PASS
+toilich,thoilichteadh,V;COND;PASS
+toilich,thoilich,V;PST;ACT
+toilich,toilichear,V;FUT;PASS
+toilich,toilichidh,V;FUT;ACT
+tòisich,a' tòiseachadh,V;V.PTCP;PRS
+tòisich,thòisicheadh,V;COND;ACT
+tòisich,thòisicheadh,V;PST;PASS
+tòisich,thòisichteadh,V;COND;PASS
+tòisich,thòisich,V;PST;ACT
+tòisich,tòisichear,V;FUT;PASS
+tòisich,tòisichidh,V;FUT;ACT
