@@ -1,0 +1,998 @@
+lemma,form,paradigm_slot,phonemic_form
+gēven,gēvest,V;IND;SG;2;PRS,ɣ eː v ə s t
+gēven,gifst,V;IND;SG;2;PRS,ɣ ɪ f s t
+gēven,gâven,V;IND;PL;PST,ɣ ɑː v ə n
+gēven,gêven,V;IND;PL;PST,ɣ eː v ə n
+gēven,gêvest,V;SBJV;SG;2;PST,ɣ eː v ə s t
+gēven,gēvet,V;SBJV;SG;3;PRS,ɣ eː v ə t
+gēven,gêve,V;SBJV;SG;3;PST,ɣ eː v ə
+gēven,gēve,V;IND;SG;1;PRS,ɣ eː v ə
+gēven,gēven,V;IND;PL;PRS,ɣ eː v ə n
+gēven,tô gēvene,V;NFIN,t oː ɣ eː v ə n ə
+gēven,tô gēvende,V;NFIN,t oː ɣ eː v ə n d ə
+gēven,gêven,V;SBJV;PL;PST,ɣ eː v ə n
+gēven,gaf,V;IND;SG;1;PST,ɣ a f
+gēven,gēvest,V;SBJV;SG;2;PRS,ɣ eː v ə s t
+gēven,gēvet,V;IND;SG;3;PRS,ɣ eː v ə t
+gēven,gift,V;IND;SG;3;PRS,ɣ ɪ f t
+gēven,gēvet,V;IMP;PL;2,ɣ eː v ə t
+gēven,gēven,V;NFIN,ɣ eː v ə n
+gēven,gēve,V;SBJV;SG;1;PRS,ɣ eː v ə
+gēven,gâvest,V;IND;SG;2;PST,ɣ ɑː v ə s t
+gēven,gêvest,V;IND;SG;2;PST,ɣ eː v ə s t
+gēven,gēven,V;SBJV;PL;PRS,ɣ eː v ə n
+gēven,gif,V;IMP;SG;2,ɣ ɪ f
+gēven,gêve,V;SBJV;SG;1;PST,ɣ eː v ə
+gēven,gaf,V;IND;SG;3;PST,ɣ a f
+afwâschen,wâschen,V;IND;PL;PRS,w ɑː s x ə n
+afwâschen,wâsche af,V;IND;SG;1;PRS,v ɑː s k ə
+afwâschen,afwö̂sche,V;SBJV;SG;1;PST,a f v œ ʃ ə
+afwâschen,wôsch af,V;IND;SG;3;PST,w oː ʃ a f
+afwâschen,afwôsch,V;IND;SG;3;PST,a f w oː ʃ
+afwâschen,af tô wâschene,V;NFIN,a f t oː w ɑː ʃ ə n ə
+afwâschen,af tô wâschende,V;NFIN,a f t oː w ɑː ʃ ə n d ə
+afwâschen,afwēschest,V;IND;SG;2;PRS,a f w eː s x ə s t
+afwâschen,afwaschest,V;IND;SG;2;PRS,a f v a s x ə s t
+afwâschen,afwâschen,V;SBJV;PL;PRS,a f v ɑː ʃ ə n
+afwâschen,wö̂sche af,V;SBJV;SG;1;PST,v œː ʃ ə
+afwâschen,afwôschen,V;IND;PL;PST,a f v oː ʃ ə n
+afwâschen,afwö̂schen,V;IND;PL;PST,a f v œ ʃ ə n
+afwâschen,wâschest af,V;SBJV;SG;2;PRS,v ɑː s x ə s t a f
+afwâschen,wôschen,V;IND;PL;PST,w oː s x ə n
+afwâschen,wö̂schen af,V;IND;PL;PST,v œː ʃ ə n
+afwâschen,afwâschet,V;SBJV;SG;3;PRS,a f v ɑː s x ə t
+afwâschen,wâschet af,V;IMP;PL;2,w ɑː s x ə t
+afwâschen,afwâsche,V;IND;SG;1;PRS,a f v ɑː ʃ ə
+afwâschen,wēschet,V;IND;SG;3;PRS,w eː ʃ ə t
+afwâschen,wâschet af,V;IND;SG;3;PRS,w ɑː s x ə t
+afwâschen,afwö̂schest,V;SBJV;SG;2;PST,a f v œ ʃ ə s t
+afwâschen,afwâschen,V;NFIN,a f v ɑː ʃ ə n
+afwâschen,wâschen af,V;SBJV;PL;PRS,v ɑː s x ə n
+afwâschen,wö̂sche af,V;SBJV;SG;3;PST,v œː ʃ ə
+afwâschen,wö̂schest af,V;SBJV;SG;2;PST,v œː ʃ ə s t a f
+afwâschen,afwö̂sche,V;SBJV;SG;3;PST,a f v œ ʃ ə
+afwâschen,afwâschest,V;SBJV;SG;2;PRS,a f v ɑː s x ə s t
+afwâschen,wâsche af,V;SBJV;SG;1;PRS,v ɑː s k ə
+afwâschen,afwâschen,V;IND;PL;PRS,a f v ɑː ʃ ə n
+afwâschen,wēschest,V;IND;SG;2;PRS,w eː s k ə s t
+afwâschen,wâschest af,V;IND;SG;2;PRS,v ɑː s x ə s t a f
+afwâschen,afwôsch,V;IND;SG;1;PST,a f w oː ʃ
+afwâschen,afwö̂schen,V;SBJV;PL;PST,a f v œ ʃ ə n
+afwâschen,wâsch af,V;IMP;SG;2,v ɑː s x a f
+afwâschen,afwôschest,V;IND;SG;2;PST,a f w oː s x ə s t
+afwâschen,afwö̂schest,V;IND;SG;2;PST,a f v œ ʃ ə s t
+afwâschen,wôsch af,V;IND;SG;1;PST,w oː ʃ a f
+afwâschen,wâschet af,V;SBJV;SG;3;PRS,w ɑː s x ə t
+afwâschen,afwēschet,V;IND;SG;3;PRS,a f w eː ʃ ɛ t
+afwâschen,afwaschet,V;IND;SG;3;PRS,a f v a s x ɛ t
+afwâschen,wö̂schen af,V;SBJV;PL;PST,v œː ʃ ə n
+afwâschen,afwâsche,V;SBJV;SG;1;PRS,a f v ɑː ʃ ə
+afwâschen,wôschest,V;IND;SG;2;PST,w oː s k ə s t
+afwâschen,wö̂schest af,V;IND;SG;2;PST,v œː ʃ ə s t a f
+afwölteren,wölteren,V;IND;PL;PRS,w œ l t ə r ə n
+afwölteren,wöltere af,V;IND;SG;1;PRS,v œ l t ə r ə
+afwölteren,afwölterede,V;SBJV;SG;1;PST,a f v œ l t ə r ə ð ə
+afwölteren,wölterede af,V;IND;SG;3;PST,v œ l t ə r ə ð ə
+afwölteren,afwölterede,V;IND;SG;3;PST,a f v œ l t ə r ə ð ə
+afwölteren,af tô wölterene,V;NFIN,a f t oː w œ l t ə r ə n ə
+afwölteren,af tô wölterende,V;NFIN,a f t oː w œ l t ə r ə n d ə
+afwölteren,afwölterest,V;IND;SG;2;PRS,a f v œ l t ə r ə s t
+afwölteren,afwölteren,V;SBJV;PL;PRS,a f v œ l t ə r ə n
+afwölteren,wölterede af,V;SBJV;SG;1;PST,v œ l t ə r ə ð ə
+afwölteren,afwöltereden,V;IND;PL;PST,a f v œ l t ə r ə ð ə n
+afwölteren,wölterest af,V;SBJV;SG;2;PRS,v œ l t ə r ə s t
+afwölteren,wöltereden af,V;IND;PL;PST,v œ l t ə r ə ð ə n
+afwölteren,afwölteret,V;SBJV;SG;3;PRS,a f v œ l t ə r ə t
+afwölteren,wölteret af,V;IMP;PL;2,v œ l t ə r ə t
+afwölteren,afwöltere,V;IND;SG;1;PRS,a f v œ l t ə r ə
+afwölteren,wölteret af,V;IND;SG;3;PRS,v œ l t ə r ə t
+afwölteren,afwölteredest,V;SBJV;SG;2;PST,a f v œ l t ə r ə d ə s t
+afwölteren,afwölteren,V;NFIN,a f v œ l t ə r ə n
+afwölteren,wölteren af,V;SBJV;PL;PRS,v œ l t ə r ə n
+afwölteren,wölterede af,V;SBJV;SG;3;PST,v œ l t ə r ə ð ə
+afwölteren,wölteredest af,V;SBJV;SG;2;PST,v œ l t ə r ə ð ə s t a f
+afwölteren,afwölterede,V;SBJV;SG;3;PST,a f v œ l t ə r ə ð ə
+afwölteren,afwölterest,V;SBJV;SG;2;PRS,a f v œ l t ə r ə s t
+afwölteren,wöltere af,V;SBJV;SG;1;PRS,v œ l t ə r ə
+afwölteren,afwölteren,V;IND;PL;PRS,a f v œ l t ə r ə n
+afwölteren,wölterest af,V;IND;SG;2;PRS,v œ l t ə r ə s t
+afwölteren,afwölterede,V;IND;SG;1;PST,a f v œ l t ə r ə ð ə
+afwölteren,afwöltereden,V;SBJV;PL;PST,a f v œ l t ə r ə ð ə n
+afwölteren,wöltere af,V;IMP;SG;2,v œ l t ə r ə
+afwölteren,afwölteredest,V;IND;SG;2;PST,a f v œ l t ə r ə d ə s t
+afwölteren,wölterede af,V;IND;SG;1;PST,v œ l t ə r ə ð ə
+afwölteren,wölteret af,V;SBJV;SG;3;PRS,v œ l t ə r ə t
+afwölteren,afwölteret,V;IND;SG;3;PRS,a f v œ l t ə r ə t
+afwölteren,wöltereden af,V;SBJV;PL;PST,v œ l t ə r ə ð ə n
+afwölteren,afwöltere,V;SBJV;SG;1;PRS,a f v œ l t ə r ə
+afwölteren,wölteredest af,V;IND;SG;2;PST,v œ l t ə r ə ð ə s t a f
+helpen,helpest,V;IND;SG;2;PRS,h ɛ l p ə s t
+helpen,helpst,V;IND;SG;2;PRS,h ɛ l p s t
+helpen,hulpen,V;IND;PL;PST,h ʉ l p ə n
+helpen,hülpen,V;IND;PL;PST,h y l p ə n
+helpen,hülpest,V;SBJV;SG;2;PST,h y l p ə s t
+helpen,helpet,V;SBJV;SG;3;PRS,h ɛ l p ə t
+helpen,hülpe,V;SBJV;SG;3;PST,h y l p ə
+helpen,helpe,V;IND;SG;1;PRS,h ɛ l p ə
+helpen,helpen,V;IND;PL;PRS,h ɛ l p ə n
+helpen,tô helpene,V;NFIN,t oː h ɛ l p ə n ə
+helpen,tô helpende,V;NFIN,t oː h ɛ l p ə n d ə
+helpen,hülpen,V;SBJV;PL;PST,h y l p ə n
+helpen,halp,V;IND;SG;1;PST,h a l p
+helpen,helpest,V;SBJV;SG;2;PRS,h ɛ l p ə s t
+helpen,helpet,V;IND;SG;3;PRS,h ɛ l p ə t
+helpen,helpt,V;IND;SG;3;PRS,h ɛ l p t
+helpen,helpet,V;IMP;PL;2,h ɛ l p ə t
+helpen,helpen,V;NFIN,h ɛ l p ə n
+helpen,helpe,V;SBJV;SG;1;PRS,h ɛ l p ə
+helpen,hulpest,V;IND;SG;2;PST,h ʊ l p ə s t
+helpen,hülpest,V;IND;SG;2;PST,h y l p ə s t
+helpen,helpen,V;SBJV;PL;PRS,h ɛ l p ə n
+helpen,help,V;IMP;SG;2,h ɛ l p
+helpen,hülpe,V;SBJV;SG;1;PST,h y l p ə
+helpen,halp,V;IND;SG;3;PST,h a l p
+jachteren,jachterest,V;IND;SG;2;PRS,j a x t ə r ə s t
+jachteren,jachtereden,V;IND;PL;PST,j a x t ə r ə d ə n
+jachteren,jachteredest,V;SBJV;SG;2;PST,j a x t ə r ə d ə s t
+jachteren,jachteret,V;SBJV;SG;3;PRS,j a x t ə r ə t
+jachteren,jachterede,V;SBJV;SG;3;PST,j a x t ə r ə d ə
+jachteren,jachtere,V;IND;SG;1;PRS,j a x t ə r ə
+jachteren,jachteren,V;IND;PL;PRS,j a x t ə r ə n
+jachteren,tô jachterene,V;NFIN,t oː j a x t ə r ə n ə
+jachteren,tô jachterende,V;NFIN,t oː j a x t ə r ə n d ə
+jachteren,jachtereden,V;SBJV;PL;PST,j a x t ə r ə d ə n
+jachteren,jachterede,V;IND;SG;1;PST,j a x t ə r ə d ə
+jachteren,jachterest,V;SBJV;SG;2;PRS,j a x t ə r ə s t
+jachteren,jachteret,V;IND;SG;3;PRS,j a x t ə r ə t
+jachteren,jachteret,V;IMP;PL;2,j a x t ə r ə t
+jachteren,jachteren,V;NFIN,j a x t ə r ə n
+jachteren,jachtere,V;SBJV;SG;1;PRS,j a x t ə r ə
+jachteren,jachteredest,V;IND;SG;2;PST,j a x t ə r ə d ə s t
+jachteren,jachteren,V;SBJV;PL;PRS,j a x t ə r ə n
+jachteren,jachtere,V;IMP;SG;2,j a x t ə r ə
+jachteren,jachterede,V;SBJV;SG;1;PST,j a x t ə r ə d ə
+jachteren,jachterede,V;IND;SG;3;PST,j a x t ə r ə d ə
+jāgen,jāgest,V;IND;SG;2;PRS,j aː ɣ ə s t
+jāgen,jāgeden,V;IND;PL;PST,j aː ɣ ə ð ə n
+jāgen,jāgedest,V;SBJV;SG;2;PST,j aː ɣ ə ð ə s t
+jāgen,jāget,V;SBJV;SG;3;PRS,j aː ɣ ə t
+jāgen,jāgede,V;SBJV;SG;3;PST,j aː ɣ ə ð ə
+jāgen,jāge,V;IND;SG;1;PRS,j aː ɣ ə
+jāgen,jāgen,V;IND;PL;PRS,j aː ɣ ə n
+jāgen,tô jāgene,V;NFIN,t oː j aː ɣ ə n ə
+jāgen,tô jāgende,V;NFIN,t oː j aː ɣ ə n d ə
+jāgen,jāgeden,V;SBJV;PL;PST,j aː ɣ ə ð ə n
+jāgen,jāgede,V;IND;SG;1;PST,j aː ɣ ə ð ə
+jāgen,jāgest,V;SBJV;SG;2;PRS,j aː ɣ ə s t
+jāgen,jāget,V;IND;SG;3;PRS,j aː ɣ ə t
+jāgen,jāget,V;IMP;PL;2,j aː ɣ ə t
+jāgen,jāgen,V;NFIN,j aː ɣ ə n
+jāgen,jāge,V;SBJV;SG;1;PRS,j aː ɣ ə
+jāgen,jāgedest,V;IND;SG;2;PST,j aː ɣ ə ð ə s t
+jāgen,jāgen,V;SBJV;PL;PRS,j aː ɣ ə n
+jāgen,jāge,V;IMP;SG;2,j aː ɣ ə
+jāgen,jāgede,V;SBJV;SG;1;PST,j aː ɣ ə ð ə
+jāgen,jāgede,V;IND;SG;3;PST,j aː ɣ ə ð ə
+krossen,krossest,V;IND;SG;2;PRS,k r ɔ sː ə s t
+krossen,krosseden,V;IND;PL;PST,k r ɔ s ə d ə n
+krossen,krossedest,V;SBJV;SG;2;PST,k r ɔ sː ə d ə s t
+krossen,krosset,V;SBJV;SG;3;PRS,k r ɔ sː ə t
+krossen,krossede,V;SBJV;SG;3;PST,k r ɔ s ə ð ə
+krossen,krosse,V;IND;SG;1;PRS,k r ɔ sː ə
+krossen,krossen,V;IND;PL;PRS,k r ɔ sː ə n
+krossen,tô krossene,V;NFIN,t oː k r ɔ sː ə n ə
+krossen,tô krossende,V;NFIN,t oː k r ɔ s ə n d ə
+krossen,krosseden,V;SBJV;PL;PST,k r ɔ s ə d ə n
+krossen,krossede,V;IND;SG;1;PST,k r ɔ s ə ð ə
+krossen,krossest,V;SBJV;SG;2;PRS,k r ɔ sː ə s t
+krossen,krosset,V;IND;SG;3;PRS,k r ɔ sː ə t
+krossen,krosset,V;IMP;PL;2,k r ɔ sː ə t
+krossen,krossen,V;NFIN,k r ɔ sː ə n
+krossen,krosse,V;SBJV;SG;1;PRS,k r ɔ sː ə
+krossen,krossedest,V;IND;SG;2;PST,k r ɔ sː ə d ə s t
+krossen,krossen,V;SBJV;PL;PRS,k r ɔ sː ə n
+krossen,krosse,V;IMP;SG;2,k r ɔ sː ə
+krossen,krossede,V;SBJV;SG;1;PST,k r ɔ s ə ð ə
+krossen,krossede,V;IND;SG;3;PST,k r ɔ s ə ð ə
+lēven,lēvest,V;IND;SG;2;PRS,l eː v ə s t
+lēven,lēveden,V;IND;PL;PST,l eː v ə ð ə n
+lēven,lēvedest,V;SBJV;SG;2;PST,l eː v ə ð ə s t
+lēven,lēvet,V;SBJV;SG;3;PRS,l eː v ə t
+lēven,lēvede,V;SBJV;SG;3;PST,l eː v ə ð ə
+lēven,lēve,V;IND;SG;1;PRS,l eː v ə
+lēven,lēven,V;IND;PL;PRS,l eː v ə n
+lēven,tô lēvene,V;NFIN,t oː l eː v ə n ə
+lēven,tô lēvende,V;NFIN,t oː l eː v ə n d ə
+lēven,lēveden,V;SBJV;PL;PST,l eː v ə ð ə n
+lēven,lēvede,V;IND;SG;1;PST,l eː v ə ð ə
+lēven,lēvest,V;SBJV;SG;2;PRS,l eː v ə s t
+lēven,lēvet,V;IND;SG;3;PRS,l eː v ə t
+lēven,lēvet,V;IMP;PL;2,l eː v ə t
+lēven,lēven,V;NFIN,l eː v ə n
+lēven,lēve,V;SBJV;SG;1;PRS,l eː v ə
+lēven,lēvedest,V;IND;SG;2;PST,l eː v ə ð ə s t
+lēven,lēven,V;SBJV;PL;PRS,l eː v ə n
+lēven,lēve,V;IMP;SG;2,l eː v ə
+lēven,lēvede,V;SBJV;SG;1;PST,l eː v ə ð ə
+lēven,lēvede,V;IND;SG;3;PST,l eː v ə ð ə
+nēmen,nēmest,V;IND;SG;2;PRS,n eː m ə s t
+nēmen,nimst,V;IND;SG;2;PRS,n ɪ m s t
+nēmen,nâmen,V;IND;PL;PST,n ɑː m ə n
+nēmen,nêmen,V;IND;PL;PST,n eː m ə n
+nēmen,nêmest,V;SBJV;SG;2;PST,n eː m ə s t
+nēmen,nēmet,V;SBJV;SG;3;PRS,n eː m ə t
+nēmen,nême,V;SBJV;SG;3;PST,n eː m ə
+nēmen,nēme,V;IND;SG;1;PRS,n eː m ə
+nēmen,nēmen,V;IND;PL;PRS,n eː m ə n
+nēmen,tô nēmene,V;NFIN,t oː n eː m ə n ə
+nēmen,tô nēmende,V;NFIN,t oː n eː m ə n d ə
+nēmen,nêmen,V;SBJV;PL;PST,n eː m ə n
+nēmen,nam,V;IND;SG;1;PST,n a m
+nēmen,nēmest,V;SBJV;SG;2;PRS,n eː m ə s t
+nēmen,nēmet,V;IND;SG;3;PRS,n eː m ə t
+nēmen,nimt,V;IND;SG;3;PRS,n ɪ m t
+nēmen,nēmet,V;IMP;PL;2,n eː m ə t
+nēmen,nēmen,V;NFIN,n eː m ə n
+nēmen,nēme,V;SBJV;SG;1;PRS,n eː m ə
+nēmen,nâmest,V;IND;SG;2;PST,n ɑː m ə s t
+nēmen,nêmest,V;IND;SG;2;PST,n eː m ə s t
+nēmen,nēmen,V;SBJV;PL;PRS,n eː m ə n
+nēmen,nim,V;IMP;SG;2,n ɪ m
+nēmen,nême,V;SBJV;SG;1;PST,n eː m ə
+nēmen,nam,V;IND;SG;3;PST,n a m
+andrêpen,drêpen,V;IND;PL;PRS,d r eː p ə n
+andrêpen,drêpe an,V;IND;SG;1;PRS,d r ɛː p ə
+andrêpen,andrȫpe,V;SBJV;SG;1;PST,a n d r yː p ə
+andrêpen,drôp an,V;IND;SG;3;PST,d r oː p a n
+andrêpen,andrôp,V;IND;SG;3;PST,a n d r oː p
+andrêpen,an tô drêpene,V;NFIN,a n t oː d r eː p ə n ə
+andrêpen,an tô drêpende,V;NFIN,a n t oː d r eː p ə n d ə
+andrêpen,andrü̂̂pest,V;IND;SG;2;PRS,a n d r yː p ə s t
+andrêpen,andrü̂̂pst,V;IND;SG;2;PRS,a n d r yː p s t
+andrêpen,andrêpen,V;SBJV;PL;PRS,a n d r eː p ə n
+andrêpen,drȫpe an,V;SBJV;SG;1;PST,d r yː p ə
+andrêpen,andrōpen,V;IND;PL;PST,a n d r oː p ə n
+andrêpen,andrȫpen,V;IND;PL;PST,a n d r yː p ə n
+andrêpen,drêpest an,V;SBJV;SG;2;PRS,d r ɛː p ə s t
+andrêpen,drōpen,V;IND;PL;PST,d r oː p ə n
+andrêpen,drȫpen an,V;IND;PL;PST,d r yː p ə n
+andrêpen,andrêpet,V;SBJV;SG;3;PRS,a n d r eː p ə t
+andrêpen,drêpet an,V;IMP;PL;2,d r ɛː p ə t
+andrêpen,andrêpe,V;IND;SG;1;PRS,a n d r ɛː p ə
+andrêpen,drü̂pet,V;IND;SG;3;PRS,d r yː p ə t
+andrêpen,drü̂̂pt an,V;IND;SG;3;PRS,d r yː p t
+andrêpen,andrȫpest,V;SBJV;SG;2;PST,a n d r yː p ə s t
+andrêpen,andrêpen,V;NFIN,a n d r eː p ə n
+andrêpen,drêpen an,V;SBJV;PL;PRS,d r ɛː p ə n
+andrêpen,drȫpe an,V;SBJV;SG;3;PST,d r yː p ə
+andrêpen,drȫpest an,V;SBJV;SG;2;PST,d r yː p ə s t
+andrêpen,andrȫpe,V;SBJV;SG;3;PST,a n d r yː p ə
+andrêpen,andrêpest,V;SBJV;SG;2;PRS,a n d r eː p ə s t
+andrêpen,drêpe an,V;SBJV;SG;1;PRS,d r ɛː p ə
+andrêpen,andrêpen,V;IND;PL;PRS,a n d r eː p ə n
+andrêpen,drü̂pest,V;IND;SG;2;PRS,d r yː p ə s t
+andrêpen,drü̂̂pst an,V;IND;SG;2;PRS,d r yː p s t
+andrêpen,andrôp,V;IND;SG;1;PST,a n d r oː p
+andrêpen,andrȫpen,V;SBJV;PL;PST,a n d r yː p ə n
+andrêpen,drêp an,V;IMP;SG;2,d r ɛː p
+andrêpen,andrōpest,V;IND;SG;2;PST,a n d r oː p ə s t
+andrêpen,andrȫpest,V;IND;SG;2;PST,a n d r yː p ə s t
+andrêpen,drôp an,V;IND;SG;1;PST,d r oː p a n
+andrêpen,drêpet an,V;SBJV;SG;3;PRS,d r ɛː p ə t
+andrêpen,andrü̂̂pet,V;IND;SG;3;PRS,a n d r yː p ə t
+andrêpen,andrü̂̂pt,V;IND;SG;3;PRS,a n d r yː p t
+andrêpen,drȫpen an,V;SBJV;PL;PST,d r yː p ə n
+andrêpen,andrêpe,V;SBJV;SG;1;PRS,a n d r ɛː p ə
+andrêpen,drōpest,V;IND;SG;2;PST,d r oː p ə s t
+andrêpen,drȫpest an,V;IND;SG;2;PST,d r yː p ə s t
+andrücken,drücken,V;IND;PL;PRS,d r ʏ k ə n
+andrücken,drücke an,V;IND;SG;1;PRS,d r ʏ k ə
+andrücken,andrückede,V;SBJV;SG;1;PST,a n d r ʏ k ə d ə
+andrücken,drückede an,V;IND;SG;3;PST,d r ʏ k ə d ə
+andrücken,andrückede,V;IND;SG;3;PST,a n d r ʏ k ə d ə
+andrücken,an tô drückene,V;NFIN,a n t oː d r ʏ kː ə n ə
+andrücken,an tô drückende,V;NFIN,a n t oː d r ʏ kː ə n d ə
+andrücken,andrückest,V;IND;SG;2;PRS,a n d r ʏ k ə s t
+andrücken,andrücken,V;SBJV;PL;PRS,a n d r ʏ k ə n
+andrücken,drückede an,V;SBJV;SG;1;PST,d r ʏ k ə d ə
+andrücken,andrückeden,V;IND;PL;PST,a n d r ʏ k ə d ə n
+andrücken,drückest an,V;SBJV;SG;2;PRS,d r ʏ k ə s t
+andrücken,drückeden an,V;IND;PL;PST,d r ʏ k ə d ə n
+andrücken,andrücket,V;SBJV;SG;3;PRS,a n d r ʏ k ə t
+andrücken,drücket an,V;IMP;PL;2,d r ʏ k ə t
+andrücken,andrücke,V;IND;SG;1;PRS,a n d r ʏ k ə
+andrücken,drücket an,V;IND;SG;3;PRS,d r ʏ k ə t
+andrücken,andrückedest,V;SBJV;SG;2;PST,a n d r ʏ k ə d ə s t
+andrücken,andrücken,V;NFIN,a n d r ʏ k ə n
+andrücken,drücken an,V;SBJV;PL;PRS,d r ʏ k ə n
+andrücken,drückede an,V;SBJV;SG;3;PST,d r ʏ k ə d ə
+andrücken,drückedest an,V;SBJV;SG;2;PST,d r ʏ k ə d ə s t
+andrücken,andrückede,V;SBJV;SG;3;PST,a n d r ʏ k ə d ə
+andrücken,andrückest,V;SBJV;SG;2;PRS,a n d r ʏ k ə s t
+andrücken,drücke an,V;SBJV;SG;1;PRS,d r ʏ k ə
+andrücken,andrücken,V;IND;PL;PRS,a n d r ʏ k ə n
+andrücken,drückest an,V;IND;SG;2;PRS,d r ʏ k ə s t
+andrücken,andrückede,V;IND;SG;1;PST,a n d r ʏ k ə d ə
+andrücken,andrückeden,V;SBJV;PL;PST,a n d r ʏ k ə d ə n
+andrücken,drücke an,V;IMP;SG;2,d r ʏ k ə
+andrücken,andrückedest,V;IND;SG;2;PST,a n d r ʏ k ə d ə s t
+andrücken,drückede an,V;IND;SG;1;PST,d r ʏ k ə d ə
+andrücken,drücket an,V;SBJV;SG;3;PRS,d r ʏ k ə t
+andrücken,andrücket,V;IND;SG;3;PRS,a n d r ʏ k ə t
+andrücken,drückeden an,V;SBJV;PL;PST,d r ʏ k ə d ə n
+andrücken,andrücke,V;SBJV;SG;1;PRS,a n d r ʏ k ə
+andrücken,drückedest an,V;IND;SG;2;PST,d r ʏ k ə d ə s t
+anvechten,vechten,V;IND;PL;PRS,f ɛ x t ə n
+anvechten,vechte an,V;IND;SG;1;PRS,f ɛ x t ə
+anvechten,anvüchte,V;SBJV;SG;1;PST,a n f y x t ə
+anvechten,vacht an,V;IND;SG;3;PST,f a x t
+anvechten,anvacht,V;IND;SG;3;PST,a n f a x t
+anvechten,an tô vechtene,V;NFIN,a n t oː f ɛ x t ə n ə
+anvechten,an tô vechtende,V;NFIN,a n t oː f ɛ x t ə n d ə
+anvechten,anvechtest,V;IND;SG;2;PRS,a n f ɛ x t ə s t
+anvechten,anvechtst,V;IND;SG;2;PRS,a n f ɛ x t s t
+anvechten,anvechten,V;SBJV;PL;PRS,a n f ɛ x t ə n
+anvechten,vüchte an,V;SBJV;SG;1;PST,f y x t ə
+anvechten,anvuchten,V;IND;PL;PST,a n f ʊ x t ə n
+anvechten,anvüchten,V;IND;PL;PST,a n f y x t ə n
+anvechten,vechtest an,V;SBJV;SG;2;PRS,f ɛ x t ə s t
+anvechten,vuchten,V;IND;PL;PST,f ʊ x t ə n
+anvechten,vüchten an,V;IND;PL;PST,f y x t ə n
+anvechten,anvechtet,V;SBJV;SG;3;PRS,a n f ɛ x t ə t
+anvechten,vechtet an,V;IMP;PL;2,f ɛ x t ə t
+anvechten,anvechte,V;IND;SG;1;PRS,a n f ɛ x t ə
+anvechten,vechtet,V;IND;SG;3;PRS,f ɛ x t ə t
+anvechten,vecht an,V;IND;SG;3;PRS,f ɛ x t
+anvechten,anvüchtest,V;SBJV;SG;2;PST,a n f y x t ə s t
+anvechten,anvechten,V;NFIN,a n f ɛ x t ə n
+anvechten,vechten an,V;SBJV;PL;PRS,f ɛ x t ə n
+anvechten,vüchte an,V;SBJV;SG;3;PST,f y x t ə
+anvechten,vüchtest an,V;SBJV;SG;2;PST,f y x t ə s t
+anvechten,anvüchte,V;SBJV;SG;3;PST,a n f y x t ə
+anvechten,anvechtest,V;SBJV;SG;2;PRS,a n f ɛ x t ə s t
+anvechten,vechte an,V;SBJV;SG;1;PRS,f ɛ x t ə
+anvechten,anvechten,V;IND;PL;PRS,a n f ɛ x t ə n
+anvechten,vechtest,V;IND;SG;2;PRS,f ɛ x t ə s t
+anvechten,vechtst an,V;IND;SG;2;PRS,f ɛ x t s t a n
+anvechten,anvacht,V;IND;SG;1;PST,a n f a x t
+anvechten,anvüchten,V;SBJV;PL;PST,a n f y x t ə n
+anvechten,vecht an,V;IMP;SG;2,f ɛ x t
+anvechten,anvuchtest,V;IND;SG;2;PST,a n f ʊ x t ə s t
+anvechten,anvüchtest,V;IND;SG;2;PST,a n f y x t ə s t
+anvechten,vacht an,V;IND;SG;1;PST,f a x t
+anvechten,vechtet an,V;SBJV;SG;3;PRS,f ɛ x t ə t
+anvechten,anvechtet,V;IND;SG;3;PRS,a n f ɛ x t ə t
+anvechten,anvecht,V;IND;SG;3;PRS,a n f ɛ x t
+anvechten,vüchten an,V;SBJV;PL;PST,f y x t ə n
+anvechten,anvechte,V;SBJV;SG;1;PRS,a n f ɛ x t ə
+anvechten,vuchtest,V;IND;SG;2;PST,f ʊ x t ə s t
+anvechten,vüchtest an,V;IND;SG;2;PST,f y x t ə s t
+rîden,rîdest,V;IND;SG;2;PRS,r iː ð ə s t
+rîden,rîtst,V;IND;SG;2;PRS,r iː t s t
+rîden,rēden,V;IND;PL;PST,r eː d ə n
+rîden,rēdest,V;SBJV;SG;2;PST,r eː d ə s t
+rîden,rîdet,V;SBJV;SG;3;PRS,r iː d ə t
+rîden,rēde,V;SBJV;SG;3;PST,r eː d ə
+rîden,rîde,V;IND;SG;1;PRS,r iː d ə
+rîden,rîden,V;IND;PL;PRS,r iː d ə n
+rîden,tô rîdene,V;NFIN,t oː r iː d ə n ə
+rîden,tô rîdende,V;NFIN,t oː r iː d ə n d ə
+rîden,rēden,V;SBJV;PL;PST,r eː d ə n
+rîden,rêt,V;IND;SG;1;PST,r ɛː t
+rîden,rîdest,V;SBJV;SG;2;PRS,r iː ð ə s t
+rîden,rîdet,V;IND;SG;3;PRS,r iː d ə t
+rîden,rît,V;IND;SG;3;PRS,r iː t
+rîden,rîdet,V;IMP;PL;2,r iː d ə t
+rîden,rîden,V;NFIN,r iː d ə n
+rîden,rîde,V;SBJV;SG;1;PRS,r iː d ə
+rîden,rēdest,V;IND;SG;2;PST,r eː d ə s t
+rîden,rîden,V;SBJV;PL;PRS,r iː d ə n
+rîden,rît,V;IMP;SG;2,r iː t
+rîden,rēde,V;SBJV;SG;1;PST,r eː d ə
+rîden,rêt,V;IND;SG;3;PST,r ɛː t
+schrîven,schrîvest,V;IND;SG;2;PRS,s k r iː v ə s t
+schrîven,schrîfst,V;IND;SG;2;PRS,ʃ r iː f s t
+schrîven,schrēven,V;IND;PL;PST,ʃ r eː v ə n
+schrîven,schrēvest,V;SBJV;SG;2;PST,ʃ r eː v ə s t
+schrîven,schrîvet,V;SBJV;SG;3;PRS,ʃ r iː v ə t
+schrîven,schrēve,V;SBJV;SG;3;PST,ʃ r eː v ə
+schrîven,schrîve,V;IND;SG;1;PRS,s k r iː v ə
+schrîven,schrîven,V;IND;PL;PRS,s k r iː v ə n
+schrîven,tô schrîvene,V;NFIN,t oː s k r iː v ə n ə
+schrîven,tô schrîvende,V;NFIN,t oː s k r iː v ə n d ə
+schrîven,schrēven,V;SBJV;PL;PST,ʃ r eː v ə n
+schrîven,schrêf,V;IND;SG;1;PST,ʃ r ɛː f
+schrîven,schrîvest,V;SBJV;SG;2;PRS,s k r iː v ə s t
+schrîven,schrîvet,V;IND;SG;3;PRS,ʃ r iː v ə t
+schrîven,schrîft,V;IND;SG;3;PRS,ʃ r iː f t
+schrîven,schrîvet,V;IMP;PL;2,ʃ r iː v ə t
+schrîven,schrîven,V;NFIN,s k r iː v ə n
+schrîven,schrîve,V;SBJV;SG;1;PRS,s k r iː v ə
+schrîven,schrēvest,V;IND;SG;2;PST,ʃ r eː v ə s t
+schrîven,schrîven,V;SBJV;PL;PRS,s k r iː v ə n
+schrîven,schrîf,V;IMP;SG;2,ʃ r iː f
+schrîven,schrēve,V;SBJV;SG;1;PST,ʃ r eː v ə
+schrîven,schrêf,V;IND;SG;3;PST,ʃ r ɛː f
+snîden,snîdest,V;IND;SG;2;PRS,s n iː d ə s t
+snîden,snîtst,V;IND;SG;2;PRS,s n iː t s t
+snîden,snēden,V;IND;PL;PST,s n eː d ə n
+snîden,snēdest,V;SBJV;SG;2;PST,s n eː d ə s t
+snîden,snîdet,V;SBJV;SG;3;PRS,s n iː d ə t
+snîden,snēde,V;SBJV;SG;3;PST,s n eː d ə
+snîden,snîde,V;IND;SG;1;PRS,s n iː d ə
+snîden,snîden,V;IND;PL;PRS,s n iː d ə n
+snîden,tô snîdene,V;NFIN,t oː s n iː d ə n ə
+snîden,tô snîdende,V;NFIN,t oː s n iː d ə n d ə
+snîden,snēden,V;SBJV;PL;PST,s n eː d ə n
+snîden,snêt,V;IND;SG;1;PST,s n ɛː t
+snîden,snîdest,V;SBJV;SG;2;PRS,s n iː d ə s t
+snîden,snîdet,V;IND;SG;3;PRS,s n iː d ə t
+snîden,snît,V;IND;SG;3;PRS,s n iː t
+snîden,snîdet,V;IMP;PL;2,s n iː d ə t
+snîden,snîden,V;NFIN,s n iː d ə n
+snîden,snîde,V;SBJV;SG;1;PRS,s n iː d ə
+snîden,snēdest,V;IND;SG;2;PST,s n eː d ə s t
+snîden,snîden,V;SBJV;PL;PRS,s n iː d ə n
+snîden,snît,V;IMP;SG;2,s n iː t
+snîden,snēde,V;SBJV;SG;1;PST,s n eː d ə
+snîden,snêt,V;IND;SG;3;PST,s n ɛː t
+snorren,snorrest,V;IND;SG;2;PRS,s n ɔ r r ə s t
+snorren,snorreden,V;IND;PL;PST,s n ɔ r ə ð ə n
+snorren,snorredest,V;SBJV;SG;2;PST,s n ɔ r ə d ə s t
+snorren,snorret,V;SBJV;SG;3;PRS,s n ɔ r r ə t
+snorren,snorrede,V;SBJV;SG;3;PST,s n ɔ r ə ð ə
+snorren,snorre,V;IND;SG;1;PRS,s n ɔ rː ə
+snorren,snorren,V;IND;PL;PRS,s n ɔ rː ə n
+snorren,tô snorrene,V;NFIN,t oː s n ɔ rː ə n ə
+snorren,tô snorrende,V;NFIN,t oː s n ɔ r ə n d ə
+snorren,snorreden,V;SBJV;PL;PST,s n ɔ r ə ð ə n
+snorren,snorrede,V;IND;SG;1;PST,s n ɔ r ə ð ə
+snorren,snorrest,V;SBJV;SG;2;PRS,s n ɔ r r ə s t
+snorren,snorret,V;IND;SG;3;PRS,s n ɔ r r ə t
+snorren,snorret,V;IMP;PL;2,s n ɔ r r ə t
+snorren,snorren,V;NFIN,s n ɔ rː ə n
+snorren,snorre,V;SBJV;SG;1;PRS,s n ɔ rː ə
+snorren,snorredest,V;IND;SG;2;PST,s n ɔ r ə d ə s t
+snorren,snorren,V;SBJV;PL;PRS,s n ɔ rː ə n
+snorren,snorre,V;IMP;SG;2,s n ɔ rː ə
+snorren,snorrede,V;SBJV;SG;1;PST,s n ɔ r ə ð ə
+snorren,snorrede,V;IND;SG;3;PST,s n ɔ r ə ð ə
+spö̂den,spö̂dest,V;IND;SG;2;PRS,s p œː d ə s t
+spö̂den,spö̂deden,V;IND;PL;PST,s p œː d ə ð ə n
+spö̂den,spö̂dedest,V;SBJV;SG;2;PST,s p œː d ə ð ə s t
+spö̂den,spö̂det,V;SBJV;SG;3;PRS,s p œː d ə t
+spö̂den,spö̂dede,V;SBJV;SG;3;PST,s p œː d ə ð ə
+spö̂den,spö̂de,V;IND;SG;1;PRS,s p œː d ə
+spö̂den,spö̂den,V;IND;PL;PRS,s p œː d ə n
+spö̂den,tô spö̂dene,V;NFIN,t oː s p œː d ə n ə
+spö̂den,tô spö̂dende,V;NFIN,t oː s p œː d ə n d ə
+spö̂den,spö̂deden,V;SBJV;PL;PST,s p œː d ə ð ə n
+spö̂den,spö̂dede,V;IND;SG;1;PST,s p œː d ə ð ə
+spö̂den,spö̂dest,V;SBJV;SG;2;PRS,s p œː d ə s t
+spö̂den,spö̂det,V;IND;SG;3;PRS,s p œː d ə t
+spö̂den,spö̂det,V;IMP;PL;2,s p œː d ə t
+spö̂den,spö̂den,V;NFIN,s p œː d ə n
+spö̂den,spö̂de,V;SBJV;SG;1;PRS,s p œː d ə
+spö̂den,spö̂dedest,V;IND;SG;2;PST,s p œː d ə ð ə s t
+spö̂den,spö̂den,V;SBJV;PL;PRS,s p œː d ə n
+spö̂den,spö̂de,V;IMP;SG;2,s p œː d ə
+spö̂den,spö̂dede,V;SBJV;SG;1;PST,s p œː d ə ð ə
+spö̂den,spö̂dede,V;IND;SG;3;PST,s p œː d ə ð ə
+stîgen,stîgest,V;IND;SG;2;PRS,s t iː ɣ ə s t
+stîgen,stîchst,V;IND;SG;2;PRS,s t iː x s t
+stîgen,stēgen,V;IND;PL;PST,s t eː ɣ ə n
+stîgen,stēgest,V;SBJV;SG;2;PST,s t eː ɣ ə s t
+stîgen,stîget,V;SBJV;SG;3;PRS,s t iː ɣ ə t
+stîgen,stēge,V;SBJV;SG;3;PST,s t eː ɣ ə
+stîgen,stîge,V;IND;SG;1;PRS,s t iː ɣ ə
+stîgen,stîgen,V;IND;PL;PRS,s t iː ɣ ə n
+stîgen,tô stîgene,V;NFIN,t oː s t iː ɣ ə n ə
+stîgen,tô stîgende,V;NFIN,t oː s t iː ɣ ə n d ə
+stîgen,stēgen,V;SBJV;PL;PST,s t eː ɣ ə n
+stîgen,stêch,V;IND;SG;1;PST,s t ɛː x
+stîgen,stîgest,V;SBJV;SG;2;PRS,s t iː ɣ ə s t
+stîgen,stîget,V;IND;SG;3;PRS,s t iː ɣ ə t
+stîgen,stîcht,V;IND;SG;3;PRS,s t iː x t
+stîgen,stîget,V;IMP;PL;2,s t iː ɣ ə t
+stîgen,stîgen,V;NFIN,s t iː ɣ ə n
+stîgen,stîge,V;SBJV;SG;1;PRS,s t iː ɣ ə
+stîgen,stēgest,V;IND;SG;2;PST,s t eː ɣ ə s t
+stîgen,stîgen,V;SBJV;PL;PRS,s t iː ɣ ə n
+stîgen,stîch,V;IMP;SG;2,s t iː x
+stîgen,stēge,V;SBJV;SG;1;PST,s t eː ɣ ə
+stîgen,stêch,V;IND;SG;3;PST,s t ɛː x
+sûgen,sü̂gest,V;IND;SG;2;PRS,s yː ɣ ə s t
+sûgen,sü̂̂chst,V;IND;SG;2;PRS,s yː x s t
+sûgen,sōgen,V;IND;PL;PST,s oː ɣ ə n
+sûgen,sȫgen,V;IND;PL;PST,s yː ɣ ə n
+sûgen,sȫgest,V;SBJV;SG;2;PST,s yː ɣ ə s t
+sûgen,sûget,V;SBJV;SG;3;PRS,s uː ɣ ə t
+sûgen,sȫge,V;SBJV;SG;3;PST,s yː ɣ ə
+sûgen,sûge,V;IND;SG;1;PRS,s uː ɣ ə
+sûgen,sûgen,V;IND;PL;PRS,s uː ɣ ə n
+sûgen,tô sûgene,V;NFIN,t oː s uː ɣ ə n ə
+sûgen,tô sûgende,V;NFIN,t oː s uː ɣ ə n d ə
+sûgen,sȫgen,V;SBJV;PL;PST,s yː ɣ ə n
+sûgen,sôch,V;IND;SG;1;PST,s oː x
+sûgen,sûgest,V;SBJV;SG;2;PRS,s uː ɣ ə s t
+sûgen,sü̂get,V;IND;SG;3;PRS,s yː ɣ ə t
+sûgen,sü̂̂cht,V;IND;SG;3;PRS,s yː x t
+sûgen,sûget,V;IMP;PL;2,s uː ɣ ə t
+sûgen,sûgen,V;NFIN,s uː ɣ ə n
+sûgen,sûge,V;SBJV;SG;1;PRS,s uː ɣ ə
+sûgen,sōgest,V;IND;SG;2;PST,s oː ɣ ə s t
+sûgen,sȫgest,V;IND;SG;2;PST,s yː ɣ ə s t
+sûgen,sûgen,V;SBJV;PL;PRS,s uː ɣ ə n
+sûgen,sûch,V;IMP;SG;2,s uː x
+sûgen,sȫge,V;SBJV;SG;1;PST,s yː ɣ ə
+sûgen,sôch,V;IND;SG;3;PST,s oː x
+sûpen,sü̂pest,V;IND;SG;2;PRS,s yː p ə s t
+sûpen,sü̂̂pst,V;IND;SG;2;PRS,s yː p s t
+sûpen,sōpen,V;IND;PL;PST,s oː p ə n
+sûpen,sȫpen,V;IND;PL;PST,s yː p ə n
+sûpen,sȫpest,V;SBJV;SG;2;PST,s yː p ə s t
+sûpen,sûpet,V;SBJV;SG;3;PRS,s uː p ə t
+sûpen,sȫpe,V;SBJV;SG;3;PST,s yː p ə
+sûpen,sûpe,V;IND;SG;1;PRS,s uː p ə
+sûpen,sûpen,V;IND;PL;PRS,s uː p ə n
+sûpen,tô sûpene,V;NFIN,t oː s uː p ə n ə
+sûpen,tô sûpende,V;NFIN,t oː s uː p ə n d ə
+sûpen,sȫpen,V;SBJV;PL;PST,s yː p ə n
+sûpen,sôp,V;IND;SG;1;PST,s oː p
+sûpen,sûpest,V;SBJV;SG;2;PRS,s uː p ə s t
+sûpen,sü̂pet,V;IND;SG;3;PRS,s yː p ə t
+sûpen,sü̂̂pt,V;IND;SG;3;PRS,s yː p t
+sûpen,sûpet,V;IMP;PL;2,s uː p ə t
+sûpen,sûpen,V;NFIN,s uː p ə n
+sûpen,sûpe,V;SBJV;SG;1;PRS,s uː p ə
+sûpen,sōpest,V;IND;SG;2;PST,s oː p ə s t
+sûpen,sȫpest,V;IND;SG;2;PST,s yː p ə s t
+sûpen,sûpen,V;SBJV;PL;PRS,s uː p ə n
+sûpen,sûp,V;IMP;SG;2,s uː p
+sûpen,sȫpe,V;SBJV;SG;1;PST,s yː p ə
+sûpen,sôp,V;IND;SG;3;PST,s oː p
+tellen,tellest,V;IND;SG;2;PRS,t ɛ lː ə s t
+tellen,telleden,V;IND;PL;PST,t ɛ lː ə ð ə n
+tellen,telledest,V;SBJV;SG;2;PST,t ɛ lː ə d ə s t
+tellen,tellet,V;SBJV;SG;3;PRS,t ɛ lː ə t
+tellen,tellede,V;SBJV;SG;3;PST,t ɛ lː ə ð ə
+tellen,telle,V;IND;SG;1;PRS,t ɛ lː ə
+tellen,tellen,V;IND;PL;PRS,t ɛ lː ə n
+tellen,tô tellene,V;NFIN,t oː t ɛ lː ə n ə
+tellen,tô tellende,V;NFIN,t oː t ɛ lː ə n d ə
+tellen,telleden,V;SBJV;PL;PST,t ɛ lː ə ð ə n
+tellen,tellede,V;IND;SG;1;PST,t ɛ lː ə ð ə
+tellen,tellest,V;SBJV;SG;2;PRS,t ɛ lː ə s t
+tellen,tellet,V;IND;SG;3;PRS,t ɛ lː ə t
+tellen,tellet,V;IMP;PL;2,t ɛ lː ə t
+tellen,tellen,V;NFIN,t ɛ lː ə n
+tellen,telle,V;SBJV;SG;1;PRS,t ɛ lː ə
+tellen,telledest,V;IND;SG;2;PST,t ɛ lː ə d ə s t
+tellen,tellen,V;SBJV;PL;PRS,t ɛ lː ə n
+tellen,telle,V;IMP;SG;2,t ɛ lː ə
+tellen,tellede,V;SBJV;SG;1;PST,t ɛ lː ə ð ə
+tellen,tellede,V;IND;SG;3;PST,t ɛ lː ə ð ə
+vâren,vērest,V;IND;SG;2;PRS,f eː r ə s t
+vâren,vârest,V;IND;SG;2;PRS,f ɑː r ə s t
+vâren,vôren,V;IND;PL;PST,f oː r ə n
+vâren,vö̂ren,V;IND;PL;PST,f œː r ə n
+vâren,vö̂rest,V;SBJV;SG;2;PST,f œː r ə s t
+vâren,vâret,V;SBJV;SG;3;PRS,f ɑː r ə t
+vâren,vö̂re,V;SBJV;SG;3;PST,f œː r ə
+vâren,vâre,V;IND;SG;1;PRS,f ɑː r ə
+vâren,vâren,V;IND;PL;PRS,f ɑː r ə n
+vâren,tô vârene,V;NFIN,t oː v ɑː r ə n ə
+vâren,tô vârende,V;NFIN,t oː v ɑː r ə n d ə
+vâren,vö̂ren,V;SBJV;PL;PST,f œː r ə n
+vâren,vôr,V;IND;SG;1;PST,f oː r
+vâren,vârest,V;SBJV;SG;2;PRS,f ɑː r ə s t
+vâren,vēret,V;IND;SG;3;PRS,f eː r ə t
+vâren,vâret,V;IND;SG;3;PRS,f ɑː r ə t
+vâren,vâret,V;IMP;PL;2,f ɑː r ə t
+vâren,vâren,V;NFIN,f ɑː r ə n
+vâren,vâre,V;SBJV;SG;1;PRS,f ɑː r ə
+vâren,vôrest,V;IND;SG;2;PST,f oː r ə s t
+vâren,vö̂rest,V;IND;SG;2;PST,f œː r ə s t
+vâren,vâren,V;SBJV;PL;PRS,f ɑː r ə n
+vâren,vâr,V;IMP;SG;2,f ɑː r
+vâren,vö̂re,V;SBJV;SG;1;PST,f œː r ə
+vâren,vôr,V;IND;SG;3;PST,f oː r
+vechten,vechtest,V;IND;SG;2;PRS,f ɛ x t ə s t
+vechten,vechtst,V;IND;SG;2;PRS,f ɛ x t s t
+vechten,vuchten,V;IND;PL;PST,f ʊ x t ə n
+vechten,vüchten,V;IND;PL;PST,f y x t ə n
+vechten,vüchtest,V;SBJV;SG;2;PST,f y x t ə s t
+vechten,vechtet,V;SBJV;SG;3;PRS,f ɛ x t ə t
+vechten,vüchte,V;SBJV;SG;3;PST,f y x t ə
+vechten,vechte,V;IND;SG;1;PRS,f ɛ x t ə
+vechten,vechten,V;IND;PL;PRS,f ɛ x t ə n
+vechten,tô vechtene,V;NFIN,t oː f ɛ x t ə n ə
+vechten,tô vechtende,V;NFIN,t oː f ɛ x t ə n d ə
+vechten,vüchten,V;SBJV;PL;PST,f y x t ə n
+vechten,vacht,V;IND;SG;1;PST,f a x t
+vechten,vechtest,V;SBJV;SG;2;PRS,f ɛ x t ə s t
+vechten,vechtet,V;IND;SG;3;PRS,f ɛ x t ə t
+vechten,vecht,V;IND;SG;3;PRS,f ɛ x t
+vechten,vechtet,V;IMP;PL;2,f ɛ x t ə t
+vechten,vechten,V;NFIN,f ɛ x t ə n
+vechten,vechte,V;SBJV;SG;1;PRS,f ɛ x t ə
+vechten,vuchtest,V;IND;SG;2;PST,f ʊ x t ə s t
+vechten,vüchtest,V;IND;SG;2;PST,f y x t ə s t
+vechten,vechten,V;SBJV;PL;PRS,f ɛ x t ə n
+vechten,vecht,V;IMP;SG;2,f ɛ x t
+vechten,vüchte,V;SBJV;SG;1;PST,f y x t ə
+vechten,vacht,V;IND;SG;3;PST,f a x t
+vö̂gen,vö̂gest,V;IND;SG;2;PRS,f œː ɣ ə s t
+vö̂gen,vö̂geden,V;IND;PL;PST,f œː ɣ ə ð ə n
+vö̂gen,vö̂gedest,V;SBJV;SG;2;PST,f œː ɣ ə d ə s t
+vö̂gen,vö̂get,V;SBJV;SG;3;PRS,f œː ɣ ə t
+vö̂gen,vö̂gede,V;SBJV;SG;3;PST,f œː ɣ ə ð ə
+vö̂gen,vö̂ge,V;IND;SG;1;PRS,f œː ɣ ə
+vö̂gen,vö̂gen,V;IND;PL;PRS,f œː ɣ ə n
+vö̂gen,tô vö̂gene,V;NFIN,t oː f œː ɣ ə n ə
+vö̂gen,tô vö̂gende,V;NFIN,t oː f œː ɣ ə n d ə
+vö̂gen,vö̂geden,V;SBJV;PL;PST,f œː ɣ ə ð ə n
+vö̂gen,vö̂gede,V;IND;SG;1;PST,f œː ɣ ə ð ə
+vö̂gen,vö̂gest,V;SBJV;SG;2;PRS,f œː ɣ ə s t
+vö̂gen,vö̂get,V;IND;SG;3;PRS,f œː ɣ ə t
+vö̂gen,vö̂get,V;IMP;PL;2,f œː ɣ ə t
+vö̂gen,vö̂gen,V;NFIN,f œː ɣ ə n
+vö̂gen,vö̂ge,V;SBJV;SG;1;PRS,f œː ɣ ə
+vö̂gen,vö̂gedest,V;IND;SG;2;PST,f œː ɣ ə d ə s t
+vö̂gen,vö̂gen,V;SBJV;PL;PRS,f œː ɣ ə n
+vö̂gen,vö̂ge,V;IMP;SG;2,f œː ɣ ə
+vö̂gen,vö̂gede,V;SBJV;SG;1;PST,f œː ɣ ə ð ə
+vö̂gen,vö̂gede,V;IND;SG;3;PST,f œː ɣ ə ð ə
+vorgēten,vorgētest,V;IND;SG;2;PRS,f ɔ r ɣ eː t ə s t
+vorgēten,vorgitst,V;IND;SG;2;PRS,f ɔ r ɣ ɪ t s t
+vorgēten,vorgâten,V;IND;PL;PST,f ɔ r ɣ ɑː t ə n
+vorgēten,vorgêten,V;IND;PL;PST,f ɔ r ɣ ɛː t ə n
+vorgēten,vorgêtest,V;SBJV;SG;2;PST,f ɔ r ɣ ɛː t ə s t
+vorgēten,vorgētet,V;SBJV;SG;3;PRS,f ɔ r ɣ eː t ə t
+vorgēten,vorgête,V;SBJV;SG;3;PST,f ɔ r ɣ ɛː t ə
+vorgēten,vorgēte,V;IND;SG;1;PRS,f ɔ r ɣ eː t ə
+vorgēten,vorgēten,V;IND;PL;PRS,f ɔ r ɣ eː t ə n
+vorgēten,tô vorgētene,V;NFIN,t oː f ɔ r ɣ eː t ə n ə
+vorgēten,tô vorgētende,V;NFIN,t oː f ɔ r ɣ eː t ə n d ə
+vorgēten,vorgêten,V;SBJV;PL;PST,f ɔ r ɣ ɛː t ə n
+vorgēten,vorgat,V;IND;SG;1;PST,f ɔ r ɣ aː t
+vorgēten,vorgētest,V;SBJV;SG;2;PRS,f ɔ r ɣ eː t ə s t
+vorgēten,vorgētet,V;IND;SG;3;PRS,f ɔ r ɣ eː t ə t
+vorgēten,vorgit,V;IND;SG;3;PRS,f ɔ r ɣ ɪ t
+vorgēten,vorgētet,V;IMP;PL;2,f ɔ r ɣ eː t ə t
+vorgēten,vorgēten,V;NFIN,f ɔ r ɣ eː t ə n
+vorgēten,vorgēte,V;SBJV;SG;1;PRS,f ɔ r ɣ eː t ə
+vorgēten,vorgâtest,V;IND;SG;2;PST,f ɔ r ɣ ɑː t ə s t
+vorgēten,vorgêtest,V;IND;SG;2;PST,f ɔ r ɣ ɛː t ə s t
+vorgēten,vorgēten,V;SBJV;PL;PRS,f ɔ r ɣ eː t ə n
+vorgēten,vorgit,V;IMP;SG;2,f ɔ r ɣ ɪ t
+vorgēten,vorgête,V;SBJV;SG;1;PST,f ɔ r ɣ ɛː t ə
+vorgēten,vorgat,V;IND;SG;3;PST,f ɔ r ɣ aː t
+vorsûpen,vorsü̂pest,V;IND;SG;2;PRS,f ɔ r s yː p ə s t
+vorsûpen,vorsü̂̂pst,V;IND;SG;2;PRS,f ɔ r s yː p s t
+vorsûpen,vorsōpen,V;IND;PL;PST,f ɔ r s oː p ə n
+vorsûpen,vorsȫpen,V;IND;PL;PST,f ɔ r s yː p ə n
+vorsûpen,vorsȫpest,V;SBJV;SG;2;PST,f ɔ r s yː p ə s t
+vorsûpen,vorsûpet,V;SBJV;SG;3;PRS,f ɔ r s uː p ə t
+vorsûpen,vorsȫpe,V;SBJV;SG;3;PST,f ɔ r s yː p ə
+vorsûpen,vorsûpe,V;IND;SG;1;PRS,f ɔ r s uː p ə
+vorsûpen,vorsûpen,V;IND;PL;PRS,f ɔ r s uː p ə n
+vorsûpen,tô vorsûpene,V;NFIN,t oː f ɔ r s uː p ə n ə
+vorsûpen,tô vorsûpende,V;NFIN,t oː f ɔ r s uː p ə n d ə
+vorsûpen,vorsȫpen,V;SBJV;PL;PST,f ɔ r s yː p ə n
+vorsûpen,vorsôp,V;IND;SG;1;PST,f ɔ r s oː p
+vorsûpen,vorsûpest,V;SBJV;SG;2;PRS,f ɔ r s uː p ə s t
+vorsûpen,vorsü̂pet,V;IND;SG;3;PRS,f ɔ r s yː p ə t
+vorsûpen,vorsü̂̂pt,V;IND;SG;3;PRS,f ɔ r s yː p t
+vorsûpen,vorsûpet,V;IMP;PL;2,f ɔ r s uː p ə t
+vorsûpen,vorsûpen,V;NFIN,f ɔ r s uː p ə n
+vorsûpen,vorsûpe,V;SBJV;SG;1;PRS,f ɔ r s uː p ə
+vorsûpen,vorsōpest,V;IND;SG;2;PST,f ɔ r s oː p ə s t
+vorsûpen,vorsȫpest,V;IND;SG;2;PST,f ɔ r s yː p ə s t
+vorsûpen,vorsûpen,V;SBJV;PL;PRS,f ɔ r s uː p ə n
+vorsûpen,vorsûp,V;IMP;SG;2,f ɔ r s uː p
+vorsûpen,vorsȫpe,V;SBJV;SG;1;PST,f ɔ r s yː p ə
+vorsûpen,vorsôp,V;IND;SG;3;PST,f ɔ r s oː p
+vorswinden,vorswindest,V;IND;SG;2;PRS,f ɔ r s w ɪ n d ə s t
+vorswinden,vorswintst,V;IND;SG;2;PRS,f ɔ r s w ɪ n t s t
+vorswinden,vorswunden,V;IND;PL;PST,f ɔ r s v ʊ n d ə n
+vorswinden,vorswünden,V;IND;PL;PST,f ɔ r s v ʏ n d ə n
+vorswinden,vorswündest,V;SBJV;SG;2;PST,f ɔ r s v ʏ n d ə s t
+vorswinden,vorswindet,V;SBJV;SG;3;PRS,f ɔ r s w ɪ n d ə t
+vorswinden,vorswünde,V;SBJV;SG;3;PST,f ɔ r s v ʏ n d ə
+vorswinden,vorswinde,V;IND;SG;1;PRS,f ɔ r s w ɪ n d ə
+vorswinden,vorswinden,V;IND;PL;PRS,f ɔ r s w ɪ n d ə n
+vorswinden,tô vorswindene,V;NFIN,t oː f ɔ r s w ɪ n d ə n ə
+vorswinden,tô vorswindende,V;NFIN,t oː f ɔ r s v ɪ n d ə n d ə
+vorswinden,vorswünden,V;SBJV;PL;PST,f ɔ r s v ʏ n d ə n
+vorswinden,vorswant,V;IND;SG;1;PST,f ɔ r s w a n t
+vorswinden,vorswindest,V;SBJV;SG;2;PRS,f ɔ r s w ɪ n d ə s t
+vorswinden,vorswindet,V;IND;SG;3;PRS,f ɔ r s w ɪ n d ə t
+vorswinden,vorswint,V;IND;SG;3;PRS,f ɔ r s w ɪ n t
+vorswinden,vorswindet,V;IMP;PL;2,f ɔ r s w ɪ n d ə t
+vorswinden,vorswinden,V;NFIN,f ɔ r s w ɪ n d ə n
+vorswinden,vorswinde,V;SBJV;SG;1;PRS,f ɔ r s w ɪ n d ə
+vorswinden,vorswundest,V;IND;SG;2;PST,f ɔ r s v ʊ n d ə s t
+vorswinden,vorswündest,V;IND;SG;2;PST,f ɔ r s v ʏ n d ə s t
+vorswinden,vorswinden,V;SBJV;PL;PRS,f ɔ r s w ɪ n d ə n
+vorswinden,vorswint,V;IMP;SG;2,f ɔ r s w ɪ n t
+vorswinden,vorswünde,V;SBJV;SG;1;PST,f ɔ r s v ʏ n d ə
+vorswinden,vorswant,V;IND;SG;3;PST,f ɔ r s w a n t
+wāren,wārest,V;IND;SG;2;PRS,w aː r ə s t
+wāren,wāreden,V;IND;PL;PST,w aː r ə d ə n
+wāren,wāredest,V;SBJV;SG;2;PST,w aː r ə d ə s t
+wāren,wāret,V;SBJV;SG;3;PRS,w aː r ə t
+wāren,wārede,V;SBJV;SG;3;PST,w aː r ə ð ə
+wāren,wāre,V;IND;SG;1;PRS,w aː r ə
+wāren,wāren,V;IND;PL;PRS,w aː r ə n
+wāren,tô wārene,V;NFIN,t oː w aː r ə n ə
+wāren,tô wārende,V;NFIN,t oː w aː r ə n d ə
+wāren,wāreden,V;SBJV;PL;PST,w aː r ə d ə n
+wāren,wārede,V;IND;SG;1;PST,w aː r ə ð ə
+wāren,wārest,V;SBJV;SG;2;PRS,w aː r ə s t
+wāren,wāret,V;IND;SG;3;PRS,w aː r ə t
+wāren,wāret,V;IMP;PL;2,w aː r ə t
+wāren,wāren,V;NFIN,w aː r ə n
+wāren,wāre,V;SBJV;SG;1;PRS,w aː r ə
+wāren,wāredest,V;IND;SG;2;PST,w aː r ə d ə s t
+wāren,wāren,V;SBJV;PL;PRS,w aː r ə n
+wāren,wāre,V;IMP;SG;2,w aː r ə
+wāren,wārede,V;SBJV;SG;1;PST,w aː r ə ð ə
+wāren,wārede,V;IND;SG;3;PST,w aː r ə ð ə
+werden,werdest,V;IND;SG;2;PRS,w ɛ r d ə s t
+werden,wertst,V;IND;SG;2;PRS,w ɛ r t s t
+werden,worden,V;IND;PL;PST,w ɔ r d ə n
+werden,wörden,V;IND;PL;PST,w œ r d ə n
+werden,wördest,V;SBJV;SG;2;PST,w œ r d ə s t
+werden,werdet,V;SBJV;SG;3;PRS,w ɛ r d ə t
+werden,wörde,V;SBJV;SG;3;PST,w œ r d ə
+werden,werde,V;IND;SG;1;PRS,w ɛ r d ə
+werden,werden,V;IND;PL;PRS,w ɛ r d ə n
+werden,tô werdene,V;NFIN,t oː w ɛ r d ə n ə
+werden,tô werdende,V;NFIN,t oː w ɛ r d ə n d ə
+werden,wörden,V;SBJV;PL;PST,w œ r d ə n
+werden,wart,V;IND;SG;1;PST,w a r t
+werden,werdest,V;SBJV;SG;2;PRS,w ɛ r d ə s t
+werden,werdet,V;IND;SG;3;PRS,w ɛ r d ə t
+werden,wert,V;IND;SG;3;PRS,w ɛ r t
+werden,werdet,V;IMP;PL;2,w ɛ r d ə t
+werden,werden,V;NFIN,w ɛ r d ə n
+werden,werde,V;SBJV;SG;1;PRS,w ɛ r d ə
+werden,wordest,V;IND;SG;2;PST,w ɔ r d ə s t
+werden,wördest,V;IND;SG;2;PST,w œ r d ə s t
+werden,werden,V;SBJV;PL;PRS,w ɛ r d ə n
+werden,wert,V;IMP;SG;2,w ɛ r t
+werden,wörde,V;SBJV;SG;1;PST,w œ r d ə
+werden,wart,V;IND;SG;3;PST,w a r t
+wölteren,wölterest,V;IND;SG;2;PRS,w œ l t ə r ə s t
+wölteren,wöltereden,V;IND;PL;PST,w œ l t ə r ə ð ə n
+wölteren,wölteredest,V;SBJV;SG;2;PST,w œ l t ə r ə d ə s t
+wölteren,wölteret,V;SBJV;SG;3;PRS,w œ l t ə r ə t
+wölteren,wölterede,V;SBJV;SG;3;PST,w œ l t ə r ə ð ə
+wölteren,wöltere,V;IND;SG;1;PRS,w œ l t ə r ə
+wölteren,wölteren,V;IND;PL;PRS,w œ l t ə r ə n
+wölteren,tô wölterene,V;NFIN,t oː w œ l t ə r ə n ə
+wölteren,tô wölterende,V;NFIN,t oː w œ l t ə r ə n d ə
+wölteren,wöltereden,V;SBJV;PL;PST,w œ l t ə r ə ð ə n
+wölteren,wölterede,V;IND;SG;1;PST,w œ l t ə r ə ð ə
+wölteren,wölterest,V;SBJV;SG;2;PRS,w œ l t ə r ə s t
+wölteren,wölteret,V;IND;SG;3;PRS,w œ l t ə r ə t
+wölteren,wölteret,V;IMP;PL;2,w œ l t ə r ə t
+wölteren,wölteren,V;NFIN,w œ l t ə r ə n
+wölteren,wöltere,V;SBJV;SG;1;PRS,w œ l t ə r ə
+wölteren,wölteredest,V;IND;SG;2;PST,w œ l t ə r ə d ə s t
+wölteren,wölteren,V;SBJV;PL;PRS,w œ l t ə r ə n
+wölteren,wöltere,V;IMP;SG;2,w œ l t ə r ə
+wölteren,wölterede,V;SBJV;SG;1;PST,w œ l t ə r ə ð ə
+wölteren,wölterede,V;IND;SG;3;PST,w œ l t ə r ə ð ə
+wrîten,wrîtest,V;IND;SG;2;PRS,w r iː t ə s t
+wrîten,wrîtst,V;IND;SG;2;PRS,w r iː t s t
+wrîten,wrēten,V;IND;PL;PST,w r eː t ə n
+wrîten,wrētest,V;SBJV;SG;2;PST,w r eː t ə s t
+wrîten,wrîtet,V;SBJV;SG;3;PRS,w r iː t ə t
+wrîten,wrēte,V;SBJV;SG;3;PST,v r eː t ə
+wrîten,wrîte,V;IND;SG;1;PRS,w r iː t ə
+wrîten,wrîten,V;IND;PL;PRS,w r iː t ə n
+wrîten,tô wrîtene,V;NFIN,t oː r iː t ə n ə
+wrîten,tô wrîtende,V;NFIN,t oː r iː t ə n d ə
+wrîten,wrēten,V;SBJV;PL;PST,w r eː t ə n
+wrîten,wrêt,V;IND;SG;1;PST,w r ɛː t
+wrîten,wrîtest,V;SBJV;SG;2;PRS,w r iː t ə s t
+wrîten,wrîtet,V;IND;SG;3;PRS,w r iː t ə t
+wrîten,wrît,V;IND;SG;3;PRS,w r iː t
+wrîten,wrîtet,V;IMP;PL;2,w r iː t ə t
+wrîten,wrîten,V;NFIN,w r iː t ə n
+wrîten,wrîte,V;SBJV;SG;1;PRS,w r iː t ə
+wrîten,wrētest,V;IND;SG;2;PST,w r eː t ə s t
+wrîten,wrîten,V;SBJV;PL;PRS,w r iː t ə n
+wrîten,wrît,V;IMP;SG;2,w r iː t
+wrîten,wrēte,V;SBJV;SG;1;PST,v r eː t ə
+wrîten,wrêt,V;IND;SG;3;PST,w r ɛː t
+bêden,bü̂dest,V;IND;SG;2;PRS,b yː d ə s t
+bêden,bü̂̂tst,V;IND;SG;2;PRS,b yː t s t
+bêden,bōden,V;IND;PL;PST,b oː d ə n
+bêden,bȫden,V;IND;PL;PST,b iː d ə n
+bêden,bȫdest,V;SBJV;SG;2;PST,b iː d ə s t
+bêden,bêdet,V;SBJV;SG;3;PRS,b eː d ə t
+bêden,bȫde,V;SBJV;SG;3;PST,b iː d ə
+bêden,bêde,V;IND;SG;1;PRS,b eː d ə
+bêden,bêden,V;IND;PL;PRS,b eː d ə n
+bêden,tô bêdene,V;NFIN,t oː b eː d ə n ə
+bêden,tô bêdende,V;NFIN,t oː b eː d ə n d ə
+bêden,bȫden,V;SBJV;PL;PST,b iː d ə n
+bêden,bôt,V;IND;SG;1;PST,b oː t
+bêden,bêdest,V;SBJV;SG;2;PRS,b eː d ə s t
+bêden,bü̂det,V;IND;SG;3;PRS,b yː d ə t
+bêden,bü̂̂t,V;IND;SG;3;PRS,b yː t
+bêden,bêdet,V;IMP;PL;2,b eː d ə t
+bêden,bêden,V;NFIN,b eː d ə n
+bêden,bêde,V;SBJV;SG;1;PRS,b eː d ə
+bêden,bōdest,V;IND;SG;2;PST,b ɔː d ə s t
+bêden,bȫdest,V;IND;SG;2;PST,b iː d ə s t
+bêden,bêden,V;SBJV;PL;PRS,b eː d ə n
+bêden,bêt,V;IMP;SG;2,b ɛː t
+bêden,bȫde,V;SBJV;SG;1;PST,b iː d ə
+bêden,bôt,V;IND;SG;3;PST,b oː t
+bedrîven,bedrîvest,V;IND;SG;2;PRS,b ə d r iː v ə s t
+bedrîven,bedrîfst,V;IND;SG;2;PRS,b ə d r iː f s t
+bedrîven,bedrēven,V;IND;PL;PST,b ə d r eː v ə n
+bedrîven,bedrēvest,V;SBJV;SG;2;PST,b ə d r eː v ə s t
+bedrîven,bedrîvet,V;SBJV;SG;3;PRS,b ə d r iː v ə t
+bedrîven,bedrēve,V;SBJV;SG;3;PST,b ə d r eː v ə
+bedrîven,bedrîve,V;IND;SG;1;PRS,b ə d r iː v ə
+bedrîven,bedrîven,V;IND;PL;PRS,b ə d r iː v ə n
+bedrîven,tô bedrîvene,V;NFIN,t oː b ə d r iː v ə n ə
+bedrîven,tô bedrîvende,V;NFIN,t oː b ə d r iː v ə n d ə
+bedrîven,bedrēven,V;SBJV;PL;PST,b ə d r eː v ə n
+bedrîven,bedrêf,V;IND;SG;1;PST,b ə d r eː f
+bedrîven,bedrîvest,V;SBJV;SG;2;PRS,b ə d r iː v ə s t
+bedrîven,bedrîvet,V;IND;SG;3;PRS,b ə d r iː v ə t
+bedrîven,bedrîft,V;IND;SG;3;PRS,b ə d r iː f t
+bedrîven,bedrîvet,V;IMP;PL;2,b ə d r iː v ə t
+bedrîven,bedrîven,V;NFIN,b ə d r iː v ə n
+bedrîven,bedrîve,V;SBJV;SG;1;PRS,b ə d r iː v ə
+bedrîven,bedrēvest,V;IND;SG;2;PST,b ə d r eː v ə s t
+bedrîven,bedrîven,V;SBJV;PL;PRS,b ə d r iː v ə n
+bedrîven,bedrîf,V;IMP;SG;2,b ə d r iː f
+bedrîven,bedrēve,V;SBJV;SG;1;PST,b ə d r eː v ə
+bedrîven,bedrêf,V;IND;SG;3;PST,b ə d r eː f
+beschrîven,beschrîvest,V;IND;SG;2;PRS,b ə s k r iː v ə s t
+beschrîven,beschrîfst,V;IND;SG;2;PRS,b ə ʃ r iː f s t
+beschrîven,beschrēven,V;IND;PL;PST,b ə ʃ r eː v ə n
+beschrîven,beschrēvest,V;SBJV;SG;2;PST,b ə s k r eː v ə s t
+beschrîven,beschrîvet,V;SBJV;SG;3;PRS,b ə s k r iː v ə t
+beschrîven,beschrēve,V;SBJV;SG;3;PST,b ə s k r eː v ə
+beschrîven,beschrîve,V;IND;SG;1;PRS,b ə s k r iː v ə
+beschrîven,beschrîven,V;IND;PL;PRS,b ə s k r iː v ə n
+beschrîven,tô beschrîvene,V;NFIN,t oː b ə s k r iː v ə n ə
+beschrîven,tô beschrîvende,V;NFIN,t oː b ə s k r iː v ə n d ə
+beschrîven,beschrēven,V;SBJV;PL;PST,b ə ʃ r eː v ə n
+beschrîven,beschrêf,V;IND;SG;1;PST,b ə ʃ r ɛː f
+beschrîven,beschrîvest,V;SBJV;SG;2;PRS,b ə s k r iː v ə s t
+beschrîven,beschrîvet,V;IND;SG;3;PRS,b ə s k r iː v ə t
+beschrîven,beschrîft,V;IND;SG;3;PRS,b ə ʃ r iː f t
+beschrîven,beschrîvet,V;IMP;PL;2,b ə s k r iː v ə t
+beschrîven,beschrîven,V;NFIN,b ə s k r iː v ə n
+beschrîven,beschrîve,V;SBJV;SG;1;PRS,b ə s k r iː v ə
+beschrîven,beschrēvest,V;IND;SG;2;PST,b ə s k r eː v ə s t
+beschrîven,beschrîven,V;SBJV;PL;PRS,b ə s k r iː v ə n
+beschrîven,beschrîf,V;IMP;SG;2,b ə ʃ r iː f
+beschrîven,beschrēve,V;SBJV;SG;1;PST,b ə s k r eː v ə
+beschrîven,beschrêf,V;IND;SG;3;PST,b ə ʃ r ɛː f
+binden,bindest,V;IND;SG;2;PRS,b ɪ n d ə s t
+binden,bintst,V;IND;SG;2;PRS,b ɪ n t s t
+binden,bunden,V;IND;PL;PST,b ʊ n d ə n
+binden,bünden,V;IND;PL;PST,b ʏ n d ə n
+binden,bündest,V;SBJV;SG;2;PST,b ʏ n d ə s t
+binden,bindet,V;SBJV;SG;3;PRS,b ɪ n d ə t
+binden,bünde,V;SBJV;SG;3;PST,b y n d ə
+binden,binde,V;IND;SG;1;PRS,b ɪ n d ə
+binden,binden,V;IND;PL;PRS,b ɪ n d ə n
+binden,tô bindene,V;NFIN,t oː b ɪ n d ə n ə
+binden,tô bindende,V;NFIN,t oː b ɪ n d ə n d ə
+binden,bünden,V;SBJV;PL;PST,b ʏ n d ə n
+binden,bant,V;IND;SG;1;PST,b a n t
+binden,bindest,V;SBJV;SG;2;PRS,b ɪ n d ə s t
+binden,bindet,V;IND;SG;3;PRS,b ɪ n d ə t
+binden,bint,V;IND;SG;3;PRS,b ɪ n t
+binden,bindet,V;IMP;PL;2,b ɪ n d ə t
+binden,binden,V;NFIN,b ɪ n d ə n
+binden,binde,V;SBJV;SG;1;PRS,b ɪ n d ə
+binden,bundest,V;IND;SG;2;PST,b ʊ n d ə s t
+binden,bündest,V;IND;SG;2;PST,b ʏ n d ə s t
+binden,binden,V;SBJV;PL;PRS,b ɪ n d ə n
+binden,bint,V;IMP;SG;2,b ɪ n t
+binden,bünde,V;SBJV;SG;1;PST,b y n d ə
+binden,bant,V;IND;SG;3;PST,b a n t
+brûken,brûkest,V;IND;SG;2;PRS,b r uː k ə s t
+brûken,brûkeden,V;IND;PL;PST,b r uː k ə ð ə n
+brûken,brûkedest,V;SBJV;SG;2;PST,b r uː k ə d ə s t
+brûken,brûket,V;SBJV;SG;3;PRS,b r uː k ə t
+brûken,brûkede,V;SBJV;SG;3;PST,b r uː k ə ð ə
+brûken,brûke,V;IND;SG;1;PRS,b r uː k ə
+brûken,brûken,V;IND;PL;PRS,b r uː k ə n
+brûken,tô brûkene,V;NFIN,t oː b r uː k ə n ə
+brûken,tô brûkende,V;NFIN,t oː b r uː k ə n d ə
+brûken,brûkeden,V;SBJV;PL;PST,b r uː k ə ð ə n
+brûken,brûkede,V;IND;SG;1;PST,b r uː k ə ð ə
+brûken,brûkest,V;SBJV;SG;2;PRS,b r uː k ə s t
+brûken,brûket,V;IND;SG;3;PRS,b r uː k ə t
+brûken,brûket,V;IMP;PL;2,b r uː k ə t
+brûken,brûken,V;NFIN,b r uː k ə n
+brûken,brûke,V;SBJV;SG;1;PRS,b r uː k ə
+brûken,brûkedest,V;IND;SG;2;PST,b r uː k ə d ə s t
+brûken,brûken,V;SBJV;PL;PRS,b r uː k ə n
+brûken,brûke,V;IMP;SG;2,b r uː k ə
+brûken,brûkede,V;SBJV;SG;1;PST,b r uː k ə ð ə
+brûken,brûkede,V;IND;SG;3;PST,b r uː k ə ð ə
+drêpen,drü̂pest,V;IND;SG;2;PRS,d r yː p ə s t
+drêpen,drü̂̂pst,V;IND;SG;2;PRS,d r yː p s t
+drêpen,drōpen,V;IND;PL;PST,d r oː p ə n
+drêpen,drȫpen,V;IND;PL;PST,d r yː p ə n
+drêpen,drȫpest,V;SBJV;SG;2;PST,d r yː p ə s t
+drêpen,drêpet,V;SBJV;SG;3;PRS,d r eː p ə t
+drêpen,drȫpe,V;SBJV;SG;3;PST,d r yː p ə
+drêpen,drêpe,V;IND;SG;1;PRS,d r ɛː p ə
+drêpen,drêpen,V;IND;PL;PRS,d r eː p ə n
+drêpen,tô drêpene,V;NFIN,t oː d r eː p ə n ə
+drêpen,tô drêpende,V;NFIN,t oː d r eː p ə n d ə
+drêpen,drȫpen,V;SBJV;PL;PST,d r yː p ə n
+drêpen,drôp,V;IND;SG;1;PST,d r oː p
+drêpen,drêpest,V;SBJV;SG;2;PRS,d r ɛː p ə s t
+drêpen,drü̂pet,V;IND;SG;3;PRS,d r yː p ə t
+drêpen,drü̂̂pt,V;IND;SG;3;PRS,d r yː p t
+drêpen,drêpet,V;IMP;PL;2,d r eː p ə t
+drêpen,drêpen,V;NFIN,d r eː p ə n
+drêpen,drêpe,V;SBJV;SG;1;PRS,d r ɛː p ə
+drêpen,drōpest,V;IND;SG;2;PST,d r oː p ə s t
+drêpen,drȫpest,V;IND;SG;2;PST,d r yː p ə s t
+drêpen,drêpen,V;SBJV;PL;PRS,d r eː p ə n
+drêpen,drêp,V;IMP;SG;2,d r ɛː p
+drêpen,drȫpe,V;SBJV;SG;1;PST,d r yː p ə
+drêpen,drôp,V;IND;SG;3;PST,d r oː p
+drinken,drinkest,V;IND;SG;2;PRS,d r i ŋ k ə s t
+drinken,drinkst,V;IND;SG;2;PRS,d r ɪ ŋ k s t
+drinken,drunken,V;IND;PL;PST,d r u ŋ k ə n
+drinken,drünken,V;IND;PL;PST,d r y ŋ k ə n
+drinken,drünkest,V;SBJV;SG;2;PST,d r y ŋ k ə s t
+drinken,drinket,V;SBJV;SG;3;PRS,d r i ŋ k ə t
+drinken,drünke,V;SBJV;SG;3;PST,d r y ŋ k ə
+drinken,drinke,V;IND;SG;1;PRS,d r i ŋ k ə
+drinken,drinken,V;IND;PL;PRS,d r i ŋ k ə n
+drinken,tô drinkene,V;NFIN,t oː d r i ŋ k ə n ə
+drinken,tô drinkende,V;NFIN,t oː d r i ŋ k ə n d ə
+drinken,drünken,V;SBJV;PL;PST,d r y ŋ k ə n
+drinken,drank,V;IND;SG;1;PST,d r a ŋ k
+drinken,drinkest,V;SBJV;SG;2;PRS,d r i ŋ k ə s t
+drinken,drinket,V;IND;SG;3;PRS,d r i ŋ k ə t
+drinken,drinkt,V;IND;SG;3;PRS,d r ɪ ŋ k t
+drinken,drinket,V;IMP;PL;2,d r i ŋ k ə t
+drinken,drinken,V;NFIN,d r i ŋ k ə n
+drinken,drinke,V;SBJV;SG;1;PRS,d r i ŋ k ə
+drinken,drunkest,V;IND;SG;2;PST,d r u ŋ k ə s t
+drinken,drünkest,V;IND;SG;2;PST,d r y ŋ k ə s t
+drinken,drinken,V;SBJV;PL;PRS,d r i ŋ k ə n
+drinken,drink,V;IMP;SG;2,d r ɪ ŋ k
+drinken,drünke,V;SBJV;SG;1;PST,d r y ŋ k ə
+drinken,drank,V;IND;SG;3;PST,d r a ŋ k
+achten,achtest,V;IND;SG;2;PRS,a x t ə s t
+achten,achteden,V;IND;PL;PST,a x t ə d ə n
+achten,achtedest,V;SBJV;SG;2;PST,a x t ə d ə s t
+achten,achtet,V;SBJV;SG;3;PRS,a x t ə t
+achten,achtede,V;SBJV;SG;3;PST,a x t ə d ə
+achten,achte,V;IND;SG;1;PRS,a x t ə
+achten,achten,V;IND;PL;PRS,a x t ə n
+achten,tô achtene,V;NFIN,t oː a x t ə n ə
+achten,tô achtende,V;NFIN,t oː a x t ə n d ə
+achten,achteden,V;SBJV;PL;PST,a x t ə d ə n
+achten,achtede,V;IND;SG;1;PST,a x t ə d ə
+achten,achtest,V;SBJV;SG;2;PRS,a x t ə s t
+achten,achtet,V;IND;SG;3;PRS,a x t ə t
+achten,achtet,V;IMP;PL;2,a x t ə t
+achten,achten,V;NFIN,a x t ə n
+achten,achte,V;SBJV;SG;1;PRS,a x t ə
+achten,achtedest,V;IND;SG;2;PST,a x t ə d ə s t
+achten,achten,V;SBJV;PL;PRS,a x t ə n
+achten,achte,V;IMP;SG;2,a x t ə
+achten,achtede,V;SBJV;SG;1;PST,a x t ə d ə
+achten,achtede,V;IND;SG;3;PST,a x t ə d ə

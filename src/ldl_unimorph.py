@@ -61,8 +61,8 @@ for lang in tqdm(langs_to_process, desc="Processing langs"):
 
     if count == limit:
         break
-    for sample_seed in range(3):
-        for split_seed in range(3):
+    for sample_seed in range(5):
+        for split_seed in range(5):
 
             # --- Sample lemmas to control vocabulary size ---
             random.seed(sample_seed)
@@ -159,7 +159,7 @@ for lang in tqdm(langs_to_process, desc="Processing langs"):
                 with open(output_filename, "w", encoding="utf-8") as f:
                     # Update header to reflect new columns
                     print(
-                        "lemma\tform\tparadigm_slot\tform_freq\tlemma_freq\tphonemicized\tpredicted_phonemicized",
+                        "lemma\tform\tparadigm_slot\tform_freq\tlemma_freq\tphonemic_form\tpredicted_phonemic_form",
                         file=f,
                     )
 

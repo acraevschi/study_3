@@ -1,0 +1,500 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+auka,aukande,V;V.PTCP;PRS,0.000912,0.0024776666666666,² œ ʊː k a n d ə
+auka,aukar,V;PRS,0.001249,0.0024776666666666,² œ ʉ̯ k ɑ r
+auka,aukast,V;NFIN;PASS,6.9e-05,0.0024776666666666,² œ ʉ̯ k a s t
+auka,auka,V;IMP,0.004212,0.0024776666666666,² œ ʊː k ɑ
+auka,auka,V;PST,0.004212,0.0024776666666666,² œ ʊː k ɑ
+auka,auka,V;V.PTCP;PST,0.004212,0.0024776666666666,² œ ʊː k ɑ
+auke,aukande,V;V.PTCP;PRS,0.000912,0.002178,² œ ʊː k a n d ə
+auke,aukar,V;PRS,0.001249,0.002178,² œ ʉ̯ k ɑ r
+auke,aukast,V;NFIN;PASS,6.9e-05,0.002178,² œ ʉ̯ k a s t
+auke,auka,V;PST,0.004212,0.002178,² œ ʊː k ɑ
+auke,auka,V;V.PTCP;PST,0.004212,0.002178,² œ ʊː k ɑ
+auke,auke,V;IMP,0.002414,0.002178,² œ ʊ̯ k ə
+bruka,brukande,V;V.PTCP;PRS,7.4e-05,0.0020668333333333,² b r ʉː k a n d ə
+bruka,brukar,V;PRS,0.003786,0.0020668333333333,² b r ʉː k ɑ r
+bruka,brukast,V;NFIN;PASS,0.002112,0.0020668333333333,² b r ʉː k a s t
+bruka,bruka,V;IMP,0.002143,0.0020668333333333,² b r ʉː k ɑ
+bruka,bruka,V;PST,0.002143,0.0020668333333333,² b r ʉː k ɑ
+bruka,bruka,V;V.PTCP;PST,0.002143,0.0020668333333333,² b r ʉː k ɑ
+byggja,bygde,V;PST,0.001653,0.0014498333333333,² b ʏ ɡ d ə
+byggja,bygd,V;V.PTCP;PST,0.004474,0.0014498333333333,b ʏ ɡ d
+byggja,byggjande,V;V.PTCP;PRS,9e-06,0.0014498333333333,² b ʏ ɡː a n d ə
+byggja,byggjast,V;NFIN;PASS,0.000286,0.0014498333333333,² b ʏ jː a s t
+byggja,byggjer,V;PRS,0.001206,0.0014498333333333,² b ʏ jː ə r
+byggja,bygg,V;IMP,0.001071,0.0014498333333333,b ʏ ɡː
+byggje,bygde,V;PST,0.001653,0.0014498333333333,² b ʏ ɡ d ə
+byggje,bygd,V;V.PTCP;PST,0.004474,0.0014498333333333,b ʏ ɡ d
+byggje,byggjande,V;V.PTCP;PRS,9e-06,0.0014498333333333,² b ʏ ɡː a n d ə
+byggje,byggjast,V;NFIN;PASS,0.000286,0.0014498333333333,² b ʏ jː a s t
+byggje,byggjer,V;PRS,0.001206,0.0014498333333333,² b ʏ jː ə r
+byggje,bygg,V;IMP,0.001071,0.0014498333333333,b ʏ ɡː
+byrja,bør,V;PRS,0.00373,0.0017285555555555,b øː r
+byrja,burde,V;PST,0.001572,0.0017285555555555,² b ʉː r ə
+byrja,burt,V;V.PTCP;PST,0.000312,0.0017285555555555,b ʉ r t
+byrja,byrjande,V;V.PTCP;PRS,1.9e-05,0.0017285555555555,² b ʏ r j a n d ə
+byrja,byrjar,V;PRS,0.001263,0.0017285555555555,² b ʏ r j ɑ r
+byrja,byrjast,V;NFIN;PASS,0.0,0.0017285555555555,² b ʏ r j a s t
+byrja,byrja,V;IMP,0.002887,0.0017285555555555,² b ʏ r j ɑ
+byrja,byrja,V;PST,0.002887,0.0017285555555555,² b ʏ r j ɑ
+byrja,byrja,V;V.PTCP;PST,0.002887,0.0017285555555555,² b ʏ r j ɑ
+byrje,bør,V;PRS,0.00373,0.0014436666666666,b øː r
+byrje,burde,V;PST,0.001572,0.0014436666666666,² b ʉː r ə
+byrje,burt,V;V.PTCP;PST,0.000312,0.0014436666666666,b ʉ r t
+byrje,byrjande,V;V.PTCP;PRS,1.9e-05,0.0014436666666666,² b ʏ r j a n d ə
+byrje,byrjar,V;PRS,0.001263,0.0014436666666666,² b ʏ r j ɑ r
+byrje,byrjast,V;NFIN;PASS,0.0,0.0014436666666666,² b ʏ r j a s t
+byrje,byrja,V;PST,0.002887,0.0014436666666666,² b ʏ r j ɑ
+byrje,byrja,V;V.PTCP;PST,0.002887,0.0014436666666666,² b ʏ r j ɑ
+byrje,byrje,V;IMP,0.000323,0.0014436666666666,² b ʏ r j ə
+få,fåande,V;V.PTCP;PRS,0.0,0.0093505,² f ɔː a n d ə
+få,fåast,V;NFIN;PASS,7e-06,0.0093505,² f oː a s t
+få,fådde,V;PST,1e-06,0.0093505,² f ɔ dː ə
+få,fådd,V;V.PTCP;PST,2e-06,0.0093505,f ɔ dː
+få,får,V;PRS,0.016281,0.0093505,f oː r
+få,fått,V;V.PTCP;PST,0.009106,0.0093505,f ɔ tː
+få,få,V;IMP,0.021868,0.0093505,f oː
+få,fekk,V;PST,0.027539,0.0093505,f ɛ kː
+finna,fann,V;PST,0.003595,0.0042051666666666,f a nː
+finna,finnande,V;V.PTCP;PRS,0.0,0.0042051666666666,² f ɪ nː a n d ə
+finna,finnast,V;NFIN;PASS,0.000491,0.0042051666666666,² f ɪ nː ɑ s t
+finna,finn,V;IMP,0.009142,0.0042051666666666,f ɪ nː
+finna,finn,V;PRS,0.009142,0.0042051666666666,f ɪ nː
+finna,funne,V;V.PTCP;PST,0.002861,0.0042051666666666,² f ʊ nː ə
+finnast,fanst,V;PST,0.000715,0.0021966666666666,f a n s t
+finnast,finst,V;PRS,0.005831,0.0021966666666666,f ɪ n s t
+finnast,funnest,V;V.PTCP;PST,4.4e-05,0.0021966666666666,² f ʊ nː ə s t
+finne,fann,V;PST,0.003595,0.0042051666666666,f a nː
+finne,finnande,V;V.PTCP;PRS,0.0,0.0042051666666666,² f ɪ nː a n d ə
+finne,finnast,V;NFIN;PASS,0.000491,0.0042051666666666,² f ɪ nː ɑ s t
+finne,finn,V;IMP,0.009142,0.0042051666666666,f ɪ nː
+finne,finn,V;PRS,0.009142,0.0042051666666666,f ɪ nː
+finne,funne,V;V.PTCP;PST,0.002861,0.0042051666666666,² f ʊ nː ə
+føra,førande,V;V.PTCP;PRS,5.6e-05,0.0043995,² f øː r a n ə
+føra,førast,V;NFIN;PASS,0.000165,0.0043995,² f øː r a s t
+føra,fører,V;PRS,0.001788,0.0043995,² f øː r ə r
+føra,førte,V;PST,0.00157,0.0043995,² f œ ʂ t ə
+føra,ført,V;V.PTCP;PST,0.001434,0.0043995,f œ ʂ t
+føra,før,V;IMP,0.021384,0.0043995,f øː r
+føre,førande,V;V.PTCP;PRS,5.6e-05,0.0043995,² f øː r a n ə
+føre,førast,V;NFIN;PASS,0.000165,0.0043995,² f øː r a s t
+føre,fører,V;PRS,0.001788,0.0043995,² f øː r ə r
+føre,førte,V;PST,0.00157,0.0043995,² f œ ʂ t ə
+føre,ført,V;V.PTCP;PST,0.001434,0.0043995,f œ ʂ t
+føre,før,V;IMP,0.021384,0.0043995,f øː r
+fortelja,fortalde,V;PST,0.001938,0.0034918333333333,² f ɔ r t a l d ə
+fortelja,fortalt,V;V.PTCP;PST,0.000785,0.0034918333333333,f ɔ r t a l t
+fortelja,forteljande,V;V.PTCP;PRS,5.2e-05,0.0034918333333333,f ɔ r t ɛ l j a n d ə
+fortelja,forteljast,V;NFIN;PASS,2.2e-05,0.0034918333333333,f ɔ r t ɛ l j a s t
+fortelja,fortel,V;IMP,0.009077,0.0034918333333333,f ɔ r t ɛ l
+fortelja,fortel,V;PRS,0.009077,0.0034918333333333,f ɔ r t ɛ l
+fortelje,fortalde,V;PST,0.001938,0.0034918333333333,² f ɔ r t a l d ə
+fortelje,fortalt,V;V.PTCP;PST,0.000785,0.0034918333333333,f ɔ r t a l t
+fortelje,forteljande,V;V.PTCP;PRS,5.2e-05,0.0034918333333333,f ɔ r t ɛ l j a n d ə
+fortelje,forteljast,V;NFIN;PASS,2.2e-05,0.0034918333333333,f ɔ r t ɛ l j a s t
+fortelje,fortel,V;IMP,0.009077,0.0034918333333333,f ɔ r t ɛ l
+fortelje,fortel,V;PRS,0.009077,0.0034918333333333,f ɔ r t ɛ l
+gå,gåande,V;V.PTCP;PRS,0.000309,0.0046178333333333,² ɡ ɔː a n d ə
+gå,gåast,V;NFIN;PASS,1.1e-05,0.0046178333333333,² ɡ oː a s t
+gå,gådde,V;PST,7e-06,0.0046178333333333,² ɡ ɔ dː ə
+gå,gådd,V;V.PTCP;PST,2e-06,0.0046178333333333,ɡ ɔ dː
+gå,går,V;PRS,0.018122,0.0046178333333333,ɡ oː r
+gå,gå,V;IMP,0.009256,0.0046178333333333,ɡ oː
+gi,gav,V;PST,0.004427,0.0020525,ɡ ɑː ʋ
+gi,gir,V;PRS,0.00337,0.0020525,j iː r
+gi,gitt,V;V.PTCP;PST,0.002391,0.0020525,j ɪ tː
+gi,givande,V;V.PTCP;PRS,5.5e-05,0.0020525,² j iː ʋ a n d ə
+gi,givast,V;NFIN;PASS,1.8e-05,0.0020525,² j iː ʋ a s t
+gi,gi,V;IMP,0.002054,0.0020525,j iː
+gje,gav,V;PST,0.004427,0.0024353333333333,ɡ ɑː ʋ
+gje,gjevande,V;V.PTCP;PRS,4e-05,0.0024353333333333,² j eː v a n d ə
+gje,gjevast,V;NFIN;PASS,0.000149,0.0024353333333333,j eː v a s t
+gje,gjeve,V;V.PTCP;PST,0.002016,0.0024353333333333,² j eː ʋ ə
+gje,gje,V;IMP,0.00427,0.0024353333333333,j eː
+gje,gjev,V;PRS,0.00371,0.0024353333333333,j eː v
+gjera,gjerande,V;V.PTCP;PRS,1e-06,0.0066121666666666,² j eː r a n d ə
+gjera,gjerast,V;NFIN;PASS,0.001602,0.0066121666666666,j eː r a s t
+gjera,gjer,V;IMP,0.01189,0.0066121666666666,j eː r
+gjera,gjer,V;PRS,0.01189,0.0066121666666666,j eː r
+gjera,gjorde,V;PST,0.006486,0.0066121666666666,² j uː r ə
+gjera,gjort,V;V.PTCP;PST,0.007804,0.0066121666666666,j uː r t
+gjere,gjerande,V;V.PTCP;PRS,1e-06,0.0066121666666666,² j eː r a n d ə
+gjere,gjerast,V;NFIN;PASS,0.001602,0.0066121666666666,j eː r a s t
+gjere,gjer,V;IMP,0.01189,0.0066121666666666,j eː r
+gjere,gjer,V;PRS,0.01189,0.0066121666666666,j eː r
+gjere,gjorde,V;PST,0.006486,0.0066121666666666,² j uː r ə
+gjere,gjort,V;V.PTCP;PST,0.007804,0.0066121666666666,j uː r t
+gjeva,gav,V;PST,0.004427,0.002342,ɡ ɑː ʋ
+gjeva,gjevande,V;V.PTCP;PRS,4e-05,0.002342,² j eː v a n d ə
+gjeva,gjevast,V;NFIN;PASS,0.000149,0.002342,j eː v a s t
+gjeva,gjeve,V;V.PTCP;PST,0.002016,0.002342,² j eː ʋ ə
+gjeva,gjev,V;IMP,0.00371,0.002342,j eː v
+gjeva,gjev,V;PRS,0.00371,0.002342,j eː v
+gjeve,gav,V;PST,0.004427,0.002342,ɡ ɑː ʋ
+gjeve,gjevande,V;V.PTCP;PRS,4e-05,0.002342,² j eː v a n d ə
+gjeve,gjevast,V;NFIN;PASS,0.000149,0.002342,j eː v a s t
+gjeve,gjeve,V;V.PTCP;PST,0.002016,0.002342,² j eː ʋ ə
+gjeve,gjev,V;IMP,0.00371,0.002342,j eː v
+gjeve,gjev,V;PRS,0.00371,0.002342,j eː v
+ha,hadde,V;PST,0.04241,0.0392443333333333,² h a dː ə
+ha,har,V;PRS,0.165712,0.0392443333333333,h ɑː r
+ha,hatt,V;V.PTCP;PST,0.00632,0.0392443333333333,h a tː
+ha,havande,V;V.PTCP;PRS,1e-06,0.0392443333333333,² h ɑː ʋ ɑ n d ə
+ha,havast,V;NFIN;PASS,0.0,0.0392443333333333,² h ɑː ʋ ɑ s t
+ha,ha,V;IMP,0.021023,0.0392443333333333,h ɑː
+halda,haldande,V;V.PTCP;PRS,1e-06,0.0021885714285714,² h a l a n d ə
+halda,haldast,V;NFIN;PASS,0.000268,0.0021885714285714,² h a l d a s t
+halda,halde,V;V.PTCP;PST,0.005312,0.0021885714285714,² h ɑ l d ə
+halda,haldt,V;IMP,0.000263,0.0021885714285714,h a l t
+halda,hald,V;IMP,0.000536,0.0021885714285714,h ɑ l d
+halda,heldt,V;PST,0.003331,0.0021885714285714,h ɛ l t
+halda,held,V;PRS,0.005609,0.0021885714285714,h ɛ l d
+halde,haldande,V;V.PTCP;PRS,1e-06,0.0021885714285714,² h a l a n d ə
+halde,haldast,V;NFIN;PASS,0.000268,0.0021885714285714,² h a l d a s t
+halde,halde,V;V.PTCP;PST,0.005312,0.0021885714285714,² h ɑ l d ə
+halde,haldt,V;IMP,0.000263,0.0021885714285714,h a l t
+halde,hald,V;IMP,0.000536,0.0021885714285714,h ɑ l d
+halde,heldt,V;PST,0.003331,0.0021885714285714,h ɛ l t
+halde,held,V;PRS,0.005609,0.0021885714285714,h ɛ l d
+hava,hadde,V;PST,0.04241,0.0358075,² h a dː ə
+hava,har,V;PRS,0.165712,0.0358075,h ɑː r
+hava,hatt,V;V.PTCP;PST,0.00632,0.0358075,h a tː
+hava,havande,V;V.PTCP;PRS,1e-06,0.0358075,² h ɑː ʋ ɑ n d ə
+hava,havast,V;NFIN;PASS,0.0,0.0358075,² h ɑː ʋ ɑ s t
+hava,hav,V;IMP,0.000402,0.0358075,h ɑː ʋ
+have,hadde,V;PST,0.04241,0.0358075,² h a dː ə
+have,har,V;PRS,0.165712,0.0358075,h ɑː r
+have,hatt,V;V.PTCP;PST,0.00632,0.0358075,h a tː
+have,havande,V;V.PTCP;PRS,1e-06,0.0358075,² h ɑː ʋ ɑ n d ə
+have,havast,V;NFIN;PASS,0.0,0.0358075,² h ɑː ʋ ɑ s t
+have,hav,V;IMP,0.000402,0.0358075,h ɑː ʋ
+heile,heilande,V;V.PTCP;PRS,2e-06,0.00315,² h ɛ ɪː l a n d ə
+heile,heilar,V;PRS,3e-06,0.00315,² h ɛ ɪː l a r
+heile,heilast,V;NFIN;PASS,1e-06,0.00315,² h ɛ ɪː l a s t
+heile,heila,V;PST,3.1e-05,0.00315,² h ɛ ɪː l a
+heile,heila,V;V.PTCP;PST,3.1e-05,0.00315,² h ɛ ɪː l a
+heile,heile,V;IMP,0.018832,0.00315,² h ɛ ɪː l ə
+kalla,kallande,V;V.PTCP;PRS,2e-06,0.0027388333333333,² k a lː a n d ə
+kalla,kallar,V;PRS,0.001618,0.0027388333333333,² k a lː a r
+kalla,kallast,V;NFIN;PASS,0.000443,0.0027388333333333,² k a lː a s t
+kalla,kalla,V;IMP,0.00479,0.0027388333333333,² k a lː ɑ
+kalla,kalla,V;PST,0.00479,0.0027388333333333,² k a lː ɑ
+kalla,kalla,V;V.PTCP;PST,0.00479,0.0027388333333333,² k a lː ɑ
+kjenna,kjende,V;PST,0.00338,0.0014921666666666,² ç ɛ n d ə
+kjenna,kjennande,V;V.PTCP;PRS,0.0,0.0014921666666666,² ç ɛ nː a n d ə
+kjenna,kjennast,V;NFIN;PASS,9.5e-05,0.0014921666666666,ç ɛ nː a s t
+kjenna,kjenner,V;PRS,0.002822,0.0014921666666666,ç ɛ nː ə r
+kjenna,kjenn,V;IMP,2.1e-05,0.0014921666666666,ç ɛ nː
+kjenna,kjent,V;V.PTCP;PST,0.002635,0.0014921666666666,ç ɛ n t
+kjenne,kjende,V;PST,0.00338,0.0014921666666666,² ç ɛ n d ə
+kjenne,kjennande,V;V.PTCP;PRS,0.0,0.0014921666666666,² ç ɛ nː a n d ə
+kjenne,kjennast,V;NFIN;PASS,9.5e-05,0.0014921666666666,ç ɛ nː a s t
+kjenne,kjenner,V;PRS,0.002822,0.0014921666666666,ç ɛ nː ə r
+kjenne,kjenn,V;IMP,2.1e-05,0.0014921666666666,ç ɛ nː
+kjenne,kjent,V;V.PTCP;PST,0.002635,0.0014921666666666,ç ɛ n t
+koma,kjem,V;PRS,0.022826,0.0122911666666666,ç ɛ mː
+koma,komande,V;V.PTCP;PRS,0.001013,0.0122911666666666,² k uː m a n d ə
+koma,komast,V;NFIN;PASS,0.0,0.0122911666666666,² k uː m a s t
+koma,kome,V;V.PTCP;PST,0.006514,0.0122911666666666,² k uː m ə
+koma,kom,V;IMP,0.021697,0.0122911666666666,k u m
+koma,kom,V;PST,0.021697,0.0122911666666666,k u m
+kome,kjem,V;PRS,0.022826,0.0122911666666666,ç ɛ mː
+kome,komande,V;V.PTCP;PRS,0.001013,0.0122911666666666,² k uː m a n d ə
+kome,komast,V;NFIN;PASS,0.0,0.0122911666666666,² k uː m a s t
+kome,kome,V;V.PTCP;PST,0.006514,0.0122911666666666,² k uː m ə
+kome,kom,V;IMP,0.021697,0.0122911666666666,k u m
+kome,kom,V;PST,0.021697,0.0122911666666666,k u m
+komma,kjem,V;PRS,0.022826,0.0113291666666666,ç ɛ mː
+komma,kommande,V;V.PTCP;PRS,0.000188,0.0113291666666666,² k ɔ m a n d ə
+komma,kommast,V;NFIN;PASS,0.0,0.0113291666666666,² k ɔ mː ɑ s t
+komma,komme,V;V.PTCP;PST,0.001567,0.0113291666666666,² k ɔ m m ə
+komma,kom,V;IMP,0.021697,0.0113291666666666,k u m
+komma,kom,V;PST,0.021697,0.0113291666666666,k u m
+komme,kjem,V;PRS,0.022826,0.0113291666666666,ç ɛ mː
+komme,kommande,V;V.PTCP;PRS,0.000188,0.0113291666666666,² k ɔ m a n d ə
+komme,kommast,V;NFIN;PASS,0.0,0.0113291666666666,² k ɔ mː ɑ s t
+komme,komme,V;V.PTCP;PST,0.001567,0.0113291666666666,² k ɔ m m ə
+komme,kom,V;IMP,0.021697,0.0113291666666666,k u m
+komme,kom,V;PST,0.021697,0.0113291666666666,k u m
+ligga,låg,V;PST,0.004495,0.0058998333333333,l oː ɡ
+ligga,lege,V;V.PTCP;PST,0.000697,0.0058998333333333,² l eː ɡ ə
+ligga,liggande,V;V.PTCP;PRS,0.000342,0.0058998333333333,² l ɪ ɡː a n d ə
+ligga,liggast,V;NFIN;PASS,1e-06,0.0058998333333333,² l ɪ ɡː a s t
+ligga,ligg,V;IMP,0.014932,0.0058998333333333,l ɪ ɡː
+ligga,ligg,V;PRS,0.014932,0.0058998333333333,l ɪ ɡː
+ligge,låg,V;PST,0.004495,0.0058998333333333,l oː ɡ
+ligge,lege,V;V.PTCP;PST,0.000697,0.0058998333333333,² l eː ɡ ə
+ligge,liggande,V;V.PTCP;PRS,0.000342,0.0058998333333333,² l ɪ ɡː a n d ə
+ligge,liggast,V;NFIN;PASS,1e-06,0.0058998333333333,² l ɪ ɡː a s t
+ligge,ligg,V;IMP,0.014932,0.0058998333333333,l ɪ ɡː
+ligge,ligg,V;PRS,0.014932,0.0058998333333333,l ɪ ɡː
+liggja,låg,V;PST,0.004495,0.0059055,l oː ɡ
+liggja,lege,V;V.PTCP;PST,0.000697,0.0059055,² l eː ɡ ə
+liggja,liggjande,V;V.PTCP;PRS,0.000377,0.0059055,² l ɪ jː a n d ə
+liggja,liggjast,V;NFIN;PASS,0.0,0.0059055,² l ɪ jː a s t
+liggja,ligg,V;IMP,0.014932,0.0059055,l ɪ ɡː
+liggja,ligg,V;PRS,0.014932,0.0059055,l ɪ ɡː
+liggje,låg,V;PST,0.004495,0.0059055,l oː ɡ
+liggje,lege,V;V.PTCP;PST,0.000697,0.0059055,² l eː ɡ ə
+liggje,liggjande,V;V.PTCP;PRS,0.000377,0.0059055,² l ɪ jː a n d ə
+liggje,liggjast,V;NFIN;PASS,0.0,0.0059055,² l ɪ jː a s t
+liggje,ligg,V;IMP,0.014932,0.0059055,l ɪ ɡː
+liggje,ligg,V;PRS,0.014932,0.0059055,l ɪ ɡː
+måtta,måtta,V;V.PTCP;PST,0.000258,0.006806,² m ɔ tː ɑ
+måtta,måtte,V;PST,0.00732,0.006806,² m ɔ tː ə
+måtta,mått,V;V.PTCP;PST,2.3e-05,0.006806,m ɔ tː
+måtta,må,V;PRS,0.019623,0.006806,m oː
+måtte,måtta,V;V.PTCP;PST,0.000258,0.006806,² m ɔ tː ɑ
+måtte,måtte,V;PST,0.00732,0.006806,² m ɔ tː ə
+måtte,mått,V;V.PTCP;PST,2.3e-05,0.006806,m ɔ tː
+måtte,må,V;PRS,0.019623,0.006806,m oː
+meina,meinande,V;V.PTCP;PRS,0.0,0.0016188333333333,² m ɛ ɪː n a n d ə
+meina,meinast,V;NFIN;PASS,2.6e-05,0.0016188333333333,² m ɛ ɪː n a s t
+meina,meiner,V;PRS,0.00677,0.0016188333333333,² m ɛ ɪː n ə r
+meina,meinte,V;PST,0.002174,0.0016188333333333,² m ɛ ɪː n t ə
+meina,meint,V;V.PTCP;PST,0.000714,0.0016188333333333,m ɛ ɪː n t
+meina,mein,V;IMP,2.9e-05,0.0016188333333333,m ɛ ɪː n
+meine,meinande,V;V.PTCP;PRS,0.0,0.0016188333333333,² m ɛ ɪː n a n d ə
+meine,meinast,V;NFIN;PASS,2.6e-05,0.0016188333333333,² m ɛ ɪː n a s t
+meine,meiner,V;PRS,0.00677,0.0016188333333333,² m ɛ ɪː n ə r
+meine,meinte,V;PST,0.002174,0.0016188333333333,² m ɛ ɪː n t ə
+meine,meint,V;V.PTCP;PST,0.000714,0.0016188333333333,m ɛ ɪː n t
+meine,mein,V;IMP,2.9e-05,0.0016188333333333,m ɛ ɪː n
+opna,opnande,V;V.PTCP;PRS,4e-06,0.002197,² ɔ p n a n d ə
+opna,opnar,V;PRS,0.001918,0.002197,² ɔ p n a r
+opna,opnast,V;NFIN;PASS,0.000112,0.002197,² uː p n a s t
+opna,opna,V;IMP,0.003716,0.002197,² ɔ p n ɑ
+opna,opna,V;PST,0.003716,0.002197,² ɔ p n ɑ
+opna,opna,V;V.PTCP;PST,0.003716,0.002197,² ɔ p n ɑ
+opne,opnande,V;V.PTCP;PRS,4e-06,0.001943,² ɔ p n a n d ə
+opne,opnar,V;PRS,0.001918,0.001943,² ɔ p n a r
+opne,opnast,V;NFIN;PASS,0.000112,0.001943,² uː p n a s t
+opne,opna,V;PST,0.003716,0.001943,² ɔ p n ɑ
+opne,opna,V;V.PTCP;PST,0.003716,0.001943,² ɔ p n ɑ
+opne,opne,V;IMP,0.002192,0.001943,² ɔ p n ə
+rekna,reknande,V;V.PTCP;PRS,1e-06,0.0015718333333333,² r ɛ k n a n d ə
+rekna,reknar,V;PRS,0.001248,0.0015718333333333,² r ɛ k n a r
+rekna,reknast,V;NFIN;PASS,0.000442,0.0015718333333333,² r ɛ k n a s t
+rekna,rekna,V;IMP,0.00258,0.0015718333333333,² r ɛ k n ɑ
+rekna,rekna,V;PST,0.00258,0.0015718333333333,² r ɛ k n ɑ
+rekna,rekna,V;V.PTCP;PST,0.00258,0.0015718333333333,² r ɛ k n ɑ
+så,såande,V;V.PTCP;PRS,0.0,0.0062476666666666,² s ɔː a n d ə
+så,såast,V;NFIN;PASS,7e-06,0.0062476666666666,s oː a s t
+så,sådde,V;PST,5.2e-05,0.0062476666666666,² s ɔ dː ə
+så,sådd,V;V.PTCP;PST,7e-05,0.0062476666666666,s ɔ dː
+så,sår,V;PRS,0.000129,0.0062476666666666,s oː r
+så,så,V;IMP,0.037228,0.0062476666666666,s oː
+seia,sagt,V;V.PTCP;PST,0.002442,0.0039743333333333,s ɑ k t
+seia,sa,V;PST,0.004745,0.0039743333333333,s ɑː
+seia,seiande,V;V.PTCP;PRS,5e-06,0.0039743333333333,² s ɛ ɪː a n d ə
+seia,seiast,V;NFIN;PASS,0.000381,0.0039743333333333,² s ɛ ɪː a s t
+seia,seier,V;PRS,0.015631,0.0039743333333333,² s ɛ ɪː ə r
+seia,sei,V;IMP,0.000642,0.0039743333333333,s ɛ ɪː
+seie,sagt,V;V.PTCP;PST,0.002442,0.0039743333333333,s ɑ k t
+seie,sa,V;PST,0.004745,0.0039743333333333,s ɑː
+seie,seiande,V;V.PTCP;PRS,5e-06,0.0039743333333333,² s ɛ ɪː a n d ə
+seie,seiast,V;NFIN;PASS,0.000381,0.0039743333333333,² s ɛ ɪː a s t
+seie,seier,V;PRS,0.015631,0.0039743333333333,² s ɛ ɪː ə r
+seie,sei,V;IMP,0.000642,0.0039743333333333,s ɛ ɪː
+sitta,sat,V;PST,0.002185,0.0033188333333333,s ɑː t
+sitta,sete,V;V.PTCP;PST,0.000354,0.0033188333333333,² s ɛː t ə
+sitta,sittande,V;V.PTCP;PRS,9.9e-05,0.0033188333333333,² s ɪ tː ɑ n d ə
+sitta,sittast,V;NFIN;PASS,0.0,0.0033188333333333,² s ɪ tː ɑ s t
+sitta,sitt,V;IMP,0.014706,0.0033188333333333,s ɪ tː
+sitta,sit,V;PRS,0.002569,0.0033188333333333,s iː t
+sitte,sat,V;PST,0.002185,0.0033188333333333,s ɑː t
+sitte,sete,V;V.PTCP;PST,0.000354,0.0033188333333333,² s ɛː t ə
+sitte,sittande,V;V.PTCP;PRS,9.9e-05,0.0033188333333333,² s ɪ tː ɑ n d ə
+sitte,sittast,V;NFIN;PASS,0.0,0.0033188333333333,² s ɪ tː ɑ s t
+sitte,sitt,V;IMP,0.014706,0.0033188333333333,s ɪ tː
+sitte,sit,V;PRS,0.002569,0.0033188333333333,s iː t
+sjå,såg,V;PST,0.004956,0.0071403333333333,s oː ɡ
+sjå,ser,V;PRS,0.011102,0.0071403333333333,s eː r
+sjå,sett,V;V.PTCP;PST,0.013052,0.0071403333333333,s ɛ tː
+sjå,sjåande,V;V.PTCP;PRS,3.8e-05,0.0071403333333333,² ʃ ɔː a n d ə
+sjå,sjåast,V;NFIN;PASS,0.000413,0.0071403333333333,² ʃ oː a s t
+sjå,sjå,V;IMP,0.013281,0.0071403333333333,ʃ oː
+skriva,skreiv,V;PST,0.00333,0.0030491666666666,s k r ɛ ɪː ʋ
+skriva,skrivande,V;V.PTCP;PRS,0.000184,0.0030491666666666,² s k r iː ʋ a n d ə
+skriva,skrivast,V;NFIN;PASS,0.000199,0.0030491666666666,s k r iː ʋ a s t
+skriva,skrive,V;V.PTCP;PST,0.004858,0.0030491666666666,² s k r iː ʋ ə
+skriva,skriv,V;IMP,0.004862,0.0030491666666666,s k r iː ʋ
+skriva,skriv,V;PRS,0.004862,0.0030491666666666,s k r iː ʋ
+skrive,skreiv,V;PST,0.00333,0.0030491666666666,s k r ɛ ɪː ʋ
+skrive,skrivande,V;V.PTCP;PRS,0.000184,0.0030491666666666,² s k r iː ʋ a n d ə
+skrive,skrivast,V;NFIN;PASS,0.000199,0.0030491666666666,s k r iː ʋ a s t
+skrive,skrive,V;V.PTCP;PST,0.004858,0.0030491666666666,² s k r iː ʋ ə
+skrive,skriv,V;IMP,0.004862,0.0030491666666666,s k r iː ʋ
+skrive,skriv,V;PRS,0.004862,0.0030491666666666,s k r iː ʋ
+skulla,skal,V;PRS,0.03949,0.0089283333333333,s k ɑː l
+skulla,skullande,V;V.PTCP;PRS,0.0,0.0089283333333333,² s k ʉ lː a n d ə
+skulla,skullast,V;NFIN;PASS,0.0,0.0089283333333333,² s k ʉ lː a s t
+skulla,skulla,V;V.PTCP;PST,3.1e-05,0.0089283333333333,² s k ʉ lː ɑ
+skulla,skulle,V;PST,0.014042,0.0089283333333333,² s k ʉ lː ə
+skulla,skull,V;IMP,7e-06,0.0089283333333333,s k ʉ lː
+skulle,skal,V;PRS,0.03949,0.0089283333333333,s k ɑː l
+skulle,skullande,V;V.PTCP;PRS,0.0,0.0089283333333333,² s k ʉ lː a n d ə
+skulle,skullast,V;NFIN;PASS,0.0,0.0089283333333333,² s k ʉ lː a s t
+skulle,skulla,V;V.PTCP;PST,3.1e-05,0.0089283333333333,² s k ʉ lː ɑ
+skulle,skulle,V;PST,0.014042,0.0089283333333333,² s k ʉ lː ə
+skulle,skull,V;IMP,7e-06,0.0089283333333333,s k ʉ lː
+snakka,snakkande,V;V.PTCP;PRS,8e-06,0.0014501666666666,² s n a kː a n d ə
+snakka,snakkar,V;PRS,0.001817,0.0014501666666666,² s n a kː a r
+snakka,snakkast,V;NFIN;PASS,1.8e-05,0.0014501666666666,² s n a kː a s t
+snakka,snakka,V;IMP,0.002286,0.0014501666666666,² s n a kː ɑ
+snakka,snakka,V;PST,0.002286,0.0014501666666666,² s n a kː ɑ
+snakka,snakka,V;V.PTCP;PST,0.002286,0.0014501666666666,² s n a kː ɑ
+spela,spelande,V;V.PTCP;PRS,5.1e-05,0.0015066666666666,² s p eː l a n d ə
+spela,spelar,V;PRS,0.002806,0.0015066666666666,² s p eː l a r
+spela,spelast,V;NFIN;PASS,9e-05,0.0015066666666666,² s p eː l a s t
+spela,spela,V;IMP,0.002031,0.0015066666666666,² s p eː l ɑ
+spela,spela,V;PST,0.002031,0.0015066666666666,² s p eː l ɑ
+spela,spela,V;V.PTCP;PST,0.002031,0.0015066666666666,² s p eː l ɑ
+spele,spelande,V;V.PTCP;PRS,5.1e-05,0.0014885,² s p eː l a n d ə
+spele,spelar,V;PRS,0.002806,0.0014885,² s p eː l a r
+spele,spelast,V;NFIN;PASS,9e-05,0.0014885,² s p eː l a s t
+spele,spela,V;PST,0.002031,0.0014885,² s p eː l ɑ
+spele,spela,V;V.PTCP;PST,0.002031,0.0014885,² s p eː l ɑ
+spele,spele,V;IMP,0.001922,0.0014885,² s p eː l ə
+taka,takande,V;V.PTCP;PRS,2e-06,0.0043651666666666,² t ɑː k ɑ n d ə
+taka,takast,V;NFIN;PASS,0.000705,0.0043651666666666,² t ɑː k ɑ s t
+taka,tak,V;IMP,0.001672,0.0043651666666666,t ɑː k
+taka,teke,V;V.PTCP;PST,0.003902,0.0043651666666666,² t eː k ə
+taka,tek,V;PRS,0.008488,0.0043651666666666,t eː k
+taka,tok,V;PST,0.011422,0.0043651666666666,t uː k
+take,takande,V;V.PTCP;PRS,2e-06,0.0043651666666666,² t ɑː k ɑ n d ə
+take,takast,V;NFIN;PASS,0.000705,0.0043651666666666,² t ɑː k ɑ s t
+take,tak,V;IMP,0.001672,0.0043651666666666,t ɑː k
+take,teke,V;V.PTCP;PST,0.003902,0.0043651666666666,² t eː k ə
+take,tek,V;PRS,0.008488,0.0043651666666666,t eː k
+take,tok,V;PST,0.011422,0.0043651666666666,t uː k
+ta,takande,V;V.PTCP;PRS,2e-06,0.00511375,² t ɑː k ɑ n d ə
+ta,takast,V;NFIN;PASS,0.000705,0.00511375,² t ɑː k ɑ s t
+ta,tar,V;PRS,0.002227,0.00511375,t ɑː r
+ta,tatt,V;V.PTCP;PST,0.002849,0.00511375,t a tː
+ta,ta,V;IMP,0.011315,0.00511375,t ɑː
+ta,teke,V;V.PTCP;PST,0.003902,0.00511375,² t eː k ə
+ta,tek,V;PRS,0.008488,0.00511375,t eː k
+ta,tok,V;PST,0.011422,0.00511375,t uː k
+trenga,trengande,V;V.PTCP;PRS,1.7e-05,0.0014202222222222,² t r ɛ ŋ ɡ a n d ə
+trenga,trengast,V;NFIN;PASS,1e-05,0.0014202222222222,² t r ɛ ŋ ɡ a s t
+trenga,trengde,V;PST,0.000147,0.0014202222222222,² t r ɛ ŋ d ə
+trenga,trenger,V;PRS,4.1e-05,0.0014202222222222,² t r ɛ ŋ ə r
+trenga,trengt,V;V.PTCP;PST,6e-05,0.0014202222222222,t r ɛ ŋ t
+trenga,treng,V;IMP,0.005766,0.0014202222222222,t r ɛ ŋː
+trenga,treng,V;PRS,0.005766,0.0014202222222222,t r ɛ ŋː
+trenga,trong,V;PST,0.000973,0.0014202222222222,t r ɔ ŋː
+trenga,trunge,V;V.PTCP;PST,2e-06,0.0014202222222222,² t r ʉ ŋ ɡ ə
+trenge,trengande,V;V.PTCP;PRS,1.7e-05,0.0014202222222222,² t r ɛ ŋ ɡ a n d ə
+trenge,trengast,V;NFIN;PASS,1e-05,0.0014202222222222,² t r ɛ ŋ ɡ a s t
+trenge,trengde,V;PST,0.000147,0.0014202222222222,² t r ɛ ŋ d ə
+trenge,trenger,V;PRS,4.1e-05,0.0014202222222222,² t r ɛ ŋ ə r
+trenge,trengt,V;V.PTCP;PST,6e-05,0.0014202222222222,t r ɛ ŋ t
+trenge,treng,V;IMP,0.005766,0.0014202222222222,t r ɛ ŋː
+trenge,treng,V;PRS,0.005766,0.0014202222222222,t r ɛ ŋː
+trenge,trong,V;PST,0.000973,0.0014202222222222,t r ɔ ŋː
+trenge,trunge,V;V.PTCP;PST,2e-06,0.0014202222222222,² t r ʉ ŋ ɡ ə
+tru,truande,V;V.PTCP;PRS,0.000137,0.0017055,² t r ʉː a n d ə
+tru,truast,V;NFIN;PASS,1e-06,0.0017055,² t r ʉː a s t
+tru,trudde,V;PST,0.001296,0.0017055,² t r ʉ dː ə
+tru,trudd,V;V.PTCP;PST,0.000289,0.0017055,t r ʉ dː
+tru,trur,V;PRS,0.004924,0.0017055,t r ʉː r
+tru,tru,V;IMP,0.003586,0.0017055,t r ʉː
+utvikla,utviklande,V;V.PTCP;PRS,3.7e-05,0.0017185,² ʉː t ʋ iː k l a n d ə
+utvikla,utviklar,V;PRS,0.000731,0.0017185,ʉː t ʋ ɪ k l ɑ r
+utvikla,utviklast,V;NFIN;PASS,0.000108,0.0017185,ʉː t ʋ iː k l a s t
+utvikla,utvikla,V;IMP,0.003145,0.0017185,² ʉː t ʋ ɪ k l ɑ
+utvikla,utvikla,V;PST,0.003145,0.0017185,² ʉː t ʋ ɪ k l ɑ
+utvikla,utvikla,V;V.PTCP;PST,0.003145,0.0017185,² ʉː t ʋ ɪ k l ɑ
+utvikle,utviklande,V;V.PTCP;PRS,3.7e-05,0.0013811666666666,² ʉː t ʋ iː k l a n d ə
+utvikle,utviklar,V;PRS,0.000731,0.0013811666666666,ʉː t ʋ ɪ k l ɑ r
+utvikle,utviklast,V;NFIN;PASS,0.000108,0.0013811666666666,ʉː t ʋ iː k l a s t
+utvikle,utvikla,V;PST,0.003145,0.0013811666666666,² ʉː t ʋ ɪ k l ɑ
+utvikle,utvikla,V;V.PTCP;PST,0.003145,0.0013811666666666,² ʉː t ʋ ɪ k l ɑ
+utvikle,utvikle,V;IMP,0.001121,0.0013811666666666,² ʉː t ʋ i k l ə
+velja,valde,V;PST,0.001506,0.0026084999999999,² ʋ ɑ l d ə
+velja,valt,V;V.PTCP;PST,0.001459,0.0026084999999999,ʋ ɑ l t
+velja,veljande,V;V.PTCP;PRS,1e-06,0.0026084999999999,² ʋ ɛ l j a n d ə
+velja,veljast,V;NFIN;PASS,0.000161,0.0026084999999999,² ʋ ɛ l j ɑ s t
+velja,vel,V;IMP,0.006262,0.0026084999999999,ʋ eː l
+velja,vel,V;PRS,0.006262,0.0026084999999999,ʋ eː l
+velje,valde,V;PST,0.001506,0.0026084999999999,² ʋ ɑ l d ə
+velje,valt,V;V.PTCP;PST,0.001459,0.0026084999999999,ʋ ɑ l t
+velje,veljande,V;V.PTCP;PRS,1e-06,0.0026084999999999,² ʋ ɛ l j a n d ə
+velje,veljast,V;NFIN;PASS,0.000161,0.0026084999999999,² ʋ ɛ l j ɑ s t
+velje,vel,V;IMP,0.006262,0.0026084999999999,ʋ eː l
+velje,vel,V;PRS,0.006262,0.0026084999999999,ʋ eː l
+vera,er,V;PRS,0.309559,0.0769985,eː r
+vera,var,V;PST,0.12319,0.0769985,ʋ ɑː r
+vera,verande,V;V.PTCP;PRS,0.000516,0.0769985,² ʋ ɛː r ɑ n ə
+vera,verast,V;NFIN;PASS,0.0,0.0769985,² ʋ ɛː r a s t
+vera,ver,V;IMP,0.000597,0.0769985,ʋ eː r
+vera,vore,V;V.PTCP;PST,0.028129,0.0769985,² ʋ uː r ə
+vere,er,V;PRS,0.309559,0.0769985,eː r
+vere,var,V;PST,0.12319,0.0769985,ʋ ɑː r
+vere,verande,V;V.PTCP;PRS,0.000516,0.0769985,² ʋ ɛː r ɑ n ə
+vere,verast,V;NFIN;PASS,0.0,0.0769985,² ʋ ɛː r a s t
+vere,ver,V;IMP,0.000597,0.0769985,ʋ eː r
+vere,vore,V;V.PTCP;PST,0.028129,0.0769985,² ʋ uː r ə
+verja,varde,V;PST,0.000138,0.0064472999999999,² ʋ ɑː r ə
+verja,vart,V;V.PTCP;PST,0.062984,0.0064472999999999,ʋ ɑ r t
+verja,verjande,V;V.PTCP;PRS,1e-06,0.0064472999999999,² ʋ ɛ r j a n d ə
+verja,verjar,V;PRS,8e-06,0.0064472999999999,² ʋ ɛ r j ɑ r
+verja,verjast,V;NFIN;PASS,1e-06,0.0064472999999999,² ʋ ɛ r j a s t
+verja,verja,V;IMP,4.9e-05,0.0064472999999999,² ʋ ɛ r j ɑ
+verja,verja,V;PST,4.9e-05,0.0064472999999999,² ʋ ɛ r j ɑ
+verja,verja,V;V.PTCP;PST,4.9e-05,0.0064472999999999,² ʋ ɛ r j ɑ
+verja,ver,V;IMP,0.000597,0.0064472999999999,ʋ eː r
+verja,ver,V;PRS,0.000597,0.0064472999999999,ʋ eː r
+verje,varde,V;PST,0.000138,0.0064488999999999,² ʋ ɑː r ə
+verje,vart,V;V.PTCP;PST,0.062984,0.0064488999999999,ʋ ɑ r t
+verje,verjande,V;V.PTCP;PRS,1e-06,0.0064488999999999,² ʋ ɛ r j a n d ə
+verje,verjar,V;PRS,8e-06,0.0064488999999999,² ʋ ɛ r j ɑ r
+verje,verjast,V;NFIN;PASS,1e-06,0.0064488999999999,² ʋ ɛ r j a s t
+verje,verja,V;PST,4.9e-05,0.0064488999999999,² ʋ ɛ r j ɑ
+verje,verja,V;V.PTCP;PST,4.9e-05,0.0064488999999999,² ʋ ɛ r j ɑ
+verje,verje,V;IMP,6.5e-05,0.0064488999999999,² ʋ ɛ r j ə
+verje,ver,V;IMP,0.000597,0.0064488999999999,ʋ eː r
+verje,ver,V;PRS,0.000597,0.0064488999999999,ʋ eː r
+verta,vart,V;PST,0.062984,0.0214889999999999,ʋ ɑ r t
+verta,vertande,V;V.PTCP;PRS,0.0,0.0214889999999999,² ʋ ɛ r t a n d ə
+verta,vertast,V;NFIN;PASS,0.0,0.0214889999999999,² ʋ ɛ r t a s t
+verta,vert,V;IMP,0.031288,0.0214889999999999,ʋ ɛ r t
+verta,vert,V;PRS,0.031288,0.0214889999999999,ʋ ɛ r t
+verta,vorte,V;V.PTCP;PST,0.003374,0.0214889999999999,² ʋ ɔ r t ə
+verte,vart,V;PST,0.062984,0.0214889999999999,ʋ ɑ r t
+verte,vertande,V;V.PTCP;PRS,0.0,0.0214889999999999,² ʋ ɛ r t a n d ə
+verte,vertast,V;NFIN;PASS,0.0,0.0214889999999999,² ʋ ɛ r t a s t
+verte,vert,V;IMP,0.031288,0.0214889999999999,ʋ ɛ r t
+verte,vert,V;PRS,0.031288,0.0214889999999999,ʋ ɛ r t
+verte,vorte,V;V.PTCP;PST,0.003374,0.0214889999999999,² ʋ ɔ r t ə
+veta,veit,V;PRS,0.005699,0.0013661666666666,ʋ ɛ ɪː t
+veta,vetande,V;V.PTCP;PRS,0.0,0.0013661666666666,² ʋ ɛː t a n d ə
+veta,vetast,V;NFIN;PASS,0.0,0.0013661666666666,² ʋ eː t a s t
+veta,vet,V;IMP,2.1e-05,0.0013661666666666,ʋ eː t
+veta,visste,V;PST,0.001415,0.0013661666666666,² ʋ ɪ sː t ə
+veta,visst,V;V.PTCP;PST,0.001062,0.0013661666666666,ʋ ɪ sː t
+vete,veit,V;PRS,0.005699,0.0013661666666666,ʋ ɛ ɪː t
+vete,vetande,V;V.PTCP;PRS,0.0,0.0013661666666666,² ʋ ɛː t a n d ə
+vete,vetast,V;NFIN;PASS,0.0,0.0013661666666666,² ʋ eː t a s t
+vete,vet,V;IMP,2.1e-05,0.0013661666666666,ʋ eː t
+vete,visste,V;PST,0.001415,0.0013661666666666,² ʋ ɪ sː t ə
+vete,visst,V;V.PTCP;PST,0.001062,0.0013661666666666,ʋ ɪ sː t
+vilja,viljande,V;V.PTCP;PRS,0.0,0.0124735,² ʋ ɪ l j ɑ n d ə
+vilja,viljast,V;NFIN;PASS,0.0,0.0124735,² ʋ ɪ l j ɑ s t
+vilja,vilja,V;V.PTCP;PST,6.9e-05,0.0124735,² ʋ ɪ l j ɑ
+vilja,ville,V;PST,0.008464,0.0124735,² ʋ ɪ lː ə
+vilja,vil,V;IMP,0.033154,0.0124735,ʋ iː l
+vilja,vil,V;PRS,0.033154,0.0124735,ʋ iː l
+vilje,viljande,V;V.PTCP;PRS,0.0,0.0124735,² ʋ ɪ l j ɑ n d ə
+vilje,viljast,V;NFIN;PASS,0.0,0.0124735,² ʋ ɪ l j ɑ s t
+vilje,vilja,V;V.PTCP;PST,6.9e-05,0.0124735,² ʋ ɪ l j ɑ
+vilje,ville,V;PST,0.008464,0.0124735,² ʋ ɪ lː ə
+vilje,vil,V;IMP,0.033154,0.0124735,ʋ iː l
+vilje,vil,V;PRS,0.033154,0.0124735,ʋ iː l
+vite,veit,V;PRS,0.005699,0.0013761666666666,ʋ ɛ ɪː t
+vite,visste,V;PST,0.001415,0.0013761666666666,² ʋ ɪ sː t ə
+vite,visst,V;V.PTCP;PST,0.001062,0.0013761666666666,ʋ ɪ sː t
+vite,vitande,V;V.PTCP;PRS,4e-05,0.0013761666666666,² ʋ iː t a n d ə
+vite,vitast,V;NFIN;PASS,6e-06,0.0013761666666666,² ʋ iː t a s t
+vite,vit,V;IMP,3.5e-05,0.0013761666666666,ʋ iː t

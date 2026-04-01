@@ -1,0 +1,322 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+gjelde,gjelder,V;IND;PRS,0.010656,0.0037396666666666,j ɛ l d ə r
+gjelde,gjeldes,V;IND;PASS,0.0,0.0037396666666666,j ɛ l d ə s
+gjelde,gjaldt,V;IND;PST,0.000563,0.0037396666666666,j a l t
+fare,far,V;IMP,0.001312,0.0822619999999999,f ɑː r
+fare,farer,V;IND;PRS,9.4e-05,0.0822619999999999,f ɑː r ə r
+fare,for,V;IND;PST,0.24538,0.0822619999999999,f oː r
+ete,et,V;IMP,0.093236,0.023332,eː t
+ete,eter,V;IND;PRS,2.7e-05,0.023332,eː t ə r
+ete,etes,V;IND;PASS,1e-06,0.023332,eː t ə s
+ete,åt,V;IND;PST,6.4e-05,0.023332,oː t
+havne,havn,V;IMP,0.000205,0.0080308,h ɑ ʋ n
+havne,havner,V;IND;PRS,0.000284,0.0080308,h ɑ ʋ n ə r
+havne,-,V;IND;PASS,0.039385,0.0080308,ɑː
+havne,havna,V;IND;PST,8e-05,0.0080308,h a ʋ n a
+havne,havnet,V;IND;PST,0.0002,0.0080308,h ɑ ʋ n ə
+bruke,bruk,V;IMP,0.011197,0.005778,b r ʉː k
+bruke,bruker,V;IND;PRS,0.004684,0.005778,b r ʉː k ə r
+bruke,brukes,V;IND;PASS,0.005844,0.005778,b r ʉː k ə s
+bruke,brukte,V;IND;PST,0.001387,0.005778,b r ʉ k t ə
+begynne,begynn,V;IMP,1.8e-05,0.0013183333333333,b ə j ʏ nː
+begynne,begynner,V;IND;PRS,0.001903,0.0013183333333333,b ə ɡ ʏ nː ə r
+begynne,begynte,V;IND;PST,0.002034,0.0013183333333333,b ə ɡ ʏ n t ə
+spille,spill,V;IMP,0.001126,0.0010645,s p ɪ lː
+spille,spiller,V;IND;PRS,0.001729,0.0010645,s p ɪ lː ə r
+spille,spilles,V;IND;PASS,0.000338,0.0010645,s p ɪ lː ə s
+spille,spilte,V;IND;PST,0.001065,0.0010645,s p ɪ l t ə
+bli,bli,V;IMP,0.02131,0.025318,b l iː
+bli,blir,V;IND;PRS,0.033549,0.025318,b l iː r
+bli,ble,V;IND;PST,0.045134,0.025318,b l eː
+bli,blei,V;IND;PST,0.001279,0.025318,b l æ ɪ
+inneholde,inneholder,V;IND;PRS,0.003407,0.0018005,ɪ nː ə h ɔ l d ə r
+inneholde,inneholdt,V;IND;PST,0.000194,0.0018005,ɪ nː ə h ɔ l t
+ønske,ønsk,V;IMP,3e-06,0.0025624,œ n s k
+ønske,ønsker,V;IND;PRS,0.010632,0.0025624,œ n s k ə r
+ønske,ønska,V;IND;PST,3.4e-05,0.0025624,œ n s k ɑ
+ønske,ønsket,V;IND;PST,0.002113,0.0025624,œ n s k ə
+ønske,ønskte,V;IND;PST,3e-05,0.0025624,œ n s k t ə
+møte,møt,V;IMP,5.4e-05,0.0013163333333333,m øː t
+møte,møter,V;IND;PRS,0.002904,0.0013163333333333,m øː t ə r
+møte,møtte,V;IND;PST,0.000991,0.0013163333333333,m œ tː ə
+løye,løyer,V;IND;PRS,1e-06,0.00985025,l œ ʏ ə r
+løye,-,V;IND;PASS,0.039385,0.00985025,ɑː
+løye,løya,V;IND;PST,0.0,0.00985025,l œ ʏ̯ a
+løye,løyet,V;IND;PST,1.5e-05,0.00985025,l œ ʏ ə
+bestå,består,V;IND;PRS,0.003394,0.0012566666666666,b ə s t oː r
+bestå,besto,V;IND;PST,0.000219,0.0012566666666666,b ɛ s t uː
+bestå,bestod,V;IND;PST,0.000157,0.0012566666666666,b ə s t uː
+arbeide,arbeid,V;IMP,0.006626,0.0029858333333333,ɑː r b ɛ ɪː
+arbeide,arbeider,V;IND;PRS,0.003405,0.0029858333333333,a r b ɛ ɪː d ə r
+arbeide,arbeides,V;IND;PASS,0.000438,0.0029858333333333,a r b ɛ ɪː d ə s
+arbeide,arbeida,V;IND;PST,9.6e-05,0.0029858333333333,a r b ɛ ɪː d a
+arbeide,arbeidet,V;IND;PST,0.007288,0.0029858333333333,a r b ɛ ɪː d ə
+arbeide,arbeidde,V;IND;PST,6.2e-05,0.0029858333333333,a r b ə ɪ dː ə
+rette,rett,V;IMP,0.006786,0.0018404,r ɛ tː
+rette,retter,V;IND;PRS,0.000524,0.0018404,r ɛ tː ə r
+rette,rettes,V;IND;PASS,0.000512,0.0018404,r ɛ tː ə s
+rette,retta,V;IND;PST,0.00014,0.0018404,r ɛ tː ɑ
+rette,rettet,V;IND;PST,0.00124,0.0018404,r ɛ tː ə
+væra,er,V;IND;PRS,0.311167,0.1851665,eː r
+væra,var,V;IND;PST,0.059166,0.1851665,ʋ ɑː r
+eie,ei,V;IMP,0.007346,0.0016405,æ ɪ
+eie,eier,V;IND;PRS,0.001166,0.0016405,æ ɪ ə r
+eie,eies,V;IND;PASS,0.00034,0.0016405,æ ɪ ə s
+eie,eide,V;IND;PST,0.000161,0.0016405,ɛ ɪː d ə
+eie,eiet,V;IND;PST,6.8e-05,0.0016405,æ ɪ ə
+eie,åtte,V;IND;PST,0.000762,0.0016405,ɔ tː ə
+mige,miger,V;IND;PRS,0.0,0.00212325,m iː ə r
+mige,meg,V;IND;PST,0.00847,0.00212325,m eː
+mige,meig,V;IND;PST,0.0,0.00212325,m æ ɪ
+mige,mig,V;IMP,2.3e-05,0.00212325,m iː
+vie,vi,V;IMP,0.065179,0.0114151666666666,ʋ iː
+vie,vier,V;IND;PRS,2.4e-05,0.0114151666666666,ʋ iː ə r
+vie,vigde,V;IND;PST,7e-06,0.0114151666666666,ʋ ɪ ɡ d ə
+vie,vidde,V;IND;PST,1.7e-05,0.0114151666666666,ʋ ɪ dː ə
+vie,via,V;IND;PST,0.003102,0.0114151666666666,ʋ iː a
+vie,viet,V;IND;PST,0.000162,0.0114151666666666,ʋ iː ə
+samarbeide,samarbeid,V;IMP,0.006299,0.001385,s ɑː m ɑ r b ɛ ɪː
+samarbeide,samarbeider,V;IND;PRS,0.000636,0.001385,s a m a r b ɛ ɪː d ə r
+samarbeide,samarbeides,V;IND;PASS,1.4e-05,0.001385,s a m a r b ɛ ɪː d ə s
+samarbeide,samarbeida,V;IND;PST,1.6e-05,0.001385,s a m a r b ɛ ɪː d a
+samarbeide,samarbeidet,V;IND;PST,0.001334,0.001385,s ɑː m ɑ r b ɛ ɪː d ə
+samarbeide,samarbeidde,V;IND;PST,1.1e-05,0.001385,s a m a r b ɛ ɪ dː ə
+sitte,sitt,V;IMP,0.009795,0.0055263333333333,s ɪ tː
+sitte,sitter,V;IND;PRS,0.001727,0.0055263333333333,s ɪ tː ə r
+sitte,satt,V;IND;PST,0.005057,0.0055263333333333,s a tː
+føre,før,V;IMP,0.016041,0.00498725,f øː r
+føre,fører,V;IND;PRS,0.002232,0.00498725,f øː r ə r
+føre,føres,V;IND;PASS,0.0007,0.00498725,f øː r ə s
+føre,førte,V;IND;PST,0.000976,0.00498725,f øː ɳ t ə
+tillegge,tillegg,V;IMP,0.011381,0.002899,t ɪ l l ɛ ɡ
+tillegge,tillegger,V;IND;PRS,2.8e-05,0.002899,t ɪ l l ɛ ɡː ə r
+tillegge,tillegges,V;IND;PASS,0.000183,0.002899,t ɪ l l ɛ ɡː ə s
+tillegge,tilla,V;IND;PST,4e-06,0.002899,t ɪ lː ɑ
+hjelpe,hjelp,V;IMP,0.005081,0.0021313333333333,j ɛ l p
+hjelpe,hjelper,V;IND;PRS,0.001143,0.0021313333333333,j ɛ l p ə r
+hjelpe,hjalp,V;IND;PST,0.00017,0.0021313333333333,j ɑ l p
+love,lov,V;IMP,0.002653,0.00108825,l oː ʋ
+love,lover,V;IND;PRS,0.001304,0.00108825,l uː ʋ ə r
+love,lova,V;IND;PST,0.000161,0.00108825,l uː ʋ a
+love,lovet,V;IND;PST,0.000235,0.00108825,l uː ʋ ə
+benytte,benytt,V;IMP,4.8e-05,0.0010028,b ə n ʏ tː
+benytte,benytter,V;IND;PRS,0.001166,0.0010028,b ə n ʏ tː ə r
+benytte,benyttes,V;IND;PASS,0.002533,0.0010028,b ə n ʏ tː ə s
+benytte,benytta,V;IND;PST,6e-06,0.0010028,b ə n ʏ tː a
+benytte,benyttet,V;IND;PST,0.001261,0.0010028,b ə n ʏ tː ə
+demme,dem,V;IMP,0.009386,0.0018802,d ɛ m
+demme,demmer,V;IND;PRS,4e-06,0.0018802,d ɛ mː ə r
+demme,demmes,V;IND;PASS,2e-06,0.0018802,d ɛ mː ə s
+demme,demmet,V;IND;PST,9e-06,0.0018802,d ɛ mː ə
+demme,demte,V;IND;PST,0.0,0.0018802,d ɛ m t ə
+bety,bety,V;IMP,0.000548,0.00110325,b ɛ t yː
+bety,betyr,V;IND;PRS,0.003731,0.00110325,b ə t yː r
+bety,betydde,V;IND;PST,0.000113,0.00110325,b ə t ʏ dː ə
+bety,betød,V;IND;PST,2.1e-05,0.00110325,b ə t øː
+forholde,forhold,V;IMP,0.010216,0.002617,f ɔ r h ɔ l
+forholde,forholder,V;IND;PRS,0.000203,0.002617,f ɔ r h ɔ l d ə r
+forholde,forholdes,V;IND;PASS,5e-06,0.002617,f ɔ r h ɔ l d ə s
+forholde,forholdt,V;IND;PST,4.4e-05,0.002617,f ɔ r h ɔ l t
+vare,var,V;IMP,0.059166,0.0204626666666666,ʋ ɑː r
+vare,varer,V;IND;PRS,0.00202,0.0204626666666666,ʋ ɑː r ə r
+vare,varte,V;IND;PST,0.000202,0.0204626666666666,ʋ ɑː ʈ ə
+gjeninnføre,gjeninnfør,V;IMP,0.0,0.0078794,j ɛ n ɪ n f øː r
+gjeninnføre,gjeninnfører,V;IND;PRS,3e-06,0.0078794,j ɛ n ɪ n f øː r ə r
+gjeninnføre,gjeninnføres,V;IND;PASS,7e-06,0.0078794,j ɛ n ɪ n f øː r ə s
+gjeninnføre,gjeninnførte,V;IND;PST,2e-06,0.0078794,j ɛ n ɪ n f øː r t ə
+gjeninnføre,-,V;V.PTCP;PRS,0.039385,0.0078794,ɑː
+bygge,bygg,V;IMP,0.000899,0.0010602,b ʏ ɡː
+bygge,bygger,V;IND;PRS,0.001437,0.0010602,b ʏ ɡː ə r
+bygge,bygges,V;IND;PASS,0.00073,0.0010602,b ʏ ɡː ə s
+bygge,bygde,V;IND;PST,0.000253,0.0010602,b yː ɡ d ə
+bygge,bygget,V;IND;PST,0.001982,0.0010602,b ʏ ɡː ə
+være,vær,V;IMP,0.000855,0.1237293333333333,ʋ æː r
+være,er,V;IND;PRS,0.311167,0.1237293333333333,eː r
+være,var,V;IND;PST,0.059166,0.1237293333333333,ʋ ɑː r
+skulle,skal,V;IND;PRS,0.057477,0.033862,s k ɑː l
+skulle,skulle,V;IND;PST,0.010247,0.033862,s k ʉ lː ə
+starte,start,V;IMP,0.000866,0.001168,s t ɑ ʈ
+starte,starter,V;IND;PRS,0.001695,0.001168,s t ɑ ʈ ə r
+starte,startes,V;IND;PASS,0.000157,0.001168,s t ɑː ʈ ə s
+starte,starta,V;IND;PST,0.000354,0.001168,s t a ʈ a
+starte,startet,V;IND;PST,0.002768,0.001168,s t ɑ ʈ ə
+bedre,bedr,V;IMP,2e-06,0.0014578,b eː d r
+bedre,bedre,V;IMP,0.007044,0.0014578,b eː d r e
+bedre,bedrer,V;IND;PRS,5.1e-05,0.0014578,b ɛ d r ə r
+bedre,bedra,V;IND;PST,1.6e-05,0.0014578,b eː d r a
+bedre,bedret,V;IND;PST,0.000176,0.0014578,b eː d r eː
+gry,gry,V;IMP,1e-06,0.009847,ɡ r yː
+gry,gryr,V;IND;PRS,2e-06,0.009847,ɡ r yː r
+gry,-,V;IND;PASS,0.039385,0.009847,ɑː
+gry,grydde,V;IND;PST,0.0,0.009847,ɡ r ʏ dː ə
+skje,skje,V;IMP,0.002466,0.0025756666666666,ʃ eː
+skje,skjer,V;IND;PRS,0.004194,0.0025756666666666,ʃ eː r
+skje,skjedde,V;IND;PST,0.001067,0.0025756666666666,ʃ ɛ dː ə
+ligge,ligg,V;IMP,0.001196,0.002616,l ɪ ɡː
+ligge,ligger,V;IND;PRS,0.007981,0.002616,l ɪ ɡː ə r
+ligge,ligges,V;IND;PASS,0.0,0.002616,l ɪ ɡː ə s
+ligge,lå,V;IND;PST,0.001287,0.002616,l oː
+burde,bør,V;IND;PRS,0.012247,0.0070979999999999,b øː r
+burde,burde,V;IND;PST,0.001949,0.0070979999999999,b ʉː r ə
+bidra,bidra,V;IMP,0.002652,0.0010492499999999,b iː d r a
+bidra,bidrar,V;IND;PRS,0.001247,0.0010492499999999,b iː d r ɑː r
+bidra,bidro,V;IND;PST,0.000278,0.0010492499999999,b iː d r uː
+bidra,bidrog,V;IND;PST,2e-05,0.0010492499999999,b iː d r uː ɡ
+måtte,må,V;IND;PRS,0.034289,0.0198535,m oː
+måtte,måtte,V;IND;PST,0.005418,0.0198535,m ɔ tː ə
+vise,vis,V;IMP,0.000619,0.00298125,ʋ iː s
+vise,viser,V;IND;PRS,0.007991,0.00298125,ʋ iː s ə r
+vise,vises,V;IND;PASS,0.001285,0.00298125,ʋ iː s ə s
+vise,viste,V;IND;PST,0.00203,0.00298125,ʋ ɪ s t ə
+due,dues,V;IND;PASS,0.0,0.0142145,d ʉː ə s
+due,du,V;IMP,0.056845,0.0142145,d ʉː
+due,duer,V;IND;PRS,1.3e-05,0.0142145,d ʉː ə r
+due,duet,V;IND;PST,0.0,0.0142145,d ʉː ə
+ansette,ansett,V;IMP,0.000214,0.0011932499999999,ɑ n s ɛ tː
+ansette,ansetter,V;IND;PRS,4.3e-05,0.0011932499999999,a n s ɛ tː ə r
+ansette,ansettes,V;IND;PASS,6.8e-05,0.0011932499999999,a n s ɛ tː ə s
+ansette,ansatte,V;IND;PST,0.004448,0.0011932499999999,a n s a tː ə
+mene,men,V;IMP,0.03848,0.011395,m eː n
+mene,mener,V;IND;PRS,0.005401,0.011395,m eː n ə r
+mene,menes,V;IND;PASS,0.000484,0.011395,m eː n ə s
+mene,mente,V;IND;PST,0.001215,0.011395,m ɛ n t ə
+nytte,nytt,V;IMP,0.00618,0.0013974,n ʏ tː
+nytte,nytter,V;IND;PRS,0.000158,0.0013974,n ʏ tː ə r
+nytte,nyttes,V;IND;PASS,0.000192,0.0013974,n ʏ tː ə s
+nytte,nytta,V;IND;PST,0.000403,0.0013974,n ʏ tː ɑ
+nytte,nyttet,V;IND;PST,5.4e-05,0.0013974,n ʏ tː ə
+holde,hold,V;IMP,0.000519,0.0015525,h oː l
+holde,holder,V;IND;PRS,0.00253,0.0015525,h ɔ l d ə r
+holde,holdes,V;IND;PASS,0.000996,0.0015525,h ɔ l d ə s
+holde,holdt,V;IND;PST,0.002165,0.0015525,h ɔ l t
+tro,tror,V;IND;PRS,0.003056,0.0018185,t r uː r
+tro,trodde,V;IND;PST,0.000581,0.0018185,t r ɔ dː ə
+dele,del,V;IMP,0.012983,0.0046235,d eː l
+dele,deler,V;IND;PRS,0.00445,0.0046235,d eː l ə r
+dele,deles,V;IND;PASS,0.00071,0.0046235,d eː l ə s
+dele,delte,V;IND;PST,0.000351,0.0046235,d ɛ l t ə
+velge,velg,V;IMP,0.000343,0.00110275,ʋ æ l ɡ
+velge,velger,V;IND;PRS,0.002011,0.00110275,ʋ ɛ l j ə r
+velge,velges,V;IND;PASS,0.000981,0.00110275,ʋ ɛ l j ə s
+velge,valgte,V;IND;PST,0.001076,0.00110275,ʋ a l k t ə
+jobbe,jobb,V;IMP,0.001685,0.001197,j ɔ bː
+jobbe,jobber,V;IND;PRS,0.002017,0.001197,j ɔ bː ə r
+jobbe,jobba,V;IND;PST,0.000118,0.001197,j ɔ bː a
+jobbe,jobbet,V;IND;PST,0.000968,0.001197,j ɔ bː ə
+helle,hell,V;IMP,0.000189,0.00112825,h ɛ lː
+helle,heller,V;IND;PRS,0.004307,0.00112825,h ɛ lː ə r
+helle,hellet,V;IND;PST,7e-06,0.00112825,h ɛ lː ə
+helle,helte,V;IND;PST,1e-05,0.00112825,h ɛ l t ə
+utvikle,utvikl,V;IMP,0.0,0.0011196666666666,ʉː t ʋ ɪ k l
+utvikle,utvikle,V;IMP,0.002771,0.0011196666666666,ʉː t ʋ iː k l ə
+utvikle,utvikler,V;IND;PRS,0.000776,0.0011196666666666,ʉː t ʋ ɪ k l ə r
+utvikle,utvikles,V;IND;PASS,0.000586,0.0011196666666666,ʉː t ʋ iː k l ə s
+utvikle,utvikla,V;IND;PST,0.000243,0.0011196666666666,ʉː t ʋ ɪ k l a
+utvikle,utviklet,V;IND;PST,0.002342,0.0011196666666666,ʉː t ʋ iː k l ə
+sige,sig,V;IMP,8e-05,0.0106364,s iː
+sige,siger,V;IND;PRS,3.7e-05,0.0106364,s iː ə r
+sige,siges,V;IND;PASS,1e-06,0.0106364,s iː ə s
+sige,seg,V;IND;PST,0.053032,0.0106364,s eː
+sige,seig,V;IND;PST,3.2e-05,0.0106364,s æ ɪ
+lage,lag,V;IMP,0.003751,0.0019108333333333,l ɑː ɡ
+lage,lager,V;IND;PRS,0.001644,0.0019108333333333,l ɑː ɡ ə r
+lage,lages,V;IND;PASS,0.000595,0.0019108333333333,l ɑː ɡ ə s
+lage,laga,V;IND;PST,0.000626,0.0019108333333333,l ɑː ɡ a
+lage,laget,V;IND;PST,0.00467,0.0019108333333333,l ɑː ɡ ə
+lage,lagde,V;IND;PST,0.000179,0.0019108333333333,l ɑː ɡ d ə
+komme,kom,V;IMP,0.008124,0.0094696666666666,k uː m
+komme,kommer,V;IND;PRS,0.012161,0.0094696666666666,k ɔ mː ə r
+komme,kom,V;IND;PST,0.008124,0.0094696666666666,k uː m
+utgjøre,utgjør,V;IMP,0.001803,0.00100125,ʉː t j øː r
+utgjøre,utgjør,V;IND;PRS,0.001803,0.00100125,ʉː t j øː r
+utgjøre,utgjøres,V;IND;PASS,4.9e-05,0.00100125,ʉː t j øː r ə s
+utgjøre,utgjorde,V;IND;PST,0.00035,0.00100125,ʉː t j uː r ə
+kunne,kan,V;IND;PRS,0.095153,0.0569315,k ɑː n
+kunne,kunne,V;IND;PST,0.01871,0.0569315,k ʉ nː ə
+følge,følg,V;IMP,0.000187,0.00115275,f ø l ɡ
+følge,følger,V;IND;PRS,0.00327,0.00115275,f œ l ɡ ə r
+følge,følges,V;IND;PASS,0.000515,0.00115275,f œ l ɡ ə s
+følge,fulgte,V;IND;PST,0.000639,0.00115275,f ʉ l k t ə
+ville,vil,V;IND;PRS,0.061811,0.0343395,ʋ iː l
+ville,ville,V;IND;PST,0.006868,0.0343395,ʋ ɪ lː ə
+finne,finn,V;IMP,0.000832,0.003473,f ɪ nː
+finne,finner,V;IND;PRS,0.007738,0.003473,f ɪ nː ə r
+finne,fant,V;IND;PST,0.001849,0.003473,f ɑ n t
+fremme,frem,V;IMP,0.005002,0.0012384,f r ɛ m
+fremme,fremmer,V;IND;PRS,0.000319,0.0012384,f r ɛ mː ə r
+fremme,fremmes,V;IND;PASS,0.000217,0.0012384,f r ɛ mː ə s
+fremme,fremma,V;IND;PST,1.7e-05,0.0012384,f r ɛ mː a
+fremme,fremmet,V;IND;PST,0.000637,0.0012384,f r ɛ mː ə
+trenge,treng,V;IMP,0.000413,0.001759,t r ɛ ŋ
+trenge,trenger,V;IND;PRS,0.004513,0.001759,t r ɛ ŋː ə r
+trenge,trengte,V;IND;PST,0.000351,0.001759,t r ɛ ŋ t ə
+falle,faller,V;IND;PRS,0.000952,0.00138,f ɑ lː ə r
+falle,falt,V;IND;PST,0.000847,0.00138,f ɑ l t
+falle,fall,V;IMP,0.002341,0.00138,f ɑ lː
+vite,vit,V;IMP,2e-05,0.0010225999999999,ʋ iː t
+vite,vet,V;IND;PRS,0.00384,0.0010225999999999,ʋ eː t
+vite,veit,V;IND;PRS,0.000474,0.0010225999999999,ʋ æ ɪ t
+vite,vites,V;IND;PASS,4.4e-05,0.0010225999999999,ʋ iː t ə s
+vite,visste,V;IND;PST,0.000735,0.0010225999999999,ʋ ɪ sː t ə
+levere,lever,V;IMP,0.001343,0.001142,l eː ʋ ə r
+levere,leverer,V;IND;PRS,0.001103,0.001142,l ɛ ʋ eː r ə r
+levere,leveres,V;IND;PASS,0.001911,0.001142,l ɛ ʋ eː r ə s
+levere,leverte,V;IND;PST,0.000211,0.001142,l e ʋ eː ʈ ə
+sende,send,V;IMP,0.000623,0.00110625,s ɛ n d
+sende,sender,V;IND;PRS,0.001318,0.00110625,s ɛ n d ə r
+sende,sendes,V;IND;PASS,0.001946,0.00110625,s ɛ n d ə s
+sende,sendte,V;IND;PST,0.000538,0.00110625,s ɛ n t ə
+finnes,finnes,V;IND;PRS,0.008047,0.0022125,f ɪ nː ə s
+finnes,fins,V;IND;PRS,0.000364,0.0022125,f iː n s
+finnes,fantes,V;IND;PST,0.000394,0.0022125,f ɑ n t ə s
+finnes,fans,V;IND;PST,4.5e-05,0.0022125,f ɑ n s
+kontakte,kontakt,V;IMP,0.006202,0.001419,k u n t a k t
+kontakte,kontakter,V;IND;PRS,0.000486,0.001419,k ɔ n t a k t ə r
+kontakte,kontaktes,V;IND;PASS,0.000135,0.001419,k ɔ n t a k t ə s
+kontakte,kontakta,V;IND;PST,3.4e-05,0.001419,k u n t a k t a
+kontakte,kontaktet,V;IND;PST,0.000238,0.001419,k ɔ n t a k t ə
+gjøre,gjør,V;IMP,0.009443,0.0062285,j øː r
+gjøre,gjør,V;IND;PRS,0.009443,0.0062285,j øː r
+gjøre,gjøres,V;IND;PASS,0.002914,0.0062285,j øː r ə s
+gjøre,gjorde,V;IND;PST,0.003114,0.0062285,j uː r ə
+synes,synes,V;IMP,0.00322,0.0018175,s yː n ə s
+synes,synes,V;IND;PRS,0.00322,0.0018175,s yː n ə s
+synes,syns,V;IND;PRS,0.000296,0.0018175,s yː n s
+synes,syntes,V;IND;PST,0.000534,0.0018175,s ʏ n t ə s
+delta,delta,V;IMP,0.002302,0.0011702499999999,d ɛ l t ɑ
+delta,deltar,V;IND;PRS,0.001281,0.0011702499999999,d ɛ l t ɑː r
+delta,deltas,V;IND;PASS,2e-06,0.0011702499999999,d ɛ l t ɑː s
+delta,deltok,V;IND;PST,0.001096,0.0011702499999999,d ɛ l t uː k
+arbeidsbok,arbeid,V;IMP,0.006626,0.0034954,ɑː r b ɛ ɪː
+arbeidsbok,arbeider,V;IND;PRS,0.003405,0.0034954,a r b ɛ ɪː d ə r
+arbeidsbok,arbeida,V;IND;PST,9.6e-05,0.0034954,a r b ɛ ɪː d a
+arbeidsbok,arbeidet,V;IND;PST,0.007288,0.0034954,a r b ɛ ɪː d ə
+arbeidsbok,arbeidde,V;IND;PST,6.2e-05,0.0034954,a r b ə ɪ dː ə
+sole,sol,V;IMP,0.000245,0.0066425,s uː l
+sole,soler,V;IND;PRS,2e-05,0.0066425,s uː l ə r
+sole,-,V;IND;PASS,0.039385,0.0066425,ɑː
+sole,sola,V;IND;PST,0.000199,0.0066425,s uː l a
+sole,solet,V;IND;PST,0.0,0.0066425,s uː l ə
+sole,solte,V;IND;PST,6e-06,0.0066425,s ɔ l t ə
+måle,mål,V;IMP,0.005107,0.0013855,m oː l
+måle,måler,V;IND;PRS,0.000212,0.0013855,m oː l ə r
+måle,måles,V;IND;PASS,0.000164,0.0013855,m oː l ə s
+måle,målte,V;IND;PST,5.9e-05,0.0013855,m oː l t ə
+gro,gro,V;IMP,4.5e-05,0.00987825,ɡ r uː
+gro,gror,V;IND;PRS,7.3e-05,0.00987825,ɡ r uː r
+gro,-,V;IND;PASS,0.039385,0.00987825,ɑː
+gro,grodde,V;IND;PST,1e-05,0.00987825,ɡ r ɔ dː ə
+forme,form,V;IMP,0.00384,0.001059,f ɔ r m
+forme,former,V;IND;PRS,0.001168,0.001059,f ɔ r m ə r
+forme,formes,V;IND;PASS,5.1e-05,0.001059,f ɔ r m eː s
+forme,forma,V;IND;PST,6.5e-05,0.001059,f ɔ r m a
+forme,formet,V;IND;PST,0.000171,0.001059,f ɔ r m ə
+gjenstå,gjenstå,V;IMP,7e-06,0.0079746,j ɛ n s t oː
+gjenstå,gjenstår,V;IND;PRS,0.000422,0.0079746,j ɛ n s t oː r
+gjenstå,-,V;IND;PASS,0.039385,0.0079746,ɑː
+gjenstå,gjensto,V;IND;PST,2.3e-05,0.0079746,j ɛ n s t ʊ
+gjenstå,gjenstod,V;IND;PST,3.6e-05,0.0079746,j eː n s t uː
+tre,tre,V;IMP,0.008854,0.00234475,t r eː
+tre,trer,V;IND;PRS,0.000376,0.00234475,t r eː r
+tre,tres,V;IND;PASS,1.1e-05,0.00234475,t r eː s
+tre,trådte,V;IND;PST,0.000138,0.00234475,t r oː t ə

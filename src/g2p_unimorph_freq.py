@@ -186,7 +186,7 @@ def process_unimorph_files(raw_dir, processed_dir, model, tokenizer):
 # Kick off the processing pipeline
 RAW_DIR = "unimorph/raw"
 PROCESSED_DIR = "unimorph/processed"
-CHECKPOINT_PATH = "TBA"
+CHECKPOINT_PATH = "checkpoint-3900/"
 
 print("Starting UniMorph data processing loop...")
 model, tokenizer = load_trained_g2p_model(CHECKPOINT_PATH)

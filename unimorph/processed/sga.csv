@@ -1,0 +1,959 @@
+lemma,form,paradigm_slot,phonemic_form
+foceird,coratharrala,V;FIN;SBJV;PRS;ABS;2;SG,k o r a θ a r͈ a l a
+foceird,focardatar,V;FIN;IND;PST;PFV;ABS;3;PL,f o ɡ a r ð a d a r
+foceird,focartar,V;FIN;IND;PST;PFV;ABS;3;PL,f o ɡ a r͈ t a r
+foceird,roláim,V;FIN;IND;PRS;CONJ;1;SG,r͈ o l aː ṽʲ
+foceird,corsatar,V;FIN;IND;PST;PFV;CONJ;3;PL,k o r͈ s a d a r
+foceird,cuiretar,V;FIN;IND;PRS;CONJ;3;PL,k u rʲ e d a r
+foceird,foceird,V;FIN;IND;PRS;ABS;3;SG,f o ɡʲ e r͈ʲ dʲ
+foceird,foceirt,V;FIN;IND;PRS;ABS;3;SG,f o kʲ e r͈ʲ tʲ
+foceird,cuirethar,V;FIN;IND;PRS;CONJ;3;SG,k u rʲ e θ a r
+foceird,corastar,V;FIN;IND;PST;PFV;CONJ;3;SG,k o r a s t a r
+foceird,focaird,V;FIN;IND;PST;PFV;ABS;3;SG,f o ɡ i r͈ʲ dʲ
+foceird,focerdar,V;FIN;IND;PRS;ABS;PASS;SG,f o kʲ e r͈ d a r
+foceird,focerddar,V;FIN;IND;PRS;ABS;PASS;SG,f o kʲ e r͈ ð a r
+foceird,focertar,V;FIN;IND;PRS;ABS;PASS;SG,f o kʲ e r͈ t a r
+foceird,fucertar,V;FIN;IND;PRS;ABS;PASS;SG,f u ɡʲ e r͈ t a r
+foceird,focerdat,V;FIN;IND;PRS;ABS;3;PL,f o kʲ e r͈ ð a d
+foceird,fucertat,V;FIN;IND;PRS;ABS;3;PL,f u ɡʲ e r͈ t a d
+fogleinn,foroeglantar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,f o r o e ɣ l a n͈ t a r
+fogleinn,fogiguil,V;FIN;IND;FUT;3;SG;LGSPEC1,f o ɣʲ i ɣ u lʲ
+fogleinn,forogeglaind,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,f o r o ɣʲ e ɣʲ l i n͈ʲ dʲ
+fogleinn,fogleinn,V;FIN;IND;PRS;3;SG;LGSPEC1,f o ɣʲ lʲ e n͈ʲ
+fogleinn,foglaind,V;FIN;IND;PRS;3;SG;LGSPEC2,f o ɣ l i n͈ʲ dʲ
+fogleinn,froeglaind,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,f r o e ɣ l i n͈ʲ dʲ
+fogleinn,fogailsi,V;FIN;LGSPEC3,f o ɣ i l͈ʲ sʲ i
+fogleinn,foglenar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,f o ɣʲ lʲ e n a r
+foloing,fóelsaid,V;FIN;IND;FUT;2;PL;LGSPEC2,f oː i̯ l͈ s i ðʲ
+foloing,focóemlachtar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,f o k oː i̯ ṽ l a x t a r
+foloing,folilsat,V;FIN;IND;FUT;3;PL;LGSPEC1,f o lʲ i l͈ s a d
+foloing,folóis,V;FIN;SBJV;PRS;2;SG;LGSPEC1,f o l oː sʲ
+foloing,fulngaid,V;FIN;IMP;2;PL,f u l ŋ ɡ i ðʲ
+foloing,folil,V;FIN;IND;FUT;3;SG;LGSPEC1,f o lʲ i lʲ
+foloing,fulngat,V;FIN;IND;PRS;3;PL;LGSPEC2,f u l͈ ŋ ɡ a d
+foloing,folilus,V;FIN;IND;FUT;1;SG;LGSPEC1,f o lʲ i l u s
+foloing,foloingfocoimling,V;FIN;IND;PRS;3;SG;LGSPEC1,f o l o ŋʲ ɡʲ f o ɡ o mʲ lʲ i ŋʲ ɡʲ
+foloing,folós,V;FIN;SBJV;PRS;1;SG;LGSPEC1,f o l oː s
+foloing,fulaingfochomlaing,V;FIN;IND;PRS;3;SG;LGSPEC2,f u l a ŋʲ ɡʲ f o x o ṽ l ə ŋʲ ɡʲ
+foloing,fochomolsaid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,f o x o ṽ o l͈ s i ðʲ
+foloing,folongat,V;FIN;IND;PRS;3;PL;LGSPEC1,f o l o ŋ ɡ a d
+foloing,fóel,V;FIN;IND;FUT;3;SG;LGSPEC2,f oː i̯ l
+foloing,focóemallag,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,f o k oː i̯ ṽ a l͈ a ɣ
+adamraigedar,roadamrigther,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,r͈ o a ð a ṽ r i ɣʲ θʲ e r
+adamraigedar,adruamraigset,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,a ð r u a ṽ r i ɣʲ sʲ e d
+adamraigedar,adamraigther,V;FIN;SBJV;PRS;2;SG;LGSPEC1,a ð a ṽ r i ɣʲ θʲ e r
+adamraigedar,adamrigedar,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð a ṽ rʲ i ɣʲ e ð a r
+adamraigedar,adamrigethar,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð a ṽ rʲ i ɣʲ e θ a r
+adamraigedar,adamraigthi,V;FIN;LGSPEC3,a ð a ṽ r i ɣʲ θʲ i
+adamraigedar,adamraigetar,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð a ṽ r i ɣʲ e d a r
+formuinethar,forménatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,f o r͈ʲ mʲ eː n a d a r
+formuinethar,formoinetar,V;FIN;IND;PRS;3;PL;LGSPEC2,f o r ṽ o nʲ e d a r
+formuinethar,farmuinethar,V;FIN;IND;PRS;3;SG;LGSPEC1,f a r ṽ u nʲ e θ a r
+adclaid,adcláis,V;FIN;SBJV;PRS;2;SG;LGSPEC1,a ð k l aː sʲ
+adclaid,accladat,V;FIN;IND;PRS;3;PL;LGSPEC2,a k l a ð a d
+adclaid,adcichlus,V;FIN;IND;FUT;1;SG;LGSPEC1,a ð kʲ i x l u s
+adclaid,aclaid,V;FIN;IND;PRS;3;SG;LGSPEC2,a k l i ðʲ
+adclaid,adcladat,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð k l a ð a d
+foálgi,fuálgi,V;FIN;IND;PRS;2;SG;LGSPEC1,f u aː l ɣʲ i
+foálgi,forálaig,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,f o r aː l i ɣʲ
+foálgi,fálgi,V;FIN;IND;PRS;3;SG;LGSPEC2,f aː l ɣʲ i
+foálgi,foálaig,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,f o aː l i ɣʲ
+foálgi,foálagar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,f o aː l a ɣ a r
+adcobra,adcobrai,V;FIN;IND;PRS;2;SG;LGSPEC1,a ð k o v r i
+adcobra,adcobrad,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,a ð k o v r a ð
+adcobra,athcobrad,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,a θ k o v r a ð
+adcobra,adrochabair,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,a ð r o x a v i rʲ
+adcobra,adcobra,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð k o v r a
+adcobra,accobra,V;FIN;IND;PRS;3;SG;LGSPEC2,a k o v r a
+adcobra,adcobair,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð k o v i rʲ
+adcobra,adcobrat,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð k o v r a d
+adcomla,adcomaltar,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,a ð k o ṽ a l͈ t a r
+adcomla,adcomlasat,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,a ð k o ṽ l a s a d
+adcomla,adrochomul,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,a ð r o x o ṽ u l
+adcomla,adcomla,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð k o ṽ l a
+adcomla,adcomlatar,V;FIN;IND;PRS;PASS;PL;LGSPEC1,a ð k o ṽ l a d a r
+adcomla,adcomaill,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð k o ṽ i l͈ʲ
+adcomla,adcomaltar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,a ð k o ṽ a l͈ t a r
+adcomla,adcomlat,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð k o ṽ l a d
+adcosnai,adcosnaitis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC1,a ð k o s n͈ i dʲ i sʲ
+adcosnai,adcosnae,V;FIN;SBJV;PRS;2;SG;LGSPEC1,a ð k o s n͈ e
+adcosnai,adruchoisséni,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,a ð r u x o sʲ eː nʲ i
+adcosnai,ascnai,V;FIN;IND;PRS;3;SG;LGSPEC2,a s k n i
+adcosnai,adchosain,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð x o s i nʲ
+adcosnai,adcosnat,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð k o s n͈ a d
+adcota,adcotar,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,a ð k o d a r
+adcota,adcotai,V;FIN;IND;PRS;2;SG;LGSPEC1,a ð k o d i
+adcota,étis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC2,eː dʲ i sʲ
+adcota,étaitis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC2,eː d i dʲ i sʲ
+adcota,étatham,V;FIN;IND;FUT;1;PL;LGSPEC2,eː d a θ a ṽ
+adcota,adcotatsat,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,a ð k o d a d s a d
+adcota,adcotaiset,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,a ð k o d i sʲ e d
+adcota,adcotadus,V;FIN;IND;PST;PFV;1;SG;LGSPEC1,a ð k o d a ð u s
+adcota,adcodados,V;FIN;IND;PST;PFV;1;SG;LGSPEC1,a ð k o ð a ð o s
+adcota,adcotad,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,a ð k o d a ð
+adcota,étatsat,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,eː d a d s a d
+adcota,étsat,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,eː d s a d
+adcota,état,V;FIN;IND;PRS;3;PL;LGSPEC2,eː d a d
+adcota,roét,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,r͈ oː e̯ d
+adcota,rohét,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,r͈ o h eː d
+adcota,adcotaarcota,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð k o d a a̯ r k o d a
+adcota,adcot,V;FIN;SBJV;PRS;1;SG;LGSPEC1,a ð k o d
+adcota,adcotadsam,V;FIN;IND;PST;PFV;1;PL;LGSPEC1,a ð k o d a ð s a ṽ
+adcota,adcotasum,V;FIN;IND;PST;PFV;1;PL;LGSPEC1,a ð k o d a s u ṽ
+adcota,éta,V;FIN;IND;PRS;3;SG;LGSPEC2,eː d a
+adcota,adcotaiter,V;FIN;IND;PRS;PASS;PL;LGSPEC1,a ð k o d i dʲ e rʲ
+adcota,étaid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,eː d i ðʲ
+adcota,étid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,eː dʲ i ðʲ
+adcota,étade,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,eː d a ð e
+adcota,étada,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,eː d a ð a
+adcota,adcotade,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð k o d a ðʲ e
+adcota,adcotedae,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð k o dʲ e ð e
+adcota,adcotad,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð k o d a ð
+adcota,adcotar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,a ð k o d a r
+adcota,adcotat,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð k o d a d
+adcota,étada,V;FIN;IND;FUT;3;SG;LGSPEC2,eː d a ð a
+adcota,adcotad,V;FIN;IND;PST;PFV;PASS;SG;LGSPEC1,a ð k o d a ð
+adcí,adcethar,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,a ð kʲ e θ a r
+adcí,con-acca,V;FIN;IND;PST;PFV;2;SG;LGSPEC1,k o n͈ a ɡ a
+adcí,adcítis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC1,a ð kʲ iː dʲ i sʲ
+adcí,adcí,V;FIN;IND;PRS;2;SG;LGSPEC1,a ð kʲ iː
+adcí,acca,V;FIN;IND;PST;PRF;2;SG;LGSPEC2,a k a
+adcí,con-accatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,k o n͈ a ɡ a d a r
+adcí,adcondarc,V;FIN;IND;PST;PRF;2;SG;LGSPEC1,a ð k o n͈ d a r k
+adcí,con-acca,V;FIN;IND;PST;PFV;1;SG;LGSPEC1,k o n͈ a ɡ a
+adcí,adcondarctar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,a ð k o n͈ d a r k t a r
+adcí,adcíd,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,a ð kʲ iː ð
+adcí,adcichset,V;FIN;IND;FUT;3;PL;LGSPEC1,a ð kʲ i xʲ sʲ e d
+adcí,acca,V;FIN;IND;PST;PRF;1;SG;LGSPEC2,a k a
+adcí,accatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,a k a d a r
+adcí,accat,V;FIN;IND;PRS;3;PL;LGSPEC2,a k a d
+adcí,acat,V;FIN;IND;PRS;3;PL;LGSPEC2,a ɡ a d
+adcí,adcondairc,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,a ð k o n͈ d i rʲ kʲ
+adcí,adcí,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð kʲ iː
+adcí,adcíi,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð kʲ iː
+adcí,adcear,V;FIN;SBJV;PRS;1;SG;LGSPEC1,a ð kʲ e a̯ r
+adcí,con-accamar,V;FIN;IND;PST;PFV;1;PL;LGSPEC1,k o n͈ a ɡ a ṽ a r
+adcí,aicci,V;FIN;IND;PRS;3;SG;LGSPEC2,a kʲ i
+adcí,adcíter,V;FIN;IND;PRS;PASS;PL;LGSPEC1,a ð kʲ iː dʲ e r
+adcí,accae,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,a k e
+adcí,acæ,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,a k eː
+adcí,accae,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,a k e
+adcí,con-accae,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,k o n ə ɡ e
+adcí,adcítheradrodarcar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,a ð kʲ iː θʲ e r a ð r o ð a r k a r
+adcí,adciat,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð kʲ i a̯ d
+adcí,aiccigi,V;FIN;IND;FUT;3;SG;LGSPEC2,a kʲ i ɣʲ i
+adcí,adcess,V;FIN;IND;PST;PFV;PASS;SG;LGSPEC1,a ð kʲ e s
+adcí,adcondarc,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,a ð k o n͈ d a r k
+adgládathar,adgláitis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC1,a ð ɡ l aː dʲ i sʲ
+adgládathar,adgládaither,V;FIN;IND;PRS;2;SG;LGSPEC1,a ð ɡ l aː ð i θʲ e r
+adgládathar,adrogailser,V;FIN;IND;PST;PRF;2;SG;LGSPEC1,a ð r o ɣ i l͈ʲ sʲ e r
+adgládathar,adgegaldathar,V;FIN;IND;FUT;3;SG;LGSPEC1,a ð ɡʲ e ɣ a l͈ d a θ a r
+adgládathar,adgeglathar,V;FIN;IND;FUT;3;SG;LGSPEC1,a ð ɡʲ e ɣ l a θ a r
+adgládathar,adgegaldar,V;FIN;IND;FUT;1;SG;LGSPEC1,a ð ɡʲ e ɣ a l͈ d a r
+adgládathar,adroglastar,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,a ð r o ɣ l a s t a r
+adgládathar,adgládathar,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð ɡ l aː ð a θ a r
+adgládathar,adgládadar,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð ɡ l aː ð a ð a r
+adgládathar,a-tgláite,V;FIN;IMP;2;SG,a d ɣ l aː dʲ e
+adgládathar,accailde,V;FIN;IMP;2;SG,a k i l͈ʲ dʲ e
+adgládathar,adgládasmar,V;FIN;IND;PST;PFV;1;PL;LGSPEC1,a ð ɡ l aː ð a s ṽ a r
+adgládathar,accaldathar,V;FIN;IND;PRS;3;SG;LGSPEC2,a k a l͈ ð a θ a r
+adgládathar,árlaidid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,aː r͈ l͈ i ðʲ i ðʲ
+adgládathar,accaldastar,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,a k a l͈ d a s t a r
+adgládathar,aiclestar,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,a ɡʲ lʲ e s t a r
+adgládathar,accaild,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,a k i l͈ʲ dʲ
+adgládathar,árlastar,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,aː r͈ l͈ a s t a r
+adgládathar,árlasair,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,aː r͈ l͈ a s i rʲ
+adgládathar,adgládastar,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð ɡ l aː ð a s t a r
+adgládathar,acallta,V;FIN;LGSPEC3,a ɡ a l͈ t a
+adgládathar,adgládatar,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð ɡ l aː ð a d a r
+adgnin,adgénatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,a ð ɡʲ eː n a d a r
+adgnin,adgén,V;FIN;IND;PST;PFV;1;SG;LGSPEC1,a ð ɡʲ eː n
+adgnin,adgnied,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,a ð ɡʲ nʲ i ðʲ
+adgnin,aithgéntar,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,a θʲ ɣʲ eː n͈ t a r
+adgnin,aithgninet,V;FIN;IND;PRS;3;PL;LGSPEC2,a θʲ ɣʲ nʲ i nʲ e d
+adgnin,adgén,V;FIN;IND;FUT;1;SG;LGSPEC1,a ð ɡʲ eː n
+adgnin,adgénammar,V;FIN;IND;PST;PFV;1;PL;LGSPEC1,a ð ɡʲ eː n a m a r
+adgnin,aithgéuin,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,a θʲ ɣʲ eː u̯ nʲ
+adgnin,adgéuin,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð ɡʲ eː u̯ nʲ
+adgnin,adgninat,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð ɡʲ nʲ i n a d
+adgnin,aithgéna,V;FIN;IND;FUT;3;SG;LGSPEC2,a θʲ ɣʲ eː n a
+admuinethar,admuinter,V;FIN;IND;PRS;2;SG;LGSPEC1,a ð m u n͈ʲ tʲ e r
+adrími,adrímther,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,a ð r͈ʲ iː ṽʲ θʲ e r
+adrími,adrímtis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC1,a ð r͈ʲ iː ṽʲ tʲ i sʲ
+adrími,adrími,V;FIN;IND;PRS;2;SG;LGSPEC1,a ð r͈ʲ iː ṽʲ i
+adrími,adruirmisset,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,a ð r u rʲ ṽʲ i sʲ e d
+adrími,adrímfem,V;FIN;IND;FUT;1;PL;LGSPEC1,a ð rʲ iː mʲ fʲ e ṽ
+adrími,adrurmius,V;FIN;IND;PST;PFV;1;SG;LGSPEC1,a ð r u r ṽʲ u s
+adrími,adruirmed,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,a ð r u rʲ ṽʲ e ð
+adrími,adruirmisset,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,a ð r u rʲ ṽʲ i sʲ e d
+adrími,adríme,V;FIN;SBJV;PRS;2;SG;LGSPEC1,a ð r͈ʲ iː ṽʲ e
+adrími,adruirim,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,a ð r u rʲ i ṽʲ
+adrími,adrími,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð r͈ʲ iː ṽʲ i
+adrími,áirmi,V;FIN;IND;PRS;3;SG;LGSPEC2,aː rʲ ṽʲ i
+adrími,adrímter,V;FIN;IND;PRS;PASS;PL;LGSPEC1,a ð rʲ iː ṽʲ tʲ e r
+adrími,arraim,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,a r͈ i ṽʲ
+adrími,arraim,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,a r͈ i ṽʲ
+adrími,adruirim,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð r u rʲ i ṽʲ
+adrími,aírmthi,V;FIN;LGSPEC3,aː i̯ r͈ʲ ṽʲ θʲ i
+adrími,adrímther,V;FIN;IND;PRS;PASS;SG;LGSPEC1,a ð r͈ʲ iː ṽʲ θʲ e r
+adrími,adrímet,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð r͈ʲ iː ṽʲ e d
+adrími,adruirmed,V;FIN;IND;PST;PFV;PASS;SG;LGSPEC1,a ð r u rʲ ṽʲ e ð
+adrími,adrurmius,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,a ð r u r ṽʲ u s
+adágathar,áigtis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC2,aː ɣʲ tʲ i sʲ
+adágathar,adráigsetar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,a ð r aː ɣʲ sʲ e d a r
+adágathar,adráichsetar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,a ð r aː xʲ sʲ e d a r
+adágathar,adráigset,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,a ð r aː ɣʲ sʲ e d
+adágathar,adáigther,V;FIN;SBJV;PRS;2;SG;LGSPEC1,a ð aː ɣʲ θʲ e r
+adágathar,áigsetar,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,aː ɣʲ sʲ e d a r
+adágathar,áigset,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,aː ɣʲ sʲ e d
+adágathar,adáichfethar,V;FIN;IND;FUT;3;SG;LGSPEC1,a ð aː xʲ fʲ e θ a r
+adágathar,adáichfedar,V;FIN;IND;FUT;3;SG;LGSPEC1,a ð aː xʲ fʲ e ð a r
+adágathar,áigetar,V;FIN;IND;PRS;3;PL;LGSPEC2,aː ɣʲ e d a r
+adágathar,ágetar,V;FIN;IND;PRS;3;PL;LGSPEC2,aː ɣʲ e d a r
+adágathar,adáichfer,V;FIN;IND;FUT;1;SG;LGSPEC1,a ð aː xʲ fʲ e r
+adágathar,adráigestar,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,a ð r aː ɣʲ e s t a r
+adágathar,adágathar,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð aː ɣ a θ a r
+adágathar,adágadar,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð aː ɣ a ð a r
+adágathar,adáigethar,V;FIN;IND;PRS;3;SG;LGSPEC1,a ð aː ɣʲ e θ a r
+adágathar,áigthe,V;FIN;IMP;2;SG,aː ɣʲ θʲ e
+adágathar,áig,V;FIN;IMP;2;SG,aː ɣʲ
+adágathar,adáigsem,V;FIN;IND;PST;PFV;1;PL;LGSPEC1,a ð aː ɣʲ sʲ e ṽ
+adágathar,ágathar,V;FIN;IND;PRS;3;SG;LGSPEC2,aː ɣ a θ a r
+adágathar,áigethar,V;FIN;IND;PRS;3;SG;LGSPEC2,aː ɣʲ e θ a r
+adágathar,ágether,V;FIN;IND;PRS;3;SG;LGSPEC2,aː ɣʲ e θʲ e r
+adágathar,ágastar,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,aː ɣ a s t a r
+adágathar,áigestar,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,aː ɣʲ e s t a r
+adágathar,áig,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,aː ɣʲ
+adágathar,ráigestar,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,r͈ aː ɣʲ e s t a r
+adágathar,adágastar,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð aː ɣ a s t a r
+adágathar,adáigestar,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð aː ɣʲ e s t a r
+adágathar,adáig,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a ð aː ɣʲ
+adágathar,adáigther,V;FIN;IND;PRS;PASS;SG;LGSPEC1,a ð aː ɣʲ θʲ e r
+adágathar,adáigetar,V;FIN;IND;PRS;3;PL;LGSPEC1,a ð aː ɣʲ e d a r
+adágathar,áichfethar,V;FIN;IND;FUT;3;SG;LGSPEC2,aː xʲ fʲ e θ a r
+gníid,gníu,V;FIN;IND;PRS;CONJ;1;SG,ɡʲ nʲ iː u̯
+gníid,gníid,V;FIN;IND;PRS;CONJ;2;PL,ɡʲ nʲ iː ðʲ
+gníid,gnís,V;FIN;IND;PRS;REL;3;SG,ɡʲ nʲ iː s
+gníid,génset,V;FIN;IND;PST;PFV;CONJ;3;PL,ɡʲ eː n͈ʲ sʲ e d
+gníid,gníid,V;FIN;IND;PRS;ABS;3;SG,ɡʲ nʲ iː ðʲ
+gníid,gní,V;FIN;IND;PRS;CONJ;3;SG,ɡʲ nʲ iː
+gníid,gníth,V;FIN;IND;PST;PFV;CONJ;PASS;SG,ɡʲ nʲ iː θ
+gníid,géni,V;FIN;IND;PST;PFV;CONJ;3;SG,ɡʲ eː nʲ i
+gníid,génais,V;FIN;IND;PST;PFV;ABS;3;SG,ɡʲ eː n i sʲ
+gníid,gníther,V;FIN;IND;PRS;ABS;PASS;SG,ɡʲ nʲ iː θʲ e r
+guidid,gádatar,V;FIN;IND;PST;PFV;ABS;3;PL,ɡ aː ð a d a r
+guidid,guidiu,V;FIN;IND;PRS;CONJ;1;SG,ɡ u ðʲ u
+guidid,guidimm,V;FIN;IND;PRS;CONJ;1;SG,ɡ u ðʲ i mʲ
+guidid,gigius,V;FIN;IND;FUT;CONJ;1;SG,ɡʲ i ɣʲ u s
+guidid,gessatroigset,V;FIN;SBJV;PRS;CONJ;3;PL,ɡʲ e s a d r o ɣʲ sʲ e d
+guidid,gád,V;FIN;IND;PST;PFV;CONJ;1;SG,ɡ aː ð
+guidid,gess,V;FIN;SBJV;PRS;CONJ;1;SG,ɡʲ e s
+guidid,guidet,V;FIN;IND;PRS;CONJ;3;PL,ɡ u ðʲ e d
+guidid,guidid,V;FIN;IND;PRS;ABS;3;SG,ɡ u ðʲ ə ðʲ
+guidid,guid,V;FIN;IND;PRS;CONJ;3;SG,ɡ u ðʲ
+guidid,gess,V;FIN;IND;PST;PFV;CONJ;PASS;SG,ɡʲ e s
+guidid,guiter,V;FIN;IND;PRS;CONJ;PASS;SG,ɡ u dʲ e r
+guidid,guidid,V;FIN;IMP;2;PL,ɡ u ðʲ ə ðʲ
+guidid,gáid,V;FIN;IND;PST;PFV;CONJ;3;SG,ɡ aː ðʲ
+guidid,gigsed,V;FIN;COND;3;SG,ɡʲ i ɣʲ sʲ e ð
+guidid,roigestae,V;FIN;SBJV;PST;PASS;SG,r͈ o ɣʲ e s t e
+guidid,gé,V;FIN;SBJV;PRS;CONJ;3;SG,ɡʲ eː
+guidid,guidem,V;FIN;IND;PRS;CONJ;1;PL,ɡ u ðʲ e ṽ
+ibid,ibtis,V;FIN;IND;PST;IPFV;3;PL,i vʲ tʲ i sʲ
+ibid,íb,V;FIN;IND;FUT;CONJ;1;SG,iː v
+ibid,ebat,V;FIN;SBJV;PRS;CONJ;3;PL,e v a d
+ibid,ibes,V;FIN;IND;PRS;REL;3;SG,i vʲ e s
+ibid,ebat,V;FIN;IND;PRS;CONJ;3;PL,e v a d
+ibid,íba,V;FIN;IND;FUT;CONJ;3;SG,iː v a
+ibid,ibid,V;FIN;IND;PRS;ABS;3;SG,i vʲ i ðʲ
+ibid,ib,V;FIN;IND;PRS;CONJ;3;SG,i vʲ
+ibid,ib,V;FIN;IMP;2;SG,i vʲ
+ibid,ebar,V;FIN;IND;PRS;CONJ;PASS;SG,e v a r
+ibid,ibid,V;FIN;IMP;2;PL,i vʲ i ðʲ
+ibid,íbad,V;FIN;COND;3;SG,iː v a ð
+ibid,roíba,V;FIN;SBJV;PRS;CONJ;3;SG,r͈ oː i̯ v a
+ibid,ibis,V;FIN;IND;PST;PFV;ABS;3;SG,i vʲ i sʲ
+ibid,ebair,V;FIN;IND;PRS;ABS;PASS;SG,e v i rʲ
+ibid,ebait,V;FIN;IND;PRS;ABS;3;PL,e v i dʲ
+is,ba,V;FIN;IND;PST;3;SG,b a
+is,ba,V;FIN;IND;PST;3;SG;REL,b a
+is,is,V;FIN;IND;PRS;3;SG,i sʲ
+is,as,V;FIN;IND;PRS;3;SG;REL,a s
+is,robtis,V;FIN;COND;3;PL,r͈ o v tʲ i sʲ
+is,bit,V;FIN;FUT;3;PL,bʲ i dʲ
+is,ba,V;FIN;SBJV;PRS;1;SG,b a
+is,it,V;FIN;IND;PRS;3;PL,i dʲ
+is,ata,V;FIN;IND;PRS;3;PL;REL,a d a
+is,at,V;FIN;IND;PRS;3;PL,a d
+is,be,V;FIN;FUT;1;SG,bʲ e
+is,bede,V;FIN;SBJV;PRS;2;PL,bʲ e ðʲ e
+is,basa,V;FIN;IND;PST;2;SG,b a s a
+is,at,V;FIN;IND;PRS;2;SG,a d
+is,it,V;FIN;IND;PRS;2;SG,i dʲ
+is,nonda,V;FIN;IND;PRS;2;SG;REL,n͈ o n͈ d a
+is,bid,V;FIN;SBJV;PST;3;SG,bʲ i ðʲ
+is,bith,V;FIN;SBJV;PST;3;SG,bʲ i θ
+is,bed,V;FIN;SBJV;PST;3;SG;REL,bʲ e ð
+is,bad,V;FIN;SBJV;PST;3;SG,b a ð
+is,batir,V;FIN;IND;PST;3;PL,b a dʲ i rʲ
+is,batar,V;FIN;IND;PST;3;PL,b a d a r
+is,batar,V;FIN;IND;PST;3;PL;REL,b a d a r
+is,ban,V;FIN;IMP;1;PL,b a n
+is,baán,V;FIN;IMP;1;PL,b a aː n
+is,robad,V;FIN;COND;3;SG,r͈ o v a ð
+is,bed,V;FIN;COND;3;SG;REL,bʲ e ð
+is,adib,V;FIN;IND;PRS;2;PL,a ðʲ i vʲ
+is,idib,V;FIN;IND;PRS;2;PL,i ðʲ i vʲ
+is,adi,V;FIN;IND;PRS;2;PL,a ðʲ i
+is,nondad,V;FIN;IND;PRS;2;PL;REL,n͈ o n͈ d a ð
+is,betis,V;FIN;SBJV;PST;3;PL,bʲ e dʲ i sʲ
+is,bitis,V;FIN;SBJV;PST;3;PL,bʲ i dʲ i sʲ
+is,ba,V;FIN;SBJV;PRS;2;SG,b a
+is,be,V;FIN;SBJV;PRS;2;SG,bʲ e
+is,am,V;FIN;IND;PRS;1;SG,a ṽ
+is,nonda,V;FIN;IND;PRS;1;SG;REL,n͈ o n͈ d a
+is,bemmi,V;FIN;FUT;1;PL,bʲ e mʲ i
+is,bimmi,V;FIN;FUT;1;PL,bʲ i mʲ i
+is,bete,V;FIN;SBJV;PRS;3;PL;REL,bʲ e dʲ e
+is,beta,V;FIN;SBJV;PRS;3;PL,bʲ e d a
+is,basa,V;FIN;IND;PST;1;SG,b a s a
+is,bad,V;FIN;IMP;2;PL,b a ð
+is,bed,V;FIN;IMP;2;PL,bʲ e ð
+is,ammi,V;FIN;IND;PRS;1;PL,a mʲ i
+is,ammin,V;FIN;IND;PRS;1;PL,a mʲ i nʲ
+is,immi,V;FIN;IND;PRS;1;PL,i mʲ i
+is,nondan,V;FIN;IND;PRS;1;PL;REL,n͈ o n͈ d a n
+is,ba,V;FIN;SBJV;PRS;3;SG,b a
+is,bes,V;FIN;SBJV;PRS;3;SG;REL,bʲ e s
+is,bas,V;FIN;SBJV;PRS;3;SG,b a s
+is,ba,V;FIN;IMP;2;SG,b a
+is,bid,V;FIN;FUT;3;SG,bʲ i ðʲ
+is,bith,V;FIN;FUT;3;SG,bʲ i θ
+is,bat,V;FIN;IMP;3;PL,b a d
+is,bemmis,V;FIN;SBJV;PST;1;PL,bʲ e mʲ i sʲ
+is,bad,V;FIN;IMP;3;SG,b a ð
+is,bed,V;FIN;IMP;3;SG,bʲ e ð
+is,be,V;FIN;FUT;2;SG,bʲ e
+aigid,aigtis,V;FIN;IND;PST;IPFV;3;PL,a ɣʲ tʲ i sʲ
+aigid,aigid,V;FIN;IND;PRS;CONJ;2;PL,a ɣʲ i ðʲ
+aigid,aiges,V;FIN;IND;PRS;REL;3;SG,a ɣʲ e s
+aigid,achtatar,V;FIN;IND;PST;PFV;CONJ;3;PL,a x t a d a r
+aigid,agat,V;FIN;IND;PRS;CONJ;3;PL,a ɣ a d
+aigid,ebla,V;FIN;IND;FUT;CONJ;3;SG,e v l a
+aigid,aigid,V;FIN;IND;PRS;ABS;3;SG,a ɣʲ i ðʲ
+aigid,aig,V;FIN;IND;PRS;CONJ;3;SG,a ɣʲ
+aigid,aich,V;FIN;IND;PRS;CONJ;3;SG,a xʲ
+aigid,acht,V;FIN;IND;PST;PFV;CONJ;PASS;SG,a x t
+aigid,aig,V;FIN;IMP;2;SG,a ɣʲ
+aigid,agar,V;FIN;IND;PRS;CONJ;PASS;SG,a ɣ a r
+aigid,agathar,V;FIN;IND;PRS;CONJ;PASS;SG,a ɣ a θ a r
+aigid,acht,V;FIN;IND;PST;PFV;CONJ;3;SG,a x t
+aigid,eblad,V;FIN;COND;3;SG,e v l a ð
+aigid,agthae,V;FIN;SBJV;PST;PASS;SG,a ɣʲ θ e
+aigid,agair,V;FIN;IND;PRS;ABS;PASS;SG,a ɣ i rʲ
+aigid,aigit,V;FIN;IND;PRS;ABS;3;PL,a ɣʲ i dʲ
+ithid,ithitis,V;FIN;IND;PST;IPFV;3;PL,i θʲ i dʲ i sʲ
+ithid,ittis,V;FIN;IND;PST;IPFV;3;PL,i tʲ i sʲ
+ithid,íss,V;FIN;IND;FUT;CONJ;1;SG,iː s
+ithid,essatar,V;FIN;SBJV;PRS;CONJ;3;PL,e s a d a r
+ithid,ithes,V;FIN;IND;PRS;REL;3;SG,i θʲ e s
+ithid,essurdóesur,V;FIN;SBJV;PRS;CONJ;1;SG,e s u r͈ d oː i̯ s u r
+ithid,íssat,V;FIN;IND;FUT;CONJ;3;PL,iː s a d
+ithid,ethat,V;FIN;IND;PRS;CONJ;3;PL,e θ a d
+ithid,ithid,V;FIN;IND;PRS;ABS;3;SG,i θʲ i ðʲ
+ithid,ith,V;FIN;IMP;2;SG,i θ
+ithid,íssad,V;FIN;COND;3;SG,iː s a ð
+ithid,íssae,V;FIN;IND;FUT;CONJ;2;SG,iː s e
+ithid,estar,V;FIN;SBJV;PRS;CONJ;3;SG,e s t a r
+ithid,ethair,V;FIN;IND;PRS;ABS;PASS;SG,e θ i rʲ
+ithid,ithit,V;FIN;IND;PRS;ABS;3;PL,i θʲ i dʲ
+ithid,ethait,V;FIN;IND;PRS;ABS;3;PL,e θ i dʲ
+ailid,ailes,V;FIN;IND;PRS;REL;3;SG,a lʲ e s
+ailid,altatar,V;FIN;IND;PST;PFV;CONJ;3;PL,a l͈ t a d a r
+ailid,ebela,V;FIN;IND;FUT;CONJ;3;SG,e vʲ e l a
+ailid,ebla,V;FIN;IND;FUT;CONJ;3;SG,e v l a
+ailid,ail,V;FIN;IND;PRS;CONJ;3;SG,a lʲ
+ailid,alt,V;FIN;IND;PST;PFV;CONJ;PASS;SG,a l͈ t
+ailid,alar,V;FIN;IND;PRS;CONJ;PASS;SG,a l a r
+ailid,alt,V;FIN;IND;PST;PFV;CONJ;3;SG,a l͈ t
+ailid,ebelad,V;FIN;COND;3;SG,e vʲ e l a ð
+ailid,ailtir,V;FIN;IND;PRS;ABS;PASS;SG,a l͈ʲ tʲ i rʲ
+ailid,ailit,V;FIN;IND;PRS;ABS;3;PL,a lʲ i dʲ
+aingid,anus,V;FIN;IND;FUT;CONJ;1;SG,a n u s
+aingid,ainges,V;FIN;IND;PRS;REL;3;SG,a ŋʲ ɡʲ e s
+aingid,ainset,V;FIN;IND;FUT;CONJ;3;PL,a n͈ʲ sʲ e d
+aingid,anset,V;FIN;IND;FUT;CONJ;3;PL,a n͈ʲ sʲ e d
+aingid,anachtatar,V;FIN;IND;PST;PFV;CONJ;3;PL,a n a x t a d a r
+aingid,ain,V;FIN;IND;FUT;CONJ;3;SG,a nʲ
+aingid,aingid,V;FIN;IND;PRS;ABS;3;SG,a ŋʲ ɡʲ i ðʲ
+aingid,anich,V;FIN;IND;PRS;CONJ;3;SG,a nʲ i xʲ
+aingid,ain,V;FIN;IMP;2;SG,a nʲ
+aingid,anacht,V;FIN;IND;PST;PFV;CONJ;3;SG,a n a x t
+aingid,ainsed,V;FIN;COND;3;SG,a n͈ʲ sʲ e ð
+aingid,anais,V;FIN;IND;FUT;CONJ;2;SG,a n i sʲ
+aingid,aingit,V;FIN;IND;PRS;ABS;3;PL,a ŋʲ ɡʲ i dʲ
+marbaid,marbus,V;FIN;IND;PST;PFV;CONJ;1;SG,m a r v u s
+marbaid,marb,V;FIN;SBJV;PRS;CONJ;1;SG,m a r v
+marbaid,mairfem,V;FIN;IND;FUT;CONJ;1;PL,m a rʲ fʲ e ṽ
+marbaid,marbsat,V;FIN;IND;PST;PFV;CONJ;3;PL,m a r v s a d
+marbaid,marbaid,V;FIN;IND;PRS;ABS;3;SG,m a r v i ðʲ
+marbaid,marbaind,V;FIN;SBJV;PST;1;SG,m a r v i n͈ʲ dʲ
+marbaid,marba,V;FIN;IND;PRS;CONJ;3;SG,m a r v a
+marbaid,marbthar,V;FIN;IND;PRS;CONJ;PASS;SG,m a r v θ a r
+marbaid,marb,V;FIN;IND;PST;PFV;CONJ;3;SG,m a r v
+marbaid,marfed,V;FIN;COND;3;SG,m a r͈ʲ fʲ e ð
+marbaid,mairbfe,V;FIN;IND;FUT;CONJ;2;SG,m a rʲ vʲ e
+marbaid,marba,V;FIN;SBJV;PRS;CONJ;3;SG,m a r v a
+marbaid,marbais,V;FIN;IND;PST;PFV;ABS;3;SG,m a r v i sʲ
+marbaid,marbthair,V;FIN;IND;PRS;ABS;PASS;SG,m a r v θ i rʲ
+marbaid,marbait,V;FIN;IND;PRS;ABS;3;PL,m a r v i dʲ
+molaidir,molur,V;FIN;IND;PRS;CONJ;1;SG,m o l u r
+molaidir,molor,V;FIN;IND;PRS;CONJ;1;SG,m o l o r
+molaidir,molfar,V;FIN;IND;FUT;CONJ;1;SG,m o l f a r
+molaidir,molatar,V;FIN;SBJV;PRS;CONJ;3;PL,m o l a d a r
+molaidir,molid,V;FIN;IND;PRS;ABS;3;SG,m o lʲ i ðʲ
+molaidir,molathar,V;FIN;IND;PRS;CONJ;3;SG,m o l a θ a r
+molaidir,moladar,V;FIN;IND;PRS;CONJ;3;SG,m o l a ð a r
+molaidir,molthae,V;FIN;IMP;2;SG,m o l͈ θ e
+molaidir,molastar,V;FIN;IND;PST;PFV;CONJ;3;SG,m o l a s t a r
+molaidir,moladar,V;FIN;SBJV;PRS;CONJ;3;SG,m o l a ð a r
+molaidir,molthair,V;FIN;IND;PRS;ABS;PASS;SG,m o l͈ θ i rʲ
+molaidir,molammar,V;FIN;IND;PRS;CONJ;1;PL,m o l a m a r
+moídid,moídim,V;FIN;IND;PRS;CONJ;1;SG,m oː i̯ ðʲ i ṽʲ
+moídid,moídfem,V;FIN;IND;FUT;CONJ;1;PL,m oː i̯ ðʲ vʲ e ṽ
+moídid,moídi,V;FIN;IND;PRS;CONJ;3;SG,m oː i̯ ðʲ i
+moídid,moíd,V;FIN;IND;PST;PFV;CONJ;3;SG,m oː i̯ ð
+moídid,moídea,V;FIN;SBJV;PRS;CONJ;3;SG,m oː i̯ ðʲ a
+pridchaid,pridchim,V;FIN;IND;PRS;CONJ;1;SG,pʲ rʲ i ðʲ xʲ i ṽʲ
+pridchaid,pridchas,V;FIN;IND;PRS;REL;3;SG,pʲ rʲ i ð x a s
+pridchaid,praidchas,V;FIN;IND;PRS;REL;3;SG,p r a ð x a s
+pridchaid,pridchus,V;FIN;IND;PST;PFV;CONJ;1;SG,pʲ rʲ i ð x u s
+pridchaid,pridach,V;FIN;SBJV;PRS;CONJ;1;SG,pʲ rʲ i ð a x
+pridchaid,pridag,V;FIN;SBJV;PRS;CONJ;1;SG,pʲ rʲ i ð a ɣ
+pridchaid,pridchabat,V;FIN;IND;FUT;CONJ;3;PL,pʲ rʲ i ð x a v a d
+pridchaid,pridchaid,V;FIN;IND;PRS;ABS;3;SG,pʲ rʲ i ð x i ðʲ
+pridchaid,pridchad,V;FIN;IND;PST;PFV;CONJ;PASS;SG,pʲ rʲ i ð x a ð
+pridchaid,priched,V;FIN;IND;PST;PFV;CONJ;PASS;SG,pʲ rʲ i xʲ e ð
+pridchaid,pricad,V;FIN;IND;PST;PFV;CONJ;PASS;SG,pʲ rʲ i ɡ a ð
+pridchaid,proidech,V;FIN;IND;PST;PFV;CONJ;3;SG,p r o ðʲ e x
+pridchaid,prithach,V;FIN;IND;PST;PFV;CONJ;3;SG,pʲ rʲ i θ a x
+pridchaid,pridchit,V;FIN;IND;PRS;ABS;3;PL,pʲ rʲ i ðʲ xʲ i dʲ
+rofinnadar,rofessar,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,r͈ o fʲ e s a r
+rofinnadar,fessammar,V;FIN;IND;FUT;1;PL;LGSPEC2,fʲ e s a m a r
+rofinnadar,fetar,V;FIN;IND;PST;PRF;2;SG;LGSPEC2,fʲ e d a r
+rofinnadar,rofessammar,V;FIN;IND;FUT;1;PL;LGSPEC1,r͈ o fʲ e s a m a r
+rofinnadar,rofess,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,r͈ o fʲ e s
+rofinnadar,fessaid,V;FIN;IND;FUT;2;PL;LGSPEC2,fʲ e s i ðʲ
+rofinnadar,rofitetar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,r͈ o fʲ i tʲ e d a r
+rofinnadar,rofinnad,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,r͈ o fʲ i n͈ a ð
+rofinnadar,rofessatar,V;FIN;IND;FUT;3;PL;LGSPEC1,r͈ o fʲ e s a d a r
+rofinnadar,fetar,V;FIN;IND;PST;PRF;1;SG;LGSPEC2,fʲ e d a r
+rofinnadar,rofeisser,V;FIN;SBJV;PRS;2;SG;LGSPEC1,r͈ o fʲ e sʲ e r
+rofinnadar,finnaid,V;FIN;IMP;2;PL,fʲ i n͈ i ðʲ
+rofinnadar,rofestar,V;FIN;IND;FUT;3;SG;LGSPEC1,r͈ o fʲ e s t a r
+rofinnadar,finnatar,V;FIN;IND;PRS;3;PL;LGSPEC2,fʲ i n͈ a d a r
+rofinnadar,rofessur,V;FIN;IND;FUT;1;SG;LGSPEC1,r͈ o fʲ e s u r
+rofinnadar,rofitir,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,r͈ o fʲ i dʲ i rʲ
+rofinnadar,fessainn,V;FIN;COND;1;SG;LGSPEC2,fʲ e s i n͈ʲ
+rofinnadar,rofinnadar,V;FIN;IND;PRS;3;SG;LGSPEC1,r͈ o fʲ i n͈ a ð a r
+rofinnadar,rofessaid,V;FIN;IND;FUT;2;PL;LGSPEC1,r͈ o fʲ e s i ðʲ
+rofinnadar,fintae,V;FIN;IMP;2;SG,fʲ i n͈ t e
+rofinnadar,rofessur,V;FIN;SBJV;PRS;1;SG;LGSPEC1,r͈ o fʲ e s u r
+rofinnadar,finnadar,V;FIN;IND;PRS;3;SG;LGSPEC2,fʲ i n͈ a ð a r
+rofinnadar,rofinnatar,V;FIN;IND;PRS;PASS;PL;LGSPEC1,r͈ o fʲ i n͈ a d a r
+rofinnadar,fessaid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,fʲ e s i ðʲ
+rofinnadar,finnad,V;FIN;IMP;3;SG,fʲ i n͈ a ð
+rofinnadar,fess,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC2,fʲ e s
+rofinnadar,fitir,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,fʲ i dʲ i rʲ
+rofinnadar,fissi,V;FIN;LGSPEC3,fʲ i sʲ i
+rofinnadar,festar,V;FIN;IND;FUT;3;SG;LGSPEC2,fʲ e s t a r
+rofinnadar,rofetar,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,r͈ o fʲ e d a r
+arbáigi,erbáigset,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,e r v aː ɣʲ sʲ e d
+arbáigi,arbáigi,V;FIN;IND;PRS;3;SG;LGSPEC1,a r v aː ɣʲ i
+arbáigi,arbáget,V;FIN;IND;PRS;3;PL;LGSPEC1,a r v aː ɣʲ e d
+snigid,snigtis,V;FIN;IND;PST;IPFV;3;PL,sʲ nʲ i ɣʲ tʲ i sʲ
+snigid,sniges,V;FIN;IND;PRS;REL;3;SG,sʲ nʲ i ɣʲ e s
+snigid,snigid,V;FIN;IND;PRS;ABS;3;SG,sʲ nʲ i ɣʲ i ðʲ
+snigid,snig,V;FIN;IND;PRS;CONJ;3;SG,sʲ nʲ i ɣʲ
+snigid,senaig,V;FIN;IND;PST;PFV;ABS;3;SG,sʲ e n i ɣʲ
+snigid,snigis,V;FIN;IND;PST;PFV;ABS;3;SG,sʲ nʲ i ɣʲ i sʲ
+asbeir,asbertharasrobarthar,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,a s bʲ e r͈ θ a r a s r o v a r͈ θ a r
+asbeir,asbirt,V;FIN;IND;PST;PFV;2;SG;LGSPEC1,a s bʲ i r͈ʲ tʲ
+asbeir,asbeirtis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC1,a s bʲ e r͈ʲ tʲ i sʲ
+asbeir,asbertis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC1,a s bʲ e r͈ʲ tʲ i sʲ
+asbeir,asbir,V;FIN;IND;PRS;2;SG;LGSPEC1,a s vʲ i rʲ
+asbeir,asbertatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,a s bʲ e r͈ t a d a r
+asbeir,asbéram,V;FIN;IND;FUT;1;PL;LGSPEC1,a s bʲ eː r a ṽ
+asbeir,asrubrad,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,a s r u v r a ð
+asbeir,asrobrad,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,a s r o v r a ð
+asbeir,asrubartatar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,a s r u v a r͈ t a d a r
+asbeir,asrubartat,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,a s r u v a r͈ t a d
+asbeir,asbeired,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,a s bʲ e rʲ e ð
+asbeir,asbered,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,a s bʲ e rʲ e ð
+asbeir,asberadasrobarad,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,a s bʲ e r a ð a s r o v a r a ð
+asbeir,asbérat,V;FIN;IND;FUT;3;PL;LGSPEC1,a s bʲ eː r a d
+asbeir,érburt,V;FIN;IND;PST;PRF;1;SG;LGSPEC2,eː r v u r͈ t
+asbeir,ǽrburt,V;FIN;IND;PST;PRF;1;SG;LGSPEC2,ð r͈ v u r͈ t
+asbeir,asberae,V;FIN;SBJV;PRS;2;SG;LGSPEC1,a s bʲ e r e
+asbeir,asbere,V;FIN;SBJV;PRS;2;SG;LGSPEC1,a s bʲ e rʲ e
+asbeir,asbera,V;FIN;SBJV;PRS;2;SG;LGSPEC1,a s bʲ e r a
+asbeir,eprid,V;FIN;IMP;2;PL,e bʲ rʲ i ðʲ
+asbeir,epertatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,e bʲ e r͈ t a d a r
+asbeir,asbéra,V;FIN;IND;FUT;3;SG;LGSPEC1,a s bʲ eː r a
+asbeir,asbér,V;FIN;IND;FUT;1;SG;LGSPEC1,a s bʲ eː r
+asbeir,asbǽr,V;FIN;IND;FUT;1;SG;LGSPEC1,a s bʲ æː r
+asbeir,asbéer,V;FIN;IND;FUT;1;SG;LGSPEC1,a s bʲ eː i̯ r
+asbeir,asrubart,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,a s r u v a r͈ t
+asbeir,asrubbart,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,a s r u v a r͈ t
+asbeir,asbeir,V;FIN;IND;PRS;3;SG;LGSPEC1,a s bʲ e rʲ
+asbeir,asberasrobair,V;FIN;IND;PRS;3;SG;LGSPEC1,a s bʲ e r a s r o v i rʲ
+asbeir,asber,V;FIN;SBJV;PRS;1;SG;LGSPEC1,a s bʲ e r
+asbeir,epir,V;FIN;IND;PRS;3;SG;LGSPEC2,e bʲ i rʲ
+asbeir,epeir,V;FIN;IND;PRS;3;SG;LGSPEC2,e bʲ e rʲ
+asbeir,eiper,V;FIN;IND;PRS;3;SG;LGSPEC2,e bʲ e r
+asbeir,eper,V;FIN;IND;PRS;3;SG;LGSPEC2,e bʲ e r
+asbeir,asbertar,V;FIN;IND;PRS;PASS;PL;LGSPEC1,a s bʲ e r͈ d a r
+asbeir,érbarid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,eː r v a rʲ i ðʲ
+asbeir,epred,V;FIN;IMP;3;SG,e bʲ rʲ e ð
+asbeir,érbrad,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC2,eː r v r a ð
+asbeir,érbrath,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC2,eː r v r a θ
+asbeir,epert,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,e bʲ e r͈ t
+asbeir,érbart,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,eː r v a r͈ t
+asbeir,asbert,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,a s bʲ e r͈ t
+asbeir,abarta,V;FIN;LGSPEC3,a v a r͈ d a
+asbeir,asberar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,a s bʲ e r a r
+asbeir,asberr,V;FIN;IND;PRS;PASS;SG;LGSPEC1,a s bʲ e r͈
+asbeir,asber,V;FIN;IND;PRS;PASS;SG;LGSPEC1,a s bʲ e r
+asbeir,asberat,V;FIN;IND;PRS;3;PL;LGSPEC1,a s bʲ e r a d
+asbeir,asbreth,V;FIN;IND;PST;PFV;PASS;SG;LGSPEC1,a s bʲ rʲ e θ
+asbeir,asruburt,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,a s r u v u r͈ t
+asbeir,asrubart,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,a s r u v a r͈ t
+beirid,bértae,V;FIN;IND;FUT;REL;3;PL,bʲ eː r͈ t e
+beirid,beired,V;FIN;IMP;3;SG,bʲ e rʲ e ð
+beirid,biri,V;FIN;IND;PRS;ABS;2;SG,bʲ i rʲ i
+beirid,béraid,V;FIN;IND;FUT;ABS;3;SG,bʲ eː r i ðʲ
+beirid,beirtis,V;FIN;IND;PST;IPFV;3;PL,bʲ e r͈ʲ tʲ i sʲ
+beirid,bertar,V;FIN;IND;PASS;PRS;CONJ;PL,bʲ e r͈ d a r
+beirid,berthair,V;FIN;SBJV;PASS;PRS;ABS;SG,bʲ e r͈ʲ θ i rʲ
+beirid,berae,V;FIN;SBJV;PRS;CONJ;2;SG,bʲ e r e
+beirid,bérmais,V;FIN;COND;1;PL,bʲ eː r ṽ i sʲ
+beirid,biur,V;FIN;IND;PRS;CONJ;1;SG,bʲ i u̯ r
+beirid,bér,V;FIN;IND;FUT;CONJ;1;SG,bʲ eː r
+beirid,bertais,V;FIN;SBJV;PASS;PST;PL,bʲ e r͈ t i sʲ
+beirid,bértar,V;FIN;IND;PASS;FUT;CONJ;PL,bʲ eː r͈ t a r
+beirid,berar,V;FIN;IND;PASS;PRS;REL;SG,bʲ e r a r
+beirid,berat,V;FIN;SBJV;PRS;CONJ;3;PL,bʲ e r a d
+beirid,beirinn,V;FIN;IND;PST;IPFV;1;SG,bʲ e rʲ ə n͈ʲ
+beirid,beirid,V;FIN;IND;PRS;CONJ;2;PL,bʲ e rʲ ə ðʲ
+beirid,bérthae,V;FIN;COND;PASS;SG,bʲ eː r͈ θ e
+beirid,bérainn,V;FIN;COND;1;SG,bʲ eː r i n͈ʲ
+beirid,beirtis,V;FIN;IND;PASS;PST;IPFV;PL,bʲ e r͈ʲ tʲ i sʲ
+beirid,biru,V;FIN;IND;PRS;ABS;1;SG,bʲ i r u
+beirid,birt,V;FIN;IND;PST;PFV;ABS;3;SG,bʲ i r͈ʲ tʲ
+beirid,beires,V;FIN;IND;PRS;REL;3;SG,bʲ e rʲ e s
+beirid,berar,V;FIN;IMP;PASS;SG,bʲ e r a r
+beirid,biurt,V;FIN;IND;PST;PFV;CONJ;1;SG,bʲ i u̯ r͈ t
+beirid,ber,V;FIN;SBJV;PRS;CONJ;1;SG,bʲ e r
+beirid,béras,V;FIN;IND;FUT;REL;3;SG,bʲ eː r a s
+beirid,berthae,V;FIN;SBJV;PST;2;PL,bʲ e r͈ θ e
+beirid,bérat,V;FIN;IND;FUT;CONJ;3;PL,bʲ eː r a d
+beirid,bertar,V;FIN;SBJV;PASS;PRS;CONJ;PL,bʲ e r͈ d a r
+beirid,bermai,V;FIN;IND;PRS;ABS;1;PL,bʲ e r ṽ i
+beirid,bérthar,V;FIN;IND;PASS;FUT;REL;SG,bʲ eː r͈ θ a r
+beirid,bertae,V;FIN;IND;PRS;REL;3;PL,bʲ e r͈ t e
+beirid,bir,V;FIN;IND;PRS;CONJ;2;SG,bʲ i rʲ
+beirid,béram,V;FIN;IND;FUT;CONJ;1;PL,bʲ eː r a ṽ
+beirid,bertatar,V;FIN;IND;PST;PFV;CONJ;3;PL,bʲ e r͈ t a d a r
+beirid,beraid,V;FIN;SBJV;PRS;ABS;3;SG,bʲ e r i ðʲ
+beirid,bertae,V;FIN;SBJV;PRS;REL;3;PL,bʲ e r͈ t e
+beirid,bertha,V;FIN;SBJV;PST;2;SG,bʲ e r͈ θ a
+beirid,beir,V;FIN;IMP;2;SG,bʲ e rʲ
+beirid,beraid,V;FIN;SBJV;PRS;CONJ;2;PL,bʲ e r i ðʲ
+beirid,beirmis,V;FIN;IND;PST;IPFV;1;PL,bʲ e rʲ ṽʲ i sʲ
+beirid,berat,V;FIN;IND;PRS;CONJ;3;PL,bʲ e r a d
+beirid,birt,V;FIN;IND;PST;PFV;CONJ;2;SG,bʲ i r͈ʲ tʲ
+beirid,bértha,V;FIN;COND;2;SG,bʲ eː r͈ θ a
+beirid,béra,V;FIN;IND;FUT;CONJ;3;SG,bʲ eː r a
+beirid,bert,V;FIN;IND;PST;PFV;REL;3;SG,bʲ e r͈ t
+beirid,berad,V;FIN;SBJV;PST;3;SG,bʲ e r a ð
+beirid,beirid,V;FIN;IND;PRS;ABS;3;SG,bʲ e rʲ ə ðʲ
+beirid,berainn,V;FIN;SBJV;PST;1;SG,bʲ e r i n͈ʲ
+beirid,beram,V;FIN;SBJV;PRS;CONJ;1;PL,bʲ e r a ṽ
+beirid,bértais,V;FIN;COND;3;PL,bʲ eː r͈ t i sʲ
+beirid,beir,V;FIN;IND;PRS;CONJ;3;SG,bʲ e rʲ
+beirid,bertair,V;FIN;IND;PASS;PRS;ABS;PL,bʲ e r͈ t i rʲ
+beirid,breth,V;FIN;IND;PASS;PST;PFV;CONJ;SG,bʲ rʲ e θ
+beirid,bermais,V;FIN;SBJV;PST;1;PL,bʲ e r ṽ i sʲ
+beirid,bertatar,V;FIN;IND;PST;PFV;REL;3;PL,bʲ e r͈ t a d a r
+beirid,bérthae,V;FIN;COND;2;PL,bʲ eː r͈ θ e
+beirid,beired,V;FIN;IND;PST;IPFV;3;SG,bʲ e rʲ e ð
+beirid,berar,V;FIN;IND;PASS;PRS;CONJ;SG,bʲ e r a r
+beirid,beirid,V;FIN;IMP;2;PL,bʲ e rʲ ə ðʲ
+beirid,bert,V;FIN;IND;PST;PFV;CONJ;3;SG,bʲ e r͈ t
+beirid,bérad,V;FIN;COND;3;SG,bʲ eː r a ð
+beirid,berthae,V;FIN;SBJV;PASS;PST;SG,bʲ e r͈ θ e
+beirid,bérae,V;FIN;IND;FUT;CONJ;2;SG,bʲ eː r e
+beirid,bera,V;FIN;SBJV;PRS;CONJ;3;SG,bʲ e r a
+beirid,beirthe,V;FIN;IND;PASS;PST;IPFV;SG,bʲ e r͈ʲ θʲ e
+beirid,bérait,V;FIN;IND;FUT;ABS;3;PL,bʲ eː r i dʲ
+beirid,bertais,V;FIN;SBJV;PST;3;PL,bʲ e r͈ t i sʲ
+beirid,bérthair,V;FIN;IND;PASS;FUT;ABS;SG,bʲ eː r͈ʲ θ i rʲ
+beirid,bertar,V;FIN;IND;PASS;PRS;REL;PL,bʲ e r͈ d a r
+beirid,berair,V;FIN;IND;PASS;PRS;ABS;SG,bʲ e r i rʲ
+beirid,bretha,V;FIN;IND;PASS;PST;PFV;CONJ;PL,bʲ rʲ e θ a
+beirid,berait,V;FIN;IND;PRS;ABS;3;PL,bʲ e r i dʲ
+beirid,bérae,V;FIN;IND;FUT;ABS;2;SG,bʲ eː r e
+beirid,beram,V;FIN;IMP;1;PL,bʲ e r a ṽ
+beirid,berthar,V;FIN;SBJV;PASS;PRS;CONJ;SG,bʲ e r͈ θ a r
+beirid,brethae,V;FIN;IND;PASS;PST;PFV;ABS;SG,bʲ rʲ e θ e
+beirid,beram,V;FIN;IND;PRS;CONJ;1;PL,bʲ e r a ṽ
+beirid,bérthar,V;FIN;IND;PASS;FUT;CONJ;SG,bʲ eː r͈ θ a r
+benaid,bentais,V;FIN;IND;PST;IPFV;3;PL,bʲ e n͈ t i sʲ
+benaid,rubaim,V;FIN;IND;PRS;CONJ;1;SG,r͈ u v i ṽʲ
+benaid,biu,V;FIN;IND;FUT;CONJ;1;SG,bʲ i u̯
+benaid,benas,V;FIN;IND;PRS;REL;3;SG,bʲ e n a s
+benaid,béotar,V;FIN;IND;PST;PFV;CONJ;3;PL,bʲ eː o̯ d a r
+benaid,benat,V;FIN;IND;PRS;CONJ;3;PL,bʲ e n a d
+benaid,bia,V;FIN;IND;FUT;CONJ;3;SG,bʲ i a
+benaid,benaid,V;FIN;IND;PRS;ABS;3;SG,bʲ e n i ðʲ
+benaid,ben,V;FIN;IND;PRS;CONJ;3;SG,bʲ e n
+benaid,bíth,V;FIN;IND;PST;PFV;CONJ;PASS;SG,bʲ iː θ
+benaid,ben,V;FIN;IMP;2;SG,bʲ e n
+benaid,benaid,V;FIN;IMP;2;PL,bʲ e n i ðʲ
+benaid,bí,V;FIN;IND;PST;PFV;CONJ;3;SG,bʲ iː
+benaid,biad,V;FIN;COND;3;SG,bʲ i a̯ ð
+benaid,bethae,V;FIN;SBJV;PST;PASS;SG,bʲ e θ e
+benaid,bia,V;FIN;SBJV;PRS;CONJ;3;SG,bʲ i a
+benaid,bí,V;FIN;IND;PST;PFV;ABS;3;SG,bʲ iː
+benaid,benair,V;FIN;IND;PRS;ABS;PASS;SG,bʲ e n i rʲ
+benaid,benait,V;FIN;IND;PRS;ABS;3;PL,bʲ e n i dʲ
+benaid,bether,V;FIN;SBJV;PRS;CONJ;PASS;SG,bʲ e θʲ e r
+benaid,ruibther,V;FIN;SBJV;PRS;CONJ;PASS;SG,r͈ u vʲ θʲ e r
+cingid,cingtis,V;FIN;IND;PST;IPFV;3;PL,kʲ i ŋʲ ɡʲ tʲ i sʲ
+cingid,céiset,V;FIN;SBJV;PRS;CONJ;3;PL,kʲ eː sʲ e d
+cingid,cinges,V;FIN;IND;PRS;REL;3;SG,kʲ i ŋʲ ɡʲ e s
+cingid,cichset,V;FIN;IND;FUT;CONJ;3;PL,kʲ i xʲ sʲ e d
+cingid,cengat,V;FIN;IND;PRS;CONJ;3;PL,kʲ e ŋ ɡ a d
+cingid,cich,V;FIN;IND;FUT;CONJ;3;SG,kʲ i xʲ
+cingid,cingid,V;FIN;IND;PRS;ABS;3;SG,kʲ i ŋʲ ɡʲ i ðʲ
+cingid,cing,V;FIN;IND;PRS;CONJ;3;SG,kʲ i ŋʲ ɡʲ
+cingid,cing,V;FIN;IMP;2;SG,kʲ i ŋʲ ɡʲ
+cingid,cengar,V;FIN;IND;PRS;CONJ;PASS;SG,kʲ e ŋ ɡ a r
+cingid,cechaing,V;FIN;IND;PST;PFV;CONJ;3;SG,kʲ e x i ŋʲ ɡʲ
+cingid,cichsed,V;FIN;COND;3;SG,kʲ i xʲ sʲ e ð
+cingid,cechaing,V;FIN;IND;PST;PFV;ABS;3;SG,kʲ e x i ŋʲ ɡʲ
+cingid,cengair,V;FIN;IND;PRS;ABS;PASS;SG,kʲ e ŋ ɡ i rʲ
+cingid,cengait,V;FIN;IND;PRS;ABS;3;PL,kʲ e ŋ ɡ i dʲ
+claidid,claitis,V;FIN;IND;PST;IPFV;3;PL,k l a dʲ i sʲ
+claidid,cichlus,V;FIN;IND;FUT;CONJ;1;SG,kʲ i x l u s
+claidid,clássat,V;FIN;SBJV;PRS;CONJ;3;PL,k l aː s a d
+claidid,claides,V;FIN;IND;PRS;REL;3;SG,k l a ðʲ e s
+claidid,cechladatar,V;FIN;IND;PST;PFV;CONJ;3;PL,kʲ e x l a ð a d a r
+claidid,cladat,V;FIN;IND;PRS;CONJ;3;PL,k l a ð a d
+claidid,clássainn,V;FIN;SBJV;PST;1;SG,k l aː s i n͈ʲ
+claidid,claid,V;FIN;IND;PRS;CONJ;3;SG,k l a ðʲ
+claidid,class,V;FIN;IND;PST;PFV;CONJ;PASS;SG,k l a s
+claidid,claiter,V;FIN;IND;PRS;CONJ;PASS;SG,k l a dʲ e r
+claidid,cechlaid,V;FIN;IND;PST;PFV;CONJ;3;SG,kʲ e x l i ðʲ
+claidid,clástae,V;FIN;SBJV;PST;PASS;SG,k l aː s t e
+claidid,claite,V;FIN;IND;PST;IPFV;PASS;SG,k l a dʲ e
+claidid,cladair,V;FIN;IND;PRS;ABS;PASS;SG,k l a ð i rʲ
+claidid,cladait,V;FIN;IND;PRS;ABS;3;PL,k l a ð ə dʲ
+cluichigidir,cluichigtis,V;FIN;IND;PST;IPFV;3;PL,k l u xʲ i ɣʲ tʲ i sʲ
+cluichigidir,cluichegatar,V;FIN;SBJV;PRS;CONJ;3;PL,k l u xʲ e ɣ a d a r
+cluichigidir,cluichigedar,V;FIN;IND;PRS;REL;3;SG,k l u xʲ i ɣʲ e ð a r
+cluichigidir,cluichigedar,V;FIN;IND;PRS;CONJ;3;SG,k l u xʲ i ɣʲ e ð a r
+conrig,conríastar,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,k o n͈ r͈ʲ iː a̯ s t a r
+conrig,conrigi,V;FIN;IND;PRS;2;SG;LGSPEC1,k o n͈ʲ rʲ i ɣʲ i
+conrig,conárracht,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,k o n aː r͈ a x t
+conrig,conréis,V;FIN;SBJV;PRS;2;SG;LGSPEC1,k o n͈ʲ rʲ eː sʲ
+conrig,conárraig,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,k o n aː r͈ i ɣʲ
+conrig,conrig,V;FIN;IND;PRS;3;SG;LGSPEC1,k o n͈ʲ rʲ i ɣʲ
+conrig,conrías,V;FIN;SBJV;PRS;1;SG;LGSPEC1,k o n͈ r͈ʲ iː a̯ s
+conrig,cuimriged,V;FIN;IMP;3;SG,k u ṽʲ rʲ i ɣʲ e ð
+conrig,conreraig,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,k o n͈ʲ rʲ e r i ɣʲ
+conrig,cuimrechtai,V;FIN;LGSPEC3,k u ṽʲ rʲ e x t i
+conrig,conregar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,k o n͈ʲ rʲ e ɣ a r
+conrig,conregat,V;FIN;IND;PRS;3;PL;LGSPEC1,k o n͈ʲ rʲ e ɣ a d
+crenaid,crenaim,V;FIN;IND;PRS;CONJ;1;SG,kʲ rʲ e n i ṽʲ
+crenaid,ciúr,V;FIN;IND;FUT;CONJ;1;SG,kʲ i u̯ r
+crenaid,crenas,V;FIN;IND;PRS;REL;3;SG,kʲ rʲ e n a s
+crenaid,cér,V;FIN;IND;PST;PFV;CONJ;1;SG,kʲ eː r
+crenaid,crenat,V;FIN;IND;PRS;CONJ;3;PL,kʲ rʲ e n a d
+crenaid,cicher,V;FIN;IND;FUT;CONJ;3;SG,kʲ i xʲ e r
+crenaid,crenaid,V;FIN;IND;PRS;ABS;3;SG,kʲ rʲ e n i ðʲ
+crenaid,cren,V;FIN;IND;PRS;CONJ;3;SG,kʲ rʲ e n
+crenaid,críth,V;FIN;IND;PST;PFV;CONJ;PASS;SG,kʲ rʲ iː θ
+crenaid,cren,V;FIN;IMP;2;SG,kʲ rʲ e n
+crenaid,crenar,V;FIN;IND;PRS;CONJ;PASS;SG,kʲ rʲ e n a r
+crenaid,ciúir,V;FIN;IND;PST;PFV;CONJ;3;SG,kʲ i u̯ rʲ
+crenaid,cria,V;FIN;SBJV;PRS;CONJ;3;SG,kʲ rʲ i a
+crenaid,crether,V;FIN;SBJV;PRS;CONJ;PASS;SG,kʲ rʲ e θʲ e r
+daimid,damae,V;FIN;SBJV;PRS;ABS;2;SG,d a ṽ e
+daimid,daimtis,V;FIN;IND;PST;IPFV;3;PL,d a ṽʲ tʲ i sʲ
+daimid,dámatar,V;FIN;IND;PST;PFV;ABS;3;PL,d aː ṽ a d a r
+daimid,dámnatar,V;FIN;IND;PST;PFV;ABS;3;PL,d aː ṽ n a d a r
+daimid,daimim,V;FIN;IND;PRS;CONJ;1;SG,d a ṽʲ i ṽʲ
+daimid,didam,V;FIN;IND;FUT;CONJ;1;SG,dʲ i ð a ṽ
+daimid,damat,V;FIN;SBJV;PRS;CONJ;3;PL,d a ṽ a d
+daimid,daimid,V;FIN;IND;PRS;CONJ;2;PL,d a ṽʲ i ðʲ
+daimid,daimes,V;FIN;IND;PRS;REL;3;SG,d a ṽʲ e s
+daimid,dámar,V;FIN;IND;PST;PFV;CONJ;1;SG,d aː ṽ a r
+daimid,dam,V;FIN;SBJV;PRS;CONJ;1;SG,d a ṽ
+daimid,damtais,V;FIN;SBJV;PST;2;PL,d a ṽ t i sʲ
+daimid,didmat,V;FIN;IND;FUT;CONJ;3;PL,dʲ i ð ṽ a d
+daimid,damtar,V;FIN;SBJV;PRS;CONJ;PASS;PL,d a ṽ d a r
+daimid,daimi,V;FIN;IND;PRS;CONJ;2;SG,d a ṽʲ i
+daimid,didmam,V;FIN;IND;FUT;CONJ;1;PL,dʲ i ð ṽ a ṽ
+daimid,dámatar,V;FIN;IND;PST;PFV;CONJ;3;PL,d aː ṽ a d a r
+daimid,dámnatar,V;FIN;IND;PST;PFV;CONJ;3;PL,d aː ṽ n a d a r
+daimid,daimet,V;FIN;IND;PRS;CONJ;3;PL,d a ṽʲ e d
+daimid,didma,V;FIN;IND;FUT;CONJ;3;SG,dʲ i ð ṽ a
+daimid,damaid,V;FIN;IND;PRS;ABS;3;SG,d a ṽ i ðʲ
+daimid,damainn,V;FIN;SBJV;PST;1;SG,d a ṽ i n͈ʲ
+daimid,daim,V;FIN;IND;PRS;CONJ;3;SG,d a ṽʲ
+daimid,dam,V;FIN;IND;PRS;CONJ;3;SG,d a ṽ
+daimid,dét,V;FIN;IND;PST;PFV;CONJ;PASS;SG,dʲ eː d
+daimid,daim,V;FIN;IMP;2;SG,d a ṽʲ
+daimid,dam,V;FIN;IMP;2;SG,d a ṽ
+daimid,damar,V;FIN;IND;PRS;CONJ;PASS;SG,d a ṽ a r
+daimid,damthar,V;FIN;IND;PRS;CONJ;PASS;SG,d a ṽ θ a r
+daimid,damaid,V;FIN;IMP;2;PL,d a ṽ i ðʲ
+daimid,dámair,V;FIN;IND;PST;PFV;CONJ;3;SG,d aː ṽ i rʲ
+daimid,didmad,V;FIN;COND;3;SG,dʲ i ð ṽ a ð
+daimid,damthae,V;FIN;SBJV;PST;PASS;SG,d a ṽ θ e
+daimid,didmae,V;FIN;IND;FUT;CONJ;2;SG,dʲ i ð ṽ e
+daimid,damthae,V;FIN;IND;PST;IPFV;PASS;SG,d a ṽ θ e
+daimid,dama,V;FIN;SBJV;PRS;CONJ;3;SG,d a ṽ a
+daimid,dámair,V;FIN;IND;PST;PFV;ABS;3;SG,d aː ṽ i rʲ
+daimid,damair,V;FIN;IND;PRS;ABS;PASS;SG,d a ṽ i rʲ
+daimid,damait,V;FIN;IND;PRS;ABS;3;PL,d a ṽ i dʲ
+daimid,damthar,V;FIN;SBJV;PRS;CONJ;PASS;SG,d a ṽ θ a r
+daimid,daimem,V;FIN;IND;PRS;CONJ;1;PL,d a ṽʲ e ṽ
+dobeir,dobirt,V;FIN;IND;PST;PFV;2;SG;LGSPEC1,d o vʲ i r͈ʲ tʲ
+dobeir,tibérthae,V;FIN;COND;PASS;SG;LGSPEC2,tʲ i vʲ eː r͈ʲ θ e
+dobeir,doratus,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,d o r a d u s
+dobeir,dobéra,V;FIN;IND;FUT;3;SG;LGSPEC1,d o bʲ eː r a
+dobeir,dobera,V;FIN;SBJV;PRS;3;SG;LGSPEC1,d o vʲ e r a
+dobeir,dobeirid,V;FIN;IND;PRS;2;PL;LGSPEC1,d o bʲ e rʲ i ðʲ
+dobeir,doberthae,V;FIN;SBJV;PST;2;PL;LGSPEC1,d o vʲ e r͈ θ e
+dobeir,tart,V;FIN;SBJV;PRS;PRF;1;SG;LGSPEC2,t a r͈ t
+dobeir,tabarthae,V;FIN;SBJV;PST;PASS;SG;LGSPEC2,t a v a r͈ θ e
+dobeir,tartai,V;FIN;IND;PRS;PFV;3;SG;LGSPEC2,t a r͈ t i
+dobeir,doratad,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,d o r a d a ð
+dobeir,tibér,V;FIN;IND;FUT;1;SG;LGSPEC2,tʲ i vʲ eː r
+dobeir,dobérat,V;FIN;IND;FUT;3;PL;LGSPEC1,d o bʲ eː r a d
+dobeir,doberae,V;FIN;SBJV;PRS;2;SG;LGSPEC1,d o vʲ e r e
+dobeir,dobertha,V;FIN;SBJV;PST;2;SG;LGSPEC1,d o vʲ e r͈ θ a
+dobeir,taibret,V;FIN;IND;PRS;3;PL;LGSPEC2,t a vʲ rʲ e d
+dobeir,tucthar,V;FIN;IND;PRS;PRF;PASS;SG;LGSPEC2,t u ɡ θ a r
+dobeir,doratar,V;FIN;SBJV;PRS;PRF;PASS;SG;LGSPEC1,d o r a d a r
+dobeir,tibérae,V;FIN;IND;FUT;2;SG;LGSPEC2,tʲ i vʲ eː r e
+dobeir,tartat,V;FIN;SBJV;PRS;PRF;3;PL;LGSPEC2,t a r͈ t a d
+dobeir,tabarthi,V;FIN;PTCP;LGSPEC3,t a v a r͈ʲ θʲ i
+dobeir,dorata,V;FIN;IND;PST;PRF;PASS;PL;LGSPEC1,d o r a d a
+dobeir,doratsaid,V;FIN;IND;PST;PRF;2;PL;LGSPEC1,d o r a d s i ðʲ
+dobeir,doberthar,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,d o vʲ e r͈ θ a r
+dobeir,tartsaid,V;FIN;IND;PST;PRF;2;PL;LGSPEC2,t a r͈ t͈ s i ðʲ
+dobeir,taibrea,V;FIN;SBJV;PRS;3;SG;LGSPEC2,t a vʲ rʲ e a
+dobeir,taibrid,V;FIN;IMP;2;PL,t a vʲ rʲ ə ðʲ
+dobeir,tabur,V;FIN;IND;PRS;1;SG;LGSPEC2,t a v u r
+dobeir,tartaid,V;FIN;SBJV;PRS;PRF;2;PL;LGSPEC2,t a r͈ t i ðʲ
+dobeir,doratat,V;FIN;SBJV;PRS;PRF;3;PL;LGSPEC1,d o r a d a d
+dobeir,taibred,V;FIN;SBJV;PST;3;SG;LGSPEC2,t a vʲ rʲ e ð
+dobeir,dobertais,V;FIN;SBJV;PST;PASS;PL;LGSPEC1,d o vʲ e r͈ t i sʲ
+dobeir,tartainn,V;FIN;SBJV;PST;PRF;1;SG;LGSPEC2,t a r͈ t i n͈ʲ
+dobeir,dobiurt,V;FIN;IND;PST;PFV;1;SG;LGSPEC1,d o vʲ i u̯ r͈ t
+dobeir,tibértais,V;FIN;COND;3;PL;LGSPEC2,tʲ i vʲ eː r͈ t i sʲ
+dobeir,dobérae,V;FIN;IND;FUT;2;SG;LGSPEC1,d o bʲ eː r e
+dobeir,doberat,V;FIN;SBJV;PRS;3;PL;LGSPEC1,d o vʲ e r a d
+dobeir,tartsat,V;FIN;IND;PST;PRF;3;PL;LGSPEC2,t a r͈ t͈ s a d
+dobeir,doberam,V;FIN;IND;PRS;1;PL;LGSPEC1,d o vʲ e r a ṽ
+dobeir,tabair,V;FIN;IND;PRS;2;SG;LGSPEC2,t a v i rʲ
+dobeir,tubartatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,t u v a r͈ t a d a r
+dobeir,dobérad,V;FIN;COND;3;SG;LGSPEC1,d o bʲ eː r a ð
+dobeir,taibrid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,t a vʲ rʲ ə ðʲ
+dobeir,taibred,V;FIN;IMP;3;SG,t a vʲ rʲ e ð
+dobeir,tabarr,V;FIN;IND;PRS;PASS;SG;LGSPEC2,t a v a r͈
+dobeir,tubart,V;FIN;IND;PST;PFV;2;SG;LGSPEC2,t u v a r͈ t
+dobeir,dobreth,V;FIN;IND;PST;PFV;PASS;SG;LGSPEC1,d o v rʲ e θ
+dobeir,dobert,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,d o vʲ e r͈ t
+dobeir,tartus,V;FIN;IND;PST;PRF;1;SG;LGSPEC2,t a r͈ d u s
+dobeir,dobértar,V;FIN;IND;FUT;PASS;PL;LGSPEC1,d o bʲ eː r͈ t a r
+dobeir,dobir,V;FIN;IND;PRS;2;SG;LGSPEC1,d o vʲ i rʲ
+dobeir,dobeirthe,V;FIN;IND;PST;IPFV;PASS;SG;LGSPEC1,d o bʲ e rʲ θʲ e
+dobeir,tabratar,V;FIN;IND;PRS;PASS;PL;LGSPEC2,t a v r a d a r
+dobeir,tibértais,V;FIN;COND;PASS;PL;LGSPEC2,tʲ i vʲ eː r͈ t i sʲ
+dobeir,doratsam,V;FIN;IND;PST;PRF;1;PL;LGSPEC1,d o r a d s a ṽ
+dobeir,tartais,V;FIN;IND;PST;PRF;2;SG;LGSPEC2,t a r͈ t i sʲ
+dobeir,tucaid,V;FIN;IMP;PRF;2;PL,t u ɡ i ðʲ
+dobeir,taibrem,V;FIN;IMP;1;PL,t a vʲ rʲ e ṽ
+dobeir,tartam,V;FIN;SBJV;PRS;PRF;1;PL;LGSPEC2,t a r͈ t a ṽ
+dobeir,dorata,V;FIN;SBJV;PRS;PRF;3;SG;LGSPEC1,d o r a d a
+dobeir,tartat,V;FIN;IND;PRS;PFV;3;PL;LGSPEC2,t a r͈ t a d
+dobeir,dobretha,V;FIN;IND;PST;PFV;PASS;PL;LGSPEC1,d o v rʲ e θ a
+dobeir,tarta,V;FIN;IND;PST;PRF;PASS;PL;LGSPEC2,t a r͈ d a
+dobeir,dobér,V;FIN;IND;FUT;1;SG;LGSPEC1,d o bʲ eː r
+dobeir,doberaid,V;FIN;SBJV;PRS;2;PL;LGSPEC1,d o vʲ e r i ðʲ
+dobeir,tartad,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC2,t a r͈ t a ð
+dobeir,dobeir,V;FIN;IND;PRS;3;SG;LGSPEC1,d o bʲ e rʲ
+dobeir,tabartar,V;FIN;IMP;PASS;SG,t a v a r͈ t a r
+dobeir,doberad,V;FIN;SBJV;PST;3;SG;LGSPEC1,d o vʲ e r a ð
+dobeir,tabair,V;FIN;IND;PRS;3;SG;LGSPEC2,t a v i rʲ
+dobeir,tarta,V;FIN;SBJV;PRS;PRF;3;SG;LGSPEC2,t a r͈ d a
+dobeir,dorataiter,V;FIN;SBJV;PRS;PRF;PASS;PL;LGSPEC1,d o r a d i dʲ e rʲ
+dobeir,tartad,V;FIN;SBJV;PST;PRF;3;SG;LGSPEC2,t a r͈ t a ð
+dobeir,dobérmais,V;FIN;COND;1;PL;LGSPEC1,d o bʲ eː r ṽ i sʲ
+dobeir,doratais,V;FIN;IND;PST;PRF;2;SG;LGSPEC1,d o r a d i sʲ
+dobeir,tibérthar,V;FIN;IND;FUT;PASS;SG;LGSPEC2,tʲ i vʲ eː r͈ θ a r
+dobeir,tuic,V;FIN;IMP;PRF;2;SG,t u ɡʲ
+dobeir,doberat,V;FIN;IND;PRS;3;PL;LGSPEC1,d o vʲ e r a d
+dobeir,tabair,V;FIN;IMP;2;SG,t a v i rʲ
+dobeir,taibrem,V;FIN;IND;PRS;1;PL;LGSPEC2,t a vʲ rʲ e ṽ
+dobeir,dobeirtis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC1,d o bʲ e r͈ʲ tʲ i sʲ
+dobeir,dobertatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,d o vʲ e r͈ t a d a r
+dobeir,tibérad,V;FIN;COND;3;SG;LGSPEC2,tʲ i vʲ eː r a ð
+dobeir,dobérthar,V;FIN;IND;FUT;PASS;SG;LGSPEC1,d o bʲ eː r͈ θ a r
+dobeir,dobérainn,V;FIN;COND;1;SG;LGSPEC1,d o bʲ eː r i n͈ʲ
+dobeir,tabarr,V;FIN;IMP;PASS;PL,t a v a r͈
+dobeir,dobiur,V;FIN;IND;PRS;1;SG;LGSPEC1,d o vʲ i u̯ r
+dobeir,dobeirtis,V;FIN;IND;PST;IPFV;PASS;PL;LGSPEC1,d o bʲ e r͈ʲ tʲ i sʲ
+dobeir,dorat,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,d o r a d
+dobeir,tarat,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,t a r a d
+dobeir,tartaiter,V;FIN;SBJV;PRS;PRF;PASS;PL;LGSPEC2,t a r͈ t i dʲ e r
+dobeir,dobérthae,V;FIN;COND;2;PL;LGSPEC1,d o bʲ eː r͈ θ e
+dobeir,tartar,V;FIN;SBJV;PRS;PRF;PASS;SG;LGSPEC2,t a r͈ t a r
+dobeir,tartae,V;FIN;SBJV;PST;PRF;PASS;SG;LGSPEC2,t a r͈ t e
+dobeir,douccai,V;FIN;IND;PRS;PFV;2;SG;LGSPEC1,d o u̯ k i
+dobeir,doratsat,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,d o r a d s a d
+dobeir,dobertar,V;FIN;SBJV;PRS;PASS;PL;LGSPEC1,d o vʲ e r͈ d a r
+dobeir,taibre,V;FIN;SBJV;PRS;2;SG;LGSPEC2,t a vʲ rʲ e
+dobeir,taibred,V;FIN;IMP;3;PL,t a vʲ rʲ e ð
+dobeir,doberar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,d o vʲ e r a r
+dobeir,dorataid,V;FIN;SBJV;PRS;PRF;2;PL;LGSPEC1,d o r a d i ðʲ
+dofuissim,dofuiséma,V;FIN;IND;FUT;3;SG;LGSPEC1,d o f u sʲ eː ṽ a
+dofuissim,doforsat,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,d o f o r͈ s a d
+dofuissim,dorósat,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,d o r oː s a d
+dofuissim,dofuissim,V;FIN;IND;PRS;3;SG;LGSPEC1,d o f u sʲ i ṽʲ
+dofuissim,dofuissemar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,d o f u sʲ e ṽ a r
+dofuissim,dofuismet,V;FIN;IND;PRS;3;PL;LGSPEC1,d o f u sʲ ṽʲ e d
+dogní,dognethar,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,d o ɡʲ nʲ e θ a r
+dogní,dogní,V;FIN;IND;PRS;2;SG;LGSPEC1,d o ɡʲ nʲ iː
+dogní,dignem,V;FIN;IND;FUT;1;PL;LGSPEC2,dʲ i ɣʲ nʲ e ṽ
+dogní,digénam,V;FIN;IND;FUT;1;PL;LGSPEC2,dʲ i ɣʲ eː n a ṽ
+dogní,dernais,V;FIN;IND;PST;PRF;2;SG;LGSPEC2,dʲ e r͈ n i sʲ
+dogní,dogénsat,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,d o ɣʲ eː n͈ s a d
+dogní,dogénam,V;FIN;IND;FUT;1;PL;LGSPEC1,d o ɣʲ eː n a ṽ
+dogní,dorignis,V;FIN;IND;PST;PRF;2;SG;LGSPEC1,d o rʲ i ɣʲ nʲ i sʲ
+dogní,dorónad,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,d o r oː n a ð
+dogní,dorigénsat,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,d o rʲ i ɣʲ eː n͈ s a d
+dogní,dogníth,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,d o ɡʲ nʲ iː θ
+dogní,dogénat,V;FIN;IND;FUT;3;PL;LGSPEC1,d o ɣʲ eː n a d
+dogní,deirgénus,V;FIN;IND;PST;PRF;1;SG;LGSPEC2,dʲ e rʲ ɣʲ eː n u s
+dogní,dernus,V;FIN;IND;PST;PRF;1;SG;LGSPEC2,dʲ e r͈ n u s
+dogní,dognédorónae,V;FIN;SBJV;PRS;2;SG;LGSPEC1,d o ɡʲ nʲ eː ð o r oː n e
+dogní,dosngníith dénaid,V;FIN;IMP;2;PL,d o s ŋʲ ɡʲ nʲ iː θʲ dʲ eː n i ðʲ
+dogní,dénsat,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,dʲ eː n͈ s a d
+dogní,dogéna,V;FIN;IND;FUT;3;SG;LGSPEC1,d o ɣʲ eː n a
+dogní,dénatdernat,V;FIN;IND;PRS;3;PL;LGSPEC2,dʲ eː n a d ðʲ e r n a d
+dogní,dogén,V;FIN;IND;FUT;1;SG;LGSPEC1,d o ɣʲ eː n
+dogní,dorigni,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,d o rʲ i ɣʲ nʲ i
+dogní,dorigéni,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,d o rʲ i ɣʲ eː nʲ i
+dogní,dogní,V;FIN;IND;PRS;3;SG;LGSPEC1,d o ɡʲ nʲ iː
+dogní,dogénaid,V;FIN;IND;FUT;2;PL;LGSPEC1,d o ɣʲ eː n i ðʲ
+dogní,dénae,V;FIN;IMP;2;SG,dʲ eː n e
+dogní,dognéodorón,V;FIN;SBJV;PRS;1;SG;LGSPEC1,d o ɡʲ nʲ eː o̯ ð o r oː n
+dogní,dénaidernai,V;FIN;IND;PRS;3;SG;LGSPEC2,dʲ eː n i ðʲ e r n i
+dogní,dogníter,V;FIN;IND;PRS;PASS;PL;LGSPEC1,d o ɡʲ nʲ iː dʲ e r
+dogní,dénaiddernaid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,dʲ eː n i ðʲ e r͈ n i ðʲ
+dogní,dangníid dénad,V;FIN;IMP;3;SG,d a ŋ nʲ iː ðʲ dʲ eː n a ð
+dogní,dernad,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC2,dʲ e r͈ n a ð
+dogní,digni,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,dʲ i ɣʲ nʲ i
+dogní,deirgéni,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,dʲ e rʲ ɣʲ eː nʲ i
+dogní,dogénai,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,d o ɣʲ eː n i
+dogní,dénti,V;FIN;LGSPEC3,dʲ eː n͈ʲ tʲ i
+dogní,dogníther,V;FIN;IND;PRS;PASS;SG;LGSPEC1,d o ɡʲ nʲ iː θʲ e r
+dogní,dogníat,V;FIN;IND;PRS;3;PL;LGSPEC1,d o ɡʲ nʲ iː a̯ d
+dogní,dorignius,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,d o rʲ i ɣʲ nʲ u s
+dogní,dorigénus,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,d o rʲ i ɣʲ eː n u s
+dogoa,dogoï,V;FIN;IND;PRS;2;SG;LGSPEC1,d o ɣ oː i̯
+dogoa,doroíga,V;FIN;IND;PST;PRF;2;SG;LGSPEC1,d o r͈ oː i̯ ɣ a
+dogoa,doroígad,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,d o r͈ oː i̯ ɣ a ð
+dogoa,dorogad,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,d o r o ɣ a ð
+dogoa,doroígatar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,d o r͈ oː i̯ ɣ a d a r
+dogoa,dogegat,V;FIN;IND;FUT;3;PL;LGSPEC1,d o ɣʲ e ɣ a d
+dogoa,togaid,V;FIN;IMP;2;PL,t o ɣ i ðʲ
+dogoa,dogega,V;FIN;IND;FUT;3;SG;LGSPEC1,d o ɣʲ e ɣ a
+dogoa,doroígu,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,d o r͈ oː i̯ ɣ u
+dogoa,dogoa,V;FIN;IND;PRS;3;SG;LGSPEC1,d o ɣ o a
+dogoa,dogó,V;FIN;IND;PRS;3;SG;LGSPEC1,d o ɡ oː
+dogoa,tog,V;FIN;IMP;2;SG,t o ɣ
+dogoa,toga,V;FIN;IMP;2;SG,t o ɣ a
+dogoa,dogoat,V;FIN;IND;PRS;3;PL;LGSPEC1,d o ɣ o a d
+dogoa,doroíga,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,d o r͈ oː i̯ ɣ a
+doicc,doánac,V;FIN;IND;PST;PFV;2;SG;LGSPEC1,d o aː n a ɡ
+doicc,tictis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC2,tʲ i kʲ tʲ i sʲ
+doicc,doáncatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,d o aː ŋ ɡ a d a r
+doicc,doráncatar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,d o r aː ŋ k a d a r
+doicc,doicfet,V;FIN;IND;FUT;3;PL;LGSPEC1,d o ɡʲ fʲ e d
+doicc,táncatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,t aː ŋ ɡ a d a r
+doicc,doicfa,V;FIN;IND;FUT;3;SG;LGSPEC1,d o ɡʲ f a
+doicc,doránaic,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,d o r aː n i ɡʲ
+doicc,ticfainn,V;FIN;COND;1;SG;LGSPEC2,tʲ i ɡʲ f i n͈ʲ
+doicc,doicc,V;FIN;IND;PRS;3;SG;LGSPEC1,d o kʲ
+doicc,tair,V;FIN;IMP;2;SG,t a rʲ
+doicc,ticc,V;FIN;IND;PRS;3;SG;LGSPEC2,tʲ i kʲ
+doicc,tísaid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,tʲ iː s i ðʲ
+doicc,ticed,V;FIN;IMP;3;SG,tʲ i ɡʲ e ð
+doicc,tánaic,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,t aː n i ɡʲ
+doicc,doánaic,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,d o aː n i ɡʲ
+doicc,doecat,V;FIN;IND;PRS;3;PL;LGSPEC1,d o e ɡ a d
+doicc,ticfea,V;FIN;IND;FUT;3;SG;LGSPEC2,tʲ i ɡʲ fʲ a
+dotéit,dotíasar,V;FIN;SBJV;PRS;PASS;SG;LGSPEC1,d o dʲ iː a̯ s a r
+dotéit,dolod,V;FIN;IND;PST;PFV;2;SG;LGSPEC1,d o l o ð
+dotéit,dotéigtis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC1,d o tʲ eː ɣʲ tʲ i sʲ
+dotéit,dotéig,V;FIN;IND;PRS;2;SG;LGSPEC1,d o dʲ eː ɣʲ
+dotéit,taígtis,V;FIN;IND;PST;IPFV;3;PL;LGSPEC2,t aː i̯ ɣʲ tʲ i sʲ
+dotéit,tergam,V;FIN;IND;FUT;1;PL;LGSPEC2,tʲ e r ɣ a ṽ
+dotéit,tuidched,V;FIN;IND;PST;PRF;2;SG;LGSPEC2,t u ðʲ xʲ e ð
+dotéit,dolotar,V;FIN;IND;PST;PFV;3;PL;LGSPEC1,d o l o d a r
+dotéit,doregam,V;FIN;IND;FUT;1;PL;LGSPEC1,d o rʲ e ɣ a ṽ
+dotéit,dodechad,V;FIN;IND;PST;PRF;2;SG;LGSPEC1,d o ðʲ e x a ð
+dotéit,dolud,V;FIN;IND;PST;PFV;1;SG;LGSPEC1,d o l u ð
+dotéit,dodechas,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC1,d o ðʲ e x a s
+dotéit,tergaid,V;FIN;IND;FUT;2;PL;LGSPEC2,tʲ e r ɣ i ðʲ
+dotéit,dodechutar,V;FIN;IND;PST;PRF;3;PL;LGSPEC1,d o ðʲ e x u d a r
+dotéit,dotéiged,V;FIN;IND;PST;IPFV;3;SG;LGSPEC1,d o tʲ eː ɣʲ ə ð
+dotéit,doregat,V;FIN;IND;FUT;3;PL;LGSPEC1,d o rʲ e ɣ a d
+dotéit,dorigat,V;FIN;IND;FUT;3;PL;LGSPEC1,d o rʲ i ɣ a d
+dotéit,tuidched,V;FIN;IND;PST;PRF;1;SG;LGSPEC2,t u ðʲ xʲ e ð
+dotéit,dotéis,V;FIN;SBJV;PRS;2;SG;LGSPEC1,d o dʲ eː sʲ
+dotéit,taít,V;FIN;IMP;2;PL,t aː i̯ d
+dotéit,tuldatar,V;FIN;IND;PST;PFV;3;PL;LGSPEC2,t u l͈ d a d a r
+dotéit,dorega,V;FIN;IND;FUT;3;SG;LGSPEC1,d o rʲ e ɣ a
+dotéit,doriga,V;FIN;IND;FUT;3;SG;LGSPEC1,d o rʲ i ɣ a
+dotéit,táegat,V;FIN;IND;PRS;3;PL;LGSPEC2,t aː i̯ ɣ a d
+dotéit,doreg,V;FIN;IND;FUT;1;SG;LGSPEC1,d o rʲ e ɣ
+dotéit,dodechuid,V;FIN;IND;PST;PRF;3;SG;LGSPEC1,d o ðʲ e x u ðʲ
+dotéit,tergainn,V;FIN;COND;1;SG;LGSPEC2,tʲ e r ɣ i n͈ʲ
+dotéit,dotét,V;FIN;IND;PRS;3;SG;LGSPEC1,d o dʲ eː d
+dotéit,doregaid,V;FIN;IND;FUT;2;PL;LGSPEC1,d o rʲ e ɣ i ðʲ
+dotéit,tair,V;FIN;IMP;2;SG,t a rʲ
+dotéit,dotías,V;FIN;SBJV;PRS;1;SG;LGSPEC1,d o dʲ iː a̯ s
+dotéit,dolodmar,V;FIN;IND;PST;PFV;1;PL;LGSPEC1,d o l o ð ṽ a r
+dotéit,táet,V;FIN;IND;PRS;3;SG;LGSPEC2,t aː i̯ d
+dotéit,dotíagtar,V;FIN;IND;PRS;PASS;PL;LGSPEC1,d o dʲ iː a̯ ɣ d a r
+dotéit,taísid,V;FIN;SBJV;PRS;2;PL;LGSPEC2,t aː i̯ sʲ i ðʲ
+dotéit,táet,V;FIN;IMP;3;SG,t aː i̯ d
+dotéit,tuidches,V;FIN;IND;PST;PRF;PASS;SG;LGSPEC2,t u ðʲ xʲ e s
+dotéit,tulaid,V;FIN;IND;PST;PFV;3;SG;LGSPEC2,t u l i ðʲ
+dotéit,tuidchid,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,t u ðʲ xʲ i ðʲ
+dotéit,tudchaid,V;FIN;IND;PST;PRF;3;SG;LGSPEC2,t u ð x i ðʲ
+dotéit,doluid,V;FIN;IND;PST;PFV;3;SG;LGSPEC1,d o l u ðʲ
+dotéit,tuidechta,V;FIN;LGSPEC3,t u ðʲ e x t a
+dotéit,dotíagar,V;FIN;IND;PRS;PASS;SG;LGSPEC1,d o dʲ iː a̯ ɣ a r
+dotéit,dotíagat,V;FIN;IND;PRS;3;PL;LGSPEC1,d o dʲ iː a̯ ɣ a d
+dotéit,terga,V;FIN;IND;FUT;3;SG;LGSPEC2,tʲ e r ɣ a
+dotéit,tirga,V;FIN;IND;FUT;3;SG;LGSPEC2,tʲ i rʲ ɣ a
+dotéit,doeth,V;FIN;IND;PST;PFV;PASS;SG;LGSPEC1,d o e θ
+dotéit,dodechud,V;FIN;IND;PST;PRF;1;SG;LGSPEC1,d o ðʲ e x u ð

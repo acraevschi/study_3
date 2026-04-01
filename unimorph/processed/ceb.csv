@@ -1,0 +1,1008 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+modawat,modawat,"V;NFIN
+",0.0016,0.0018916666666666,m o d a w a t
+modawat,gidawat,"V;PRS
+",0.0018,0.0018916666666666,ɡ i d a w a t
+modawat,ningdawat,"V;PROG;PRS
+",0.0,0.0018916666666666,n i ŋ d a w a t
+modawat,nidawat,"V;PST
+",0.0,0.0018916666666666,n i d a w a t
+modawat,modawat,"V;FUT
+",0.0016,0.0018916666666666,m o d a w a t
+modawat,nadawat,"V;PRF;PST
+",0.0048,0.0018916666666666,n a d a w a t
+moangkon,moangkon,"V;NFIN
+",0.0005,0.0006833333333333,m o ʔ a ŋ k o n
+moangkon,nagangkon,"V;PRS
+",0.0,0.0006833333333333,n a ɡ a ŋ k o n
+moangkon,ningangkon,"V;PROG;PRS
+",0.0,0.0006833333333333,n i ŋ a ŋ k o n
+moangkon,niangkon,"V;PST
+",0.001,0.0006833333333333,n i ʔ a ŋ k o n
+moangkon,moangkon,"V;FUT
+",0.0005,0.0006833333333333,m o ʔ a ŋ k o n
+moangkon,naangkon,"V;PRF;PST
+",0.0021,0.0006833333333333,n a ʔ a ŋ k o n
+motubag,motubag,"V;NFIN
+",0.0005,0.0002,m o t u b a ɡ
+motubag,nagtubag,"V;PRS
+",0.0,0.0002,n a ɡ t u b a ɡ
+motubag,ningtubag,"V;PROG;PRS
+",0.0,0.0002,n i ŋ t u b a ɡ
+motubag,nitubag,"V;PST
+",0.0002,0.0002,n i t u b a ɡ
+motubag,motubag,"V;FUT
+",0.0005,0.0002,m o t u b a ɡ
+motubag,natubag,"V;PRF;PST
+",0.0,0.0002,n a t u b a ɡ
+mopakita,mopakita,"V;NFIN
+",0.0,0.0004333333333333,m o p a k i t a
+mopakita,nagpakita,"V;PRS
+",0.0021,0.0004333333333333,n a ɡ p a k i t a
+mopakita,ningpakita,"V;PROG;PRS
+",0.0,0.0004333333333333,n i ŋ p a k i t a
+mopakita,nipakita,"V;PST
+",0.0002,0.0004333333333333,n i p a k i t a
+mopakita,mopakita,"V;FUT
+",0.0,0.0004333333333333,m o p a k i t a
+mopakita,napakita,"V;PRF;PST
+",0.0003,0.0004333333333333,n a p a k i t a
+mangutana,mangutana,"V;NFIN
+",0.0002,0.0003166666666666,m a ŋ u t a n a
+mangutana,nangutana,"V;PRS
+",0.0007,0.0003166666666666,n a ŋ u t a n a
+mangutana,nagpangutana,"V;PROG;PRS
+",0.0001,0.0003166666666666,n a ɡ p a ŋ u t a n a
+mangutana,nangutana,"V;PST
+",0.0007,0.0003166666666666,n a ŋ u t a n a
+mangutana,mangutana,"V;FUT
+",0.0002,0.0003166666666666,m a ŋ u t a n a
+mangutana,napangutana,"V;PRF;PST
+",0.0,0.0003166666666666,n a p a ŋ u t a n a
+mosugod,mosugod,"V;NFIN
+",0.0004,0.0006166666666666,m o s u ɡ o d
+mosugod,nagsugod,"V;PRS
+",0.0027,0.0006166666666666,n a ɡ s u ɡ o d
+mosugod,ningsugod,"V;PROG;PRS
+",0.0,0.0006166666666666,n i ŋ s u ɡ o d
+mosugod,nisugod,"V;PST
+",0.0,0.0006166666666666,n i s u ɡ o d
+mosugod,mosugod,"V;FUT
+",0.0004,0.0006166666666666,m o s u ɡ o d
+mosugod,nasugod,"V;PRF;PST
+",0.0,0.0006166666666666,n a s u ɡ o d
+mobuak,mobuak,"V;NFIN
+",0.0,3.3333333333333335e-05,m o b u ʔ a k
+mobuak,nagbuak,"V;PRS
+",0.0,3.3333333333333335e-05,n a ɡ b u ʔ a k
+mobuak,ningbuak,"V;PROG;PRS
+",0.0,3.3333333333333335e-05,n i ŋ b u ʔ a k
+mobuak,nibuak,"V;PST
+",0.0,3.3333333333333335e-05,n i b u ʔ a k
+mobuak,mobuak,"V;FUT
+",0.0,3.3333333333333335e-05,m o b u ʔ a k
+mobuak,nabuak,"V;PRF;PST
+",0.0002,3.3333333333333335e-05,n a b u ʔ a k
+mopalit,mopalit,"V;NFIN
+",0.0012,0.0004333333333333,m o p a l i t
+mopalit,nagpalit,"V;PRS
+",0.0,0.0004333333333333,n a ɡ p a l i t
+mopalit,ningpalit,"V;PROG;PRS
+",0.0,0.0004333333333333,n i ŋ p a l i t
+mopalit,nipalit,"V;PST
+",0.0001,0.0004333333333333,n i p a l i t
+mopalit,mopalit,"V;FUT
+",0.0012,0.0004333333333333,m o p a l i t
+mopalit,nakapalit,"V;PRF;PST
+",0.0001,0.0004333333333333,n a k a p a l i t
+motawag,motawag,"V;NFIN
+",0.0001,0.0001,m o t a w a ɡ
+motawag,nagtawag,"V;PRS
+",0.0001,0.0001,n a ɡ t a w a ɡ
+motawag,ningtawag,"V;PROG;PRS
+",0.0,0.0001,n i ŋ t a w a ɡ
+motawag,nitawag,"V;PST
+",0.0003,0.0001,n i t a w a ɡ
+motawag,motawag,"V;FUT
+",0.0001,0.0001,m o t a w a ɡ
+motawag,natawag,"V;PRF;PST
+",0.0,0.0001,n a t a w a ɡ
+mohimo,mohimo,"V;NFIN
+",0.0017,0.0007,m o h i m o
+mohimo,kaya,"V;PRS
+",0.0011,0.0007,k a j a
+mohimo,kaya,"V;PROG;PRS
+",0.0011,0.0007,k a j a
+mohimo,nakaya,"V;PST
+",0.0,0.0007,n a k a j a
+mohimo,makaya,"V;FUT
+",0.0003,0.0007,m a k a j a
+mohimo,nakaya,"V;PRF;PST
+",0.0,0.0007,n a k a j a
+mopili,mopili,"V;NFIN
+",0.0005,0.0002,m o p i l i
+mopili,nagpili,"V;PRS
+",0.0,0.0002,n a ɡ p i l i
+mopili,ningpili,"V;PROG;PRS
+",0.0,0.0002,n i ŋ p i l i
+mopili,nipili,"V;PST
+",0.0002,0.0002,n i p i l i
+mopili,mopili,"V;FUT
+",0.0005,0.0002,m o p i l i
+mopili,nakapili,"V;PRF;PST
+",0.0,0.0002,n a k a p i l i
+magluto,magluto,"V;NFIN
+",0.0,5e-05,m a ɡ l u t o
+magluto,nagluto,"V;PRS
+",0.0001,5e-05,n a ɡ l u t o
+magluto,nagluto,"V;PROG;PRS
+",0.0001,5e-05,n a ɡ l u t o
+magluto,nagluto,"V;PST
+",0.0001,5e-05,n a ɡ l u t o
+magluto,magluto,"V;FUT
+",0.0,5e-05,m a ɡ l u t o
+magluto,nakaluto,"V;PRF;PST
+",0.0,5e-05,n a k a l u t o
+mosayaw,mosayaw,"V;NFIN
+",0.0,3.3333333333333335e-05,m o s a j a w
+mosayaw,nagsayaw,"V;PRS
+",0.0001,3.3333333333333335e-05,n a ɡ s a j a w
+mosayaw,ningsayaw,"V;PROG;PRS
+",0.0,3.3333333333333335e-05,n i ŋ s a j a w
+mosayaw,nisayaw,"V;PST
+",0.0001,3.3333333333333335e-05,n i s a j a w
+mosayaw,mosayaw,"V;FUT
+",0.0,3.3333333333333335e-05,m o s a j a w
+mosayaw,nakasayaw,"V;PRF;PST
+",0.0,3.3333333333333335e-05,n a k a s a j a w
+mamatay,mamatay,"V;NFIN
+",0.0017,0.0045666666666666,m a m a t a j
+mamatay,namatay,"V;PRS
+",0.006,0.0045666666666666,n a m a t a j
+mamatay,namatay,"V;PROG;PRS
+",0.006,0.0045666666666666,n a m a t a j
+mamatay,namatay,"V;PST
+",0.006,0.0045666666666666,n a m a t a j
+mamatay,mamatay,"V;FUT
+",0.0017,0.0045666666666666,m a m a t a j
+mamatay,namatay,"V;PRF;PST
+",0.006,0.0045666666666666,n a m a t a j
+mobuhat,mobuhat,"V;NFIN
+",0.0001,0.0002833333333333,m o b u h a t
+mobuhat,nagbuhat,"V;PRS
+",0.0004,0.0002833333333333,n a ɡ b u h a t
+mobuhat,ningbuhat,"V;PROG;PRS
+",0.0,0.0002833333333333,n i ŋ b u h a t
+mobuhat,nibuhat,"V;PST
+",0.0,0.0002833333333333,n i b u h a t
+mobuhat,mobuhat,"V;FUT
+",0.0001,0.0002833333333333,m o b u h a t
+mobuhat,nabuhat,"V;PRF;PST
+",0.0011,0.0002833333333333,n a b u h a t
+moinom,moinom,"V;NFIN
+",0.0006,0.0002166666666666,m o ʔ i n o m
+moinom,naginom,"V;PRS
+",0.0001,0.0002166666666666,n a ɡ i n o m
+moinom,ninginom,"V;PROG;PRS
+",0.0,0.0002166666666666,n i ŋ i n o m
+moinom,ni-inom,"V;PST
+",0.0,0.0002166666666666,n i ʔ i n o m
+moinom,moinom,"V;FUT
+",0.0006,0.0002166666666666,m o ʔ i n o m
+moinom,nainom,"V;PRF;PST
+",0.0,0.0002166666666666,n a ʔ i n o m
+momaneho,momaneho,"V;NFIN
+",0.0,0.0001,m o m a n e h o
+momaneho,nagmaneho,"V;PRS
+",0.0006,0.0001,n a ɡ m a n e h o
+momaneho,ningmaneho,"V;PROG;PRS
+",0.0,0.0001,n i ŋ m a n e h o
+momaneho,nimaneho,"V;PST
+",0.0,0.0001,n i m a n e h o
+momaneho,momaneho,"V;FUT
+",0.0,0.0001,m o m a n e h o
+momaneho,namaneho,"V;PRF;PST
+",0.0,0.0001,n a m a n e h o
+mokaon,mokaon,"V;NFIN
+",0.0001,6.666666666666667e-05,m o k a ʔ o n
+mokaon,nagkaon,"V;PRS
+",0.0001,6.666666666666667e-05,n a ɡ k a ʔ o n
+mokaon,ningkaon,"V;PROG;PRS
+",0.0,6.666666666666667e-05,n i ŋ k a ʔ o n
+mokaon,nikaon,"V;PST
+",0.0,6.666666666666667e-05,n i k a ʔ o n
+mokaon,mokaon,"V;FUT
+",0.0001,6.666666666666667e-05,m o k a ʔ o n
+mokaon,nakakaon,"V;PRF;PST
+",0.0001,6.666666666666667e-05,n a k a k a ʔ o n
+mosulod,mosulod,"V;NFIN
+",0.0012,0.0004166666666666,m o s u l o d
+mosulod,nagsulod,"V;PRS
+",0.0,0.0004166666666666,n a ɡ s u l o d
+mosulod,ningsulod,"V;PROG;PRS
+",0.0,0.0004166666666666,n i ŋ s u l o d
+mosulod,nisulod,"V;PST
+",0.0001,0.0004166666666666,n i s u l o d
+mosulod,mosulod,"V;FUT
+",0.0012,0.0004166666666666,m o s u l o d
+mosulod,nakasulod,"V;PRF;PST
+",0.0,0.0004166666666666,n a k a s u l o d
+mogawas,mogawas,"V;NFIN
+",0.0017,0.0026333333333333,m o ɡ a w a s
+mogawas,gawas,"V;PRS
+",0.0113,0.0026333333333333,ɡ a w a s
+mogawas,ninggawas,"V;PROG;PRS
+",0.0,0.0026333333333333,n i ŋ ɡ a w a s
+mogawas,nigawas,"V;PST
+",0.0004,0.0026333333333333,n i ɡ a w a s
+mogawas,mogawas,"V;FUT
+",0.0017,0.0026333333333333,m o ɡ a w a s
+mogawas,nakagawas,"V;PRF;PST
+",0.0007,0.0026333333333333,n a k a ɡ a w a s
+mahulog,mahulog,"V;NFIN
+",0.0005,0.0003,m a h u l o ɡ
+mahulog,naghulog,"V;PRS
+",0.0,0.0003,n a ɡ h u l o ɡ
+mahulog,ninghulog,"V;PROG;PRS
+",0.0,0.0003,n i ŋ h u l o ɡ
+mahulog,nahulog,"V;PST
+",0.0004,0.0003,n a h u l o ɡ
+mahulog,mahulog,"V;FUT
+",0.0005,0.0003,m a h u l o ɡ
+mahulog,nahulog,"V;PRF;PST
+",0.0004,0.0003,n a h u l o ɡ
+mobati,mobati,"V;NFIN
+",0.0,0.0001,m o b a t i
+mobati,nagbati,"V;PRS
+",0.0,0.0001,n a ɡ b a t i
+mobati,ningbati,"V;PROG;PRS
+",0.0,0.0001,n i ŋ b a t i
+mobati,nibati,"V;PST
+",0.0,0.0001,n i b a t i
+mobati,mobati,"V;FUT
+",0.0,0.0001,m o b a t i
+mobati,nabati,"V;PRF;PST
+",0.0006,0.0001,n a b a t i
+moaway,moaway,"V;NFIN
+",0.0004,0.0001833333333333,m o ʔ a w a j
+moaway,nag-away,"V;PRS
+",0.0003,0.0001833333333333,n a ɡ a w a j
+moaway,ning-away,"V;PROG;PRS
+",0.0,0.0001833333333333,n i ŋ a w a j
+moaway,niaway,"V;PST
+",0.0,0.0001833333333333,n i a w a j
+moaway,moaway,"V;FUT
+",0.0004,0.0001833333333333,m o ʔ a w a j
+moaway,naaway,"V;PRF;PST
+",0.0,0.0001833333333333,n a ʔ a w a j
+mangita,mangita,"V;NFIN
+",0.001,0.0006666666666666,m a ŋ i t a
+mangita,nangita,"V;PRS
+",0.001,0.0006666666666666,n a ŋ i t a
+mangita,nagpangita,"V;PROG;PRS
+",0.0,0.0006666666666666,n a ɡ p a ŋ i t a
+mangita,nangita,"V;PST
+",0.001,0.0006666666666666,n a ŋ i t a
+mangita,mangita,"V;FUT
+",0.001,0.0006666666666666,m a ŋ i t a
+mangita,nakapangita,"V;PRF;PST
+",0.0,0.0006666666666666,n a k a p a ŋ i t a
+mohuman,mohuman,"V;NFIN
+",0.0002,0.0004166666666666,m o h u m a n
+mohuman,naghuman,"V;PRS
+",0.0,0.0004166666666666,n a ɡ h u m a n
+mohuman,ninghuman,"V;PROG;PRS
+",0.0001,0.0004166666666666,n i ŋ h u m a n
+mohuman,nahuman,"V;PST
+",0.001,0.0004166666666666,n a h u m a n
+mohuman,mohuman,"V;FUT
+",0.0002,0.0004166666666666,m o h u m a n
+mohuman,nahuman,"V;PRF;PST
+",0.001,0.0004166666666666,n a h u m a n
+molupad,molupad,"V;NFIN
+",0.0002,6.666666666666667e-05,m o l u p a d
+molupad,naglupad,"V;PRS
+",0.0,6.666666666666667e-05,n a ɡ l u p a d
+molupad,ninglupad,"V;PROG;PRS
+",0.0,6.666666666666667e-05,n i ŋ l u p a d
+molupad,nilupad,"V;PST
+",0.0,6.666666666666667e-05,n i l u p a d
+molupad,molupad,"V;FUT
+",0.0002,6.666666666666667e-05,m o l u p a d
+molupad,nalupad,"V;PRF;PST
+",0.0,6.666666666666667e-05,n a l u p a d
+makalimot,makalimot,"V;NFIN
+",0.0002,3.3333333333333335e-05,m a k a l i m o t
+makalimot,nagkalimot,"V;PRS
+",0.0,3.3333333333333335e-05,n a ɡ k a l i m o t
+makalimot,ningkalimot,"V;PROG;PRS
+",0.0,3.3333333333333335e-05,n i ŋ k a l i m o t
+makalimot,nakalimot,"V;PST
+",0.0,3.3333333333333335e-05,n a k a l i m o t
+makalimot,mokalimot,"V;FUT
+",0.0,3.3333333333333335e-05,m o k a l i m o t
+makalimot,nakalimot,"V;PRF;PST
+",0.0,3.3333333333333335e-05,n a k a l i m o t
+mobangon,mobangon,"V;NFIN
+",0.0001,5e-05,m o b a ŋ o n
+mobangon,nagbangon,"V;PRS
+",0.0,5e-05,n a ɡ b a ŋ o n
+mobangon,ningbangon,"V;PROG;PRS
+",0.0,5e-05,n i ŋ b a ŋ o n
+mobangon,nibangon,"V;PST
+",0.0,5e-05,n i b a ŋ o n
+mobangon,mobangon,"V;FUT
+",0.0001,5e-05,m o b a ŋ o n
+mobangon,nakabangon,"V;PRF;PST
+",0.0001,5e-05,n a k a b a ŋ o n
+mohatag,mohatag,"V;NFIN
+",0.0048,0.0023166666666666,m o h a t a ɡ
+mohatag,naghatag,"V;PRS
+",0.0021,0.0023166666666666,n a ɡ h a t a ɡ
+mohatag,ninghatag,"V;PROG;PRS
+",0.0,0.0023166666666666,n i ŋ h a t a ɡ
+mohatag,nihatag,"V;PST
+",0.0002,0.0023166666666666,n i h a t a ɡ
+mohatag,mohatag,"V;FUT
+",0.0048,0.0023166666666666,m o h a t a ɡ
+mohatag,nakahatag,"V;PRF;PST
+",0.002,0.0023166666666666,n a k a h a t a ɡ
+moadto,moadto,"V;NFIN
+",0.0019,0.0013333333333333,m o ʔ a d t o
+moadto,nag-adto,"V;PRS
+",0.0,0.0013333333333333,n a ɡ a d t o
+moadto,ning-adto,"V;PROG;PRS
+",0.0,0.0013333333333333,n i ŋ a d t o
+moadto,niadto,"V;PST
+",0.0041,0.0013333333333333,n i ʔ a d t o
+moadto,moadto,"V;FUT
+",0.0019,0.0013333333333333,m o ʔ a d t o
+moadto,nakaadto,"V;PRF;PST
+",0.0001,0.0013333333333333,n a k a ʔ a d t o
+mahitabo,mahitabo,"V;NFIN
+",0.0061,0.0049499999999999,m a h i t a b o
+mahitabo,naghitabo,"V;PRS
+",0.0,0.0049499999999999,n a ɡ h i t a b o
+mahitabo,ninghitabo,"V;PROG;PRS
+",0.0,0.0049499999999999,n i ŋ h i t a b o
+mahitabo,nahitabo,"V;PST
+",0.0118,0.0049499999999999,n a h i t a b o
+mahitabo,mohitabo,"V;FUT
+",0.0,0.0049499999999999,m o h i t a b o
+mahitabo,nahitabo,"V;PRF;PST
+",0.0118,0.0049499999999999,n a h i t a b o
+aduna,aduna,"V;NFIN
+",0.0133,0.0133,ʔ a d u n a
+aduna,aduna,"V;PRS
+",0.0133,0.0133,ʔ a d u n a
+aduna,aduna,"V;PROG;PRS
+",0.0133,0.0133,ʔ a d u n a
+aduna,aduna,"V;PST
+",0.0133,0.0133,ʔ a d u n a
+aduna,aduna,"V;FUT
+",0.0133,0.0133,ʔ a d u n a
+aduna,aduna,"V;PRF;PST
+",0.0133,0.0133,ʔ a d u n a
+makadungog,makadungog,"V;NFIN
+",0.0007,0.0008333333333333,m a k a d u ŋ o ɡ
+makadungog,nakadungog,"V;PRS
+",0.0009,0.0008333333333333,n a k a d u ŋ o ɡ
+makadungog,nakadungog,"V;PROG;PRS
+",0.0009,0.0008333333333333,n a k a d u ŋ o ɡ
+makadungog,nakadungog,"V;PST
+",0.0009,0.0008333333333333,n a k a d u ŋ o ɡ
+makadungog,makadungog,"V;FUT
+",0.0007,0.0008333333333333,m a k a d u ŋ o ɡ
+makadungog,nakadungog,"V;PRF;PST
+",0.0009,0.0008333333333333,n a k a d u ŋ o ɡ
+mamati,mamati,"V;NFIN
+",0.0,1.6666666666666667e-05,m a m a t i
+mamati,namati,"V;PRS
+",0.0,1.6666666666666667e-05,n a m a t i
+mamati,nagpamati,"V;PROG;PRS
+",0.0001,1.6666666666666667e-05,n a ɡ p a m a t i
+mamati,nakapamati,"V;PST
+",0.0,1.6666666666666667e-05,n a k a p a m a t i
+mamati,mamati,"V;FUT
+",0.0,1.6666666666666667e-05,m a m a t i
+mamati,nakapamati,"V;PRF;PST
+",0.0,1.6666666666666667e-05,n a k a p a m a t i
+motabang,motabang,"V;NFIN
+",0.0038,0.0014333333333333,m o t a b a ŋ
+motabang,nagtabang,"V;PRS
+",0.0,0.0014333333333333,n a ɡ t a b a ŋ
+motabang,ningtabang,"V;PROG;PRS
+",0.0001,0.0014333333333333,n i ŋ t a b a ŋ
+motabang,nitabang,"V;PST
+",0.0002,0.0014333333333333,n i t a b a ŋ
+motabang,motabang,"V;FUT
+",0.0038,0.0014333333333333,m o t a b a ŋ
+motabang,nakatabang,"V;PRF;PST
+",0.0007,0.0014333333333333,n a k a t a b a ŋ
+mogunit,mogunit,"V;NFIN
+",0.0001,0.00015,m o ɡ u n i t
+mogunit,naggunit,"V;PRS
+",0.0007,0.00015,n a ɡ ɡ u n i t
+mogunit,ninggunit,"V;PROG;PRS
+",0.0,0.00015,n i ŋ ɡ u n i t
+mogunit,nigunit,"V;PST
+",0.0,0.00015,n i ɡ u n i t
+mogunit,mogunit,"V;FUT
+",0.0001,0.00015,m o ɡ u n i t
+mogunit,nagunit,"V;PRF;PST
+",0.0,0.00015,n a ɡ u n i t
+mopaila,mopaila,"V;NFIN
+",0.0,6.666666666666666e-05,m o p a ʔ i l a
+mopaila,nagpaila,"V;PRS
+",0.0003,6.666666666666666e-05,n a ɡ p a ʔ i l a
+mopaila,ningpaila,"V;PROG;PRS
+",0.0,6.666666666666666e-05,n i ŋ p a ʔ i l a
+mopaila,nipaila,"V;PST
+",0.0001,6.666666666666666e-05,n i p a ʔ i l a
+mopaila,mopaila,"V;FUT
+",0.0,6.666666666666666e-05,m o p a ʔ i l a
+mopaila,napaila,"V;PRF;PST
+",0.0,6.666666666666666e-05,n a p a ʔ i l a
+mopatay,mopatay,"V;NFIN
+",0.0001,0.0001666666666666,m o p a t a j
+mopatay,nagpatay,"V;PRS
+",0.0003,0.0001666666666666,n a ɡ p a t a j
+mopatay,ningpatay,"V;PROG;PRS
+",0.0,0.0001666666666666,n i ŋ p a t a j
+mopatay,nipatay,"V;PST
+",0.0001,0.0001666666666666,n i p a t a j
+mopatay,mopatay,"V;FUT
+",0.0001,0.0001666666666666,m o p a t a j
+mopatay,nakapatay,"V;PRF;PST
+",0.0004,0.0001666666666666,n a k a p a t a j
+masayod,masayod,"V;NFIN
+",0.0013,0.0022333333333333,m a s a j o d
+masayod,nasayod,"V;PRS
+",0.001,0.0022333333333333,n a s a j o d
+masayod,nasayod,"V;PROG;PRS
+",0.001,0.0022333333333333,n a s a j o d
+masayod,nasayod,"V;PST
+",0.001,0.0022333333333333,n a s a j o d
+masayod,masayod,"V;FUT
+",0.0013,0.0022333333333333,m a s a j o d
+masayod,nasayran,"V;PRF;PST
+",0.0078,0.0022333333333333,n a s a j ɾ a n
+makahibalo,makahibalo,"V;NFIN
+",0.0002,0.0001833333333333,m a k a h i b a l o
+makahibalo,nahibalo,"V;PRS
+",0.0003,0.0001833333333333,n a h i b a l o
+makahibalo,nahibalo,"V;PROG;PRS
+",0.0003,0.0001833333333333,n a h i b a l o
+makahibalo,nakahibalo,"V;PST
+",0.0001,0.0001833333333333,n a k a h i b a l o
+makahibalo,makahibalo,"V;FUT
+",0.0002,0.0001833333333333,m a k a h i b a l o
+makahibalo,nahibalo-an,"V;PRF;PST
+",0.0,0.0001833333333333,n a h i b a l o ʔ a n
+mokatawa,mokatawa,"V;NFIN
+",0.0,5e-05,m o k a t a w a
+mokatawa,nagkatawa,"V;PRS
+",0.0001,5e-05,n a ɡ k a t a w a
+mokatawa,ningkatawa,"V;PROG;PRS
+",0.0,5e-05,n i ŋ k a t a w a
+mokatawa,nikatawa,"V;PST
+",0.0001,5e-05,n i k a t a w a
+mokatawa,mokatawa,"V;FUT
+",0.0,5e-05,m o k a t a w a
+mokatawa,nikatawa,"V;PRF;PST
+",0.0001,5e-05,n i k a t a w a
+makat-on,makat-on,"V;NFIN
+",0.0001,1.6666666666666667e-05,m a k a t ʔ o n
+makat-on,nagkat-on,"V;PRS
+",0.0,1.6666666666666667e-05,n a ɡ k a t ʔ o n
+makat-on,ningkat-on,"V;PROG;PRS
+",0.0,1.6666666666666667e-05,n i ŋ k a t ʔ o n
+makat-on,nakat-on,"V;PST
+",0.0,1.6666666666666667e-05,n a k a t ʔ o n
+makat-on,mokat-on,"V;FUT
+",0.0,1.6666666666666667e-05,m o k a t o n
+makat-on,nakat-on,"V;PRF;PST
+",0.0,1.6666666666666667e-05,n a k a t ʔ o n
+mohigda,mohigda,"V;NFIN
+",0.0,1.6666666666666667e-05,m o h i ɡ d a
+mohigda,naghigda,"V;PRS
+",0.0001,1.6666666666666667e-05,n a ɡ h i ɡ d a
+mohigda,ninghigda,"V;PROG;PRS
+",0.0,1.6666666666666667e-05,n i ŋ h i ɡ d a
+mohigda,nihigda,"V;PST
+",0.0,1.6666666666666667e-05,n i h i ɡ d a
+mohigda,mohigda,"V;FUT
+",0.0,1.6666666666666667e-05,m o h i ɡ d a
+mohigda,nakahigda,"V;PRF;PST
+",0.0,1.6666666666666667e-05,n a k a h i ɡ d a
+maminaw,maminaw,"V;NFIN
+",0.0002,8.333333333333333e-05,m a m i n a w
+maminaw,nagpaminaw,"V;PRS
+",0.0,8.333333333333333e-05,n a ɡ p a m i n a w
+maminaw,ningpapaminaw,"V;PROG;PRS
+",0.0,8.333333333333333e-05,n i ŋ p a p a m i n a w
+maminaw,naminaw,"V;PST
+",0.0001,8.333333333333333e-05,n a m i n a w
+maminaw,maminaw,"V;FUT
+",0.0002,8.333333333333333e-05,m a m i n a w
+maminaw,nakaminaw,"V;PRF;PST
+",0.0,8.333333333333333e-05,n a k a m i n a w
+mabuhi,mabuhi,"V;NFIN
+",0.0004,0.0002333333333333,m a b u h i ʔ
+mabuhi,nabuhi,"V;PRS
+",0.0002,0.0002333333333333,n a b u h i ʔ
+mabuhi,nagpakabuhi,"V;PROG;PRS
+",0.0,0.0002333333333333,n a ɡ p a k a b u h i
+mabuhi,nabuhi,"V;PST
+",0.0002,0.0002333333333333,n a b u h i ʔ
+mabuhi,mabuhi,"V;FUT
+",0.0004,0.0002333333333333,m a b u h i ʔ
+mabuhi,nabuhi,"V;PRF;PST
+",0.0002,0.0002333333333333,n a b u h i ʔ
+mawad-an,mawad-an,"V;NFIN
+",0.0004,0.001,m a w a d ʔ a n
+mawad-an,nawad-an,"V;PRS
+",0.0013,0.001,n a w a d ʔ a n
+mawad-an,nawad-an,"V;PROG;PRS
+",0.0013,0.001,n a w a d ʔ a n
+mawad-an,nawad-an,"V;PST
+",0.0013,0.001,n a w a d ʔ a n
+mawad-an,mawad-an,"V;FUT
+",0.0004,0.001,m a w a d ʔ a n
+mawad-an,nawad-an,"V;PRF;PST
+",0.0013,0.001,n a w a d ʔ a n
+mohigugma,mohigugma,"V;NFIN
+",0.0,0.0001,m o h i ɡ u ɡ m a
+mohigugma,naghigugma,"V;PRS
+",0.0,0.0001,n a ɡ h i ɡ u ɡ m a
+mohigugma,ninghigugma,"V;PROG;PRS
+",0.0,0.0001,n i ŋ h i ɡ u ɡ m a
+mohigugma,nahigugma,"V;PST
+",0.0003,0.0001,n a h i ɡ u ɡ m a
+mohigugma,mohigugma,"V;FUT
+",0.0,0.0001,m o h i ɡ u ɡ m a
+mohigugma,nahigugma,"V;PRF;PST
+",0.0003,0.0001,n a h i ɡ u ɡ m a
+magkita,magkita,"V;NFIN
+",0.0006,0.0003,m a ɡ k i t a
+magkita,nagkita,"V;PRS
+",0.0003,0.0003,n a ɡ k i t a
+magkita,nagkita,"V;PROG;PRS
+",0.0003,0.0003,n a ɡ k i t a
+magkita,nakigkita,"V;PST
+",0.0001,0.0003,n a k i ɡ k i t a
+magkita,makigkita,"V;FUT
+",0.0005,0.0003,m a k i ɡ k i t a
+magkita,nagkakita,"V;PRF;PST
+",0.0,0.0003,n a ɡ k a k i t a
+magkinahanglan,magkinahanglan,"V;NFIN
+",0.0006,0.0018666666666666,m a ɡ k i n a h a ŋ l a n
+magkinahanglan,nagkinahanglan,"V;PRS
+",0.0025,0.0018666666666666,n a ɡ k i n a h a ŋ l a n
+magkinahanglan,nagkinahanglan,"V;PROG;PRS
+",0.0025,0.0018666666666666,n a ɡ k i n a h a ŋ l a n
+magkinahanglan,nagkinahanglan,"V;PST
+",0.0025,0.0018666666666666,n a ɡ k i n a h a ŋ l a n
+magkinahanglan,magkinahanglan,"V;FUT
+",0.0006,0.0018666666666666,m a ɡ k i n a h a ŋ l a n
+magkinahanglan,nagkinahanglan,"V;PRF;PST
+",0.0025,0.0018666666666666,n a ɡ k i n a h a ŋ l a n
+makabantay,makabantay,"V;NFIN
+",0.0006,0.0003999999999999,m a k a b a n t a j
+makabantay,nakabantay,"V;PRS
+",0.0003,0.0003999999999999,n a k a b a n t a j
+makabantay,nakabantay,"V;PROG;PRS
+",0.0003,0.0003999999999999,n a k a b a n t a j
+makabantay,nakabantay,"V;PST
+",0.0003,0.0003999999999999,n a k a b a n t a j
+makabantay,makabantay,"V;FUT
+",0.0006,0.0003999999999999,m a k a b a n t a j
+makabantay,nakabantay,"V;PRF;PST
+",0.0003,0.0003999999999999,n a k a b a n t a j
+moabli,moabli,"V;NFIN
+",0.0002,0.0001,m o ʔ a b l i
+moabli,nag-abli,"V;PRS
+",0.0,0.0001,n a ɡ a b l i
+moabli,ning-abli,"V;PROG;PRS
+",0.0,0.0001,n i ŋ a b l i
+moabli,niabli,"V;PST
+",0.0001,0.0001,n i ʔ a b l i
+moabli,moabli,"V;FUT
+",0.0002,0.0001,m o ʔ a b l i
+moabli,naabli,"V;PRF;PST
+",0.0001,0.0001,n a ʔ a b l i
+moduwa,moduwa,"V;NFIN
+",0.0004,0.00015,m o d u w a
+moduwa,nagduwa,"V;PRS
+",0.0,0.00015,n a ɡ d u a
+moduwa,ningduwa,"V;PROG;PRS
+",0.0001,0.00015,n i ŋ d u a
+moduwa,niduwa,"V;PST
+",0.0,0.00015,n i d u w a
+moduwa,moduwa,"V;FUT
+",0.0004,0.00015,m o d u w a
+moduwa,nagduwa,"V;PRF;PST
+",0.0,0.00015,n a ɡ d u a
+mobutang,mobutang,"V;NFIN
+",0.0006,0.0004166666666666,m o b u t a ŋ
+mobutang,nagbutang,"V;PRS
+",0.0005,0.0004166666666666,n a ɡ b u t a ŋ
+mobutang,ningbutang,"V;PROG;PRS
+",0.0,0.0004166666666666,n i ŋ b u t a ŋ
+mobutang,nibutang,"V;PST
+",0.0001,0.0004166666666666,n i b u t a ŋ
+mobutang,mobutang,"V;FUT
+",0.0006,0.0004166666666666,m o b u t a ŋ
+mobutang,nabutang,"V;PRF;PST
+",0.0007,0.0004166666666666,n a b u t a ŋ
+mobasa,mobasa,"V;NFIN
+",0.0003,0.0001833333333333,m o b a s a
+mobasa,nagbasa,"V;PRS
+",0.0001,0.0001833333333333,n a ɡ b a s a
+mobasa,ningbasa,"V;PROG;PRS
+",0.0,0.0001833333333333,n i ŋ b a s a
+mobasa,nibasa,"V;PST
+",0.0001,0.0001833333333333,n i b a s a
+mobasa,mobasa,"V;FUT
+",0.0003,0.0001833333333333,m o b a s a
+mobasa,nabasa,"V;PRF;PST
+",0.0003,0.0001833333333333,n a b a s a
+modawat,modawat,"V;NFIN
+",0.0016,0.0018916666666666,m o d a w a t
+modawat,nagdawat,"V;PRS
+",0.0001,0.0018916666666666,n a ɡ d a w a t
+modawat,ningdawat,"V;PROG;PRS
+",0.0,0.0018916666666666,n i ŋ d a w a t
+modawat,nadawat,"V;PST
+",0.0048,0.0018916666666666,n a d a w a t
+modawat,modawat,"V;FUT
+",0.0016,0.0018916666666666,m o d a w a t
+modawat,nadawat,"V;PRF;PST
+",0.0048,0.0018916666666666,n a d a w a t
+mohinumdom,mohinumdom,"V;NFIN
+",0.0,3.3333333333333335e-05,m o h i n u m d o m
+mohinumdom,naghinumdom,"V;PRS
+",0.0,3.3333333333333335e-05,n a ɡ h i n u m d o m
+mohinumdom,ninghinumdom,"V;PROG;PRS
+",0.0,3.3333333333333335e-05,n i ŋ h i n u m d o m
+mohinumdom,nihinumdom,"V;PST
+",0.0,3.3333333333333335e-05,n i h i n u m d o m
+mohinumdom,mohinumdom,"V;FUT
+",0.0,3.3333333333333335e-05,m o h i n u m d o m
+mohinumdom,nahinumdom,"V;PRF;PST
+",0.0002,3.3333333333333335e-05,n a h i n u m d o m
+mousab,mousab,"V;NFIN
+",0.0001,0.0001,m o u s a b
+mousab,nag-usab,"V;PRS
+",0.0,0.0001,n a ɡ u s a b
+mousab,ning-usab,"V;PROG;PRS
+",0.0,0.0001,n i ŋ u s a b
+mousab,niusab,"V;PST
+",0.0,0.0001,n i ʔ u s a b
+mousab,mousab,"V;FUT
+",0.0001,0.0001,m o u s a b
+mousab,nausab,"V;PRF;PST
+",0.0004,0.0001,n a ʔ u s a b
+mobalik,mobalik,"V;NFIN
+",0.0018,0.0007,m o b a l i k
+mobalik,nagbalik,"V;PRS
+",0.0001,0.0007,n a ɡ b a l i k
+mobalik,ningbalik,"V;PROG;PRS
+",0.0001,0.0007,n i ŋ b a l i k
+mobalik,nibalik,"V;PST
+",0.0002,0.0007,n i b a l i k
+mobalik,mobalik,"V;FUT
+",0.0018,0.0007,m o b a l i k
+mobalik,nabalik,"V;PRF;PST
+",0.0002,0.0007,n a b a l i k
+modagan,modagan,"V;NFIN
+",0.0009,0.0004333333333333,m o d a ɡ a n
+modagan,nagdagan,"V;PRS
+",0.0006,0.0004333333333333,n a ɡ d a ɡ a n
+modagan,ningdagan,"V;PROG;PRS
+",0.0,0.0004333333333333,n i ŋ d a ɡ a n
+modagan,nidagan,"V;PST
+",0.0002,0.0004333333333333,n i d a ɡ a n
+modagan,modagan,"V;FUT
+",0.0009,0.0004333333333333,m o d a ɡ a n
+modagan,nadagan,"V;PRF;PST
+",0.0,0.0004333333333333,n a d a ɡ a n
+mosulti,mosulti,"V;NFIN
+",0.0006,0.0004333333333333,m o s u l t i
+mosulti,nagsulti,"V;PRS
+",0.0007,0.0004333333333333,n a ɡ s u l t i
+mosulti,ningsulti,"V;PROG;PRS
+",0.0,0.0004333333333333,n i ŋ s u l t i
+mosulti,nisulti,"V;PST
+",0.0005,0.0004333333333333,n i s u l t i
+mosulti,mosulti,"V;FUT
+",0.0006,0.0004333333333333,m o s u l t i
+mosulti,nasulti,"V;PRF;PST
+",0.0002,0.0004333333333333,n a s u l t i
+mosyagit,mosyagit,"V;NFIN
+",0.0001,3.3333333333333335e-05,m o s j a ɡ i t
+mosyagit,nagsyagit,"V;PRS
+",0.0,3.3333333333333335e-05,n a ɡ s j a ɡ i t
+mosyagit,ningsyagit,"V;PROG;PRS
+",0.0,3.3333333333333335e-05,n i ŋ s j a ɡ i t
+mosyagit,nisyagit,"V;PST
+",0.0,3.3333333333333335e-05,n i s j a ɡ i t
+mosyagit,mosyagit,"V;FUT
+",0.0001,3.3333333333333335e-05,m o s j a ɡ i t
+mosyagit,nasyagit,"V;PRF;PST
+",0.0,3.3333333333333335e-05,n a s j a ɡ i t
+motan-aw,motan-aw,"V;NFIN
+",0.0008,0.0004166666666666,m o t a n a w
+motan-aw,nagtan-aw,"V;PRS
+",0.0007,0.0004166666666666,n a ɡ t a n a w
+motan-aw,ningtan-aw,"V;PROG;PRS
+",0.0001,0.0004166666666666,n i ŋ t a n a w
+motan-aw,nitan-aw,"V;PST
+",0.0001,0.0004166666666666,n i t a n a w
+motan-aw,motan-aw,"V;FUT
+",0.0008,0.0004166666666666,m o t a n a w
+motan-aw,natan-aw,"V;PRF;PST
+",0.0,0.0004166666666666,n a t a n a w
+daw,daw,"V;NFIN
+",0.0041,0.0041,d a w
+daw,daw,"V;PRS
+",0.0041,0.0041,d a w
+daw,daw,"V;PROG;PRS
+",0.0041,0.0041,d a w
+daw,daw,"V;PST
+",0.0041,0.0041,d a w
+daw,daw,"V;FUT
+",0.0041,0.0041,d a w
+daw,daw,"V;PRF;PST
+",0.0041,0.0041,d a w
+mobaligya,mobaligya,"V;NFIN
+",0.0001,5e-05,m o b a l i ɡ j a
+mobaligya,nagbaligya,"V;PRS
+",0.0001,5e-05,n a ɡ b a l i ɡ j a
+mobaligya,ningbaligya,"V;PROG;PRS
+",0.0,5e-05,n i ŋ b a l i ɡ j a
+mobaligya,nibaligya,"V;PST
+",0.0,5e-05,n i b a l i ɡ j a
+mobaligya,mobaligya,"V;FUT
+",0.0001,5e-05,m o b a l i ɡ j a
+mobaligya,nabaligya,"V;PRF;PST
+",0.0,5e-05,n a b a l i ɡ j a
+mohatod,mohatod,"V;NFIN
+",0.0002,0.0001,m o h a t o d
+mohatod,naghatod,"V;PRS
+",0.0002,0.0001,n a ɡ h a t o d
+mohatod,ninghatod,"V;PROG;PRS
+",0.0,0.0001,n i ŋ h a t o d
+mohatod,nihatod,"V;PST
+",0.0,0.0001,n i h a t o d
+mohatod,mohatod,"V;FUT
+",0.0002,0.0001,m o h a t o d
+mohatod,nahatod,"V;PRF;PST
+",0.0,0.0001,n a h a t o d
+mopakita,mopakita,"V;NFIN
+",0.0,0.0004333333333333,m o p a k i t a
+mopakita,nagpakita,"V;PRS
+",0.0021,0.0004333333333333,n a ɡ p a k i t a
+mopakita,ningpakita,"V;PROG;PRS
+",0.0,0.0004333333333333,n i ŋ p a k i t a
+mopakita,nipakita,"V;PST
+",0.0002,0.0004333333333333,n i p a k i t a
+mopakita,mopakita,"V;FUT
+",0.0,0.0004333333333333,m o p a k i t a
+mopakita,napakita,"V;PRF;PST
+",0.0003,0.0004333333333333,n a p a k i t a
+mokanta,mokanta,"V;NFIN
+",0.0001,3.3333333333333335e-05,m o k a n t a
+mokanta,nagkanta,"V;PRS
+",0.0,3.3333333333333335e-05,n a ɡ k a n t a
+mokanta,ningkanta,"V;PROG;PRS
+",0.0,3.3333333333333335e-05,n i ŋ k a n t a
+mokanta,nikanta,"V;PST
+",0.0,3.3333333333333335e-05,n i k a n t a
+mokanta,mokanta,"V;FUT
+",0.0001,3.3333333333333335e-05,m o k a n t a
+mokanta,nakanta,"V;PRF;PST
+",0.0,3.3333333333333335e-05,n a k a n t a
+molingkod,molingkod,"V;NFIN
+",0.0006,0.0003333333333333,m o l i ŋ k o d
+molingkod,naglingkod,"V;PRS
+",0.0003,0.0003333333333333,n a ɡ l i ŋ k o d
+molingkod,ninglingkod,"V;PROG;PRS
+",0.0,0.0003333333333333,n i ŋ l i ŋ k o d
+molingkod,nilingkod,"V;PST
+",0.0001,0.0003333333333333,n i l i ŋ k o d
+molingkod,molingkod,"V;FUT
+",0.0006,0.0003333333333333,m o l i ŋ k o d
+molingkod,nakalingkod,"V;PRF;PST
+",0.0004,0.0003333333333333,n a k a l i ŋ k o d
+matulog,matulog,"V;NFIN
+",0.0001,0.0002166666666666,m a t u l o ɡ
+matulog,natulog,"V;PRS
+",0.0003,0.0002166666666666,n a t u l o ɡ
+matulog,natulog,"V;PROG;PRS
+",0.0003,0.0002166666666666,n a t u l o ɡ
+matulog,natulog,"V;PST
+",0.0003,0.0002166666666666,n a t u l o ɡ
+matulog,matulog,"V;FUT
+",0.0001,0.0002166666666666,m a t u l o ɡ
+matulog,nakatulog,"V;PRF;PST
+",0.0002,0.0002166666666666,n a k a t u l o ɡ
+mopahiyom,mopahiyom,"V;NFIN
+",0.0001,3.3333333333333335e-05,m o p a h i j o m
+mopahiyom,nagpahiyom,"V;PRS
+",0.0,3.3333333333333335e-05,n a ɡ p a h i j o m
+mopahiyom,ningpahiyom,"V;PROG;PRS
+",0.0,3.3333333333333335e-05,n i ŋ p a h i j o m
+mopahiyom,nipahiyom,"V;PST
+",0.0,3.3333333333333335e-05,n i p a h i j o m
+mopahiyom,mopahiyom,"V;FUT
+",0.0001,3.3333333333333335e-05,m o p a h i j o m
+mopahiyom,nagpahiyom,"V;PRF;PST
+",0.0,3.3333333333333335e-05,n a ɡ p a h i j o m
+mobarog,mobarog,"V;NFIN
+",0.0,0.00015,m o b a ɾ o ɡ
+mobarog,nagbarog,"V;PRS
+",0.0007,0.00015,n a ɡ b a ɾ o ɡ
+mobarog,ningbarog,"V;PROG;PRS
+",0.0,0.00015,n i ŋ b a ɾ o ɡ
+mobarog,nibarog,"V;PST
+",0.0001,0.00015,n i b a ɾ o ɡ
+mobarog,mobarog,"V;FUT
+",0.0,0.00015,m o b a ɾ o ɡ
+mobarog,nakabarog,"V;PRF;PST
+",0.0001,0.00015,n a k a b a ɾ o ɡ
+mosugod,mosugod,"V;NFIN
+",0.0004,0.0006166666666666,m o s u ɡ o d
+mosugod,nagsugod,"V;PRS
+",0.0027,0.0006166666666666,n a ɡ s u ɡ o d
+mosugod,ningsugod,"V;PROG;PRS
+",0.0,0.0006166666666666,n i ŋ s u ɡ o d
+mosugod,nisugod,"V;PST
+",0.0,0.0006166666666666,n i s u ɡ o d
+mosugod,mosugod,"V;FUT
+",0.0004,0.0006166666666666,m o s u ɡ o d
+mosugod,nakasugod,"V;PRF;PST
+",0.0004,0.0006166666666666,n a k a s u ɡ o d
+mopabilin,mopabilin,"V;NFIN
+",0.0002,0.0003333333333333,m o p a b i l i n
+mopabilin,nagpabilin,"V;PRS
+",0.0015,0.0003333333333333,n a ɡ p a b i l i n
+mopabilin,ningpabilin,"V;PROG;PRS
+",0.0,0.0003333333333333,n i ŋ p a b i l i n
+mopabilin,nipabilin,"V;PST
+",0.0,0.0003333333333333,n i p a b i l i n
+mopabilin,mopabilin,"V;FUT
+",0.0002,0.0003333333333333,m o p a b i l i n
+mopabilin,napabilin,"V;PRF;PST
+",0.0001,0.0003333333333333,n a p a b i l i n
+mokuha,mokuha,"V;NFIN
+",0.0011,0.0009833333333333,m o k u h a
+mokuha,nagkuha,"V;PRS
+",0.0001,0.0009833333333333,n a ɡ k u h a ʔ
+mokuha,ningkuha,"V;PROG;PRS
+",0.0,0.0009833333333333,n i ŋ k u h a ʔ
+mokuha,nikuha,"V;PST
+",0.0003,0.0009833333333333,n i k u h a
+mokuha,mokuha,"V;FUT
+",0.0011,0.0009833333333333,m o k u h a
+mokuha,nakuha,"V;PRF;PST
+",0.0033,0.0009833333333333,n a k u h a
+motudlo,motudlo,"V;NFIN
+",0.0,5e-05,m o t u d l o
+motudlo,nagtudlo,"V;PRS
+",0.0001,5e-05,n a ɡ t u d l o
+motudlo,ningtudlo,"V;PROG;PRS
+",0.0,5e-05,n i ŋ t u d l o
+motudlo,nitudlo,"V;PST
+",0.0,5e-05,n i t u d l o
+motudlo,motudlo,"V;FUT
+",0.0,5e-05,m o t u d l o
+motudlo,natudlo,"V;PRF;PST
+",0.0002,5e-05,n a t u d l o
+mosabot,mosabot,"V;NFIN
+",0.0003,0.0001333333333333,m o s a b o t
+mosabot,nagsabot,"V;PRS
+",0.0002,0.0001333333333333,n a ɡ s a b o t
+mosabot,ningsabot,"V;PROG;PRS
+",0.0,0.0001333333333333,n i ŋ s a b o t
+mosabot,nisabot,"V;PST
+",0.0,0.0001333333333333,n i s a b o t
+mosabot,mosabot,"V;FUT
+",0.0003,0.0001333333333333,m o s a b o t
+mosabot,nasabot,"V;PRF;PST
+",0.0,0.0001333333333333,n a s a b o t
+mogamit,mogamit,"V;NFIN
+",0.0012,0.0005333333333333,m o ɡ a m i t
+mogamit,naggamit,"V;PRS
+",0.0002,0.0005333333333333,n a ɡ ɡ a m i t
+mogamit,ninggamit,"V;PROG;PRS
+",0.0,0.0005333333333333,n i ŋ ɡ a m i t
+mogamit,nigamit,"V;PST
+",0.0003,0.0005333333333333,n i ɡ a m i t
+mogamit,mogamit,"V;FUT
+",0.0012,0.0005333333333333,m o ɡ a m i t
+mogamit,nagamit,"V;PRF;PST
+",0.0003,0.0005333333333333,n a ɡ a m i t
+mohuwat,mohuwat,"V;NFIN
+",0.0002,0.0002,m o h u w a t
+mohuwat,naghuwat,"V;PRS
+",0.0008,0.0002,n a ɡ h u w a t
+mohuwat,ninghuwat,"V;PROG;PRS
+",0.0,0.0002,n i ŋ h u w a t
+mohuwat,nihuwat,"V;PST
+",0.0,0.0002,n i h u a t
+mohuwat,mohuwat,"V;FUT
+",0.0002,0.0002,m o h u w a t
+mohuwat,nahuwat,"V;PRF;PST
+",0.0,0.0002,n a h u w a t
+molakaw,molakaw,"V;NFIN
+",0.0001,0.0001666666666666,m o l a k a w
+molakaw,naglakaw,"V;PRS
+",0.0006,0.0001666666666666,n a ɡ l a k a w
+molakaw,ninglakaw,"V;PROG;PRS
+",0.0,0.0001666666666666,n i ŋ l a k a w
+molakaw,nilakaw,"V;PST
+",0.0002,0.0001666666666666,n i l a k a w
+molakaw,molakaw,"V;FUT
+",0.0001,0.0001666666666666,m o l a k a w
+molakaw,nalakaw,"V;PRF;PST
+",0.0,0.0001666666666666,n a l a k a w
+magtinguha,magtinguha,"V;NFIN
+",0.0001,0.0004333333333333,m a ɡ t i ŋ u h a ʔ
+magtinguha,nagtinguha,"V;PRS
+",0.0006,0.0004333333333333,n a ɡ t i ŋ u h a ʔ
+magtinguha,nagtinguha,"V;PROG;PRS
+",0.0006,0.0004333333333333,n a ɡ t i ŋ u h a ʔ
+magtinguha,nagtinguha,"V;PST
+",0.0006,0.0004333333333333,n a ɡ t i ŋ u h a ʔ
+magtinguha,magtinguha,"V;FUT
+",0.0001,0.0004333333333333,m a ɡ t i ŋ u h a ʔ
+magtinguha,nagtinguha,"V;PRF;PST
+",0.0006,0.0004333333333333,n a ɡ t i ŋ u h a ʔ
+motan-aw,motan-aw,"V;NFIN
+",0.0008,0.0004166666666666,m o t a n a w
+motan-aw,nagtan-aw,"V;PRS
+",0.0007,0.0004166666666666,n a ɡ t a n a w
+motan-aw,ningtan-aw,"V;PROG;PRS
+",0.0001,0.0004166666666666,n i ŋ t a n a w
+motan-aw,nitan-aw,"V;PST
+",0.0001,0.0004166666666666,n i t a n a w
+motan-aw,motan-aw,"V;FUT
+",0.0008,0.0004166666666666,m o t a n a w
+motan-aw,natan-aw,"V;PRF;PST
+",0.0,0.0004166666666666,n a t a n a w
+modaog,modaog,"V;NFIN
+",0.0012,0.0004333333333333,m o d a ʔ o ɡ
+modaog,nagdaog,"V;PRS
+",0.0,0.0004333333333333,n a ɡ d a ʔ o ɡ
+modaog,ningdaog,"V;PROG;PRS
+",0.0001,0.0004333333333333,n i ŋ d a ʔ o ɡ
+modaog,nidaog,"V;PST
+",0.0001,0.0004333333333333,n i d a ʔ o ɡ
+modaog,modaog,"V;FUT
+",0.0012,0.0004333333333333,m o d a ʔ o ɡ
+modaog,nadaog,"V;PRF;PST
+",0.0,0.0004333333333333,n a d a ʔ o ɡ
+motrabaho,motrabaho,"V;NFIN
+",0.0005,0.0004166666666666,m o t ɾ a b a h o
+motrabaho,nagtrabaho,"V;PRS
+",0.0015,0.0004166666666666,n a ɡ t ɾ a b a h o
+motrabaho,ningtrabaho,"V;PROG;PRS
+",0.0,0.0004166666666666,n i ŋ t ɾ a b a h o
+motrabaho,nitrabaho,"V;PST
+",0.0,0.0004166666666666,n i t ɾ a b a h o
+motrabaho,motrabaho,"V;FUT
+",0.0005,0.0004166666666666,m o t ɾ a b a h o
+motrabaho,natrabaho,"V;PRF;PST
+",0.0,0.0004166666666666,n a t ɾ a b a h o
+mosulat,mosulat,"V;NFIN
+",0.0001,8.333333333333333e-05,m o s u l a t
+mosulat,nagsulat,"V;PRS
+",0.0001,8.333333333333333e-05,n a ɡ s u l a t
+mosulat,ningsulat,"V;PROG;PRS
+",0.0,8.333333333333333e-05,n i ŋ s u l a t
+mosulat,nisulat,"V;PST
+",0.0,8.333333333333333e-05,n i s u l a t
+mosulat,mosulat,"V;FUT
+",0.0001,8.333333333333333e-05,m o s u l a t
+mosulat,nasulat,V;PRF;PST,0.0002,8.333333333333333e-05,n a s u l a t

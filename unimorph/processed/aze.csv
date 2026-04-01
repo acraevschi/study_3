@@ -1,0 +1,109 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+ağlamaq,ağlayacağam,V;1;SG;FUT,0.0,1.0888888888888888e-05,ɑ ɣ l ɑ j ɑ d͡ʒ ɑ ɣ ɑ m
+ağlamaq,ağlayıram,V;1;SG;PRS;PROG,1.1e-05,1.0888888888888888e-05,ɑ ɣ l ɑ j ɯ r ɑ m
+ağlamaq,ağlayırsan,V;2;SG;PRS;PROG,7e-06,1.0888888888888888e-05,ɑ ɣ l ɑ j ɯ r s ɑ n
+ağlamaq,ağlayacaqsan,V;2;SG;FUT,0.0,1.0888888888888888e-05,ɑ ɣ l ɑ j ɑ d͡ʒ ɑ χ s ɑ n
+ağlamaq,ağlayacaq,V;3;SG;FUT,9e-06,1.0888888888888888e-05,ɑ ɣ l ɑ j ɑ d͡ʒ ɑ χ
+ağlamaq,ağlayırlar,V;3;PL;PRS;PROG,6e-06,1.0888888888888888e-05,ɑ ɣ l ɑ j ɯ r l ɑ r
+ağlamaq,ağlayacaqlar,V;3;PL;FUT,1e-06,1.0888888888888888e-05,ɑ ɣ l ɑ j ɑ d͡ʒ ɑ χ l ɑ r
+ağlamaq,ağladılar,V;3;PL;PST,2e-06,1.0888888888888888e-05,ɑ ɣ ɫ ɑ d ɯ l ɑ r
+ağlamaq,ağladı,V;3;SG;PST,4.5e-05,1.0888888888888888e-05,ɑ ɣ ɫ ɑ d ɯ
+ağlamaq,ağladım,V;1;SG;PST,1.9e-05,1.0888888888888888e-05,ɑ ɣ ɫ ɑ d ɯ m
+ağlamaq,ağladın,V;2;SG;PST,0.0,1.0888888888888888e-05,ɑ ɣ ɫ ɑ d ɯ n
+ağlamaq,ağlayacağıq,V;1;PL;FUT,1e-06,1.0888888888888888e-05,ɑ ɣ l ɑ j ɑ d͡ʒ ɑ ɣ ɯ χ
+ağlamaq,ağladıq,V;1;PL;PST,1e-06,1.0888888888888888e-05,ɑ ɣ ɫ ɑ d ɯ χ
+ağlamaq,ağlayırıq,V;1;PL;PRS;PROG,2e-06,1.0888888888888888e-05,ɑ ɣ l ɑ j ɯ r ɯ χ
+ağlamaq,ağlayır,V;3;SG;PRS;PROG,9.1e-05,1.0888888888888888e-05,ɑ ɣ l ɑ j ɯ r
+ağlamaq,ağladınız,V;2;PL;PST,1e-06,1.0888888888888888e-05,ɑ ɣ ɫ ɑ d ɯ n ɯ z
+ağlamaq,ağlayırsınız,V;2;PL;PRS;PROG,0.0,1.0888888888888888e-05,ɑ ɣ l ɑ j ɯ r s ɯ n ɯ z
+ağlamaq,ağlayacaqsınız,V;2;PL;FUT,0.0,1.0888888888888888e-05,ɑ ɣ l ɑ j ɑ d͡ʒ ɑ χ s ɯ n ɯ z
+gülmək,güldü,V;3;SG;PST,5.4e-05,1.738888888888889e-05,ɟ y l d y
+gülmək,güləcək,V;3;SG;FUT,1.3e-05,1.738888888888889e-05,ɟ y l æ d͡ʒ æ c
+gülmək,güləcəyəm,V;1;SG;FUT,0.0,1.738888888888889e-05,ɟ y l æ d͡ʒ æ j æ m
+gülmək,gülürəm,V;1;SG;PRS;PROG,1e-05,1.738888888888889e-05,ɟ y l y r æ m
+gülmək,gülürsən,V;2;SG;PRS;PROG,7e-06,1.738888888888889e-05,ɟ y l y r s æ n
+gülmək,güləcəksən,V;2;SG;FUT,1e-06,1.738888888888889e-05,ɟ y l æ d͡ʒ æ c s æ n
+gülmək,gülürlər,V;3;PL;PRS;PROG,1.9e-05,1.738888888888889e-05,ɟ y l y r l æ r
+gülmək,güləcəklər,V;3;PL;FUT,5e-06,1.738888888888889e-05,ɟ y l æ d͡ʒ æ c l æ r
+gülmək,güldülər,V;3;PL;PST,9e-06,1.738888888888889e-05,ɟ y l d y l æ r
+gülmək,güləcəyik,V;1;PL;FUT,1e-06,1.738888888888889e-05,ɟ y l æ d͡ʒ æ j i c
+gülmək,güləcəksiniz,V;2;PL;FUT,0.0,1.738888888888889e-05,ɟ y l æ d͡ʒ æ c s i n i z
+gülmək,güldük,V;1;PL;PST,5e-06,1.738888888888889e-05,ɟ y l d y c
+gülmək,gülürük,V;1;PL;PRS;PROG,8e-06,1.738888888888889e-05,ɟ y l y r y c
+gülmək,güldüm,V;1;SG;PST,2.2e-05,1.738888888888889e-05,ɟ y l d y m
+gülmək,güldün,V;2;SG;PST,0.0,1.738888888888889e-05,ɟ y l d y n
+gülmək,gülür,V;3;SG;PRS;PROG,0.000152,1.738888888888889e-05,ɟ y l y r
+gülmək,güldünüz,V;2;PL;PST,1e-06,1.738888888888889e-05,ɟ y l d y n y z
+gülmək,gülürsünüz,V;2;PL;PRS;PROG,6e-06,1.738888888888889e-05,ɟ y l y r s y n y z
+içmək,içdi,V;3;SG;PST,3.6e-05,1.277777777777778e-05,i t͡ʃ d i
+içmək,içəcək,V;3;SG;FUT,1.1e-05,1.277777777777778e-05,i t͡ʃ æ d͡ʒ æ c
+içmək,içəcəyəm,V;1;SG;FUT,0.0,1.277777777777778e-05,i t͡ʃ æ d͡ʒ æ j æ m
+içmək,içirəm,V;1;SG;PRS;PROG,2.7e-05,1.277777777777778e-05,i t͡ʃ i r æ m
+içmək,içirsən,V;2;SG;PRS;PROG,5e-06,1.277777777777778e-05,i t͡ʃ i r s æ n
+içmək,içəcəksən,V;2;SG;FUT,1e-06,1.277777777777778e-05,i t͡ʃ æ d͡ʒ æ c s æ n
+içmək,içirlər,V;3;PL;PRS;PROG,3e-05,1.277777777777778e-05,i t͡ʃ i r l æ r
+içmək,içəcəklər,V;3;PL;FUT,1e-06,1.277777777777778e-05,i t͡ʃ æ d͡ʒ æ c l æ r
+içmək,içdilər,V;3;PL;PST,9e-06,1.277777777777778e-05,i t͡ʃ d i l æ r
+içmək,içəcəyik,V;1;PL;FUT,1e-06,1.277777777777778e-05,i t͡ʃ æ d͡ʒ æ j i c
+içmək,içdik,V;1;PL;PST,1.3e-05,1.277777777777778e-05,i t͡ʃ d i c
+içmək,içirik,V;1;PL;PRS;PROG,1e-05,1.277777777777778e-05,i t͡ʃ i r i c
+içmək,içdim,V;1;SG;PST,9e-06,1.277777777777778e-05,i t͡ʃ d i m
+içmək,içdin,V;2;SG;PST,2e-06,1.277777777777778e-05,i t͡ʃ d i n
+içmək,içir,V;3;SG;PRS;PROG,7.3e-05,1.277777777777778e-05,i t͡ʃ i r
+içmək,içdiniz,V;2;PL;PST,0.0,1.277777777777778e-05,i t͡ʃ d i n i z
+içmək,içirsiniz,V;2;PL;PRS;PROG,1e-06,1.277777777777778e-05,i t͡ʃ i r s i n i z
+içmək,içəcəksiniz,V;2;PL;FUT,1e-06,1.277777777777778e-05,i t͡ʃ æ d͡ʒ æ c s i n i z
+oturmaq,oturacağam,V;1;SG;FUT,2e-06,2.1166666666666665e-05,o t u r ɑ d͡ʒ ɑ ɣ ɑ m
+oturmaq,otururam,V;1;SG;PRS;PROG,1.2e-05,2.1166666666666665e-05,o t u r u r ɑ m
+oturmaq,oturursan,V;2;SG;PRS;PROG,9e-06,2.1166666666666665e-05,o t u r u r s ɑ n
+oturmaq,oturacaqsan,V;2;SG;FUT,1e-06,2.1166666666666665e-05,o t u r ɑ d͡ʒ ɑ χ s ɑ n
+oturmaq,oturacaq,V;3;SG;FUT,5.1e-05,2.1166666666666665e-05,o t u r ɑ d͡ʒ ɑ χ
+oturmaq,otururlar,V;3;PL;PRS;PROG,2.6e-05,2.1166666666666665e-05,o t u r u r l ɑ r
+oturmaq,oturacaqlar,V;3;PL;FUT,3.8e-05,2.1166666666666665e-05,o t u r ɑ d͡ʒ ɑ χ l ɑ r
+oturmaq,oturdular,V;3;PL;PST,9e-06,2.1166666666666665e-05,o t u r d u l ɑ r
+oturmaq,oturdu,V;3;SG;PST,9.2e-05,2.1166666666666665e-05,o t u r d u
+oturmaq,oturacağıq,V;1;PL;FUT,4e-06,2.1166666666666665e-05,o t u r ɑ d͡ʒ ɑ χ ɯ χ
+oturmaq,oturacaqsınız,V;2;PL;FUT,1e-06,2.1166666666666665e-05,o t u r ɑ d͡ʒ ɑ χ s ɯ n ɯ z
+oturmaq,oturdum,V;1;SG;PST,1.9e-05,2.1166666666666665e-05,o t u r d u m
+oturmaq,oturdun,V;2;SG;PST,2e-06,2.1166666666666665e-05,o t u r d u n
+oturmaq,oturduq,V;1;PL;PST,1.5e-05,2.1166666666666665e-05,o t u r d u χ
+oturmaq,otururuq,V;1;PL;PRS;PROG,9e-06,2.1166666666666665e-05,o t u r u r u χ
+oturmaq,oturur,V;3;SG;PRS;PROG,8.8e-05,2.1166666666666665e-05,o t u r u r
+oturmaq,oturdunuz,V;2;PL;PST,0.0,2.1166666666666665e-05,o t u r d u n u z
+oturmaq,oturursunuz,V;2;PL;PRS;PROG,3e-06,2.1166666666666665e-05,o t u r u r s u n u z
+qaçmaq,qaçacağam,V;1;SG;FUT,2e-06,2.55e-05,ɡ ɑ t͡ʃ ɑ d͡ʒ ɑ ɣ ɑ m
+qaçmaq,qaçıram,V;1;SG;PRS;PROG,1.4e-05,2.55e-05,ɡ ɑ t͡ʃ ɯ r ɑ m
+qaçmaq,qaçırsan,V;2;SG;PRS;PROG,6e-06,2.55e-05,ɡ ɑ t͡ʃ ɯ r s ɑ n
+qaçmaq,qaçacaqsan,V;2;SG;FUT,1e-06,2.55e-05,ɡ ɑ t͡ʃ ɑ d͡ʒ ɑ χ s ɑ n
+qaçmaq,qaçacaq,V;3;SG;FUT,2.6e-05,2.55e-05,ɡ ɑ t͡ʃ ɑ d͡ʒ ɑ χ
+qaçmaq,qaçırlar,V;3;PL;PRS;PROG,6.5e-05,2.55e-05,ɡ ɑ t͡ʃ ɯ r l ɑ r
+qaçmaq,qaçacaqlar,V;3;PL;FUT,4e-06,2.55e-05,ɡ ɑ t͡ʃ ɑ d͡ʒ ɑ χ l ɑ r
+qaçmaq,qaçdılar,V;3;PL;PST,2.6e-05,2.55e-05,ɡ ɑ t͡ʃ d ɯ l ɑ r
+qaçmaq,qaçdı,V;3;SG;PST,0.000108,2.55e-05,ɡ ɑ t͡ʃ d ɯ
+qaçmaq,qaçdım,V;1;SG;PST,2.1e-05,2.55e-05,ɡ ɑ t͡ʃ d ɯ m
+qaçmaq,qaçdın,V;2;SG;PST,2e-06,2.55e-05,ɡ ɑ t͡ʃ d ɯ n
+qaçmaq,qaçacağıq,V;1;PL;FUT,2e-06,2.55e-05,ɡ ɑ t͡ʃ ɑ d͡ʒ ɑ ɣ ɯ χ
+qaçmaq,qaçdıq,V;1;PL;PST,6e-06,2.55e-05,ɡ ɑ t͡ʃ d ɯ χ
+qaçmaq,qaçırıq,V;1;PL;PRS;PROG,6e-06,2.55e-05,ɡ ɑ t͡ʃ ɯ r ɯ χ
+qaçmaq,qaçır,V;3;SG;PRS;PROG,0.000167,2.55e-05,ɡ ɑ t͡ʃ ɯ r
+qaçmaq,qaçdınız,V;2;PL;PST,0.0,2.55e-05,ɡ ɑ t͡ʃ d ɯ n ɯ z
+qaçmaq,qaçırsınız,V;2;PL;PRS;PROG,2e-06,2.55e-05,ɡ ɑ t͡ʃ ɯ r s ɯ n ɯ z
+qaçmaq,qaçacaqsınız,V;2;PL;FUT,1e-06,2.55e-05,ɡ ɑ t͡ʃ ɑ d͡ʒ ɑ χ s ɯ n ɯ z
+rəngləmək,rənglədi,V;3;SG;PST,1e-06,5e-07,r æ ŋ ɡ l æ d i
+rəngləmək,rəngləyəcək,V;3;SG;FUT,0.0,5e-07,r æ ŋ ɡ l æ j æ d͡ʒ æ c
+rəngləmək,rəngləyəcəyəm,V;1;SG;FUT,0.0,5e-07,r æ ŋ ɡ l æ j æ d͡ʒ æ j æ m
+rəngləmək,rəngləyirəm,V;1;SG;PRS;PROG,0.0,5e-07,r æ ŋ ɡ l æ j i r æ m
+rəngləmək,rəngləyirsən,V;2;SG;PRS;PROG,0.0,5e-07,r æ ŋ ɡ l æ j i r s æ n
+rəngləmək,rəngləyəcəksən,V;2;SG;FUT,0.0,5e-07,r æ ŋ ɡ l æ j æ d͡ʒ æ c s æ n
+rəngləmək,rəngləyirlər,V;3;PL;PRS;PROG,1e-06,5e-07,r æ ŋ ɡ l æ j i r l æ r
+rəngləmək,rəngləyəcəklər,V;3;PL;FUT,0.0,5e-07,r æ ŋ ɡ l æ j æ d͡ʒ æ c l æ r
+rəngləmək,rənglədilər,V;3;PL;PST,0.0,5e-07,r æ ŋ ɡ l æ d i l æ r
+rəngləmək,rəngləyəcəyik,V;1;PL;FUT,0.0,5e-07,r æ ŋ ɡ l æ j æ d͡ʒ æ j i c
+rəngləmək,rənglədik,V;1;PL;PST,0.0,5e-07,r æ ŋ ɡ l æ d i c
+rəngləmək,rəngləyirik,V;1;PL;PRS;PROG,0.0,5e-07,r æ ŋ ɡ l æ j i r i c
+rəngləmək,rənglədim,V;1;SG;PST,2e-06,5e-07,r æ ŋ ɡ l æ d i m
+rəngləmək,rənglədin,V;2;SG;PST,0.0,5e-07,r æ ŋ ɡ l æ d i n
+rəngləmək,rəngləyir,V;3;SG;PRS;PROG,5e-06,5e-07,r æ ŋ ɡ l æ j i r
+rəngləmək,rənglədiniz,V;2;PL;PST,0.0,5e-07,r æ ŋ ɡ l æ d i n i z
+rəngləmək,rəngləyirsiniz,V;2;PL;PRS;PROG,0.0,5e-07,r æ ŋ ɡ l æ j i r s i n i z
+rəngləmək,rəngləyəcəksiniz,V;2;PL;FUT,0.0,5e-07,r æ ŋ ɡ l æ j æ d͡ʒ æ c s i n i z

@@ -1,0 +1,1056 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+ada,adakan,V;ACT;APPL,0.00017,0.0014348888888888,a d a k a n
+ada,adakan,V;ACT;CAUS,0.00017,0.0014348888888888,a d a k a n
+ada,adakan,V;ACT;TR,0.00017,0.0014348888888888,a d a k a n
+ada,berada,V;ACT,0.008363,0.0014348888888888,b ə r a d a
+ada,beradanya,V;ACT;DEF,1e-06,0.0014348888888888,b ə r a d a ɲ a
+ada,beradanya,V;ACT;PSS3S;DEF,1e-06,0.0014348888888888,b ə r a d a ɲ a
+ada,diadakan,V;PASS;APPL,0.002786,0.0014348888888888,d i a d a k a n
+ada,diadakan,V;PASS;CAUS,0.002786,0.0014348888888888,d i a d a k a n
+ada,diadakan,V;PASS;TR,0.002786,0.0014348888888888,d i a d a k a n
+ada,diadakanlah,V;PASS;FOC,7e-06,0.0014348888888888,d i a d a k a n l a h
+ada,diadakannya,V;PASS;DEF,0.000251,0.0014348888888888,d i a d a k a n ɲ a
+ada,diadakannya,V;PASS;PSS3S;DEF,0.000251,0.0014348888888888,d i a d a k a n ɲ a
+ada,mengada,V;ACT,4e-06,0.0014348888888888,m ə ŋ a d a
+ada,mengadakan,V;ACT;APPL,0.00269,0.0014348888888888,m ə ŋ a d a k a n
+ada,mengadakan,V;ACT;CAUS,0.00269,0.0014348888888888,m ə ŋ a d a k a n
+ada,mengadakan,V;ACT;TR,0.00269,0.0014348888888888,m ə ŋ a d a k a n
+ada,mengadakannya,V;ACT;DEF,6e-06,0.0014348888888888,m ə ŋ a d a k a n ɲ a
+ada,mengadakannya,V;ACT;PSS3S;DEF,6e-06,0.0014348888888888,m ə ŋ a d a k a n ɲ a
+aju,ajukan,V;ACT;APPL,0.00011,0.0005972307692307,a d͡ʒ ʊ k a n
+aju,ajukan,V;ACT;CAUS,0.00011,0.0005972307692307,a d͡ʒ ʊ k a n
+aju,ajukan,V;ACT;TR,0.00011,0.0005972307692307,a d͡ʒ ʊ k a n
+aju,diajukan,V;PASS;APPL,0.000942,0.0005972307692307,d i a d͡ʒ ʊ k a n
+aju,diajukan,V;PASS;CAUS,0.000942,0.0005972307692307,d i a d͡ʒ ʊ k a n
+aju,diajukan,V;PASS;TR,0.000942,0.0005972307692307,d i a d͡ʒ ʊ k a n
+aju,diajukannya,V;PASS;DEF,8e-06,0.0005972307692307,d i a d͡ʒ u k a n ɲ a
+aju,diajukannya,V;PASS;PSS3S;DEF,8e-06,0.0005972307692307,d i a d͡ʒ u k a n ɲ a
+aju,mengajukan,V;ACT;APPL,0.001526,0.0005972307692307,m ə ŋ a d͡ʒ ʊ k a n
+aju,mengajukan,V;ACT;CAUS,0.001526,0.0005972307692307,m ə ŋ a d͡ʒ ʊ k a n
+aju,mengajukan,V;ACT;TR,0.001526,0.0005972307692307,m ə ŋ a d͡ʒ ʊ k a n
+aju,mengajukannya,V;ACT;DEF,7e-06,0.0005972307692307,m ə ŋ a d͡ʒ u k a n ɲ a
+aju,mengajukannya,V;ACT;PSS3S;DEF,7e-06,0.0005972307692307,m ə ŋ a d͡ʒ u k a n ɲ a
+alami,dialaminya,V;PASS;DEF,6.9e-05,0.001604,d i a l a m i ɲ a
+alami,dialaminya,V;PASS;PSS3S;DEF,6.9e-05,0.001604,d i a l a m i ɲ a
+alami,mengalami,V;ACT,0.007702,0.001604,m ə ŋ a l a m i
+alami,mengalaminya,V;ACT;DEF,9e-05,0.001604,m ə ŋ a l a m i ɲ a
+alami,mengalaminya,V;ACT;PSS3S;DEF,9e-05,0.001604,m ə ŋ a l a m i ɲ a
+anggap,beranggapan,V;ACT,0.000292,0.0007192857142857,b ə r a ŋ ɡ a p a n
+anggap,dianggap,V;PASS,0.003369,0.0007192857142857,d i a ŋ ɡ a p̚
+anggap,dianggapnya,V;PASS;DEF,4.8e-05,0.0007192857142857,d i a ŋ ɡ a p ɲ a
+anggap,dianggapnya,V;PASS;PSS3S;DEF,4.8e-05,0.0007192857142857,d i a ŋ ɡ a p ɲ a
+anggap,menganggap,V;ACT,0.001098,0.0007192857142857,m ə ŋ a ŋ ɡ a p̚
+anggap,menganggapnya,V;ACT;DEF,9e-05,0.0007192857142857,m ə ŋ a ŋ ɡ a p ɲ a
+anggap,menganggapnya,V;ACT;PSS3S;DEF,9e-05,0.0007192857142857,m ə ŋ a ŋ ɡ a p ɲ a
+asa,asai,V;ACT;ITER,1e-06,0.000904,a s a i̯
+asa,terasa,V;PASS,0.001807,0.000904,t ə r a s a
+asal,asali,V;ACT;ITER,3e-06,0.0010214,a s a l i
+asal,asalkan,V;ACT;APPL,0.000221,0.0010214,a s a l k a n
+asal,asalkan,V;ACT;CAUS,0.000221,0.0010214,a s a l k a n
+asal,asalkan,V;ACT;TR,0.000221,0.0010214,a s a l k a n
+asal,berasal,V;ACT,0.004441,0.0010214,b ə r a s a l
+atur,beraturan,V;ACT,4.8e-05,0.0006008333333333,b ə r a t ʊ r a n
+atur,diatur,V;PASS,0.001486,0.0006008333333333,d i a t ʊ r
+atur,diaturlah,V;PASS;FOC,1e-06,0.0006008333333333,d i a t ʊ r l a h
+atur,mengatur,V;ACT,0.001974,0.0006008333333333,m ə ŋ a t ʊ r
+atur,mengaturnya,V;ACT;DEF,4.8e-05,0.0006008333333333,m ə ŋ a t ʊ r ɲ a
+atur,mengaturnya,V;ACT;PSS3S;DEF,4.8e-05,0.0006008333333333,m ə ŋ a t ʊ r ɲ a
+bahas,dibahas,V;PASS,0.001195,0.000903,d i b a h a s
+bahas,membahas,V;ACT,0.002323,0.000903,m ə m b a h a s
+bahas,membahasnya,V;ACT;DEF,4.7e-05,0.000903,m ə m b a h a s ɲ a
+bahas,membahasnya,V;ACT;PSS3S;DEF,4.7e-05,0.000903,m ə m b a h a s ɲ a
+banding,bandingkan,V;ACT;APPL,0.000105,0.0006577826086956,b a n d ɪ ŋ k a n
+banding,bandingkan,V;ACT;CAUS,0.000105,0.0006577826086956,b a n d ɪ ŋ k a n
+banding,bandingkan,V;ACT;TR,0.000105,0.0006577826086956,b a n d ɪ ŋ k a n
+banding,berbanding,V;ACT,0.000154,0.0006577826086956,b ə r b a n d ɪ ŋ
+banding,dibanding,V;PASS,0.001712,0.0006577826086956,d i b a n d ɪ ŋ
+banding,dibandingkan,V;PASS;APPL,0.00393,0.0006577826086956,d i b a n d ɪ ŋ k a n
+banding,dibandingkan,V;PASS;CAUS,0.00393,0.0006577826086956,d i b a n d ɪ ŋ k a n
+banding,dibandingkan,V;PASS;TR,0.00393,0.0006577826086956,d i b a n d ɪ ŋ k a n
+banding,diperbandingkan,V;PASS;APPL,1e-05,0.0006577826086956,d i p ə r b a n d ɪ ŋ k a n
+banding,diperbandingkan,V;PASS;CAUS,1e-05,0.0006577826086956,d i p ə r b a n d ɪ ŋ k a n
+banding,diperbandingkan,V;PASS;TR,1e-05,0.0006577826086956,d i p ə r b a n d ɪ ŋ k a n
+banding,membanding,V;ACT,2e-06,0.0006577826086956,m ə m b a n d ɪ ŋ
+banding,membandingkan,V;ACT;APPL,0.00036,0.0006577826086956,m ə m b a n d ɪ ŋ k a n
+banding,membandingkan,V;ACT;CAUS,0.00036,0.0006577826086956,m ə m b a n d ɪ ŋ k a n
+banding,membandingkan,V;ACT;TR,0.00036,0.0006577826086956,m ə m b a n d ɪ ŋ k a n
+banding,membandingkannya,V;ACT;DEF,2e-05,0.0006577826086956,m ə m b a n d ɪ ŋ k a n ɲ a
+banding,membandingkannya,V;ACT;PSS3S;DEF,2e-05,0.0006577826086956,m ə m b a n d ɪ ŋ k a n ɲ a
+banding,memperbandingkan,V;ACT;APPL,2e-06,0.0006577826086956,m ə m p ə r b a n d ɪ ŋ k a n
+banding,memperbandingkan,V;ACT;CAUS,2e-06,0.0006577826086956,m ə m p ə r b a n d ɪ ŋ k a n
+banding,memperbandingkan,V;ACT;TR,2e-06,0.0006577826086956,m ə m p ə r b a n d ɪ ŋ k a n
+banding,terbandingkan,V;PASS;APPL,0.0,0.0006577826086956,t ə r b a n d ɪ ŋ k a n
+banding,terbandingkan,V;PASS;CAUS,0.0,0.0006577826086956,t ə r b a n d ɪ ŋ k a n
+banding,terbandingkan,V;PASS;TR,0.0,0.0006577826086956,t ə r b a n d ɪ ŋ k a n
+basis,berbasis,V;ACT,0.003121,0.00083125,b ə r b a s ɪ s
+basis,berbasiskan,V;ACT;APPL,6.8e-05,0.00083125,b ə r b a s ɪ s k a n
+basis,berbasiskan,V;ACT;CAUS,6.8e-05,0.00083125,b ə r b a s ɪ s k a n
+basis,berbasiskan,V;ACT;TR,6.8e-05,0.00083125,b ə r b a s ɪ s k a n
+bentuk,berbentuk,V;ACT,0.001201,0.0007148749999999,b ə r b ə n t ʊ k̚
+bentuk,membentuk,V;ACT,0.002574,0.0007148749999999,m ə m b ə n t ʊ k̚
+bentuk,membentuknya,V;ACT;DEF,1.2e-05,0.0007148749999999,m ə m b ə n t ʊ k ɲ a
+bentuk,membentuknya,V;ACT;PSS3S;DEF,1.2e-05,0.0007148749999999,m ə m b ə n t ʊ k ɲ a
+bentuk,terbentuk,V;PASS,0.001114,0.0007148749999999,t ə r b ə n t ʊ k̚
+bentuk,terbentuklah,V;PASS;FOC,3.8e-05,0.0007148749999999,t ə r b ə n t ʊ k l a h
+bentuk,terbentuknya,V;PASS;DEF,0.000384,0.0007148749999999,t ə r b ə n t ʊ k ɲ a
+bentuk,terbentuknya,V;PASS;PSS3S;DEF,0.000384,0.0007148749999999,t ə r b ə n t ʊ k ɲ a
+beri,berikan,V;ACT;APPL,0.001036,0.0033225185185185,b ə r i k a n
+beri,berikan,V;ACT;CAUS,0.001036,0.0033225185185185,b ə r i k a n
+beri,berikan,V;ACT;TR,0.001036,0.0033225185185185,b ə r i k a n
+beri,beriku,V;ACT;1,2e-06,0.0033225185185185,b ə r i k u
+beri,berikunya,V;ACT;SG;1;DEF,0.0,0.0033225185185185,b ə r i k u ɲ a
+beri,berikunya,V;ACT;SG;1;PSS3S;DEF,0.0,0.0033225185185185,b ə r i k u ɲ a
+beri,berilah,V;ACT;FOC,5.2e-05,0.0033225185185185,b ə r i l a h
+beri,diberikan,V;PASS;APPL,0.006873,0.0033225185185185,d i b ə r i k a n
+beri,diberikan,V;PASS;CAUS,0.006873,0.0033225185185185,d i b ə r i k a n
+beri,diberikan,V;PASS;TR,0.006873,0.0033225185185185,d i b ə r i k a n
+beri,diberikanlah,V;PASS;FOC,0.0,0.0033225185185185,d i b ə r i k a n l a h
+beri,diberikannya,V;PASS;DEF,6.1e-05,0.0033225185185185,d i b ə r i k a n ɲ a
+beri,diberikannya,V;PASS;PSS3S;DEF,6.1e-05,0.0033225185185185,d i b ə r i k a n ɲ a
+beri,diberilah,V;PASS;FOC,2e-06,0.0033225185185185,d i b ə r i l a h
+beri,diberinya,V;PASS;DEF,6e-06,0.0033225185185185,d i b ə r i ɲ a
+beri,diberinya,V;PASS;PSS3S;DEF,6e-06,0.0033225185185185,d i b ə r i ɲ a
+beri,memberi,V;ACT,0.004482,0.0033225185185185,m ə m b ə r i
+beri,memberikan,V;ACT;APPL,0.020269,0.0033225185185185,m ə m b ə r i k a n
+beri,memberikan,V;ACT;CAUS,0.020269,0.0033225185185185,m ə m b ə r i k a n
+beri,memberikan,V;ACT;TR,0.020269,0.0033225185185185,m ə m b ə r i k a n
+beri,memberikanmu,V;ACT;2,4e-06,0.0033225185185185,m ə m b ə r i k a n m u
+beri,memberikannya,V;ACT;DEF,8.8e-05,0.0033225185185185,m ə m b ə r i k a n ɲ a
+beri,memberikannya,V;ACT;PSS3S;DEF,8.8e-05,0.0033225185185185,m ə m b ə r i k a n ɲ a
+beri,memberiku,V;ACT;1,3.1e-05,0.0033225185185185,m ə m b ə r i k u
+beri,memberimu,V;ACT;2,2.5e-05,0.0033225185185185,m ə m b ə r i m u
+beri,memberinya,V;ACT;DEF,0.000133,0.0033225185185185,m ə m b ə r i ɲ a
+beri,memberinya,V;ACT;PSS3S;DEF,0.000133,0.0033225185185185,m ə m b ə r i ɲ a
+buat,berbuat,V;ACT,0.000837,0.0008229677419354,b ə r b u a t̚
+buat,berbuatlah,V;ACT;FOC,4e-06,0.0008229677419354,b ə r b u a t l a h
+buat,buatkan,V;ACT;APPL,3.2e-05,0.0008229677419354,b u a t k a n
+buat,buatkan,V;ACT;CAUS,3.2e-05,0.0008229677419354,b u a t k a n
+buat,buatkan,V;ACT;TR,3.2e-05,0.0008229677419354,b u a t k a n
+buat,buatku,V;ACT;1,1.3e-05,0.0008229677419354,b u a t k u
+buat,buatnya,V;ACT;DEF,1.8e-05,0.0008229677419354,b u a t ɲ a
+buat,buatnya,V;ACT;PSS3S;DEF,1.8e-05,0.0008229677419354,b u a t ɲ a
+buat,dibuat,V;PASS,0.003508,0.0008229677419354,d i b u a t̚
+buat,dibuatkan,V;PASS;APPL,0.000162,0.0008229677419354,d i b u a t k a n
+buat,dibuatkan,V;PASS;CAUS,0.000162,0.0008229677419354,d i b u a t k a n
+buat,dibuatkan,V;PASS;TR,0.000162,0.0008229677419354,d i b u a t k a n
+buat,dibuatkannya,V;PASS;DEF,1e-06,0.0008229677419354,d i b u a t k a n ɲ a
+buat,dibuatkannya,V;PASS;PSS3S;DEF,1e-06,0.0008229677419354,d i b u a t k a n ɲ a
+buat,dibuatlah,V;PASS;FOC,4.3e-05,0.0008229677419354,d i b u a t l a h
+buat,dibuatnya,V;PASS;DEF,0.000106,0.0008229677419354,d i b u a t ɲ a
+buat,dibuatnya,V;PASS;PSS3S;DEF,0.000106,0.0008229677419354,d i b u a t ɲ a
+buat,diperbuat,V;PASS,4.1e-05,0.0008229677419354,d i p ə r b u a t̚
+buat,diperbuatnya,V;PASS;DEF,6e-06,0.0008229677419354,d i p ə r b u a t ɲ a
+buat,diperbuatnya,V;PASS;PSS3S;DEF,6e-06,0.0008229677419354,d i p ə r b u a t ɲ a
+buat,membuat,V;ACT,0.017201,0.0008229677419354,m ə m b u a t̚
+buat,membuatkan,V;ACT;APPL,6.5e-05,0.0008229677419354,m ə m b u a t k a n
+buat,membuatkan,V;ACT;CAUS,6.5e-05,0.0008229677419354,m ə m b u a t k a n
+buat,membuatkan,V;ACT;TR,6.5e-05,0.0008229677419354,m ə m b u a t k a n
+buat,membuatkannya,V;ACT;DEF,2e-06,0.0008229677419354,m ə m b u a t k a ɲ ɲ a
+buat,membuatkannya,V;ACT;PSS3S;DEF,2e-06,0.0008229677419354,m ə m b u a t k a ɲ ɲ a
+buat,membuatku,V;ACT;1,0.00014,0.0008229677419354,m ə m b u a t k u
+buat,membuatmu,V;ACT;2,0.000136,0.0008229677419354,m ə m b u a t m u
+buat,membuatnya,V;ACT;DEF,0.000845,0.0008229677419354,m ə m b u a t ɲ a
+buat,membuatnya,V;ACT;PSS3S;DEF,0.000845,0.0008229677419354,m ə m b u a t ɲ a
+buat,terbuat,V;PASS,0.000856,0.0008229677419354,t ə r b u a t̚
+butuh,berkebutuhan,V;ACT,0.000129,0.0012778235294117,b ə r k ə b u t ʊ h a n
+butuh,butuhkan,V;ACT;APPL,0.000376,0.0012778235294117,b u t ʊ h k a n
+butuh,butuhkan,V;ACT;CAUS,0.000376,0.0012778235294117,b u t ʊ h k a n
+butuh,butuhkan,V;ACT;TR,0.000376,0.0012778235294117,b u t ʊ h k a n
+butuh,butuhnya,V;ACT;DEF,8e-06,0.0012778235294117,b u t ʊ h ɲ a
+butuh,butuhnya,V;ACT;PSS3S;DEF,8e-06,0.0012778235294117,b u t ʊ h ɲ a
+butuh,dibutuhkan,V;PASS;APPL,0.003039,0.0012778235294117,d i b u t ʊ h k a n
+butuh,dibutuhkan,V;PASS;CAUS,0.003039,0.0012778235294117,d i b u t ʊ h k a n
+butuh,dibutuhkan,V;PASS;TR,0.003039,0.0012778235294117,d i b u t ʊ h k a n
+butuh,dibutuhkannya,V;PASS;DEF,3.4e-05,0.0012778235294117,d i b u t ʊ h k a n ɲ a
+butuh,dibutuhkannya,V;PASS;PSS3S;DEF,3.4e-05,0.0012778235294117,d i b u t ʊ h k a n ɲ a
+butuh,membutuh,V;ACT,6e-06,0.0012778235294117,m ə m b u t ʊ h
+butuh,membutuhkan,V;ACT;APPL,0.003705,0.0012778235294117,m ə m b u t ʊ h k a n
+butuh,membutuhkan,V;ACT;CAUS,0.003705,0.0012778235294117,m ə m b u t ʊ h k a n
+butuh,membutuhkan,V;ACT;TR,0.003705,0.0012778235294117,m ə m b u t ʊ h k a n
+butuh,membutuhkannya,V;ACT;DEF,7.2e-05,0.0012778235294117,m ə m b u t ʊ h k a n ɲ a
+butuh,membutuhkannya,V;ACT;PSS3S;DEF,7.2e-05,0.0012778235294117,m ə m b u t ʊ h k a n ɲ a
+capai,dicapailah,V;PASS;FOC,2e-06,0.0010654,d i t͡ʃ a p a i l a h
+capai,dicapainya,V;PASS;DEF,2e-05,0.0010654,d i t͡ʃ a p a i ɲ a
+capai,dicapainya,V;PASS;PSS3S;DEF,2e-05,0.0010654,d i t͡ʃ a p a i ɲ a
+capai,mencapai,V;ACT,0.009084,0.0010654,m ə n t͡ʃ a p a i̯
+capai,mencapainya,V;ACT;DEF,6.5e-05,0.0010654,m ə n t͡ʃ a p a i ɲ a
+capai,mencapainya,V;ACT;PSS3S;DEF,6.5e-05,0.0010654,m ə n t͡ʃ a p a i ɲ a
+capai,tercapai,V;PASS,0.000836,0.0010654,t ə r t͡ʃ a p a i̯
+capai,tercapailah,V;PASS;FOC,6e-06,0.0010654,t ə r t͡ʃ a p a i l a h
+capai,tercapainya,V;PASS;DEF,0.000278,0.0010654,t ə r t͡ʃ a p a i ɲ a
+capai,tercapainya,V;PASS;PSS3S;DEF,0.000278,0.0010654,t ə r t͡ʃ a p a i ɲ a
+dampak,berdampak,V;ACT,0.001452,0.0008154999999999,b ə r d a m p a k̚
+dampak,terdampak,V;PASS,0.000179,0.0008154999999999,t ə r d a m p a k̚
+dapat,berpendapat,V;ACT,0.000823,0.0015563142857142,b ə r p ə n d a p a t̚
+dapat,berpendapatan,V;ACT,3.9e-05,0.0015563142857142,b ə r p ə n d a p a t a n
+dapat,dapatkan,V;ACT;APPL,0.000873,0.0015563142857142,d a p a t k a n
+dapat,dapatkan,V;ACT;CAUS,0.000873,0.0015563142857142,d a p a t k a n
+dapat,dapatkan,V;ACT;TR,0.000873,0.0015563142857142,d a p a t k a n
+dapat,dapatnya,V;ACT;DEF,1.3e-05,0.0015563142857142,d a p a t ɲ a
+dapat,dapatnya,V;ACT;PSS3S;DEF,1.3e-05,0.0015563142857142,d a p a t ɲ a
+dapat,didapat,V;PASS,0.001156,0.0015563142857142,d i d a p a t̚
+dapat,didapatinya,V;PASS;DEF,9e-06,0.0015563142857142,d i d a p a t i ɲ a
+dapat,didapatinya,V;PASS;PSS3S;DEF,9e-06,0.0015563142857142,d i d a p a t i ɲ a
+dapat,didapatkan,V;PASS;APPL,0.001176,0.0015563142857142,d i d a p a t k a n
+dapat,didapatkan,V;PASS;CAUS,0.001176,0.0015563142857142,d i d a p a t k a n
+dapat,didapatkan,V;PASS;TR,0.001176,0.0015563142857142,d i d a p a t k a n
+dapat,didapatkanlah,V;PASS;FOC,3e-06,0.0015563142857142,d i d a p a t k a n l a h
+dapat,didapatkannya,V;PASS;DEF,3.8e-05,0.0015563142857142,d i d a p a t k a n ɲ a
+dapat,didapatkannya,V;PASS;PSS3S;DEF,3.8e-05,0.0015563142857142,d i d a p a t k a n ɲ a
+dapat,didapatlah,V;PASS;FOC,3e-06,0.0015563142857142,d i d a p a t l a h
+dapat,didapatnya,V;PASS;DEF,4.4e-05,0.0015563142857142,d i d a p a t ɲ a
+dapat,didapatnya,V;PASS;PSS3S;DEF,4.4e-05,0.0015563142857142,d i d a p a t ɲ a
+dapat,mendapat,V;ACT,0.006046,0.0015563142857142,m ə n d a p a t̚
+dapat,mendapati,V;ACT;ITER,0.000246,0.0015563142857142,m ə n d a p a t i
+dapat,mendapatinya,V;ACT;DEF,7e-06,0.0015563142857142,m ə n d a p a t i ɲ a
+dapat,mendapatinya,V;ACT;PSS3S;DEF,7e-06,0.0015563142857142,m ə n d a p a t i ɲ a
+dapat,mendapatkan,V;ACT;APPL,0.010675,0.0015563142857142,m ə n d a p a t k a n
+dapat,mendapatkan,V;ACT;CAUS,0.010675,0.0015563142857142,m ə n d a p a t k a n
+dapat,mendapatkan,V;ACT;TR,0.010675,0.0015563142857142,m ə n d a p a t k a n
+dapat,mendapatkannya,V;ACT;DEF,0.000185,0.0015563142857142,m ə n d a p a t k a n ɲ a
+dapat,mendapatkannya,V;ACT;PSS3S;DEF,0.000185,0.0015563142857142,m ə n d a p a t k a n ɲ a
+dapat,terdapat,V;PASS,0.007315,0.0015563142857142,t ə r d a p a t̚
+dapat,terdapatkan,V;PASS;APPL,0.0,0.0015563142857142,t ə r d a p a t k a n
+dapat,terdapatkan,V;PASS;CAUS,0.0,0.0015563142857142,t ə r d a p a t k a n
+dapat,terdapatkan,V;PASS;TR,0.0,0.0015563142857142,t ə r d a p a t k a n
+dapat,terdapatlah,V;PASS;FOC,4e-06,0.0015563142857142,t ə r d a p a t l a h
+dapat,terdapatnya,V;PASS;DEF,3.6e-05,0.0015563142857142,t ə r d a p a t ɲ a
+dapat,terdapatnya,V;PASS;PSS3S;DEF,3.6e-05,0.0015563142857142,t ə r d a p a t ɲ a
+dasar,berdasar,V;ACT,0.000351,0.0009191578947368,b ə r d a s a r
+dasar,berdasaran,V;ACT,2e-06,0.0009191578947368,b ə r d a s a r a n
+dasar,berdasarkan,V;ACT;APPL,0.005391,0.0009191578947368,b ə r d a s a r k a n
+dasar,berdasarkan,V;ACT;CAUS,0.005391,0.0009191578947368,b ə r d a s a r k a n
+dasar,berdasarkan,V;ACT;TR,0.005391,0.0009191578947368,b ə r d a s a r k a n
+dasar,dasarkan,V;ACT;APPL,1.7e-05,0.0009191578947368,d a s a r k a n
+dasar,dasarkan,V;ACT;CAUS,1.7e-05,0.0009191578947368,d a s a r k a n
+dasar,dasarkan,V;ACT;TR,1.7e-05,0.0009191578947368,d a s a r k a n
+dasar,mendasar,V;ACT,0.000422,0.0009191578947368,m ə n d a s a r
+dasar,mendasari,V;ACT;ITER,0.000164,0.0009191578947368,m ə n d a s a r i
+dasar,mendasarinya,V;ACT;DEF,2.1e-05,0.0009191578947368,m ə n d a s a r i ɲ a
+dasar,mendasarinya,V;ACT;PSS3S;DEF,2.1e-05,0.0009191578947368,m ə n d a s a r i ɲ a
+dasar,mendasarkan,V;ACT;APPL,8.1e-05,0.0009191578947368,m ə n d a s a r k a n
+dasar,mendasarkan,V;ACT;CAUS,8.1e-05,0.0009191578947368,m ə n d a s a r k a n
+dasar,mendasarkan,V;ACT;TR,8.1e-05,0.0009191578947368,m ə n d a s a r k a n
+dasar,mendasarkannya,V;ACT;DEF,0.0,0.0009191578947368,m ə n d a s a r k a n ɲ a
+dasar,mendasarkannya,V;ACT;PSS3S;DEF,0.0,0.0009191578947368,m ə n d a s a r k a n ɲ a
+dasar,mendasarnya,V;ACT;DEF,8e-06,0.0009191578947368,m ə n d a s a r ɲ a
+dasar,mendasarnya,V;ACT;PSS3S;DEF,8e-06,0.0009191578947368,m ə n d a s a r ɲ a
+diri,berdiri,V;ACT,0.001902,0.0009373636363636,b ə r d i r i
+diri,berdirilah,V;ACT;FOC,3.3e-05,0.0009373636363636,b ə r d i r i l a h
+diri,berdirinya,V;ACT;DEF,0.000417,0.0009373636363636,b ə r d i r i ɲ a
+diri,berdirinya,V;ACT;PSS3S;DEF,0.000417,0.0009373636363636,b ə r d i r i ɲ a
+diri,berpendirian,V;ACT,4e-06,0.0009373636363636,b ə r p ə n d i r i a n
+diri,mendirikan,V;ACT;APPL,0.000857,0.0009373636363636,m ə n d i r i k a n
+diri,mendirikan,V;ACT;CAUS,0.000857,0.0009373636363636,m ə n d i r i k a n
+diri,mendirikan,V;ACT;TR,0.000857,0.0009373636363636,m ə n d i r i k a n
+diri,mendirikannya,V;ACT;DEF,3e-06,0.0009373636363636,m ə n d i r i k a n ɲ a
+diri,mendirikannya,V;ACT;PSS3S;DEF,3e-06,0.0009373636363636,m ə n d i r i k a n ɲ a
+diri,terdiri,V;PASS,0.004961,0.0009373636363636,t ə r d i r i
+dukung,didukung,V;PASS,0.001582,0.0010465714285714,d i d u k ʊ ŋ
+dukung,didukungnya,V;PASS;DEF,7e-06,0.0010465714285714,d i d u k ʊ ŋ ɲ a
+dukung,didukungnya,V;PASS;PSS3S;DEF,7e-06,0.0010465714285714,d i d u k ʊ ŋ ɲ a
+dukung,mendukung,V;ACT,0.005613,0.0010465714285714,m ə n d u k ʊ ŋ
+dukung,mendukungnya,V;ACT;DEF,5.3e-05,0.0010465714285714,m ə n d u k ʊ ŋ ɲ a
+dukung,mendukungnya,V;ACT;PSS3S;DEF,5.3e-05,0.0010465714285714,m ə n d u k ʊ ŋ ɲ a
+dukung,terdukung,V;PASS,1.1e-05,0.0010465714285714,t ə r d u k ʊ ŋ
+guna,berguna,V;ACT,0.001151,0.0035444705882352,b ə r ɡ u n a
+guna,bergunanya,V;ACT;DEF,2e-06,0.0035444705882352,b ə r ɡ u n a ɲ a
+guna,bergunanya,V;ACT;PSS3S;DEF,2e-06,0.0035444705882352,b ə r ɡ u n a ɲ a
+guna,gunakan,V;ACT;APPL,0.001326,0.0035444705882352,ɡ u n a k a n
+guna,gunakan,V;ACT;CAUS,0.001326,0.0035444705882352,ɡ u n a k a n
+guna,gunakan,V;ACT;TR,0.001326,0.0035444705882352,ɡ u n a k a n
+guna,mempergunakan,V;ACT;APPL,0.000136,0.0035444705882352,m ə m p ə r ɡ u n a k a n
+guna,mempergunakan,V;ACT;CAUS,0.000136,0.0035444705882352,m ə m p ə r ɡ u n a k a n
+guna,mempergunakan,V;ACT;TR,0.000136,0.0035444705882352,m ə m p ə r ɡ u n a k a n
+guna,mempergunakannya,V;ACT;DEF,5e-06,0.0035444705882352,m ə m p ə r ɡ u n a k a n ɲ a
+guna,mempergunakannya,V;ACT;PSS3S;DEF,5e-06,0.0035444705882352,m ə m p ə r ɡ u n a k a n ɲ a
+guna,mengguna,V;ACT,0.0,0.0035444705882352,m ə ŋ ɡ u n a
+guna,menggunakan,V;ACT;APPL,0.018011,0.0035444705882352,m ə ŋ ɡ u n a k a n
+guna,menggunakan,V;ACT;CAUS,0.018011,0.0035444705882352,m ə ŋ ɡ u n a k a n
+guna,menggunakan,V;ACT;TR,0.018011,0.0035444705882352,m ə ŋ ɡ u n a k a n
+guna,menggunakannya,V;ACT;DEF,0.000336,0.0035444705882352,m ə ŋ ɡ u n a k a n ɲ a
+guna,menggunakannya,V;ACT;PSS3S;DEF,0.000336,0.0035444705882352,m ə ŋ ɡ u n a k a n ɲ a
+harap,berharap,V;ACT,0.006026,0.0018958235294117,b ə r h a r a p̚
+harap,berpengharapan,V;ACT,3e-06,0.0018958235294117,b ə r p ə ŋ h a r a p a n
+harap,diharap,V;PASS,0.000102,0.0018958235294117,d i h a r a p̚
+harap,diharapkan,V;PASS;APPL,0.006915,0.0018958235294117,d i h a r a p k a n
+harap,diharapkan,V;PASS;CAUS,0.006915,0.0018958235294117,d i h a r a p k a n
+harap,diharapkan,V;PASS;TR,0.006915,0.0018958235294117,d i h a r a p k a n
+harap,diharapkannya,V;PASS;DEF,1.5e-05,0.0018958235294117,d i h a r a p k a ɲ ɲ a
+harap,diharapkannya,V;PASS;PSS3S;DEF,1.5e-05,0.0018958235294117,d i h a r a p k a ɲ ɲ a
+harap,harapkan,V;ACT;APPL,0.000581,0.0018958235294117,h a r a p k a n
+harap,harapkan,V;ACT;CAUS,0.000581,0.0018958235294117,h a r a p k a n
+harap,harapkan,V;ACT;TR,0.000581,0.0018958235294117,h a r a p k a n
+harap,mengharap,V;ACT,0.000103,0.0018958235294117,m ə ŋ h a r a p̚
+harap,mengharapkan,V;ACT;APPL,0.001157,0.0018958235294117,m ə ŋ h a r a p k a n
+harap,mengharapkan,V;ACT;CAUS,0.001157,0.0018958235294117,m ə ŋ h a r a p k a n
+harap,mengharapkan,V;ACT;TR,0.001157,0.0018958235294117,m ə ŋ h a r a p k a n
+harap,mengharapkannya,V;ACT;DEF,3e-06,0.0018958235294117,m ə ŋ h a r a p k a n ɲ a
+harap,mengharapkannya,V;ACT;PSS3S;DEF,3e-06,0.0018958235294117,m ə ŋ h a r a p k a n ɲ a
+hasil,berhasilkah,V;ACT;FOC,0.0,0.0012212727272727,b ə r h a s ɪ l k a h
+hasil,berpenghasilan,V;ACT,0.000124,0.0012212727272727,b ə r p ə ŋ h a s ɪ l a n
+hasil,hasilkan,V;ACT;APPL,6.9e-05,0.0012212727272727,h a s ɪ l k a n
+hasil,hasilkan,V;ACT;CAUS,6.9e-05,0.0012212727272727,h a s ɪ l k a n
+hasil,hasilkan,V;ACT;TR,6.9e-05,0.0012212727272727,h a s ɪ l k a n
+hasil,menghasil,V;ACT,3e-06,0.0012212727272727,m ə ŋ h a s ɪ l
+hasil,menghasilkan,V;ACT;APPL,0.004364,0.0012212727272727,m ə ŋ h a s ɪ l k a n
+hasil,menghasilkan,V;ACT;CAUS,0.004364,0.0012212727272727,m ə ŋ h a s ɪ l k a n
+hasil,menghasilkan,V;ACT;TR,0.004364,0.0012212727272727,m ə ŋ h a s ɪ l k a n
+hasil,menghasilkannya,V;ACT;DEF,4e-06,0.0012212727272727,m ə ŋ h a s ɪ l k a n ɲ a
+hasil,menghasilkannya,V;ACT;PSS3S;DEF,4e-06,0.0012212727272727,m ə ŋ h a s ɪ l k a n ɲ a
+ikut,berikut,V;ACT;ITER,0.002436,0.0005680526315789,b ə r i k ʊ t̚
+ikut,berikutan,V;ACT,0.0,0.0005680526315789,b ə r i k ʊ t a n
+ikut,diikut,V;PASS;ITER,1.6e-05,0.0005680526315789,d i i k ʊ t̚
+ikut,diikutinya,V;PASS;DEF,3.7e-05,0.0005680526315789,d i i k u t i ɲ a
+ikut,diikutinya,V;PASS;PSS3S;DEF,3.7e-05,0.0005680526315789,d i i k u t i ɲ a
+ikut,diikutkan,V;PASS;APPL,7.5e-05,0.0005680526315789,d i i k ʊ t k a n
+ikut,diikutkan,V;PASS;CAUS,7.5e-05,0.0005680526315789,d i i k ʊ t k a n
+ikut,diikutkan,V;PASS;TR,7.5e-05,0.0005680526315789,d i i k ʊ t k a n
+ikut,ikutnya,V;ACT;DEF,2e-06,0.0005680526315789,i k ʊ t ɲ a
+ikut,ikutnya,V;ACT;PSS3S;DEF,2e-06,0.0005680526315789,i k ʊ t ɲ a
+ikut,mengikut,V;ACT;ITER,2.9e-05,0.0005680526315789,m ə ŋ i k ʊ t̚
+ikut,mengikuti,V;ACT;ITER,0.007668,0.0005680526315789,m ə ŋ i k u t i
+ikut,mengikutimu,V;ACT;2,2e-06,0.0005680526315789,m ə ŋ i k u t i m u
+ikut,mengikutinya,V;ACT;DEF,0.000124,0.0005680526315789,m ə ŋ i k u t i ɲ a
+ikut,mengikutinya,V;ACT;PSS3S;DEF,0.000124,0.0005680526315789,m ə ŋ i k u t i ɲ a
+ikut,mengikutkan,V;ACT;APPL,3e-05,0.0005680526315789,m ə ŋ i k ʊ t k a n
+ikut,mengikutkan,V;ACT;CAUS,3e-05,0.0005680526315789,m ə ŋ i k ʊ t k a n
+ikut,mengikutkan,V;ACT;TR,3e-05,0.0005680526315789,m ə ŋ i k ʊ t k a n
+ikut,terikut,V;PASS;ITER,1e-06,0.0005680526315789,t ə r i k ʊ t̚
+interaksi,berinteraksi,V;ACT;ITER,0.00057,0.00057,b ə r ɪ n t ə r a k s i
+jadi,dijadikan,V;PASS;APPL,0.002999,0.0040168421052631,d i d͡ʒ a d i k a n
+jadi,dijadikan,V;PASS;CAUS,0.002999,0.0040168421052631,d i d͡ʒ a d i k a n
+jadi,dijadikan,V;PASS;TR,0.002999,0.0040168421052631,d i d͡ʒ a d i k a n
+jadi,dijadikanlah,V;PASS;FOC,0.0,0.0040168421052631,d i d͡ʒ a d i k a n l a h
+jadi,dijadikannya,V;PASS;DEF,1.4e-05,0.0040168421052631,d i d͡ʒ a d i k a n ɲ a
+jadi,dijadikannya,V;PASS;PSS3S;DEF,1.4e-05,0.0040168421052631,d i d͡ʒ a d i k a n ɲ a
+jadi,jadikan,V;ACT;APPL,0.000446,0.0040168421052631,d͡ʒ a d i k a n
+jadi,jadikan,V;ACT;CAUS,0.000446,0.0040168421052631,d͡ʒ a d i k a n
+jadi,jadikan,V;ACT;TR,0.000446,0.0040168421052631,d͡ʒ a d i k a n
+jadi,kujadikan,V;ACT;APPL;SG;1,1e-06,0.0040168421052631,k u d͡ʒ a d i k a n
+jadi,kujadikan,V;ACT;CAUS;SG;1,1e-06,0.0040168421052631,k u d͡ʒ a d i k a n
+jadi,kujadikan,V;ACT;TR;SG;1,1e-06,0.0040168421052631,k u d͡ʒ a d i k a n
+jadi,menjadi,V;ACT,0.05716,0.0040168421052631,m ə n d͡ʒ a d i
+jadi,menjadikan,V;ACT;APPL,0.002742,0.0040168421052631,m ə n d͡ʒ a d i k a n
+jadi,menjadikan,V;ACT;CAUS,0.002742,0.0040168421052631,m ə n d͡ʒ a d i k a n
+jadi,menjadikan,V;ACT;TR,0.002742,0.0040168421052631,m ə n d͡ʒ a d i k a n
+jadi,menjadikannya,V;ACT;DEF,0.000283,0.0040168421052631,m ə n d͡ʒ a d i k a n ɲ a
+jadi,menjadikannya,V;ACT;PSS3S;DEF,0.000283,0.0040168421052631,m ə n d͡ʒ a d i k a n ɲ a
+jadi,menjadilah,V;ACT;FOC,2e-06,0.0040168421052631,m ə n d͡ʒ a d i l a h
+jaga,berjaga,V;ACT,6.1e-05,0.0005706363636363,b ə r d͡ʒ a ɡ a
+jaga,dijaga,V;PASS,0.000512,0.0005706363636363,d i d͡ʒ a ɡ a
+jaga,dijaganya,V;PASS;DEF,4e-06,0.0005706363636363,d i d͡ʒ a ɡ a ɲ a
+jaga,dijaganya,V;PASS;PSS3S;DEF,4e-06,0.0005706363636363,d i d͡ʒ a ɡ a ɲ a
+jaga,menjaga,V;ACT,0.004825,0.0005706363636363,m ə n d͡ʒ a ɡ a
+jaga,menjagamu,V;ACT;2,1e-05,0.0005706363636363,m ə n d͡ʒ a ɡ a m u
+jaga,menjaganya,V;ACT;DEF,5.1e-05,0.0005706363636363,m ə n d͡ʒ a ɡ a ɲ a
+jaga,menjaganya,V;ACT;PSS3S;DEF,5.1e-05,0.0005706363636363,m ə n d͡ʒ a ɡ a ɲ a
+jaga,terjaga,V;PASS,0.000709,0.0005706363636363,t ə r d͡ʒ a ɡ a
+jaga,terjaganya,V;PASS;DEF,2.5e-05,0.0005706363636363,t ə r d͡ʒ a ɡ a ɲ a
+jaga,terjaganya,V;PASS;PSS3S;DEF,2.5e-05,0.0005706363636363,t ə r d͡ʒ a ɡ a ɲ a
+jalan,berjalan,V;ACT,0.005314,0.0007767692307692,b ə r d͡ʒ a l a n
+jalan,berjalanan,V;ACT,2e-06,0.0007767692307692,b ə r d͡ʒ a l a n a n
+jalan,berjalanlah,V;ACT;FOC,9e-06,0.0007767692307692,b ə r d͡ʒ a l a n l a h
+jalan,berjalannya,V;ACT;DEF,0.000283,0.0007767692307692,b ə r d͡ʒ a l a n ɲ a
+jalan,berjalannya,V;ACT;PSS3S;DEF,0.000283,0.0007767692307692,b ə r d͡ʒ a l a n ɲ a
+jalan,dijalan,V;PASS,7.1e-05,0.0007767692307692,d i d͡ʒ a l a n
+jalan,dijalaninya,V;PASS;DEF,3e-05,0.0007767692307692,d i d͡ʒ a l a n i ɲ a
+jalan,dijalaninya,V;PASS;PSS3S;DEF,3e-05,0.0007767692307692,d i d͡ʒ a l a n i ɲ a
+jalan,dijalankan,V;PASS;APPL,0.000943,0.0007767692307692,d i d͡ʒ a l a ŋ k a n
+jalan,dijalankan,V;PASS;CAUS,0.000943,0.0007767692307692,d i d͡ʒ a l a ŋ k a n
+jalan,dijalankan,V;PASS;TR,0.000943,0.0007767692307692,d i d͡ʒ a l a ŋ k a n
+jalan,dijalankannya,V;PASS;DEF,2e-05,0.0007767692307692,d i d͡ʒ a l a n k a n ɲ a
+jalan,dijalankannya,V;PASS;PSS3S;DEF,2e-05,0.0007767692307692,d i d͡ʒ a l a n k a n ɲ a
+jalan,jalankan,V;ACT;APPL,0.000186,0.0007767692307692,d͡ʒ a l a ŋ k a n
+jalan,jalankan,V;ACT;CAUS,0.000186,0.0007767692307692,d͡ʒ a l a ŋ k a n
+jalan,jalankan,V;ACT;TR,0.000186,0.0007767692307692,d͡ʒ a l a ŋ k a n
+jalan,jalanku,V;ACT;1,1e-06,0.0007767692307692,d͡ʒ a l a n k u
+jalan,menjalan,V;ACT,1.9e-05,0.0007767692307692,m ə n d͡ʒ a l a n
+jalan,menjalani,V;ACT;ITER,0.001544,0.0007767692307692,m ə n d͡ʒ a l a n i
+jalan,menjalaninya,V;ACT;DEF,5.6e-05,0.0007767692307692,m ə n d͡ʒ a l a n i ɲ a
+jalan,menjalaninya,V;ACT;PSS3S;DEF,5.6e-05,0.0007767692307692,m ə n d͡ʒ a l a n i ɲ a
+jalan,menjalankan,V;ACT;APPL,0.002973,0.0007767692307692,m ə n d͡ʒ a l a ŋ k a n
+jalan,menjalankan,V;ACT;CAUS,0.002973,0.0007767692307692,m ə n d͡ʒ a l a ŋ k a n
+jalan,menjalankan,V;ACT;TR,0.002973,0.0007767692307692,m ə n d͡ʒ a l a ŋ k a n
+jalan,menjalankannya,V;ACT;DEF,7.6e-05,0.0007767692307692,m ə n d͡ʒ a l a n k a n ɲ a
+jalan,menjalankannya,V;ACT;PSS3S;DEF,7.6e-05,0.0007767692307692,m ə n d͡ʒ a l a n k a n ɲ a
+jelas,dijelaskan,V;PASS;APPL,0.000991,0.0013151333333333,d i d͡ʒ ə l a s k a n
+jelas,dijelaskan,V;PASS;CAUS,0.000991,0.0013151333333333,d i d͡ʒ ə l a s k a n
+jelas,dijelaskan,V;PASS;TR,0.000991,0.0013151333333333,d i d͡ʒ ə l a s k a n
+jelas,dijelaskannya,V;PASS;DEF,2.7e-05,0.0013151333333333,d i d͡ʒ ə l a s k a n ɲ a
+jelas,dijelaskannya,V;PASS;PSS3S;DEF,2.7e-05,0.0013151333333333,d i d͡ʒ ə l a s k a n ɲ a
+jelas,diperjelas,V;PASS,3.4e-05,0.0013151333333333,d i p ə r d͡ʒ ə l a s
+jelas,jelaskan,V;ACT;APPL,0.000173,0.0013151333333333,d͡ʒ ə l a s k a n
+jelas,jelaskan,V;ACT;CAUS,0.000173,0.0013151333333333,d͡ʒ ə l a s k a n
+jelas,jelaskan,V;ACT;TR,0.000173,0.0013151333333333,d͡ʒ ə l a s k a n
+jelas,memperjelas,V;ACT,9e-05,0.0013151333333333,m ə m p ə r d͡ʒ ə l a s
+jelas,menjelaskan,V;ACT;APPL,0.005331,0.0013151333333333,m ə n d͡ʒ ə l a s k a n
+jelas,menjelaskan,V;ACT;CAUS,0.005331,0.0013151333333333,m ə n d͡ʒ ə l a s k a n
+jelas,menjelaskan,V;ACT;TR,0.005331,0.0013151333333333,m ə n d͡ʒ ə l a s k a n
+jelas,menjelaskannya,V;ACT;DEF,3.2e-05,0.0013151333333333,m ə n d͡ʒ ə l a s k a n ɲ a
+jelas,menjelaskannya,V;ACT;PSS3S;DEF,3.2e-05,0.0013151333333333,m ə n d͡ʒ ə l a s k a n ɲ a
+kait,berkait,V;ACT,3.5e-05,0.0006164285714285,b ə r k a ɪ t̚
+kait,berkaitan,V;ACT,0.002382,0.0006164285714285,b ə r k a i̯ t a n
+kait,berkaitkan,V;ACT;APPL,0.0,0.0006164285714285,b ə r k a ɪ t k a n
+kait,berkaitkan,V;ACT;CAUS,0.0,0.0006164285714285,b ə r k a ɪ t k a n
+kait,berkaitkan,V;ACT;TR,0.0,0.0006164285714285,b ə r k a ɪ t k a n
+kait,dikait,V;PASS,0.0,0.0006164285714285,d i k a ɪ t̚
+kait,dikaitkan,V;PASS;APPL,0.000399,0.0006164285714285,d i k a ɪ t k a n
+kait,dikaitkan,V;PASS;CAUS,0.000399,0.0006164285714285,d i k a ɪ t k a n
+kait,dikaitkan,V;PASS;TR,0.000399,0.0006164285714285,d i k a ɪ t k a n
+kait,kaitkan,V;ACT;APPL,1.3e-05,0.0006164285714285,k a i t k a n
+kait,kaitkan,V;ACT;CAUS,1.3e-05,0.0006164285714285,k a i t k a n
+kait,kaitkan,V;ACT;TR,1.3e-05,0.0006164285714285,k a i t k a n
+kait,mengait,V;ACT,2e-06,0.0006164285714285,m ə ŋ a ɪ t̚
+kait,mengaitkan,V;ACT;APPL,9.2e-05,0.0006164285714285,m ə ŋ a i t k a n
+kait,mengaitkan,V;ACT;CAUS,9.2e-05,0.0006164285714285,m ə ŋ a i t k a n
+kait,mengaitkan,V;ACT;TR,9.2e-05,0.0006164285714285,m ə ŋ a i t k a n
+kait,mengaitkannya,V;ACT;DEF,1e-05,0.0006164285714285,m ə ŋ a i t k a n ɲ a
+kait,mengaitkannya,V;ACT;PSS3S;DEF,1e-05,0.0006164285714285,m ə ŋ a i t k a n ɲ a
+kait,terkait,V;PASS,0.00899,0.0006164285714285,t ə r k a ɪ t̚
+kait,terkaitnya,V;PASS;DEF,2e-06,0.0006164285714285,t ə r k a ɪ t ɲ a
+kait,terkaitnya,V;PASS;PSS3S;DEF,2e-06,0.0006164285714285,t ə r k a ɪ t ɲ a
+kaku,mengaku,V;ACT,0.002805,0.0006653333333333,m ə ŋ a k u
+kaku,mengakui,V;ACT;ITER,0.001153,0.0006653333333333,m ə ŋ a k u i
+kaku,mengakuinya,V;ACT;DEF,1.7e-05,0.0006653333333333,m ə ŋ a k u i ɲ a
+kaku,mengakuinya,V;ACT;PSS3S;DEF,1.7e-05,0.0006653333333333,m ə ŋ a k u i ɲ a
+kaku,mengakukannya,V;ACT;DEF,0.0,0.0006653333333333,m ə ŋ a k u k a n ɲ a
+kaku,mengakukannya,V;ACT;PSS3S;DEF,0.0,0.0006653333333333,m ə ŋ a k u k a n ɲ a
+kata,berkata,V;ACT,0.001656,0.0018421818181818,b ə r k a t a
+kata,berkatalah,V;ACT;FOC,2.7e-05,0.0018421818181818,b ə r k a t a l a h
+kata,katai,V;ACT;ITER,5e-06,0.0018421818181818,k a t a i̯
+kata,katakan,V;ACT;APPL,0.000401,0.0018421818181818,k a t a k a n
+kata,katakan,V;ACT;CAUS,0.000401,0.0018421818181818,k a t a k a n
+kata,katakan,V;ACT;TR,0.000401,0.0018421818181818,k a t a k a n
+kata,kaukatakan,V;ACT;APPL;SG;2,0.0,0.0018421818181818,k a u̯ k a t a k a n
+kata,kaukatakan,V;ACT;CAUS;SG;2,0.0,0.0018421818181818,k a u̯ k a t a k a n
+kata,kaukatakan,V;ACT;TR;SG;2,0.0,0.0018421818181818,k a u̯ k a t a k a n
+kata,kukatakan,V;ACT;APPL;SG;1,1.1e-05,0.0018421818181818,k u k a t a k a n
+kata,kukatakan,V;ACT;CAUS;SG;1,1.1e-05,0.0018421818181818,k u k a t a k a n
+kata,kukatakan,V;ACT;TR;SG;1,1.1e-05,0.0018421818181818,k u k a t a k a n
+kata,mengata,V;ACT,3e-06,0.0018421818181818,m ə ŋ a t a
+kata,mengatai,V;ACT;ITER,2e-06,0.0018421818181818,m ə ŋ a t a i̯
+kata,mengatakan,V;ACT;APPL,0.012505,0.0018421818181818,m ə ŋ a t a k a n
+kata,mengatakan,V;ACT;CAUS,0.012505,0.0018421818181818,m ə ŋ a t a k a n
+kata,mengatakan,V;ACT;TR,0.012505,0.0018421818181818,m ə ŋ a t a k a n
+kata,mengatakannya,V;ACT;DEF,4.2e-05,0.0018421818181818,m ə ŋ a t a k a n ɲ a
+kata,mengatakannya,V;ACT;PSS3S;DEF,4.2e-05,0.0018421818181818,m ə ŋ a t a k a n ɲ a
+kata,terkatakan,V;PASS;APPL,0.0,0.0018421818181818,t ə r k a t a k a n
+kata,terkatakan,V;PASS;CAUS,0.0,0.0018421818181818,t ə r k a t a k a n
+kata,terkatakan,V;PASS;TR,0.0,0.0018421818181818,t ə r k a t a k a n
+kembang,berkembang,V;ACT,0.003878,0.0008945862068965,b ə r k ə m b a ŋ
+kembang,berkembangan,V;ACT,9e-06,0.0008945862068965,b ə r k ə m b a ŋ a n
+kembang,berkembanglah,V;ACT;FOC,3e-06,0.0008945862068965,b ə r k ə m b a ŋ l a h
+kembang,berkembangnya,V;ACT;DEF,0.000365,0.0008945862068965,b ə r k ə m b a ŋ ɲ a
+kembang,berkembangnya,V;ACT;PSS3S;DEF,0.000365,0.0008945862068965,b ə r k ə m b a ŋ ɲ a
+kembang,dikembang,V;PASS,5e-06,0.0008945862068965,d i k ə m b a ŋ
+kembang,dikembangkan,V;PASS;APPL,0.002376,0.0008945862068965,d i k ə m b a ŋ k a n
+kembang,dikembangkan,V;PASS;CAUS,0.002376,0.0008945862068965,d i k ə m b a ŋ k a n
+kembang,dikembangkan,V;PASS;TR,0.002376,0.0008945862068965,d i k ə m b a ŋ k a n
+kembang,dikembangkanlah,V;PASS;FOC,6e-06,0.0008945862068965,d i k ə m b a ŋ k a n l a h
+kembang,dikembangkannya,V;PASS;DEF,3.9e-05,0.0008945862068965,d i k ə m b a ŋ k a n ɲ a
+kembang,dikembangkannya,V;PASS;PSS3S;DEF,3.9e-05,0.0008945862068965,d i k ə m b a ŋ k a n ɲ a
+kembang,kembangkan,V;ACT;APPL,0.000228,0.0008945862068965,k ə m b a ŋ k a n
+kembang,kembangkan,V;ACT;CAUS,0.000228,0.0008945862068965,k ə m b a ŋ k a n
+kembang,kembangkan,V;ACT;TR,0.000228,0.0008945862068965,k ə m b a ŋ k a n
+kembang,kembangnya,V;ACT;DEF,4e-05,0.0008945862068965,k ə m b a ŋ ɲ a
+kembang,kembangnya,V;ACT;PSS3S;DEF,4e-05,0.0008945862068965,k ə m b a ŋ ɲ a
+kembang,memperkembangkan,V;ACT;APPL,2e-06,0.0008945862068965,m ə m p ə r k ə m b a ŋ k a n
+kembang,memperkembangkan,V;ACT;CAUS,2e-06,0.0008945862068965,m ə m p ə r k ə m b a ŋ k a n
+kembang,memperkembangkan,V;ACT;TR,2e-06,0.0008945862068965,m ə m p ə r k ə m b a ŋ k a n
+kembang,mengembang,V;ACT,7.7e-05,0.0008945862068965,m ə ŋ ə m b a ŋ
+kembang,mengembangkan,V;ACT;APPL,0.004371,0.0008945862068965,m ə ŋ ə m b a ŋ k a n
+kembang,mengembangkan,V;ACT;CAUS,0.004371,0.0008945862068965,m ə ŋ ə m b a ŋ k a n
+kembang,mengembangkan,V;ACT;TR,0.004371,0.0008945862068965,m ə ŋ ə m b a ŋ k a n
+kembang,mengembangkannya,V;ACT;DEF,6.9e-05,0.0008945862068965,m ə ŋ ə m b a ŋ k a n ɲ a
+kembang,mengembangkannya,V;ACT;PSS3S;DEF,6.9e-05,0.0008945862068965,m ə ŋ ə m b a ŋ k a n ɲ a
+kembang,mengembangnya,V;ACT;DEF,2e-06,0.0008945862068965,m ə ŋ ə m b a ŋ ɲ a
+kembang,mengembangnya,V;ACT;PSS3S;DEF,2e-06,0.0008945862068965,m ə ŋ ə m b a ŋ ɲ a
+kembang,terkembang,V;PASS,4e-06,0.0008945862068965,t ə r k ə m b a ŋ
+komitmen,berkomitmen,V;ACT,0.000657,0.000657,b ə r k o m ɪ t m ɛ n
+kualitas,berkualitas,V;ACT,0.002099,0.002099,b ə r k u a l i t a s
+lain,berkelainan,V;ACT,0.0,0.0007684285714285,b ə r k ə l a i n a n
+lain,berlain,V;ACT,0.0,0.0007684285714285,b ə r l a ɪ n
+lain,berlainan,V;ACT,4.6e-05,0.0007684285714285,b ə r l a i n a n
+lain,dilain,V;PASS,2e-05,0.0007684285714285,d i l a ɪ n
+lain,melainkan,V;ACT;APPL,0.001771,0.0007684285714285,m ə l a ɪ n k a n
+lain,melainkan,V;ACT;CAUS,0.001771,0.0007684285714285,m ə l a ɪ n k a n
+lain,melainkan,V;ACT;TR,0.001771,0.0007684285714285,m ə l a ɪ n k a n
+laksana,dilaksanakan,V;PASS;APPL,0.008836,0.0022259999999999,d i l a k s a n a k a n
+laksana,dilaksanakan,V;PASS;CAUS,0.008836,0.0022259999999999,d i l a k s a n a k a n
+laksana,dilaksanakan,V;PASS;TR,0.008836,0.0022259999999999,d i l a k s a n a k a n
+laksana,dilaksanakanlah,V;PASS;FOC,5e-06,0.0022259999999999,d i l a k s a n a k a n l a h
+laksana,dilaksanakannya,V;PASS;DEF,0.000149,0.0022259999999999,d i l a k s a n a k a n ɲ a
+laksana,dilaksanakannya,V;PASS;PSS3S;DEF,0.000149,0.0022259999999999,d i l a k s a n a k a n ɲ a
+laksana,laksanakan,V;ACT;APPL,0.000298,0.0022259999999999,l a k s a n a k a n
+laksana,laksanakan,V;ACT;CAUS,0.000298,0.0022259999999999,l a k s a n a k a n
+laksana,laksanakan,V;ACT;TR,0.000298,0.0022259999999999,l a k s a n a k a n
+laksana,melaksanakan,V;ACT;APPL,0.005295,0.0022259999999999,m ə l a k s a n a k a n
+laksana,melaksanakan,V;ACT;CAUS,0.005295,0.0022259999999999,m ə l a k s a n a k a n
+laksana,melaksanakan,V;ACT;TR,0.005295,0.0022259999999999,m ə l a k s a n a k a n
+laksana,melaksanakannya,V;ACT;DEF,0.000106,0.0022259999999999,m ə l a k s a n a k a n ɲ a
+laksana,melaksanakannya,V;ACT;PSS3S;DEF,0.000106,0.0022259999999999,m ə l a k s a n a k a n ɲ a
+laksana,terlaksana,V;PASS,0.000444,0.0022259999999999,t ə r l a k s a n a
+laksana,terlaksanakan,V;PASS;APPL,4e-06,0.0022259999999999,t ə r l a k s a n a k a n
+laksana,terlaksanakan,V;PASS;CAUS,4e-06,0.0022259999999999,t ə r l a k s a n a k a n
+laksana,terlaksanakan,V;PASS;TR,4e-06,0.0022259999999999,t ə r l a k s a n a k a n
+laksana,terlaksananya,V;PASS;DEF,0.000131,0.0022259999999999,t ə r l a k s a n a ɲ a
+laksana,terlaksananya,V;PASS;PSS3S;DEF,0.000131,0.0022259999999999,t ə r l a k s a n a ɲ a
+laku,berkelakuan,V;ACT,2.1e-05,0.0039816818181818,b ə r k ə l a k u a n
+laku,berlaku,V;ACT,0.003429,0.0039816818181818,b ə r l a k u
+laku,berlakukan,V;ACT;APPL,2e-05,0.0039816818181818,b ə r l a k ʊ k a n
+laku,berlakukan,V;ACT;CAUS,2e-05,0.0039816818181818,b ə r l a k ʊ k a n
+laku,berlakukan,V;ACT;TR,2e-05,0.0039816818181818,b ə r l a k ʊ k a n
+laku,berlakulah,V;ACT;FOC,7e-06,0.0039816818181818,b ə r l a k u l a h
+laku,berlakunya,V;ACT;DEF,0.000176,0.0039816818181818,b ə r l a k u ɲ a
+laku,berlakunya,V;ACT;PSS3S;DEF,0.000176,0.0039816818181818,b ə r l a k u ɲ a
+laku,diberlakukan,V;PASS;APPL,0.000425,0.0039816818181818,d i b ə r l a k u k a n
+laku,diberlakukan,V;PASS;CAUS,0.000425,0.0039816818181818,d i b ə r l a k u k a n
+laku,diberlakukan,V;PASS;TR,0.000425,0.0039816818181818,d i b ə r l a k u k a n
+laku,diberlakukannya,V;PASS;DEF,0.000121,0.0039816818181818,d i b ə r l a k u k a n ɲ a
+laku,diberlakukannya,V;PASS;PSS3S;DEF,0.000121,0.0039816818181818,d i b ə r l a k u k a n ɲ a
+laku,dilakukan,V;PASS;APPL,0.027719,0.0039816818181818,d i l a k u k a n
+laku,dilakukan,V;PASS;CAUS,0.027719,0.0039816818181818,d i l a k u k a n
+laku,dilakukan,V;PASS;TR,0.027719,0.0039816818181818,d i l a k u k a n
+laku,dilakukanlah,V;PASS;FOC,1.6e-05,0.0039816818181818,d i l a k u k a n l a h
+laku,dilakukannya,V;PASS;DEF,0.00045,0.0039816818181818,d i l a k u k a n ɲ a
+laku,dilakukannya,V;PASS;PSS3S;DEF,0.00045,0.0039816818181818,d i l a k u k a n ɲ a
+laku,diperlakukan,V;PASS;APPL,0.000192,0.0039816818181818,d i p ə r l a k ʊ k a n
+laku,diperlakukan,V;PASS;CAUS,0.000192,0.0039816818181818,d i p ə r l a k ʊ k a n
+laku,diperlakukan,V;PASS;TR,0.000192,0.0039816818181818,d i p ə r l a k ʊ k a n
+laku,kulakukan,V;ACT;APPL;SG;1,2.2e-05,0.0039816818181818,k u l a k u k a n
+laku,kulakukan,V;ACT;CAUS;SG;1,2.2e-05,0.0039816818181818,k u l a k u k a n
+laku,kulakukan,V;ACT;TR;SG;1,2.2e-05,0.0039816818181818,k u l a k u k a n
+laku,lakukan,V;ACT;APPL,0.003327,0.0039816818181818,l a k u k a n
+laku,lakukan,V;ACT;CAUS,0.003327,0.0039816818181818,l a k u k a n
+laku,lakukan,V;ACT;TR,0.003327,0.0039816818181818,l a k u k a n
+laku,melakukan,V;ACT;APPL,0.024253,0.0039816818181818,m ə l a k ʊ k a n
+laku,melakukan,V;ACT;CAUS,0.024253,0.0039816818181818,m ə l a k ʊ k a n
+laku,melakukan,V;ACT;TR,0.024253,0.0039816818181818,m ə l a k ʊ k a n
+laku,melakukannya,V;ACT;DEF,0.000655,0.0039816818181818,m ə l a k u k a n ɲ a
+laku,melakukannya,V;ACT;PSS3S;DEF,0.000655,0.0039816818181818,m ə l a k u k a n ɲ a
+laku,memberlakukan,V;ACT;APPL,0.000188,0.0039816818181818,m ə m b ə r l a k u k a n
+laku,memberlakukan,V;ACT;CAUS,0.000188,0.0039816818181818,m ə m b ə r l a k u k a n
+laku,memberlakukan,V;ACT;TR,0.000188,0.0039816818181818,m ə m b ə r l a k u k a n
+laku,memberlakukannya,V;ACT;DEF,1e-06,0.0039816818181818,m ə m b ə r l a k u k a n ɲ a
+laku,memberlakukannya,V;ACT;PSS3S;DEF,1e-06,0.0039816818181818,m ə m b ə r l a k u k a n ɲ a
+laku,memperlakukan,V;ACT;APPL,0.000151,0.0039816818181818,m ə m p ə r l a k u k a n
+laku,memperlakukan,V;ACT;CAUS,0.000151,0.0039816818181818,m ə m p ə r l a k u k a n
+laku,memperlakukan,V;ACT;TR,0.000151,0.0039816818181818,m ə m p ə r l a k u k a n
+laku,memperlakukannya,V;ACT;DEF,1.2e-05,0.0039816818181818,m ə m p ə r l a k u k a n ɲ a
+laku,memperlakukannya,V;ACT;PSS3S;DEF,1.2e-05,0.0039816818181818,m ə m p ə r l a k u k a n ɲ a
+laku,terlaku,V;PASS,0.0,0.0039816818181818,t ə r l a k u
+langsung,berlangsung,V;ACT,0.005376,0.0005595,b ə r l a ŋ s ʊ ŋ
+langsung,berlangsunglah,V;ACT;FOC,1e-06,0.0005595,b ə r l a ŋ s ʊ ŋ l a h
+langsung,berlangsungnya,V;ACT;DEF,0.000151,0.0005595,b ə r l a ŋ s ʊ ŋ ɲ a
+langsung,berlangsungnya,V;ACT;PSS3S;DEF,0.000151,0.0005595,b ə r l a ŋ s ʊ ŋ ɲ a
+langsung,dilangsungkan,V;PASS;APPL,0.000255,0.0005595,d i l a ŋ s ʊ ŋ k a n
+langsung,dilangsungkan,V;PASS;CAUS,0.000255,0.0005595,d i l a ŋ s ʊ ŋ k a n
+langsung,dilangsungkan,V;PASS;TR,0.000255,0.0005595,d i l a ŋ s ʊ ŋ k a n
+langsung,dilangsungkannya,V;PASS;DEF,6e-06,0.0005595,d i l a ŋ s ʊ ŋ k a n ɲ a
+langsung,dilangsungkannya,V;PASS;PSS3S;DEF,6e-06,0.0005595,d i l a ŋ s ʊ ŋ k a n ɲ a
+langsung,melangsungkan,V;ACT;APPL,8.6e-05,0.0005595,m ə l a ŋ s ʊ ŋ k a n
+langsung,melangsungkan,V;ACT;CAUS,8.6e-05,0.0005595,m ə l a ŋ s ʊ ŋ k a n
+langsung,melangsungkan,V;ACT;TR,8.6e-05,0.0005595,m ə l a ŋ s ʊ ŋ k a n
+lanjut,berkelanjutan,V;ACT,0.001257,0.0007655833333333,b ə r k ə l a n d͡ʒ ʊ t a n
+lanjut,berkelanjutannya,V;ACT;DEF,1e-06,0.0007655833333333,b ə r k ə l a n d͡ʒ ʊ t a n ɲ a
+lanjut,berkelanjutannya,V;ACT;PSS3S;DEF,1e-06,0.0007655833333333,b ə r k ə l a n d͡ʒ ʊ t a n ɲ a
+lanjut,berlanjut,V;ACT,0.000666,0.0007655833333333,b ə r l a n d͡ʒ ʊ t̚
+lanjut,berlanjutan,V;ACT,0.0,0.0007655833333333,b ə r l a n d͡ʒ ʊ t a n
+lanjut,berlanjutnya,V;ACT;DEF,1.3e-05,0.0007655833333333,b ə r l a n d͡ʒ ʊ t ɲ a
+lanjut,berlanjutnya,V;ACT;PSS3S;DEF,1.3e-05,0.0007655833333333,b ə r l a n d͡ʒ ʊ t ɲ a
+lanjut,dilanjut,V;PASS,5.6e-05,0.0007655833333333,d i l a n d͡ʒ ʊ t̚
+lanjut,dilanjutkan,V;PASS;APPL,0.002624,0.0007655833333333,d i l a n d͡ʒ ʊ t k a n
+lanjut,dilanjutkan,V;PASS;CAUS,0.002624,0.0007655833333333,d i l a n d͡ʒ ʊ t k a n
+lanjut,dilanjutkan,V;PASS;TR,0.002624,0.0007655833333333,d i l a n d͡ʒ ʊ t k a n
+lanjut,dilanjutkannya,V;PASS;DEF,4e-06,0.0007655833333333,d i l a n d͡ʒ ʊ t k a n ɲ a
+lanjut,dilanjutkannya,V;PASS;PSS3S;DEF,4e-06,0.0007655833333333,d i l a n d͡ʒ ʊ t k a n ɲ a
+lanjut,lanjutkan,V;ACT;APPL,0.000148,0.0007655833333333,l a n d͡ʒ ʊ t k a n
+lanjut,lanjutkan,V;ACT;CAUS,0.000148,0.0007655833333333,l a n d͡ʒ ʊ t k a n
+lanjut,lanjutkan,V;ACT;TR,0.000148,0.0007655833333333,l a n d͡ʒ ʊ t k a n
+lanjut,lanjutnya,V;ACT;DEF,0.000818,0.0007655833333333,l a n d͡ʒ ʊ t ɲ a
+lanjut,lanjutnya,V;ACT;PSS3S;DEF,0.000818,0.0007655833333333,l a n d͡ʒ ʊ t ɲ a
+lanjut,melanjut,V;ACT,5e-06,0.0007655833333333,m ə l a n d͡ʒ ʊ t̚
+lanjut,melanjutkan,V;ACT;APPL,0.002118,0.0007655833333333,m ə l a n d͡ʒ ʊ t k a n
+lanjut,melanjutkan,V;ACT;CAUS,0.002118,0.0007655833333333,m ə l a n d͡ʒ ʊ t k a n
+lanjut,melanjutkan,V;ACT;TR,0.002118,0.0007655833333333,m ə l a n d͡ʒ ʊ t k a n
+lanjut,melanjutkannya,V;ACT;DEF,2.4e-05,0.0007655833333333,m ə l a n d͡ʒ ʊ t k a n ɲ a
+lanjut,melanjutkannya,V;ACT;PSS3S;DEF,2.4e-05,0.0007655833333333,m ə l a n d͡ʒ ʊ t k a n ɲ a
+lihat,dilihat,V;PASS,0.002738,0.00076588,d i l i h a t̚
+lihat,dilihatnya,V;PASS;DEF,5.7e-05,0.00076588,d i l i h a t ɲ a
+lihat,dilihatnya,V;PASS;PSS3S;DEF,5.7e-05,0.00076588,d i l i h a t ɲ a
+lihat,dilihatnyalah,V;PASS;SG;3;FOC,0.0,0.00076588,d i l i h a t ɲ a l a h
+lihat,diperlihatkan,V;PASS;APPL,0.00011,0.00076588,d i p ə r l i h a t k a n
+lihat,diperlihatkan,V;PASS;CAUS,0.00011,0.00076588,d i p ə r l i h a t k a n
+lihat,diperlihatkan,V;PASS;TR,0.00011,0.00076588,d i p ə r l i h a t k a n
+lihat,diperlihatkannya,V;PASS;DEF,1e-06,0.00076588,d i p ə r l i h a t k a ɲ ɲ a
+lihat,diperlihatkannya,V;PASS;PSS3S;DEF,1e-06,0.00076588,d i p ə r l i h a t k a ɲ ɲ a
+lihat,kelihatan,V;PASS,0.000253,0.00076588,k ə l i h a t a n
+lihat,kelihatannya,V;PASS;DEF,7e-05,0.00076588,k ə l i h a t a n ɲ a
+lihat,kelihatannya,V;PASS;PSS3S;DEF,7e-05,0.00076588,k ə l i h a t a n ɲ a
+lihat,melihat,V;ACT,0.008287,0.00076588,m ə l i h a t̚
+lihat,melihatmu,V;ACT;2,1.7e-05,0.00076588,m ə l i h a t m u
+lihat,melihatnya,V;ACT;DEF,0.00029,0.00076588,m ə l i h a t ɲ a
+lihat,melihatnya,V;ACT;PSS3S;DEF,0.00029,0.00076588,m ə l i h a t ɲ a
+lihat,memperlihatkan,V;ACT;APPL,0.000606,0.00076588,m ə m p ə r l i h a t k a n
+lihat,memperlihatkan,V;ACT;CAUS,0.000606,0.00076588,m ə m p ə r l i h a t k a n
+lihat,memperlihatkan,V;ACT;TR,0.000606,0.00076588,m ə m p ə r l i h a t k a n
+lihat,memperlihatkannya,V;ACT;DEF,2e-06,0.00076588,m ə m p ə r l i h a t k a n ɲ a
+lihat,memperlihatkannya,V;ACT;PSS3S;DEF,2e-06,0.00076588,m ə m p ə r l i h a t k a n ɲ a
+lihat,terlihat,V;PASS,0.004842,0.00076588,t ə r l i h a t̚
+lihat,terlihatlah,V;PASS;FOC,6e-06,0.00076588,t ə r l i h a t l a h
+lihat,terlihatnya,V;PASS;DEF,8e-06,0.00076588,t ə r l i h a t ɲ a
+lihat,terlihatnya,V;PASS;PSS3S;DEF,8e-06,0.00076588,t ə r l i h a t ɲ a
+manfaat,bermanfaat,V;ACT,0.002535,0.0009220833333333,b ə r m a n f a a t̚
+manfaat,manfaatkan,V;ACT;APPL,0.000206,0.0009220833333333,m a n f a a t k a n
+manfaat,manfaatkan,V;ACT;CAUS,0.000206,0.0009220833333333,m a n f a a t k a n
+manfaat,manfaatkan,V;ACT;TR,0.000206,0.0009220833333333,m a n f a a t k a n
+manfaat,memanfaatkan,V;ACT;APPL,0.002525,0.0009220833333333,m ə m a n f a a t k a n
+manfaat,memanfaatkan,V;ACT;CAUS,0.002525,0.0009220833333333,m ə m a n f a a t k a n
+manfaat,memanfaatkan,V;ACT;TR,0.002525,0.0009220833333333,m ə m a n f a a t k a n
+manfaat,memanfaatkannya,V;ACT;DEF,0.000122,0.0009220833333333,m ə m a n f a a t k a n ɲ a
+manfaat,memanfaatkannya,V;ACT;PSS3S;DEF,0.000122,0.0009220833333333,m ə m a n f a a t k a n ɲ a
+manfaat,termanfaatkan,V;PASS;APPL,3.1e-05,0.0009220833333333,t ə r m a n f a a t k a n
+manfaat,termanfaatkan,V;PASS;CAUS,3.1e-05,0.0009220833333333,t ə r m a n f a a t k a n
+manfaat,termanfaatkan,V;PASS;TR,3.1e-05,0.0009220833333333,t ə r m a n f a a t k a n
+milik,berpemilik,V;ACT,0.0,0.0021682857142857,b ə r p ə m i l ɪ k̚
+milik,dimilik,V;PASS,5e-06,0.0021682857142857,d i m i l ɪ k̚
+milik,dimilikinya,V;PASS;DEF,0.000341,0.0021682857142857,d i m i l i k i ɲ a
+milik,dimilikinya,V;PASS;PSS3S;DEF,0.000341,0.0021682857142857,d i m i l i k i ɲ a
+milik,dimiliknya,V;PASS;DEF,3e-06,0.0021682857142857,d i m i l i k ɲ a
+milik,dimiliknya,V;PASS;PSS3S;DEF,3e-06,0.0021682857142857,d i m i l i k ɲ a
+milik,memilik,V;ACT,4.8e-05,0.0021682857142857,m ə m i l ɪ k̚
+milik,memiliki,V;ACT;ITER,0.028824,0.0021682857142857,m ə m i l i k i
+milik,memilikinya,V;ACT;DEF,9.1e-05,0.0021682857142857,m ə m i l i k i ɲ a
+milik,memilikinya,V;ACT;PSS3S;DEF,9.1e-05,0.0021682857142857,m ə m i l i k i ɲ a
+milik,milikku,V;ACT;1,1.2e-05,0.0021682857142857,m i l ɪ k k u
+milik,milikmu,V;ACT;2,1.1e-05,0.0021682857142857,m i l ɪ k m u
+milik,miliknya,V;ACT;DEF,0.000293,0.0021682857142857,m i l i k ɲ a
+milik,miliknya,V;ACT;PSS3S;DEF,0.000293,0.0021682857142857,m i l i k ɲ a
+nyata,dinyatakan,V;PASS;APPL,0.001426,0.001252923076923,d i ɲ a t a k a n
+nyata,dinyatakan,V;PASS;CAUS,0.001426,0.001252923076923,d i ɲ a t a k a n
+nyata,dinyatakan,V;PASS;TR,0.001426,0.001252923076923,d i ɲ a t a k a n
+nyata,dinyatakannya,V;PASS;DEF,2e-06,0.001252923076923,d i ɲ a t a k a n ɲ a
+nyata,dinyatakannya,V;PASS;PSS3S;DEF,2e-06,0.001252923076923,d i ɲ a t a k a n ɲ a
+nyata,menyatakan,V;ACT;APPL,0.003958,0.001252923076923,m ə ɲ a t a k a n
+nyata,menyatakan,V;ACT;CAUS,0.003958,0.001252923076923,m ə ɲ a t a k a n
+nyata,menyatakan,V;ACT;TR,0.003958,0.001252923076923,m ə ɲ a t a k a n
+nyata,menyatakannya,V;ACT;DEF,1.2e-05,0.001252923076923,m ə ɲ a t a k a n ɲ a
+nyata,menyatakannya,V;ACT;PSS3S;DEF,1.2e-05,0.001252923076923,m ə ɲ a t a k a n ɲ a
+nyata,nyatakan,V;ACT;APPL,3.6e-05,0.001252923076923,ɲ a t a k a n
+nyata,nyatakan,V;ACT;CAUS,3.6e-05,0.001252923076923,ɲ a t a k a n
+nyata,nyatakan,V;ACT;TR,3.6e-05,0.001252923076923,ɲ a t a k a n
+paham,berpaham,V;ACT,9e-06,0.0005887999999999,b ə r p a h a m
+paham,memahami,V;ACT;ITER,0.002752,0.0005887999999999,m ə m a h a m i
+paham,memahaminya,V;ACT;DEF,9e-05,0.0005887999999999,m ə m a h a m i ɲ a
+paham,memahaminya,V;ACT;PSS3S;DEF,9e-05,0.0005887999999999,m ə m a h a m i ɲ a
+paham,terpahami,V;PASS;ITER,3e-06,0.0005887999999999,t ə r p a h a m i
+partisipasi,berpartisipasi,V;ACT,0.000969,0.000969,b ə r p a r t i s i p a s i
+pasti,dipastikan,V;PASS;APPL,0.000827,0.0008755454545454,d i p a s t i k a n
+pasti,dipastikan,V;PASS;CAUS,0.000827,0.0008755454545454,d i p a s t i k a n
+pasti,dipastikan,V;PASS;TR,0.000827,0.0008755454545454,d i p a s t i k a n
+pasti,memastikan,V;ACT;APPL,0.001816,0.0008755454545454,m ə m a s t i k a n
+pasti,memastikan,V;ACT;CAUS,0.001816,0.0008755454545454,m ə m a s t i k a n
+pasti,memastikan,V;ACT;TR,0.001816,0.0008755454545454,m ə m a s t i k a n
+pasti,memastikannya,V;ACT;DEF,1.7e-05,0.0008755454545454,m ə m a s t i k a n ɲ a
+pasti,memastikannya,V;ACT;PSS3S;DEF,1.7e-05,0.0008755454545454,m ə m a s t i k a n ɲ a
+pasti,pastikan,V;ACT;APPL,0.000556,0.0008755454545454,p a s t i k a n
+pasti,pastikan,V;ACT;CAUS,0.000556,0.0008755454545454,p a s t i k a n
+pasti,pastikan,V;ACT;TR,0.000556,0.0008755454545454,p a s t i k a n
+penuh,dipenuhinya,V;PASS;DEF,2e-05,0.000570875,d i p ə n u h i ɲ a
+penuh,dipenuhinya,V;PASS;PSS3S;DEF,2e-05,0.000570875,d i p ə n u h i ɲ a
+penuh,memenuhi,V;ACT;ITER,0.004475,0.000570875,m ə m ə n u h i
+penuh,memenuhinya,V;ACT;DEF,2.3e-05,0.000570875,m ə m ə n u h i ɲ a
+penuh,memenuhinya,V;ACT;PSS3S;DEF,2.3e-05,0.000570875,m ə m ə n u h i ɲ a
+penuh,memenuhkan,V;ACT;APPL,2e-06,0.000570875,m ə m ə n ʊ h k a n
+penuh,memenuhkan,V;ACT;CAUS,2e-06,0.000570875,m ə m ə n ʊ h k a n
+penuh,memenuhkan,V;ACT;TR,2e-06,0.000570875,m ə m ə n ʊ h k a n
+perlu,diperlukan,V;PASS;APPL,0.003896,0.0011459375,d i p ə r l u k a n
+perlu,diperlukan,V;PASS;CAUS,0.003896,0.0011459375,d i p ə r l u k a n
+perlu,diperlukan,V;PASS;TR,0.003896,0.0011459375,d i p ə r l u k a n
+perlu,diperlukanlah,V;PASS;FOC,5e-06,0.0011459375,d i p ə r l u k a n l a h
+perlu,diperlukannya,V;PASS;DEF,4.3e-05,0.0011459375,d i p ə r l u k a n ɲ a
+perlu,diperlukannya,V;PASS;PSS3S;DEF,4.3e-05,0.0011459375,d i p ə r l u k a n ɲ a
+perlu,memerlukan,V;ACT;APPL,0.00179,0.0011459375,m ə m ə r l u k a n
+perlu,memerlukan,V;ACT;CAUS,0.00179,0.0011459375,m ə m ə r l u k a n
+perlu,memerlukan,V;ACT;TR,0.00179,0.0011459375,m ə m ə r l u k a n
+perlu,memerlukannya,V;ACT;DEF,1.9e-05,0.0011459375,m ə m ə r l u k a n ɲ a
+perlu,memerlukannya,V;ACT;PSS3S;DEF,1.9e-05,0.0011459375,m ə m ə r l u k a n ɲ a
+perlu,perlukan,V;ACT;APPL,0.000102,0.0011459375,p ə r l u k a n
+perlu,perlukan,V;ACT;CAUS,0.000102,0.0011459375,p ə r l u k a n
+perlu,perlukan,V;ACT;TR,0.000102,0.0011459375,p ə r l u k a n
+perlu,perlunya,V;ACT;DEF,0.000421,0.0011459375,p ə r l u ɲ a
+perlu,perlunya,V;ACT;PSS3S;DEF,0.000421,0.0011459375,p ə r l u ɲ a
+peroleh,diperoleh,V;PASS,0.002932,0.001052,d i p ə r o l ɛ h
+peroleh,diperolehnya,V;PASS;DEF,0.000113,0.001052,d i p ə r o l ə h ɲ a
+peroleh,diperolehnya,V;PASS;PSS3S;DEF,0.000113,0.001052,d i p ə r o l ə h ɲ a
+peroleh,memperoleh,V;ACT,0.003078,0.001052,m ə m p ə r o l ɛ h
+peroleh,memperolehnya,V;ACT;DEF,3.8e-05,0.001052,m ə m p ə r o l ə h ɲ a
+peroleh,memperolehnya,V;ACT;PSS3S;DEF,3.8e-05,0.001052,m ə m p ə r o l ə h ɲ a
+pinta,meminta,V;ACT,0.004185,0.001439,m ə m ɪ n t a
+pinta,memintanya,V;ACT;DEF,6.6e-05,0.001439,m ə m ɪ n t a ɲ a
+pinta,memintanya,V;ACT;PSS3S;DEF,6.6e-05,0.001439,m ə m ɪ n t a ɲ a
+potensi,berpotensi,V;ACT,0.000972,0.000972,b ə r p o t ɛ n s i
+prestasi,berprestasi,V;ACT,0.000896,0.000896,b ə r p r ɛ s t a s i
+punya,berpunya,V;ACT,9e-06,0.0008395,b ə r p u ɲ a
+punya,dipunyainya,V;PASS;DEF,7e-06,0.0008395,d i p u ɲ a i ɲ a
+punya,dipunyainya,V;PASS;PSS3S;DEF,7e-06,0.0008395,d i p u ɲ a i ɲ a
+punya,kupunya,V;ACT;SG;1,1e-06,0.0008395,k u p u ɲ a
+punya,mempunya,V;ACT,4e-05,0.0008395,m ə m p u ɲ a
+punya,mempunyai,V;ACT;ITER,0.006638,0.0008395,m ə m p u ɲ a i̯
+punya,mempunyainya,V;ACT;DEF,7e-06,0.0008395,m ə m p u ɲ a i ɲ a
+punya,mempunyainya,V;ACT;PSS3S;DEF,7e-06,0.0008395,m ə m p u ɲ a i ɲ a
+raih,diraih,V;PASS,0.001033,0.0006268333333333,d i r a ɪ h
+raih,diraihnya,V;PASS;DEF,9.8e-05,0.0006268333333333,d i r a i h ɲ a
+raih,diraihnya,V;PASS;PSS3S;DEF,9.8e-05,0.0006268333333333,d i r a i h ɲ a
+raih,meraih,V;ACT,0.002458,0.0006268333333333,m ə r a ɪ h
+raih,meraihnya,V;ACT;DEF,3.7e-05,0.0006268333333333,m ə r a ɪ h ɲ a
+raih,meraihnya,V;ACT;PSS3S;DEF,3.7e-05,0.0006268333333333,m ə r a ɪ h ɲ a
+rasa,berasa,V;ACT,8.1e-05,0.0006001785714285,b ə r a s a
+rasa,berperasaan,V;ACT,5e-06,0.0006001785714285,b ə r p ə r a s a a n
+rasa,dirasa,V;PASS,0.00042,0.0006001785714285,d i r a s a
+rasa,dirasakan,V;PASS;APPL,0.001082,0.0006001785714285,d i r a s a k a n
+rasa,dirasakan,V;PASS;CAUS,0.001082,0.0006001785714285,d i r a s a k a n
+rasa,dirasakan,V;PASS;TR,0.001082,0.0006001785714285,d i r a s a k a n
+rasa,dirasakannya,V;PASS;DEF,2.7e-05,0.0006001785714285,d i r a s a k a n ɲ a
+rasa,dirasakannya,V;PASS;PSS3S;DEF,2.7e-05,0.0006001785714285,d i r a s a k a n ɲ a
+rasa,dirasanya,V;PASS;DEF,1e-06,0.0006001785714285,d i r a s a ɲ a
+rasa,dirasanya,V;PASS;PSS3S;DEF,1e-06,0.0006001785714285,d i r a s a ɲ a
+rasa,kurasakan,V;ACT;APPL;SG;1,1.7e-05,0.0006001785714285,k u r a s a k a n
+rasa,kurasakan,V;ACT;CAUS;SG;1,1.7e-05,0.0006001785714285,k u r a s a k a n
+rasa,kurasakan,V;ACT;TR;SG;1,1.7e-05,0.0006001785714285,k u r a s a k a n
+rasa,merasa,V;ACT,0.005126,0.0006001785714285,m ə r a s a
+rasa,merasai,V;ACT;ITER,2e-06,0.0006001785714285,m ə r a s a i̯
+rasa,merasakan,V;ACT;APPL,0.001578,0.0006001785714285,m ə r a s a k a n
+rasa,merasakan,V;ACT;CAUS,0.001578,0.0006001785714285,m ə r a s a k a n
+rasa,merasakan,V;ACT;TR,0.001578,0.0006001785714285,m ə r a s a k a n
+rasa,merasakannya,V;ACT;DEF,5e-05,0.0006001785714285,m ə r a s a k a ɲ ɲ a
+rasa,merasakannya,V;ACT;PSS3S;DEF,5e-05,0.0006001785714285,m ə r a s a k a ɲ ɲ a
+rasa,rasakan,V;ACT;APPL,0.000381,0.0006001785714285,r a s a k a n
+rasa,rasakan,V;ACT;CAUS,0.000381,0.0006001785714285,r a s a k a n
+rasa,rasakan,V;ACT;TR,0.000381,0.0006001785714285,r a s a k a n
+rasa,rasanya,V;ACT;DEF,0.000913,0.0006001785714285,r a s a ɲ a
+rasa,rasanya,V;ACT;PSS3S;DEF,0.000913,0.0006001785714285,r a s a ɲ a
+rasa,terasakan,V;PASS;APPL,5e-06,0.0006001785714285,t ə r a s a k a n
+rasa,terasakan,V;PASS;CAUS,5e-06,0.0006001785714285,t ə r a s a k a n
+rasa,terasakan,V;PASS;TR,5e-06,0.0006001785714285,t ə r a s a k a n
+rokok,merokok,V;ACT,0.00059,0.00059,m ə r o k ɔ ʔ
+rupa,berupa,V;ACT,0.005915,0.001185,b ə r u p a
+rupa,berupakan,V;ACT;APPL,1e-06,0.001185,b ə r u p a k a n
+rupa,berupakan,V;ACT;CAUS,1e-06,0.001185,b ə r u p a k a n
+rupa,berupakan,V;ACT;TR,1e-06,0.001185,b ə r u p a k a n
+rupa,merupakah,V;ACT;FOC,7e-06,0.001185,m ə r u p a k a h
+sampai,disampaikan,V;PASS;APPL,0.004605,0.0027497692307692,d i s a m p a i k a n
+sampai,disampaikan,V;PASS;CAUS,0.004605,0.0027497692307692,d i s a m p a i k a n
+sampai,disampaikan,V;PASS;TR,0.004605,0.0027497692307692,d i s a m p a i k a n
+sampai,disampaikannya,V;PASS;DEF,0.000106,0.0027497692307692,d i s a m p a i k a n ɲ a
+sampai,disampaikannya,V;PASS;PSS3S;DEF,0.000106,0.0027497692307692,d i s a m p a i k a n ɲ a
+sampai,menyampaikan,V;ACT;APPL,0.006158,0.0027497692307692,m ə ɲ a m p a i k a n
+sampai,menyampaikan,V;ACT;CAUS,0.006158,0.0027497692307692,m ə ɲ a m p a i k a n
+sampai,menyampaikan,V;ACT;TR,0.006158,0.0027497692307692,m ə ɲ a m p a i k a n
+sampai,menyampaikannya,V;ACT;DEF,4.5e-05,0.0027497692307692,m ə ɲ a m p a i k a n ɲ a
+sampai,menyampaikannya,V;ACT;PSS3S;DEF,4.5e-05,0.0027497692307692,m ə ɲ a m p a i k a n ɲ a
+sampai,sampaikan,V;ACT;APPL,0.001052,0.0027497692307692,s a m p a i k a n
+sampai,sampaikan,V;ACT;CAUS,0.001052,0.0027497692307692,s a m p a i k a n
+sampai,sampaikan,V;ACT;TR,0.001052,0.0027497692307692,s a m p a i k a n
+sebab,menyebab,V;ACT,4e-06,0.0012410999999999,m ə ɲ ə b a p̚
+sebab,menyebabkan,V;ACT;APPL,0.004093,0.0012410999999999,m ə ɲ ə b a p k a n
+sebab,menyebabkan,V;ACT;CAUS,0.004093,0.0012410999999999,m ə ɲ ə b a p k a n
+sebab,menyebabkan,V;ACT;TR,0.004093,0.0012410999999999,m ə ɲ ə b a p k a n
+sebab,menyebabkannya,V;ACT;DEF,1.3e-05,0.0012410999999999,m ə ɲ ə b a p k a ɲ ɲ a
+sebab,menyebabkannya,V;ACT;PSS3S;DEF,1.3e-05,0.0012410999999999,m ə ɲ ə b a p k a ɲ ɲ a
+sebab,sebabkan,V;ACT;APPL,3.4e-05,0.0012410999999999,s ə b a p k a n
+sebab,sebabkan,V;ACT;CAUS,3.4e-05,0.0012410999999999,s ə b a p k a n
+sebab,sebabkan,V;ACT;TR,3.4e-05,0.0012410999999999,s ə b a p k a n
+sebab,tersebab,V;PASS,0.0,0.0012410999999999,t ə r s ə b a p̚
+sebut,disebut,V;PASS,0.003949,0.0005914615384615,d i s ə b ʊ t̚
+sebut,disebutkan,V;PASS;APPL,0.001056,0.0005914615384615,d i s ə b ʊ t k a n
+sebut,disebutkan,V;PASS;CAUS,0.001056,0.0005914615384615,d i s ə b ʊ t k a n
+sebut,disebutkan,V;PASS;TR,0.001056,0.0005914615384615,d i s ə b ʊ t k a n
+sebut,disebutkannya,V;PASS;DEF,8e-06,0.0005914615384615,d i s ə b ʊ t k a ɲ ɲ a
+sebut,disebutkannya,V;PASS;PSS3S;DEF,8e-06,0.0005914615384615,d i s ə b ʊ t k a ɲ ɲ a
+sebut,disebutlah,V;PASS;FOC,4e-06,0.0005914615384615,d i s ə b ʊ t l a h
+sebut,disebutnya,V;PASS;DEF,6.9e-05,0.0005914615384615,d i s ə b ʊ t ɲ a
+sebut,disebutnya,V;PASS;PSS3S;DEF,6.9e-05,0.0005914615384615,d i s ə b ʊ t ɲ a
+sebut,menyebut,V;ACT,0.001314,0.0005914615384615,m ə ɲ ə b ʊ t̚
+sebut,menyebutkan,V;ACT;APPL,0.001887,0.0005914615384615,m ə ɲ ə b ʊ t k a n
+sebut,menyebutkan,V;ACT;CAUS,0.001887,0.0005914615384615,m ə ɲ ə b ʊ t k a n
+sebut,menyebutkan,V;ACT;TR,0.001887,0.0005914615384615,m ə ɲ ə b ʊ t k a n
+sebut,menyebutkannya,V;ACT;DEF,7e-06,0.0005914615384615,m ə ɲ ə b ʊ t k a n ɲ a
+sebut,menyebutkannya,V;ACT;PSS3S;DEF,7e-06,0.0005914615384615,m ə ɲ ə b ʊ t k a n ɲ a
+sebut,menyebutnya,V;ACT;DEF,0.000168,0.0005914615384615,m ə ɲ ə b ʊ t ɲ a
+sebut,menyebutnya,V;ACT;PSS3S;DEF,0.000168,0.0005914615384615,m ə ɲ ə b ʊ t ɲ a
+sebut,sebutkan,V;ACT;APPL,0.000124,0.0005914615384615,s ə b ʊ t k a n
+sebut,sebutkan,V;ACT;CAUS,0.000124,0.0005914615384615,s ə b ʊ t k a n
+sebut,sebutkan,V;ACT;TR,0.000124,0.0005914615384615,s ə b ʊ t k a n
+sebut,sebutlah,V;ACT;FOC,6e-06,0.0005914615384615,s ə b ʊ t l a h
+sebut,sebutnya,V;ACT;DEF,0.0002,0.0005914615384615,s ə b ʊ t ɲ a
+sebut,sebutnya,V;ACT;PSS3S;DEF,0.0002,0.0005914615384615,s ə b ʊ t ɲ a
+sebut,tersebutkan,V;PASS;APPL,0.0,0.0005914615384615,t ə r s ə b ʊ t k a n
+sebut,tersebutkan,V;PASS;CAUS,0.0,0.0005914615384615,t ə r s ə b ʊ t k a n
+sebut,tersebutkan,V;PASS;TR,0.0,0.0005914615384615,t ə r s ə b ʊ t k a n
+sedia,bersedia,V;ACT,0.000616,0.00087975,b ə r s ə d i a̯
+sedia,disediakan,V;PASS;APPL,0.001342,0.00087975,d i s ə d i a k a n
+sedia,disediakan,V;PASS;CAUS,0.001342,0.00087975,d i s ə d i a k a n
+sedia,disediakan,V;PASS;TR,0.001342,0.00087975,d i s ə d i a k a n
+sedia,disediakannya,V;PASS;DEF,1.1e-05,0.00087975,d i s ə d i a k a n ɲ a
+sedia,disediakannya,V;PASS;PSS3S;DEF,1.1e-05,0.00087975,d i s ə d i a k a n ɲ a
+sedia,menyediakan,V;ACT;APPL,0.00291,0.00087975,m ə ɲ ə d i a k a n
+sedia,menyediakan,V;ACT;CAUS,0.00291,0.00087975,m ə ɲ ə d i a k a n
+sedia,menyediakan,V;ACT;TR,0.00291,0.00087975,m ə ɲ ə d i a k a n
+sedia,menyediakannya,V;ACT;DEF,1.3e-05,0.00087975,m ə ɲ ə d i a k a n ɲ a
+sedia,menyediakannya,V;ACT;PSS3S;DEF,1.3e-05,0.00087975,m ə ɲ ə d i a k a n ɲ a
+sedia,sediakan,V;ACT;APPL,0.000176,0.00087975,s ə d i a k a n
+sedia,sediakan,V;ACT;CAUS,0.000176,0.00087975,s ə d i a k a n
+sedia,sediakan,V;ACT;TR,0.000176,0.00087975,s ə d i a k a n
+sedia,sedianya,V;ACT;DEF,6.4e-05,0.00087975,s ə d i a ɲ a
+sedia,sedianya,V;ACT;PSS3S;DEF,6.4e-05,0.00087975,s ə d i a ɲ a
+selenggara,menyelenggarakan,V;ACT;APPL,0.001881,0.0005945454545454,m ə ɲ ə l ə ŋ ɡ a r a k a n
+selenggara,menyelenggarakan,V;ACT;CAUS,0.001881,0.0005945454545454,m ə ɲ ə l ə ŋ ɡ a r a k a n
+selenggara,menyelenggarakan,V;ACT;TR,0.001881,0.0005945454545454,m ə ɲ ə l ə ŋ ɡ a r a k a n
+selenggara,menyelenggarakannya,V;ACT;DEF,8e-06,0.0005945454545454,m ə ɲ ə l ə ŋ ɡ a r a k a n ɲ a
+selenggara,menyelenggarakannya,V;ACT;PSS3S;DEF,8e-06,0.0005945454545454,m ə ɲ ə l ə ŋ ɡ a r a k a n ɲ a
+selenggara,selenggarakan,V;ACT;APPL,0.000136,0.0005945454545454,s ə l ə ŋ ɡ a r a k a n
+selenggara,selenggarakan,V;ACT;CAUS,0.000136,0.0005945454545454,s ə l ə ŋ ɡ a r a k a n
+selenggara,selenggarakan,V;ACT;TR,0.000136,0.0005945454545454,s ə l ə ŋ ɡ a r a k a n
+selenggara,terselenggara,V;PASS,0.000147,0.0005945454545454,t ə r s ə l ə ŋ ɡ a r a
+selenggara,terselenggaranya,V;PASS;DEF,0.000163,0.0005945454545454,t ə r s ə l ə ŋ ɡ a r a ɲ a
+selenggara,terselenggaranya,V;PASS;PSS3S;DEF,0.000163,0.0005945454545454,t ə r s ə l ə ŋ ɡ a r a ɲ a
+selesai,diselesaikan,V;PASS;APPL,0.000846,0.0007712307692307,d i s ə l ə s a i k a n
+selesai,diselesaikan,V;PASS;CAUS,0.000846,0.0007712307692307,d i s ə l ə s a i k a n
+selesai,diselesaikan,V;PASS;TR,0.000846,0.0007712307692307,d i s ə l ə s a i k a n
+selesai,diselesaikannya,V;PASS;DEF,1.1e-05,0.0007712307692307,d i s ə l ə s a i k a n ɲ a
+selesai,diselesaikannya,V;PASS;PSS3S;DEF,1.1e-05,0.0007712307692307,d i s ə l ə s a i k a n ɲ a
+selesai,menyelesaikan,V;ACT;APPL,0.002331,0.0007712307692307,m ə ɲ ə l ə s a i k a n
+selesai,menyelesaikan,V;ACT;CAUS,0.002331,0.0007712307692307,m ə ɲ ə l ə s a i k a n
+selesai,menyelesaikan,V;ACT;TR,0.002331,0.0007712307692307,m ə ɲ ə l ə s a i k a n
+selesai,menyelesaikannya,V;ACT;DEF,7.9e-05,0.0007712307692307,m ə ɲ ə l ə s a i k a n ɲ a
+selesai,menyelesaikannya,V;ACT;PSS3S;DEF,7.9e-05,0.0007712307692307,m ə ɲ ə l ə s a i k a n ɲ a
+selesai,selesaikan,V;ACT;APPL,0.000105,0.0007712307692307,s ə l ə s a i k a n
+selesai,selesaikan,V;ACT;CAUS,0.000105,0.0007712307692307,s ə l ə s a i k a n
+selesai,selesaikan,V;ACT;TR,0.000105,0.0007712307692307,s ə l ə s a i k a n
+sifat,bersifat,V;ACT,0.003215,0.00080375,b ə r s i f a t̚
+sifat,menyifatkan,V;ACT;APPL,0.0,0.00080375,m ə ɲ i f a t k a n
+sifat,menyifatkan,V;ACT;CAUS,0.0,0.00080375,m ə ɲ i f a t k a n
+sifat,menyifatkan,V;ACT;TR,0.0,0.00080375,m ə ɲ i f a t k a n
+tahap,bertahap,V;ACT,0.000618,0.000618,b ə r t a h a p̚
+tambah,bertambah,V;ACT,0.001316,0.0007032142857142,b ə r t a m b a h
+tambah,bertambahlah,V;ACT;FOC,7e-06,0.0007032142857142,b ə r t a m b a h l a h
+tambah,bertambahnya,V;ACT;DEF,0.000282,0.0007032142857142,b ə r t a m b a h ɲ a
+tambah,bertambahnya,V;ACT;PSS3S;DEF,0.000282,0.0007032142857142,b ə r t a m b a h ɲ a
+tambah,ditambah,V;PASS,0.001078,0.0007032142857142,d i t a m b a h
+tambah,ditambahkan,V;PASS;APPL,0.000359,0.0007032142857142,d i t a m b a h k a n
+tambah,ditambahkan,V;PASS;CAUS,0.000359,0.0007032142857142,d i t a m b a h k a n
+tambah,ditambahkan,V;PASS;TR,0.000359,0.0007032142857142,d i t a m b a h k a n
+tambah,ditambahkanlah,V;PASS;FOC,0.0,0.0007032142857142,d i t a m b a h k a n l a h
+tambah,ditambahkannya,V;PASS;DEF,6e-06,0.0007032142857142,d i t a m b a h k a n ɲ a
+tambah,ditambahkannya,V;PASS;PSS3S;DEF,6e-06,0.0007032142857142,d i t a m b a h k a n ɲ a
+tambah,ditambahnya,V;PASS;DEF,1e-06,0.0007032142857142,d i t a m b a h ɲ a
+tambah,ditambahnya,V;PASS;PSS3S;DEF,1e-06,0.0007032142857142,d i t a m b a h ɲ a
+tambah,menambah,V;ACT,0.002716,0.0007032142857142,m ə n a m b a h
+tambah,menambahi,V;ACT;ITER,9e-06,0.0007032142857142,m ə n a m b a h i
+tambah,menambahkan,V;ACT;APPL,0.003444,0.0007032142857142,m ə n a m b a h k a n
+tambah,menambahkan,V;ACT;CAUS,0.003444,0.0007032142857142,m ə n a m b a h k a n
+tambah,menambahkan,V;ACT;TR,0.003444,0.0007032142857142,m ə n a m b a h k a n
+tambah,menambahkannya,V;ACT;DEF,1.1e-05,0.0007032142857142,m ə n a m b a h k a ɲ ɲ a
+tambah,menambahkannya,V;ACT;PSS3S;DEF,1.1e-05,0.0007032142857142,m ə n a m b a h k a ɲ ɲ a
+tambah,menambahnya,V;ACT;DEF,7e-06,0.0007032142857142,m ə n a m b a h ɲ a
+tambah,menambahnya,V;ACT;PSS3S;DEF,7e-06,0.0007032142857142,m ə n a m b a h ɲ a
+tambah,tambahkan,V;ACT;APPL,0.000179,0.0007032142857142,t a m b a h k a n
+tambah,tambahkan,V;ACT;CAUS,0.000179,0.0007032142857142,t a m b a h k a n
+tambah,tambahkan,V;ACT;TR,0.000179,0.0007032142857142,t a m b a h k a n
+tambah,tambahnya,V;ACT;DEF,0.001001,0.0007032142857142,t a m b a h ɲ a
+tambah,tambahnya,V;ACT;PSS3S;DEF,0.001001,0.0007032142857142,t a m b a h ɲ a
+tambah,tertambah,V;PASS,2e-06,0.0007032142857142,t ə r t a m b a h
+tarik,ditarik,V;PASS,0.000341,0.00075425,d i t a r ɪ k̚
+tarik,ditariknya,V;PASS;DEF,7e-06,0.00075425,d i t a r ɪ k ɲ a
+tarik,ditariknya,V;PASS;PSS3S;DEF,7e-06,0.00075425,d i t a r ɪ k ɲ a
+tarik,menarik,V;ACT,0.005471,0.00075425,m ə n a r ɪ k̚
+tarik,menariknya,V;ACT;DEF,8.3e-05,0.00075425,m ə n a r ɪ k ɲ a
+tarik,menariknya,V;ACT;PSS3S;DEF,8.3e-05,0.00075425,m ə n a r ɪ k ɲ a
+tarik,tariknya,V;ACT;DEF,2.1e-05,0.00075425,t a r ɪ k ɲ a
+tarik,tariknya,V;ACT;PSS3S;DEF,2.1e-05,0.00075425,t a r ɪ k ɲ a
+temu,bertemu,V;ACT,0.001634,0.0005955675675675,b ə r t ə m u
+temu,bertemulah,V;ACT;FOC,2e-06,0.0005955675675675,b ə r t ə m u l a h
+temu,bertemunya,V;ACT;DEF,2.7e-05,0.0005955675675675,b ə r t ə m u ɲ a
+temu,bertemunya,V;ACT;PSS3S;DEF,2.7e-05,0.0005955675675675,b ə r t ə m u ɲ a
+temu,dipertemukan,V;PASS;APPL,7.6e-05,0.0005955675675675,d i p ə r t ə m u k a n
+temu,dipertemukan,V;PASS;CAUS,7.6e-05,0.0005955675675675,d i p ə r t ə m u k a n
+temu,dipertemukan,V;PASS;TR,7.6e-05,0.0005955675675675,d i p ə r t ə m u k a n
+temu,ditemuinya,V;PASS;DEF,1.2e-05,0.0005955675675675,d i t ə m u i ɲ a
+temu,ditemuinya,V;PASS;PSS3S;DEF,1.2e-05,0.0005955675675675,d i t ə m u i ɲ a
+temu,ditemukan,V;PASS;APPL,0.002577,0.0005955675675675,d i t ə m u k a n
+temu,ditemukan,V;PASS;CAUS,0.002577,0.0005955675675675,d i t ə m u k a n
+temu,ditemukan,V;PASS;TR,0.002577,0.0005955675675675,d i t ə m u k a n
+temu,ditemukanlah,V;PASS;FOC,3e-06,0.0005955675675675,d i t ə m u k a n l a h
+temu,ditemukannya,V;PASS;DEF,0.000126,0.0005955675675675,d i t ə m u k a n ɲ a
+temu,ditemukannya,V;PASS;PSS3S;DEF,0.000126,0.0005955675675675,d i t ə m u k a n ɲ a
+temu,kutemukan,V;ACT;APPL;SG;1,7e-06,0.0005955675675675,k u t ə m u k a n
+temu,kutemukan,V;ACT;CAUS;SG;1;,7e-06,0.0005955675675675,k u t ə m u k a n
+temu,kutemukan,V;ACT;TR;SG;1;,7e-06,0.0005955675675675,k u t ə m u k a n
+temu,mempertemukan,V;ACT;APPL,0.000169,0.0005955675675675,m ə m p ə r t ə m u k a n
+temu,mempertemukan,V;ACT;CAUS,0.000169,0.0005955675675675,m ə m p ə r t ə m u k a n
+temu,mempertemukan,V;ACT;TR,0.000169,0.0005955675675675,m ə m p ə r t ə m u k a n
+temu,mempertemukannya,V;ACT;DEF,4e-06,0.0005955675675675,m ə m p ə r t ə m u k a n ɲ a
+temu,mempertemukannya,V;ACT;PSS3S;DEF,4e-06,0.0005955675675675,m ə m p ə r t ə m u k a n ɲ a
+temu,menemui,V;ACT;ITER,0.000574,0.0005955675675675,m ə n ə m u i
+temu,menemuinya,V;ACT;DEF,2.6e-05,0.0005955675675675,m ə n ə m u i ɲ a
+temu,menemuinya,V;ACT;PSS3S;DEF,2.6e-05,0.0005955675675675,m ə n ə m u i ɲ a
+temu,menemukan,V;ACT;APPL,0.003204,0.0005955675675675,m ə n ə m u k a n
+temu,menemukan,V;ACT;CAUS,0.003204,0.0005955675675675,m ə n ə m u k a n
+temu,menemukan,V;ACT;TR,0.003204,0.0005955675675675,m ə n ə m u k a n
+temu,menemukanmu,V;ACT;2,2e-06,0.0005955675675675,m ə n ə m u k a n m u
+temu,menemukannya,V;ACT;DEF,5.2e-05,0.0005955675675675,m ə n ə m u k a n ɲ a
+temu,menemukannya,V;ACT;PSS3S;DEF,5.2e-05,0.0005955675675675,m ə n ə m u k a n ɲ a
+temu,temukan,V;ACT;APPL,0.000408,0.0005955675675675,t ə m u k a n
+temu,temukan,V;ACT;CAUS,0.000408,0.0005955675675675,t ə m u k a n
+temu,temukan,V;ACT;TR,0.000408,0.0005955675675675,t ə m u k a n
+temu,temukannya,V;ACT;DEF,2e-06,0.0005955675675675,t ə m u k a n ɲ a
+temu,temukannya,V;ACT;PSS3S;DEF,2e-06,0.0005955675675675,t ə m u k a n ɲ a
+tentu,ditentukan,V;PASS;APPL,0.001778,0.0009513333333333,d i t ə n t ʊ k a n
+tentu,ditentukan,V;PASS;CAUS,0.001778,0.0009513333333333,d i t ə n t ʊ k a n
+tentu,ditentukan,V;PASS;TR,0.001778,0.0009513333333333,d i t ə n t ʊ k a n
+tentu,ditentukanlah,V;PASS;FOC,0.0,0.0009513333333333,d i t ə n t u k a n l a h
+tentu,ditentukannya,V;PASS;DEF,4e-06,0.0009513333333333,d i t ə n t u k a n ɲ a
+tentu,ditentukannya,V;PASS;PSS3S;DEF,4e-06,0.0009513333333333,d i t ə n t u k a n ɲ a
+tentu,menentu,V;ACT,9.8e-05,0.0009513333333333,m ə n ə n t u
+tentu,menentukan,V;ACT;APPL,0.002775,0.0009513333333333,m ə n ə n t ʊ k a n
+tentu,menentukan,V;ACT;CAUS,0.002775,0.0009513333333333,m ə n ə n t ʊ k a n
+tentu,menentukan,V;ACT;TR,0.002775,0.0009513333333333,m ə n ə n t ʊ k a n
+tentu,menentukannya,V;ACT;DEF,1.1e-05,0.0009513333333333,m ə n ə n t u k a n ɲ a
+tentu,menentukannya,V;ACT;PSS3S;DEF,1.1e-05,0.0009513333333333,m ə n ə n t u k a n ɲ a
+tentu,tentukan,V;ACT;APPL,0.000161,0.0009513333333333,t ə n t ʊ k a n
+tentu,tentukan,V;ACT;CAUS,0.000161,0.0009513333333333,t ə n t ʊ k a n
+tentu,tentukan,V;ACT;TR,0.000161,0.0009513333333333,t ə n t ʊ k a n
+terap,diterapkan,V;PASS;APPL,0.001741,0.0009532307692307,d i t ə r a p k a n
+terap,diterapkan,V;PASS;CAUS,0.001741,0.0009532307692307,d i t ə r a p k a n
+terap,diterapkan,V;PASS;TR,0.001741,0.0009532307692307,d i t ə r a p k a n
+terap,diterapkannya,V;PASS;DEF,6.4e-05,0.0009532307692307,d i t ə r a p k a n ɲ a
+terap,diterapkannya,V;PASS;PSS3S;DEF,6.4e-05,0.0009532307692307,d i t ə r a p k a n ɲ a
+terap,menerapkan,V;ACT;APPL,0.002096,0.0009532307692307,m ə n ə r a p k a n
+terap,menerapkan,V;ACT;CAUS,0.002096,0.0009532307692307,m ə n ə r a p k a n
+terap,menerapkan,V;ACT;TR,0.002096,0.0009532307692307,m ə n ə r a p k a n
+terap,menerapkannya,V;ACT;DEF,8.7e-05,0.0009532307692307,m ə n ə r a p k a n ɲ a
+terap,menerapkannya,V;ACT;PSS3S;DEF,8.7e-05,0.0009532307692307,m ə n ə r a p k a n ɲ a
+terap,terapkan,V;ACT;APPL,0.000193,0.0009532307692307,t ə r a p k a n
+terap,terapkan,V;ACT;CAUS,0.000193,0.0009532307692307,t ə r a p k a n
+terap,terapkan,V;ACT;TR,0.000193,0.0009532307692307,t ə r a p k a n
+terjadi,terjadilah,V;PASS;FOC,6.9e-05,0.0014163333333333,t ə r d͡ʒ a d i l a h
+terjadi,terjadinya,V;PASS;DEF,0.00209,0.0014163333333333,t ə r d͡ʒ a d i ɲ a
+terjadi,terjadinya,V;PASS;PSS3S;DEF,0.00209,0.0014163333333333,t ə r d͡ʒ a d i ɲ a
+tetap,berketetapan,V;ACT,5e-06,0.00063695,b ə r k ə t ə t a p a n
+tetap,ditetapkan,V;PASS;APPL,0.002624,0.00063695,d i t ə t a p k a n
+tetap,ditetapkan,V;PASS;CAUS,0.002624,0.00063695,d i t ə t a p k a n
+tetap,ditetapkan,V;PASS;TR,0.002624,0.00063695,d i t ə t a p k a n
+tetap,ditetapkanlah,V;PASS;FOC,7e-06,0.00063695,d i t ə t a p k a n l a h
+tetap,ditetapkannya,V;PASS;DEF,7.3e-05,0.00063695,d i t ə t a p k a ɲ ɲ a
+tetap,ditetapkannya,V;PASS;PSS3S;DEF,7.3e-05,0.00063695,d i t ə t a p k a ɲ ɲ a
+tetap,menetap,V;ACT,0.000212,0.00063695,m ə n ə t a p̚
+tetap,menetapi,V;ACT;ITER,6e-06,0.00063695,m ə n ə t a p i
+tetap,menetapkan,V;ACT;APPL,0.001385,0.00063695,m ə n ə t a p k a n
+tetap,menetapkan,V;ACT;CAUS,0.001385,0.00063695,m ə n ə t a p k a n
+tetap,menetapkan,V;ACT;TR,0.001385,0.00063695,m ə n ə t a p k a n
+tetap,menetapkannya,V;ACT;DEF,8e-06,0.00063695,m ə n ə t a p k a ɲ ɲ a
+tetap,menetapkannya,V;ACT;PSS3S;DEF,8e-06,0.00063695,m ə n ə t a p k a ɲ ɲ a
+tetap,menetaplah,V;ACT;FOC,0.0,0.00063695,m ə n ə t a p l a h
+tetap,menetapnya,V;ACT;DEF,1e-06,0.00063695,m ə n ə t a p ɲ a
+tetap,menetapnya,V;ACT;PSS3S;DEF,1e-06,0.00063695,m ə n ə t a p ɲ a
+tetap,tetapkan,V;ACT;APPL,0.000106,0.00063695,t ə t a p k a n
+tetap,tetapkan,V;ACT;CAUS,0.000106,0.00063695,t ə t a p k a n
+tetap,tetapkan,V;ACT;TR,0.000106,0.00063695,t ə t a p k a n
+timbul,ditimbulkan,V;PASS;APPL,0.000305,0.0007156363636363,d i t ɪ m b ʊ l k a n
+timbul,ditimbulkan,V;PASS;CAUS,0.000305,0.0007156363636363,d i t ɪ m b ʊ l k a n
+timbul,ditimbulkan,V;PASS;TR,0.000305,0.0007156363636363,d i t ɪ m b ʊ l k a n
+timbul,ditimbulkannya,V;PASS;DEF,4.2e-05,0.0007156363636363,d i t i m b ʊ l k a n ɲ a
+timbul,ditimbulkannya,V;PASS;PSS3S;DEF,4.2e-05,0.0007156363636363,d i t i m b ʊ l k a n ɲ a
+timbul,menimbulkan,V;ACT;APPL,0.002276,0.0007156363636363,m ə n ɪ m b ʊ l k a n
+timbul,menimbulkan,V;ACT;CAUS,0.002276,0.0007156363636363,m ə n ɪ m b ʊ l k a n
+timbul,menimbulkan,V;ACT;TR,0.002276,0.0007156363636363,m ə n ɪ m b ʊ l k a n
+timbul,timbulkan,V;ACT;APPL,1.5e-05,0.0007156363636363,t ɪ m b ʊ l k a n
+timbul,timbulkan,V;ACT;CAUS,1.5e-05,0.0007156363636363,t ɪ m b ʊ l k a n
+timbul,timbulkan,V;ACT;TR,1.5e-05,0.0007156363636363,t ɪ m b ʊ l k a n
+tingkat,bertingkat,V;ACT,0.000111,0.002644,b ə r t ɪ ŋ k a t̚
+tingkat,meningkat,V;ACT,0.003771,0.002644,m ə n ɪ ŋ k a t̚
+tingkat,meningkatkan,V;ACT;APPL,0.011174,0.002644,m ə n ɪ ŋ k a t k a n
+tingkat,meningkatkan,V;ACT;CAUS,0.011174,0.002644,m ə n ɪ ŋ k a t k a n
+tingkat,meningkatkan,V;ACT;TR,0.011174,0.002644,m ə n ɪ ŋ k a t k a n
+tingkat,meningkatkannya,V;ACT;DEF,1.1e-05,0.002644,m ə n i ŋ k a t k a n ɲ a
+tingkat,meningkatkannya,V;ACT;PSS3S;DEF,1.1e-05,0.002644,m ə n i ŋ k a t k a n ɲ a
+tingkat,meningkatnya,V;ACT;DEF,0.00073,0.002644,m ə n ɪ ŋ k a t ɲ a
+tingkat,meningkatnya,V;ACT;PSS3S;DEF,0.00073,0.002644,m ə n ɪ ŋ k a t ɲ a
+tingkat,tertingkatkan,V;PASS;APPL,1e-06,0.002644,t ə r t ɪ ŋ k a t k a n
+tingkat,tertingkatkan,V;PASS;CAUS,1e-06,0.002644,t ə r t ɪ ŋ k a t k a n
+tingkat,tertingkatkan,V;PASS;TR,1e-06,0.002644,t ə r t ɪ ŋ k a t k a n
+tingkat,tingkatkan,V;ACT;APPL,0.000257,0.002644,t ɪ ŋ k a t k a n
+tingkat,tingkatkan,V;ACT;CAUS,0.000257,0.002644,t ɪ ŋ k a t k a n
+tingkat,tingkatkan,V;ACT;TR,0.000257,0.002644,t ɪ ŋ k a t k a n
+tuju,bertujuan,V;ACT,0.003781,0.000695,b ə r t u d͡ʒ u a n
+tuju,dituju,V;PASS,0.000166,0.000695,d i t u d͡ʒ u
+tuju,ditujukan,V;PASS;APPL,0.001101,0.000695,d i t u d͡ʒ ʊ k a n
+tuju,ditujukan,V;PASS;CAUS,0.001101,0.000695,d i t u d͡ʒ ʊ k a n
+tuju,ditujukan,V;PASS;TR,0.001101,0.000695,d i t u d͡ʒ ʊ k a n
+tuju,ditujukannya,V;PASS;DEF,0.0,0.000695,d i t u d͡ʒ u k a n ɲ a
+tuju,ditujukannya,V;PASS;PSS3S;DEF,0.0,0.000695,d i t u d͡ʒ u k a n ɲ a
+tuju,ditujunya,V;PASS;DEF,2e-06,0.000695,d i t u d͡ʒ u ɲ a
+tuju,ditujunya,V;PASS;PSS3S;DEF,2e-06,0.000695,d i t u d͡ʒ u ɲ a
+tuju,menuju,V;ACT,0.004337,0.000695,m ə n u d͡ʒ u
+tuju,menujukan,V;ACT;APPL,1.1e-05,0.000695,m ə n u d͡ʒ ʊ k a n
+tuju,menujukan,V;ACT;CAUS,1.1e-05,0.000695,m ə n u d͡ʒ ʊ k a n
+tuju,menujukan,V;ACT;TR,1.1e-05,0.000695,m ə n u d͡ʒ ʊ k a n
+tuju,tertuju,V;PASS,0.000113,0.000695,t ə r t u d͡ʒ u
+tuju,tujukan,V;ACT;APPL,2.6e-05,0.000695,t u d͡ʒ ʊ k a n
+tuju,tujukan,V;ACT;CAUS,2.6e-05,0.000695,t u d͡ʒ ʊ k a n
+tuju,tujukan,V;ACT;TR,2.6e-05,0.000695,t u d͡ʒ ʊ k a n
+tunjuk,dipertunjukkan,V;PASS;APPL,1.7e-05,0.00071040625,d i p ə r t ʊ n d͡ʒ ʊ k k a n
+tunjuk,dipertunjukkan,V;PASS;CAUS,1.7e-05,0.00071040625,d i p ə r t ʊ n d͡ʒ ʊ k k a n
+tunjuk,dipertunjukkan,V;PASS;TR,1.7e-05,0.00071040625,d i p ə r t ʊ n d͡ʒ ʊ k k a n
+tunjuk,ditunjuk,V;PASS,0.00054,0.00071040625,d i t ʊ n d͡ʒ ʊ k̚
+tunjuk,ditunjukan,V;PASS,8.9e-05,0.00071040625,d i t ʊ n d͡ʒ ʊ k a n
+tunjuk,ditunjukannya,V;PASS;DEF,0.0,0.00071040625,d i t ʊ n d͡ʒ u k a n ɲ a
+tunjuk,ditunjukannya,V;PASS;PSS3S;DEF,0.0,0.00071040625,d i t ʊ n d͡ʒ u k a n ɲ a
+tunjuk,ditunjukkan,V;PASS;APPL,0.000584,0.00071040625,d i t ʊ n d͡ʒ ʊ k k a n
+tunjuk,ditunjukkan,V;PASS;CAUS,0.000584,0.00071040625,d i t ʊ n d͡ʒ ʊ k k a n
+tunjuk,ditunjukkan,V;PASS;TR,0.000584,0.00071040625,d i t ʊ n d͡ʒ ʊ k k a n
+tunjuk,ditunjukkannya,V;PASS;DEF,7e-06,0.00071040625,d i t ʊ n d͡ʒ ʊ k k a n ɲ a
+tunjuk,ditunjukkannya,V;PASS;PSS3S;DEF,7e-06,0.00071040625,d i t ʊ n d͡ʒ ʊ k k a n ɲ a
+tunjuk,ditunjuklah,V;PASS;FOC,2e-06,0.00071040625,d i t ʊ n d͡ʒ ʊ k l a h
+tunjuk,ditunjuknya,V;PASS;DEF,9e-06,0.00071040625,d i t ʊ n d͡ʒ ʊ k ɲ a
+tunjuk,ditunjuknya,V;PASS;PSS3S;DEF,9e-06,0.00071040625,d i t ʊ n d͡ʒ ʊ k ɲ a
+tunjuk,mempertunjukkan,V;ACT;APPL,1.2e-05,0.00071040625,m ə m p ə r t ʊ n d͡ʒ ʊ k k a n
+tunjuk,mempertunjukkan,V;ACT;CAUS,1.2e-05,0.00071040625,m ə m p ə r t ʊ n d͡ʒ ʊ k k a n
+tunjuk,mempertunjukkan,V;ACT;TR,1.2e-05,0.00071040625,m ə m p ə r t ʊ n d͡ʒ ʊ k k a n
+tunjuk,mempertunjukkannya,V;ACT;DEF,1e-06,0.00071040625,m ə m p ə r t ʊ n d͡ʒ ʊ k k a n ɲ a
+tunjuk,mempertunjukkannya,V;ACT;PSS3S;DEF,1e-06,0.00071040625,m ə m p ə r t ʊ n d͡ʒ ʊ k k a n ɲ a
+tunjuk,menunjuk,V;ACT,0.000367,0.00071040625,m ə n ʊ n d͡ʒ ʊ k̚
+tunjuk,menunjukkan,V;ACT;APPL,0.006489,0.00071040625,m ə n ʊ n d͡ʒ ʊ k k a n
+tunjuk,menunjukkan,V;ACT;CAUS,0.006489,0.00071040625,m ə n ʊ n d͡ʒ ʊ k k a n
+tunjuk,menunjukkan,V;ACT;TR,0.006489,0.00071040625,m ə n ʊ n d͡ʒ ʊ k k a n
+tunjuk,menunjukkannya,V;ACT;DEF,1.6e-05,0.00071040625,m ə n ʊ n d͡ʒ ʊ k k a n ɲ a
+tunjuk,menunjukkannya,V;ACT;PSS3S;DEF,1.6e-05,0.00071040625,m ə n ʊ n d͡ʒ ʊ k k a n ɲ a
+tunjuk,menunjuknya,V;ACT;DEF,1e-06,0.00071040625,m ə n ʊ n d͡ʒ ʊ k ɲ a
+tunjuk,menunjuknya,V;ACT;PSS3S;DEF,1e-06,0.00071040625,m ə n ʊ n d͡ʒ ʊ k ɲ a
+tunjuk,tertunjuk,V;PASS,1e-06,0.00071040625,t ə r t ʊ n d͡ʒ ʊ k̚
+tunjuk,tunjukkan,V;ACT;APPL,0.00012,0.00071040625,t ʊ n d͡ʒ ʊ k k a n
+tunjuk,tunjukkan,V;ACT;CAUS,0.00012,0.00071040625,t ʊ n d͡ʒ ʊ k k a n
+tunjuk,tunjukkan,V;ACT;TR,0.00012,0.00071040625,t ʊ n d͡ʒ ʊ k k a n
+ujar,berujar,V;ACT,8.1e-05,0.002791,b ə r u d͡ʒ a r
+ujar,ujarnya,V;ACT;DEF,0.004146,0.002791,u d͡ʒ a r ɲ a
+ujar,ujarnya,V;ACT;PSS3S;DEF,0.004146,0.002791,u d͡ʒ a r ɲ a
+usia,berusia,V;ACT,0.00134,0.00134,b ə r u s i a̯
+wujud,berwujud,V;ACT,0.000114,0.000565294117647,b ə r w u d͡ʒ ʊ t̚
+wujud,mewujud,V;ACT,2.8e-05,0.000565294117647,m ə w u d͡ʒ ʊ t̚
+wujud,mewujudkan,V;ACT;APPL,0.002481,0.000565294117647,m ə w u d͡ʒ ʊ t k a n
+wujud,mewujudkan,V;ACT;CAUS,0.002481,0.000565294117647,m ə w u d͡ʒ ʊ t k a n
+wujud,mewujudkan,V;ACT;TR,0.002481,0.000565294117647,m ə w u d͡ʒ ʊ t k a n
+wujud,mewujudkannya,V;ACT;DEF,0.000121,0.000565294117647,m ə w u d͡ʒ ʊ t k a ɲ ɲ a
+wujud,mewujudkannya,V;ACT;PSS3S;DEF,0.000121,0.000565294117647,m ə w u d͡ʒ ʊ t k a ɲ ɲ a
+wujud,terwujud,V;PASS,0.000725,0.000565294117647,t ə r w u d͡ʒ ʊ t̚
+wujud,terwujudkan,V;PASS;APPL,1.1e-05,0.000565294117647,t ə r w u d͡ʒ ʊ t k a n
+wujud,terwujudkan,V;PASS;CAUS,1.1e-05,0.000565294117647,t ə r w u d͡ʒ ʊ t k a n
+wujud,terwujudkan,V;PASS;TR,1.1e-05,0.000565294117647,t ə r w u d͡ʒ ʊ t k a n
+wujud,terwujudlah,V;PASS;FOC,4e-06,0.000565294117647,t ə r w u d͡ʒ ʊ t l a h
+wujud,terwujudnya,V;PASS;DEF,0.000365,0.000565294117647,t ə r w u d͡ʒ ʊ t ɲ a
+wujud,terwujudnya,V;PASS;PSS3S;DEF,0.000365,0.000565294117647,t ə r w u d͡ʒ ʊ t ɲ a
+wujud,wujudkan,V;ACT;APPL,9.7e-05,0.000565294117647,w u d͡ʒ ʊ t k a n
+wujud,wujudkan,V;ACT;CAUS,9.7e-05,0.000565294117647,w u d͡ʒ ʊ t k a n
+wujud,wujudkan,V;ACT;TR,9.7e-05,0.000565294117647,w u d͡ʒ ʊ t k a n

@@ -1,0 +1,1543 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+tanggap,tanggap,"V;NFIN
+",0.0002333333333333,0.0006571428571428,t a ŋ ɡ a p
+tanggap,tumanggap,"V;PFV;AGFOC
+",0.0014666666666666,0.0006571428571428,t u m a ŋ ɡ a p
+tanggap,tumatanggap,"V;IPFV;AGFOC
+",0.0004666666666666,0.0006571428571428,t u m a t a ŋ ɡ a p
+tanggap,tatanggap,"V;AGFOC;LGSPEC1
+",0.0004333333333333,0.0006571428571428,t a t a ŋ ɡ a p
+tanggap,tinanggap,"V;PFV;PFOC
+",0.0012,0.0006571428571428,t i n a ŋ ɡ a p
+tanggap,tinatanggap,"V;IPFV;PFOC
+",0.0002666666666666,0.0006571428571428,t i n a t a ŋ ɡ a p
+tanggap,tatanggapin,"V;PFOC;LGSPEC1
+",0.0005333333333333,0.0006571428571428,t a t a ŋ ɡ a p i n
+kuha,kuha,"V;NFIN
+",0.0004666666666666,0.0004547619047619,k u h a ʔ
+kuha,kumuha,"V;PFV;AGFOC
+",0.001,0.0004547619047619,k u m u h a ʔ
+kuha,kumukuha,"V;IPFV;AGFOC
+",0.0002333333333333,0.0004547619047619,k u m u k u h a ʔ
+kuha,kukuha,"V;AGFOC;LGSPEC1
+",0.0004333333333333,0.0004547619047619,k u k u h a ʔ
+kuha,kinuha,"V;PFV;PFOC
+",0.0006666666666666,0.0004547619047619,k i n u h a ʔ
+kuha,kinukuha,"V;IPFV;PFOC
+",0.0001666666666666,0.0004547619047619,k i n u k u h a ʔ
+kuha,kukuhain,"V;PFOC;LGSPEC1
+",0.0,0.0004547619047619,k u k u h a ʔ i n
+dagdag,dagdag,"V;NFIN
+",0.0067333333333333,0.0010238095238095,d a ɡ d a ɡ
+dagdag,nagdagdag,"V;PFV;AGFOC
+",0.0001,0.0010238095238095,n a ɡ d a ɡ d a ɡ
+dagdag,nagdaragdag,"V;IPFV;AGFOC
+",0.0,0.0010238095238095,n a ɡ d a ɾ a ɡ d a ɡ
+dagdag,magdaragdag,"V;AGFOC;LGSPEC1
+",3.3333333333333335e-05,0.0010238095238095,m a ɡ d a ɾ a ɡ d a ɡ
+dagdag,dinagdagan,"V;PFV;PFOC
+",0.0002666666666666,0.0010238095238095,d i n a ɡ d a ɡ a n
+dagdag,dinaragdagan,"V;IPFV;PFOC
+",0.0,0.0010238095238095,d i n a ɾ a ɡ d a ɡ a n
+dagdag,dadagdagan,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0010238095238095,d a d a ɡ d a ɡ a n
+galit,galit,"V;NFIN
+",0.0019333333333333,0.0003466666666666,ɡ a l i t
+galit,nanggalit,"V;PFV;AGFOC
+",0.0,0.0003466666666666,n a ŋ ɡ a l i t
+galit,nanggagalit,"V;IPFV;AGFOC
+",0.0,0.0003466666666666,n a ŋ ɡ a ɡ a l i t
+galit,manggagalit,"V;AGFOC;LGSPEC1
+",0.0,0.0003466666666666,m a ŋ ɡ a ɡ a l i t
+galit,ginalit,"V;PFV;PFOC
+",0.0,0.0003466666666666,ɡ i n a l i t
+galit,ginagalit,"V;IPFV;PFOC
+",0.0,0.0003466666666666,ɡ i n a ɡ a l i t
+galit,gagalitin,"V;PFOC;LGSPEC1
+",0.0,0.0003466666666666,ɡ a ɡ a l i t i n
+galit,galit,"V;NFIN
+",0.0019333333333333,0.0003466666666666,ɡ a l i t
+galit,nagalit,"V;PFV;AGFOC
+",0.0005666666666666,0.0003466666666666,n a ɡ a l i t
+galit,nagagalit,"V;IPFV;AGFOC
+",0.0001,0.0003466666666666,n a ɡ a ɡ a l i t
+galit,magagalit,"V;AGFOC;LGSPEC1
+",0.0001,0.0003466666666666,m a ɡ a ɡ a l i t
+galit,ikinagalit,"V;PFV;PFOC
+",0.0001,0.0003466666666666,ʔ i k i n a ɡ a l i t
+galit,ikinakagalit,"V;IPFV;PFOC
+",0.0,0.0003466666666666,ʔ i k i n a k a ɡ a l i t
+galit,ikakagalit,"V;PFOC;LGSPEC1
+",0.0,0.0003466666666666,ʔ i k a k a ɡ a l i t
+galit,galit,"V;NFIN
+",0.0019333333333333,0.0003466666666666,ɡ a l i t
+galit,nanggalit,"V;PFV;AGFOC
+",0.0,0.0003466666666666,n a ŋ ɡ a l i t
+galit,nanggagalit,"V;IPFV;AGFOC
+",0.0,0.0003466666666666,n a ŋ ɡ a ɡ a l i t
+galit,manggagalit,"V;AGFOC;LGSPEC1
+",0.0,0.0003466666666666,m a ŋ ɡ a ɡ a l i t
+galit,ginalit,"V;PFV;PFOC
+",0.0,0.0003466666666666,ɡ i n a l i t
+galit,ginagalit,"V;IPFV;PFOC
+",0.0,0.0003466666666666,ɡ i n a ɡ a l i t
+galit,gagalitin,"V;PFOC;LGSPEC1
+",0.0,0.0003466666666666,ɡ a ɡ a l i t i n
+galit,galit,"V;NFIN
+",0.0019333333333333,0.0003466666666666,ɡ a l i t
+galit,pinagalitan,"V;PFV;PFOC
+",6.666666666666667e-05,0.0003466666666666,p i n a ɡ a l i t a n
+galit,pinapagalitan,"V;IPFV;PFOC
+",0.0,0.0003466666666666,p i n a p a ɡ a l i t a n
+galit,papagalitan,"V;PFOC;LGSPEC1
+",0.0,0.0003466666666666,p a p a ɡ a l i t a n
+sagot,sagot,"V;NFIN
+",0.0025333333333333,0.0006999999999999,s a ɡ o t
+sagot,sumagot,"V;PFV;AGFOC
+",0.0006666666666666,0.0006999999999999,s u m a ɡ o t
+sagot,sumasagot,"V;IPFV;AGFOC
+",0.0001666666666666,0.0006999999999999,s u m a s a ɡ o t
+sagot,sasagot,"V;AGFOC;LGSPEC1
+",3.3333333333333335e-05,0.0006999999999999,s a s a ɡ o t
+sagot,sinagot,"V;PFV;PFOC
+",0.0010333333333333,0.0006999999999999,s i n a ɡ o t
+sagot,sinasagot,"V;IPFV;PFOC
+",0.0001333333333333,0.0006999999999999,s i n a s a ɡ o t
+sagot,sasagutin,"V;PFOC;LGSPEC1
+",0.0003333333333333,0.0006999999999999,s a s a ɡ u t i n
+dating,dating,"V;NFIN
+",0.0080666666666666,0.0020095238095238,d a t i ŋ
+dating,dumating,"V;PFV;AGFOC
+",0.0033,0.0020095238095238,d u m a t i ŋ
+dating,dumarating,"V;IPFV;AGFOC
+",0.0005333333333333,0.0020095238095238,d u m a ɾ a t i ŋ
+dating,darating,"V;AGFOC;LGSPEC1
+",0.0021333333333333,0.0020095238095238,d a ɾ a t i ŋ
+dating,dinatnan,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0020095238095238,d i n a t n a n
+dating,dinaratnan,"V;IPFV;PFOC
+",0.0,0.0020095238095238,d i n a ɾ a t n a n
+dating,daratnan,"V;PFOC;LGSPEC1
+",0.0,0.0020095238095238,d a ɾ a t n a n
+tanong,tanong,"V;NFIN
+",0.0035,0.000847619047619,t a n o ŋ
+tanong,nagtanong,"V;PFV;AGFOC
+",0.0003666666666666,0.000847619047619,n a ɡ t a n o ŋ
+tanong,nagtatanong,"V;IPFV;AGFOC
+",0.0006333333333333,0.000847619047619,n a ɡ t a t a n o ŋ
+tanong,magtatanong,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.000847619047619,m a ɡ t a t a n o ŋ
+tanong,tinanong,"V;PFV;PFOC
+",0.0008333333333333,0.000847619047619,t i n a n o ŋ
+tanong,tinatanong,"V;IPFV;PFOC
+",0.0002666666666666,0.000847619047619,t i n a t a n o ŋ
+tanong,tatanungin,"V;PFOC;LGSPEC1
+",0.0002666666666666,0.000847619047619,t a t a n u ŋ i n
+akala,akala,"V;NFIN
+",0.0011666666666666,0.0002666666666666,ʔ a k a l a
+akala,nag-akala,"V;PFV;AGFOC
+",3.3333333333333335e-05,0.0002666666666666,n a ɡ a k a l a ʔ
+akala,nag-aakala,"V;IPFV;AGFOC
+",0.0,0.0002666666666666,n a ɡ a ʔ a k a l a ʔ
+akala,mag-aakala,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.0002666666666666,m a ɡ a ʔ a k a l a
+akala,inakala,"V;PFV;PFOC
+",0.0002666666666666,0.0002666666666666,ʔ i n a k a l a ʔ
+akala,inaakala,"V;IPFV;PFOC
+",0.0001666666666666,0.0002666666666666,ʔ i n a ʔ a k a l a
+akala,aakalain,"V;PFOC;LGSPEC1
+",0.0001666666666666,0.0002666666666666,ʔ a ʔ a k a l a ʔ i n
+dalo,dalo,"V;NFIN
+",0.0,0.0002428571428571,d a l o
+dalo,dumalo,"V;PFV;AGFOC
+",0.0008666666666666,0.0002428571428571,d u m a l o
+dalo,dumadalo,"V;IPFV;AGFOC
+",0.0001666666666666,0.0002428571428571,d u m a d a l o
+dalo,dadalo,"V;AGFOC;LGSPEC1
+",0.0004666666666666,0.0002428571428571,d a d a l o
+dalo,dinaluhan,"V;PFV;PFOC
+",0.0001333333333333,0.0002428571428571,d i n a l u h a n
+dalo,dinadaluhan,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0002428571428571,d i n a d a l u h a n
+dalo,dadaluhan,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0002428571428571,d a d a l u h a n
+pansin,pansin,"V;NFIN
+",0.0013666666666666,0.0005095238095238,p a n s i n
+pansin,napansin,"V;PFV;AGFOC
+",0.0011,0.0005095238095238,n a p a n s i n
+pansin,napapansin,"V;IPFV;AGFOC
+",0.0002666666666666,0.0005095238095238,n a p a p a n s i n
+pansin,mapapansin,"V;AGFOC;LGSPEC1
+",0.0003,0.0005095238095238,m a p a p a n s i n
+pansin,pinansin,"V;PFV;PFOC
+",0.0002333333333333,0.0005095238095238,p i n a n s i n
+pansin,pinapansin,"V;IPFV;PFOC
+",0.0001666666666666,0.0005095238095238,p i n a p a n s i n
+pansin,papansinin,"V;PFOC;LGSPEC1
+",0.0001333333333333,0.0005095238095238,p a p a n s i n i n
+bawal,bawal,"V;NFIN
+",0.0015666666666666,0.0002666666666666,b a w a l
+bawal,nagbawal,"V;PFV;AGFOC
+",0.0,0.0002666666666666,n a ɡ b a w a l
+bawal,nagbabawal,"V;IPFV;AGFOC
+",0.0002333333333333,0.0002666666666666,n a ɡ b a b a w a l
+bawal,magbabawal,"V;AGFOC;LGSPEC1
+",0.0,0.0002666666666666,m a ɡ b a b a w a l
+bawal,ibinawal,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0002666666666666,ʔ i b i n a w a l
+bawal,ibinabawal,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0002666666666666,ʔ i b i n a b a w a l
+bawal,ibabawal,"V;PFOC;LGSPEC1
+",0.0,0.0002666666666666,ʔ i b a b a w a l
+umpisa,umpisa,"V;NFIN
+",0.0003666666666666,0.000195238095238,ʔ u m p i s a
+umpisa,nag-umpisa,"V;PFV;AGFOC
+",0.0004333333333333,0.000195238095238,n a ɡ u m p i s a
+umpisa,nag-uumpisa,"V;IPFV;AGFOC
+",0.0001666666666666,0.000195238095238,n a ɡ u ʔ u m p i s a
+umpisa,mag-uumpisa,"V;AGFOC;LGSPEC1
+",0.0001666666666666,0.000195238095238,m a ɡ u ʔ u m p i s a
+umpisa,inumpisahan,"V;PFV;PFOC
+",0.0001333333333333,0.000195238095238,ʔ i n u m p i s a h a n
+umpisa,inuumpisahan,"V;IPFV;PFOC
+",0.0,0.000195238095238,ʔ i n u ʔ u m p i s a h a n
+umpisa,uumpisahan,"V;PFOC;LGSPEC1
+",0.0001,0.000195238095238,ʔ u ʔ u m p i s a h a n
+niwala,niwala,"V;NFIN
+",0.0,0.0003333333333333,n i w a l a ʔ
+niwala,naniwala,"V;PFV;AGFOC
+",0.0001,0.0003333333333333,n a n i w a l a ʔ
+niwala,naniniwala,"V;IPFV;AGFOC
+",0.0017333333333333,0.0003333333333333,n a n i n i w a l a ʔ
+niwala,maniniwala,"V;AGFOC;LGSPEC1
+",0.0002333333333333,0.0003333333333333,m a n i n i w a l a ʔ
+niwala,pinaniwalaan,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0003333333333333,p i n a n i w a l a ʔ a n
+niwala,pinaniniwalaan,"V;IPFV;PFOC
+",0.0002333333333333,0.0003333333333333,p i n a n i n i w a l a ʔ a n
+niwala,paniniwalaan,"V;PFOC;LGSPEC1
+",0.0,0.0003333333333333,p a n i n i w a l a ʔ a n
+laki,laki,"V;NFIN
+",0.0008,0.0004439393939393,l a k i ʔ
+laki,lumaki,"V;PFV;AGFOC
+",0.0010333333333333,0.0004439393939393,l u m a k i ʔ
+laki,lumalaki,"V;IPFV;AGFOC
+",0.0001,0.0004439393939393,l u m a l a k i ʔ
+laki,lalaki,"V;AGFOC;LGSPEC1
+",0.0042,0.0004439393939393,l a l a k i ʔ
+laki,laki,"V;NFIN
+",0.0008,0.0004439393939393,l a k i ʔ
+laki,nilakihan,"V;PFV;PFOC
+",0.0,0.0004439393939393,n i l a k i h a n
+laki,nilalakihan,"V;IPFV;PFOC
+",0.0,0.0004439393939393,n i l a l a k i h a n
+laki,lalakihan,"V;PFOC;LGSPEC1
+",0.0,0.0004439393939393,l a l a k i h a n
+anak,anak,"V;NFIN
+",0.0145666666666666,0.0021619047619047,ʔ a n a k
+anak,nanganak,"V;PFV;AGFOC
+",0.0001666666666666,0.0021619047619047,n a ŋ a n a k
+anak,nanganganak,"V;IPFV;AGFOC
+",0.0,0.0021619047619047,n a ŋ a ŋ a n a k
+anak,manganganak,"V;AGFOC;LGSPEC1
+",0.0001333333333333,0.0021619047619047,m a ŋ a ŋ a n a k
+anak,ipinanganak,"V;PFV;PFOC
+",0.0002666666666666,0.0021619047619047,ʔ i p i n a ŋ a n a k
+anak,pinapanganak,"V;IPFV;PFOC
+",0.0,0.0021619047619047,p i n a p a ŋ a n a k
+anak,ipapanganak,"V;PFOC;LGSPEC1
+",0.0,0.0021619047619047,ʔ i p a p a ŋ a n a k
+utang,utang,"V;NFIN
+",0.0015333333333333,0.0002380952380952,ʔ u t a ŋ
+utang,umutang,"V;PFV;AGFOC
+",6.666666666666667e-05,0.0002380952380952,ʔ u m u t a ŋ
+utang,umuutang,"V;IPFV;AGFOC
+",0.0,0.0002380952380952,ʔ u m u ʔ u t a ŋ
+utang,uutang,"V;AGFOC;LGSPEC1
+",0.0,0.0002380952380952,ʔ u ʔ u t a ŋ
+utang,inutang,"V;PFV;PFOC
+",6.666666666666667e-05,0.0002380952380952,ʔ i n u t a ŋ
+utang,inuutang,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0002380952380952,ʔ i n u ʔ u t a ŋ
+utang,uutangin,"V;PFOC;LGSPEC1
+",0.0,0.0002380952380952,ʔ u ʔ u t a ŋ i n
+dala,dala,"V;NFIN
+",0.0019333333333333,0.0007142857142857,d a l a
+dala,nagdala,"V;PFV;AGFOC
+",0.0001333333333333,0.0007142857142857,n a ɡ d a l a ʔ
+dala,nagdadala,"V;IPFV;AGFOC
+",0.0001333333333333,0.0007142857142857,n a ɡ d a d a l a ʔ
+dala,magdadala,"V;AGFOC;LGSPEC1
+",0.0003333333333333,0.0007142857142857,m a ɡ d a d a l a ʔ
+dala,dinala,"V;PFV;PFOC
+",0.0018666666666666,0.0007142857142857,d i n a l a ʔ
+dala,dinadala,"V;IPFV;PFOC
+",0.0002,0.0007142857142857,d i n a d a l a ʔ
+dala,dadalhin,"V;PFOC;LGSPEC1
+",0.0004,0.0007142857142857,d a d a l h i n
+balik,balik,"V;NFIN
+",0.0003,0.0003714285714285,b a l i k
+balik,nagbalik,"V;PFV;AGFOC
+",0.0003666666666666,0.0003714285714285,n a ɡ b a l i k
+balik,nagbabalik,"V;IPFV;AGFOC
+",0.0001333333333333,0.0003714285714285,n a ɡ b a b a l i k
+balik,magbabalik,"V;AGFOC;LGSPEC1
+",0.0004,0.0003714285714285,m a ɡ b a b a l i k
+balik,ibinalik,"V;PFV;PFOC
+",0.0002333333333333,0.0003714285714285,ʔ i b i n a l i k
+balik,ibinabalik,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0003714285714285,ʔ i b i n a b a l i k
+balik,ibabalik,"V;PFOC;LGSPEC1
+",0.0003,0.0003714285714285,ʔ i b a b a l i k
+labas,labas,"V;NFIN
+",0.0029,0.0011285714285714,l a b a s
+labas,naglabas,"V;PFV;AGFOC
+",0.0011333333333333,0.0011285714285714,n a ɡ l a b a s
+labas,naglalabas,"V;IPFV;AGFOC
+",3.3333333333333335e-05,0.0011285714285714,n a ɡ l a l a b a s
+labas,maglalabas,"V;AGFOC;LGSPEC1
+",0.0002333333333333,0.0011285714285714,m a ɡ l a l a b a s
+labas,nilabas,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0011285714285714,n i l a b a s
+labas,nilalabas,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0011285714285714,n i l a l a b a s
+labas,ilalabas,"V;PFOC;LGSPEC1
+",0.0007,0.0011285714285714,ʔ i l a l a b a s
+buhay,buhay,"V;NFIN
+",0.0147666666666666,0.0021523809523809,b u h a j
+buhay,bumuhay,"V;PFV;AGFOC
+",6.666666666666667e-05,0.0021523809523809,b u m u h a j
+buhay,bumubuhay,"V;IPFV;AGFOC
+",6.666666666666667e-05,0.0021523809523809,b u m u b u h a j
+buhay,bubuhay,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.0021523809523809,b u b u h a j
+buhay,binuhay,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0021523809523809,b i n u h a j
+buhay,binubuhay,"V;IPFV;PFOC
+",0.0,0.0021523809523809,b i n u b u h a j
+buhay,bubuhayin,"V;PFOC;LGSPEC1
+",6.666666666666667e-05,0.0021523809523809,b u b u h a j i n
+sunog,sunog,"V;NFIN
+",0.0020333333333333,0.0003142857142857,s u n o ɡ
+sunog,nagsunog,"V;PFV;AGFOC
+",0.0,0.0003142857142857,n a ɡ s u n o ɡ
+sunog,nagsusunog,"V;IPFV;AGFOC
+",0.0,0.0003142857142857,n a ɡ s u s u n o ɡ
+sunog,magsusunog,"V;AGFOC;LGSPEC1
+",0.0,0.0003142857142857,m a ɡ s u s u n o ɡ
+sunog,sinunog,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0003142857142857,s i n u n o ɡ
+sunog,sinusunog,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0003142857142857,s i n u s u n o ɡ
+sunog,susunugin,"V;PFOC;LGSPEC1
+",6.666666666666667e-05,0.0003142857142857,s u s u n u ɡ i n
+bili,bili,"V;NFIN
+",0.0001333333333333,0.0004523809523809,b i l i ʔ
+bili,bumili,"V;PFV;AGFOC
+",0.0014666666666666,0.0004523809523809,b u m i l i ʔ
+bili,bumibili,"V;IPFV;AGFOC
+",0.0004666666666666,0.0004523809523809,b u m i b i l i
+bili,bibili,"V;AGFOC;LGSPEC1
+",0.0003666666666666,0.0004523809523809,b i b i l i
+bili,binili,"V;PFV;PFOC
+",0.0003666666666666,0.0004523809523809,b i n i l i ʔ
+bili,binibili,"V;IPFV;PFOC
+",0.0001666666666666,0.0004523809523809,b i n i b i l i
+bili,bibilhin,"V;PFOC;LGSPEC1
+",0.0002,0.0004523809523809,b i b i l h i n
+tawag,tawag,"V;NFIN
+",0.0021333333333333,0.0006666666666666,t a w a ɡ
+tawag,tumawag,"V;PFV;AGFOC
+",0.0004666666666666,0.0006666666666666,t u m a w a ɡ
+tawag,tumatawag,"V;IPFV;AGFOC
+",0.0001666666666666,0.0006666666666666,t u m a t a w a ɡ
+tawag,tatawag,"V;AGFOC;LGSPEC1
+",0.0,0.0006666666666666,t a t a w a ɡ
+tawag,tinawag,"V;PFV;PFOC
+",0.0013333333333333,0.0006666666666666,t i n a w a ɡ
+tawag,tinatawag,"V;IPFV;PFOC
+",0.0018666666666666,0.0006666666666666,t i n a t a w a ɡ
+tawag,tatawagin,"V;PFOC;LGSPEC1
+",0.0001333333333333,0.0006666666666666,t a t a w a ɡ i n
+tawag,tawag,"V;NFIN
+",0.0021333333333333,0.0006666666666666,t a w a ɡ
+tawag,tumawag,"V;PFV;AGFOC
+",0.0004666666666666,0.0006666666666666,t u m a w a ɡ
+tawag,tumatawag,"V;IPFV;AGFOC
+",0.0001666666666666,0.0006666666666666,t u m a t a w a ɡ
+tawag,tatawag,"V;AGFOC;LGSPEC1
+",0.0,0.0006666666666666,t a t a w a ɡ
+tawag,tinawagan,"V;PFV;PFOC
+",0.0003333333333333,0.0006666666666666,t i n a w a ɡ a n
+tawag,tinatawagan,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0006666666666666,t i n a t a w a ɡ a n
+tawag,tatawagan,"V;PFOC;LGSPEC1
+",6.666666666666667e-05,0.0006666666666666,t a t a w a ɡ a n
+dala,dala,"V;NFIN
+",0.0019333333333333,0.0007142857142857,d a l a
+dala,nagdala,"V;PFV;AGFOC
+",0.0001333333333333,0.0007142857142857,n a ɡ d a l a ʔ
+dala,nagdadala,"V;IPFV;AGFOC
+",0.0001333333333333,0.0007142857142857,n a ɡ d a d a l a ʔ
+dala,magdadala,"V;AGFOC;LGSPEC1
+",0.0003333333333333,0.0007142857142857,m a ɡ d a d a l a ʔ
+dala,dinala,"V;PFV;PFOC
+",0.0018666666666666,0.0007142857142857,d i n a l a ʔ
+dala,dinadala,"V;IPFV;PFOC
+",0.0002,0.0007142857142857,d i n a d a l a ʔ
+dala,dadalhin,"V;PFOC;LGSPEC1
+",0.0004,0.0007142857142857,d a d a l h i n
+hawak,hawak,"V;NFIN
+",0.0019666666666666,0.0004484848484848,h a w a k
+hawak,hinawakan,"V;PFV;PFOC
+",0.0001666666666666,0.0004484848484848,h i n a w a k a n
+hawak,hinahawakan,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0004484848484848,h i n a h a w a k a n
+hawak,hahakawan,"V;PFOC;LGSPEC1
+",0.0,0.0004484848484848,h a h a k a w a n
+huli,huli,"V;NFIN
+",0.0022666666666666,0.0003523809523809,h u l i ʔ
+huli,humuli,"V;PFV;AGFOC
+",0.0,0.0003523809523809,h u m u l i ʔ
+huli,humuhuli,"V;IPFV;AGFOC
+",0.0,0.0003523809523809,h u m u h u l i ʔ
+huli,huhuli,"V;AGFOC;LGSPEC1
+",0.0,0.0003523809523809,h u h u l i ʔ
+huli,hinuli,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0003523809523809,h i n u l i ʔ
+huli,hinuhuli,"V;IPFV;PFOC
+",0.0001,0.0003523809523809,h i n u h u l i ʔ
+huli,huhulihin,"V;PFOC;LGSPEC1
+",6.666666666666667e-05,0.0003523809523809,h u h u l i h i n
+abot,abot,"V;NFIN
+",0.0004666666666666,0.0007619047619047,ʔ a b o t
+abot,nag-abot,"V;PFV;AGFOC
+",0.0,0.0007619047619047,n a ɡ a b o t
+abot,nag-aabot,"V;IPFV;AGFOC
+",0.0,0.0007619047619047,n a ɡ a ʔ a b o t
+abot,mag-aabot,"V;AGFOC;LGSPEC1
+",0.0,0.0007619047619047,m a ɡ a ʔ a b o t
+abot,inabutan,"V;PFV;PFOC
+",0.0003,0.0007619047619047,ʔ i n a b u t a n
+abot,inaabutan,"V;IPFV;PFOC
+",0.0,0.0007619047619047,ʔ i n a ʔ a b u t a n
+abot,aabutan,"V;PFOC;LGSPEC1
+",0.0,0.0007619047619047,ʔ a ʔ a b u t a n
+punta,punta,"V;NFIN
+",0.0001,0.0004142857142857,p u n t a
+punta,pumunta,"V;PFV;AGFOC
+",0.0011333333333333,0.0004142857142857,p u m u n t a
+punta,pumupunta,"V;IPFV;AGFOC
+",0.0003333333333333,0.0004142857142857,p u m u p u n t a
+punta,pupunta,"V;AGFOC;LGSPEC1
+",0.0004666666666666,0.0004142857142857,p u p u n t a
+punta,pinuntahan,"V;PFV;PFOC
+",0.0003,0.0004142857142857,p i n u n t a h a n
+punta,pinupuntahan,"V;IPFV;PFOC
+",0.0003,0.0004142857142857,p i n u p u n t a h a n
+punta,pupuntahan,"V;PFOC;LGSPEC1
+",0.0002666666666666,0.0004142857142857,p u p u n t a h a n
+balik,balik,"V;NFIN
+",0.0003,0.0003714285714285,b a l i k
+balik,bumalik,"V;PFV;AGFOC
+",0.002,0.0003714285714285,b u m a l i k
+balik,bunabalik,"V;IPFV;AGFOC
+",0.0,0.0003714285714285,b u n a b a l i k
+balik,babalik,"V;AGFOC;LGSPEC1
+",0.0006666666666666,0.0003714285714285,b a b a l i k
+balik,binalikan,"V;PFV;PFOC
+",0.0003333333333333,0.0003714285714285,b i n a l i k a n
+balik,binabalikan,"V;IPFV;PFOC
+",0.0,0.0003714285714285,b i n a b a l i k a n
+balik,babalikan,"V;PFOC;LGSPEC1
+",0.0001,0.0003714285714285,b a b a l i k a n
+galing,galing,"V;NFIN
+",0.0039333333333333,0.0013083333333333,ɡ a l i ŋ
+galing,nanggaling,"V;PFV;AGFOC
+",0.0006666666666666,0.0013083333333333,n a ŋ ɡ a l i ŋ
+galing,nanggagaling,"V;IPFV;AGFOC
+",0.0001333333333333,0.0013083333333333,n a ŋ ɡ a ɡ a l i ŋ
+galing,manggagaling,"V;AGFOC;LGSPEC1
+",0.0005,0.0013083333333333,m a ŋ ɡ a ɡ a l i ŋ
+patuloy,patuloy,"V;NFIN
+",0.0082333333333333,0.002375,p a t u l o j
+patuloy,nagpatuloy,"V;PFV;AGFOC
+",0.0003,0.002375,n a ɡ p a t u l o j
+patuloy,nagpapatuloy,"V;IPFV;AGFOC
+",0.0004,0.002375,n a ɡ p a p a t u l o j
+patuloy,magpapatuloy,"V;AGFOC;LGSPEC1
+",0.0005666666666666,0.002375,m a ɡ p a p a t u l o j
+tuloy,tuloy,"V;NFIN
+",0.0024666666666666,0.0005363636363636,t u l o j
+tuloy,itinuloy,"V;PFV;PFOC
+",0.0002333333333333,0.0005363636363636,ʔ i t i n u l o j
+tuloy,itinutuloy,"V;IPFV;PFOC
+",0.0,0.0005363636363636,ʔ i t i n u t u l o j
+tuloy,itutuloy,"V;PFOC;LGSPEC1
+",0.0003666666666666,0.0005363636363636,ʔ i t u t u l o j
+bilang,bilang,"V;NFIN
+",0.0327333333333333,0.0046904761904761,b i l a ŋ
+bilang,bumilang,"V;PFV;AGFOC
+",0.0,0.0046904761904761,b u m i l a ŋ
+bilang,bumibilang,"V;IPFV;AGFOC
+",0.0,0.0046904761904761,b u m i b i l a ŋ
+bilang,bibilang,"V;AGFOC;LGSPEC1
+",0.0,0.0046904761904761,b i b i l a ŋ
+bilang,binilang,"V;PFV;PFOC
+",0.0,0.0046904761904761,b i n i l a ŋ
+bilang,binibilang,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0046904761904761,b i n i b i l a ŋ
+bilang,bibilangin,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0046904761904761,b i b i l a ŋ i n
+gawá',gawá',"V;NFIN
+",0.0,0.0006619047619047,ɡ a w a
+gawá',gumawá',"V;PFV;AGFOC
+",0.0,0.0006619047619047,ɡ u m a w a
+gawá',gumagawá',"V;IPFV;AGFOC
+",0.0,0.0006619047619047,ɡ u m a ɡ a w a
+gawá',gagawá',"V;AGFOC;LGSPEC1
+",0.0,0.0006619047619047,ɡ a ɡ a w a
+gawá',ginawá',"V;PFV;PFOC
+",0.0,0.0006619047619047,ɡ i n a w a
+gawá',ginagawá',"V;IPFV;PFOC
+",0.0,0.0006619047619047,ɡ i n a ɡ a w a
+gawá',gagawin,"V;PFOC;LGSPEC1
+",0.0046333333333333,0.0006619047619047,ɡ a ɡ a w i n
+gamot,gamot,"V;NFIN
+",0.0037,0.0007,ɡ a m o t
+gamot,gumamot,"V;PFV;AGFOC
+",0.0,0.0007,ɡ u m a m o t
+gamot,gumagamot,"V;IPFV;AGFOC
+",0.0,0.0007,ɡ u m a ɡ a m o t
+gamot,gagamot,"V;AGFOC;LGSPEC1
+",0.0,0.0007,ɡ a ɡ a m o t
+gamot,ginamot,"V;PFV;PFOC
+",0.0,0.0007,ɡ i n a m o t
+gamot,ginagamot,"V;IPFV;PFOC
+",0.0002666666666666,0.0007,ɡ i n a ɡ a m o t
+gamot,gagamutin,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0007,ɡ a ɡ a m u t i n
+gamot,gamot,"V;NFIN
+",0.0037,0.0007,ɡ a m o t
+gamot,naggamot,"V;PFV;AGFOC
+",0.0,0.0007,n a ɡ ɡ a m o t
+gamot,naggagamot,"V;IPFV;AGFOC
+",0.0,0.0007,n a ɡ ɡ a ɡ a m o t
+gamot,maggagamot,"V;AGFOC;LGSPEC1
+",0.0,0.0007,m a ɡ ɡ a ɡ a m o t
+patay,patay,"V;NFIN
+",0.0021,0.0008928571428571,p a t a j
+patay,namatay,"V;PFV;AGFOC
+",0.0045666666666666,0.0008928571428571,n a m a t a j
+patay,namamatay,"V;IPFV;AGFOC
+",0.0013,0.0008928571428571,n a m a m a t a j
+patay,mamamatay,"V;AGFOC;LGSPEC1
+",0.0003666666666666,0.0008928571428571,m a m a m a t a j
+patay,pinatay,"V;PFV;PFOC
+",0.0005333333333333,0.0008928571428571,p i n a t a j
+patay,pinapatay,"V;IPFV;PFOC
+",0.0002333333333333,0.0008928571428571,p i n a p a t a j
+patay,papatayin,"V;PFOC;LGSPEC1
+",0.0002666666666666,0.0008928571428571,p a p a t a j i n
+gáwa',gáwa',"V;NFIN
+",0.0,0.0003309523809523,ɡ a w a
+gáwa',gumáwa',"V;PFV;AGFOC
+",0.0,0.0003309523809523,ɡ u m a w a
+gáwa',gumagáwa',"V;IPFV;AGFOC
+",0.0,0.0003309523809523,ɡ u m a ɡ a w a
+gáwa',gagáwa',"V;AGFOC;LGSPEC1
+",0.0,0.0003309523809523,ɡ a ɡ a w a
+gáwa',ginawa',"V;PFV;PFOC
+",0.0,0.0003309523809523,ɡ i n a w a ʔ
+gáwa',ginagawa',"V;IPFV;PFOC
+",0.0,0.0003309523809523,ɡ i n a ɡ a w a ʔ
+gáwa',gagawin,"V;PFOC;LGSPEC1
+",0.0046333333333333,0.0003309523809523,ɡ a ɡ a w i n
+pasok,pasok,"V;NFIN
+",0.0013333333333333,0.0006547619047619,p a s o k
+pasok,pumasok,"V;PFV;AGFOC
+",0.0031,0.0006547619047619,p u m a s o k
+pasok,pumapasok,"V;IPFV;AGFOC
+",0.0009,0.0006547619047619,p u m a p a s o k
+pasok,papasok,"V;AGFOC;LGSPEC1
+",0.001,0.0006547619047619,p a p a s o k
+pasok,pinasok,"V;PFV;PFOC
+",0.0007666666666666,0.0006547619047619,p i n a s o k
+pasok,pinapasok,"V;IPFV;PFOC
+",0.0001666666666666,0.0006547619047619,p i n a p a s o k
+pasok,papasukin,"V;PFOC;LGSPEC1
+",0.0002333333333333,0.0006547619047619,p a p a s u k i n
+laban,laban,"V;NFIN
+",0.0134,0.0021285714285714,l a b a n
+laban,lumaban,"V;PFV;AGFOC
+",0.0005333333333333,0.0021285714285714,l u m a b a n
+laban,lumalaban,"V;IPFV;AGFOC
+",0.0004333333333333,0.0021285714285714,l u m a l a b a n
+laban,lalaban,"V;AGFOC;LGSPEC1
+",0.0003,0.0021285714285714,l a l a b a n
+laban,nilabanan,"V;PFV;PFOC
+",0.0001,0.0021285714285714,n i l a b a n a n
+laban,nilalabanan,"V;IPFV;PFOC
+",0.0001,0.0021285714285714,n i l a l a b a n a n
+laban,lalabanan,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0021285714285714,l a l a b a n a n
+tapos,tapos,"V;NFIN
+",0.0036333333333333,0.001,t a p o s
+tapos,tinapos,"V;PFV;PFOC
+",0.0002,0.001,t i n a p o s
+tapos,tinatapos,"V;IPFV;PFOC
+",6.666666666666667e-05,0.001,t i n a t a p o s
+tapos,tatapusin,"V;PFOC;LGSPEC1
+",0.0001,0.001,t a t a p u s i n
+bigay,bigay,"V;NFIN
+",0.0001333333333333,0.0010333333333333,b i ɡ a j
+bigay,nagbigay,"V;PFV;AGFOC
+",0.0027,0.0010333333333333,n a ɡ b i ɡ a j
+bigay,nagbibigay,"V;IPFV;AGFOC
+",0.0015333333333333,0.0010333333333333,n a ɡ b i b i ɡ a j
+bigay,magbibigay,"V;AGFOC;LGSPEC1
+",0.0017333333333333,0.0010333333333333,m a ɡ b i b i ɡ a j
+bigay,binigay,"V;PFV;PFOC
+",0.0002,0.0010333333333333,b i n i ɡ a j
+bigay,binibigay,"V;IPFV;PFOC
+",0.0001333333333333,0.0010333333333333,b i n i b i ɡ a j
+bigay,ibibigay,"V;PFOC;LGSPEC1
+",0.0009,0.0010333333333333,ʔ i b i b i ɡ a j
+tuloy,tuloy,"V;NFIN
+",0.0024666666666666,0.0005363636363636,t u l o j
+tuloy,tumuloy,"V;PFV;AGFOC
+",0.0001666666666666,0.0005363636363636,t u m u l o j
+tuloy,tumutuloy,"V;IPFV;AGFOC
+",6.666666666666667e-05,0.0005363636363636,t u m u t u l o j
+tuloy,tutuloy,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.0005363636363636,t u t u l o j
+tuloy,tinuluyan,"V;PFV;PFOC
+",0.0,0.0005363636363636,t i n u l u j a n
+tuloy,tinutuluyan,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0005363636363636,t i n u t u l u j a n
+tuloy,tutuluyan,"V;PFOC;LGSPEC1
+",0.0,0.0005363636363636,t u t u l u j a n
+labas,labas,"V;NFIN
+",0.0029,0.0011285714285714,l a b a s
+labas,lumabas,"V;PFV;AGFOC
+",0.0049,0.0011285714285714,l u m a b a s
+labas,lumalabas,"V;IPFV;AGFOC
+",0.0018333333333333,0.0011285714285714,l u m a l a b a s
+labas,lalabas,"V;AGFOC;LGSPEC1
+",0.0009666666666666,0.0011285714285714,l a l a b a s
+labas,nilabas,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0011285714285714,n i l a b a s
+labas,nilalabas,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0011285714285714,n i l a l a b a s
+labas,lalabasin,"V;PFOC;LGSPEC1
+",0.0,0.0011285714285714,l a l a b a s i n
+paalam,paalam,"V;NFIN
+",0.0001666666666666,0.0001833333333333,p a ʔ a l a m
+paalam,nagpaalam,"V;PFV;AGFOC
+",0.0004,0.0001833333333333,n a ɡ p a ʔ a l a m
+paalam,nagpapaalam,"V;IPFV;AGFOC
+",3.3333333333333335e-05,0.0001833333333333,n a ɡ p a p a ʔ a l a m
+paalam,magpapaalam,"V;AGFOC;LGSPEC1
+",0.0001333333333333,0.0001833333333333,m a ɡ p a p a ʔ a l a m
+bigay,bigay,"V;NFIN
+",0.0001333333333333,0.0010333333333333,b i ɡ a j
+bigay,nabigay,"V;PFV;AGFOC
+",0.0,0.0010333333333333,n a b i ɡ a j
+bigay,nagbibigay,"V;IPFV;AGFOC
+",0.0015333333333333,0.0010333333333333,n a ɡ b i b i ɡ a j
+bigay,magbibigay,"V;AGFOC;LGSPEC1
+",0.0017333333333333,0.0010333333333333,m a ɡ b i b i ɡ a j
+bigay,binigyan,"V;PFV;PFOC
+",0.0019,0.0010333333333333,b i n i ɡ j a n
+bigay,binibigyan,"V;IPFV;PFOC
+",0.0006333333333333,0.0010333333333333,b i n i b i ɡ j a n
+bigay,bibigyan,"V;PFOC;LGSPEC1
+",0.0010333333333333,0.0010333333333333,b i b i ɡ j a n
+laki,laki,"V;NFIN
+",0.0008,0.0004439393939393,l a k i ʔ
+laki,lumaki,"V;PFV;AGFOC
+",0.0010333333333333,0.0004439393939393,l u m a k i ʔ
+laki,lumalaki,"V;IPFV;AGFOC
+",0.0001,0.0004439393939393,l u m a l a k i ʔ
+laki,lálaki,"V;AGFOC;LGSPEC1
+",0.0,0.0004439393939393,l a l a k i
+laki,inilaki,"V;PFV;PFOC
+",0.0,0.0004439393939393,ʔ i n i l a k i
+laki,inilalaki,"V;IPFV;PFOC
+",0.0,0.0004439393939393,ʔ i n i l a l a k i
+laki,ilalaki,"V;PFOC;LGSPEC1
+",0.0,0.0004439393939393,ʔ i l a l a k i
+bantay,bantay,"V;NFIN
+",0.0001666666666666,0.0002047619047619,b a n t a j
+bantay,nagbantay,"V;PFV;AGFOC
+",0.0,0.0002047619047619,n a ɡ b a n t a j
+bantay,nagbabantay,"V;IPFV;AGFOC
+",0.0005,0.0002047619047619,n a ɡ b a b a n t a j
+bantay,magbabantay,"V;AGFOC;LGSPEC1
+",0.0001,0.0002047619047619,m a ɡ b a b a n t a j
+bantay,binantayan,"V;PFV;PFOC
+",0.0,0.0002047619047619,b i n a n t a j a n
+bantay,binabantayan,"V;IPFV;PFOC
+",0.0005333333333333,0.0002047619047619,b i n a b a n t a j a n
+bantay,babantayan,"V;PFOC;LGSPEC1
+",0.0001333333333333,0.0002047619047619,b a b a n t a j a n
+kamay,kamay,"V;NFIN
+",0.0031333333333333,0.000447619047619,k a m a j
+kamay,nagkamay,"V;PFV;AGFOC
+",0.0,0.000447619047619,n a ɡ k a m a j
+kamay,nagkakamay,"V;IPFV;AGFOC
+",0.0,0.000447619047619,n a ɡ k a k a m a j
+kamay,magkakamay,"V;AGFOC;LGSPEC1
+",0.0,0.000447619047619,m a ɡ k a k a m a j
+kamay,kinamay,"V;PFV;PFOC
+",0.0,0.000447619047619,k i n a m a j
+kamay,kinakamay,"V;IPFV;PFOC
+",0.0,0.000447619047619,k i n a k a m a j
+kamay,kakamayin,"V;PFOC;LGSPEC1
+",0.0,0.000447619047619,k a k a m a j i n
+bigay,bigay,"V;NFIN
+",0.0001333333333333,0.0010333333333333,b i ɡ a j
+bigay,ibinigay,"V;PFV;PFOC
+",0.0020666666666666,0.0010333333333333,ʔ i b i n i ɡ a j
+bigay,ibinibigay,"V;IPFV;PFOC
+",0.0012,0.0010333333333333,ʔ i b i n i b i ɡ a j
+bigay,ibibigay,"V;PFOC;LGSPEC1
+",0.0009,0.0010333333333333,ʔ i b i b i ɡ a j
+kamay,kamay,"V;NFIN
+",0.0031333333333333,0.000447619047619,k a m a j
+kamay,nagkamayan,"V;PFV;AGFOC
+",0.0,0.000447619047619,n a ɡ k a m a j a n
+kamay,nagkakamayan,"V;IPFV;AGFOC
+",0.0,0.000447619047619,n a ɡ k a k a m a j a n
+kamay,magkakamayan,"V;AGFOC;LGSPEC1
+",0.0,0.000447619047619,m a ɡ k a k a m a j a n
+kamay,kinamayan,"V;PFV;PFOC
+",0.0,0.000447619047619,k i n a m a j a n
+kamay,kinakamayan,"V;IPFV;PFOC
+",0.0,0.000447619047619,k i n a k a m a j a n
+kamay,kakamayan,"V;PFOC;LGSPEC1
+",0.0,0.000447619047619,k a k a m a j a n
+tulong,tulong,"V;NFIN
+",0.0101666666666666,0.0022761904761904,t u l o ŋ
+tulong,tumulong,"V;PFV;AGFOC
+",0.0028666666666666,0.0022761904761904,t u m u l o ŋ
+tulong,tumutulong,"V;IPFV;AGFOC
+",0.0015666666666666,0.0022761904761904,t u m u t u l o ŋ
+tulong,tutulong,"V;AGFOC;LGSPEC1
+",0.0004333333333333,0.0022761904761904,t u t u l o ŋ
+tulong,tinulungan,"V;PFV;PFOC
+",0.0004,0.0022761904761904,t i n u l u ŋ a n
+tulong,tinutulungan,"V;IPFV;PFOC
+",0.0003666666666666,0.0022761904761904,t i n u t u l u ŋ a n
+tulong,tutulungan,"V;PFOC;LGSPEC1
+",0.0001333333333333,0.0022761904761904,t u t u l u ŋ a n
+hawak,hawak,"V;NFIN
+",0.0019666666666666,0.0004484848484848,h a w a k
+hawak,humawak,"V;PFV;AGFOC
+",0.0002,0.0004484848484848,h u m a w a k
+hawak,humahawak,"V;IPFV;AGFOC
+",0.0001666666666666,0.0004484848484848,h u m a h a w a k
+hawak,hahawak,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.0004484848484848,h a h a w a k
+hawak,hinawakan,"V;PFV;PFOC
+",0.0001666666666666,0.0004484848484848,h i n a w a k a n
+hawak,hinahawakan,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0004484848484848,h i n a h a w a k a n
+hawak,hahawakan,"V;PFOC;LGSPEC1
+",0.0001,0.0004484848484848,h a h a w a k a n
+suot,suot,"V;NFIN
+",0.0012333333333333,0.0002190476190476,s u ʔ o t
+suot,nagsuot,"V;PFV;AGFOC
+",0.0001,0.0002190476190476,n a ɡ s u ʔ o t
+suot,nagsusuot,"V;IPFV;AGFOC
+",0.0001,0.0002190476190476,n a ɡ s u s u ʔ o t
+suot,magsusuot,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.0002190476190476,m a ɡ s u s u ʔ o t
+suot,sinuot,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0002190476190476,s i n u ʔ o t
+suot,sinusuot,"V;IPFV;PFOC
+",0.0,0.0002190476190476,s i n u s u ʔ o t
+suot,susuutin,"V;PFOC;LGSPEC1
+",0.0,0.0002190476190476,s u s u ʔ u t i n
+kilala,kilala,"V;NFIN
+",0.0019333333333333,0.0004314814814814,k i l a l a ʔ
+kilala,nagpakilala,"V;PFV;AGFOC
+",3.3333333333333335e-05,0.0004314814814814,n a ɡ p a k i l a l a ʔ
+kilala,nagpapakilala,"V;IPFV;AGFOC
+",0.0,0.0004314814814814,n a ɡ p a p a k i l a l a ʔ
+kilala,magpapakilala,"V;AGFOC;LGSPEC1
+",0.0,0.0004314814814814,m a ɡ p a p a k i l a l a ʔ
+kilala,pinakilala,"V;PFV;PFOC
+",6.666666666666667e-05,0.0004314814814814,p i n a k i l a l a ʔ
+kilala,pinapakilala,"V;IPFV;PFOC
+",0.0,0.0004314814814814,p i n a p a k i l a l a ʔ
+kilala,ipapakilala,"V;PFOC;LGSPEC1
+",0.0,0.0004314814814814,ʔ i p a p a k i l a l a
+kita,kita,"V;NFIN
+",0.0028,0.0010666666666666,k i t a
+kita,nagpakita,"V;PFV;AGFOC
+",0.0004,0.0010666666666666,n a ɡ p a k i t a
+kita,nagpapakita,"V;IPFV;AGFOC
+",0.0005666666666666,0.0010666666666666,n a ɡ p a p a k i t a
+kita,magpapakita,"V;AGFOC;LGSPEC1
+",0.0001666666666666,0.0010666666666666,m a ɡ p a p a k i t a
+kita,pinakita,"V;PFV;PFOC
+",6.666666666666667e-05,0.0010666666666666,p i n a k i t a
+kita,pinapakita,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0010666666666666,p i n a p a k i t a
+kita,ipapakita,"V;PFOC;LGSPEC1
+",0.0001333333333333,0.0010666666666666,ʔ i p a p a k i t a
+sama,sama,"V;NFIN
+",0.0004666666666666,0.0002714285714285,s a m a
+sama,sumama,"V;PFV;AGFOC
+",0.0007666666666666,0.0002714285714285,s u m a m a
+sama,sumasama,"V;IPFV;AGFOC
+",0.0001,0.0002714285714285,s u m a s a m a
+sama,sasama,"V;AGFOC;LGSPEC1
+",0.0001333333333333,0.0002714285714285,s a s a m a
+sama,sinamahan,"V;PFV;PFOC
+",0.0002666666666666,0.0002714285714285,s i n a m a h a n
+sama,sinasamahan,"V;IPFV;PFOC
+",0.0001,0.0002714285714285,s i n a s a m a h a n
+sama,sasamahan,"V;PFOC;LGSPEC1
+",6.666666666666667e-05,0.0002714285714285,s a s a m a h a n
+kilala,kilala,"V;NFIN
+",0.0019333333333333,0.0004314814814814,k i l a l a ʔ
+kilala,nakipag- kilala,"V;PFV;AGFOC
+",0.0,0.0004314814814814,n a k i p a ɡ k i l a l a ʔ
+kilala,nakikipag- kilala,"V;IPFV;AGFOC
+",0.0,0.0004314814814814,n a k i k i p a ɡ k i l a l a ʔ
+kilala,makikipag- kilala,"V;AGFOC;LGSPEC1
+",0.0,0.0004314814814814,m a k i k i p a ɡ k i l a l a ʔ
+kilala,kinilala,"V;PFV;PFOC
+",0.0011,0.0004314814814814,k i n i l a l a ʔ
+kilala,kinikilala,"V;IPFV;PFOC
+",0.0004333333333333,0.0004314814814814,k i n i k i l a l a ʔ
+kilala,kikilalanin,"V;PFOC;LGSPEC1
+",0.0001,0.0004314814814814,k i k i l a l a n i n
+alam,alam,"V;NFIN
+",0.0118333333333333,0.0031,ʔ a l a m
+alam,inalam,"V;PFV;PFOC
+",6.666666666666667e-05,0.0031,ʔ i n a l a m
+alam,inaalam,"V;IPFV;PFOC
+",0.0005,0.0031,ʔ i n a ʔ a l a m
+alam,aalamin,"V;PFOC;LGSPEC1
+",0.0,0.0031,ʔ a ʔ a l a m i n
+utang,utang,"V;NFIN
+",0.0015333333333333,0.0002380952380952,ʔ u t a ŋ
+utang,umutang,"V;PFV;AGFOC
+",6.666666666666667e-05,0.0002380952380952,ʔ u m u t a ŋ
+utang,umuutang,"V;IPFV;AGFOC
+",0.0,0.0002380952380952,ʔ u m u ʔ u t a ŋ
+utang,uutang,"V;AGFOC;LGSPEC1
+",0.0,0.0002380952380952,ʔ u ʔ u t a ŋ
+utang,inutangan,"V;PFV;PFOC
+",0.0,0.0002380952380952,ʔ i n u t a ŋ a n
+utang,inuutangan,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0002380952380952,ʔ i n u ʔ u t a ŋ a n
+utang,uutangan,"V;PFOC;LGSPEC1
+",0.0,0.0002380952380952,ʔ u ʔ u t a ŋ a n
+tingin,tingin,"V;NFIN
+",0.0016,0.0003857142857142,t i ŋ i n
+tingin,tumingin,"V;PFV;AGFOC
+",0.0001333333333333,0.0003857142857142,t u m i ŋ i n
+tingin,tumitingin,"V;IPFV;AGFOC
+",0.0001,0.0003857142857142,t u m i t i ŋ i n
+tingin,titingin,"V;AGFOC;LGSPEC1
+",0.0001,0.0003857142857142,t i t i ŋ i n
+tingin,tiningnan,"V;PFV;PFOC
+",0.0001333333333333,0.0003857142857142,t i n i ŋ n a n
+tingin,tinitingnan,"V;IPFV;PFOC
+",0.0004666666666666,0.0003857142857142,t i n i t i ŋ n a n
+tingin,titingnan,"V;PFOC;LGSPEC1
+",0.0001666666666666,0.0003857142857142,t i t i ŋ n a n
+ibig,ibig,"V;NFIN
+",0.0022666666666666,0.0003428571428571,ʔ i b i ɡ
+ibig,umibig,"V;PFV;AGFOC
+",0.0,0.0003428571428571,ʔ u m i b i ɡ
+ibig,umiibig,"V;IPFV;AGFOC
+",3.3333333333333335e-05,0.0003428571428571,ʔ u m i ʔ i b i ɡ
+ibig,iibig,"V;AGFOC;LGSPEC1
+",3.3333333333333335e-05,0.0003428571428571,ʔ i ʔ i b i ɡ
+ibig,inibig,"V;PFV;PFOC
+",0.0,0.0003428571428571,ʔ i n i b i ɡ
+ibig,iniibig,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0003428571428571,ʔ i n i ʔ i b i ɡ
+ibig,iibigin,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0003428571428571,ʔ i ʔ i b i ɡ i n
+mahal,mahal,"V;NFIN
+",0.0034,0.000747619047619,m a h a l
+mahal,nagmahal,"V;PFV;AGFOC
+",0.0,0.000747619047619,n a ɡ m a h a l
+mahal,nagmamahal,"V;IPFV;AGFOC
+",0.0003333333333333,0.000747619047619,n a ɡ m a m a h a l
+mahal,magmamahal,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.000747619047619,m a ɡ m a m a h a l
+mahal,minahal,"V;PFV;PFOC
+",0.0003666666666666,0.000747619047619,m i n a h a l
+mahal,minamahal,"V;IPFV;PFOC
+",0.0009666666666666,0.000747619047619,m i n a m a h a l
+mahal,mamahalin,"V;PFOC;LGSPEC1
+",0.0001,0.000747619047619,m a m a h a l i n
+gusto,gusto,"V;NFIN
+",0.0104666666666666,0.002725,ɡ u s t o
+gusto,nagustuhan,"V;PFV;PFOC
+",0.0003333333333333,0.002725,n a ɡ u s t u h a n
+gusto,nagugustuhan,"V;IPFV;PFOC
+",6.666666666666667e-05,0.002725,n a ɡ u ɡ u s t u h a n
+gusto,magugustuhan,"V;PFOC;LGSPEC1
+",0.0002333333333333,0.002725,m a ɡ u ɡ u s t u h a n
+gáwa',gáwa',"V;NFIN
+",0.0,0.0003309523809523,ɡ a w a
+gáwa',gumáwa',"V;PFV;AGFOC
+",0.0,0.0003309523809523,ɡ u m a w a
+gáwa',gumagáwa',"V;IPFV;AGFOC
+",0.0,0.0003309523809523,ɡ u m a ɡ a w a
+gáwa',gagáwa',"V;AGFOC;LGSPEC1
+",0.0,0.0003309523809523,ɡ a ɡ a w a
+gáwa',gináwa',"V;PFV;PFOC
+",0.0,0.0003309523809523,ɡ i n a w a
+gáwa',ginagáwa',"V;IPFV;PFOC
+",0.0,0.0003309523809523,ɡ i n a ɡ a w a
+gáwa',gagáwain gagáwin,"V;PFOC;LGSPEC1
+",0.0,0.0003309523809523,ɡ a ɡ a w a ʔ i n ɡ a ɡ a w i n
+kasal,kasal,"V;NFIN
+",0.0015,0.0002404761904761,k a s a l
+kasal,nagpakasal,"V;PFV;AGFOC
+",0.0001,0.0002404761904761,n a ɡ p a k a s a l
+kasal,nagpapakasal,"V;IPFV;AGFOC
+",0.0,0.0002404761904761,n a ɡ p a p a k a s a l
+kasal,magpapakasal,"V;AGFOC;LGSPEC1
+",3.3333333333333335e-05,0.0002404761904761,m a ɡ p a p a k a s a l
+kasal,kinasal,"V;PFV;PFOC
+",0.0,0.0002404761904761,k i n a s a l
+kasal,kinakasal,"V;IPFV;PFOC
+",0.0,0.0002404761904761,k i n a k a s a l
+kasal,ikakasal,"V;PFOC;LGSPEC1
+",0.0001,0.0002404761904761,ʔ i k a k a s a l
+kailangan,kailangan,"V;NFIN
+",0.0132333333333333,0.0022285714285714,k a j l a ŋ a n
+kailangan,nanga-ilangan,"V;PFV;AGFOC
+",0.0,0.0022285714285714,n a ŋ a ʔ i l a ŋ a n
+kailangan,nanganga-ilangan,"V;IPFV;AGFOC
+",0.0,0.0022285714285714,n a ŋ a ŋ a ʔ i l a ŋ a n
+kailangan,manganga-ilangan,"V;AGFOC;LGSPEC1
+",0.0,0.0022285714285714,m a ŋ a ŋ a ʔ i l a ŋ a n
+kailangan,kinailangan,"V;PFV;PFOC
+",0.0004,0.0022285714285714,k i n a j l a ŋ a n
+kailangan,kinakailangan,"V;IPFV;PFOC
+",0.0016,0.0022285714285714,k i n a k a j l a ŋ a n
+kailangan,kakailanganin,"V;PFOC;LGSPEC1
+",0.0003666666666666,0.0022285714285714,k a k a j l a ŋ a n i n
+utos,utos,"V;NFIN
+",0.0011666666666666,0.0002714285714285,ʔ u t o s
+utos,nag-utos,"V;PFV;AGFOC
+",0.0003,0.0002714285714285,n a ɡ u t o s
+utos,nag-uutos,"V;IPFV;AGFOC
+",0.0,0.0002714285714285,n a ɡ u ʔ u t o s
+utos,mag-uutos,"V;AGFOC;LGSPEC1
+",0.0,0.0002714285714285,m a ɡ u ʔ u t o s
+utos,inutusan,"V;PFV;PFOC
+",0.0002333333333333,0.0002714285714285,ʔ i n u t u s a n
+utos,inuutusan,"V;IPFV;PFOC
+",0.0001666666666666,0.0002714285714285,ʔ i n u ʔ u t u s a n
+utos,uutusan,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0002714285714285,ʔ u ʔ u t u s a n
+order,order,"V;NFIN
+",0.0017333333333333,0.0002619047619047,ʔ o ɾ d e ɾ
+order,nag-order,"V;PFV;AGFOC
+",6.666666666666667e-05,0.0002619047619047,n a ɡ o ɾ d e ɾ
+order,nag-oorder,"V;IPFV;AGFOC
+",0.0,0.0002619047619047,n a ɡ o ʔ o ɾ d e ɾ
+order,mag-oorder,"V;AGFOC;LGSPEC1
+",0.0,0.0002619047619047,m a ɡ o ʔ o ɾ d e ɾ
+order,inorder,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0002619047619047,ʔ i n o ɾ d e ɾ
+order,inoorder,"V;IPFV;PFOC
+",0.0,0.0002619047619047,ʔ i n o ʔ o ɾ d e ɾ
+order,oorderin,"V;PFOC;LGSPEC1
+",0.0,0.0002619047619047,ʔ o ʔ o ɾ d e ɾ i n
+daan,daan,"V;NFIN
+",0.0013333333333333,0.0004047619047619,d a ʔ a n
+daan,dumaan,"V;PFV;AGFOC
+",0.0012,0.0004047619047619,d u m a ʔ a n
+daan,dumadaan dumaraan,"V;IPFV;AGFOC
+",0.0,0.0004047619047619,d u m a d a ʔ a n d u m a ɾ a ʔ a n
+daan,dadaan daraan,"V;AGFOC;LGSPEC1
+",0.0,0.0004047619047619,d a d a ʔ a n d a ɾ a ʔ a n
+daan,dinaanan,"V;PFV;PFOC
+",0.0001666666666666,0.0004047619047619,d i n a ʔ a n a n
+daan,dinadaanan,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0004047619047619,d i n a d a ʔ a n a n
+daan,dadaanan,"V;PFOC;LGSPEC1
+",0.0001,0.0004047619047619,d a d a ʔ a n a n
+bayad,bayad,"V;NFIN
+",0.0009,0.0004190476190476,b a j a d
+bayad,nagbayad,"V;PFV;AGFOC
+",0.0002,0.0004190476190476,n a ɡ b a j a d
+bayad,nagbabayad,"V;IPFV;AGFOC
+",0.0004333333333333,0.0004190476190476,n a ɡ b a b a j a d
+bayad,magbabayad,"V;AGFOC;LGSPEC1
+",0.0005,0.0004190476190476,m a ɡ b a b a j a d
+bayad,binayaran,"V;PFV;PFOC
+",0.0002666666666666,0.0004190476190476,b i n a j a ɾ a n
+bayad,binabayaran,"V;IPFV;PFOC
+",0.0002,0.0004190476190476,b i n a b a j a ɾ a n
+bayad,babayaran,"V;PFOC;LGSPEC1
+",0.0004333333333333,0.0004190476190476,b a b a j a ɾ a n
+kilala,kilala,"V;NFIN
+",0.0019333333333333,0.0004314814814814,k i l a l a ʔ
+kilala,ipinakilala,"V;PFV;PFOC
+",0.0002,0.0004314814814814,ʔ i p i n a k i l a l a
+kilala,ipinakikilala,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0004314814814814,ʔ i p i n a k i k i l a l a
+kilala,ipapakilala,"V;PFOC;LGSPEC1
+",0.0,0.0004314814814814,ʔ i p a p a k i l a l a
+pasok,pasok,"V;NFIN
+",0.0013333333333333,0.0006547619047619,p a s o k
+pasok,nagpasok,"V;PFV;AGFOC
+",6.666666666666667e-05,0.0006547619047619,n a ɡ p a s o k
+pasok,nagpapasok,"V;IPFV;AGFOC
+",6.666666666666667e-05,0.0006547619047619,n a ɡ p a p a s o k
+pasok,magpapasok,"V;AGFOC;LGSPEC1
+",3.3333333333333335e-05,0.0006547619047619,m a ɡ p a p a s o k
+pasok,ipinasok,"V;PFV;PFOC
+",0.0001333333333333,0.0006547619047619,ʔ i p i n a s o k
+pasok,ipinapasok,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0006547619047619,ʔ i p i n a p a s o k
+pasok,ipapasok,"V;PFOC;LGSPEC1
+",0.0,0.0006547619047619,ʔ i p a p a s o k
+bukas,bukas,"V;NFIN
+",0.0026,0.0006238095238095,b u k a s
+bukas,nagbukas,"V;PFV;AGFOC
+",0.0003333333333333,0.0006238095238095,n a ɡ b u k a s
+bukas,nagbubukas,"V;IPFV;AGFOC
+",6.666666666666667e-05,0.0006238095238095,n a ɡ b u b u k a s
+bukas,magbubukas,"V;AGFOC;LGSPEC1
+",0.0005333333333333,0.0006238095238095,m a ɡ b u b u k a s
+bukas,binuksan,"V;PFV;PFOC
+",0.0005333333333333,0.0006238095238095,b i n u k s a n
+bukas,binubuksan,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0006238095238095,b i n u b u k s a n
+bukas,bubuksan,"V;PFOC;LGSPEC1
+",0.0002333333333333,0.0006238095238095,b u b u k s a n
+suot,suot,"V;NFIN
+",0.0012333333333333,0.0002190476190476,s u ʔ o t
+suot,nagsuot,"V;PFV;AGFOC
+",0.0001,0.0002190476190476,n a ɡ s u ʔ o t
+suot,nagsusuot,"V;IPFV;AGFOC
+",0.0001,0.0002190476190476,n a ɡ s u s u ʔ o t
+suot,magsusuot,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.0002190476190476,m a ɡ s u s u ʔ o t
+suot,sinuot,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0002190476190476,s i n u ʔ o t
+suot,sinusuot,"V;IPFV;PFOC
+",0.0,0.0002190476190476,s i n u s u ʔ o t
+suot,susuutin,"V;PFOC;LGSPEC1
+",0.0,0.0002190476190476,s u s u ʔ u t i n
+tanong,tanong,"V;NFIN
+",0.0035,0.000847619047619,t a n o ŋ
+tanong,nagtanong,"V;PFV;AGFOC
+",0.0003666666666666,0.000847619047619,n a ɡ t a n o ŋ
+tanong,nagtatanong,"V;IPFV;AGFOC
+",0.0006333333333333,0.000847619047619,n a ɡ t a t a n o ŋ
+tanong,magtatanong,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.000847619047619,m a ɡ t a t a n o ŋ
+tanong,tinanong,"V;PFV;PFOC
+",0.0008333333333333,0.000847619047619,t i n a n o ŋ
+tanong,tinatanong,"V;IPFV;PFOC
+",0.0002666666666666,0.000847619047619,t i n a t a n o ŋ
+tanong,tatanungin,"V;PFOC;LGSPEC1
+",0.0002666666666666,0.000847619047619,t a t a n u ŋ i n
+ayaw,ayaw,"V;NFIN
+",0.0036333333333333,0.0005285714285714,ʔ a j a w
+ayaw,umayaw,"V;PFV;AGFOC
+",3.3333333333333335e-05,0.0005285714285714,ʔ u m a j a w
+ayaw,umaayaw,"V;IPFV;AGFOC
+",0.0,0.0005285714285714,ʔ u m a ʔ a j a w
+ayaw,aayaw,"V;AGFOC;LGSPEC1
+",0.0,0.0005285714285714,ʔ a ʔ a j a w
+ayaw,inayawan,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0005285714285714,ʔ i n a j a w a n
+ayaw,inaayawan,"V;IPFV;PFOC
+",0.0,0.0005285714285714,ʔ i n a ʔ a j a w a n
+ayaw,aayawan,"V;PFOC;LGSPEC1
+",0.0,0.0005285714285714,ʔ a ʔ a j a w a n
+alaga,alaga,"V;NFIN
+",0.0008,0.0002142857142857,ʔ a l a ɡ a ʔ
+alaga,nag-alaga,"V;PFV;AGFOC
+",0.0001,0.0002142857142857,n a ɡ a l a ɡ a ʔ
+alaga,nag-aalaga,"V;IPFV;AGFOC
+",0.0002666666666666,0.0002142857142857,n a ɡ a ʔ a l a ɡ a ʔ
+alaga,mag-aalaga,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.0002142857142857,m a ɡ a ʔ a l a ɡ a ʔ
+alaga,inalagaan,"V;PFV;PFOC
+",0.0001,0.0002142857142857,ʔ i n a l a ɡ a ʔ a n
+alaga,inaalagaaan,"V;IPFV;PFOC
+",0.0,0.0002142857142857,ʔ i n a ʔ a l a ɡ a ʔ a ʔ a n
+alaga,aalagaan,"V;PFOC;LGSPEC1
+",0.0001666666666666,0.0002142857142857,ʔ a ʔ a l a ɡ a ʔ a n
+laki,laki,"V;NFIN
+",0.0008,0.0004439393939393,l a k i ʔ
+laki,nagpalaki,"V;PFV;AGFOC
+",3.3333333333333335e-05,0.0004439393939393,n a ɡ p a l a k i ʔ
+laki,nagpapalaki,"V;IPFV;AGFOC
+",0.0,0.0004439393939393,n a ɡ p a p a l a k i
+laki,magpapalaki,"V;AGFOC;LGSPEC1
+",0.0,0.0004439393939393,m a ɡ p a p a l a k i
+laki,pinalaki,"V;PFV;PFOC
+",6.666666666666667e-05,0.0004439393939393,p i n a l a k i
+laki,pinapalaki,"V;IPFV;PFOC
+",0.0,0.0004439393939393,p i n a p a l a k i
+laki,papalakihin,"V;PFOC;LGSPEC1
+",0.0,0.0004439393939393,p a p a l a k i h i n
+abot,abot,"V;NFIN
+",0.0004666666666666,0.0007619047619047,ʔ a b o t
+abot,umabot,"V;PFV;AGFOC
+",0.0053666666666666,0.0007619047619047,ʔ u m a b o t
+abot,umaabot,"V;IPFV;AGFOC
+",0.0009,0.0007619047619047,ʔ u m a ʔ a b o t
+abot,aabot,"V;AGFOC;LGSPEC1
+",0.0020333333333333,0.0007619047619047,ʔ a ʔ a b o t
+abot,inabot,"V;PFV;PFOC
+",0.0005333333333333,0.0007619047619047,ʔ i n a b o t
+abot,inaabot,"V;IPFV;PFOC
+",0.0003,0.0007619047619047,ʔ i n a ʔ a b o t
+abot,aabutin,"V;PFOC;LGSPEC1
+",0.0003,0.0007619047619047,ʔ a ʔ a b u t i n
+tanggap,tanggap,"V;NFIN
+",0.0002333333333333,0.0006571428571428,t a ŋ ɡ a p
+tanggap,tumanggap,"V;PFV;AGFOC
+",0.0014666666666666,0.0006571428571428,t u m a ŋ ɡ a p
+tanggap,tumatanggap,"V;IPFV;AGFOC
+",0.0004666666666666,0.0006571428571428,t u m a t a ŋ ɡ a p
+tanggap,tatanggap,"V;AGFOC;LGSPEC1
+",0.0004333333333333,0.0006571428571428,t a t a ŋ ɡ a p
+tanggap,tinanggap,"V;PFV;PFOC
+",0.0012,0.0006571428571428,t i n a ŋ ɡ a p
+tanggap,tinatanggap,"V;IPFV;PFOC
+",0.0002666666666666,0.0006571428571428,t i n a t a ŋ ɡ a p
+tanggap,tatanggapin,"V;PFOC;LGSPEC1
+",0.0005333333333333,0.0006571428571428,t a t a ŋ ɡ a p i n
+ayaw,ayaw,"V;NFIN
+",0.0036333333333333,0.0005285714285714,ʔ a j a w
+ayaw,umayaw,"V;PFV;AGFOC
+",3.3333333333333335e-05,0.0005285714285714,ʔ u m a j a w
+ayaw,umaayaw,"V;IPFV;AGFOC
+",0.0,0.0005285714285714,ʔ u m a ʔ a j a w
+ayaw,aayaw,"V;AGFOC;LGSPEC1
+",0.0,0.0005285714285714,ʔ a ʔ a j a w
+ayaw,inayawan,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0005285714285714,ʔ i n a j a w a n
+ayaw,inaayawan,"V;IPFV;PFOC
+",0.0,0.0005285714285714,ʔ i n a ʔ a j a w a n
+ayaw,aayawan,"V;PFOC;LGSPEC1
+",0.0,0.0005285714285714,ʔ a ʔ a j a w a n
+ulit,ulit,"V;NFIN
+",0.0029,0.0004412698412698,ʔ u l i t
+ulit,umulit,"V;PFV;AGFOC
+",6.666666666666667e-05,0.0004412698412698,ʔ u m u l i t
+ulit,umuulit,"V;IPFV;AGFOC
+",0.0,0.0004412698412698,ʔ u m u ʔ u l i t
+ulit,uulit,"V;AGFOC;LGSPEC1
+",0.0,0.0004412698412698,ʔ u ʔ u l i t
+ulit,inulit,"V;PFV;PFOC
+",6.666666666666667e-05,0.0004412698412698,ʔ i n u l i t
+ulit,inuulit,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0004412698412698,ʔ i n u ʔ u l i t
+ulit,uulitin,"V;PFOC;LGSPEC1
+",6.666666666666667e-05,0.0004412698412698,ʔ u ʔ u l i t i n
+ulit,ulit,"V;NFIN
+",0.0029,0.0004412698412698,ʔ u l i t
+ulit,nag-ulit,"V;PFV;AGFOC
+",0.0,0.0004412698412698,n a ɡ u l i t
+ulit,nag-uulit,"V;IPFV;AGFOC
+",0.0,0.0004412698412698,n a ɡ u ʔ u l i t
+ulit,mag-uulit,"V;AGFOC;LGSPEC1
+",0.0,0.0004412698412698,m a ɡ u ʔ u l i t
+ulit,inulit,"V;PFV;PFOC
+",6.666666666666667e-05,0.0004412698412698,ʔ i n u l i t
+ulit,inuulit,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0004412698412698,ʔ i n u ʔ u l i t
+ulit,uulitin,"V;PFOC;LGSPEC1
+",6.666666666666667e-05,0.0004412698412698,ʔ u ʔ u l i t i n
+ulat,ulat,"V;NFIN
+",0.0081666666666666,0.0011999999999999,ʔ u l a t
+ulat,nag-ulat,"V;PFV;AGFOC
+",0.0001,0.0011999999999999,n a ɡ u l a t
+ulat,nag-uulat,"V;IPFV;AGFOC
+",0.0,0.0011999999999999,n a ɡ u ʔ u l a t
+ulat,mag-uulat,"V;AGFOC;LGSPEC1
+",0.0,0.0011999999999999,m a ɡ u ʔ u l a t
+ulat,inulat,"V;PFV;PFOC
+",0.0001,0.0011999999999999,ʔ i n u l a t
+ulat,inuulat,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0011999999999999,ʔ i n u ʔ u l a t
+ulat,iuulat,"V;PFOC;LGSPEC1
+",0.0,0.0011999999999999,ʔ i ʔ u ʔ u l a t
+balita,balita,"V;NFIN
+",0.0025,0.0003619047619047,b a l i t a
+balita,nagbalita,"V;PFV;AGFOC
+",3.3333333333333335e-05,0.0003619047619047,n a ɡ b a l i t a
+balita,nagbabalita,"V;IPFV;AGFOC
+",0.0,0.0003619047619047,n a ɡ b a b a l i t a
+balita,magbabalita,"V;AGFOC;LGSPEC1
+",0.0,0.0003619047619047,m a ɡ b a b a l i t a
+balita,binalita,"V;PFV;PFOC
+",0.0,0.0003619047619047,b i n a l i t a
+balita,binabalita,"V;IPFV;PFOC
+",0.0,0.0003619047619047,b i n a b a l i t a
+balita,ibabalita,"V;PFOC;LGSPEC1
+",0.0,0.0003619047619047,ʔ i b a b a l i t a
+ulit,ulit,"V;NFIN
+",0.0029,0.0004412698412698,ʔ u l i t
+ulit,nag-ulit,"V;PFV;AGFOC
+",0.0,0.0004412698412698,n a ɡ u l i t
+ulit,nag-uulit,"V;IPFV;AGFOC
+",0.0,0.0004412698412698,n a ɡ u ʔ u l i t
+ulit,mag-uulit,"V;AGFOC;LGSPEC1
+",0.0,0.0004412698412698,m a ɡ u ʔ u l i t
+ulit,inulit,"V;PFV;PFOC
+",6.666666666666667e-05,0.0004412698412698,ʔ i n u l i t
+ulit,inuulit,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0004412698412698,ʔ i n u ʔ u l i t
+ulit,uulitin,"V;PFOC;LGSPEC1
+",6.666666666666667e-05,0.0004412698412698,ʔ u ʔ u l i t i n
+sakay,sakay,"V;NFIN
+",0.0016666666666666,0.001195238095238,s a k a j
+sakay,sumakay,"V;PFV;AGFOC
+",0.0002333333333333,0.001195238095238,s u m a k a j
+sakay,sumasakay,"V;IPFV;AGFOC
+",0.0001,0.001195238095238,s u m a s a k a j
+sakay,sasakay,"V;AGFOC;LGSPEC1
+",0.0002666666666666,0.001195238095238,s a s a k a j
+sakay,sinakyan,"V;PFV;PFOC
+",0.0001666666666666,0.001195238095238,s i n a k j a n
+sakay,sinasakyan,"V;IPFV;PFOC
+",0.0002,0.001195238095238,s i n a s a k j a n
+sakay,sasakyan,"V;PFOC;LGSPEC1
+",0.0057333333333333,0.001195238095238,s a s a k j a n
+takbo,takbo,"V;NFIN
+",0.0007333333333333,0.0002619047619047,t a k b o
+takbo,tumakbo,"V;PFV;AGFOC
+",0.0005333333333333,0.0002619047619047,t u m a k b o ʔ
+takbo,tumatakbo,"V;IPFV;AGFOC
+",0.0002333333333333,0.0002619047619047,t u m a t a k b o
+takbo,tatakbo,"V;AGFOC;LGSPEC1
+",0.0003333333333333,0.0002619047619047,t a t a k b o
+takbo,tinakbo,"V;PFV;PFOC
+",0.0,0.0002619047619047,t i n a k b o
+takbo,tinatakbo,"V;IPFV;PFOC
+",0.0,0.0002619047619047,t i n a t a k b o
+takbo,tatakbuhin,"V;PFOC;LGSPEC1
+",0.0,0.0002619047619047,t a t a k b u h i n
+sabi,sabi,"V;NFIN
+",0.0069,0.0044571428571428,s a b i
+sabi,nagsabi,"V;PFV;AGFOC
+",0.0007666666666666,0.0044571428571428,n a ɡ s a b i ʔ
+sabi,nagsasabi,"V;IPFV;AGFOC
+",0.0008666666666666,0.0044571428571428,n a ɡ s a s a b i
+sabi,magsasabi,"V;AGFOC;LGSPEC1
+",0.0001333333333333,0.0044571428571428,m a ɡ s a s a b i
+sabi,sinabi,"V;PFV;PFOC
+",0.0165,0.0044571428571428,s i n a b i ʔ
+sabi,sinasabi,"V;IPFV;PFOC
+",0.005,0.0044571428571428,s i n a s a b i ʔ
+sabi,sasabihin,"V;PFOC;LGSPEC1
+",0.0010333333333333,0.0044571428571428,s a s a b i h i n
+takot,takot,"V;NFIN
+",0.0020666666666666,0.0004285714285714,t a k o t
+takot,natakot,"V;PFV;AGFOC
+",0.0002333333333333,0.0004285714285714,n a t a k o t
+takot,natatakot,"V;IPFV;AGFOC
+",0.0004333333333333,0.0004285714285714,n a t a t a k o t
+takot,matatakot,"V;AGFOC;LGSPEC1
+",0.0002,0.0004285714285714,m a t a t a k o t
+takot,tinakot,"V;PFV;PFOC
+",0.0,0.0004285714285714,t i n a k o t
+takot,tinatakot,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0004285714285714,t i n a t a k o t
+takot,tatakutin,"V;PFOC;LGSPEC1
+",0.0,0.0004285714285714,t a t a k u t i n
+kita,kita,"V;NFIN
+",0.0028,0.0010666666666666,k i t a
+kita,nakakita,"V;PFV;AGFOC
+",0.0003,0.0010666666666666,n a k a k i t a
+kita,nakakakita,"V;IPFV;AGFOC
+",0.0001333333333333,0.0010666666666666,n a k a k a k i t a
+kita,makakakita,"V;AGFOC;LGSPEC1
+",3.3333333333333335e-05,0.0010666666666666,m a k a k a k i t a
+kita,nakita,"V;PFV;PFOC
+",0.0033,0.0010666666666666,n a k i t a
+kita,nakikita,"V;IPFV;PFOC
+",0.0023333333333333,0.0010666666666666,n a k i k i t a
+kita,makikita,"V;PFOC;LGSPEC1
+",0.0018666666666666,0.0010666666666666,m a k i k i t a
+kanta,kanta,"V;NFIN
+",0.0016666666666666,0.0003619047619047,k a n t a
+kanta,kumanta,"V;PFV;AGFOC
+",0.0003,0.0003619047619047,k u m a n t a
+kanta,kumakanta,"V;IPFV;AGFOC
+",0.0003,0.0003619047619047,k u m a k a n t a
+kanta,kakanta,"V;AGFOC;LGSPEC1
+",3.3333333333333335e-05,0.0003619047619047,k a k a n t a
+kanta,kinanta,"V;PFV;PFOC
+",0.0001666666666666,0.0003619047619047,k i n a n t a
+kanta,kinakanta,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0003619047619047,k i n a k a n t a
+kanta,kakantahin,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0003619047619047,k a k a n t a h i n
+tulog,tulog,"V;NFIN
+",0.0006666666666666,0.0002095238095238,t u l o ɡ
+tulog,natulog,"V;PFV;AGFOC
+",6.666666666666667e-05,0.0002095238095238,n a t u l o ɡ
+tulog,natutulog,"V;IPFV;AGFOC
+",0.0007,0.0002095238095238,n a t u t u l o ɡ
+tulog,matutulog,"V;AGFOC;LGSPEC1
+",3.3333333333333335e-05,0.0002095238095238,m a t u t u l o ɡ
+tulog,tinulugan,"V;PFV;PFOC
+",0.0,0.0002095238095238,t i n u l u ɡ a n
+tulog,tinutulugan,"V;IPFV;PFOC
+",0.0,0.0002095238095238,t i n u t u l u ɡ a n
+tulog,tutulugan,"V;PFOC;LGSPEC1
+",0.0,0.0002095238095238,t u t u l u ɡ a n
+ayos,ayos,"V;NFIN
+",0.0005666666666666,0.0001904761904761,ʔ a j o s
+ayos,nag-ayos,"V;PFV;AGFOC
+",6.666666666666667e-05,0.0001904761904761,n a ɡ a j o s
+ayos,nag-aayos,"V;IPFV;AGFOC
+",6.666666666666667e-05,0.0001904761904761,n a ɡ a ʔ a j o s
+ayos,mag-aayos,"V;AGFOC;LGSPEC1
+",6.666666666666667e-05,0.0001904761904761,m a ɡ a ʔ a j o s
+ayos,inayos,"V;PFV;PFOC
+",0.0001,0.0001904761904761,ʔ i n a j o s
+ayos,inaayos,"V;IPFV;PFOC
+",0.0004,0.0001904761904761,ʔ i n a ʔ a j o s
+ayos,aayusin,"V;PFOC;LGSPEC1
+",6.666666666666667e-05,0.0001904761904761,ʔ a ʔ a j u s i n
+aral,aral,"V;NFIN
+",0.0008333333333333,0.0006428571428571,ʔ a ɾ a l
+aral,nag-aral,"V;PFV;AGFOC
+",0.0003,0.0006428571428571,n a ɡ a ɾ a l
+aral,nag-aaral,"V;IPFV;AGFOC
+",0.0004666666666666,0.0006428571428571,n a ɡ a ʔ a ɾ a l
+aral,mag-aaral,"V;AGFOC;LGSPEC1
+",0.0021333333333333,0.0006428571428571,m a ɡ a ʔ a ɾ a l
+aral,pinag-aralan,"V;PFV;PFOC
+",0.0001,0.0006428571428571,p i n a ɡ a ɾ a l a n
+aral,pinag-aaralan,"V;IPFV;PFOC
+",0.0004666666666666,0.0006428571428571,p i n a ɡ a ʔ a ɾ a l a n
+aral,pag-aaralan,"V;PFOC;LGSPEC1
+",0.0002,0.0006428571428571,p a ɡ a ʔ a ɾ a l a n
+hirap,hirap,"V;NFIN
+",0.0035,0.000595238095238,h i ɾ a p
+hirap,naghirap,"V;PFV;AGFOC
+",6.666666666666667e-05,0.000595238095238,n a ɡ h i ɾ a p
+hirap,naghihirap,"V;IPFV;AGFOC
+",0.0006,0.000595238095238,n a ɡ h i h i ɾ a p
+hirap,maghihirap,"V;AGFOC;LGSPEC1
+",0.0,0.000595238095238,m a ɡ h i h i ɾ a p
+hirap,hinirap,"V;PFV;PFOC
+",0.0,0.000595238095238,h i n i ɾ a p
+hirap,hinihirap,"V;IPFV;PFOC
+",0.0,0.000595238095238,h i n i h i ɾ a p
+hirap,ihihirap,"V;PFOC;LGSPEC1
+",0.0,0.000595238095238,ʔ i h i h i ɾ a p
+sabi,sabi,"V;NFIN
+",0.0069,0.0044571428571428,s a b i
+sabi,nagsabi,"V;PFV;AGFOC
+",0.0007666666666666,0.0044571428571428,n a ɡ s a b i ʔ
+sabi,nagsasabi,"V;IPFV;AGFOC
+",0.0008666666666666,0.0044571428571428,n a ɡ s a s a b i
+sabi,magsasabi,"V;AGFOC;LGSPEC1
+",0.0001333333333333,0.0044571428571428,m a ɡ s a s a b i
+sabi,sinabi,"V;PFV;PFOC
+",0.0165,0.0044571428571428,s i n a b i ʔ
+sabi,sinasabi,"V;IPFV;PFOC
+",0.005,0.0044571428571428,s i n a s a b i ʔ
+sabi,sasabihin,"V;PFOC;LGSPEC1
+",0.0010333333333333,0.0044571428571428,s a s a b i h i n
+isip,isip,"V;NFIN
+",0.0013333333333333,0.0004380952380952,ʔ i s i p
+isip,nag-isip,"V;PFV;AGFOC
+",0.0001666666666666,0.0004380952380952,n a ɡ i s i p
+isip,nag-iisip,"V;IPFV;AGFOC
+",0.0001666666666666,0.0004380952380952,n a ɡ i ʔ i s i p
+isip,mag-iisip,"V;AGFOC;LGSPEC1
+",0.0001,0.0004380952380952,m a ɡ i ʔ i s i p
+isip,inisip,"V;PFV;PFOC
+",0.0003666666666666,0.0004380952380952,ʔ i n i s i p
+isip,iniisip,"V;IPFV;PFOC
+",0.0009,0.0004380952380952,ʔ i n i ʔ i s i p
+isip,iisip,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0004380952380952,ʔ i ʔ i s i p
+bukas,bukas,"V;NFIN
+",0.0026,0.0006238095238095,b u k a s
+bukas,nagbukas,"V;PFV;AGFOC
+",0.0003333333333333,0.0006238095238095,n a ɡ b u k a s
+bukas,nagbubukas,"V;IPFV;AGFOC
+",6.666666666666667e-05,0.0006238095238095,n a ɡ b u b u k a s
+bukas,magbubukas,"V;AGFOC;LGSPEC1
+",0.0005333333333333,0.0006238095238095,m a ɡ b u b u k a s
+bukas,binuksan,"V;PFV;PFOC
+",0.0005333333333333,0.0006238095238095,b i n u k s a n
+bukas,binubuksan,"V;IPFV;PFOC
+",6.666666666666667e-05,0.0006238095238095,b i n u b u k s a n
+bukas,bubuksan,"V;PFOC;LGSPEC1
+",0.0002333333333333,0.0006238095238095,b u b u k s a n
+patay,patay,"V;NFIN
+",0.0021,0.0008928571428571,p a t a j
+patay,nagpatay,"V;PFV;AGFOC
+",0.0,0.0008928571428571,n a ɡ p a t a j
+patay,nagpapatay,"V;IPFV;AGFOC
+",0.0,0.0008928571428571,n a ɡ p a p a t a j
+patay,magpapatay,"V;AGFOC;LGSPEC1
+",0.0,0.0008928571428571,m a ɡ p a p a t a j
+patay,pinatay,"V;PFV;PFOC
+",0.0005333333333333,0.0008928571428571,p i n a t a j
+patay,pinapatay,"V;IPFV;PFOC
+",0.0002333333333333,0.0008928571428571,p i n a p a t a j
+patay,papatayin,"V;PFOC;LGSPEC1
+",0.0002666666666666,0.0008928571428571,p a p a t a j i n
+gamit,gamit,"V;NFIN
+",0.0038333333333333,0.0016761904761904,ɡ a m i t
+gamit,gumamit,"V;PFV;AGFOC
+",0.001,0.0016761904761904,ɡ u m a m i t
+gamit,gumagamit,"V;IPFV;AGFOC
+",0.0015333333333333,0.0016761904761904,ɡ u m a ɡ a m i t
+gamit,gagamit,"V;AGFOC;LGSPEC1
+",0.0002666666666666,0.0016761904761904,ɡ a ɡ a m i t
+gamit,ginamit,"V;PFV;PFOC
+",0.0016,0.0016761904761904,ɡ i n a m i t
+gamit,ginagamit,"V;IPFV;PFOC
+",0.0022666666666666,0.0016761904761904,ɡ i n a ɡ a m i t
+gamit,gagamitin,"V;PFOC;LGSPEC1
+",0.0012333333333333,0.0016761904761904,ɡ a ɡ a m i t i n
+labag,labag,"V;NFIN
+",0.0004666666666666,0.0003238095238095,l a b a ɡ
+labag,lumabag,"V;PFV;AGFOC
+",0.0005666666666666,0.0003238095238095,l u m a b a ɡ
+labag,lumalabag,"V;IPFV;AGFOC
+",0.0004666666666666,0.0003238095238095,l u m a l a b a ɡ
+labag,lalabag,"V;AGFOC;LGSPEC1
+",0.0004,0.0003238095238095,l a l a b a ɡ
+labag,nilabag,"V;PFV;PFOC
+",0.0003333333333333,0.0003238095238095,n i l a b a ɡ
+labag,nilalabag,"V;IPFV;PFOC
+",3.3333333333333335e-05,0.0003238095238095,n i l a l a b a ɡ
+labag,lalabagin,"V;PFOC;LGSPEC1
+",0.0,0.0003238095238095,l a l a b a ɡ i n
+hintay,hintay,"V;NFIN
+",0.0,0.0004904761904761,h i n t a j
+hintay,naghintay,"V;PFV;AGFOC
+",6.666666666666667e-05,0.0004904761904761,n a ɡ h i n t a j
+hintay,naghihintay,"V;IPFV;AGFOC
+",0.0012333333333333,0.0004904761904761,n a ɡ h i h i n t a j
+hintay,maghihintay,"V;AGFOC;LGSPEC1
+",0.0001,0.0004904761904761,m a ɡ h i h i n t a j
+hintay,hinintay,"V;PFV;PFOC
+",0.0002333333333333,0.0004904761904761,h i n i n t a j
+hintay,hinihintay,"V;IPFV;PFOC
+",0.0016,0.0004904761904761,h i n i h i n t a j
+hintay,hihintayin,"V;PFOC;LGSPEC1
+",0.0002,0.0004904761904761,h i h i n t a j i n
+gusto,gusto,"V;NFIN
+",0.0104666666666666,0.002725,ɡ u s t o
+gusto,ginusto,"V;PFV;PFOC
+",3.3333333333333335e-05,0.002725,ɡ i n u s t o
+gusto,ginugusto,"V;IPFV;PFOC
+",0.0,0.002725,ɡ i n u ɡ u s t o
+gusto,gugustuhin,"V;PFOC;LGSPEC1
+",0.0002,0.002725,ɡ u ɡ u s t u h i n
+nood,nood,"V;NFIN
+",0.0,0.0002363636363636,n o ʔ o d
+nood,nanood,"V;PFV;AGFOC
+",0.0003333333333333,0.0002363636363636,n a n o ʔ o d
+nood,nanonood,"V;IPFV;AGFOC
+",0.0005333333333333,0.0002363636363636,n a n o n o ʔ o d
+nood,manonood,"V;AGFOC;LGSPEC1
+",0.0012666666666666,0.0002363636363636,m a n o n o ʔ o d
+nood,pinanood,"V;PFV;PFOC
+",0.0001,0.0002363636363636,p i n a n o ʔ o d
+nood,pinapanood,"V;IPFV;PFOC
+",0.0001,0.0002363636363636,p i n a p a n o ʔ o d
+nood,papanoorin,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0002363636363636,p a p a n o ʔ o ɾ i n
+nood,nood,"V;NFIN
+",0.0,0.0002363636363636,n o ʔ o d
+nood,pinanood,"V;PFV;PFOC
+",0.0001,0.0002363636363636,p i n a n o ʔ o d
+nood,pinapanood,"V;IPFV;PFOC
+",0.0001,0.0002363636363636,p i n a p a n o ʔ o d
+nood,papanoorin,"V;PFOC;LGSPEC1
+",3.3333333333333335e-05,0.0002363636363636,p a p a n o ʔ o ɾ i n
+bantay,bantay,"V;NFIN
+",0.0001666666666666,0.0002047619047619,b a n t a j
+bantay,nagbantay,"V;PFV;AGFOC
+",0.0,0.0002047619047619,n a ɡ b a n t a j
+bantay,nagbabantay,"V;IPFV;AGFOC
+",0.0005,0.0002047619047619,n a ɡ b a b a n t a j
+bantay,magbabantay,"V;AGFOC;LGSPEC1
+",0.0001,0.0002047619047619,m a ɡ b a b a n t a j
+bantay,binantayan,"V;PFV;PFOC
+",0.0,0.0002047619047619,b i n a n t a j a n
+bantay,binabantayan,"V;IPFV;PFOC
+",0.0005333333333333,0.0002047619047619,b i n a b a n t a j a n
+bantay,babantayan,"V;PFOC;LGSPEC1
+",0.0001333333333333,0.0002047619047619,b a b a n t a j a n
+kasal,kasal,"V;NFIN
+",0.0015,0.0002404761904761,k a s a l
+kasal,nagpakasal,"V;PFV;AGFOC
+",0.0001,0.0002404761904761,n a ɡ p a k a s a l
+kasal,nagpapakasal,"V;IPFV;AGFOC
+",0.0,0.0002404761904761,n a ɡ p a p a k a s a l
+kasal,magpapakasal,"V;AGFOC;LGSPEC1
+",3.3333333333333335e-05,0.0002404761904761,m a ɡ p a p a k a s a l
+kasal,pinakasalan,"V;PFV;PFOC
+",0.0,0.0002404761904761,p i n a k a s a l a n
+kasal,pinapakasalan,"V;IPFV;PFOC
+",0.0,0.0002404761904761,p i n a p a k a s a l a n
+kasal,papakasalan,"V;PFOC;LGSPEC1
+",0.0,0.0002404761904761,p a p a k a s a l a n
+panalo,panalo,"V;NFIN
+",0.0006666666666666,0.0002428571428571,p a n a l o
+panalo,nanalo,"V;PFV;AGFOC
+",0.0007,0.0002428571428571,n a n a l o
+panalo,nananalo,"V;IPFV;AGFOC
+",3.3333333333333335e-05,0.0002428571428571,n a n a n a l o
+panalo,mananalo,"V;AGFOC;LGSPEC1
+",0.0002333333333333,0.0002428571428571,m a n a n a l o
+panalo,napanalunan,"V;PFV;PFOC
+",6.666666666666667e-05,0.0002428571428571,n a p a n a l u n a n
+panalo,napapanalunan,"V;IPFV;PFOC
+",0.0,0.0002428571428571,n a p a p a n a l u n a n
+panalo,papanalunan,"V;PFOC;LGSPEC1
+",0.0,0.0002428571428571,p a p a n a l u n a n
+kuha,kuha,"V;NFIN
+",0.0004666666666666,0.0004547619047619,k u h a ʔ
+kuha,kumuha,"V;PFV;AGFOC
+",0.001,0.0004547619047619,k u m u h a ʔ
+kuha,kumukuha,"V;IPFV;AGFOC
+",0.0002333333333333,0.0004547619047619,k u m u k u h a ʔ
+kuha,kukuha,"V;AGFOC;LGSPEC1
+",0.0004333333333333,0.0004547619047619,k u k u h a ʔ
+kuha,kinuha,"V;PFV;PFOC
+",0.0006666666666666,0.0004547619047619,k i n u h a ʔ
+kuha,kinukuha,"V;IPFV;PFOC
+",0.0001666666666666,0.0004547619047619,k i n u k u h a ʔ
+kuha,kukuha,"V;PFOC;LGSPEC1
+",0.0004333333333333,0.0004547619047619,k u k u h a ʔ
+trabaho,trabaho,"V;NFIN
+",0.0124666666666666,0.0021047619047619,t ɾ a b a h o
+trabaho,nagtrabaho,"V;PFV;AGFOC
+",0.0002,0.0021047619047619,n a ɡ t ɾ a b a h o
+trabaho,nagtatrabaho,"V;IPFV;AGFOC
+",0.0018333333333333,0.0021047619047619,n a ɡ t a t ɾ a b a h o
+trabaho,magtatrabaho,"V;AGFOC;LGSPEC1
+",0.0001,0.0021047619047619,m a ɡ t a t ɾ a b a h o
+trabaho,tinrabaho,"V;PFV;PFOC
+",3.3333333333333335e-05,0.0021047619047619,t i n ɾ a b a h o
+trabaho,tinatrabaho,"V;IPFV;PFOC
+",0.0001,0.0021047619047619,t i n a t ɾ a b a h o
+trabaho,tatrabahuin,"V;PFOC;LGSPEC1
+",0.0,0.0021047619047619,t a t ɾ a b a h u ʔ i n

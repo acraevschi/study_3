@@ -1,0 +1,134 @@
+lemma,form,paradigm_slot,phonemic_form
+abair,ag ràdh,V;V.PTCP;PRS,a k ɾ aː ɣ
+abair,theireadh,V;COND;ACT,h e ɾʲ ə ɣ
+abair,theirear,V;FUT;PASS,h e ɾʲ ə ɾ
+abair,theirteadh,V;COND;PASS,h e rˠ ʃ tʲ ə ɣ
+abair,their,V;FUT;ACT,h e ɾʲ
+abair,thuirteadh,V;PST;PASS,h ɯ rˠ ʃ tʲ ə ɣ
+abair,thuirt,V;PST;ACT,h ɯ rˠ ʃ tʲ
+beir,a' breith,V;V.PTCP;PRS,a p ɾʲ e h
+beir,beirear,V;FUT;PASS,p e ɾʲ ə ɾ
+beir,beiridh,V;FUT;ACT,p e ɾʲ ɪ
+beir,bheireadh,V;COND;ACT,v e ɾʲ ə ɣ
+beir,bheirteadh,V;COND;PASS,v e rˠ ʃ tʲ ə ɣ
+beir,rugadh,V;PST;PASS,rˠ u k ə ɣ
+beir,rug,V;PST;ACT,rˠ u k
+caidil,a' cadal,V;V.PTCP;PRS,a kʰ a t̪ ə l̪ˠ
+caidil,caidilear,V;FUT;PASS,kʰ a tʲ ɪ l ə ɾ
+caidil,caidilidh,V;FUT;ACT,kʰ a tʲ ɪ l ɪ
+caidil,chaidileadhnote,V;COND;ACT,x a tʲ ɪ l ə ɣ n ɔ h tʲ ə
+caidil,chaidileadh,V;PST;PASS,x a tʲ ɪ l ə ɣ
+caidil,chaidilteadh,V;COND;PASS,x a tʲ ɪ l̪ˠ tʲ ə ɣ
+caidil,chaidil,V;PST;ACT,x a tʲ ɪ l
+crùb,a' crùbadh,V;V.PTCP;PRS,a x k ɾ uː p ə ɣ
+crùb,chrùbadh,V;COND;ACT,x ɾ uː p ə ɣ
+crùb,chrùbadh,V;PST;PASS,x ɾ uː p ə ɣ
+crùb,chrùb,V;PST;ACT,x ɾ uː p
+crùb,crùbaidh,V;FUT;ACT,kʰ ɾ uː p ɪ
+crùb,crùbar,V;FUT;PASS,kʰ ɾ uː p ə ɾ
+crùb,crùbtadh,V;COND;PASS,kʰ ɾ uː p t̪ ə ɣ
+dòth,a' dòthadh,V;V.PTCP;PRS,a t̪ ɔː ə ɣ
+dòth,dhòthadh,V;COND;ACT,ɣ ɔː ə ɣ
+dòth,dhòthadh,V;PST;PASS,ɣ ɔː ə ɣ
+dòth,dhòthtadh,V;COND;PASS,ɣ ɔː h t̪ ə ɣ
+dòth,dhòth,V;PST;ACT,ɣ ɔː
+dòth,dòthaidh,V;FUT;ACT,t̪ ɔː ɪ
+dòth,dòthar,V;FUT;PASS,t̪ ɔː ə ɾ
+faigh,a' faighinn,V;V.PTCP;PRS,ə f ɪ ɲ
+faigh,fhuair,V;PST;ACT,u ə ɾʲ
+faigh,fhuaras,V;PST;PASS,u ə ɾ ə s̪
+faigh,gheibhadh,V;COND;ACT,j e v ə ɣ
+faigh,gheibhear,V;FUT;PASS,j e v ə ɾ
+faigh,gheibhteadh,V;COND;PASS,j e h tʲ ə ɣ
+faigh,gheibh,V;FUT;ACT,j e v
+glac,a' glacadh,V;V.PTCP;PRS,a k l̪ˠ a x k ə ɣ
+glac,ghlacadh,V;COND;ACT,ɣ l̪ˠ a x k ə ɣ
+glac,ghlacadh,V;PST;PASS,ɣ l̪ˠ a x k ə ɣ
+glac,ghlactadh,V;COND;PASS,ɣ l̪ˠ a x t̪ ə ɣ
+glac,ghlac,V;PST;ACT,ɣ l̪ˠ a x k
+glac,glacaidh,V;FUT;ACT,k l̪ˠ a x k ɪ
+glac,glacar,V;FUT;PASS,k l̪ˠ a x k ə ɾ
+ioma-ghlac,ag ioma-ghlacadh,V;V.PTCP;PRS,a k i m ə ɣ l̪ˠ a x k ə ɣ
+ioma-ghlac,dh'ioma-ghlacadh,V;COND;ACT,ɣ i m ə ɣ l̪ˠ a x k ə ɣ
+ioma-ghlac,dh'ioma-ghlacadh,V;PST;PASS,ɣ i m ə ɣ l̪ˠ a x k ə ɣ
+ioma-ghlac,dh'ioma-ghlactadh,V;COND;PASS,ɣ i m ə ɣ l̪ˠ a x t̪ ə ɣ
+ioma-ghlac,dh'ioma-ghlac,V;PST;ACT,ɣ i m ə ɣ l̪ˠ a x k
+ioma-ghlac,ioma-ghlacaidh,V;FUT;ACT,i m ə ɣ l̪ˠ a x k ɪ
+ioma-ghlac,ioma-ghlacar,V;FUT;PASS,i m ə ɣ l̪ˠ a x k ə ɾ
+ligh,a' lì,V;V.PTCP;PRS,a l̪ˠ iː
+ligh,ligheadh,V;COND;ACT,ʎ i ə ɣ
+ligh,ligheadh,V;PST;PASS,ʎ i ə ɣ
+ligh,lighear,V;FUT;PASS,ʎ i ə ɾ
+ligh,lighidh,V;FUT;ACT,ʎ i ɪ
+ligh,lighteadh,V;COND;PASS,ʎ i h tʲ ə ɣ
+ligh,ligh,V;PST;ACT,ʎ i
+rèitich,a' rèiteachadh,V;V.PTCP;PRS,a rˠ eː h tʲ ə x ə ɣ
+rèitich,rèiticheadh,V;COND;ACT,rˠ eː h tʲ ɪ ç ə ɣ
+rèitich,rèiticheadh,V;PST;PASS,rˠ eː h tʲ ɪ ç ə ɣ
+rèitich,rèitichear,V;FUT;PASS,rˠ eː h tʲ ɪ ç ə ɾ
+rèitich,rèitichidh,V;FUT;ACT,rˠ eː h tʲ ɪ ç ɪ
+rèitich,rèitichteadh,V;COND;PASS,rˠ eː h tʲ ɪ ç tʲ ə ɣ
+rèitich,rèitich,V;PST;ACT,rˠ eː h tʲ ɪ ç
+ruig,a' ruigsinn,V;V.PTCP;PRS,a rˠ u kʲ ʃ ɪ ɲ
+ruig,ràinig,V;PST;ACT,rˠ aː ɲ ɪ kʲ
+ruig,ruigeadh,V;COND;ACT,rˠ u kʲ ə ɣ
+ruig,ruigeadh,V;PST;PASS,rˠ u kʲ ə ɣ
+ruig,ruigear,V;FUT;PASS,rˠ u kʲ ə ɾ
+ruig,ruigidh,V;FUT;ACT,rˠ u kʲ ɪ
+ruig,ruigteadh,V;COND;PASS,rˠ u c tʲ ə ɣ
+searg,a' seargadh,V;V.PTCP;PRS,a ʃ ɛ ɾ k ə ɣ
+searg,seargaidh,V;FUT;ACT,ʃ ɛ ɾ k ɪ
+searg,seargar,V;FUT;PASS,ʃ ɛ ɾ k ə ɾ
+searg,sheargadh,V;COND;ACT,h ɛ ɾ k ə ɣ
+searg,sheargadh,V;PST;PASS,h ɛ ɾ k ə ɣ
+searg,sheargtadh,V;COND;PASS,h ɛ ɾ kʰ t̪ ə ɣ
+searg,shearg,V;PST;ACT,h ɛ ɾ k
+seòl,a' seòladh,V;V.PTCP;PRS,a ʃ ɔː l̪ˠ ə ɣ
+seòl,seòlaidh,V;FUT;ACT,ʃ ɔː l̪ˠ ɪ
+seòl,seòlar,V;FUT;PASS,ʃ ɔː l̪ˠ ə ɾ
+seòl,sheòladh,V;COND;ACT,h ɔː l̪ˠ ə ɣ
+seòl,sheòladh,V;PST;PASS,h ɔː l̪ˠ ə ɣ
+seòl,sheòltadh,V;COND;PASS,h ɔː l̪ˠ t̪ ə ɣ
+seòl,sheòl,V;PST;ACT,h ɔː l̪ˠ
+stad,a' stadadh,V;V.PTCP;PRS,a s̪ t̪ a t̪ ə ɣ
+stad,stadadh,V;COND;ACT,s̪ t̪ a t̪ ə ɣ
+stad,stadadh,V;PST;PASS,s̪ t̪ a t̪ ə ɣ
+stad,stadaidh,V;FUT;ACT,s̪ t̪ a t̪ ɪ
+stad,stadar,V;FUT;PASS,s̪ t̪ a t̪ ə ɾ
+stad,stadtadh,V;COND;PASS,s̪ t̪ a t̪ ə ɣ
+stad,stad,V;PST;ACT,s̪ t̪ a t̪
+stiùir,a' stiùireadh,V;V.PTCP;PRS,ə ʃ tʲ uː ɾʲ ə ɣ
+stiùir,stiùireadh,V;COND;ACT,ʃ tʲ uː ɾʲ ə ɣ
+stiùir,stiùireadh,V;PST;PASS,ʃ tʲ uː ɾʲ ə ɣ
+stiùir,stiùirear,V;FUT;PASS,ʃ tʲ uː ɾʲ ə ɾ
+stiùir,stiùiridh,V;FUT;ACT,ʃ tʲ uː ɾʲ ɪ
+stiùir,stiùirteadh,V;COND;PASS,ʃ tʲ uː rˠ ʃ tʲ ə ɣ
+stiùir,stiùir,V;PST;ACT,ʃ tʲ uː ɾʲ
+sùgh,a' sùghadh,V;V.PTCP;PRS,ə s̪ uː ə ɣ
+sùgh,shùghadh,V;COND;ACT,h uː ə ɣ
+sùgh,shùghadh,V;PST;PASS,h uː ə ɣ
+sùgh,shùghteadh,V;COND;PASS,h uː h tʲ ə ɣ
+sùgh,shùgh,V;PST;ACT,h uː
+sùgh,sùghaidh,V;FUT;ACT,s̪ uː ɪ
+sùgh,sùghar,V;FUT;PASS,s̪ uː ə ɾ
+suidh,a' suidhe,V;V.PTCP;PRS,ə s̪ ɯ j ə
+suidh,shuidheadh,V;COND;ACT,h ɯ j ə ɣ
+suidh,shuidheadh,V;PST;PASS,h ɯ j ə ɣ
+suidh,shuidhteadh,V;COND;PASS,h ɯ h tʲ ə ɣ
+suidh,shuidh,V;PST;ACT,h ɯ j
+suidh,suidhear,V;FUT;PASS,s̪ ɯ ə ɾ
+suidh,suidhidh,V;FUT;ACT,s̪ ɯ j ɪ
+toilich,a' toileachadh,V;V.PTCP;PRS,a t̪ʰ ɔ l ə x ə ɣ
+toilich,thoilicheadh,V;COND;ACT,h ɔ l ɪ ç ə ɣ
+toilich,thoilicheadh,V;PST;PASS,h ɔ l ɪ ç ə ɣ
+toilich,thoilichteadh,V;COND;PASS,h ɔ l ɪ ç tʲ ə ɣ
+toilich,thoilich,V;PST;ACT,h ɔ l ɪ ç
+toilich,toilichear,V;FUT;PASS,t̪ʰ ɔ l ɪ ç ə ɾ
+toilich,toilichidh,V;FUT;ACT,t̪ʰ ɔ l ɪ ç ɪ
+tòisich,a' tòiseachadh,V;V.PTCP;PRS,a t̪ʰ ɔː ʃ ə x ə ɣ
+tòisich,thòisicheadh,V;COND;ACT,h ɔː ʃ ɪ ç ə ɣ
+tòisich,thòisicheadh,V;PST;PASS,h ɔː ʃ ɪ ç ə ɣ
+tòisich,thòisichteadh,V;COND;PASS,h ɔː ʃ ɪ ç tʲ ə ɣ
+tòisich,thòisich,V;PST;ACT,h ɔː ʃ ɪ ç
+tòisich,tòisichear,V;FUT;PASS,t̪ʰ ɔː ʃ ɪ ç ə ɾ
+tòisich,tòisichidh,V;FUT;ACT,t̪ʰ ɔː ʃ ɪ ç ɪ

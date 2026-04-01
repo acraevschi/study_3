@@ -1,0 +1,656 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+anontany,anontany,"V;NFIN
+",0.0001333333333333,0.000775,a n uⁿ t ã nʲ
+anontany,manontany,"V;PRS
+",0.0012666666666666,0.000775,m a n uⁿ t ã nʲ
+anontany,nanontany,"V;PST
+",0.0012333333333333,0.000775,n a n uⁿ t ã nʲ
+anontany,hanontany,"V;FUT
+",0.0004666666666666,0.000775,ʔ a n uⁿ t ã nʲ
+tonga,tonga,"V;NFIN
+",0.0260666666666666,0.0065166666666666,t uᵑ ɡ a
+tonga,mtonga,"V;PRS
+",0.0,0.0065166666666666,m t uᵑ ɡ a
+tonga,ntonga,"V;PST
+",0.0,0.0065166666666666,ⁿt uᵑ ɡ ã
+tonga,htonga,"V;FUT
+",0.0,0.0065166666666666,t͡ʂ uŋ ɡ ã
+itomany,itomany,"V;NFIN
+",0.0,0.000425,i t u m ã nʲ
+itomany,mitomany,"V;PRS
+",0.0008666666666666,0.000425,m i t u m ã nʲ
+itomany,nitomany,"V;PST
+",0.0006666666666666,0.000425,n i t u m ã nʲ
+itomany,hitomany,"V;FUT
+",0.0001666666666666,0.000425,h i t u m ã nʲ
+andihy,andihy,"V;NFIN
+",3.3333333333333335e-05,0.0001916666666666,aⁿ d i ʔʷʲ
+andihy,mandihy,"V;PRS
+",0.0004,0.0001916666666666,m aⁿ d i ʔʷʲ
+andihy,nandihy,"V;PST
+",0.0001666666666666,0.0001916666666666,n ãⁿ d i ʔʷʲ
+andihy,handihy,"V;FUT
+",0.0001666666666666,0.0001916666666666,h aⁿ d i ʔʷ
+isotro,isotro,"V;NFIN
+",0.0,0.0003166666666666,i s u t͡ʂʷ
+isotro,misotro,"V;PRS
+",0.0006333333333333,0.0003166666666666,m i s u t͡ʂʷ
+isotro,nisotro,"V;PST
+",0.0003666666666666,0.0003166666666666,n i s u t͡ʂʷ
+isotro,hisotro,"V;FUT
+",0.0002666666666666,0.0003166666666666,h i s u t͡ʂʰ u
+ihinana,ihinana,"V;NFIN
+",0.0,0.00085,i h i n ã n ã
+ihinana,mihinana,"V;PRS
+",0.0017666666666666,0.00085,m i h i n ã n ã
+ihinana,nihinana,"V;PST
+",0.0009,0.00085,n i h i n ã n ã
+ihinana,hihinana,"V;FUT
+",0.0007333333333333,0.00085,h i h i n a n ã
+andeha,andeha,"V;NFIN
+",0.0008333333333333,0.0036833333333333,aⁿ d e ʔ a
+andeha,mandeha,"V;PRS
+",0.0068333333333333,0.0036833333333333,m aⁿ d e ʔ a
+andeha,nandeha,"V;PST
+",0.0042,0.0036833333333333,n ãⁿ d e ʔ ã
+andeha,handeha,"V;FUT
+",0.0028666666666666,0.0036833333333333,h aⁿ d e ʔ a
+ihomehy,ihomehy,"V;NFIN
+",0.0,0.000175,i ʔ u m e ʔʷ
+ihomehy,mihomehy,"V;PRS
+",0.0003333333333333,0.000175,m i h u m e ʔʷ
+ihomehy,nihomehy,"V;PST
+",0.0003,0.000175,n i ʔ u m e ʔʷ
+ihomehy,hihomehy,"V;FUT
+",6.666666666666667e-05,0.000175,h i h u m e ʔʷ
+ilalao,ilalao,"V;NFIN
+",0.0,0.0002166666666666,i l a l u
+ilalao,milalao,"V;PRS
+",0.0004666666666666,0.0002166666666666,m i l a l u
+ilalao,nilalao,"V;PST
+",0.0001666666666666,0.0002166666666666,n i l a l u
+ilalao,hilalao,"V;FUT
+",0.0002333333333333,0.0002166666666666,h i l a l u
+ihazakazaka,ihazakazaka,"V;NFIN
+",0.0,0.000175,i h a z a k a z a k à
+ihazakazaka,mihazakazaka,"V;PRS
+",0.0002333333333333,0.000175,m i h a z a k a z a k à
+ihazakazaka,nihazakazaka,"V;PST
+",0.0003666666666666,0.000175,n i h a z a k a z a k à
+ihazakazaka,hihazakazaka,"V;FUT
+",0.0001,0.000175,h i h a z a k a z a k á
+iantsoantso,iantsoantso,"V;NFIN
+",0.0,5e-05,j aⁿ t͡s u aⁿ t͡sʷ
+iantsoantso,miantsoantso,"V;PRS
+",0.0001,5e-05,m i aⁿ t͡s u aⁿ t͡sʷ
+iantsoantso,niantsoantso,"V;PST
+",3.3333333333333335e-05,5e-05,n i aⁿ t͡sʷ aⁿ t͡sʷ
+iantsoantso,hiantsoantso,"V;FUT
+",6.666666666666667e-05,5e-05,h i aᵐ t͡s u aᵐ t͡sʷ
+ihira,ihira,"V;NFIN
+",0.0,0.0001916666666666,i h i ɾ ạ
+ihira,mihira,"V;PRS
+",0.0004333333333333,0.0001916666666666,m i h i ɾ ạ
+ihira,nihira,"V;PST
+",0.0001666666666666,0.0001916666666666,n i h i ɾ ạ
+ihira,hihira,"V;FUT
+",0.0001666666666666,0.0001916666666666,h i h i ɾ ạ
+ipetraka,ipetraka,"V;NFIN
+",0.0,0.0013666666666666,i p e t͡ʂ a k ạ
+ipetraka,mipetraka,"V;PRS
+",0.003,0.0013666666666666,m i p e t͡ʂ a k ạ
+ipetraka,nipetraka,"V;PST
+",0.0017333333333333,0.0013666666666666,n i p e t͡ʂ a k ạ
+ipetraka,hipetraka,"V;FUT
+",0.0007333333333333,0.0013666666666666,h i p e t͡ʂ a k ạ
+atory,atory,"V;NFIN
+",0.0,0.0008416666666666,a t u ɾʲ
+atory,matory,"V;PRS
+",0.0014666666666666,0.0008416666666666,m a t u ɾʲ
+atory,natory,"V;PST
+",0.0009333333333333,0.0008416666666666,n a t u ɾʲ
+atory,hatory,"V;FUT
+",0.0009666666666666,0.0008416666666666,h a t u ɾʲ
+iresaka,iresaka,"V;NFIN
+",3.3333333333333335e-05,0.0012833333333333,i ɾ e s a k á
+iresaka,miresaka,"V;PRS
+",0.0031333333333333,0.0012833333333333,m i ɾ e s a k á
+iresaka,niresaka,"V;PST
+",0.0013,0.0012833333333333,n i ɾ e s a k á
+iresaka,hiresaka,"V;FUT
+",0.0006666666666666,0.0012833333333333,h i ɾ e s a k á
+miasa,miasa,"V;NFIN
+",0.0048,0.0012,m i a s ạ
+miasa,mmiasa,"V;PRS
+",0.0,0.0012,m m i a s ạ
+miasa,nmiasa,"V;PST
+",0.0,0.0012,ⁿm i a s ạ
+miasa,hmiasa,"V;FUT
+",0.0,0.0012,m i a s ạ
+andahatra,andahatra,"V;NFIN
+",0.0,0.0001166666666666,aⁿ d a ʔ a t͡ʂ ạ
+andahatra,mandahatra,"V;PRS
+",0.0002333333333333,0.0001166666666666,m aⁿ d a ʔ a t͡ʂ ạ
+andahatra,nandahatra,"V;PST
+",6.666666666666667e-05,0.0001166666666666,n ãⁿ d a ʔ á t͡ʂ ã
+andahatra,handahatra,"V;FUT
+",0.0001666666666666,0.0001166666666666,h aⁿ d a ʔ a t͡ʂ ã
+ampianatra,ampianatra,"V;NFIN
+",3.3333333333333335e-05,0.000725,aᵐ p i a n a t͡ʂ ạ
+ampianatra,mampianatra,"V;PRS
+",0.0014,0.000725,m aᵐ p i a n a t͡ʂ ạ
+ampianatra,nampianatra,"V;PST
+",0.0008666666666666,0.000725,n ãᵐ p i a n ã t͡ʂ ã
+ampianatra,hampianatra,"V;FUT
+",0.0006,0.000725,h aᵐ p i a n a t͡ʂ ạ
+ahafantatra,ahafantatra,"V;NFIN
+",0.0001666666666666,0.0009833333333333,a ʔ a f aⁿ t a t͡ʂ ạ
+ahafantatra,mahafantatra,"V;PRS
+",0.0023666666666666,0.0009833333333333,m a ʔ a f aⁿ t a t͡ʂ ạ
+ahafantatra,nahafantatra,"V;PST
+",0.0008666666666666,0.0009833333333333,n a ʔ a f aⁿ t a t͡ʂ ạ
+ahafantatra,hahafantatra,"V;FUT
+",0.0005333333333333,0.0009833333333333,ʔ a ʔ a f aⁿ t a t͡ʂ ạ
+ahalala,ahalala,"V;NFIN
+",0.0002,0.0019416666666666,a ʔ a l a l á
+ahalala,mahalala,"V;PRS
+",0.0055,0.0019416666666666,m a ʔ a l a l á
+ahalala,nahalala,"V;PST
+",0.0010666666666666,0.0019416666666666,n a ʔ a l a l á
+ahalala,hahalala,"V;FUT
+",0.001,0.0019416666666666,h a ʔ a l a l á
+aharitra,aharitra,"V;NFIN
+",0.0001666666666666,0.0009833333333333,a ʔ a ɾ i t͡ʂ ạ
+aharitra,maharitra,"V;PRS
+",0.0022,0.0009833333333333,m a ʔ a ɾ i t͡ʂ ạ
+aharitra,naharitra,"V;PST
+",0.0008666666666666,0.0009833333333333,n a ʔ a ɾ i t͡ʂ ạ
+aharitra,haharitra,"V;FUT
+",0.0007,0.0009833333333333,ʔ a ʔ a ɾ i t͡ʂ ạ
+ahary,ahary,"V;NFIN
+",0.0,0.0001083333333333,a ʔ a ɾʲ
+ahary,mahary,"V;PRS
+",6.666666666666667e-05,0.0001083333333333,m a ʔ a ɾʲ
+ahary,nahary,"V;PST
+",0.0003666666666666,0.0001083333333333,n a ʔ a ɾʲ
+ahary,hahary,"V;FUT
+",0.0,0.0001083333333333,h a ʔ a ɾʲ
+ahazo,ahazo,"V;NFIN
+",0.0001333333333333,0.0039583333333333,a ʔ a zʷ
+ahazo,mahazo,"V;PRS
+",0.0066333333333333,0.0039583333333333,m a ʔ a zʷ
+ahazo,nahazo,"V;PST
+",0.0063666666666666,0.0039583333333333,n a ʔ a zʷ
+ahazo,hahazo,"V;FUT
+",0.0027,0.0039583333333333,h a h a z u
+amaky,amaky,"V;NFIN
+",0.0,0.0011166666666666,a m a kʲ
+amaky,mamaky,"V;PRS
+",0.0027666666666666,0.0011166666666666,m a m a kʲ
+amaky,namaky,"V;PST
+",0.0011666666666666,0.0011166666666666,n a m a kʲ
+amaky,hamaky,"V;FUT
+",0.0005333333333333,0.0011166666666666,h a m a kʲ
+amarana,amarana,"V;NFIN
+",3.3333333333333335e-05,7.500000000000001e-05,a m a ɾ a n ạ
+amarana,mamarana,"V;PRS
+",3.3333333333333335e-05,7.500000000000001e-05,m a m a ɾ a n ạ
+amarana,namarana,"V;PST
+",0.0002,7.500000000000001e-05,n a m a ɾ a n ạ
+amarana,hamarana,"V;FUT
+",3.3333333333333335e-05,7.500000000000001e-05,ʔ a m a ɾ a n ạ
+amela,amela,"V;NFIN
+",0.0,0.0003916666666666,a m e l ã
+amela,mamela,"V;PRS
+",0.0005666666666666,0.0003916666666666,m a m e l ã
+amela,namela,"V;PST
+",0.0006,0.0003916666666666,n a m e l ã
+amela,hamela,"V;FUT
+",0.0004,0.0003916666666666,a m e l ã
+amirapiratra,amirapiratra,"V;NFIN
+",0.0,0.0001,a m i ɾ a p i ɾ a t͡ʂ ạ
+amirapiratra,mamirapiratra,"V;PRS
+",0.0002666666666666,0.0001,m a m i ɾ a p i ɾ a t͡ʂ ạ
+amirapiratra,namirapiratra,"V;PST
+",6.666666666666667e-05,0.0001,n a m i ɾ a p i ɾ a t͡ʂ ạ
+amirapiratra,hamirapiratra,"V;FUT
+",6.666666666666667e-05,0.0001,ʔ a m i ɾ a p i ɾ a t͡ʂ ạ
+amokatra,amokatra,"V;NFIN
+",0.0,0.0002083333333333,a m u k a t͡ʂ ạ
+amokatra,mamokatra,"V;PRS
+",0.0002666666666666,0.0002083333333333,m a m u k a t͡ʂ ạ
+amokatra,namokatra,"V;PST
+",6.666666666666667e-05,0.0002083333333333,n a m u k a t͡ʂ ạ
+amokatra,hamokatra,"V;FUT
+",0.0005,0.0002083333333333,ʔ a m u k a t͡ʂ ạ
+amoy,amoy,"V;NFIN
+",0.0,0.0002416666666666,a m u j
+amoy,mamoy,"V;PRS
+",0.0001333333333333,0.0002416666666666,m a m u j
+amoy,namoy,"V;PST
+",0.0007666666666666,0.0002416666666666,n a m u j
+amoy,hamoy,"V;FUT
+",6.666666666666667e-05,0.0002416666666666,h a m u j
+ampiavaka,ampiavaka,"V;NFIN
+",0.0,0.0002416666666666,aᵐ p i a v a k á
+ampiavaka,mampiavaka,"V;PRS
+",0.0008333333333333,0.0002416666666666,m aᵐ p i a v a k á
+ampiavaka,nampiavaka,"V;PST
+",6.666666666666667e-05,0.0002416666666666,n ãᵐ p i a v á k á
+ampiavaka,hampiavaka,"V;FUT
+",6.666666666666667e-05,0.0002416666666666,h aᵐ p i a v a k á
+ampiditra,ampiditra,"V;NFIN
+",3.3333333333333335e-05,0.000375,aᵐ p i d i t͡ʂ ạ
+ampiditra,mampiditra,"V;PRS
+",0.0006333333333333,0.000375,m ãᵐ p i d i t͡ʂ ạ
+ampiditra,nampiditra,"V;PST
+",0.0005666666666666,0.000375,n ãᵐ p i d i t͡ʂ ạ
+ampiditra,hampiditra,"V;FUT
+",0.0002666666666666,0.000375,ʔ aᵐ p i d i t͡ʂ ạ
+anadihady,anadihady,"V;NFIN
+",0.0,4.166666666666667e-05,a n a d i h a dʲ
+anadihady,manadihady,"V;PRS
+",6.666666666666667e-05,4.166666666666667e-05,m a n a d i h a dʲ
+anadihady,nanadihady,"V;PST
+",6.666666666666667e-05,4.166666666666667e-05,n a n a d i h a dʲ
+anadihady,hanadihady,"V;FUT
+",3.3333333333333335e-05,4.166666666666667e-05,h a n a d i h a dʲ
+anafatra,anafatra,"V;NFIN
+",0.0,8.333333333333333e-05,a n a f a t͡ʂ ạ
+anafatra,manafatra,"V;PRS
+",0.0001,8.333333333333333e-05,m a n a f a t͡ʂ ạ
+anafatra,nanafatra,"V;PST
+",0.0001333333333333,8.333333333333333e-05,n a n a f a t͡ʂ ạ
+anafatra,hanafatra,"V;FUT
+",0.0001,8.333333333333333e-05,ʔ a n a f a t͡ʂ ạ
+anafika,anafika,"V;NFIN
+",0.0,0.0001166666666666,a n a f i k ạ
+anafika,manafika,"V;PRS
+",0.0001333333333333,0.0001166666666666,m a n a f i k ạ
+anafika,nanafika,"V;PST
+",0.0001666666666666,0.0001166666666666,n a n a f i k ã
+anafika,hanafika,"V;FUT
+",0.0001666666666666,0.0001166666666666,ʔ a n a f i k ạ
+anakiana,anakiana,"V;NFIN
+",3.3333333333333335e-05,6.666666666666667e-05,a n a k i a n ạ
+anakiana,manakiana,"V;PRS
+",0.0001333333333333,6.666666666666667e-05,m a n a k i a n ạ
+anakiana,nanakiana,"V;PST
+",6.666666666666667e-05,6.666666666666667e-05,n a n a k i a n ạ
+anakiana,hanakiana,"V;FUT
+",3.3333333333333335e-05,6.666666666666667e-05,ʔ a n a k i a n ạ
+analavitra,analavitra,"V;NFIN
+",0.0,9.166666666666668e-05,a n a l a v i t͡ʂ ạ
+analavitra,manalavitra,"V;PRS
+",0.0002666666666666,9.166666666666668e-05,m a n a l a v i t͡ʂ ạ
+analavitra,nanalavitra,"V;PST
+",3.3333333333333335e-05,9.166666666666668e-05,n a n a l a v i t͡ʂ ạ
+analavitra,hanalavitra,"V;FUT
+",6.666666666666667e-05,9.166666666666668e-05,ʔ a n a l a v i t͡ʂ ạ
+anamaivana,anamaivana,"V;NFIN
+",0.0,5.000000000000001e-05,a n a m a i v a n ạ
+anamaivana,manamaivana,"V;PRS
+",3.3333333333333335e-05,5.000000000000001e-05,m a n a m a i v a n ạ
+anamaivana,nanamaivana,"V;PST
+",0.0001333333333333,5.000000000000001e-05,n a n a m a i v a n ạ
+anamaivana,hanamaivana,"V;FUT
+",3.3333333333333335e-05,5.000000000000001e-05,ʔ a n a m a i v a n ạ
+anamasina,anamasina,"V;NFIN
+",0.0,5e-05,a n a m a s i n ạ
+anamasina,manamasina,"V;PRS
+",0.0001,5e-05,m a n a m a s i n ạ
+anamasina,nanamasina,"V;PST
+",0.0,5e-05,n a n a m a s i n ạ
+anamasina,hanamasina,"V;FUT
+",0.0001,5e-05,ʔ a n a m a s i n ạ
+anamavo,anamavo,"V;NFIN
+",0.0,5.833333333333333e-05,a n a m a vʷ
+anamavo,manamavo,"V;PRS
+",6.666666666666667e-05,5.833333333333333e-05,m a n a m a vʷ
+anamavo,nanamavo,"V;PST
+",6.666666666666667e-05,5.833333333333333e-05,n a n a m a vʷ
+anamavo,hanamavo,"V;FUT
+",0.0001,5.833333333333333e-05,ʔ a n a m a vʷ
+anameloka,anameloka,"V;NFIN
+",0.0,0.000175,a n a m e l u k ạ
+anameloka,manameloka,"V;PRS
+",0.0003333333333333,0.000175,m a n a m e l u k ạ
+anameloka,nanameloka,"V;PST
+",0.0002666666666666,0.000175,n a n a m e l u k ạ
+anameloka,hanameloka,"V;FUT
+",0.0001,0.000175,ʔ a n a m e l u k ạ
+anampy,anampy,"V;NFIN
+",0.0,0.00115,a n ãᵐ pʲ
+anampy,manampy,"V;PRS
+",0.0021333333333333,0.00115,m a n aᵐ pʲ
+anampy,nanampy,"V;PST
+",0.0008,0.00115,n a n aᵐ pʲ
+anampy,hanampy,"V;FUT
+",0.0016666666666666,0.00115,ʔ a n aᵐ pʲ
+anana,anana,"V;NFIN
+",0.0004666666666666,0.0065083333333333,a n a n ạ
+anana,manana,"V;PRS
+",0.0203333333333333,0.0065083333333333,m a n a n ạ
+anana,nanana,"V;PST
+",0.003,0.0065083333333333,n a n a n ã
+anana,hanana,"V;FUT
+",0.0022333333333333,0.0065083333333333,ʔ a n a n ã
+anangona,anangona,"V;NFIN
+",0.0,0.0001666666666666,a n ãᵑ ɡ u n ạ
+anangona,manangona,"V;PRS
+",0.0003333333333333,0.0001666666666666,m a n aᵑ ɡ u n ạ
+anangona,nanangona,"V;PST
+",0.0001666666666666,0.0001666666666666,n a n aᵑ ɡ u n ạ
+anangona,hanangona,"V;FUT
+",0.0001666666666666,0.0001666666666666,a n aᵑ ɡ u n ạ
+anararaotra,anararaotra,"V;NFIN
+",0.0,0.0002666666666666,a n a ɾ a ɾ u t͡ʂ ạ
+anararaotra,manararaotra,"V;PRS
+",0.0006,0.0002666666666666,m a n a ɾ a ɾ u t͡ʂ ạ
+anararaotra,nanararaotra,"V;PST
+",0.0003333333333333,0.0002666666666666,n a n a ɾ a ɾ u t͡ʂ ạ
+anararaotra,hanararaotra,"V;FUT
+",0.0001333333333333,0.0002666666666666,ʔ a n a ɾ a ɾ u t͡ʂ ạ
+anary,anary,"V;NFIN
+",0.0,0.0002083333333333,a n a ɾʲ
+anary,manary,"V;PRS
+",0.0006,0.0002083333333333,m a n a ɾʲ
+anary,nanary,"V;PST
+",3.3333333333333335e-05,0.0002083333333333,n a n a ɾʲ
+anary,hanary,"V;FUT
+",0.0002,0.0002083333333333,h a n a ɾʲ
+anatitra,anatitra,"V;NFIN
+",3.3333333333333335e-05,0.0002083333333333,a n a t i t͡ʂ ạ
+anatitra,manatitra,"V;PRS
+",0.0002,0.0002083333333333,m a n a t i t͡ʂ ạ
+anatitra,nanatitra,"V;PST
+",0.0003,0.0002083333333333,n a n a t i t͡ʂ ạ
+anatitra,hanatitra,"V;FUT
+",0.0003,0.0002083333333333,ʔ a n a t i t͡ʂ ạ
+andohalika,andohalika,"V;NFIN
+",0.0,8.333333333333334e-05,aⁿ d u ʔ a l i k ạ
+andohalika,mandohalika,"V;PRS
+",6.666666666666667e-05,8.333333333333334e-05,m ãⁿ d u ʔ á l i k ã
+andohalika,nandohalika,"V;PST
+",0.0002333333333333,8.333333333333334e-05,n ãⁿ d u ʔ á l i k ã
+andohalika,handohalika,"V;FUT
+",3.3333333333333335e-05,8.333333333333334e-05,h aⁿ d u ʔ a l i k ạ
+andova,andova,"V;NFIN
+",0.0,0.0001416666666666,aⁿ d u v ã
+andova,mandova,"V;PRS
+",0.0001,0.0001416666666666,m ãⁿ d u v ã
+andova,nandova,"V;PST
+",6.666666666666667e-05,0.0001416666666666,n ãⁿ d u v ã
+andova,handova,"V;FUT
+",0.0004,0.0001416666666666,h aⁿ d u v ã
+andrava,andrava,"V;NFIN
+",0.0,0.0001583333333333,aⁿ d͡ʐ a v ã
+andrava,mandrava,"V;PRS
+",0.0001333333333333,0.0001583333333333,m ãⁿ d͡ʐ á v ã
+andrava,nandrava,"V;PST
+",0.0002333333333333,0.0001583333333333,n ãⁿ d͡ʐ á v ã
+andrava,handrava,"V;FUT
+",0.0002666666666666,0.0001583333333333,h aⁿ d͡ʑ a v ã
+andresy,andresy,"V;NFIN
+",0.0,0.0004833333333333,ãⁿ d͡ʐ e sʲ
+andresy,mandresy,"V;PRS
+",0.0007,0.0004833333333333,m ãⁿ d͡ʐ e sʲ
+andresy,nandresy,"V;PST
+",0.0006,0.0004833333333333,n ãⁿ d͡ʐ e sʲ
+andresy,handresy,"V;FUT
+",0.0006333333333333,0.0004833333333333,h aⁿ d͡ʑ e sʲ
+andringana,andringana,"V;NFIN
+",0.0,5.833333333333333e-05,aⁿ d ɾ iᵑ ɡ a n ạ
+andringana,mandringana,"V;PRS
+",6.666666666666667e-05,5.833333333333333e-05,m ãⁿ d ɾ iᵑ ɡ ã n ạ
+andringana,nandringana,"V;PST
+",6.666666666666667e-05,5.833333333333333e-05,n ãⁿ d ɾ iᵑ ɡ ã n ạ
+andringana,handringana,"V;FUT
+",0.0001,5.833333333333333e-05,aⁿ d ɾ iᵑ ɡ a n ạ
+androtsaka,androtsaka,"V;NFIN
+",0.0,5.833333333333333e-05,aⁿ d͡ʐ u t͡s a k ã
+androtsaka,mandrotsaka,"V;PRS
+",3.3333333333333335e-05,5.833333333333333e-05,m ãⁿ d͡ʐ u t͡s á k ã
+androtsaka,nandrotsaka,"V;PST
+",6.666666666666667e-05,5.833333333333333e-05,n ãⁿ d͡ʐ u t͡s á k ã
+androtsaka,handrotsaka,"V;FUT
+",0.0001333333333333,5.833333333333333e-05,h aⁿ d͡ʐ u t͡s a k a
+andà,andà,"V;NFIN
+",0.0,0.0002416666666666,ãⁿ d a
+andà,mandà,"V;PRS
+",0.0003,0.0002416666666666,m ãⁿ d á
+andà,nandà,"V;PST
+",0.0004666666666666,0.0002416666666666,n ãⁿ d á
+andà,handà,"V;FUT
+",0.0002,0.0002416666666666,h ãⁿ d á
+anetry,anetry,"V;NFIN
+",0.0,7.500000000000001e-05,a n e t͡ʂʷ
+anetry,manetry,"V;PRS
+",0.0001666666666666,7.500000000000001e-05,m a n e t͡ʂʷ
+anetry,nanetry,"V;PST
+",6.666666666666667e-05,7.500000000000001e-05,n a n e t͡ʂʷ
+anetry,hanetry,"V;FUT
+",6.666666666666667e-05,7.500000000000001e-05,h a n e t͡ʂʰ
+anjary,anjary,"V;NFIN
+",3.3333333333333335e-05,0.0004666666666666,aⁿ d͡z a ɾʲ
+anjary,manjary,"V;PRS
+",0.0011333333333333,0.0004666666666666,m aⁿ d͡z a ɾʲ
+anjary,nanjary,"V;PST
+",0.0006,0.0004666666666666,n aⁿ d͡z a ɾʲ
+anjary,hanjary,"V;FUT
+",0.0001,0.0004666666666666,h aⁿ d͡z a ɾʲ
+anjavona,anjavona,"V;NFIN
+",3.3333333333333335e-05,9.166666666666668e-05,aⁿ d͡z a v u n ạ
+anjavona,manjavona,"V;PRS
+",0.0001333333333333,9.166666666666668e-05,m aⁿ d͡z a v u n ạ
+anjavona,nanjavona,"V;PST
+",0.0001333333333333,9.166666666666668e-05,n ãⁿ d͡z a v u n ã
+anjavona,hanjavona,"V;FUT
+",6.666666666666667e-05,9.166666666666668e-05,ʔ aⁿ d͡z a v u n ạ
+ankaleo,ankaleo,"V;NFIN
+",0.0,5.833333333333333e-05,aⁿ k a l e w
+ankaleo,mankaleo,"V;PRS
+",0.0002333333333333,5.833333333333333e-05,m ãⁿ k ã l e w
+ankaleo,nankaleo,"V;PST
+",0.0,5.833333333333333e-05,n ãⁿ k ã l e w
+ankaleo,hankaleo,"V;FUT
+",0.0,5.833333333333333e-05,h aⁿ k a l e w
+anohana,anohana,"V;NFIN
+",0.0,0.0005333333333333,a n u ʔ a n ạ
+anohana,manohana,"V;PRS
+",0.0014666666666666,0.0005333333333333,m a n u ʔ a n ạ
+anohana,nanohana,"V;PST
+",0.0003,0.0005333333333333,n a n u ʔ a n ạ
+anohana,hanohana,"V;FUT
+",0.0003666666666666,0.0005333333333333,ʔ a n u ʔ a n ạ
+anohy,anohy,"V;NFIN
+",0.0001,0.000675,a n uʷʰ
+anohy,manohy,"V;PRS
+",0.001,0.000675,m a n uʷʲ
+anohy,nanohy,"V;PST
+",0.0007,0.000675,n a n uʷʲ
+anohy,hanohy,"V;FUT
+",0.0009,0.000675,h a n u ʔʷʲ
+anontany,anontany,"V;NFIN
+",0.0001333333333333,0.000775,a n uⁿ t ã nʲ
+anontany,manontany,"V;PRS
+",0.0012666666666666,0.000775,m a n uⁿ t ã nʲ
+anontany,nanontany,"V;PST
+",0.0012333333333333,0.000775,n a n uⁿ t ã nʲ
+anontany,hanontany,"V;FUT
+",0.0004666666666666,0.000775,ʔ a n uⁿ t ã nʲ
+anorina,anorina,"V;NFIN
+",0.0,0.0002333333333333,a n u ɾ i n ạ
+anorina,manorina,"V;PRS
+",0.0002666666666666,0.0002333333333333,m a n u ɾ i n ạ
+anorina,nanorina,"V;PST
+",0.0004,0.0002333333333333,n a n u ɾ i n ạ
+anorina,hanorina,"V;FUT
+",0.0002666666666666,0.0002333333333333,ʔ a n u ɾ i n ạ
+iakatra,iakatra,"V;NFIN
+",0.0,0.00095,i a k a t͡ʂ ạ
+iakatra,miakatra,"V;PRS
+",0.0011333333333333,0.00095,m i a k a t͡ʂ ạ
+iakatra,niakatra,"V;PST
+",0.0018,0.00095,n i a k a t͡ʂ ạ
+iakatra,hiakatra,"V;FUT
+",0.0008666666666666,0.00095,h i a k a t͡ʂ ạ
+ianatra,ianatra,"V;NFIN
+",0.0,0.0009249999999999,j a n a t͡ʂ ạ
+ianatra,mianatra,"V;PRS
+",0.0014666666666666,0.0009249999999999,m i a n a t͡ʂ ạ
+ianatra,nianatra,"V;PST
+",0.0015666666666666,0.0009249999999999,n i a n a t͡ʂ ạ
+ianatra,hianatra,"V;FUT
+",0.0006666666666666,0.0009249999999999,h i a n a t͡ʂ ạ
+iandrandra,iandrandra,"V;NFIN
+",0.0,0.0001166666666666,j aᵐ d ɾ ãⁿ d͡ʐ ã
+iandrandra,miandrandra,"V;PRS
+",0.0004,0.0001166666666666,m i aᵐ d͡ʐ ãⁿ d͡ʐ ã
+iandrandra,niandrandra,"V;PST
+",3.3333333333333335e-05,0.0001166666666666,n i aᵐ d͡ʐ ãⁿ d͡ʐ ã
+iandrandra,hiandrandra,"V;FUT
+",3.3333333333333335e-05,0.0001166666666666,j aᵐ d͡ʐ ãⁿ d͡ʐ ã
+iangatra,iangatra,"V;NFIN
+",0.0,9.166666666666668e-05,j aᵑ ɡ a t͡ʂ ạ
+iangatra,miangatra,"V;PRS
+",0.0003666666666666,9.166666666666668e-05,m i aᵑ ɡ a t͡ʂ ạ
+iangatra,niangatra,"V;PST
+",0.0,9.166666666666668e-05,n i aᵑ ɡ a t͡ʂ ạ
+iangatra,hiangatra,"V;FUT
+",0.0,9.166666666666668e-05,j aᵑ ɡ a t͡ʂ ạ
+iankina,iankina,"V;NFIN
+",0.0,0.0006083333333333,i aⁿ k i n ạ
+iankina,miankina,"V;PRS
+",0.0022666666666666,0.0006083333333333,m i aⁿ k i n ạ
+iankina,niankina,"V;PST
+",0.0001,0.0006083333333333,n i aⁿ k i n ạ
+iankina,hiankina,"V;FUT
+",6.666666666666667e-05,0.0006083333333333,h i aᵑ k i n ạ
+iaraka,iaraka,"V;NFIN
+",6.666666666666667e-05,0.0032916666666666,i a ɾ a k ạ
+iaraka,miaraka,"V;PRS
+",0.0079666666666666,0.0032916666666666,m i a ɾ a k á
+iaraka,niaraka,"V;PST
+",0.0034666666666666,0.0032916666666666,n i a ɾ a k ạ
+iaraka,hiaraka,"V;FUT
+",0.0016666666666666,0.0032916666666666,h i a ɾ a k á
+ieritreritra,ieritreritra,"V;NFIN
+",0.0,0.0006916666666666,i e ɾ i t͡ʂ e ɾ i t͡ʂ ạ
+ieritreritra,mieritreritra,"V;PRS
+",0.0018,0.0006916666666666,m i e ɾ i t͡ʂ e ɾ i t͡ʂ ạ
+ieritreritra,nieritreritra,"V;PST
+",0.0006,0.0006916666666666,n i e ɾ i t͡ʂ e ɾ i t͡ʂ ã
+ieritreritra,hieritreritra,"V;FUT
+",0.0003666666666666,0.0006916666666666,j e ɾ i t͡ʂ e ɾ i t͡ʂ ã
+ifady,ifady,"V;NFIN
+",0.0,9.166666666666668e-05,i f a dʲ
+ifady,mifady,"V;PRS
+",0.0001666666666666,9.166666666666668e-05,m i f a dʲ
+ifady,nifady,"V;PST
+",6.666666666666667e-05,9.166666666666668e-05,n i f a dʲ
+ifady,hifady,"V;FUT
+",0.0001333333333333,9.166666666666668e-05,h i f a dʲ
+ifanila,ifanila,"V;NFIN
+",0.0,5e-05,i f a n i l ạ
+ifanila,mifanila,"V;PRS
+",0.0001333333333333,5e-05,m i f a n i l ạ
+ifanila,nifanila,"V;PST
+",6.666666666666667e-05,5e-05,n i f a n i l ạ
+ifanila,hifanila,"V;FUT
+",0.0,5e-05,h i f a n i l ạ
+ifaninana,ifaninana,"V;NFIN
+",0.0,0.0001083333333333,i f a n i n ã n ạ
+ifaninana,mifaninana,"V;PRS
+",6.666666666666667e-05,0.0001083333333333,m i f a n i n ã n ã
+ifaninana,nifaninana,"V;PST
+",0.0002,0.0001083333333333,n i f a n i n ã n ã
+ifaninana,hifaninana,"V;FUT
+",0.0001666666666666,0.0001083333333333,h i f a n i n ã n ã
+ifindra,ifindra,"V;NFIN
+",0.0,0.0001916666666666,i f iⁿ d͡ʐ ã
+ifindra,mifindra,"V;PRS
+",0.0002333333333333,0.0001916666666666,m i f iⁿ d͡ʐ ã
+ifindra,nifindra,"V;PST
+",0.0004333333333333,0.0001916666666666,n i f iⁿ d͡ʐ ã
+ifindra,hifindra,"V;FUT
+",0.0001,0.0001916666666666,h i f iⁿ d͡ʑ ã
+ifona,ifona,"V;NFIN
+",0.0,0.0001416666666666,i f u n ạ
+ifona,mifona,"V;PRS
+",0.0003333333333333,0.0001416666666666,m i f u n ạ
+ifona,nifona,"V;PST
+",0.0002,0.0001416666666666,n i f u n ạ
+ifona,hifona,"V;FUT
+",3.3333333333333335e-05,0.0001416666666666,h i f u n ạ
+ihaino,ihaino,"V;NFIN
+",0.0,0.0009,i h a i nʲ
+ihaino,mihaino,"V;PRS
+",0.0021333333333333,0.0009,m i h a i nʲ
+ihaino,nihaino,"V;PST
+",0.0006,0.0009,n i ʔ a i nʲ
+ihaino,hihaino,"V;FUT
+",0.0008666666666666,0.0009,h i h a i nʲ
+ihinana,ihinana,"V;NFIN
+",0.0,0.00085,i h i n ã n ã
+ihinana,mihinana,"V;PRS
+",0.0017666666666666,0.00085,m i h i n ã n ã
+ihinana,nihinana,"V;PST
+",0.0009,0.00085,n i h i n ã n ã
+ihinana,hihinana,"V;FUT
+",0.0007333333333333,0.00085,h i h i n a n ã
+ijery,ijery,"V;NFIN
+",3.3333333333333335e-05,0.0021416666666666,i d͡zʲ ɛ ɾʲ
+ijery,mijery,"V;PRS
+",0.0044666666666666,0.0021416666666666,m i d͡zʲ ɛ ɾʲ
+ijery,nijery,"V;PST
+",0.0018666666666666,0.0021416666666666,n i d͡zʲ ɛ ɾʲ
+ijery,hijery,"V;FUT
+",0.0022,0.0021416666666666,h i d͡zʲ ɛ ɾʲ
+iraharaha,iraharaha,"V;NFIN
+",0.0,0.000175,i ɾ a ʔ a ɾ a ʔ a
+iraharaha,miraharaha,"V;PRS
+",0.0004666666666666,0.000175,m i ɾ a ʔ a ɾ a ʔ a
+iraharaha,niraharaha,"V;PST
+",0.0001333333333333,0.000175,n i ɾ a ʔ a ɾ a ʔ a
+iraharaha,hiraharaha,"V;FUT
+",0.0001,0.000175,h i ɾ a ʔ a ɾ a ʔ a
+irotsaka,irotsaka,"V;NFIN
+",0.0,0.0001833333333333,i ɾ u t͡s a k á
+irotsaka,mirotsaka,"V;PRS
+",0.0002,0.0001833333333333,m i ɾ u t͡s a k á
+irotsaka,nirotsaka,"V;PST
+",0.0001666666666666,0.0001833333333333,n i ɾ u t͡s a k á
+irotsaka,hirotsaka,"V;FUT
+",0.0003666666666666,0.0001833333333333,h i ɾ u t͡s a k á
+isoroka,isoroka,"V;NFIN
+",0.0,5e-05,i s u ɾ u k ạ
+isoroka,misoroka,"V;PRS
+",0.0001,5e-05,m i s u ɾ u k ạ
+isoroka,nisoroka,"V;PST
+",0.0001,5e-05,n i s u ɾ u k ạ
+isoroka,hisoroka,"V;FUT
+",0.0,5e-05,h i s u ɾ u k ạ
+itantara,itantara,"V;NFIN
+",0.0,0.000425,i t ãⁿ t á ɾ ã
+itantara,mitantara,"V;PRS
+",0.001,0.000425,m i t ãⁿ t á ɾ ã
+itantara,nitantara,"V;PST
+",0.0005666666666666,0.000425,n i t ãⁿ t ã ɾ ã
+itantara,hitantara,"V;FUT
+",0.0001333333333333,0.000425,h i t ãⁿ t ã ɾ ã
+itsoka,itsoka,"V;NFIN
+",0.0,6.666666666666667e-05,i t͡s u k ạ
+itsoka,mitsoka,"V;PRS
+",0.0001666666666666,6.666666666666667e-05,m i t͡s u k ạ
+itsoka,nitsoka,"V;PST
+",0.0001,6.666666666666667e-05,n i t͡s u k ạ
+itsoka,hitsoka,"V;FUT
+",0.0,6.666666666666667e-05,h i t͡s u k ạ
+anoratra,anoratra,"V;NFIN
+",3.3333333333333335e-05,0.000925,a n u ɾ a t͡ʂ ạ
+anoratra,manoratra,"V;PRS
+",0.0017,0.000925,m a n u ɾ a t͡ʂ ạ
+anoratra,nanoratra,"V;PST
+",0.0012666666666666,0.000925,n a n u ɾ a t͡ʂ ạ
+anoratra,hanoratra,V;FUT,0.0007,0.000925,ʔ a n u ɾ a t͡ʂ ạ

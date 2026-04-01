@@ -1,0 +1,1689 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+fernì,fernesce,V;IND;PRS;3;SG,0.0,0.0,f ə r n ɛ ʃ ʃ ə
+fernì,fernette,V;IND;PST;1;SG;PFV,0.0,0.0,f ə r n ɛ t t ə
+fernì,ferniamo,V;1;PL;IMP,0.0,0.0,f ɛ r n j a m ə
+fernì,fernesse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,f ə r n ɛ s s ə
+fernì,fernarrisse,V;2;SG;COND,0.0,0.0,f ɛ r n a r r i s s ə
+fernì,fernarranno,V;3;PL;IND;FUT,0.0,0.0,f ɛ r n a r r a n n ə
+fernì,fernisseve,V;SBJV;PST;2;PL;IPFV,0.0,0.0,f ɛ r n i s s ə v ə
+fernì,fernettemo,V;IND;PST;1;PL;PFV,0.0,0.0,f ə r n ɛ t t ə m ə
+fernì,ferniveve,V;IND;PST;2;PL;IPFV,0.0,0.0,f ɛ r n i v ɛ v ə
+fernì,fernisce,V;IND;PRS;2;SG,0.0,0.0,f ɛ r n i ʃ ʃ ə
+fernì,fernarrimmo,V;1;PL;IND;FUT,0.0,0.0,f ɛ r n a r r i m m ə
+fernì,fernarrissevo,V;2;PL;COND,0.0,0.0,f ɛ r n a r r i s s ə v ə
+fernì,fernevo,V;IND;PST;1;SG;IPFV,0.0,0.0,f ə r n ə v ə
+fernì,fernarrà,V;3;SG;IND;FUT,0.0,0.0,f ɛ r n a r r a
+fernì,fernesceno,V;IND;PRS;3;PL,0.0,0.0,f ɛ r n ə ʃ ʃ ə n ə
+fernì,fernesse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,f ə r n ɛ s s ə
+fernì,fernarria,V;1;SG;COND,0.0,0.0,f ɛ r n a r r j ə
+fernì,fernisse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,f ɛ r n i s s ə
+fernì,fernevano,V;IND;PST;3;PL;IPFV,0.0,0.0,f ə r n ə v a n ə
+fernì,fernite,V;2;PL;IMP,0.0,0.0,f e r n i t ə
+fernì,fernarrissemo,V;1;PL;COND,0.0,0.0,f ɛ r n a r r i s s ə m ə
+fernì,fernive,V;IND;PST;2;SG;IPFV,0.0,0.0,f ə r n i v ə
+fernì,fernesco,V;IND;PRS;1;SG,0.0,0.0,f ə r n e s k ə
+fernì,fernette,V;IND;PST;3;SG;PFV,0.0,0.0,f ə r n ɛ t t ə
+fernì,ferne,V;2;SG;IMP,0.0,0.0,f ɛ r n ə
+fernì,fernarrite,V;2;PL;IND;FUT,0.0,0.0,f ɛ r n a r r i t ə
+fernì,fernite,V;IND;PRS;2;PL,0.0,0.0,f e r n i t ə
+fernì,fernarraggio,V;1;SG;IND;FUT,0.0,0.0,f ɛ r n a r r a d d͡ʒ ə
+fernì,ferniano,V;3;PL;IMP,0.0,0.0,f ɛ r n j a n ə
+fernì,fernetteno,V;IND;PST;3;PL;PFV;LGSPEC1,0.0,0.0,f ə r n ɛ t t ə n ə
+fernì,fernettero,V;IND;PST;3;PL;PFV;LGSPEC2,0.0,0.0,f ə r n ɛ t t ə r ə
+fernì,fernì,V;NFIN,0.0,0.0,f ɛ r n i
+fernì,ferneva,V;IND;PST;3;SG;IPFV,0.0,0.0,f ə r n ə v ə
+fernì,fernessemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,f ə r n ə s s ə m ə
+fernì,ferniste,V;IND;PST;2;SG;PFV,0.0,0.0,f ɛ r n i s t ə
+fernì,ferne,V;2;SG;IMP,0.0,0.0,f ɛ r n ə
+fernì,fernarria,V;3;SG;COND,0.0,0.0,f ɛ r n a r r j ə
+fernì,fernimmo,V;IND;PRS;1;PL,0.0,0.0,f ə r n i m m ə
+fernì,fernisteve,V;IND;PST;2;PL;PFV,0.0,0.0,f ɛ r n i s t ə v ə
+fernì,fernarraje,V;2;SG;IND;FUT,0.0,0.0,f ɛ r n a r r a j ə
+fernì,fernesseno,V;SBJV;PST;3;PL;IPFV,0.0,0.0,f ə r n ə s s ə n ə
+fernì,fernarriano,V;3;PL;COND,0.0,0.0,f ɛ r n a r r j a n ə
+fernì,fernevamo,V;IND;PST;1;PL;IPFV,0.0,0.0,f ə r n ə v a m ə
+gruttà,grutta,V;IND;PRS;3;SG,0.0,0.0,ɡ r u t t ə
+gruttà,gruttaje,V;IND;PST;1;SG;PFV,0.0,0.0,ɡ r u t t a j ə
+gruttà,gruttammo,V;1;PL;IMP,0.0,0.0,ɡ r u t t a m m ə
+gruttà,gruttasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,ɡ r u t t a s s ə
+gruttà,gruttarrisse,V;2;SG;COND,0.0,0.0,ɡ r u t t a r r i s s ə
+gruttà,gruttarranno,V;3;PL;IND;FUT,0.0,0.0,ɡ r u t t a r r a n n ə
+gruttà,gruttassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,ɡ r u t t a s s ɛ v ə
+gruttà,gruttajemo,V;IND;PST;1;PL;PFV,0.0,0.0,ɡ r u t t a j ə m ə
+gruttà,gruttavate,V;IND;PST;2;PL;IPFV,0.0,0.0,ɡ r u t t a v a t ə
+gruttà,grutte,V;IND;PRS;2;SG,0.0,0.0,ɡ r u t t ə
+gruttà,gruttarrimmo,V;1;PL;IND;FUT,0.0,0.0,ɡ r u t t a r r i m m ə
+gruttà,gruttarrissevo,V;2;PL;COND,0.0,0.0,ɡ r u t t a r r i s s ə v ə
+gruttà,gruttavo,V;IND;PST;1;SG;IPFV,0.0,0.0,ɡ r u t t a v ə
+gruttà,gruttarrà,V;3;SG;IND;FUT,0.0,0.0,ɡ r u t t a r r a
+gruttà,gruttano,V;IND;PRS;3;PL,0.0,0.0,ɡ r u t t a n ə
+gruttà,gruttasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,ɡ r u t t a s s ə
+gruttà,gruttarria,V;1;SG;COND,0.0,0.0,ɡ r u t t a r r j ə
+gruttà,gruttasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,ɡ r u t t a s s ə
+gruttà,gruttavano,V;IND;PST;3;PL;IPFV,0.0,0.0,ɡ r u t t a v a n ə
+gruttà,gruttate,V;2;PL;IMP,0.0,0.0,ɡ r u t t a t ə
+gruttà,gruttarrissemo,V;1;PL;COND,0.0,0.0,ɡ r u t t a r r i s s ə m ə
+gruttà,gruttave,V;IND;PST;2;SG;IPFV,0.0,0.0,ɡ r u t t a v ə
+gruttà,grutto,V;IND;PRS;1;SG,0.0,0.0,ɡ r u t t ə
+gruttà,gruttaje,V;IND;PST;3;SG;PFV,0.0,0.0,ɡ r u t t a j ə
+gruttà,grutta,V;2;SG;IMP,0.0,0.0,ɡ r u t t ə
+gruttà,gruttarrite,V;2;PL;IND;FUT,0.0,0.0,ɡ r u t t a r r i t ə
+gruttà,gruttate,V;IND;PRS;2;PL,0.0,0.0,ɡ r u t t a t ə
+gruttà,gruttarraggio,V;1;SG;IND;FUT,0.0,0.0,ɡ r u t t a r r a d d͡ʒ ə
+gruttà,grutteno,V;3;PL;IMP,0.0,0.0,ɡ r u t t ə n ə
+gruttà,gruttajeno,V;IND;PST;3;PL;PFV,0.0,0.0,ɡ r u t t a j ə n ə
+gruttà,gruttà,V;NFIN,0.0,0.0,ɡ r u t t a
+gruttà,gruttava,V;IND;PST;3;SG;IPFV,0.0,0.0,ɡ r u t t a v ə
+gruttà,gruttassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,ɡ r u t t a s s ə m ə
+gruttà,gruttaste,V;IND;PST;2;SG;PFV,0.0,0.0,ɡ r u t t a s t ə
+gruttà,grutta,V;2;SG;IMP,0.0,0.0,ɡ r u t t ə
+gruttà,gruttarria,V;3;SG;COND,0.0,0.0,ɡ r u t t a r r j ə
+gruttà,gruttammo,V;IND;PRS;1;PL,0.0,0.0,ɡ r u t t a m m ə
+gruttà,gruttastevo,V;IND;PST;2;PL;PFV,0.0,0.0,ɡ r u t t a s t ə v ə
+gruttà,gruttarraje,V;2;SG;IND;FUT,0.0,0.0,ɡ r u t t a r r a j ə
+gruttà,gruttassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,ɡ r u t t a s s ə r ə
+gruttà,gruttarriano,V;3;PL;COND,0.0,0.0,ɡ r u t t a r r j a n ə
+gruttà,gruttavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,ɡ r u t t a v a m ə
+jastemmà,jastemma,V;IND;PRS;3;SG,0.0,0.0,j a s t ə m m ə
+jastemmà,jastemmaje,V;IND;PST;1;SG;PFV,0.0,0.0,j a s t ə m m a j ə
+jastemmà,jastemmammo,V;1;PL;IMP,0.0,0.0,j a s t ə m m a m m ə
+jastemmà,jastemmasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,j a s t ə m m a s s ə
+jastemmà,jastemmarrisse,V;2;SG;COND,0.0,0.0,j a s t ə m m a r r i s s ə
+jastemmà,jastemmarranno,V;3;PL;IND;FUT,0.0,0.0,j a s t ə m m a r r a n n ə
+jastemmà,jastemmassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,j a s t ə m m a s s ə v ə
+jastemmà,jastemmajemo,V;IND;PST;1;PL;PFV,0.0,0.0,j a s t ə m m a j ə m ə
+jastemmà,jastemmavate,V;IND;PST;2;PL;IPFV,0.0,0.0,j a s t ə m m a v a t ə
+jastemmà,jastemme,V;IND;PRS;2;SG,0.0,0.0,j a s t ə m m ə
+jastemmà,jastemmarrimmo,V;1;PL;IND;FUT,0.0,0.0,j a s t ə m m a r r i m m ə
+jastemmà,jastemmarrissevo,V;2;PL;COND,0.0,0.0,j a s t ə m m a r r i s s ə v ə
+jastemmà,jastemmavo,V;IND;PST;1;SG;IPFV,0.0,0.0,j a s t ə m m a v ə
+jastemmà,jastemmarrà,V;3;SG;IND;FUT,0.0,0.0,j a s t ə m m a r r a
+jastemmà,jastemmano,V;IND;PRS;3;PL,0.0,0.0,j a s t ə m m a n ə
+jastemmà,jastemmasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,j a s t ə m m a s s ə
+jastemmà,jastemmarria,V;1;SG;COND,0.0,0.0,j a s t ə m m a r r j ə
+jastemmà,jastemmasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,j a s t ə m m a s s ə
+jastemmà,jastemmavano,V;IND;PST;3;PL;IPFV,0.0,0.0,j a s t ə m m a v a n ə
+jastemmà,jastemmate,V;2;PL;IMP,0.0,0.0,j a s t ə m m a t ə
+jastemmà,jastemmarrissemo,V;1;PL;COND,0.0,0.0,j a s t ə m m a r r i s s ə m ə
+jastemmà,jastemmave,V;IND;PST;2;SG;IPFV,0.0,0.0,j a s t ə m m a v ə
+jastemmà,jastemmo,V;IND;PRS;1;SG,0.0,0.0,j a s t ə m m ə
+jastemmà,jastemmaje,V;IND;PST;3;SG;PFV,0.0,0.0,j a s t ə m m a j ə
+jastemmà,jastemma,V;2;SG;IMP,0.0,0.0,j a s t ə m m ə
+jastemmà,jastemmarrite,V;2;PL;IND;FUT,0.0,0.0,j a s t ə m m a r r i t ə
+jastemmà,jastemmate,V;IND;PRS;2;PL,0.0,0.0,j a s t ə m m a t ə
+jastemmà,jastemmarraggio,V;1;SG;IND;FUT,0.0,0.0,j a s t ə m m a r r a d d͡ʒ ə
+jastemmà,jastemmeno,V;3;PL;IMP,0.0,0.0,j a s t ə m m ə n ə
+jastemmà,jastemmajeno,V;IND;PST;3;PL;PFV,0.0,0.0,j a s t ə m m a j ə n ə
+jastemmà,jastemmà,V;NFIN,0.0,0.0,j a s t ə m m a
+jastemmà,jastemmava,V;IND;PST;3;SG;IPFV,0.0,0.0,j a s t ə m m a v ə
+jastemmà,jastemmassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,j a s t ə m m a s s ə m ə
+jastemmà,jastemmaste,V;IND;PST;2;SG;PFV,0.0,0.0,j a s t ə m m a s t ə
+jastemmà,jastemma,V;2;SG;IMP,0.0,0.0,j a s t ə m m ə
+jastemmà,jastemmarria,V;3;SG;COND,0.0,0.0,j a s t ə m m a r r j ə
+jastemmà,jastemmammo,V;IND;PRS;1;PL,0.0,0.0,j a s t ə m m a m m ə
+jastemmà,jastemmastevo,V;IND;PST;2;PL;PFV,0.0,0.0,j a s t ə m m a s t ə v ə
+jastemmà,jastemmarraje,V;2;SG;IND;FUT,0.0,0.0,j a s t ə m m a r r a j ə
+jastemmà,jastemmassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,j a s t ə m m a s s ə r ə
+jastemmà,jastemmarriano,V;3;PL;COND,0.0,0.0,j a s t ə m m a r r j a n ə
+jastemmà,jastemmavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,j a s t ə m m a v a m ə
+luttà,lutta,V;IND;PRS;3;SG,0.0,0.0,l u t t ə
+luttà,luttaje,V;IND;PST;1;SG;PFV,0.0,0.0,l u t t a j ə
+luttà,luttammo,V;1;PL;IMP,0.0,0.0,l u t t a m m ə
+luttà,luttasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,l u t t a s s ə
+luttà,luttarrisse,V;2;SG;COND,0.0,0.0,l u t t a r r i s s ə
+luttà,luttarranno,V;3;PL;IND;FUT,0.0,0.0,l u t t a r r a n n ə
+luttà,luttassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,l u t t a s s ɛ v ə
+luttà,luttajemo,V;IND;PST;1;PL;PFV,0.0,0.0,l u t t a j ə m ə
+luttà,luttavate,V;IND;PST;2;PL;IPFV,0.0,0.0,l u t t a v a t ə
+luttà,lutte,V;IND;PRS;2;SG,0.0,0.0,l u t t ə
+luttà,luttarrimmo,V;1;PL;IND;FUT,0.0,0.0,l u t t a r r i m m ə
+luttà,luttarrissevo,V;2;PL;COND,0.0,0.0,l u t t a r r i s s ə v ə
+luttà,luttavo,V;IND;PST;1;SG;IPFV,0.0,0.0,l u t t a v ə
+luttà,luttarrà,V;3;SG;IND;FUT,0.0,0.0,l u t t a r r a
+luttà,luttano,V;IND;PRS;3;PL,0.0,0.0,l u t t a n ə
+luttà,luttasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,l u t t a s s ə
+luttà,luttarria,V;1;SG;COND,0.0,0.0,l u t t a r r j ə
+luttà,luttasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,l u t t a s s ə
+luttà,luttavano,V;IND;PST;3;PL;IPFV,0.0,0.0,l u t t a v a n ə
+luttà,luttate,V;2;PL;IMP,0.0,0.0,l u t t a t ə
+luttà,luttarrissemo,V;1;PL;COND,0.0,0.0,l u t t a r r i s s ə m ə
+luttà,luttave,V;IND;PST;2;SG;IPFV,0.0,0.0,l u t t a v ə
+luttà,lutto,V;IND;PRS;1;SG,0.0,0.0,l u t t ə
+luttà,luttaje,V;IND;PST;3;SG;PFV,0.0,0.0,l u t t a j ə
+luttà,lutta,V;2;SG;IMP,0.0,0.0,l u t t ə
+luttà,luttarrite,V;2;PL;IND;FUT,0.0,0.0,l u t t a r r i t ə
+luttà,luttate,V;IND;PRS;2;PL,0.0,0.0,l u t t a t ə
+luttà,luttarraggio,V;1;SG;IND;FUT,0.0,0.0,l u t t a r r a d d͡ʒ ə
+luttà,lutteno,V;3;PL;IMP,0.0,0.0,l u t t ə n ə
+luttà,luttajeno,V;IND;PST;3;PL;PFV,0.0,0.0,l u t t a j ə n ə
+luttà,luttà,V;NFIN,0.0,0.0,l u t t a
+luttà,luttava,V;IND;PST;3;SG;IPFV,0.0,0.0,l u t t a v ə
+luttà,luttassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,l u t t a s s ə m ə
+luttà,luttaste,V;IND;PST;2;SG;PFV,0.0,0.0,l u t t a s t ə
+luttà,lutta,V;2;SG;IMP,0.0,0.0,l u t t ə
+luttà,luttarria,V;3;SG;COND,0.0,0.0,l u t t a r r j ə
+luttà,luttammo,V;IND;PRS;1;PL,0.0,0.0,l u t t a m m ə
+luttà,luttastevo,V;IND;PST;2;PL;PFV,0.0,0.0,l u t t a s t ə v ə
+luttà,luttarraje,V;2;SG;IND;FUT,0.0,0.0,l u t t a r r a j ə
+luttà,luttassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,l u t t a s s ə r ə
+luttà,luttarriano,V;3;PL;COND,0.0,0.0,l u t t a r r j a n ə
+luttà,luttavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,l u t t a v a m ə
+mmustà,mmusta,V;IND;PRS;3;SG,0.0,0.0,m m u s t ə
+mmustà,mmustaje,V;IND;PST;1;SG;PFV,0.0,0.0,m m u s t a j ə
+mmustà,mmustammo,V;1;PL;IMP,0.0,0.0,m m u s t a m m ə
+mmustà,mmustasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,m m u s t a s s ə
+mmustà,mmustarrisse,V;2;SG;COND,0.0,0.0,m m u s t a r r i s s ə
+mmustà,mmustarranno,V;3;PL;IND;FUT,0.0,0.0,m m u s t a r r a n n ə
+mmustà,mmustassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,m m u s t a s s ə v ə
+mmustà,mmustajemo,V;IND;PST;1;PL;PFV,0.0,0.0,m m u s t a j ə m ə
+mmustà,mmustavate,V;IND;PST;2;PL;IPFV,0.0,0.0,m m u s t a v a t ə
+mmustà,mmuste,V;IND;PRS;2;SG,0.0,0.0,m m u s t ə
+mmustà,mmustarrimmo,V;1;PL;IND;FUT,0.0,0.0,m m u s t a r r i m m ə
+mmustà,mmustarrissevo,V;2;PL;COND,0.0,0.0,m m u s t a r r i s s ə v ə
+mmustà,mmustavo,V;IND;PST;1;SG;IPFV,0.0,0.0,m m u s t a v ə
+mmustà,mmustarrà,V;3;SG;IND;FUT,0.0,0.0,m m u s t a r r a
+mmustà,mmustano,V;IND;PRS;3;PL,0.0,0.0,m m u s t a n ə
+mmustà,mmustasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,m m u s t a s s ə
+mmustà,mmustarria,V;1;SG;COND,0.0,0.0,m m u s t a r r j ə
+mmustà,mmustasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,m m u s t a s s ə
+mmustà,mmustavano,V;IND;PST;3;PL;IPFV,0.0,0.0,m m u s t a v a n ə
+mmustà,mmustate,V;2;PL;IMP,0.0,0.0,m m u s t a t ə
+mmustà,mmustarrissemo,V;1;PL;COND,0.0,0.0,m m u s t a r r i s s ə m ə
+mmustà,mmustave,V;IND;PST;2;SG;IPFV,0.0,0.0,m m u s t a v ə
+mmustà,mmusto,V;IND;PRS;1;SG,0.0,0.0,m m u s t ə
+mmustà,mmustaje,V;IND;PST;3;SG;PFV,0.0,0.0,m m u s t a j ə
+mmustà,mmusta,V;2;SG;IMP,0.0,0.0,m m u s t ə
+mmustà,mmustarrite,V;2;PL;IND;FUT,0.0,0.0,m m u s t a r r i t ə
+mmustà,mmustate,V;IND;PRS;2;PL,0.0,0.0,m m u s t a t ə
+mmustà,mmustarraggio,V;1;SG;IND;FUT,0.0,0.0,m m u s t a r r a d d͡ʒ ə
+mmustà,mmusteno,V;3;PL;IMP,0.0,0.0,m m u s t ə n ə
+mmustà,mmustajeno,V;IND;PST;3;PL;PFV,0.0,0.0,m m u s t a j ə n ə
+mmustà,mmustà,V;NFIN,0.0,0.0,m m u s t a
+mmustà,mmustava,V;IND;PST;3;SG;IPFV,0.0,0.0,m m u s t a v ə
+mmustà,mmustassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,m m u s t a s s ə m ə
+mmustà,mmustaste,V;IND;PST;2;SG;PFV,0.0,0.0,m m u s t a s t ə
+mmustà,mmusta,V;2;SG;IMP,0.0,0.0,m m u s t ə
+mmustà,mmustarria,V;3;SG;COND,0.0,0.0,m m u s t a r r j ə
+mmustà,mmustammo,V;IND;PRS;1;PL,0.0,0.0,m m u s t a m m ə
+mmustà,mmustastevo,V;IND;PST;2;PL;PFV,0.0,0.0,m m u s t a s t ə v ə
+mmustà,mmustarraje,V;2;SG;IND;FUT,0.0,0.0,m m u s t a r r a j ə
+mmustà,mmustassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,m m u s t a s s ə r ə
+mmustà,mmustarriano,V;3;PL;COND,0.0,0.0,m m u s t a r r j a n ə
+mmustà,mmustavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,m m u s t a v a m ə
+nciarmà,nciarma,V;IND;PRS;3;SG,0.0,0.0,n t͡ʃ a r m ə
+nciarmà,nciarmaje,V;IND;PST;1;SG;PFV,0.0,0.0,n t͡ʃ a r m a j ə
+nciarmà,nciarmammo,V;1;PL;IMP,0.0,0.0,n t͡ʃ a r m a m m ə
+nciarmà,nciarmasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,n t͡ʃ a r m a s s ə
+nciarmà,nciarmarrisse,V;2;SG;COND,0.0,0.0,n t͡ʃ a r m a r r i s s ə
+nciarmà,nciarmarranno,V;3;PL;IND;FUT,0.0,0.0,n t͡ʃ a r m a r r a n n ə
+nciarmà,nciarmassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,n t͡ʃ a r m a s s e v ə
+nciarmà,nciarmajemo,V;IND;PST;1;PL;PFV,0.0,0.0,n t͡ʃ a r m a j ə m ə
+nciarmà,nciarmavate,V;IND;PST;2;PL;IPFV,0.0,0.0,n t͡ʃ a r m a v a t ə
+nciarmà,nciarme,V;IND;PRS;2;SG,0.0,0.0,n t͡ʃ a r m ə
+nciarmà,nciarmarrimmo,V;1;PL;IND;FUT,0.0,0.0,n t͡ʃ a r m a r r i m m ə
+nciarmà,nciarmarrissevo,V;2;PL;COND,0.0,0.0,n t͡ʃ a r m a r r i s s ə v ə
+nciarmà,nciarmavo,V;IND;PST;1;SG;IPFV,0.0,0.0,n t͡ʃ a r m a v ə
+nciarmà,nciarmarrà,V;3;SG;IND;FUT,0.0,0.0,n t͡ʃ a r m a r r a
+nciarmà,nciarmano,V;IND;PRS;3;PL,0.0,0.0,n t͡ʃ a r m a n ə
+nciarmà,nciarmasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,n t͡ʃ a r m a s s ə
+nciarmà,nciarmarria,V;1;SG;COND,0.0,0.0,n t͡ʃ a r m a r r i ə
+nciarmà,nciarmasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,n t͡ʃ a r m a s s ə
+nciarmà,nciarmavano,V;IND;PST;3;PL;IPFV,0.0,0.0,n t͡ʃ a r m a v a n ə
+nciarmà,nciarmate,V;2;PL;IMP,0.0,0.0,n t͡ʃ a r m a t ə
+nciarmà,nciarmarrissemo,V;1;PL;COND,0.0,0.0,n t͡ʃ a r m a r r i s s ə m ə
+nciarmà,nciarmave,V;IND;PST;2;SG;IPFV,0.0,0.0,n t͡ʃ a r m a v ə
+nciarmà,nciarmo,V;IND;PRS;1;SG,0.0,0.0,n t͡ʃ a r m ə
+nciarmà,nciarmaje,V;IND;PST;3;SG;PFV,0.0,0.0,n t͡ʃ a r m a j ə
+nciarmà,nciarma,V;2;SG;IMP,0.0,0.0,n t͡ʃ a r m ə
+nciarmà,nciarmarrite,V;2;PL;IND;FUT,0.0,0.0,n t͡ʃ a r m a r r i t ə
+nciarmà,nciarmate,V;IND;PRS;2;PL,0.0,0.0,n t͡ʃ a r m a t ə
+nciarmà,nciarmarraggio,V;1;SG;IND;FUT,0.0,0.0,n t͡ʃ a r m a r r a d d͡ʒ ə
+nciarmà,nciarmeno,V;3;PL;IMP,0.0,0.0,n t͡ʃ a r m ə n ə
+nciarmà,nciarmajeno,V;IND;PST;3;PL;PFV,0.0,0.0,n t͡ʃ a r m a j ə n ə
+nciarmà,nciarmà,V;NFIN,0.0,0.0,n t͡ʃ a r m a
+nciarmà,nciarmava,V;IND;PST;3;SG;IPFV,0.0,0.0,n t͡ʃ a r m a v ə
+nciarmà,nciarmassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,n t͡ʃ a r m a s s ə m ə
+nciarmà,nciarmaste,V;IND;PST;2;SG;PFV,0.0,0.0,n t͡ʃ a r m a s t ə
+nciarmà,nciarma,V;2;SG;IMP,0.0,0.0,n t͡ʃ a r m ə
+nciarmà,nciarmarria,V;3;SG;COND,0.0,0.0,n t͡ʃ a r m a r r i ə
+nciarmà,nciarmammo,V;IND;PRS;1;PL,0.0,0.0,n t͡ʃ a r m a m m ə
+nciarmà,nciarmastevo,V;IND;PST;2;PL;PFV,0.0,0.0,n t͡ʃ a r m a s t ə v ə
+nciarmà,nciarmarraje,V;2;SG;IND;FUT,0.0,0.0,n t͡ʃ a r m a r r a j ə
+nciarmà,nciarmassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,n t͡ʃ a r m a s s ə r ə
+nciarmà,nciarmarriano,V;3;PL;COND,0.0,0.0,n t͡ʃ a r m a r r j a n ə
+nciarmà,nciarmavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,n t͡ʃ a r m a v a m ə
+nzerrà,nzerra,V;IND;PRS;3;SG,0.0,0.0,n t͡s ɛ r r ə
+nzerrà,nzerraje,V;IND;PST;1;SG;PFV,0.0,0.0,n t͡s ə r r a j ə
+nzerrà,nzerrammo,V;1;PL;IMP,0.0,0.0,n t͡s ə r r a m m ə
+nzerrà,nzerrasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,n t͡s ə r r a s s ə
+nzerrà,nzerrarrisse,V;2;SG;COND,0.0,0.0,n t͡s ə r r a r r i s s ə
+nzerrà,nzerrarranno,V;3;PL;IND;FUT,0.0,0.0,n t͡s ə r r a r r a n n ə
+nzerrà,nzerrassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,n t͡s ə r r a s s ə v ə
+nzerrà,nzerrajemo,V;IND;PST;1;PL;PFV,0.0,0.0,n t͡s ə r r a j ə m ə
+nzerrà,nzerravate,V;IND;PST;2;PL;IPFV,0.0,0.0,n t͡s ə r r a v a t ə
+nzerrà,nzerre,V;IND;PRS;2;SG,0.0,0.0,n t͡s ɛ r r ə
+nzerrà,nzerrarrimmo,V;1;PL;IND;FUT,0.0,0.0,n t͡s ə r r a r r i m m ə
+nzerrà,nzerrarrissevo,V;2;PL;COND,0.0,0.0,n t͡s ə r r a r r i s s ə v ə
+nzerrà,nzerravo,V;IND;PST;1;SG;IPFV,0.0,0.0,n t͡s ə r r a v ə
+nzerrà,nzerrarrà,V;3;SG;IND;FUT,0.0,0.0,n t͡s ɛ r r a r r a
+nzerrà,nzerrano,V;IND;PRS;3;PL,0.0,0.0,n t͡s ə r r a n ə
+nzerrà,nzerrasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,n t͡s ə r r a s s ə
+nzerrà,nzerrarria,V;1;SG;COND,0.0,0.0,n t͡s ə r r a r r j ə
+nzerrà,nzerrasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,n t͡s ə r r a s s ə
+nzerrà,nzerravano,V;IND;PST;3;PL;IPFV,0.0,0.0,n t͡s ə r r a v a n ə
+nzerrà,nzerrate,V;2;PL;IMP,0.0,0.0,n t͡s ə r r a t ə
+nzerrà,nzerrarrissemo,V;1;PL;COND,0.0,0.0,n t͡s ə r r a r r i s s ə m ə
+nzerrà,nzerrave,V;IND;PST;2;SG;IPFV,0.0,0.0,n t͡s ə r r a v ə
+nzerrà,nzerro,V;IND;PRS;1;SG,0.0,0.0,n t͡s ɛ r r ə
+nzerrà,nzerraje,V;IND;PST;3;SG;PFV,0.0,0.0,n t͡s ə r r a j ə
+nzerrà,nzerra,V;2;SG;IMP,0.0,0.0,n t͡s ɛ r r ə
+nzerrà,nzerrarrite,V;2;PL;IND;FUT,0.0,0.0,n t͡s ə r r a r r i t ə
+nzerrà,nzerrate,V;IND;PRS;2;PL,0.0,0.0,n t͡s ə r r a t ə
+nzerrà,nzerrarraggio,V;1;SG;IND;FUT,0.0,0.0,n t͡s ɛ r r a r r a d d͡ʒ ə
+nzerrà,nzerreno,V;3;PL;IMP,0.0,0.0,n t͡s ə r r ə n ə
+nzerrà,nzerrajeno,V;IND;PST;3;PL;PFV,0.0,0.0,n t͡s ə r r a j ə n ə
+nzerrà,nzerrà,V;NFIN,0.0,0.0,n t͡s ɛ r r a
+nzerrà,nzerrava,V;IND;PST;3;SG;IPFV,0.0,0.0,n t͡s ə r r a v ə
+nzerrà,nzerrassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,n t͡s ə r r a s s ə m ə
+nzerrà,nzerraste,V;IND;PST;2;SG;PFV,0.0,0.0,n t͡s ə r r a s t ə
+nzerrà,nzerra,V;2;SG;IMP,0.0,0.0,n t͡s ɛ r r ə
+nzerrà,nzerrarria,V;3;SG;COND,0.0,0.0,n t͡s ə r r a r r j ə
+nzerrà,nzerrammo,V;IND;PRS;1;PL,0.0,0.0,n t͡s ə r r a m m ə
+nzerrà,nzerrastevo,V;IND;PST;2;PL;PFV,0.0,0.0,n t͡s ə r r a s t ə v ə
+nzerrà,nzerrarraje,V;2;SG;IND;FUT,0.0,0.0,n t͡s ə r r a r r a j ə
+nzerrà,nzerrassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,n t͡s ə r r a s s ə r ə
+nzerrà,nzerrarriano,V;3;PL;COND,0.0,0.0,n t͡s ə r r a r r j a n ə
+nzerrà,nzerravamo,V;IND;PST;1;PL;IPFV,0.0,0.0,n t͡s ə r r a v a m ə
+nzignà,nzigna,V;IND;PRS;3;SG,0.0,0.0001214285714285,n t͡s i ɲ ɲ ə
+nzignà,nzignaje,V;IND;PST;1;SG;PFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a j ə
+nzignà,nzignammo,V;1;PL;IMP,0.0,0.0001214285714285,n t͡s i ɲ ɲ a m m ə
+nzignà,nzignasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a s s ə
+nzignà,nzignarrisse,V;2;SG;COND,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r i s s ə
+nzignà,nzignarranno,V;3;PL;IND;FUT,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r a n n ə
+nzignà,nzignassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a s s ɛ v ə
+nzignà,nzignajemo,V;IND;PST;1;PL;PFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a j ə m ə
+nzignà,nzignavate,V;IND;PST;2;PL;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a v a t ə
+nzignà,nzigne,V;IND;PRS;2;SG,0.0051,0.0001214285714285,n t͡s i ɲ ɲ ə
+nzignà,nzignarrimmo,V;1;PL;IND;FUT,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r i m m ə
+nzignà,nzignarrissevo,V;2;PL;COND,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r i s s ə v ə
+nzignà,nzignavo,V;IND;PST;1;SG;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a v ə
+nzignà,nzignarrà,V;3;SG;IND;FUT,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r a
+nzignà,nzignano,V;IND;PRS;3;PL,0.0,0.0001214285714285,n t͡s i ɲ ɲ a n ə
+nzignà,nzignasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a s s ə
+nzignà,nzignarria,V;1;SG;COND,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r j ə
+nzignà,nzignasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a s s ə
+nzignà,nzignavano,V;IND;PST;3;PL;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a v a n ə
+nzignà,nzignate,V;2;PL;IMP,0.0,0.0001214285714285,n t͡s i ɲ ɲ a t ə
+nzignà,nzignarrissemo,V;1;PL;COND,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r i s s ə m ə
+nzignà,nzignave,V;IND;PST;2;SG;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a v ə
+nzignà,nzigno,V;IND;PRS;1;SG,0.0,0.0001214285714285,n t͡s i ɲ ɲ ə
+nzignà,nzignaje,V;IND;PST;3;SG;PFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a j ə
+nzignà,nzigna,V;2;SG;IMP,0.0,0.0001214285714285,n t͡s i ɲ ɲ ə
+nzignà,nzignarrite,V;2;PL;IND;FUT,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r i t ə
+nzignà,nzignate,V;IND;PRS;2;PL,0.0,0.0001214285714285,n t͡s i ɲ ɲ a t ə
+nzignà,nzignarraggio,V;1;SG;IND;FUT,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r a d d͡ʒ ə
+nzignà,nzigneno,V;3;PL;IMP,0.0,0.0001214285714285,n t͡s i ɲ ɲ ə n ə
+nzignà,nzignajeno,V;IND;PST;3;PL;PFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a j ə n ə
+nzignà,nzignà,V;NFIN,0.0,0.0001214285714285,n t͡s i ɲ ɲ a
+nzignà,nzignava,V;IND;PST;3;SG;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a v ə
+nzignà,nzignassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a s s ə m ə
+nzignà,nzignaste,V;IND;PST;2;SG;PFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a s t ə
+nzignà,nzigna,V;2;SG;IMP,0.0,0.0001214285714285,n t͡s i ɲ ɲ ə
+nzignà,nzignarria,V;3;SG;COND,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r j ə
+nzignà,nzignammo,V;IND;PRS;1;PL,0.0,0.0001214285714285,n t͡s i ɲ ɲ a m m ə
+nzignà,nzignastevo,V;IND;PST;2;PL;PFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a s t ə v ə
+nzignà,nzignarraje,V;2;SG;IND;FUT,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r a j ə
+nzignà,nzignassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a s s ə r ə
+nzignà,nzignarriano,V;3;PL;COND,0.0,0.0001214285714285,n t͡s i ɲ ɲ a r r j a n ə
+nzignà,nzignavamo,V;IND;PST;1;PL;IPFV,0.0,0.0001214285714285,n t͡s i ɲ ɲ a v a m ə
+amà,ama,V;IND;PRS;3;SG,0.0,1.1904761904761903e-05,a m ə
+amà,amaje,V;IND;PST;1;SG;PFV,0.0,1.1904761904761903e-05,a m a j ə
+amà,amammo,V;1;PL;IMP,0.0,1.1904761904761903e-05,a m a m m ə
+amà,amasse,V;SBJV;PST;1;SG;IPFV,0.0,1.1904761904761903e-05,a m a s s ə
+amà,amarrisse,V;2;SG;COND,0.0,1.1904761904761903e-05,a m a r r i s s ə
+amà,amarranno,V;3;PL;IND;FUT,0.0,1.1904761904761903e-05,a m a r r a n n ə
+amà,amassevo,V;SBJV;PST;2;PL;IPFV,0.0,1.1904761904761903e-05,a m a s s ɛ v ə
+amà,amajemo,V;IND;PST;1;PL;PFV,0.0,1.1904761904761903e-05,a m a j ə m ə
+amà,amavate,V;IND;PST;2;PL;IPFV,0.0,1.1904761904761903e-05,a m a v a t ə
+amà,ame,V;IND;PRS;2;SG,0.0,1.1904761904761903e-05,a m ə
+amà,amarrimmo,V;1;PL;IND;FUT,0.0,1.1904761904761903e-05,a m a r r i m m ə
+amà,amarrissevo,V;2;PL;COND,0.0,1.1904761904761903e-05,a m a r r i s s ə v ə
+amà,amavo,V;IND;PST;1;SG;IPFV,0.0,1.1904761904761903e-05,a m a v ə
+amà,amarrà,V;3;SG;IND;FUT,0.0,1.1904761904761903e-05,a m a r r a
+amà,amano,V;IND;PRS;3;PL,0.0,1.1904761904761903e-05,a m a n ə
+amà,amasse,V;SBJV;PST;3;SG;IPFV,0.0,1.1904761904761903e-05,a m a s s ə
+amà,amarria,V;1;SG;COND,0.0,1.1904761904761903e-05,a m a r r i ə
+amà,amasse,V;SBJV;PST;2;SG;IPFV,0.0,1.1904761904761903e-05,a m a s s ə
+amà,amavano,V;IND;PST;3;PL;IPFV,0.0,1.1904761904761903e-05,a m a v a n ə
+amà,amate,V;2;PL;IMP,0.0002,1.1904761904761903e-05,a m a t ə
+amà,amarrissemo,V;1;PL;COND,0.0,1.1904761904761903e-05,a m a r r i s s ə m ə
+amà,amave,V;IND;PST;2;SG;IPFV,0.0,1.1904761904761903e-05,a m a v ə
+amà,amo,V;IND;PRS;1;SG,0.0,1.1904761904761903e-05,a m ə
+amà,amaje,V;IND;PST;3;SG;PFV,0.0,1.1904761904761903e-05,a m a j ə
+amà,ama,V;2;SG;IMP,0.0,1.1904761904761903e-05,a m ə
+amà,amarrite,V;2;PL;IND;FUT,0.0,1.1904761904761903e-05,a m a r r i t ə
+amà,amate,V;IND;PRS;2;PL,0.0002,1.1904761904761903e-05,a m a t ə
+amà,amarraggio,V;1;SG;IND;FUT,0.0,1.1904761904761903e-05,a m a r r a d d͡ʒ ə
+amà,ameno,V;3;PL;IMP,0.0,1.1904761904761903e-05,a m ə n ə
+amà,amajeno,V;IND;PST;3;PL;PFV,0.0,1.1904761904761903e-05,a m a j ə n ə
+amà,amà,V;NFIN,0.0001,1.1904761904761903e-05,a m a
+amà,amava,V;IND;PST;3;SG;IPFV,0.0,1.1904761904761903e-05,a m a v ə
+amà,amassemo,V;SBJV;PST;1;PL;IPFV,0.0,1.1904761904761903e-05,a m a s s ə m ə
+amà,amaste,V;IND;PST;2;SG;PFV,0.0,1.1904761904761903e-05,a m a s t ə
+amà,ama,V;2;SG;IMP,0.0,1.1904761904761903e-05,a m ə
+amà,amarria,V;3;SG;COND,0.0,1.1904761904761903e-05,a m a r r i ə
+amà,amammo,V;IND;PRS;1;PL,0.0,1.1904761904761903e-05,a m a m m ə
+amà,amastevo,V;IND;PST;2;PL;PFV,0.0,1.1904761904761903e-05,a m a s t ə v ə
+amà,amarraje,V;2;SG;IND;FUT,0.0,1.1904761904761903e-05,a m a r r a j ə
+amà,amassero,V;SBJV;PST;3;PL;IPFV,0.0,1.1904761904761903e-05,a m a s s ə r ə
+amà,amarriano,V;3;PL;COND,0.0,1.1904761904761903e-05,a m a r r j a n ə
+amà,amavamo,V;IND;PST;1;PL;IPFV,0.0,1.1904761904761903e-05,a m a v a m ə
+piglià,piglia,V;IND;PRS;3;SG,0.0,0.0,p i ʎ ʎ ə
+piglià,pigliaje,V;IND;PST;1;SG;PFV,0.0,0.0,p i ʎ ʎ a j ə
+piglià,pigliammo,V;1;PL;IMP,0.0,0.0,p i ʎ ʎ a m m ə
+piglià,pigliasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,p i ʎ ʎ a s s ə
+piglià,pigliarrisse,V;2;SG;COND,0.0,0.0,p i ʎ ʎ a r r i s s ə
+piglià,pigliarranno,V;3;PL;IND;FUT,0.0,0.0,p i ʎ ʎ a r r a n n ə
+piglià,pigliassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,p i ʎ ʎ a s s ɛ v ə
+piglià,pigliajemo,V;IND;PST;1;PL;PFV,0.0,0.0,p i ʎ ʎ a j ə m ə
+piglià,pigliavate,V;IND;PST;2;PL;IPFV,0.0,0.0,p i ʎ ʎ a v a t ə
+piglià,piglie,V;IND;PRS;2;SG,0.0,0.0,p i ʎ ʎ ə
+piglià,pigliarrimmo,V;1;PL;IND;FUT,0.0,0.0,p i ʎ ʎ a r r i m m ə
+piglià,pigliarrissevo,V;2;PL;COND,0.0,0.0,p i ʎ ʎ a r r i s s ə v ə
+piglià,pigliavo,V;IND;PST;1;SG;IPFV,0.0,0.0,p i ʎ ʎ a v ə
+piglià,pigliarrà,V;3;SG;IND;FUT,0.0,0.0,p i ʎ ʎ a r r a
+piglià,pigliano,V;IND;PRS;3;PL,0.0,0.0,p i ʎ ʎ a n ə
+piglià,pigliasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,p i ʎ ʎ a s s ə
+piglià,pigliarria,V;1;SG;COND,0.0,0.0,p i ʎ ʎ a r r j ə
+piglià,pigliasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,p i ʎ ʎ a s s ə
+piglià,pigliavano,V;IND;PST;3;PL;IPFV,0.0,0.0,p i ʎ ʎ a v a n ə
+piglià,pigliate,V;2;PL;IMP,0.0,0.0,p i ʎ ʎ a t ə
+piglià,pigliarrissemo,V;1;PL;COND,0.0,0.0,p i ʎ ʎ a r r i s s ə m ə
+piglià,pigliave,V;IND;PST;2;SG;IPFV,0.0,0.0,p i ʎ ʎ a v ə
+piglià,piglio,V;IND;PRS;1;SG,0.0,0.0,p i ʎ ʎ ə
+piglià,pigliaje,V;IND;PST;3;SG;PFV,0.0,0.0,p i ʎ ʎ a j ə
+piglià,piglia,V;2;SG;IMP,0.0,0.0,p i ʎ ʎ ə
+piglià,pigliarrite,V;2;PL;IND;FUT,0.0,0.0,p i ʎ ʎ a r r i t ə
+piglià,pigliate,V;IND;PRS;2;PL,0.0,0.0,p i ʎ ʎ a t ə
+piglià,pigliarraggio,V;1;SG;IND;FUT,0.0,0.0,p i ʎ ʎ a r r a d d͡ʒ ə
+piglià,piglieno,V;3;PL;IMP,0.0,0.0,p i ʎ ʎ ə n ə
+piglià,pigliajeno,V;IND;PST;3;PL;PFV,0.0,0.0,p i ʎ ʎ a j ə n ə
+piglià,piglià,V;NFIN,0.0,0.0,p i ʎ ʎ a
+piglià,pigliava,V;IND;PST;3;SG;IPFV,0.0,0.0,p i ʎ ʎ a v ə
+piglià,pigliassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,p i ʎ ʎ a s s ə m ə
+piglià,pigliaste,V;IND;PST;2;SG;PFV,0.0,0.0,p i ʎ ʎ a s t ə
+piglià,piglia,V;2;SG;IMP,0.0,0.0,p i ʎ ʎ ə
+piglià,pigliarria,V;3;SG;COND,0.0,0.0,p i ʎ ʎ a r r j ə
+piglià,pigliammo,V;IND;PRS;1;PL,0.0,0.0,p i ʎ ʎ a m m ə
+piglià,pigliastevo,V;IND;PST;2;PL;PFV,0.0,0.0,p i ʎ ʎ a s t ə v ə
+piglià,pigliarraje,V;2;SG;IND;FUT,0.0,0.0,p i ʎ ʎ a r r a j ə
+piglià,pigliassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,p i ʎ ʎ a s s ə r ə
+piglià,pigliarriano,V;3;PL;COND,0.0,0.0,p i ʎ ʎ a r r j a n ə
+piglià,pigliavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,p i ʎ ʎ a v a m ə
+pulezzà,pulezza,V;IND;PRS;3;SG,0.0,0.0,p u l e t t͡s ə
+pulezzà,pulezzaje,V;IND;PST;1;SG;PFV,0.0,0.0,p u l e t t͡s a j ə
+pulezzà,pulezzammo,V;1;PL;IMP,0.0,0.0,p u l e t t͡s a m m ə
+pulezzà,pulezzasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,p u l e t t͡s a s s ə
+pulezzà,pulezzarrisse,V;2;SG;COND,0.0,0.0,p u l e t t͡s a r r i s s ə
+pulezzà,pulezzarranno,V;3;PL;IND;FUT,0.0,0.0,p u l ə t t͡s a r r a n n ə
+pulezzà,pulezzassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,p u l e t t͡s a s s e v ə
+pulezzà,pulezzajemo,V;IND;PST;1;PL;PFV,0.0,0.0,p u l ɛ t t͡s a j ə m ə
+pulezzà,pulezzavate,V;IND;PST;2;PL;IPFV,0.0,0.0,p u l e t t͡s a v a t ə
+pulezzà,pulezze,V;IND;PRS;2;SG,0.0,0.0,p u l ɛ t t͡s ə
+pulezzà,pulezzarrimmo,V;1;PL;IND;FUT,0.0,0.0,p u l ɛ t t͡s a r r i m m ə
+pulezzà,pulezzarrissevo,V;2;PL;COND,0.0,0.0,p u l ə t t͡s a r r i s s ə v ə
+pulezzà,pulezzavo,V;IND;PST;1;SG;IPFV,0.0,0.0,p u l e t t͡s a v ə
+pulezzà,pulezzarrà,V;3;SG;IND;FUT,0.0,0.0,p u l e t t͡s a r r a
+pulezzà,pulezzano,V;IND;PRS;3;PL,0.0,0.0,p u l e t t͡s a n ə
+pulezzà,pulezzasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,p u l e t t͡s a s s ə
+pulezzà,pulezzarria,V;1;SG;COND,0.0,0.0,p u l ə t t͡s a r r i ə
+pulezzà,pulezzasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,p u l e t t͡s a s s ə
+pulezzà,pulezzavano,V;IND;PST;3;PL;IPFV,0.0,0.0,p u l e t t͡s a v a n ə
+pulezzà,pulezzate,V;2;PL;IMP,0.0,0.0,p u l e t t͡s a t ə
+pulezzà,pulezzarrissemo,V;1;PL;COND,0.0,0.0,p u l ə t t͡s a r r i s s ə m ə
+pulezzà,pulezzave,V;IND;PST;2;SG;IPFV,0.0,0.0,p u l e t t͡s a v ə
+pulezzà,pulezzo,V;IND;PRS;1;SG,0.0,0.0,p u l ɛ t t͡s ə
+pulezzà,pulezzaje,V;IND;PST;3;SG;PFV,0.0,0.0,p u l e t t͡s a j ə
+pulezzà,pulezza,V;2;SG;IMP,0.0,0.0,p u l e t t͡s ə
+pulezzà,pulezzarrite,V;2;PL;IND;FUT,0.0,0.0,p u l e t t͡s a r r i t ə
+pulezzà,pulezzate,V;IND;PRS;2;PL,0.0,0.0,p u l e t t͡s a t ə
+pulezzà,pulezzarraggio,V;1;SG;IND;FUT,0.0,0.0,p u l e t t͡s a r r a d d͡ʒ ə
+pulezzà,pulezzeno,V;3;PL;IMP,0.0,0.0,p u l ɛ t t͡s ə n ə
+pulezzà,pulezzajeno,V;IND;PST;3;PL;PFV,0.0,0.0,p u l e t t͡s a j ə n ə
+pulezzà,pulezzà,V;NFIN,0.0,0.0,p u l e t t͡s a
+pulezzà,pulezzava,V;IND;PST;3;SG;IPFV,0.0,0.0,p u l e t t͡s a v ə
+pulezzà,pulezzassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,p u l e t t͡s a s s ɛ m ə
+pulezzà,pulezzaste,V;IND;PST;2;SG;PFV,0.0,0.0,p u l e t t͡s a s t ə
+pulezzà,pulezza,V;2;SG;IMP,0.0,0.0,p u l e t t͡s ə
+pulezzà,pulezzarria,V;3;SG;COND,0.0,0.0,p u l ə t t͡s a r r i ə
+pulezzà,pulezzammo,V;IND;PRS;1;PL,0.0,0.0,p u l e t t͡s a m m ə
+pulezzà,pulezzastevo,V;IND;PST;2;PL;PFV,0.0,0.0,p u l e t t͡s a s t ɛ v ə
+pulezzà,pulezzarraje,V;2;SG;IND;FUT,0.0,0.0,p u l ə t t͡s a r r a j ə
+pulezzà,pulezzassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,p u l e t t͡s a s s ɛ r ə
+pulezzà,pulezzarriano,V;3;PL;COND,0.0,0.0,p u l ə t t͡s a r r j a n ə
+pulezzà,pulezzavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,p u l e t t͡s a v a m ə
+rialà,riala,V;IND;PRS;3;SG,0.0,5e-05,r i a l ə
+rialà,rialaje,V;IND;PST;1;SG;PFV,0.0,5e-05,r i a l a j ə
+rialà,rialammo,V;1;PL;IMP,0.0,5e-05,r i a l a m m ə
+rialà,rialasse,V;SBJV;PST;1;SG;IPFV,0.0,5e-05,r i a l a s s ə
+rialà,rialarrisse,V;2;SG;COND,0.0,5e-05,r i a l a r r i s s ə
+rialà,rialarranno,V;3;PL;IND;FUT,0.0,5e-05,r i a l a r r a n n ə
+rialà,rialassevo,V;SBJV;PST;2;PL;IPFV,0.0,5e-05,r i a l a s s ɛ v ə
+rialà,rialajemo,V;IND;PST;1;PL;PFV,0.0,5e-05,r i a l a j ə m ə
+rialà,rialavate,V;IND;PST;2;PL;IPFV,0.0,5e-05,r i a l a v a t ə
+rialà,riale,V;IND;PRS;2;SG,0.0009,5e-05,r i a l ə
+rialà,rialarrimmo,V;1;PL;IND;FUT,0.0,5e-05,r i a l a r r i m m ə
+rialà,rialarrissevo,V;2;PL;COND,0.0,5e-05,r i a l a r r i s s ə v ə
+rialà,rialavo,V;IND;PST;1;SG;IPFV,0.0,5e-05,r i a l a v ə
+rialà,rialarrà,V;3;SG;IND;FUT,0.0,5e-05,r i a l a r r a
+rialà,rialano,V;IND;PRS;3;PL,0.0,5e-05,r i a l a n ə
+rialà,rialasse,V;SBJV;PST;3;SG;IPFV,0.0,5e-05,r i a l a s s ə
+rialà,rialarria,V;1;SG;COND,0.0,5e-05,r i a l a r r i ə
+rialà,rialasse,V;SBJV;PST;2;SG;IPFV,0.0,5e-05,r i a l a s s ə
+rialà,rialavano,V;IND;PST;3;PL;IPFV,0.0,5e-05,r i a l a v a n ə
+rialà,rialate,V;2;PL;IMP,0.0006,5e-05,r i a l a t ə
+rialà,rialarrissemo,V;1;PL;COND,0.0,5e-05,r i a l a r r i s s ə m ə
+rialà,rialave,V;IND;PST;2;SG;IPFV,0.0,5e-05,r i a l a v ə
+rialà,rialo,V;IND;PRS;1;SG,0.0,5e-05,r i a l ə
+rialà,rialaje,V;IND;PST;3;SG;PFV,0.0,5e-05,r i a l a j ə
+rialà,riala,V;2;SG;IMP,0.0,5e-05,r i a l ə
+rialà,rialarrite,V;2;PL;IND;FUT,0.0,5e-05,r i a l a r r i t ə
+rialà,rialate,V;IND;PRS;2;PL,0.0006,5e-05,r i a l a t ə
+rialà,rialarraggio,V;1;SG;IND;FUT,0.0,5e-05,r i a l a r r a d d͡ʒ ə
+rialà,rialeno,V;3;PL;IMP,0.0,5e-05,r i a l ə n ə
+rialà,rialajeno,V;IND;PST;3;PL;PFV,0.0,5e-05,r i a l a j ə n ə
+rialà,rialà,V;NFIN,0.0,5e-05,r i a l a
+rialà,rialava,V;IND;PST;3;SG;IPFV,0.0,5e-05,r i a l a v ə
+rialà,rialassemo,V;SBJV;PST;1;PL;IPFV,0.0,5e-05,r i a l a s s ə m ə
+rialà,rialaste,V;IND;PST;2;SG;PFV,0.0,5e-05,r i a l a s t ə
+rialà,riala,V;2;SG;IMP,0.0,5e-05,r i a l ə
+rialà,rialarria,V;3;SG;COND,0.0,5e-05,r i a l a r r i ə
+rialà,rialammo,V;IND;PRS;1;PL,0.0,5e-05,r i a l a m m ə
+rialà,rialastevo,V;IND;PST;2;PL;PFV,0.0,5e-05,r i a l a s t ə v ə
+rialà,rialarraje,V;2;SG;IND;FUT,0.0,5e-05,r i a l a r r a j ə
+rialà,rialassero,V;SBJV;PST;3;PL;IPFV,0.0,5e-05,r i a l a s s ə r ə
+rialà,rialarriano,V;3;PL;COND,0.0,5e-05,r i a l a r r j a n ə
+rialà,rialavamo,V;IND;PST;1;PL;IPFV,0.0,5e-05,r i a l a v a m ə
+scamazzà,scamazza,V;IND;PRS;3;SG,0.0,0.0,s k a m a t t͡s ə
+scamazzà,scamazzaje,V;IND;PST;1;SG;PFV,0.0,0.0,s k a m a t t͡s a j ə
+scamazzà,scamazzammo,V;1;PL;IMP,0.0,0.0,s k a m a t t͡s a m m ə
+scamazzà,scamazzasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,s k a m a t t͡s a s s ə
+scamazzà,scamazzarrisse,V;2;SG;COND,0.0,0.0,s k a m a t t͡s a r r i s s ə
+scamazzà,scamazzarranno,V;3;PL;IND;FUT,0.0,0.0,s k a m a t t͡s a r r a n n ə
+scamazzà,scamazzassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,s k a m a t t͡s a s s e v ə
+scamazzà,scamazzajemo,V;IND;PST;1;PL;PFV,0.0,0.0,s k a m a t t͡s a j ə m ə
+scamazzà,scamazzavate,V;IND;PST;2;PL;IPFV,0.0,0.0,s k a m a t t͡s a v a t ə
+scamazzà,scamazze,V;IND;PRS;2;SG,0.0,0.0,s k a m a t t͡s ə
+scamazzà,scamazzarrimmo,V;1;PL;IND;FUT,0.0,0.0,s k a m a t t͡s a r r i m m ə
+scamazzà,scamazzarrissevo,V;2;PL;COND,0.0,0.0,s k a m a t t͡s a r r i s s e v ə
+scamazzà,scamazzavo,V;IND;PST;1;SG;IPFV,0.0,0.0,s k a m a t t͡s a v ə
+scamazzà,scamazzarrà,V;3;SG;IND;FUT,0.0,0.0,s k a m a t t͡s a r r a
+scamazzà,scamazzano,V;IND;PRS;3;PL,0.0,0.0,s k a m a t t͡s a n ə
+scamazzà,scamazzasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,s k a m a t t͡s a s s ə
+scamazzà,scamazzarria,V;1;SG;COND,0.0,0.0,s k a m a t t͡s a r r i ə
+scamazzà,scamazzasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,s k a m a t t͡s a s s ə
+scamazzà,scamazzavano,V;IND;PST;3;PL;IPFV,0.0,0.0,s k a m a t t͡s a v a n ə
+scamazzà,scamazzate,V;2;PL;IMP,0.0,0.0,s k a m a t t͡s a t ə
+scamazzà,scamazzarrissemo,V;1;PL;COND,0.0,0.0,s k a m a t t͡s a r r i s s ə m ə
+scamazzà,scamazzave,V;IND;PST;2;SG;IPFV,0.0,0.0,s k a m a t t͡s a v ə
+scamazzà,scamazzo,V;IND;PRS;1;SG,0.0,0.0,s k a m a t t͡s ə
+scamazzà,scamazzaje,V;IND;PST;3;SG;PFV,0.0,0.0,s k a m a t t͡s a j ə
+scamazzà,scamazza,V;2;SG;IMP,0.0,0.0,s k a m a t t͡s ə
+scamazzà,scamazzarrite,V;2;PL;IND;FUT,0.0,0.0,s k a m a t t͡s a r r i t ə
+scamazzà,scamazzate,V;IND;PRS;2;PL,0.0,0.0,s k a m a t t͡s a t ə
+scamazzà,scamazzarraggio,V;1;SG;IND;FUT,0.0,0.0,s k a m a t t͡s a r r a d d͡ʒ ə
+scamazzà,scamazzeno,V;3;PL;IMP,0.0,0.0,s k a m a t t͡s ɛ n ə
+scamazzà,scamazzajeno,V;IND;PST;3;PL;PFV,0.0,0.0,s k a m a t t͡s a j ə n ə
+scamazzà,scamazzà,V;NFIN,0.0,0.0,s k a m a t t͡s a
+scamazzà,scamazzava,V;IND;PST;3;SG;IPFV,0.0,0.0,s k a m a t t͡s a v ə
+scamazzà,scamazzassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,s k a m a t t͡s a s s ɛ m ə
+scamazzà,scamazzaste,V;IND;PST;2;SG;PFV,0.0,0.0,s k a m a t t͡s a s t ə
+scamazzà,scamazza,V;2;SG;IMP,0.0,0.0,s k a m a t t͡s ə
+scamazzà,scamazzarria,V;3;SG;COND,0.0,0.0,s k a m a t t͡s a r r i ə
+scamazzà,scamazzammo,V;IND;PRS;1;PL,0.0,0.0,s k a m a t t͡s a m m ə
+scamazzà,scamazzastevo,V;IND;PST;2;PL;PFV,0.0,0.0,s k a m a t t͡s a s t e v ə
+scamazzà,scamazzarraje,V;2;SG;IND;FUT,0.0,0.0,s k a m a t t͡s a r r a j ə
+scamazzà,scamazzassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,s k a m a t t͡s a s s ɛ r ə
+scamazzà,scamazzarriano,V;3;PL;COND,0.0,0.0,s k a m a t t͡s a r r j a n ə
+scamazzà,scamazzavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,s k a m a t t͡s a v a m ə
+scarfà,scarfa,V;IND;PRS;3;SG,0.0001,1.904761904761905e-05,s k a r f ə
+scarfà,scarfaje,V;IND;PST;1;SG;PFV,0.0,1.904761904761905e-05,s k a r f a j ə
+scarfà,scarfammo,V;1;PL;IMP,0.0,1.904761904761905e-05,s k a r f a m m ə
+scarfà,scarfasse,V;SBJV;PST;1;SG;IPFV,0.0,1.904761904761905e-05,s k a r f a s s ə
+scarfà,scarfarrisse,V;2;SG;COND,0.0,1.904761904761905e-05,s k a r f a r r i s s ə
+scarfà,scarfarranno,V;3;PL;IND;FUT,0.0,1.904761904761905e-05,s k a r f a r r a n n ə
+scarfà,scarfassevo,V;SBJV;PST;2;PL;IPFV,0.0,1.904761904761905e-05,s k a r f a s s ə v ə
+scarfà,scarfajemo,V;IND;PST;1;PL;PFV,0.0,1.904761904761905e-05,s k a r f a j ə m ə
+scarfà,scarfavate,V;IND;PST;2;PL;IPFV,0.0,1.904761904761905e-05,s k a r f a v a t ə
+scarfà,scarfe,V;IND;PRS;2;SG,0.0,1.904761904761905e-05,s k a r f ə
+scarfà,scarfarrimmo,V;1;PL;IND;FUT,0.0,1.904761904761905e-05,s k a r f a r r i m m ə
+scarfà,scarfarrissevo,V;2;PL;COND,0.0,1.904761904761905e-05,s k a r f a r r i s s ə v ə
+scarfà,scarfavo,V;IND;PST;1;SG;IPFV,0.0,1.904761904761905e-05,s k a r f a v ə
+scarfà,scarfarrà,V;3;SG;IND;FUT,0.0,1.904761904761905e-05,s k a r f a r r a
+scarfà,scarfano,V;IND;PRS;3;PL,0.0,1.904761904761905e-05,s k a r f a n ə
+scarfà,scarfasse,V;SBJV;PST;3;SG;IPFV,0.0,1.904761904761905e-05,s k a r f a s s ə
+scarfà,scarfarria,V;1;SG;COND,0.0,1.904761904761905e-05,s k a r f a r r i ə
+scarfà,scarfasse,V;SBJV;PST;2;SG;IPFV,0.0,1.904761904761905e-05,s k a r f a s s ə
+scarfà,scarfavano,V;IND;PST;3;PL;IPFV,0.0,1.904761904761905e-05,s k a r f a v a n ə
+scarfà,scarfate,V;2;PL;IMP,0.0001,1.904761904761905e-05,s k a r f a t ə
+scarfà,scarfarrissemo,V;1;PL;COND,0.0,1.904761904761905e-05,s k a r f a r r i s s ə m ə
+scarfà,scarfave,V;IND;PST;2;SG;IPFV,0.0,1.904761904761905e-05,s k a r f a v ə
+scarfà,scarfo,V;IND;PRS;1;SG,0.0,1.904761904761905e-05,s k a r f ə
+scarfà,scarfaje,V;IND;PST;3;SG;PFV,0.0,1.904761904761905e-05,s k a r f a j ə
+scarfà,scarfa,V;2;SG;IMP,0.0001,1.904761904761905e-05,s k a r f ə
+scarfà,scarfarrite,V;2;PL;IND;FUT,0.0,1.904761904761905e-05,s k a r f a r r i t ə
+scarfà,scarfate,V;IND;PRS;2;PL,0.0001,1.904761904761905e-05,s k a r f a t ə
+scarfà,scarfarraggio,V;1;SG;IND;FUT,0.0,1.904761904761905e-05,s k a r f a r r a d d͡ʒ ə
+scarfà,scarfeno,V;3;PL;IMP,0.0,1.904761904761905e-05,s k a r f ə n ə
+scarfà,scarfajeno,V;IND;PST;3;PL;PFV,0.0,1.904761904761905e-05,s k a r f a j ə n ə
+scarfà,scarfà,V;NFIN,0.0003,1.904761904761905e-05,s k a r f a
+scarfà,scarfava,V;IND;PST;3;SG;IPFV,0.0,1.904761904761905e-05,s k a r f a v ə
+scarfà,scarfassemo,V;SBJV;PST;1;PL;IPFV,0.0,1.904761904761905e-05,s k a r f a s s ə m ə
+scarfà,scarfaste,V;IND;PST;2;SG;PFV,0.0,1.904761904761905e-05,s k a r f a s t ə
+scarfà,scarfa,V;2;SG;IMP,0.0001,1.904761904761905e-05,s k a r f ə
+scarfà,scarfarria,V;3;SG;COND,0.0,1.904761904761905e-05,s k a r f a r r i ə
+scarfà,scarfammo,V;IND;PRS;1;PL,0.0,1.904761904761905e-05,s k a r f a m m ə
+scarfà,scarfastevo,V;IND;PST;2;PL;PFV,0.0,1.904761904761905e-05,s k a r f a s t ə v ə
+scarfà,scarfarraje,V;2;SG;IND;FUT,0.0,1.904761904761905e-05,s k a r f a r r a j ə
+scarfà,scarfassero,V;SBJV;PST;3;PL;IPFV,0.0,1.904761904761905e-05,s k a r f a s s ə r ə
+scarfà,scarfarriano,V;3;PL;COND,0.0,1.904761904761905e-05,s k a r f a r r j a n ə
+scarfà,scarfavamo,V;IND;PST;1;PL;IPFV,0.0,1.904761904761905e-05,s k a r f a v a m ə
+appurà,appura,V;IND;PRS;3;SG,0.0,0.0,a p p u r ə
+appurà,appuraje,V;IND;PST;1;SG;PFV,0.0,0.0,a p p u r a j ə
+appurà,appurammo,V;1;PL;IMP,0.0,0.0,a p p u r a m m ə
+appurà,appurasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,a p p u r a s s ə
+appurà,appurarrisse,V;2;SG;COND,0.0,0.0,a p p u r a r r i s s ə
+appurà,appurarranno,V;3;PL;IND;FUT,0.0,0.0,a p p u r a r r a n n ə
+appurà,appurassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,a p p u r a s s ə v ə
+appurà,appurajemo,V;IND;PST;1;PL;PFV,0.0,0.0,a p p u r a j ə m ə
+appurà,appuravate,V;IND;PST;2;PL;IPFV,0.0,0.0,a p p u r a v a t ə
+appurà,appure,V;IND;PRS;2;SG,0.0,0.0,a p p u r ə
+appurà,appurarrimmo,V;1;PL;IND;FUT,0.0,0.0,a p p u r a r r i m m ə
+appurà,appurarrissevo,V;2;PL;COND,0.0,0.0,a p p u r a r r i s s ə v ə
+appurà,appuravo,V;IND;PST;1;SG;IPFV,0.0,0.0,a p p u r a v ə
+appurà,appurarrà,V;3;SG;IND;FUT,0.0,0.0,a p p u r a r r a
+appurà,appurano,V;IND;PRS;3;PL,0.0,0.0,a p p u r a n ə
+appurà,appurasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,a p p u r a s s ə
+appurà,appurarria,V;1;SG;COND,0.0,0.0,a p p u r a r r i ə
+appurà,appurasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,a p p u r a s s ə
+appurà,appuravano,V;IND;PST;3;PL;IPFV,0.0,0.0,a p p u r a v a n ə
+appurà,appurate,V;2;PL;IMP,0.0,0.0,a p p u r a t ə
+appurà,appurarrissemo,V;1;PL;COND,0.0,0.0,a p p u r a r r i s s ə m ə
+appurà,appurave,V;IND;PST;2;SG;IPFV,0.0,0.0,a p p u r a v ə
+appurà,appuro,V;IND;PRS;1;SG,0.0,0.0,a p p u r ə
+appurà,appuraje,V;IND;PST;3;SG;PFV,0.0,0.0,a p p u r a j ə
+appurà,appura,V;2;SG;IMP,0.0,0.0,a p p u r ə
+appurà,appurarrite,V;2;PL;IND;FUT,0.0,0.0,a p p u r a r r i t ə
+appurà,appurate,V;IND;PRS;2;PL,0.0,0.0,a p p u r a t ə
+appurà,appurarraggio,V;1;SG;IND;FUT,0.0,0.0,a p p u r a r r a d d͡ʒ ə
+appurà,appureno,V;3;PL;IMP,0.0,0.0,a p p u r ə n ə
+appurà,appurajeno,V;IND;PST;3;PL;PFV,0.0,0.0,a p p u r a j ə n ə
+appurà,appurà,V;NFIN,0.0,0.0,a p p u r a
+appurà,appurava,V;IND;PST;3;SG;IPFV,0.0,0.0,a p p u r a v ə
+appurà,appurassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,a p p u r a s s ə m ə
+appurà,appuraste,V;IND;PST;2;SG;PFV,0.0,0.0,a p p u r a s t ə
+appurà,appura,V;2;SG;IMP,0.0,0.0,a p p u r ə
+appurà,appurarria,V;3;SG;COND,0.0,0.0,a p p u r a r r i ə
+appurà,appurammo,V;IND;PRS;1;PL,0.0,0.0,a p p u r a m m ə
+appurà,appurastevo,V;IND;PST;2;PL;PFV,0.0,0.0,a p p u r a s t ə v ə
+appurà,appurarraje,V;2;SG;IND;FUT,0.0,0.0,a p p u r a r r a j ə
+appurà,appurassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,a p p u r a s s ə r ə
+appurà,appurarriano,V;3;PL;COND,0.0,0.0,a p p u r a r r j a n ə
+appurà,appuravamo,V;IND;PST;1;PL;IPFV,0.0,0.0,a p p u r a v a m ə
+scrivì,scrive,V;IND;PRS;3;SG,0.0011,0.0001046511627906,s k r i v ə
+scrivì,scrivette,V;IND;PST;1;SG;PFV,0.0,0.0001046511627906,s k r i v ɛ t t ə
+scrivì,scriviamo,V;1;PL;IMP,0.0,0.0001046511627906,s k r i v j a m ə
+scrivì,scrivesse,V;SBJV;PST;1;SG;IPFV,0.0,0.0001046511627906,s k r i v ə s s ə
+scrivì,scrivarrisse,V;2;SG;COND,0.0,0.0001046511627906,s k r i v a r r i s s ə
+scrivì,scrivarranno,V;3;PL;IND;FUT,0.0,0.0001046511627906,s k r i v a r r a n n ə
+scrivì,scrivisseve,V;SBJV;PST;2;PL;IPFV,0.0,0.0001046511627906,s k r i v i s s ə v ə
+scrivì,scrivettemo,V;IND;PST;1;PL;PFV,0.0,0.0001046511627906,s k r i v e t t ə m ə
+scrivì,scriviveve,V;IND;PST;2;PL;IPFV,0.0,0.0001046511627906,s k r i v i v e v ə
+scrivì,scrive,V;IND;PRS;2;SG,0.0011,0.0001046511627906,s k r i v ə
+scrivì,scrivarrimmo,V;1;PL;IND;FUT,0.0,0.0001046511627906,s k r i v a r r i m m ə
+scrivì,scrivarrissevo,V;2;PL;COND,0.0,0.0001046511627906,s k r i v a r r i s s ə v ə
+scrivì,scrivevo,V;IND;PST;1;SG;IPFV,0.0,0.0001046511627906,s k r i v ə v ə
+scrivì,scrivarrà,V;3;SG;IND;FUT,0.0,0.0001046511627906,s k r i v a r r a
+scrivì,scriveno,V;IND;PRS;3;PL,0.0,0.0001046511627906,s k r i v ə n ə
+scrivì,scrivesse,V;SBJV;PST;3;SG;IPFV,0.0,0.0001046511627906,s k r i v ə s s ə
+scrivì,scrivarria,V;1;SG;COND,0.0,0.0001046511627906,s k r i v a r r i ə
+scrivì,scrivisse,V;SBJV;PST;2;SG;IPFV,0.0,0.0001046511627906,s k r i v i s s ə
+scrivì,scrivevano,V;IND;PST;3;PL;IPFV,0.0,0.0001046511627906,s k r i v ə v a n ə
+scrivì,scrivite,V;2;PL;IMP,0.0,0.0001046511627906,s k r i v i t ə
+scrivì,scrivarrissemo,V;1;PL;COND,0.0,0.0001046511627906,s k r i v a r r i s s ə m ə
+scrivì,scrivive,V;IND;PST;2;SG;IPFV,0.0,0.0001046511627906,s k r i v i v ə
+scrivì,scrivo,V;IND;PRS;1;SG,0.0,0.0001046511627906,s k r i v ə
+scrivì,scrivette,V;IND;PST;3;SG;PFV,0.0,0.0001046511627906,s k r i v ɛ t t ə
+scrivì,scrive,V;2;SG;IMP,0.0011,0.0001046511627906,s k r i v ə
+scrivì,scrivarrite,V;2;PL;IND;FUT,0.0,0.0001046511627906,s k r i v a r r i t ə
+scrivì,scrivite,V;IND;PRS;2;PL,0.0,0.0001046511627906,s k r i v i t ə
+scrivì,scrivarraggio,V;1;SG;IND;FUT,0.0,0.0001046511627906,s k r i v a r r a d d͡ʒ ə
+scrivì,scriviano,V;3;PL;IMP,0.0,0.0001046511627906,s k r i v j a n ə
+scrivì,scrivetteno,V;IND;PST;3;PL;PFV;LGSPEC1,0.0,0.0001046511627906,s k r i v e t t ə n ə
+scrivì,scrivettero,V;IND;PST;3;PL;PFV;LGSPEC2,0.0,0.0001046511627906,s k r i v e t t ə r ə
+scrivì,scrivì,V;NFIN,0.0,0.0001046511627906,s k r i v i
+scrivì,scriveva,V;IND;PST;3;SG;IPFV,0.0001,0.0001046511627906,s k r i v ə v ə
+scrivì,scrivessemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0001046511627906,s k r i v ə s s ə m ə
+scrivì,scriviste,V;IND;PST;2;SG;PFV,0.0,0.0001046511627906,s k r i v i s t ə
+scrivì,scrive,V;2;SG;IMP,0.0011,0.0001046511627906,s k r i v ə
+scrivì,scrivarria,V;3;SG;COND,0.0,0.0001046511627906,s k r i v a r r i ə
+scrivì,scrivimmo,V;IND;PRS;1;PL,0.0,0.0001046511627906,s k r i v i m m ə
+scrivì,scrivisteve,V;IND;PST;2;PL;PFV,0.0,0.0001046511627906,s k r i v i s t ə v ə
+scrivì,scrivarraje,V;2;SG;IND;FUT,0.0,0.0001046511627906,s k r i v a r r a j ə
+scrivì,scrivesseno,V;SBJV;PST;3;PL;IPFV,0.0,0.0001046511627906,s k r i v ə s s ə n ə
+scrivì,scrivarriano,V;3;PL;COND,0.0,0.0001046511627906,s k r i v a r r j a n ə
+scrivì,scrivevamo,V;IND;PST;1;PL;IPFV,0.0,0.0001046511627906,s k r i v ə v a m ə
+segliuzzà,segliuzza,V;IND;PRS;3;SG,0.0,0.0,s e ʎ ʎ u t t͡s ə
+segliuzzà,segliuzzaje,V;IND;PST;1;SG;PFV,0.0,0.0,s e ʎ ʎ u t t͡s a j ə
+segliuzzà,segliuzzammo,V;1;PL;IMP,0.0,0.0,s e ʎ ʎ u t t͡s a m m ə
+segliuzzà,segliuzzasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a s s ə
+segliuzzà,segliuzzarrisse,V;2;SG;COND,0.0,0.0,s e ʎ ʎ u t t͡s a r r i s s ə
+segliuzzà,segliuzzarranno,V;3;PL;IND;FUT,0.0,0.0,s e ʎ ʎ u t t͡s a r r a n n ə
+segliuzzà,segliuzzassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a s s e v ə
+segliuzzà,segliuzzajemo,V;IND;PST;1;PL;PFV,0.0,0.0,s e ʎ ʎ u t t͡s a j ə m ə
+segliuzzà,segliuzzavate,V;IND;PST;2;PL;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a v a t ə
+segliuzzà,segliuzze,V;IND;PRS;2;SG,0.0,0.0,s e ʎ ʎ u t t͡s ə
+segliuzzà,segliuzzarrimmo,V;1;PL;IND;FUT,0.0,0.0,s e ʎ ʎ u t t͡s a r r i m m ə
+segliuzzà,segliuzzarrissevo,V;2;PL;COND,0.0,0.0,s ɛ ʎ ʎ u t t͡s a r r i s s ɛ v ə
+segliuzzà,segliuzzavo,V;IND;PST;1;SG;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a v ə
+segliuzzà,segliuzzarrà,V;3;SG;IND;FUT,0.0,0.0,s e ʎ ʎ u t t͡s a r r a
+segliuzzà,segliuzzano,V;IND;PRS;3;PL,0.0,0.0,s e ʎ ʎ u t t͡s a n ə
+segliuzzà,segliuzzasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a s s ə
+segliuzzà,segliuzzarria,V;1;SG;COND,0.0,0.0,s ɛ ʎ ʎ u t t͡s a r r i ə
+segliuzzà,segliuzzasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a s s ə
+segliuzzà,segliuzzavano,V;IND;PST;3;PL;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a v a n ə
+segliuzzà,segliuzzate,V;2;PL;IMP,0.0,0.0,s e ʎ ʎ u t t͡s a t ə
+segliuzzà,segliuzzarrissemo,V;1;PL;COND,0.0,0.0,s e ʎ ʎ u t t͡s a r r i s s ə m ə
+segliuzzà,segliuzzave,V;IND;PST;2;SG;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a v ə
+segliuzzà,segliuzzo,V;IND;PRS;1;SG,0.0,0.0,s e ʎ ʎ u t t͡s ə
+segliuzzà,segliuzzaje,V;IND;PST;3;SG;PFV,0.0,0.0,s e ʎ ʎ u t t͡s a j ə
+segliuzzà,segliuzza,V;2;SG;IMP,0.0,0.0,s e ʎ ʎ u t t͡s ə
+segliuzzà,segliuzzarrite,V;2;PL;IND;FUT,0.0,0.0,s e ʎ ʎ u t t͡s a r r i t ə
+segliuzzà,segliuzzate,V;IND;PRS;2;PL,0.0,0.0,s e ʎ ʎ u t t͡s a t ə
+segliuzzà,segliuzzarraggio,V;1;SG;IND;FUT,0.0,0.0,s ɛ ʎ ʎ u t t͡s a r r a d d͡ʒ ə
+segliuzzà,segliuzzeno,V;3;PL;IMP,0.0,0.0,s e ʎ ʎ u t t͡s ə n ə
+segliuzzà,segliuzzajeno,V;IND;PST;3;PL;PFV,0.0,0.0,s e ʎ ʎ u t t͡s a j ə n ə
+segliuzzà,segliuzzà,V;NFIN,0.0,0.0,s e ʎ ʎ u t t͡s a
+segliuzzà,segliuzzava,V;IND;PST;3;SG;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a v ə
+segliuzzà,segliuzzassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a s s ɛ m ə
+segliuzzà,segliuzzaste,V;IND;PST;2;SG;PFV,0.0,0.0,s e ʎ ʎ u t t͡s a s t ə
+segliuzzà,segliuzza,V;2;SG;IMP,0.0,0.0,s e ʎ ʎ u t t͡s ə
+segliuzzà,segliuzzarria,V;3;SG;COND,0.0,0.0,s ɛ ʎ ʎ u t t͡s a r r i ə
+segliuzzà,segliuzzammo,V;IND;PRS;1;PL,0.0,0.0,s e ʎ ʎ u t t͡s a m m ə
+segliuzzà,segliuzzastevo,V;IND;PST;2;PL;PFV,0.0,0.0,s e ʎ ʎ u t t͡s a s t ɛ v ə
+segliuzzà,segliuzzarraje,V;2;SG;IND;FUT,0.0,0.0,s e ʎ ʎ u t t͡s a r r a j ə
+segliuzzà,segliuzzassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a s s ɛ r ə
+segliuzzà,segliuzzarriano,V;3;PL;COND,0.0,0.0,s e ʎ ʎ u t t͡s a r r j a n ə
+segliuzzà,segliuzzavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,s e ʎ ʎ u t t͡s a v a m ə
+selluzzà,selluzza,V;IND;PRS;3;SG,0.0,0.0,s ɛ l l u t t͡s ə
+selluzzà,selluzzaje,V;IND;PST;1;SG;PFV,0.0,0.0,s ɛ l l u t t͡s a j ə
+selluzzà,selluzzammo,V;1;PL;IMP,0.0,0.0,s ɛ l l u t t͡s a m m ə
+selluzzà,selluzzasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,s e l l u t t͡s a s s ə
+selluzzà,selluzzarrisse,V;2;SG;COND,0.0,0.0,s ɛ l l u t t͡s a r r i s s ə
+selluzzà,selluzzarranno,V;3;PL;IND;FUT,0.0,0.0,s ɛ l l u t t͡s a r r a n n ə
+selluzzà,selluzzassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,s ɛ l l u t t͡s a s s ɛ v ə
+selluzzà,selluzzajemo,V;IND;PST;1;PL;PFV,0.0,0.0,s ɛ l l u t t͡s a j ə m ə
+selluzzà,selluzzavate,V;IND;PST;2;PL;IPFV,0.0,0.0,s ɛ l l u t t͡s a v a t ə
+selluzzà,selluzze,V;IND;PRS;2;SG,0.0,0.0,s ɛ l l u t t͡s ə
+selluzzà,selluzzarrimmo,V;1;PL;IND;FUT,0.0,0.0,s ɛ l l u t t͡s a r r i m m ə
+selluzzà,selluzzarrissevo,V;2;PL;COND,0.0,0.0,s ɛ l l u t t͡s a r r i s s ɛ v ə
+selluzzà,selluzzavo,V;IND;PST;1;SG;IPFV,0.0,0.0,s ɛ l l u t t͡s a v ə
+selluzzà,selluzzarrà,V;3;SG;IND;FUT,0.0,0.0,s ɛ l l u t t͡s a r r a
+selluzzà,selluzzano,V;IND;PRS;3;PL,0.0,0.0,s ɛ l l u t t͡s a n ə
+selluzzà,selluzzasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,s e l l u t t͡s a s s ə
+selluzzà,selluzzarria,V;1;SG;COND,0.0,0.0,s ɛ l l u t t͡s a r r j ə
+selluzzà,selluzzasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,s e l l u t t͡s a s s ə
+selluzzà,selluzzavano,V;IND;PST;3;PL;IPFV,0.0,0.0,s ɛ l l u t t͡s a v ə n ə
+selluzzà,selluzzate,V;2;PL;IMP,0.0,0.0,s e l l u t t͡s a t ə
+selluzzà,selluzzarrissemo,V;1;PL;COND,0.0,0.0,s ɛ l l u t t͡s a r r i s s ə m ə
+selluzzà,selluzzave,V;IND;PST;2;SG;IPFV,0.0,0.0,s ɛ l l u t t͡s a v ə
+selluzzà,selluzzo,V;IND;PRS;1;SG,0.0,0.0,s ɛ l l u t t͡s ə
+selluzzà,selluzzaje,V;IND;PST;3;SG;PFV,0.0,0.0,s ɛ l l u t t͡s a j ə
+selluzzà,selluzza,V;2;SG;IMP,0.0,0.0,s ɛ l l u t t͡s ə
+selluzzà,selluzzarrite,V;2;PL;IND;FUT,0.0,0.0,s ɛ l l u t t͡s a r r i t ə
+selluzzà,selluzzate,V;IND;PRS;2;PL,0.0,0.0,s e l l u t t͡s a t ə
+selluzzà,selluzzarraggio,V;1;SG;IND;FUT,0.0,0.0,s ɛ l l u t t͡s a r r a d d͡ʒ ə
+selluzzà,selluzzeno,V;3;PL;IMP,0.0,0.0,s ɛ l l u t t͡s ə n ə
+selluzzà,selluzzajeno,V;IND;PST;3;PL;PFV,0.0,0.0,s ɛ l l u t t͡s a j ə n ə
+selluzzà,selluzzà,V;NFIN,0.0,0.0,s e l l u t t͡s a
+selluzzà,selluzzava,V;IND;PST;3;SG;IPFV,0.0,0.0,s ɛ l l u t t͡s a v ə
+selluzzà,selluzzassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,s ɛ l l u t t͡s a s s ɛ m ə
+selluzzà,selluzzaste,V;IND;PST;2;SG;PFV,0.0,0.0,s ɛ l l u t t͡s a s t ə
+selluzzà,selluzza,V;2;SG;IMP,0.0,0.0,s ɛ l l u t t͡s ə
+selluzzà,selluzzarria,V;3;SG;COND,0.0,0.0,s ɛ l l u t t͡s a r r j ə
+selluzzà,selluzzammo,V;IND;PRS;1;PL,0.0,0.0,s ɛ l l u t t͡s a m m ə
+selluzzà,selluzzastevo,V;IND;PST;2;PL;PFV,0.0,0.0,s ɛ l l u t t͡s a s t ɛ v ə
+selluzzà,selluzzarraje,V;2;SG;IND;FUT,0.0,0.0,s ɛ l l u t t͡s a r r a j ə
+selluzzà,selluzzassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,s ɛ l l u t t͡s a s s ɛ r ə
+selluzzà,selluzzarriano,V;3;PL;COND,0.0,0.0,s ɛ l l u t t͡s a r r j ə n ə
+selluzzà,selluzzavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,s ɛ l l u t t͡s a v ə m ə
+trasfurmà,trasfurma,V;IND;PRS;3;SG,0.0,1.6666666666666667e-05,t r a s f u r m ə
+trasfurmà,trasfurmaje,V;IND;PST;1;SG;PFV,0.0,1.6666666666666667e-05,t r a s f u r m a j ə
+trasfurmà,trasfurmammo,V;1;PL;IMP,0.0,1.6666666666666667e-05,t r a s f u r m a m m ə
+trasfurmà,trasfurmasse,V;SBJV;PST;1;SG;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a s s ə
+trasfurmà,trasfurmarrisse,V;2;SG;COND,0.0,1.6666666666666667e-05,t r a s f u r m a r r i s s ə
+trasfurmà,trasfurmarranno,V;3;PL;IND;FUT,0.0,1.6666666666666667e-05,t r a s f u r m a r r a n n ə
+trasfurmà,trasfurmassevo,V;SBJV;PST;2;PL;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a s s ɛ v ə
+trasfurmà,trasfurmajemo,V;IND;PST;1;PL;PFV,0.0,1.6666666666666667e-05,t r a s f u r m a j ə m ə
+trasfurmà,trasfurmavate,V;IND;PST;2;PL;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a v a t ə
+trasfurmà,trasfurme,V;IND;PRS;2;SG,0.0,1.6666666666666667e-05,t r a s f u r m ə
+trasfurmà,trasfurmarrimmo,V;1;PL;IND;FUT,0.0,1.6666666666666667e-05,t r a s f u r m a r r i m m ə
+trasfurmà,trasfurmarrissevo,V;2;PL;COND,0.0,1.6666666666666667e-05,t r a s f u r m a r r i s s ə v ə
+trasfurmà,trasfurmavo,V;IND;PST;1;SG;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a v ə
+trasfurmà,trasfurmarrà,V;3;SG;IND;FUT,0.0,1.6666666666666667e-05,t r a s f u r m a r r a
+trasfurmà,trasfurmano,V;IND;PRS;3;PL,0.0,1.6666666666666667e-05,t r a s f u r m a n ə
+trasfurmà,trasfurmasse,V;SBJV;PST;3;SG;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a s s ə
+trasfurmà,trasfurmarria,V;1;SG;COND,0.0,1.6666666666666667e-05,t r a s f u r m a r r j ə
+trasfurmà,trasfurmasse,V;SBJV;PST;2;SG;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a s s ə
+trasfurmà,trasfurmavano,V;IND;PST;3;PL;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a v a n ə
+trasfurmà,trasfurmate,V;2;PL;IMP,0.0003,1.6666666666666667e-05,t r a s f u r m a t ə
+trasfurmà,trasfurmarrissemo,V;1;PL;COND,0.0,1.6666666666666667e-05,t r a s f u r m a r r i s s ə m ə
+trasfurmà,trasfurmave,V;IND;PST;2;SG;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a v ə
+trasfurmà,trasfurmo,V;IND;PRS;1;SG,0.0,1.6666666666666667e-05,t r a s f u r m ə
+trasfurmà,trasfurmaje,V;IND;PST;3;SG;PFV,0.0,1.6666666666666667e-05,t r a s f u r m a j ə
+trasfurmà,trasfurma,V;2;SG;IMP,0.0,1.6666666666666667e-05,t r a s f u r m ə
+trasfurmà,trasfurmarrite,V;2;PL;IND;FUT,0.0,1.6666666666666667e-05,t r a s f u r m a r r i t ə
+trasfurmà,trasfurmate,V;IND;PRS;2;PL,0.0003,1.6666666666666667e-05,t r a s f u r m a t ə
+trasfurmà,trasfurmarraggio,V;1;SG;IND;FUT,0.0,1.6666666666666667e-05,t r a s f u r m a r r a d d͡ʒ ə
+trasfurmà,trasfurmeno,V;3;PL;IMP,0.0,1.6666666666666667e-05,t r a s f u r m ə n ə
+trasfurmà,trasfurmajeno,V;IND;PST;3;PL;PFV,0.0,1.6666666666666667e-05,t r a s f u r m a j ə n ə
+trasfurmà,trasfurmà,V;NFIN,0.0001,1.6666666666666667e-05,t r a s f u r m a
+trasfurmà,trasfurmava,V;IND;PST;3;SG;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a v ə
+trasfurmà,trasfurmassemo,V;SBJV;PST;1;PL;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a s s ə m ə
+trasfurmà,trasfurmaste,V;IND;PST;2;SG;PFV,0.0,1.6666666666666667e-05,t r a s f u r m a s t ə
+trasfurmà,trasfurma,V;2;SG;IMP,0.0,1.6666666666666667e-05,t r a s f u r m ə
+trasfurmà,trasfurmarria,V;3;SG;COND,0.0,1.6666666666666667e-05,t r a s f u r m a r r j ə
+trasfurmà,trasfurmammo,V;IND;PRS;1;PL,0.0,1.6666666666666667e-05,t r a s f u r m a m m ə
+trasfurmà,trasfurmastevo,V;IND;PST;2;PL;PFV,0.0,1.6666666666666667e-05,t r a s f u r m a s t ɛ v ə
+trasfurmà,trasfurmarraje,V;2;SG;IND;FUT,0.0,1.6666666666666667e-05,t r a s f u r m a r r a j ə
+trasfurmà,trasfurmassero,V;SBJV;PST;3;PL;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a s s ə r ə
+trasfurmà,trasfurmarriano,V;3;PL;COND,0.0,1.6666666666666667e-05,t r a s f u r m a r r j a n ə
+trasfurmà,trasfurmavamo,V;IND;PST;1;PL;IPFV,0.0,1.6666666666666667e-05,t r a s f u r m a v a m ə
+tuppetià,tuppetia,V;IND;PRS;3;SG,0.0,0.0,t u p p ə t i ə
+tuppetià,tuppetiaje,V;IND;PST;1;SG;PFV,0.0,0.0,t u p p ə t j a j ə
+tuppetià,tuppetiammo,V;1;PL;IMP,0.0,0.0,t u p p ə t j a m m ə
+tuppetià,tuppetiasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,t u p p ə t j a s s ə
+tuppetià,tuppetiarrisse,V;2;SG;COND,0.0,0.0,t u p p ə t j a r r i s s ə
+tuppetià,tuppetiarranno,V;3;PL;IND;FUT,0.0,0.0,t u p p ə t j a r r a n n ə
+tuppetià,tuppetiassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,t u p p ə t j a s s ə v ə
+tuppetià,tuppetiajemo,V;IND;PST;1;PL;PFV,0.0,0.0,t u p p ə t j a j ə m ə
+tuppetià,tuppetiavate,V;IND;PST;2;PL;IPFV,0.0,0.0,t u p p ə t j a v a t ə
+tuppetià,tuppetie,V;IND;PRS;2;SG,0.0,0.0,t u p p ə t i ə
+tuppetià,tuppetiarrimmo,V;1;PL;IND;FUT,0.0,0.0,t u p p ə t j a r r i m m ə
+tuppetià,tuppetiarrissevo,V;2;PL;COND,0.0,0.0,t u p p ə t j a r r i s s ə v ə
+tuppetià,tuppetiavo,V;IND;PST;1;SG;IPFV,0.0,0.0,t u p p ə t j a v ə
+tuppetià,tuppetiarrà,V;3;SG;IND;FUT,0.0,0.0,t u p p ə t j a r r a
+tuppetià,tuppetiano,V;IND;PRS;3;PL,0.0,0.0,t u p p ə t j a n ə
+tuppetià,tuppetiasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,t u p p ə t j a s s ə
+tuppetià,tuppetiarria,V;1;SG;COND,0.0,0.0,t u p p ə t j a r r j ə
+tuppetià,tuppetiasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,t u p p ə t j a s s ə
+tuppetià,tuppetiavano,V;IND;PST;3;PL;IPFV,0.0,0.0,t u p p ə t j a v a n ə
+tuppetià,tuppetiate,V;2;PL;IMP,0.0,0.0,t u p p ə t j a t ə
+tuppetià,tuppetiarrissemo,V;1;PL;COND,0.0,0.0,t u p p ə t j a r r i s s ə m ə
+tuppetià,tuppetiave,V;IND;PST;2;SG;IPFV,0.0,0.0,t u p p ə t j a v ə
+tuppetià,tuppetio,V;IND;PRS;1;SG,0.0,0.0,t u p p ə t j ə
+tuppetià,tuppetiaje,V;IND;PST;3;SG;PFV,0.0,0.0,t u p p ə t j a j ə
+tuppetià,tuppetia,V;2;SG;IMP,0.0,0.0,t u p p ə t i ə
+tuppetià,tuppetiarrite,V;2;PL;IND;FUT,0.0,0.0,t u p p ə t j a r r i t ə
+tuppetià,tuppetiate,V;IND;PRS;2;PL,0.0,0.0,t u p p ə t j a t ə
+tuppetià,tuppetiarraggio,V;1;SG;IND;FUT,0.0,0.0,t u p p ə t j a r r a d d͡ʒ ə
+tuppetià,tuppetieno,V;3;PL;IMP,0.0,0.0,t u p p ə t j ə n ə
+tuppetià,tuppetiajeno,V;IND;PST;3;PL;PFV,0.0,0.0,t u p p ə t j a j ə n ə
+tuppetià,tuppetià,V;NFIN,0.0,0.0,t u p p ə t j a
+tuppetià,tuppetiava,V;IND;PST;3;SG;IPFV,0.0,0.0,t u p p ə t j a v ə
+tuppetià,tuppetiassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,t u p p ə t j a s s ə m ə
+tuppetià,tuppetiaste,V;IND;PST;2;SG;PFV,0.0,0.0,t u p p ə t j a s t ə
+tuppetià,tuppetia,V;2;SG;IMP,0.0,0.0,t u p p ə t i ə
+tuppetià,tuppetiarria,V;3;SG;COND,0.0,0.0,t u p p ə t j a r r j ə
+tuppetià,tuppetiammo,V;IND;PRS;1;PL,0.0,0.0,t u p p ə t j a m m ə
+tuppetià,tuppetiastevo,V;IND;PST;2;PL;PFV,0.0,0.0,t u p p ə t j a s t ə v ə
+tuppetià,tuppetiarraje,V;2;SG;IND;FUT,0.0,0.0,t u p p ə t j a r r a j ə
+tuppetià,tuppetiassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,t u p p ə t j a s s ə r ə
+tuppetià,tuppetiarriano,V;3;PL;COND,0.0,0.0,t u p p ə t j a r r j a n ə
+tuppetià,tuppetiavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,t u p p ə t j a v ə m ə
+tuzzulià,tuzzulia,V;IND;PRS;3;SG,0.0,0.0,t u t t͡s u l j ə
+tuzzulià,tuzzuliaje,V;IND;PST;1;SG;PFV,0.0,0.0,t u t t͡s u l j a j ə
+tuzzulià,tuzzuliammo,V;1;PL;IMP,0.0,0.0,t u t t͡s u l j a m m ə
+tuzzulià,tuzzuliasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,t u t t͡s u l j a s s ə
+tuzzulià,tuzzuliarrisse,V;2;SG;COND,0.0,0.0,t u t t͡s u l j a r r i s s ə
+tuzzulià,tuzzuliarranno,V;3;PL;IND;FUT,0.0,0.0,t u t t͡s u l j a r r a n n ə
+tuzzulià,tuzzuliassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,t u t t͡s u l j a s s e v ə
+tuzzulià,tuzzuliajemo,V;IND;PST;1;PL;PFV,0.0,0.0,t u t t͡s u l j a j ə m ə
+tuzzulià,tuzzuliavate,V;IND;PST;2;PL;IPFV,0.0,0.0,t u t t͡s u l j a v a t ə
+tuzzulià,tuzzulie,V;IND;PRS;2;SG,0.0,0.0,t u t t͡s u l j ə
+tuzzulià,tuzzuliarrimmo,V;1;PL;IND;FUT,0.0,0.0,t u t t͡s u l j a r r i m m ə
+tuzzulià,tuzzuliarrissevo,V;2;PL;COND,0.0,0.0,t u t t͡s u l j a r r i s s ɛ v ə
+tuzzulià,tuzzuliavo,V;IND;PST;1;SG;IPFV,0.0,0.0,t u t t͡s u l j a v ə
+tuzzulià,tuzzuliarrà,V;3;SG;IND;FUT,0.0,0.0,t u t t͡s u l j a r r a
+tuzzulià,tuzzuliano,V;IND;PRS;3;PL,0.0,0.0,t u t t͡s u l j a n ə
+tuzzulià,tuzzuliasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,t u t t͡s u l j a s s ə
+tuzzulià,tuzzuliarria,V;1;SG;COND,0.0,0.0,t u t t͡s u l j a r r j ə
+tuzzulià,tuzzuliasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,t u t t͡s u l j a s s ə
+tuzzulià,tuzzuliavano,V;IND;PST;3;PL;IPFV,0.0,0.0,t u t t͡s u l j a v a n ə
+tuzzulià,tuzzuliate,V;2;PL;IMP,0.0,0.0,t u t t͡s u l j a t ə
+tuzzulià,tuzzuliarrissemo,V;1;PL;COND,0.0,0.0,t u t t͡s u l j a r r i s s ə m ə
+tuzzulià,tuzzuliave,V;IND;PST;2;SG;IPFV,0.0,0.0,t u t t͡s u l j a v ə
+tuzzulià,tuzzulio,V;IND;PRS;1;SG,0.0,0.0,t u t t͡s u l j ə
+tuzzulià,tuzzuliaje,V;IND;PST;3;SG;PFV,0.0,0.0,t u t t͡s u l j a j ə
+tuzzulià,tuzzulia,V;2;SG;IMP,0.0,0.0,t u t t͡s u l j ə
+tuzzulià,tuzzuliarrite,V;2;PL;IND;FUT,0.0,0.0,t u t t͡s u l j a r r i t ə
+tuzzulià,tuzzuliate,V;IND;PRS;2;PL,0.0,0.0,t u t t͡s u l j a t ə
+tuzzulià,tuzzuliarraggio,V;1;SG;IND;FUT,0.0,0.0,t u t t͡s u l j a r r a d d͡ʒ ə
+tuzzulià,tuzzulieno,V;3;PL;IMP,0.0,0.0,t u t t͡s u l j ə n ə
+tuzzulià,tuzzuliajeno,V;IND;PST;3;PL;PFV,0.0,0.0,t u t t͡s u l j a j ə n ə
+tuzzulià,tuzzulià,V;NFIN,0.0,0.0,t u t t͡s u l j a
+tuzzulià,tuzzuliava,V;IND;PST;3;SG;IPFV,0.0,0.0,t u t t͡s u l j a v ə
+tuzzulià,tuzzuliassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,t u t t͡s u l j a s s ɛ m ə
+tuzzulià,tuzzuliaste,V;IND;PST;2;SG;PFV,0.0,0.0,t u t t͡s u l j a s t ə
+tuzzulià,tuzzulia,V;2;SG;IMP,0.0,0.0,t u t t͡s u l j ə
+tuzzulià,tuzzuliarria,V;3;SG;COND,0.0,0.0,t u t t͡s u l j a r r j ə
+tuzzulià,tuzzuliammo,V;IND;PRS;1;PL,0.0,0.0,t u t t͡s u l j a m m ə
+tuzzulià,tuzzuliastevo,V;IND;PST;2;PL;PFV,0.0,0.0,t u t t͡s u l j a s t ɛ v ə
+tuzzulià,tuzzuliarraje,V;2;SG;IND;FUT,0.0,0.0,t u t t͡s u l j a r r a j ə
+tuzzulià,tuzzuliassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,t u t t͡s u l j a s s ɛ r ə
+tuzzulià,tuzzuliarriano,V;3;PL;COND,0.0,0.0,t u t t͡s u l j a r r j a n ə
+tuzzulià,tuzzuliavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,t u t t͡s u l j a v a m ə
+zecchejà,zeccheja,V;IND;PRS;3;SG,0.0,0.0,t͡s e k k ə j ə
+zecchejà,zecchejaje,V;IND;PST;1;SG;PFV,0.0,0.0,t͡s ɛ k k ə j a j ə
+zecchejà,zecchejammo,V;1;PL;IMP,0.0,0.0,t͡s ɛ k k ə j a m m ə
+zecchejà,zecchejasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,t͡s e k k ə j a s s ə
+zecchejà,zecchejarrisse,V;2;SG;COND,0.0,0.0,t͡s ɛ k k ə j a r r i s s ə
+zecchejà,zecchejarranno,V;3;PL;IND;FUT,0.0,0.0,t͡s e k k ə j a r r a n n ə
+zecchejà,zecchejassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,t͡s e k k ə j a s s ɛ v ə
+zecchejà,zecchejajemo,V;IND;PST;1;PL;PFV,0.0,0.0,t͡s ɛ k k ə j a j ə m ə
+zecchejà,zecchejavate,V;IND;PST;2;PL;IPFV,0.0,0.0,t͡s ɛ k k ə j a v a t ə
+zecchejà,zeccheje,V;IND;PRS;2;SG,0.0,0.0,t͡s e k k ə j ə
+zecchejà,zecchejarrimmo,V;1;PL;IND;FUT,0.0,0.0,t͡s ɛ k k ə j a r r i m m ə
+zecchejà,zecchejarrissevo,V;2;PL;COND,0.0,0.0,t͡s ɛ k k ə j a r r i s s ə v ə
+zecchejà,zecchejavo,V;IND;PST;1;SG;IPFV,0.0,0.0,t͡s ɛ k k ə j a v ə
+zecchejà,zecchejarrà,V;3;SG;IND;FUT,0.0,0.0,d͡z e k k ə j a r r a
+zecchejà,zecchejano,V;IND;PRS;3;PL,0.0,0.0,t͡s ɛ k k ə j ə n ə
+zecchejà,zecchejasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,t͡s e k k ə j a s s ə
+zecchejà,zecchejarria,V;1;SG;COND,0.0,0.0,t͡s ɛ k k ə j a r r j ə
+zecchejà,zecchejasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,t͡s e k k ə j a s s ə
+zecchejà,zecchejavano,V;IND;PST;3;PL;IPFV,0.0,0.0,t͡s ɛ k k ə j a v a n ə
+zecchejà,zecchejate,V;2;PL;IMP,0.0,0.0,t͡s e k k e j a t ə
+zecchejà,zecchejarrissemo,V;1;PL;COND,0.0,0.0,t͡s ɛ k k ə j a r r i s s ə m ə
+zecchejà,zecchejave,V;IND;PST;2;SG;IPFV,0.0,0.0,t͡s e k k ə j a v ə
+zecchejà,zecchejo,V;IND;PRS;1;SG,0.0,0.0,t͡s ɛ k k ə j ə
+zecchejà,zecchejaje,V;IND;PST;3;SG;PFV,0.0,0.0,t͡s ɛ k k ə j a j ə
+zecchejà,zeccheja,V;2;SG;IMP,0.0,0.0,t͡s e k k ə j ə
+zecchejà,zecchejarrite,V;2;PL;IND;FUT,0.0,0.0,d͡z e k k e j a r r i t ə
+zecchejà,zecchejate,V;IND;PRS;2;PL,0.0,0.0,t͡s e k k e j a t ə
+zecchejà,zecchejarraggio,V;1;SG;IND;FUT,0.0,0.0,t͡s ɛ k k ə j a r r a d d͡ʒ ə
+zecchejà,zecchejeno,V;3;PL;IMP,0.0,0.0,t͡s ɛ k k ə j ə n ə
+zecchejà,zecchejajeno,V;IND;PST;3;PL;PFV,0.0,0.0,t͡s ɛ k k ə j a j ə n ə
+zecchejà,zecchejà,V;NFIN,0.0,0.0,d͡z e k k e j a
+zecchejà,zecchejava,V;IND;PST;3;SG;IPFV,0.0,0.0,t͡s ɛ k k ə j a v ə
+zecchejà,zecchejassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,t͡s ɛ k k ə j a s s ə m ə
+zecchejà,zecchejaste,V;IND;PST;2;SG;PFV,0.0,0.0,t͡s e k k ə j a s t ə
+zecchejà,zeccheja,V;2;SG;IMP,0.0,0.0,t͡s e k k ə j ə
+zecchejà,zecchejarria,V;3;SG;COND,0.0,0.0,t͡s ɛ k k ə j a r r j ə
+zecchejà,zecchejammo,V;IND;PRS;1;PL,0.0,0.0,t͡s ɛ k k ə j a m m ə
+zecchejà,zecchejastevo,V;IND;PST;2;PL;PFV,0.0,0.0,t͡s ɛ k k ə j a s t ə v ə
+zecchejà,zecchejarraje,V;2;SG;IND;FUT,0.0,0.0,t͡s ɛ k k ə j a r r a j ə
+zecchejà,zecchejassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,t͡s ɛ k k ə j a s s ə r ə
+zecchejà,zecchejarriano,V;3;PL;COND,0.0,0.0,t͡s ɛ k k ə j a r r j a n ə
+zecchejà,zecchejavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,t͡s ɛ k k ə j a v ə m ə
+zennà,zenna,V;IND;PRS;3;SG,0.0,0.0,t͡s ɛ n n ə
+zennà,zennaje,V;IND;PST;1;SG;PFV,0.0,0.0,t͡s ɛ n n a j ə
+zennà,zennammo,V;1;PL;IMP,0.0,0.0,t͡s ɛ n n a m m ə
+zennà,zennasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,t͡s ɛ n n a s s ə
+zennà,zennarrisse,V;2;SG;COND,0.0,0.0,t͡s ɛ n n a r r i s s ə
+zennà,zennarranno,V;3;PL;IND;FUT,0.0,0.0,t͡s ɛ n n a r r a n n ə
+zennà,zennassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,t͡s ɛ n n a s s ɛ v ə
+zennà,zennajemo,V;IND;PST;1;PL;PFV,0.0,0.0,t͡s ɛ n n a j ə m ə
+zennà,zennavate,V;IND;PST;2;PL;IPFV,0.0,0.0,t͡s ɛ n n a v a t ə
+zennà,zenne,V;IND;PRS;2;SG,0.0,0.0,t͡s ɛ n n ə
+zennà,zennarrimmo,V;1;PL;IND;FUT,0.0,0.0,t͡s ɛ n n a r r i m m ə
+zennà,zennarrissevo,V;2;PL;COND,0.0,0.0,t͡s ɛ n n a r r i s s ə v ə
+zennà,zennavo,V;IND;PST;1;SG;IPFV,0.0,0.0,t͡s ə n n a v ə
+zennà,zennarrà,V;3;SG;IND;FUT,0.0,0.0,d͡z ɛ n n a r r a
+zennà,zennano,V;IND;PRS;3;PL,0.0,0.0,t͡s ɛ n n a n ə
+zennà,zennasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,t͡s ɛ n n a s s ə
+zennà,zennarria,V;1;SG;COND,0.0,0.0,t͡s ɛ n n a r r j ə
+zennà,zennasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,t͡s ɛ n n a s s ə
+zennà,zennavano,V;IND;PST;3;PL;IPFV,0.0,0.0,t͡s ɛ n n a v a n ə
+zennà,zennate,V;2;PL;IMP,0.0,0.0,t͡s e n n a t ə
+zennà,zennarrissemo,V;1;PL;COND,0.0,0.0,t͡s ɛ n n a r r i s s ə m ə
+zennà,zennave,V;IND;PST;2;SG;IPFV,0.0,0.0,t͡s ə n n a v ə
+zennà,zenno,V;IND;PRS;1;SG,0.0,0.0,t͡s ɛ n n ə
+zennà,zennaje,V;IND;PST;3;SG;PFV,0.0,0.0,t͡s ɛ n n a j ə
+zennà,zenna,V;2;SG;IMP,0.0,0.0,t͡s ɛ n n ə
+zennà,zennarrite,V;2;PL;IND;FUT,0.0,0.0,t͡s ɛ n n a r r i t ə
+zennà,zennate,V;IND;PRS;2;PL,0.0,0.0,t͡s e n n a t ə
+zennà,zennarraggio,V;1;SG;IND;FUT,0.0,0.0,t͡s ɛ n n a r r a d d͡ʒ ə
+zennà,zenneno,V;3;PL;IMP,0.0,0.0,t͡s ɛ n n ə n ə
+zennà,zennajeno,V;IND;PST;3;PL;PFV,0.0,0.0,t͡s ɛ n n a j ə n ə
+zennà,zennà,V;NFIN,0.0,0.0,d͡z ɛ n n a
+zennà,zennava,V;IND;PST;3;SG;IPFV,0.0,0.0,t͡s ə n n a v ə
+zennà,zennassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,t͡s ɛ n n a s s ə m ə
+zennà,zennaste,V;IND;PST;2;SG;PFV,0.0,0.0,t͡s ɛ n n ə s t ə
+zennà,zenna,V;2;SG;IMP,0.0,0.0,t͡s ɛ n n ə
+zennà,zennarria,V;3;SG;COND,0.0,0.0,t͡s ɛ n n a r r j ə
+zennà,zennammo,V;IND;PRS;1;PL,0.0,0.0,t͡s ɛ n n a m m ə
+zennà,zennastevo,V;IND;PST;2;PL;PFV,0.0,0.0,t͡s ɛ n n a s t ə v ə
+zennà,zennarraje,V;2;SG;IND;FUT,0.0,0.0,t͡s ɛ n n a r r a j ə
+zennà,zennassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,t͡s ɛ n n a s s ə r ə
+zennà,zennarriano,V;3;PL;COND,0.0,0.0,t͡s ɛ n n a r r j a n ə
+zennà,zennavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,t͡s ɛ n n a v a m ə
+avé,ha,V;IND;PRS;3;SG;LGSPEC1,0.0738,0.003395652173913,h a
+avé,have,V;IND;PRS;3;SG;LGSPEC2,0.0008,0.003395652173913,h a v ə
+avé,avette,V;IND;PST;1;SG;PFV,0.0001,0.003395652173913,a v ɛ t t ə
+avé,aviamo,V;1;PL;IMP,0.0,0.003395652173913,a v j a m ə
+avé,avesse,V;SBJV;PST;1;SG;IPFV,0.0029,0.003395652173913,a v ɛ s s ə
+avé,avarrisse,V;2;SG;COND,0.0,0.003395652173913,a v a r r i s s ə
+avé,avarranno,V;3;PL;IND;FUT,0.0,0.003395652173913,a v a r r a n n ə
+avé,avisseve,V;SBJV;PST;2;PL;IPFV,0.0,0.003395652173913,a v i s s ə v ə
+avé,avettemo,V;IND;PST;1;PL;PFV,0.0,0.003395652173913,a v ə t t ə m ə
+avé,aviveve,V;IND;PST;2;PL;IPFV,0.0,0.003395652173913,a v i v ɛ v ə
+avé,haje,V;IND;PRS;2;SG;LGSPEC1,0.0,0.003395652173913,h a j ə
+avé,hê,V;IND;PRS;2;SG;LGSPEC2,0.0,0.003395652173913,h eː
+avé,avarrammo,V;1;PL;IND;FUT,0.0,0.003395652173913,a v a r r a m m ə
+avé,avarrissevo,V;2;PL;COND,0.0,0.003395652173913,a v a r r i s s ə v ə
+avé,avevo,V;IND;PST;1;SG;IPFV,0.0,0.003395652173913,a v ə v ə
+avé,avarrà,V;3;SG;IND;FUT,0.0,0.003395652173913,a v a r r a
+avé,hanno,V;IND;PRS;3;PL;LGSPEC1,0.0007,0.003395652173913,h a n n ə
+avé,aveno,V;IND;PRS;3;PL;LGSPEC2,0.0,0.003395652173913,a v ə n ə
+avé,avesse,V;SBJV;PST;3;SG;IPFV,0.0029,0.003395652173913,a v ɛ s s ə
+avé,avarria,V;1;SG;COND,0.0,0.003395652173913,a v a r r j ə
+avé,avisse,V;SBJV;PST;2;SG;IPFV,0.0,0.003395652173913,a v i s s ə
+avé,avevano,V;IND;PST;3;PL;IPFV,0.0001,0.003395652173913,a v ə v a n ə
+avé,aggiate,V;2;PL;IMP,0.0,0.003395652173913,a d d͡ʒ a t ə
+avé,avarriamo,V;1;PL;COND,0.0,0.003395652173913,a v a r r j a m ə
+avé,avive,V;IND;PST;2;SG;IPFV,0.0,0.003395652173913,a v i v ə
+avé,aggio,V;IND;PRS;1;SG,0.0,0.003395652173913,a d d͡ʒ ə
+avé,avette,V;IND;PST;3;SG;PFV,0.0001,0.003395652173913,a v ɛ t t ə
+avé,haje,V;2;SG;IMP,0.0,0.003395652173913,h a j ə
+avé,avarrate,V;2;PL;IND;FUT,0.0,0.003395652173913,a v a r r a t ə
+avé,avite,V;IND;PRS;2;PL,0.0,0.003395652173913,a v i t ə
+avé,avarraggio,V;1;SG;IND;FUT,0.0,0.003395652173913,a v a r r a d d͡ʒ ə
+avé,aviano,V;3;PL;IMP,0.0,0.003395652173913,a v j a n ə
+avé,avetteno,V;IND;PST;3;PL;PFV;LGSPEC1,0.0,0.003395652173913,a v ɛ t t ə n ə
+avé,avettero,V;IND;PST;3;PL;PFV;LGSPEC2,0.0,0.003395652173913,a v ɛ t t ə r ə
+avé,avé,V;NFIN,0.0002,0.003395652173913,a v ə
+avé,aveva,V;IND;PST;3;SG;IPFV,0.0008,0.003395652173913,a v ə v ə
+avé,avessemo,V;SBJV;PST;1;PL;IPFV,0.0,0.003395652173913,a v ə s s ə m ə
+avé,aviste,V;IND;PST;2;SG;PFV,0.0,0.003395652173913,a v i s t ə
+avé,ha,V;2;SG;IMP,0.0738,0.003395652173913,h a
+avé,avarria,V;3;SG;COND,0.0,0.003395652173913,a v a r r j ə
+avé,avimmo,V;IND;PRS;1;PL,0.0,0.003395652173913,a v i m m ə
+avé,avsteve,V;IND;PST;2;PL;PFV,0.0,0.003395652173913,a v s t ɛ v ə
+avé,avarraje,V;2;SG;IND;FUT,0.0,0.003395652173913,a v a r r a j ə
+avé,avesseno,V;SBJV;PST;3;PL;IPFV,0.0,0.003395652173913,a v ə s s ə n ə
+avé,avarriano,V;3;PL;COND,0.0,0.003395652173913,a v a r r j a n ə
+avé,avevamo,V;IND;PST;1;PL;IPFV,0.0,0.003395652173913,a v ə v a m ə
+bussà,bussa,V;IND;PRS;3;SG,0.0,2.380952380952381e-06,b u s s ə
+bussà,bussaje,V;IND;PST;1;SG;PFV,0.0,2.380952380952381e-06,b u s s a j ə
+bussà,bussammo,V;1;PL;IMP,0.0,2.380952380952381e-06,b u s s a m m ə
+bussà,bussasse,V;SBJV;PST;1;SG;IPFV,0.0,2.380952380952381e-06,b u s s a s s ə
+bussà,bussarrisse,V;2;SG;COND,0.0,2.380952380952381e-06,b u s s a r r i s s ə
+bussà,bussarranno,V;3;PL;IND;FUT,0.0,2.380952380952381e-06,b u s s a r r a n n ə
+bussà,bussassevo,V;SBJV;PST;2;PL;IPFV,0.0,2.380952380952381e-06,b u s s a s s ə v ə
+bussà,bussajemo,V;IND;PST;1;PL;PFV,0.0,2.380952380952381e-06,b u s s a j ə m ə
+bussà,bussavate,V;IND;PST;2;PL;IPFV,0.0,2.380952380952381e-06,b u s s a v a t ə
+bussà,busse,V;IND;PRS;2;SG,0.0,2.380952380952381e-06,b u s s ə
+bussà,bussarrimmo,V;1;PL;IND;FUT,0.0,2.380952380952381e-06,b u s s a r r i m m ə
+bussà,bussarrissevo,V;2;PL;COND,0.0,2.380952380952381e-06,b u s s a r r i s s ə v ə
+bussà,bussavo,V;IND;PST;1;SG;IPFV,0.0,2.380952380952381e-06,b u s s a v ə
+bussà,bussarrà,V;3;SG;IND;FUT,0.0,2.380952380952381e-06,b u s s a r r a
+bussà,bussano,V;IND;PRS;3;PL,0.0,2.380952380952381e-06,b u s s a n ə
+bussà,bussasse,V;SBJV;PST;3;SG;IPFV,0.0,2.380952380952381e-06,b u s s a s s ə
+bussà,bussarria,V;1;SG;COND,0.0,2.380952380952381e-06,b u s s a r r i ə
+bussà,bussasse,V;SBJV;PST;2;SG;IPFV,0.0,2.380952380952381e-06,b u s s a s s ə
+bussà,bussavano,V;IND;PST;3;PL;IPFV,0.0,2.380952380952381e-06,b u s s a v a n ə
+bussà,bussate,V;2;PL;IMP,0.0,2.380952380952381e-06,b u s s a t ə
+bussà,bussarrissemo,V;1;PL;COND,0.0,2.380952380952381e-06,b u s s a r r i s s ə m ə
+bussà,bussave,V;IND;PST;2;SG;IPFV,0.0,2.380952380952381e-06,b u s s a v ə
+bussà,busso,V;IND;PRS;1;SG,0.0,2.380952380952381e-06,b u s s ə
+bussà,bussaje,V;IND;PST;3;SG;PFV,0.0,2.380952380952381e-06,b u s s a j ə
+bussà,bussa,V;2;SG;IMP,0.0,2.380952380952381e-06,b u s s ə
+bussà,bussarrite,V;2;PL;IND;FUT,0.0,2.380952380952381e-06,b u s s a r r i t ə
+bussà,bussate,V;IND;PRS;2;PL,0.0,2.380952380952381e-06,b u s s a t ə
+bussà,bussarraggio,V;1;SG;IND;FUT,0.0,2.380952380952381e-06,b u s s a r r a d d͡ʒ ə
+bussà,busseno,V;3;PL;IMP,0.0,2.380952380952381e-06,b u s s ə n ə
+bussà,bussajeno,V;IND;PST;3;PL;PFV,0.0,2.380952380952381e-06,b u s s a j ə n ə
+bussà,bussà,V;NFIN,0.0001,2.380952380952381e-06,b u s s a
+bussà,bussava,V;IND;PST;3;SG;IPFV,0.0,2.380952380952381e-06,b u s s a v ə
+bussà,bussassemo,V;SBJV;PST;1;PL;IPFV,0.0,2.380952380952381e-06,b u s s a s s ə m ə
+bussà,bussaste,V;IND;PST;2;SG;PFV,0.0,2.380952380952381e-06,b u s s a s t ə
+bussà,bussa,V;2;SG;IMP,0.0,2.380952380952381e-06,b u s s ə
+bussà,bussarria,V;3;SG;COND,0.0,2.380952380952381e-06,b u s s a r r i ə
+bussà,bussammo,V;IND;PRS;1;PL,0.0,2.380952380952381e-06,b u s s a m m ə
+bussà,bussastevo,V;IND;PST;2;PL;PFV,0.0,2.380952380952381e-06,b u s s a s t ə v ə
+bussà,bussarraje,V;2;SG;IND;FUT,0.0,2.380952380952381e-06,b u s s a r r a j ə
+bussà,bussassero,V;SBJV;PST;3;PL;IPFV,0.0,2.380952380952381e-06,b u s s a s s ə r ə
+bussà,bussarriano,V;3;PL;COND,0.0,2.380952380952381e-06,b u s s a r r j a n ə
+bussà,bussavamo,V;IND;PST;1;PL;IPFV,0.0,2.380952380952381e-06,b u s s a v a m ə
+cacaglià,cacaglia,V;IND;PRS;3;SG,0.0,0.0,k a k a ʎ ʎ ə
+cacaglià,cacagliaje,V;IND;PST;1;SG;PFV,0.0,0.0,k a k a ʎ ʎ a j ə
+cacaglià,cacagliammo,V;1;PL;IMP,0.0,0.0,k a k a ʎ ʎ a m m ə
+cacaglià,cacagliasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,k a k a ʎ ʎ a s s ə
+cacaglià,cacagliarrisse,V;2;SG;COND,0.0,0.0,k a k a ʎ ʎ a r r i s s ə
+cacaglià,cacagliarranno,V;3;PL;IND;FUT,0.0,0.0,k a k a ʎ ʎ a r r a n n ə
+cacaglià,cacagliassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,k a k a ʎ ʎ a s s e v ə
+cacaglià,cacagliajemo,V;IND;PST;1;PL;PFV,0.0,0.0,k a k a ʎ ʎ a j ə m ə
+cacaglià,cacagliavate,V;IND;PST;2;PL;IPFV,0.0,0.0,k a k a ʎ ʎ a v a t ə
+cacaglià,cacaglie,V;IND;PRS;2;SG,0.0,0.0,k a k a ʎ ʎ ə
+cacaglià,cacagliarrimmo,V;1;PL;IND;FUT,0.0,0.0,k a k a ʎ ʎ a r r i m m ə
+cacaglià,cacagliarrissevo,V;2;PL;COND,0.0,0.0,k a k a ʎ ʎ a r r i s s e v ə
+cacaglià,cacagliavo,V;IND;PST;1;SG;IPFV,0.0,0.0,k a k a ʎ ʎ a v ə
+cacaglià,cacagliarrà,V;3;SG;IND;FUT,0.0,0.0,k a k a ʎ ʎ a r r a
+cacaglià,cacagliano,V;IND;PRS;3;PL,0.0,0.0,k a k a ʎ ʎ a n ə
+cacaglià,cacagliasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,k a k a ʎ ʎ a s s ə
+cacaglià,cacagliarria,V;1;SG;COND,0.0,0.0,k a k a ʎ ʎ a r r i ə
+cacaglià,cacagliasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,k a k a ʎ ʎ a s s ə
+cacaglià,cacagliavano,V;IND;PST;3;PL;IPFV,0.0,0.0,k a k a ʎ ʎ a v a n ə
+cacaglià,cacagliate,V;2;PL;IMP,0.0,0.0,k a k a ʎ ʎ a t ə
+cacaglià,cacagliarrissemo,V;1;PL;COND,0.0,0.0,k a k a ʎ ʎ a r r i s s ə m ə
+cacaglià,cacagliave,V;IND;PST;2;SG;IPFV,0.0,0.0,k a k a ʎ ʎ a v ə
+cacaglià,cacaglio,V;IND;PRS;1;SG,0.0,0.0,k a k a ʎ ʎ ə
+cacaglià,cacagliaje,V;IND;PST;3;SG;PFV,0.0,0.0,k a k a ʎ ʎ a j ə
+cacaglià,cacaglia,V;2;SG;IMP,0.0,0.0,k a k a ʎ ʎ ə
+cacaglià,cacagliarrite,V;2;PL;IND;FUT,0.0,0.0,k a k a ʎ ʎ a r r i t ə
+cacaglià,cacagliate,V;IND;PRS;2;PL,0.0,0.0,k a k a ʎ ʎ a t ə
+cacaglià,cacagliarraggio,V;1;SG;IND;FUT,0.0,0.0,k a k a ʎ ʎ a r r a d d͡ʒ ə
+cacaglià,cacaglieno,V;3;PL;IMP,0.0,0.0,k a k a ʎ ʎ ə n ə
+cacaglià,cacagliajeno,V;IND;PST;3;PL;PFV,0.0,0.0,k a k a ʎ ʎ a j ə n ə
+cacaglià,cacaglià,V;NFIN,0.0,0.0,k a k a ʎ ʎ a
+cacaglià,cacagliava,V;IND;PST;3;SG;IPFV,0.0,0.0,k a k a ʎ ʎ a v ə
+cacaglià,cacagliassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,k a k a ʎ ʎ a s s ə m ə
+cacaglià,cacagliaste,V;IND;PST;2;SG;PFV,0.0,0.0,k a k a ʎ ʎ a s t ə
+cacaglià,cacaglia,V;2;SG;IMP,0.0,0.0,k a k a ʎ ʎ ə
+cacaglià,cacagliarria,V;3;SG;COND,0.0,0.0,k a k a ʎ ʎ a r r i ə
+cacaglià,cacagliammo,V;IND;PRS;1;PL,0.0,0.0,k a k a ʎ ʎ a m m ə
+cacaglià,cacagliastevo,V;IND;PST;2;PL;PFV,0.0,0.0,k a k a ʎ ʎ a s t ə v ə
+cacaglià,cacagliarraje,V;2;SG;IND;FUT,0.0,0.0,k a k a ʎ ʎ a r r a j ə
+cacaglià,cacagliassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,k a k a ʎ ʎ a s s ə r ə
+cacaglià,cacagliarriano,V;3;PL;COND,0.0,0.0,k a k a ʎ ʎ a r r j a n ə
+cacaglià,cacagliavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,k a k a ʎ ʎ a v a m ə
+caré,care,V;IND;PRS;3;SG,0.0002,1.8604651162790697e-05,k a r ə
+caré,carette,V;IND;PST;1;SG;PFV,0.0,1.8604651162790697e-05,k a r e t t ə
+caré,cariamo,V;1;PL;IMP,0.0,1.8604651162790697e-05,k a r j a m ə
+caré,caresse,V;SBJV;PST;1;SG;IPFV,0.0,1.8604651162790697e-05,k a r ɛ s s ə
+caré,cararrisse,V;2;SG;COND,0.0,1.8604651162790697e-05,k a r a r r i s s ə
+caré,cararranno,V;3;PL;IND;FUT,0.0,1.8604651162790697e-05,k a r a r r a n n ə
+caré,carisseve,V;SBJV;PST;2;PL;IPFV,0.0,1.8604651162790697e-05,k a r i s s ə v ə
+caré,carettemo,V;IND;PST;1;PL;PFV,0.0,1.8604651162790697e-05,k a r e t t ə m ə
+caré,cariveve,V;IND;PST;2;PL;IPFV,0.0,1.8604651162790697e-05,k a r i v e v ə
+caré,care,V;IND;PRS;2;SG,0.0002,1.8604651162790697e-05,k a r ə
+caré,cararrimmo,V;1;PL;IND;FUT,0.0,1.8604651162790697e-05,k a r a r r i m m ə
+caré,cararrissevo,V;2;PL;COND,0.0,1.8604651162790697e-05,k a r a r r i s s ə v ə
+caré,carevo,V;IND;PST;1;SG;IPFV,0.0,1.8604651162790697e-05,k a r ə v ə
+caré,cararrà,V;3;SG;IND;FUT,0.0,1.8604651162790697e-05,k a r a r r a
+caré,careno,V;IND;PRS;3;PL,0.0,1.8604651162790697e-05,k a r ə n ə
+caré,caresse,V;SBJV;PST;3;SG;IPFV,0.0,1.8604651162790697e-05,k a r ɛ s s ə
+caré,cararria,V;1;SG;COND,0.0,1.8604651162790697e-05,k a r a r r i ə
+caré,carisse,V;SBJV;PST;2;SG;IPFV,0.0,1.8604651162790697e-05,k a r i s s ə
+caré,carevano,V;IND;PST;3;PL;IPFV,0.0,1.8604651162790697e-05,k a r ə v a n ə
+caré,carite,V;2;PL;IMP,0.0,1.8604651162790697e-05,k a r i t ə
+caré,cararrissemo,V;1;PL;COND,0.0,1.8604651162790697e-05,k a r a r r i s s ə m ə
+caré,carive,V;IND;PST;2;SG;IPFV,0.0,1.8604651162790697e-05,k a r i v ə
+caré,caro,V;IND;PRS;1;SG,0.0,1.8604651162790697e-05,k a r ə
+caré,carette,V;IND;PST;3;SG;PFV,0.0,1.8604651162790697e-05,k a r e t t ə
+caré,care,V;2;SG;IMP,0.0002,1.8604651162790697e-05,k a r ə
+caré,cararrite,V;2;PL;IND;FUT,0.0,1.8604651162790697e-05,k a r a r r i t ə
+caré,carite,V;IND;PRS;2;PL,0.0,1.8604651162790697e-05,k a r i t ə
+caré,cararraggio,V;1;SG;IND;FUT,0.0,1.8604651162790697e-05,k a r a r r a d d͡ʒ ə
+caré,cariano,V;3;PL;IMP,0.0,1.8604651162790697e-05,k a r j a n ə
+caré,caretteno,V;IND;PST;3;PL;PFV;LGSPEC1,0.0,1.8604651162790697e-05,k a r e t t ə n ə
+caré,carettero,V;IND;PST;3;PL;PFV;LGSPEC2,0.0,1.8604651162790697e-05,k a r e t t ə r ə
+caré,caré,V;NFIN,0.0,1.8604651162790697e-05,k a r ə
+caré,careva,V;IND;PST;3;SG;IPFV,0.0,1.8604651162790697e-05,k a r ə v ə
+caré,caressemo,V;SBJV;PST;1;PL;IPFV,0.0,1.8604651162790697e-05,k a r ə s s ə m ə
+caré,cariste,V;IND;PST;2;SG;PFV,0.0,1.8604651162790697e-05,k a r i s t ə
+caré,care,V;2;SG;IMP,0.0002,1.8604651162790697e-05,k a r ə
+caré,cararria,V;3;SG;COND,0.0,1.8604651162790697e-05,k a r a r r i ə
+caré,carimmo,V;IND;PRS;1;PL,0.0,1.8604651162790697e-05,k a r i m m ə
+caré,caristeve,V;IND;PST;2;PL;PFV,0.0,1.8604651162790697e-05,k a r i s t ə v ə
+caré,cararraje,V;2;SG;IND;FUT,0.0,1.8604651162790697e-05,k a r a r r a j ə
+caré,caresseno,V;SBJV;PST;3;PL;IPFV,0.0,1.8604651162790697e-05,k a r ə s s ə n ə
+caré,cararriano,V;3;PL;COND,0.0,1.8604651162790697e-05,k a r a r r j a n ə
+caré,carevamo,V;IND;PST;1;PL;IPFV,0.0,1.8604651162790697e-05,k a r ə v a m ə
+cucenà,cucena,V;IND;PRS;3;SG,0.0,2.380952380952381e-06,k u t͡ʃ ə n ə
+cucenà,cucenaje,V;IND;PST;1;SG;PFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a j ə
+cucenà,cucenammo,V;1;PL;IMP,0.0,2.380952380952381e-06,k u t͡ʃ ə n a m m ə
+cucenà,cucenasse,V;SBJV;PST;1;SG;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a s s ə
+cucenà,cucenarrisse,V;2;SG;COND,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r i s s ə
+cucenà,cucenarranno,V;3;PL;IND;FUT,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r a n n ə
+cucenà,cucenassevo,V;SBJV;PST;2;PL;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a s s ɛ v ə
+cucenà,cucenajemo,V;IND;PST;1;PL;PFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a j ə m ə
+cucenà,cucenavate,V;IND;PST;2;PL;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a v a t ə
+cucenà,cucene,V;IND;PRS;2;SG,0.0,2.380952380952381e-06,k u t͡ʃ ə n ə
+cucenà,cucenarrimmo,V;1;PL;IND;FUT,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r i m m ə
+cucenà,cucenarrissevo,V;2;PL;COND,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r i s s ə v ə
+cucenà,cucenavo,V;IND;PST;1;SG;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a v ə
+cucenà,cucenarrà,V;3;SG;IND;FUT,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r a
+cucenà,cucenano,V;IND;PRS;3;PL,0.0,2.380952380952381e-06,k u t͡ʃ ə n a n ə
+cucenà,cucenasse,V;SBJV;PST;3;SG;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a s s ə
+cucenà,cucenarria,V;1;SG;COND,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r i ə
+cucenà,cucenasse,V;SBJV;PST;2;SG;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a s s ə
+cucenà,cucenavano,V;IND;PST;3;PL;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a v ə n ə
+cucenà,cucenate,V;2;PL;IMP,0.0,2.380952380952381e-06,k u t͡ʃ e n a t ə
+cucenà,cucenarrissemo,V;1;PL;COND,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r i s s ə m ə
+cucenà,cucenave,V;IND;PST;2;SG;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a v ə
+cucenà,cuceno,V;IND;PRS;1;SG,0.0,2.380952380952381e-06,k u t͡ʃ ə n ə
+cucenà,cucenaje,V;IND;PST;3;SG;PFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a j ə
+cucenà,cucena,V;2;SG;IMP,0.0,2.380952380952381e-06,k u t͡ʃ ə n ə
+cucenà,cucenarrite,V;2;PL;IND;FUT,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r i t ə
+cucenà,cucenate,V;IND;PRS;2;PL,0.0,2.380952380952381e-06,k u t͡ʃ e n a t ə
+cucenà,cucenarraggio,V;1;SG;IND;FUT,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r a d d͡ʒ ə
+cucenà,cuceneno,V;3;PL;IMP,0.0,2.380952380952381e-06,k u t͡ʃ ə n ə n ə
+cucenà,cucenajeno,V;IND;PST;3;PL;PFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a j ə n ə
+cucenà,cucenà,V;NFIN,0.0001,2.380952380952381e-06,k u t͡ʃ ə n a
+cucenà,cucenava,V;IND;PST;3;SG;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a v ə
+cucenà,cucenassemo,V;SBJV;PST;1;PL;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a s s ə m ə
+cucenà,cucenaste,V;IND;PST;2;SG;PFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a s t ə
+cucenà,cucena,V;2;SG;IMP,0.0,2.380952380952381e-06,k u t͡ʃ ə n ə
+cucenà,cucenarria,V;3;SG;COND,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r i ə
+cucenà,cucenammo,V;IND;PRS;1;PL,0.0,2.380952380952381e-06,k u t͡ʃ ə n a m m ə
+cucenà,cucenastevo,V;IND;PST;2;PL;PFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a s t ə v ə
+cucenà,cucenarraje,V;2;SG;IND;FUT,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r a j ə
+cucenà,cucenassero,V;SBJV;PST;3;PL;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a s s ə r ə
+cucenà,cucenarriano,V;3;PL;COND,0.0,2.380952380952381e-06,k u t͡ʃ ə n a r r j a n ə
+cucenà,cucenavamo,V;IND;PST;1;PL;IPFV,0.0,2.380952380952381e-06,k u t͡ʃ ə n a v ə m ə
+cumannà,cumanna,V;IND;PRS;3;SG,0.0,5e-05,k u m a n n ə
+cumannà,cumannaje,V;IND;PST;1;SG;PFV,0.0,5e-05,k u m a n n a j ə
+cumannà,cumannammo,V;1;PL;IMP,0.0,5e-05,k u m a n n a m m ə
+cumannà,cumannasse,V;SBJV;PST;1;SG;IPFV,0.0,5e-05,k u m a n n a s s ə
+cumannà,cumannarrisse,V;2;SG;COND,0.0,5e-05,k u m a n n a r r i s s ə
+cumannà,cumannarranno,V;3;PL;IND;FUT,0.0,5e-05,k u m a n n a r r a n n ə
+cumannà,cumannassevo,V;SBJV;PST;2;PL;IPFV,0.0,5e-05,k u m a n n a s s ɛ v ə
+cumannà,cumannajemo,V;IND;PST;1;PL;PFV,0.0,5e-05,k u m a n n a j ə m ə
+cumannà,cumannavate,V;IND;PST;2;PL;IPFV,0.0,5e-05,k u m a n n a v a t ə
+cumannà,cumanne,V;IND;PRS;2;SG,0.0005,5e-05,k u m a n n ə
+cumannà,cumannarrimmo,V;1;PL;IND;FUT,0.0,5e-05,k u m a n n a r r i m m ə
+cumannà,cumannarrissevo,V;2;PL;COND,0.0,5e-05,k u m a n n a r r i s s ə v ə
+cumannà,cumannavo,V;IND;PST;1;SG;IPFV,0.0,5e-05,k u m a n n a v ə
+cumannà,cumannarrà,V;3;SG;IND;FUT,0.0,5e-05,k u m a n n a r r a
+cumannà,cumannano,V;IND;PRS;3;PL,0.0,5e-05,k u m a n n a n ə
+cumannà,cumannasse,V;SBJV;PST;3;SG;IPFV,0.0,5e-05,k u m a n n a s s ə
+cumannà,cumannarria,V;1;SG;COND,0.0,5e-05,k u m a n n a r r i ə
+cumannà,cumannasse,V;SBJV;PST;2;SG;IPFV,0.0,5e-05,k u m a n n a s s ə
+cumannà,cumannavano,V;IND;PST;3;PL;IPFV,0.0,5e-05,k u m a n n a v a n ə
+cumannà,cumannate,V;2;PL;IMP,0.0008,5e-05,k u m a n n a t ə
+cumannà,cumannarrissemo,V;1;PL;COND,0.0,5e-05,k u m a n n a r r i s s ə m ə
+cumannà,cumannave,V;IND;PST;2;SG;IPFV,0.0,5e-05,k u m a n n a v ə
+cumannà,cumanno,V;IND;PRS;1;SG,0.0,5e-05,k u m a n n ə
+cumannà,cumannaje,V;IND;PST;3;SG;PFV,0.0,5e-05,k u m a n n a j ə
+cumannà,cumanna,V;2;SG;IMP,0.0,5e-05,k u m a n n ə
+cumannà,cumannarrite,V;2;PL;IND;FUT,0.0,5e-05,k u m a n n a r r i t ə
+cumannà,cumannate,V;IND;PRS;2;PL,0.0008,5e-05,k u m a n n a t ə
+cumannà,cumannarraggio,V;1;SG;IND;FUT,0.0,5e-05,k u m a n n a r r a d d͡ʒ ə
+cumannà,cumanneno,V;3;PL;IMP,0.0,5e-05,k u m a n n ə n ə
+cumannà,cumannajeno,V;IND;PST;3;PL;PFV,0.0,5e-05,k u m a n n a j ə n ə
+cumannà,cumannà,V;NFIN,0.0,5e-05,k u m a n n a
+cumannà,cumannava,V;IND;PST;3;SG;IPFV,0.0,5e-05,k u m a n n a v ə
+cumannà,cumannassemo,V;SBJV;PST;1;PL;IPFV,0.0,5e-05,k u m a n n a s s ə m ə
+cumannà,cumannaste,V;IND;PST;2;SG;PFV,0.0,5e-05,k u m a n n a s t ə
+cumannà,cumanna,V;2;SG;IMP,0.0,5e-05,k u m a n n ə
+cumannà,cumannarria,V;3;SG;COND,0.0,5e-05,k u m a n n a r r i ə
+cumannà,cumannammo,V;IND;PRS;1;PL,0.0,5e-05,k u m a n n a m m ə
+cumannà,cumannastevo,V;IND;PST;2;PL;PFV,0.0,5e-05,k u m a n n a s t ə v ə
+cumannà,cumannarraje,V;2;SG;IND;FUT,0.0,5e-05,k u m a n n a r r a j ə
+cumannà,cumannassero,V;SBJV;PST;3;PL;IPFV,0.0,5e-05,k u m a n n a s s ə r ə
+cumannà,cumannarriano,V;3;PL;COND,0.0,5e-05,k u m a n n a r r j a n ə
+cumannà,cumannavamo,V;IND;PST;1;PL;IPFV,0.0,5e-05,k u m a n n a v a m ə
+cuntrullà,cuntrulla,V;IND;PRS;3;SG,0.0,0.0,k u n t r u l l ə
+cuntrullà,cuntrullaje,V;IND;PST;1;SG;PFV,0.0,0.0,k u n t r u l l a j ə
+cuntrullà,cuntrullammo,V;1;PL;IMP,0.0,0.0,k u n t r u l l a m m ə
+cuntrullà,cuntrullasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,k u n t r u l l a s s ə
+cuntrullà,cuntrullarrisse,V;2;SG;COND,0.0,0.0,k u n t r u l l a r r i s s ə
+cuntrullà,cuntrullarranno,V;3;PL;IND;FUT,0.0,0.0,k u n t r u l l a r r a n n ə
+cuntrullà,cuntrullassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,k u n t r u l l a s s e v ə
+cuntrullà,cuntrullajemo,V;IND;PST;1;PL;PFV,0.0,0.0,k u n t r u l l a j ə m ə
+cuntrullà,cuntrullavate,V;IND;PST;2;PL;IPFV,0.0,0.0,k u n t r u l l a v a t ə
+cuntrullà,cuntrulle,V;IND;PRS;2;SG,0.0,0.0,k u n t r u l l ə
+cuntrullà,cuntrullarrimmo,V;1;PL;IND;FUT,0.0,0.0,k u n t r u l l a r r i m m ə
+cuntrullà,cuntrullarrissevo,V;2;PL;COND,0.0,0.0,k u n t r u l l a r r i s s ə v ə
+cuntrullà,cuntrullavo,V;IND;PST;1;SG;IPFV,0.0,0.0,k u n t r u l l a v ə
+cuntrullà,cuntrullarrà,V;3;SG;IND;FUT,0.0,0.0,k u n t r u l l a r r a
+cuntrullà,cuntrullano,V;IND;PRS;3;PL,0.0,0.0,k u n t r u l l ə n ə
+cuntrullà,cuntrullasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,k u n t r u l l a s s ə
+cuntrullà,cuntrullarria,V;1;SG;COND,0.0,0.0,k u n t r u l l a r r i ə
+cuntrullà,cuntrullasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,k u n t r u l l a s s ə
+cuntrullà,cuntrullavano,V;IND;PST;3;PL;IPFV,0.0,0.0,k u n t r u l l a v a n ə
+cuntrullà,cuntrullate,V;2;PL;IMP,0.0,0.0,k u n t r u l l a t ə
+cuntrullà,cuntrullarrissemo,V;1;PL;COND,0.0,0.0,k u n t r u l l a r r i s s ə m ə
+cuntrullà,cuntrullave,V;IND;PST;2;SG;IPFV,0.0,0.0,k u n t r u l l a v ə
+cuntrullà,cuntrullo,V;IND;PRS;1;SG,0.0,0.0,k u n t r u l l ə
+cuntrullà,cuntrullaje,V;IND;PST;3;SG;PFV,0.0,0.0,k u n t r u l l a j ə
+cuntrullà,cuntrulla,V;2;SG;IMP,0.0,0.0,k u n t r u l l ə
+cuntrullà,cuntrullarrite,V;2;PL;IND;FUT,0.0,0.0,k u n t r u l l a r r i t ə
+cuntrullà,cuntrullate,V;IND;PRS;2;PL,0.0,0.0,k u n t r u l l a t ə
+cuntrullà,cuntrullarraggio,V;1;SG;IND;FUT,0.0,0.0,k u n t r u l l a r r a d d͡ʒ ə
+cuntrullà,cuntrulleno,V;3;PL;IMP,0.0,0.0,k u n t r u l l ə n ə
+cuntrullà,cuntrullajeno,V;IND;PST;3;PL;PFV,0.0,0.0,k u n t r u l l a j ə n ə
+cuntrullà,cuntrullà,V;NFIN,0.0,0.0,k u n t r u l l a
+cuntrullà,cuntrullava,V;IND;PST;3;SG;IPFV,0.0,0.0,k u n t r u l l a v ə
+cuntrullà,cuntrullassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,k u n t r u l l a s s ə m ə
+cuntrullà,cuntrullaste,V;IND;PST;2;SG;PFV,0.0,0.0,k u n t r u l l a s t ə
+cuntrullà,cuntrulla,V;2;SG;IMP,0.0,0.0,k u n t r u l l ə
+cuntrullà,cuntrullarria,V;3;SG;COND,0.0,0.0,k u n t r u l l a r r i ə
+cuntrullà,cuntrullammo,V;IND;PRS;1;PL,0.0,0.0,k u n t r u l l a m m ə
+cuntrullà,cuntrullastevo,V;IND;PST;2;PL;PFV,0.0,0.0,k u n t r u l l a s t ɛ v ə
+cuntrullà,cuntrullarraje,V;2;SG;IND;FUT,0.0,0.0,k u n t r u l l a r r a j ə
+cuntrullà,cuntrullassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,k u n t r u l l a s s ə r ə
+cuntrullà,cuntrullarriano,V;3;PL;COND,0.0,0.0,k u n t r u l l a r r j a n ə
+cuntrullà,cuntrullavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,k u n t r u l l a v a m ə
+cuntà,cunta,V;IND;PRS;3;SG,0.0,0.0,k u n t ə
+cuntà,cuntaje,V;IND;PST;1;SG;PFV,0.0,0.0,k u n t a j ə
+cuntà,cuntammo,V;1;PL;IMP,0.0,0.0,k u n t a m m ə
+cuntà,cuntasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,k u n t a s s ə
+cuntà,cuntarrisse,V;2;SG;COND,0.0,0.0,k u n t a r r i s s ə
+cuntà,cuntarranno,V;3;PL;IND;FUT,0.0,0.0,k u n t a r r a n n ə
+cuntà,cuntassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,k u n t a s s ɛ v ə
+cuntà,cuntajemo,V;IND;PST;1;PL;PFV,0.0,0.0,k u n t a j ə m ə
+cuntà,cuntavate,V;IND;PST;2;PL;IPFV,0.0,0.0,k u n t a v a t ə
+cuntà,cunte,V;IND;PRS;2;SG,0.0,0.0,k u n t ə
+cuntà,cuntarrimmo,V;1;PL;IND;FUT,0.0,0.0,k u n t a r r i m m ə
+cuntà,cuntarrissevo,V;2;PL;COND,0.0,0.0,k u n t a r r i s s ə v ə
+cuntà,cuntavo,V;IND;PST;1;SG;IPFV,0.0,0.0,k u n t a v ə
+cuntà,cuntarrà,V;3;SG;IND;FUT,0.0,0.0,k u n t a r r a
+cuntà,cuntano,V;IND;PRS;3;PL,0.0,0.0,k u n t a n ə
+cuntà,cuntasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,k u n t a s s ə
+cuntà,cuntarria,V;1;SG;COND,0.0,0.0,k u n t a r r j ə
+cuntà,cuntasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,k u n t a s s ə
+cuntà,cuntavano,V;IND;PST;3;PL;IPFV,0.0,0.0,k u n t a v a n ə
+cuntà,cuntate,V;2;PL;IMP,0.0,0.0,k u n t a t ə
+cuntà,cuntarrissemo,V;1;PL;COND,0.0,0.0,k u n t a r r i s s ə m ə
+cuntà,cuntave,V;IND;PST;2;SG;IPFV,0.0,0.0,k u n t a v ə
+cuntà,cunto,V;IND;PRS;1;SG,0.0,0.0,k u n t ə
+cuntà,cuntaje,V;IND;PST;3;SG;PFV,0.0,0.0,k u n t a j ə
+cuntà,cunta,V;2;SG;IMP,0.0,0.0,k u n t ə
+cuntà,cuntarrite,V;2;PL;IND;FUT,0.0,0.0,k u n t a r r i t ə
+cuntà,cuntate,V;IND;PRS;2;PL,0.0,0.0,k u n t a t ə
+cuntà,cuntarraggio,V;1;SG;IND;FUT,0.0,0.0,k u n t a r r a d d͡ʒ ə
+cuntà,cunteno,V;3;PL;IMP,0.0,0.0,k u n t ə n ə
+cuntà,cuntajeno,V;IND;PST;3;PL;PFV,0.0,0.0,k u n t a j ə n ə
+cuntà,cuntà,V;NFIN,0.0,0.0,k u n t a
+cuntà,cuntava,V;IND;PST;3;SG;IPFV,0.0,0.0,k u n t a v ə
+cuntà,cuntassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,k u n t a s s ə m ə
+cuntà,cuntaste,V;IND;PST;2;SG;PFV,0.0,0.0,k u n t a s t ə
+cuntà,cunta,V;2;SG;IMP,0.0,0.0,k u n t ə
+cuntà,cuntarria,V;3;SG;COND,0.0,0.0,k u n t a r r j ə
+cuntà,cuntammo,V;IND;PRS;1;PL,0.0,0.0,k u n t a m m ə
+cuntà,cuntastevo,V;IND;PST;2;PL;PFV,0.0,0.0,k u n t a s t ə v ə
+cuntà,cuntarraje,V;2;SG;IND;FUT,0.0,0.0,k u n t a r r a j ə
+cuntà,cuntassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,k u n t a s s ə r ə
+cuntà,cuntarriano,V;3;PL;COND,0.0,0.0,k u n t a r r j a n ə
+cuntà,cuntavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,k u n t a v a m ə
+dimannà,dimanna,V;IND;PRS;3;SG,0.0,0.0,d i m a n n ə
+dimannà,dimannaje,V;IND;PST;1;SG;PFV,0.0,0.0,d i m a n n a j ə
+dimannà,dimannammo,V;1;PL;IMP,0.0,0.0,d i m a n n a m m ə
+dimannà,dimannasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,d i m a n n a s s ə
+dimannà,dimannarrisse,V;2;SG;COND,0.0,0.0,d i m a n n a r r i s s ə
+dimannà,dimannarranno,V;3;PL;IND;FUT,0.0,0.0,d i m a n n a r r a n n ə
+dimannà,dimannassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,d i m a n n a s s ɛ v ə
+dimannà,dimannajemo,V;IND;PST;1;PL;PFV,0.0,0.0,d i m a n n a j ə m ə
+dimannà,dimannavate,V;IND;PST;2;PL;IPFV,0.0,0.0,d i m a n n a v a t ə
+dimannà,dimanne,V;IND;PRS;2;SG,0.0,0.0,d i m a n n ə
+dimannà,dimannarrimmo,V;1;PL;IND;FUT,0.0,0.0,d i m a n n a r r i m m ə
+dimannà,dimannarrissevo,V;2;PL;COND,0.0,0.0,d i m a n n a r r i s s ə v ə
+dimannà,dimannavo,V;IND;PST;1;SG;IPFV,0.0,0.0,d i m a n n a v ə
+dimannà,dimannarrà,V;3;SG;IND;FUT,0.0,0.0,d i m a n n a r r a
+dimannà,dimannano,V;IND;PRS;3;PL,0.0,0.0,d i m a n n a n ə
+dimannà,dimannasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,d i m a n n a s s ə
+dimannà,dimannarria,V;1;SG;COND,0.0,0.0,d i m a n n a r r i ə
+dimannà,dimannasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,d i m a n n a s s ə
+dimannà,dimannavano,V;IND;PST;3;PL;IPFV,0.0,0.0,d i m a n n a v a n ə
+dimannà,dimannate,V;2;PL;IMP,0.0,0.0,d i m a n n a t ə
+dimannà,dimannarrissemo,V;1;PL;COND,0.0,0.0,d i m a n n a r r i s s ə m ə
+dimannà,dimannave,V;IND;PST;2;SG;IPFV,0.0,0.0,d i m a n n a v ə
+dimannà,dimanno,V;IND;PRS;1;SG,0.0,0.0,d i m a n n ə
+dimannà,dimannaje,V;IND;PST;3;SG;PFV,0.0,0.0,d i m a n n a j ə
+dimannà,dimanna,V;2;SG;IMP,0.0,0.0,d i m a n n ə
+dimannà,dimannarrite,V;2;PL;IND;FUT,0.0,0.0,d i m a n n a r r i t ə
+dimannà,dimannate,V;IND;PRS;2;PL,0.0,0.0,d i m a n n a t ə
+dimannà,dimannarraggio,V;1;SG;IND;FUT,0.0,0.0,d i m a n n a r r a d d͡ʒ ə
+dimannà,dimanneno,V;3;PL;IMP,0.0,0.0,d i m a n n ə n ə
+dimannà,dimannajeno,V;IND;PST;3;PL;PFV,0.0,0.0,d i m a n n a j ə n ə
+dimannà,dimannà,V;NFIN,0.0,0.0,d i m a n n a
+dimannà,dimannava,V;IND;PST;3;SG;IPFV,0.0,0.0,d i m a n n a v ə
+dimannà,dimannassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,d i m a n n a s s ə m ə
+dimannà,dimannaste,V;IND;PST;2;SG;PFV,0.0,0.0,d i m a n n a s t ə
+dimannà,dimanna,V;2;SG;IMP,0.0,0.0,d i m a n n ə
+dimannà,dimannarria,V;3;SG;COND,0.0,0.0,d i m a n n a r r i ə
+dimannà,dimannammo,V;IND;PRS;1;PL,0.0,0.0,d i m a n n a m m ə
+dimannà,dimannastevo,V;IND;PST;2;PL;PFV,0.0,0.0,d i m a n n a s t ə v ə
+dimannà,dimannarraje,V;2;SG;IND;FUT,0.0,0.0,d i m a n n a r r a j ə
+dimannà,dimannassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,d i m a n n a s s ə r ə
+dimannà,dimannarriano,V;3;PL;COND,0.0,0.0,d i m a n n a r r j a n ə
+dimannà,dimannavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,d i m a n n a v a m ə
+abballà,abballa,V;IND;PRS;3;SG,0.0,0.0,a b b a l l ə
+abballà,abballaje,V;IND;PST;1;SG;PFV,0.0,0.0,a b b a l l a j ə
+abballà,abballammo,V;1;PL;IMP,0.0,0.0,a b b a l l a m m ə
+abballà,abballasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,a b b a l l a s s ə
+abballà,abballarrisse,V;2;SG;COND,0.0,0.0,a b b a l l a r r i s s ə
+abballà,abballarranno,V;3;PL;IND;FUT,0.0,0.0,a b b a l l a r r a n n ə
+abballà,abballassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,a b b a l l a s s ɛ v ə
+abballà,abballajemo,V;IND;PST;1;PL;PFV,0.0,0.0,a b b a l l a j ə m ə
+abballà,abballavate,V;IND;PST;2;PL;IPFV,0.0,0.0,a b b a l l a v a t ə
+abballà,abballe,V;IND;PRS;2;SG,0.0,0.0,a b b a l l ə
+abballà,abballarrimmo,V;1;PL;IND;FUT,0.0,0.0,a b b a l l a r r i m m ə
+abballà,abballarrissevo,V;2;PL;COND,0.0,0.0,a b b a l l a r r i s s ə v ə
+abballà,abballavo,V;IND;PST;1;SG;IPFV,0.0,0.0,a b b a l l a v ə
+abballà,abballarrà,V;3;SG;IND;FUT,0.0,0.0,a b b a l l a r r a
+abballà,abballano,V;IND;PRS;3;PL,0.0,0.0,a b b a l l a n ə
+abballà,abballasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,a b b a l l a s s ə
+abballà,abballarria,V;1;SG;COND,0.0,0.0,a b b a l l a r r i ə
+abballà,abballasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,a b b a l l a s s ə
+abballà,abballavano,V;IND;PST;3;PL;IPFV,0.0,0.0,a b b a l l a v a n ə
+abballà,abballate,V;2;PL;IMP,0.0,0.0,a b b a l l a t ə
+abballà,abballarrissemo,V;1;PL;COND,0.0,0.0,a b b a l l a r r i s s ə m ə
+abballà,abballave,V;IND;PST;2;SG;IPFV,0.0,0.0,a b b a l l a v ə
+abballà,abballo,V;IND;PRS;1;SG,0.0,0.0,a b b a l l ə
+abballà,abballaje,V;IND;PST;3;SG;PFV,0.0,0.0,a b b a l l a j ə
+abballà,abballa,V;2;SG;IMP,0.0,0.0,a b b a l l ə
+abballà,abballarrite,V;2;PL;IND;FUT,0.0,0.0,a b b a l l a r r i t ə
+abballà,abballate,V;IND;PRS;2;PL,0.0,0.0,a b b a l l a t ə
+abballà,abballarraggio,V;1;SG;IND;FUT,0.0,0.0,a b b a l l a r r a d d͡ʒ ə
+abballà,abballeno,V;3;PL;IMP,0.0,0.0,a b b a l l ə n ə
+abballà,abballajeno,V;IND;PST;3;PL;PFV,0.0,0.0,a b b a l l a j ə n ə
+abballà,abballà,V;NFIN,0.0,0.0,a b b a l l a
+abballà,abballava,V;IND;PST;3;SG;IPFV,0.0,0.0,a b b a l l a v ə
+abballà,abballassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,a b b a l l a s s ə m ə
+abballà,abballaste,V;IND;PST;2;SG;PFV,0.0,0.0,a b b a l l a s t ə
+abballà,abballa,V;2;SG;IMP,0.0,0.0,a b b a l l ə
+abballà,abballarria,V;3;SG;COND,0.0,0.0,a b b a l l a r r i ə
+abballà,abballammo,V;IND;PRS;1;PL,0.0,0.0,a b b a l l a m m ə
+abballà,abballastevo,V;IND;PST;2;PL;PFV,0.0,0.0,a b b a l l a s t ə v ə
+abballà,abballarraje,V;2;SG;IND;FUT,0.0,0.0,a b b a l l a r r a j ə
+abballà,abballassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,a b b a l l a s s ə r ə
+abballà,abballarriano,V;3;PL;COND,0.0,0.0,a b b a l l a r r j a n ə
+abballà,abballavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,a b b a l l a v a m ə
+abbanunà,abbanuna,V;IND;PRS;3;SG,0.0,0.0,a b b a n u n ə
+abbanunà,abbanunaje,V;IND;PST;1;SG;PFV,0.0,0.0,a b b a n u n a j ə
+abbanunà,abbanunammo,V;1;PL;IMP,0.0,0.0,a b b a n u n a m m ə
+abbanunà,abbanunasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,a b b a n u n a s s ə
+abbanunà,abbanunarrisse,V;2;SG;COND,0.0,0.0,a b b a n u n a r r i s s ə
+abbanunà,abbanunarranno,V;3;PL;IND;FUT,0.0,0.0,a b b a n u n a r r a n n ə
+abbanunà,abbanunassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,a b b a n u n a s s ɛ v ə
+abbanunà,abbanunajemo,V;IND;PST;1;PL;PFV,0.0,0.0,a b b a n u n a j ə m ə
+abbanunà,abbanunavate,V;IND;PST;2;PL;IPFV,0.0,0.0,a b b a n u n a v a t ə
+abbanunà,abbanune,V;IND;PRS;2;SG,0.0,0.0,a b b a n u n ə
+abbanunà,abbanunarrimmo,V;1;PL;IND;FUT,0.0,0.0,a b b a n u n a r r i m m ə
+abbanunà,abbanunarrissevo,V;2;PL;COND,0.0,0.0,a b b a n u n a r r i s s ə v ə
+abbanunà,abbanunavo,V;IND;PST;1;SG;IPFV,0.0,0.0,a b b a n u n a v ə
+abbanunà,abbanunarrà,V;3;SG;IND;FUT,0.0,0.0,a b b a n u n a r r a
+abbanunà,abbanunano,V;IND;PRS;3;PL,0.0,0.0,a b b a n u n a n ə
+abbanunà,abbanunasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,a b b a n u n a s s ə
+abbanunà,abbanunarria,V;1;SG;COND,0.0,0.0,a b b a n u n a r r i ə
+abbanunà,abbanunasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,a b b a n u n a s s ə
+abbanunà,abbanunavano,V;IND;PST;3;PL;IPFV,0.0,0.0,a b b a n u n a v a n ə
+abbanunà,abbanunate,V;2;PL;IMP,0.0,0.0,a b b a n u n a t ə
+abbanunà,abbanunarrissemo,V;1;PL;COND,0.0,0.0,a b b a n u n a r r i s s ə m ə
+abbanunà,abbanunave,V;IND;PST;2;SG;IPFV,0.0,0.0,a b b a n u n a v ə
+abbanunà,abbanuno,V;IND;PRS;1;SG,0.0,0.0,a b b a n u n ə
+abbanunà,abbanunaje,V;IND;PST;3;SG;PFV,0.0,0.0,a b b a n u n a j ə
+abbanunà,abbanuna,V;2;SG;IMP,0.0,0.0,a b b a n u n ə
+abbanunà,abbanunarrite,V;2;PL;IND;FUT,0.0,0.0,a b b a n u n a r r i t ə
+abbanunà,abbanunate,V;IND;PRS;2;PL,0.0,0.0,a b b a n u n a t ə
+abbanunà,abbanunarraggio,V;1;SG;IND;FUT,0.0,0.0,a b b a n u n a r r a d d͡ʒ ə
+abbanunà,abbanuneno,V;3;PL;IMP,0.0,0.0,a b b a n u n ə n ə
+abbanunà,abbanunajeno,V;IND;PST;3;PL;PFV,0.0,0.0,a b b a n u n a j ə n ə
+abbanunà,abbanunà,V;NFIN,0.0,0.0,a b b a n u n a
+abbanunà,abbanunava,V;IND;PST;3;SG;IPFV,0.0,0.0,a b b a n u n a v ə
+abbanunà,abbanunassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,a b b a n u n a s s ə m ə
+abbanunà,abbanunaste,V;IND;PST;2;SG;PFV,0.0,0.0,a b b a n u n a s t ə
+abbanunà,abbanuna,V;2;SG;IMP,0.0,0.0,a b b a n u n ə
+abbanunà,abbanunarria,V;3;SG;COND,0.0,0.0,a b b a n u n a r r i ə
+abbanunà,abbanunammo,V;IND;PRS;1;PL,0.0,0.0,a b b a n u n a m m ə
+abbanunà,abbanunastevo,V;IND;PST;2;PL;PFV,0.0,0.0,a b b a n u n a s t ə v ə
+abbanunà,abbanunarraje,V;2;SG;IND;FUT,0.0,0.0,a b b a n u n a r r a j ə
+abbanunà,abbanunassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,a b b a n u n a s s ə r ə
+abbanunà,abbanunarriano,V;3;PL;COND,0.0,0.0,a b b a n u n a r r j a n ə
+abbanunà,abbanunavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,a b b a n u n a v a m ə
+abbuscà,abbusca,V;IND;PRS;3;SG,0.0,0.0,a b b u s k ə
+abbuscà,abbuscaje,V;IND;PST;1;SG;PFV,0.0,0.0,a b b u s k a j ə
+abbuscà,abbuscammo,V;1;PL;IMP,0.0,0.0,a b b u s k a m m ə
+abbuscà,abbuscasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,a b b u s k a s s ə
+abbuscà,abbuscarrisse,V;2;SG;COND,0.0,0.0,a b b u s k a r r i s s ə
+abbuscà,abbuscarranno,V;3;PL;IND;FUT,0.0,0.0,a b b u s k a r r a n n ə
+abbuscà,abbuscassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,a b b u s k a s s ɛ v ə
+abbuscà,abbuscajemo,V;IND;PST;1;PL;PFV,0.0,0.0,a b b u s k a j ə m ə
+abbuscà,abbuscavate,V;IND;PST;2;PL;IPFV,0.0,0.0,a b b u s k a v a t ə
+abbuscà,abbusce,V;IND;PRS;2;SG,0.0,0.0,a b b u ʃ ʃ ə
+abbuscà,abbuscarrimmo,V;1;PL;IND;FUT,0.0,0.0,a b b u s k a r r i m m ə
+abbuscà,abbuscarrissevo,V;2;PL;COND,0.0,0.0,a b b u s k a r r i s s ə v ə
+abbuscà,abbuscavo,V;IND;PST;1;SG;IPFV,0.0,0.0,a b b u s k a v ə
+abbuscà,abbuscarrà,V;3;SG;IND;FUT,0.0,0.0,a b b u s k a r r a
+abbuscà,abbuscano,V;IND;PRS;3;PL,0.0,0.0,a b b u s k a n ə
+abbuscà,abbuscasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,a b b u s k a s s ə
+abbuscà,abbuscarria,V;1;SG;COND,0.0,0.0,a b b u s k a r r j ə
+abbuscà,abbuscasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,a b b u s k a s s ə
+abbuscà,abbuscavano,V;IND;PST;3;PL;IPFV,0.0,0.0,a b b u s k a v a n ə
+abbuscà,abbuscate,V;2;PL;IMP,0.0,0.0,a b b u s k a t ə
+abbuscà,abbuscarrissemo,V;1;PL;COND,0.0,0.0,a b b u s k a r r i s s ə m ə
+abbuscà,abbuscave,V;IND;PST;2;SG;IPFV,0.0,0.0,a b b u s k a v ə
+abbuscà,abbusco,V;IND;PRS;1;SG,0.0,0.0,a b b u s k ə
+abbuscà,abbuscaje,V;IND;PST;3;SG;PFV,0.0,0.0,a b b u s k a j ə
+abbuscà,abbusca,V;2;SG;IMP,0.0,0.0,a b b u s k ə
+abbuscà,abbuscarrite,V;2;PL;IND;FUT,0.0,0.0,a b b u s k a r r i t ə
+abbuscà,abbuscate,V;IND;PRS;2;PL,0.0,0.0,a b b u s k a t ə
+abbuscà,abbuscarraggio,V;1;SG;IND;FUT,0.0,0.0,a b b u s k a r r a d d͡ʒ ə
+abbuscà,abbusceno,V;3;PL;IMP,0.0,0.0,a b b u ʃ ʃ ə n ə
+abbuscà,abbuscajeno,V;IND;PST;3;PL;PFV,0.0,0.0,a b b u s k a j ə n ə
+abbuscà,abbuscà,V;NFIN,0.0,0.0,a b b u s k a
+abbuscà,abbuscava,V;IND;PST;3;SG;IPFV,0.0,0.0,a b b u s k a v ə
+abbuscà,abbuscassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,a b b u s k a s s ə m ə
+abbuscà,abbuscaste,V;IND;PST;2;SG;PFV,0.0,0.0,a b b u s k a s t ə
+abbuscà,abbusca,V;2;SG;IMP,0.0,0.0,a b b u s k ə
+abbuscà,abbuscarria,V;3;SG;COND,0.0,0.0,a b b u s k a r r j ə
+abbuscà,abbuscammo,V;IND;PRS;1;PL,0.0,0.0,a b b u s k a m m ə
+abbuscà,abbuscastevo,V;IND;PST;2;PL;PFV,0.0,0.0,a b b u s k a s t ə v ə
+abbuscà,abbuscarraje,V;2;SG;IND;FUT,0.0,0.0,a b b u s k a r r a j ə
+abbuscà,abbuscassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,a b b u s k a s s ə r ə
+abbuscà,abbuscarriano,V;3;PL;COND,0.0,0.0,a b b u s k a r r j a n ə
+abbuscà,abbuscavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,a b b u s k a v a m ə
+duminà,dumina,V;IND;PRS;3;SG,0.0,0.0,d u m i n ə
+duminà,duminaje,V;IND;PST;1;SG;PFV,0.0,0.0,d u m i n a j ə
+duminà,duminammo,V;1;PL;IMP,0.0,0.0,d u m i n a m m ə
+duminà,duminasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,d u m i n a s s ə
+duminà,duminarrisse,V;2;SG;COND,0.0,0.0,d u m i n a r r i s s ə
+duminà,duminarranno,V;3;PL;IND;FUT,0.0,0.0,d u m i n a r r a n n ə
+duminà,duminassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,d u m i n a s s ɛ v ə
+duminà,duminajemo,V;IND;PST;1;PL;PFV,0.0,0.0,d u m i n a j ə m ə
+duminà,duminavate,V;IND;PST;2;PL;IPFV,0.0,0.0,d u m i n a v a t ə
+duminà,dumine,V;IND;PRS;2;SG,0.0,0.0,d u m i n ə
+duminà,duminarrimmo,V;1;PL;IND;FUT,0.0,0.0,d u m i n a r r i m m ə
+duminà,duminarrissevo,V;2;PL;COND,0.0,0.0,d u m i n a r r i s s ə v ə
+duminà,duminavo,V;IND;PST;1;SG;IPFV,0.0,0.0,d u m i n a v ə
+duminà,duminarrà,V;3;SG;IND;FUT,0.0,0.0,d u m i n a r r a
+duminà,duminano,V;IND;PRS;3;PL,0.0,0.0,d u m i n a n ə
+duminà,duminasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,d u m i n a s s ə
+duminà,duminarria,V;1;SG;COND,0.0,0.0,d u m i n a r r j ə
+duminà,duminasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,d u m i n a s s ə
+duminà,duminavano,V;IND;PST;3;PL;IPFV,0.0,0.0,d u m i n a v a n ə
+duminà,duminate,V;2;PL;IMP,0.0,0.0,d u m i n a t ə
+duminà,duminarrissemo,V;1;PL;COND,0.0,0.0,d u m i n a r r i s s ə m ə
+duminà,duminave,V;IND;PST;2;SG;IPFV,0.0,0.0,d u m i n a v ə
+duminà,dumino,V;IND;PRS;1;SG,0.0,0.0,d u m i n ə
+duminà,duminaje,V;IND;PST;3;SG;PFV,0.0,0.0,d u m i n a j ə
+duminà,dumina,V;2;SG;IMP,0.0,0.0,d u m i n ə
+duminà,duminarrite,V;2;PL;IND;FUT,0.0,0.0,d u m i n a r r i t ə
+duminà,duminate,V;IND;PRS;2;PL,0.0,0.0,d u m i n a t ə
+duminà,duminarraggio,V;1;SG;IND;FUT,0.0,0.0,d u m i n a r r a d d͡ʒ ə
+duminà,dumineno,V;3;PL;IMP,0.0,0.0,d u m i n ə n ə
+duminà,duminajeno,V;IND;PST;3;PL;PFV,0.0,0.0,d u m i n a j ə n ə
+duminà,duminà,V;NFIN,0.0,0.0,d u m i n a
+duminà,duminava,V;IND;PST;3;SG;IPFV,0.0,0.0,d u m i n a v ə
+duminà,duminassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,d u m i n a s s ə m ə
+duminà,duminaste,V;IND;PST;2;SG;PFV,0.0,0.0,d u m i n a s t ə
+duminà,dumina,V;2;SG;IMP,0.0,0.0,d u m i n ə
+duminà,duminarria,V;3;SG;COND,0.0,0.0,d u m i n a r r j ə
+duminà,duminammo,V;IND;PRS;1;PL,0.0,0.0,d u m i n a m m ə
+duminà,duminastevo,V;IND;PST;2;PL;PFV,0.0,0.0,d u m i n a s t ə v ə
+duminà,duminarraje,V;2;SG;IND;FUT,0.0,0.0,d u m i n a r r a j ə
+duminà,duminassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,d u m i n a s s ə r ə
+duminà,duminarriano,V;3;PL;COND,0.0,0.0,d u m i n a r r j a n ə
+duminà,duminavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,d u m i n a v a m ə
+dummenà,dummena,V;IND;PRS;3;SG,0.0,0.0,d u m m ə n ə
+dummenà,dummenaje,V;IND;PST;1;SG;PFV,0.0,0.0,d u m m ə n a j ə
+dummenà,dummenammo,V;1;PL;IMP,0.0,0.0,d u m m ə n a m m ə
+dummenà,dummenasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,d u m m ə n a s s ə
+dummenà,dummenarrisse,V;2;SG;COND,0.0,0.0,d u m m ə n a r r i s s ə
+dummenà,dummenarranno,V;3;PL;IND;FUT,0.0,0.0,d u m m ə n a r r a n n ə
+dummenà,dummenassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,d u m m ə n a s s ɛ v ə
+dummenà,dummenajemo,V;IND;PST;1;PL;PFV,0.0,0.0,d u m m ə n a j ə m ə
+dummenà,dummenavate,V;IND;PST;2;PL;IPFV,0.0,0.0,d u m m ə n a v a t ə
+dummenà,dummene,V;IND;PRS;2;SG,0.0,0.0,d u m m ə n ə
+dummenà,dummenarrimmo,V;1;PL;IND;FUT,0.0,0.0,d u m m ə n a r r i m m ə
+dummenà,dummenarrissevo,V;2;PL;COND,0.0,0.0,d u m m ə n a r r i s s ə v ə
+dummenà,dummenavo,V;IND;PST;1;SG;IPFV,0.0,0.0,d u m m ə n a v ə
+dummenà,dummenarrà,V;3;SG;IND;FUT,0.0,0.0,d u m m ə n a r r a
+dummenà,dummenano,V;IND;PRS;3;PL,0.0,0.0,d u m m ə n a n ə
+dummenà,dummenasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,d u m m ə n a s s ə
+dummenà,dummenarria,V;1;SG;COND,0.0,0.0,d u m m ə n a r r j ə
+dummenà,dummenasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,d u m m ə n a s s ə
+dummenà,dummenavano,V;IND;PST;3;PL;IPFV,0.0,0.0,d u m m ə n a v a n ə
+dummenà,dummenate,V;2;PL;IMP,0.0,0.0,d u m m ə n a t ə
+dummenà,dummenarrissemo,V;1;PL;COND,0.0,0.0,d u m m ə n a r r i s s ə m ə
+dummenà,dummenave,V;IND;PST;2;SG;IPFV,0.0,0.0,d u m m ə n a v ə
+dummenà,dummeno,V;IND;PRS;1;SG,0.0,0.0,d u m m ə n ə
+dummenà,dummenaje,V;IND;PST;3;SG;PFV,0.0,0.0,d u m m ə n a j ə
+dummenà,dummena,V;2;SG;IMP,0.0,0.0,d u m m ə n ə
+dummenà,dummenarrite,V;2;PL;IND;FUT,0.0,0.0,d u m m ə n a r r i t ə
+dummenà,dummenate,V;IND;PRS;2;PL,0.0,0.0,d u m m ə n a t ə
+dummenà,dummenarraggio,V;1;SG;IND;FUT,0.0,0.0,d u m m ə n a r r a d d͡ʒ ə
+dummenà,dummeneno,V;3;PL;IMP,0.0,0.0,d u m m ə n ə n ə
+dummenà,dummenajeno,V;IND;PST;3;PL;PFV,0.0,0.0,d u m m ə n a j ə n ə
+dummenà,dummenà,V;NFIN,0.0,0.0,d u m m ə n a
+dummenà,dummenava,V;IND;PST;3;SG;IPFV,0.0,0.0,d u m m ə n a v ə
+dummenà,dummenassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,d u m m ə n a s s ə m ə
+dummenà,dummenaste,V;IND;PST;2;SG;PFV,0.0,0.0,d u m m ə n a s t ə
+dummenà,dummena,V;2;SG;IMP,0.0,0.0,d u m m ə n ə
+dummenà,dummenarria,V;3;SG;COND,0.0,0.0,d u m m ə n a r r j ə
+dummenà,dummenammo,V;IND;PRS;1;PL,0.0,0.0,d u m m ə n a m m ə
+dummenà,dummenastevo,V;IND;PST;2;PL;PFV,0.0,0.0,d u m m ə n a s t ə v ə
+dummenà,dummenarraje,V;2;SG;IND;FUT,0.0,0.0,d u m m ə n a r r a j ə
+dummenà,dummenassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,d u m m ə n a s s ə r ə
+dummenà,dummenarriano,V;3;PL;COND,0.0,0.0,d u m m ə n a r r j a n ə
+dummenà,dummenavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,d u m m ə n a v ə m ə
+accapputtà,accapputta,V;IND;PRS;3;SG,0.0,0.0,a k k a p p u t t ə
+accapputtà,accapputtaje,V;IND;PST;1;SG;PFV,0.0,0.0,a k k a p p u t t a j ə
+accapputtà,accapputtammo,V;1;PL;IMP,0.0,0.0,a k k a p p u t t a m m ə
+accapputtà,accapputtasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,a k k a p p u t t a s s ə
+accapputtà,accapputtarrisse,V;2;SG;COND,0.0,0.0,a k k a p p u t t a r r i s s ə
+accapputtà,accapputtarranno,V;3;PL;IND;FUT,0.0,0.0,a k k a p p u t t a r r a n n ə
+accapputtà,accapputtassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,a k k a p p u t t a s s e v ə
+accapputtà,accapputtajemo,V;IND;PST;1;PL;PFV,0.0,0.0,a k k a p p u t t a j ə m ə
+accapputtà,accapputtavate,V;IND;PST;2;PL;IPFV,0.0,0.0,a k k a p p u t t a v a t ə
+accapputtà,accapputte,V;IND;PRS;2;SG,0.0,0.0,a k k a p p u t t ə
+accapputtà,accapputtarrimmo,V;1;PL;IND;FUT,0.0,0.0,a k k a p p u t t a r r i m m ə
+accapputtà,accapputtarrissevo,V;2;PL;COND,0.0,0.0,a k k a p p u t t a r r i s s ə v ə
+accapputtà,accapputtavo,V;IND;PST;1;SG;IPFV,0.0,0.0,a k k a p p u t t a v ə
+accapputtà,accapputtarrà,V;3;SG;IND;FUT,0.0,0.0,a k k a p p u t t a r r a
+accapputtà,accapputtano,V;IND;PRS;3;PL,0.0,0.0,a k k a p p u t t a n ə
+accapputtà,accapputtasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,a k k a p p u t t a s s ə
+accapputtà,accapputtarria,V;1;SG;COND,0.0,0.0,a k k a p p u t t a r r j ə
+accapputtà,accapputtasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,a k k a p p u t t a s s ə
+accapputtà,accapputtavano,V;IND;PST;3;PL;IPFV,0.0,0.0,a k k a p p u t t a v a n ə
+accapputtà,accapputtate,V;2;PL;IMP,0.0,0.0,a k k a p p u t t a t ə
+accapputtà,accapputtarrissemo,V;1;PL;COND,0.0,0.0,a k k a p p u t t a r r i s s ə m ə
+accapputtà,accapputtave,V;IND;PST;2;SG;IPFV,0.0,0.0,a k k a p p u t t a v ə
+accapputtà,accapputto,V;IND;PRS;1;SG,0.0,0.0,a k k a p p u t t ə
+accapputtà,accapputtaje,V;IND;PST;3;SG;PFV,0.0,0.0,a k k a p p u t t a j ə
+accapputtà,accapputta,V;2;SG;IMP,0.0,0.0,a k k a p p u t t ə
+accapputtà,accapputtarrite,V;2;PL;IND;FUT,0.0,0.0,a k k a p p u t t a r r i t ə
+accapputtà,accapputtate,V;IND;PRS;2;PL,0.0,0.0,a k k a p p u t t a t ə
+accapputtà,accapputtarraggio,V;1;SG;IND;FUT,0.0,0.0,a k k a p p u t t a r r a d d͡ʒ ə
+accapputtà,accapputteno,V;3;PL;IMP,0.0,0.0,a k k a p p u t t ə n ə
+accapputtà,accapputtajeno,V;IND;PST;3;PL;PFV,0.0,0.0,a k k a p p u t t a j ə n ə
+accapputtà,accapputtà,V;NFIN,0.0,0.0,a k k a p p u t t a
+accapputtà,accapputtava,V;IND;PST;3;SG;IPFV,0.0,0.0,a k k a p p u t t a v ə
+accapputtà,accapputtassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,a k k a p p u t t a s s ə m ə
+accapputtà,accapputtaste,V;IND;PST;2;SG;PFV,0.0,0.0,a k k a p p u t t a s t ə
+accapputtà,accapputta,V;2;SG;IMP,0.0,0.0,a k k a p p u t t ə
+accapputtà,accapputtarria,V;3;SG;COND,0.0,0.0,a k k a p p u t t a r r j ə
+accapputtà,accapputtammo,V;IND;PRS;1;PL,0.0,0.0,a k k a p p u t t a m m ə
+accapputtà,accapputtastevo,V;IND;PST;2;PL;PFV,0.0,0.0,a k k a p p u t t a s t ə v ə
+accapputtà,accapputtarraje,V;2;SG;IND;FUT,0.0,0.0,a k k a p p u t t a r r a j ə
+accapputtà,accapputtassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,a k k a p p u t t a s s ə r ə
+accapputtà,accapputtarriano,V;3;PL;COND,0.0,0.0,a k k a p p u t t a r r j a n ə
+accapputtà,accapputtavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,a k k a p p u t t a v a m ə
+accavallà,accavalla,V;IND;PRS;3;SG,0.0,0.0,a k k a v a l l ə
+accavallà,accavallaje,V;IND;PST;1;SG;PFV,0.0,0.0,a k k a v a l l a j ə
+accavallà,accavallammo,V;1;PL;IMP,0.0,0.0,a k k a v a l l a m m ə
+accavallà,accavallasse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,a k k a v a l l a s s ə
+accavallà,accavallarrisse,V;2;SG;COND,0.0,0.0,a k k a v a l l a r r i s s ə
+accavallà,accavallarranno,V;3;PL;IND;FUT,0.0,0.0,a k k a v a l l a r r a n n ə
+accavallà,accavallassevo,V;SBJV;PST;2;PL;IPFV,0.0,0.0,a k k a v a l l a s s e v ə
+accavallà,accavallajemo,V;IND;PST;1;PL;PFV,0.0,0.0,a k k a v a l l a j ə m ə
+accavallà,accavallavate,V;IND;PST;2;PL;IPFV,0.0,0.0,a k k a v a l l a v a t ə
+accavallà,accavalle,V;IND;PRS;2;SG,0.0,0.0,a k k a v a l l ə
+accavallà,accavallarrimmo,V;1;PL;IND;FUT,0.0,0.0,a k k a v a l l a r r i m m ə
+accavallà,accavallarrissevo,V;2;PL;COND,0.0,0.0,a k k a v a l l a r r i s s e v ə
+accavallà,accavallavo,V;IND;PST;1;SG;IPFV,0.0,0.0,a k k a v a l l a v ə
+accavallà,accavallarrà,V;3;SG;IND;FUT,0.0,0.0,a k k a v a l l a r r a
+accavallà,accavallano,V;IND;PRS;3;PL,0.0,0.0,a k k a v a l l a n ə
+accavallà,accavallasse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,a k k a v a l l a s s ə
+accavallà,accavallarria,V;1;SG;COND,0.0,0.0,a k k a v a l l a r r i ə
+accavallà,accavallasse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,a k k a v a l l a s s ə
+accavallà,accavallavano,V;IND;PST;3;PL;IPFV,0.0,0.0,a k k a v a l l a v a n ə
+accavallà,accavallate,V;2;PL;IMP,0.0,0.0,a k k a v a l l a t ə
+accavallà,accavallarrissemo,V;1;PL;COND,0.0,0.0,a k k a v a l l a r r i s s ə m ə
+accavallà,accavallave,V;IND;PST;2;SG;IPFV,0.0,0.0,a k k a v a l l a v ə
+accavallà,accavallo,V;IND;PRS;1;SG,0.0,0.0,a k k a v a l l ə
+accavallà,accavallaje,V;IND;PST;3;SG;PFV,0.0,0.0,a k k a v a l l a j ə
+accavallà,accavalla,V;2;SG;IMP,0.0,0.0,a k k a v a l l ə
+accavallà,accavallarrite,V;2;PL;IND;FUT,0.0,0.0,a k k a v a l l a r r i t ə
+accavallà,accavallate,V;IND;PRS;2;PL,0.0,0.0,a k k a v a l l a t ə
+accavallà,accavallarraggio,V;1;SG;IND;FUT,0.0,0.0,a k k a v a l l a r r a d d͡ʒ ə
+accavallà,accavalleno,V;3;PL;IMP,0.0,0.0,a k k a v a l l ə n ə
+accavallà,accavallajeno,V;IND;PST;3;PL;PFV,0.0,0.0,a k k a v a l l a j ə n ə
+accavallà,accavallà,V;NFIN,0.0,0.0,a k k a v a l l a
+accavallà,accavallava,V;IND;PST;3;SG;IPFV,0.0,0.0,a k k a v a l l a v ə
+accavallà,accavallassemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,a k k a v a l l a s s ə m ə
+accavallà,accavallaste,V;IND;PST;2;SG;PFV,0.0,0.0,a k k a v a l l a s t ə
+accavallà,accavalla,V;2;SG;IMP,0.0,0.0,a k k a v a l l ə
+accavallà,accavallarria,V;3;SG;COND,0.0,0.0,a k k a v a l l a r r i ə
+accavallà,accavallammo,V;IND;PRS;1;PL,0.0,0.0,a k k a v a l l a m m ə
+accavallà,accavallastevo,V;IND;PST;2;PL;PFV,0.0,0.0,a k k a v a l l a s t ɛ v ə
+accavallà,accavallarraje,V;2;SG;IND;FUT,0.0,0.0,a k k a v a l l a r r a j ə
+accavallà,accavallassero,V;SBJV;PST;3;PL;IPFV,0.0,0.0,a k k a v a l l a s s ə r ə
+accavallà,accavallarriano,V;3;PL;COND,0.0,0.0,a k k a v a l l a r r j a n ə
+accavallà,accavallavamo,V;IND;PST;1;PL;IPFV,0.0,0.0,a k k a v a l l a v a m ə
+accirere,accire,V;IND;PRS;3;SG,0.0,0.0,a t t͡ʃ i r ə
+accirere,accirette,V;IND;PST;1;SG;PFV,0.0,0.0,a t t͡ʃ i r e t t ə
+accirere,acciriamo,V;1;PL;IMP,0.0,0.0,a t t͡ʃ i r j a m ə
+accirere,acciresse,V;SBJV;PST;1;SG;IPFV,0.0,0.0,a t t͡ʃ i r ɛ s s ə
+accirere,accirarrisse,V;2;SG;COND,0.0,0.0,a t t͡ʃ i r a r r i s s ə
+accirere,accirarranno,V;3;PL;IND;FUT,0.0,0.0,a t t͡ʃ i r a r r a n n ə
+accirere,accirisseve,V;SBJV;PST;2;PL;IPFV,0.0,0.0,a t t͡ʃ i r i s s ə v ə
+accirere,accirettemo,V;IND;PST;1;PL;PFV,0.0,0.0,a t t͡ʃ i r e t t ə m ə
+accirere,acciriveve,V;IND;PST;2;PL;IPFV,0.0,0.0,a t t͡ʃ i r i v ɛ v ə
+accirere,accire,V;IND;PRS;2;SG,0.0,0.0,a t t͡ʃ i r ə
+accirere,accirarrammo,V;1;PL;IND;FUT,0.0,0.0,a t t͡ʃ i r a r r a m m ə
+accirere,accirarrisseve,V;2;PL;COND,0.0,0.0,a t t͡ʃ i r a r r i s s ə v ə
+accirere,accirevo,V;IND;PST;1;SG;IPFV,0.0,0.0,a t t͡ʃ i r ə v ə
+accirere,accirarrà,V;3;SG;IND;FUT,0.0,0.0,a t t͡ʃ i r a r r a
+accirere,accirono,V;IND;PRS;3;PL,0.0,0.0,a t t͡ʃ i r o n ə
+accirere,acciresse,V;SBJV;PST;3;SG;IPFV,0.0,0.0,a t t͡ʃ i r ɛ s s ə
+accirere,accirarria,V;1;SG;COND,0.0,0.0,a t t͡ʃ i r a r r i ə
+accirere,accirisse,V;SBJV;PST;2;SG;IPFV,0.0,0.0,a t t͡ʃ i r i s s ə
+accirere,accirevano,V;IND;PST;3;PL;IPFV,0.0,0.0,a t t͡ʃ i r ɛ v ə n ə
+accirere,accirite,V;2;PL;IMP,0.0,0.0,a t t͡ʃ i r i t ə
+accirere,accirarriamo,V;1;PL;COND,0.0,0.0,a t t͡ʃ i r a r r j a m ə
+accirere,accirive,V;IND;PST;2;SG;IPFV,0.0,0.0,a t t͡ʃ i r i v ə
+accirere,acciro,V;IND;PRS;1;SG,0.0,0.0,a t t͡ʃ i r ə
+accirere,accirette,V;IND;PST;3;SG;PFV,0.0,0.0,a t t͡ʃ i r e t t ə
+accirere,accire,V;2;SG;IMP,0.0,0.0,a t t͡ʃ i r ə
+accirere,accirarrate,V;2;PL;IND;FUT,0.0,0.0,a t t͡ʃ i r a r r a t ə
+accirere,accirite,V;IND;PRS;2;PL,0.0,0.0,a t t͡ʃ i r i t ə
+accirere,accirarraggio,V;1;SG;IND;FUT,0.0,0.0,a t t͡ʃ i r a r r a d d͡ʒ ə
+accirere,acciriano,V;3;PL;IMP,0.0,0.0,a t t͡ʃ i r j a n ə
+accirere,acciretteno,V;IND;PST;3;PL;PFV;LGSPEC1,0.0,0.0,a t t͡ʃ i r e t t ə n ə
+accirere,accirettero,V;IND;PST;3;PL;PFV;LGSPEC2,0.0,0.0,a t t͡ʃ i r e t t ə r ə
+accirere,accirere,V;NFIN,0.0,0.0,a t t͡ʃ i r e r ə
+accirere,accireva,V;IND;PST;3;SG;IPFV,0.0,0.0,a t t͡ʃ i r ɛ v ə
+accirere,acciressemo,V;SBJV;PST;1;PL;IPFV,0.0,0.0,a t t͡ʃ i r ɛ s s ə m ə
+accirere,acciriste,V;IND;PST;2;SG;PFV,0.0,0.0,a t t͡ʃ i r i s t ə
+accirere,accire,V;2;SG;IMP,0.0,0.0,a t t͡ʃ i r ə
+accirere,accirarria,V;3;SG;COND,0.0,0.0,a t t͡ʃ i r a r r i ə
+accirere,accirimmo,V;IND;PRS;1;PL,0.0,0.0,a t t͡ʃ i r i m m ə
+accirere,acciristeve,V;IND;PST;2;PL;PFV,0.0,0.0,a t t͡ʃ i r i s t ə v ə
+accirere,accirarraje,V;2;SG;IND;FUT,0.0,0.0,a t t͡ʃ i r a r r a j ə
+accirere,acciresseno,V;SBJV;PST;3;PL;IPFV,0.0,0.0,a t t͡ʃ i r ɛ s s ə n ə
+accirere,accirarriano,V;3;PL;COND,0.0,0.0,a t t͡ʃ i r a r r j a n ə
+accirere,accirevamo,V;IND;PST;1;PL;IPFV,0.0,0.0,a t t͡ʃ i r ɛ v ə m ə

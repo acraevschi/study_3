@@ -1,0 +1,2296 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+lassen,lassen,V;NFIN,0.000979,0.0003016071428571,l a s n̩
+lassen,lasse,V;IND;SG;1;PRS,9.9e-05,0.0003016071428571,l a s ə
+lassen,lassen,V;IND;PL;1;PRS,0.000979,0.0003016071428571,l a s n̩
+lassen,lasse,V;SBJV;SG;1;PRS,9.9e-05,0.0003016071428571,l a s ə
+lassen,lassen,V;SBJV;PL;1;PRS,0.000979,0.0003016071428571,l a s n̩
+lassen,lässt,V;IND;SG;2;PRS,0.000756,0.0003016071428571,l ɛ s t
+lassen,lasst,V;IND;PL;2;PRS,9e-06,0.0003016071428571,l a s t
+lassen,lassest,V;SBJV;SG;2;PRS,0.0,0.0003016071428571,l a s ə s t
+lassen,lasset,V;SBJV;PL;2;PRS,0.0,0.0003016071428571,l a s ə t
+lassen,lässt,V;IND;SG;3;PRS,0.000756,0.0003016071428571,l ɛ s t
+lassen,lassen,V;IND;PL;3;PRS,0.000979,0.0003016071428571,l a s n̩
+lassen,lasse,V;SBJV;SG;3;PRS,9.9e-05,0.0003016071428571,l a s ə
+lassen,lassen,V;SBJV;PL;3;PRS,0.000979,0.0003016071428571,l a s n̩
+lassen,ließ,V;IND;SG;1;PST,0.000369,0.0003016071428571,l iː s
+lassen,ließen,V;IND;PL;1;PST,0.000198,0.0003016071428571,l iː s n̩
+lassen,ließe,V;SBJV;SG;1;PST,4.4e-05,0.0003016071428571,l iː s ə
+lassen,ließen,V;SBJV;PL;1;PST,0.000198,0.0003016071428571,l iː s n̩
+lassen,ließt,V;IND;SG;2;PST,3e-06,0.0003016071428571,l iː s t
+lassen,ließt,V;IND;PL;2;PST,3e-06,0.0003016071428571,l iː s t
+lassen,ließest,V;SBJV;SG;2;PST,0.0,0.0003016071428571,l iː s ə s t
+lassen,ließet,V;SBJV;PL;2;PST,0.0,0.0003016071428571,l iː s ə t
+lassen,ließ,V;IND;SG;3;PST,0.000369,0.0003016071428571,l iː s
+lassen,ließen,V;IND;PL;3;PST,0.000198,0.0003016071428571,l iː s n̩
+lassen,ließe,V;SBJV;SG;3;PST,4.4e-05,0.0003016071428571,l iː s ə
+lassen,ließen,V;SBJV;PL;3;PST,0.000198,0.0003016071428571,l iː s n̩
+lassen,lass,V;IMP;SG;2,0.0,0.0003016071428571,l a s
+lassen,lasse,V;IMP;SG;2,9.9e-05,0.0003016071428571,l a s ə
+lassen,lasst,V;IMP;PL;2,9e-06,0.0003016071428571,l a s t
+müssen,müssen,V;NFIN,0.004676,0.001658074074074,m ʏ s n̩
+müssen,muss,V;IND;SG;1;PRS,0.005498,0.001658074074074,m ʊ s
+müssen,müssen,V;IND;PL;1;PRS,0.004676,0.001658074074074,m ʏ s n̩
+müssen,müsse,V;SBJV;SG;1;PRS,0.001516,0.001658074074074,m ʏ s ə
+müssen,müssen,V;SBJV;PL;1;PRS,0.004676,0.001658074074074,m ʏ s n̩
+müssen,musst,V;IND;SG;2;PRS,8.7e-05,0.001658074074074,m ʊ s t
+müssen,müsst,V;IND;PL;2;PRS,4.5e-05,0.001658074074074,m ʏ s t
+müssen,müssest,V;SBJV;SG;2;PRS,0.0,0.001658074074074,m ʏ s ə s t
+müssen,müsset,V;SBJV;PL;2;PRS,0.0,0.001658074074074,m ʏ s ə t
+müssen,muss,V;IND;SG;3;PRS,0.005498,0.001658074074074,m ʊ s
+müssen,müssen,V;IND;PL;3;PRS,0.004676,0.001658074074074,m ʏ s n̩
+müssen,müsse,V;SBJV;SG;3;PRS,0.001516,0.001658074074074,m ʏ s ə
+müssen,müssen,V;SBJV;PL;3;PRS,0.004676,0.001658074074074,m ʏ s n̩
+müssen,musste,V;IND;SG;1;PST,0.001624,0.001658074074074,m ʊ s t ə
+müssen,mussten,V;IND;PL;1;PST,0.000775,0.001658074074074,m ʊ s t n̩
+müssen,müsste,V;SBJV;SG;1;PST,0.0004,0.001658074074074,m ʏ s t ə
+müssen,müssten,V;SBJV;PL;1;PST,0.000812,0.001658074074074,m ʏ s t n̩
+müssen,musstest,V;IND;SG;2;PST,2e-06,0.001658074074074,m ʊ s t ə s t
+müssen,musstet,V;IND;PL;2;PST,0.0,0.001658074074074,m ʊ s t ə t
+müssen,müsstest,V;SBJV;SG;2;PST,4e-06,0.001658074074074,m ʏ s t ə s t
+müssen,müsstet,V;SBJV;PL;2;PST,0.0,0.001658074074074,m ʏ s t ə t
+müssen,musste,V;IND;SG;3;PST,0.001624,0.001658074074074,m ʊ s t ə
+müssen,mussten,V;IND;PL;3;PST,0.000775,0.001658074074074,m ʊ s t n̩
+müssen,müsste,V;SBJV;SG;3;PST,0.0004,0.001658074074074,m ʏ s t ə
+müssen,müssten,V;SBJV;PL;3;PST,0.000812,0.001658074074074,m ʏ s t n̩
+müssen,— (du),V;IMP;SG;2,0.0,0.001658074074074,d uː
+müssen,— (ihr),V;IMP;PL;2,0.0,0.001658074074074,iː ɐ̯
+verletzen,verletzen,V;NFIN,2.4e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s n̩
+verletzen,verletze,V;IND;SG;1;PRS,1e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s ə
+verletzen,verletzen,V;IND;PL;1;PRS,2.4e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s n̩
+verletzen,verletze,V;SBJV;SG;1;PRS,1e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s ə
+verletzen,verletzen,V;SBJV;PL;1;PRS,2.4e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s n̩
+verletzen,verletzt,V;IND;SG;2;PRS,0.001554,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t
+verletzen,verletzt,V;IND;PL;2;PRS,0.001554,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t
+verletzen,verletzest,V;SBJV;SG;2;PRS,0.0,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s ə s t
+verletzen,verletzet,V;SBJV;PL;2;PRS,0.0,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s ə t
+verletzen,verletzt,V;IND;SG;3;PRS,0.001554,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t
+verletzen,verletzen,V;IND;PL;3;PRS,2.4e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s n̩
+verletzen,verletze,V;SBJV;SG;3;PRS,1e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s ə
+verletzen,verletzen,V;SBJV;PL;3;PRS,2.4e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s n̩
+verletzen,verletzte,V;IND;SG;1;PST,0.000142,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə
+verletzen,verletzten,V;IND;PL;1;PST,4.5e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə n
+verletzen,verletzte,V;SBJV;SG;1;PST,0.000142,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə
+verletzen,verletzten,V;SBJV;PL;1;PST,4.5e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə n
+verletzen,verletztest,V;IND;SG;2;PST,0.0,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə s t
+verletzen,verletztet,V;IND;PL;2;PST,0.0,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə t
+verletzen,verletztest,V;SBJV;SG;2;PST,0.0,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə s t
+verletzen,verletztet,V;SBJV;PL;2;PST,0.0,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə t
+verletzen,verletzte,V;IND;SG;3;PST,0.000142,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə
+verletzen,verletzten,V;IND;PL;3;PST,4.5e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə n
+verletzen,verletzte,V;SBJV;SG;3;PST,0.000142,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə
+verletzen,verletzten,V;SBJV;PL;3;PST,4.5e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t ə n
+verletzen,verletz,V;IMP;SG;2,0.0,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s
+verletzen,verletze,V;IMP;SG;2,1e-05,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s ə
+verletzen,verletzt,V;IMP;PL;2,0.001554,0.0002544285714285,f ɛ ɐ̯ l ɛ t͡s t
+sollen,sollen,V;NFIN,0.004212,0.00265356,z ɔ l ə n
+sollen,soll,V;IND;SG;1;PRS,0.010073,0.00265356,z ɔ l
+sollen,sollen,V;IND;PL;1;PRS,0.004212,0.00265356,z ɔ l ə n
+sollen,solle,V;SBJV;SG;1;PRS,0.000718,0.00265356,z ɔ l ə
+sollen,sollen,V;SBJV;PL;1;PRS,0.004212,0.00265356,z ɔ l ə n
+sollen,sollst,V;IND;SG;2;PRS,3.1e-05,0.00265356,z ɔ l s t
+sollen,sollt,V;IND;PL;2;PRS,2e-05,0.00265356,z ɔ l t
+sollen,sollest,V;SBJV;SG;2;PRS,0.0,0.00265356,z ɔ l ə s t
+sollen,sollet,V;SBJV;PL;2;PRS,0.0,0.00265356,z ɔ l ə t
+sollen,soll,V;IND;SG;3;PRS,0.010073,0.00265356,z ɔ l
+sollen,sollen,V;IND;PL;3;PRS,0.004212,0.00265356,z ɔ l ə n
+sollen,solle,V;SBJV;SG;3;PRS,0.000718,0.00265356,z ɔ l ə
+sollen,sollen,V;SBJV;PL;3;PRS,0.004212,0.00265356,z ɔ l ə n
+sollen,sollte,V;IND;SG;1;PST,0.003725,0.00265356,z ɔ l t ə
+sollen,sollten,V;IND;PL;1;PST,0.002126,0.00265356,z ɔ l t n̩
+sollen,sollte,V;SBJV;SG;1;PST,0.003725,0.00265356,z ɔ l t ə
+sollen,sollten,V;SBJV;PL;1;PST,0.002126,0.00265356,z ɔ l t n̩
+sollen,solltest,V;IND;SG;2;PST,7.8e-05,0.00265356,z ɔ l t ə s t
+sollen,solltet,V;IND;PL;2;PST,4.3e-05,0.00265356,z ɔ l t ə t
+sollen,solltest,V;SBJV;SG;2;PST,7.8e-05,0.00265356,z ɔ l t ə s t
+sollen,solltet,V;SBJV;PL;2;PST,4.3e-05,0.00265356,z ɔ l t ə t
+sollen,sollte,V;IND;SG;3;PST,0.003725,0.00265356,z ɔ l t ə
+sollen,sollten,V;IND;PL;3;PST,0.002126,0.00265356,z ɔ l t n̩
+sollen,sollte,V;SBJV;SG;3;PST,0.003725,0.00265356,z ɔ l t ə
+sollen,sollten,V;SBJV;PL;3;PST,0.002126,0.00265356,z ɔ l t n̩
+langen,langen,V;NFIN,0.000292,0.0002988571428571,l a ŋ ə n
+langen,lange,V;IND;SG;1;PRS,0.001537,0.0002988571428571,l a ŋ ə
+langen,langen,V;IND;PL;1;PRS,0.000292,0.0002988571428571,l a ŋ ə n
+langen,lange,V;SBJV;SG;1;PRS,0.001537,0.0002988571428571,l a ŋ ə
+langen,langen,V;SBJV;PL;1;PRS,0.000292,0.0002988571428571,l a ŋ ə n
+langen,langst,V;IND;SG;2;PRS,0.0,0.0002988571428571,l a ŋ s t
+langen,langt,V;IND;PL;2;PRS,1e-05,0.0002988571428571,l a ŋ t
+langen,langest,V;SBJV;SG;2;PRS,0.0,0.0002988571428571,l a ŋ ə s t
+langen,langet,V;SBJV;PL;2;PRS,0.0,0.0002988571428571,l a ŋ ə t
+langen,langt,V;IND;SG;3;PRS,1e-05,0.0002988571428571,l a ŋ t
+langen,langen,V;IND;PL;3;PRS,0.000292,0.0002988571428571,l a ŋ ə n
+langen,lange,V;SBJV;SG;3;PRS,0.001537,0.0002988571428571,l a ŋ ə
+langen,langen,V;SBJV;PL;3;PRS,0.000292,0.0002988571428571,l a ŋ ə n
+langen,langte,V;IND;SG;1;PST,3e-06,0.0002988571428571,l a ŋ t ə
+langen,langten,V;IND;PL;1;PST,2e-06,0.0002988571428571,l a ŋ t n̩
+langen,langte,V;SBJV;SG;1;PST,3e-06,0.0002988571428571,l a ŋ t ə
+langen,langten,V;SBJV;PL;1;PST,2e-06,0.0002988571428571,l a ŋ t n̩
+langen,langtest,V;IND;SG;2;PST,0.0,0.0002988571428571,l a ŋ t ə s t
+langen,langtet,V;IND;PL;2;PST,0.0,0.0002988571428571,l a ŋ t ə t
+langen,langtest,V;SBJV;SG;2;PST,0.0,0.0002988571428571,l a ŋ t ə s t
+langen,langtet,V;SBJV;PL;2;PST,0.0,0.0002988571428571,l a ŋ t ə t
+langen,langte,V;IND;SG;3;PST,3e-06,0.0002988571428571,l a ŋ t ə
+langen,langten,V;IND;PL;3;PST,2e-06,0.0002988571428571,l a ŋ t n̩
+langen,langte,V;SBJV;SG;3;PST,3e-06,0.0002988571428571,l a ŋ t ə
+langen,langten,V;SBJV;PL;3;PST,2e-06,0.0002988571428571,l a ŋ t n̩
+langen,lang,V;IMP;SG;2,0.00071,0.0002988571428571,l a ŋ
+langen,lange,V;IMP;SG;2,0.001537,0.0002988571428571,l a ŋ ə
+langen,langt,V;IMP;PL;2,1e-05,0.0002988571428571,l a ŋ t
+gelten,gelten,V;NFIN,0.000844,0.0003672727272727,ɡ ɛ l t n̩
+gelten,gelte,V;IND;SG;1;PRS,0.000356,0.0003672727272727,ɡ ɛ l t ə
+gelten,gelten,V;IND;PL;1;PRS,0.000844,0.0003672727272727,ɡ ɛ l t n̩
+gelten,gelte,V;SBJV;SG;1;PRS,0.000356,0.0003672727272727,ɡ ɛ l t ə
+gelten,gelten,V;SBJV;PL;1;PRS,0.000844,0.0003672727272727,ɡ ɛ l t n̩
+gelten,giltst,V;IND;SG;2;PRS,0.0,0.0003672727272727,ɡ ɪ l t͡s t
+gelten,geltet,V;IND;PL;2;PRS,0.0,0.0003672727272727,ɡ ɛ l t ə t
+gelten,geltest,V;SBJV;SG;2;PRS,0.0,0.0003672727272727,ɡ ɛ l t ə s t
+gelten,geltet,V;SBJV;PL;2;PRS,0.0,0.0003672727272727,ɡ ɛ l t ə t
+gelten,gilt,V;IND;SG;3;PRS,0.003042,0.0003672727272727,ɡ ɪ l t
+gelten,gelten,V;IND;PL;3;PRS,0.000844,0.0003672727272727,ɡ ɛ l t n̩
+gelten,gelte,V;SBJV;SG;3;PRS,0.000356,0.0003672727272727,ɡ ɛ l t ə
+gelten,gelten,V;SBJV;PL;3;PRS,0.000844,0.0003672727272727,ɡ ɛ l t n̩
+gelten,galt,V;IND;SG;1;PST,0.00034,0.0003672727272727,ɡ a l t
+gelten,galten,V;IND;PL;1;PST,3e-05,0.0003672727272727,ɡ a l t n̩
+gelten,gälte,V;SBJV;SG;1;PST,2e-06,0.0003672727272727,ɡ ɛ l t ə
+gelten,gölte,V;SBJV;SG;1;PST,0.0,0.0003672727272727,ɡ œ l t ə
+gelten,gälten,V;SBJV;PL;1;PST,2e-06,0.0003672727272727,ɡ ɛ l t n̩
+gelten,gölten,V;SBJV;PL;1;PST,0.0,0.0003672727272727,ɡ œ l t n̩
+gelten,galtest,V;IND;SG;2;PST,0.0,0.0003672727272727,ɡ a l t ə s t
+gelten,galtet,V;IND;PL;2;PST,0.0,0.0003672727272727,ɡ a l t ə t
+gelten,gältest,V;SBJV;SG;2;PST,0.0,0.0003672727272727,ɡ ɛ l t ə s t
+gelten,göltest,V;SBJV;SG;2;PST,0.0,0.0003672727272727,ɡ œ l t ə s t
+gelten,gältet,V;SBJV;PL;2;PST,0.0,0.0003672727272727,ɡ ɛ l t ə t
+gelten,göltet,V;SBJV;PL;2;PST,0.0,0.0003672727272727,ɡ œ l t ə t
+gelten,galt,V;IND;SG;3;PST,0.00034,0.0003672727272727,ɡ a l t
+gelten,galten,V;IND;PL;3;PST,3e-05,0.0003672727272727,ɡ a l t n̩
+gelten,gälte,V;SBJV;SG;3;PST,2e-06,0.0003672727272727,ɡ ɛ l t ə
+gelten,gölte,V;SBJV;SG;3;PST,0.0,0.0003672727272727,ɡ œ l t ə
+gelten,gälten,V;SBJV;PL;3;PST,2e-06,0.0003672727272727,ɡ ɛ l t n̩
+gelten,gölten,V;SBJV;PL;3;PST,0.0,0.0003672727272727,ɡ œ l t n̩
+gelten,gilt,V;IMP;SG;2,0.003042,0.0003672727272727,ɡ ɪ l t
+gelten,geltet,V;IMP;PL;2,0.0,0.0003672727272727,ɡ ɛ l t ə t
+stellen,stellen,V;NFIN,0.00095,0.0004631428571428,ʃ t ɛ l ə n
+stellen,stelle,V;IND;SG;1;PRS,0.000142,0.0004631428571428,ʃ t ɛ l ə
+stellen,stellen,V;IND;PL;1;PRS,0.00095,0.0004631428571428,ʃ t ɛ l ə n
+stellen,stelle,V;SBJV;SG;1;PRS,0.000142,0.0004631428571428,ʃ t ɛ l ə
+stellen,stellen,V;SBJV;PL;1;PRS,0.00095,0.0004631428571428,ʃ t ɛ l ə n
+stellen,stellst,V;IND;SG;2;PRS,3e-06,0.0004631428571428,ʃ t ɛ l s t
+stellen,stellt,V;IND;PL;2;PRS,0.001445,0.0004631428571428,ʃ t ɛ l t
+stellen,stellest,V;SBJV;SG;2;PRS,0.0,0.0004631428571428,ʃ t ɛ l ə s t
+stellen,stellet,V;SBJV;PL;2;PRS,0.0,0.0004631428571428,ʃ t ɛ l ə t
+stellen,stellt,V;IND;SG;3;PRS,0.001445,0.0004631428571428,ʃ t ɛ l t
+stellen,stellen,V;IND;PL;3;PRS,0.00095,0.0004631428571428,ʃ t ɛ l ə n
+stellen,stelle,V;SBJV;SG;3;PRS,0.000142,0.0004631428571428,ʃ t ɛ l ə
+stellen,stellen,V;SBJV;PL;3;PRS,0.00095,0.0004631428571428,ʃ t ɛ l ə n
+stellen,stellte,V;IND;SG;1;PST,0.000618,0.0004631428571428,ʃ t ɛ l t ə
+stellen,stellten,V;IND;PL;1;PST,0.00021,0.0004631428571428,ʃ t ɛ l t n̩
+stellen,stellte,V;SBJV;SG;1;PST,0.000618,0.0004631428571428,ʃ t ɛ l t ə
+stellen,stellten,V;SBJV;PL;1;PST,0.00021,0.0004631428571428,ʃ t ɛ l t n̩
+stellen,stelltest,V;IND;SG;2;PST,0.0,0.0004631428571428,ʃ t ɛ l t ə s t
+stellen,stelltet,V;IND;PL;2;PST,0.0,0.0004631428571428,ʃ t ɛ l t ə t
+stellen,stelltest,V;SBJV;SG;2;PST,0.0,0.0004631428571428,ʃ t ɛ l t ə s t
+stellen,stelltet,V;SBJV;PL;2;PST,0.0,0.0004631428571428,ʃ t ɛ l t ə t
+stellen,stellte,V;IND;SG;3;PST,0.000618,0.0004631428571428,ʃ t ɛ l t ə
+stellen,stellten,V;IND;PL;3;PST,0.00021,0.0004631428571428,ʃ t ɛ l t n̩
+stellen,stellte,V;SBJV;SG;3;PST,0.000618,0.0004631428571428,ʃ t ɛ l t ə
+stellen,stellten,V;SBJV;PL;3;PST,0.00021,0.0004631428571428,ʃ t ɛ l t n̩
+stellen,stell,V;IMP;SG;2,0.0,0.0004631428571428,ʃ t ɛ l
+stellen,stelle,V;IMP;SG;2,0.000142,0.0004631428571428,ʃ t ɛ l ə
+stellen,stellt,V;IMP;PL;2,0.001445,0.0004631428571428,ʃ t ɛ l t
+meinen,meinen,V;NFIN,0.000628,0.0003868571428571,m a ɪ̯ n ə n
+meinen,meine,V;IND;SG;1;PRS,0.001417,0.0003868571428571,m a ɪ̯ n ə
+meinen,meinen,V;IND;PL;1;PRS,0.000628,0.0003868571428571,m a ɪ̯ n ə n
+meinen,meine,V;SBJV;SG;1;PRS,0.001417,0.0003868571428571,m a ɪ̯ n ə
+meinen,meinen,V;SBJV;PL;1;PRS,0.000628,0.0003868571428571,m a ɪ̯ n ə n
+meinen,meinst,V;IND;SG;2;PRS,2.5e-05,0.0003868571428571,m a ɪ̯ n s t
+meinen,meint,V;IND;PL;2;PRS,0.0002,0.0003868571428571,m a ɪ̯ n t
+meinen,meinest,V;SBJV;SG;2;PRS,0.0,0.0003868571428571,m a ɪ̯ n ə s t
+meinen,meinet,V;SBJV;PL;2;PRS,1e-06,0.0003868571428571,m a ɪ̯ n ə t
+meinen,meint,V;IND;SG;3;PRS,0.0002,0.0003868571428571,m a ɪ̯ n t
+meinen,meinen,V;IND;PL;3;PRS,0.000628,0.0003868571428571,m a ɪ̯ n ə n
+meinen,meine,V;SBJV;SG;3;PRS,0.001417,0.0003868571428571,m a ɪ̯ n ə
+meinen,meinen,V;SBJV;PL;3;PRS,0.000628,0.0003868571428571,m a ɪ̯ n ə n
+meinen,meinte,V;IND;SG;1;PST,0.000112,0.0003868571428571,m a ɪ̯ n t ə
+meinen,meinten,V;IND;PL;1;PST,6e-06,0.0003868571428571,m a ɪ̯ n t n̩
+meinen,meinte,V;SBJV;SG;1;PST,0.000112,0.0003868571428571,m a ɪ̯ n t ə
+meinen,meinten,V;SBJV;PL;1;PST,6e-06,0.0003868571428571,m a ɪ̯ n t n̩
+meinen,meintest,V;IND;SG;2;PST,2e-06,0.0003868571428571,m a ɪ̯ n t ə s t
+meinen,meintet,V;IND;PL;2;PST,0.0,0.0003868571428571,m a ɪ̯ n t ə t
+meinen,meintest,V;SBJV;SG;2;PST,2e-06,0.0003868571428571,m a ɪ̯ n t ə s t
+meinen,meintet,V;SBJV;PL;2;PST,0.0,0.0003868571428571,m a ɪ̯ n t ə t
+meinen,meinte,V;IND;SG;3;PST,0.000112,0.0003868571428571,m a ɪ̯ n t ə
+meinen,meinten,V;IND;PL;3;PST,6e-06,0.0003868571428571,m a ɪ̯ n t n̩
+meinen,meinte,V;SBJV;SG;3;PST,0.000112,0.0003868571428571,m a ɪ̯ n t ə
+meinen,meinten,V;SBJV;PL;3;PST,6e-06,0.0003868571428571,m a ɪ̯ n t n̩
+meinen,mein,V;IMP;SG;2,0.000922,0.0003868571428571,m a ɪ̯ n
+meinen,meine,V;IMP;SG;2,0.001417,0.0003868571428571,m a ɪ̯ n ə
+meinen,meint,V;IMP;PL;2,0.0002,0.0003868571428571,m a ɪ̯ n t
+fahren,fahren,V;NFIN,0.000603,0.0002502857142857,f aː ʁ ə n
+fahren,fahre,V;IND;SG;1;PRS,7.4e-05,0.0002502857142857,f aː ʁ ə
+fahren,fahren,V;IND;PL;1;PRS,0.000603,0.0002502857142857,f aː ʁ ə n
+fahren,fahre,V;SBJV;SG;1;PRS,7.4e-05,0.0002502857142857,f aː ʁ ə
+fahren,fahren,V;SBJV;PL;1;PRS,0.000603,0.0002502857142857,f aː ʁ ə n
+fahren,fährst,V;IND;SG;2;PRS,7e-06,0.0002502857142857,f eː ɐ̯ s t
+fahren,fahrt,V;IND;PL;2;PRS,6e-06,0.0002502857142857,f aː ɐ̯ t
+fahren,fahrest,V;SBJV;SG;2;PRS,0.0,0.0002502857142857,f aː ʁ ə s t
+fahren,fahret,V;SBJV;PL;2;PRS,0.0,0.0002502857142857,f aː ʁ ə t
+fahren,fährt,V;IND;SG;3;PRS,0.000464,0.0002502857142857,f eː ɐ̯ t
+fahren,fahren,V;IND;PL;3;PRS,0.000603,0.0002502857142857,f aː ʁ ə n
+fahren,fahre,V;SBJV;SG;3;PRS,7.4e-05,0.0002502857142857,f aː ʁ ə
+fahren,fahren,V;SBJV;PL;3;PRS,0.000603,0.0002502857142857,f aː ʁ ə n
+fahren,fuhr,V;IND;SG;1;PST,0.000386,0.0002502857142857,f uː ɐ̯
+fahren,fuhren,V;IND;PL;1;PST,0.000171,0.0002502857142857,f uː ʁ ə n
+fahren,führe,V;SBJV;SG;1;PST,0.000108,0.0002502857142857,f yː ʁ ə
+fahren,führen,V;SBJV;PL;1;PST,0.000941,0.0002502857142857,f yː ʁ ə n
+fahren,fuhrst,V;IND;SG;2;PST,0.0,0.0002502857142857,f uː ɐ̯ s t
+fahren,fuhrt,V;IND;PL;2;PST,1e-06,0.0002502857142857,f uː ɐ̯ t
+fahren,führest,V;SBJV;SG;2;PST,0.0,0.0002502857142857,f yː ʁ ə s t
+fahren,führet,V;SBJV;PL;2;PST,1e-06,0.0002502857142857,f yː ʁ ə t
+fahren,fuhr,V;IND;SG;3;PST,0.000386,0.0002502857142857,f uː ɐ̯
+fahren,fuhren,V;IND;PL;3;PST,0.000171,0.0002502857142857,f uː ʁ ə n
+fahren,führe,V;SBJV;SG;3;PST,0.000108,0.0002502857142857,f yː ʁ ə
+fahren,führen,V;SBJV;PL;3;PST,0.000941,0.0002502857142857,f yː ʁ ə n
+fahren,fahr,V;IMP;SG;2,0.0,0.0002502857142857,f aː ɐ̯
+fahren,fahre,V;IMP;SG;2,7.4e-05,0.0002502857142857,f aː ʁ ə
+fahren,fahrt,V;IMP;PL;2,6e-06,0.0002502857142857,f aː ɐ̯ t
+umhinkönnen,umhinkönnen,V;NFIN,0.0,0.0028053846153846,ʊ m h ɪ n k œ n ə n
+umhinkönnen,umhinzukönnen,V;NFIN;LGSPEC01,0.0,0.0028053846153846,ʊ m h ɪ n t͡s uː k œ n ə n
+umhinkönnen,kann,V;IND;SG;1;PRS,0.010935,0.0028053846153846,k a n
+umhinkönnen,können,V;IND;PL;1;PRS,0.008431,0.0028053846153846,k œ n ə n
+umhinkönnen,könne,V;SBJV;SG;1;PRS,0.000989,0.0028053846153846,k œ n ə
+umhinkönnen,können,V;SBJV;PL;1;PRS,0.008431,0.0028053846153846,k œ n ə n
+umhinkönnen,kannst,V;IND;SG;2;PRS,0.000338,0.0028053846153846,k a n s t
+umhinkönnen,könnt,V;IND;PL;2;PRS,0.00028,0.0028053846153846,k œ n t
+umhinkönnen,könnest,V;SBJV;SG;2;PRS,0.0,0.0028053846153846,k œ n ə s t
+umhinkönnen,könnet,V;SBJV;PL;2;PRS,1e-06,0.0028053846153846,k œ n ə t
+umhinkönnen,kann,V;IND;SG;3;PRS,0.010935,0.0028053846153846,k a n
+umhinkönnen,können,V;IND;PL;3;PRS,0.008431,0.0028053846153846,k œ n ə n
+umhinkönnen,könne,V;SBJV;SG;3;PRS,0.000989,0.0028053846153846,k œ n ə
+umhinkönnen,können,V;SBJV;PL;3;PRS,0.008431,0.0028053846153846,k œ n ə n
+umhinkönnen,konnte,V;IND;SG;1;PST,0.002899,0.0028053846153846,k ɔ n t ə
+umhinkönnen,konnten,V;IND;PL;1;PST,0.001337,0.0028053846153846,k ɔ n t ə n
+umhinkönnen,könnte,V;SBJV;SG;1;PST,0.002084,0.0028053846153846,k œ n t ə
+umhinkönnen,könnten,V;SBJV;PL;1;PST,0.001041,0.0028053846153846,k œ n t ə n
+umhinkönnen,konntest,V;IND;SG;2;PST,4e-06,0.0028053846153846,k ɔ n t ə s t
+umhinkönnen,konntet,V;IND;PL;2;PST,2e-06,0.0028053846153846,k ɔ n t ə t
+umhinkönnen,könntest,V;SBJV;SG;2;PST,1.7e-05,0.0028053846153846,k œ n t ə s t
+umhinkönnen,könntet,V;SBJV;PL;2;PST,4e-06,0.0028053846153846,k œ n t ə t
+umhinkönnen,konnte,V;IND;SG;3;PST,0.002899,0.0028053846153846,k ɔ n t ə
+umhinkönnen,konnten,V;IND;PL;3;PST,0.001337,0.0028053846153846,k ɔ n t ə n
+umhinkönnen,könnte,V;SBJV;SG;3;PST,0.002084,0.0028053846153846,k œ n t ə
+umhinkönnen,könnten,V;SBJV;PL;3;PST,0.001041,0.0028053846153846,k œ n t ə n
+wollen,wollen,V;NFIN,0.002507,0.0012500399999999,v ɔ l ə n
+wollen,will,V;IND;SG;1;PRS,0.004357,0.0012500399999999,v ɪ l
+wollen,wollen,V;IND;PL;1;PRS,0.002507,0.0012500399999999,v ɔ l ə n
+wollen,wolle,V;SBJV;SG;1;PRS,0.000389,0.0012500399999999,v ɔ l ə
+wollen,wollen,V;SBJV;PL;1;PRS,0.002507,0.0012500399999999,v ɔ l ə n
+wollen,willst,V;IND;SG;2;PRS,8.9e-05,0.0012500399999999,v ɪ l s t
+wollen,wollt,V;IND;PL;2;PRS,5.7e-05,0.0012500399999999,v ɔ l t
+wollen,wollest,V;SBJV;SG;2;PRS,0.0,0.0012500399999999,v ɔ l ə s t
+wollen,wollet,V;SBJV;PL;2;PRS,0.0,0.0012500399999999,v ɔ l ə t
+wollen,will,V;IND;SG;3;PRS,0.004357,0.0012500399999999,v ɪ l
+wollen,wollen,V;IND;PL;3;PRS,0.002507,0.0012500399999999,v ɔ l ə n
+wollen,wolle,V;SBJV;SG;3;PRS,0.000389,0.0012500399999999,v ɔ l ə
+wollen,wollen,V;SBJV;PL;3;PRS,0.002507,0.0012500399999999,v ɔ l ə n
+wollen,wollte,V;IND;SG;1;PST,0.001762,0.0012500399999999,v ɔ l t ə
+wollen,wollten,V;IND;PL;1;PST,0.000495,0.0012500399999999,v ɔ l t n̩
+wollen,wollte,V;SBJV;SG;1;PST,0.001762,0.0012500399999999,v ɔ l t ə
+wollen,wollten,V;SBJV;PL;1;PST,0.000495,0.0012500399999999,v ɔ l t n̩
+wollen,wolltest,V;IND;SG;2;PST,1.9e-05,0.0012500399999999,v ɔ l t ə s t
+wollen,wolltet,V;IND;PL;2;PST,6e-06,0.0012500399999999,v ɔ l t ə t
+wollen,wolltest,V;SBJV;SG;2;PST,1.9e-05,0.0012500399999999,v ɔ l t ə s t
+wollen,wolltet,V;SBJV;PL;2;PST,6e-06,0.0012500399999999,v ɔ l t ə t
+wollen,wollte,V;IND;SG;3;PST,0.001762,0.0012500399999999,v ɔ l t ə
+wollen,wollten,V;IND;PL;3;PST,0.000495,0.0012500399999999,v ɔ l t n̩
+wollen,wollte,V;SBJV;SG;3;PST,0.001762,0.0012500399999999,v ɔ l t ə
+wollen,wollten,V;SBJV;PL;3;PST,0.000495,0.0012500399999999,v ɔ l t n̩
+bringen,bringen,V;NFIN,0.000687,0.0002909642857142,b ʁ ɪ ŋ ə n
+bringen,bringe,V;IND;SG;1;PRS,6.6e-05,0.0002909642857142,b ʁ ɪ ŋ ə
+bringen,bringen,V;IND;PL;1;PRS,0.000687,0.0002909642857142,b ʁ ɪ ŋ ə n
+bringen,bringe,V;SBJV;SG;1;PRS,6.6e-05,0.0002909642857142,b ʁ ɪ ŋ ə
+bringen,bringen,V;SBJV;PL;1;PRS,0.000687,0.0002909642857142,b ʁ ɪ ŋ ə n
+bringen,bringst,V;IND;SG;2;PRS,3e-06,0.0002909642857142,b ʁ ɪ ŋ s t
+bringen,bringt,V;IND;PL;2;PRS,0.000955,0.0002909642857142,b ʁ ɪ ŋ t
+bringen,bringest,V;SBJV;SG;2;PRS,0.0,0.0002909642857142,b ʁ ɪ ŋ ə s t
+bringen,bringet,V;SBJV;PL;2;PRS,0.0,0.0002909642857142,b ʁ ɪ ŋ ə t
+bringen,bringt,V;IND;SG;3;PRS,0.000955,0.0002909642857142,b ʁ ɪ ŋ t
+bringen,bringen,V;IND;PL;3;PRS,0.000687,0.0002909642857142,b ʁ ɪ ŋ ə n
+bringen,bringe,V;SBJV;SG;3;PRS,6.6e-05,0.0002909642857142,b ʁ ɪ ŋ ə
+bringen,bringen,V;SBJV;PL;3;PRS,0.000687,0.0002909642857142,b ʁ ɪ ŋ ə n
+bringen,brachte,V;IND;SG;1;PST,0.000594,0.0002909642857142,b ʁ a x t ə
+bringen,brachten,V;IND;PL;1;PST,0.000179,0.0002909642857142,b ʁ a x t ə n
+bringen,brächte,V;SBJV;SG;1;PST,7e-06,0.0002909642857142,b ʁ ɛ ç t ə
+bringen,brächten,V;SBJV;PL;1;PST,9e-06,0.0002909642857142,b ʁ ɛ ç t n̩
+bringen,brachtest,V;IND;SG;2;PST,1e-06,0.0002909642857142,b ʁ a x t ə s t
+bringen,brachtet,V;IND;PL;2;PST,0.0,0.0002909642857142,b ʁ a x t ə t
+bringen,brächtest,V;SBJV;SG;2;PST,0.0,0.0002909642857142,b ʁ ɛ ç t ə s t
+bringen,brächtet,V;SBJV;PL;2;PST,0.0,0.0002909642857142,b ʁ ɛ ç t ə t
+bringen,brachte,V;IND;SG;3;PST,0.000594,0.0002909642857142,b ʁ a x t ə
+bringen,brachten,V;IND;PL;3;PST,0.000179,0.0002909642857142,b ʁ a x t ə n
+bringen,brächte,V;SBJV;SG;3;PST,7e-06,0.0002909642857142,b ʁ ɛ ç t ə
+bringen,brächten,V;SBJV;PL;3;PST,9e-06,0.0002909642857142,b ʁ ɛ ç t n̩
+bringen,bring,V;IMP;SG;2,1e-06,0.0002909642857142,b ʁ ɪ ŋ
+bringen,bringe,V;IMP;SG;2,6.6e-05,0.0002909642857142,b ʁ ɪ ŋ ə
+bringen,bringt,V;IMP;PL;2,0.000955,0.0002909642857142,b ʁ ɪ ŋ t
+letzen,letzen,V;NFIN,1.5e-05,0.0003732499999999,l ɛ t͡s n̩
+letzen,letze,V;IND;SG;1;PRS,5e-06,0.0003732499999999,l ɛ t͡s ə
+letzen,letzen,V;IND;PL;1;PRS,1.5e-05,0.0003732499999999,l ɛ t͡s n̩
+letzen,letze,V;SBJV;SG;1;PRS,5e-06,0.0003732499999999,l ɛ t͡s ə
+letzen,letzen,V;SBJV;PL;1;PRS,1.5e-05,0.0003732499999999,l ɛ t͡s n̩
+letzen,letzt,V;IND;SG;2;PRS,0.0,0.0003732499999999,l ɛ t͡s t
+letzen,letzt,V;IND;PL;2;PRS,0.0,0.0003732499999999,l ɛ t͡s t
+letzen,letzest,V;SBJV;SG;2;PRS,0.0,0.0003732499999999,l ɛ t͡s ə s t
+letzen,letzet,V;SBJV;PL;2;PRS,0.0,0.0003732499999999,l ɛ t͡s ə t
+letzen,letzt,V;IND;SG;3;PRS,0.0,0.0003732499999999,l ɛ t͡s t
+letzen,letzen,V;IND;PL;3;PRS,1.5e-05,0.0003732499999999,l ɛ t͡s n̩
+letzen,letze,V;SBJV;SG;3;PRS,5e-06,0.0003732499999999,l ɛ t͡s ə
+letzen,letzen,V;SBJV;PL;3;PRS,1.5e-05,0.0003732499999999,l ɛ t͡s n̩
+letzen,letzte,V;IND;SG;1;PST,0.001129,0.0003732499999999,l ɛ t͡s t ə
+letzen,letzten,V;IND;PL;1;PST,0.00146,0.0003732499999999,l ɛ t͡s t n̩
+letzen,letzte,V;SBJV;SG;1;PST,0.001129,0.0003732499999999,l ɛ t͡s t ə
+letzen,letzten,V;SBJV;PL;1;PST,0.00146,0.0003732499999999,l ɛ t͡s t n̩
+letzen,letztest,V;IND;SG;2;PST,0.0,0.0003732499999999,l ɛ t͡s t ə s t
+letzen,letztet,V;IND;PL;2;PST,0.0,0.0003732499999999,l ɛ t͡s t ə t
+letzen,letztest,V;SBJV;SG;2;PST,0.0,0.0003732499999999,l ɛ t͡s t ə s t
+letzen,letztet,V;SBJV;PL;2;PST,0.0,0.0003732499999999,l ɛ t͡s t ə t
+letzen,letzte,V;IND;SG;3;PST,0.001129,0.0003732499999999,l ɛ t͡s t ə
+letzen,letzten,V;IND;PL;3;PST,0.00146,0.0003732499999999,l ɛ t͡s t n̩
+letzen,letzte,V;SBJV;SG;3;PST,0.001129,0.0003732499999999,l ɛ t͡s t ə
+letzen,letzten,V;SBJV;PL;3;PST,0.00146,0.0003732499999999,l ɛ t͡s t n̩
+letzen,letz,V;IMP;SG;2,0.0,0.0003732499999999,l ɛ t͡s
+letzen,letze,V;IMP;SG;2,5e-06,0.0003732499999999,l ɛ t͡s ə
+letzen,letzt,V;IMP;PL;2,0.0,0.0003732499999999,l ɛ t͡s t
+leben,leben,V;NFIN,0.000892,0.0003067857142857,l eː b n̩
+leben,lebe,V;IND;SG;1;PRS,0.000171,0.0003067857142857,l eː b ə
+leben,leben,V;IND;PL;1;PRS,0.000892,0.0003067857142857,l eː b n̩
+leben,lebe,V;SBJV;SG;1;PRS,0.000171,0.0003067857142857,l eː b ə
+leben,leben,V;SBJV;PL;1;PRS,0.000892,0.0003067857142857,l eː b n̩
+leben,lebst,V;IND;SG;2;PRS,9e-06,0.0003067857142857,l eː p s t
+leben,lebt,V;IND;PL;2;PRS,0.000811,0.0003067857142857,l eː p t
+leben,lebest,V;SBJV;SG;2;PRS,0.0,0.0003067857142857,l eː b ə s t
+leben,lebet,V;SBJV;PL;2;PRS,0.0,0.0003067857142857,l eː b ə t
+leben,lebt,V;IND;SG;3;PRS,0.000811,0.0003067857142857,l eː p t
+leben,leben,V;IND;PL;3;PRS,0.000892,0.0003067857142857,l eː b n̩
+leben,lebe,V;SBJV;SG;3;PRS,0.000171,0.0003067857142857,l eː b ə
+leben,leben,V;SBJV;PL;3;PRS,0.000892,0.0003067857142857,l eː b n̩
+leben,lebte,V;IND;SG;1;PST,0.000169,0.0003067857142857,l eː p t ə
+leben,lebten,V;IND;PL;1;PST,8.2e-05,0.0003067857142857,l eː p t ə n
+leben,lebte,V;SBJV;SG;1;PST,0.000169,0.0003067857142857,l eː p t ə
+leben,lebten,V;SBJV;PL;1;PST,8.2e-05,0.0003067857142857,l eː p t ə n
+leben,lebtest,V;IND;SG;2;PST,0.0,0.0003067857142857,l eː p t ə s t
+leben,lebtet,V;IND;PL;2;PST,0.0,0.0003067857142857,l eː p t ə t
+leben,lebtest,V;SBJV;SG;2;PST,0.0,0.0003067857142857,l eː p t ə s t
+leben,lebtet,V;SBJV;PL;2;PST,0.0,0.0003067857142857,l eː p t ə t
+leben,lebte,V;IND;SG;3;PST,0.000169,0.0003067857142857,l eː p t ə
+leben,lebten,V;IND;PL;3;PST,8.2e-05,0.0003067857142857,l eː p t ə n
+leben,lebte,V;SBJV;SG;3;PST,0.000169,0.0003067857142857,l eː p t ə
+leben,lebten,V;SBJV;PL;3;PST,8.2e-05,0.0003067857142857,l eː p t ə n
+leben,leb,V;IMP;SG;2,0.0,0.0003067857142857,l eː p
+leben,lebe,V;IMP;SG;2,0.000171,0.0003067857142857,l eː b ə
+leben,lebt,V;IMP;PL;2,0.000811,0.0003067857142857,l eː p t
+erwarten,erwarten,V;NFIN,0.000777,0.0005388518518518,ɛ ɐ̯ v a ʁ t n̩
+erwarten,erwarte,V;IND;SG;1;PRS,0.000116,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə
+erwarten,erwarten,V;IND;PL;1;PRS,0.000777,0.0005388518518518,ɛ ɐ̯ v a ʁ t n̩
+erwarten,erwarte,V;SBJV;SG;1;PRS,0.000116,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə
+erwarten,erwarten,V;SBJV;PL;1;PRS,0.000777,0.0005388518518518,ɛ ɐ̯ v a ʁ t n̩
+erwarten,erwartest,V;IND;SG;2;PRS,1.2e-05,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə s t
+erwarten,erwartet,V;IND;PL;2;PRS,0.002363,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t
+erwarten,erwartest,V;SBJV;SG;2;PRS,1.2e-05,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə s t
+erwarten,erwartet,V;SBJV;PL;2;PRS,0.002363,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t
+erwarten,erwartet,V;IND;SG;3;PRS,0.002363,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t
+erwarten,erwarten,V;IND;PL;3;PRS,0.000777,0.0005388518518518,ɛ ɐ̯ v a ʁ t n̩
+erwarten,erwarte,V;SBJV;SG;3;PRS,0.000116,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə
+erwarten,erwarten,V;SBJV;PL;3;PRS,0.000777,0.0005388518518518,ɛ ɐ̯ v a ʁ t n̩
+erwarten,erwartete,V;IND;SG;1;PST,0.000118,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə
+erwarten,erwarteten,V;IND;PL;1;PST,6.3e-05,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə n
+erwarten,erwartete,V;SBJV;SG;1;PST,0.000118,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə
+erwarten,erwarteten,V;SBJV;PL;1;PST,6.3e-05,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə n
+erwarten,erwartetest,V;IND;SG;2;PST,0.0,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə s t
+erwarten,erwartetet,V;IND;PL;2;PST,0.0,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə t
+erwarten,erwartetest,V;SBJV;SG;2;PST,0.0,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə s t
+erwarten,erwartetet,V;SBJV;PL;2;PST,0.0,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə t
+erwarten,erwartete,V;IND;SG;3;PST,0.000118,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə
+erwarten,erwarteten,V;IND;PL;3;PST,6.3e-05,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə n
+erwarten,erwartete,V;SBJV;SG;3;PST,0.000118,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə
+erwarten,erwarteten,V;SBJV;PL;3;PST,6.3e-05,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t ə n
+erwarten,erwarte,V;IMP;SG;2,0.000116,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə
+erwarten,erwartet,V;IMP;PL;2,0.002363,0.0005388518518518,ɛ ɐ̯ v a ʁ t ə t
+gehen,gehen,V;NFIN,0.002137,0.0015108214285714,ɡ eː ə n
+gehen,gehe,V;IND;SG;1;PRS,0.000577,0.0015108214285714,ɡ eː ə
+gehen,gehen,V;IND;PL;1;PRS,0.002137,0.0015108214285714,ɡ eː ə n
+gehen,gehe,V;SBJV;SG;1;PRS,0.000577,0.0015108214285714,ɡ eː ə
+gehen,gehen,V;SBJV;PL;1;PRS,0.002137,0.0015108214285714,ɡ eː ə n
+gehen,gehst,V;IND;SG;2;PRS,2.3e-05,0.0015108214285714,ɡ eː s t
+gehen,geht,V;IND;PL;2;PRS,0.006756,0.0015108214285714,ɡ eː t
+gehen,gehest,V;SBJV;SG;2;PRS,0.0,0.0015108214285714,ɡ eː ə s t
+gehen,gehet,V;SBJV;PL;2;PRS,0.0,0.0015108214285714,ɡ eː ə t
+gehen,geht,V;IND;SG;3;PRS,0.006756,0.0015108214285714,ɡ eː t
+gehen,gehen,V;IND;PL;3;PRS,0.002137,0.0015108214285714,ɡ eː ə n
+gehen,gehe,V;SBJV;SG;3;PRS,0.000577,0.0015108214285714,ɡ eː ə
+gehen,gehen,V;SBJV;PL;3;PRS,0.002137,0.0015108214285714,ɡ eː ə n
+gehen,ging,V;IND;SG;1;PST,0.002894,0.0015108214285714,ɡ ɪ ŋ
+gehen,gingen,V;IND;PL;1;PST,0.000776,0.0015108214285714,ɡ ɪ ŋ ə n
+gehen,ginge,V;SBJV;SG;1;PST,6.1e-05,0.0015108214285714,ɡ ɪ ŋ ə
+gehen,gingen,V;SBJV;PL;1;PST,0.000776,0.0015108214285714,ɡ ɪ ŋ ə n
+gehen,gingst,V;IND;SG;2;PST,1e-06,0.0015108214285714,ɡ ɪ ŋ s t
+gehen,gingt,V;IND;PL;2;PST,0.0,0.0015108214285714,ɡ ɪ ŋ t
+gehen,gingest,V;SBJV;SG;2;PST,0.0,0.0015108214285714,ɡ ɪ ŋ ə s t
+gehen,ginget,V;SBJV;PL;2;PST,0.0,0.0015108214285714,ɡ ɪ ŋ ə t
+gehen,ging,V;IND;SG;3;PST,0.002894,0.0015108214285714,ɡ ɪ ŋ
+gehen,gingen,V;IND;PL;3;PST,0.000776,0.0015108214285714,ɡ ɪ ŋ ə n
+gehen,ginge,V;SBJV;SG;3;PST,6.1e-05,0.0015108214285714,ɡ ɪ ŋ ə
+gehen,gingen,V;SBJV;PL;3;PST,0.000776,0.0015108214285714,ɡ ɪ ŋ ə n
+gehen,geh,V;IMP;SG;2,4e-06,0.0015108214285714,ɡ eː
+gehen,gehe,V;IMP;SG;2,0.000577,0.0015108214285714,ɡ eː ə
+gehen,geht,V;IMP;PL;2,0.006756,0.0015108214285714,ɡ eː t
+mehren,mehren,V;NFIN,3.3e-05,0.0002241428571428,m eː ʁ ə n
+mehren,mehre,V;IND;SG;1;PRS,0.0,0.0002241428571428,m eː ʁ ə
+mehren,mehren,V;IND;PL;1;PRS,3.3e-05,0.0002241428571428,m eː ʁ ə n
+mehren,mehre,V;SBJV;SG;1;PRS,0.0,0.0002241428571428,m eː ʁ ə
+mehren,mehren,V;SBJV;PL;1;PRS,3.3e-05,0.0002241428571428,m eː ʁ ə n
+mehren,mehrt,V;IND;SG;2;PRS,5e-06,0.0002241428571428,m eː ɐ̯ t
+mehren,mehrt,V;IND;PL;2;PRS,5e-06,0.0002241428571428,m eː ɐ̯ t
+mehren,mehrest,V;SBJV;SG;2;PRS,0.0,0.0002241428571428,m eː ʁ ə s t
+mehren,mehret,V;SBJV;PL;2;PRS,0.0,0.0002241428571428,m eː ʁ ə t
+mehren,mehrt,V;IND;SG;3;PRS,5e-06,0.0002241428571428,m eː ɐ̯ t
+mehren,mehren,V;IND;PL;3;PRS,3.3e-05,0.0002241428571428,m eː ʁ ə n
+mehren,mehre,V;SBJV;SG;3;PRS,0.0,0.0002241428571428,m eː ʁ ə
+mehren,mehren,V;SBJV;PL;3;PRS,3.3e-05,0.0002241428571428,m eː ʁ ə n
+mehren,mehrte,V;IND;SG;1;PST,2e-06,0.0002241428571428,m eː ɐ̯ t ə
+mehren,mehrten,V;IND;PL;1;PST,9e-06,0.0002241428571428,m eː ɐ̯ t n̩
+mehren,mehrte,V;SBJV;SG;1;PST,2e-06,0.0002241428571428,m eː ɐ̯ t ə
+mehren,mehrten,V;SBJV;PL;1;PST,9e-06,0.0002241428571428,m eː ɐ̯ t n̩
+mehren,mehrtest,V;IND;SG;2;PST,0.0,0.0002241428571428,m eː ɐ̯ t ə s t
+mehren,mehrtet,V;IND;PL;2;PST,0.0,0.0002241428571428,m eː ɐ̯ t ə t
+mehren,mehrtest,V;SBJV;SG;2;PST,0.0,0.0002241428571428,m eː ɐ̯ t ə s t
+mehren,mehrtet,V;SBJV;PL;2;PST,0.0,0.0002241428571428,m eː ɐ̯ t ə t
+mehren,mehrte,V;IND;SG;3;PST,2e-06,0.0002241428571428,m eː ɐ̯ t ə
+mehren,mehrten,V;IND;PL;3;PST,9e-06,0.0002241428571428,m eː ɐ̯ t n̩
+mehren,mehrte,V;SBJV;SG;3;PST,2e-06,0.0002241428571428,m eː ɐ̯ t ə
+mehren,mehrten,V;SBJV;PL;3;PST,9e-06,0.0002241428571428,m eː ɐ̯ t n̩
+mehren,mehr,V;IMP;SG;2,0.006047,0.0002241428571428,m eː ɐ̯
+mehren,mehre,V;IMP;SG;2,0.0,0.0002241428571428,m eː ʁ ə
+mehren,mehrt,V;IMP;PL;2,5e-06,0.0002241428571428,m eː ɐ̯ t
+halten,halten,V;NFIN,0.001005,0.0003287777777777,h a l t n̩
+halten,halte,V;IND;SG;1;PRS,0.000198,0.0003287777777777,h a l t ə
+halten,halten,V;IND;PL;1;PRS,0.001005,0.0003287777777777,h a l t n̩
+halten,halte,V;SBJV;SG;1;PRS,0.000198,0.0003287777777777,h a l t ə
+halten,halten,V;SBJV;PL;1;PRS,0.001005,0.0003287777777777,h a l t n̩
+halten,hältst,V;IND;SG;2;PRS,1.2e-05,0.0003287777777777,h ɛ l t͡s t
+halten,haltet,V;IND;PL;2;PRS,3.3e-05,0.0003287777777777,h a l t ə t
+halten,haltest,V;SBJV;SG;2;PRS,0.0,0.0003287777777777,h a l t ə s t
+halten,haltet,V;SBJV;PL;2;PRS,3.3e-05,0.0003287777777777,h a l t ə t
+halten,hält,V;IND;SG;3;PRS,0.001211,0.0003287777777777,h ɛ l t
+halten,halten,V;IND;PL;3;PRS,0.001005,0.0003287777777777,h a l t n̩
+halten,halte,V;SBJV;SG;3;PRS,0.000198,0.0003287777777777,h a l t ə
+halten,halten,V;SBJV;PL;3;PRS,0.001005,0.0003287777777777,h a l t n̩
+halten,hielt,V;IND;SG;1;PST,0.000518,0.0003287777777777,h iː l t
+halten,hielten,V;IND;PL;1;PST,0.000174,0.0003287777777777,h iː l t n̩
+halten,hielte,V;SBJV;SG;1;PST,3e-06,0.0003287777777777,h iː l t ə
+halten,hielten,V;SBJV;PL;1;PST,0.000174,0.0003287777777777,h iː l t n̩
+halten,hieltest,V;IND;SG;2;PST,0.0,0.0003287777777777,h iː l t ə s t
+halten,hieltet,V;IND;PL;2;PST,0.0,0.0003287777777777,h iː l t ə t
+halten,hieltest,V;SBJV;SG;2;PST,0.0,0.0003287777777777,h iː l t ə s t
+halten,hieltet,V;SBJV;PL;2;PST,0.0,0.0003287777777777,h iː l t ə t
+halten,hielt,V;IND;SG;3;PST,0.000518,0.0003287777777777,h iː l t
+halten,hielten,V;IND;PL;3;PST,0.000174,0.0003287777777777,h iː l t n̩
+halten,hielte,V;SBJV;SG;3;PST,3e-06,0.0003287777777777,h iː l t ə
+halten,hielten,V;SBJV;PL;3;PST,0.000174,0.0003287777777777,h iː l t n̩
+halten,halte,V;IMP;SG;2,0.000198,0.0003287777777777,h a l t ə
+halten,haltet,V;IMP;PL;2,3.3e-05,0.0003287777777777,h a l t ə t
+ziehen,ziehen,V;NFIN,0.000542,0.0002408928571428,t͡s iː ə n
+ziehen,ziehe,V;IND;SG;1;PRS,5.1e-05,0.0002408928571428,t͡s iː ə
+ziehen,ziehen,V;IND;PL;1;PRS,0.000542,0.0002408928571428,t͡s iː ə n
+ziehen,ziehe,V;SBJV;SG;1;PRS,5.1e-05,0.0002408928571428,t͡s iː ə
+ziehen,ziehen,V;SBJV;PL;1;PRS,0.000542,0.0002408928571428,t͡s iː ə n
+ziehen,ziehst,V;IND;SG;2;PRS,7e-06,0.0002408928571428,t͡s iː s t
+ziehen,zieht,V;IND;PL;2;PRS,0.000641,0.0002408928571428,t͡s iː t
+ziehen,ziehest,V;SBJV;SG;2;PRS,0.0,0.0002408928571428,t͡s iː ə s t
+ziehen,ziehet,V;SBJV;PL;2;PRS,0.0,0.0002408928571428,t͡s iː ə t
+ziehen,zieht,V;IND;SG;3;PRS,0.000641,0.0002408928571428,t͡s iː t
+ziehen,ziehen,V;IND;PL;3;PRS,0.000542,0.0002408928571428,t͡s iː ə n
+ziehen,ziehe,V;SBJV;SG;3;PRS,5.1e-05,0.0002408928571428,t͡s iː ə
+ziehen,ziehen,V;SBJV;PL;3;PRS,0.000542,0.0002408928571428,t͡s iː ə n
+ziehen,zog,V;IND;SG;1;PST,0.000621,0.0002408928571428,t͡s oː k
+ziehen,zogen,V;IND;PL;1;PST,0.000322,0.0002408928571428,t͡s oː ɡ n̩
+ziehen,zöge,V;SBJV;SG;1;PST,1e-06,0.0002408928571428,t͡s øː ɡ ə
+ziehen,zögen,V;SBJV;PL;1;PST,5e-06,0.0002408928571428,t͡s øː ɡ ə n
+ziehen,zogst,V;IND;SG;2;PST,0.0,0.0002408928571428,t͡s oː k s t
+ziehen,zogt,V;IND;PL;2;PST,0.0,0.0002408928571428,t͡s oː k t
+ziehen,zögest,V;SBJV;SG;2;PST,0.0,0.0002408928571428,t͡s øː ɡ ə s t
+ziehen,zöget,V;SBJV;PL;2;PST,0.0,0.0002408928571428,t͡s øː ɡ ə t
+ziehen,zog,V;IND;SG;3;PST,0.000621,0.0002408928571428,t͡s oː k
+ziehen,zogen,V;IND;PL;3;PST,0.000322,0.0002408928571428,t͡s oː ɡ n̩
+ziehen,zöge,V;SBJV;SG;3;PST,1e-06,0.0002408928571428,t͡s øː ɡ ə
+ziehen,zögen,V;SBJV;PL;3;PST,5e-06,0.0002408928571428,t͡s øː ɡ ə n
+ziehen,zieh,V;IMP;SG;2,3e-06,0.0002408928571428,t͡s iː
+ziehen,ziehe,V;IMP;SG;2,5.1e-05,0.0002408928571428,t͡s iː ə
+ziehen,zieht,V;IMP;PL;2,0.000641,0.0002408928571428,t͡s iː t
+sprechen,sprechen,V;NFIN,0.000809,0.0003037407407407,ʃ p ʁ ɛ ç n̩
+sprechen,spreche,V;IND;SG;1;PRS,8.1e-05,0.0003037407407407,ʃ p ʁ ɛ ç ə
+sprechen,sprechen,V;IND;PL;1;PRS,0.000809,0.0003037407407407,ʃ p ʁ ɛ ç n̩
+sprechen,spreche,V;SBJV;SG;1;PRS,8.1e-05,0.0003037407407407,ʃ p ʁ ɛ ç ə
+sprechen,sprechen,V;SBJV;PL;1;PRS,0.000809,0.0003037407407407,ʃ p ʁ ɛ ç n̩
+sprechen,sprichst,V;IND;SG;2;PRS,1e-05,0.0003037407407407,ʃ p ʁ ɪ ç s t
+sprechen,sprecht,V;IND;PL;2;PRS,0.0,0.0003037407407407,ʃ p ʁ ɛ ç t
+sprechen,sprechest,V;SBJV;SG;2;PRS,0.0,0.0003037407407407,ʃ p ʁ ɛ ç ə s t
+sprechen,sprechet,V;SBJV;PL;2;PRS,0.0,0.0003037407407407,ʃ p ʁ ɛ ç ə t
+sprechen,spricht,V;IND;SG;3;PRS,0.001042,0.0003037407407407,ʃ p ʁ ɪ ç t
+sprechen,sprechen,V;IND;PL;3;PRS,0.000809,0.0003037407407407,ʃ p ʁ ɛ ç n̩
+sprechen,spreche,V;SBJV;SG;3;PRS,8.1e-05,0.0003037407407407,ʃ p ʁ ɛ ç ə
+sprechen,sprechen,V;SBJV;PL;3;PRS,0.000809,0.0003037407407407,ʃ p ʁ ɛ ç n̩
+sprechen,sprach,V;IND;SG;1;PST,0.001085,0.0003037407407407,ʃ p ʁ aː χ
+sprechen,sprachen,V;IND;PL;1;PST,0.000317,0.0003037407407407,ʃ p ʁ aː x n̩
+sprechen,spräche,V;SBJV;SG;1;PST,9e-06,0.0003037407407407,ʃ p ʁ ɛː ç ə
+sprechen,sprächen,V;SBJV;PL;1;PST,1.9e-05,0.0003037407407407,ʃ p ʁ ɛː ç ə n
+sprechen,sprachst,V;IND;SG;2;PST,1e-06,0.0003037407407407,ʃ p ʁ aː χ s t
+sprechen,spracht,V;IND;PL;2;PST,0.0,0.0003037407407407,ʃ p ʁ aː x t
+sprechen,sprächest,V;SBJV;SG;2;PST,0.0,0.0003037407407407,ʃ p ʁ ɛː ç ə s t
+sprechen,sprächet,V;SBJV;PL;2;PST,0.0,0.0003037407407407,ʃ p ʁ ɛː ç ə t
+sprechen,sprach,V;IND;SG;3;PST,0.001085,0.0003037407407407,ʃ p ʁ aː χ
+sprechen,sprachen,V;IND;PL;3;PST,0.000317,0.0003037407407407,ʃ p ʁ aː x n̩
+sprechen,spräche,V;SBJV;SG;3;PST,9e-06,0.0003037407407407,ʃ p ʁ ɛː ç ə
+sprechen,sprächen,V;SBJV;PL;3;PST,1.9e-05,0.0003037407407407,ʃ p ʁ ɛː ç ə n
+sprechen,sprich,V;IMP;SG;2,0.0,0.0003037407407407,ʃ p ʁ ɪ ç
+sprechen,sprecht,V;IMP;PL;2,0.0,0.0003037407407407,ʃ p ʁ ɛ ç t
+beginnen,beginnen,V;NFIN,0.000915,0.0004261470588235,b ə ɡ ɪ n ə n
+beginnen,beginne,V;IND;SG;1;PRS,5.9e-05,0.0004261470588235,b ə ɡ ɪ n ə
+beginnen,beginnen,V;IND;PL;1;PRS,0.000915,0.0004261470588235,b ə ɡ ɪ n ə n
+beginnen,beginne,V;SBJV;SG;1;PRS,5.9e-05,0.0004261470588235,b ə ɡ ɪ n ə
+beginnen,beginnen,V;SBJV;PL;1;PRS,0.000915,0.0004261470588235,b ə ɡ ɪ n ə n
+beginnen,beginnst,V;IND;SG;2;PRS,2e-06,0.0004261470588235,b ə ɡ ɪ n s t
+beginnen,beginnt,V;IND;PL;2;PRS,0.002372,0.0004261470588235,b ə ɡ ɪ n t
+beginnen,beginnest,V;SBJV;SG;2;PRS,0.0,0.0004261470588235,b ə ɡ ɪ n ə s t
+beginnen,beginnet,V;SBJV;PL;2;PRS,0.0,0.0004261470588235,b ə ɡ ɪ n ə t
+beginnen,beginnt,V;IND;SG;3;PRS,0.002372,0.0004261470588235,b ə ɡ ɪ n t
+beginnen,beginnen,V;IND;PL;3;PRS,0.000915,0.0004261470588235,b ə ɡ ɪ n ə n
+beginnen,beginne,V;SBJV;SG;3;PRS,5.9e-05,0.0004261470588235,b ə ɡ ɪ n ə
+beginnen,beginnen,V;SBJV;PL;3;PRS,0.000915,0.0004261470588235,b ə ɡ ɪ n ə n
+beginnen,begann,V;IND;SG;1;PST,0.001072,0.0004261470588235,b ə ɡ a n
+beginnen,begannen,V;IND;PL;1;PST,0.000203,0.0004261470588235,b ə ɡ a n ə n
+beginnen,begänne,V;SBJV;SG;1;PST,0.0,0.0004261470588235,b ə ɡ ɛ n ə
+beginnen,begönne,V;SBJV;SG;1;PST,0.0,0.0004261470588235,b ə ɡ œ n ə
+beginnen,begännen,V;SBJV;PL;1;PST,5e-06,0.0004261470588235,b ə ɡ ɛ n ə n
+beginnen,begönnen,V;SBJV;PL;1;PST,0.0,0.0004261470588235,b ə ɡ œ n ə n
+beginnen,begannst,V;IND;SG;2;PST,0.0,0.0004261470588235,b ə ɡ a n s t
+beginnen,begannt,V;IND;PL;2;PST,0.0,0.0004261470588235,b ə ɡ a n t
+beginnen,begännest,V;SBJV;SG;2;PST,0.0,0.0004261470588235,b ə ɡ ɛ n ə s t
+beginnen,begönnest,V;SBJV;SG;2;PST,0.0,0.0004261470588235,b ə ɡ œ n ə s t
+beginnen,begännet,V;SBJV;PL;2;PST,0.0,0.0004261470588235,b ə ɡ ɛ n ə t
+beginnen,begönnet,V;SBJV;PL;2;PST,0.0,0.0004261470588235,b ə ɡ œ n ə t
+beginnen,begann,V;IND;SG;3;PST,0.001072,0.0004261470588235,b ə ɡ a n
+beginnen,begannen,V;IND;PL;3;PST,0.000203,0.0004261470588235,b ə ɡ a n ə n
+beginnen,begänne,V;SBJV;SG;3;PST,0.0,0.0004261470588235,b ə ɡ ɛ n ə
+beginnen,begönne,V;SBJV;SG;3;PST,0.0,0.0004261470588235,b ə ɡ œ n ə
+beginnen,begännen,V;SBJV;PL;3;PST,5e-06,0.0004261470588235,b ə ɡ ɛ n ə n
+beginnen,begönnen,V;SBJV;PL;3;PST,0.0,0.0004261470588235,b ə ɡ œ n ə n
+beginnen,beginn,V;IMP;SG;2,0.0,0.0004261470588235,b ə ɡ ɪ n
+beginnen,beginne,V;IMP;SG;2,5.9e-05,0.0004261470588235,b ə ɡ ɪ n ə
+beginnen,beginnt,V;IMP;PL;2,0.002372,0.0004261470588235,b ə ɡ ɪ n t
+kosten,kosten,V;NFIN,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,koste,V;IND;SG;1;PRS,3.9e-05,0.0003228888888888,k ɔ s t ə
+kosten,kosten,V;IND;PL;1;PRS,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,koste,V;SBJV;SG;1;PRS,3.9e-05,0.0003228888888888,k ɔ s t ə
+kosten,kosten,V;SBJV;PL;1;PRS,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,kostest,V;IND;SG;2;PRS,0.0,0.0003228888888888,k oː s t ə s t
+kosten,kostet,V;IND;PL;2;PRS,0.001361,0.0003228888888888,k ɔ s t ə t
+kosten,kostest,V;SBJV;SG;2;PRS,0.0,0.0003228888888888,k oː s t ə s t
+kosten,kostet,V;SBJV;PL;2;PRS,0.001361,0.0003228888888888,k ɔ s t ə t
+kosten,kostet,V;IND;SG;3;PRS,0.001361,0.0003228888888888,k ɔ s t ə t
+kosten,kosten,V;IND;PL;3;PRS,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,koste,V;SBJV;SG;3;PRS,3.9e-05,0.0003228888888888,k ɔ s t ə
+kosten,kosten,V;SBJV;PL;3;PRS,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,kostete,V;IND;SG;1;PST,0.000238,0.0003228888888888,k ɔ s t ə t ə
+kosten,kosteten,V;IND;PL;1;PST,2.6e-05,0.0003228888888888,k ɔ s t ə t ə n
+kosten,kostete,V;SBJV;SG;1;PST,0.000238,0.0003228888888888,k ɔ s t ə t ə
+kosten,kosteten,V;SBJV;PL;1;PST,2.6e-05,0.0003228888888888,k ɔ s t ə t ə n
+kosten,kostetest,V;IND;SG;2;PST,0.0,0.0003228888888888,k ɔ s t ə t ə s t
+kosten,kostetet,V;IND;PL;2;PST,1e-06,0.0003228888888888,k ɔ s t eː t ə t
+kosten,kostetest,V;SBJV;SG;2;PST,0.0,0.0003228888888888,k ɔ s t ə t ə s t
+kosten,kostetet,V;SBJV;PL;2;PST,1e-06,0.0003228888888888,k ɔ s t eː t ə t
+kosten,kostete,V;IND;SG;3;PST,0.000238,0.0003228888888888,k ɔ s t ə t ə
+kosten,kosteten,V;IND;PL;3;PST,2.6e-05,0.0003228888888888,k ɔ s t ə t ə n
+kosten,kostete,V;SBJV;SG;3;PST,0.000238,0.0003228888888888,k ɔ s t ə t ə
+kosten,kosteten,V;SBJV;PL;3;PST,2.6e-05,0.0003228888888888,k ɔ s t ə t ə n
+kosten,koste,V;IMP;SG;2,3.9e-05,0.0003228888888888,k ɔ s t ə
+kosten,kostet,V;IMP;PL;2,0.001361,0.0003228888888888,k ɔ s t ə t
+kosten,kosten,V;NFIN,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,koste,V;IND;SG;1;PRS,3.9e-05,0.0003228888888888,k ɔ s t ə
+kosten,kosten,V;IND;PL;1;PRS,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,koste,V;SBJV;SG;1;PRS,3.9e-05,0.0003228888888888,k ɔ s t ə
+kosten,kosten,V;SBJV;PL;1;PRS,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,kostest,V;IND;SG;2;PRS,0.0,0.0003228888888888,k oː s t ə s t
+kosten,kostet,V;IND;PL;2;PRS,0.001361,0.0003228888888888,k ɔ s t ə t
+kosten,kostest,V;SBJV;SG;2;PRS,0.0,0.0003228888888888,k oː s t ə s t
+kosten,kostet,V;SBJV;PL;2;PRS,0.001361,0.0003228888888888,k ɔ s t ə t
+kosten,kostet,V;IND;SG;3;PRS,0.001361,0.0003228888888888,k ɔ s t ə t
+kosten,kosten,V;IND;PL;3;PRS,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,koste,V;SBJV;SG;3;PRS,3.9e-05,0.0003228888888888,k ɔ s t ə
+kosten,kosten,V;SBJV;PL;3;PRS,0.000412,0.0003228888888888,k ɔ s t n̩
+kosten,kostete,V;IND;SG;1;PST,0.000238,0.0003228888888888,k ɔ s t ə t ə
+kosten,kosteten,V;IND;PL;1;PST,2.6e-05,0.0003228888888888,k ɔ s t ə t ə n
+kosten,kostete,V;SBJV;SG;1;PST,0.000238,0.0003228888888888,k ɔ s t ə t ə
+kosten,kosteten,V;SBJV;PL;1;PST,2.6e-05,0.0003228888888888,k ɔ s t ə t ə n
+kosten,kostetest,V;IND;SG;2;PST,0.0,0.0003228888888888,k ɔ s t ə t ə s t
+kosten,kostetet,V;IND;PL;2;PST,1e-06,0.0003228888888888,k ɔ s t eː t ə t
+kosten,kostetest,V;SBJV;SG;2;PST,0.0,0.0003228888888888,k ɔ s t ə t ə s t
+kosten,kostetet,V;SBJV;PL;2;PST,1e-06,0.0003228888888888,k ɔ s t eː t ə t
+kosten,kostete,V;IND;SG;3;PST,0.000238,0.0003228888888888,k ɔ s t ə t ə
+kosten,kosteten,V;IND;PL;3;PST,2.6e-05,0.0003228888888888,k ɔ s t ə t ə n
+kosten,kostete,V;SBJV;SG;3;PST,0.000238,0.0003228888888888,k ɔ s t ə t ə
+kosten,kosteten,V;SBJV;PL;3;PST,2.6e-05,0.0003228888888888,k ɔ s t ə t ə n
+kosten,koste,V;IMP;SG;2,3.9e-05,0.0003228888888888,k ɔ s t ə
+kosten,kostet,V;IMP;PL;2,0.001361,0.0003228888888888,k ɔ s t ə t
+sorgen,sorgen,V;NFIN,0.000524,0.0002585714285714,z ɔ ʁ ɡ n̩
+sorgen,sorge,V;IND;SG;1;PRS,3.6e-05,0.0002585714285714,z ɔ ʁ ɡ ə
+sorgen,sorgen,V;IND;PL;1;PRS,0.000524,0.0002585714285714,z ɔ ʁ ɡ n̩
+sorgen,sorge,V;SBJV;SG;1;PRS,3.6e-05,0.0002585714285714,z ɔ ʁ ɡ ə
+sorgen,sorgen,V;SBJV;PL;1;PRS,0.000524,0.0002585714285714,z ɔ ʁ ɡ n̩
+sorgen,sorgst,V;IND;SG;2;PRS,0.0,0.0002585714285714,z ɔ ʁ k s t
+sorgen,sorgt,V;IND;PL;2;PRS,0.000752,0.0002585714285714,z ɔ ʁ k t
+sorgen,sorgest,V;SBJV;SG;2;PRS,0.0,0.0002585714285714,z ɔ ʁ ɡ ə s t
+sorgen,sorget,V;SBJV;PL;2;PRS,0.0,0.0002585714285714,z ɔ ʁ ɡ ə t
+sorgen,sorgt,V;IND;SG;3;PRS,0.000752,0.0002585714285714,z ɔ ʁ k t
+sorgen,sorgen,V;IND;PL;3;PRS,0.000524,0.0002585714285714,z ɔ ʁ ɡ n̩
+sorgen,sorge,V;SBJV;SG;3;PRS,3.6e-05,0.0002585714285714,z ɔ ʁ ɡ ə
+sorgen,sorgen,V;SBJV;PL;3;PRS,0.000524,0.0002585714285714,z ɔ ʁ ɡ n̩
+sorgen,sorgte,V;IND;SG;1;PST,0.000377,0.0002585714285714,z ɔ ʁ k t ə
+sorgen,sorgten,V;IND;PL;1;PST,0.000178,0.0002585714285714,z ɔ ʁ k t n̩
+sorgen,sorgte,V;SBJV;SG;1;PST,0.000377,0.0002585714285714,z ɔ ʁ k t ə
+sorgen,sorgten,V;SBJV;PL;1;PST,0.000178,0.0002585714285714,z ɔ ʁ k t n̩
+sorgen,sorgtest,V;IND;SG;2;PST,0.0,0.0002585714285714,z ɔ ʁ k t ə s t
+sorgen,sorgtet,V;IND;PL;2;PST,0.0,0.0002585714285714,z ɔ ʁ k t ə t
+sorgen,sorgtest,V;SBJV;SG;2;PST,0.0,0.0002585714285714,z ɔ ʁ k t ə s t
+sorgen,sorgtet,V;SBJV;PL;2;PST,0.0,0.0002585714285714,z ɔ ʁ k t ə t
+sorgen,sorgte,V;IND;SG;3;PST,0.000377,0.0002585714285714,z ɔ ʁ k t ə
+sorgen,sorgten,V;IND;PL;3;PST,0.000178,0.0002585714285714,z ɔ ʁ k t n̩
+sorgen,sorgte,V;SBJV;SG;3;PST,0.000377,0.0002585714285714,z ɔ ʁ k t ə
+sorgen,sorgten,V;SBJV;PL;3;PST,0.000178,0.0002585714285714,z ɔ ʁ k t n̩
+sorgen,sorg,V;IMP;SG;2,0.0,0.0002585714285714,z ɔ ʁ k
+sorgen,sorge,V;IMP;SG;2,3.6e-05,0.0002585714285714,z ɔ ʁ ɡ ə
+sorgen,sorgt,V;IMP;PL;2,0.000752,0.0002585714285714,z ɔ ʁ k t
+gehören,gehören,V;NFIN,0.001259,0.0005911428571428,ɡ ə h øː ʁ ə n
+gehören,gehöre,V;IND;SG;1;PRS,0.000169,0.0005911428571428,ɡ ə h øː ʁ ə
+gehören,gehören,V;IND;PL;1;PRS,0.001259,0.0005911428571428,ɡ ə h øː ʁ ə n
+gehören,gehöre,V;SBJV;SG;1;PRS,0.000169,0.0005911428571428,ɡ ə h øː ʁ ə
+gehören,gehören,V;SBJV;PL;1;PRS,0.001259,0.0005911428571428,ɡ ə h øː ʁ ə n
+gehören,gehörst,V;IND;SG;2;PRS,4e-06,0.0005911428571428,ɡ ə h øː ɐ̯ s t
+gehören,gehört,V;IND;PL;2;PRS,0.002331,0.0005911428571428,ɡ ə h øː ɐ̯ t
+gehören,gehörest,V;SBJV;SG;2;PRS,0.0,0.0005911428571428,ɡ ə h øː ʁ ə s t
+gehören,gehöret,V;SBJV;PL;2;PRS,0.0,0.0005911428571428,ɡ ə h øː ʁ ə t
+gehören,gehört,V;IND;SG;3;PRS,0.002331,0.0005911428571428,ɡ ə h øː ɐ̯ t
+gehören,gehören,V;IND;PL;3;PRS,0.001259,0.0005911428571428,ɡ ə h øː ʁ ə n
+gehören,gehöre,V;SBJV;SG;3;PRS,0.000169,0.0005911428571428,ɡ ə h øː ʁ ə
+gehören,gehören,V;SBJV;PL;3;PRS,0.001259,0.0005911428571428,ɡ ə h øː ʁ ə n
+gehören,gehörte,V;IND;SG;1;PST,0.000392,0.0005911428571428,ɡ ə h øː ɐ̯ t ə
+gehören,gehörten,V;IND;PL;1;PST,0.000254,0.0005911428571428,ɡ ə h øː ɐ̯ t n̩
+gehören,gehörte,V;SBJV;SG;1;PST,0.000392,0.0005911428571428,ɡ ə h øː ɐ̯ t ə
+gehören,gehörten,V;SBJV;PL;1;PST,0.000254,0.0005911428571428,ɡ ə h øː ɐ̯ t n̩
+gehören,gehörtest,V;IND;SG;2;PST,0.0,0.0005911428571428,ɡ ə h øː ɐ̯ t ə s t
+gehören,gehörtet,V;IND;PL;2;PST,0.0,0.0005911428571428,ɡ ə h øː ɐ̯ t ə t
+gehören,gehörtest,V;SBJV;SG;2;PST,0.0,0.0005911428571428,ɡ ə h øː ɐ̯ t ə s t
+gehören,gehörtet,V;SBJV;PL;2;PST,0.0,0.0005911428571428,ɡ ə h øː ɐ̯ t ə t
+gehören,gehörte,V;IND;SG;3;PST,0.000392,0.0005911428571428,ɡ ə h øː ɐ̯ t ə
+gehören,gehörten,V;IND;PL;3;PST,0.000254,0.0005911428571428,ɡ ə h øː ɐ̯ t n̩
+gehören,gehörte,V;SBJV;SG;3;PST,0.000392,0.0005911428571428,ɡ ə h øː ɐ̯ t ə
+gehören,gehörten,V;SBJV;PL;3;PST,0.000254,0.0005911428571428,ɡ ə h øː ɐ̯ t n̩
+gehören,gehör,V;IMP;SG;2,0.0,0.0005911428571428,ɡ ə h øː ɐ̯
+gehören,gehöre,V;IMP;SG;2,0.000169,0.0005911428571428,ɡ ə h øː ʁ ə
+gehören,gehört,V;IMP;PL;2,0.002331,0.0005911428571428,ɡ ə h øː ɐ̯ t
+erreichen,erreichen,V;NFIN,0.000778,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç n̩
+erreichen,erreiche,V;IND;SG;1;PRS,2.1e-05,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç ə
+erreichen,erreichen,V;IND;PL;1;PRS,0.000778,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç n̩
+erreichen,erreiche,V;SBJV;SG;1;PRS,2.1e-05,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç ə
+erreichen,erreichen,V;SBJV;PL;1;PRS,0.000778,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç n̩
+erreichen,erreichst,V;IND;SG;2;PRS,9e-06,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç s t
+erreichen,erreicht,V;IND;PL;2;PRS,0.00148,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t
+erreichen,erreichest,V;SBJV;SG;2;PRS,0.0,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç ə s t
+erreichen,erreichet,V;SBJV;PL;2;PRS,0.0,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç ə t
+erreichen,erreicht,V;IND;SG;3;PRS,0.00148,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t
+erreichen,erreichen,V;IND;PL;3;PRS,0.000778,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç n̩
+erreichen,erreiche,V;SBJV;SG;3;PRS,2.1e-05,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç ə
+erreichen,erreichen,V;SBJV;PL;3;PRS,0.000778,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç n̩
+erreichen,erreichte,V;IND;SG;1;PST,0.00042,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t ə
+erreichen,erreichten,V;IND;PL;1;PST,0.000162,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t n̩
+erreichen,erreichte,V;SBJV;SG;1;PST,0.00042,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t ə
+erreichen,erreichten,V;SBJV;PL;1;PST,0.000162,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t n̩
+erreichen,erreichtest,V;IND;SG;2;PST,0.0,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t ə s t
+erreichen,erreichtet,V;IND;PL;2;PST,0.0,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t ə t
+erreichen,erreichtest,V;SBJV;SG;2;PST,0.0,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t ə s t
+erreichen,erreichtet,V;SBJV;PL;2;PST,0.0,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t ə t
+erreichen,erreichte,V;IND;SG;3;PST,0.00042,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t ə
+erreichen,erreichten,V;IND;PL;3;PST,0.000162,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t n̩
+erreichen,erreichte,V;SBJV;SG;3;PST,0.00042,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t ə
+erreichen,erreichten,V;SBJV;PL;3;PST,0.000162,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t n̩
+erreichen,erreich,V;IMP;SG;2,0.0,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç
+erreichen,erreiche,V;IMP;SG;2,2.1e-05,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç ə
+erreichen,erreicht,V;IMP;PL;2,0.00148,0.0003839642857142,ɛ ɐ̯ ʁ a ɪ̯ ç t
+heuen,heuen,V;NFIN,0.0,0.0004647142857142,h ɔ ʏ̯ ə n
+heuen,heue,V;IND;SG;1;PRS,0.0,0.0004647142857142,h ɔ ʏ̯ ə
+heuen,heuen,V;IND;PL;1;PRS,0.0,0.0004647142857142,h ɔ ʏ̯ ə n
+heuen,heue,V;SBJV;SG;1;PRS,0.0,0.0004647142857142,h ɔ ʏ̯ ə
+heuen,heuen,V;SBJV;PL;1;PRS,0.0,0.0004647142857142,h ɔ ʏ̯ ə n
+heuen,heust,V;IND;SG;2;PRS,0.0,0.0004647142857142,h ɔ ɪ̯ s t
+heuen,heut,V;IND;PL;2;PRS,4e-06,0.0004647142857142,h ɔ ɪ̯ t
+heuen,heuest,V;SBJV;SG;2;PRS,0.0,0.0004647142857142,h ɔ ɪ̯ ə s t
+heuen,heuet,V;SBJV;PL;2;PRS,0.0,0.0004647142857142,h ɔ ʏ̯ ə t
+heuen,heut,V;IND;SG;3;PRS,4e-06,0.0004647142857142,h ɔ ɪ̯ t
+heuen,heuen,V;IND;PL;3;PRS,0.0,0.0004647142857142,h ɔ ʏ̯ ə n
+heuen,heue,V;SBJV;SG;3;PRS,0.0,0.0004647142857142,h ɔ ʏ̯ ə
+heuen,heuen,V;SBJV;PL;3;PRS,0.0,0.0004647142857142,h ɔ ʏ̯ ə n
+heuen,heute,V;IND;SG;1;PST,0.00325,0.0004647142857142,h ɔ ʏ̯ t ə
+heuen,heuten,V;IND;PL;1;PST,0.0,0.0004647142857142,h ɔ ʏ̯ t n̩
+heuen,heute,V;SBJV;SG;1;PST,0.00325,0.0004647142857142,h ɔ ʏ̯ t ə
+heuen,heuten,V;SBJV;PL;1;PST,0.0,0.0004647142857142,h ɔ ʏ̯ t n̩
+heuen,heutest,V;IND;SG;2;PST,0.0,0.0004647142857142,h ɔ ɪ̯ t ə s t
+heuen,heutet,V;IND;PL;2;PST,0.0,0.0004647142857142,h ɔ ʏ̯ t ə t
+heuen,heutest,V;SBJV;SG;2;PST,0.0,0.0004647142857142,h ɔ ɪ̯ t ə s t
+heuen,heutet,V;SBJV;PL;2;PST,0.0,0.0004647142857142,h ɔ ʏ̯ t ə t
+heuen,heute,V;IND;SG;3;PST,0.00325,0.0004647142857142,h ɔ ʏ̯ t ə
+heuen,heuten,V;IND;PL;3;PST,0.0,0.0004647142857142,h ɔ ʏ̯ t n̩
+heuen,heute,V;SBJV;SG;3;PST,0.00325,0.0004647142857142,h ɔ ʏ̯ t ə
+heuen,heuten,V;SBJV;PL;3;PST,0.0,0.0004647142857142,h ɔ ʏ̯ t n̩
+heuen,heu,V;IMP;SG;2,0.0,0.0004647142857142,h ɔ ɪ̯
+heuen,heue,V;IMP;SG;2,0.0,0.0004647142857142,h ɔ ʏ̯ ə
+heuen,heut,V;IMP;PL;2,4e-06,0.0004647142857142,h ɔ ɪ̯ t
+einigen,einigen,V;NFIN,0.000557,0.0003404285714285,a ɪ̯ n ɪ ɡ n̩
+einigen,einige,V;IND;SG;1;PRS,0.001621,0.0003404285714285,a ɪ̯ n ɪ ɡ ə
+einigen,einigen,V;IND;PL;1;PRS,0.000557,0.0003404285714285,a ɪ̯ n ɪ ɡ n̩
+einigen,einige,V;SBJV;SG;1;PRS,0.001621,0.0003404285714285,a ɪ̯ n ɪ ɡ ə
+einigen,einigen,V;SBJV;PL;1;PRS,0.000557,0.0003404285714285,a ɪ̯ n ɪ ɡ n̩
+einigen,einigst,V;IND;SG;2;PRS,0.0,0.0003404285714285,a ɪ̯ n ɪ k s t
+einigen,einigt,V;IND;PL;2;PRS,9e-06,0.0003404285714285,a ɪ̯ n ɪ k t
+einigen,einigest,V;SBJV;SG;2;PRS,0.0,0.0003404285714285,a ɪ̯ n ɪ ɡ ə s t
+einigen,einiget,V;SBJV;PL;2;PRS,0.0,0.0003404285714285,a ɪ̯ n ɪ ɡ ə t
+einigen,einigt,V;IND;SG;3;PRS,9e-06,0.0003404285714285,a ɪ̯ n ɪ k t
+einigen,einigen,V;IND;PL;3;PRS,0.000557,0.0003404285714285,a ɪ̯ n ɪ ɡ n̩
+einigen,einige,V;SBJV;SG;3;PRS,0.001621,0.0003404285714285,a ɪ̯ n ɪ ɡ ə
+einigen,einigen,V;SBJV;PL;3;PRS,0.000557,0.0003404285714285,a ɪ̯ n ɪ ɡ n̩
+einigen,einigte,V;IND;SG;1;PST,1.8e-05,0.0003404285714285,a ɪ̯ n ɪ k t ə
+einigen,einigten,V;IND;PL;1;PST,3.3e-05,0.0003404285714285,a ɪ̯ n ɪ k t n̩
+einigen,einigte,V;SBJV;SG;1;PST,1.8e-05,0.0003404285714285,a ɪ̯ n ɪ k t ə
+einigen,einigten,V;SBJV;PL;1;PST,3.3e-05,0.0003404285714285,a ɪ̯ n ɪ k t n̩
+einigen,einigtest,V;IND;SG;2;PST,0.0,0.0003404285714285,a ɪ̯ n ɪ k t ə s t
+einigen,einigtet,V;IND;PL;2;PST,0.0,0.0003404285714285,a ɪ̯ n ɪ ç t ə t
+einigen,einigtest,V;SBJV;SG;2;PST,0.0,0.0003404285714285,a ɪ̯ n ɪ k t ə s t
+einigen,einigtet,V;SBJV;PL;2;PST,0.0,0.0003404285714285,a ɪ̯ n ɪ ç t ə t
+einigen,einigte,V;IND;SG;3;PST,1.8e-05,0.0003404285714285,a ɪ̯ n ɪ k t ə
+einigen,einigten,V;IND;PL;3;PST,3.3e-05,0.0003404285714285,a ɪ̯ n ɪ k t n̩
+einigen,einigte,V;SBJV;SG;3;PST,1.8e-05,0.0003404285714285,a ɪ̯ n ɪ k t ə
+einigen,einigten,V;SBJV;PL;3;PST,3.3e-05,0.0003404285714285,a ɪ̯ n ɪ k t n̩
+einigen,einig,V;IMP;SG;2,3.2e-05,0.0003404285714285,a ɪ̯ n ɪ k
+einigen,einige,V;IMP;SG;2,0.001621,0.0003404285714285,a ɪ̯ n ɪ ɡ ə
+einigen,einigt,V;IMP;PL;2,9e-06,0.0003404285714285,a ɪ̯ n ɪ k t
+dürfen,dürfen,V;NFIN,0.000801,0.0003548518518518,d ʏ ʁ f ə n
+dürfen,darf,V;IND;SG;1;PRS,0.001239,0.0003548518518518,d a ʁ f
+dürfen,dürfen,V;IND;PL;1;PRS,0.000801,0.0003548518518518,d ʏ ʁ f ə n
+dürfen,dürfe,V;SBJV;SG;1;PRS,0.000165,0.0003548518518518,d ʏ ʁ f ə
+dürfen,dürfen,V;SBJV;PL;1;PRS,0.000801,0.0003548518518518,d ʏ ʁ f ə n
+dürfen,darfst,V;IND;SG;2;PRS,2.7e-05,0.0003548518518518,d a ʁ f s t
+dürfen,dürft,V;IND;PL;2;PRS,1.9e-05,0.0003548518518518,d ʏ ʁ f t
+dürfen,dürfest,V;SBJV;SG;2;PRS,0.0,0.0003548518518518,d ʏ ʁ f ə s t
+dürfen,dürfet,V;SBJV;PL;2;PRS,0.0,0.0003548518518518,d ʏ ʁ f ə t
+dürfen,darf,V;IND;SG;3;PRS,0.001239,0.0003548518518518,d a ʁ f
+dürfen,dürfen,V;IND;PL;3;PRS,0.000801,0.0003548518518518,d ʏ ʁ f ə n
+dürfen,dürfe,V;SBJV;SG;3;PRS,0.000165,0.0003548518518518,d ʏ ʁ f ə
+dürfen,dürfen,V;SBJV;PL;3;PRS,0.000801,0.0003548518518518,d ʏ ʁ f ə n
+dürfen,durfte,V;IND;SG;1;PST,0.000197,0.0003548518518518,d ʊ ʁ f t ə
+dürfen,durften,V;IND;PL;1;PST,0.000125,0.0003548518518518,d ʊ ʁ f t n̩
+dürfen,dürfte,V;SBJV;SG;1;PST,0.000758,0.0003548518518518,d ʏ ʁ f t ə
+dürfen,dürften,V;SBJV;PL;1;PST,0.000281,0.0003548518518518,d ʏ ʁ f t n̩
+dürfen,durftest,V;IND;SG;2;PST,0.0,0.0003548518518518,d ʊ ʁ f t ə s t
+dürfen,durftet,V;IND;PL;2;PST,0.0,0.0003548518518518,d ʊ ʁ f t ə t
+dürfen,dürftest,V;SBJV;SG;2;PST,0.0,0.0003548518518518,d ʏ ʁ f t ə s t
+dürfen,dürftet,V;SBJV;PL;2;PST,0.0,0.0003548518518518,d ʏ ʁ f t ə t
+dürfen,durfte,V;IND;SG;3;PST,0.000197,0.0003548518518518,d ʊ ʁ f t ə
+dürfen,durften,V;IND;PL;3;PST,0.000125,0.0003548518518518,d ʊ ʁ f t n̩
+dürfen,dürfte,V;SBJV;SG;3;PST,0.000758,0.0003548518518518,d ʏ ʁ f t ə
+dürfen,dürften,V;SBJV;PL;3;PST,0.000281,0.0003548518518518,d ʏ ʁ f t n̩
+dürfen,— (du),V;IMP;SG;2,0.0,0.0003548518518518,d uː
+dürfen,— (ihr),V;IMP;PL;2,0.0,0.0003548518518518,iː ɐ̯
+erfolgen,erfolgen,V;NFIN,0.000786,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə n
+erfolgen,erfolge,V;IND;SG;1;PRS,4.9e-05,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə
+erfolgen,erfolgen,V;IND;PL;1;PRS,0.000786,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə n
+erfolgen,erfolge,V;SBJV;SG;1;PRS,4.9e-05,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə
+erfolgen,erfolgen,V;SBJV;PL;1;PRS,0.000786,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə n
+erfolgen,erfolgt,V;IND;SG;2;PRS,0.00308,0.0006962142857142,ɛ ɐ̯ f ɔ l k t
+erfolgen,erfolgt,V;IND;PL;2;PRS,0.00308,0.0006962142857142,ɛ ɐ̯ f ɔ l k t
+erfolgen,erfolgest,V;SBJV;SG;2;PRS,0.0,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə s t
+erfolgen,erfolget,V;SBJV;PL;2;PRS,0.0,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə t
+erfolgen,erfolgt,V;IND;SG;3;PRS,0.00308,0.0006962142857142,ɛ ɐ̯ f ɔ l k t
+erfolgen,erfolgen,V;IND;PL;3;PRS,0.000786,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə n
+erfolgen,erfolge,V;SBJV;SG;3;PRS,4.9e-05,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə
+erfolgen,erfolgen,V;SBJV;PL;3;PRS,0.000786,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə n
+erfolgen,erfolgte,V;IND;SG;1;PST,0.000718,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə
+erfolgen,erfolgten,V;IND;PL;1;PST,4.4e-05,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə n
+erfolgen,erfolgte,V;SBJV;SG;1;PST,0.000718,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə
+erfolgen,erfolgten,V;SBJV;PL;1;PST,4.4e-05,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə n
+erfolgen,erfolgtest,V;IND;SG;2;PST,0.0,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə s t
+erfolgen,erfolgtet,V;IND;PL;2;PST,0.0,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə t
+erfolgen,erfolgtest,V;SBJV;SG;2;PST,0.0,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə s t
+erfolgen,erfolgtet,V;SBJV;PL;2;PST,0.0,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə t
+erfolgen,erfolgte,V;IND;SG;3;PST,0.000718,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə
+erfolgen,erfolgten,V;IND;PL;3;PST,4.4e-05,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə n
+erfolgen,erfolgte,V;SBJV;SG;3;PST,0.000718,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə
+erfolgen,erfolgten,V;SBJV;PL;3;PST,4.4e-05,0.0006962142857142,ɛ ɐ̯ f ɔ l k t ə n
+erfolgen,erfolg,V;IMP;SG;2,0.0,0.0006962142857142,ɛ ɐ̯ f ɔ l k
+erfolgen,erfolge,V;IMP;SG;2,4.9e-05,0.0006962142857142,ɛ ɐ̯ f ɔ l ɡ ə
+erfolgen,erfolgt,V;IMP;PL;2,0.00308,0.0006962142857142,ɛ ɐ̯ f ɔ l k t
+machen,machen,V;NFIN,0.002437,0.0009924285714285,m a x ə n
+machen,mache,V;IND;SG;1;PRS,0.00028,0.0009924285714285,m a x ə
+machen,machen,V;IND;PL;1;PRS,0.002437,0.0009924285714285,m a x ə n
+machen,mache,V;SBJV;SG;1;PRS,0.00028,0.0009924285714285,m a x ə
+machen,machen,V;SBJV;PL;1;PRS,0.002437,0.0009924285714285,m a x ə n
+machen,machst,V;IND;SG;2;PRS,5.3e-05,0.0009924285714285,m a x s t
+machen,macht,V;IND;PL;2;PRS,0.002879,0.0009924285714285,m a x t
+machen,machest,V;SBJV;SG;2;PRS,0.0,0.0009924285714285,m a x ə s t
+machen,machet,V;SBJV;PL;2;PRS,0.0,0.0009924285714285,m a ʃ eː
+machen,macht,V;IND;SG;3;PRS,0.002879,0.0009924285714285,m a x t
+machen,machen,V;IND;PL;3;PRS,0.002437,0.0009924285714285,m a x ə n
+machen,mache,V;SBJV;SG;3;PRS,0.00028,0.0009924285714285,m a x ə
+machen,machen,V;SBJV;PL;3;PRS,0.002437,0.0009924285714285,m a x ə n
+machen,machte,V;IND;SG;1;PST,0.001085,0.0009924285714285,m a x t ə
+machen,machten,V;IND;PL;1;PST,0.000363,0.0009924285714285,m a x t n̩
+machen,machte,V;SBJV;SG;1;PST,0.001085,0.0009924285714285,m a x t ə
+machen,machten,V;SBJV;PL;1;PST,0.000363,0.0009924285714285,m a x t n̩
+machen,machtest,V;IND;SG;2;PST,0.0,0.0009924285714285,m a x t ə s t
+machen,machtet,V;IND;PL;2;PST,0.0,0.0009924285714285,m a x t ə t
+machen,machtest,V;SBJV;SG;2;PST,0.0,0.0009924285714285,m a x t ə s t
+machen,machtet,V;SBJV;PL;2;PST,0.0,0.0009924285714285,m a x t ə t
+machen,machte,V;IND;SG;3;PST,0.001085,0.0009924285714285,m a x t ə
+machen,machten,V;IND;PL;3;PST,0.000363,0.0009924285714285,m a x t n̩
+machen,machte,V;SBJV;SG;3;PST,0.001085,0.0009924285714285,m a x t ə
+machen,machten,V;SBJV;PL;3;PST,0.000363,0.0009924285714285,m a x t n̩
+machen,mach,V;IMP;SG;2,1e-06,0.0009924285714285,m a x
+machen,mache,V;IMP;SG;2,0.00028,0.0009924285714285,m a x ə
+machen,macht,V;IMP;PL;2,0.002879,0.0009924285714285,m a x t
+bekommen,bekommen,V;NFIN,0.000957,0.0003186071428571,b ə k ɔ m ə n
+bekommen,bekomme,V;IND;SG;1;PRS,0.00014,0.0003186071428571,b ə k ɔ m ə
+bekommen,bekommen,V;IND;PL;1;PRS,0.000957,0.0003186071428571,b ə k ɔ m ə n
+bekommen,bekomme,V;SBJV;SG;1;PRS,0.00014,0.0003186071428571,b ə k ɔ m ə
+bekommen,bekommen,V;SBJV;PL;1;PRS,0.000957,0.0003186071428571,b ə k ɔ m ə n
+bekommen,bekommst,V;IND;SG;2;PRS,4e-05,0.0003186071428571,b ə k ɔ m s t
+bekommen,bekommt,V;IND;PL;2;PRS,0.00072,0.0003186071428571,b ə k ɔ m t
+bekommen,bekommest,V;SBJV;SG;2;PRS,0.0,0.0003186071428571,b ə k ɔ m ə s t
+bekommen,bekommet,V;SBJV;PL;2;PRS,0.0,0.0003186071428571,b ə k ɔ m ə t
+bekommen,bekommt,V;IND;SG;3;PRS,0.00072,0.0003186071428571,b ə k ɔ m t
+bekommen,bekommen,V;IND;PL;3;PRS,0.000957,0.0003186071428571,b ə k ɔ m ə n
+bekommen,bekomme,V;SBJV;SG;3;PRS,0.00014,0.0003186071428571,b ə k ɔ m ə
+bekommen,bekommen,V;SBJV;PL;3;PRS,0.000957,0.0003186071428571,b ə k ɔ m ə n
+bekommen,bekam,V;IND;SG;1;PST,0.000507,0.0003186071428571,b ə k aː m
+bekommen,bekamen,V;IND;PL;1;PST,0.000154,0.0003186071428571,b ə k aː m ə n
+bekommen,bekäme,V;SBJV;SG;1;PST,4e-06,0.0003186071428571,b ə k eː m ə
+bekommen,bekämen,V;SBJV;PL;1;PST,2.3e-05,0.0003186071428571,b ə k eː m ə n
+bekommen,bekamst,V;IND;SG;2;PST,0.0,0.0003186071428571,b ə k aː m s t
+bekommen,bekamt,V;IND;PL;2;PST,0.0,0.0003186071428571,b ə k a m t
+bekommen,bekämest,V;SBJV;SG;2;PST,0.0,0.0003186071428571,b ə k eː m ə s t
+bekommen,bekämet,V;SBJV;PL;2;PST,0.0,0.0003186071428571,b ə k eː m ə t
+bekommen,bekam,V;IND;SG;3;PST,0.000507,0.0003186071428571,b ə k aː m
+bekommen,bekamen,V;IND;PL;3;PST,0.000154,0.0003186071428571,b ə k aː m ə n
+bekommen,bekäme,V;SBJV;SG;3;PST,4e-06,0.0003186071428571,b ə k eː m ə
+bekommen,bekämen,V;SBJV;PL;3;PST,2.3e-05,0.0003186071428571,b ə k eː m ə n
+bekommen,bekomm,V;IMP;SG;2,0.0,0.0003186071428571,b ə k ɔ m
+bekommen,bekomme,V;IMP;SG;2,0.00014,0.0003186071428571,b ə k ɔ m ə
+bekommen,bekommt,V;IMP;PL;2,0.00072,0.0003186071428571,b ə k ɔ m t
+befinden,befinden,V;NFIN,0.00069,0.0004023703703703,b ə f ɪ n d ə n
+befinden,befinde,V;IND;SG;1;PRS,8.6e-05,0.0004023703703703,b ə f ɪ n d ə
+befinden,befinden,V;IND;PL;1;PRS,0.00069,0.0004023703703703,b ə f ɪ n d ə n
+befinden,befinde,V;SBJV;SG;1;PRS,8.6e-05,0.0004023703703703,b ə f ɪ n d ə
+befinden,befinden,V;SBJV;PL;1;PRS,0.00069,0.0004023703703703,b ə f ɪ n d ə n
+befinden,befindest,V;IND;SG;2;PRS,3e-06,0.0004023703703703,b ə f ɪ n d ə s t
+befinden,befindet,V;IND;PL;2;PRS,0.001607,0.0004023703703703,b ə f ɪ n d ə t
+befinden,befindest,V;SBJV;SG;2;PRS,3e-06,0.0004023703703703,b ə f ɪ n d ə s t
+befinden,befindet,V;SBJV;PL;2;PRS,0.001607,0.0004023703703703,b ə f ɪ n d ə t
+befinden,befindet,V;IND;SG;3;PRS,0.001607,0.0004023703703703,b ə f ɪ n d ə t
+befinden,befinden,V;IND;PL;3;PRS,0.00069,0.0004023703703703,b ə f ɪ n d ə n
+befinden,befinde,V;SBJV;SG;3;PRS,8.6e-05,0.0004023703703703,b ə f ɪ n d ə
+befinden,befinden,V;SBJV;PL;3;PRS,0.00069,0.0004023703703703,b ə f ɪ n d ə n
+befinden,befand,V;IND;SG;1;PST,0.000203,0.0004023703703703,b ə f a n t
+befinden,befanden,V;IND;PL;1;PST,9.1e-05,0.0004023703703703,b ə f a n d ə n
+befinden,befände,V;SBJV;SG;1;PST,2e-06,0.0004023703703703,b ə f ɛ n d ə
+befinden,befänden,V;SBJV;PL;1;PST,2.2e-05,0.0004023703703703,b ə f ɛ n d ə n
+befinden,befandest,V;IND;SG;2;PST,0.0,0.0004023703703703,b ə f a n d ə s t
+befinden,befandet,V;IND;PL;2;PST,0.0,0.0004023703703703,b ə f a n d ə t
+befinden,befändest,V;SBJV;SG;2;PST,0.0,0.0004023703703703,b ə f ɛ n d ə s t
+befinden,befändet,V;SBJV;PL;2;PST,0.0,0.0004023703703703,b ə f ɛ n d ə t
+befinden,befand,V;IND;SG;3;PST,0.000203,0.0004023703703703,b ə f a n t
+befinden,befanden,V;IND;PL;3;PST,9.1e-05,0.0004023703703703,b ə f a n d ə n
+befinden,befände,V;SBJV;SG;3;PST,2e-06,0.0004023703703703,b ə f ɛ n d ə
+befinden,befänden,V;SBJV;PL;3;PST,2.2e-05,0.0004023703703703,b ə f ɛ n d ə n
+befinden,befinde,V;IMP;SG;2,8.6e-05,0.0004023703703703,b ə f ɪ n d ə
+befinden,befindet,V;IMP;PL;2,0.001607,0.0004023703703703,b ə f ɪ n d ə t
+geben,geben,V;NFIN,0.002213,0.0014449259259259,ɡ eː b ə n
+geben,gebe,V;IND;SG;1;PRS,0.001269,0.0014449259259259,ɡ eː b ə
+geben,geben,V;IND;PL;1;PRS,0.002213,0.0014449259259259,ɡ eː b ə n
+geben,gebe,V;SBJV;SG;1;PRS,0.001269,0.0014449259259259,ɡ eː b ə
+geben,geben,V;SBJV;PL;1;PRS,0.002213,0.0014449259259259,ɡ eː b ə n
+geben,gibst,V;IND;SG;2;PRS,1e-05,0.0014449259259259,ɡ iː p s t
+geben,gebt,V;IND;PL;2;PRS,1.4e-05,0.0014449259259259,ɡ eː p t
+geben,gebest,V;SBJV;SG;2;PRS,0.0,0.0014449259259259,ɡ ə b ə s t
+geben,gebet,V;SBJV;PL;2;PRS,0.0,0.0014449259259259,ɡ ə b eː t
+geben,gibt,V;IND;SG;3;PRS,0.013071,0.0014449259259259,ɡ iː p t
+geben,geben,V;IND;PL;3;PRS,0.002213,0.0014449259259259,ɡ eː b ə n
+geben,gebe,V;SBJV;SG;3;PRS,0.001269,0.0014449259259259,ɡ eː b ə
+geben,geben,V;SBJV;PL;3;PRS,0.002213,0.0014449259259259,ɡ eː b ə n
+geben,gab,V;IND;SG;1;PST,0.00484,0.0014449259259259,ɡ aː p
+geben,gaben,V;IND;PL;1;PST,0.000541,0.0014449259259259,ɡ aː b n̩
+geben,gäbe,V;SBJV;SG;1;PST,0.000126,0.0014449259259259,ɡ eː b ə
+geben,gäben,V;SBJV;PL;1;PST,8e-06,0.0014449259259259,ɡ eː b ə n
+geben,gabst,V;IND;SG;2;PST,2e-06,0.0014449259259259,ɡ aː p s t
+geben,gabt,V;IND;PL;2;PST,0.0,0.0014449259259259,ɡ aː p t
+geben,gäbest,V;SBJV;SG;2;PST,0.0,0.0014449259259259,ɡ eː b ə s t
+geben,gäbet,V;SBJV;PL;2;PST,0.0,0.0014449259259259,ɡ eː b ə t
+geben,gab,V;IND;SG;3;PST,0.00484,0.0014449259259259,ɡ aː p
+geben,gaben,V;IND;PL;3;PST,0.000541,0.0014449259259259,ɡ aː b n̩
+geben,gäbe,V;SBJV;SG;3;PST,0.000126,0.0014449259259259,ɡ eː b ə
+geben,gäben,V;SBJV;PL;3;PST,8e-06,0.0014449259259259,ɡ eː b ə n
+geben,gib,V;IMP;SG;2,0.0,0.0014449259259259,ɡ iː p
+geben,gebt,V;IMP;PL;2,1.4e-05,0.0014449259259259,ɡ eː p t
+bestätigen,bestätigen,V;NFIN,0.00029,0.0003012142857142,b ə ʃ t eː t ɪ ɡ n̩
+bestätigen,bestätige,V;IND;SG;1;PRS,1.6e-05,0.0003012142857142,b ə ʃ t eː t ɪ ɡ ə
+bestätigen,bestätigen,V;IND;PL;1;PRS,0.00029,0.0003012142857142,b ə ʃ t eː t ɪ ɡ n̩
+bestätigen,bestätige,V;SBJV;SG;1;PRS,1.6e-05,0.0003012142857142,b ə ʃ t eː t ɪ ɡ ə
+bestätigen,bestätigen,V;SBJV;PL;1;PRS,0.00029,0.0003012142857142,b ə ʃ t eː t ɪ ɡ n̩
+bestätigen,bestätigst,V;IND;SG;2;PRS,1e-06,0.0003012142857142,b ə ʃ t ɛː t ɪ ç s t
+bestätigen,bestätigt,V;IND;PL;2;PRS,0.000917,0.0003012142857142,b ə ʃ t eː t ɪ k t
+bestätigen,bestätigest,V;SBJV;SG;2;PRS,0.0,0.0003012142857142,b ə ʃ t eː t ɪ ɡ ə s t
+bestätigen,bestätiget,V;SBJV;PL;2;PRS,0.0,0.0003012142857142,b ə ʃ t eː t ɪ ɡ ə t
+bestätigen,bestätigt,V;IND;SG;3;PRS,0.000917,0.0003012142857142,b ə ʃ t eː t ɪ k t
+bestätigen,bestätigen,V;IND;PL;3;PRS,0.00029,0.0003012142857142,b ə ʃ t eː t ɪ ɡ n̩
+bestätigen,bestätige,V;SBJV;SG;3;PRS,1.6e-05,0.0003012142857142,b ə ʃ t eː t ɪ ɡ ə
+bestätigen,bestätigen,V;SBJV;PL;3;PRS,0.00029,0.0003012142857142,b ə ʃ t eː t ɪ ɡ n̩
+bestätigen,bestätigte,V;IND;SG;1;PST,0.000953,0.0003012142857142,b ə ʃ t eː t ɪ k t ə
+bestätigen,bestätigten,V;IND;PL;1;PST,8.9e-05,0.0003012142857142,b ə ʃ t eː t ɪ ç t n̩
+bestätigen,bestätigte,V;SBJV;SG;1;PST,0.000953,0.0003012142857142,b ə ʃ t eː t ɪ k t ə
+bestätigen,bestätigten,V;SBJV;PL;1;PST,8.9e-05,0.0003012142857142,b ə ʃ t eː t ɪ ç t n̩
+bestätigen,bestätigtest,V;IND;SG;2;PST,0.0,0.0003012142857142,b ə ʃ t ɛː t ɪ k t ə s t
+bestätigen,bestätigtet,V;IND;PL;2;PST,0.0,0.0003012142857142,b ə ʃ t ɛː t ɪ ç t ə t
+bestätigen,bestätigtest,V;SBJV;SG;2;PST,0.0,0.0003012142857142,b ə ʃ t ɛː t ɪ k t ə s t
+bestätigen,bestätigtet,V;SBJV;PL;2;PST,0.0,0.0003012142857142,b ə ʃ t ɛː t ɪ ç t ə t
+bestätigen,bestätigte,V;IND;SG;3;PST,0.000953,0.0003012142857142,b ə ʃ t eː t ɪ k t ə
+bestätigen,bestätigten,V;IND;PL;3;PST,8.9e-05,0.0003012142857142,b ə ʃ t eː t ɪ ç t n̩
+bestätigen,bestätigte,V;SBJV;SG;3;PST,0.000953,0.0003012142857142,b ə ʃ t eː t ɪ k t ə
+bestätigen,bestätigten,V;SBJV;PL;3;PST,8.9e-05,0.0003012142857142,b ə ʃ t eː t ɪ ç t n̩
+bestätigen,bestätig,V;IMP;SG;2,0.0,0.0003012142857142,b ə ʃ t eː t ɪ k
+bestätigen,bestätige,V;IMP;SG;2,1.6e-05,0.0003012142857142,b ə ʃ t eː t ɪ ɡ ə
+bestätigen,bestätigt,V;IMP;PL;2,0.000917,0.0003012142857142,b ə ʃ t eː t ɪ k t
+zurückwollen,zurückwollen,V;NFIN,0.0,0.0010265714285714,t͡s u ʁ ʏ k v ɔ l ə n
+zurückwollen,zurückzuwollen,V;NFIN;LGSPEC01,0.0,0.0010265714285714,t͡s u ʁ ʏ k t͡s uː v ɔ l ə n
+zurückwollen,will,V;IND;SG;1;PRS,0.004357,0.0010265714285714,v ɪ l
+zurückwollen,wollen,V;IND;PL;1;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+zurückwollen,wolle,V;SBJV;SG;1;PRS,0.000389,0.0010265714285714,v ɔ l ə
+zurückwollen,wollen,V;SBJV;PL;1;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+zurückwollen,willst,V;IND;SG;2;PRS,8.9e-05,0.0010265714285714,v ɪ l s t
+zurückwollen,wollt,V;IND;PL;2;PRS,5.7e-05,0.0010265714285714,v ɔ l t
+zurückwollen,wollest,V;SBJV;SG;2;PRS,0.0,0.0010265714285714,v ɔ l ə s t
+zurückwollen,wollet,V;SBJV;PL;2;PRS,0.0,0.0010265714285714,v ɔ l ə t
+zurückwollen,will,V;IND;SG;3;PRS,0.004357,0.0010265714285714,v ɪ l
+zurückwollen,wollen,V;IND;PL;3;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+zurückwollen,wolle,V;SBJV;SG;3;PRS,0.000389,0.0010265714285714,v ɔ l ə
+zurückwollen,wollen,V;SBJV;PL;3;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+zurückwollen,wollte,V;IND;SG;1;PST,0.001762,0.0010265714285714,v ɔ l t ə
+zurückwollen,wollten,V;IND;PL;1;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+zurückwollen,wollte,V;SBJV;SG;1;PST,0.001762,0.0010265714285714,v ɔ l t ə
+zurückwollen,wollten,V;SBJV;PL;1;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+zurückwollen,wolltest,V;IND;SG;2;PST,1.9e-05,0.0010265714285714,v ɔ l t ə s t
+zurückwollen,wolltet,V;IND;PL;2;PST,6e-06,0.0010265714285714,v ɔ l t ə t
+zurückwollen,wolltest,V;SBJV;SG;2;PST,1.9e-05,0.0010265714285714,v ɔ l t ə s t
+zurückwollen,wolltet,V;SBJV;PL;2;PST,6e-06,0.0010265714285714,v ɔ l t ə t
+zurückwollen,wollte,V;IND;SG;3;PST,0.001762,0.0010265714285714,v ɔ l t ə
+zurückwollen,wollten,V;IND;PL;3;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+zurückwollen,wollte,V;SBJV;SG;3;PST,0.001762,0.0010265714285714,v ɔ l t ə
+zurückwollen,wollten,V;SBJV;PL;3;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+zurückwollen,— (du),V;IMP;SG;2,0.0,0.0010265714285714,d uː
+zurückwollen,— (ihr),V;IMP;PL;2,0.0,0.0010265714285714,iː ɐ̯
+fordern,fordern,V;NFIN,0.000552,0.0002274857142857,f ɔ ʁ d ɐ n
+fordern,fordre,V;IND;SG;1;PRS,0.0,0.0002274857142857,f ɔ ʁ d ʁ ə
+fordern,fordere,V;IND;SG;1;PRS,2.5e-05,0.0002274857142857,f ɔ ʁ d ə ʁ ə
+fordern,forder,V;IND;SG;1;PRS,0.0,0.0002274857142857,f ɔ ʁ d ɐ
+fordern,fordern,V;IND;PL;1;PRS,0.000552,0.0002274857142857,f ɔ ʁ d ɐ n
+fordern,fordere,V;SBJV;SG;1;PRS,2.5e-05,0.0002274857142857,f ɔ ʁ d ə ʁ ə
+fordern,fordre,V;SBJV;SG;1;PRS,0.0,0.0002274857142857,f ɔ ʁ d ʁ ə
+fordern,fordern,V;SBJV;PL;1;PRS,0.000552,0.0002274857142857,f ɔ ʁ d ɐ n
+fordern,forderst,V;IND;SG;2;PRS,2e-06,0.0002274857142857,f ɔ ʁ d ɐ s t
+fordern,fordert,V;IND;PL;2;PRS,0.000776,0.0002274857142857,f ɔ ʁ d ɐ t
+fordern,forderest,V;SBJV;SG;2;PRS,0.0,0.0002274857142857,f ɔ ʁ d ə ʁ ə s t
+fordern,fordrest,V;SBJV;SG;2;PRS,0.0,0.0002274857142857,f ɔ ʁ t ʁ ɛ s t
+fordern,forderet,V;SBJV;PL;2;PRS,0.0,0.0002274857142857,f ɔ ʁ d ə ʁ ə t
+fordern,fordret,V;SBJV;PL;2;PRS,0.0,0.0002274857142857,f ɔ ʁ d ʁ eː t
+fordern,fordert,V;IND;SG;3;PRS,0.000776,0.0002274857142857,f ɔ ʁ d ɐ t
+fordern,fordern,V;IND;PL;3;PRS,0.000552,0.0002274857142857,f ɔ ʁ d ɐ n
+fordern,fordere,V;SBJV;SG;3;PRS,2.5e-05,0.0002274857142857,f ɔ ʁ d ə ʁ ə
+fordern,fordre,V;SBJV;SG;3;PRS,0.0,0.0002274857142857,f ɔ ʁ d ʁ ə
+fordern,fordern,V;SBJV;PL;3;PRS,0.000552,0.0002274857142857,f ɔ ʁ d ɐ n
+fordern,forderte,V;IND;SG;1;PST,0.000524,0.0002274857142857,f ɔ ʁ d ɐ t ə
+fordern,forderten,V;IND;PL;1;PST,0.000169,0.0002274857142857,f ɔ ʁ d ɐ t n̩
+fordern,forderte,V;SBJV;SG;1;PST,0.000524,0.0002274857142857,f ɔ ʁ d ɐ t ə
+fordern,forderten,V;SBJV;PL;1;PST,0.000169,0.0002274857142857,f ɔ ʁ d ɐ t n̩
+fordern,fordertest,V;IND;SG;2;PST,0.0,0.0002274857142857,f ɔ ʁ d ɐ t ə s t
+fordern,fordertet,V;IND;PL;2;PST,0.0,0.0002274857142857,f ɔ ʁ d ɐ t ə t
+fordern,fordertest,V;SBJV;SG;2;PST,0.0,0.0002274857142857,f ɔ ʁ d ɐ t ə s t
+fordern,fordertet,V;SBJV;PL;2;PST,0.0,0.0002274857142857,f ɔ ʁ d ɐ t ə t
+fordern,forderte,V;IND;SG;3;PST,0.000524,0.0002274857142857,f ɔ ʁ d ɐ t ə
+fordern,forderten,V;IND;PL;3;PST,0.000169,0.0002274857142857,f ɔ ʁ d ɐ t n̩
+fordern,forderte,V;SBJV;SG;3;PST,0.000524,0.0002274857142857,f ɔ ʁ d ɐ t ə
+fordern,forderten,V;SBJV;PL;3;PST,0.000169,0.0002274857142857,f ɔ ʁ d ɐ t n̩
+fordern,fordre,V;IMP;SG;2,0.0,0.0002274857142857,f ɔ ʁ d ʁ ə
+fordern,fordere,V;IMP;SG;2,2.5e-05,0.0002274857142857,f ɔ ʁ d ə ʁ ə
+fordern,forder,V;IMP;SG;2,0.0,0.0002274857142857,f ɔ ʁ d ɐ
+fordern,fordert,V;IMP;PL;2,0.000776,0.0002274857142857,f ɔ ʁ d ɐ t
+fallen,fallen,V;NFIN,0.00075,0.0003413571428571,f a l ə n
+fallen,falle,V;IND;SG;1;PRS,3.2e-05,0.0003413571428571,f a l ə
+fallen,fallen,V;IND;PL;1;PRS,0.00075,0.0003413571428571,f a l ə n
+fallen,falle,V;SBJV;SG;1;PRS,3.2e-05,0.0003413571428571,f a l ə
+fallen,fallen,V;SBJV;PL;1;PRS,0.00075,0.0003413571428571,f a l ə n
+fallen,fällst,V;IND;SG;2;PRS,3e-06,0.0003413571428571,f ɛ l s t
+fallen,fallt,V;IND;PL;2;PRS,1e-06,0.0003413571428571,f a l t
+fallen,fallest,V;SBJV;SG;2;PRS,0.0,0.0003413571428571,f a l ə s t
+fallen,fallet,V;SBJV;PL;2;PRS,0.0,0.0003413571428571,f a l ə t
+fallen,fällt,V;IND;SG;3;PRS,0.001115,0.0003413571428571,f ɛ l t
+fallen,fallen,V;IND;PL;3;PRS,0.00075,0.0003413571428571,f a l ə n
+fallen,falle,V;SBJV;SG;3;PRS,3.2e-05,0.0003413571428571,f a l ə
+fallen,fallen,V;SBJV;PL;3;PRS,0.00075,0.0003413571428571,f a l ə n
+fallen,fiel,V;IND;SG;1;PST,0.001265,0.0003413571428571,f iː l
+fallen,fielen,V;IND;PL;1;PST,0.000502,0.0003413571428571,f iː l ə n
+fallen,fiele,V;SBJV;SG;1;PST,1.1e-05,0.0003413571428571,f iː l ə
+fallen,fielen,V;SBJV;PL;1;PST,0.000502,0.0003413571428571,f iː l ə n
+fallen,fielst,V;IND;SG;2;PST,0.0,0.0003413571428571,f iː l s t
+fallen,fielt,V;IND;PL;2;PST,0.0,0.0003413571428571,f iː l t
+fallen,fielest,V;SBJV;SG;2;PST,0.0,0.0003413571428571,f iː l ə s t
+fallen,fielet,V;SBJV;PL;2;PST,0.0,0.0003413571428571,f iː l ə t
+fallen,fiel,V;IND;SG;3;PST,0.001265,0.0003413571428571,f iː l
+fallen,fielen,V;IND;PL;3;PST,0.000502,0.0003413571428571,f iː l ə n
+fallen,fiele,V;SBJV;SG;3;PST,1.1e-05,0.0003413571428571,f iː l ə
+fallen,fielen,V;SBJV;PL;3;PST,0.000502,0.0003413571428571,f iː l ə n
+fallen,fall,V;IMP;SG;2,0.0,0.0003413571428571,f a l
+fallen,falle,V;IMP;SG;2,3.2e-05,0.0003413571428571,f a l ə
+fallen,fallt,V;IMP;PL;2,1e-06,0.0003413571428571,f a l t
+entscheiden,entscheiden,V;NFIN,0.000543,0.000302037037037,ɛ n t ʃ a ɪ̯ d n̩
+entscheiden,entscheide,V;IND;SG;1;PRS,3.5e-05,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə
+entscheiden,entscheiden,V;IND;PL;1;PRS,0.000543,0.000302037037037,ɛ n t ʃ a ɪ̯ d n̩
+entscheiden,entscheide,V;SBJV;SG;1;PRS,3.5e-05,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə
+entscheiden,entscheiden,V;SBJV;PL;1;PRS,0.000543,0.000302037037037,ɛ n t ʃ a ɪ̯ d n̩
+entscheiden,entscheidest,V;IND;SG;2;PRS,2e-06,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə s t
+entscheiden,entscheidet,V;IND;PL;2;PRS,0.000552,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə t
+entscheiden,entscheidest,V;SBJV;SG;2;PRS,2e-06,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə s t
+entscheiden,entscheidet,V;SBJV;PL;2;PRS,0.000552,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə t
+entscheiden,entscheidet,V;IND;SG;3;PRS,0.000552,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə t
+entscheiden,entscheiden,V;IND;PL;3;PRS,0.000543,0.000302037037037,ɛ n t ʃ a ɪ̯ d n̩
+entscheiden,entscheide,V;SBJV;SG;3;PRS,3.5e-05,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə
+entscheiden,entscheiden,V;SBJV;PL;3;PRS,0.000543,0.000302037037037,ɛ n t ʃ a ɪ̯ d n̩
+entscheiden,entschied,V;IND;SG;1;PST,0.000228,0.000302037037037,ɛ n t ʃ iː t
+entscheiden,entschieden,V;IND;PL;1;PST,0.000657,0.000302037037037,ɛ n t ʃ iː d n̩
+entscheiden,entschiede,V;SBJV;SG;1;PST,0.0,0.000302037037037,ɛ n t ʃ iː d ə
+entscheiden,entschieden,V;SBJV;PL;1;PST,0.000657,0.000302037037037,ɛ n t ʃ iː d n̩
+entscheiden,entschiedest,V;IND;SG;2;PST,0.0,0.000302037037037,ɛ n t ʃ iː d ə s t
+entscheiden,entschiedet,V;IND;PL;2;PST,2e-06,0.000302037037037,ɛ n t ʃ iː d ə t
+entscheiden,entschiedest,V;SBJV;SG;2;PST,0.0,0.000302037037037,ɛ n t ʃ iː d ə s t
+entscheiden,entschiedet,V;SBJV;PL;2;PST,2e-06,0.000302037037037,ɛ n t ʃ iː d ə t
+entscheiden,entschied,V;IND;SG;3;PST,0.000228,0.000302037037037,ɛ n t ʃ iː t
+entscheiden,entschieden,V;IND;PL;3;PST,0.000657,0.000302037037037,ɛ n t ʃ iː d n̩
+entscheiden,entschiede,V;SBJV;SG;3;PST,0.0,0.000302037037037,ɛ n t ʃ iː d ə
+entscheiden,entschieden,V;SBJV;PL;3;PST,0.000657,0.000302037037037,ɛ n t ʃ iː d n̩
+entscheiden,entscheide,V;IMP;SG;2,3.5e-05,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə
+entscheiden,entscheidet,V;IMP;PL;2,0.000552,0.000302037037037,ɛ n t ʃ a ɪ̯ d ə t
+fehlen,fehlen,V;NFIN,0.000611,0.0003356428571428,f eː l ə n
+fehlen,fehle,V;IND;SG;1;PRS,0.000144,0.0003356428571428,f eː l ə
+fehlen,fehlen,V;IND;PL;1;PRS,0.000611,0.0003356428571428,f eː l ə n
+fehlen,fehle,V;SBJV;SG;1;PRS,0.000144,0.0003356428571428,f eː l ə
+fehlen,fehlen,V;SBJV;PL;1;PRS,0.000611,0.0003356428571428,f eː l ə n
+fehlen,fehlst,V;IND;SG;2;PRS,1e-06,0.0003356428571428,f eː l s t
+fehlen,fehlt,V;IND;PL;2;PRS,0.001235,0.0003356428571428,f eː l t
+fehlen,fehlest,V;SBJV;SG;2;PRS,0.0,0.0003356428571428,f eː l ə s t
+fehlen,fehlet,V;SBJV;PL;2;PRS,0.0,0.0003356428571428,f eː l ə t
+fehlen,fehlt,V;IND;SG;3;PRS,0.001235,0.0003356428571428,f eː l t
+fehlen,fehlen,V;IND;PL;3;PRS,0.000611,0.0003356428571428,f eː l ə n
+fehlen,fehle,V;SBJV;SG;3;PRS,0.000144,0.0003356428571428,f eː l ə
+fehlen,fehlen,V;SBJV;PL;3;PRS,0.000611,0.0003356428571428,f eː l ə n
+fehlen,fehlte,V;IND;SG;1;PST,0.00034,0.0003356428571428,f eː l t ə
+fehlen,fehlten,V;IND;PL;1;PST,0.000167,0.0003356428571428,f eː l t n̩
+fehlen,fehlte,V;SBJV;SG;1;PST,0.00034,0.0003356428571428,f eː l t ə
+fehlen,fehlten,V;SBJV;PL;1;PST,0.000167,0.0003356428571428,f eː l t n̩
+fehlen,fehltest,V;IND;SG;2;PST,0.0,0.0003356428571428,f eː l t ə s t
+fehlen,fehltet,V;IND;PL;2;PST,0.0,0.0003356428571428,f eː l t ə t
+fehlen,fehltest,V;SBJV;SG;2;PST,0.0,0.0003356428571428,f eː l t ə s t
+fehlen,fehltet,V;SBJV;PL;2;PST,0.0,0.0003356428571428,f eː l t ə t
+fehlen,fehlte,V;IND;SG;3;PST,0.00034,0.0003356428571428,f eː l t ə
+fehlen,fehlten,V;IND;PL;3;PST,0.000167,0.0003356428571428,f eː l t n̩
+fehlen,fehlte,V;SBJV;SG;3;PST,0.00034,0.0003356428571428,f eː l t ə
+fehlen,fehlten,V;SBJV;PL;3;PST,0.000167,0.0003356428571428,f eː l t n̩
+fehlen,fehl,V;IMP;SG;2,3.3e-05,0.0003356428571428,f eː l
+fehlen,fehle,V;IMP;SG;2,0.000144,0.0003356428571428,f eː l ə
+fehlen,fehlt,V;IMP;PL;2,0.001235,0.0003356428571428,f eː l t
+hineinwollen,hineinwollen,V;NFIN,0.0,0.0010265714285714,h ɪ n ʔ a ɪ̯ n v ɔ l ə n
+hineinwollen,hineinzuwollen,V;NFIN;LGSPEC01,0.0,0.0010265714285714,h ɪ n a ɪ̯ n t͡s uː v ɔ l ə n
+hineinwollen,will,V;IND;SG;1;PRS,0.004357,0.0010265714285714,v ɪ l
+hineinwollen,wollen,V;IND;PL;1;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+hineinwollen,wolle,V;SBJV;SG;1;PRS,0.000389,0.0010265714285714,v ɔ l ə
+hineinwollen,wollen,V;SBJV;PL;1;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+hineinwollen,willst,V;IND;SG;2;PRS,8.9e-05,0.0010265714285714,v ɪ l s t
+hineinwollen,wollt,V;IND;PL;2;PRS,5.7e-05,0.0010265714285714,v ɔ l t
+hineinwollen,wollest,V;SBJV;SG;2;PRS,0.0,0.0010265714285714,v ɔ l ə s t
+hineinwollen,wollet,V;SBJV;PL;2;PRS,0.0,0.0010265714285714,v ɔ l ə t
+hineinwollen,will,V;IND;SG;3;PRS,0.004357,0.0010265714285714,v ɪ l
+hineinwollen,wollen,V;IND;PL;3;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+hineinwollen,wolle,V;SBJV;SG;3;PRS,0.000389,0.0010265714285714,v ɔ l ə
+hineinwollen,wollen,V;SBJV;PL;3;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+hineinwollen,wollte,V;IND;SG;1;PST,0.001762,0.0010265714285714,v ɔ l t ə
+hineinwollen,wollten,V;IND;PL;1;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+hineinwollen,wollte,V;SBJV;SG;1;PST,0.001762,0.0010265714285714,v ɔ l t ə
+hineinwollen,wollten,V;SBJV;PL;1;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+hineinwollen,wolltest,V;IND;SG;2;PST,1.9e-05,0.0010265714285714,v ɔ l t ə s t
+hineinwollen,wolltet,V;IND;PL;2;PST,6e-06,0.0010265714285714,v ɔ l t ə t
+hineinwollen,wolltest,V;SBJV;SG;2;PST,1.9e-05,0.0010265714285714,v ɔ l t ə s t
+hineinwollen,wolltet,V;SBJV;PL;2;PST,6e-06,0.0010265714285714,v ɔ l t ə t
+hineinwollen,wollte,V;IND;SG;3;PST,0.001762,0.0010265714285714,v ɔ l t ə
+hineinwollen,wollten,V;IND;PL;3;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+hineinwollen,wollte,V;SBJV;SG;3;PST,0.001762,0.0010265714285714,v ɔ l t ə
+hineinwollen,wollten,V;SBJV;PL;3;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+hineinwollen,— (du),V;IMP;SG;2,0.0,0.0010265714285714,d uː
+hineinwollen,— (ihr),V;IMP;PL;2,0.0,0.0010265714285714,iː ɐ̯
+werden,werden,V;NFIN,0.05059,0.0112930857142857,v eː ɐ̯ d n̩
+werden,werde,V;IND;SG;1;PRS,0.003169,0.0112930857142857,v eː ɐ̯ d ə
+werden,werd',V;IND;SG;1;PRS,0.0,0.0112930857142857,v eː ɐ̯ t
+werden,werd,V;IND;SG;1;PRS,1e-06,0.0112930857142857,v eː ɐ̯ t
+werden,werden,V;IND;PL;1;PRS,0.05059,0.0112930857142857,v eː ɐ̯ d n̩
+werden,werde,V;SBJV;SG;1;PRS,0.003169,0.0112930857142857,v eː ɐ̯ d ə
+werden,werden,V;SBJV;PL;1;PRS,0.05059,0.0112930857142857,v eː ɐ̯ d n̩
+werden,wirst,V;IND;SG;2;PRS,0.000108,0.0112930857142857,v ɪ ʁ s t
+werden,werdet,V;IND;PL;2;PRS,6.5e-05,0.0112930857142857,v eː ɐ̯ d ə t
+werden,werdest,V;SBJV;SG;2;PRS,0.0,0.0112930857142857,v eː ɐ̯ d ə s t
+werden,werdet,V;SBJV;PL;2;PRS,6.5e-05,0.0112930857142857,v eː ɐ̯ d ə t
+werden,wird,V;IND;SG;3;PRS,0.039021,0.0112930857142857,v ɪ ʁ t
+werden,werden,V;IND;PL;3;PRS,0.05059,0.0112930857142857,v eː ɐ̯ d n̩
+werden,werde,V;SBJV;SG;3;PRS,0.003169,0.0112930857142857,v eː ɐ̯ d ə
+werden,werden,V;SBJV;PL;3;PRS,0.05059,0.0112930857142857,v eː ɐ̯ d n̩
+werden,wurde,V;IND;SG;1;PST,0.02953,0.0112930857142857,v ʊ ʁ d ə
+werden,ward,V;IND;SG;1;PST,1.6e-05,0.0112930857142857,v ɔ ʁ t
+werden,wurden,V;IND;PL;1;PST,0.012514,0.0112930857142857,v ʊ ʁ d n̩
+werden,würde,V;SBJV;SG;1;PST,0.001324,0.0112930857142857,v ʏ ʁ d ə
+werden,würden,V;SBJV;PL;1;PST,0.001752,0.0112930857142857,v ʏ ʁ d n̩
+werden,wurdest,V;IND;SG;2;PST,5e-06,0.0112930857142857,v ʊ ʁ d ə s t
+werden,wardest,V;IND;SG;2;PST,0.0,0.0112930857142857,v a ʁ d ə s t
+werden,wardst,V;IND;SG;2;PST,0.0,0.0112930857142857,v a ʁ t s t
+werden,wurdet,V;IND;PL;2;PST,1e-06,0.0112930857142857,v ʊ ʁ d ə t
+werden,würdest,V;SBJV;SG;2;PST,1.9e-05,0.0112930857142857,v ʏ ʁ d ə s t
+werden,würdet,V;SBJV;PL;2;PST,9e-06,0.0112930857142857,v ʏ ʁ d ə t
+werden,wurde,V;IND;SG;3;PST,0.02953,0.0112930857142857,v ʊ ʁ d ə
+werden,ward,V;IND;SG;3;PST,1.6e-05,0.0112930857142857,v ɔ ʁ t
+werden,wurden,V;IND;PL;3;PST,0.012514,0.0112930857142857,v ʊ ʁ d n̩
+werden,würde,V;SBJV;SG;3;PST,0.001324,0.0112930857142857,v ʏ ʁ d ə
+werden,würden,V;SBJV;PL;3;PST,0.001752,0.0112930857142857,v ʏ ʁ d n̩
+werden,werde,V;IMP;SG;2,0.003169,0.0112930857142857,v eː ɐ̯ d ə
+werden,werd,V;IMP;SG;2,1e-06,0.0112930857142857,v eː ɐ̯ t
+werden,werd',V;IMP;SG;2,0.0,0.0112930857142857,v eː ɐ̯ t
+werden,werdet,V;IMP;PL;2,6.5e-05,0.0112930857142857,v eː ɐ̯ d ə t
+fasen,fasen,V;NFIN,0.0,0.0002717142857142,f aː z n̩
+fasen,fase,V;IND;SG;1;PRS,0.0,0.0002717142857142,f aː z ə
+fasen,fasen,V;IND;PL;1;PRS,0.0,0.0002717142857142,f aː z n̩
+fasen,fase,V;SBJV;SG;1;PRS,0.0,0.0002717142857142,f aː z ə
+fasen,fasen,V;SBJV;PL;1;PRS,0.0,0.0002717142857142,f aː z n̩
+fasen,fast,V;IND;SG;2;PRS,0.001897,0.0002717142857142,f a s t
+fasen,fast,V;IND;PL;2;PRS,0.001897,0.0002717142857142,f a s t
+fasen,fasest,V;SBJV;SG;2;PRS,0.0,0.0002717142857142,f aː z ə s t
+fasen,faset,V;SBJV;PL;2;PRS,0.0,0.0002717142857142,f a z ɛ t
+fasen,fast,V;IND;SG;3;PRS,0.001897,0.0002717142857142,f a s t
+fasen,fasen,V;IND;PL;3;PRS,0.0,0.0002717142857142,f aː z n̩
+fasen,fase,V;SBJV;SG;3;PRS,0.0,0.0002717142857142,f aː z ə
+fasen,fasen,V;SBJV;PL;3;PRS,0.0,0.0002717142857142,f aː z n̩
+fasen,faste,V;IND;SG;1;PST,2e-06,0.0002717142857142,f a s t ə
+fasen,fasten,V;IND;PL;1;PST,3e-06,0.0002717142857142,f a s t n̩
+fasen,faste,V;SBJV;SG;1;PST,2e-06,0.0002717142857142,f a s t ə
+fasen,fasten,V;SBJV;PL;1;PST,3e-06,0.0002717142857142,f a s t n̩
+fasen,fastest,V;IND;SG;2;PST,0.0,0.0002717142857142,f a s t ə s t
+fasen,fastet,V;IND;PL;2;PST,0.0,0.0002717142857142,f a s t ə t
+fasen,fastest,V;SBJV;SG;2;PST,0.0,0.0002717142857142,f a s t ə s t
+fasen,fastet,V;SBJV;PL;2;PST,0.0,0.0002717142857142,f a s t ə t
+fasen,faste,V;IND;SG;3;PST,2e-06,0.0002717142857142,f a s t ə
+fasen,fasten,V;IND;PL;3;PST,3e-06,0.0002717142857142,f a s t n̩
+fasen,faste,V;SBJV;SG;3;PST,2e-06,0.0002717142857142,f a s t ə
+fasen,fasten,V;SBJV;PL;3;PST,3e-06,0.0002717142857142,f a s t n̩
+fasen,fas,V;IMP;SG;2,0.0,0.0002717142857142,f a s
+fasen,fase,V;IMP;SG;2,0.0,0.0002717142857142,f aː z ə
+fasen,fast,V;IMP;PL;2,0.001897,0.0002717142857142,f a s t
+betragen,betragen,V;NFIN,0.000505,0.0002728928571428,b ə t ʁ aː ɡ ə n
+betragen,betrage,V;IND;SG;1;PRS,0.000114,0.0002728928571428,b ə t ʁ aː ɡ ə
+betragen,betragen,V;IND;PL;1;PRS,0.000505,0.0002728928571428,b ə t ʁ aː ɡ ə n
+betragen,betrage,V;SBJV;SG;1;PRS,0.000114,0.0002728928571428,b ə t ʁ aː ɡ ə
+betragen,betragen,V;SBJV;PL;1;PRS,0.000505,0.0002728928571428,b ə t ʁ aː ɡ ə n
+betragen,beträgst,V;IND;SG;2;PRS,0.0,0.0002728928571428,b ə t ʁ ɛː k s t
+betragen,betragt,V;IND;PL;2;PRS,3e-06,0.0002728928571428,b ə t ʁ aː k t
+betragen,betragest,V;SBJV;SG;2;PRS,0.0,0.0002728928571428,b ə t ʁ aː ɡ ə s t
+betragen,betraget,V;SBJV;PL;2;PRS,0.0,0.0002728928571428,b ə t ʁ aː ɡ ə t
+betragen,beträgt,V;IND;SG;3;PRS,0.003051,0.0002728928571428,b ə t ʁ ɛː k t
+betragen,betragen,V;IND;PL;3;PRS,0.000505,0.0002728928571428,b ə t ʁ aː ɡ ə n
+betragen,betrage,V;SBJV;SG;3;PRS,0.000114,0.0002728928571428,b ə t ʁ aː ɡ ə
+betragen,betragen,V;SBJV;PL;3;PRS,0.000505,0.0002728928571428,b ə t ʁ aː ɡ ə n
+betragen,betrug,V;IND;SG;1;PST,0.000729,0.0002728928571428,b ə t ʁ uː k
+betragen,betrugen,V;IND;PL;1;PST,6.2e-05,0.0002728928571428,b ə t ʁ uː ɡ ə n
+betragen,betrüge,V;SBJV;SG;1;PST,1e-06,0.0002728928571428,b ə t ʁ yː ɡ ə
+betragen,betrügen,V;SBJV;PL;1;PST,9e-06,0.0002728928571428,b ə t ʁ yː ɡ ə n
+betragen,betrugst,V;IND;SG;2;PST,0.0,0.0002728928571428,b ə t ʁ uː k s t
+betragen,betrugt,V;IND;PL;2;PST,1e-06,0.0002728928571428,b ə t ʁ uː k t
+betragen,betrügest,V;SBJV;SG;2;PST,0.0,0.0002728928571428,b ə t ʁ yː ɡ ə s t
+betragen,betrüget,V;SBJV;PL;2;PST,0.0,0.0002728928571428,b ə t ʁ yː ɡ ə t
+betragen,betrug,V;IND;SG;3;PST,0.000729,0.0002728928571428,b ə t ʁ uː k
+betragen,betrugen,V;IND;PL;3;PST,6.2e-05,0.0002728928571428,b ə t ʁ uː ɡ ə n
+betragen,betrüge,V;SBJV;SG;3;PST,1e-06,0.0002728928571428,b ə t ʁ yː ɡ ə
+betragen,betrügen,V;SBJV;PL;3;PST,9e-06,0.0002728928571428,b ə t ʁ yː ɡ ə n
+betragen,betrag,V;IMP;SG;2,0.0,0.0002728928571428,b ə t ʁ aː k
+betragen,betrage,V;IMP;SG;2,0.000114,0.0002728928571428,b ə t ʁ aː ɡ ə
+betragen,betragt,V;IMP;PL;2,3e-06,0.0002728928571428,b ə t ʁ aː k t
+können,können,V;NFIN,0.008431,0.0030137407407407,k œ n ə n
+können,kann,V;IND;SG;1;PRS,0.010935,0.0030137407407407,k a n
+können,können,V;IND;PL;1;PRS,0.008431,0.0030137407407407,k œ n ə n
+können,könne,V;SBJV;SG;1;PRS,0.000989,0.0030137407407407,k œ n ə
+können,können,V;SBJV;PL;1;PRS,0.008431,0.0030137407407407,k œ n ə n
+können,kannst,V;IND;SG;2;PRS,0.000338,0.0030137407407407,k a n s t
+können,könnt,V;IND;PL;2;PRS,0.00028,0.0030137407407407,k œ n t
+können,könnest,V;SBJV;SG;2;PRS,0.0,0.0030137407407407,k œ n ə s t
+können,könnet,V;SBJV;PL;2;PRS,1e-06,0.0030137407407407,k œ n ə t
+können,kann,V;IND;SG;3;PRS,0.010935,0.0030137407407407,k a n
+können,können,V;IND;PL;3;PRS,0.008431,0.0030137407407407,k œ n ə n
+können,könne,V;SBJV;SG;3;PRS,0.000989,0.0030137407407407,k œ n ə
+können,können,V;SBJV;PL;3;PRS,0.008431,0.0030137407407407,k œ n ə n
+können,konnte,V;IND;SG;1;PST,0.002899,0.0030137407407407,k ɔ n t ə
+können,konnten,V;IND;PL;1;PST,0.001337,0.0030137407407407,k ɔ n t ə n
+können,könnte,V;SBJV;SG;1;PST,0.002084,0.0030137407407407,k œ n t ə
+können,könnten,V;SBJV;PL;1;PST,0.001041,0.0030137407407407,k œ n t ə n
+können,konntest,V;IND;SG;2;PST,4e-06,0.0030137407407407,k ɔ n t ə s t
+können,konntet,V;IND;PL;2;PST,2e-06,0.0030137407407407,k ɔ n t ə t
+können,könntest,V;SBJV;SG;2;PST,1.7e-05,0.0030137407407407,k œ n t ə s t
+können,könntet,V;SBJV;PL;2;PST,4e-06,0.0030137407407407,k œ n t ə t
+können,konnte,V;IND;SG;3;PST,0.002899,0.0030137407407407,k ɔ n t ə
+können,konnten,V;IND;PL;3;PST,0.001337,0.0030137407407407,k ɔ n t ə n
+können,könnte,V;SBJV;SG;3;PST,0.002084,0.0030137407407407,k œ n t ə
+können,könnten,V;SBJV;PL;3;PST,0.001041,0.0030137407407407,k œ n t ə n
+können,— (du),V;IMP;SG;2,0.0,0.0030137407407407,d uː
+können,— (ihr),V;IMP;PL;2,0.0,0.0030137407407407,iː ɐ̯
+teilen,teilen,V;NFIN,0.000125,0.0002256785714285,t a ɪ̯ l ə n
+teilen,teile,V;IND;SG;1;PRS,2.7e-05,0.0002256785714285,t a ɪ̯ l ə
+teilen,teilen,V;IND;PL;1;PRS,0.000125,0.0002256785714285,t a ɪ̯ l ə n
+teilen,teile,V;SBJV;SG;1;PRS,2.7e-05,0.0002256785714285,t a ɪ̯ l ə
+teilen,teilen,V;SBJV;PL;1;PRS,0.000125,0.0002256785714285,t a ɪ̯ l ə n
+teilen,teilst,V;IND;SG;2;PRS,1e-06,0.0002256785714285,t a ɪ̯ l s t
+teilen,teilt,V;IND;PL;2;PRS,0.000221,0.0002256785714285,t a ɪ̯ l t
+teilen,teilest,V;SBJV;SG;2;PRS,0.0,0.0002256785714285,t a ɪ̯ l ə s t
+teilen,teilet,V;SBJV;PL;2;PRS,0.0,0.0002256785714285,t a ɪ̯ l ə t
+teilen,teilt,V;IND;SG;3;PRS,0.000221,0.0002256785714285,t a ɪ̯ l t
+teilen,teilen,V;IND;PL;3;PRS,0.000125,0.0002256785714285,t a ɪ̯ l ə n
+teilen,teile,V;SBJV;SG;3;PRS,2.7e-05,0.0002256785714285,t a ɪ̯ l ə
+teilen,teilen,V;SBJV;PL;3;PRS,0.000125,0.0002256785714285,t a ɪ̯ l ə n
+teilen,teilte,V;IND;SG;1;PST,0.001048,0.0002256785714285,t a ɪ̯ l t ə
+teilen,teilten,V;IND;PL;1;PST,9.4e-05,0.0002256785714285,t a ɪ̯ l t n̩
+teilen,teilte,V;SBJV;SG;1;PST,0.001048,0.0002256785714285,t a ɪ̯ l t ə
+teilen,teilten,V;SBJV;PL;1;PST,9.4e-05,0.0002256785714285,t a ɪ̯ l t n̩
+teilen,teiltest,V;IND;SG;2;PST,0.0,0.0002256785714285,t a ɪ̯ l t ə s t
+teilen,teiltet,V;IND;PL;2;PST,0.0,0.0002256785714285,t a ɪ̯ l t ə t
+teilen,teiltest,V;SBJV;SG;2;PST,0.0,0.0002256785714285,t a ɪ̯ l t ə s t
+teilen,teiltet,V;SBJV;PL;2;PST,0.0,0.0002256785714285,t a ɪ̯ l t ə t
+teilen,teilte,V;IND;SG;3;PST,0.001048,0.0002256785714285,t a ɪ̯ l t ə
+teilen,teilten,V;IND;PL;3;PST,9.4e-05,0.0002256785714285,t a ɪ̯ l t n̩
+teilen,teilte,V;SBJV;SG;3;PST,0.001048,0.0002256785714285,t a ɪ̯ l t ə
+teilen,teilten,V;SBJV;PL;3;PST,9.4e-05,0.0002256785714285,t a ɪ̯ l t n̩
+teilen,teil,V;IMP;SG;2,0.000354,0.0002256785714285,t a ɪ̯ l
+teilen,teile,V;IMP;SG;2,2.7e-05,0.0002256785714285,t a ɪ̯ l ə
+teilen,teilt,V;IMP;PL;2,0.000221,0.0002256785714285,t a ɪ̯ l t
+bleiben,bleiben,V;NFIN,0.001927,0.0009445714285714,b l a ɪ̯ b n̩
+bleiben,bleibe,V;IND;SG;1;PRS,0.000337,0.0009445714285714,b l a ɪ̯ b ə
+bleiben,bleiben,V;IND;PL;1;PRS,0.001927,0.0009445714285714,b l a ɪ̯ b n̩
+bleiben,bleibe,V;SBJV;SG;1;PRS,0.000337,0.0009445714285714,b l a ɪ̯ b ə
+bleiben,bleiben,V;SBJV;PL;1;PRS,0.001927,0.0009445714285714,b l a ɪ̯ b n̩
+bleiben,bleibst,V;IND;SG;2;PRS,4e-06,0.0009445714285714,b l a ɪ̯ p s t
+bleiben,bleibt,V;IND;PL;2;PRS,0.003121,0.0009445714285714,b l a ɪ̯ p t
+bleiben,bleibest,V;SBJV;SG;2;PRS,0.0,0.0009445714285714,b l a ɪ̯ b ə s t
+bleiben,bleibet,V;SBJV;PL;2;PRS,1e-06,0.0009445714285714,b l a ɪ̯ b ə t
+bleiben,bleibt,V;IND;SG;3;PRS,0.003121,0.0009445714285714,b l a ɪ̯ p t
+bleiben,bleiben,V;IND;PL;3;PRS,0.001927,0.0009445714285714,b l a ɪ̯ b n̩
+bleiben,bleibe,V;SBJV;SG;3;PRS,0.000337,0.0009445714285714,b l a ɪ̯ b ə
+bleiben,bleiben,V;SBJV;PL;3;PRS,0.001927,0.0009445714285714,b l a ɪ̯ b n̩
+bleiben,blieb,V;IND;SG;1;PST,0.001663,0.0009445714285714,b l iː p
+bleiben,blieben,V;IND;PL;1;PST,0.000674,0.0009445714285714,b l iː b ə n
+bleiben,bliebe,V;SBJV;SG;1;PST,3.6e-05,0.0009445714285714,b l iː b ə
+bleiben,blieben,V;SBJV;PL;1;PST,0.000674,0.0009445714285714,b l iː b ə n
+bleiben,bliebst,V;IND;SG;2;PST,0.0,0.0009445714285714,b l iː p s t
+bleiben,bliebt,V;IND;PL;2;PST,3e-06,0.0009445714285714,b l iː p t
+bleiben,bliebest,V;SBJV;SG;2;PST,0.0,0.0009445714285714,b l iː b ə s t
+bleiben,bliebet,V;SBJV;PL;2;PST,0.0,0.0009445714285714,b l iː b ə t
+bleiben,blieb,V;IND;SG;3;PST,0.001663,0.0009445714285714,b l iː p
+bleiben,blieben,V;IND;PL;3;PST,0.000674,0.0009445714285714,b l iː b ə n
+bleiben,bliebe,V;SBJV;SG;3;PST,3.6e-05,0.0009445714285714,b l iː b ə
+bleiben,blieben,V;SBJV;PL;3;PST,0.000674,0.0009445714285714,b l iː b ə n
+bleiben,bleib,V;IMP;SG;2,0.0,0.0009445714285714,b l a ɪ̯ p
+bleiben,bleibe,V;IMP;SG;2,0.000337,0.0009445714285714,b l a ɪ̯ b ə
+bleiben,bleibt,V;IMP;PL;2,0.003121,0.0009445714285714,b l a ɪ̯ p t
+legen,legen,V;NFIN,0.000456,0.0003563214285714,l eː ɡ n̩
+legen,lege,V;IND;SG;1;PRS,5.3e-05,0.0003563214285714,l eː ɡ ə
+legen,legen,V;IND;PL;1;PRS,0.000456,0.0003563214285714,l eː ɡ n̩
+legen,lege,V;SBJV;SG;1;PRS,5.3e-05,0.0003563214285714,l eː ɡ ə
+legen,legen,V;SBJV;PL;1;PRS,0.000456,0.0003563214285714,l eː ɡ n̩
+legen,legst,V;IND;SG;2;PRS,2e-06,0.0003563214285714,l eː k s t
+legen,legt,V;IND;PL;2;PRS,0.000545,0.0003563214285714,l eː k t
+legen,legest,V;SBJV;SG;2;PRS,0.0,0.0003563214285714,l eː ɡ ə s t
+legen,leget,V;SBJV;PL;2;PRS,0.0,0.0003563214285714,l eː ɡ ə t
+legen,legt,V;IND;SG;3;PRS,0.000545,0.0003563214285714,l eː k t
+legen,legen,V;IND;PL;3;PRS,0.000456,0.0003563214285714,l eː ɡ n̩
+legen,lege,V;SBJV;SG;3;PRS,5.3e-05,0.0003563214285714,l eː ɡ ə
+legen,legen,V;SBJV;PL;3;PRS,0.000456,0.0003563214285714,l eː ɡ n̩
+legen,legte,V;IND;SG;1;PST,0.00094,0.0003563214285714,l eː k t ə
+legen,legten,V;IND;PL;1;PST,0.000522,0.0003563214285714,l eː k t n̩
+legen,legte,V;SBJV;SG;1;PST,0.00094,0.0003563214285714,l eː k t ə
+legen,legten,V;SBJV;PL;1;PST,0.000522,0.0003563214285714,l eː k t n̩
+legen,legtest,V;IND;SG;2;PST,0.0,0.0003563214285714,l eː k t ə s t
+legen,legtet,V;IND;PL;2;PST,0.0,0.0003563214285714,l eː k t ə t
+legen,legtest,V;SBJV;SG;2;PST,0.0,0.0003563214285714,l eː k t ə s t
+legen,legtet,V;SBJV;PL;2;PST,0.0,0.0003563214285714,l eː k t ə t
+legen,legte,V;IND;SG;3;PST,0.00094,0.0003563214285714,l eː k t ə
+legen,legten,V;IND;PL;3;PST,0.000522,0.0003563214285714,l eː k t n̩
+legen,legte,V;SBJV;SG;3;PST,0.00094,0.0003563214285714,l eː k t ə
+legen,legten,V;SBJV;PL;3;PST,0.000522,0.0003563214285714,l eː k t n̩
+legen,leg,V;IMP;SG;2,0.0,0.0003563214285714,l eː k
+legen,lege,V;IMP;SG;2,5.3e-05,0.0003563214285714,l eː ɡ ə
+legen,legt,V;IMP;PL;2,0.000545,0.0003563214285714,l eː k t
+spielen,spielen,V;NFIN,0.00094,0.0004253571428571,ʃ p iː l ə n
+spielen,spiele,V;IND;SG;1;PRS,0.000107,0.0004253571428571,ʃ p iː l ə
+spielen,spielen,V;IND;PL;1;PRS,0.00094,0.0004253571428571,ʃ p iː l ə n
+spielen,spiele,V;SBJV;SG;1;PRS,0.000107,0.0004253571428571,ʃ p iː l ə
+spielen,spielen,V;SBJV;PL;1;PRS,0.00094,0.0004253571428571,ʃ p iː l ə n
+spielen,spielst,V;IND;SG;2;PRS,7e-06,0.0004253571428571,ʃ p iː l s t
+spielen,spielt,V;IND;PL;2;PRS,0.001401,0.0004253571428571,ʃ p iː l t
+spielen,spielest,V;SBJV;SG;2;PRS,0.0,0.0004253571428571,ʃ p iː l ə s t
+spielen,spielet,V;SBJV;PL;2;PRS,0.0,0.0004253571428571,ʃ p iː l ə t
+spielen,spielt,V;IND;SG;3;PRS,0.001401,0.0004253571428571,ʃ p iː l t
+spielen,spielen,V;IND;PL;3;PRS,0.00094,0.0004253571428571,ʃ p iː l ə n
+spielen,spiele,V;SBJV;SG;3;PRS,0.000107,0.0004253571428571,ʃ p iː l ə
+spielen,spielen,V;SBJV;PL;3;PRS,0.00094,0.0004253571428571,ʃ p iː l ə n
+spielen,spielte,V;IND;SG;1;PST,0.000435,0.0004253571428571,ʃ p iː l t ə
+spielen,spielten,V;IND;PL;1;PST,0.000208,0.0004253571428571,ʃ p iː l t n̩
+spielen,spielte,V;SBJV;SG;1;PST,0.000435,0.0004253571428571,ʃ p iː l t ə
+spielen,spielten,V;SBJV;PL;1;PST,0.000208,0.0004253571428571,ʃ p iː l t n̩
+spielen,spieltest,V;IND;SG;2;PST,0.0,0.0004253571428571,ʃ p iː l t ə s t
+spielen,spieltet,V;IND;PL;2;PST,0.0,0.0004253571428571,ʃ p iː l t ə t
+spielen,spieltest,V;SBJV;SG;2;PST,0.0,0.0004253571428571,ʃ p iː l t ə s t
+spielen,spieltet,V;SBJV;PL;2;PST,0.0,0.0004253571428571,ʃ p iː l t ə t
+spielen,spielte,V;IND;SG;3;PST,0.000435,0.0004253571428571,ʃ p iː l t ə
+spielen,spielten,V;IND;PL;3;PST,0.000208,0.0004253571428571,ʃ p iː l t n̩
+spielen,spielte,V;SBJV;SG;3;PST,0.000435,0.0004253571428571,ʃ p iː l t ə
+spielen,spielten,V;SBJV;PL;3;PST,0.000208,0.0004253571428571,ʃ p iː l t n̩
+spielen,spiel,V;IMP;SG;2,0.0,0.0004253571428571,ʃ p iː l
+spielen,spiele,V;IMP;SG;2,0.000107,0.0004253571428571,ʃ p iː l ə
+spielen,spielt,V;IMP;PL;2,0.001401,0.0004253571428571,ʃ p iː l t
+finden,finden,V;NFIN,0.003757,0.0013198518518518,f ɪ n d ə n
+finden,finde,V;IND;SG;1;PRS,0.000559,0.0013198518518518,f ɪ n d ə
+finden,finden,V;IND;PL;1;PRS,0.003757,0.0013198518518518,f ɪ n d ə n
+finden,finde,V;SBJV;SG;1;PRS,0.000559,0.0013198518518518,f ɪ n d ə
+finden,finden,V;SBJV;PL;1;PRS,0.003757,0.0013198518518518,f ɪ n d ə n
+finden,findest,V;IND;SG;2;PRS,0.000148,0.0013198518518518,f ɪ n d ə s t
+finden,findet,V;IND;PL;2;PRS,0.002648,0.0013198518518518,f ɪ n d ə t
+finden,findest,V;SBJV;SG;2;PRS,0.000148,0.0013198518518518,f ɪ n d ə s t
+finden,findet,V;SBJV;PL;2;PRS,0.002648,0.0013198518518518,f ɪ n d ə t
+finden,findet,V;IND;SG;3;PRS,0.002648,0.0013198518518518,f ɪ n d ə t
+finden,finden,V;IND;PL;3;PRS,0.003757,0.0013198518518518,f ɪ n d ə n
+finden,finde,V;SBJV;SG;3;PRS,0.000559,0.0013198518518518,f ɪ n d ə
+finden,finden,V;SBJV;PL;3;PRS,0.003757,0.0013198518518518,f ɪ n d ə n
+finden,fand,V;IND;SG;1;PST,0.001289,0.0013198518518518,f a n t
+finden,fanden,V;IND;PL;1;PST,0.000547,0.0013198518518518,f a n d ə n
+finden,fände,V;SBJV;SG;1;PST,1.8e-05,0.0013198518518518,f ɛ n d ə
+finden,fänden,V;SBJV;PL;1;PST,9e-06,0.0013198518518518,f ɛ n d n̩
+finden,fandest,V;IND;SG;2;PST,0.0,0.0013198518518518,f a n d ə s t
+finden,fandet,V;IND;PL;2;PST,1e-06,0.0013198518518518,f a n d ə t
+finden,fändest,V;SBJV;SG;2;PST,0.0,0.0013198518518518,f ɛ n d ə s t
+finden,fändet,V;SBJV;PL;2;PST,0.0,0.0013198518518518,f ɛ n d ə t
+finden,fand,V;IND;SG;3;PST,0.001289,0.0013198518518518,f a n t
+finden,fanden,V;IND;PL;3;PST,0.000547,0.0013198518518518,f a n d ə n
+finden,fände,V;SBJV;SG;3;PST,1.8e-05,0.0013198518518518,f ɛ n d ə
+finden,fänden,V;SBJV;PL;3;PST,9e-06,0.0013198518518518,f ɛ n d n̩
+finden,finde,V;IMP;SG;2,0.000559,0.0013198518518518,f ɪ n d ə
+finden,findet,V;IMP;PL;2,0.002648,0.0013198518518518,f ɪ n d ə t
+durchmüssen,durchmüssen,V;NFIN,0.0,0.0014318571428571,d ʊ ʁ ç m ʏ s n̩
+durchmüssen,durchzumüssen,V;NFIN;LGSPEC01,0.0,0.0014318571428571,d ʊ ʁ ç t͡s u m ʏ s n̩
+durchmüssen,muss,V;IND;SG;1;PRS,0.005498,0.0014318571428571,m ʊ s
+durchmüssen,müssen,V;IND;PL;1;PRS,0.004676,0.0014318571428571,m ʏ s n̩
+durchmüssen,müsse,V;SBJV;SG;1;PRS,0.001516,0.0014318571428571,m ʏ s ə
+durchmüssen,müssen,V;SBJV;PL;1;PRS,0.004676,0.0014318571428571,m ʏ s n̩
+durchmüssen,musst,V;IND;SG;2;PRS,8.7e-05,0.0014318571428571,m ʊ s t
+durchmüssen,müsst,V;IND;PL;2;PRS,4.5e-05,0.0014318571428571,m ʏ s t
+durchmüssen,müssest,V;SBJV;SG;2;PRS,0.0,0.0014318571428571,m ʏ s ə s t
+durchmüssen,müsset,V;SBJV;PL;2;PRS,0.0,0.0014318571428571,m ʏ s ə t
+durchmüssen,muss,V;IND;SG;3;PRS,0.005498,0.0014318571428571,m ʊ s
+durchmüssen,müssen,V;IND;PL;3;PRS,0.004676,0.0014318571428571,m ʏ s n̩
+durchmüssen,müsse,V;SBJV;SG;3;PRS,0.001516,0.0014318571428571,m ʏ s ə
+durchmüssen,müssen,V;SBJV;PL;3;PRS,0.004676,0.0014318571428571,m ʏ s n̩
+durchmüssen,musste,V;IND;SG;1;PST,0.001624,0.0014318571428571,m ʊ s t ə
+durchmüssen,mussten,V;IND;PL;1;PST,0.000775,0.0014318571428571,m ʊ s t n̩
+durchmüssen,müsste,V;SBJV;SG;1;PST,0.0004,0.0014318571428571,m ʏ s t ə
+durchmüssen,müssten,V;SBJV;PL;1;PST,0.000812,0.0014318571428571,m ʏ s t n̩
+durchmüssen,musstest,V;IND;SG;2;PST,2e-06,0.0014318571428571,m ʊ s t ə s t
+durchmüssen,musstet,V;IND;PL;2;PST,0.0,0.0014318571428571,m ʊ s t ə t
+durchmüssen,müsstest,V;SBJV;SG;2;PST,4e-06,0.0014318571428571,m ʏ s t ə s t
+durchmüssen,müsstet,V;SBJV;PL;2;PST,0.0,0.0014318571428571,m ʏ s t ə t
+durchmüssen,musste,V;IND;SG;3;PST,0.001624,0.0014318571428571,m ʊ s t ə
+durchmüssen,mussten,V;IND;PL;3;PST,0.000775,0.0014318571428571,m ʊ s t n̩
+durchmüssen,müsste,V;SBJV;SG;3;PST,0.0004,0.0014318571428571,m ʏ s t ə
+durchmüssen,müssten,V;SBJV;PL;3;PST,0.000812,0.0014318571428571,m ʏ s t n̩
+durchmüssen,— (du),V;IMP;SG;2,0.0,0.0014318571428571,d uː
+durchmüssen,— (ihr),V;IMP;PL;2,0.0,0.0014318571428571,iː ɐ̯
+bitten,bitten,V;NFIN,0.000192,0.0002587407407407,b ɪ t n̩
+bitten,bitte,V;IND;SG;1;PRS,0.001294,0.0002587407407407,b ɪ t ə
+bitten,bitten,V;IND;PL;1;PRS,0.000192,0.0002587407407407,b ɪ t n̩
+bitten,bitte,V;SBJV;SG;1;PRS,0.001294,0.0002587407407407,b ɪ t ə
+bitten,bitten,V;SBJV;PL;1;PRS,0.000192,0.0002587407407407,b ɪ t n̩
+bitten,bittest,V;IND;SG;2;PRS,0.0,0.0002587407407407,b ɪ t ə s t
+bitten,bittet,V;IND;PL;2;PRS,0.000165,0.0002587407407407,b ɪ t ə t
+bitten,bittest,V;SBJV;SG;2;PRS,0.0,0.0002587407407407,b ɪ t ə s t
+bitten,bittet,V;SBJV;PL;2;PRS,0.000165,0.0002587407407407,b ɪ t ə t
+bitten,bittet,V;IND;SG;3;PRS,0.000165,0.0002587407407407,b ɪ t ə t
+bitten,bitten,V;IND;PL;3;PRS,0.000192,0.0002587407407407,b ɪ t n̩
+bitten,bitte,V;SBJV;SG;3;PRS,0.001294,0.0002587407407407,b ɪ t ə
+bitten,bitten,V;SBJV;PL;3;PRS,0.000192,0.0002587407407407,b ɪ t n̩
+bitten,bat,V;IND;SG;1;PST,7.5e-05,0.0002587407407407,b aː t
+bitten,baten,V;IND;PL;1;PST,2e-05,0.0002587407407407,b aː t n̩
+bitten,bäte,V;SBJV;SG;1;PST,0.0,0.0002587407407407,b eː t ə
+bitten,bäten,V;SBJV;PL;1;PST,0.0,0.0002587407407407,b eː t n̩
+bitten,batest,V;IND;SG;2;PST,0.0,0.0002587407407407,b aː t ə s t
+bitten,batet,V;IND;PL;2;PST,0.0,0.0002587407407407,b aː t ə t
+bitten,bätest,V;SBJV;SG;2;PST,0.0,0.0002587407407407,b eː t ə s t
+bitten,bätet,V;SBJV;PL;2;PST,0.0,0.0002587407407407,b eː t ə t
+bitten,bat,V;IND;SG;3;PST,7.5e-05,0.0002587407407407,b aː t
+bitten,baten,V;IND;PL;3;PST,2e-05,0.0002587407407407,b aː t n̩
+bitten,bäte,V;SBJV;SG;3;PST,0.0,0.0002587407407407,b eː t ə
+bitten,bäten,V;SBJV;PL;3;PST,0.0,0.0002587407407407,b eː t n̩
+bitten,bitte,V;IMP;SG;2,0.001294,0.0002587407407407,b ɪ t ə
+bitten,bittet,V;IMP;PL;2,0.000165,0.0002587407407407,b ɪ t ə t
+setzen,setzen,V;NFIN,0.000693,0.0004306071428571,z ɛ t͡s n̩
+setzen,setze,V;IND;SG;1;PRS,0.000136,0.0004306071428571,z ɛ t͡s ə
+setzen,setzen,V;IND;PL;1;PRS,0.000693,0.0004306071428571,z ɛ t͡s n̩
+setzen,setze,V;SBJV;SG;1;PRS,0.000136,0.0004306071428571,z ɛ t͡s ə
+setzen,setzen,V;SBJV;PL;1;PRS,0.000693,0.0004306071428571,z ɛ t͡s n̩
+setzen,setzt,V;IND;SG;2;PRS,0.001249,0.0004306071428571,z ɛ t͡s t
+setzen,setzt,V;IND;PL;2;PRS,0.001249,0.0004306071428571,z ɛ t͡s t
+setzen,setzest,V;SBJV;SG;2;PRS,0.0,0.0004306071428571,z ɛ t͡s ə s t
+setzen,setzet,V;SBJV;PL;2;PRS,0.0,0.0004306071428571,z ɛ t͡s ə t
+setzen,setzt,V;IND;SG;3;PRS,0.001249,0.0004306071428571,z ɛ t͡s t
+setzen,setzen,V;IND;PL;3;PRS,0.000693,0.0004306071428571,z ɛ t͡s n̩
+setzen,setze,V;SBJV;SG;3;PRS,0.000136,0.0004306071428571,z ɛ t͡s ə
+setzen,setzen,V;SBJV;PL;3;PRS,0.000693,0.0004306071428571,z ɛ t͡s n̩
+setzen,setzte,V;IND;SG;1;PST,0.000552,0.0004306071428571,z ɛ t͡s t ə
+setzen,setzten,V;IND;PL;1;PST,0.000211,0.0004306071428571,z ɛ t͡s t n̩
+setzen,setzte,V;SBJV;SG;1;PST,0.000552,0.0004306071428571,z ɛ t͡s t ə
+setzen,setzten,V;SBJV;PL;1;PST,0.000211,0.0004306071428571,z ɛ t͡s t n̩
+setzen,setztest,V;IND;SG;2;PST,0.0,0.0004306071428571,z ɛ t͡s t ə s t
+setzen,setztet,V;IND;PL;2;PST,0.0,0.0004306071428571,z ɛ t͡s t ə t
+setzen,setztest,V;SBJV;SG;2;PST,0.0,0.0004306071428571,z ɛ t͡s t ə s t
+setzen,setztet,V;SBJV;PL;2;PST,0.0,0.0004306071428571,z ɛ t͡s t ə t
+setzen,setzte,V;IND;SG;3;PST,0.000552,0.0004306071428571,z ɛ t͡s t ə
+setzen,setzten,V;IND;PL;3;PST,0.000211,0.0004306071428571,z ɛ t͡s t n̩
+setzen,setzte,V;SBJV;SG;3;PST,0.000552,0.0004306071428571,z ɛ t͡s t ə
+setzen,setzten,V;SBJV;PL;3;PST,0.000211,0.0004306071428571,z ɛ t͡s t n̩
+setzen,setz,V;IMP;SG;2,0.0,0.0004306071428571,z ɛ t͡s
+setzen,setze,V;IMP;SG;2,0.000136,0.0004306071428571,z ɛ t͡s ə
+setzen,setzt,V;IMP;PL;2,0.001249,0.0004306071428571,z ɛ t͡s t
+laufen,laufen,V;NFIN,0.000759,0.0002748571428571,l a ʊ̯ f ə n
+laufen,laufe,V;IND;SG;1;PRS,0.000109,0.0002748571428571,l a ʊ̯ f ə
+laufen,laufen,V;IND;PL;1;PRS,0.000759,0.0002748571428571,l a ʊ̯ f ə n
+laufen,laufe,V;SBJV;SG;1;PRS,0.000109,0.0002748571428571,l a ʊ̯ f ə
+laufen,laufen,V;SBJV;PL;1;PRS,0.000759,0.0002748571428571,l a ʊ̯ f ə n
+laufen,läufst,V;IND;SG;2;PRS,2e-06,0.0002748571428571,l ɔ ɪ̯ f s t
+laufen,lauft,V;IND;PL;2;PRS,1e-06,0.0002748571428571,l a ʊ̯ f t
+laufen,laufest,V;SBJV;SG;2;PRS,0.0,0.0002748571428571,l a ʊ̯ f ɛ s t
+laufen,laufet,V;SBJV;PL;2;PRS,0.0,0.0002748571428571,l a ʊ̯ f ə t
+laufen,läuft,V;IND;SG;3;PRS,0.001559,0.0002748571428571,l ɔ ʏ̯ f t
+laufen,laufen,V;IND;PL;3;PRS,0.000759,0.0002748571428571,l a ʊ̯ f ə n
+laufen,laufe,V;SBJV;SG;3;PRS,0.000109,0.0002748571428571,l a ʊ̯ f ə
+laufen,laufen,V;SBJV;PL;3;PRS,0.000759,0.0002748571428571,l a ʊ̯ f ə n
+laufen,lief,V;IND;SG;1;PST,0.000522,0.0002748571428571,l iː f
+laufen,liefen,V;IND;PL;1;PST,0.000211,0.0002748571428571,l iː f ə n
+laufen,liefe,V;SBJV;SG;1;PST,6e-06,0.0002748571428571,l iː f ə
+laufen,liefen,V;SBJV;PL;1;PST,0.000211,0.0002748571428571,l iː f ə n
+laufen,liefst,V;IND;SG;2;PST,0.0,0.0002748571428571,l iː f s t
+laufen,lieft,V;IND;PL;2;PST,1e-06,0.0002748571428571,l iː f t
+laufen,liefest,V;SBJV;SG;2;PST,0.0,0.0002748571428571,l iː f ə s t
+laufen,liefet,V;SBJV;PL;2;PST,1e-06,0.0002748571428571,l iː f ə t
+laufen,lief,V;IND;SG;3;PST,0.000522,0.0002748571428571,l iː f
+laufen,liefen,V;IND;PL;3;PST,0.000211,0.0002748571428571,l iː f ə n
+laufen,liefe,V;SBJV;SG;3;PST,6e-06,0.0002748571428571,l iː f ə
+laufen,liefen,V;SBJV;PL;3;PST,0.000211,0.0002748571428571,l iː f ə n
+laufen,lauf,V;IMP;SG;2,0.0,0.0002748571428571,l a ʊ̯ f
+laufen,laufe,V;IMP;SG;2,0.000109,0.0002748571428571,l a ʊ̯ f ə
+laufen,lauft,V;IMP;PL;2,1e-06,0.0002748571428571,l a ʊ̯ f t
+abkönnen,abkönnen,V;NFIN,1e-06,0.0026050357142857,a p k œ n ə n
+abkönnen,abzukönnen,V;NFIN;LGSPEC01,0.0,0.0026050357142857,a p t͡s uː k œ n ə n
+abkönnen,kann,V;IND;SG;1;PRS,0.010935,0.0026050357142857,k a n
+abkönnen,können,V;IND;PL;1;PRS,0.008431,0.0026050357142857,k œ n ə n
+abkönnen,könne,V;SBJV;SG;1;PRS,0.000989,0.0026050357142857,k œ n ə
+abkönnen,können,V;SBJV;PL;1;PRS,0.008431,0.0026050357142857,k œ n ə n
+abkönnen,kannst,V;IND;SG;2;PRS,0.000338,0.0026050357142857,k a n s t
+abkönnen,könnt,V;IND;PL;2;PRS,0.00028,0.0026050357142857,k œ n t
+abkönnen,könnest,V;SBJV;SG;2;PRS,0.0,0.0026050357142857,k œ n ə s t
+abkönnen,könnet,V;SBJV;PL;2;PRS,1e-06,0.0026050357142857,k œ n ə t
+abkönnen,kann,V;IND;SG;3;PRS,0.010935,0.0026050357142857,k a n
+abkönnen,können,V;IND;PL;3;PRS,0.008431,0.0026050357142857,k œ n ə n
+abkönnen,könne,V;SBJV;SG;3;PRS,0.000989,0.0026050357142857,k œ n ə
+abkönnen,können,V;SBJV;PL;3;PRS,0.008431,0.0026050357142857,k œ n ə n
+abkönnen,konnte,V;IND;SG;1;PST,0.002899,0.0026050357142857,k ɔ n t ə
+abkönnen,konnten,V;IND;PL;1;PST,0.001337,0.0026050357142857,k ɔ n t ə n
+abkönnen,könnte,V;SBJV;SG;1;PST,0.002084,0.0026050357142857,k œ n t ə
+abkönnen,könnten,V;SBJV;PL;1;PST,0.001041,0.0026050357142857,k œ n t ə n
+abkönnen,konntest,V;IND;SG;2;PST,4e-06,0.0026050357142857,k ɔ n t ə s t
+abkönnen,konntet,V;IND;PL;2;PST,2e-06,0.0026050357142857,k ɔ n t ə t
+abkönnen,könntest,V;SBJV;SG;2;PST,1.7e-05,0.0026050357142857,k œ n t ə s t
+abkönnen,könntet,V;SBJV;PL;2;PST,4e-06,0.0026050357142857,k œ n t ə t
+abkönnen,konnte,V;IND;SG;3;PST,0.002899,0.0026050357142857,k ɔ n t ə
+abkönnen,konnten,V;IND;PL;3;PST,0.001337,0.0026050357142857,k ɔ n t ə n
+abkönnen,könnte,V;SBJV;SG;3;PST,0.002084,0.0026050357142857,k œ n t ə
+abkönnen,könnten,V;SBJV;PL;3;PST,0.001041,0.0026050357142857,k œ n t ə n
+abkönnen,— (du),V;IMP;SG;2,0.0,0.0026050357142857,d uː
+abkönnen,— (ihr),V;IMP;PL;2,0.0,0.0026050357142857,iː ɐ̯
+steigen,steigen,V;NFIN,0.000657,0.00042925,ʃ t a ɪ̯ ɡ n̩
+steigen,steige,V;IND;SG;1;PRS,6.5e-05,0.00042925,ʃ t a ɪ̯ ɡ ə
+steigen,steigen,V;IND;PL;1;PRS,0.000657,0.00042925,ʃ t a ɪ̯ ɡ n̩
+steigen,steige,V;SBJV;SG;1;PRS,6.5e-05,0.00042925,ʃ t a ɪ̯ ɡ ə
+steigen,steigen,V;SBJV;PL;1;PRS,0.000657,0.00042925,ʃ t a ɪ̯ ɡ n̩
+steigen,steigst,V;IND;SG;2;PRS,2e-06,0.00042925,ʃ t a ɪ̯ k s t
+steigen,steigt,V;IND;PL;2;PRS,0.001001,0.00042925,ʃ t a ɪ̯ k t
+steigen,steigest,V;SBJV;SG;2;PRS,0.0,0.00042925,ʃ t a ɪ̯ ɡ ə s t
+steigen,steiget,V;SBJV;PL;2;PRS,0.0,0.00042925,ʃ t a ɪ̯ ɡ ə t
+steigen,steigt,V;IND;SG;3;PRS,0.001001,0.00042925,ʃ t a ɪ̯ k t
+steigen,steigen,V;IND;PL;3;PRS,0.000657,0.00042925,ʃ t a ɪ̯ ɡ n̩
+steigen,steige,V;SBJV;SG;3;PRS,6.5e-05,0.00042925,ʃ t a ɪ̯ ɡ ə
+steigen,steigen,V;SBJV;PL;3;PRS,0.000657,0.00042925,ʃ t a ɪ̯ ɡ n̩
+steigen,stieg,V;IND;SG;1;PST,0.001463,0.00042925,ʃ t iː k
+steigen,stiegen,V;IND;PL;1;PST,0.000634,0.00042925,ʃ t iː ɡ ə n
+steigen,stiege,V;SBJV;SG;1;PST,2e-06,0.00042925,ʃ t iː ɡ ə
+steigen,stiegen,V;SBJV;PL;1;PST,0.000634,0.00042925,ʃ t iː ɡ ə n
+steigen,stiegst,V;IND;SG;2;PST,1e-06,0.00042925,ʃ t iː k s t
+steigen,stiegt,V;IND;PL;2;PST,2e-06,0.00042925,ʃ t iː k t
+steigen,stiegest,V;SBJV;SG;2;PST,0.0,0.00042925,ʃ t iː ɡ ə s t
+steigen,stieget,V;SBJV;PL;2;PST,0.0,0.00042925,ʃ t iː ɡ ə t
+steigen,stieg,V;IND;SG;3;PST,0.001463,0.00042925,ʃ t iː k
+steigen,stiegen,V;IND;PL;3;PST,0.000634,0.00042925,ʃ t iː ɡ ə n
+steigen,stiege,V;SBJV;SG;3;PST,2e-06,0.00042925,ʃ t iː ɡ ə
+steigen,stiegen,V;SBJV;PL;3;PST,0.000634,0.00042925,ʃ t iː ɡ ə n
+steigen,steig,V;IMP;SG;2,0.0,0.00042925,ʃ t a ɪ̯ k
+steigen,steige,V;IMP;SG;2,6.5e-05,0.00042925,ʃ t a ɪ̯ ɡ ə
+steigen,steigt,V;IMP;PL;2,0.001001,0.00042925,ʃ t a ɪ̯ k t
+haben,haben,V;NFIN,0.012165,0.0051256071428571,h aː b ə n
+haben,habe,V;IND;SG;1;PRS,0.007286,0.0051256071428571,h aː b ə
+haben,haben,V;IND;PL;1;PRS,0.012165,0.0051256071428571,h aː b ə n
+haben,habe,V;SBJV;SG;1;PRS,0.007286,0.0051256071428571,h aː b ə
+haben,haben,V;SBJV;PL;1;PRS,0.012165,0.0051256071428571,h aː b ə n
+haben,hast,V;IND;SG;2;PRS,0.00046,0.0051256071428571,h a s t
+haben,habt,V;IND;PL;2;PRS,0.000282,0.0051256071428571,h aː p t
+haben,habest,V;SBJV;SG;2;PRS,0.0,0.0051256071428571,h aː b ə s t
+haben,habet,V;SBJV;PL;2;PRS,0.0,0.0051256071428571,h aː b ə t
+haben,hat,V;IND;SG;3;PRS,0.024233,0.0051256071428571,h a t
+haben,haben,V;IND;PL;3;PRS,0.012165,0.0051256071428571,h aː b ə n
+haben,habe,V;SBJV;SG;3;PRS,0.007286,0.0051256071428571,h aː b ə
+haben,haben,V;SBJV;PL;3;PRS,0.012165,0.0051256071428571,h aː b ə n
+haben,hatte,V;IND;SG;1;PST,0.008429,0.0051256071428571,h a t ə
+haben,hatten,V;IND;PL;1;PST,0.003381,0.0051256071428571,h a t n̩
+haben,hätte,V;SBJV;SG;1;PST,0.000922,0.0051256071428571,h ɛ t ə
+haben,hätten,V;SBJV;PL;1;PST,0.001394,0.0051256071428571,h ɛ t n̩
+haben,hattest,V;IND;SG;2;PST,1e-05,0.0051256071428571,h a t ə s t
+haben,hattet,V;IND;PL;2;PST,1.2e-05,0.0051256071428571,h a t ə t
+haben,hättest,V;SBJV;SG;2;PST,9e-06,0.0051256071428571,h ɛ t ə s t
+haben,hättet,V;SBJV;PL;2;PST,4e-06,0.0051256071428571,h ɛ t ə t
+haben,hatte,V;IND;SG;3;PST,0.008429,0.0051256071428571,h a t ə
+haben,hatten,V;IND;PL;3;PST,0.003381,0.0051256071428571,h a t n̩
+haben,hätte,V;SBJV;SG;3;PST,0.000922,0.0051256071428571,h ɛ t ə
+haben,hätten,V;SBJV;PL;3;PST,0.001394,0.0051256071428571,h ɛ t n̩
+haben,hab,V;IMP;SG;2,4e-06,0.0051256071428571,h aː p
+haben,habe,V;IMP;SG;2,0.007286,0.0051256071428571,h aː b ə
+haben,habt,V;IMP;PL;2,0.000282,0.0051256071428571,h aː p t
+kommen,kommen,V;NFIN,0.00325,0.0015831785714285,k ɔ m ə n
+kommen,komme,V;IND;SG;1;PRS,0.000458,0.0015831785714285,k ɔ m ə
+kommen,kommen,V;IND;PL;1;PRS,0.00325,0.0015831785714285,k ɔ m ə n
+kommen,komme,V;SBJV;SG;1;PRS,0.000458,0.0015831785714285,k ɔ m ə
+kommen,kommen,V;SBJV;PL;1;PRS,0.00325,0.0015831785714285,k ɔ m ə n
+kommen,kommst,V;IND;SG;2;PRS,3.3e-05,0.0015831785714285,k ɔ m s t
+kommen,kommt,V;IND;PL;2;PRS,0.005142,0.0015831785714285,k ɔ m t
+kommen,kommest,V;SBJV;SG;2;PRS,0.0,0.0015831785714285,k ɔ m ə s t
+kommen,kommet,V;SBJV;PL;2;PRS,0.0,0.0015831785714285,k ɔ m ə t
+kommen,kommt,V;IND;SG;3;PRS,0.005142,0.0015831785714285,k ɔ m t
+kommen,kommen,V;IND;PL;3;PRS,0.00325,0.0015831785714285,k ɔ m ə n
+kommen,komme,V;SBJV;SG;3;PRS,0.000458,0.0015831785714285,k ɔ m ə
+kommen,kommen,V;SBJV;PL;3;PRS,0.00325,0.0015831785714285,k ɔ m ə n
+kommen,kam,V;IND;SG;1;PST,0.003723,0.0015831785714285,k a m
+kommen,kamen,V;IND;PL;1;PST,0.001406,0.0015831785714285,k aː m ə n
+kommen,käme,V;SBJV;SG;1;PST,0.000137,0.0015831785714285,k eː m ə
+kommen,kämen,V;SBJV;PL;1;PST,0.000123,0.0015831785714285,k eː m ə n
+kommen,kamst,V;IND;SG;2;PST,8e-06,0.0015831785714285,k a m s t
+kommen,kamt,V;IND;PL;2;PST,0.0,0.0015831785714285,k a m t
+kommen,kämest,V;SBJV;SG;2;PST,0.0,0.0015831785714285,k eː m ə s t
+kommen,kämet,V;SBJV;PL;2;PST,0.0,0.0015831785714285,k eː m ə t
+kommen,kam,V;IND;SG;3;PST,0.003723,0.0015831785714285,k a m
+kommen,kamen,V;IND;PL;3;PST,0.001406,0.0015831785714285,k aː m ə n
+kommen,käme,V;SBJV;SG;3;PST,0.000137,0.0015831785714285,k eː m ə
+kommen,kämen,V;SBJV;PL;3;PST,0.000123,0.0015831785714285,k eː m ə n
+kommen,komm,V;IMP;SG;2,2e-06,0.0015831785714285,k ɔ m
+kommen,komme,V;IMP;SG;2,0.000458,0.0015831785714285,k ɔ m ə
+kommen,kommt,V;IMP;PL;2,0.005142,0.0015831785714285,k ɔ m t
+zeigen,zeigen,V;NFIN,0.000814,0.0005196785714285,t͡s a ɪ̯ ɡ n̩
+zeigen,zeige,V;IND;SG;1;PRS,9.8e-05,0.0005196785714285,t͡s a ɪ̯ ɡ ə
+zeigen,zeigen,V;IND;PL;1;PRS,0.000814,0.0005196785714285,t͡s a ɪ̯ ɡ n̩
+zeigen,zeige,V;SBJV;SG;1;PRS,9.8e-05,0.0005196785714285,t͡s a ɪ̯ ɡ ə
+zeigen,zeigen,V;SBJV;PL;1;PRS,0.000814,0.0005196785714285,t͡s a ɪ̯ ɡ n̩
+zeigen,zeigst,V;IND;SG;2;PRS,0.0,0.0005196785714285,t͡s a ɪ̯ k s t
+zeigen,zeigt,V;IND;PL;2;PRS,0.001831,0.0005196785714285,t͡s a ɪ̯ k t
+zeigen,zeigest,V;SBJV;SG;2;PRS,0.0,0.0005196785714285,t͡s a ɪ̯ ɡ ə s t
+zeigen,zeiget,V;SBJV;PL;2;PRS,0.0,0.0005196785714285,t͡s a ɪ̯ ɡ ə t
+zeigen,zeigt,V;IND;SG;3;PRS,0.001831,0.0005196785714285,t͡s a ɪ̯ k t
+zeigen,zeigen,V;IND;PL;3;PRS,0.000814,0.0005196785714285,t͡s a ɪ̯ ɡ n̩
+zeigen,zeige,V;SBJV;SG;3;PRS,9.8e-05,0.0005196785714285,t͡s a ɪ̯ ɡ ə
+zeigen,zeigen,V;SBJV;PL;3;PRS,0.000814,0.0005196785714285,t͡s a ɪ̯ ɡ n̩
+zeigen,zeigte,V;IND;SG;1;PST,0.00079,0.0005196785714285,t͡s a ɪ̯ k t ə
+zeigen,zeigten,V;IND;PL;1;PST,0.000359,0.0005196785714285,t͡s a ɪ̯ k t ə n
+zeigen,zeigte,V;SBJV;SG;1;PST,0.00079,0.0005196785714285,t͡s a ɪ̯ k t ə
+zeigen,zeigten,V;SBJV;PL;1;PST,0.000359,0.0005196785714285,t͡s a ɪ̯ k t ə n
+zeigen,zeigtest,V;IND;SG;2;PST,0.0,0.0005196785714285,t͡s a ɪ̯ k t ə s t
+zeigen,zeigtet,V;IND;PL;2;PST,0.0,0.0005196785714285,t͡s a ɪ̯ k t ə t
+zeigen,zeigtest,V;SBJV;SG;2;PST,0.0,0.0005196785714285,t͡s a ɪ̯ k t ə s t
+zeigen,zeigtet,V;SBJV;PL;2;PST,0.0,0.0005196785714285,t͡s a ɪ̯ k t ə t
+zeigen,zeigte,V;IND;SG;3;PST,0.00079,0.0005196785714285,t͡s a ɪ̯ k t ə
+zeigen,zeigten,V;IND;PL;3;PST,0.000359,0.0005196785714285,t͡s a ɪ̯ k t ə n
+zeigen,zeigte,V;SBJV;SG;3;PST,0.00079,0.0005196785714285,t͡s a ɪ̯ k t ə
+zeigen,zeigten,V;SBJV;PL;3;PST,0.000359,0.0005196785714285,t͡s a ɪ̯ k t ə n
+zeigen,zeig,V;IMP;SG;2,0.0,0.0005196785714285,t͡s a ɪ̯ k
+zeigen,zeige,V;IMP;SG;2,9.8e-05,0.0005196785714285,t͡s a ɪ̯ ɡ ə
+zeigen,zeigt,V;IMP;PL;2,0.001831,0.0005196785714285,t͡s a ɪ̯ k t
+heißen,heißen,V;NFIN,0.000274,0.0002808928571428,h a ɪ̯ s n̩
+heißen,heiße,V;IND;SG;1;PRS,0.000153,0.0002808928571428,h a ɪ̯ s ə
+heißen,heißen,V;IND;PL;1;PRS,0.000274,0.0002808928571428,h a ɪ̯ s n̩
+heißen,heiße,V;SBJV;SG;1;PRS,0.000153,0.0002808928571428,h a ɪ̯ s ə
+heißen,heißen,V;SBJV;PL;1;PRS,0.000274,0.0002808928571428,h a ɪ̯ s n̩
+heißen,heißt,V;IND;SG;2;PRS,0.001269,0.0002808928571428,h a ɪ̯ s t
+heißen,heißt,V;IND;PL;2;PRS,0.001269,0.0002808928571428,h a ɪ̯ s t
+heißen,heißest,V;SBJV;SG;2;PRS,0.0,0.0002808928571428,h a ɪ̯ s ə s t
+heißen,heißet,V;SBJV;PL;2;PRS,0.0,0.0002808928571428,h a ɪ̯ s ə t
+heißen,heißt,V;IND;SG;3;PRS,0.001269,0.0002808928571428,h a ɪ̯ s t
+heißen,heißen,V;IND;PL;3;PRS,0.000274,0.0002808928571428,h a ɪ̯ s n̩
+heißen,heiße,V;SBJV;SG;3;PRS,0.000153,0.0002808928571428,h a ɪ̯ s ə
+heißen,heißen,V;SBJV;PL;3;PRS,0.000274,0.0002808928571428,h a ɪ̯ s n̩
+heißen,hieß,V;IND;SG;1;PST,0.0003,0.0002808928571428,h iː s
+heißen,hießen,V;IND;PL;1;PST,7e-06,0.0002808928571428,h iː s n̩
+heißen,hieße,V;SBJV;SG;1;PST,4e-06,0.0002808928571428,h iː s ə
+heißen,hießen,V;SBJV;PL;1;PST,7e-06,0.0002808928571428,h iː s n̩
+heißen,hießt,V;IND;SG;2;PST,0.0,0.0002808928571428,h iː s t
+heißen,hießt,V;IND;PL;2;PST,0.0,0.0002808928571428,h iː s t
+heißen,hießest,V;SBJV;SG;2;PST,0.0,0.0002808928571428,h iː s ə s t
+heißen,hießet,V;SBJV;PL;2;PST,0.0,0.0002808928571428,h iː s ə t
+heißen,hieß,V;IND;SG;3;PST,0.0003,0.0002808928571428,h iː s
+heißen,hießen,V;IND;PL;3;PST,7e-06,0.0002808928571428,h iː s n̩
+heißen,hieße,V;SBJV;SG;3;PST,4e-06,0.0002808928571428,h iː s ə
+heißen,hießen,V;SBJV;PL;3;PST,7e-06,0.0002808928571428,h iː s n̩
+heißen,heiß,V;IMP;SG;2,0.000171,0.0002808928571428,h a ɪ̯ s
+heißen,heiße,V;IMP;SG;2,0.000153,0.0002808928571428,h a ɪ̯ s ə
+heißen,heißt,V;IMP;PL;2,0.001269,0.0002808928571428,h a ɪ̯ s t
+unterstützen,unterstützen,V;NFIN,0.000468,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s n̩
+unterstützen,unterstütze,V;IND;SG;1;PRS,4.1e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s ə
+unterstützen,unterstützen,V;IND;PL;1;PRS,0.000468,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s n̩
+unterstützen,unterstütze,V;SBJV;SG;1;PRS,4.1e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s ə
+unterstützen,unterstützen,V;SBJV;PL;1;PRS,0.000468,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s n̩
+unterstützen,unterstützt,V;IND;SG;2;PRS,0.001134,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t
+unterstützen,unterstützt,V;IND;PL;2;PRS,0.001134,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t
+unterstützen,unterstützest,V;SBJV;SG;2;PRS,0.0,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s ə s t
+unterstützen,unterstützet,V;SBJV;PL;2;PRS,0.0,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s ə t
+unterstützen,unterstützt,V;IND;SG;3;PRS,0.001134,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t
+unterstützen,unterstützen,V;IND;PL;3;PRS,0.000468,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s n̩
+unterstützen,unterstütze,V;SBJV;SG;3;PRS,4.1e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s ə
+unterstützen,unterstützen,V;SBJV;PL;3;PRS,0.000468,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s n̩
+unterstützen,unterstützte,V;IND;SG;1;PST,6.9e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə
+unterstützen,unterstützten,V;IND;PL;1;PST,5.5e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə n
+unterstützen,unterstützte,V;SBJV;SG;1;PST,6.9e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə
+unterstützen,unterstützten,V;SBJV;PL;1;PST,5.5e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə n
+unterstützen,unterstütztest,V;IND;SG;2;PST,0.0,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə s t
+unterstützen,unterstütztet,V;IND;PL;2;PST,0.0,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə t
+unterstützen,unterstütztest,V;SBJV;SG;2;PST,0.0,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə s t
+unterstützen,unterstütztet,V;SBJV;PL;2;PST,0.0,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə t
+unterstützen,unterstützte,V;IND;SG;3;PST,6.9e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə
+unterstützen,unterstützten,V;IND;PL;3;PST,5.5e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə n
+unterstützen,unterstützte,V;SBJV;SG;3;PST,6.9e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə
+unterstützen,unterstützten,V;SBJV;PL;3;PST,5.5e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t ə n
+unterstützen,unterstütz,V;IMP;SG;2,0.0,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s
+unterstützen,unterstütze,V;IMP;SG;2,4.1e-05,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s ə
+unterstützen,unterstützt,V;IMP;PL;2,0.001134,0.0002691428571428,ʊ n t ɐ ʃ t ʏ t͡s t
+führen,führen,V;NFIN,0.000941,0.0005161071428571,f yː ʁ ə n
+führen,führe,V;IND;SG;1;PRS,0.000108,0.0005161071428571,f yː ʁ ə
+führen,führen,V;IND;PL;1;PRS,0.000941,0.0005161071428571,f yː ʁ ə n
+führen,führe,V;SBJV;SG;1;PRS,0.000108,0.0005161071428571,f yː ʁ ə
+führen,führen,V;SBJV;PL;1;PRS,0.000941,0.0005161071428571,f yː ʁ ə n
+führen,führst,V;IND;SG;2;PRS,3e-06,0.0005161071428571,f yː ɐ̯ s t
+führen,führt,V;IND;PL;2;PRS,0.001706,0.0005161071428571,f yː ɐ̯ t
+führen,führest,V;SBJV;SG;2;PRS,0.0,0.0005161071428571,f yː ʁ ə s t
+führen,führet,V;SBJV;PL;2;PRS,1e-06,0.0005161071428571,f yː ʁ ə t
+führen,führt,V;IND;SG;3;PRS,0.001706,0.0005161071428571,f yː ɐ̯ t
+führen,führen,V;IND;PL;3;PRS,0.000941,0.0005161071428571,f yː ʁ ə n
+führen,führe,V;SBJV;SG;3;PRS,0.000108,0.0005161071428571,f yː ʁ ə
+führen,führen,V;SBJV;PL;3;PRS,0.000941,0.0005161071428571,f yː ʁ ə n
+führen,führte,V;IND;SG;1;PST,0.000773,0.0005161071428571,f yː ɐ̯ t ə
+führen,führten,V;IND;PL;1;PST,0.000275,0.0005161071428571,f yː ɐ̯ t n̩
+führen,führte,V;SBJV;SG;1;PST,0.000773,0.0005161071428571,f yː ɐ̯ t ə
+führen,führten,V;SBJV;PL;1;PST,0.000275,0.0005161071428571,f yː ɐ̯ t n̩
+führen,führtest,V;IND;SG;2;PST,0.0,0.0005161071428571,f yː ɐ̯ t ə s t
+führen,führtet,V;IND;PL;2;PST,0.0,0.0005161071428571,f yː ɐ̯ t ə t
+führen,führtest,V;SBJV;SG;2;PST,0.0,0.0005161071428571,f yː ɐ̯ t ə s t
+führen,führtet,V;SBJV;PL;2;PST,0.0,0.0005161071428571,f yː ɐ̯ t ə t
+führen,führte,V;IND;SG;3;PST,0.000773,0.0005161071428571,f yː ɐ̯ t ə
+führen,führten,V;IND;PL;3;PST,0.000275,0.0005161071428571,f yː ɐ̯ t n̩
+führen,führte,V;SBJV;SG;3;PST,0.000773,0.0005161071428571,f yː ɐ̯ t ə
+führen,führten,V;SBJV;PL;3;PST,0.000275,0.0005161071428571,f yː ɐ̯ t n̩
+führen,führ,V;IMP;SG;2,0.0,0.0005161071428571,f yː ɐ̯
+führen,führe,V;IMP;SG;2,0.000108,0.0005161071428571,f yː ʁ ə
+führen,führt,V;IMP;PL;2,0.001706,0.0005161071428571,f yː ɐ̯ t
+brauchen,brauchen,V;NFIN,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauche,V;IND;SG;1;PRS,0.00031,0.0004244642857142,b ʁ a ʊ̯ x ə
+brauchen,brauchen,V;IND;PL;1;PRS,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauche,V;SBJV;SG;1;PRS,0.00031,0.0004244642857142,b ʁ a ʊ̯ x ə
+brauchen,brauchen,V;SBJV;PL;1;PRS,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauchst,V;IND;SG;2;PRS,5.4e-05,0.0004244642857142,b ʁ a ʊ̯ x s t
+brauchen,braucht,V;IND;PL;2;PRS,0.001255,0.0004244642857142,b ʁ a ʊ̯ x t
+brauchen,brauchest,V;SBJV;SG;2;PRS,0.0,0.0004244642857142,b ʁ a ʊ̯ x ə s t
+brauchen,brauchet,V;SBJV;PL;2;PRS,0.0,0.0004244642857142,b ʁ a ʊ̯ x ə t
+brauchen,braucht,V;IND;SG;3;PRS,0.001255,0.0004244642857142,b ʁ a ʊ̯ x t
+brauchen,brauchen,V;IND;PL;3;PRS,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauche,V;SBJV;SG;3;PRS,0.00031,0.0004244642857142,b ʁ a ʊ̯ x ə
+brauchen,brauchen,V;SBJV;PL;3;PRS,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauchte,V;IND;SG;1;PST,0.000123,0.0004244642857142,b ʁ a ʊ̯ x t ə
+brauchen,brauchten,V;IND;PL;1;PST,5.4e-05,0.0004244642857142,b ʁ a ʊ̯ x t ə n
+brauchen,brauchte,V;SBJV;SG;1;PST,0.000123,0.0004244642857142,b ʁ a ʊ̯ x t ə
+brauchen,brauchten,V;SBJV;PL;1;PST,5.4e-05,0.0004244642857142,b ʁ a ʊ̯ x t ə n
+brauchen,brauchtest,V;IND;SG;2;PST,0.0,0.0004244642857142,b ʁ a ʊ̯ x t ə s t
+brauchen,brauchtet,V;IND;PL;2;PST,1e-06,0.0004244642857142,b ʁ a ʊ̯ x t ə t
+brauchen,brauchtest,V;SBJV;SG;2;PST,0.0,0.0004244642857142,b ʁ a ʊ̯ x t ə s t
+brauchen,brauchtet,V;SBJV;PL;2;PST,1e-06,0.0004244642857142,b ʁ a ʊ̯ x t ə t
+brauchen,brauchte,V;IND;SG;3;PST,0.000123,0.0004244642857142,b ʁ a ʊ̯ x t ə
+brauchen,brauchten,V;IND;PL;3;PST,5.4e-05,0.0004244642857142,b ʁ a ʊ̯ x t ə n
+brauchen,brauchte,V;SBJV;SG;3;PST,0.000123,0.0004244642857142,b ʁ a ʊ̯ x t ə
+brauchen,brauchten,V;SBJV;PL;3;PST,5.4e-05,0.0004244642857142,b ʁ a ʊ̯ x t ə n
+brauchen,brauch,V;IMP;SG;2,0.0,0.0004244642857142,b ʁ a ʊ̯ x
+brauchen,brauche,V;IMP;SG;2,0.00031,0.0004244642857142,b ʁ a ʊ̯ x ə
+brauchen,braucht,V;IMP;PL;2,0.001255,0.0004244642857142,b ʁ a ʊ̯ x t
+brauchen,brauchen,V;NFIN,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauche,V;IND;SG;1;PRS,0.00031,0.0004244642857142,b ʁ a ʊ̯ x ə
+brauchen,brauchen,V;IND;PL;1;PRS,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauche,V;SBJV;SG;1;PRS,0.00031,0.0004244642857142,b ʁ a ʊ̯ x ə
+brauchen,brauchen,V;SBJV;PL;1;PRS,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauchst,V;IND;SG;2;PRS,5.4e-05,0.0004244642857142,b ʁ a ʊ̯ x s t
+brauchen,braucht,V;IND;PL;2;PRS,0.001255,0.0004244642857142,b ʁ a ʊ̯ x t
+brauchen,brauchest,V;SBJV;SG;2;PRS,0.0,0.0004244642857142,b ʁ a ʊ̯ x ə s t
+brauchen,brauchet,V;SBJV;PL;2;PRS,0.0,0.0004244642857142,b ʁ a ʊ̯ x ə t
+brauchen,braucht,V;IND;SG;3;PRS,0.001255,0.0004244642857142,b ʁ a ʊ̯ x t
+brauchen,brauchen,V;IND;PL;3;PRS,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauche,V;SBJV;SG;3;PRS,0.00031,0.0004244642857142,b ʁ a ʊ̯ x ə
+brauchen,brauchen,V;SBJV;PL;3;PRS,0.001244,0.0004244642857142,b ʁ a ʊ̯ x ə n
+brauchen,brauchte,V;IND;SG;1;PST,0.000123,0.0004244642857142,b ʁ a ʊ̯ x t ə
+brauchen,brauchten,V;IND;PL;1;PST,5.4e-05,0.0004244642857142,b ʁ a ʊ̯ x t ə n
+brauchen,bräuchte,V;SBJV;SG;1;PST,2.9e-05,0.0004244642857142,b ʁ ɔ ɪ̯ ç t ə
+brauchen,bräuchten,V;SBJV;PL;1;PST,4.4e-05,0.0004244642857142,b ʁ ɔ ɪ̯ ç t ə n
+brauchen,brauchtest,V;IND;SG;2;PST,0.0,0.0004244642857142,b ʁ a ʊ̯ x t ə s t
+brauchen,brauchtet,V;IND;PL;2;PST,1e-06,0.0004244642857142,b ʁ a ʊ̯ x t ə t
+brauchen,bräuchtest,V;SBJV;SG;2;PST,1e-06,0.0004244642857142,b ʁ ɔ ɪ̯ ç t ə s t
+brauchen,bräuchtet,V;SBJV;PL;2;PST,0.0,0.0004244642857142,b ʁ ɔ ɪ̯ ç t ə t
+brauchen,brauchte,V;IND;SG;3;PST,0.000123,0.0004244642857142,b ʁ a ʊ̯ x t ə
+brauchen,brauchten,V;IND;PL;3;PST,5.4e-05,0.0004244642857142,b ʁ a ʊ̯ x t ə n
+brauchen,bräuchte,V;SBJV;SG;3;PST,2.9e-05,0.0004244642857142,b ʁ ɔ ɪ̯ ç t ə
+brauchen,bräuchten,V;SBJV;PL;3;PST,4.4e-05,0.0004244642857142,b ʁ ɔ ɪ̯ ç t ə n
+brauchen,brauch,V;IMP;SG;2,0.0,0.0004244642857142,b ʁ a ʊ̯ x
+brauchen,brauche,V;IMP;SG;2,0.00031,0.0004244642857142,b ʁ a ʊ̯ x ə
+brauchen,braucht,V;IMP;PL;2,0.001255,0.0004244642857142,b ʁ a ʊ̯ x t
+folgen,folgen,V;NFIN,0.000739,0.0003952499999999,f ɔ l ɡ ə n
+folgen,folge,V;IND;SG;1;PRS,3.3e-05,0.0003952499999999,f ɔ l ɡ ə
+folgen,folgen,V;IND;PL;1;PRS,0.000739,0.0003952499999999,f ɔ l ɡ ə n
+folgen,folge,V;SBJV;SG;1;PRS,3.3e-05,0.0003952499999999,f ɔ l ɡ ə
+folgen,folgen,V;SBJV;PL;1;PRS,0.000739,0.0003952499999999,f ɔ l ɡ ə n
+folgen,folgst,V;IND;SG;2;PRS,2e-06,0.0003952499999999,f ɔ l k s t
+folgen,folgt,V;IND;PL;2;PRS,0.000878,0.0003952499999999,f ɔ l k t
+folgen,folgest,V;SBJV;SG;2;PRS,0.0,0.0003952499999999,f ɔ l ɡ ə s t
+folgen,folget,V;SBJV;PL;2;PRS,0.0,0.0003952499999999,f ɔ l ɡ ə t
+folgen,folgt,V;IND;SG;3;PRS,0.000878,0.0003952499999999,f ɔ l k t
+folgen,folgen,V;IND;PL;3;PRS,0.000739,0.0003952499999999,f ɔ l ɡ ə n
+folgen,folge,V;SBJV;SG;3;PRS,3.3e-05,0.0003952499999999,f ɔ l ɡ ə
+folgen,folgen,V;SBJV;PL;3;PRS,0.000739,0.0003952499999999,f ɔ l ɡ ə n
+folgen,folgte,V;IND;SG;1;PST,0.000746,0.0003952499999999,f ɔ l k t ə
+folgen,folgten,V;IND;PL;1;PST,0.000405,0.0003952499999999,f ɔ l k t n̩
+folgen,folgte,V;SBJV;SG;1;PST,0.000746,0.0003952499999999,f ɔ l k t ə
+folgen,folgten,V;SBJV;PL;1;PST,0.000405,0.0003952499999999,f ɔ l k t n̩
+folgen,folgtest,V;IND;SG;2;PST,0.0,0.0003952499999999,f ɔ l k t ə s t
+folgen,folgtet,V;IND;PL;2;PST,0.0,0.0003952499999999,f ɔ l k t ə t
+folgen,folgtest,V;SBJV;SG;2;PST,0.0,0.0003952499999999,f ɔ l k t ə s t
+folgen,folgtet,V;SBJV;PL;2;PST,0.0,0.0003952499999999,f ɔ l k t ə t
+folgen,folgte,V;IND;SG;3;PST,0.000746,0.0003952499999999,f ɔ l k t ə
+folgen,folgten,V;IND;PL;3;PST,0.000405,0.0003952499999999,f ɔ l k t n̩
+folgen,folgte,V;SBJV;SG;3;PST,0.000746,0.0003952499999999,f ɔ l k t ə
+folgen,folgten,V;SBJV;PL;3;PST,0.000405,0.0003952499999999,f ɔ l k t n̩
+folgen,folg,V;IMP;SG;2,0.0,0.0003952499999999,f ɔ l k
+folgen,folge,V;IMP;SG;2,3.3e-05,0.0003952499999999,f ɔ l ɡ ə
+folgen,folgt,V;IMP;PL;2,0.000878,0.0003952499999999,f ɔ l k t
+losmüssen,losmüssen,V;NFIN,0.0,0.0014318571428571,l oː s m ʏ s n̩
+losmüssen,loszumüssen,V;NFIN;LGSPEC01,0.0,0.0014318571428571,l oː s t͡s u m ʏ s n̩
+losmüssen,muss,V;IND;SG;1;PRS,0.005498,0.0014318571428571,m ʊ s
+losmüssen,müssen,V;IND;PL;1;PRS,0.004676,0.0014318571428571,m ʏ s n̩
+losmüssen,müsse,V;SBJV;SG;1;PRS,0.001516,0.0014318571428571,m ʏ s ə
+losmüssen,müssen,V;SBJV;PL;1;PRS,0.004676,0.0014318571428571,m ʏ s n̩
+losmüssen,musst,V;IND;SG;2;PRS,8.7e-05,0.0014318571428571,m ʊ s t
+losmüssen,müsst,V;IND;PL;2;PRS,4.5e-05,0.0014318571428571,m ʏ s t
+losmüssen,müssest,V;SBJV;SG;2;PRS,0.0,0.0014318571428571,m ʏ s ə s t
+losmüssen,müsset,V;SBJV;PL;2;PRS,0.0,0.0014318571428571,m ʏ s ə t
+losmüssen,muss,V;IND;SG;3;PRS,0.005498,0.0014318571428571,m ʊ s
+losmüssen,müssen,V;IND;PL;3;PRS,0.004676,0.0014318571428571,m ʏ s n̩
+losmüssen,müsse,V;SBJV;SG;3;PRS,0.001516,0.0014318571428571,m ʏ s ə
+losmüssen,müssen,V;SBJV;PL;3;PRS,0.004676,0.0014318571428571,m ʏ s n̩
+losmüssen,musste,V;IND;SG;1;PST,0.001624,0.0014318571428571,m ʊ s t ə
+losmüssen,mussten,V;IND;PL;1;PST,0.000775,0.0014318571428571,m ʊ s t n̩
+losmüssen,müsste,V;SBJV;SG;1;PST,0.0004,0.0014318571428571,m ʏ s t ə
+losmüssen,müssten,V;SBJV;PL;1;PST,0.000812,0.0014318571428571,m ʏ s t n̩
+losmüssen,musstest,V;IND;SG;2;PST,2e-06,0.0014318571428571,m ʊ s t ə s t
+losmüssen,musstet,V;IND;PL;2;PST,0.0,0.0014318571428571,m ʊ s t ə t
+losmüssen,müsstest,V;SBJV;SG;2;PST,4e-06,0.0014318571428571,m ʏ s t ə s t
+losmüssen,müsstet,V;SBJV;PL;2;PST,0.0,0.0014318571428571,m ʏ s t ə t
+losmüssen,musste,V;IND;SG;3;PST,0.001624,0.0014318571428571,m ʊ s t ə
+losmüssen,mussten,V;IND;PL;3;PST,0.000775,0.0014318571428571,m ʊ s t n̩
+losmüssen,müsste,V;SBJV;SG;3;PST,0.0004,0.0014318571428571,m ʏ s t ə
+losmüssen,müssten,V;SBJV;PL;3;PST,0.000812,0.0014318571428571,m ʏ s t n̩
+losmüssen,— (du),V;IMP;SG;2,0.0,0.0014318571428571,d uː
+losmüssen,— (ihr),V;IMP;PL;2,0.0,0.0014318571428571,iː ɐ̯
+erhalten,erhalten,V;NFIN,0.002355,0.0005808888888888,ɛ ɐ̯ h a l t n̩
+erhalten,erhalte,V;IND;SG;1;PRS,6.1e-05,0.0005808888888888,ɛ ɐ̯ h a l t ə
+erhalten,erhalten,V;IND;PL;1;PRS,0.002355,0.0005808888888888,ɛ ɐ̯ h a l t n̩
+erhalten,erhalte,V;SBJV;SG;1;PRS,6.1e-05,0.0005808888888888,ɛ ɐ̯ h a l t ə
+erhalten,erhalten,V;SBJV;PL;1;PRS,0.002355,0.0005808888888888,ɛ ɐ̯ h a l t n̩
+erhalten,erhältst,V;IND;SG;2;PRS,9e-06,0.0005808888888888,ɛ ɐ̯ h ɛ l t͡s t
+erhalten,erhaltet,V;IND;PL;2;PRS,3e-05,0.0005808888888888,ɛ ɐ̯ h a l t ə t
+erhalten,erhaltest,V;SBJV;SG;2;PRS,0.0,0.0005808888888888,ɛ ɐ̯ h a l t ə s t
+erhalten,erhaltet,V;SBJV;PL;2;PRS,3e-05,0.0005808888888888,ɛ ɐ̯ h a l t ə t
+erhalten,erhält,V;IND;SG;3;PRS,0.000882,0.0005808888888888,ɛ ɐ̯ h ɛ l t
+erhalten,erhalten,V;IND;PL;3;PRS,0.002355,0.0005808888888888,ɛ ɐ̯ h a l t n̩
+erhalten,erhalte,V;SBJV;SG;3;PRS,6.1e-05,0.0005808888888888,ɛ ɐ̯ h a l t ə
+erhalten,erhalten,V;SBJV;PL;3;PRS,0.002355,0.0005808888888888,ɛ ɐ̯ h a l t n̩
+erhalten,erhielt,V;IND;SG;1;PST,0.000828,0.0005808888888888,ɛ ɐ̯ h iː l t
+erhalten,erhielten,V;IND;PL;1;PST,0.000254,0.0005808888888888,ɛ ɐ̯ h iː l t n̩
+erhalten,erhielte,V;SBJV;SG;1;PST,6e-06,0.0005808888888888,ɛ ɐ̯ h iː l t ə
+erhalten,erhielten,V;SBJV;PL;1;PST,0.000254,0.0005808888888888,ɛ ɐ̯ h iː l t n̩
+erhalten,erhieltest,V;IND;SG;2;PST,0.0,0.0005808888888888,ɛ ɐ̯ h iː l t ə s t
+erhalten,erhieltet,V;IND;PL;2;PST,0.0,0.0005808888888888,ɛ ɐ̯ h iː l t ə t
+erhalten,erhieltest,V;SBJV;SG;2;PST,0.0,0.0005808888888888,ɛ ɐ̯ h iː l t ə s t
+erhalten,erhieltet,V;SBJV;PL;2;PST,0.0,0.0005808888888888,ɛ ɐ̯ h iː l t ə t
+erhalten,erhielt,V;IND;SG;3;PST,0.000828,0.0005808888888888,ɛ ɐ̯ h iː l t
+erhalten,erhielten,V;IND;PL;3;PST,0.000254,0.0005808888888888,ɛ ɐ̯ h iː l t n̩
+erhalten,erhielte,V;SBJV;SG;3;PST,6e-06,0.0005808888888888,ɛ ɐ̯ h iː l t ə
+erhalten,erhielten,V;SBJV;PL;3;PST,0.000254,0.0005808888888888,ɛ ɐ̯ h iː l t n̩
+erhalten,erhalte,V;IMP;SG;2,6.1e-05,0.0005808888888888,ɛ ɐ̯ h a l t ə
+erhalten,erhaltet,V;IMP;PL;2,3e-05,0.0005808888888888,ɛ ɐ̯ h a l t ə t
+sagen,sagen,V;NFIN,0.000579,0.0004349642857142,z aː ɡ n̩
+sagen,sage,V;IND;SG;1;PRS,7.3e-05,0.0004349642857142,z aː ɡ ə
+sagen,sagen,V;IND;PL;1;PRS,0.000579,0.0004349642857142,z aː ɡ n̩
+sagen,sage,V;SBJV;SG;1;PRS,7.3e-05,0.0004349642857142,z aː ɡ ə
+sagen,sagen,V;SBJV;PL;1;PRS,0.000579,0.0004349642857142,z aː ɡ n̩
+sagen,sagst,V;IND;SG;2;PRS,9e-06,0.0004349642857142,z aː k s t
+sagen,sagt,V;IND;PL;2;PRS,0.001161,0.0004349642857142,z aː k t
+sagen,sagest,V;SBJV;SG;2;PRS,0.0,0.0004349642857142,z aː ɡ ə s t
+sagen,saget,V;SBJV;PL;2;PRS,0.0,0.0004349642857142,z aː ɡ ə t
+sagen,sagt,V;IND;SG;3;PRS,0.001161,0.0004349642857142,z aː k t
+sagen,sagen,V;IND;PL;3;PRS,0.000579,0.0004349642857142,z aː ɡ n̩
+sagen,sage,V;SBJV;SG;3;PRS,7.3e-05,0.0004349642857142,z aː ɡ ə
+sagen,sagen,V;SBJV;PL;3;PRS,0.000579,0.0004349642857142,z aː ɡ n̩
+sagen,sagte,V;IND;SG;1;PST,0.0013,0.0004349642857142,z aː k t ə
+sagen,sagten,V;IND;PL;1;PST,7.5e-05,0.0004349642857142,z aː k t n̩
+sagen,sagte,V;SBJV;SG;1;PST,0.0013,0.0004349642857142,z aː k t ə
+sagen,sagten,V;SBJV;PL;1;PST,7.5e-05,0.0004349642857142,z aː k t n̩
+sagen,sagtest,V;IND;SG;2;PST,0.0,0.0004349642857142,z aː k t ə s t
+sagen,sagtet,V;IND;PL;2;PST,0.0,0.0004349642857142,z aː k t ə t
+sagen,sagtest,V;SBJV;SG;2;PST,0.0,0.0004349642857142,z aː k t ə s t
+sagen,sagtet,V;SBJV;PL;2;PST,0.0,0.0004349642857142,z aː k t ə t
+sagen,sagte,V;IND;SG;3;PST,0.0013,0.0004349642857142,z aː k t ə
+sagen,sagten,V;IND;PL;3;PST,7.5e-05,0.0004349642857142,z aː k t n̩
+sagen,sagte,V;SBJV;SG;3;PST,0.0013,0.0004349642857142,z aː k t ə
+sagen,sagten,V;SBJV;PL;3;PST,7.5e-05,0.0004349642857142,z aː k t n̩
+sagen,sag,V;IMP;SG;2,0.0,0.0004349642857142,z aː k
+sagen,sage,V;IMP;SG;2,7.3e-05,0.0004349642857142,z aː ɡ ə
+sagen,sagt,V;IMP;PL;2,0.001161,0.0004349642857142,z aː k t
+wohlwollen,wohlwollen,V;NFIN,0.0,0.0010265714285714,v oː l v ɔ l ə n
+wohlwollen,wohlzuwollen,V;NFIN;LGSPEC01,0.0,0.0010265714285714,v oː l t͡s uː v ɔ l ə n
+wohlwollen,will,V;IND;SG;1;PRS,0.004357,0.0010265714285714,v ɪ l
+wohlwollen,wollen,V;IND;PL;1;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+wohlwollen,wolle,V;SBJV;SG;1;PRS,0.000389,0.0010265714285714,v ɔ l ə
+wohlwollen,wollen,V;SBJV;PL;1;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+wohlwollen,willst,V;IND;SG;2;PRS,8.9e-05,0.0010265714285714,v ɪ l s t
+wohlwollen,wollt,V;IND;PL;2;PRS,5.7e-05,0.0010265714285714,v ɔ l t
+wohlwollen,wollest,V;SBJV;SG;2;PRS,0.0,0.0010265714285714,v ɔ l ə s t
+wohlwollen,wollet,V;SBJV;PL;2;PRS,0.0,0.0010265714285714,v ɔ l ə t
+wohlwollen,will,V;IND;SG;3;PRS,0.004357,0.0010265714285714,v ɪ l
+wohlwollen,wollen,V;IND;PL;3;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+wohlwollen,wolle,V;SBJV;SG;3;PRS,0.000389,0.0010265714285714,v ɔ l ə
+wohlwollen,wollen,V;SBJV;PL;3;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+wohlwollen,wollte,V;IND;SG;1;PST,0.001762,0.0010265714285714,v ɔ l t ə
+wohlwollen,wollten,V;IND;PL;1;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+wohlwollen,wollte,V;SBJV;SG;1;PST,0.001762,0.0010265714285714,v ɔ l t ə
+wohlwollen,wollten,V;SBJV;PL;1;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+wohlwollen,wolltest,V;IND;SG;2;PST,1.9e-05,0.0010265714285714,v ɔ l t ə s t
+wohlwollen,wolltet,V;IND;PL;2;PST,6e-06,0.0010265714285714,v ɔ l t ə t
+wohlwollen,wolltest,V;SBJV;SG;2;PST,1.9e-05,0.0010265714285714,v ɔ l t ə s t
+wohlwollen,wolltet,V;SBJV;PL;2;PST,6e-06,0.0010265714285714,v ɔ l t ə t
+wohlwollen,wollte,V;IND;SG;3;PST,0.001762,0.0010265714285714,v ɔ l t ə
+wohlwollen,wollten,V;IND;PL;3;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+wohlwollen,wollte,V;SBJV;SG;3;PST,0.001762,0.0010265714285714,v ɔ l t ə
+wohlwollen,wollten,V;SBJV;PL;3;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+wohlwollen,— (du),V;IMP;SG;2,0.0,0.0010265714285714,d uː
+wohlwollen,— (ihr),V;IMP;PL;2,0.0,0.0010265714285714,iː ɐ̯
+suchen,suchen,V;NFIN,0.001061,0.0003088571428571,z uː x n̩
+suchen,suche,V;IND;SG;1;PRS,0.000112,0.0003088571428571,z uː x ə
+suchen,suchen,V;IND;PL;1;PRS,0.001061,0.0003088571428571,z uː x n̩
+suchen,suche,V;SBJV;SG;1;PRS,0.000112,0.0003088571428571,z uː x ə
+suchen,suchen,V;SBJV;PL;1;PRS,0.001061,0.0003088571428571,z uː x n̩
+suchen,suchst,V;IND;SG;2;PRS,1.9e-05,0.0003088571428571,z uː x s t
+suchen,sucht,V;IND;PL;2;PRS,0.000632,0.0003088571428571,z ʊ x t
+suchen,suchest,V;SBJV;SG;2;PRS,0.0,0.0003088571428571,z uː x ə s t
+suchen,suchet,V;SBJV;PL;2;PRS,0.0,0.0003088571428571,z uː x ə t
+suchen,sucht,V;IND;SG;3;PRS,0.000632,0.0003088571428571,z ʊ x t
+suchen,suchen,V;IND;PL;3;PRS,0.001061,0.0003088571428571,z uː x n̩
+suchen,suche,V;SBJV;SG;3;PRS,0.000112,0.0003088571428571,z uː x ə
+suchen,suchen,V;SBJV;PL;3;PRS,0.001061,0.0003088571428571,z uː x n̩
+suchen,suchte,V;IND;SG;1;PST,0.00014,0.0003088571428571,z uː x t ə
+suchen,suchten,V;IND;PL;1;PST,0.000105,0.0003088571428571,z uː x t n̩
+suchen,suchte,V;SBJV;SG;1;PST,0.00014,0.0003088571428571,z uː x t ə
+suchen,suchten,V;SBJV;PL;1;PST,0.000105,0.0003088571428571,z uː x t n̩
+suchen,suchtest,V;IND;SG;2;PST,0.0,0.0003088571428571,z uː x t ə s t
+suchen,suchtet,V;IND;PL;2;PST,0.0,0.0003088571428571,z ʊ x t ə t
+suchen,suchtest,V;SBJV;SG;2;PST,0.0,0.0003088571428571,z uː x t ə s t
+suchen,suchtet,V;SBJV;PL;2;PST,0.0,0.0003088571428571,z ʊ x t ə t
+suchen,suchte,V;IND;SG;3;PST,0.00014,0.0003088571428571,z uː x t ə
+suchen,suchten,V;IND;PL;3;PST,0.000105,0.0003088571428571,z uː x t n̩
+suchen,suchte,V;SBJV;SG;3;PST,0.00014,0.0003088571428571,z uː x t ə
+suchen,suchten,V;SBJV;PL;3;PST,0.000105,0.0003088571428571,z uː x t n̩
+suchen,such,V;IMP;SG;2,0.0,0.0003088571428571,z uː x
+suchen,suche,V;IMP;SG;2,0.000112,0.0003088571428571,z uː x ə
+suchen,sucht,V;IMP;PL;2,0.000632,0.0003088571428571,z ʊ x t
+ankönnen,ankönnen,V;NFIN,0.0,0.002605,a n k œ n ə n
+ankönnen,anzukönnen,V;NFIN;LGSPEC01,0.0,0.002605,a n t͡s uː k œ n ə n
+ankönnen,kann,V;IND;SG;1;PRS,0.010935,0.002605,k a n
+ankönnen,können,V;IND;PL;1;PRS,0.008431,0.002605,k œ n ə n
+ankönnen,könne,V;SBJV;SG;1;PRS,0.000989,0.002605,k œ n ə
+ankönnen,können,V;SBJV;PL;1;PRS,0.008431,0.002605,k œ n ə n
+ankönnen,kannst,V;IND;SG;2;PRS,0.000338,0.002605,k a n s t
+ankönnen,könnt,V;IND;PL;2;PRS,0.00028,0.002605,k œ n t
+ankönnen,könnest,V;SBJV;SG;2;PRS,0.0,0.002605,k œ n ə s t
+ankönnen,könnet,V;SBJV;PL;2;PRS,1e-06,0.002605,k œ n ə t
+ankönnen,kann,V;IND;SG;3;PRS,0.010935,0.002605,k a n
+ankönnen,können,V;IND;PL;3;PRS,0.008431,0.002605,k œ n ə n
+ankönnen,könne,V;SBJV;SG;3;PRS,0.000989,0.002605,k œ n ə
+ankönnen,können,V;SBJV;PL;3;PRS,0.008431,0.002605,k œ n ə n
+ankönnen,konnte,V;IND;SG;1;PST,0.002899,0.002605,k ɔ n t ə
+ankönnen,konnten,V;IND;PL;1;PST,0.001337,0.002605,k ɔ n t ə n
+ankönnen,könnte,V;SBJV;SG;1;PST,0.002084,0.002605,k œ n t ə
+ankönnen,könnten,V;SBJV;PL;1;PST,0.001041,0.002605,k œ n t ə n
+ankönnen,konntest,V;IND;SG;2;PST,4e-06,0.002605,k ɔ n t ə s t
+ankönnen,konntet,V;IND;PL;2;PST,2e-06,0.002605,k ɔ n t ə t
+ankönnen,könntest,V;SBJV;SG;2;PST,1.7e-05,0.002605,k œ n t ə s t
+ankönnen,könntet,V;SBJV;PL;2;PST,4e-06,0.002605,k œ n t ə t
+ankönnen,konnte,V;IND;SG;3;PST,0.002899,0.002605,k ɔ n t ə
+ankönnen,konnten,V;IND;PL;3;PST,0.001337,0.002605,k ɔ n t ə n
+ankönnen,könnte,V;SBJV;SG;3;PST,0.002084,0.002605,k œ n t ə
+ankönnen,könnten,V;SBJV;PL;3;PST,0.001041,0.002605,k œ n t ə n
+ankönnen,— (du),V;IMP;SG;2,0.0,0.002605,d uː
+ankönnen,— (ihr),V;IMP;PL;2,0.0,0.002605,iː ɐ̯
+schonen,schonen,V;NFIN,1.8e-05,0.0002675,ʃ oː n ə n
+schonen,schone,V;IND;SG;1;PRS,3e-06,0.0002675,ʃ oː n ə
+schonen,schonen,V;IND;PL;1;PRS,1.8e-05,0.0002675,ʃ oː n ə n
+schonen,schone,V;SBJV;SG;1;PRS,3e-06,0.0002675,ʃ oː n ə
+schonen,schonen,V;SBJV;PL;1;PRS,1.8e-05,0.0002675,ʃ oː n ə n
+schonen,schonst,V;IND;SG;2;PRS,0.0,0.0002675,ʃ oː n s t
+schonen,schont,V;IND;PL;2;PRS,2.1e-05,0.0002675,ʃ oː n t
+schonen,schonest,V;SBJV;SG;2;PRS,0.0,0.0002675,ʃ oː n ə s t
+schonen,schonet,V;SBJV;PL;2;PRS,0.0,0.0002675,ʃ oː n ə t
+schonen,schont,V;IND;SG;3;PRS,2.1e-05,0.0002675,ʃ oː n t
+schonen,schonen,V;IND;PL;3;PRS,1.8e-05,0.0002675,ʃ oː n ə n
+schonen,schone,V;SBJV;SG;3;PRS,3e-06,0.0002675,ʃ oː n ə
+schonen,schonen,V;SBJV;PL;3;PRS,1.8e-05,0.0002675,ʃ oː n ə n
+schonen,schonte,V;IND;SG;1;PST,0.0,0.0002675,ʃ oː n t ə
+schonen,schonten,V;IND;PL;1;PST,0.0,0.0002675,ʃ oː n t ə n
+schonen,schonte,V;SBJV;SG;1;PST,0.0,0.0002675,ʃ oː n t ə
+schonen,schonten,V;SBJV;PL;1;PST,0.0,0.0002675,ʃ oː n t ə n
+schonen,schontest,V;IND;SG;2;PST,0.0,0.0002675,ʃ oː n t ə s t
+schonen,schontet,V;IND;PL;2;PST,0.0,0.0002675,ʃ oː n t ə t
+schonen,schontest,V;SBJV;SG;2;PST,0.0,0.0002675,ʃ oː n t ə s t
+schonen,schontet,V;SBJV;PL;2;PST,0.0,0.0002675,ʃ oː n t ə t
+schonen,schonte,V;IND;SG;3;PST,0.0,0.0002675,ʃ oː n t ə
+schonen,schonten,V;IND;PL;3;PST,0.0,0.0002675,ʃ oː n t ə n
+schonen,schonte,V;SBJV;SG;3;PST,0.0,0.0002675,ʃ oː n t ə
+schonen,schonten,V;SBJV;PL;3;PST,0.0,0.0002675,ʃ oː n t ə n
+schonen,schon,V;IMP;SG;2,0.007325,0.0002675,ʃ oː n
+schonen,schone,V;IMP;SG;2,3e-06,0.0002675,ʃ oː n ə
+schonen,schont,V;IMP;PL;2,2.1e-05,0.0002675,ʃ oː n t
+wegwollen,wegwollen,V;NFIN,1e-06,0.0010266071428571,v ɛ k v ɔ l ə n
+wegwollen,wegzuwollen,V;NFIN;LGSPEC01,0.0,0.0010266071428571,v ɛ k t͡s uː v ɔ l ə n
+wegwollen,will,V;IND;SG;1;PRS,0.004357,0.0010266071428571,v ɪ l
+wegwollen,wollen,V;IND;PL;1;PRS,0.002507,0.0010266071428571,v ɔ l ə n
+wegwollen,wolle,V;SBJV;SG;1;PRS,0.000389,0.0010266071428571,v ɔ l ə
+wegwollen,wollen,V;SBJV;PL;1;PRS,0.002507,0.0010266071428571,v ɔ l ə n
+wegwollen,willst,V;IND;SG;2;PRS,8.9e-05,0.0010266071428571,v ɪ l s t
+wegwollen,wollt,V;IND;PL;2;PRS,5.7e-05,0.0010266071428571,v ɔ l t
+wegwollen,wollest,V;SBJV;SG;2;PRS,0.0,0.0010266071428571,v ɔ l ə s t
+wegwollen,wollet,V;SBJV;PL;2;PRS,0.0,0.0010266071428571,v ɔ l ə t
+wegwollen,will,V;IND;SG;3;PRS,0.004357,0.0010266071428571,v ɪ l
+wegwollen,wollen,V;IND;PL;3;PRS,0.002507,0.0010266071428571,v ɔ l ə n
+wegwollen,wolle,V;SBJV;SG;3;PRS,0.000389,0.0010266071428571,v ɔ l ə
+wegwollen,wollen,V;SBJV;PL;3;PRS,0.002507,0.0010266071428571,v ɔ l ə n
+wegwollen,wollte,V;IND;SG;1;PST,0.001762,0.0010266071428571,v ɔ l t ə
+wegwollen,wollten,V;IND;PL;1;PST,0.000495,0.0010266071428571,v ɔ l t n̩
+wegwollen,wollte,V;SBJV;SG;1;PST,0.001762,0.0010266071428571,v ɔ l t ə
+wegwollen,wollten,V;SBJV;PL;1;PST,0.000495,0.0010266071428571,v ɔ l t n̩
+wegwollen,wolltest,V;IND;SG;2;PST,1.9e-05,0.0010266071428571,v ɔ l t ə s t
+wegwollen,wolltet,V;IND;PL;2;PST,6e-06,0.0010266071428571,v ɔ l t ə t
+wegwollen,wolltest,V;SBJV;SG;2;PST,1.9e-05,0.0010266071428571,v ɔ l t ə s t
+wegwollen,wolltet,V;SBJV;PL;2;PST,6e-06,0.0010266071428571,v ɔ l t ə t
+wegwollen,wollte,V;IND;SG;3;PST,0.001762,0.0010266071428571,v ɔ l t ə
+wegwollen,wollten,V;IND;PL;3;PST,0.000495,0.0010266071428571,v ɔ l t n̩
+wegwollen,wollte,V;SBJV;SG;3;PST,0.001762,0.0010266071428571,v ɔ l t ə
+wegwollen,wollten,V;SBJV;PL;3;PST,0.000495,0.0010266071428571,v ɔ l t n̩
+wegwollen,— (du),V;IMP;SG;2,0.0,0.0010266071428571,d uː
+wegwollen,— (ihr),V;IMP;PL;2,0.0,0.0010266071428571,iː ɐ̯
+helfen,helfen,V;NFIN,0.00097,0.0002248888888888,h ɛ l f n̩
+helfen,helfe,V;IND;SG;1;PRS,3.7e-05,0.0002248888888888,h ɛ l f ə
+helfen,helfen,V;IND;PL;1;PRS,0.00097,0.0002248888888888,h ɛ l f n̩
+helfen,helfe,V;SBJV;SG;1;PRS,3.7e-05,0.0002248888888888,h ɛ l f ə
+helfen,helfen,V;SBJV;PL;1;PRS,0.00097,0.0002248888888888,h ɛ l f n̩
+helfen,hilfst,V;IND;SG;2;PRS,4e-06,0.0002248888888888,h ɪ l f s t
+helfen,helft,V;IND;PL;2;PRS,5e-06,0.0002248888888888,h ɛ l f t
+helfen,helfest,V;SBJV;SG;2;PRS,0.0,0.0002248888888888,h ɛ l f ə s t
+helfen,helfet,V;SBJV;PL;2;PRS,0.0,0.0002248888888888,h ɛ l f ə t
+helfen,hilft,V;IND;SG;3;PRS,0.000801,0.0002248888888888,h ɪ l f t
+helfen,helfen,V;IND;PL;3;PRS,0.00097,0.0002248888888888,h ɛ l f n̩
+helfen,helfe,V;SBJV;SG;3;PRS,3.7e-05,0.0002248888888888,h ɛ l f ə
+helfen,helfen,V;SBJV;PL;3;PRS,0.00097,0.0002248888888888,h ɛ l f n̩
+helfen,half,V;IND;SG;1;PST,0.000104,0.0002248888888888,h a l f
+helfen,halfen,V;IND;PL;1;PST,4.3e-05,0.0002248888888888,h a l f n̩
+helfen,hülfe,V;SBJV;SG;1;PST,1e-06,0.0002248888888888,h ʏ l f ə
+helfen,hülfen,V;SBJV;PL;1;PST,0.0,0.0002248888888888,h ʏ l f ə n
+helfen,halfst,V;IND;SG;2;PST,0.0,0.0002248888888888,h a l f s t
+helfen,halft,V;IND;PL;2;PST,0.0,0.0002248888888888,h a l f t
+helfen,hülfest,V;SBJV;SG;2;PST,0.0,0.0002248888888888,h ʏ l f ə s t
+helfen,hülfet,V;SBJV;PL;2;PST,0.0,0.0002248888888888,h ʏ l f ə t
+helfen,half,V;IND;SG;3;PST,0.000104,0.0002248888888888,h a l f
+helfen,halfen,V;IND;PL;3;PST,4.3e-05,0.0002248888888888,h a l f n̩
+helfen,hülfe,V;SBJV;SG;3;PST,1e-06,0.0002248888888888,h ʏ l f ə
+helfen,hülfen,V;SBJV;PL;3;PST,0.0,0.0002248888888888,h ʏ l f ə n
+helfen,hilf,V;IMP;SG;2,0.0,0.0002248888888888,h ɪ l f
+helfen,helft,V;IMP;PL;2,5e-06,0.0002248888888888,h ɛ l f t
+verlieren,verlieren,V;NFIN,0.00039,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə n
+verlieren,verliere,V;IND;SG;1;PRS,1.4e-05,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə
+verlieren,verlieren,V;IND;PL;1;PRS,0.00039,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə n
+verlieren,verliere,V;SBJV;SG;1;PRS,1.4e-05,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə
+verlieren,verlieren,V;SBJV;PL;1;PRS,0.00039,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə n
+verlieren,verlierst,V;IND;SG;2;PRS,7e-06,0.0002446785714285,f ɛ ɐ̯ l iː ɐ̯ s t
+verlieren,verliert,V;IND;PL;2;PRS,0.000406,0.0002446785714285,f ɛ ɐ̯ l iː ɐ̯ t
+verlieren,verlierest,V;SBJV;SG;2;PRS,0.0,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə s t
+verlieren,verlieret,V;SBJV;PL;2;PRS,0.0,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə t
+verlieren,verliert,V;IND;SG;3;PRS,0.000406,0.0002446785714285,f ɛ ɐ̯ l iː ɐ̯ t
+verlieren,verlieren,V;IND;PL;3;PRS,0.00039,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə n
+verlieren,verliere,V;SBJV;SG;3;PRS,1.4e-05,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə
+verlieren,verlieren,V;SBJV;PL;3;PRS,0.00039,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə n
+verlieren,verlor,V;IND;SG;1;PST,0.000703,0.0002446785714285,f ɛ ɐ̯ l oː ɐ̯
+verlieren,verloren,V;IND;PL;1;PST,0.001102,0.0002446785714285,f ɛ ɐ̯ l oː ʁ ə n
+verlieren,verlöre,V;SBJV;SG;1;PST,4e-06,0.0002446785714285,f ɛ ɐ̯ l øː ʁ ə
+verlieren,verlören,V;SBJV;PL;1;PST,1e-06,0.0002446785714285,f ɛ ɐ̯ l øː ʁ ə n
+verlieren,verlorst,V;IND;SG;2;PST,0.0,0.0002446785714285,f ɛ ɐ̯ l ɔ ʁ s t
+verlieren,verlort,V;IND;PL;2;PST,0.0,0.0002446785714285,f ɛ ɐ̯ l oː ɐ̯ t
+verlieren,verlörest,V;SBJV;SG;2;PST,0.0,0.0002446785714285,f ɛ ɐ̯ l øː ʁ ə s t
+verlieren,verlöret,V;SBJV;PL;2;PST,0.0,0.0002446785714285,f ɛ ɐ̯ l øː ʁ ə t
+verlieren,verlor,V;IND;SG;3;PST,0.000703,0.0002446785714285,f ɛ ɐ̯ l oː ɐ̯
+verlieren,verloren,V;IND;PL;3;PST,0.001102,0.0002446785714285,f ɛ ɐ̯ l oː ʁ ə n
+verlieren,verlöre,V;SBJV;SG;3;PST,4e-06,0.0002446785714285,f ɛ ɐ̯ l øː ʁ ə
+verlieren,verlören,V;SBJV;PL;3;PST,1e-06,0.0002446785714285,f ɛ ɐ̯ l øː ʁ ə n
+verlieren,verlier,V;IMP;SG;2,0.0,0.0002446785714285,f ɛ ɐ̯ l iː ɐ̯
+verlieren,verliere,V;IMP;SG;2,1.4e-05,0.0002446785714285,f ɛ ɐ̯ l iː ʁ ə
+verlieren,verliert,V;IMP;PL;2,0.000406,0.0002446785714285,f ɛ ɐ̯ l iː ɐ̯ t
+bieten,bieten,V;NFIN,0.001155,0.000531074074074,b iː t ə n
+bieten,biete,V;IND;SG;1;PRS,9.8e-05,0.000531074074074,b iː t ə
+bieten,bieten,V;IND;PL;1;PRS,0.001155,0.000531074074074,b iː t ə n
+bieten,biete,V;SBJV;SG;1;PRS,9.8e-05,0.000531074074074,b iː t ə
+bieten,bieten,V;SBJV;PL;1;PRS,0.001155,0.000531074074074,b iː t ə n
+bieten,bietest,V;IND;SG;2;PRS,3e-06,0.000531074074074,b iː t ə s t
+bieten,bietet,V;IND;PL;2;PRS,0.001902,0.000531074074074,b iː t ə t
+bieten,bietest,V;SBJV;SG;2;PRS,3e-06,0.000531074074074,b iː t ə s t
+bieten,bietet,V;SBJV;PL;2;PRS,0.001902,0.000531074074074,b iː t ə t
+bieten,bietet,V;IND;SG;3;PRS,0.001902,0.000531074074074,b iː t ə t
+bieten,bieten,V;IND;PL;3;PRS,0.001155,0.000531074074074,b iː t ə n
+bieten,biete,V;SBJV;SG;3;PRS,9.8e-05,0.000531074074074,b iː t ə
+bieten,bieten,V;SBJV;PL;3;PRS,0.001155,0.000531074074074,b iː t ə n
+bieten,bot,V;IND;SG;1;PST,0.000175,0.000531074074074,b oː t
+bieten,boten,V;IND;PL;1;PST,7.8e-05,0.000531074074074,b oː t n̩
+bieten,böte,V;SBJV;SG;1;PST,1.2e-05,0.000531074074074,b øː t ə
+bieten,böten,V;SBJV;PL;1;PST,1.4e-05,0.000531074074074,b øː t ə n
+bieten,botest,V;IND;SG;2;PST,0.0,0.000531074074074,b oː t ə s t
+bieten,botet,V;IND;PL;2;PST,0.0,0.000531074074074,b oː t ə t
+bieten,bötest,V;SBJV;SG;2;PST,0.0,0.000531074074074,b øː t ə s t
+bieten,bötet,V;SBJV;PL;2;PST,0.0,0.000531074074074,b øː t ə t
+bieten,bot,V;IND;SG;3;PST,0.000175,0.000531074074074,b oː t
+bieten,boten,V;IND;PL;3;PST,7.8e-05,0.000531074074074,b oː t n̩
+bieten,böte,V;SBJV;SG;3;PST,1.2e-05,0.000531074074074,b øː t ə
+bieten,böten,V;SBJV;PL;3;PST,1.4e-05,0.000531074074074,b øː t ə n
+bieten,biete,V;IMP;SG;2,9.8e-05,0.000531074074074,b iː t ə
+bieten,bietet,V;IMP;PL;2,0.001902,0.000531074074074,b iː t ə t
+sehen,sehen,V;NFIN,0.002294,0.0006359285714285,z eː ə n
+sehen,sehe,V;IND;SG;1;PRS,0.000507,0.0006359285714285,z eː ə
+sehen,sehen,V;IND;PL;1;PRS,0.002294,0.0006359285714285,z eː ə n
+sehen,sehe,V;SBJV;SG;1;PRS,0.000507,0.0006359285714285,z eː ə
+sehen,sehen,V;SBJV;PL;1;PRS,0.002294,0.0006359285714285,z eː ə n
+sehen,siehst,V;IND;SG;2;PRS,5.8e-05,0.0006359285714285,z iː s t
+sehen,seht,V;IND;PL;2;PRS,6.8e-05,0.0006359285714285,z eː t
+sehen,sehest,V;SBJV;SG;2;PRS,0.0,0.0006359285714285,z eː ə s t
+sehen,sehet,V;SBJV;PL;2;PRS,0.0,0.0006359285714285,z eː ə t
+sehen,sieht,V;IND;SG;3;PRS,0.002553,0.0006359285714285,z iː t
+sehen,sehen,V;IND;PL;3;PRS,0.002294,0.0006359285714285,z eː ə n
+sehen,sehe,V;SBJV;SG;3;PRS,0.000507,0.0006359285714285,z eː ə
+sehen,sehen,V;SBJV;PL;3;PRS,0.002294,0.0006359285714285,z eː ə n
+sehen,sah,V;IND;SG;1;PST,0.000735,0.0006359285714285,z aː
+sehen,sahen,V;IND;PL;1;PST,0.000228,0.0006359285714285,z aː ə n
+sehen,sähe,V;SBJV;SG;1;PST,1.1e-05,0.0006359285714285,z eː ə
+sehen,sähen,V;SBJV;PL;1;PST,2.3e-05,0.0006359285714285,z eː ə n
+sehen,sahst,V;IND;SG;2;PST,2e-06,0.0006359285714285,z aː s t
+sehen,saht,V;IND;PL;2;PST,0.0,0.0006359285714285,z aː t
+sehen,sähest,V;SBJV;SG;2;PST,0.0,0.0006359285714285,z eː ə s t
+sehen,sähet,V;SBJV;PL;2;PST,0.0,0.0006359285714285,z eː ə t
+sehen,sah,V;IND;SG;3;PST,0.000735,0.0006359285714285,z aː
+sehen,sahen,V;IND;PL;3;PST,0.000228,0.0006359285714285,z aː ə n
+sehen,sähe,V;SBJV;SG;3;PST,1.1e-05,0.0006359285714285,z eː ə
+sehen,sähen,V;SBJV;PL;3;PST,2.3e-05,0.0006359285714285,z eː ə n
+sehen,sieh,V;IMP;SG;2,0.0,0.0006359285714285,z iː
+sehen,siehe,V;IMP;SG;2,7.2e-05,0.0006359285714285,z iː ə
+sehen,seht,V;IMP;PL;2,6.8e-05,0.0006359285714285,z eː t
+hinaufwollen,hinaufwollen,V;NFIN,0.0,0.0010265714285714,h ɪ n a ʊ̯ f v ɔ l ə n
+hinaufwollen,hinaufzuwollen,V;NFIN;LGSPEC01,0.0,0.0010265714285714,h ɪ n a ʊ̯ f t͡s uː v ɔ l ə n
+hinaufwollen,will,V;IND;SG;1;PRS,0.004357,0.0010265714285714,v ɪ l
+hinaufwollen,wollen,V;IND;PL;1;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+hinaufwollen,wolle,V;SBJV;SG;1;PRS,0.000389,0.0010265714285714,v ɔ l ə
+hinaufwollen,wollen,V;SBJV;PL;1;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+hinaufwollen,willst,V;IND;SG;2;PRS,8.9e-05,0.0010265714285714,v ɪ l s t
+hinaufwollen,wollt,V;IND;PL;2;PRS,5.7e-05,0.0010265714285714,v ɔ l t
+hinaufwollen,wollest,V;SBJV;SG;2;PRS,0.0,0.0010265714285714,v ɔ l ə s t
+hinaufwollen,wollet,V;SBJV;PL;2;PRS,0.0,0.0010265714285714,v ɔ l ə t
+hinaufwollen,will,V;IND;SG;3;PRS,0.004357,0.0010265714285714,v ɪ l
+hinaufwollen,wollen,V;IND;PL;3;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+hinaufwollen,wolle,V;SBJV;SG;3;PRS,0.000389,0.0010265714285714,v ɔ l ə
+hinaufwollen,wollen,V;SBJV;PL;3;PRS,0.002507,0.0010265714285714,v ɔ l ə n
+hinaufwollen,wollte,V;IND;SG;1;PST,0.001762,0.0010265714285714,v ɔ l t ə
+hinaufwollen,wollten,V;IND;PL;1;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+hinaufwollen,wollte,V;SBJV;SG;1;PST,0.001762,0.0010265714285714,v ɔ l t ə
+hinaufwollen,wollten,V;SBJV;PL;1;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+hinaufwollen,wolltest,V;IND;SG;2;PST,1.9e-05,0.0010265714285714,v ɔ l t ə s t
+hinaufwollen,wolltet,V;IND;PL;2;PST,6e-06,0.0010265714285714,v ɔ l t ə t
+hinaufwollen,wolltest,V;SBJV;SG;2;PST,1.9e-05,0.0010265714285714,v ɔ l t ə s t
+hinaufwollen,wolltet,V;SBJV;PL;2;PST,6e-06,0.0010265714285714,v ɔ l t ə t
+hinaufwollen,wollte,V;IND;SG;3;PST,0.001762,0.0010265714285714,v ɔ l t ə
+hinaufwollen,wollten,V;IND;PL;3;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+hinaufwollen,wollte,V;SBJV;SG;3;PST,0.001762,0.0010265714285714,v ɔ l t ə
+hinaufwollen,wollten,V;SBJV;PL;3;PST,0.000495,0.0010265714285714,v ɔ l t n̩
+hinaufwollen,— (du),V;IMP;SG;2,0.0,0.0010265714285714,d uː
+hinaufwollen,— (ihr),V;IMP;PL;2,0.0,0.0010265714285714,iː ɐ̯
+bilden,bilden,V;NFIN,0.000565,0.0002337407407407,b ɪ l d n̩
+bilden,bilde,V;IND;SG;1;PRS,1.6e-05,0.0002337407407407,b ɪ l d ə
+bilden,bilden,V;IND;PL;1;PRS,0.000565,0.0002337407407407,b ɪ l d n̩
+bilden,bilde,V;SBJV;SG;1;PRS,1.6e-05,0.0002337407407407,b ɪ l d ə
+bilden,bilden,V;SBJV;PL;1;PRS,0.000565,0.0002337407407407,b ɪ l d n̩
+bilden,bildest,V;IND;SG;2;PRS,1e-06,0.0002337407407407,b ɪ l d ə s t
+bilden,bildet,V;IND;PL;2;PRS,0.000603,0.0002337407407407,b ɪ l d ə t
+bilden,bildest,V;SBJV;SG;2;PRS,1e-06,0.0002337407407407,b ɪ l d ə s t
+bilden,bildet,V;SBJV;PL;2;PRS,0.000603,0.0002337407407407,b ɪ l d ə t
+bilden,bildet,V;IND;SG;3;PRS,0.000603,0.0002337407407407,b ɪ l d ə t
+bilden,bilden,V;IND;PL;3;PRS,0.000565,0.0002337407407407,b ɪ l d n̩
+bilden,bilde,V;SBJV;SG;3;PRS,1.6e-05,0.0002337407407407,b ɪ l d ə
+bilden,bilden,V;SBJV;PL;3;PRS,0.000565,0.0002337407407407,b ɪ l d n̩
+bilden,bildete,V;IND;SG;1;PST,0.00016,0.0002337407407407,b ɪ l d ə t ə
+bilden,bildeten,V;IND;PL;1;PST,9.2e-05,0.0002337407407407,b ɪ l d ə t ə n
+bilden,bildete,V;SBJV;SG;1;PST,0.00016,0.0002337407407407,b ɪ l d ə t ə
+bilden,bildeten,V;SBJV;PL;1;PST,9.2e-05,0.0002337407407407,b ɪ l d ə t ə n
+bilden,bildetest,V;IND;SG;2;PST,0.0,0.0002337407407407,b ɪ l d ə t ə s t
+bilden,bildetet,V;IND;PL;2;PST,0.0,0.0002337407407407,b ɪ l d ə t ə t
+bilden,bildetest,V;SBJV;SG;2;PST,0.0,0.0002337407407407,b ɪ l d ə t ə s t
+bilden,bildetet,V;SBJV;PL;2;PST,0.0,0.0002337407407407,b ɪ l d ə t ə t
+bilden,bildete,V;IND;SG;3;PST,0.00016,0.0002337407407407,b ɪ l d ə t ə
+bilden,bildeten,V;IND;PL;3;PST,9.2e-05,0.0002337407407407,b ɪ l d ə t ə n
+bilden,bildete,V;SBJV;SG;3;PST,0.00016,0.0002337407407407,b ɪ l d ə t ə
+bilden,bildeten,V;SBJV;PL;3;PST,9.2e-05,0.0002337407407407,b ɪ l d ə t ə n
+bilden,bilde,V;IMP;SG;2,1.6e-05,0.0002337407407407,b ɪ l d ə
+bilden,bildet,V;IMP;PL;2,0.000603,0.0002337407407407,b ɪ l d ə t
+bestimmen,bestimmen,V;NFIN,0.000262,0.0002615714285714,b ə ʃ t ɪ m ə n
+bestimmen,bestimme,V;IND;SG;1;PRS,8e-06,0.0002615714285714,b ə ʃ t ɪ m ə
+bestimmen,bestimmen,V;IND;PL;1;PRS,0.000262,0.0002615714285714,b ə ʃ t ɪ m ə n
+bestimmen,bestimme,V;SBJV;SG;1;PRS,8e-06,0.0002615714285714,b ə ʃ t ɪ m ə
+bestimmen,bestimmen,V;SBJV;PL;1;PRS,0.000262,0.0002615714285714,b ə ʃ t ɪ m ə n
+bestimmen,bestimmst,V;IND;SG;2;PRS,3e-06,0.0002615714285714,b ə ʃ t ɪ m s t
+bestimmen,bestimmt,V;IND;PL;2;PRS,0.001077,0.0002615714285714,b ə ʃ t ɪ m t
+bestimmen,bestimmest,V;SBJV;SG;2;PRS,0.0,0.0002615714285714,b ə ʃ t ɪ m ə s t
+bestimmen,bestimmet,V;SBJV;PL;2;PRS,0.0,0.0002615714285714,b ə ʃ t ɪ m ə t
+bestimmen,bestimmt,V;IND;SG;3;PRS,0.001077,0.0002615714285714,b ə ʃ t ɪ m t
+bestimmen,bestimmen,V;IND;PL;3;PRS,0.000262,0.0002615714285714,b ə ʃ t ɪ m ə n
+bestimmen,bestimme,V;SBJV;SG;3;PRS,8e-06,0.0002615714285714,b ə ʃ t ɪ m ə
+bestimmen,bestimmen,V;SBJV;PL;3;PRS,0.000262,0.0002615714285714,b ə ʃ t ɪ m ə n
+bestimmen,bestimmte,V;IND;SG;1;PST,0.000338,0.0002615714285714,b ə ʃ t ɪ m t ə
+bestimmen,bestimmten,V;IND;PL;1;PST,0.000349,0.0002615714285714,b ə ʃ t ɪ m t n̩
+bestimmen,bestimmte,V;SBJV;SG;1;PST,0.000338,0.0002615714285714,b ə ʃ t ɪ m t ə
+bestimmen,bestimmten,V;SBJV;PL;1;PST,0.000349,0.0002615714285714,b ə ʃ t ɪ m t n̩
+bestimmen,bestimmtest,V;IND;SG;2;PST,0.0,0.0002615714285714,b ə ʃ t ɪ m t ə s t
+bestimmen,bestimmtet,V;IND;PL;2;PST,0.0,0.0002615714285714,b ə ʃ t ɪ m t ə t
+bestimmen,bestimmtest,V;SBJV;SG;2;PST,0.0,0.0002615714285714,b ə ʃ t ɪ m t ə s t
+bestimmen,bestimmtet,V;SBJV;PL;2;PST,0.0,0.0002615714285714,b ə ʃ t ɪ m t ə t
+bestimmen,bestimmte,V;IND;SG;3;PST,0.000338,0.0002615714285714,b ə ʃ t ɪ m t ə
+bestimmen,bestimmten,V;IND;PL;3;PST,0.000349,0.0002615714285714,b ə ʃ t ɪ m t n̩
+bestimmen,bestimmte,V;SBJV;SG;3;PST,0.000338,0.0002615714285714,b ə ʃ t ɪ m t ə
+bestimmen,bestimmten,V;SBJV;PL;3;PST,0.000349,0.0002615714285714,b ə ʃ t ɪ m t n̩
+bestimmen,bestimm,V;IMP;SG;2,0.0,0.0002615714285714,b ə ʃ t ɪ m
+bestimmen,bestimme,V;IMP;SG;2,8e-06,0.0002615714285714,b ə ʃ t ɪ m ə
+bestimmen,bestimmt,V;IMP;PL;2,0.001077,0.0002615714285714,b ə ʃ t ɪ m t
+liegen,liegen,V;NFIN,0.002097,0.001275,l iː ɡ ə n
+liegen,liege,V;IND;SG;1;PRS,0.000561,0.001275,l iː ɡ ə
+liegen,liegen,V;IND;PL;1;PRS,0.002097,0.001275,l iː ɡ ə n
+liegen,liege,V;SBJV;SG;1;PRS,0.000561,0.001275,l iː ɡ ə
+liegen,liegen,V;SBJV;PL;1;PRS,0.002097,0.001275,l iː ɡ ə n
+liegen,liegst,V;IND;SG;2;PRS,5e-06,0.001275,l iː k s t
+liegen,liegt,V;IND;PL;2;PRS,0.005987,0.001275,l iː k t
+liegen,liegest,V;SBJV;SG;2;PRS,0.0,0.001275,l iː ɡ ə s t
+liegen,lieget,V;SBJV;PL;2;PRS,0.0,0.001275,l iː ɡ ə t
+liegen,liegt,V;IND;SG;3;PRS,0.005987,0.001275,l iː k t
+liegen,liegen,V;IND;PL;3;PRS,0.002097,0.001275,l iː ɡ ə n
+liegen,liege,V;SBJV;SG;3;PRS,0.000561,0.001275,l iː ɡ ə
+liegen,liegen,V;SBJV;PL;3;PRS,0.002097,0.001275,l iː ɡ ə n
+liegen,lag,V;IND;SG;1;PST,0.001884,0.001275,l aː k
+liegen,lagen,V;IND;PL;1;PST,0.000436,0.001275,l aː ɡ n̩
+liegen,läge,V;SBJV;SG;1;PST,4.3e-05,0.001275,l eː ɡ ə
+liegen,lägen,V;SBJV;PL;1;PST,0.000139,0.001275,l eː ɡ ə n
+liegen,lagst,V;IND;SG;2;PST,1e-06,0.001275,l aː k s t
+liegen,lagt,V;IND;PL;2;PST,0.0,0.001275,l aː k t
+liegen,lägest,V;SBJV;SG;2;PST,0.0,0.001275,l eː ɡ ə s t
+liegen,läget,V;SBJV;PL;2;PST,0.0,0.001275,l eː ɡ ə t
+liegen,lag,V;IND;SG;3;PST,0.001884,0.001275,l aː k
+liegen,lagen,V;IND;PL;3;PST,0.000436,0.001275,l aː ɡ n̩
+liegen,läge,V;SBJV;SG;3;PST,4.3e-05,0.001275,l eː ɡ ə
+liegen,lägen,V;SBJV;PL;3;PST,0.000139,0.001275,l eː ɡ ə n
+liegen,lieg,V;IMP;SG;2,0.0,0.001275,l iː k
+liegen,liege,V;IMP;SG;2,0.000561,0.001275,l iː ɡ ə
+liegen,liegt,V;IMP;PL;2,0.005987,0.001275,l iː k t
+nehmen,nehmen,V;NFIN,0.001007,0.0003481111111111,n eː m ə n
+nehmen,nehme,V;IND;SG;1;PRS,0.000155,0.0003481111111111,n eː m ə
+nehmen,nehmen,V;IND;PL;1;PRS,0.001007,0.0003481111111111,n eː m ə n
+nehmen,nehme,V;SBJV;SG;1;PRS,0.000155,0.0003481111111111,n eː m ə
+nehmen,nehmen,V;SBJV;PL;1;PRS,0.001007,0.0003481111111111,n eː m ə n
+nehmen,nimmst,V;IND;SG;2;PRS,1.9e-05,0.0003481111111111,n ɪ m s t
+nehmen,nehmt,V;IND;PL;2;PRS,1.1e-05,0.0003481111111111,n eː m t
+nehmen,nehmest,V;SBJV;SG;2;PRS,0.0,0.0003481111111111,n eː m ə s t
+nehmen,nehmet,V;SBJV;PL;2;PRS,0.0,0.0003481111111111,n eː m ə t
+nehmen,nimmt,V;IND;SG;3;PRS,0.001185,0.0003481111111111,n ɪ m t
+nehmen,nehmen,V;IND;PL;3;PRS,0.001007,0.0003481111111111,n eː m ə n
+nehmen,nehme,V;SBJV;SG;3;PRS,0.000155,0.0003481111111111,n eː m ə
+nehmen,nehmen,V;SBJV;PL;3;PRS,0.001007,0.0003481111111111,n eː m ə n
+nehmen,nahm,V;IND;SG;1;PST,0.000889,0.0003481111111111,n aː m
+nehmen,nahmen,V;IND;PL;1;PST,0.000429,0.0003481111111111,n aː m ə n
+nehmen,nähme,V;SBJV;SG;1;PST,4e-06,0.0003481111111111,n eː m ə
+nehmen,nähmen,V;SBJV;PL;1;PST,1.4e-05,0.0003481111111111,n eː m ə n
+nehmen,nahmst,V;IND;SG;2;PST,0.0,0.0003481111111111,n aː m s t
+nehmen,nahmt,V;IND;PL;2;PST,0.0,0.0003481111111111,n aː m t
+nehmen,nähmest,V;SBJV;SG;2;PST,0.0,0.0003481111111111,n eː m ə s t
+nehmen,nähmet,V;SBJV;PL;2;PST,0.0,0.0003481111111111,n eː m ə t
+nehmen,nahm,V;IND;SG;3;PST,0.000889,0.0003481111111111,n aː m
+nehmen,nahmen,V;IND;PL;3;PST,0.000429,0.0003481111111111,n aː m ə n
+nehmen,nähme,V;SBJV;SG;3;PST,4e-06,0.0003481111111111,n eː m ə
+nehmen,nähmen,V;SBJV;PL;3;PST,1.4e-05,0.0003481111111111,n eː m ə n
+nehmen,nimm,V;IMP;SG;2,1e-06,0.0003481111111111,n ɪ m
+nehmen,nehmt,V;IMP;PL;2,1.1e-05,0.0003481111111111,n eː m t

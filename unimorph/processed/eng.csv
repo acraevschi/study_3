@@ -1,0 +1,261 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+just,justs,V;PRS;3;SG,1e-06,0.0064948,d͡ʒ ʌ s t s
+just,justing,V;V.PTCP;PRS,0.0,0.0064948,d͡ʒ ʌ s t ɪ ŋ
+just,justed,V;PST,0.0,0.0064948,d͡ʒ ʌ s t ɪ d
+just,justed,V;V.PTCP;PST,0.0,0.0064948,d͡ʒ ʌ s t ɪ d
+hav,has,V;PRS;3;SG,0.050155,0.0224614,h e ɪ z
+hav,having,V;V.PTCP;PRS,0.005726,0.0224614,h e ɪ v ɪ ŋ
+hav,had,V;PST,0.028212,0.0224614,h æ d
+hav,had,V;V.PTCP;PST,0.028212,0.0224614,h æ d
+take,takes,V;PRS;3;SG,0.003872,0.0056571999999999,t e ɪ k s
+take,taking,V;V.PTCP;PRS,0.003903,0.0056571999999999,t e ɪ k ɪ ŋ
+take,took,V;PST,0.004388,0.0056571999999999,t ʊ k
+take,taken,V;V.PTCP;PST,0.002789,0.0056571999999999,t e ɪ k ə n
+other,others,V;PRS;3;SG,0.004632,0.0062412,ʌ ð ə z
+other,othering,V;V.PTCP;PRS,6e-06,0.0062412,ɒ ð ə ɹ ɪ ŋ
+other,othered,V;PST,0.0,0.0062412,ɒ ð ə d
+other,othered,V;V.PTCP;PST,0.0,0.0062412,ɒ ð ə d
+go,goes,V;PRS;3;SG,0.002935,0.0069213999999999,ɡ ə ʊ z
+go,going,V;V.PTCP;PRS,0.012701,0.0069213999999999,ɡ ə ʊ ɪ ŋ
+go,went,V;PST,0.004575,0.0069213999999999,w ɛ n t
+go,gone,V;V.PTCP;PST,0.00176,0.0069213999999999,ɡ ə ʊ n
+use,uses,V;PRS;3;SG,0.002611,0.011678,j uː z ɪ z
+use,using,V;V.PTCP;PRS,0.011018,0.011678,j uː z ɪ ŋ
+use,used,V;PST,0.011839,0.011678,j uː z d
+use,used,V;V.PTCP;PST,0.011839,0.011678,j uː z d
+work,works,V;PRS;3;SG,0.004263,0.0070529999999999,w ɜː k s
+work,working,V;V.PTCP;PRS,0.006754,0.0070529999999999,w ɜː k ɪ ŋ
+work,worked,V;PST,0.003027,0.0070529999999999,w ɜː k t
+work,worked,V;V.PTCP;PST,0.003027,0.0070529999999999,w ɜː k t
+come,comes,V;PRS;3;SG,0.005736,0.0063208,k ʌ m z
+come,coming,V;V.PTCP;PRS,0.003695,0.0063208,k ʌ m ɪ ŋ
+come,came,V;PST,0.004729,0.0063208,k e ɪ m
+come,come,V;V.PTCP;PST,0.008722,0.0063208,k ʌ m
+put,puts,V;PRS;3;SG,0.000747,0.0045343999999999,p ʌ t s
+put,putting,V;V.PTCP;PRS,0.001408,0.0045343999999999,p ʌ t ɪ ŋ
+put,put,V;PST,0.006839,0.0045343999999999,p ʌ t
+put,put,V;V.PTCP;PST,0.006839,0.0045343999999999,p ʌ t
+one,ones,V;PRS;3;SG,0.002757,0.0092528,ə ʊ n z
+one,oning,V;V.PTCP;PRS,0.0,0.0092528,ə ʊ n ɪ ŋ
+one,oned,V;PST,0.0,0.0092528,ə ʊ n d
+one,oned,V;V.PTCP;PST,0.0,0.0092528,ə ʊ n d
+start,starts,V;PRS;3;SG,0.001366,0.004038,s t ɑː t s
+start,starting,V;V.PTCP;PRS,0.002145,0.004038,s t ɑː t ɪ ŋ
+start,started,V;PST,0.004981,0.004038,s t ɑː t ɪ d
+start,started,V;V.PTCP;PST,0.004981,0.004038,s t ɑː t ɪ d
+read,reads,V;PRS;3;SG,0.000595,0.0072712,ɹ ɛ d z
+read,reading,V;V.PTCP;PRS,0.005383,0.0072712,ɹ iː d ɪ ŋ
+read,read,V;PST,0.010126,0.0072712,ɹ ɛ d
+read,read,V;V.PTCP;PST,0.010126,0.0072712,ɹ ɛ d
+haue,has,V;PRS;3;SG,0.050155,0.0213158,h e ɪ z
+haue,hauing,V;V.PTCP;PRS,0.0,0.0213158,h a ʊ ɪ ŋ
+haue,had,V;PST,0.028212,0.0213158,h æ d
+haue,had,V;V.PTCP;PST,0.028212,0.0213158,h æ d
+see,sees,V;PRS;3;SG,0.000743,0.0054433999999999,s iː z
+see,seeing,V;V.PTCP;PRS,0.001941,0.0054433999999999,s iː ɪ ŋ
+see,saw,V;PST,0.002835,0.0054433999999999,s ɔː
+see,seen,V;V.PTCP;PST,0.004332,0.0054433999999999,s iː n
+but,buts,V;PRS;3;SG,3e-06,0.0115141999999999,b ʌ t s
+but,butting,V;V.PTCP;PRS,7e-06,0.0115141999999999,b ʌ t ɪ ŋ
+but,butted,V;PST,1e-06,0.0115141999999999,b ʌ t ɪ d
+but,butted,V;V.PTCP;PST,1e-06,0.0115141999999999,b ʌ t ɪ d
+doe,does,V;PRS;3;SG,0.009581,0.0062058,d ə ʊ z
+doe,doing,V;V.PTCP;PRS,0.006045,0.0062058,d ə ʊ ɪ ŋ
+doe,did,V;PST,0.010199,0.0062058,d ɪ d
+doe,done,V;V.PTCP;PST,0.005191,0.0062058,d ə ʊ n
+even,evens,V;PRS;3;SG,9e-06,0.0037907999999999,ɛ v ə n z
+even,evening,V;V.PTCP;PRS,0.000964,0.0037907999999999,ɛ v ə n ɪ ŋ
+even,evened,V;PST,6e-06,0.0037907999999999,ɛ v ə n d
+even,evened,V;V.PTCP;PST,6e-06,0.0037907999999999,ɛ v ə n d
+do,does,V;PRS;3;SG,0.009581,0.0125076,d ə ʊ z
+do,doing,V;V.PTCP;PRS,0.006045,0.0125076,d ə ʊ ɪ ŋ
+do,did,V;PST,0.010199,0.0125076,d ɪ d
+do,done,V;V.PTCP;PST,0.005191,0.0125076,d ə ʊ n
+make,makes,V;PRS;3;SG,0.0071,0.0125192,m e ɪ k s
+make,making,V;V.PTCP;PRS,0.007045,0.0125192,m e ɪ k ɪ ŋ
+make,made,V;PST,0.012729,0.0125192,m e ɪ d
+make,made,V;V.PTCP;PST,0.012729,0.0125192,m e ɪ d
+ave,as,V;PRS;3;SG,0.097682,0.020179,æ s
+ave,avin',V;V.PTCP;PRS,0.0,0.020179,e ɪ v ɪ n
+ave,ad,V;PST,0.001601,0.020179,æ d
+ave,ad,V;V.PTCP;PST,0.001601,0.020179,æ d
+over,overs,V;PRS;3;SG,2e-05,0.0039564,ə ʊ v ə z
+over,overing,V;V.PTCP;PRS,0.0,0.0039564,ə ʊ v ə ɹ ɪ ŋ
+over,overed,V;PST,0.0,0.0039564,ə ʊ v ə d
+over,overed,V;V.PTCP;PST,0.0,0.0039564,ə ʊ v ə d
+get,gets,V;PRS;3;SG,0.002934,0.0102513999999999,d͡ʒ ɛ t s
+get,getting,V;V.PTCP;PRS,0.005676,0.0102513999999999,ɡ ɛ t ɪ ŋ
+get,got,V;PST,0.008072,0.0102513999999999,ɡ ɒ t
+get,got,V;V.PTCP;PST,0.008072,0.0102513999999999,ɡ ɒ t
+include,includes,V;PRS;3;SG,0.002903,0.0038112,ɪ n k l uː d z
+include,including,V;V.PTCP;PRS,0.007372,0.0038112,ɪ n k l uː d ɪ ŋ
+include,included,V;PST,0.002224,0.0038112,ɪ n k l uː d ɪ d
+include,included,V;V.PTCP;PST,0.002224,0.0038112,ɪ n k l uː d ɪ d
+out,outs,V;PRS;3;SG,8.3e-05,0.0076308,a ʊ t s
+out,outing,V;V.PTCP;PRS,7.7e-05,0.0076308,a ʊ t ɪ ŋ
+out,outed,V;PST,1.8e-05,0.0076308,a ʊ t ɪ d
+out,outed,V;V.PTCP;PST,1.8e-05,0.0076308,a ʊ t ɪ d
+up,ups,V;PRS;3;SG,0.000168,0.0076992,ʌ p s
+up,upping,V;V.PTCP;PRS,2.5e-05,0.0076992,ʌ p ɪ ŋ
+up,upped,V;PST,4.3e-05,0.0076992,ʌ p t
+up,upped,V;V.PTCP;PST,4.3e-05,0.0076992,ʌ p t
+it,its,V;PRS;3;SG,0.024569,0.0787197999999999,ɪ t s
+it,ittin',V;V.PTCP;PRS,0.0,0.0787197999999999,ɪ t ɪ n
+it,it,V;PST,0.12301,0.0787197999999999,ɪ t
+it,it,V;V.PTCP;PST,0.12301,0.0787197999999999,ɪ t
+myek,myeks,V;PRS;3;SG,0.0,0.0050916,m a ɪ ɛ k s
+myek,myekin,V;V.PTCP;PRS,0.0,0.0050916,m a ɪ k ɪ n
+myek,made,V;PST,0.012729,0.0050916,m e ɪ d
+myek,made,V;V.PTCP;PST,0.012729,0.0050916,m e ɪ d
+people,peoples,V;PRS;3;SG,0.0001,0.0049226,p iː p ə l z
+people,peopling,V;V.PTCP;PRS,0.0,0.0049226,p iː p l ɪ ŋ
+people,peopled,V;PST,9e-06,0.0049226,p iː p ə l d
+people,peopled,V;V.PTCP;PST,9e-06,0.0049226,p iː p ə l d
+at,ats,V;PRS;3;SG,0.0,0.0147518,æ t s
+at,atting,V;V.PTCP;PRS,0.0,0.0147518,æ t ɪ ŋ
+at,atted,V;PST,0.0,0.0147518,æ t ɪ d
+at,atted,V;V.PTCP;PST,0.0,0.0147518,æ t ɪ d
+more,mores,V;PRS;3;SG,1.7e-05,0.0097204,m ɔː z
+more,moring,V;V.PTCP;PRS,0.0,0.0097204,m ɔː ɹ ɪ ŋ
+more,mored,V;PST,0.0,0.0097204,m ɔː d
+more,mored,V;V.PTCP;PST,0.0,0.0097204,m ɔː d
+time,times,V;PRS;3;SG,0.005453,0.0077719999999999,t a ɪ m z
+time,timing,V;V.PTCP;PRS,0.000337,0.0077719999999999,t a ɪ m ɪ ŋ
+time,timed,V;PST,6.4e-05,0.0077719999999999,t a ɪ m d
+time,timed,V;V.PTCP;PST,6.4e-05,0.0077719999999999,t a ɪ m d
+day,days,V;PRS;3;SG,0.006619,0.0037988,d e ɪ z
+day,daying,V;V.PTCP;PRS,0.0,0.0037988,d e ɪ ɪ ŋ
+day,dayed,V;PST,0.0,0.0037988,d e ɪ d
+day,dayed,V;V.PTCP;PST,0.0,0.0037988,d e ɪ d
+look,looks,V;PRS;3;SG,0.003501,0.004877,l ʊ k s
+look,looking,V;V.PTCP;PRS,0.006376,0.004877,l ʊ k ɪ ŋ
+look,looked,V;PST,0.002004,0.004877,l ʊ k t
+look,looked,V;V.PTCP;PST,0.002004,0.004877,l ʊ k t
+in,ins,V;PRS;3;SG,5.7e-05,0.0541222,ɪ n z
+in,inning,V;V.PTCP;PRS,7.9e-05,0.0541222,ɪ n ɪ ŋ
+in,inned,V;PST,0.0,0.0541222,ɪ n d
+in,inned,V;V.PTCP;PST,0.0,0.0541222,ɪ n d
+like,likes,V;PRS;3;SG,0.000811,0.0083498,l a ɪ k s
+like,liking,V;V.PTCP;PRS,0.000152,0.0083498,l a ɪ k ɪ ŋ
+like,liked,V;PST,0.00117,0.0083498,l a ɪ k t
+like,liked,V;V.PTCP;PST,0.00117,0.0083498,l a ɪ k t
+way,ways,V;PRS;3;SG,0.004113,0.0048012,w e ɪ z
+way,waying,V;V.PTCP;PRS,0.0,0.0048012,w e ɪ ɪ ŋ
+way,wayed,V;PST,0.0,0.0048012,w e ɪ d
+way,wayed,V;V.PTCP;PST,0.0,0.0048012,w e ɪ d
+thing,things,V;PRS;3;SG,0.011483,0.0039071999999999,ð ɪ ŋ z
+thing,thinging,V;V.PTCP;PRS,0.0,0.0039071999999999,θ ɪ ŋ ɪ ŋ
+thing,thinged,V;PST,0.0,0.0039071999999999,θ ɪ ŋ d
+thing,thinged,V;V.PTCP;PST,0.0,0.0039071999999999,θ ɪ ŋ d
+have,has,V;PRS;3;SG,0.050155,0.038934,h e ɪ z
+have,having,V;V.PTCP;PRS,0.005726,0.038934,h e ɪ v ɪ ŋ
+have,had,V;PST,0.028212,0.038934,h æ d
+have,had,V;V.PTCP;PST,0.028212,0.038934,h æ d
+set,sets,V;PRS;3;SG,0.001137,0.0058556,s ɛ t s
+set,setting,V;V.PTCP;PRS,0.001945,0.0058556,s ɛ t ɪ ŋ
+set,set,V;PST,0.008732,0.0058556,s ɛ t
+set,set,V;V.PTCP;PST,0.008732,0.0058556,s ɛ t
+and,ands,V;PRS;3;SG,3e-06,0.0958974,æ n d z
+and,anding,V;V.PTCP;PRS,0.0,0.0958974,æ n d ɪ ŋ
+and,anded,V;PST,0.0,0.0958974,æ n d ɪ d
+and,anded,V;V.PTCP;PST,0.0,0.0958974,æ n d ɪ d
+know,knows,V;PRS;3;SG,0.0019,0.0055688,n ə ʊ z
+know,knowing,V;V.PTCP;PRS,0.000967,0.0055688,n ə ʊ ɪ ŋ
+know,knew,V;PST,0.00254,0.0055688,n j uː
+know,known,V;V.PTCP;PST,0.003656,0.0055688,n ə ʊ n
+book,books,V;PRS;3;SG,0.00855,0.0051678,b ʊ k s
+book,booking,V;V.PTCP;PRS,0.00022,0.0051678,b ʊ k ɪ ŋ
+book,booked,V;PST,0.000149,0.0051678,b ʊ k t
+book,booked,V;V.PTCP;PST,0.000149,0.0051678,b ʊ k t
+think,thinks,V;PRS;3;SG,0.000805,0.0061636,θ ɪ ŋ k s
+think,thinking,V;V.PTCP;PRS,0.002705,0.0061636,θ ɪ ŋ k ɪ ŋ
+think,thought,V;PST,0.005277,0.0061636,θ ɔː t
+think,thought,V;V.PTCP;PST,0.005277,0.0061636,θ ɔː t
+help,helps,V;PRS;3;SG,0.00243,0.0042038,h ɛ l p s
+help,helping,V;V.PTCP;PRS,0.001583,0.0042038,h ɛ l p ɪ ŋ
+help,helped,V;PST,0.001834,0.0042038,h ɛ l p t
+help,helped,V;V.PTCP;PST,0.001834,0.0042038,h ɛ l p t
+say,says,V;PRS;3;SG,0.008674,0.0127754,s e ɪ z
+say,saying,V;V.PTCP;PRS,0.002543,0.0127754,s e ɪ ɪ ŋ
+say,said,V;PST,0.021481,0.0127754,s e ɪ d
+say,said,V;V.PTCP;PST,0.021481,0.0127754,s e ɪ d
+just,just,V;NFIN;IMP+SBJV,0.032473,0.0064948,d͡ʒ ʌ s t
+hav,hav,V;NFIN;IMP+SBJV,2e-06,0.0224614,h æ v
+take,take,V;NFIN;IMP+SBJV,0.013334,0.0056571999999999,t e ɪ k
+other,other,V;NFIN;IMP+SBJV,0.026568,0.0062412,ɒ ð ə
+go,go,V;NFIN;IMP+SBJV,0.012636,0.0069213999999999,ɡ ə ʊ
+use,use,V;NFIN;IMP+SBJV,0.021083,0.011678,j uː z
+work,work,V;NFIN;IMP+SBJV,0.018194,0.0070529999999999,w ɜː k
+come,come,V;NFIN;IMP+SBJV,0.008722,0.0063208,k ʌ m
+put,put,V;NFIN;IMP+SBJV,0.006839,0.0045343999999999,p ʌ t
+one,one,V;NFIN;IMP+SBJV,0.043507,0.0092528,ə ʊ n
+start,start,V;NFIN;IMP+SBJV,0.006717,0.004038,s t ɑː t
+read,read,V;NFIN;IMP+SBJV,0.010126,0.0072712,ɹ ɛ d
+haue,haue,V;NFIN;IMP+SBJV,0.0,0.0213158,h a ʊ
+see,see,V;NFIN;IMP+SBJV,0.017366,0.0054433999999999,s iː
+but,but,V;NFIN;IMP+SBJV,0.057559,0.0115141999999999,b ʌ t
+doe,doe,V;NFIN;IMP+SBJV,1.3e-05,0.0062058,d ə ʊ
+even,even,V;NFIN;IMP+SBJV,0.017969,0.0037907999999999,ɛ v ə n
+do,do,V;NFIN;IMP+SBJV,0.031522,0.0125076,d ə ʊ
+make,make,V;NFIN;IMP+SBJV,0.022993,0.0125192,m e ɪ k
+ave,ave,V;NFIN;IMP+SBJV,1.1e-05,0.020179,e ɪ v
+over,over,V;NFIN;IMP+SBJV,0.019762,0.0039564,ə ʊ v ə
+get,get,V;NFIN;IMP+SBJV,0.026503,0.0102513999999999,d͡ʒ ɛ t
+include,include,V;NFIN;IMP+SBJV,0.004333,0.0038112,ɪ n k l uː d
+out,out,V;NFIN;IMP+SBJV,0.037958,0.0076308,a ʊ t
+up,up,V;NFIN;IMP+SBJV,0.038217,0.0076992,ʌ p
+it,it,V;NFIN;IMP+SBJV,0.12301,0.0787197999999999,ɪ t
+myek,myek,V;NFIN;IMP+SBJV,0.0,0.0050916,m a ɪ ɛ k
+people,people,V;NFIN;IMP+SBJV,0.024495,0.0049226,p iː p ə l
+at,at,V;NFIN;IMP+SBJV,0.073759,0.0147518,æ t
+more,more,V;NFIN;IMP+SBJV,0.048585,0.0097204,m ɔː
+time,time,V;NFIN;IMP+SBJV,0.032942,0.0077719999999999,t a ɪ m
+day,day,V;NFIN;IMP+SBJV,0.012375,0.0037988,d e ɪ
+look,look,V;NFIN;IMP+SBJV,0.0105,0.004877,l ʊ k
+in,in,V;NFIN;IMP+SBJV,0.270475,0.0541222,ɪ n
+like,like,V;NFIN;IMP+SBJV,0.038446,0.0083498,l a ɪ k
+way,way,V;NFIN;IMP+SBJV,0.019893,0.0048012,w e ɪ
+thing,thing,V;NFIN;IMP+SBJV,0.008053,0.0039071999999999,ð ɪ ŋ
+have,have,V;NFIN;IMP+SBJV,0.082365,0.038934,h e ɪ v
+set,set,V;NFIN;IMP+SBJV,0.008732,0.0058556,s ɛ t
+and,and,V;NFIN;IMP+SBJV,0.479484,0.0958974,æ n d
+know,know,V;NFIN;IMP+SBJV,0.018781,0.0055688,n ə ʊ
+book,book,V;NFIN;IMP+SBJV,0.016771,0.0051678,b ʊ k
+think,think,V;NFIN;IMP+SBJV,0.016754,0.0061636,θ ɪ ŋ k
+help,help,V;NFIN;IMP+SBJV,0.013338,0.0042038,h ɛ l p
+say,say,V;NFIN;IMP+SBJV,0.009698,0.0127754,s e ɪ
+free,free,V;NFIN;IMP+SBJV,0.005647,0.005647,f ɹ iː
+may,may,V;NFIN;IMP+SBJV,0.016861,0.016861,m e ɪ
+product,product,V;NFIN;IMP+SBJV,0.005321,0.005321,p ɹ ə d ʌ k t
+on,on,V;NFIN;IMP+SBJV,0.130406,0.130406,ɒ n
+can,can,V;NFIN;IMP+SBJV,0.063173,0.063173,k æ n
+world,world,V;NFIN;IMP+SBJV,0.011098,0.011098,w ɜː l d
+new,new,V;NFIN;IMP+SBJV,0.02883,0.02883,n j uː
+night,night,V;NFIN;IMP+SBJV,0.004072,0.004072,n a ɪ t
+young,young,V;NFIN;IMP+SBJV,0.004046,0.004046,j ʌ ŋ
+you,you,V;NFIN;IMP+SBJV,0.13482,0.13482,j uː
+person,person,V;NFIN;IMP+SBJV,0.004742,0.004742,p ɜː s ə n
+design,design,V;NFIN;IMP+SBJV,0.004479,0.004479,d ɪ z a ɪ n
+good,good,V;NFIN;IMP+SBJV,0.01656,0.01656,ɡ ʊ d
+room,room,V;NFIN;IMP+SBJV,0.004043,0.004043,ɹ uː m
+find,find,V;NFIN;IMP+SBJV,0.012243,0.012243,f a ɪ n d
+found,found,V;NFIN;IMP+SBJV,0.007704,0.007704,f a ʊ n d
+run,run,V;NFIN;IMP+SBJV,0.00505,0.00505,ɹ ʌ n
+power,power,V;NFIN;IMP+SBJV,0.004718,0.004718,p a ʊ ɚ
+play,play,V;NFIN;IMP+SBJV,0.004254,0.004254,p l e ɪ
+content,content,V;NFIN;IMP+SBJV,0.006416,0.006416,k ɒ n t ɛ n t
+want,want,V;NFIN;IMP+SBJV,0.016732,0.016732,w ɒ n t
+order,order,V;NFIN;IMP+SBJV,0.005199,0.005199,ɔː d ə
+own,own,V;NFIN;IMP+SBJV,0.012195,0.012195,a ʊ n
+will,will,V;NFIN;IMP+SBJV,0.055624,0.055624,w ɪ l
+should,should,V;NFIN;IMP+SBJV,0.014751,0.014751,ʃ ʊ l d
+might,might,V;NFIN;IMP+SBJV,0.009733,0.009733,m a ɪ t
+must,must,V;NFIN;IMP+SBJV,0.006456,0.006456,m ʌ s t
+away,away,V;NFIN;IMP+SBJV,0.006395,0.006395,ə w e ɪ
+best,best,V;NFIN;IMP+SBJV,0.012514,0.012514,b ɛ s t
+off,off,V;NFIN;IMP+SBJV,0.011093,0.011093,ɒ f
+support,support,V;NFIN;IMP+SBJV,0.007091,0.007091,s ə p ɔː t
+need,need,V;NFIN;IMP+SBJV,0.016832,0.016832,n iː d
+times,times,V;NFIN;IMP+SBJV,0.005453,0.005453,t a ɪ m z
+version,version,V;NFIN;IMP+SBJV,0.004055,0.004055,v ɜː ʒ ə n
+water,water,V;NFIN;IMP+SBJV,0.004877,0.004877,w ɔː t ə

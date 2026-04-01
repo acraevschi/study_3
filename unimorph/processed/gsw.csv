@@ -1,0 +1,2248 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+fange,fange,"V;IND;SG;1;PRS
+",0.00023,9.333333333333334e-05,f ɑ ŋ ə
+fange,fangsch,"V;IND;SG;2;PRS
+",3e-05,9.333333333333334e-05,f ɑ ŋ ʃ
+fange,fangt,"V;IND;SG;3;PRS
+",0.00053,9.333333333333334e-05,f ɑ ŋ t
+fange,fanged,"V;IND;PL;1;PRS
+",0.0001,9.333333333333334e-05,f ɑ ŋ ə d
+fange,fanged,"V;IND;PL;2;PRS
+",0.0001,9.333333333333334e-05,f ɑ ŋ ə d
+fange,fanged,"V;IND;PL;3;PRS
+",0.0001,9.333333333333334e-05,f ɑ ŋ ə d
+fange,fangi,"V;SBJV;SG;1;PRS
+",0.0,9.333333333333334e-05,f ɑ ŋ ɡ̊ i
+fange,fangisch,"V;SBJV;SG;2;PRS
+",0.0,9.333333333333334e-05,f ɑ ŋ ɪ ʃ
+fange,fangi,"V;SBJV;SG;3;PRS
+",0.0,9.333333333333334e-05,f ɑ ŋ ɡ̊ i
+fange,fangid,"V;SBJV;PL;1;PRS
+",1e-05,9.333333333333334e-05,f ɑ ŋ i d̥
+fange,fangid,"V;SBJV;PL;2;PRS
+",1e-05,9.333333333333334e-05,f ɑ ŋ i d̥
+fange,fangid,"V;SBJV;PL;3;PRS
+",1e-05,9.333333333333334e-05,f ɑ ŋ i d̥
+binde,binde,"V;IND;SG;1;PRS
+",0.00011,1.1666666666666668e-05,b i n d ə
+binde,bindsch,"V;IND;SG;2;PRS
+",0.0,1.1666666666666668e-05,b i n d ʃ
+binde,bindt,"V;IND;SG;3;PRS
+",0.0,1.1666666666666668e-05,b i n t
+binde,binded,"V;IND;PL;1;PRS
+",1e-05,1.1666666666666668e-05,b i n d ə d
+binde,binded,"V;IND;PL;2;PRS
+",1e-05,1.1666666666666668e-05,b i n d ə d
+binde,binded,"V;IND;PL;3;PRS
+",1e-05,1.1666666666666668e-05,b i n d ə d
+binde,bindi,"V;SBJV;SG;1;PRS
+",0.0,1.1666666666666668e-05,b̥ i n d i
+binde,bindisch,"V;SBJV;SG;2;PRS
+",0.0,1.1666666666666668e-05,b i n d i ʃ
+binde,bindi,"V;SBJV;SG;3;PRS
+",0.0,1.1666666666666668e-05,b̥ i n d i
+binde,bindid,"V;SBJV;PL;1;PRS
+",0.0,1.1666666666666668e-05,b̥ i n d i d
+binde,bindid,"V;SBJV;PL;2;PRS
+",0.0,1.1666666666666668e-05,b̥ i n d i d
+binde,bindid,"V;SBJV;PL;3;PRS
+",0.0,1.1666666666666668e-05,b̥ i n d i d
+bliibe,bliibe,"V;IND;SG;1;PRS
+",0.00094,0.0001725,b̥ l iː b ə
+bliibe,bliibsch,"V;IND;SG;2;PRS
+",4e-05,0.0001725,b l iː p ʃ
+bliibe,bliibt,"V;IND;SG;3;PRS
+",0.00059,0.0001725,b̥ l iː p t
+bliibe,bliibed,"V;IND;PL;1;PRS
+",0.00013,0.0001725,b̥ l iː b ə d̥
+bliibe,bliibed,"V;IND;PL;2;PRS
+",0.00013,0.0001725,b̥ l iː b ə d̥
+bliibe,bliibed,"V;IND;PL;3;PRS
+",0.00013,0.0001725,b̥ l iː b ə d̥
+bliibe,bliibi,"V;SBJV;SG;1;PRS
+",4e-05,0.0001725,b l iː b i
+bliibe,bliibisch,"V;SBJV;SG;2;PRS
+",0.0,0.0001725,b l iː b i ʃ
+bliibe,bliibi,"V;SBJV;SG;3;PRS
+",4e-05,0.0001725,b l iː b i
+bliibe,bliibid,"V;SBJV;PL;1;PRS
+",1e-05,0.0001725,b l iː b i d
+bliibe,bliibid,"V;SBJV;PL;2;PRS
+",1e-05,0.0001725,b l iː b i d
+bliibe,bliibid,"V;SBJV;PL;3;PRS
+",1e-05,0.0001725,b l iː b i d
+boue,boue,"V;IND;SG;1;PRS
+",0.00044,5.666666666666669e-05,b̥ ɔ ʊ̯ ə
+boue,bousch,"V;IND;SG;2;PRS
+",1e-05,5.666666666666669e-05,b ə ʊ̯ ʃ
+boue,bout,"V;IND;SG;3;PRS
+",0.00015,5.666666666666669e-05,b̥ ə ʊ̯ t
+boue,boued,"V;IND;PL;1;PRS
+",2e-05,5.666666666666669e-05,b̥ ə ʊ̯ ə d̥
+boue,boued,"V;IND;PL;2;PRS
+",2e-05,5.666666666666669e-05,b̥ ə ʊ̯ ə d̥
+boue,boued,"V;IND;PL;3;PRS
+",2e-05,5.666666666666669e-05,b̥ ə ʊ̯ ə d̥
+boue,boui,"V;SBJV;SG;1;PRS
+",1e-05,5.666666666666669e-05,b̥ o ʊ̯ i
+boue,bouisch,"V;SBJV;SG;2;PRS
+",0.0,5.666666666666669e-05,b o ʊ̯ ɪ ʃ
+boue,boui,"V;SBJV;SG;3;PRS
+",1e-05,5.666666666666669e-05,b̥ o ʊ̯ i
+boue,bouid,"V;SBJV;PL;1;PRS
+",0.0,5.666666666666669e-05,b̥ o ʊ̯ i d̥
+boue,bouid,"V;SBJV;PL;2;PRS
+",0.0,5.666666666666669e-05,b̥ o ʊ̯ i d̥
+boue,bouid,"V;SBJV;PL;3;PRS
+",0.0,5.666666666666669e-05,b̥ o ʊ̯ i d̥
+bruuche,bruuche,"V;IND;SG;1;PRS
+",0.00097,0.0002775,b r uː x ə
+bruuche,bruuchsch,"V;IND;SG;2;PRS
+",0.00021,0.0002775,b r uː x ʃ
+bruuche,bruucht,"V;IND;SG;3;PRS
+",0.00145,0.0002775,b r uː x t
+bruuche,bruuched,"V;IND;PL;1;PRS
+",0.00017,0.0002775,b r uː x ə d̥
+bruuche,bruuched,"V;IND;PL;2;PRS
+",0.00017,0.0002775,b r uː x ə d̥
+bruuche,bruuched,"V;IND;PL;3;PRS
+",0.00017,0.0002775,b r uː x ə d̥
+bruuche,bruuchi,"V;SBJV;SG;1;PRS
+",8e-05,0.0002775,b r uː x i
+bruuche,bruuchisch,"V;SBJV;SG;2;PRS
+",0.0,0.0002775,b r uː x i ʃ
+bruuche,bruuchi,"V;SBJV;SG;3;PRS
+",8e-05,0.0002775,b r uː x i
+bruuche,bruuchid,"V;SBJV;PL;1;PRS
+",1e-05,0.0002775,b r uː x i d̥
+bruuche,bruuchid,"V;SBJV;PL;2;PRS
+",1e-05,0.0002775,b r uː x i d̥
+bruuche,bruuchid,"V;SBJV;PL;3;PRS
+",1e-05,0.0002775,b r uː x i d̥
+faare,faare,"V;IND;SG;1;PRS
+",0.00071,8.833333333333334e-05,f ɑː r ə
+faare,faarsch,"V;IND;SG;2;PRS
+",3e-05,8.833333333333334e-05,f ɑː r ʃ
+faare,faart,"V;IND;SG;3;PRS
+",0.0002,8.833333333333334e-05,f ɑː r t
+faare,faared,"V;IND;PL;1;PRS
+",2e-05,8.833333333333334e-05,f ɑː r ə d̥
+faare,faared,"V;IND;PL;2;PRS
+",2e-05,8.833333333333334e-05,f ɑː r ə d̥
+faare,faared,"V;IND;PL;3;PRS
+",2e-05,8.833333333333334e-05,f ɑː r ə d̥
+faare,faari,"V;SBJV;SG;1;PRS
+",0.0,8.833333333333334e-05,f ɑː r i
+faare,faarisch,"V;SBJV;SG;2;PRS
+",0.0,8.833333333333334e-05,f ɑː r i ʃ
+faare,faari,"V;SBJV;SG;3;PRS
+",0.0,8.833333333333334e-05,f ɑː r i
+faare,faarid,"V;SBJV;PL;1;PRS
+",2e-05,8.833333333333334e-05,f ɑː r i d̥
+faare,faarid,"V;SBJV;PL;2;PRS
+",2e-05,8.833333333333334e-05,f ɑː r i d̥
+faare,faarid,"V;SBJV;PL;3;PRS
+",2e-05,8.833333333333334e-05,f ɑː r i d̥
+fale,fale,"V;IND;SG;1;PRS
+",0.0,8.333333333333333e-05,f ɑ l ə
+fale,falsch,"V;IND;SG;2;PRS
+",0.00099,8.333333333333333e-05,f ɑ l ʃ
+fale,falt,"V;IND;SG;3;PRS
+",1e-05,8.333333333333333e-05,f ɑ l t
+fale,faled,"V;IND;PL;1;PRS
+",0.0,8.333333333333333e-05,f ɑ l ə d
+fale,faled,"V;IND;PL;2;PRS
+",0.0,8.333333333333333e-05,f ɑ l ə d
+fale,faled,"V;IND;PL;3;PRS
+",0.0,8.333333333333333e-05,f ɑ l ə d
+fale,fali,"V;SBJV;SG;1;PRS
+",0.0,8.333333333333333e-05,f ɑ l i
+fale,falisch,"V;SBJV;SG;2;PRS
+",0.0,8.333333333333333e-05,f ɑ l i ʃ
+fale,fali,"V;SBJV;SG;3;PRS
+",0.0,8.333333333333333e-05,f ɑ l i
+fale,falid,"V;SBJV;PL;1;PRS
+",0.0,8.333333333333333e-05,f ɑ l i d
+fale,falid,"V;SBJV;PL;2;PRS
+",0.0,8.333333333333333e-05,f ɑ l i d
+fale,falid,"V;SBJV;PL;3;PRS
+",0.0,8.333333333333333e-05,f ɑ l i d
+finde,finde,"V;IND;SG;1;PRS
+",0.00294,0.000615,f i n d ə
+finde,findsch,"V;IND;SG;2;PRS
+",0.00085,0.000615,f i n d ʃ
+finde,findt,"V;IND;SG;3;PRS
+",0.00021,0.000615,f i n t
+finde,finded,"V;IND;PL;1;PRS
+",0.00031,0.000615,f i n d ə d
+finde,finded,"V;IND;PL;2;PRS
+",0.00031,0.000615,f i n d ə d
+finde,finded,"V;IND;PL;3;PRS
+",0.00031,0.000615,f i n d ə d
+finde,findi,"V;SBJV;SG;1;PRS
+",0.00117,0.000615,f i n d i
+finde,findisch,"V;SBJV;SG;2;PRS
+",8e-05,0.000615,f i n d i ʃ
+finde,findi,"V;SBJV;SG;3;PRS
+",0.00117,0.000615,f i n d i
+finde,findid,"V;SBJV;PL;1;PRS
+",1e-05,0.000615,f i n d i d
+finde,findid,"V;SBJV;PL;2;PRS
+",1e-05,0.000615,f i n d i d
+finde,findid,"V;SBJV;PL;3;PRS
+",1e-05,0.000615,f i n d i d
+ghööre,ghööre,"V;IND;SG;1;PRS
+",6e-05,3.166666666666667e-05,k h øː r ə
+ghööre,ghöörsch,"V;IND;SG;2;PRS
+",0.0,3.166666666666667e-05,k h øː r ʃ
+ghööre,ghöört,"V;IND;SG;3;PRS
+",0.00023,3.166666666666667e-05,k h øː r t
+ghööre,ghööred,"V;IND;PL;1;PRS
+",3e-05,3.166666666666667e-05,k h øː r ə d
+ghööre,ghööred,"V;IND;PL;2;PRS
+",3e-05,3.166666666666667e-05,k h øː r ə d
+ghööre,ghööred,"V;IND;PL;3;PRS
+",3e-05,3.166666666666667e-05,k h øː r ə d
+ghööre,ghööri,"V;SBJV;SG;1;PRS
+",0.0,3.166666666666667e-05,k h øː r i
+ghööre,ghöörisch,"V;SBJV;SG;2;PRS
+",0.0,3.166666666666667e-05,ɡ̊ h øː r i ʃ
+ghööre,ghööri,"V;SBJV;SG;3;PRS
+",0.0,3.166666666666667e-05,k h øː r i
+ghööre,ghöörid,"V;SBJV;PL;1;PRS
+",0.0,3.166666666666667e-05,k h øː r i d
+ghööre,ghöörid,"V;SBJV;PL;2;PRS
+",0.0,3.166666666666667e-05,k h øː r i d
+ghööre,ghöörid,"V;SBJV;PL;3;PRS
+",0.0,3.166666666666667e-05,k h øː r i d
+hole,hole,"V;IND;SG;1;PRS
+",0.00139,0.0001716666666666,h o l ə
+hole,holsch,"V;IND;SG;2;PRS
+",6e-05,0.0001716666666666,h o l ʃ
+hole,holt,"V;IND;SG;3;PRS
+",0.00027,0.0001716666666666,h o l t
+hole,holed,"V;IND;PL;1;PRS
+",7e-05,0.0001716666666666,h o l ə d
+hole,holed,"V;IND;PL;2;PRS
+",7e-05,0.0001716666666666,h o l ə d
+hole,holed,"V;IND;PL;3;PRS
+",7e-05,0.0001716666666666,h o l ə d
+hole,holi,"V;SBJV;SG;1;PRS
+",2e-05,0.0001716666666666,h o l i
+hole,holisch,"V;SBJV;SG;2;PRS
+",0.0,0.0001716666666666,h o l i ʃ
+hole,holi,"V;SBJV;SG;3;PRS
+",2e-05,0.0001716666666666,h o l i
+hole,holid,"V;SBJV;PL;1;PRS
+",3e-05,0.0001716666666666,h o l i d
+hole,holid,"V;SBJV;PL;2;PRS
+",3e-05,0.0001716666666666,h o l i d
+hole,holid,"V;SBJV;PL;3;PRS
+",3e-05,0.0001716666666666,h o l i d
+käne,käne,"V;IND;SG;1;PRS
+",3e-05,1.7500000000000002e-05,k æ n ə
+käne,känsch,"V;IND;SG;2;PRS
+",0.0,1.7500000000000002e-05,k æ n ʃ
+käne,känt,"V;IND;SG;3;PRS
+",3e-05,1.7500000000000002e-05,k æ n t
+käne,käned,"V;IND;PL;1;PRS
+",3e-05,1.7500000000000002e-05,k æ n ə d
+käne,käned,"V;IND;PL;2;PRS
+",3e-05,1.7500000000000002e-05,k æ n ə d
+käne,käned,"V;IND;PL;3;PRS
+",3e-05,1.7500000000000002e-05,k æ n ə d
+käne,käni,"V;SBJV;SG;1;PRS
+",3e-05,1.7500000000000002e-05,k æ n i
+käne,känisch,"V;SBJV;SG;2;PRS
+",0.0,1.7500000000000002e-05,k æ n i ʃ
+käne,käni,"V;SBJV;SG;3;PRS
+",3e-05,1.7500000000000002e-05,k æ n i
+käne,känid,"V;SBJV;PL;1;PRS
+",0.0,1.7500000000000002e-05,k æ n i d
+käne,känid,"V;SBJV;PL;2;PRS
+",0.0,1.7500000000000002e-05,k æ n i d
+käne,känid,"V;SBJV;PL;3;PRS
+",0.0,1.7500000000000002e-05,k æ n i d
+läbe,läbe,"V;IND;SG;1;PRS
+",0.00129,0.0002091666666666,l æ b ə
+läbe,läbsch,"V;IND;SG;2;PRS
+",4e-05,0.0002091666666666,l æ p ʃ
+läbe,läbt,"V;IND;SG;3;PRS
+",0.00053,0.0002091666666666,l æ p t
+läbe,läbed,"V;IND;PL;1;PRS
+",0.00013,0.0002091666666666,l æ b ə d
+läbe,läbed,"V;IND;PL;2;PRS
+",0.00013,0.0002091666666666,l æ b ə d
+läbe,läbed,"V;IND;PL;3;PRS
+",0.00013,0.0002091666666666,l æ b ə d
+läbe,läbi,"V;SBJV;SG;1;PRS
+",4e-05,0.0002091666666666,l æ b i
+läbe,läbisch,"V;SBJV;SG;2;PRS
+",0.0,0.0002091666666666,l æ b i ʃ
+läbe,läbi,"V;SBJV;SG;3;PRS
+",4e-05,0.0002091666666666,l æ b i
+läbe,läbid,"V;SBJV;PL;1;PRS
+",6e-05,0.0002091666666666,l æ b i d
+läbe,läbid,"V;SBJV;PL;2;PRS
+",6e-05,0.0002091666666666,l æ b i d
+läbe,läbid,"V;SBJV;PL;3;PRS
+",6e-05,0.0002091666666666,l æ b i d
+lauffe,lauffe,"V;IND;SG;1;PRS
+",7e-05,1.4166666666666668e-05,l ɑ ʊ̯ fː ə
+lauffe,lauffsch,"V;IND;SG;2;PRS
+",0.0,1.4166666666666668e-05,l ɑ ʊ̯ f ʃ
+lauffe,laufft,"V;IND;SG;3;PRS
+",8e-05,1.4166666666666668e-05,l ɑ ʊ̯ f t
+lauffe,lauffed,"V;IND;PL;1;PRS
+",0.0,1.4166666666666668e-05,l ɑ ʊ̯ fː ə d̥
+lauffe,lauffed,"V;IND;PL;2;PRS
+",0.0,1.4166666666666668e-05,l ɑ ʊ̯ fː ə d̥
+lauffe,lauffed,"V;IND;PL;3;PRS
+",0.0,1.4166666666666668e-05,l ɑ ʊ̯ fː ə d̥
+lauffe,lauffi,"V;SBJV;SG;1;PRS
+",1e-05,1.4166666666666668e-05,l ɑ ʊ̯ fː ɪ
+lauffe,lauffisch,"V;SBJV;SG;2;PRS
+",0.0,1.4166666666666668e-05,l ɑ ʊ̯ fː ɪ ʃ
+lauffe,lauffi,"V;SBJV;SG;3;PRS
+",1e-05,1.4166666666666668e-05,l ɑ ʊ̯ fː ɪ
+lauffe,lauffid,"V;SBJV;PL;1;PRS
+",0.0,1.4166666666666668e-05,l ɑ ʊ̯ fː i d̥
+lauffe,lauffid,"V;SBJV;PL;2;PRS
+",0.0,1.4166666666666668e-05,l ɑ ʊ̯ fː i d̥
+lauffe,lauffid,"V;SBJV;PL;3;PRS
+",0.0,1.4166666666666668e-05,l ɑ ʊ̯ fː i d̥
+leere,leere,"V;IND;SG;1;PRS
+",0.00039,5.583333333333335e-05,l eː r ə
+leere,leersch,"V;IND;SG;2;PRS
+",0.00011,5.583333333333335e-05,l eː r ʃ
+leere,leert,"V;IND;SG;3;PRS
+",2e-05,5.583333333333335e-05,l eː r t
+leere,leered,"V;IND;PL;1;PRS
+",1e-05,5.583333333333335e-05,l eː r ə d̥
+leere,leered,"V;IND;PL;2;PRS
+",1e-05,5.583333333333335e-05,l eː r ə d̥
+leere,leered,"V;IND;PL;3;PRS
+",1e-05,5.583333333333335e-05,l eː r ə d̥
+leere,leeri,"V;SBJV;SG;1;PRS
+",6e-05,5.583333333333335e-05,l eː r i
+leere,leerisch,"V;SBJV;SG;2;PRS
+",0.0,5.583333333333335e-05,l eː r i ʃ
+leere,leeri,"V;SBJV;SG;3;PRS
+",6e-05,5.583333333333335e-05,l eː r i
+leere,leerid,"V;SBJV;PL;1;PRS
+",0.0,5.583333333333335e-05,l eː r i d̥
+leere,leerid,"V;SBJV;PL;2;PRS
+",0.0,5.583333333333335e-05,l eː r i d̥
+leere,leerid,"V;SBJV;PL;3;PRS
+",0.0,5.583333333333335e-05,l eː r i d̥
+mache,mache,"V;IND;SG;1;PRS
+",0.01764,0.0029691666666666,m ɑ x ə
+mache,machsch,"V;IND;SG;2;PRS
+",0.00128,0.0029691666666666,m ɑ x ʃ
+mache,macht,"V;IND;SG;3;PRS
+",0.0101,0.0029691666666666,m ɑ x t
+mache,mached,"V;IND;PL;1;PRS
+",0.00153,0.0029691666666666,m ɑ x ə d̥
+mache,mached,"V;IND;PL;2;PRS
+",0.00153,0.0029691666666666,m ɑ x ə d̥
+mache,mached,"V;IND;PL;3;PRS
+",0.00153,0.0029691666666666,m ɑ x ə d̥
+mache,machi,"V;SBJV;SG;1;PRS
+",0.00077,0.0029691666666666,m ɑ χ i
+mache,machisch,"V;SBJV;SG;2;PRS
+",0.0,0.0029691666666666,m ɑ χ i ʃ
+mache,machi,"V;SBJV;SG;3;PRS
+",0.00077,0.0029691666666666,m ɑ χ i
+mache,machid,"V;SBJV;PL;1;PRS
+",0.00016,0.0029691666666666,m ɑ χ i d
+mache,machid,"V;SBJV;PL;2;PRS
+",0.00016,0.0029691666666666,m ɑ χ i d
+mache,machid,"V;SBJV;PL;3;PRS
+",0.00016,0.0029691666666666,m ɑ χ i d
+mäine,mäine,"V;IND;SG;1;PRS
+",4e-05,1.9166666666666667e-05,m æ ɪ̯ n ə
+mäine,mäinsch,"V;IND;SG;2;PRS
+",1e-05,1.9166666666666667e-05,m æ i̯ n ʃ
+mäine,mäint,"V;IND;SG;3;PRS
+",0.00012,1.9166666666666667e-05,m æ ɪ̯ n t
+mäine,mäined,"V;IND;PL;1;PRS
+",2e-05,1.9166666666666667e-05,m æ ɪ̯ n ə d
+mäine,mäined,"V;IND;PL;2;PRS
+",2e-05,1.9166666666666667e-05,m æ ɪ̯ n ə d
+mäine,mäined,"V;IND;PL;3;PRS
+",2e-05,1.9166666666666667e-05,m æ ɪ̯ n ə d
+mäine,mäini,"V;SBJV;SG;1;PRS
+",0.0,1.9166666666666667e-05,m æ ɪ̯ n i
+mäine,mäinisch,"V;SBJV;SG;2;PRS
+",0.0,1.9166666666666667e-05,m æ i̯ n i ʃ
+mäine,mäini,"V;SBJV;SG;3;PRS
+",0.0,1.9166666666666667e-05,m æ ɪ̯ n i
+mäine,mäinid,"V;SBJV;PL;1;PRS
+",0.0,1.9166666666666667e-05,m æ i̯ n i d̥
+mäine,mäinid,"V;SBJV;PL;2;PRS
+",0.0,1.9166666666666667e-05,m æ i̯ n i d̥
+mäine,mäinid,"V;SBJV;PL;3;PRS
+",0.0,1.9166666666666667e-05,m æ i̯ n i d̥
+rede,rede,"V;IND;SG;1;PRS
+",0.00165,0.0002141666666666,r e d ə
+rede,redsch,"V;IND;SG;2;PRS
+",9e-05,0.0002141666666666,r e d ʃ
+rede,redt,"V;IND;SG;3;PRS
+",0.00041,0.0002141666666666,r e t
+rede,reded,"V;IND;PL;1;PRS
+",8e-05,0.0002141666666666,r e d ə d
+rede,reded,"V;IND;PL;2;PRS
+",8e-05,0.0002141666666666,r e d ə d
+rede,reded,"V;IND;PL;3;PRS
+",8e-05,0.0002141666666666,r e d ə d
+rede,redi,"V;SBJV;SG;1;PRS
+",6e-05,0.0002141666666666,r e d i
+rede,redisch,"V;SBJV;SG;2;PRS
+",3e-05,0.0002141666666666,r e d i ʃ
+rede,redi,"V;SBJV;SG;3;PRS
+",6e-05,0.0002141666666666,r e d i
+rede,redid,"V;SBJV;PL;1;PRS
+",1e-05,0.0002141666666666,r e d i d
+rede,redid,"V;SBJV;PL;2;PRS
+",1e-05,0.0002141666666666,r e d i d
+rede,redid,"V;SBJV;PL;3;PRS
+",1e-05,0.0002141666666666,r e d i d
+schaffe,schaffe,"V;IND;SG;1;PRS
+",0.00374,0.0004366666666666,ʃ ɑ fː ə
+schaffe,schaffsch,"V;IND;SG;2;PRS
+",0.00019,0.0004366666666666,ʃ ɑ f ʃ
+schaffe,schafft,"V;IND;SG;3;PRS
+",0.00068,0.0004366666666666,ʃ ɑ f t
+schaffe,schaffed,"V;IND;PL;1;PRS
+",0.00012,0.0004366666666666,ʃ ɑ fː ə t
+schaffe,schaffed,"V;IND;PL;2;PRS
+",0.00012,0.0004366666666666,ʃ ɑ fː ə t
+schaffe,schaffed,"V;IND;PL;3;PRS
+",0.00012,0.0004366666666666,ʃ ɑ fː ə t
+schaffe,schaffi,"V;SBJV;SG;1;PRS
+",0.0001,0.0004366666666666,ʃ ɑ fː ɪ
+schaffe,schaffisch,"V;SBJV;SG;2;PRS
+",1e-05,0.0004366666666666,ʃ ɑ fː ɪ ʃ
+schaffe,schaffi,"V;SBJV;SG;3;PRS
+",0.0001,0.0004366666666666,ʃ ɑ fː ɪ
+schaffe,schaffid,"V;SBJV;PL;1;PRS
+",2e-05,0.0004366666666666,ʃ ɑ fː i t
+schaffe,schaffid,"V;SBJV;PL;2;PRS
+",2e-05,0.0004366666666666,ʃ ɑ fː i t
+schaffe,schaffid,"V;SBJV;PL;3;PRS
+",2e-05,0.0004366666666666,ʃ ɑ fː i t
+schreie,schreie,"V;IND;SG;1;PRS
+",0.00017,3.0833333333333335e-05,ʃ r ɛ ɪ̯ ə
+schreie,schreisch,"V;IND;SG;2;PRS
+",0.0,3.0833333333333335e-05,ʃ r a ɪ̯ ʃ
+schreie,schreit,"V;IND;SG;3;PRS
+",0.00014,3.0833333333333335e-05,ʃ r ɑ ɪ̯ t
+schreie,schreied,"V;IND;PL;1;PRS
+",2e-05,3.0833333333333335e-05,ʃ r ɛ ɪ̯ ə d̥
+schreie,schreied,"V;IND;PL;2;PRS
+",2e-05,3.0833333333333335e-05,ʃ r ɛ ɪ̯ ə d̥
+schreie,schreied,"V;IND;PL;3;PRS
+",2e-05,3.0833333333333335e-05,ʃ r ɛ ɪ̯ ə d̥
+schreie,schreii,"V;SBJV;SG;1;PRS
+",0.0,3.0833333333333335e-05,ʃ r ɛ i̯ː
+schreie,schreiisch,"V;SBJV;SG;2;PRS
+",0.0,3.0833333333333335e-05,ʃ r ɑ ɪ̯ː ʃ
+schreie,schreii,"V;SBJV;SG;3;PRS
+",0.0,3.0833333333333335e-05,ʃ r ɛ i̯ː
+schreie,schreiid,"V;SBJV;PL;1;PRS
+",0.0,3.0833333333333335e-05,ʃ r ɛ i̯ː d̥
+schreie,schreiid,"V;SBJV;PL;2;PRS
+",0.0,3.0833333333333335e-05,ʃ r ɛ i̯ː d̥
+schreie,schreiid,"V;SBJV;PL;3;PRS
+",0.0,3.0833333333333335e-05,ʃ r ɛ i̯ː d̥
+schriibe,schriibe,"V;IND;SG;1;PRS
+",0.0008,0.0001308333333333,ʃ r iː b ə
+schriibe,schriibsch,"V;IND;SG;2;PRS
+",8e-05,0.0001308333333333,ʃ r iː p ʃ
+schriibe,schriibt,"V;IND;SG;3;PRS
+",0.00021,0.0001308333333333,ʃ r iː p t
+schriibe,schriibed,"V;IND;PL;1;PRS
+",0.00014,0.0001308333333333,ʃ r iː b ə d
+schriibe,schriibed,"V;IND;PL;2;PRS
+",0.00014,0.0001308333333333,ʃ r iː b ə d
+schriibe,schriibed,"V;IND;PL;3;PRS
+",0.00014,0.0001308333333333,ʃ r iː b ə d
+schriibe,schriibi,"V;SBJV;SG;1;PRS
+",0.0,0.0001308333333333,ʃ r iː b i
+schriibe,schriibisch,"V;SBJV;SG;2;PRS
+",0.0,0.0001308333333333,ʃ r iː b i ʃ
+schriibe,schriibi,"V;SBJV;SG;3;PRS
+",0.0,0.0001308333333333,ʃ r iː b i
+schriibe,schriibid,"V;SBJV;PL;1;PRS
+",2e-05,0.0001308333333333,ʃ r iː b i d
+schriibe,schriibid,"V;SBJV;PL;2;PRS
+",2e-05,0.0001308333333333,ʃ r iː b i d
+schriibe,schriibid,"V;SBJV;PL;3;PRS
+",2e-05,0.0001308333333333,ʃ r iː b i d
+spile,spile,"V;IND;SG;1;PRS
+",0.00083,0.0001233333333333,ʃ p i l ə
+spile,spilsch,"V;IND;SG;2;PRS
+",3e-05,0.0001233333333333,ʃ p i l ʃ
+spile,spilt,"V;IND;SG;3;PRS
+",0.00019,0.0001233333333333,ʃ p i l t
+spile,spiled,"V;IND;PL;1;PRS
+",0.00011,0.0001233333333333,ʃ p i l ə d
+spile,spiled,"V;IND;PL;2;PRS
+",0.00011,0.0001233333333333,ʃ p i l ə d
+spile,spiled,"V;IND;PL;3;PRS
+",0.00011,0.0001233333333333,ʃ p i l ə d
+spile,spili,"V;SBJV;SG;1;PRS
+",5e-05,0.0001233333333333,ʃ p i l i
+spile,spilisch,"V;SBJV;SG;2;PRS
+",0.0,0.0001233333333333,ʃ p i l i ʃ
+spile,spili,"V;SBJV;SG;3;PRS
+",5e-05,0.0001233333333333,ʃ p i l i
+spile,spilid,"V;SBJV;PL;1;PRS
+",0.0,0.0001233333333333,ʃ p i l i d
+spile,spilid,"V;SBJV;PL;2;PRS
+",0.0,0.0001233333333333,ʃ p i l i d
+spile,spilid,"V;SBJV;PL;3;PRS
+",0.0,0.0001233333333333,ʃ p i l i d
+springe,springe,"V;IND;SG;1;PRS
+",0.00028,4.666666666666669e-05,ʃ p r i ŋ ə
+springe,springsch,"V;IND;SG;2;PRS
+",0.0,4.666666666666669e-05,ʃ p r i ŋ ʃ
+springe,springt,"V;IND;SG;3;PRS
+",0.00011,4.666666666666669e-05,ʃ p r i ŋ t
+springe,springed,"V;IND;PL;1;PRS
+",3e-05,4.666666666666669e-05,ʃ p r i ŋ ə d
+springe,springed,"V;IND;PL;2;PRS
+",3e-05,4.666666666666669e-05,ʃ p r i ŋ ə d
+springe,springed,"V;IND;PL;3;PRS
+",3e-05,4.666666666666669e-05,ʃ p r i ŋ ə d
+springe,springi,"V;SBJV;SG;1;PRS
+",1e-05,4.666666666666669e-05,ʃ p r i ŋ i
+springe,springisch,"V;SBJV;SG;2;PRS
+",0.0,4.666666666666669e-05,ʃ p r i ŋ ɪ ʃ
+springe,springi,"V;SBJV;SG;3;PRS
+",1e-05,4.666666666666669e-05,ʃ p r i ŋ i
+springe,springid,"V;SBJV;PL;1;PRS
+",2e-05,4.666666666666669e-05,ʃ p r i ŋ i d
+springe,springid,"V;SBJV;PL;2;PRS
+",2e-05,4.666666666666669e-05,ʃ p r i ŋ i d
+springe,springid,"V;SBJV;PL;3;PRS
+",2e-05,4.666666666666669e-05,ʃ p r i ŋ i d
+sueche,sueche,"V;IND;SG;1;PRS
+",0.00217,0.0003333333333333,s u ə x ə
+sueche,suechsch,"V;IND;SG;2;PRS
+",0.0002,0.0003333333333333,s u ə x ʃ
+sueche,suecht,"V;IND;SG;3;PRS
+",0.00068,0.0003333333333333,s u ə x t
+sueche,sueched,"V;IND;PL;1;PRS
+",0.00018,0.0003333333333333,s u ə x ə d
+sueche,sueched,"V;IND;PL;2;PRS
+",0.00018,0.0003333333333333,s u ə x ə d
+sueche,sueched,"V;IND;PL;3;PRS
+",0.00018,0.0003333333333333,s u ə x ə d
+sueche,suechi,"V;SBJV;SG;1;PRS
+",0.00019,0.0003333333333333,s u ə x i
+sueche,suechisch,"V;SBJV;SG;2;PRS
+",0.0,0.0003333333333333,s u ə x i ʃ
+sueche,suechi,"V;SBJV;SG;3;PRS
+",0.00019,0.0003333333333333,s u ə x i
+sueche,suechid,"V;SBJV;PL;1;PRS
+",1e-05,0.0003333333333333,s u ə χ i d
+sueche,suechid,"V;SBJV;PL;2;PRS
+",1e-05,0.0003333333333333,s u ə χ i d
+sueche,suechid,"V;SBJV;PL;3;PRS
+",1e-05,0.0003333333333333,s u ə χ i d
+troue,troue,"V;IND;SG;1;PRS
+",1e-05,1.5833333333333333e-05,t r ɔ ʊ̯ ə
+troue,trousch,"V;IND;SG;2;PRS
+",0.0,1.5833333333333333e-05,t r ə ʊ̯ ʃ
+troue,trout,"V;IND;SG;3;PRS
+",9e-05,1.5833333333333333e-05,t r ə ʊ̯ t
+troue,troued,"V;IND;PL;1;PRS
+",3e-05,1.5833333333333333e-05,t r ɔ ʊ̯ ə d̥
+troue,troued,"V;IND;PL;2;PRS
+",3e-05,1.5833333333333333e-05,t r ɔ ʊ̯ ə d̥
+troue,troued,"V;IND;PL;3;PRS
+",3e-05,1.5833333333333333e-05,t r ɔ ʊ̯ ə d̥
+troue,troui,"V;SBJV;SG;1;PRS
+",0.0,1.5833333333333333e-05,t r o ʊ̯ i
+troue,trouisch,"V;SBJV;SG;2;PRS
+",0.0,1.5833333333333333e-05,t r o ʊ̯ ɪ ʃ
+troue,troui,"V;SBJV;SG;3;PRS
+",0.0,1.5833333333333333e-05,t r o ʊ̯ i
+troue,trouid,"V;SBJV;PL;1;PRS
+",0.0,1.5833333333333333e-05,t r ɔ ʊ̯ i d̥
+troue,trouid,"V;SBJV;PL;2;PRS
+",0.0,1.5833333333333333e-05,t r ɔ ʊ̯ i d̥
+troue,trouid,"V;SBJV;PL;3;PRS
+",0.0,1.5833333333333333e-05,t r ɔ ʊ̯ i d̥
+höre,höre,"V;IND;SG;1;PRS
+",0.00015,4.000000000000001e-05,h ø r ə
+höre,hörsch,"V;IND;SG;2;PRS
+",1e-05,4.000000000000001e-05,h ø r ʃ
+höre,hört,"V;IND;SG;3;PRS
+",0.00017,4.000000000000001e-05,h ø r t
+höre,höred,"V;IND;PL;1;PRS
+",3e-05,4.000000000000001e-05,h ø r ə d
+höre,höred,"V;IND;PL;2;PRS
+",3e-05,4.000000000000001e-05,h ø r ə d
+höre,höred,"V;IND;PL;3;PRS
+",3e-05,4.000000000000001e-05,h ø r ə d
+höre,höri,"V;SBJV;SG;1;PRS
+",3e-05,4.000000000000001e-05,h ø r i
+höre,hörisch,"V;SBJV;SG;2;PRS
+",0.0,4.000000000000001e-05,h ø r i ʃ
+höre,höri,"V;SBJV;SG;3;PRS
+",3e-05,4.000000000000001e-05,h ø r i
+höre,hörid,"V;SBJV;PL;1;PRS
+",0.0,4.000000000000001e-05,h ø r i d
+höre,hörid,"V;SBJV;PL;2;PRS
+",0.0,4.000000000000001e-05,h ø r i d
+höre,hörid,"V;SBJV;PL;3;PRS
+",0.0,4.000000000000001e-05,h ø r i d
+verlüüre,verlüüre,"V;IND;SG;1;PRS
+",0.00011,1.7500000000000002e-05,f ə r l yː r ə
+verlüüre,verlüürsch,"V;IND;SG;2;PRS
+",2e-05,1.7500000000000002e-05,f ə r l yː r ʃ
+verlüüre,verlüürt,"V;IND;SG;3;PRS
+",8e-05,1.7500000000000002e-05,f ə r l yː r t
+verlüüre,verlüüred,"V;IND;PL;1;PRS
+",0.0,1.7500000000000002e-05,f ə r l yː r ə d
+verlüüre,verlüüred,"V;IND;PL;2;PRS
+",0.0,1.7500000000000002e-05,f ə r l yː r ə d
+verlüüre,verlüüred,"V;IND;PL;3;PRS
+",0.0,1.7500000000000002e-05,f ə r l yː r ə d
+verlüüre,verlüüri,"V;SBJV;SG;1;PRS
+",0.0,1.7500000000000002e-05,f ə r l yː r i
+verlüüre,verlüürisch,"V;SBJV;SG;2;PRS
+",0.0,1.7500000000000002e-05,f ə r l yː r i ʃ
+verlüüre,verlüüri,"V;SBJV;SG;3;PRS
+",0.0,1.7500000000000002e-05,f ə r l yː r i
+verlüüre,verlüürid,"V;SBJV;PL;1;PRS
+",0.0,1.7500000000000002e-05,f ə r l yː r i d
+verlüüre,verlüürid,"V;SBJV;PL;2;PRS
+",0.0,1.7500000000000002e-05,f ə r l yː r i d
+verlüüre,verlüürid,"V;SBJV;PL;3;PRS
+",0.0,1.7500000000000002e-05,f ə r l yː r i d
+winke,winke,"V;IND;SG;1;PRS
+",8e-05,1.5833333333333333e-05,v i ŋ k ə
+winke,winksch,"V;IND;SG;2;PRS
+",0.0,1.5833333333333333e-05,v i ŋ k ʃ
+winke,winkt,"V;IND;SG;3;PRS
+",8e-05,1.5833333333333333e-05,v i ŋ k t
+winke,winked,"V;IND;PL;1;PRS
+",1e-05,1.5833333333333333e-05,v i ŋ k ə d̥
+winke,winked,"V;IND;PL;2;PRS
+",1e-05,1.5833333333333333e-05,v i ŋ k ə d̥
+winke,winked,"V;IND;PL;3;PRS
+",1e-05,1.5833333333333333e-05,v i ŋ k ə d̥
+winke,winki,"V;SBJV;SG;1;PRS
+",0.0,1.5833333333333333e-05,v i ŋ k i
+winke,winkisch,"V;SBJV;SG;2;PRS
+",0.0,1.5833333333333333e-05,v i ŋ k i ʃ
+winke,winki,"V;SBJV;SG;3;PRS
+",0.0,1.5833333333333333e-05,v i ŋ k i
+winke,winkid,"V;SBJV;PL;1;PRS
+",0.0,1.5833333333333333e-05,v i ŋ k i d̥
+winke,winkid,"V;SBJV;PL;2;PRS
+",0.0,1.5833333333333333e-05,v i ŋ k i d̥
+winke,winkid,"V;SBJV;PL;3;PRS
+",0.0,1.5833333333333333e-05,v i ŋ k i d̥
+wone,wone,"V;IND;SG;1;PRS
+",0.00013,0.0007058333333333,v o n ə
+wone,wonsch,"V;IND;SG;2;PRS
+",2e-05,0.0007058333333333,v o n ʃ
+wone,wont,"V;IND;SG;3;PRS
+",5e-05,0.0007058333333333,v o n t
+wone,woned,"V;IND;PL;1;PRS
+",2e-05,0.0007058333333333,v o n ə d
+wone,woned,"V;IND;PL;2;PRS
+",2e-05,0.0007058333333333,v o n ə d
+wone,woned,"V;IND;PL;3;PRS
+",2e-05,0.0007058333333333,v o n ə d
+wone,woni,"V;SBJV;SG;1;PRS
+",0.00409,0.0007058333333333,v o n i
+wone,wonisch,"V;SBJV;SG;2;PRS
+",0.0,0.0007058333333333,v o n i ʃ
+wone,woni,"V;SBJV;SG;3;PRS
+",0.00409,0.0007058333333333,v o n i
+wone,wonid,"V;SBJV;PL;1;PRS
+",1e-05,0.0007058333333333,v o n i d
+wone,wonid,"V;SBJV;PL;2;PRS
+",1e-05,0.0007058333333333,v o n i d
+wone,wonid,"V;SBJV;PL;3;PRS
+",1e-05,0.0007058333333333,v o n i d
+lange,lange,"V;IND;SG;1;PRS
+",0.00115,0.0003041666666666,l ɑ ŋ ə
+lange,langsch,"V;IND;SG;2;PRS
+",0.0,0.0003041666666666,l ɑ ŋ ʃ
+lange,langet,"V;IND;SG;3;PRS
+",0.00022,0.0003041666666666,l ɑ ŋ ə t
+lange,langed,"V;IND;PL;1;PRS
+",0.00015,0.0003041666666666,l ɑ ŋ ə d
+lange,langed,"V;IND;PL;2;PRS
+",0.00015,0.0003041666666666,l ɑ ŋ ə d
+lange,langed,"V;IND;PL;3;PRS
+",0.00015,0.0003041666666666,l ɑ ŋ ə d
+lange,langi,"V;SBJV;SG;1;PRS
+",0.0009,0.0003041666666666,l ɑ ŋ ɪ
+lange,langisch,"V;SBJV;SG;2;PRS
+",0.0,0.0003041666666666,l ɑ ŋ ɪ ʃ
+lange,langi,"V;SBJV;SG;3;PRS
+",0.0009,0.0003041666666666,l ɑ ŋ ɪ
+lange,langid,"V;SBJV;PL;1;PRS
+",1e-05,0.0003041666666666,l ɑ ŋ i d̥
+lange,langid,"V;SBJV;PL;2;PRS
+",1e-05,0.0003041666666666,l ɑ ŋ i d̥
+lange,langid,"V;SBJV;PL;3;PRS
+",1e-05,0.0003041666666666,l ɑ ŋ i d̥
+choche,choche,"V;IND;SG;1;PRS
+",0.00045,6.75e-05,x o x ə
+choche,chochsch,"V;IND;SG;2;PRS
+",0.0,6.75e-05,x o x ʃ
+choche,chocet,"V;IND;SG;3;PRS
+",0.0,6.75e-05,x o t͡ʃ ə t
+choche,choched,"V;IND;PL;1;PRS
+",0.00012,6.75e-05,x o x ə d
+choche,choched,"V;IND;PL;2;PRS
+",0.00012,6.75e-05,x o x ə d
+choche,choched,"V;IND;PL;3;PRS
+",0.00012,6.75e-05,x o x ə d
+choche,chochi,"V;SBJV;SG;1;PRS
+",0.0,6.75e-05,x o x i
+choche,chochisch,"V;SBJV;SG;2;PRS
+",0.0,6.75e-05,x o x i ʃ
+choche,chochi,"V;SBJV;SG;3;PRS
+",0.0,6.75e-05,x o x i
+choche,chochid,"V;SBJV;PL;1;PRS
+",0.0,6.75e-05,x o x i d
+choche,chochid,"V;SBJV;PL;2;PRS
+",0.0,6.75e-05,x o x i d
+choche,chochid,"V;SBJV;PL;3;PRS
+",0.0,6.75e-05,x o x i d
+danke,danke,"V;IND;SG;1;PRS
+",0.00268,0.0002549999999999,d ɑ ŋ k ə
+danke,danksch,"V;IND;SG;2;PRS
+",0.0,0.0002549999999999,d ɑ ŋ k ʃ
+danke,dankeet,"V;IND;SG;3;PRS
+",0.0,0.0002549999999999,d ɑ ŋ k eː t
+danke,danked,"V;IND;PL;1;PRS
+",0.0001,0.0002549999999999,d ɑ ŋ k ə d
+danke,danked,"V;IND;PL;2;PRS
+",0.0001,0.0002549999999999,d ɑ ŋ k ə d
+danke,danked,"V;IND;PL;3;PRS
+",0.0001,0.0002549999999999,d ɑ ŋ k ə d
+danke,danki,"V;SBJV;SG;1;PRS
+",1e-05,0.0002549999999999,d ɑ ŋ k i
+danke,dankisch,"V;SBJV;SG;2;PRS
+",0.0,0.0002549999999999,d ɑ ŋ k i ʃ
+danke,danki,"V;SBJV;SG;3;PRS
+",1e-05,0.0002549999999999,d ɑ ŋ k i
+danke,dankid,"V;SBJV;PL;1;PRS
+",2e-05,0.0002549999999999,d ɑ ŋ k i d̥
+danke,dankid,"V;SBJV;PL;2;PRS
+",2e-05,0.0002549999999999,d ɑ ŋ k i d̥
+danke,dankid,"V;SBJV;PL;3;PRS
+",2e-05,0.0002549999999999,d ɑ ŋ k i d̥
+fiire,fiire,"V;IND;SG;1;PRS
+",0.00069,7.666666666666668e-05,f iː r ə
+fiire,fiirsch,"V;IND;SG;2;PRS
+",0.0,7.666666666666668e-05,f iː r ʃ
+fiire,fiiret,"V;IND;SG;3;PRS
+",3e-05,7.666666666666668e-05,f iː r ə t
+fiire,fiired,"V;IND;PL;1;PRS
+",6e-05,7.666666666666668e-05,f iː r ə d̥
+fiire,fiired,"V;IND;PL;2;PRS
+",6e-05,7.666666666666668e-05,f iː r ə d̥
+fiire,fiired,"V;IND;PL;3;PRS
+",6e-05,7.666666666666668e-05,f iː r ə d̥
+fiire,fiiri,"V;SBJV;SG;1;PRS
+",1e-05,7.666666666666668e-05,f iː r i
+fiire,fiirisch,"V;SBJV;SG;2;PRS
+",0.0,7.666666666666668e-05,f iː r i ʃ
+fiire,fiiri,"V;SBJV;SG;3;PRS
+",1e-05,7.666666666666668e-05,f iː r i
+fiire,fiirid,"V;SBJV;PL;1;PRS
+",0.0,7.666666666666668e-05,f iː r i d
+fiire,fiirid,"V;SBJV;PL;2;PRS
+",0.0,7.666666666666668e-05,f iː r i d
+fiire,fiirid,"V;SBJV;PL;3;PRS
+",0.0,7.666666666666668e-05,f iː r i d
+flueche,flueche,"V;IND;SG;1;PRS
+",0.00027,2.666666666666668e-05,f l u ə x ə
+flueche,fluechsch,"V;IND;SG;2;PRS
+",0.0,2.666666666666668e-05,f l u ə x ʃ
+flueche,flueet,"V;IND;SG;3;PRS
+",0.0,2.666666666666668e-05,f l u eː t
+flueche,flueched,"V;IND;PL;1;PRS
+",1e-05,2.666666666666668e-05,f l u ə x ə d
+flueche,flueched,"V;IND;PL;2;PRS
+",1e-05,2.666666666666668e-05,f l u ə x ə d
+flueche,flueched,"V;IND;PL;3;PRS
+",1e-05,2.666666666666668e-05,f l u ə x ə d
+flueche,fluechi,"V;SBJV;SG;1;PRS
+",1e-05,2.666666666666668e-05,f l u ə x i
+flueche,fluechisch,"V;SBJV;SG;2;PRS
+",0.0,2.666666666666668e-05,f l u ə χ i ʃ
+flueche,fluechi,"V;SBJV;SG;3;PRS
+",1e-05,2.666666666666668e-05,f l u ə x i
+flueche,fluechid,"V;SBJV;PL;1;PRS
+",0.0,2.666666666666668e-05,f l u ə χ i d
+flueche,fluechid,"V;SBJV;PL;2;PRS
+",0.0,2.666666666666668e-05,f l u ə χ i d
+flueche,fluechid,"V;SBJV;PL;3;PRS
+",0.0,2.666666666666668e-05,f l u ə χ i d
+hange,hange,"V;IND;SG;1;PRS
+",0.00029,4.333333333333334e-05,h ɑ ŋ ə
+hange,hangsch,"V;IND;SG;2;PRS
+",1e-05,4.333333333333334e-05,h ɑ ŋ ʃ
+hange,hangeet,"V;IND;SG;3;PRS
+",0.0,4.333333333333334e-05,h ɑ ŋ əː t
+hange,hanged,"V;IND;PL;1;PRS
+",6e-05,4.333333333333334e-05,h ɑ ŋ ə d
+hange,hanged,"V;IND;PL;2;PRS
+",6e-05,4.333333333333334e-05,h ɑ ŋ ə d
+hange,hanged,"V;IND;PL;3;PRS
+",6e-05,4.333333333333334e-05,h ɑ ŋ ə d
+hange,hangi,"V;SBJV;SG;1;PRS
+",2e-05,4.333333333333334e-05,h ɑ ŋ ɪ
+hange,hangisch,"V;SBJV;SG;2;PRS
+",0.0,4.333333333333334e-05,h ɑ ŋ ɪ ʃ
+hange,hangi,"V;SBJV;SG;3;PRS
+",2e-05,4.333333333333334e-05,h ɑ ŋ ɪ
+hange,hangid,"V;SBJV;PL;1;PRS
+",0.0,4.333333333333334e-05,h ɑ ŋ i d̥
+hange,hangid,"V;SBJV;PL;2;PRS
+",0.0,4.333333333333334e-05,h ɑ ŋ i d̥
+hange,hangid,"V;SBJV;PL;3;PRS
+",0.0,4.333333333333334e-05,h ɑ ŋ i d̥
+hebe,hebe,"V;IND;SG;1;PRS
+",0.00042,0.0001033333333333,h e b ə
+hebe,hebsch,"V;IND;SG;2;PRS
+",2e-05,0.0001033333333333,h e p ʃ
+hebe,hebeet,"V;IND;SG;3;PRS
+",0.0,0.0001033333333333,h e b eː t
+hebe,hebed,"V;IND;PL;1;PRS
+",0.00018,0.0001033333333333,h e b ə d
+hebe,hebed,"V;IND;PL;2;PRS
+",0.00018,0.0001033333333333,h e b ə d
+hebe,hebed,"V;IND;PL;3;PRS
+",0.00018,0.0001033333333333,h e b ə d
+hebe,hebi,"V;SBJV;SG;1;PRS
+",8e-05,0.0001033333333333,h e b i
+hebe,hebisch,"V;SBJV;SG;2;PRS
+",1e-05,0.0001033333333333,h e b i ʃ
+hebe,hebi,"V;SBJV;SG;3;PRS
+",8e-05,0.0001033333333333,h e b i
+hebe,hebid,"V;SBJV;PL;1;PRS
+",3e-05,0.0001033333333333,h e b i d
+hebe,hebid,"V;SBJV;PL;2;PRS
+",3e-05,0.0001033333333333,h e b i d
+hebe,hebid,"V;SBJV;PL;3;PRS
+",3e-05,0.0001033333333333,h e b i d
+lache,lache,"V;IND;SG;1;PRS
+",0.00152,0.0001666666666666,l ɑ x ə
+lache,lachsch,"V;IND;SG;2;PRS
+",6e-05,0.0001666666666666,l ɑ x ʃ
+lache,lacet,"V;IND;SG;3;PRS
+",0.0,0.0001666666666666,l ɑ t͡s ə t
+lache,lached,"V;IND;PL;1;PRS
+",9e-05,0.0001666666666666,l ɑ x ə d̥
+lache,lached,"V;IND;PL;2;PRS
+",9e-05,0.0001666666666666,l ɑ x ə d̥
+lache,lached,"V;IND;PL;3;PRS
+",9e-05,0.0001666666666666,l ɑ x ə d̥
+lache,lachi,"V;SBJV;SG;1;PRS
+",1e-05,0.0001666666666666,l ɑ χ i
+lache,lachisch,"V;SBJV;SG;2;PRS
+",1e-05,0.0001666666666666,l ɑ x i ʃ
+lache,lachi,"V;SBJV;SG;3;PRS
+",1e-05,0.0001666666666666,l ɑ χ i
+lache,lachid,"V;SBJV;PL;1;PRS
+",4e-05,0.0001666666666666,l ɑ χ i d
+lache,lachid,"V;SBJV;PL;2;PRS
+",4e-05,0.0001666666666666,l ɑ χ i d
+lache,lachid,"V;SBJV;PL;3;PRS
+",4e-05,0.0001666666666666,l ɑ χ i d
+luege,luege,"V;IND;SG;1;PRS
+",0.00796,0.0009241666666666,l u ə ɡ̊ ə
+luege,luegsch,"V;IND;SG;2;PRS
+",0.00039,0.0009241666666666,l u ə k ʃ
+luege,lueget,"V;IND;SG;3;PRS
+",0.00045,0.0009241666666666,l u ə ɡ̊ ə t
+luege,lueged,"V;IND;PL;1;PRS
+",0.00048,0.0009241666666666,l u ə ɡ̊ ə d
+luege,lueged,"V;IND;PL;2;PRS
+",0.00048,0.0009241666666666,l u ə ɡ̊ ə d
+luege,lueged,"V;IND;PL;3;PRS
+",0.00048,0.0009241666666666,l u ə ɡ̊ ə d
+luege,luegi,"V;SBJV;SG;1;PRS
+",0.00029,0.0009241666666666,l u ə ɡ̊ i
+luege,luegisch,"V;SBJV;SG;2;PRS
+",0.0,0.0009241666666666,l u ə ɡ̊ i ʃ
+luege,luegi,"V;SBJV;SG;3;PRS
+",0.00029,0.0009241666666666,l u ə ɡ̊ i
+luege,luegid,"V;SBJV;PL;1;PRS
+",9e-05,0.0009241666666666,l u ə ɡ̊ i d̥
+luege,luegid,"V;SBJV;PL;2;PRS
+",9e-05,0.0009241666666666,l u ə ɡ̊ i d̥
+luege,luegid,"V;SBJV;PL;3;PRS
+",9e-05,0.0009241666666666,l u ə ɡ̊ i d̥
+lüüte,lüüte,"V;IND;SG;1;PRS
+",7e-05,2.3333333333333336e-05,l yː t ə
+lüüte,lüütisch,"V;IND;SG;2;PRS
+",0.0,2.3333333333333336e-05,l yː t i ʃ
+lüüte,lüütet,"V;IND;SG;3;PRS
+",0.00013,2.3333333333333336e-05,l yː t ə t
+lüüte,lüüted,"V;IND;PL;1;PRS
+",2e-05,2.3333333333333336e-05,l yː t ə d
+lüüte,lüüted,"V;IND;PL;2;PRS
+",2e-05,2.3333333333333336e-05,l yː t ə d
+lüüte,lüüted,"V;IND;PL;3;PRS
+",2e-05,2.3333333333333336e-05,l yː t ə d
+lüüte,lüüti,"V;SBJV;SG;1;PRS
+",1e-05,2.3333333333333336e-05,l yː t i
+lüüte,lüütisch,"V;SBJV;SG;2;PRS
+",0.0,2.3333333333333336e-05,l yː t i ʃ
+lüüte,lüüti,"V;SBJV;SG;3;PRS
+",1e-05,2.3333333333333336e-05,l yː t i
+lüüte,lüütid,"V;SBJV;PL;1;PRS
+",0.0,2.3333333333333336e-05,l yː t i d
+lüüte,lüütid,"V;SBJV;PL;2;PRS
+",0.0,2.3333333333333336e-05,l yː t i d
+lüüte,lüütid,"V;SBJV;PL;3;PRS
+",0.0,2.3333333333333336e-05,l yː t i d
+bhalte,bhalte,"V;IND;SG;1;PRS
+",0.00042,3.666666666666667e-05,b̥ h ɑ l t ə
+bhalte,bhaltisch,"V;IND;SG;2;PRS
+",1e-05,3.666666666666667e-05,b̥ h ɑ l t i ʃ
+bhalte,bhalet,"V;IND;SG;3;PRS
+",0.0,3.666666666666667e-05,b̥ h ɑ l ə t
+bhalte,bhalted,"V;IND;PL;1;PRS
+",0.0,3.666666666666667e-05,b̥ h ɑ l t ə d̥
+bhalte,bhalted,"V;IND;PL;2;PRS
+",0.0,3.666666666666667e-05,b̥ h ɑ l t ə d̥
+bhalte,bhalted,"V;IND;PL;3;PRS
+",0.0,3.666666666666667e-05,b̥ h ɑ l t ə d̥
+bhalte,bhalti,"V;SBJV;SG;1;PRS
+",0.0,3.666666666666667e-05,b̥ h ɑ l t i
+bhalte,bhaltisch,"V;SBJV;SG;2;PRS
+",1e-05,3.666666666666667e-05,b̥ h ɑ l t i ʃ
+bhalte,bhalti,"V;SBJV;SG;3;PRS
+",0.0,3.666666666666667e-05,b̥ h ɑ l t i
+bhalte,bhaltid,"V;SBJV;PL;1;PRS
+",0.0,3.666666666666667e-05,b̥ h ɑ l t i d̥
+bhalte,bhaltid,"V;SBJV;PL;2;PRS
+",0.0,3.666666666666667e-05,b̥ h ɑ l t i d̥
+bhalte,bhaltid,"V;SBJV;PL;3;PRS
+",0.0,3.666666666666667e-05,b̥ h ɑ l t i d̥
+folge,folge,"V;IND;SG;1;PRS
+",0.00041,6.333333333333336e-05,f o l ɡ ə
+folge,folgisch,"V;IND;SG;2;PRS
+",0.0,6.333333333333336e-05,f o l ɡ i ʃ
+folge,folgeet,"V;IND;SG;3;PRS
+",0.0,6.333333333333336e-05,f ɔ l ɡ̊ eː t
+folge,folged,"V;IND;PL;1;PRS
+",9e-05,6.333333333333336e-05,f o l ɡ ə d
+folge,folged,"V;IND;PL;2;PRS
+",9e-05,6.333333333333336e-05,f o l ɡ ə d
+folge,folged,"V;IND;PL;3;PRS
+",9e-05,6.333333333333336e-05,f o l ɡ ə d
+folge,folgi,"V;SBJV;SG;1;PRS
+",1e-05,6.333333333333336e-05,f o l ɡ i
+folge,folgisch,"V;SBJV;SG;2;PRS
+",0.0,6.333333333333336e-05,f o l ɡ i ʃ
+folge,folgi,"V;SBJV;SG;3;PRS
+",1e-05,6.333333333333336e-05,f o l ɡ i
+folge,folgid,"V;SBJV;PL;1;PRS
+",2e-05,6.333333333333336e-05,f o l ɡ̊ i d̥
+folge,folgid,"V;SBJV;PL;2;PRS
+",2e-05,6.333333333333336e-05,f o l ɡ̊ i d̥
+folge,folgid,"V;SBJV;PL;3;PRS
+",2e-05,6.333333333333336e-05,f o l ɡ̊ i d̥
+lose,lose,"V;IND;SG;1;PRS
+",0.00106,0.0001308333333333,l o s ə
+lose,losisch,"V;IND;SG;2;PRS
+",1e-05,0.0001308333333333,l o s i ʃ
+lose,loseet,"V;IND;SG;3;PRS
+",0.0,0.0001308333333333,l o s eː t
+lose,losed,"V;IND;PL;1;PRS
+",0.00011,0.0001308333333333,l o s ə d̥
+lose,losed,"V;IND;PL;2;PRS
+",0.00011,0.0001308333333333,l o s ə d̥
+lose,losed,"V;IND;PL;3;PRS
+",0.00011,0.0001308333333333,l o s ə d̥
+lose,losi,"V;SBJV;SG;1;PRS
+",8e-05,0.0001308333333333,l o s i
+lose,losisch,"V;SBJV;SG;2;PRS
+",1e-05,0.0001308333333333,l o s i ʃ
+lose,losi,"V;SBJV;SG;3;PRS
+",8e-05,0.0001308333333333,l o s i
+lose,losid,"V;SBJV;PL;1;PRS
+",0.0,0.0001308333333333,l o s i d
+lose,losid,"V;SBJV;PL;2;PRS
+",0.0,0.0001308333333333,l o s i d
+lose,losid,"V;SBJV;PL;3;PRS
+",0.0,0.0001308333333333,l o s i d
+pfuuse,pfuuse,"V;IND;SG;1;PRS
+",0.00024,2.7500000000000004e-05,p f uː s ə
+pfuuse,pfuusisch,"V;IND;SG;2;PRS
+",0.0,2.7500000000000004e-05,p f uː s i ʃ
+pfuuse,pfuuet,"V;IND;SG;3;PRS
+",0.0,2.7500000000000004e-05,p f uː ə t
+pfuuse,pfuused,"V;IND;PL;1;PRS
+",3e-05,2.7500000000000004e-05,p f uː s ə d̥
+pfuuse,pfuused,"V;IND;PL;2;PRS
+",3e-05,2.7500000000000004e-05,p f uː s ə d̥
+pfuuse,pfuused,"V;IND;PL;3;PRS
+",3e-05,2.7500000000000004e-05,p f uː s ə d̥
+pfuuse,pfuusi,"V;SBJV;SG;1;PRS
+",0.0,2.7500000000000004e-05,p f uː s i
+pfuuse,pfuusisch,"V;SBJV;SG;2;PRS
+",0.0,2.7500000000000004e-05,p f uː s i ʃ
+pfuuse,pfuusi,"V;SBJV;SG;3;PRS
+",0.0,2.7500000000000004e-05,p f uː s i
+pfuuse,pfuusid,"V;SBJV;PL;1;PRS
+",0.0,2.7500000000000004e-05,p f uː s i d̥
+pfuuse,pfuusid,"V;SBJV;PL;2;PRS
+",0.0,2.7500000000000004e-05,p f uː s i d̥
+pfuuse,pfuusid,"V;SBJV;PL;3;PRS
+",0.0,2.7500000000000004e-05,p f uː s i d̥
+poschte,poschte,"V;IND;SG;1;PRS
+",0.00042,3.666666666666667e-05,p o ʃ t ə
+poschte,poschtisch,"V;IND;SG;2;PRS
+",0.0,3.666666666666667e-05,p o ʃ t i ʃ
+poschte,poschet,"V;IND;SG;3;PRS
+",0.0,3.666666666666667e-05,p o ʃ ə t
+poschte,poschted,"V;IND;PL;1;PRS
+",0.0,3.666666666666667e-05,p o ʃ t ə d
+poschte,poschted,"V;IND;PL;2;PRS
+",0.0,3.666666666666667e-05,p o ʃ t ə d
+poschte,poschted,"V;IND;PL;3;PRS
+",0.0,3.666666666666667e-05,p o ʃ t ə d
+poschte,poschti,"V;SBJV;SG;1;PRS
+",1e-05,3.666666666666667e-05,p o ʃ t i
+poschte,poschtisch,"V;SBJV;SG;2;PRS
+",0.0,3.666666666666667e-05,p o ʃ t i ʃ
+poschte,poschti,"V;SBJV;SG;3;PRS
+",1e-05,3.666666666666667e-05,p o ʃ t i
+poschte,poschtid,"V;SBJV;PL;1;PRS
+",0.0,3.666666666666667e-05,p o ʃ t i d
+poschte,poschtid,"V;SBJV;PL;2;PRS
+",0.0,3.666666666666667e-05,p o ʃ t i d
+poschte,poschtid,"V;SBJV;PL;3;PRS
+",0.0,3.666666666666667e-05,p o ʃ t i d
+prichte,prichte,"V;IND;SG;1;PRS
+",7e-05,1.4166666666666668e-05,p r i x t ə
+prichte,prichtisch,"V;IND;SG;2;PRS
+",0.0,1.4166666666666668e-05,p r i x t i ʃ
+prichte,prichtet,"V;IND;SG;3;PRS
+",0.0001,1.4166666666666668e-05,p r i x t ə t
+prichte,prichted,"V;IND;PL;1;PRS
+",0.0,1.4166666666666668e-05,p r i x t ə d
+prichte,prichted,"V;IND;PL;2;PRS
+",0.0,1.4166666666666668e-05,p r i x t ə d
+prichte,prichted,"V;IND;PL;3;PRS
+",0.0,1.4166666666666668e-05,p r i x t ə d
+prichte,prichti,"V;SBJV;SG;1;PRS
+",0.0,1.4166666666666668e-05,p r i x t i
+prichte,prichtisch,"V;SBJV;SG;2;PRS
+",0.0,1.4166666666666668e-05,p r i x t i ʃ
+prichte,prichti,"V;SBJV;SG;3;PRS
+",0.0,1.4166666666666668e-05,p r i x t i
+prichte,prichtid,"V;SBJV;PL;1;PRS
+",0.0,1.4166666666666668e-05,p r i χ t i d
+prichte,prichtid,"V;SBJV;PL;2;PRS
+",0.0,1.4166666666666668e-05,p r i χ t i d
+prichte,prichtid,"V;SBJV;PL;3;PRS
+",0.0,1.4166666666666668e-05,p r i χ t i d
+rächne,rächne,"V;IND;SG;1;PRS
+",0.00026,2.5833333333333342e-05,r æ x n ə
+rächne,rächnisch,"V;IND;SG;2;PRS
+",0.0,2.5833333333333342e-05,r æ x n i ʃ
+rächne,rächneet,"V;IND;SG;3;PRS
+",0.0,2.5833333333333342e-05,r æ χ n eː t
+rächne,rächned,"V;IND;PL;1;PRS
+",1e-05,2.5833333333333342e-05,r æ x n ə d
+rächne,rächned,"V;IND;PL;2;PRS
+",1e-05,2.5833333333333342e-05,r æ x n ə d
+rächne,rächned,"V;IND;PL;3;PRS
+",1e-05,2.5833333333333342e-05,r æ x n ə d
+rächne,rächni,"V;SBJV;SG;1;PRS
+",1e-05,2.5833333333333342e-05,r æ x n i
+rächne,rächnisch,"V;SBJV;SG;2;PRS
+",0.0,2.5833333333333342e-05,r æ x n i ʃ
+rächne,rächni,"V;SBJV;SG;3;PRS
+",1e-05,2.5833333333333342e-05,r æ x n i
+rächne,rächnid,"V;SBJV;PL;1;PRS
+",0.0,2.5833333333333342e-05,r æ χ n i d
+rächne,rächnid,"V;SBJV;PL;2;PRS
+",0.0,2.5833333333333342e-05,r æ χ n i d
+rächne,rächnid,"V;SBJV;PL;3;PRS
+",0.0,2.5833333333333342e-05,r æ χ n i d
+saage,saage,"V;IND;SG;1;PRS
+",0.00061,5.083333333333333e-05,s ɑː ɡ ə
+saage,saagisch,"V;IND;SG;2;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ i ʃ
+saage,saageet,"V;IND;SG;3;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ̊ eː t
+saage,saaged,"V;IND;PL;1;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ̊ ə d
+saage,saaged,"V;IND;PL;2;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ̊ ə d
+saage,saaged,"V;IND;PL;3;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ̊ ə d
+saage,saagi,"V;SBJV;SG;1;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ i
+saage,saagisch,"V;SBJV;SG;2;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ i ʃ
+saage,saagi,"V;SBJV;SG;3;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ i
+saage,saagid,"V;SBJV;PL;1;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ̊ i d̥
+saage,saagid,"V;SBJV;PL;2;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ̊ i d̥
+saage,saagid,"V;SBJV;PL;3;PRS
+",0.0,5.083333333333333e-05,s ɑː ɡ̊ i d̥
+waarte,waarte,"V;IND;SG;1;PRS
+",0.00019,1.5833333333333333e-05,v ɑː r t ə
+waarte,waartisch,"V;IND;SG;2;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t i ʃ
+waarte,waarteet,"V;IND;SG;3;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t eː t
+waarte,waarted,"V;IND;PL;1;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t ə d̥
+waarte,waarted,"V;IND;PL;2;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t ə d̥
+waarte,waarted,"V;IND;PL;3;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t ə d̥
+waarte,waarti,"V;SBJV;SG;1;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t i
+waarte,waartisch,"V;SBJV;SG;2;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t i ʃ
+waarte,waarti,"V;SBJV;SG;3;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t i
+waarte,waartid,"V;SBJV;PL;1;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t i d
+waarte,waartid,"V;SBJV;PL;2;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t i d
+waarte,waartid,"V;SBJV;PL;3;PRS
+",0.0,1.5833333333333333e-05,v ɑː r t i d
+zügle,zügle,"V;IND;SG;1;PRS
+",0.00019,2.0833333333333333e-05,t͡s y ɡ̊ l ə
+zügle,züglisch,"V;IND;SG;2;PRS
+",0.0,2.0833333333333333e-05,t͡s y ɡ̊ l i ʃ
+zügle,zügleet,"V;IND;SG;3;PRS
+",0.0,2.0833333333333333e-05,t͡s y ɡ̊ l eː t
+zügle,zügled,"V;IND;PL;1;PRS
+",2e-05,2.0833333333333333e-05,t͡s y ɡ̊ l ə d
+zügle,zügled,"V;IND;PL;2;PRS
+",2e-05,2.0833333333333333e-05,t͡s y ɡ̊ l ə d
+zügle,zügled,"V;IND;PL;3;PRS
+",2e-05,2.0833333333333333e-05,t͡s y ɡ̊ l ə d
+zügle,zügli,"V;SBJV;SG;1;PRS
+",0.0,2.0833333333333333e-05,t͡s y ɡ̊ l i
+zügle,züglisch,"V;SBJV;SG;2;PRS
+",0.0,2.0833333333333333e-05,t͡s y ɡ̊ l i ʃ
+zügle,zügli,"V;SBJV;SG;3;PRS
+",0.0,2.0833333333333333e-05,t͡s y ɡ̊ l i
+zügle,züglid,"V;SBJV;PL;1;PRS
+",0.0,2.0833333333333333e-05,t͡s y ɡ̊ l i t
+zügle,züglid,"V;SBJV;PL;2;PRS
+",0.0,2.0833333333333333e-05,t͡s y ɡ̊ l i t
+zügle,züglid,"V;SBJV;PL;3;PRS
+",0.0,2.0833333333333333e-05,t͡s y ɡ̊ l i t
+butze,butze,"V;IND;SG;1;PRS
+",0.00011,1.5e-05,b u t͡s ə
+butze,butzisch,"V;IND;SG;2;PRS
+",1e-05,1.5e-05,b u t͡s i ʃ
+butze,butzt,"V;IND;SG;3;PRS
+",5e-05,1.5e-05,b u t͡s t
+butze,butzed,"V;IND;PL;1;PRS
+",0.0,1.5e-05,b̥ u t͡s ə d̥
+butze,butzed,"V;IND;PL;2;PRS
+",0.0,1.5e-05,b̥ u t͡s ə d̥
+butze,butzed,"V;IND;PL;3;PRS
+",0.0,1.5e-05,b̥ u t͡s ə d̥
+butze,butzi,"V;SBJV;SG;1;PRS
+",0.0,1.5e-05,b̥ u t͡s i
+butze,butzisch,"V;SBJV;SG;2;PRS
+",1e-05,1.5e-05,b u t͡s i ʃ
+butze,butzi,"V;SBJV;SG;3;PRS
+",0.0,1.5e-05,b̥ u t͡s i
+butze,butzid,"V;SBJV;PL;1;PRS
+",0.0,1.5e-05,b̥ u t͡s i d̥
+butze,butzid,"V;SBJV;PL;2;PRS
+",0.0,1.5e-05,b̥ u t͡s i d̥
+butze,butzid,"V;SBJV;PL;3;PRS
+",0.0,1.5e-05,b̥ u t͡s i d̥
+grüesse,grüesse,"V;IND;SG;1;PRS
+",8e-05,2.5e-05,ɡ r y ɛ sː ə
+grüesse,grüessisch,"V;IND;SG;2;PRS
+",1e-05,2.5e-05,ɡ r y ɛ sː i ʃ
+grüesse,grüesst,"V;IND;SG;3;PRS
+",8e-05,2.5e-05,ɡ r y ə s t
+grüesse,grüessed,"V;IND;PL;1;PRS
+",4e-05,2.5e-05,ɡ r y ə sː ə t
+grüesse,grüessed,"V;IND;PL;2;PRS
+",4e-05,2.5e-05,ɡ r y ə sː ə t
+grüesse,grüessed,"V;IND;PL;3;PRS
+",4e-05,2.5e-05,ɡ r y ə sː ə t
+grüesse,grüessi,"V;SBJV;SG;1;PRS
+",0.0,2.5e-05,ɡ r y ɛ sː i
+grüesse,grüessisch,"V;SBJV;SG;2;PRS
+",1e-05,2.5e-05,ɡ r y ɛ sː i ʃ
+grüesse,grüessi,"V;SBJV;SG;3;PRS
+",0.0,2.5e-05,ɡ r y ɛ sː i
+grüesse,grüessid,"V;SBJV;PL;1;PRS
+",0.0,2.5e-05,ɡ r y ə sː i d̥
+grüesse,grüessid,"V;SBJV;PL;2;PRS
+",0.0,2.5e-05,ɡ r y ə sː i d̥
+grüesse,grüessid,"V;SBJV;PL;3;PRS
+",0.0,2.5e-05,ɡ r y ə sː i d̥
+lösche,lösche,"V;IND;SG;1;PRS
+",0.00022,2.0833333333333333e-05,l ø ʃ ə
+lösche,löschisch,"V;IND;SG;2;PRS
+",0.0,2.0833333333333333e-05,l ø ʃ i ʃ
+lösche,lösct,"V;IND;SG;3;PRS
+",0.0,2.0833333333333333e-05,l ø s k t
+lösche,lösched,"V;IND;PL;1;PRS
+",1e-05,2.0833333333333333e-05,l ø ʃ ə d
+lösche,lösched,"V;IND;PL;2;PRS
+",1e-05,2.0833333333333333e-05,l ø ʃ ə d
+lösche,lösched,"V;IND;PL;3;PRS
+",1e-05,2.0833333333333333e-05,l ø ʃ ə d
+lösche,löschi,"V;SBJV;SG;1;PRS
+",0.0,2.0833333333333333e-05,l ø ʃ i
+lösche,löschisch,"V;SBJV;SG;2;PRS
+",0.0,2.0833333333333333e-05,l ø ʃ i ʃ
+lösche,löschi,"V;SBJV;SG;3;PRS
+",0.0,2.0833333333333333e-05,l ø ʃ i
+lösche,löschid,"V;SBJV;PL;1;PRS
+",0.0,2.0833333333333333e-05,l ø ʃ i d
+lösche,löschid,"V;SBJV;PL;2;PRS
+",0.0,2.0833333333333333e-05,l ø ʃ i d
+lösche,löschid,"V;SBJV;PL;3;PRS
+",0.0,2.0833333333333333e-05,l ø ʃ i d
+nütze,nütze,"V;IND;SG;1;PRS
+",0.00017,2.666666666666667e-05,n y t s ə
+nütze,nützisch,"V;IND;SG;2;PRS
+",0.0,2.666666666666667e-05,n y t͡s i ʃ
+nütze,nützet,"V;IND;SG;3;PRS
+",1e-05,2.666666666666667e-05,n y t͡s ə t
+nütze,nützed,"V;IND;PL;1;PRS
+",2e-05,2.666666666666667e-05,n y t͡s ə d̥
+nütze,nützed,"V;IND;PL;2;PRS
+",2e-05,2.666666666666667e-05,n y t͡s ə d̥
+nütze,nützed,"V;IND;PL;3;PRS
+",2e-05,2.666666666666667e-05,n y t͡s ə d̥
+nütze,nützi,"V;SBJV;SG;1;PRS
+",4e-05,2.666666666666667e-05,n y t s i
+nütze,nützisch,"V;SBJV;SG;2;PRS
+",0.0,2.666666666666667e-05,n y t͡s i ʃ
+nütze,nützi,"V;SBJV;SG;3;PRS
+",4e-05,2.666666666666667e-05,n y t s i
+nütze,nützid,"V;SBJV;PL;1;PRS
+",0.0,2.666666666666667e-05,n y t s i t
+nütze,nützid,"V;SBJV;PL;2;PRS
+",0.0,2.666666666666667e-05,n y t s i t
+nütze,nützid,"V;SBJV;PL;3;PRS
+",0.0,2.666666666666667e-05,n y t s i t
+passe,passe,"V;IND;SG;1;PRS
+",0.0004,0.0002158333333333,p ɑ sː ə
+passe,passisch,"V;IND;SG;2;PRS
+",0.0,0.0002158333333333,p ɑ sː i ʃ
+passe,passt,"V;IND;SG;3;PRS
+",0.00167,0.0002158333333333,p ɑ sː t
+passe,passed,"V;IND;PL;1;PRS
+",0.00015,0.0002158333333333,p ɑ sː ə d̥
+passe,passed,"V;IND;PL;2;PRS
+",0.00015,0.0002158333333333,p ɑ sː ə d̥
+passe,passed,"V;IND;PL;3;PRS
+",0.00015,0.0002158333333333,p ɑ sː ə d̥
+passe,passi,"V;SBJV;SG;1;PRS
+",2e-05,0.0002158333333333,p ɑ sː i
+passe,passisch,"V;SBJV;SG;2;PRS
+",0.0,0.0002158333333333,p ɑ sː i ʃ
+passe,passi,"V;SBJV;SG;3;PRS
+",2e-05,0.0002158333333333,p ɑ sː i
+passe,passid,"V;SBJV;PL;1;PRS
+",1e-05,0.0002158333333333,p ɑ sː i d̥
+passe,passid,"V;SBJV;PL;2;PRS
+",1e-05,0.0002158333333333,p ɑ sː i d̥
+passe,passid,"V;SBJV;PL;3;PRS
+",1e-05,0.0002158333333333,p ɑ sː i d̥
+schwitze,schwitze,"V;IND;SG;1;PRS
+",0.00019,2.25e-05,ʃ ʋ i t͡s ə
+schwitze,schwitzisch,"V;IND;SG;2;PRS
+",4e-05,2.25e-05,ʃ ʋ i t͡s i ʃ
+schwitze,schwitt,"V;IND;SG;3;PRS
+",0.0,2.25e-05,ʃ ʋ i tː
+schwitze,schwitzed,"V;IND;PL;1;PRS
+",0.0,2.25e-05,ʃ ʋ i t͡s ə d̥
+schwitze,schwitzed,"V;IND;PL;2;PRS
+",0.0,2.25e-05,ʃ ʋ i t͡s ə d̥
+schwitze,schwitzed,"V;IND;PL;3;PRS
+",0.0,2.25e-05,ʃ ʋ i t͡s ə d̥
+schwitze,schwitzi,"V;SBJV;SG;1;PRS
+",0.0,2.25e-05,ʃ ʋ i t͡s i
+schwitze,schwitzisch,"V;SBJV;SG;2;PRS
+",4e-05,2.25e-05,ʃ ʋ i t͡s i ʃ
+schwitze,schwitzi,"V;SBJV;SG;3;PRS
+",0.0,2.25e-05,ʃ ʋ i t͡s i
+schwitze,schwitzid,"V;SBJV;PL;1;PRS
+",0.0,2.25e-05,ʃ ʋ i t͡s i t
+schwitze,schwitzid,"V;SBJV;PL;2;PRS
+",0.0,2.25e-05,ʃ ʋ i t͡s i t
+schwitze,schwitzid,"V;SBJV;PL;3;PRS
+",0.0,2.25e-05,ʃ ʋ i t͡s i t
+sitze,sitze,"V;IND;SG;1;PRS
+",0.0006,9.5e-05,z i t͡s ə
+sitze,sitzisch,"V;IND;SG;2;PRS
+",5e-05,9.5e-05,z i t͡s i ʃ
+sitze,sitzet,"V;IND;SG;3;PRS
+",3e-05,9.5e-05,z i t͡s ə t
+sitze,sitzed,"V;IND;PL;1;PRS
+",0.00012,9.5e-05,z i t͡s ə d̥
+sitze,sitzed,"V;IND;PL;2;PRS
+",0.00012,9.5e-05,z i t͡s ə d̥
+sitze,sitzed,"V;IND;PL;3;PRS
+",0.00012,9.5e-05,z i t͡s ə d̥
+sitze,sitzi,"V;SBJV;SG;1;PRS
+",1e-05,9.5e-05,s i t͡s i
+sitze,sitzisch,"V;SBJV;SG;2;PRS
+",5e-05,9.5e-05,z i t͡s i ʃ
+sitze,sitzi,"V;SBJV;SG;3;PRS
+",1e-05,9.5e-05,s i t͡s i
+sitze,sitzid,"V;SBJV;PL;1;PRS
+",1e-05,9.5e-05,s i t s i d̥
+sitze,sitzid,"V;SBJV;PL;2;PRS
+",1e-05,9.5e-05,s i t s i d̥
+sitze,sitzid,"V;SBJV;PL;3;PRS
+",1e-05,9.5e-05,s i t s i d̥
+wäsche,wäsche,"V;IND;SG;1;PRS
+",0.00029,2.4166666666666667e-05,v æ ʃ ə
+wäsche,wäschisch,"V;IND;SG;2;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ i ʃ
+wäsche,wäschet,"V;IND;SG;3;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ ə t
+wäsche,wäsched,"V;IND;PL;1;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ ə d
+wäsche,wäsched,"V;IND;PL;2;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ ə d
+wäsche,wäsched,"V;IND;PL;3;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ ə d
+wäsche,wäschi,"V;SBJV;SG;1;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ i
+wäsche,wäschisch,"V;SBJV;SG;2;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ i ʃ
+wäsche,wäschi,"V;SBJV;SG;3;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ i
+wäsche,wäschid,"V;SBJV;PL;1;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ i d̥
+wäsche,wäschid,"V;SBJV;PL;2;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ i d̥
+wäsche,wäschid,"V;SBJV;PL;3;PRS
+",0.0,2.4166666666666667e-05,v æ ʃ i d̥
+sii,bis,"V;IMP;SG;2
+",0.02601,0.0213494736842105,b i s
+sii,bi,"V;IND;SG;1;PRS
+",0.05205,0.0213494736842105,b i
+sii,bisch,"V;IND;SG;2;PRS
+",0.00776,0.0213494736842105,b i ʃ
+sii,isch,"V;IND;SG;3;PRS
+",0.23339,0.0213494736842105,i ʃ
+sii,sind,"V;IND;PL;1;PRS
+",0.04115,0.0213494736842105,s i n d
+sii,sind,"V;IND;PL;2;PRS
+",0.04115,0.0213494736842105,s i n d
+sii,sine,"V;IND;PL;3;PRS
+",0.00208,0.0213494736842105,s i n ə
+sii,seig,"V;SBJV;SG;1;PRS
+",0.00059,0.0213494736842105,s ɛ ɪ̯ ɡ̊
+sii,seigsch,"V;SBJV;SG;2;PRS
+",2e-05,0.0213494736842105,s ɛ i̯ ɡ̊ ʃ
+sii,seig,"V;SBJV;SG;3;PRS
+",0.00059,0.0213494736842105,s ɛ ɪ̯ ɡ̊
+sii,seigid,"V;SBJV;PL;1;PRS
+",9e-05,0.0213494736842105,s ɛ i̯ ɡ̊ i d̥
+sii,seigid,"V;SBJV;PL;2;PRS
+",9e-05,0.0213494736842105,s ɛ i̯ ɡ̊ i d̥
+sii,seigid,"V;SBJV;PL;3;PRS
+",9e-05,0.0213494736842105,s ɛ i̯ ɡ̊ i d̥
+sii,wèèr,"V;SBJV;SG;1;PST
+",0.00029,0.0213494736842105,v ɛː r
+sii,wèèrsch,"V;SBJV;SG;2;PST
+",0.0,0.0213494736842105,v eː r ʃ
+sii,wèèr,"V;SBJV;SG;3;PST
+",0.00029,0.0213494736842105,v ɛː r
+sii,wèèrid,"V;SBJV;PL;1;PST
+",0.0,0.0213494736842105,v ɛː r i d̥
+sii,wèèrid,"V;SBJV;PL;2;PST
+",0.0,0.0213494736842105,v ɛː r i d̥
+sii,wèèrid,"V;SBJV;PL;3;PST
+",0.0,0.0213494736842105,v ɛː r i d̥
+haa,heb,"V;IMP;SG;2
+",0.0005,0.0091042105263157,h e b̥
+haa,ha,"V;IND;SG;1;PRS
+",0.03793,0.0091042105263157,h ɑ
+haa,häsch,"V;IND;SG;2;PRS
+",0.00302,0.0091042105263157,h æ ʃ
+haa,hät,"V;IND;SG;3;PRS
+",0.02698,0.0091042105263157,h æ t
+haa,händ,"V;IND;PL;1;PRS
+",0.02595,0.0091042105263157,h æ n d
+haa,händ,"V;IND;PL;2;PRS
+",0.02595,0.0091042105263157,h æ n d
+haa,händ,"V;IND;PL;3;PRS
+",0.02595,0.0091042105263157,h æ n d
+haa,heb,"V;SBJV;SG;1;PRS
+",0.0005,0.0091042105263157,h e b̥
+haa,hebsch,"V;SBJV;SG;2;PRS
+",2e-05,0.0091042105263157,h e p ʃ
+haa,heb,"V;SBJV;SG;3;PRS
+",0.0005,0.0091042105263157,h e b̥
+haa,hebid,"V;SBJV;PL;1;PRS
+",3e-05,0.0091042105263157,h e b i d
+haa,hebid,"V;SBJV;PL;2;PRS
+",3e-05,0.0091042105263157,h e b i d
+haa,hebid,"V;SBJV;PL;3;PRS
+",3e-05,0.0091042105263157,h e b i d
+haa,hett,"V;SBJV;SG;1;PST
+",0.01269,0.0091042105263157,h e tː
+haa,hettsch,"V;SBJV;SG;2;PST
+",6e-05,0.0091042105263157,h e t ʃ
+haa,hett,"V;SBJV;SG;3;PST
+",0.01269,0.0091042105263157,h e tː
+haa,hettid,"V;SBJV;PL;1;PST
+",5e-05,0.0091042105263157,h e tː i d̥
+haa,hettid,"V;SBJV;PL;2;PST
+",5e-05,0.0091042105263157,h e tː i d̥
+haa,hettid,"V;SBJV;PL;3;PST
+",5e-05,0.0091042105263157,h e tː i d̥
+gaa,gang,"V;IMP;SG;2
+",0.00141,0.0005005263157894,ɡ̊ ɑ ŋ
+gaa,gaan,"V;IND;SG;1;PRS
+",0.0,0.0005005263157894,ɡ̊ ɑː n
+gaa,gaasch,"V;IND;SG;2;PRS
+",3e-05,0.0005005263157894,ɡ̊ ɑː ʃ
+gaa,gaat,"V;IND;SG;3;PRS
+",0.0007,0.0005005263157894,ɡ̊ ɑː t
+gaa,gönd,"V;IND;PL;1;PRS
+",0.0022,0.0005005263157894,ɡ̊ ø n d̥
+gaa,gönd,"V;IND;PL;2;PRS
+",0.0022,0.0005005263157894,ɡ̊ ø n d̥
+gaa,gönd,"V;IND;PL;3;PRS
+",0.0022,0.0005005263157894,ɡ̊ ø n d̥
+gaa,göng,"V;SBJV;SG;1;PRS
+",0.00016,0.0005005263157894,ɡ̊ ø ŋ
+gaa,göngsch,"V;SBJV;SG;2;PRS
+",0.0,0.0005005263157894,ɡ ø ŋ ʃ
+gaa,göng,"V;SBJV;SG;3;PRS
+",0.00016,0.0005005263157894,ɡ̊ ø ŋ
+gaa,göngid,"V;SBJV;PL;1;PRS
+",1e-05,0.0005005263157894,ɡ̊ ø ŋ i d̥
+gaa,göngid,"V;SBJV;PL;2;PRS
+",1e-05,0.0005005263157894,ɡ̊ ø ŋ i d̥
+gaa,göngid,"V;SBJV;PL;3;PRS
+",1e-05,0.0005005263157894,ɡ̊ ø ŋ i d̥
+gaa,gieng,"V;SBJV;SG;1;PST
+",0.00021,0.0005005263157894,ɡ̊ i ə̯ ŋ
+gaa,giengsch,"V;SBJV;SG;2;PST
+",0.0,0.0005005263157894,ɡ̊ i̯ ə ŋ ʃ
+gaa,gieng,"V;SBJV;SG;3;PST
+",0.00021,0.0005005263157894,ɡ̊ i ə̯ ŋ
+gaa,giengid,"V;SBJV;PL;1;PST
+",0.0,0.0005005263157894,ɡ̊ i ə ŋ i d̥
+gaa,giengid,"V;SBJV;PL;2;PST
+",0.0,0.0005005263157894,ɡ̊ i ə ŋ i d̥
+gaa,giengid,"V;SBJV;PL;3;PST
+",0.0,0.0005005263157894,ɡ̊ i ə ŋ i d̥
+tue,tue,"V;IMP;SG;2
+",0.00257,0.0006752631578947,t u ə
+tue,tue,"V;IND;SG;1;PRS
+",0.00257,0.0006752631578947,t u ə
+tue,tuesch,"V;IND;SG;2;PRS
+",0.00026,0.0006752631578947,t u ə ʃ
+tue,tuet,"V;IND;SG;3;PRS
+",0.00392,0.0006752631578947,t u ə t
+tue,tüend,"V;IND;PL;1;PRS
+",0.00112,0.0006752631578947,t y ə n d
+tue,tüend,"V;IND;PL;2;PRS
+",0.00112,0.0006752631578947,t y ə n d
+tue,tüend,"V;IND;PL;3;PRS
+",0.00112,0.0006752631578947,t y ə n d
+tue,tüeg,"V;SBJV;SG;1;PRS
+",6e-05,0.0006752631578947,t y ə ɡ̊
+tue,tüegsch,"V;SBJV;SG;2;PRS
+",0.0,0.0006752631578947,t y ə ɡ̊ ʃ
+tue,tüeg,"V;SBJV;SG;3;PRS
+",6e-05,0.0006752631578947,t y ə ɡ̊
+tue,tüegid,"V;SBJV;PL;1;PRS
+",1e-05,0.0006752631578947,t y ə ɡ i d
+tue,tüegid,"V;SBJV;PL;2;PRS
+",1e-05,0.0006752631578947,t y ə ɡ i d
+tue,tüegid,"V;SBJV;PL;3;PRS
+",1e-05,0.0006752631578947,t y ə ɡ i d
+tue,tèèt,"V;SBJV;SG;1;PST
+",0.0,0.0006752631578947,t ɛː t
+tue,tèètsch,"V;SBJV;SG;2;PST
+",0.0,0.0006752631578947,t ɛː t ʃ
+tue,tèèt,"V;SBJV;SG;3;PST
+",0.0,0.0006752631578947,t ɛː t
+tue,tèètid,"V;SBJV;PL;1;PST
+",0.0,0.0006752631578947,t ɛː t i d
+tue,tèètid,"V;SBJV;PL;2;PST
+",0.0,0.0006752631578947,t ɛː t i d
+tue,tèètid,"V;SBJV;PL;3;PST
+",0.0,0.0006752631578947,t ɛː t i d
+gèè,gib,"V;IMP;SG;2
+",0.00048,0.0007536842105263,ɡ i b̥
+gèè,gibe,"V;IND;SG;1;PRS
+",0.00025,0.0007536842105263,ɡ̊ i b ə
+gèè,gisch,"V;IND;SG;2;PRS
+",0.00038,0.0007536842105263,ɡ i ʃ
+gèè,git,"V;IND;SG;3;PRS
+",0.01135,0.0007536842105263,ɡ̊ i t
+gèè,gänd,"V;IND;PL;1;PRS
+",0.00037,0.0007536842105263,ɡ̊ æ n d̥
+gèè,gänd,"V;IND;PL;2;PRS
+",0.00037,0.0007536842105263,ɡ̊ æ n d̥
+gèè,gänd,"V;IND;PL;3;PRS
+",0.00037,0.0007536842105263,ɡ̊ æ n d̥
+gèè,gäb,"V;SBJV;SG;1;PRS
+",0.00034,0.0007536842105263,ɡ̊ æ b̥
+gèè,gäbsch,"V;SBJV;SG;2;PRS
+",2e-05,0.0007536842105263,ɡ̊ æ p ʃ
+gèè,gäb,"V;SBJV;SG;3;PRS
+",0.00034,0.0007536842105263,ɡ̊ æ b̥
+gèè,gäbid,"V;SBJV;PL;1;PRS
+",1e-05,0.0007536842105263,ɡ̊ æ b i d̥
+gèè,gäbid,"V;SBJV;PL;2;PRS
+",1e-05,0.0007536842105263,ɡ̊ æ b i d̥
+gèè,gäbid,"V;SBJV;PL;3;PRS
+",1e-05,0.0007536842105263,ɡ̊ æ b i d̥
+gèè,gèèb,"V;SBJV;SG;1;PST
+",1e-05,0.0007536842105263,ɡ̊ ɛː b̥
+gèè,gèèbsch,"V;SBJV;SG;2;PST
+",0.0,0.0007536842105263,ɡ̊ eː p ʃ
+gèè,gèèb,"V;SBJV;SG;3;PST
+",1e-05,0.0007536842105263,ɡ̊ ɛː b̥
+gèè,gèèbid,"V;SBJV;PL;1;PST
+",0.0,0.0007536842105263,ɡ̊ eː b i d̥
+gèè,gèèbid,"V;SBJV;PL;2;PST
+",0.0,0.0007536842105263,ɡ̊ eː b i d̥
+gèè,gèèbid,"V;SBJV;PL;3;PST
+",0.0,0.0007536842105263,ɡ̊ eː b i d̥
+wele,wott,"V;IND;SG;1;PRS
+",0.00511,0.0014821052631578,v o tː
+wele,wottsch,"V;IND;SG;2;PRS
+",0.00019,0.0014821052631578,v o t ʃ
+wele,wott,"V;IND;SG;3;PRS
+",0.00511,0.0014821052631578,v o tː
+wele,wänd,"V;IND;PL;1;PRS
+",0.00141,0.0014821052631578,v æ n d̥
+wele,wänd,"V;IND;PL;2;PRS
+",0.00141,0.0014821052631578,v æ n d̥
+wele,wänd,"V;IND;PL;3;PRS
+",0.00141,0.0014821052631578,v æ n d̥
+wele,well,"V;SBJV;SG;1;PRS
+",0.00367,0.0014821052631578,v e l
+wele,welsch,"V;SBJV;SG;2;PRS
+",2e-05,0.0014821052631578,v ɛ l ʃ
+wele,well,"V;SBJV;SG;3;PRS
+",0.00367,0.0014821052631578,v e l
+wele,wellid,"V;SBJV;PL;1;PRS
+",2e-05,0.0014821052631578,v ɛ lː i d̥
+wele,wellid,"V;SBJV;PL;2;PRS
+",2e-05,0.0014821052631578,v ɛ lː i d̥
+wele,wellid,"V;SBJV;PL;3;PRS
+",2e-05,0.0014821052631578,v ɛ lː i d̥
+wele,wett,"V;SBJV;SG;1;PST
+",0.00287,0.0014821052631578,v e tː
+wele,wettsch,"V;SBJV;SG;2;PST
+",0.00012,0.0014821052631578,v e t ʃ
+wele,wett,"V;SBJV;SG;3;PST
+",0.00287,0.0014821052631578,v e tː
+wele,wettid,"V;SBJV;PL;1;PST
+",8e-05,0.0014821052631578,v e tː i d̥
+wele,wettid,"V;SBJV;PL;2;PST
+",8e-05,0.0014821052631578,v e tː i d̥
+wele,wettid,"V;SBJV;PL;3;PST
+",8e-05,0.0014821052631578,v e tː i d̥
+müese,muesch,"V;IMP;SG;2
+",0.0039,0.0012657894736842,m u ə ʃ
+müese,mues,"V;IND;SG;1;PRS
+",0.00456,0.0012657894736842,m u ə s
+müese,muesch,"V;IND;SG;2;PRS
+",0.0039,0.0012657894736842,m u ə ʃ
+müese,mues,"V;IND;SG;3;PRS
+",0.00456,0.0012657894736842,m u ə s
+müese,müend,"V;IND;PL;1;PRS
+",0.00215,0.0012657894736842,m y ə n d
+müese,müend,"V;IND;PL;2;PRS
+",0.00215,0.0012657894736842,m y ə n d
+müese,müend,"V;IND;PL;3;PRS
+",0.00215,0.0012657894736842,m y ə n d
+müese,mües,"V;SBJV;SG;1;PRS
+",0.00016,0.0012657894736842,m y ə s
+müese,müesisch,"V;SBJV;SG;2;PRS
+",0.0,0.0012657894736842,m y ə s i ʃ
+müese,mües,"V;SBJV;SG;3;PRS
+",0.00016,0.0012657894736842,m y ə s
+müese,müesid,"V;SBJV;PL;1;PRS
+",1e-05,0.0012657894736842,m y ə s i d
+müese,müesid,"V;SBJV;PL;2;PRS
+",1e-05,0.0012657894736842,m y ə s i d
+müese,müesid,"V;SBJV;PL;3;PRS
+",1e-05,0.0012657894736842,m y ə s i d
+müese,müest,"V;SBJV;SG;1;PST
+",0.00014,0.0012657894736842,m y ə s t
+müese,müestisch,"V;SBJV;SG;2;PST
+",2e-05,0.0012657894736842,m y ə s t i ʃ
+müese,müest,"V;SBJV;SG;3;PST
+",0.00014,0.0012657894736842,m y ə s t
+müese,müestid,"V;SBJV;PL;1;PST
+",1e-05,0.0012657894736842,m y ə s t i d
+müese,müestid,"V;SBJV;PL;2;PST
+",1e-05,0.0012657894736842,m y ə s t i d
+müese,müestid,"V;SBJV;PL;3;PST
+",1e-05,0.0012657894736842,m y ə s t i d
+chöne,chasch,"V;IMP;SG;2
+",0.00676,0.0032352631578947,x ɑ ʃ
+chöne,cha,"V;IND;SG;1;PRS
+",0.01601,0.0032352631578947,x ɑ
+chöne,chasch,"V;IND;SG;2;PRS
+",0.00676,0.0032352631578947,x ɑ ʃ
+chöne,cha,"V;IND;SG;3;PRS
+",0.01601,0.0032352631578947,x ɑ
+chöne,chönd,"V;IND;PL;1;PRS
+",0.00418,0.0032352631578947,x ø n d
+chöne,chönd,"V;IND;PL;2;PRS
+",0.00418,0.0032352631578947,x ø n d
+chöne,chönd,"V;IND;PL;3;PRS
+",0.00418,0.0032352631578947,x ø n d
+chöne,chön,"V;SBJV;SG;1;PRS
+",0.00021,0.0032352631578947,x ø n
+chöne,chönsch,"V;SBJV;SG;2;PRS
+",3e-05,0.0032352631578947,x ø n ʃ
+chöne,chön,"V;SBJV;SG;3;PRS
+",0.00021,0.0032352631578947,x ø n
+chöne,chönid,"V;SBJV;PL;1;PRS
+",2e-05,0.0032352631578947,x ø n i d
+chöne,chönid,"V;SBJV;PL;2;PRS
+",2e-05,0.0032352631578947,x ø n i d
+chöne,chönid,"V;SBJV;PL;3;PRS
+",2e-05,0.0032352631578947,x ø n i d
+chöne,chönt,"V;SBJV;SG;1;PST
+",0.0013,0.0032352631578947,x ø n t
+chöne,chöntisch,"V;SBJV;SG;2;PST
+",0.00013,0.0032352631578947,x ø n t i ʃ
+chöne,chönt,"V;SBJV;SG;3;PST
+",0.0013,0.0032352631578947,x ø n t
+chöne,chöntid,"V;SBJV;PL;1;PST
+",5e-05,0.0032352631578947,x ø n t i d
+chöne,chöntid,"V;SBJV;PL;2;PST
+",5e-05,0.0032352631578947,x ø n t i d
+chöne,chöntid,"V;SBJV;PL;3;PST
+",5e-05,0.0032352631578947,x ø n t i d
+möge,mag,"V;IND;SG;1;PRS
+",0.00098,0.0001294736842105,m ɑ ɡ̊
+möge,magsch,"V;IND;SG;2;PRS
+",0.0001,0.0001294736842105,m ɑ ɡ̊ ʃ
+möge,mag,"V;IND;SG;3;PRS
+",0.00098,0.0001294736842105,m ɑ ɡ̊
+möge,möged,"V;IND;PL;1;PRS
+",7e-05,0.0001294736842105,m ø ɡ̊ ə d
+möge,möged,"V;IND;PL;2;PRS
+",7e-05,0.0001294736842105,m ø ɡ̊ ə d
+möge,möged,"V;IND;PL;3;PRS
+",7e-05,0.0001294736842105,m ø ɡ̊ ə d
+möge,mög,"V;SBJV;SG;1;PRS
+",8e-05,0.0001294736842105,m ø ɡ̊
+möge,mögsch,"V;SBJV;SG;2;PRS
+",0.0,0.0001294736842105,m ø k ʃ
+möge,mög,"V;SBJV;SG;3;PRS
+",8e-05,0.0001294736842105,m ø ɡ̊
+möge,mögid,"V;SBJV;PL;1;PRS
+",1e-05,0.0001294736842105,m ø ɡ̊ i d̥
+möge,mögid,"V;SBJV;PL;2;PRS
+",1e-05,0.0001294736842105,m ø ɡ̊ i d̥
+möge,mögid,"V;SBJV;PL;3;PRS
+",1e-05,0.0001294736842105,m ø ɡ̊ i d̥
+möge,mieg,"V;SBJV;SG;1;PST
+",0.0,0.0001294736842105,m i ə̯ ɡ̊
+möge,miegsch,"V;SBJV;SG;2;PST
+",0.0,0.0001294736842105,m i ə̯ ɡ̊ ʃ
+möge,mieg,"V;SBJV;SG;3;PST
+",0.0,0.0001294736842105,m i ə̯ ɡ̊
+möge,miegid,"V;SBJV;PL;1;PST
+",0.0,0.0001294736842105,m i ə ɡ̊ i d̥
+möge,miegid,"V;SBJV;PL;2;PST
+",0.0,0.0001294736842105,m i ə ɡ̊ i d̥
+möge,miegid,"V;SBJV;PL;3;PST
+",0.0,0.0001294736842105,m i ə ɡ̊ i d̥
+nèè,nimm,"V;IMP;SG;2
+",0.00157,0.0002563157894736,n i m
+nèè,nime,"V;IND;SG;1;PRS
+",0.00032,0.0002563157894736,n i m ə
+nèè,nimmsch,"V;IND;SG;2;PRS
+",0.00028,0.0002563157894736,n i m ʃ
+nèè,nimmt,"V;IND;SG;3;PRS
+",0.00205,0.0002563157894736,n i m t
+nèè,nämed,"V;IND;PL;1;PRS
+",0.00015,0.0002563157894736,n æ m ə d
+nèè,nämed,"V;IND;PL;2;PRS
+",0.00015,0.0002563157894736,n æ m ə d
+nèè,nämed,"V;IND;PL;3;PRS
+",0.00015,0.0002563157894736,n æ m ə d
+nèè,näm,"V;SBJV;SG;1;PRS
+",5e-05,0.0002563157894736,n æ m
+nèè,nämsch,"V;SBJV;SG;2;PRS
+",0.0,0.0002563157894736,n æ m ʃ
+nèè,näm,"V;SBJV;SG;3;PRS
+",5e-05,0.0002563157894736,n æ m
+nèè,nämid,"V;SBJV;PL;1;PRS
+",2e-05,0.0002563157894736,n æ m i d
+nèè,nämid,"V;SBJV;PL;2;PRS
+",2e-05,0.0002563157894736,n æ m i d
+nèè,nämid,"V;SBJV;PL;3;PRS
+",2e-05,0.0002563157894736,n æ m i d
+nèè,nèèm,"V;SBJV;SG;1;PST
+",2e-05,0.0002563157894736,n eː m
+nèè,nèèmsch,"V;SBJV;SG;2;PST
+",0.0,0.0002563157894736,n eː m ʃ
+nèè,nèèm,"V;SBJV;SG;3;PST
+",2e-05,0.0002563157894736,n eː m
+nèè,nèèmid,"V;SBJV;PL;1;PST
+",0.0,0.0002563157894736,n eː m i d
+nèè,nèèmid,"V;SBJV;PL;2;PST
+",0.0,0.0002563157894736,n eː m i d
+nèè,nèèmid,"V;SBJV;PL;3;PST
+",0.0,0.0002563157894736,n eː m i d
+ässe,iss,"V;IMP;SG;2
+",6e-05,3.736842105263158e-05,i sː
+ässe,isse,"V;IND;SG;1;PRS
+",6e-05,3.736842105263158e-05,i sː ə
+ässe,issisch,"V;IND;SG;2;PRS
+",5e-05,3.736842105263158e-05,i sː i ʃ
+ässe,isst,"V;IND;SG;3;PRS
+",0.00029,3.736842105263158e-05,i s t
+ässe,ässed,"V;IND;PL;1;PRS
+",7e-05,3.736842105263158e-05,æ sː ə d̥
+ässe,ässed,"V;IND;PL;2;PRS
+",7e-05,3.736842105263158e-05,æ sː ə d̥
+ässe,ässed,"V;IND;PL;3;PRS
+",7e-05,3.736842105263158e-05,æ sː ə d̥
+ässe,ässi,"V;SBJV;SG;1;PRS
+",2e-05,3.736842105263158e-05,æ sː i
+ässe,ässisch,"V;SBJV;SG;2;PRS
+",0.0,3.736842105263158e-05,æ sː i ʃ
+ässe,ässi,"V;SBJV;SG;3;PRS
+",2e-05,3.736842105263158e-05,æ sː i
+ässe,ässid,"V;SBJV;PL;1;PRS
+",0.0,3.736842105263158e-05,æ sː i d̥
+ässe,ässid,"V;SBJV;PL;2;PRS
+",0.0,3.736842105263158e-05,æ sː i d̥
+ässe,ässid,"V;SBJV;PL;3;PRS
+",0.0,3.736842105263158e-05,æ sː i d̥
+ässe,èèss,"V;SBJV;SG;1;PST
+",0.0,3.736842105263158e-05,ɛː sː
+ässe,èèssisch,"V;SBJV;SG;2;PST
+",0.0,3.736842105263158e-05,ɛː sː i ʃ
+ässe,èèss,"V;SBJV;SG;3;PST
+",0.0,3.736842105263158e-05,ɛː sː
+ässe,èèssid,"V;SBJV;PL;1;PST
+",0.0,3.736842105263158e-05,ɛː s i d
+ässe,èèssid,"V;SBJV;PL;2;PST
+",0.0,3.736842105263158e-05,ɛː s i d
+ässe,èèssid,"V;SBJV;PL;3;PST
+",0.0,3.736842105263158e-05,ɛː s i d
+läse,lis,"V;IMP;SG;2
+",5e-05,1.9473684210526315e-05,l i s
+läse,lise,"V;IND;SG;1;PRS
+",6e-05,1.9473684210526315e-05,l i s ə
+läse,lisisch,"V;IND;SG;2;PRS
+",1e-05,1.9473684210526315e-05,l i s i ʃ
+läse,list,"V;IND;SG;3;PRS
+",0.00019,1.9473684210526315e-05,l i s t
+läse,läsed,"V;IND;PL;1;PRS
+",2e-05,1.9473684210526315e-05,l æ s ə d
+läse,läsed,"V;IND;PL;2;PRS
+",2e-05,1.9473684210526315e-05,l æ s ə d
+läse,läsed,"V;IND;PL;3;PRS
+",2e-05,1.9473684210526315e-05,l æ s ə d
+läse,läsi,"V;SBJV;SG;1;PRS
+",0.0,1.9473684210526315e-05,l æ z i
+läse,läsisch,"V;SBJV;SG;2;PRS
+",0.0,1.9473684210526315e-05,l æ s i ʃ
+läse,läsi,"V;SBJV;SG;3;PRS
+",0.0,1.9473684210526315e-05,l æ z i
+läse,läsid,"V;SBJV;PL;1;PRS
+",0.0,1.9473684210526315e-05,l æ s i d̥
+läse,läsid,"V;SBJV;PL;2;PRS
+",0.0,1.9473684210526315e-05,l æ s i d̥
+läse,läsid,"V;SBJV;PL;3;PRS
+",0.0,1.9473684210526315e-05,l æ s i d̥
+läse,lèès,"V;SBJV;SG;1;PST
+",0.0,1.9473684210526315e-05,l eː s
+läse,lèèsisch,"V;SBJV;SG;2;PST
+",0.0,1.9473684210526315e-05,l eː s i ʃ
+läse,lèès,"V;SBJV;SG;3;PST
+",0.0,1.9473684210526315e-05,l eː s
+läse,lèèsid,"V;SBJV;PL;1;PST
+",0.0,1.9473684210526315e-05,l ɛː s i d
+läse,lèèsid,"V;SBJV;PL;2;PST
+",0.0,1.9473684210526315e-05,l ɛː s i d
+läse,lèèsid,"V;SBJV;PL;3;PST
+",0.0,1.9473684210526315e-05,l ɛː s i d
+säge,säg,"V;IMP;SG;2
+",0.00067,0.0005310526315789,z æ ɡ̊
+säge,säge,"V;IND;SG;1;PRS
+",0.00739,0.0005310526315789,z æ ɡ ə
+säge,säisch,"V;IND;SG;2;PRS
+",2e-05,0.0005310526315789,z æ ɪ̯ ʃ
+säge,säit,"V;IND;SG;3;PRS
+",0.00052,0.0005310526315789,z æ ɪ̯ t
+säge,säged,"V;IND;PL;1;PRS
+",0.00033,0.0005310526315789,z æ ɡ ə d
+säge,säged,"V;IND;PL;2;PRS
+",0.00033,0.0005310526315789,z æ ɡ ə d
+säge,säged,"V;IND;PL;3;PRS
+",0.00033,0.0005310526315789,z æ ɡ ə d
+säge,sägi,"V;SBJV;SG;1;PRS
+",0.00012,0.0005310526315789,z æ ɡ i
+säge,sägisch,"V;SBJV;SG;2;PRS
+",0.0,0.0005310526315789,z æ ɡ i ʃ
+säge,sägi,"V;SBJV;SG;3;PRS
+",0.00012,0.0005310526315789,z æ ɡ i
+säge,sägid,"V;SBJV;PL;1;PRS
+",8e-05,0.0005310526315789,z æ ɡ̊ i d̥
+säge,sägid,"V;SBJV;PL;2;PRS
+",8e-05,0.0005310526315789,z æ ɡ̊ i d̥
+säge,sägid,"V;SBJV;PL;3;PRS
+",8e-05,0.0005310526315789,z æ ɡ̊ i d̥
+säge,säiti,"V;SBJV;SG;1;PST
+",1e-05,0.0005310526315789,z æ ɪ̯ t i
+säge,säitisch,"V;SBJV;SG;2;PST
+",0.0,0.0005310526315789,z æ ɪ̯ t i ʃ
+säge,säiti,"V;SBJV;SG;3;PST
+",1e-05,0.0005310526315789,z æ ɪ̯ t i
+säge,säitid,"V;SBJV;PL;1;PST
+",0.0,0.0005310526315789,z æ ɪ̯ t i d
+säge,säitid,"V;SBJV;PL;2;PST
+",0.0,0.0005310526315789,z æ ɪ̯ t i d
+säge,säitid,"V;SBJV;PL;3;PST
+",0.0,0.0005310526315789,z æ ɪ̯ t i d
+choo,chum,"V;IMP;SG;2
+",0.00226,0.0008252631578947,x u m
+choo,chume,"V;IND;SG;1;PRS
+",0.00095,0.0008252631578947,x u m ə
+choo,chunsch,"V;IND;SG;2;PRS
+",0.00102,0.0008252631578947,x u n ʃ
+choo,chunt,"V;IND;SG;3;PRS
+",0.00452,0.0008252631578947,x u n t
+choo,chömed,"V;IND;PL;1;PRS
+",0.00197,0.0008252631578947,x ø m ə d
+choo,chömed,"V;IND;PL;2;PRS
+",0.00197,0.0008252631578947,x ø m ə d
+choo,chömed,"V;IND;PL;3;PRS
+",0.00197,0.0008252631578947,x ø m ə d
+choo,chöm,"V;SBJV;SG;1;PRS
+",0.00021,0.0008252631578947,x ø m
+choo,chömsch,"V;SBJV;SG;2;PRS
+",0.0,0.0008252631578947,x ø m ʃ
+choo,chöm,"V;SBJV;SG;3;PRS
+",0.00021,0.0008252631578947,x ø m
+choo,chömid,"V;SBJV;PL;1;PRS
+",0.00018,0.0008252631578947,x ø m i t
+choo,chömid,"V;SBJV;PL;2;PRS
+",0.00018,0.0008252631578947,x ø m i t
+choo,chömid,"V;SBJV;PL;3;PRS
+",0.00018,0.0008252631578947,x ø m i t
+choo,chèèm,"V;SBJV;SG;1;PST
+",3e-05,0.0008252631578947,x eː m
+choo,chèèmsch,"V;SBJV;SG;2;PST
+",0.0,0.0008252631578947,x eː m ʃ
+choo,chèèm,"V;SBJV;SG;3;PST
+",3e-05,0.0008252631578947,x eː m
+choo,chèèmid,"V;SBJV;PL;1;PST
+",0.0,0.0008252631578947,x eː m i d
+choo,chèèmid,"V;SBJV;PL;2;PST
+",0.0,0.0008252631578947,x eː m i d
+choo,chèèmid,"V;SBJV;PL;3;PST
+",0.0,0.0008252631578947,x eː m i d
+zie,zie,"V;IMP;SG;2
+",0.00017,5.263157894736842e-05,t͡s i ə
+zie,zie,"V;IND;SG;1;PRS
+",0.00017,5.263157894736842e-05,t͡s i ə
+zie,ziesch,"V;IND;SG;2;PRS
+",3e-05,5.263157894736842e-05,t͡s iː ʃ
+zie,ziet,"V;IND;SG;3;PRS
+",0.00017,5.263157894736842e-05,t͡s i ə̯ t
+zie,ziend,"V;IND;PL;1;PRS
+",4e-05,5.263157894736842e-05,t͡s i ə n d̥
+zie,ziend,"V;IND;PL;2;PRS
+",4e-05,5.263157894736842e-05,t͡s i ə n d̥
+zie,ziend,"V;IND;PL;3;PRS
+",4e-05,5.263157894736842e-05,t͡s i ə n d̥
+zie,zie,"V;SBJV;SG;1;PRS
+",0.00017,5.263157894736842e-05,t͡s i ə
+zie,zienisch,"V;SBJV;SG;2;PRS
+",0.0,5.263157894736842e-05,t͡s i ə̯ n i ʃ
+zie,zie,"V;SBJV;SG;3;PRS
+",0.00017,5.263157894736842e-05,t͡s i ə
+zie,zienid,"V;SBJV;PL;1;PRS
+",0.0,5.263157894736842e-05,t͡s i ə n i d
+zie,zienid,"V;SBJV;PL;2;PRS
+",0.0,5.263157894736842e-05,t͡s i ə n i d
+zie,zienid,"V;SBJV;PL;3;PRS
+",0.0,5.263157894736842e-05,t͡s i ə n i d
+zie,zieti,"V;SBJV;SG;1;PST
+",0.0,5.263157894736842e-05,t͡s i ə t i
+zie,zietisch,"V;SBJV;SG;2;PST
+",0.0,5.263157894736842e-05,t͡s i ə̯ t ɪ ʃ
+zie,zieti,"V;SBJV;SG;3;PST
+",0.0,5.263157894736842e-05,t͡s i ə t i
+zie,zietid,"V;SBJV;PL;1;PST
+",0.0,5.263157894736842e-05,t͡s i ə̯ t i d̥
+zie,zietid,"V;SBJV;PL;2;PST
+",0.0,5.263157894736842e-05,t͡s i ə̯ t i d̥
+zie,zietid,"V;SBJV;PL;3;PST
+",0.0,5.263157894736842e-05,t͡s i ə̯ t i d̥
+träffe,triff,"V;IMP;SG;2
+",5e-05,6.578947368421054e-05,t r i f
+träffe,triffe,"V;IND;SG;1;PRS
+",1e-05,6.578947368421054e-05,t r i fː ə
+träffe,triffisch,"V;IND;SG;2;PRS
+",0.0,6.578947368421054e-05,t r i fː ɪ ʃ
+träffe,trifft,"V;IND;SG;3;PRS
+",0.00068,6.578947368421054e-05,t r i f t
+träffe,träffed,"V;IND;PL;1;PRS
+",0.00014,6.578947368421054e-05,t r æ fː ə d̥
+träffe,träffed,"V;IND;PL;2;PRS
+",0.00014,6.578947368421054e-05,t r æ fː ə d̥
+träffe,träffed,"V;IND;PL;3;PRS
+",0.00014,6.578947368421054e-05,t r æ fː ə d̥
+träffe,träffi,"V;SBJV;SG;1;PRS
+",0.0,6.578947368421054e-05,t r æ fː i
+träffe,träffisch,"V;SBJV;SG;2;PRS
+",0.0,6.578947368421054e-05,t r æ fː i ʃ
+träffe,träffi,"V;SBJV;SG;3;PRS
+",0.0,6.578947368421054e-05,t r æ fː i
+träffe,träffid,"V;SBJV;PL;1;PRS
+",3e-05,6.578947368421054e-05,t r æ fː i d̥
+träffe,träffid,"V;SBJV;PL;2;PRS
+",3e-05,6.578947368421054e-05,t r æ fː i d̥
+träffe,träffid,"V;SBJV;PL;3;PRS
+",3e-05,6.578947368421054e-05,t r æ fː i d̥
+träffe,trèèff,"V;SBJV;SG;1;PST
+",0.0,6.578947368421054e-05,t r eː f
+träffe,trèèffisch,"V;SBJV;SG;2;PST
+",0.0,6.578947368421054e-05,t r eː fː i ʃ
+träffe,trèèff,"V;SBJV;SG;3;PST
+",0.0,6.578947368421054e-05,t r eː f
+träffe,trèèffid,"V;SBJV;PL;1;PST
+",0.0,6.578947368421054e-05,t r eː fː i d̥
+träffe,trèèffid,"V;SBJV;PL;2;PST
+",0.0,6.578947368421054e-05,t r eː fː i d̥
+träffe,trèèffid,"V;SBJV;PL;3;PST
+",0.0,6.578947368421054e-05,t r eː fː i d̥
+wüsse,wäiss,"V;IND;SG;1;PRS
+",0.00037,0.0001994736842105,v æ ɪ̯ sː
+wüsse,wäisch,"V;IND;SG;2;PRS
+",7e-05,0.0001994736842105,v æ ɪ̯ ʃ
+wüsse,wäiss,"V;IND;SG;3;PRS
+",0.00037,0.0001994736842105,v æ ɪ̯ sː
+wüsse,wüssed,"V;IND;PL;1;PRS
+",0.00066,0.0001994736842105,v y sː ə d
+wüsse,wüssed,"V;IND;PL;2;PRS
+",0.00066,0.0001994736842105,v y sː ə d
+wüsse,wüssed,"V;IND;PL;3;PRS
+",0.00066,0.0001994736842105,v y sː ə d
+wüsse,wüssi,"V;SBJV;SG;1;PRS
+",0.00011,0.0001994736842105,v y sː i
+wüsse,wüssisch,"V;SBJV;SG;2;PRS
+",0.0,0.0001994736842105,v y sː i ʃ
+wüsse,wüssi,"V;SBJV;SG;3;PRS
+",0.00011,0.0001994736842105,v y sː i
+wüsse,wüssid,"V;SBJV;PL;1;PRS
+",8e-05,0.0001994736842105,v y sː i d̥
+wüsse,wüssid,"V;SBJV;PL;2;PRS
+",8e-05,0.0001994736842105,v y sː i d̥
+wüsse,wüssid,"V;SBJV;PL;3;PRS
+",8e-05,0.0001994736842105,v y sː i d̥
+wüsse,wüsst,"V;SBJV;SG;1;PST
+",0.00025,0.0001994736842105,v y s t
+wüsse,wüsstisch,"V;SBJV;SG;2;PST
+",1e-05,0.0001994736842105,v y s t i ʃ
+wüsse,wüsst,"V;SBJV;SG;3;PST
+",0.00025,0.0001994736842105,v y s t
+wüsse,wüsstid,"V;SBJV;PL;1;PST
+",1e-05,0.0001994736842105,v y s t i d
+wüsse,wüsstid,"V;SBJV;PL;2;PST
+",1e-05,0.0001994736842105,v y s t i d
+wüsse,wüsstid,"V;SBJV;PL;3;PST
+",1e-05,0.0001994736842105,v y s t i d
+sele,sellsch,"V;IMP;SG;2
+",2e-05,0.0003357894736842,s e l ʃ
+sele,sell,"V;IND;SG;1;PRS
+",0.0011,0.0003357894736842,s e l
+sele,sellsch,"V;IND;SG;2;PRS
+",2e-05,0.0003357894736842,s e l ʃ
+sele,sell,"V;IND;SG;3;PRS
+",0.0011,0.0003357894736842,s e l
+sele,seled,"V;IND;PL;1;PRS
+",4e-05,0.0003357894736842,s e l e d
+sele,seled,"V;IND;PL;2;PRS
+",4e-05,0.0003357894736842,s e l e d
+sele,seled,"V;IND;PL;3;PRS
+",4e-05,0.0003357894736842,s e l e d
+sele,sell,"V;SBJV;SG;1;PRS
+",0.0011,0.0003357894736842,s e l
+sele,sellisch,"V;SBJV;SG;2;PRS
+",0.0,0.0003357894736842,s e lː i ʃ
+sele,sell,"V;SBJV;SG;3;PRS
+",0.0011,0.0003357894736842,s e l
+sele,selid,"V;SBJV;PL;1;PRS
+",1e-05,0.0003357894736842,s e l i d
+sele,selid,"V;SBJV;PL;2;PRS
+",1e-05,0.0003357894736842,s e l i d
+sele,selid,"V;SBJV;PL;3;PRS
+",1e-05,0.0003357894736842,s e l i d
+sele,sett,"V;SBJV;SG;1;PST
+",0.00077,0.0003357894736842,s e tː
+sele,settisch,"V;SBJV;SG;2;PST
+",7e-05,0.0003357894736842,z e tː i ʃ
+sele,sett,"V;SBJV;SG;3;PST
+",0.00077,0.0003357894736842,s e tː
+sele,settid,"V;SBJV;PL;1;PST
+",6e-05,0.0003357894736842,s e tː i d̥
+sele,settid,"V;SBJV;PL;2;PST
+",6e-05,0.0003357894736842,s e tː i d̥
+sele,settid,"V;SBJV;PL;3;PST
+",6e-05,0.0003357894736842,s e tː i d̥
+gsee,gsee,"V;IND;SG;1;PRS
+",0.00149,0.00012,k s eː
+gsee,gseesch,"V;IND;SG;2;PRS
+",0.00018,0.00012,k s eː ʃ
+gsee,gseet,"V;IND;SG;3;PRS
+",0.00043,0.00012,k s eː t
+gsee,gseend,"V;IND;PL;1;PRS
+",2e-05,0.00012,k s eː n d̥
+gsee,gseend,"V;IND;PL;2;PRS
+",2e-05,0.00012,k s eː n d̥
+gsee,gseend,"V;IND;PL;3;PRS
+",2e-05,0.00012,k s eː n d̥
+gsee,gsäch,"V;SBJV;SG;1;PRS
+",6e-05,0.00012,k s æ x
+gsee,gsächsch,"V;SBJV;SG;2;PRS
+",0.0,0.00012,k s æ x ʃ
+gsee,gsäch,"V;SBJV;SG;3;PRS
+",6e-05,0.00012,k s æ x
+gsee,gsächid,"V;SBJV;PL;1;PRS
+",0.0,0.00012,k s æ χ i d
+gsee,gsächid,"V;SBJV;PL;2;PRS
+",0.0,0.00012,k s æ χ i d
+gsee,gsächid,"V;SBJV;PL;3;PRS
+",0.0,0.00012,k s æ χ i d
+gsee,gsèèch,"V;SBJV;SG;1;PST
+",0.0,0.00012,k s eː x
+gsee,gsèèchisch,"V;SBJV;SG;2;PST
+",0.0,0.00012,k s eː x i ʃ
+gsee,gsèèch,"V;SBJV;SG;3;PST
+",0.0,0.00012,k s eː x
+gsee,gsèèchid,"V;SBJV;PL;1;PST
+",0.0,0.00012,k s eː x i d
+gsee,gsèèchid,"V;SBJV;PL;2;PST
+",0.0,0.00012,k s eː x i d
+gsee,gsèèchid,"V;SBJV;PL;3;PST
+",0.0,0.00012,k s eː x i d
+staa,stand,"V;IMP;SG;2
+",0.00026,0.0001373684210526,ʃ t ɑ n d
+staa,staa,"V;IND;SG;1;PRS
+",0.00017,0.0001373684210526,ʃ t ɑː
+staa,staasch,"V;IND;SG;2;PRS
+",2e-05,0.0001373684210526,ʃ t ɑː ʃ
+staa,staat,"V;IND;SG;3;PRS
+",0.00033,0.0001373684210526,ʃ t ɑː t
+staa,stönd,"V;IND;PL;1;PRS
+",0.00061,0.0001373684210526,ʃ t ø n d
+staa,stönd,"V;IND;PL;2;PRS
+",0.00061,0.0001373684210526,ʃ t ø n d
+staa,stönd,"V;IND;PL;3;PRS
+",0.00061,0.0001373684210526,ʃ t ø n d
+staa,stöng,"V;SBJV;SG;1;PRS
+",0.0,0.0001373684210526,ʃ t ø ŋ
+staa,stöngisch,"V;SBJV;SG;2;PRS
+",0.0,0.0001373684210526,ʃ t ø ŋ ɪ ʃ
+staa,stöng,"V;SBJV;SG;3;PRS
+",0.0,0.0001373684210526,ʃ t ø ŋ
+staa,stöngid,"V;SBJV;PL;1;PRS
+",0.0,0.0001373684210526,ʃ t ø ŋ i d
+staa,stöngid,"V;SBJV;PL;2;PRS
+",0.0,0.0001373684210526,ʃ t ø ŋ i d
+staa,stöngid,"V;SBJV;PL;3;PRS
+",0.0,0.0001373684210526,ʃ t ø ŋ i d
+staa,stiend,"V;SBJV;SG;1;PST
+",0.0,0.0001373684210526,ʃ t i ə̯ n d̥
+staa,stiendisch,"V;SBJV;SG;2;PST
+",0.0,0.0001373684210526,ʃ t i ə̯ n d i ʃ
+staa,stiend,"V;SBJV;SG;3;PST
+",0.0,0.0001373684210526,ʃ t i ə̯ n d̥
+staa,stiendid,"V;SBJV;PL;1;PST
+",0.0,0.0001373684210526,ʃ t i ə̯ n d i d
+staa,stiendid,"V;SBJV;PL;2;PST
+",0.0,0.0001373684210526,ʃ t i ə̯ n d i d
+staa,stiendid,"V;SBJV;PL;3;PST
+",0.0,0.0001373684210526,ʃ t i ə̯ n d i d
+laa,las,"V;IMP;SG;2
+",6e-05,0.0001394736842105,l ɑ s
+laa,laa,"V;IND;SG;1;PRS
+",0.00044,0.0001394736842105,l ɑː
+laa,laasch,"V;IND;SG;2;PRS
+",0.0,0.0001394736842105,l ɑː ʃ
+laa,laat,"V;IND;SG;3;PRS
+",0.00038,0.0001394736842105,l ɑː t
+laa,lönd,"V;IND;PL;1;PRS
+",0.00052,0.0001394736842105,l ø n d
+laa,lönd,"V;IND;PL;2;PRS
+",0.00052,0.0001394736842105,l ø n d
+laa,lönd,"V;IND;PL;3;PRS
+",0.00052,0.0001394736842105,l ø n d
+laa,lös,"V;SBJV;SG;1;PRS
+",2e-05,0.0001394736842105,l ø s
+laa,lösisch,"V;SBJV;SG;2;PRS
+",0.0,0.0001394736842105,l ø s i ʃ
+laa,lös,"V;SBJV;SG;3;PRS
+",2e-05,0.0001394736842105,l ø s
+laa,lösid,"V;SBJV;PL;1;PRS
+",0.0,0.0001394736842105,l ø s i d
+laa,lösid,"V;SBJV;PL;2;PRS
+",0.0,0.0001394736842105,l ø s i d
+laa,lösid,"V;SBJV;PL;3;PRS
+",0.0,0.0001394736842105,l ø s i d
+laa,lies,"V;SBJV;SG;1;PST
+",8e-05,0.0001394736842105,l i ə s
+laa,liesisch,"V;SBJV;SG;2;PST
+",1e-05,0.0001394736842105,l i ə̯ s i ʃ
+laa,lies,"V;SBJV;SG;3;PST
+",8e-05,0.0001394736842105,l i ə s
+laa,liesid,"V;SBJV;PL;1;PST
+",0.0,0.0001394736842105,l i ə s i d
+laa,liesid,"V;SBJV;PL;2;PST
+",0.0,0.0001394736842105,l i ə s i d
+laa,liesid,"V;SBJV;PL;3;PST
+",0.0,0.0001394736842105,l i ə s i d
+legge,las,"V;IMP;SG;2
+",6e-05,2.6842105263157902e-05,l ɑ s
+legge,legge,"V;IND;SG;1;PRS
+",0.00028,2.6842105263157902e-05,l e ɡ̊ː ə
+legge,läisch,"V;IND;SG;2;PRS
+",0.0,2.6842105263157902e-05,l æ ɪ̯ ʃ
+legge,läit,"V;IND;SG;3;PRS
+",4e-05,2.6842105263157902e-05,l æ ɪ̯ t
+legge,legged,"V;IND;PL;1;PRS
+",3e-05,2.6842105263157902e-05,l e ɡ̊ː ə d
+legge,legged,"V;IND;PL;2;PRS
+",3e-05,2.6842105263157902e-05,l e ɡ̊ː ə d
+legge,legged,"V;IND;PL;3;PRS
+",3e-05,2.6842105263157902e-05,l e ɡ̊ː ə d
+legge,leggi,"V;SBJV;SG;1;PRS
+",2e-05,2.6842105263157902e-05,l e ɡ̊ː i
+legge,leggisch,"V;SBJV;SG;2;PRS
+",0.0,2.6842105263157902e-05,l e ɡ̊ː i ʃ
+legge,leggi,"V;SBJV;SG;3;PRS
+",2e-05,2.6842105263157902e-05,l e ɡ̊ː i
+legge,leggid,"V;SBJV;PL;1;PRS
+",0.0,2.6842105263157902e-05,l e ɡ̊ː i d
+legge,leggid,"V;SBJV;PL;2;PRS
+",0.0,2.6842105263157902e-05,l e ɡ̊ː i d
+legge,leggid,"V;SBJV;PL;3;PRS
+",0.0,2.6842105263157902e-05,l e ɡ̊ː i d
+legge,läiti,"V;SBJV;SG;1;PST
+",0.0,2.6842105263157902e-05,l æ ɪ̯ t i
+legge,läitisch,"V;SBJV;SG;2;PST
+",0.0,2.6842105263157902e-05,l æ ɪ̯ t i ʃ
+legge,läiti,"V;SBJV;SG;3;PST
+",0.0,2.6842105263157902e-05,l æ ɪ̯ t i
+legge,läitid,"V;SBJV;PL;1;PST
+",0.0,2.6842105263157902e-05,l æ ɪ̯ t i d
+legge,läitid,"V;SBJV;PL;2;PST
+",0.0,2.6842105263157902e-05,l æ ɪ̯ t i d
+legge,läitid,"V;SBJV;PL;3;PST
+",0.0,2.6842105263157902e-05,l æ ɪ̯ t i d
+ligge,legg,"V;IMP;SG;2
+",4e-05,7.999999999999999e-05,l e kː
+ligge,ligge,"V;IND;SG;1;PRS
+",0.0004,7.999999999999999e-05,l i ɡ̊ː ə
+ligge,liisch,"V;IND;SG;2;PRS
+",0.0,7.999999999999999e-05,l iː ʃ
+ligge,liit,"V;IND;SG;3;PRS
+",0.0009,7.999999999999999e-05,l iː t
+ligge,ligged,"V;IND;PL;1;PRS
+",6e-05,7.999999999999999e-05,l i ɡ̊ ə d
+ligge,ligged,"V;IND;PL;2;PRS
+",6e-05,7.999999999999999e-05,l i ɡ̊ ə d
+ligge,ligged,"V;IND;PL;3;PRS
+",6e-05,7.999999999999999e-05,l i ɡ̊ ə d
+ligge,liggi,"V;SBJV;SG;1;PRS
+",0.0,7.999999999999999e-05,l i ɡ̊ː i
+ligge,liggisch,"V;SBJV;SG;2;PRS
+",0.0,7.999999999999999e-05,l i ɡ̊ i ʃ
+ligge,liggi,"V;SBJV;SG;3;PRS
+",0.0,7.999999999999999e-05,l i ɡ̊ː i
+ligge,liggid,"V;SBJV;PL;1;PRS
+",0.0,7.999999999999999e-05,l i ɡ̊ː i d
+ligge,liggid,"V;SBJV;PL;2;PRS
+",0.0,7.999999999999999e-05,l i ɡ̊ː i d
+ligge,liggid,"V;SBJV;PL;3;PRS
+",0.0,7.999999999999999e-05,l i ɡ̊ː i d
+ligge,liiti,"V;SBJV;SG;1;PST
+",0.0,7.999999999999999e-05,l iː t i
+ligge,liitisch,"V;SBJV;SG;2;PST
+",0.0,7.999999999999999e-05,l iː t i ʃ
+ligge,liiti,"V;SBJV;SG;3;PST
+",0.0,7.999999999999999e-05,l iː t i
+ligge,liittid,"V;SBJV;PL;1;PST
+",0.0,7.999999999999999e-05,l iː tː i d̥
+ligge,littid,"V;SBJV;PL;2;PST
+",0.0,7.999999999999999e-05,l i tː i d̥
+ligge,liittid,"V;SBJV;PL;3;PST
+",0.0,7.999999999999999e-05,l iː tː i d̥
+wèèrde,ligg,"V;IMP;SG;2
+",2e-05,0.0012631578947368,l i ɡ̊
+wèèrde,wirde,"V;IND;SG;1;PRS
+",0.00077,0.0012631578947368,v i r d ə
+wèèrde,wirsch,"V;IND;SG;2;PRS
+",0.00108,0.0012631578947368,v i r ʃ
+wèèrde,wird,"V;IND;SG;3;PRS
+",0.02185,0.0012631578947368,v i r d
+wèèrde,wèèrded,"V;IND;PL;1;PRS
+",3e-05,0.0012631578947368,v eː r d ə d
+wèèrde,wèèrded,"V;IND;PL;2;PRS
+",3e-05,0.0012631578947368,v eː r d ə d
+wèèrde,wèèrded,"V;IND;PL;3;PRS
+",3e-05,0.0012631578947368,v eː r d ə d
+wèèrde,wèèrdi,"V;SBJV;SG;1;PRS
+",1e-05,0.0012631578947368,v ɛː r d i
+wèèrde,wèèrdisch,"V;SBJV;SG;2;PRS
+",0.0,0.0012631578947368,v eː r d i ʃ
+wèèrde,wèèrdi,"V;SBJV;SG;3;PRS
+",1e-05,0.0012631578947368,v ɛː r d i
+wèèrde,wèèrdid,"V;SBJV;PL;1;PRS
+",1e-05,0.0012631578947368,v ɛː r d i d
+wèèrde,wèèrdid,"V;SBJV;PL;2;PRS
+",1e-05,0.0012631578947368,v ɛː r d i d
+wèèrde,wèèrdid,"V;SBJV;PL;3;PRS
+",1e-05,0.0012631578947368,v ɛː r d i d
+wèèrde,wüürd,"V;SBJV;SG;1;PST
+",7e-05,0.0012631578947368,v yː r d
+wèèrde,wüürdsch,"V;SBJV;SG;2;PST
+",0.0,0.0012631578947368,v yː r d ʃ
+wèèrde,wüürd,"V;SBJV;SG;3;PST
+",7e-05,0.0012631578947368,v yː r d
+wèèrde,wüürded,"V;SBJV;PL;1;PST
+",0.0,0.0012631578947368,v yː r d ə d
+wèèrde,wüürded,"V;SBJV;PL;2;PST
+",0.0,0.0012631578947368,v yː r d ə d
+wèèrde,wüürded,V;SBJV;PL;3;PST,0.0,0.0012631578947368,v yː r d ə d

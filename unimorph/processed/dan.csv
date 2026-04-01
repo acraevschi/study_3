@@ -1,0 +1,481 @@
+lemma,form,paradigm_slot,form_freq,lemma_freq,phonemic_form
+ægte,ægtedes,V;PASS;IND;PST,0.0,0.0001488333333333,ɛ ɡ t ə ð ə s
+ægte,ægtede,V;ACT;IND;PST,7e-06,0.0001488333333333,ɛ ɡ t ə ð ə
+ægte,ægter,V;ACT;IND;PRS,1.8e-05,0.0001488333333333,ɛ ɡ t ə r
+ægte,ægtes,V;PASS;IND;PRS,0.0,0.0001488333333333,ɛ k t ə s
+ægte,ægte,V;ACT;NFIN,0.000865,0.0001488333333333,ɛ k t ə
+ægte,ægt,V;ACT;IMP,3e-06,0.0001488333333333,ɛ k t
+ælte,æltedes,V;PASS;IND;PST,0.0,1.716666666666667e-05,ɛ l t ə ð ə s
+ælte,æltede,V;ACT;IND;PST,6e-06,1.716666666666667e-05,ɛ l t ə ð ə
+ælte,ælter,V;ACT;IND;PRS,1e-05,1.716666666666667e-05,ɛ l t ə r
+ælte,æltes,V;PASS;IND;PRS,3.4e-05,1.716666666666667e-05,ɛ l t ə s
+ælte,ælte,V;ACT;NFIN,2.5e-05,1.716666666666667e-05,ɛ l t ə
+ælte,ælt,V;ACT;IMP,2.8e-05,1.716666666666667e-05,ɛ l t
+ændre,ændredes,V;PASS;IND;PST,2.4e-05,0.0005498333333333,ɛ n r ə ð ə s
+ændre,ændrede,V;ACT;IND;PST,0.000411,0.0005498333333333,ɛ n r ə ð ə
+ændre,ændrer,V;ACT;IND;PRS,0.000647,0.0005498333333333,ɛ n d r ə r
+ændre,ændres,V;PASS;IND;PRS,0.000654,0.0005498333333333,ɛ n d r ə s
+ændre,ændre,V;ACT;NFIN,0.001563,0.0005498333333333,ɛ n d r ə
+ændre,ændr,V;ACT;IMP,0.0,0.0005498333333333,ɛ n r
+afsløre,afsløredes,V;PASS;IND;PST,2e-06,0.0001023333333333,a v s l øː r ə ð ə s
+afsløre,afslørede,V;ACT;IND;PST,0.000104,0.0001023333333333,a v s l øː r ə ð ə
+afsløre,afslører,V;ACT;IND;PRS,0.000267,0.0001023333333333,a v s l øː r ə r
+afsløre,afsløres,V;PASS;IND;PRS,5.9e-05,0.0001023333333333,a v s l øː r ə s
+afsløre,afsløre,V;ACT;NFIN,0.000181,0.0001023333333333,a v s l øː r ə
+afsløre,afslør,V;ACT;IMP,1e-06,0.0001023333333333,a v s l øːˀ r
+argumentere,argumenteredes,V;PASS;IND;PST,0.0,6.516666666666666e-05,a r ɡ u m ɛ n t eː r ə ð ə s
+argumentere,argumenterede,V;ACT;IND;PST,2e-05,6.516666666666666e-05,a r ɡ u m ɛ n t eː r ə ð ə
+argumentere,argumenterer,V;ACT;IND;PRS,5.4e-05,6.516666666666666e-05,a r ɡ u m ɛ n t eː r ə r
+argumentere,argumenteres,V;PASS;IND;PRS,1.5e-05,6.516666666666666e-05,a r ɡ u m ɛ n t eː r ə s
+argumentere,argumentere,V;ACT;NFIN,0.000107,6.516666666666666e-05,a r ɡ u m ɛ n t eː r ə
+argumentere,argumenter,V;ACT;IMP,0.000195,6.516666666666666e-05,a r ɡ u m ɛ n t ə r
+arrangere,arrangeredes,V;PASS;IND;PST,2e-06,0.0001388333333333,a r a n ɡ eː r ə ð ə s
+arrangere,arrangerede,V;ACT;IND;PST,7.5e-05,0.0001388333333333,a r a n ɡ eː r eː ð ə
+arrangere,arrangerer,V;ACT;IND;PRS,0.000299,0.0001388333333333,a r a n ɡ eː r ə r
+arrangere,arrangeres,V;PASS;IND;PRS,0.000174,0.0001388333333333,a r a n ɡ eː r ə s
+arrangere,arrangere,V;ACT;NFIN,0.000279,0.0001388333333333,a r a n ɡ eː r ə
+arrangere,arranger,V;ACT;IMP,4e-06,0.0001388333333333,a r a n ɡ ə r
+belaste,belastedes,V;PASS;IND;PST,0.0,3.0333333333333333e-05,b e l a s t ə ð ə s
+belaste,belastede,V;ACT;IND;PST,3.2e-05,3.0333333333333333e-05,b e l a s t ə ð ə
+belaste,belaster,V;ACT;IND;PRS,7.2e-05,3.0333333333333333e-05,b e l a s t ə r
+belaste,belastes,V;PASS;IND;PRS,3.7e-05,3.0333333333333333e-05,b e l a s t ə s
+belaste,belaste,V;ACT;NFIN,4.1e-05,3.0333333333333333e-05,b e l a s t ə
+belaste,belast,V;ACT;IMP,0.0,3.0333333333333333e-05,b e l a s t
+billige,billigedes,V;PASS;IND;PST,0.0,0.0004775,b e l i ə ð ə s
+billige,billigede,V;ACT;IND;PST,4e-06,0.0004775,b e l i ə ð ə
+billige,billiger,V;ACT;IND;PRS,4e-06,0.0004775,b e l i ə r
+billige,billiges,V;PASS;IND;PRS,0.0,0.0004775,b e l i ə s
+billige,billige,V;ACT;NFIN,0.001285,0.0004775,b e l i ə
+billige,billig,V;ACT;IMP,0.001572,0.0004775,b e l i
+blokere,blokeredes,V;PASS;IND;PST,0.0,2.85e-05,b l o k eː r ə ð ə s
+blokere,blokerede,V;ACT;IND;PST,1.2e-05,2.85e-05,b l o k eː r ə ð ə
+blokere,blokerer,V;ACT;IND;PRS,6e-05,2.85e-05,b l o k eː r ə r
+blokere,blokeres,V;PASS;IND;PRS,1.2e-05,2.85e-05,b l o k eː r ə s
+blokere,blokere,V;ACT;NFIN,8.7e-05,2.85e-05,b l o k eː r ə
+blokere,bloker,V;ACT;IMP,0.0,2.85e-05,b l oː k ə r
+brune,brunedes,V;PASS;IND;PST,0.0,9.233333333333332e-05,b r uː n ə ð ə s
+brune,brunede,V;ACT;IND;PST,2.1e-05,9.233333333333332e-05,b r uː n ə ð ə
+brune,bruner,V;ACT;IND;PRS,5e-06,9.233333333333332e-05,b r uː n ə r
+brune,brunes,V;PASS;IND;PRS,2.1e-05,9.233333333333332e-05,b r uː n ə s
+brune,brune,V;ACT;NFIN,0.00024,9.233333333333332e-05,b r uː n ə
+brune,brun,V;ACT;IMP,0.000267,9.233333333333332e-05,b r oː n
+dæmpe,dæmpedes,V;PASS;IND;PST,0.0,3.25e-05,d ɛ m p ə ð ə s
+dæmpe,dæmpede,V;ACT;IND;PST,2.3e-05,3.25e-05,d ɛ m p ə ð ə
+dæmpe,dæmper,V;ACT;IND;PRS,6.8e-05,3.25e-05,d ɛ m p ə r
+dæmpe,dæmpes,V;PASS;IND;PRS,2.7e-05,3.25e-05,d ɛ m p ə s
+dæmpe,dæmpe,V;ACT;NFIN,7.5e-05,3.25e-05,d ɛ m p ə
+dæmpe,dæmp,V;ACT;IMP,2e-06,3.25e-05,d ɛ m p
+danse,dansedes,V;PASS;IND;PST,0.0,0.0001471666666666,d a n s ə ð ə s
+danse,dansede,V;ACT;IND;PST,5.8e-05,0.0001471666666666,d a n s ə ð ə
+danse,danser,V;ACT;IND;PRS,0.000162,0.0001471666666666,d a n s ə r
+danse,danses,V;PASS;IND;PRS,1.6e-05,0.0001471666666666,d a n s ə s
+danse,danse,V;ACT;NFIN,0.000233,0.0001471666666666,d a n s ə
+danse,dans,V;ACT;IMP,0.000414,0.0001471666666666,d a n s
+datere,dateredes,V;PASS;IND;PST,0.0,1.5333333333333334e-05,d a t eː r ə ð ə s
+datere,daterede,V;ACT;IND;PST,3e-06,1.5333333333333334e-05,d a t eː r ə ð ə
+datere,daterer,V;ACT;IND;PRS,1.9e-05,1.5333333333333334e-05,d a t eː r ə r
+datere,dateres,V;PASS;IND;PRS,4.4e-05,1.5333333333333334e-05,d a t eː r ə s
+datere,datere,V;ACT;NFIN,1e-05,1.5333333333333334e-05,d a t eː r ə
+datere,dater,V;ACT;IMP,1.6e-05,1.5333333333333334e-05,d aː t ə r
+definere,defineredes,V;PASS;IND;PST,0.0,7.483333333333334e-05,d e f i n eː r ə ð ə s
+definere,definerede,V;ACT;IND;PST,3.7e-05,7.483333333333334e-05,d e f i n eː r ə ð ə
+definere,definerer,V;ACT;IND;PRS,0.00013,7.483333333333334e-05,d e f i n eː r ə r
+definere,defineres,V;PASS;IND;PRS,0.000129,7.483333333333334e-05,d e f i n eː r ə s
+definere,definere,V;ACT;NFIN,0.000151,7.483333333333334e-05,d e f i n eː r ə
+definere,definer,V;ACT;IMP,2e-06,7.483333333333334e-05,d e f i n ə r
+diskutere,diskuteredes,V;PASS;IND;PST,2e-06,0.0001211666666666,d i s k u t eː r ə ð ə s
+diskutere,diskuterede,V;ACT;IND;PST,6.2e-05,0.0001211666666666,d i s k u t eː r eː ð ə
+diskutere,diskuterer,V;ACT;IND;PRS,0.000165,0.0001211666666666,d i s k u t eː r ə r
+diskutere,diskuteres,V;PASS;IND;PRS,0.0001,0.0001211666666666,d i s k u t eː r ə s
+diskutere,diskutere,V;ACT;NFIN,0.000391,0.0001211666666666,d i s k u t eː r ə
+diskutere,diskuter,V;ACT;IMP,7e-06,0.0001211666666666,d i s k u t ə r
+donere,doneredes,V;PASS;IND;PST,0.0,2.0666666666666663e-05,d o n eː r ə ð ə s
+donere,donerede,V;ACT;IND;PST,1.6e-05,2.0666666666666663e-05,d o n eː r ə ð ə
+donere,donerer,V;ACT;IND;PRS,3.6e-05,2.0666666666666663e-05,d o n eː r ə r
+donere,doneres,V;PASS;IND;PRS,7e-06,2.0666666666666663e-05,d o n eː r ə s
+donere,donere,V;ACT;NFIN,6.3e-05,2.0666666666666663e-05,d o n eː r ə
+donere,doner,V;ACT;IMP,2e-06,2.0666666666666663e-05,d oː n ə r
+dufte,duftedes,V;PASS;IND;PST,0.0,0.000137,d o f t ə ð ə s
+dufte,duftede,V;ACT;IND;PST,1.8e-05,0.000137,d o f t ə ð ə
+dufte,dufter,V;ACT;IND;PRS,0.000113,0.000137,d o f t ə r
+dufte,duftes,V;PASS;IND;PRS,3e-06,0.000137,d o f t ə s
+dufte,dufte,V;ACT;NFIN,0.000134,0.000137,d o f t ə
+dufte,duft,V;ACT;IMP,0.000554,0.000137,d o f t
+dyrke,dyrkedes,V;PASS;IND;PST,6e-06,0.0001776666666666,d ø r k ə ð ə s
+dyrke,dyrkede,V;ACT;IND;PST,0.000101,0.0001776666666666,d ø r k ə ð ə
+dyrke,dyrker,V;ACT;IND;PRS,0.000306,0.0001776666666666,d ø r k ə r
+dyrke,dyrkes,V;PASS;IND;PRS,0.00019,0.0001776666666666,d ø r k ə s
+dyrke,dyrke,V;ACT;NFIN,0.000452,0.0001776666666666,d ø r k ə
+dyrke,dyrk,V;ACT;IMP,1.1e-05,0.0001776666666666,d y r k
+dyste,dystedes,V;PASS;IND;PST,0.0,3.1666666666666666e-05,d y s t ə ð ə s
+dyste,dystede,V;ACT;IND;PST,1.6e-05,3.1666666666666666e-05,d y s t ə ð ə
+dyste,dyster,V;ACT;IND;PRS,7.7e-05,3.1666666666666666e-05,d y s t ə r
+dyste,dystes,V;PASS;IND;PRS,1.2e-05,3.1666666666666666e-05,d y s t ə s
+dyste,dyste,V;ACT;NFIN,5.9e-05,3.1666666666666666e-05,d y s t ə
+dyste,dyst,V;ACT;IMP,2.6e-05,3.1666666666666666e-05,d y s t
+elske,elskedes,V;PASS;IND;PST,2e-06,0.0004123333333333,ɛ l s k ə ð ə s
+elske,elskede,V;ACT;IND;PST,0.000349,0.0004123333333333,ɛ l s k eː ð ə
+elske,elsker,V;ACT;IND;PRS,0.001697,0.0004123333333333,ɛ l s k ə r
+elske,elskes,V;PASS;IND;PRS,8e-06,0.0004123333333333,ɛ l s k ə s
+elske,elske,V;ACT;NFIN,0.000412,0.0004123333333333,ɛ l s k ə
+elske,elsk,V;ACT;IMP,6e-06,0.0004123333333333,ɛ l s k
+erfare,erfaredes,V;PASS;IND;PST,0.0,1.8666666666666665e-05,ɛ r f aː r ə ð ə s
+erfare,erfarede,V;ACT;IND;PST,3.2e-05,1.8666666666666665e-05,ɛ r f aː r ə ð ə
+erfare,erfarer,V;ACT;IND;PRS,3.9e-05,1.8666666666666665e-05,ɛ r f aː r ə r
+erfare,erfares,V;PASS;IND;PRS,2e-06,1.8666666666666665e-05,ɛ r f aː r ə s
+erfare,erfare,V;ACT;NFIN,3.9e-05,1.8666666666666665e-05,ɛ r f aː r ə
+erfare,erfar,V;ACT;IMP,0.0,1.8666666666666665e-05,ɛ r f aː r
+erklære,erklæredes,V;PASS;IND;PST,1e-06,4.4000000000000006e-05,ɛ r k l ɛː r ə ð ə s
+erklære,erklærede,V;ACT;IND;PST,0.000103,4.4000000000000006e-05,ɛ r k l ɛː r ə ð ə
+erklære,erklærer,V;ACT;IND;PRS,8.4e-05,4.4000000000000006e-05,ɛ r k l ɛː r ə r
+erklære,erklæres,V;PASS;IND;PRS,1.7e-05,4.4000000000000006e-05,ɛ r k l ɛː r ə s
+erklære,erklære,V;ACT;NFIN,5.9e-05,4.4000000000000006e-05,ɛ r k l ɛː r ə
+erklære,erklær,V;ACT;IMP,0.0,4.4000000000000006e-05,ɛ r k l ɛː r
+erobre,erobredes,V;PASS;IND;PST,0.0,1.7833333333333334e-05,ɛ r o b r eː ð ə s
+erobre,erobrede,V;ACT;IND;PST,3.3e-05,1.7833333333333334e-05,ɛ r o b r eː ð ə
+erobre,erobrer,V;ACT;IND;PRS,1.2e-05,1.7833333333333334e-05,e r o b r ə r
+erobre,erobres,V;PASS;IND;PRS,9e-06,1.7833333333333334e-05,e r o b r ɛ s
+erobre,erobre,V;ACT;NFIN,5.3e-05,1.7833333333333334e-05,e r oː b r ə
+erobre,erobr,V;ACT;IMP,0.0,1.7833333333333334e-05,e r oː b r
+estimere,estimeredes,V;PASS;IND;PST,0.0,1.2666666666666668e-05,ɛ s t i m eː r ə ð ə s
+estimere,estimerede,V;ACT;IND;PST,2.7e-05,1.2666666666666668e-05,ɛ s t i m eː r ə ð ə
+estimere,estimerer,V;ACT;IND;PRS,1.1e-05,1.2666666666666668e-05,ɛ s t i m eː r ə r
+estimere,estimeres,V;PASS;IND;PRS,1.3e-05,1.2666666666666668e-05,ɛ s t i m eː r ə s
+estimere,estimere,V;ACT;NFIN,2.5e-05,1.2666666666666668e-05,ɛ s t i m eː r ə
+estimere,estimer,V;ACT;IMP,0.0,1.2666666666666668e-05,ɛ s t i m ə r
+fængsle,fængsledes,V;PASS;IND;PST,1e-06,1.4333333333333334e-05,f ɛ ŋ s l ə ð ə s
+fængsle,fængslede,V;ACT;IND;PST,1.6e-05,1.4333333333333334e-05,f ɛ ŋ s l ə ð ə
+fængsle,fængsler,V;ACT;IND;PRS,6.1e-05,1.4333333333333334e-05,f ɛ ŋ s l ə r
+fængsle,fængsles,V;PASS;IND;PRS,4e-06,1.4333333333333334e-05,f ɛ n s l ə s
+fængsle,fængsle,V;ACT;NFIN,4e-06,1.4333333333333334e-05,f ɛ ŋ s l ə
+fængsle,fængsl,V;ACT;IMP,0.0,1.4333333333333334e-05,f ɛ ŋ s l
+fiske,fiskedes,V;PASS;IND;PST,5e-06,0.000288,f e s k ə ð ə s
+fiske,fiskede,V;ACT;IND;PST,3.8e-05,0.000288,f e s k ə ð ə
+fiske,fisker,V;ACT;IND;PRS,9.8e-05,0.000288,f e s k ə r
+fiske,fiskes,V;PASS;IND;PRS,4.3e-05,0.000288,f e s k ə s
+fiske,fiske,V;ACT;NFIN,0.000147,0.000288,f e s k ə
+fiske,fisk,V;ACT;IMP,0.001397,0.000288,f e s k
+fodre,fodredes,V;PASS;IND;PST,0.0,2.9666666666666665e-05,f o ð r eː ð ə s
+fodre,fodrede,V;ACT;IND;PST,8e-06,2.9666666666666665e-05,f o d r eː ð ə
+fodre,fodrer,V;ACT;IND;PRS,2.9e-05,2.9666666666666665e-05,f o d r ə r
+fodre,fodres,V;PASS;IND;PRS,3.7e-05,2.9666666666666665e-05,f o d r ə s
+fodre,fodre,V;ACT;NFIN,0.000103,2.9666666666666665e-05,f o d r ə
+fodre,fodr,V;ACT;IMP,1e-06,2.9666666666666665e-05,f ɔ d r
+forklare,forklaredes,V;PASS;IND;PST,0.0,0.000288,f ɔ r k l aː r ə ð ə s
+forklare,forklarede,V;ACT;IND;PST,0.000141,0.000288,f ɔ r k l aː r ə ð ə
+forklare,forklarer,V;ACT;IND;PRS,0.000989,0.000288,f ɔ r k l aː r ə r
+forklare,forklares,V;PASS;IND;PRS,0.000105,0.000288,f ɔ r k l aː r ə s
+forklare,forklare,V;ACT;NFIN,0.000481,0.000288,f ɔ r k l aː r ə
+forklare,forklar,V;ACT;IMP,1.2e-05,0.000288,f ɔ r k l aː r
+fotografere,fotograferedes,V;PASS;IND;PST,0.0,4.35e-05,f o t o ɡ r a f eː r e d ə s
+fotografere,fotograferede,V;ACT;IND;PST,2.8e-05,4.35e-05,f o t o ɡ r a f eː r eː ð ə
+fotografere,fotograferer,V;ACT;IND;PRS,2.7e-05,4.35e-05,f o t o ɡ r a f eː r ə r
+fotografere,fotograferes,V;PASS;IND;PRS,1.2e-05,4.35e-05,f o t o ɡ r a f eː r ə s
+fotografere,fotografere,V;ACT;NFIN,8.6e-05,4.35e-05,f o t o ɡ r a f eː r ə
+fotografere,fotografer,V;ACT;IMP,0.000108,4.35e-05,f o t o ɡ r aː f ə r
+frygte,frygtedes,V;PASS;IND;PST,0.0,0.0001338333333333,f r ø k t ə ð ə s
+frygte,frygtede,V;ACT;IND;PST,0.000104,0.0001338333333333,f r ø k t ə ð ə
+frygte,frygter,V;ACT;IND;PRS,0.000233,0.0001338333333333,f r ø k t ə r
+frygte,frygtes,V;PASS;IND;PRS,7e-06,0.0001338333333333,f r ø k t ə s
+frygte,frygte,V;ACT;NFIN,0.000108,0.0001338333333333,f r ø k t ə
+frygte,frygt,V;ACT;IMP,0.000351,0.0001338333333333,f r ø k t
+grunde,grundedes,V;PASS;IND;PST,0.0,0.0009205,ɡ r ɔ n ə ð ə s
+grunde,grundede,V;ACT;IND;PST,2e-06,0.0009205,ɡ r ɔ n ə ð ə
+grunde,grunder,V;ACT;IND;PRS,2.1e-05,0.0009205,ɡ r ɔ n ə r
+grunde,grundes,V;PASS;IND;PRS,7e-06,0.0009205,ɡ r ɔ n ə s
+grunde,grunde,V;ACT;NFIN,0.000747,0.0009205,ɡ r ɔ n ə
+grunde,grund,V;ACT;IMP,0.004746,0.0009205,ɡ r o nˀ
+hade,hadedes,V;PASS;IND;PST,0.0,5.066666666666667e-05,h aː d ə ð ə s
+hade,hadede,V;ACT;IND;PST,2e-05,5.066666666666667e-05,h aː d ə ð ə
+hade,hader,V;ACT;IND;PRS,0.000146,5.066666666666667e-05,h aː d ə r
+hade,hades,V;PASS;IND;PRS,1e-06,5.066666666666667e-05,h aː d ə s
+hade,hade,V;ACT;NFIN,5.1e-05,5.066666666666667e-05,h aː d ə
+hade,had,V;ACT;IMP,8.6e-05,5.066666666666667e-05,h a d
+hæle,hæledes,V;PASS;IND;PST,0.0,2.0166666666666668e-05,h ɛː l ə ð ə s
+hæle,hælede,V;ACT;IND;PST,0.0,2.0166666666666668e-05,h ɛː l ə ð ə
+hæle,hæler,V;ACT;IND;PRS,0.0,2.0166666666666668e-05,h ɛː l ə r
+hæle,hæles,V;PASS;IND;PRS,0.0,2.0166666666666668e-05,h ɛː l ə s
+hæle,hæle,V;ACT;NFIN,4.4e-05,2.0166666666666668e-05,h ɛː l ə
+hæle,hæl,V;ACT;IMP,7.7e-05,2.0166666666666668e-05,h ɛ l
+høste,høstedes,V;PASS;IND;PST,0.0,6.166666666666667e-05,h ø s t ə ð ə s
+høste,høstede,V;ACT;IND;PST,2.9e-05,6.166666666666667e-05,h ø s t ə ð ə
+høste,høster,V;ACT;IND;PRS,5.4e-05,6.166666666666667e-05,h ø s t ə r
+høste,høstes,V;PASS;IND;PRS,6.5e-05,6.166666666666667e-05,h ø s t ə s
+høste,høste,V;ACT;NFIN,0.000116,6.166666666666667e-05,h ø s t ə
+høste,høst,V;ACT;IMP,0.000106,6.166666666666667e-05,h ø s t
+huske,huskedes,V;PASS;IND;PST,0.0,0.000466,h u s k ə ð ə s
+huske,huskede,V;ACT;IND;PST,4.6e-05,0.000466,h u s k ə ð ə
+huske,husker,V;ACT;IND;PRS,0.000626,0.000466,h u s k ə r
+huske,huskes,V;PASS;IND;PRS,5e-05,0.000466,h u s k ə s
+huske,huske,V;ACT;NFIN,0.001491,0.000466,h u s k ə
+huske,husk,V;ACT;IMP,0.000583,0.000466,h o s k
+indtaste,indtastedes,V;PASS;IND;PST,0.0,5.816666666666666e-05,e n t a s t ə ð ə s
+indtaste,indtastede,V;ACT;IND;PST,3e-05,5.816666666666666e-05,e n t a s t ə ð ə
+indtaste,indtaster,V;ACT;IND;PRS,7.5e-05,5.816666666666666e-05,e n t a s t ə r
+indtaste,indtastes,V;PASS;IND;PRS,2.7e-05,5.816666666666666e-05,e n t a s t ə s
+indtaste,indtaste,V;ACT;NFIN,0.000179,5.816666666666666e-05,e n t a s t ə
+indtaste,indtast,V;ACT;IMP,3.8e-05,5.816666666666666e-05,e n t a s t
+integrere,integreredes,V;PASS;IND;PST,0.0,6.883333333333333e-05,e n t e ɡ r eː r ə ð ə s
+integrere,integrerede,V;ACT;IND;PST,0.000134,6.883333333333333e-05,e n t e ɡ r eː r ə ð ə
+integrere,integrerer,V;ACT;IND;PRS,3.6e-05,6.883333333333333e-05,e n t e ɡ r eː r ə r
+integrere,integreres,V;PASS;IND;PRS,8.6e-05,6.883333333333333e-05,e n t e ɡ r eː r ə s
+integrere,integrere,V;ACT;NFIN,0.000155,6.883333333333333e-05,e n t e ɡ r eː r ə
+integrere,integrer,V;ACT;IMP,2e-06,6.883333333333333e-05,e n t e ɡ r eːˀ r
+jorde,jordedes,V;PASS;IND;PST,0.0,0.0001668333333333,j oː r ə ð ə s
+jorde,jordede,V;ACT;IND;PST,5e-06,0.0001668333333333,j oː r ə ð ə
+jorde,jorder,V;ACT;IND;PRS,3.6e-05,0.0001668333333333,j ɔ r d ə r
+jorde,jordes,V;PASS;IND;PRS,1e-06,0.0001668333333333,j oː r d ə s
+jorde,jorde,V;ACT;NFIN,2.6e-05,0.0001668333333333,j oː r ə
+jorde,jord,V;ACT;IMP,0.000933,0.0001668333333333,j oː r
+justere,justeredes,V;PASS;IND;PST,1e-06,9.45e-05,j u s t eː r ə ð ə s
+justere,justerede,V;ACT;IND;PST,1.2e-05,9.45e-05,j u s t eː r ə ð ə
+justere,justerer,V;ACT;IND;PRS,5.9e-05,9.45e-05,j u s t eː r ə r
+justere,justeres,V;PASS;IND;PRS,0.000224,9.45e-05,j u s t eː r ə s
+justere,justere,V;ACT;NFIN,0.00026,9.45e-05,j u s t eː r ə
+justere,juster,V;ACT;IMP,1.1e-05,9.45e-05,j u s t ə r
+kæle,kæledes,V;PASS;IND;PST,0.0,1.8666666666666665e-05,k ɛː l ə ð ə s
+kæle,kælede,V;ACT;IND;PST,3.8e-05,1.8666666666666665e-05,k ɛː l ə ð ə
+kæle,kæler,V;ACT;IND;PRS,2.1e-05,1.8666666666666665e-05,k ɛː l ə r
+kæle,kæles,V;PASS;IND;PRS,7e-06,1.8666666666666665e-05,k ɛː l ə s
+kæle,kæle,V;ACT;NFIN,4.3e-05,1.8666666666666665e-05,k ɛː l ə
+kæle,kæl,V;ACT;IMP,3e-06,1.8666666666666665e-05,k ɛː l
+klare,klaredes,V;PASS;IND;PST,0.0,0.0012618333333333,k l aː r ə ð ə s
+klare,klarede,V;ACT;IND;PST,0.000185,0.0012618333333333,k l aː r ə ð ə
+klare,klarer,V;ACT;IND;PRS,0.000473,0.0012618333333333,k l aː r ə r
+klare,klares,V;PASS;IND;PRS,0.000109,0.0012618333333333,k l aː r ə s
+klare,klare,V;ACT;NFIN,0.001631,0.0012618333333333,k l aː r ə
+klare,klar,V;ACT;IMP,0.005173,0.0012618333333333,k l aː r
+knalde,knaldedes,V;PASS;IND;PST,0.0,1.45e-05,k n a l ə ð ə s
+knalde,knaldede,V;ACT;IND;PST,6e-06,1.45e-05,k n a l ə ð ə
+knalde,knalder,V;ACT;IND;PRS,1e-05,1.45e-05,k n a l ə r
+knalde,knaldes,V;PASS;IND;PRS,1e-06,1.45e-05,k n a l ə s
+knalde,knalde,V;ACT;NFIN,1e-05,1.45e-05,k n a l ə
+knalde,knald,V;ACT;IMP,6e-05,1.45e-05,k n a l
+kommentere,kommenteredes,V;PASS;IND;PST,0.0,5.0333333333333335e-05,k ɔ m ɛ n t eː r ə ð ə s
+kommentere,kommenterede,V;ACT;IND;PST,4e-05,5.0333333333333335e-05,k ɔ m ɛ n t eː r ə ð ə
+kommentere,kommenterer,V;ACT;IND;PRS,6.9e-05,5.0333333333333335e-05,k ɔ m ɛ n t eː r ə r
+kommentere,kommenteres,V;PASS;IND;PRS,1e-05,5.0333333333333335e-05,k ɔ m ɛ n t eː r ə s
+kommentere,kommentere,V;ACT;NFIN,0.000181,5.0333333333333335e-05,k ɔ m ɛ n t eː r ə
+kommentere,kommenter,V;ACT;IMP,2e-06,5.0333333333333335e-05,k ɔ m ɛ n t ə r
+kopiere,kopieredes,V;PASS;IND;PST,0.0,4.95e-05,k o p i eː r ə d ə s
+kopiere,kopierede,V;ACT;IND;PST,1.8e-05,4.95e-05,k o p i ə r ə ð ə
+kopiere,kopierer,V;ACT;IND;PRS,3.4e-05,4.95e-05,k o p i eː r ə r
+kopiere,kopieres,V;PASS;IND;PRS,1.9e-05,4.95e-05,k o p i eː r ə s
+kopiere,kopiere,V;ACT;NFIN,0.000121,4.95e-05,k o p i eː r ə
+kopiere,kopier,V;ACT;IMP,0.000105,4.95e-05,k o p iː ə r
+korrigere,korrigeredes,V;PASS;IND;PST,0.0,1.9e-05,k ɔ r i ɡ eː r ə ð ə s
+korrigere,korrigerede,V;ACT;IND;PST,3.2e-05,1.9e-05,k ɔ r i ɡ eː r eː ð ə
+korrigere,korrigerer,V;ACT;IND;PRS,1.6e-05,1.9e-05,k ɔ r i ɡ eː r ə r
+korrigere,korrigeres,V;PASS;IND;PRS,2.9e-05,1.9e-05,k ɔ r i ɡ eː r ə s
+korrigere,korrigere,V;ACT;NFIN,3.5e-05,1.9e-05,k ɔ r i ɡ eː r ə
+korrigere,korriger,V;ACT;IMP,2e-06,1.9e-05,k ɔ r iː ə r
+kroge,krogedes,V;PASS;IND;PST,0.0,3.3333333333333335e-05,k r oː ɡ ə ð ə s
+kroge,krogede,V;ACT;IND;PST,2.4e-05,3.3333333333333335e-05,k r oː ɡ ə ð ə
+kroge,kroger,V;ACT;IND;PRS,2e-06,3.3333333333333335e-05,k r oː ɡ ə r
+kroge,kroges,V;PASS;IND;PRS,0.0,3.3333333333333335e-05,k r oː ɡ ə s
+kroge,kroge,V;ACT;NFIN,7.8e-05,3.3333333333333335e-05,k r oː ɡ ə
+kroge,krog,V;ACT;IMP,9.6e-05,3.3333333333333335e-05,k r oːˀ ɣ
+laste,lastedes,V;PASS;IND;PST,0.0,2.2666666666666668e-05,l a s t ə ð ə s
+laste,lastede,V;ACT;IND;PST,8e-06,2.2666666666666668e-05,l a s t ə ð ə
+laste,laster,V;ACT;IND;PRS,1.4e-05,2.2666666666666668e-05,l a s t ə r
+laste,lastes,V;PASS;IND;PRS,8e-06,2.2666666666666668e-05,l a s t ə s
+laste,laste,V;ACT;NFIN,1.8e-05,2.2666666666666668e-05,l a s t ə
+laste,last,V;ACT;IMP,8.8e-05,2.2666666666666668e-05,l a s t
+markere,markeredes,V;PASS;IND;PST,3e-06,0.000135,m a r k eː r ə ð ə s
+markere,markerede,V;ACT;IND;PST,0.00011,0.000135,m a r k eː r eː ð ə
+markere,markerer,V;ACT;IND;PRS,0.000183,0.000135,m a r k eː r ə r
+markere,markeres,V;PASS;IND;PRS,7.2e-05,0.000135,m a r k eː r ə s
+markere,markere,V;ACT;NFIN,0.000172,0.000135,m a r k eː r ə
+markere,marker,V;ACT;IMP,0.00027,0.000135,m a r k ə r
+miste,mistedes,V;PASS;IND;PST,0.0,0.0002231666666666,m e s t ə ð ə s
+miste,mistede,V;ACT;IND;PST,0.000344,0.0002231666666666,m e s t ə ð ə
+miste,mister,V;ACT;IND;PRS,0.000532,0.0002231666666666,m e s t ə r
+miste,mistes,V;PASS;IND;PRS,2.5e-05,0.0002231666666666,m e s t ə s
+miste,miste,V;ACT;NFIN,0.000427,0.0002231666666666,m e s t ə
+miste,mist,V;ACT;IMP,1.1e-05,0.0002231666666666,m e s t
+modulere,moduleredes,V;PASS;IND;PST,0.0,2.9166666666666663e-05,m o d u l eː r ə ð ə s
+modulere,modulerede,V;ACT;IND;PST,0.0,2.9166666666666663e-05,m o d u l eː r eː ð ə
+modulere,modulerer,V;ACT;IND;PRS,2e-06,2.9166666666666663e-05,m o d u l eː r ə r
+modulere,moduleres,V;PASS;IND;PRS,3e-06,2.9166666666666663e-05,m o d u l eː r ə s
+modulere,modulere,V;ACT;NFIN,2e-06,2.9166666666666663e-05,m o d u l eː r ə
+modulere,moduler,V;ACT;IMP,0.000168,2.9166666666666663e-05,m o d u l eː r
+montere,monteredes,V;PASS;IND;PST,0.0,0.0001196666666666,m ɔ n t eː r ə ð ə s
+montere,monterede,V;ACT;IND;PST,2.4e-05,0.0001196666666666,m ɔ n t eː r ə ð ə
+montere,monterer,V;ACT;IND;PRS,5.7e-05,0.0001196666666666,m ɔ n t eː r ə r
+montere,monteres,V;PASS;IND;PRS,0.000354,0.0001196666666666,m ɔ n t eː r ə s
+montere,montere,V;ACT;NFIN,0.000277,0.0001196666666666,m ɔ n t eː r ə
+montere,monter,V;ACT;IMP,6e-06,0.0001196666666666,m ɔ n t ə r
+motivere,motiveredes,V;PASS;IND;PST,1e-06,0.0001133333333333,m o t i v eː r ə ð ə s
+motivere,motiverede,V;ACT;IND;PST,6.4e-05,0.0001133333333333,m o t i v eː r eː ð ə
+motivere,motiverer,V;ACT;IND;PRS,8.4e-05,0.0001133333333333,m o t i v eː r ə r
+motivere,motiveres,V;PASS;IND;PRS,3.3e-05,0.0001133333333333,m o t i v eː r ə s
+motivere,motivere,V;ACT;NFIN,0.000174,0.0001133333333333,m o t i v eː r ə
+motivere,motiver,V;ACT;IMP,0.000324,0.0001133333333333,m o t iː v ə r
+nære,næredes,V;PASS;IND;PST,0.0,0.0002516666666666,n ɛː r ə ð ə s
+nære,nærede,V;ACT;IND;PST,8e-06,0.0002516666666666,n ɛː r ə ð ə
+nære,nærer,V;ACT;IND;PRS,6.1e-05,0.0002516666666666,n ɛː r ə r
+nære,næres,V;PASS;IND;PRS,1.2e-05,0.0002516666666666,n ɛː r ə s
+nære,nære,V;ACT;NFIN,0.000235,0.0002516666666666,n ɛː r ə
+nære,nær,V;ACT;IMP,0.001194,0.0002516666666666,n ɛː r
+øge,øgedes,V;PASS;IND;PST,9e-06,0.0004138333333333,øː ɣ ə ð ə s
+øge,øgede,V;ACT;IND;PST,0.000348,0.0004138333333333,øː ɣ ə ð ə
+øge,øger,V;ACT;IND;PRS,0.000662,0.0004138333333333,øː ɣ ə r
+øge,øges,V;PASS;IND;PRS,0.000297,0.0004138333333333,øː ɣ ə s
+øge,øge,V;ACT;NFIN,0.001152,0.0004138333333333,øː ɣ ə
+øge,øg,V;ACT;IMP,1.5e-05,0.0004138333333333,øːˀ j
+operere,opereredes,V;PASS;IND;PST,0.0,4.25e-05,ɔ p ə r eː r ə ð ə s
+operere,opererede,V;ACT;IND;PST,2.5e-05,4.25e-05,ɔ p ə r eː r ə ð ə
+operere,opererer,V;ACT;IND;PRS,0.000119,4.25e-05,ɔ p ə r eː r ə r
+operere,opereres,V;PASS;IND;PRS,4.5e-05,4.25e-05,ɔ p ə r eː r ə s
+operere,operere,V;ACT;NFIN,6.3e-05,4.25e-05,ɔ p ə r eː r ə
+operere,operer,V;ACT;IMP,3e-06,4.25e-05,ɔ p ə r ə r
+organisere,organiseredes,V;PASS;IND;PST,3e-06,5.366666666666667e-05,ɔ r ɡ a n i s eː r ə d ə s
+organisere,organiserede,V;ACT;IND;PST,6.2e-05,5.366666666666667e-05,ɔ r ɡ a n i s eː r ə ð ə
+organisere,organiserer,V;ACT;IND;PRS,7.9e-05,5.366666666666667e-05,ɔ r ɡ a n i s eː r ə r
+organisere,organiseres,V;PASS;IND;PRS,4.8e-05,5.366666666666667e-05,ɔ r ɡ a n i s eː r ə s
+organisere,organisere,V;ACT;NFIN,0.000126,5.366666666666667e-05,ɔ r ɡ a n i s eː r ə
+organisere,organiser,V;ACT;IMP,4e-06,5.366666666666667e-05,ɔ r ɡ a n i s ə r
+parkere,parkeredes,V;PASS;IND;PST,0.0,5.95e-05,p a r k eː r ə ð ə s
+parkere,parkerede,V;ACT;IND;PST,2.3e-05,5.95e-05,p a r k eː r eː ð ə
+parkere,parkerer,V;ACT;IND;PRS,2.6e-05,5.95e-05,p a r k eː r ə r
+parkere,parkeres,V;PASS;IND;PRS,3.2e-05,5.95e-05,p a r k eː r ə s
+parkere,parkere,V;ACT;NFIN,0.000135,5.95e-05,p a r k eː r ə
+parkere,parker,V;ACT;IMP,0.000141,5.95e-05,p a r k ə r
+pynte,pyntedes,V;PASS;IND;PST,1e-06,9.466666666666669e-05,p ø n t ə ð ə s
+pynte,pyntede,V;ACT;IND;PST,2.2e-05,9.466666666666669e-05,p ø n t ə ð ə
+pynte,pynter,V;ACT;IND;PRS,8.5e-05,9.466666666666669e-05,p ø n t ə r
+pynte,pyntes,V;PASS;IND;PRS,4.1e-05,9.466666666666669e-05,p ø n t ə s
+pynte,pynte,V;ACT;NFIN,0.000166,9.466666666666669e-05,p ø n t ə
+pynte,pynt,V;ACT;IMP,0.000253,9.466666666666669e-05,p ø n t
+regulere,reguleredes,V;PASS;IND;PST,0.0,7.033333333333334e-05,r e ɡ u l eː r ə ð ə s
+regulere,regulerede,V;ACT;IND;PST,1.7e-05,7.033333333333334e-05,r e ɡ u l eː r ə ð ə
+regulere,regulerer,V;ACT;IND;PRS,0.000105,7.033333333333334e-05,r e ɡ u l eː r ə r
+regulere,reguleres,V;PASS;IND;PRS,0.00015,7.033333333333334e-05,r e ɡ u l eː r ə s
+regulere,regulere,V;ACT;NFIN,0.000148,7.033333333333334e-05,r e ɡ u l eː r ə
+regulere,reguler,V;ACT;IMP,2e-06,7.033333333333334e-05,r e ɡ u l eː r
+renovere,renoveredes,V;PASS;IND;PST,1e-06,3.066666666666666e-05,r ɛ n ɔ v eː r ə ð ə s
+renovere,renoverede,V;ACT;IND;PST,3.9e-05,3.066666666666666e-05,r e n ɔ v eː r ə ð ə
+renovere,renoverer,V;ACT;IND;PRS,1.6e-05,3.066666666666666e-05,r e n ɔ v eː r ə r
+renovere,renoveres,V;PASS;IND;PRS,4.5e-05,3.066666666666666e-05,r e n ɔ v eː r ə s
+renovere,renovere,V;ACT;NFIN,8.3e-05,3.066666666666666e-05,ʁ e n o v eː r ə
+renovere,renover,V;ACT;IMP,0.0,3.066666666666666e-05,r e n ɔ v ə r
+reparere,repareredes,V;PASS;IND;PST,0.0,3.966666666666667e-05,ʁ e p a r eː r ə ð ə s
+reparere,reparerede,V;ACT;IND;PST,1e-05,3.966666666666667e-05,ʁ e p a r eː r eː ð ə
+reparere,reparerer,V;ACT;IND;PRS,5.9e-05,3.966666666666667e-05,ʁ e p a r eː r ə r
+reparere,repareres,V;PASS;IND;PRS,4.8e-05,3.966666666666667e-05,ʁ e p a r eː r ə s
+reparere,reparere,V;ACT;NFIN,0.00012,3.966666666666667e-05,ʁ e p a r eː r ə
+reparere,reparer,V;ACT;IMP,1e-06,3.966666666666667e-05,r e p a r eː r
+reservere,reserveredes,V;PASS;IND;PST,1e-06,3.6e-05,r e s ɛ r v eː r ə ð ə s
+reservere,reserverede,V;ACT;IND;PST,2.2e-05,3.6e-05,r e s ɛ r v eː r ə ð ə
+reservere,reserverer,V;ACT;IND;PRS,2.3e-05,3.6e-05,r e s ɛ r v eː r ə r
+reservere,reserveres,V;PASS;IND;PRS,3.7e-05,3.6e-05,r e s ɛ r v eː r ə s
+reservere,reservere,V;ACT;NFIN,9.1e-05,3.6e-05,r e s ɛ r v eː r ə
+reservere,reserver,V;ACT;IMP,4.2e-05,3.6e-05,r e s ɛ r v ə r
+returnere,returneredes,V;PASS;IND;PST,0.0,4.55e-05,r e t u r n eː r ə ð ə s
+returnere,returnerede,V;ACT;IND;PST,2.6e-05,4.55e-05,r e t u r n eː r ə ð ə
+returnere,returnerer,V;ACT;IND;PRS,5.8e-05,4.55e-05,r e t u r n eː r ə r
+returnere,returneres,V;PASS;IND;PRS,7.1e-05,4.55e-05,r e t u r n eː r ə s
+returnere,returnere,V;ACT;NFIN,0.000114,4.55e-05,r e t u r n eː r ə
+returnere,returner,V;ACT;IMP,4e-06,4.55e-05,r e t ɔ r n ə r
+ringe,ringedes,V;PASS;IND;PST,0.0,0.000387,r e n ɡ ə d ə s
+ringe,ringede,V;ACT;IND;PST,0.000248,0.000387,r e n ɡ ə ð ə
+ringe,ringer,V;ACT;IND;PRS,0.000318,0.000387,r e n ɡ ə r
+ringe,ringes,V;PASS;IND;PRS,2.7e-05,0.000387,r e n ɡ ə s
+ringe,ringe,V;ACT;NFIN,0.001207,0.000387,r e n ɡ ə
+ringe,ring,V;ACT;IMP,0.000522,0.000387,r e n ɡ
+riste,ristedes,V;PASS;IND;PST,0.0,3.916666666666667e-05,r e s t ə ð ə s
+riste,ristede,V;ACT;IND;PST,0.000102,3.916666666666667e-05,r e s t ə ð ə
+riste,rister,V;ACT;IND;PRS,9e-06,3.916666666666667e-05,r e s t ə r
+riste,ristes,V;PASS;IND;PRS,2.5e-05,3.916666666666667e-05,r i s t ə s
+riste,riste,V;ACT;NFIN,2.8e-05,3.916666666666667e-05,r i s t ə
+riste,rist,V;ACT;IMP,7.1e-05,3.916666666666667e-05,r e s t
+ryste,rystedes,V;PASS;IND;PST,1e-06,5.283333333333333e-05,r ø s t ə ð ə s
+ryste,rystede,V;ACT;IND;PST,9.7e-05,5.283333333333333e-05,r ø s t ə ð ə
+ryste,ryster,V;ACT;IND;PRS,7.5e-05,5.283333333333333e-05,r y s t ə r
+ryste,rystes,V;PASS;IND;PRS,3e-05,5.283333333333333e-05,r ø s t ə s
+ryste,ryste,V;ACT;NFIN,9.7e-05,5.283333333333333e-05,r ø s t ə
+ryste,ryst,V;ACT;IMP,1.7e-05,5.283333333333333e-05,r ø s t
+salte,saltedes,V;PASS;IND;PST,0.0,0.0002078333333333,s a l t ə ð ə s
+salte,saltede,V;ACT;IND;PST,2.2e-05,0.0002078333333333,s a l t ə ð ə
+salte,salter,V;ACT;IND;PRS,6e-06,0.0002078333333333,s a l t ə r
+salte,saltes,V;PASS;IND;PRS,1e-05,0.0002078333333333,s a l t ə s
+salte,salte,V;ACT;NFIN,8.7e-05,0.0002078333333333,s a l t ə
+salte,salt,V;ACT;IMP,0.001122,0.0002078333333333,s a l t
+satse,satsedes,V;PASS;IND;PST,0.0,9.75e-05,s a t s ə ð ə s
+satse,satsede,V;ACT;IND;PST,4.1e-05,9.75e-05,s a t s ə ð ə
+satse,satser,V;ACT;IND;PRS,0.000257,9.75e-05,s a t s ə r
+satse,satses,V;PASS;IND;PRS,2.6e-05,9.75e-05,s a t s ə s
+satse,satse,V;ACT;NFIN,0.000172,9.75e-05,s a t s ə
+satse,sats,V;ACT;IMP,8.9e-05,9.75e-05,s a t s
+savne,savnedes,V;PASS;IND;PST,4e-06,9.616666666666666e-05,s a v n ə ð ə s
+savne,savnede,V;ACT;IND;PST,7.8e-05,9.616666666666666e-05,s a v n ə ð ə
+savne,savner,V;ACT;IND;PRS,0.000357,9.616666666666666e-05,s a v n ə r
+savne,savnes,V;PASS;IND;PRS,1.9e-05,9.616666666666666e-05,s a v n ə s
+savne,savne,V;ACT;NFIN,9.2e-05,9.616666666666666e-05,s a v n ə
+savne,savn,V;ACT;IMP,2.7e-05,9.616666666666666e-05,s a v n
+sejle,sejledes,V;PASS;IND;PST,3e-06,0.0001696666666666,s a j l ə ð ə s
+sejle,sejlede,V;ACT;IND;PST,0.000155,0.0001696666666666,s a j l ə ð ə
+sejle,sejler,V;ACT;IND;PRS,0.000344,0.0001696666666666,s a j l ə r
+sejle,sejles,V;PASS;IND;PRS,4.5e-05,0.0001696666666666,s a j l ə s
+sejle,sejle,V;ACT;NFIN,0.000355,0.0001696666666666,s a j l ə
+sejle,sejl,V;ACT;IMP,0.000116,0.0001696666666666,s a jˀ l
+skåle,skåledes,V;PASS;IND;PST,0.0,0.0001049999999999,s k ɔː l ə ð ə s
+skåle,skålede,V;ACT;IND;PST,2e-06,0.0001049999999999,s k ɔː l ə ð ə
+skåle,skåler,V;ACT;IND;PRS,1e-05,0.0001049999999999,s k ɔː l ə r
+skåle,skåles,V;PASS;IND;PRS,1e-06,0.0001049999999999,s k ɔː l ə s
+skåle,skåle,V;ACT;NFIN,0.00011,0.0001049999999999,s k ɔː l ə
+skåle,skål,V;ACT;IMP,0.000507,0.0001049999999999,s k ɔː l
+strande,strandedes,V;PASS;IND;PST,0.0,0.0001445,s t r a n ə ð ə s
+strande,strandede,V;ACT;IND;PST,2.4e-05,0.0001445,s t r a n ə ð ə
+strande,strander,V;ACT;IND;PRS,9e-06,0.0001445,s t r a n ə r
+strande,strandes,V;PASS;IND;PRS,0.0,0.0001445,s t r a n ə s
+strande,strande,V;ACT;NFIN,0.000372,0.0001445,s t r a n ə
+strande,strand,V;ACT;IMP,0.000462,0.0001445,s t r a nˀ
+studere,studeredes,V;PASS;IND;PST,0.0,7.1e-05,s t u d eː r ə ð ə s
+studere,studerede,V;ACT;IND;PST,7.3e-05,7.1e-05,s t u d eː r ə ð ə
+studere,studerer,V;ACT;IND;PRS,9.1e-05,7.1e-05,s t u d eː r ə r
+studere,studeres,V;PASS;IND;PRS,2e-05,7.1e-05,s t u d eː r ə s
+studere,studere,V;ACT;NFIN,0.000237,7.1e-05,s t u d eː r ə
+studere,studer,V;ACT;IMP,5e-06,7.1e-05,s t uː d ə r
+svare,svaredes,V;PASS;IND;PST,2e-06,0.0007523333333333,s v aː r ə ð ə s
+svare,svarede,V;ACT;IND;PST,0.000441,0.0007523333333333,s v aː r ə ð ə
+svare,svarer,V;ACT;IND;PRS,0.001357,0.0007523333333333,s v aː r ə r
+svare,svares,V;PASS;IND;PRS,2.6e-05,0.0007523333333333,s v aː r ə s
+svare,svare,V;ACT;NFIN,0.000734,0.0007523333333333,s v aː r ə
+svare,svar,V;ACT;IMP,0.001954,0.0007523333333333,s v aː r
+svigte,svigtedes,V;PASS;IND;PST,0.0,3.85e-05,s v e k t ə ð ə s
+svigte,svigtede,V;ACT;IND;PST,2.1e-05,3.85e-05,s v e k t ə ð ə
+svigte,svigter,V;ACT;IND;PRS,9.1e-05,3.85e-05,s v e k t ə r
+svigte,svigtes,V;PASS;IND;PRS,5e-06,3.85e-05,s v e k t ə s
+svigte,svigte,V;ACT;NFIN,4.2e-05,3.85e-05,s v e k t ə
+svigte,svigt,V;ACT;IMP,7.2e-05,3.85e-05,s v e k t
+taste,tastedes,V;PASS;IND;PST,0.0,2.516666666666666e-05,t a s t ə ð ə s
+taste,tastede,V;ACT;IND;PST,2e-06,2.516666666666666e-05,t a s t ə ð ə
+taste,taster,V;ACT;IND;PRS,6.9e-05,2.516666666666666e-05,t a s t ə r
+taste,tastes,V;PASS;IND;PRS,1.2e-05,2.516666666666666e-05,t a s t ə s
+taste,taste,V;ACT;NFIN,5.4e-05,2.516666666666666e-05,t a s t ə
+taste,tast,V;ACT;IMP,1.4e-05,2.516666666666666e-05,t a s t
+udstråle,udstråledes,V;PASS;IND;PST,0.0,1.7500000000000002e-05,u d s t r ɔː l ə ð ə s
+udstråle,udstrålede,V;ACT;IND;PST,1e-05,1.7500000000000002e-05,u d s t r ɔː l ə ð ə
+udstråle,udstråler,V;ACT;IND;PRS,7.3e-05,1.7500000000000002e-05,u d s t r ɔː l ə r
+udstråle,udstråles,V;PASS;IND;PRS,0.0,1.7500000000000002e-05,u d s t r ɔː l ə s
+udstråle,udstråle,V;ACT;NFIN,2.2e-05,1.7500000000000002e-05,u d s t r ɔː l ə
+udstråle,udstrål,V;ACT;IMP,0.0,1.7500000000000002e-05,u d s t r ɔː l
+udstyre,udstyredes,V;PASS;IND;PST,2e-06,0.0002558333333333,u d s t yː r ə d ə s
+udstyre,udstyrede,V;ACT;IND;PST,2.5e-05,0.0002558333333333,u d s t yː r ə ð ə
+udstyre,udstyrer,V;ACT;IND;PRS,7e-06,0.0002558333333333,u d s t yː r ə r
+udstyre,udstyres,V;PASS;IND;PRS,3.3e-05,0.0002558333333333,u d s t yː r ə s
+udstyre,udstyre,V;ACT;NFIN,2.7e-05,0.0002558333333333,u d s t yː r ə
+udstyre,udstyr,V;ACT;IMP,0.001441,0.0002558333333333,u d s t yː r
+variere,varieredes,V;PASS;IND;PST,0.0,0.000132,v a r i eː r ə ð ə s
+variere,varierede,V;ACT;IND;PST,0.000105,0.000132,v a r i eː r ə ð ə
+variere,varierer,V;ACT;IND;PRS,0.000364,0.000132,v a r i eː r ə r
+variere,varieres,V;PASS;IND;PRS,3.6e-05,0.000132,v a r j eː r ə s
+variere,variere,V;ACT;NFIN,0.000283,0.000132,v a r i eː r ə
+variere,varier,V;ACT;IMP,4e-06,0.000132,v a r i ə r
+ventilere,ventileredes,V;PASS;IND;PST,0.0,1.45e-05,v ɛ n t i l eː r ə ð ə s
+ventilere,ventilerede,V;ACT;IND;PST,1.5e-05,1.45e-05,v ɛ n t i l eː r ə ð ə
+ventilere,ventilerer,V;ACT;IND;PRS,5e-06,1.45e-05,v ɛ n t i l eː r ə r
+ventilere,ventileres,V;PASS;IND;PRS,1e-05,1.45e-05,v ɛ n t i l eː r ə s
+ventilere,ventilere,V;ACT;NFIN,3e-06,1.45e-05,v ɛ n t i l eː r ə
+ventilere,ventiler,V;ACT;IMP,5.4e-05,1.45e-05,v ɛ n t iː l ə r
