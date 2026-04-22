@@ -1,0 +1,2481 @@
+lemma,paradigm_slot,target,prediction
+kannattaa,V;ACT;PRS;NEG;IND;1;SG,e n,e n o m ɑː
+kannattaa,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ k ɑ nː ɑ tː ɑ n u t,e n o l eˣ k ɑ nː ɑ tː ɑ n u t
+kannattaa,V;ACT;PRS;NEG;IND;2;SG,e t k ɑ nː ɑ t ɑˣ,e i̯ t ɑ t k ɑ nː ɑ tː ɑ k o
+kannattaa,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ k ɑ nː ɑ tː ɑ n u t,e i̯ o l eˣ k ɑ nː ɑ tː ɑ n u t
+kannattaa,V;ACT;PST;NEG;IND;2;SG,e t k ɑ nː ɑ tː ɑ n u t,e t k ɑ nː ɑ t ɑˣ
+kannattaa,V;PASS;PST;PRF;POS;IND,o l i k ɑ nː ɑ t e tː uˣ,ʋ ɑ l i t s i k ɑ nː ɑ t e tː uˣ
+kannattaa,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t k ɑ nː ɑ t e tː uˣ,e i̯ k ɑ nː ɑ t e tː uˣ
+kannattaa,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i k ɑ nː ɑ tː ɑ n u t,o l i s i k ɑ nː ɑ tː ɑ n u t
+kannattaa,V;ACT;PRS;POS;COND;1;PL,k ɑ nː ɑ tː ɑ i̯ s i mː e,h o i̯ t ɑ i̯ s i mː e
+kannattaa,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ k ɑ nː ɑ tː ɑ n eː t,o l i s i mː eˣ k ɑ nː ɑ tː ɑ n eː t
+kannattaa,V;PASS;PRS;NEG;COND,e i̯ k ɑ nː ɑ t e tː ɑ i̯ s i,e i̯ d e tː ɑ i̯ s i
+kannattaa,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ k ɑ nː ɑ tː ɑ n u t,o l k ɑː k ɑ nː ɑ tː ɑ n u t
+kannattaa,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ k ɑ nː ɑ tː ɑ n u t,e t o lː u t k oː n
+kannattaa,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ k ɑ nː ɑ tː ɑ n eː t,o l k ɑː mː eˣ k ɑ nː ɑ tː ɑ n eː t
+kannattaa,V;ACT;PRS;NEG;POT;3;SG,e i̯ k ɑ nː ɑ tː ɑ n eˣ,e i̯ uː s i k ɑ nː ɑ tː ɑ n eˣ
+kannattaa,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ k ɑ nː ɑ tː ɑ n eː t,l i e̯ n e mː e
+kannattaa,V;ACT;PRS;NEG;POT;2;PL,e tː e k ɑ nː ɑ tː ɑ n eˣ,e tː e k ɑ nː ɑ tː ɑ n eˣ
+kannattaa,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː e k ɑ nː ɑ tː ɑ n eː t,l i e̯ n e tː e
+kannattaa,V;NFIN;1;ACT,k ɑ nː ɑ tː ɑː k s eː n,k ɑ nː ɑ t ɑ k s eː n
+kannattaa,V;NFIN;2;ACT;IN+ESS,k ɑ nː ɑ tː ɑ e sː ɑ,k ɑ nː ɑ tː ɑ e sː ɑ
+kannattaa,V;NFIN;2;ACT;INS,k ɑ nː ɑ tː ɑ e n,k æ y̯ tː æ e n
+kannattaa,V;NFIN;3;ACT;AT+ESS,k ɑ nː ɑ tː ɑ m ɑ lː ɑ,k ɑ nː ɑ tː ɑ m ɑ lː ɑ
+vaikuttaa,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n ʋ ɑ i̯ k u tː ɑ n u t,o l e mː eˣ ʋ ɑ i̯ k u tː ɑ n u t
+vaikuttaa,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ ʋ ɑ i̯ k u tː ɑ n u t,e i̯ o l eˣ ʋ ɑ i̯ k u tː ɑ n u t
+vaikuttaa,V;PASS;PRS;POS;IND,ʋ ɑ i̯ k u t e t ɑː n,k e rː ɑ t ɑː n
+vaikuttaa,V;ACT;PST;NEG;IND;2;SG,e t ʋ ɑ i̯ k u tː ɑ n u t,ʋ ɑ i̯ k u t i t
+vaikuttaa,V;ACT;PST;POS;IND;3;SG,ʋ ɑ i̯ k u tː i,ʋ ɑ i̯ k u tː ɑ n u t
+vaikuttaa,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t ʋ ɑ i̯ k u tː ɑ n u t,e i̯ ʋ ɑ i̯ k u tː ɑ n u t
+vaikuttaa,V;ACT;PST;POS;IND;1;PL,ʋ ɑ i̯ k u t i mː e,e l i mː eˣ ʋ ɑ i̯ k u tː ɑ n u t
+vaikuttaa,V;ACT;PST;NEG;IND;1;PL,e mː eˣ ʋ ɑ i̯ k u tː ɑ n eː t,e mː eˣ ʋ ɑ i̯ k u tː ɑ n eː t
+vaikuttaa,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ ʋ ɑ i̯ k u tː ɑ n eː t,ʋ ɑ i̯ k u t i tː eˣ
+vaikuttaa,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t ʋ ɑ i̯ k u tː ɑ n eː t,e i̯ ʋ æ t ʋ ɑ i̯ k u tː ɑ n u t
+vaikuttaa,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t ʋ ɑ i̯ k u t e tː uˣ,e i̯ ʋ ɑ i̯ k u t e tː uˣ
+vaikuttaa,V;ACT;PRS;NEG;COND;1;SG,e n,e n ʋ ɑ i̯ k u tː ɑ i̯ s i
+vaikuttaa,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i,e n o l i s i
+vaikuttaa,V;ACT;PRS;POS;COND;3;SG,ʋ ɑ i̯ k u tː ɑ i̯ s i,ʋ ɑ i̯ k u t ɑ i̯ s iː n
+vaikuttaa,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i ʋ ɑ i̯ k u tː ɑ n eː t,e mː e o l i s i
+vaikuttaa,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t ʋ ɑ i̯ k u tː ɑ n eː t,o l i ʋ ɑ t ɑ i̯ s i ʋ ɑ i̯ k u tː ɑ n eː t
+vaikuttaa,V;PASS;PRS;PRF;POS;COND,o l i s i,ʋ ɑ i̯ k u t e tː ɑ i̯ s iː n
+vaikuttaa,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i,e i̯ o l eˣ ʋ ɑ i̯ k u t e tː uˣ
+vaikuttaa,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ ʋ ɑ i̯ k u tː ɑ n u t,e t o l eˣ ʋ ɑ i̯ k u tː ɑ n u t
+vaikuttaa,V;ACT;PRS;POS;IMP;2;PL,ʋ ɑ i̯ k u tː ɑ k ɑːˣ,ʋ ɑ i̯ k u tː ɑ i̯ s i tː eˣ
+vaikuttaa,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː ʋ ɑ i̯ k u tː ɑ k o,e tː e ʋ ɑ i̯ k u t ɑˣ
+vaikuttaa,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o ʋ ɑ i̯ k u t e tː uˣ,æ l k øː n ʋ ɑ i̯ k u t e tː ɑ k o
+vaikuttaa,V;ACT;PRS;NEG;POT;2;SG,e t ʋ ɑ i̯ k u tː ɑ n eˣ,e t l i e̯ n eˣ ʋ ɑ i̯ k u tː ɑ n eː t
+vaikuttaa,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː ʋ ɑ i̯ k u tː ɑ n u t,ʋ ɑ i̯ k u t ɑ n eː
+vaikuttaa,V;ACT;PRS;POS;POT;2;PL,ʋ ɑ i̯ k u tː ɑ n e tː e,h ɑ l u nː e tː eˣ
+vaikuttaa,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t ʋ ɑ i̯ k u tː ɑ n eː t,h y ʋ æ t l i e̯ n eˣ ʋ ɑ i̯ k u tː ɑ n eː t
+vaikuttaa,V;NFIN;3;ACT;IN+ESS,ʋ ɑ i̯ k u tː ɑ m ɑ sː ɑ,ʋ ɑ i̯ k u tː ɑ m ɑ sː ɑ
+vaikuttaa,V;NFIN;3;ACT;AT+ESS,ʋ ɑ i̯ k u tː ɑ m ɑ lː ɑ,ʋ ɑ i̯ k u tː ɑ m ɑ lː ɑ
+vaikuttaa,V;NFIN;4;ACT;NOM,ʋ ɑ i̯ k u tː ɑ m i n e n,ʋ ɑ i̯ k u tː ɑ m i n e n
+hoitaa,V;ACT;PRS;POS;IND;2;SG,h o i̯ d ɑ t,k æ y̯ t æ t
+hoitaa,V;ACT;PRS;POS;IND;3;SG,h o i̯ t ɑːˣ,h o i̯ d ɑˣ
+hoitaa,V;ACT;PRS;POS;IND;1;PL,h o i̯ d ɑ mː eˣ,h o i̯ d i mː e
+hoitaa,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ h o i̯ d ɑˣ,e mː e o l eˣ h o i̯ t ɑ n eː t
+hoitaa,V;ACT;PRS;POS;IND;2;PL,h o i̯ d ɑ tː eˣ,s iː t æ tː eˣ
+hoitaa,V;PASS;PRS;POS;IND,h o i̯ d e t ɑː n,o lː ɑː n
+hoitaa,V;ACT;PST;PRF;POS;IND;2;SG,o l i t h o i̯ t ɑ n u t,o l i tː eˣ h o i̯ t ɑ n u t
+hoitaa,V;ACT;PST;POS;IND;3;SG,h o i̯ t i,o l i h o i̯ t ɑ n eː t
+hoitaa,V;ACT;PST;NEG;IND;3;SG,e i̯ h o i̯ t ɑ n u t,e i̯ h o i̯ d ɑˣ
+hoitaa,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t h o i̯ t ɑ n u t,e i̯ o lː u t h o i̯ t ɑ n u t
+hoitaa,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː e,o l i n e mː eˣ h o i̯ t ɑ n eː t
+hoitaa,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t h o i̯ t ɑ n eː t,e mː e o lː eː t h o i̯ t ɑ n eː t
+hoitaa,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t h o i̯ t ɑ n eː t,e i̯ ʋ æ t o l k o h o i̯ t ɑ n eː t
+hoitaa,V;PASS;PST;POS;IND,h o i̯ d e tː iː n,h o i̯ d e tː iː n
+hoitaa,V;PASS;PST;PRF;POS;IND,o l i h o i̯ d e tː uˣ,o l i
+hoitaa,V;ACT;PRS;POS;COND;1;SG,h o i̯ t ɑ i̯ s i n,h o i̯ t ɑ i̯ s i n
+hoitaa,V;ACT;PRS;NEG;COND;1;SG,e n,e n j uː r i s i h o i̯ t ɑ n u t
+hoitaa,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i h o i̯ t ɑ n u t,o l i s i t h o i̯ t ɑ n u t
+hoitaa,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t h o i̯ t ɑ i̯ s i,e tː e h o i̯ t ɑ i̯ s i
+hoitaa,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t h o i̯ t ɑ n eː t,o l i ʋ ɑ t s i s i h o i̯ t ɑ n eː t
+hoitaa,V;PASS;PRS;PRF;POS;COND,o l i s i h o i̯ d e tː uˣ,o l i s i n h o i̯ d e tː uˣ
+hoitaa,V;ACT;PRS;NEG;IMP;2;SG,æ l æ h o i̯ d ɑˣ,e t h o i̯ d ɑˣ
+hoitaa,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ h o i̯ t ɑ k o,æ l k æː mː eˣ h o i̯ t ɑ n eː t
+hoitaa,V;ACT;PRS;POS;IMP;3;PL,h o i̯ t ɑ k oː t,h o i̯ t ɑ k ɑː
+hoitaa,V;PASS;PRS;POS;IMP,h o i̯ d e tː ɑ k oː n,h o i̯ d e tː æ k øː n
+hoitaa,V;PASS;PRS;PRF;POS;IMP,o l k oː n h o i̯ d e tː uˣ,o l k oː t h o i̯ d e tː uˣ
+hoitaa,V;ACT;PRS;POS;POT;2;SG,h o i̯ t ɑ n e t,h o i̯ t ɑ n e t
+hoitaa,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t h o i̯ t ɑ n eː t,l i e̯ n e ʋ ɑ t
+hoitaa,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ h o i̯ d e tː uˣ,e i̯ h o i̯ d e tː ɑ n eˣ
+hoitaa,V;NFIN;ACT+PASS,h o i̯ t ɑːˣ,s iː tː y æˣ
+hoitaa,V;NFIN;2;ACT;INS,h o i̯ t ɑ e n,h o i̯ d e tː ɑ e n
+hoitaa,V;NFIN;3;ACT;IN+ESS,h o i̯ t ɑ m ɑ sː ɑ,h o i̯ t ɑ m ɑ sː ɑ
+hoitaa,V;NFIN;3;ACT;IN+ABL,h o i̯ t ɑ m ɑ s t ɑ,h o i̯ t ɑ m ɑ s t ɑ
+hoitaa,V;NFIN;3;ACT;IN+ALL,h o i̯ t ɑ m ɑː n,h o i̯ t ɑ m ɑː n
+hoitaa,V;NFIN;3;ACT;PRIV,h o i̯ t ɑ m ɑ tː ɑ,h o i̯ t ɑ m ɑ tː ɑ
+hoitaa,V;NFIN;4;PASS;PRT,h o i̯ t ɑ m i s t ɑ,h o i̯ t ɑ m i s t æ
+aiheuttaa,V;ACT;PRS;POS;IND;1;SG,ɑ i̯ h e u̯ t ɑ n,ɑ i̯ h e u̯ t ɑ mː e
+aiheuttaa,V;ACT;PRS;NEG;IND;2;SG,e t ɑ i̯ h e u̯ t ɑ,e t o l eˣ
+aiheuttaa,V;ACT;PRS;NEG;IND;2;PL,e tː e ɑ i̯ h e u̯ t ɑ,e t ʋ ɑ i̯ h e u tː ɑ k o
+aiheuttaa,V;ACT;PRS;POS;IND;3;PL,ɑ i̯ h e u tː ɑ ʋ ɑ t,k æ y̯ tː æ ʋ æ t
+aiheuttaa,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t ɑ i̯ h e u̯ t ɑ,e i̯ ʋ æ t ɑ i̯ h e u tː ɑ k o
+aiheuttaa,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ ɑ i̯ h e u̯ t e tː uˣ,e i̯ o l eˣ ɑ i̯ h e u̯ t e tː uˣ
+aiheuttaa,V;ACT;PST;POS;IND;3;SG,ɑ i̯ h e u tː i,ɑ i̯ h e u̯ t ɑ n u t
+aiheuttaa,V;ACT;PST;NEG;IND;3;SG,e i̯ h e u tː ɑ n u t,e i̯ h e u tː i
+aiheuttaa,V;ACT;PST;NEG;IND;1;PL,e mː eˣ ɑ i̯ h e u tː ɑ n eː t,e mː eˣ ɑ i̯ h e u tː ɑ n eː t
+aiheuttaa,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t ɑ i̯ h e u tː ɑ n eː t,e t o lː u t s i mː eˣ
+aiheuttaa,V;ACT;PST;NEG;IND;2;PL,e tː e ɑ i̯ h e u tː ɑ n eː t,e tː e t ɑ i̯ h e u tː ɑ k o
+aiheuttaa,V;PASS;PST;POS;IND,ɑ i̯ h e u̯ t e tː iː n,ɑ i̯ h e u̯ t e tː uˣ
+aiheuttaa,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i,e n o l i s i
+aiheuttaa,V;ACT;PRS;POS;COND;3;SG,ɑ i̯ h e u tː ɑ i̯ s i,ɑ i̯ h e u tː ɑ i̯ s i
+aiheuttaa,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ ɑ i̯ h e u tː ɑ i̯ s i,e mː eˣ ɑ i̯ h e u̯ t ɑ
+aiheuttaa,V;ACT;PRS;NEG;COND;2;PL,e tː e ɑ i̯ h e u tː ɑ i̯ s i,e tː e t ɑ i̯ h e u tː ɑ i̯ s i
+aiheuttaa,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ ɑ i̯ h e u tː ɑ n eː t,o l i s i tː eˣ
+aiheuttaa,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t ɑ i̯ h e u tː ɑ n eː t,o l i s i ʋ ɑ t
+aiheuttaa,V;PASS;PRS;PRF;POS;COND,o l i s i,ɑ i̯ h e u̯ t e tː ɑ i̯ s iː n
+aiheuttaa,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i,e i̯ ² ² h e u̯ t e tː ɑ i̯ s i
+aiheuttaa,V;ACT;PRS;POS;IMP;3;SG,ɑ i̯ h e u tː ɑ k oː n,ɑ i̯ h e u̯ t ɑ
+aiheuttaa,V;ACT;PRS;POS;IMP;3;PL,ɑ i̯ h e u tː ɑ k oː t,t ɑ k s ɑ k oː t
+aiheuttaa,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ ɑ i̯ h e u tː ɑ n u t,e n ɑ i̯ h e u tː ɑ n eˣ
+aiheuttaa,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ ɑ i̯ h e u tː ɑ n u t,e t l i e̯ n eˣ ɑ i̯ h e u tː ɑ n u t
+aiheuttaa,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ ɑ i̯ h e u tː ɑ n eː t,e tː e l i e̯ n eˣ ɑ i̯ h e u tː ɑ n eː t
+aiheuttaa,V;ACT;PRS;POS;POT;3;PL,ɑ i̯ h e u tː ɑ n e ʋ ɑ t,ɑ i̯ h e u tː ɑ n eː
+aiheuttaa,V;NFIN;2;ACT;INS,ɑ i̯ h e u tː ɑ e n,ɑ i̯ h e u tː ɑ e n
+aiheuttaa,V;NFIN;3;ACT;IN+ESS,ɑ i̯ h e u tː ɑ m ɑ sː ɑ,ɑ i̯ h e u tː ɑ m ɑ sː ɑ
+aiheuttaa,V;NFIN;3;ACT;PRIV,ɑ i̯ h e u tː ɑ m ɑ tː ɑ,ɑ i̯ h e u tː ɑ m ɑ tː ɑ
+kertoa,V;ACT;PRS;POS;IND;1;SG,k e rː o n,o l e n k e r t o n u t
+kertoa,V;ACT;PRS;POS;IND;1;PL,k e rː o mː e,k e r t o n e mː e
+kertoa,V;ACT;PRS;POS;IND;2;PL,k e rː o tː eˣ,ɑ nː e tː e k e r t o n eː t
+kertoa,V;ACT;PRS;NEG;IND;2;PL,e tː e k e rː o,e tː e k e r t o n eː t
+kertoa,V;PASS;PRS;PRF;POS;IND,o n,o n
+kertoa,V;ACT;PST;POS;IND;1;PL,k e rː o i̯ mː eˣ,m uː t i mː e
+kertoa,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ k e r t o n eː t,o l i tː eˣ k e r t o n eː t
+kertoa,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t k e r t o n eː t,e tː e o lː eː t k e r t o n eː t
+kertoa,V;PASS;PST;POS;IND,k e rː o tː iː n,t e k e rː o tː uˣ
+kertoa,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i k e r t o n u t,e n o l i s i k e r t o n u t
+kertoa,V;ACT;PRS;POS;COND;2;SG,k e r t o i̯ s i t,k e r t o i̯ s i t
+kertoa,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t k e r t o n u t,o l i s i k e r t o n u t
+kertoa,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t k e r t o n eː t,o l i s i ʋ ɑ t
+kertoa,V;PASS;PRS;POS;COND,k e rː o tː ɑ i̯ s iː n,k e rː o tː ɑ i̯ s iː n
+kertoa,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i k e rː o tː uˣ,e i̯ o l eˣ k e rː o tː uˣ
+kertoa,V;ACT;PRS;POS;IMP;2;SG,k e rː o,k e r t o k oː n
+kertoa,V;ACT;PRS;NEG;IMP;2;SG,æ l æ k e rː o,æ l æ o l eˣ k e r t o n eː t
+kertoa,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n k e r t o k o,æ l k øː n k e r t o n u t
+kertoa,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n k e r t o n u t,o l eˣ k e r t o n eː t
+kertoa,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ k e r t o k o,e mː eˣ k e r t o n eˣ
+kertoa,V;ACT;PRS;POS;IMP;2;PL,k e r t o k ɑː,k e r t o n e tː e
+kertoa,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o k e rː o tː uˣ,æ l k øː n k e rː o tː uˣ
+kertoa,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n k e r t o n u t,k e r t o n e n
+kertoa,V;ACT;PRS;PRF;NEG;POT;3;SG,e i̯ l i e̯ n eˣ k e r t o n u t,e i̯ l i e̯ n eˣ k e r t o n u t
+kertoa,V;ACT;PRS;NEG;POT;2;PL,e tː e k e r t o n eˣ,e tː e t ɑ nː eˣ
+kertoa,V;ACT;PRS;POS;POT;3;PL,k e r t o n e ʋ ɑ t,o tː ɑ n e ʋ æ t k e r t o n eː t
+kertoa,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t k e r t o n eː t,l i e̯ n e tː eˣ k e r t o n eː t
+kertoa,V;NFIN;ACT+PASS,k e r t o ɑˣ,k e r t o i̯ tː ɑːˣ
+kertoa,V;NFIN;1;ACT,k e r t o ɑ k s eː n,t e h d æ k s eː n
+kertoa,V;NFIN;4;ACT;NOM,k e r t o m i n e n,k e r t o m i n e n
+lähteä,V;ACT;PRS;POS;IND;2;SG,l æ h d e t,o l e t l æ h t e n eː t
+lähteä,V;ACT;PRS;PRF;NEG;IND;1;PL,e mː e o l eˣ l æ h t e n eː t,e mː eˣ l æ h d eˣ
+lähteä,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e l æ h t e n eː t,e tː e o l eˣ l æ h t e n eː t
+lähteä,V;ACT;PRS;POS;IND;3;PL,l æ h t e ʋ æ t,h y ʋ æ t l æ h t e k ø
+lähteä,V;PASS;PRS;POS;IND,l æ h d e t æː n,l æ h d e t æː n
+lähteä,V;PASS;PRS;PRF;POS;IND,o n,o n l æ h d e tː yˣ
+lähteä,V;ACT;PST;NEG;IND;2;SG,e t l æ h t e n y t,e i̯ l æ h t e n y t
+lähteä,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ l æ h t e n eː t,o l i tː e
+lähteä,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t l æ h t e n eː t,e i̯ ʋ æ t l æ h t e n eː t
+lähteä,V;ACT;PRS;NEG;COND;2;SG,e t l æ h t i s i,e t o l i s i l æ h t e n y t
+lähteä,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i l æ h t e n y t,e i̯ o l eˣ l æ h t e n y t
+lähteä,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ l æ h t i s i,e mː eˣ l æ h d eˣ
+lähteä,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i l æ h t e n eː t,e mː eˣ o l i s i
+lähteä,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i l æ h t e n eː t,e tː e l æ h t i s i
+lähteä,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t l æ h t i s i,e i̯ e l æ h t i s i
+lähteä,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ l æ h t e n y t,o l e t l æ h t e n y t
+lähteä,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n l æ h t e n y t,o l k oː n l æ h t e n y t
+lähteä,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o l æ h t e n eː t,e mː e o l eˣ l æ h t e n eː t
+lähteä,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o l æ h t e n eː t,e tː e o l eˣ l æ h t e n eː t
+lähteä,V;PASS;PRS;NEG;IMP,æ l k øː n l æ h d e tː æ k ø,æ l k øː n l æ h d e tː ɑ k o
+lähteä,V;ACT;PRS;POS;POT;1;SG,l æ h t e n e n,l æ h t e n e n
+lähteä,V;ACT;PRS;NEG;POT;1;SG,e n l æ h t e n eˣ,e n l æ h t e n eˣ
+lähteä,V;ACT;PRS;POS;POT;3;PL,l æ h t e n e ʋ æ t,l æ h t e n e tː e
+lähteä,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ l æ h d e tː yˣ,e i̯ l æ h d e tː æ n eˣ
+lähteä,V;NFIN;4;PASS;PRT,l æ h t e m i s t æ,l æ h t e m i s t æ
+niittää,V;ACT;PRS;POS;IND;2;SG,n iː t æ t,e s i t æ t
+niittää,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t n iː tː æ n y t,o l e tː eˣ n iː tː æ n y t
+niittää,V;ACT;PRS;PRF;POS;IND;3;SG,o n n iː tː æ n y t,o l e n iː tː æ n y t
+niittää,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e n iː tː æ n eː t,e tː e n iː t æ
+niittää,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t n iː tː æ n y t,e t o lː u t n iː tː æ n y t
+niittää,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t n iː tː æ n eː t,e i̯ ʋ æ t o lː eː t n iː tː æ n eː t
+niittää,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t n iː tː æ n eː t,e tː e n iː tː æ n eː t
+niittää,V;ACT;PST;POS;IND;3;PL,n iː tː i ʋ æ t,n iː t i tː eˣ
+niittää,V;PASS;PST;POS;IND,n iː t e tː iː n,n iː t e tː æ n y t
+niittää,V;PASS;PST;PRF;POS;IND,o l i n iː t e tː yˣ,o l i
+niittää,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t n iː t e tː yˣ,e i̯ n iː t e tː yˣ
+niittää,V;ACT;PRS;NEG;COND;1;SG,e n n iː tː æ i̯ s i,e n n iː tː æ i̯ s i
+niittää,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i n iː tː æ n y t,e n o l eˣ n iː tː æ i̯ s i
+niittää,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i n iː tː æ n y t,e t o l i s i j o h t ɑ n u t
+niittää,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i n iː tː æ n y t,n iː tː æ i̯ s i ʋ o i̯ n eː t
+niittää,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i n iː tː æ n y t,e i̯ o l eˣ n iː tː æ i̯ s i
+niittää,V;ACT;PRS;POS;COND;2;PL,n iː tː æ i̯ s i tː eˣ,n iː tː æ i̯ s i tː eˣ
+niittää,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i n iː tː æ n eː t,e i̯ ʋ æ t o l i s i
+niittää,V;PASS;PRS;PRF;POS;COND,o l i s i n iː t e tː yˣ,n iː t e tː ɑ i̯ s iː n
+niittää,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i n iː t e tː yˣ,e i̯ n iː t e tː æ i̯ s i
+niittää,V;ACT;PRS;POS;IMP;2;SG,n iː t æ,n iː tː æ k øː n
+niittää,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ n iː tː æ n y t,o l i s i t n iː tː æ n y t
+niittää,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ n iː tː æ n y t,æ l æ n iː t æ
+niittää,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n n iː tː æ n y t,o n n iː tː æ k øː n
+niittää,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ n iː tː æ k ø,æ l k æː mː eˣ n iː tː æ k ø
+niittää,V;ACT;PRS;POS;IMP;2;PL,n iː tː æ k æː,k e rː ɑ t k ɑːˣ
+niittää,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː n iː tː æ k ø,e tː e n iː tː æ k øː n
+niittää,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː n iː tː æ n eː t,o l k ɑː o m ɑ nː eː t
+niittää,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n n iː tː æ n y t,o l e n iː tː æ n e n
+niittää,V;ACT;PRS;POS;POT;2;SG,n iː tː æ n e t,n iː tː æ n e t
+niittää,V;ACT;PRS;NEG;POT;2;SG,e t n iː tː æ n eˣ,e t n iː tː æ n eˣ
+niittää,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ n iː tː æ n y t,e t o l eˣ n iː tː æ n eˣ
+niittää,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ n iː tː æ n eˣ,e mː eˣ n iː tː æ n eˣ
+niittää,V;ACT;PRS;POS;POT;2;PL,n iː tː æ n e tː eˣ,n iː tː æ n e tː e
+niittää,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ n iː tː æ n eː t,l i e̯ n e tː eˣ n iː tː æ n eː t
+niittää,V;NFIN;ACT+PASS,n iː tː æːˣ,t ɑ p ɑ h t u ɑˣ
+niittää,V;NFIN;3;ACT;IN+ESS,n iː tː æ m æ sː æ,n iː tː æ m æ sː æ
+niittää,V;NFIN;3;ACT;AT+ESS,n iː tː æ m æ lː æ,n iː tː æ m æ lː æ
+niittää,V;NFIN;3;ACT;INS,n iː tː æ m æ n,n iː tː æ m æ n
+niittää,V;NFIN;4;ACT;PRT,n iː tː æ m i s t æ,n iː tː æ m i s t ɑ
+niittää,V;NFIN;5;PASS,n iː tː æ m æ i̯ s i lː æː n,n iː tː æ m æ i̯ s i lː æː n
+ottaa,V;ACT;PRS;NEG;IND;1;SG,e n o t ɑˣ,e n
+ottaa,V;ACT;PRS;POS;IND;2;SG,o t ɑ t,o t ɑ
+ottaa,V;ACT;PRS;PRF;POS;IND;3;SG,o n o tː ɑ n u t,o ʋ ɑ t o tː ɑ n u t
+ottaa,V;ACT;PRS;POS;IND;1;PL,o t ɑ mː e,o tː ɑ n e mː eˣ
+ottaa,V;ACT;PRS;POS;IND;2;PL,o t ɑ tː e,o tː ɑ n e tː eˣ
+ottaa,V;ACT;PRS;NEG;IND;2;PL,e tː e o t ɑˣ,e tː e t ɑ r j o ɑˣ
+ottaa,V;PASS;PRS;POS;IND,o t e t ɑː n,l ø y̯ d e t æː n
+ottaa,V;PASS;PRS;PRF;POS;IND,o n,o ʋ ɑ t o t e tː ɑ n u t
+ottaa,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ o tː ɑ n eː t,o l i mː eˣ o tː ɑ n eː t
+ottaa,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t o tː ɑ n eː t,e i̯ ʋ æ t o tː ɑ n eː t
+ottaa,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t o tː ɑ n eː t,h y ʋ æ t o lː eː t o tː ɑ n eː t
+ottaa,V;ACT;PRS;NEG;COND;2;SG,e t o tː ɑ i̯ s i,e t o tː ɑ i̯ s i
+ottaa,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i o tː ɑ n u t,e i̯ o l i s i o tː ɑ n eː t
+ottaa,V;ACT;PRS;POS;COND;3;PL,o tː ɑ i̯ s i ʋ ɑ t,h y ʋ æ t o tː ɑ i̯ s i
+ottaa,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ o tː ɑ n u t,o l i s i t o tː ɑ n u t
+ottaa,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ o tː ɑ n eː t,o l k ɑː mː eˣ o tː ɑ n eː t
+ottaa,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ o tː ɑ n u t,e n l i e̯ n eˣ o tː ɑ n u t
+ottaa,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ o tː ɑ n eː t,o l i tː eˣ o tː ɑ n eˣ
+ottaa,V;NFIN;2;ACT;IN+ESS,o tː ɑ e sː ɑ,t o t e sː æ
+ottaa,V;NFIN;3;ACT;AT+ESS,o tː ɑ m ɑ lː ɑ,o tː ɑ m ɑ lː ɑ
+ottaa,V;NFIN;3;ACT;PRIV,o tː ɑ m ɑ tː ɑ,o tː ɑ m ɑ tː ɑ
+ottaa,V;NFIN;3;ACT;INS,o tː ɑ m ɑ n,o tː ɑ m ɑ n
+ottaa,V;NFIN;4;PASS;NOM,o tː ɑ m i n e n,o tː ɑ m i n e n
+ottaa,V;NFIN;5;ACT,o tː ɑ m ɑ i̯ s i lː ɑː n,o tː ɑ m ɑ i̯ s i lː ɑː n
+johtaa,V;ACT;PRS;NEG;IND;2;SG,e t j o h d ɑˣ,e t j o h d ɑˣ
+johtaa,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t j o h t ɑ n u t,o l e t
+johtaa,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ j o h t ɑ n u t,e t o l eˣ j o h t ɑ n u t
+johtaa,V;ACT;PRS;POS;IND;3;SG,j o h t ɑːˣ,j o h t ɑ k oː n
+johtaa,V;ACT;PRS;NEG;IND;3;SG,e i̯ j o h d ɑˣ,e i̯ k e rː o
+johtaa,V;ACT;PRS;PRF;POS;IND;3;SG,o n j o h t ɑ n u t,o l i j o h d ɑˣ
+johtaa,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ j o h t ɑ n u t,e i̯ o l eˣ j o h t ɑ n u t
+johtaa,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t j o h d ɑˣ,e i̯ ʋ æ t j o h t ɑ k o
+johtaa,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ j o h t ɑ n eː t,e i̯ o l eˣ j o h t ɑ n eː t
+johtaa,V;ACT;PST;PRF;POS;IND;1;SG,o l i n j o h t ɑ n u t,j o h d i n
+johtaa,V;ACT;PST;NEG;IND;3;SG,e i̯ j o h t ɑ n u t,e i̯ j o h t ɑ n u t
+johtaa,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t j o h t ɑ n eː t,e tː e j o h t ɑ n u t
+johtaa,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n j o h t ɑ n u t,j o h t ɑ i̯ s i n
+johtaa,V;ACT;PRS;NEG;COND;2;SG,e t j o h t ɑ i̯ s i,e t j o h t ɑ i̯ s i
+johtaa,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ j o h t ɑ i̯ s i,e mː eˣ j o h t ɑ n eˣ
+johtaa,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ j o h t ɑ n eː t,o l i mː eˣ j o h t ɑ i̯ s i
+johtaa,V;ACT;PRS;NEG;COND;2;PL,e tː e j o h t ɑ i̯ s i,e tː e j o h t ɑ i̯ s i
+johtaa,V;ACT;PRS;POS;COND;3;PL,j o h t ɑ i̯ s i ʋ ɑ t,j o h t ɑ i̯ s i ʋ æ t
+johtaa,V;ACT;PRS;POS;IMP;2;SG,j o h d ɑˣ,j o h t ɑ k oː n
+johtaa,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n j o h t ɑ n u t,o l k oː n j o h t ɑ n u t
+johtaa,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o j o h t ɑ n u t,æ l k øː n o l i s i j o h t ɑ n eː t
+johtaa,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ j o h t ɑ n eː t,o l k ɑː mː eˣ j o h t ɑ n eː t
+johtaa,V;PASS;PRS;POS;IMP,j o h d e tː ɑ k oː n,j o h d e tː æ k øː n
+johtaa,V;PASS;PRS;NEG;IMP,æ l k øː n j o h d e tː ɑ k o,e i̯ j o h d e t ɑˣ
+johtaa,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o j o h d e tː uˣ,æ l k øː n j o h d e tː yˣ
+johtaa,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ j o h t ɑ n u t,e t l i e̯ n eˣ j o h t ɑ n u t
+johtaa,V;ACT;PRS;NEG;POT;3;SG,e i̯ j o h t ɑ n eˣ,e i̯ j o h t ɑ n eˣ
+johtaa,V;ACT;PRS;POS;POT;2;PL,j o h t ɑ n e tː e,j o h t ɑ n e tː e
+johtaa,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː j o h d e tː uˣ,o l k oː n j o h d e tː yˣ
+johtaa,V;NFIN;1;ACT,j o h t ɑː k s eː n,j o h t ɑ k s eː n
+johtaa,V;NFIN;2;ACT;INS,j o h t ɑ e n,k ɑ s ʋ ɑ e n
+johtaa,V;NFIN;3;ACT;IN+ALL,j o h t ɑ m ɑː n,j o h t ɑ m ɑː n
+johtaa,V;NFIN;3;ACT;INS,j o h t ɑ m ɑ n,j o h t ɑ m ɑ n
+johtaa,V;NFIN;5;PASS,j o h t ɑ m ɑ i̯ s i lː ɑː n,j o h t ɑ m ɑ i̯ s i lː ɑː n
+sanoa,V;ACT;PRS;POS;IND;2;SG,s ɑ n o t,s i s æ lː æ t
+sanoa,V;ACT;PRS;POS;IND;3;SG,s ɑ n oː,ʋ ɑː t iː
+sanoa,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ s ɑ n o,e mː eˣ s ɑ n o n eː t
+sanoa,V;ACT;PRS;NEG;IND;2;PL,e tː e s ɑ n o,s ɑ n o tː eˣ
+sanoa,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e s ɑ n o n eː t,o l e tː e
+sanoa,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e s ɑ n o n eː t,e tː e o l eˣ s ɑ n o n eː t
+sanoa,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ s ɑ n o n eː t,æ l k øː t o l i s ɑ n o n eː t
+sanoa,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t s ɑ n o n u t,e n o lː u t s ɑ n o n u t
+sanoa,V;ACT;PST;NEG;IND;2;SG,e t s ɑ n o n u t,e t s ɑ n o n u t
+sanoa,V;ACT;PST;POS;IND;3;SG,s ɑ n o i̯,s ɑ n o i̯ ʋ ɑ t
+sanoa,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n s ɑ n o n u t,s ɑ n o i̯ s i n
+sanoa,V;ACT;PRS;POS;COND;3;SG,s ɑ n o i̯ s i,s ɑ n o i̯ s i
+sanoa,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i s ɑ n o n u t,o l i s i t s i s ɑ n o n eː t
+sanoa,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t s ɑ n o n eː t,o l i s i tː eˣ s ɑ n o n u t
+sanoa,V;PASS;PRS;NEG;COND,e i̯ s ɑ n o tː ɑ i̯ s i,s ɑ n o tː ɑ i̯ s iː n
+sanoa,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o s ɑ n o n eː t,e mː e o l eˣ s ɑ n o n eː t
+sanoa,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t s ɑ n o n eː t,s ɑ n o k oː t
+sanoa,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o s ɑ n o n eː t,æ l k øː t o l i s ɑ n o n eː t
+sanoa,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o s ɑ n o tː uˣ,æ l k øː n s ɑ n o tː uˣ
+sanoa,V;ACT;PRS;POS;POT;1;SG,s ɑ n o n e n,l i e̯ n e n s ɑ n o n u t
+sanoa,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t s ɑ n o n u t,l i e̯ n e t s ɑ n o n u t
+sanoa,V;ACT;PRS;POS;POT;3;SG,s ɑ n o n eː,s ɑ n o i̯ n eˣ
+sanoa,V;ACT;PRS;NEG;POT;3;SG,e i̯ s ɑ n o n eˣ,e i̯ s ɑ n o n eˣ
+sanoa,V;ACT;PRS;NEG;POT;1;PL,e mː e s ɑ n o n eˣ,e mː eˣ s ɑ n o n eˣ
+sanoa,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t s ɑ n o n eː t,l i e̯ n e ʋ æ t
+sanoa,V;PASS;PRS;NEG;POT,e i̯ s ɑ n o tː ɑ n eˣ,e i̯ l i e̯ n eˣ s ɑ n o tː uˣ
+sanoa,V;NFIN;5;ACT,s ɑ n o m ɑ i̯ s i lː ɑː n,s ɑ n o m ɑ i̯ s i lː ɑː n
+sanoa,V;NFIN;5;PASS,s ɑ n o m ɑ i̯ s i lː ɑː n,s ɑ n o tː ɑ m ɑ i̯ s i lː ɑː n
+taata,V;ACT;PRS;POS;IND;1;SG,t ɑ k ɑː n,o l e n t ɑː nː eː t
+taata,V;ACT;PRS;POS;IND;2;SG,t ɑ k ɑː t,k e r t ɑː t
+taata,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t t ɑː nː u t,o l e t t ɑː nː u t
+taata,V;ACT;PRS;POS;IND;3;SG,t ɑ k ɑː,t ɑ k s o i̯
+taata,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ t ɑː nː u t,e i̯ o l eˣ t ɑː nː u t
+taata,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ t ɑː nː eː t,o l e n e mː eˣ t ɑː nː u t
+taata,V;ACT;PRS;POS;IND;3;PL,t ɑ k ɑː ʋ ɑ t,t ɑ k ɑ s i ʋ ɑ t
+taata,V;PASS;PRS;POS;IND,t ɑː t ɑː n,s iː t e t æː n
+taata,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ t ɑː tː uˣ,e i̯ o l eˣ t ɑː tː uˣ
+taata,V;ACT;PST;PRF;POS;IND;2;SG,o l i t t ɑː nː u t,o l e t ɑː nː eː t
+taata,V;ACT;PST;POS;IND;3;SG,t ɑ k ɑ s i,t ɑ k ɑ s i
+taata,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ t ɑː nː eː t,o l i mː eˣ t ɑː nː eː t
+taata,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t t ɑː nː eː t,e t o lː u t t ɑː nː eː t
+taata,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t t ɑː nː eː t,e i̯ ʋ æ t t ɑː nː eː t
+taata,V;PASS;PST;NEG;IND,e i̯ t ɑː tː uˣ,e i̯ t ɑː tː ɑ n u t
+taata,V;PASS;PST;PRF;POS;IND,o l i t ɑː tː uˣ,o l i
+taata,V;ACT;PRS;POS;COND;2;SG,t ɑ k ɑ i̯ s i t,t ɑ k ɑ i̯ s i t
+taata,V;ACT;PRS;POS;COND;3;SG,t ɑ k ɑ i̯ s i,t ɑ k ɑ i̯ s i
+taata,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i t ɑː nː eː t,e mː eˣ t ɑ k ɑ i̯ s i t ɑː nː eː t
+taata,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i t ɑː nː eː t,e tː e o l i s i
+taata,V;ACT;PRS;POS;COND;3;PL,t ɑ k ɑ i̯ s i ʋ ɑ t,t ɑ k ɑ i̯ s i ʋ ɑ t
+taata,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t t ɑ k ɑ i̯ s i,e i̯ t ɑ k ɑ i̯ s i
+taata,V;ACT;PRS;NEG;IMP;2;SG,æ l æ t ɑ k ɑːˣ,e t t ɑː nː eˣ
+taata,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ t ɑː nː u t,o l k oː n t ɑː nː eː t
+taata,V;ACT;PRS;POS;IMP;3;SG,t ɑː t k oː n,t ɑː t k oː n
+taata,V;ACT;PRS;POS;IMP;1;PL,t ɑː t k ɑː mː e,t ɑ k ɑː mː eˣ
+taata,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t t ɑː t k o,æ l k æː mː eˣ t ɑː t k o
+taata,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o t ɑː tː uˣ,æ l k øː n t ɑː tː uˣ
+taata,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n t ɑː nː u t,l i e̯ n e n
+taata,V;ACT;PRS;POS;POT;2;SG,t ɑː nː e t,l i e̯ n e t t ɑː nː eː t
+taata,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ t ɑː nː u t,e t l i e̯ n eˣ t ɑː nː u t
+taata,V;ACT;PRS;POS;POT;3;SG,t ɑː nː eː,t ɑ k ɑ s i n eˣ
+taata,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ t ɑː nː eˣ,e mː e l i e̯ n eˣ
+taata,V;ACT;PRS;NEG;POT;2;PL,e tː e t ɑː nː eˣ,e tː e t ɑ nː eˣ
+taata,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ t ɑː nː eː t,l i e̯ n e tː eˣ t ɑː nː eː t
+taata,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ t ɑː nː eː t,e i̯ l i e̯ n eˣ t ɑː nː eː t
+taata,V;PASS;PRS;POS;POT,t ɑː tː ɑ n eː n,l i e̯ n eː t ɑː tː uˣ
+taata,V;NFIN;ACT+PASS,t ɑː t ɑˣ,j uː r i ɑ
+taata,V;NFIN;3;ACT;IN+ESS,t ɑ k ɑː m ɑ sː ɑ,t ɑ k ɑː m ɑ sː ɑ
+taata,V;NFIN;3;ACT;INS,t ɑ k ɑː m ɑ n,t ɑ k ɑː m ɑ n
+taata,V;NFIN;4;PASS;NOM,t ɑ k ɑː m i n e n,t ɑː tː ɑ m i n e n
+taata,V;NFIN;4;ACT;PRT,t ɑ k ɑː m i s t ɑ,t ɑ k ɑː m i s t ɑ
+taata,V;NFIN;4;PASS;PRT,t ɑ k ɑː m i s t ɑ,t ɑː tː ɑ m i s t æ
+sisältää,V;ACT;PRS;POS;IND;1;SG,s i s æ lː æ n,s i s æ l t æ n
+sisältää,V;ACT;PRS;NEG;IND;3;SG,e i̯ s i s æ lː æ,e i̯ s i s æ lː æ
+sisältää,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ s i s æ l t æ n eː t,o l e mː eˣ s i s æ l t æ n eː t
+sisältää,V;ACT;PRS;POS;IND;2;PL,s i s æ lː æ tː eˣ,s i s æ l s i tː eˣ
+sisältää,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t s i s æ l t æ n eː t,e i̯ ʋ æ t o l eˣ s i s æ l t æ n eː t
+sisältää,V;PASS;PRS;NEG;IND,e i̯ s i s æ lː e t æˣ,e i̯ o l eˣ s i s æ lː e tː yˣ
+sisältää,V;ACT;PST;NEG;IND;1;SG,e n s i s æ l t æ n y t,e n
+sisältää,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t s i s æ l t æ n y t,e n o l i s æ l t æ n y t
+sisältää,V;ACT;PST;NEG;IND;2;SG,e t s i s æ l t æ n y t,e t s i s æ lː æ
+sisältää,V;ACT;PST;PRF;POS;IND;3;SG,o l i s i s æ l t æ n y t,o l i ʋ ɑ t s i s æ l t æ n y t
+sisältää,V;ACT;PST;NEG;IND;1;PL,e mː eˣ s i s æ l t æ n eː t,e mː e o l i s æ l t æ n eː t
+sisältää,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ s i s æ l t æ n eː t,o l i n e tː e s i s æ l t æ n eː t
+sisältää,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t s i s æ lː e tː yˣ,e i̯ o l i s æ lː e tː æ n eː t
+sisältää,V;ACT;PRS;POS;COND;1;SG,s i s æ l t æ i̯ s i n,ʋ o i̯ s i n s i s æ l t æ n y t
+sisältää,V;ACT;PRS;NEG;COND;2;SG,e t s i s æ l t æ i̯ s i,e t s i s æ l t æ i̯ s i
+sisältää,V;ACT;PRS;NEG;COND;3;SG,e i̯ s i s æ l t æ i̯ s i,e i̯ t ɑ i̯ s i s æ l t æ n y t
+sisältää,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i s i s æ l t æ n y t,o l i s i t s i s æ l t æ n y t
+sisältää,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i s i s æ l t æ n eː t,e mː e o l i s i s æ l t æ n y t
+sisältää,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t s i s æ l t æ n eː t,o l i s i t s i ʋ ɑ t
+sisältää,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i s i s æ l t æ n eː t,e i̯ ʋ æ t o l i s i s æ l t æ n eː t
+sisältää,V;PASS;PRS;POS;COND,s i s æ lː e tː æ i̯ s iː n,s i s æ lː e tː æ i̯ s i
+sisältää,V;ACT;PRS;POS;IMP;2;SG,s i s æ lː æ,s i s æ l t æ i̯ s i t
+sisältää,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ s i s æ l t æ n y t,o l eˣ s i s æ l t æ n y t
+sisältää,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n s i s æ l t æ k ø,æ l k øː n s i s æ lː æ
+sisältää,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o s i s æ l t æ n eː t,e mː e o l eˣ s i s æ l t æ n eː t
+sisältää,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː s i s æ l t æ k ø,s i s æ l t æ k æː
+sisältää,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t s i s æ l t æ n eː t,s i s æ l t æ k øː t
+sisältää,V;ACT;PRS;POS;POT;2;SG,s i s æ l t æ n e t,s i s æ l t æ n e t
+sisältää,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t s i s æ l t æ n y t,l i e̯ n eː s i s æ l t æ n eː t
+sisältää,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ s i s æ l t æ n eˣ,e mː eˣ s i s æ l t æ n eˣ
+sisältää,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ s i s æ l t æ n eː t,l i e̯ n e mː eˣ s i s æ l t æ n eː t
+sisältää,V;ACT;PRS;POS;POT;2;PL,s i s æ l t æ n e tː e,k æ y̯ n e tː eˣ s i s æ l t æ n eː t
+sisältää,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː e s i s æ l t æ n eː t,l i e̯ n e tː eˣ s i s æ l t æ n eː t
+sisältää,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t s i s æ l t æ n eː t,l i e̯ n e ʋ æ t
+sisältää,V;NFIN;2;PASS;IN+ESS,s i s æ lː e tː æ e sː æ,s iː t e tː ɑ e sː ɑ
+sisältää,V;NFIN;3;PASS;INS,s i s æ lː e tː æ m æ n,k æ y̯ t æ m æ n
+sisältää,V;NFIN;4;PASS;NOM,s i s æ l t æ m i n e n,s i s æ l t æ m i n e n
+sisältää,V;NFIN;5;ACT,s i s æ l t æ m æ i̯ s i lː æː n,s i s æ l t æ m æ i̯ s i lː æː n
+olla,V;ACT;PRS;POS;IND;1;SG,o l e n,o l eˣ
+olla,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n o lː u t,o l e n e n o lː u t
+olla,V;ACT;PRS;PRF;POS;IND;3;SG,o n o lː u t,o l e t o lː u t
+olla,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e o lː eː t,o l e tː e t o lː u t
+olla,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t o lː eː t,o l i ʋ ɑ t o lː u t
+olla,V;PASS;PRS;NEG;IND,e i̯ o lː ɑˣ,e i̯ o l t uˣ
+olla,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ o l t uˣ,e i̯ o lː u t e t æˣ
+olla,V;ACT;PST;PRF;POS;IND;1;SG,o l i n o lː u t,e n o lː u t o lː u t
+olla,V;ACT;PST;POS;IND;2;SG,o l i t,s ɑ i̯ t
+olla,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t o lː u t,e i̯ o lː u t o lː u t
+olla,V;ACT;PST;POS;IND;1;PL,o l i mː e,t i e̯ s i mː eˣ
+olla,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ o lː eː t,o l i tː eˣ o lː u t
+olla,V;ACT;PST;POS;IND;3;PL,o l i ʋ ɑ t,o s ɑ s i ʋ ɑ t o lː eː t
+olla,V;PASS;PST;PRF;POS;IND,o l i o l t uˣ,o l t iː n
+olla,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i o lː u t,e n o l i s i
+olla,V;ACT;PRS;POS;COND;2;SG,o l i s i t,o l i s i
+olla,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t o lː u t,o l i s i t o lː u t
+olla,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i o lː u t,e t o l i s i
+olla,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ o l i s i,e mː eˣ o l i s i
+olla,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i o lː eː t,e i̯ ʋ æ t o l i s i t
+olla,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n o lː u t,o l eˣ o lː u t
+olla,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o o lː u t,e i̯ o l eˣ o lː u t
+olla,V;ACT;PRS;POS;IMP;1;PL,o l k ɑː mː e,æ l k æː mː eˣ o l k o
+olla,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t o l k o,æ l k øː t o l k o
+olla,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o o lː eː t,æ l k øː t o l k o
+olla,V;ACT;PRS;POS;POT;2;SG,l i e̯ n e t,l i e̯ n e t
+olla,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ o lː u t,e t l i e̯ n eˣ o lː u t
+olla,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː o lː u t,e i̯ l i e̯ n eˣ o lː u t
+olla,V;PASS;PRS;POS;POT,o l t ɑ n eː n,k ɑ nː ɑ t e tː ɑ n eː n
+olla,V;PASS;PRS;NEG;POT,e i̯ ʋ o l t ɑ n eˣ,e i̯ o t e tː ɑ n eˣ
+olla,V;NFIN;2;ACT;IN+ESS,o lː e sː ɑ,o l e m ɑ sː ɑ
+olla,V;NFIN;2;PASS;IN+ESS,o l t ɑ e sː ɑ,s ɑː t e tː ɑ e sː ɑ
+olla,V;NFIN;3;ACT;AT+ESS,o l e m ɑ lː ɑ,o l e m ɑ lː ɑ
+olla,V;NFIN;4;PASS;PRT,o l e m i s t ɑ,o l e m i s t æ
+siitä,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ s iː nː y t,e n o l eˣ s iː nː eː t
+siitä,V;ACT;PRS;NEG;IND;2;PL,e tː e s i k i æ,e t s i k i æ
+siitä,V;ACT;PRS;POS;IND;3;PL,s i k i æ ʋ æ t,s iː tː æ ʋ æ t
+siitä,V;ACT;PST;NEG;IND;1;SG,e n s iː nː y t,e n s iː nː y t
+siitä,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t s iː nː y t,e t o lː u t s iː nː y t
+siitä,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ s iː nː eː t,o l i mː eˣ s iː nː eː t
+siitä,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t s iː nː eː t,e mː eˣ s iː nː eː t
+siitä,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t s iː nː eː t,e i̯ ʋ æ t s i s iː nː eː t
+siitä,V;PASS;PST;NEG;IND,e i̯ s iː tː y,e i̯ t ɑː tː ɑ n eː t
+siitä,V;PASS;PST;PRF;POS;IND,o l i s iː tː y,t u o̯ t e tː iː n
+siitä,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t s iː tː y,e i̯ o l i s iː tː y
+siitä,V;ACT;PRS;NEG;COND;2;SG,e t s i k i æ i̯ s i,e t s i k i æ i̯ s i
+siitä,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t s iː nː y t,o l i s i t s iː nː y t
+siitä,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ s i k i æ i̯ s i,e mː eˣ s i k i æ i̯ s i
+siitä,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i s iː nː eː t,e tː e o l i s i
+siitä,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i s iː tː y,e i̯ o lː u t ɑ i̯ s iː nː eː t
+siitä,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ s iː nː eː t,o l k ɑː mː e
+siitä,V;ACT;PRS;POS;IMP;3;PL,s iː t k øː t,s iː tː æ k øː t
+siitä,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t s iː t k ø,æ l k øː t o l k o
+siitä,V;PASS;PRS;NEG;IMP,æ l k øː n s iː tː æ k ø,æ l k øː n s iː tː y
+siitä,V;ACT;PRS;NEG;POT;2;SG,e t s iː nː eˣ,e i̯ ʋ æ k s y n e t
+siitä,V;ACT;PRS;POS;POT;3;SG,s iː nː eː,s iː tː æ n eː
+siitä,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ s iː nː eː t,l i e̯ n e mː eˣ s iː nː eː t
+siitä,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ s iː nː eː t,e tː e l i e̯ n eˣ s iː nː eː t
+siitä,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t s iː nː eˣ,e i̯ s iː nː eˣ
+siitä,V;PASS;PRS;POS;POT,s iː tː æ n eː n,s iː t e tː ɑ n eː n
+siitä,V;NFIN;2;ACT;INS,s iː t e n,s iː tː æ e n
+siitä,V;NFIN;3;ACT;IN+ESS,s i k i æ m æ sː æ,s i k i æ m æ sː æ
+siitä,V;NFIN;4;PASS;PRT,s i k i æ m i s t æ,s i k i æ m i s t æ
+auttaa,V;ACT;PRS;POS;IND;1;SG,ɑ u̯ t ɑ n,ɑ u̯ t ɑ mː e
+auttaa,V;ACT;PRS;NEG;IND;2;SG,e t ɑ u̯ t ɑ,e i̯ ʋ ɑ u̯ t ɑ
+auttaa,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t ɑ u̯ tː ɑ n u t,o l eˣ ɑ u̯ tː ɑ n u t
+auttaa,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ ɑ u̯ tː ɑ n u t,e t o l eˣ ɑ u̯ tː ɑ n u t
+auttaa,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ ɑ u̯ tː ɑ n eː t,o l e n ɑ u̯ tː ɑ n eː t
+auttaa,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e ɑ u̯ tː ɑ n eː t,o l e tː e t ɑ u̯ tː ɑ n eː t
+auttaa,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ ɑ u̯ tː ɑ n eː t,e i̯ o l eˣ ɑ u̯ tː ɑ n eː t
+auttaa,V;PASS;PRS;NEG;IND,e i̯ ʋ ɑ u̯ t e t ɑˣ,e i̯ o l eˣ ɑ u̯ t e tː uˣ
+auttaa,V;ACT;PST;POS;IND;1;SG,ɑ u̯ t o i̯ n,ɑ u̯ t o i̯ mː e
+auttaa,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t ɑ u̯ tː ɑ n u t,e n o lː u t ɑ u̯ tː ɑ n u t
+auttaa,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t ɑ u̯ tː ɑ n eː t,e i̯ o lː u t ɑ u̯ tː ɑ n eː t
+auttaa,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i,e n o l i s i t ɑ u̯ tː ɑ n u t
+auttaa,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t,ɑ u̯ tː ɑ i̯ s i t
+auttaa,V;ACT;PRS;POS;COND;3;SG,ɑ u̯ tː ɑ i̯ s i,ɑ u̯ t o i̯ s i
+auttaa,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ ɑ u̯ tː ɑ n eː t,o l i s i mː eˣ ɑ u̯ tː ɑ n eː t
+auttaa,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t ɑ u̯ tː ɑ i̯ s i,e i̯ ʋ æ t ʋ ɑ i̯ s i
+auttaa,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i,e i̯ ʋ ɑ u̯ t e tː ɑ i̯ s i
+auttaa,V;ACT;PRS;NEG;IMP;2;SG,æ l æ ɑ u̯ t ɑ,æ l æ ɑ j ɑ
+auttaa,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ ɑ u̯ tː ɑ n u t,e t o l eˣ ɑ u̯ tː ɑ n u t
+auttaa,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o ɑ u̯ tː ɑ n eː t,e tː e o l eˣ ɑ u̯ tː ɑ n eː t
+auttaa,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t,æ l k øː t
+auttaa,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o ɑ u̯ tː ɑ n eː t,æ l k øː t o l k o k uː l u n u t
+auttaa,V;PASS;PRS;PRF;POS;IMP,o l k oː n ɑ u̯ t e tː uˣ,o l k oː n ɑ u̯ t e tː yˣ
+auttaa,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ ɑ u̯ tː ɑ n u t,e t l i e̯ n eˣ ɑ u̯ tː ɑ n u t
+auttaa,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː,ɑ u̯ t e tː ɑ n eː n
+auttaa,V;NFIN;2;PASS;IN+ESS,ɑ u̯ t e tː ɑ e sː ɑ,ɑ u̯ t e tː ɑ e sː ɑ
+auttaa,V;NFIN;3;ACT;IN+ABL,ɑ u̯ tː ɑ m ɑ s t ɑ,ɑ u̯ tː ɑ m ɑ s t ɑ
+auttaa,V;NFIN;3;ACT;PRIV,ɑ u̯ tː ɑ m ɑ tː ɑ,ɑ u̯ tː ɑ m ɑ tː ɑ
+auttaa,V;NFIN;4;PASS;NOM,ɑ u̯ tː ɑ m i n e n,ɑ u̯ tː ɑ m i n e n
+sopia,V;ACT;PRS;NEG;IND;1;SG,e n s o ʋ i,e n s o ʋ i
+sopia,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n s o p i n u t,o l e n
+sopia,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ s o p i n u t,e n o l i s o p i n u t
+sopia,V;ACT;PRS;PRF;POS;IND;3;SG,o n s o p i n u t,o l i s o ʋ i
+sopia,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ s o p i n eː t,o l e mː eˣ
+sopia,V;ACT;PRS;POS;IND;2;PL,s o ʋ i tː eˣ,s o ʋ i tː eˣ
+sopia,V;ACT;PRS;NEG;IND;2;PL,e tː e s o ʋ i,e tː e s o ʋ i t s eˣ
+sopia,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t s o ʋ i,e i̯ s o ʋ i
+sopia,V;PASS;PRS;NEG;IND,e i̯ s o ʋ i t ɑˣ,s o ʋ i t ɑː n
+sopia,V;PASS;PRS;PRF;POS;IND,o n,s o ʋ i t ɑː n
+sopia,V;ACT;PST;POS;IND;1;SG,s o ʋ i n,j æ i̯ n
+sopia,V;ACT;PST;PRF;POS;IND;2;SG,o l i t s o p i n u t,o l i t s o p i n u t
+sopia,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t s o p i n u t,e t o l i s o p i n u t
+sopia,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t s o p i n eː t,e i̯ ʋ æ t s i s o p i n eː t
+sopia,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t s o ʋ i tː uˣ,e i̯ s o ʋ i tː ɑ n eː t
+sopia,V;ACT;PRS;POS;COND;3;SG,s o p i s i,s o p i s i n u t
+sopia,V;ACT;PRS;NEG;COND;3;SG,e i̯ s o p i s i,e i̯ s o p i s i
+sopia,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ s o p i s i,e n s o p i s i tː eˣ
+sopia,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t s o p i n eː t,o l i s i ʋ æ t s o p i n eː t
+sopia,V;PASS;PRS;NEG;COND,e i̯ s o ʋ i tː ɑ i̯ s i,e i̯ s o ʋ i tː ɑ i̯ s i
+sopia,V;ACT;PRS;POS;IMP;2;SG,s o ʋ i,s o p i k ɑː
+sopia,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n s o p i k o,æ l æ s o ʋ i
+sopia,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o s o p i n u t,æ l k øː n o l i s o p i n eː t
+sopia,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː s o p i k o,e tː e o tː ɑ k oː n
+sopia,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t s o p i k o,æ l k øː t s o p i n eː t
+sopia,V;PASS;PRS;NEG;IMP,æ l k øː n s o ʋ i tː ɑ k o,æ l k øː n s o ʋ i tː uˣ
+sopia,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n s o p i n u t,l i e̯ n e n
+sopia,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ s o p i n u t,e n l i e̯ n eˣ s o p i n u t
+sopia,V;ACT;PRS;NEG;POT;2;SG,e t s o p i n eˣ,e t s o p i n eˣ
+sopia,V;ACT;PRS;POS;POT;3;SG,s o p i n eː,s o p i e̯ n i n eˣ
+sopia,V;ACT;PRS;POS;POT;2;PL,s o p i n e tː e,s o p i n e tː e
+sopia,V;NFIN;1;ACT,s o p i ɑ k s eː n,s o ʋ i t ɑ k s eː n
+sopia,V;NFIN;3;PASS;INS,s o ʋ i tː ɑ m ɑ n,s o ʋ i tː ɑ m ɑ n
+sopia,V;NFIN;5;PASS,s o p i m ɑ i̯ s i lː ɑː n,s o ʋ i tː æ m æ i̯ s i lː æː n
+tuoda,V;ACT;PRS;POS;IND;1;SG,t u o̯ n,t u o̯ n
+tuoda,V;ACT;PRS;POS;IND;2;SG,t u o̯ t,t u o̯
+tuoda,V;ACT;PRS;POS;IND;1;PL,t u o̯ mː eˣ,t u o̯ n e mː eˣ
+tuoda,V;ACT;PRS;POS;IND;2;PL,t u o̯ tː eˣ,t u o̯ n e tː e
+tuoda,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e t u o̯ n eː t,o l i tː eˣ t u o̯ n u t
+tuoda,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t t u o̯,e i̯ ʋ æ t t u o̯ k o
+tuoda,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t t u o̯ n u t,e t o lː u t s i t u o̯ n eː t
+tuoda,V;ACT;PST;POS;IND;3;SG,t o i̯,e i̯ t u o̯ n u t
+tuoda,V;ACT;PST;NEG;IND;1;PL,e mː eˣ t u o̯ n eː t,e mː eˣ t u o̯ n u t
+tuoda,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t t u o̯ n eː t,e i̯ ʋ æ t t u o̯ n eː t
+tuoda,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t t u o̯ n eː t,o l i ʋ ɑ t t u o̯ n eː t
+tuoda,V;PASS;PST;NEG;IND,e i̯ t u o̯ t uˣ,e i̯ s iː t e tː yˣ
+tuoda,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t t u o̯ t uˣ,e i̯ o l eˣ t u o̯ t uˣ
+tuoda,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i t u o̯ n u t,e n o l i s i t u o̯ n u t
+tuoda,V;ACT;PRS;NEG;COND;2;SG,e t o i̯ s i,e t k e r t o i̯ s i
+tuoda,V;ACT;PRS;NEG;COND;3;SG,e i̯ t o i̯ s i,e i̯ ʋ ɑ i̯ s i t u o̯ n u t
+tuoda,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i t u o̯ n u t,e i̯ o l i s i t u o̯ n u t
+tuoda,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i t u o̯ n eː t,e tː e o l i s i t u o̯ n eː t
+tuoda,V;ACT;PRS;POS;COND;3;PL,t o i̯ s i ʋ ɑ t,t o i̯ s i ʋ ɑ t
+tuoda,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː t u o̯ n eː t,o l k oː n t o i̯ tː eˣ
+tuoda,V;ACT;PRS;POS;POT;1;SG,t u o̯ n e n,t u o̯ n e n
+tuoda,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n t u o̯ n u t,l i e̯ n e mː eˣ t u o̯ n u t
+tuoda,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t t u o̯ n u t,o l i t u o̯ n eˣ
+tuoda,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ t u o̯ n u t,e t l i e̯ n eˣ t u o̯ n u t
+tuoda,V;ACT;PRS;POS;POT;3;SG,t u o̯ n eː,e l æ t u o̯ n eˣ
+tuoda,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t t u o̯ n eˣ,e mː e t u o̯ n eˣ
+tuoda,V;PASS;PRS;POS;POT,t u o̯ t ɑ n eː n,t u o̯ t ɑ tː ɑ n eː n
+tuoda,V;NFIN;3;ACT;IN+ALL,t u o̯ m ɑː n,t u o̯ m ɑː n
+seurata,V;ACT;PRS;POS;IND;1;SG,s e u̯ r ɑː n,s e u̯ r ɑː
+seurata,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ s e u̯ r ɑ nː u t,e n o l eˣ s e u̯ r ɑ nː eː t
+seurata,V;ACT;PRS;NEG;IND;3;SG,e i̯ s e u̯ r ɑː,e i̯ s e u̯ r ɑː
+seurata,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ s e u̯ r ɑ nː u t,e i̯ o l eˣ s e u̯ r ɑ nː eː t
+seurata,V;ACT;PST;PRF;POS;IND;1;SG,o l i n s e u̯ r ɑ nː u t,o l i mː eˣ s e u̯ r ɑ nː u t
+seurata,V;ACT;PST;NEG;IND;2;SG,e t s e u̯ r ɑ nː u t,e t o lː u t s e u̯ r ɑ nː u t
+seurata,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t s e u̯ r ɑ nː eː t,e mː e o lː eː t s e u̯ r ɑ nː eː t
+seurata,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t s e u̯ r ɑ tː uˣ,e i̯ ʋ æ t l i s e u̯ r ɑ tː uˣ
+seurata,V;ACT;PRS;NEG;COND;2;SG,e t s e u̯ r ɑ i̯ s i,e t s e u̯ r ɑ i̯ s i
+seurata,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i s e u̯ r ɑ nː u t,o l i s i t s e u̯ r ɑ nː u t
+seurata,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ s e u̯ r ɑ i̯ s i,e n s e u̯ r ɑ i̯ s i ʋ æ t
+seurata,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ s e u̯ r ɑ nː eː t,o l i s i mː eˣ s e u̯ r ɑ nː eː t
+seurata,V;ACT;PRS;NEG;COND;2;PL,e t e s e u̯ r ɑ i̯ s i,e t s e u̯ r ɑ i̯ s i
+seurata,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ s e u̯ r ɑ nː eː t,o l i s i tː eˣ s e u̯ r ɑ nː eː t
+seurata,V;ACT;PRS;POS;COND;3;PL,s e u̯ r ɑ i̯ s i ʋ ɑ t,s e u̯ r ɑ i̯ s i ʋ æ t
+seurata,V;PASS;PRS;POS;COND,s e u̯ r ɑ tː ɑ i̯ s iː n,s e u̯ r ɑ tː ɑ i̯ s iː n
+seurata,V;ACT;PRS;POS;IMP;2;SG,s e u̯ r ɑː,s e u̯ r ɑ i̯ s i t
+seurata,V;ACT;PRS;NEG;IMP;2;SG,æ l æ s e u̯ r ɑː,æ l æ t ɑ r ʋ i t s eˣ
+seurata,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ s e u̯ r ɑ nː u t,æ l æ o l eˣ s e u̯ r ɑ nː u t
+seurata,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n s e u̯ r ɑ t k o,æ l k øː n o l k o s e u̯ r ɑ nː eː t
+seurata,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n s e u̯ r ɑ nː u t,s e u̯ r ɑ t k oː n
+seurata,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o s e u̯ r ɑ nː eː t,e mː e o l eˣ s e u̯ r ɑ nː eː t
+seurata,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː s e u̯ r ɑ t k o,s e u̯ r ɑ t k ɑːˣ
+seurata,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː s e u̯ r ɑ nː eː t,o l e tː e s e u̯ r ɑ nː eː t
+seurata,V;ACT;PRS;POS;IMP;3;PL,s e u̯ r ɑ t k oː t,s e u̯ r ɑ t k oː n
+seurata,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t s e u̯ r ɑ t k o,æ l k øː t o l k o
+seurata,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t s e u̯ r ɑ nː eː t,o l k oː t o lː eː t s e u̯ r ɑ nː eː t
+seurata,V;ACT;PRS;POS;POT;1;SG,s e u̯ r ɑ nː e n,l u o̯ n e n s e u̯ r ɑ nː u t
+seurata,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t s e u̯ r ɑ nː u t,l i e̯ n e t s e u̯ r ɑ nː u t
+seurata,V;ACT;PRS;PRF;NEG;POT;3;SG,e i̯ l i e̯ n eˣ s e u̯ r ɑ nː u t,e i̯ l i e̯ n eˣ s e u̯ r ɑ nː u t
+seurata,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ s e u̯ r ɑ nː eˣ,e mː eˣ l i e̯ n eˣ s e u̯ r ɑ nː eː t
+seurata,V;ACT;PRS;POS;POT;3;PL,s e u̯ r ɑ nː eˣ ʋ ɑ t,s e u̯ r ɑ nː e tː e
+seurata,V;NFIN;4;ACT;NOM,s e u̯ r ɑː m i n e n,s e u̯ r ɑː m i n e n
+käyttää,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ k æ y̯ tː æ n y t,e t o l eˣ k æ y̯ tː æ n y t
+käyttää,V;ACT;PRS;POS;IND;3;SG,k æ y̯ tː æːˣ,k æ y̯ t æ
+käyttää,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ k æ y̯ tː æ n y t,e i̯ o l eˣ k æ y̯ tː æ n y t
+käyttää,V;ACT;PRS;POS;IND;1;PL,k æ y̯ t æ mː eˣ,o l e mː e
+käyttää,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː e k æ y̯ tː æ n eː t,o l e mː eˣ p y r k i n eː t
+käyttää,V;ACT;PRS;POS;IND;2;PL,k æ y̯ t æ tː eˣ,k æ y̯ t i tː eˣ
+käyttää,V;PASS;PRS;PRF;POS;IND,o n,o n k æ y̯ t e tː æ n eː t
+käyttää,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t k æ y̯ tː æ n y t,e i̯ k æ y̯ tː æ n y t
+käyttää,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː e k æ y̯ tː æ n eː t,o l i mː eˣ k æ y̯ tː æ n eː t
+käyttää,V;ACT;PST;POS;IND;3;PL,k æ y̯ tː i ʋ æ t,k ɑ nː ɑ tː i ʋ æ t
+käyttää,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t k æ y̯ tː æ n eː t,e i̯ ʋ æ t s i k æ y̯ tː æ n eː t
+käyttää,V;PASS;PST;NEG;IND,e i̯ k æ y̯ t e tː yˣ,e i̯ k æ y̯ t e tː æ n y t
+käyttää,V;ACT;PRS;POS;COND;1;SG,k æ y̯ tː æ i̯ s i n,k æ y̯ tː æ m æ i̯ s i n
+käyttää,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n k æ y̯ tː æ n y t,o l i s i n k æ y̯ tː æ n y t
+käyttää,V;ACT;PRS;POS;COND;2;SG,k æ y̯ tː æ i̯ s i t,k æ y̯ tː æ i̯ s i t
+käyttää,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i k æ y̯ tː æ n y t,e t o l i s i k æ y̯ tː æ n y t
+käyttää,V;ACT;PRS;POS;COND;2;PL,k æ y̯ tː æ i̯ s i tː eˣ,k æ y̯ tː æ i̯ s i ʋ ɑ t
+käyttää,V;ACT;PRS;POS;COND;3;PL,k æ y̯ tː æ i̯ s i ʋ æ t,k æ y̯ tː æ i̯ s i ʋ ɑ t
+käyttää,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t k æ y̯ tː æ n eː t,o l i s i ʋ ɑ t k æ y̯ tː æ n eː t
+käyttää,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i k æ y̯ tː æ n eː t,e i̯ ʋ æ t o l i s i
+käyttää,V;PASS;PRS;PRF;POS;COND,o l i s i k æ y̯ t e tː yˣ,o l i s i k æ y̯ t e tː uˣ
+käyttää,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o k æ y̯ tː æ n y t,æ l k øː n o l eˣ k æ y̯ tː æ n eː t
+käyttää,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ k æ y̯ tː æ n eː t,o l k ɑː mː eˣ k æ y̯ tː æ n eː t
+käyttää,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː k æ y̯ tː æ k ø,e t k æ y̯ tː æ k øː t
+käyttää,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː k æ y̯ tː æ n eː t,k æ y̯ tː æ k æːˣ
+käyttää,V;ACT;PRS;POS;IMP;3;PL,k æ y̯ tː æ k øː t,k æ y̯ tː æ n e ʋ æ t
+käyttää,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t k æ y̯ tː æ k ø,e i̯ ʋ æ t k æ y̯ t æ
+käyttää,V;ACT;PRS;POS;POT;3;SG,k æ y̯ tː æ n eː,k æ y̯ tː æ n eː
+käyttää,V;ACT;PRS;POS;POT;1;PL,k æ y̯ tː æ n e mː e,k æ y̯ tː æ n e mː e
+käyttää,V;ACT;PRS;NEG;POT;2;PL,e tː e k æ y̯ tː æ n eˣ,e tː e k æ y̯ t æ
+käyttää,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ k æ y̯ tː æ n eː t,e tː e l i e̯ n eˣ k æ y̯ tː æ n eː t
+käyttää,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t k æ y̯ tː æ n eˣ,e i̯ k æ y̯ tː æ n eˣ
+käyttää,V;PASS;PRS;POS;POT,k æ y̯ t e tː æ n eː n,k æ y̯ t e tː æ n eˣ
+käyttää,V;NFIN;3;ACT;PRIV,k æ y̯ tː æ m æ tː æ,k æ y̯ tː æ m æ tː æ
+käyttää,V;NFIN;3;ACT;INS,k æ y̯ tː æ m æ n,k æ y̯ tː æ m æ n
+nähdä,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n n æ h n y t,o l e mː e n æ h n y t
+nähdä,V;ACT;PRS;POS;IND;1;PL,n æ e mː eˣ,n æ h n e mː eˣ
+nähdä,V;ACT;PRS;PRF;NEG;IND;1;PL,e mː e o l eˣ n æ h n eː t,e mː e o l e n æ h n eː t
+nähdä,V;ACT;PRS;NEG;IND;2;PL,e tː e n æ eˣ,e i̯ ʋ æ t n æ eˣ
+nähdä,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ n æ h n eː t,e i̯ o l eˣ n æ h n eː t
+nähdä,V;PASS;PRS;POS;IND,n æ h d æː n,o n n æ h t yˣ
+nähdä,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ n æ h n eː t,n æ i̯ tː eˣ
+nähdä,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t n æ h n eː t,e tː e o lː eː t uː s i n æ h n eː t
+nähdä,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t n æ h n eː t,e i̯ ʋ æ t n æ h n eː t
+nähdä,V;PASS;PST;PRF;POS;IND,o l i n æ h t yˣ,e i̯ n æ h t yˣ
+nähdä,V;ACT;PRS;NEG;COND;2;PL,e tː e n æ k i s i,e t n æ k i s i ʋ ɑ t
+nähdä,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ n æ h n eː t,o l i s i tː eˣ
+nähdä,V;PASS;PRS;POS;COND,n æ h t æ i̯ s iː n,o l i s i n æ h t yˣ
+nähdä,V;ACT;PRS;POS;IMP;3;SG,n æ h k øː n,n æ h k øː n
+nähdä,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ n æ h k ø,e mː eˣ n æ eˣ
+nähdä,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o n æ h n eː t,e mː e o l eˣ n æ h n eː t
+nähdä,V;ACT;PRS;POS;IMP;2;PL,n æ h k æːˣ,n æ h n e tː e
+nähdä,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t n æ h n eː t,h y ʋ æ t o l k o n æ h n eː t
+nähdä,V;PASS;PRS;POS;IMP,n æ h t æ k øː n,o l k oː n n æ h t yˣ
+nähdä,V;ACT;PRS;NEG;POT;1;SG,e n n æ h n eˣ,e n n æ h n eˣ
+nähdä,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ n æ h n eː t,l i e̯ n e mː eˣ n æ h n eː t
+nähdä,V;ACT;PRS;NEG;POT;2;PL,e tː e n æ h n eˣ,e tː e n æ eˣ
+nähdä,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t n æ h n eː t,l i e̯ n e ʋ æ t
+nähdä,V;PASS;PRS;POS;POT,n æ h t æ n eː n,n æ h d e tː ɑ n eː
+nähdä,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː n æ h t yˣ,l i e̯ n eː n æ h t yˣ
+nähdä,V;NFIN;ACT+PASS,n æ h d æˣ,n æ h t e æˣ
+nähdä,V;NFIN;2;PASS;IN+ESS,n æ h t æ e sː æ,n æ h d e tː ɑ e sː ɑ
+nähdä,V;NFIN;3;ACT;INS,n æ k e m æ n,n æ k e m æ n
+tarkoittaa,V;ACT;PRS;NEG;IND;1;SG,e n,e n t ɑ r k o i̯ tː ɑ k oː n
+tarkoittaa,V;ACT;PRS;NEG;IND;2;SG,e t ɑ r k o i̯ t ɑˣ,e t e t ɑ r k o i̯ t ɑˣ
+tarkoittaa,V;ACT;PRS;NEG;IND;3;SG,e i̯ t ɑ r k o i̯ t ɑˣ,e i̯ t ɑ r k o i̯ t ɑ k o
+tarkoittaa,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t t ɑ r k o i̯ tː ɑ n eː t,o l e mː eˣ t ɑ r k o i̯ tː ɑ n u t
+tarkoittaa,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ t ɑ r k o i̯ t e tː uˣ,e i̯ o l eˣ t ɑ r k o i̯ t e tː uˣ
+tarkoittaa,V;ACT;PST;POS;IND;1;SG,t ɑ r k o i̯ t i n,o s ɑ s i n
+tarkoittaa,V;ACT;PST;POS;IND;3;SG,t ɑ r k o i̯ tː i,ʋ ɑ l i t s i t ɑ r k o i̯ tː ɑ n eː t
+tarkoittaa,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t t ɑ r k o i̯ tː ɑ n eː t,e mː eˣ t ɑ r k o i̯ tː ɑ n eː t
+tarkoittaa,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ t ɑ r k o i̯ tː ɑ n eː t,o l i tː eˣ t ɑ r k o i̯ tː ɑ n eː t
+tarkoittaa,V;ACT;PST;POS;IND;3;PL,t ɑ r k o i̯ tː i ʋ ɑ t,t ɑ r k o i̯ tː ɑ ʋ ɑ t
+tarkoittaa,V;PASS;PST;PRF;POS;IND,o l i t ɑ r k o i̯ t e tː uˣ,o l i
+tarkoittaa,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n t ɑ r k o i̯ tː ɑ n u t,o l e n t ɑ r k o i̯ tː ɑ n u t
+tarkoittaa,V;ACT;PRS;POS;COND;2;PL,t ɑ r k o i̯ tː ɑ i̯ s i tː eˣ,o l i tː e t ɑ r k o i̯ tː ɑ i̯ s i
+tarkoittaa,V;PASS;PRS;NEG;COND,e i̯ t ɑ r k o i̯ t e tː ɑ i̯ s i,e i̯ t e tː æ i̯ s i
+tarkoittaa,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ t ɑ r k o i̯ tː ɑ n u t,o l eˣ t ɑ r k o i̯ tː ɑ k o
+tarkoittaa,V;ACT;PRS;POS;IMP;3;SG,t ɑ r k o i̯ tː ɑ k oː n,æ l k øː n t ɑ r k o i̯ tː ɑ k o
+tarkoittaa,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n t ɑ r k o i̯ tː ɑ n u t,o l k oː n t ɑ r k o i̯ tː ɑ n u t
+tarkoittaa,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o t ɑ r k o i̯ tː ɑ n u t,æ l k øː n t ɑ r k o i̯ tː ɑ n u t
+tarkoittaa,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ t ɑ r k o i̯ tː ɑ k o,æ l k æː mː eˣ t ɑ r k o i̯ tː ɑ n eː t
+tarkoittaa,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː t ɑ r k o i̯ tː ɑ k o,e tː e t ɑ r k o i̯ t ɑˣ
+tarkoittaa,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t ɑ r k o i̯ tː ɑ n eː t,o ʋ ɑ t ɑ r k o i̯ tː ɑ n u t
+tarkoittaa,V;PASS;PRS;NEG;IMP,æ l k øː n t ɑ r k o i̯ t e tː ɑ k o,æ l k øː n o t e tː ɑ k o
+tarkoittaa,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o t ɑ r k o i̯ t e tː uˣ,e i̯ l i e̯ n eˣ t ɑ r k o i̯ t e tː uˣ
+tarkoittaa,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n t ɑ r k o i̯ tː ɑ n u t,l i e̯ n e n t ɑ r k o i̯ tː ɑ n u t
+tarkoittaa,V;ACT;PRS;PRF;NEG;POT;3;SG,e i̯ l i e̯ n eˣ t ɑ r k o i̯ tː ɑ n u t,e i̯ l i e̯ n eˣ t ɑ r k o i̯ tː ɑ n u t
+tarkoittaa,V;ACT;PRS;POS;POT;1;PL,t ɑ r k o i̯ tː ɑ n e mː e,t ɑ r k o i̯ tː ɑ i̯ s i mː eˣ
+tarkoittaa,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː e t ɑ r k o i̯ tː ɑ n eː t,l i e̯ n e tː eˣ t ɑ r k o i̯ tː ɑ n eː t
+tarkoittaa,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t t ɑ r k o i̯ tː ɑ n eˣ,e i̯ ʋ æ t ɑ r k o i̯ tː ɑ n eˣ
+tarkoittaa,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ t ɑ r k o i̯ tː ɑ n eː t,e tː e l i e̯ n eˣ t ɑ r k o i̯ tː ɑ n eː t
+tarkoittaa,V;NFIN;1;PASS,t ɑ r k o i̯ tː ɑː k s eː n,t ɑː t ɑ k s eː n
+tarkoittaa,V;NFIN;2;PASS;IN+ESS,t ɑ r k o i̯ t e tː ɑ e sː ɑ,m ɑ k s e tː ɑ e sː ɑ
+tarkoittaa,V;NFIN;3;ACT;IN+ABL,t ɑ r k o i̯ tː ɑ m ɑ s t ɑ,t ɑ r k o i̯ tː ɑ m ɑ s t ɑ
+tarkoittaa,V;NFIN;3;ACT;PRIV,t ɑ r k o i̯ tː ɑ m ɑ tː ɑ,t ɑ r k o i̯ tː ɑ m ɑ tː ɑ
+tarkoittaa,V;NFIN;3;ACT;INS,t ɑ r k o i̯ tː ɑ m ɑ n,t ɑ r k o i̯ tː ɑ m ɑ n
+tarkoittaa,V;NFIN;3;PASS;INS,t ɑ r k o i̯ t e tː ɑ m ɑ n,t u o̯ t ɑ m ɑ n
+tarkoittaa,V;NFIN;4;ACT;NOM,t ɑ r k o i̯ tː ɑ m i n e n,t ɑ r k o i̯ tː ɑ m i n e n
+ajaa,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ ɑ j ɑ n u t,e i̯ o l eˣ ɑ j ɑ n u t
+ajaa,V;ACT;PRS;NEG;IND;2;PL,e tː e ɑ j ɑ,e tː e ɑ j ɑ
+ajaa,V;ACT;PRS;POS;IND;3;PL,ɑ j ɑ ʋ ɑ t,s iː tː æ ʋ æ t
+ajaa,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ ɑ j ɑ n eː t,e i̯ o l eˣ ɑ j ɑ n eː t
+ajaa,V;ACT;PST;POS;IND;1;SG,ɑ j o i̯ n,ɑ j o i̯ n
+ajaa,V;ACT;PST;PRF;POS;IND;1;SG,o l i n ɑ j ɑ n u t,o l i t ɑ j ɑ n u t
+ajaa,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t ɑ j ɑ n u t,e n o lː u t ɑ j ɑ n u t
+ajaa,V;ACT;PST;NEG;IND;2;SG,e t ɑ j ɑ n u t,e t ɑ j ɑ n u t
+ajaa,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t ɑ j ɑ n u t,e i̯ o lː u t ɑ j ɑ n u t
+ajaa,V;ACT;PST;NEG;IND;1;PL,e mː eˣ ɑ j ɑ n eː t,e mː eˣ ɑ j ɑ n u t
+ajaa,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ ɑ j ɑ n eː t,o l i mː e
+ajaa,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t ɑ j ɑ n eː t,e tː e t ɑ j ɑ n eː t
+ajaa,V;PASS;PST;PRF;POS;IND,o l i,ɑ j e tː iː n
+ajaa,V;ACT;PRS;POS;COND;1;SG,ɑ j ɑ i̯ s i n,ɑ j ɑ i̯ s i n
+ajaa,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i,e n o l eˣ ɑ j ɑ i̯ s i
+ajaa,V;ACT;PRS;POS;COND;3;SG,ɑ j ɑ i̯ s i,ɑ j ɑ n eː t ɑ i̯ s i
+ajaa,V;ACT;PRS;NEG;COND;2;PL,e t e ɑ j ɑ i̯ s i,e t ɑ j ɑ i̯ s i ʋ æ t
+ajaa,V;PASS;PRS;NEG;COND,e i̯ j e tː ɑ i̯ s i,e i̯ j ɑ j e tː ɑ i̯ s i
+ajaa,V;PASS;PRS;PRF;POS;COND,o l i s i,o l k oː n ɑ j e tː uˣ
+ajaa,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n ɑ j ɑ k o,e i̯ j ɑ j ɑ
+ajaa,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o ɑ j ɑ n eː t,e mː eˣ o l eˣ ɑ j ɑ n eː t
+ajaa,V;ACT;PRS;POS;IMP;2;PL,ɑ j ɑ k ɑː,ɑ j ɑ k ɑː
+ajaa,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː ɑ j ɑ k o,e tː e ɑ j ɑ
+ajaa,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o ɑ j ɑ n eː t,e tː e o l eˣ ɑ j ɑ n eː t
+ajaa,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n ɑ j ɑ n u t,l i e̯ n e mː eˣ ɑ j ɑ n u t
+ajaa,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ ɑ j ɑ n eˣ,e mː eˣ ɑ j ɑ n eˣ
+ajaa,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t ɑ j ɑ n eː t,o l i ʋ ɑ t ɑ j ɑ n eˣ
+ajaa,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ ɑ j ɑ n eː t,e i̯ ʋ æ t o l k o ɑ j ɑ n eˣ
+ajaa,V;NFIN;2;PASS;IN+ESS,ɑ j e tː ɑ e sː ɑ,ɑ j e tː ɑ e sː ɑ
+ajaa,V;NFIN;3;ACT;IN+ALL,ɑ j ɑ m ɑː n,ɑ j ɑ m ɑː n
+ajaa,V;NFIN;3;PASS;INS,ɑ j e tː ɑ m ɑ n,ɑ j e tː ɑ m ɑ n
+lisätä,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n l i s æ nː y t,o l e n l i s æ nː y t
+lisätä,V;ACT;PRS;POS;IND;3;SG,l i s æː,l i s æ nː eː
+lisätä,V;ACT;PRS;POS;IND;1;PL,l i s æː mː eˣ,o l e mː eˣ l i s æ nː eː t
+lisätä,V;ACT;PST;NEG;IND;2;SG,e t l i s æ nː y t,e t l i s æ nː y t
+lisätä,V;ACT;PST;PRF;POS;IND;3;SG,o l i l i s æ nː y t,o l i ʋ ɑ t l i s æ nː y t
+lisätä,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ l i s æ nː eː t,o l i mː eˣ l i s æ nː y t
+lisätä,V;ACT;PST;POS;IND;2;PL,l i s æ s i tː eˣ,ʋ ɑ l i t s i tː eˣ
+lisätä,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t l i s æ nː eː t,e i̯ ʋ æ t l i s æ nː eː t
+lisätä,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t l i s æ nː eː t,o l i ʋ ɑ t
+lisätä,V;ACT;PRS;POS;COND;1;SG,l i s æ i̯ s i n,l i s æ i̯ s i
+lisätä,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n l i s æ nː y t,o l i s i l i s æ nː y t
+lisätä,V;ACT;PRS;NEG;COND;2;SG,e t l i s æ i̯ s i,e t l i s æ i̯ s i
+lisätä,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i l i s æ nː y t,e i̯ o l i s i l i s æ nː y t
+lisätä,V;ACT;PRS;POS;COND;1;PL,l i s æ i̯ s i mː eˣ,l i s æ i̯ s i mː e
+lisätä,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː eˣ o l i s i l i s æ nː eː t,e mː e o l i s i s æ nː y t
+lisätä,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t l i s æ i̯ s i,e tː e l i s æ i̯ s iː n
+lisätä,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ l i s æ nː y t,e t o l eˣ l i s æ nː y t
+lisätä,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o l i s æ nː eː t,æ l k æː mː eˣ l i s æ t k ø
+lisätä,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o l i s æ nː eː t,æ l æ o l eˣ s i s æ nː eː t
+lisätä,V;ACT;PRS;POS;IMP;3;PL,l i s æ t k øː t,o l k oː t
+lisätä,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t l i s æ t k ø,æ l k øː t l i s æːˣ
+lisätä,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t l i s æ nː eː t,o l k oː n l i s æ nː eː t
+lisätä,V;PASS;PRS;NEG;IMP,æ l k øː n l i s æ tː æ k ø,æ l k øː n l i s æ tː yˣ
+lisätä,V;ACT;PRS;NEG;POT;2;SG,e t l i s æ nː eˣ,e t l i s æ nː eˣ
+lisätä,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː l i s æ nː y t,o n l i s æ nː eˣ
+lisätä,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t l i s æ nː eˣ,e i̯ s i s æ nː eˣ
+lisätä,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː l i s æ tː yˣ,l i e̯ n eː s i s æ tː yˣ
+lisätä,V;NFIN;2;ACT;INS,l i s æ t e n,ɑ j ɑ e n
+lisätä,V;NFIN;3;ACT;IN+ESS,l i s æː m æ sː æ,l i s æː m æ sː æ
+lisätä,V;NFIN;3;ACT;IN+ALL,l i s æː m æː n,s iː tː æ m æː n
+lisätä,V;NFIN;3;ACT;INS,l i s æː m æ n,l i s æː m æ n
+lisätä,V;NFIN;4;ACT;NOM,l i s æː m i n e n,l i s æː m i n e n
+lisätä,V;NFIN;4;ACT;PRT,l i s æː m i s t æ,l i s æː m i s t ɑ
+kehittää,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ k e h i tː æ n eː t,o l e mː eˣ
+kehittää,V;ACT;PRS;NEG;IND;2;PL,e tː e k e h i t æˣ,e t k e h i t æˣ
+kehittää,V;PASS;PRS;PRF;POS;IND,o n,o n
+kehittää,V;ACT;PST;NEG;IND;1;SG,e n,e n
+kehittää,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t k e h i tː æ n y t,e t o lː u t k e h i tː æ n y t
+kehittää,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t k e h i tː æ n y t,e i̯ o lː u t k e h i tː æ n y t
+kehittää,V;ACT;PST;POS;IND;1;PL,k e h i t i mː eˣ,k æ y̯ t i mː eˣ k e h i tː æ n eː t
+kehittää,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t k e h i tː æ n eː t,e mː e o lː eː t k e h i tː æ n eː t
+kehittää,V;ACT;PST;POS;IND;2;PL,k e h i t i tː eˣ,k e h i t i tː eˣ
+kehittää,V;PASS;PST;POS;IND,k e h i t e tː iː n,k e h i t e tː iː n
+kehittää,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t k e h i tː æ n y t,o l i s i k e h i tː æ n eː t
+kehittää,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i k e h i tː æ n y t,o l i t k e h i tː æ i̯ s i
+kehittää,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ k e h i tː æ i̯ s i,æ l k æː mː eˣ k e h i tː æ k ø
+kehittää,V;ACT;PRS;POS;COND;2;PL,k e h i tː æ i̯ s i tː eˣ,k e h i tː æ k æːˣ
+kehittää,V;PASS;PRS;POS;COND,k e h i t e tː æ i̯ s iː n,k e h i t e tː ɑ i̯ s i
+kehittää,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ k e h i tː æ n y t,o l k oː n k e h i tː æ n eː t
+kehittää,V;ACT;PRS;POS;IMP;1;PL,k e h i tː æ k æː mː eˣ,s iː tː æ k æː mː e
+kehittää,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o k e h i tː æ n eː t,e mː e o l eˣ k e h i tː æ n eː t
+kehittää,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː k e h i tː æ n eː t,l i e̯ n e tː e k e h i tː æ n eː t
+kehittää,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o k e h i tː æ n eː t,e tː e o l eˣ k e h i tː æ n y t
+kehittää,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t k e h i tː æ k ø,æ l k øː t k e h i tː æ k ø
+kehittää,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o k e h i tː æ n eː t,æ l k øː t o l k o k e h i tː æ n eː t
+kehittää,V;ACT;PRS;POS;POT;2;SG,k e h i tː æ n e t,k e h i tː æ n eˣ
+kehittää,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː,o l i k e h i tː æ n eˣ
+kehittää,V;ACT;PRS;PRF;NEG;POT;3;SG,e i̯ l i e̯ n eˣ k e h i tː æ n y t,e i̯ l i e̯ n eˣ k e h i tː æ n y t
+kehittää,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ k e h i tː æ n eː t,k e h i tː æ n e mː e
+kehittää,V;ACT;PRS;POS;POT;2;PL,k e h i tː æ n e tː e,k e h i tː æ k æːˣ
+kehittää,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ k e h i tː æ n eː t,e tː e l i e̯ n eˣ k e h i tː æ n eː t
+kehittää,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t k e h i tː æ n eː t,l i e̯ n e ʋ ɑ t k e h i tː æ n eː t
+kehittää,V;NFIN;2;ACT;IN+ESS,k e h i tː æ e sː æ,k e h i tː æ e sː æ
+kehittää,V;NFIN;3;PASS;INS,k e h i t e tː æ m æ n,s o ʋ i tː ɑ m ɑ n
+tehdä,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n t e h n y t,t eː n
+tehdä,V;ACT;PRS;POS;IND;3;SG,t e k eː,t e k e r t ɑːˣ
+tehdä,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ t e h n y t,e i̯ o l eˣ t e h n y t
+tehdä,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t t e h n eː t,t e k e ʋ æ t
+tehdä,V;PASS;PRS;POS;IND,t e h d æː n,t e h d æˣ
+tehdä,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ t e h t yˣ,e i̯ o l eˣ t e h t yˣ
+tehdä,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t t e h n y t,e n o lː u t t e h n y t
+tehdä,V;ACT;PST;NEG;IND;3;SG,e i̯ t e h n y t,e i̯ ʋ æ t t e h n y t
+tehdä,V;ACT;PST;PRF;POS;IND;3;SG,o l i t e h n y t,o l i ʋ ɑ t t e h n y t
+tehdä,V;ACT;PST;POS;IND;1;PL,t e i̯ mː eˣ,e l i mː eˣ t e h n eː t
+tehdä,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ t e h n eː t,o l i tː eˣ t e h n eː t
+tehdä,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t t e h n eː t,e t o lː u t t e h k ø
+tehdä,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t t e h n eː t,o l i ʋ ɑ t
+tehdä,V;PASS;PST;POS;IND,t e h t iː n,k æ y̯ t e tː iː n
+tehdä,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i t e h n y t,e n t e k i s i t e h n eː t
+tehdä,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ t e k i s i,e mː eˣ l i s i t e h n eː t
+tehdä,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ t e h n eː t,o l i s i mː eˣ t e h n eː t
+tehdä,V;ACT;PRS;POS;IMP;2;SG,t eː,t e k i s i t
+tehdä,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ t e h n y t,æ l æ o l eˣ t e h n y t
+tehdä,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n t e h n y t,o l k oː n t e h n y t
+tehdä,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o t e h n eː t,æ l k æː mː eˣ t e h k ø
+tehdä,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː t e h k ø,æ l k æː o l k o t e h n eː t
+tehdä,V;ACT;PRS;POS;IMP;3;PL,t e h k øː t,t e h k øː t
+tehdä,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o t e h n eː t,æ l k øː t o l eˣ t e h n eː t
+tehdä,V;PASS;PRS;POS;IMP,t e h t æ k øː n,o l k oː n t e h t yˣ
+tehdä,V;ACT;PRS;POS;POT;2;SG,t e h n e t,t e h n e t
+tehdä,V;ACT;PRS;POS;POT;1;PL,t e h n e mː eˣ,t e h n e mː e
+tehdä,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ t e h n eˣ,e mː eˣ t e h n eˣ
+tehdä,V;ACT;PRS;PRF;NEG;POT;1;PL,e mː eˣ l i e̯ n eˣ t e h n eː t,e n l i e̯ n eˣ t e h n eː t
+tehdä,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ t e h n eː t,e i̯ l i e̯ n eˣ t e h n eː t
+tehdä,V;NFIN;1;PASS,t e h d æ k s eː n,t e h t æ k s eː n
+tehdä,V;NFIN;2;PASS;IN+ESS,t e h t æ e sː æ,t e h t æ e sː æ
+tehdä,V;NFIN;2;ACT;INS,t e h d e n,ɑ u̯ tː ɑ e n
+tehdä,V;NFIN;3;ACT;IN+ESS,t e k e m æ sː æ,t e k e m æ sː æ
+tehdä,V;NFIN;3;ACT;AT+ESS,t e k e m æ lː æ,t e k e m æ lː æ
+tehdä,V;NFIN;5;ACT,t e k e m æ i̯ s i lː æː n,t e k e m æ i̯ s i lː æː n
+osallistua,V;ACT;PRS;NEG;IND;1;SG,e n,e i̯ ² o s ɑ lː i s t uˣ
+osallistua,V;ACT;PRS;POS;IND;2;SG,o s ɑ lː i s t u t,o s ɑ lː i s t uˣ
+osallistua,V;ACT;PRS;NEG;IND;3;SG,e i̯ ² o s ɑ lː i s t uˣ,e i̯ o s ɑ lː i s t ɑ
+osallistua,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ o s ɑ lː i s t uˣ,e mː eˣ o s ɑ lː i s t uˣ
+osallistua,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l eˣ o s ɑ lː i s t u n eː t,e tː e o l iː s i o s ɑ lː i s t u n eː t
+osallistua,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t o s ɑ lː i s t u n eː t,o ʋ ɑ t o s ɑ lː i s t u n eː t
+osallistua,V;PASS;PRS;POS;IND,o s ɑ lː i s t u t ɑː n,o lː ɑː n
+osallistua,V;PASS;PRS;PRF;POS;IND,o n,o n
+osallistua,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t o s ɑ lː i s t u n u t,o l i n o s ɑ lː i s t u n u t
+osallistua,V;ACT;PST;POS;IND;1;PL,o s ɑ lː i s t u i̯ mː e,o s ɑ lː i s t u i̯ n
+osallistua,V;ACT;PST;NEG;IND;1;PL,e mː eˣ o s ɑ lː i s t u n eː t,e mː eˣ o s ɑ lː i s t u n eː t
+osallistua,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ o s ɑ lː i s t u n eː t,o l i n o s ɑ lː i s t u n eː t e mː e o lː eː t
+osallistua,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t o s ɑ lː i s t u n eː t,o l i tː eˣ o s ɑ lː i s t u n eː t
+osallistua,V;PASS;PST;POS;IND,o s ɑ lː i s t u tː iː n,o s ɑ lː i s t u m ɑ tː uˣ
+osallistua,V;ACT;PRS;NEG;COND;2;SG,e t o s ɑ lː i s t u i̯ s i,e i̯ ʋ æ k s y i̯ s i t
+osallistua,V;ACT;PRS;POS;COND;3;SG,o s ɑ lː i s t u i̯ s i,o s ɑ lː i s t u i̯ s i
+osallistua,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i o s ɑ lː i s t u n u t,o l i s i t o s ɑ lː i s t u n u t
+osallistua,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i o s ɑ lː i s t u n u t,e i̯ o l i s i o s ɑ lː i s t u n u t
+osallistua,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ o s ɑ lː i s t u n eː t,o l i s i mː eˣ o s ɑ lː i s t u n eː t
+osallistua,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i o s ɑ lː i s t u n eː t,e mː eˣ o l i s i o s ɑ lː i s t u n eː t
+osallistua,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t o s ɑ lː i s t u n eː t,o l i s i ʋ ɑ t
+osallistua,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ o s ɑ lː i s t u n u t,æ l æ o l eˣ o s ɑ lː i s t u n u t
+osallistua,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o o s ɑ lː i s t u n eː t,æ l k æː mː eˣ o s ɑ lː i s t u k o
+osallistua,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t,æ l k øː t o s ɑ lː i s t u k o
+osallistua,V;ACT;PRS;NEG;POT;2;SG,e t s ɑ lː i s t u n eˣ,e t l i e̯ n eˣ o s ɑ lː i s t u n eː t
+osallistua,V;ACT;PRS;POS;POT;3;PL,o s ɑ lː i s t u n e ʋ ɑ t,s iː tː æ n e ʋ ɑ t
+osallistua,V;NFIN;1;PASS,o s ɑ lː i s t u ɑ k s eː n,o s ɑ lː i s t u ɑ k s eː n
+osallistua,V;NFIN;4;ACT;NOM,o s ɑ lː i s t u m i n e n,o s ɑ lː i s t u m i n e n
+osallistua,V;NFIN;5;PASS,o s ɑ lː i s t u m ɑ i̯ s i lː ɑː n,o s ɑ lː i s t u m ɑ i̯ s i lː ɑː n
+aloittaa,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ ɑ l o i̯ tː ɑ n u t,e n o l eˣ ɑ l o i̯ tː ɑ n u t
+aloittaa,V;ACT;PRS;NEG;IND;2;SG,e t ɑ l o i̯ t ɑˣ,e t ʋ ɑ l o i̯ t ɑˣ
+aloittaa,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t ɑ l o i̯ tː ɑ n u t,o l e t ɑ l o i̯ tː ɑ n u t
+aloittaa,V;ACT;PRS;PRF;NEG;IND;1;PL,e mː e o l eˣ ɑ l o i̯ tː ɑ n eː t,e n o l eˣ ɑ l o i̯ tː ɑ n eː t
+aloittaa,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e ɑ l o i̯ tː ɑ n eː t,e tː e ɑ l o i̯ t ɑˣ
+aloittaa,V;ACT;PRS;POS;IND;3;PL,ɑ l o i̯ tː ɑ ʋ ɑ t,h y ʋ æ t ɑ l o i̯ tː ɑ n eː t
+aloittaa,V;PASS;PRS;POS;IND,ɑ l o i̯ t e t ɑː n,ɑ l o i̯ t e t æː n
+aloittaa,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t ɑ l o i̯ tː ɑ n u t,e i̯ o lː u t ɑ l o i̯ tː ɑ n u t
+aloittaa,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t ɑ l o i̯ tː ɑ n eː t,e mː e o lː eː t ɑ l o i̯ tː ɑ n eː t
+aloittaa,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t ɑ l o i̯ tː ɑ n eː t,e i̯ ʋ æ t ɑ l o i̯ tː ɑ n eː t
+aloittaa,V;PASS;PST;NEG;IND,e i̯ ʋ ɑ l o i̯ t e tː uˣ,e i̯ ɑ l o i̯ t e tː yˣ
+aloittaa,V;PASS;PST;PRF;POS;IND,o l i ɑ l o i̯ t e tː uˣ,o l i ɑ l o i̯ t e tː uˣ
+aloittaa,V;ACT;PRS;NEG;COND;1;SG,e n,e mː eˣ l i s i t ɑ l o i̯ tː ɑ n eː t
+aloittaa,V;ACT;PRS;POS;COND;3;SG,ɑ l o i̯ tː ɑ i̯ s i,ɑ l o i̯ tː ɑ n eː
+aloittaa,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i,o l i s i t ɑ l o i̯ tː ɑ n u t
+aloittaa,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ ɑ l o i̯ tː ɑ i̯ s i,e mː eˣ l i s i ɑ l o i̯ tː ɑ n eː t
+aloittaa,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i ɑ l o i̯ tː ɑ n eː t,e mː e o l i s i ɑ l o i̯ tː ɑ n eː t
+aloittaa,V;ACT;PRS;POS;IMP;2;SG,ɑ l o i̯ t ɑˣ,ɑ l o i̯ tː ɑ k oː n
+aloittaa,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t,e i̯ ɑ l o i̯ tː ɑ k oː n
+aloittaa,V;ACT;PRS;POS;POT;2;PL,ɑ l o i̯ tː ɑ n e tː e,ɑ l o i̯ t e tː e
+aloittaa,V;ACT;PRS;NEG;POT;2;PL,e tː e ɑ l o i̯ tː ɑ n eˣ,e tː e ɑ l o i̯ tː ɑ n eˣ
+aloittaa,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ ɑ l o i̯ tː ɑ n eː t,e tː e l i e̯ n eˣ ɑ l o i̯ tː ɑ n eː t
+aloittaa,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ ɑ l o i̯ t e tː uˣ,e i̯ ʋ ɑ l o i̯ t e tː ɑ n eˣ
+aloittaa,V;NFIN;1;PASS,ɑ l o i̯ tː ɑː k s eː n,t o i̯ t ɑː k s eː n
+aloittaa,V;NFIN;2;ACT;IN+ESS,ɑ l o i̯ tː ɑ e sː ɑ,ɑ l o i̯ tː ɑ e sː ɑ
+toteuttaa,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t t o t e u tː ɑ n u t,o l e tː e t o t e u tː ɑ n u t
+toteuttaa,V;ACT;PRS;POS;IND;3;SG,t o t e u tː ɑːˣ,o n t o t e u tː ɑ n eː t
+toteuttaa,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ t o t e u̯ t ɑ,e mː eˣ t o t e u tː ɑ n eˣ
+toteuttaa,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ t o t e u tː ɑ n eː t,o l e mː eˣ t o t e u tː ɑ n eː t
+toteuttaa,V;ACT;PRS;POS;IND;2;PL,t o t e u̯ t ɑ tː e,t o t e u̯ t ɑ tː e
+toteuttaa,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t o t e u tː ɑ n eː t,o n uː s i ʋ ɑ t t o t e u tː ɑ n eː t
+toteuttaa,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t t o t e u tː ɑ n u t,e n o lː u t t o t e u tː ɑ n u t
+toteuttaa,V;ACT;PST;PRF;POS;IND;3;SG,o l i t o t e u tː ɑ n u t,o l i t o t e u tː ɑ n u t
+toteuttaa,V;ACT;PST;NEG;IND;2;PL,e tː e t o t e u tː ɑ n eː t,e tː e t o t e u tː ɑ n eː t
+toteuttaa,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ t o t e u tː ɑ n eː t,t o t e u̯ t i tː eˣ
+toteuttaa,V;PASS;PST;PRF;POS;IND,o l i t o t e u̯ t e tː uˣ,t o t e u̯ t e tː iː n
+toteuttaa,V;ACT;PRS;POS;COND;1;SG,t o t e u tː ɑ i̯ s i n,t o t e u tː ɑ i̯ s i
+toteuttaa,V;ACT;PRS;POS;COND;3;PL,t o t e u tː ɑ i̯ s i ʋ ɑ t,t o t e u tː ɑ n e ʋ ɑ t
+toteuttaa,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t t o t e u tː ɑ i̯ s i,e i̯ t o t e u tː ɑ i̯ s i
+toteuttaa,V;PASS;PRS;PRF;POS;COND,o l i s i t o t e u̯ t e tː uˣ,o l i s i t o t e u̯ t e tː uˣ
+toteuttaa,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i t o t e u̯ t e tː uˣ,e i̯ o l i s i t o t e tː yˣ
+toteuttaa,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ t o t e u tː ɑ n u t,e t l i e̯ n eˣ t o t e u tː ɑ n eː t
+toteuttaa,V;ACT;PRS;POS;IMP;3;SG,t o t e u tː ɑ k oː n,t o t e u̯ t ɑ
+toteuttaa,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n t o t e u tː ɑ n u t,o l k oː n t o t e u tː ɑ n u t
+toteuttaa,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ t o t e u tː ɑ k o,e mː eˣ t o t e u tː ɑ n eˣ
+toteuttaa,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ t o t e u tː ɑ n eː t,o l k ɑː mː eˣ t o t e u tː ɑ n eː t
+toteuttaa,V;ACT;PRS;POS;IMP;3;PL,t o t e u tː ɑ k oː t,h y ʋ æ t o t e u tː ɑ k o
+toteuttaa,V;ACT;PRS;POS;POT;2;SG,t o t e u tː ɑ n e t,t o t e u tː ɑ n eˣ
+toteuttaa,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ t o t e u tː ɑ n u t,e t l i e̯ n eˣ t o t e u tː ɑ n u t
+toteuttaa,V;ACT;PRS;POS;POT;1;PL,t o t e u tː ɑ n e mː e,t o t e u tː ɑ k ɑː mː e
+toteuttaa,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ t o t e u tː ɑ n eː t,t o t e u tː ɑ n e mː e
+toteuttaa,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t t o t e u tː ɑ n eˣ,e i̯ ʋ æ t o t e u tː ɑ n eˣ
+toteuttaa,V;PASS;PRS;NEG;POT,e i̯ t o t e u̯ t e tː ɑ n eˣ,e i̯ t o t e tː æ n eˣ
+toteuttaa,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː t o t e u̯ t e tː uˣ,l i e̯ n eː t o t e u̯ t e tː uˣ
+toteuttaa,V;NFIN;2;PASS;IN+ESS,t o t e u̯ t e tː ɑ e sː ɑ,t o t e u̯ t e tː ɑ e sː ɑ
+löytyä,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ l ø y̯ t y n y t,e n l ø y̯ d yˣ
+löytyä,V;ACT;PRS;NEG;IND;2;SG,e t l ø y̯ d yˣ,e t l ø y̯ t y i̯ s i
+löytyä,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ l ø y̯ t y n y t,e t o l eˣ l ø y̯ t y n y t
+löytyä,V;ACT;PRS;POS;IND;1;PL,l ø y̯ d y mː eˣ,l ø y̯ t y n e mː e
+löytyä,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ l ø y̯ t y n eː t,o l e mː eˣ t u lː eː t
+löytyä,V;ACT;PST;NEG;IND;1;SG,e n,e n
+löytyä,V;ACT;PST;NEG;IND;3;SG,e i̯ l ø y̯ t y n y t,e i̯ o lː u t l ø y̯ t y n y t
+löytyä,V;ACT;PST;NEG;IND;1;PL,e mː eˣ l ø y̯ t y n eː t,e mː eˣ l ø y̯ t y n eː t
+löytyä,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ l ø y̯ t y n eː t,o l i tː eˣ l ø y̯ t y n eː t
+löytyä,V;ACT;PST;POS;IND;2;PL,l ø y̯ d y i̯ tː eˣ,o s ɑ s i tː eˣ
+löytyä,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ l ø y̯ t y n eː t,o l i tː eˣ
+löytyä,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t l ø y̯ t y n eː t,h y ʋ æ t l ø y̯ t y n eː t
+löytyä,V;PASS;PST;POS;IND,l ø y̯ d y tː iː n,s iː t e tː iː n
+löytyä,V;ACT;PRS;NEG;COND;1;SG,e n l ø y̯ t y i̯ s i,e mː eˣ l i s i l ø y̯ t y n y t
+löytyä,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t l ø y̯ t y n eː t,o l i s i ʋ ɑ t
+löytyä,V;ACT;PRS;NEG;IMP;2;SG,æ l æ l ø y̯ d yˣ,æ l k æː l ø y̯ t y n y t
+löytyä,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ l ø y̯ t y n y t,æ l æ o l eˣ l ø y̯ t y n y t
+löytyä,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n l ø y̯ t y k ø,æ l k øː t l ø y̯ d yˣ
+löytyä,V;ACT;PRS;POS;IMP;2;PL,l ø y̯ t y k æː,p y r k i k æː
+löytyä,V;ACT;PRS;NEG;POT;1;SG,e n,e n l ø y̯ t y n eˣ
+löytyä,V;ACT;PRS;NEG;POT;2;SG,e t l ø y̯ t y n eˣ,e t l i e̯ n eˣ l ø y̯ t y n eː t
+löytyä,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t l ø y̯ t y n y t,l ø y̯ t y n e t
+löytyä,V;ACT;PRS;POS;POT;3;SG,l ø y̯ t y n eː,o l i l ø y̯ t y n eˣ
+löytyä,V;ACT;PRS;PRF;NEG;POT;1;PL,e mː e l i e̯ n eˣ l ø y̯ t y n eː t,e mː e l i e̯ n eˣ l ø y̯ t y n eː t
+löytyä,V;ACT;PRS;POS;POT;2;PL,l ø y̯ t y n e tː e,l ø y̯ t y n e tː e
+löytyä,V;ACT;PRS;POS;POT;3;PL,l ø y̯ t y n e ʋ æ t,l ø y̯ t y n e ʋ æ t
+vaatia,V;ACT;PRS;NEG;IND;1;SG,e n ʋ ɑː d i,e i̯ ʋ ɑː t i n
+vaatia,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ ʋ ɑː t i n u t,e n o l eˣ ʋ ɑː t i n u t
+vaatia,V;ACT;PRS;POS;IND;2;SG,ʋ ɑː d i t,ʋ ɑː d i t
+vaatia,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ ʋ ɑː d i,e tː e ʋ ɑː t i n
+vaatia,V;ACT;PRS;NEG;IND;2;PL,e tː e ʋ ɑː d i,e tː e k æ y̯ t æ
+vaatia,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t ʋ ɑː d i,e i̯ ʋ æ t ʋ ɑː t i n u t
+vaatia,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ ʋ ɑː d i tː uˣ,e i̯ ʋ ɑː d i t ɑˣ
+vaatia,V;ACT;PST;PRF;POS;IND;1;SG,o l i n ʋ ɑː t i n u t,ʋ ɑː t i n
+vaatia,V;ACT;PST;NEG;IND;3;SG,e i̯ ʋ ɑː t i n u t,e i̯ ʋ ɑː t i n u t
+vaatia,V;ACT;PST;POS;IND;1;PL,ʋ ɑː d i mː e,t ɑ k s o i̯ mː eˣ
+vaatia,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ ʋ ɑː t i n eː t,o l i mː eˣ ʋ ɑː t i n eː t
+vaatia,V;PASS;PST;POS;IND,ʋ ɑː d i tː iː n,k æ y̯ t iː n
+vaatia,V;PASS;PST;PRF;POS;IND,o l i ʋ ɑː d i tː uˣ,o l i ʋ ɑ t ʋ ɑː d i tː uˣ
+vaatia,V;ACT;PRS;NEG;COND;1;SG,e n ʋ ɑː t i s i,e n uː s i s i ʋ ɑː t i n u t
+vaatia,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i ʋ ɑː t i n u t,e n o l i s i
+vaatia,V;ACT;PRS;POS;COND;2;SG,ʋ ɑː t i s i t,ʋ ɑː t i s i
+vaatia,V;ACT;PRS;NEG;COND;2;SG,e t ʋ ɑː t i s i,e tː e l i s i ʋ ɑː t i n u t
+vaatia,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t ʋ ɑː t i n u t,o l i s i tː eˣ ʋ ɑː t i n u t
+vaatia,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i ʋ ɑː t i n u t,e t o l i s i ʋ ɑː t i n u t
+vaatia,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i,l i e̯ n eː ʋ ɑː t i n u t
+vaatia,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ ʋ ɑː t i s i,e mː eˣ ʋ ɑː d i
+vaatia,V;PASS;PRS;NEG;COND,e i̯ ʋ ɑː d i tː ɑ i̯ s i,e i̯ l ø y̯ d y tː æ i̯ s i
+vaatia,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o ʋ ɑː t i n eː t,e mː eˣ l i e̯ n eˣ ʋ ɑː t i n eː t
+vaatia,V;PASS;PRS;POS;IMP,ʋ ɑː d i tː ɑ k oː n,ʋ ɑː d i tː ɑ k oː n
+vaatia,V;PASS;PRS;PRF;POS;IMP,o l k oː n ʋ ɑː d i tː uˣ,ʋ ɑː d i tː ɑ k oː n
+vaatia,V;ACT;PRS;POS;POT;2;SG,ʋ ɑː t i n e t,ʋ ɑː t i n e t
+vaatia,V;ACT;PRS;NEG;POT;2;SG,e t ʋ ɑː t i n eˣ,e t ʋ ɑː t i n eˣ
+vaatia,V;PASS;PRS;POS;POT,ʋ ɑː d i tː ɑ n eː n,ʋ ɑː d i tː ɑ n eː n
+vaatia,V;PASS;PRS;NEG;POT,e i̯ ʋ ɑː d i tː ɑ n eˣ,e i̯ s iː t e tː ɑ n eˣ
+vaatia,V;NFIN;3;ACT;IN+ABL,ʋ ɑː t i m ɑ s t ɑ,ʋ ɑː t i m ɑ s t ɑ
+vaatia,V;NFIN;3;ACT;IN+ALL,ʋ ɑː t i m ɑː n,ʋ ɑː t i m ɑː n
+luoda,V;ACT;PRS;NEG;IND;1;SG,e n l u o̯,e n l u o̯
+luoda,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n l u o̯ n u t,o l e mː eˣ l u o̯ n u t
+luoda,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ l u o̯ n u t,e n l u o̯
+luoda,V;ACT;PRS;POS;IND;2;SG,l u o̯ t,l o i̯ t
+luoda,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t l u o̯ n u t,o l eˣ l u o̯ n eː t
+luoda,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ l u o̯ n u t,e t l u o̯
+luoda,V;ACT;PRS;POS;IND;3;SG,l u o̯,e i̯ l u o̯
+luoda,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ l u o̯,e mː eˣ l u o̯
+luoda,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l eˣ l u o̯ n eː t,e tː e o l eˣ l u o̯ n eː t
+luoda,V;ACT;PST;POS;IND;1;SG,l o i̯ n,o l i n l u o̯ n eː t
+luoda,V;ACT;PST;NEG;IND;1;SG,e n,e n l u o̯ n u t
+luoda,V;ACT;PST;NEG;IND;2;SG,e t l u o̯ n u t,e tː e l u o̯ n u t
+luoda,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t l u o̯ n u t,e t o lː u t l u o̯ n u t
+luoda,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ l u o̯ n eː t,o l i tː e
+luoda,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t l u o̯ n eː t,l o i̯ ʋ ɑ t k æ y̯ tː æ n eː t
+luoda,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i l u o̯ n u t,e n o l i s i l u o̯ n u t
+luoda,V;ACT;PRS;NEG;COND;3;SG,e i̯ l o i̯ s i,æ l k øː n l u o̯ k o
+luoda,V;ACT;PRS;POS;COND;1;PL,l o i̯ s i mː e,l o i̯ s i mː eˣ
+luoda,V;ACT;PRS;POS;COND;2;PL,l o i̯ s i tː e,l u o̯ m ɑ i̯ s i tː eˣ
+luoda,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t l u o̯ n eː t,l o i̯ s i ʋ ɑ t
+luoda,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i l u o̯ n eː t,e tː e o l i s i l u o̯ n eː t
+luoda,V;ACT;PRS;POS;IMP;2;SG,l u o̯,l u o̯ k ɑː
+luoda,V;ACT;PRS;POS;IMP;1;PL,l u o̯ k ɑː mː e,l u o̯ n e mː e
+luoda,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o l u o̯ n eː t,e tː e o l eˣ l u o̯ n eː t
+luoda,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t l u o̯ n eː t,o l k ɑː mː eˣ l u o̯ n u t
+luoda,V;PASS;PRS;NEG;IMP,æ l k øː n l u o̯ t ɑ k o,æ l k øː n o l k o l u o̯ t uˣ
+luoda,V;ACT;PRS;POS;POT;1;SG,l u o̯ n e n,l u o̯ n
+luoda,V;ACT;PRS;NEG;POT;2;SG,e t l u o̯ n eˣ,e i̯ l u o̯ n eˣ
+luoda,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ l u o̯ n eˣ,l u o̯ n e mː e
+luoda,V;NFIN;ACT+PASS,l u o̯ d ɑˣ,ʋ ɑː t i ɑˣ
+luoda,V;NFIN;2;PASS;IN+ESS,l u o̯ t ɑ e sː ɑ,l u o̯ t ɑ e sː ɑ
+luoda,V;NFIN;3;ACT;INS,l u o̯ m ɑ n,l u o̯ m ɑ n
+luoda,V;NFIN;3;PASS;INS,l u o̯ t ɑ m ɑ n,l u o̯ t ɑ m ɑ n
+luoda,V;NFIN;4;ACT;PRT,l u o̯ m i s t ɑˣ,l u o̯ m i s t ɑ
+luoda,V;NFIN;5;ACT,l u o̯ m ɑ i̯ s i lː ɑː n,l u o̯ m ɑ i̯ s i lː ɑː n
+arvioida,V;ACT;PRS;NEG;IND;2;SG,e t ɑ r ʋ i o i̯,e i̯ t ɑ r ʋ i o i̯
+arvioida,V;ACT;PRS;POS;IND;1;PL,ɑ r ʋ i o i̯ mː eˣ,ɑ r ʋ i o i̯ n e mː e
+arvioida,V;ACT;PRS;POS;IND;2;PL,ɑ r ʋ i o i̯ tː eˣ,ɑ r ʋ i o i̯ n e tː e
+arvioida,V;ACT;PRS;NEG;IND;2;PL,e tː e ɑ r ʋ i o i̯,e tː e s e l ʋ i t æˣ
+arvioida,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t ɑ r ʋ i o i̯,e i̯ ʋ i o i̯ k oː t
+arvioida,V;PASS;PRS;NEG;IND,e i̯ ʋ ɑ r ʋ i o i̯ d ɑˣ,e i̯ h o i̯ d e t æˣ
+arvioida,V;ACT;PST;POS;IND;2;PL,ɑ r ʋ i o i̯ tː eˣ,e tː e ɑ r ʋ i o i̯ n eː t
+arvioida,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ ɑ r ʋ i o i̯ n eː t,o l i tː eˣ ɑ r ʋ i o i̯ n eː t
+arvioida,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t ɑ r ʋ i o i̯ n eː t,e tː e t ɑ r ʋ i o i̯ n u t
+arvioida,V;PASS;PST;POS;IND,ɑ r ʋ i o i̯ t iː n,ɑ r ʋ i o i̯ m ɑ tː uˣ
+arvioida,V;PASS;PST;NEG;IND,e i̯ ʋ i o i̯ t uˣ,e i̯ d e tː ɑ n eː t
+arvioida,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i ɑ r ʋ i o i̯ n eː t,e mː e o l i s i ɑ r ʋ i o i̯ n eː t
+arvioida,V;ACT;PRS;POS;COND;3;PL,ɑ r ʋ i o i̯ s i ʋ ɑ t,ɑ r ʋ i o i̯ s i ʋ ɑ t
+arvioida,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i,e i̯ ʋ i o i̯ t ɑ i̯ s i
+arvioida,V;ACT;PRS;POS;IMP;2;SG,ɑ r ʋ i o i̯,ɑ r ʋ i o i̯ k oː n
+arvioida,V;ACT;PRS;POS;IMP;1;PL,ɑ r ʋ i o i̯ k ɑː mː e,ɑ r ʋ i o i̯ n e mː e
+arvioida,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ ɑ r ʋ i o i̯ k o,æ l k æː mː eˣ ɑ r ʋ i o i̯ n u t
+arvioida,V;ACT;PRS;POS;IMP;2;PL,ɑ r ʋ i o i̯ k ɑː,k e rː ɑ t k ɑːˣ
+arvioida,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o ɑ r ʋ i o i̯ n eː t,e tː e o l eˣ ɑ r ʋ i o i̯ n eː t
+arvioida,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t,æ l k øː t ɑ r ʋ i o i̯ n eː t
+arvioida,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o ɑ r ʋ i o i̯ t uˣ,e i̯ o l eˣ ɑ r ʋ i o i̯ t ɑ n eː t
+arvioida,V;ACT;PRS;POS;POT;1;SG,ɑ r ʋ i o i̯ n e n,t e h n e n ɑ r ʋ i o i̯ n u t
+arvioida,V;ACT;PRS;NEG;POT;2;SG,e t ɑ r ʋ i o i̯ n eˣ,e i̯ t ɑ r ʋ i o i̯ n eˣ
+arvioida,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ ɑ r ʋ i o i̯ n u t,e t l i e̯ n eˣ ɑ r ʋ i o i̯ n u t
+arvioida,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ ɑ r ʋ i o i̯ n eː t,e i̯ l i e̯ n eˣ ɑ r ʋ i o i̯ n eː t
+arvioida,V;PASS;PRS;NEG;POT,e i̯ ʋ ɑ r ʋ i o i̯ t ɑ n eˣ,e i̯ ɑ r ʋ i o i̯ t ɑ i̯ s i
+arvioida,V;NFIN;1;PASS,ɑ r ʋ i o i̯ d ɑ k s eː n,ɑ r ʋ i o i̯ t ɑ k s eː n
+arvioida,V;NFIN;2;ACT;INS,ɑ r ʋ i o i̯ d e n,ɑ j ɑ e n
+arvioida,V;NFIN;3;ACT;IN+ABL,ɑ r ʋ i o i̯ m ɑ s t ɑ,ɑ r ʋ i o i̯ m ɑ s t ɑ
+arvioida,V;NFIN;3;ACT;IN+ALL,ɑ r ʋ i o i̯ m ɑː n,n iː tː æ m æː n
+arvioida,V;NFIN;3;ACT;PRIV,ɑ r ʋ i o i̯ m ɑ tː ɑ,ɑ r ʋ i o i̯ m ɑ tː ɑ
+arvioida,V;NFIN;5;PASS,ɑ r ʋ i o i̯ m ɑ i̯ s i lː ɑː n,ɑ r ʋ i o i̯ m ɑ i̯ s i lː ɑː n
+rakentaa,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n r ɑ k e n t ɑ n u t,o l e mː eˣ r ɑ k e n t ɑ n u t
+rakentaa,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ r ɑ k e n t ɑ n u t,e n o l eˣ r ɑ k e n t ɑ n u t
+rakentaa,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t r ɑ k e n t ɑ n u t,o l i t r ɑ k e n t ɑ k o
+rakentaa,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ r ɑ k e n t ɑ n u t,e t o l eˣ r ɑ k e n t ɑ n u t
+rakentaa,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e r ɑ k e n t ɑ n eː t,l i e̯ n e tː e r ɑ k e n t ɑ n eː t
+rakentaa,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t r ɑ k e n t ɑ n eː t,o l e mː eˣ r ɑ k e n eː t
+rakentaa,V;PASS;PRS;PRF;POS;IND,o n,o n
+rakentaa,V;ACT;PST;POS;IND;3;SG,r ɑ k e n s i,r ɑ k e n t ɑ n u t
+rakentaa,V;ACT;PST;NEG;IND;3;SG,e i̯ r ɑ k e n t ɑ n u t,e i̯ r ɑ k e n t ɑ n u t
+rakentaa,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ r ɑ k e n t ɑ n eː t,o l i tː e
+rakentaa,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t r ɑ k e n t ɑ n eː t,e i̯ ʋ æ t r ɑ k e n t ɑ n u t
+rakentaa,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t r ɑ k e n t ɑ n eː t,o l i ʋ ɑ t
+rakentaa,V;PASS;PST;PRF;POS;IND,o l i r ɑ k e nː e tː uˣ,o l i
+rakentaa,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i r ɑ k e n t ɑ n u t,o l i s i t r ɑ k e n t ɑ n u t
+rakentaa,V;ACT;PRS;POS;COND;1;PL,r ɑ k e n t ɑ i̯ s i mː e,r ɑ k e n t ɑ n e mː e
+rakentaa,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ r ɑ k e n t ɑ i̯ s i,e mː eˣ r ɑ k e n t ɑ n eˣ
+rakentaa,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t r ɑ k e n t ɑ i̯ s i,e i̯ r ɑ k e n t ɑ i̯ s i
+rakentaa,V;PASS;PRS;POS;COND,r ɑ k e nː e tː ɑ i̯ s iː n,r ɑ k e n t ɑ i̯ s i tː uˣ
+rakentaa,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ r ɑ k e n t ɑ n u t,o l k oː n r ɑ k e n t ɑ n eː t
+rakentaa,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n r ɑ k e n t ɑ k o,e i̯ r ɑ k e nː ɑ
+rakentaa,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ r ɑ k e n t ɑ n eː t,o l k ɑː mː eˣ
+rakentaa,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o r ɑ k e n t ɑ n eː t,æ l æ o l eˣ r ɑ k e n t ɑ k o
+rakentaa,V;PASS;PRS;NEG;IMP,æ l k øː n r ɑ k e nː e tː ɑ k o,r ɑ k e nː e tː ɑ k oː n
+rakentaa,V;ACT;PRS;NEG;POT;3;SG,e i̯ r ɑ k e n t ɑ n eˣ,e i̯ r ɑ k e n t ɑ n eˣ
+rakentaa,V;ACT;PRS;NEG;POT;2;PL,e t e r ɑ k e n t ɑ n eˣ,e t e r ɑ k e nː ɑ
+rakentaa,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ r ɑ k e n t ɑ n eː t,e t l i e̯ n eˣ r ɑ k e n t ɑ n eː t
+rakentaa,V;PASS;PRS;NEG;POT,e i̯ r ɑ k e nː e tː ɑ n eˣ,e i̯ l i e̯ n eˣ r ɑ k e nː e tː uˣ
+rakentaa,V;NFIN;3;ACT;IN+ALL,r ɑ k e n t ɑ m ɑː n,r ɑ k e n t ɑ m ɑː n
+rakentaa,V;NFIN;3;PASS;INS,r ɑ k e nː e tː ɑ m ɑ n,r ɑ k e nː e tː ɑ m ɑ n
+rakentaa,V;NFIN;4;ACT;NOM,r ɑ k e n t ɑ m i n e n,r ɑ k e n t ɑ m i n e n
+järjestää,V;ACT;PRS;POS;IND;3;SG,j æ r j e s t æːˣ,j æ r j e s t æ ʋ æ t
+järjestää,V;ACT;PRS;NEG;IND;3;SG,e i̯ j æ r j e s t æˣ,e i̯ j æ r j e s t æˣ
+järjestää,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ j æ r j e s t æ n y t,e i̯ o l i s i j æ r j e s t æ n y t
+järjestää,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː e j æ r j e s t æ n eː t,o l e mː eˣ j æ r j e s t æ n y t
+järjestää,V;ACT;PRS;POS;IND;2;PL,j æ r j e s t æ tː eˣ,j æ r j e s t æ ʋ æ t
+järjestää,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t j æ r j e s t æˣ,e i̯ ʋ æ t k æ y̯ t æ
+järjestää,V;PASS;PRS;NEG;IND,e i̯ j æ r j e s t e t æˣ,e i̯ o l eˣ j æ r j e s t e tː yˣ
+järjestää,V;PASS;PRS;PRF;POS;IND,o n,j æ r j e s t e t æː n
+järjestää,V;ACT;PST;NEG;IND;1;SG,e n j æ r j e s t æ n y t,e n j æ r j e s t æ n y t
+järjestää,V;ACT;PST;PRF;POS;IND;1;SG,o l i n j æ r j e s t æ n y t,o l e n j æ r j e s t æ n y t
+järjestää,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i j æ r j e s t æ n y t,e n o l i s i j æ r j e s t æ n eː t
+järjestää,V;ACT;PRS;POS;COND;2;SG,j æ r j e s t æ i̯ s i t,t i e̯ t æ i̯ s i t
+järjestää,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i j æ r j e s t æ n y t,e t o l i s i j æ r j e s t æ n y t
+järjestää,V;ACT;PRS;POS;COND;3;SG,j æ r j e s t æ i̯ s i,j æ r j e s t æ i̯ s i
+järjestää,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i j æ r j e s t æ n y t,e i̯ o l i s i j æ r j e s t æ n y t
+järjestää,V;ACT;PRS;POS;COND;1;PL,j æ r j e s t æ i̯ s i mː e,s iː tː æ i̯ s i mː e
+järjestää,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ j æ r j e s t æ i̯ s i,e mː eˣ t o t e u tː ɑ i̯ s i
+järjestää,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ j æ r j e s t æ n eː t,o l i s i mː eˣ
+järjestää,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i j æ r j e s t æ n eː t,e mː eˣ o l i s i
+järjestää,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t j æ r j e s t æ i̯ s i,e i̯ j æ r j e s t æ i̯ s i
+järjestää,V;PASS;PRS;POS;COND,j æ r j e s t e tː æ i̯ s iː n,o l i s i j æ r j e s t e tː yˣ
+järjestää,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ j æ r j e s t æ n y t,æ l æ j æ r j e s t æˣ
+järjestää,V;ACT;PRS;POS;IMP;2;PL,j æ r j e s t æ k æː,j æ r j e s t æ i̯ s i tː eˣ
+järjestää,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː j æ r j e s t æ k ø,e tː e j æ r j e s t æˣ
+järjestää,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː j æ r j e s t æ n eː t,o l k ɑː ɑ l o i̯ t ɑ n eː t
+järjestää,V;ACT;PRS;PRF;NEG;POT;3;SG,e i̯ l i e̯ n eˣ j æ r j e s t æ n y t,e t l i e̯ n eˣ j æ r j e s t æ n y t
+järjestää,V;ACT;PRS;POS;POT;2;PL,j æ r j e s t æ n e tː e,l u o̯ n e tː e
+järjestää,V;ACT;PRS;POS;POT;3;PL,j æ r j e s t æ n e ʋ æ t,j æ r j e s t æ ʋ æ t
+järjestää,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t j æ r j e s t æ n eˣ,e i̯ j æ r j e s t æ n eˣ
+järjestää,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t j æ r j e s t æ n eː t,l i e̯ n e ʋ ɑ t j æ r j e s t æ n eː t
+järjestää,V;NFIN;3;ACT;IN+ABL,j æ r j e s t æ m æ s t æ,o l e m ɑ s t ɑ
+järjestää,V;NFIN;3;ACT;AT+ESS,j æ r j e s t æ m æ lː æ,t ɑ p ɑ h t u m ɑ lː ɑ
+järjestää,V;NFIN;4;PASS;PRT,j æ r j e s t æ m i s t æ,j æ r j e s t æ m i s t æ
+kuvata,V;ACT;PRS;NEG;IND;1;SG,e n,e mː eˣ k u ʋ ɑːˣ
+kuvata,V;ACT;PRS;POS;IND;2;SG,k u ʋ ɑː t,k u ʋ ɑː
+kuvata,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ k u ʋ ɑ nː eː t,o l e n k u ʋ ɑ t
+kuvata,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t k u ʋ ɑːˣ,e i̯ uː s i k u ʋ ɑ t
+kuvata,V;ACT;PST;POS;IND;1;SG,k u ʋ ɑ s i n,k u ʋ ɑ s i n
+kuvata,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t k u ʋ ɑ nː u t,e n o lː u t k u ʋ ɑ nː u t
+kuvata,V;ACT;PST;POS;IND;2;SG,k u ʋ ɑ s i t,k u ʋ ɑ s i
+kuvata,V;ACT;PST;PRF;POS;IND;2;SG,o l i t k u ʋ ɑ nː u t,k u ʋ ɑ s i t
+kuvata,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t k u ʋ ɑ nː eː t,e i̯ ʋ æ t ʋ ɑ i̯ k u ʋ ɑ nː eː t
+kuvata,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t k u ʋ ɑ tː uˣ,e i̯ k u ʋ ɑ tː uˣ
+kuvata,V;ACT;PRS;NEG;COND;3;SG,e i̯ k u ʋ ɑ i̯ s i,e i̯ k u ʋ ɑ i̯ s i
+kuvata,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i k u ʋ ɑ nː u t,e i̯ o l i s i k u ʋ ɑ nː u t
+kuvata,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i k u ʋ ɑ nː eː t,e mː e o l i s i
+kuvata,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ k u ʋ ɑ nː eː t,o l i s i t k u ʋ ɑ t
+kuvata,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t k u ʋ ɑ nː eː t,o l i s i ʋ ɑ t
+kuvata,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i k u ʋ ɑ tː uˣ,e i̯ k u ʋ ɑ tː ɑ i̯ s i
+kuvata,V;ACT;PRS;POS;IMP;3;SG,k u ʋ ɑ t k oː n,k u ʋ ɑː
+kuvata,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n k u ʋ ɑ nː u t,o l eˣ k u ʋ ɑ nː u t
+kuvata,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o k u ʋ ɑ nː eː t,e mː eˣ o l eˣ k u ʋ ɑ nː eː t
+kuvata,V;ACT;PRS;POS;IMP;3;PL,k u ʋ ɑ t k oː t,k u ʋ ɑ t ɑ k s ɑ k o
+kuvata,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o k u ʋ ɑ nː eː t,æ l k øː t k u ʋ ɑ t k o
+kuvata,V;ACT;PRS;POS;POT;1;SG,k u ʋ ɑ nː e n,l u o̯ n e n k u ʋ ɑ nː u t
+kuvata,V;ACT;PRS;NEG;POT;2;SG,e t k u ʋ ɑ nː eˣ,e t k u ʋ ɑ i̯ s i
+kuvata,V;ACT;PRS;NEG;POT;3;SG,e i̯ k u ʋ ɑ nː eˣ,e i̯ l i e̯ n eˣ k u ʋ ɑ nː u t
+kuvata,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː k u ʋ ɑ nː u t,e i̯ l i e̯ n eˣ k u ʋ ɑ nː u t
+kuvata,V;PASS;PRS;POS;POT,k u ʋ ɑ tː ɑ n eː n,k u ʋ ɑ tː ɑ n eː n
+kuvata,V;NFIN;4;ACT;PRT,k u ʋ ɑː m i s t ɑ,k u ʋ ɑː m i s t ɑ
+kuvata,V;NFIN;5;ACT,k u ʋ ɑː m ɑ i̯ s i lː ɑː n,k u ʋ ɑː m ɑ i̯ s i lː ɑː n
+tarvita,V;ACT;PRS;NEG;IND;2;SG,e t ɑ r ʋ i t s eˣ,e t o l eˣ t ɑ r ʋ i nː eː t
+tarvita,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t t ɑ r ʋ i nː u t,o l e t ɑ r ʋ i nː eː t
+tarvita,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ t ɑ r ʋ i nː u t,e i̯ o l eˣ t ɑ r ʋ i nː u t
+tarvita,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ t ɑ r ʋ i nː eː t,o l e n e mː eˣ t ɑ r ʋ i nː u t
+tarvita,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t t ɑ r ʋ i nː eː t,o l e tː e t ɑ r ʋ i nː eː t
+tarvita,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ t ɑ r ʋ i nː eː t,e i̯ ʋ æ t o l eˣ t ɑ r ʋ i nː eː t
+tarvita,V;PASS;PRS;POS;IND,t ɑ r ʋ i t ɑː n,t ɑ r ʋ i t e t æˣ
+tarvita,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ t ɑ r ʋ i tː uˣ,e i̯ o l eˣ t ɑ r ʋ i tː uˣ
+tarvita,V;ACT;PST;PRF;POS;IND;2;SG,o l i t ɑ r ʋ i nː u t,o l i t ɑ r ʋ i nː u t
+tarvita,V;ACT;PST;NEG;IND;3;SG,e i̯ t ɑ r ʋ i nː u t,e i̯ t ɑ r ʋ i t s i n u t
+tarvita,V;ACT;PST;PRF;POS;IND;3;SG,o l i t ɑ r ʋ i nː u t,o l i t ɑ r ʋ i nː u t
+tarvita,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t t ɑ r ʋ i nː eː t,e mː e o lː eː t t ɑ r ʋ i nː eː t
+tarvita,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t t ɑ r ʋ i nː eː t,e i̯ ʋ æ t o lː eː t ɑ r ʋ i nː eː t
+tarvita,V;PASS;PST;PRF;POS;IND,o l i t ɑ r ʋ i tː uˣ,o l i
+tarvita,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n t ɑ r ʋ i nː u t,o l i s i t ɑ r ʋ i t s i
+tarvita,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t ɑ r ʋ i nː u t,o l i s i t t ɑ r ʋ i nː u t
+tarvita,V;ACT;PRS;POS;COND;3;SG,t ɑ r ʋ i t s i s i,t ɑ r ʋ i t s i s i
+tarvita,V;ACT;PRS;POS;COND;1;PL,t ɑ r ʋ i t s i s i mː e,ʋ o i̯ s i mː eˣ t ɑ r ʋ i nː u t
+tarvita,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ t ɑ r ʋ i nː eː t,o l i s i mː eˣ t ɑ r ʋ i nː eː t
+tarvita,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i t ɑ r ʋ i nː eː t,e i̯ ʋ æ t o l i s i t s i
+tarvita,V;ACT;PRS;POS;IMP;3;SG,t ɑ r ʋ i t k oː n,t ɑ r ʋ i t ɑ r ʋ i t s eˣ
+tarvita,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n t ɑ r ʋ i t k o,æ l k øː n k ɑ s ʋ ɑ t k o
+tarvita,V;ACT;PRS;POS;IMP;2;PL,t ɑ r ʋ i t k ɑːˣ,n æ y̯ tː æ k æːˣ
+tarvita,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː t ɑ r ʋ i t k o,e tː e t ɑ r ʋ i t s eˣ
+tarvita,V;ACT;PRS;POS;IMP;3;PL,t ɑ r ʋ i t k oː t,t ɑ r ʋ i t s e ʋ ɑ t
+tarvita,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t ɑ r ʋ i nː eː t,o l k ɑː mː eˣ t ɑ r ʋ i nː eː t
+tarvita,V;ACT;PRS;PRF;NEG;POT;1;PL,e mː e l i e̯ n eˣ t ɑ r ʋ i nː eː t,e mː eˣ l i e̯ n eˣ t o t ɑ r ʋ i nː eː t
+tarvita,V;ACT;PRS;NEG;POT;2;PL,e tː e t ɑ r ʋ i nː eˣ,e tː e l i e̯ n eˣ
+tarvita,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ t ɑ r ʋ i nː eː t,e t l i e̯ n eˣ ʋ ɑ t
+tarvita,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t t ɑ r ʋ i nː eˣ,e i̯ ʋ æ t t ɑ r ʋ i t s eˣ
+tarvita,V;PASS;PRS;POS;POT,t ɑ r ʋ i tː ɑ n eː n,t ɑ r ʋ i tː ɑ i̯ s iː n
+tarvita,V;NFIN;3;ACT;INS,t ɑ r ʋ i t s e m ɑ n,t ɑ r ʋ i t s e m ɑ n
+tarvita,V;NFIN;4;PASS;PRT,t ɑ r ʋ i t s e m i s t ɑ,t ɑ r ʋ i tː æ m i s t æ
+tarvita,V;NFIN;5;ACT,t ɑ r ʋ i t s e m ɑ i̯ s i lː ɑː n,t ɑ r ʋ i t s e m ɑ i̯ s i lː ɑː n
+pieniä,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ p i e̯ n i n eː t,o l e mː eˣ
+pieniä,V;ACT;PRS;PRF;NEG;IND;1;PL,e mː e o l eˣ p i e̯ n i n eː t,e mː eˣ o lː eː t p i e̯ n i n eː t
+pieniä,V;ACT;PRS;NEG;IND;2;PL,e tː e p i e̯ n i,e tː e j æ r j e s t æˣ
+pieniä,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e p i e̯ n i n eː t,o l e tː e
+pieniä,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t p i e̯ n i,e i̯ ʋ æ t p i e̯ n i k ø
+pieniä,V;ACT;PST;PRF;POS;IND;2;SG,o l i t p i e̯ n i n y t,o l i t p i e̯ n i n y t
+pieniä,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t p i e̯ n i n y t,e t o lː u t p i e̯ n i n y t
+pieniä,V;ACT;PST;NEG;IND;1;PL,e mː eˣ p i e̯ n i n eː t,e mː eˣ p i e̯ n i n y t
+pieniä,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t p i e̯ n i n eː t,e i̯ ʋ æ t p i e̯ n i n y t
+pieniä,V;ACT;PRS;POS;COND;1;SG,p i e̯ n i s i n,p i e̯ n i s i
+pieniä,V;ACT;PRS;POS;COND;1;PL,p i e̯ n i s i mː e,p i e̯ n i s i mː e
+pieniä,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ p i e̯ n i s i,e mː eˣ s i s i p i e̯ n i n eː t
+pieniä,V;ACT;PRS;NEG;COND;2;PL,e tː e p i e̯ n i s i,e tː e s ɑ i̯ s i
+pieniä,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i p i e̯ n i n eː t,e i̯ ʋ æ t o l i s i
+pieniä,V;PASS;PRS;PRF;POS;COND,o l i s i p i e̯ n i tː yˣ,p i e̯ n i tː æ i̯ s iː n
+pieniä,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o p i e̯ n i n y t,æ l k øː n o l eˣ p i e̯ n i n eː t
+pieniä,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ p i e̯ n i n eː t,n æ h k æː mː eˣ p i e̯ n i n eː t
+pieniä,V;ACT;PRS;POS;IMP;2;PL,p i e̯ n i k æː,k æ y̯ tː æ k æːˣ
+pieniä,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː p i e̯ n i k ø,æ l k æː t u o̯ k o
+pieniä,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o p i e̯ n i tː yˣ,æ l k øː n p i e̯ n i tː æ k ø
+pieniä,V;ACT;PRS;POS;POT;1;SG,p i e̯ n i n e n,s o p i e̯ n i n e n
+pieniä,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ p i e̯ n i n eː t,l i e̯ n e mː eˣ p i e̯ n i n eː t
+pieniä,V;ACT;PRS;NEG;POT;2;PL,e t e p i e̯ n i n eˣ,e tː e t u o̯ n eˣ
+pieniä,V;PASS;PRS;NEG;POT,e i̯ p i e̯ n i tː æ n eˣ,e i̯ l i e̯ n eˣ p i e̯ n i tː yˣ
+pieniä,V;NFIN;3;ACT;IN+ABL,p i e̯ n i m æ s t æ,p i e̯ n i m æ s t æ
+pieniä,V;NFIN;3;ACT;PRIV,p i e̯ n i m æ tː æ,p i e̯ n i m æ tː æ
+pieniä,V;NFIN;4;ACT;PRT,p i e̯ n i m i s t æ,p i e̯ n i m i s t ɑ
+pieniä,V;NFIN;5;PASS,p i e̯ n i m æ i̯ s i lː æː n,p i e̯ n i tː æ m æ i̯ s i lː æː n
+edellyttää,V;ACT;PRS;POS;IND;1;SG,e d e lː y t æ n,e d e lː y tː æ n e n
+edellyttää,V;ACT;PRS;NEG;IND;1;SG,e n,e n
+edellyttää,V;ACT;PRS;POS;IND;2;SG,e d e lː y t æ t,e d e lː y t æ n
+edellyttää,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː e e d e lː y tː æ n eː t,o l i s i mː eˣ e d e lː y tː æ n eː t
+edellyttää,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t e d e lː y tː æ n eː t,o l i s i ʋ ɑ t
+edellyttää,V;PASS;PRS;POS;IND,e d e lː y t e t æː n,e d e lː y t e tː iː n
+edellyttää,V;ACT;PST;NEG;IND;1;SG,e n,e n o lː u t e d e lː y tː æ n eː t
+edellyttää,V;ACT;PST;POS;IND;2;SG,e d e lː y t i t,e d e lː y tː æ n eː t
+edellyttää,V;ACT;PST;NEG;IND;2;SG,e t e d e lː y tː æ n y t,e d e lː y tː æ n eː t
+edellyttää,V;ACT;PST;PRF;POS;IND;2;SG,o l i t,o l i n e d e lː y tː æ n y t
+edellyttää,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t e d e lː y tː æ n y t,e t o lː u t e d e lː y tː æ n y t
+edellyttää,V;ACT;PST;PRF;POS;IND;3;SG,o l i e d e lː y tː æ n y t,o l i ʋ ɑ t e d e lː y tː æ n y t
+edellyttää,V;ACT;PST;POS;IND;1;PL,e d e lː y t i mː eˣ,k æ y̯ t i mː eˣ e d e lː y tː æ n eː t
+edellyttää,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t e d e lː y tː æ n eː t,e tː e o lː eː t e d e lː y tː æ n eː t
+edellyttää,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t e d e lː y tː æ n eː t,e i̯ ʋ æ t e d e lː y tː æ n eː t
+edellyttää,V;PASS;PST;NEG;IND,e i̯ d e lː y t e tː yˣ,e i̯ d e lː y t e tː yˣ
+edellyttää,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i,e n o l eˣ e d e lː y tː æ i̯ s i
+edellyttää,V;ACT;PRS;NEG;COND;2;SG,e t e d e lː y tː æ i̯ s i,e t o l i s i e d e lː y tː æ n eː t
+edellyttää,V;ACT;PRS;NEG;COND;3;SG,e i̯ d e lː y tː æ i̯ s i,e i̯ ʋ ɑ i̯ s i e d e lː y tː æ n eː t
+edellyttää,V;ACT;PRS;POS;COND;1;PL,e d e lː y tː æ i̯ s i mː eˣ,e d e lː y tː æ n e mː e
+edellyttää,V;ACT;PRS;POS;COND;2;PL,e d e lː y tː æ i̯ s i tː eˣ,e d e lː y tː æ i̯ s i tː eˣ
+edellyttää,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i e d e lː y tː æ n eː t,e tː e o l i s i
+edellyttää,V;ACT;PRS;NEG;IMP;2;SG,æ l æ e d e lː y t æˣ,æ l k øː n e d e lː y tː æ k ø
+edellyttää,V;ACT;PRS;POS;IMP;3;SG,e d e lː y tː æ k øː n,o s ɑ t k oː n
+edellyttää,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o e d e lː y tː æ n eː t,e mː eˣ o l eˣ e d e lː y tː æ n eː t
+edellyttää,V;ACT;PRS;POS;IMP;2;PL,e d e lː y tː æ k æːˣ,e d e lː y t æ tː eˣ
+edellyttää,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o e d e lː y tː æ n eː t,æ l k æː o l k o p i n eː t
+edellyttää,V;PASS;PRS;POS;IMP,e d e lː y t e tː æ k øː n,e d e lː y t e tː ɑ k oː n
+edellyttää,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ e d e lː y tː æ n y t,e n l i e̯ n eˣ e d e lː y tː æ n y t
+edellyttää,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ e d e lː y tː æ n y t,e t l i e̯ n eˣ e d e lː y tː æ n y t
+edellyttää,V;ACT;PRS;POS;POT;3;SG,e d e lː y tː æ n eː,e d e lː y tː æ n e n
+edellyttää,V;ACT;PRS;POS;POT;3;PL,e d e lː y tː æ n e ʋ æ t,l u o̯ n e ʋ æ t e d e lː y tː æ n eː t
+edellyttää,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t e d e lː y tː æ n eˣ,e i̯ d e lː y tː æ n eˣ
+edellyttää,V;NFIN;2;ACT;IN+ESS,e d e lː y tː æ e sː æ,e d e lː y tː æ e sː æ
+edellyttää,V;NFIN;2;PASS;IN+ESS,e d e lː y t e tː æ e sː æ,e d e lː y t e tː ɑ e sː ɑ
+edellyttää,V;NFIN;3;ACT;IN+ESS,e d e lː y tː æ m æ sː æ,e d e lː y tː æ m æ sː æ
+vastata,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ ʋ ɑ s t ɑ nː u t,e n o l eˣ ʋ ɑ s t ɑ nː u t
+vastata,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ ʋ ɑ s t ɑ nː u t,e t o l eˣ ʋ ɑ s t ɑ nː u t
+vastata,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ ʋ ɑ s t ɑ nː eː t,o l e mː eˣ ʋ ɑ s t ɑ nː eː t
+vastata,V;ACT;PRS;PRF;NEG;IND;1;PL,e mː e o l eˣ ʋ ɑ s t ɑ nː eː t,e mː eˣ ʋ ɑ s t ɑːˣ
+vastata,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t ʋ ɑ s t ɑːˣ,e i̯ ʋ æ t ʋ ɑ s t ɑ
+vastata,V;ACT;PST;NEG;IND;1;SG,e n,e n
+vastata,V;ACT;PST;PRF;POS;IND;1;SG,o l i n ʋ ɑ s t ɑ nː u t,ʋ ɑ s t ɑ s i n
+vastata,V;ACT;PST;NEG;IND;1;PL,e mː eˣ ʋ ɑ s t ɑ nː eː t,e mː eˣ ʋ ɑ s t ɑ nː eː t
+vastata,V;ACT;PST;POS;IND;2;PL,ʋ ɑ s t ɑ s i tː e,e s i tː eˣ ʋ ɑ s t ɑ tː uˣ
+vastata,V;ACT;PST;POS;IND;3;PL,ʋ ɑ s t ɑ s i ʋ ɑ t,ʋ ɑ s t ɑ s i ʋ ɑ t
+vastata,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t ʋ ɑ s t ɑ nː eː t,o l i ʋ ɑ t
+vastata,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t ʋ ɑ s t ɑ tː uˣ,e i̯ o lː u t ɑ tː ɑ n u t
+vastata,V;ACT;PRS;NEG;COND;1;SG,e n ʋ ɑ s t ɑ i̯ s i,e t ʋ ɑ s t ɑ i̯ s i
+vastata,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i ʋ ɑ s t ɑ nː eː t,e tː e o l i s i ʋ ɑ s t ɑ nː eː t
+vastata,V;ACT;PRS;POS;COND;2;PL,ʋ ɑ s t ɑ i̯ s i tː eˣ,ʋ ɑ s t ɑ i̯ s i tː eˣ
+vastata,V;PASS;PRS;PRF;POS;COND,o l i s i,o l i s i ʋ ɑ s t ɑ tː uˣ
+vastata,V;ACT;PRS;POS;IMP;3;PL,ʋ ɑ s t ɑ t k oː t,p æː tː æ k øː t
+vastata,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t ʋ ɑ s t ɑ t k o,e i̯ ʋ æ t ʋ ɑ s t ɑ
+vastata,V;PASS;PRS;POS;IMP,ʋ ɑ s t ɑ tː ɑ k oː n,ʋ ɑ s t ɑ tː ɑ k oː n
+vastata,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o ʋ ɑ s t ɑ tː uˣ,æ l k øː n ʋ ɑ s t ɑ tː uˣ
+vastata,V;ACT;PRS;POS;POT;1;SG,ʋ ɑ s t ɑ nː e n,ʋ ɑ s t ɑ s i n e n
+vastata,V;ACT;PRS;NEG;POT;1;SG,e n,e n l i e̯ n eˣ ʋ ɑ s t ɑ nː eː t
+vastata,V;ACT;PRS;NEG;POT;2;SG,e t ʋ ɑ s t ɑ nː eˣ,e t l i e̯ n eˣ
+vastata,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ ʋ ɑ s t ɑ nː u t,e t l i e̯ n eˣ ʋ ɑ s t ɑ nː eː t
+vastata,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ ʋ ɑ s t ɑ nː eː t,l i e̯ n e mː eˣ
+vastata,V;PASS;PRS;NEG;POT,e i̯ ʋ ɑ s t ɑ tː ɑ n eˣ,e i̯ l i e̯ n eˣ ʋ ɑ s t ɑ tː uˣ
+vastata,V;NFIN;1;ACT,ʋ ɑ s t ɑ t ɑ k s eː n,ʋ ɑ s t ɑ t ɑ k s eː n
+vastata,V;NFIN;3;ACT;IN+ABL,ʋ ɑ s t ɑː m ɑ s t ɑ,ʋ ɑ s t ɑː m ɑ s t ɑ
+vastata,V;NFIN;3;ACT;AT+ESS,ʋ ɑ s t ɑː m ɑ lː ɑ,ʋ ɑ s t ɑː m ɑ lː ɑ
+vastata,V;NFIN;3;PASS;INS,ʋ ɑ s t ɑ tː ɑ m ɑ n,ʋ ɑ s t ɑ tː ɑ m ɑ n
+vastata,V;NFIN;5;ACT,ʋ ɑ s t ɑː m ɑ i̯ s i lː ɑː n,ʋ ɑ s t ɑː m ɑ i̯ s i lː ɑː n
+tietää,V;ACT;PRS;NEG;IND;2;SG,e t i e̯ d æˣ,e t uː s i t i e̯ d æˣ
+tietää,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ t i e̯ d æˣ,e n t i e̯ d e tː eˣ
+tietää,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː e t i e̯ t æ n eː t o l e mː e t i e̯ nː eː t,t i e̯ s i mː eˣ ɑ l k ɑ n eː t e mː e o l e t i e̯ nː e
+tietää,V;PASS;PRS;PRF;POS;IND,o n,t i e̯ d e t ɑː n
+tietää,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ t i e̯ d e tː yˣ,e i̯ o l eˣ k ɑ s ʋ e tː uˣ
+tietää,V;ACT;PST;PRF;POS;IND;1;SG,o l i n t i e̯ t æ n y t o l i n t i e̯ nː y t,t i e̯ s i n
+tietää,V;ACT;PST;POS;IND;3;SG,t i e̯ s i,t i e̯ s i t s i
+tietää,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t t i e̯ t æ n y t e i̯ o lː u t t i e̯ nː,e i̯ o lː u t t i e̯ t æ n y t
+tietää,V;PASS;PST;NEG;IND,e i̯ t i e̯ d e tː yˣ,e i̯ t i e̯ d e tː uˣ
+tietää,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t t i e̯ d e tː yˣ,e i̯ t i e̯ d e tː yˣ
+tietää,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n t i e̯ t æ n y t o l i s i n t i e̯ nː y t,o l i s i mː eˣ t i e̯ t æ n y t
+tietää,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i t i e̯ t æ n y t e i̯ o l i s i t i e̯ nː,e i̯ o lː u t l i s i t i e̯ t æ n eː t
+tietää,V;ACT;PRS;NEG;COND;2;PL,e tː e t i e̯ t æ i̯ s i,e tː e t i e̯ t æ i̯ s i
+tietää,V;PASS;PRS;POS;COND,t i e̯ d e tː æ i̯ s iː n,t i e̯ d e tː æ i̯ s i
+tietää,V;ACT;PRS;NEG;IMP;2;SG,æ l æ t i e̯ d æˣ,æ l æ ɑ nː ɑ
+tietää,V;ACT;PRS;POS;IMP;3;SG,t i e̯ t æ k øː n,t i e̯ t æ i̯ s i
+tietää,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n t i e̯ t æ k ø,æ l k øː n t i e̯ t æ n y t
+tietää,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː e t i e̯ t æ n eː t o l k ɑː mː e t i e̯,o l k ɑː mː eˣ t i e̯ t æ n eː t
+tietää,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː t i e̯ t æ k ø,æ l k øː t t i e̯ t æ k ø
+tietää,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o t i e̯ t æ n eː t æ l k æː o l k o t,e tː e l i e̯ n eˣ t i e̯ t æ n eː t
+tietää,V;PASS;PRS;POS;IMP,t i e̯ d e tː æ k øː n,k uː l u tː ɑ k oː n
+tietää,V;PASS;PRS;NEG;IMP,æ l k øː n t i e̯ d e tː æ k ø,æ l k øː n t i e̯ d e tː ɑ k o
+tietää,V;ACT;PRS;POS;POT;1;SG,t i e̯ t æ n e n t i e̯ nː e n,t i e̯ t æ n e n
+tietää,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t t i e̯ t æ n y t l i e̯ n e t t i e̯ nː y t,l i e̯ n e t i e̯ t æ n y t
+tietää,V;ACT;PRS;NEG;POT;3;SG,e i̯ t i e̯ t æ n eː i̯ t i e̯ nː eˣ,e i̯ t i e̯ t æ n eː n
+tietää,V;ACT;PRS;NEG;POT;2;PL,e tː e t i e̯ t æ n eː tː eˣ t i e̯ nː eˣ,e tː e t i e̯ t æ n eː mː e t i e̯ nː eˣ
+tietää,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː e t i e̯ t æ n eː t l i e̯ n e t l i e̯ n,l i e̯ n e tː eˣ t i e̯ t æ n eː t
+tietää,V;NFIN;ACT+PASS,t i e̯ t æːˣ,j æ r j e s t æːˣ
+tietää,V;NFIN;1;PASS,t i e̯ t æː k s eː n,t i e̯ s i t ɑ k s eː n
+tietää,V;NFIN;4;PASS;NOM,t i e̯ t æ m i n e n,t i e̯ t æ m i n e n
+tietää,V;NFIN;4;ACT;PRT,t i e̯ t æ m i s t æ,t i e̯ t æ m i s t ɑ
+tietää,V;NFIN;5;ACT,t i e̯ t æ m æ i̯ s i lː æː n,t i e̯ t æ m æ i̯ s i lː æː n
+tulla,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t t u lː u t,o l e t t u lː u t
+tulla,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ t u lː u t,e t o l eˣ t u lː u t
+tulla,V;ACT;PRS;POS;IND;3;SG,t u l eː,l ø y̯ t æːˣ
+tulla,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t t u l eˣ,e i̯ t u l eˣ
+tulla,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t t u lː u t,e n o lː u t t u lː u t
+tulla,V;ACT;PST;PRF;POS;IND;2;SG,o l i t t u lː u t,o l i t t u lː u t
+tulla,V;ACT;PST;POS;IND;3;SG,t u l i,e i̯ t u lː u t
+tulla,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t t u lː u t,e i̯ t u lː u t
+tulla,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ t u lː eː t,o s ɑ s i mː eˣ t u lː eː t
+tulla,V;ACT;PST;POS;IND;2;PL,t u l i tː e,e s i tː eˣ t u l t u
+tulla,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t t u lː eː t,e i̯ ʋ æ t s i
+tulla,V;PASS;PST;POS;IND,t u l t iː n,t o t e tː iː n
+tulla,V;PASS;PST;PRF;POS;IND,o l i t u l t uˣ,o l i
+tulla,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i t u lː u t,e n o l i s i t u lː u t
+tulla,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i t u lː u t,e t o l i s i t u lː u t
+tulla,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t t u lː eː t,o l i s i ʋ ɑ t t u lː eː t
+tulla,V;PASS;PRS;NEG;COND,e i̯ t u l t ɑ i̯ s i,e i̯ d e tː æ i̯ s i
+tulla,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i t u l t uˣ,e i̯ o l i s i t u l t uˣ
+tulla,V;ACT;PRS;NEG;IMP;2;SG,æ l æ t u l eˣ,æ l æ o l eˣ t u lː eː t
+tulla,V;ACT;PRS;POS;IMP;1;PL,t u l k ɑː mː e,t ɑ k ɑː mː eˣ t u lː eː t
+tulla,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ t u l k o,æ l k æː mː eˣ t u lː eː t
+tulla,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t t u l k o,æ l k øː t
+tulla,V;PASS;PRS;POS;IMP,t u l t ɑ k oː n,o l k oː n t u l t u
+tulla,V;PASS;PRS;NEG;IMP,æ l k øː n t u l t ɑ k o,æ l k øː n t u l t u
+tulla,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o t u l t uˣ,æ l k æː o l k o t ɑ tː uˣ
+tulla,V;ACT;PRS;NEG;POT;3;SG,e i̯ t u lː eˣ,e i̯ t u l eˣ
+tulla,V;ACT;PRS;PRF;NEG;POT;3;SG,e i̯ l i e̯ n eˣ t u lː u t,e i̯ l i e̯ n eˣ t u lː u t
+tulla,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ t u lː eˣ,e mː eˣ t u l eˣ
+tulla,V;ACT;PRS;POS;POT;2;PL,t u lː e tː e,ʋ o i̯ n e tː eˣ t u lː eː t
+tulla,V;ACT;PRS;NEG;POT;2;PL,e tː e t u lː eˣ,e tː e t u l eˣ
+tulla,V;NFIN;ACT+PASS,t u lː ɑ,o s ɑ lː i s t u ɑˣ
+tulla,V;NFIN;1;ACT,t u lː ɑ k s eː n,ɑ l o i̯ tː ɑː k s eː n
+tulla,V;NFIN;2;PASS;IN+ESS,t u l t ɑ e sː ɑ,t u l e m ɑ tː ɑ e sː ɑ
+tulla,V;NFIN;4;ACT;NOM,t u l e m i n e n,t u l e m i n e n
+tulla,V;NFIN;4;PASS;NOM,t u l e m i n e n,t u l e m i n e n
+näyttää,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ n æ y̯ t æ,e i̯ ʋ æ t n æ y̯ t æ
+näyttää,V;ACT;PRS;POS;IND;2;PL,n æ y̯ t æ tː eˣ,n æ y̯ tː æ k æːˣ
+näyttää,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e n æ y̯ tː æ n eː t,o l e tː e
+näyttää,V;PASS;PRS;PRF;POS;IND,o n n æ y̯ t e tː yˣ,o n n æ y̯ t e tː ɑ n eː t
+näyttää,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ n æ y̯ t e tː yˣ,e i̯ n æ y̯ t e t æˣ
+näyttää,V;ACT;PST;NEG;IND;1;PL,e mː eˣ n æ y̯ tː æ n eː t,e n n æ y̯ tː æ n eː t
+näyttää,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ n æ y̯ tː æ n eː t,n æ y̯ t i mː eˣ
+näyttää,V;ACT;PST;POS;IND;2;PL,n æ y̯ t i tː eˣ,t o i̯ tː e
+näyttää,V;ACT;PST;NEG;IND;2;PL,e tː e n æ y̯ tː æ n eː t,e tː e n æ y̯ tː æ n y t
+näyttää,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ n æ y̯ tː æ n eː t,o l i ʋ ɑ t n æ y̯ tː æ n eː t
+näyttää,V;ACT;PST;POS;IND;3;PL,n æ y̯ tː i ʋ æ t,t o t eˣ s i ʋ æ t
+näyttää,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t n æ y̯ t e tː yˣ,e i̯ n æ y̯ t e tː yˣ
+näyttää,V;ACT;PRS;NEG;COND;1;SG,e n n æ y̯ tː æ i̯ s i,e n n æ y̯ tː æ i̯ s i
+näyttää,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ n æ y̯ tː æ n eː t,o l i s i tː eˣ
+näyttää,V;ACT;PRS;POS;COND;3;PL,n æ y̯ tː æ i̯ s i ʋ æ t,n æ y̯ tː æ i̯ s i ʋ æ t
+näyttää,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t n æ y̯ tː æ i̯ s i,e i̯ n æ y̯ tː æ i̯ s i tː eˣ
+näyttää,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i n æ y̯ tː æ n eː t,e i̯ ʋ æ t o l i s i n u t
+näyttää,V;PASS;PRS;PRF;POS;COND,o l i s i n æ y̯ t e tː yˣ,n æ y̯ t e tː æ i̯ s iː n
+näyttää,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ n æ y̯ tː æ k ø,e mː eˣ n æ y̯ t æ
+näyttää,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t n æ y̯ tː æ n eː t,o l k oː t n æ y̯ tː æ n eː t
+näyttää,V;PASS;PRS;POS;IMP,n æ y̯ t e tː æ k øː n,o l k oː n n æ y̯ t e tː yˣ
+näyttää,V;ACT;PRS;POS;POT;1;SG,n æ y̯ tː æ n e n,n æ y̯ tː æ n e n
+näyttää,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ n æ y̯ tː æ n eː t,l i e̯ n e tː e
+näyttää,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t n æ y̯ tː æ n eː t,o ʋ ɑ t n æ y̯ tː æ n eˣ
+näyttää,V;PASS;PRS;POS;POT,n æ y̯ t e tː æ n eː n,n æ y̯ t e tː æ n eˣ
+näyttää,V;NFIN;2;ACT;INS,n æ y̯ tː æ e n,n æ y̯ tː æ e n
+toimia,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ t o i̯ m i n u t,e i̯ o l eˣ t o i̯ m i n eː t
+toimia,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ t o i̯ m i tː uˣ,e i̯ o l eˣ t o i̯ m i tː uˣ
+toimia,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t t o i̯ m i n u t,e n t o i̯ m i n u t
+toimia,V;ACT;PST;NEG;IND;3;SG,e i̯ t o i̯ m i n u t,e i̯ t o i̯ m i n u t
+toimia,V;ACT;PST;NEG;IND;2;PL,e tː e t o i̯ m i n eː t,e i̯ t o i̯ m i tː eˣ
+toimia,V;ACT;PRS;NEG;COND;1;SG,e n t o i̯ m i s i,e n t o i̯ m i s i
+toimia,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i t o i̯ m i n u t,e n o l i s i t o i̯ m i n u t
+toimia,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i t o i̯ m i n u t,o l i t o i̯ m i s i
+toimia,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i t o i̯ m i n u t,e i̯ o l i s i t o i̯ m i n u t
+toimia,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ t o i̯ m i n eː t,o l i s i mː eˣ t o i̯ m i n u t
+toimia,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i t o i̯ m i n eː t,e tː e o l i s i n u t
+toimia,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t t o i̯ m i s i,e i̯ ʋ æ t t o i̯ m i s i
+toimia,V;ACT;PRS;POS;IMP;2;SG,t o i̯ m i,t o i̯ m i k ɑː
+toimia,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o t o i̯ m i n u t,æ l k øː n o l eˣ t o i̯ m i n eː t
+toimia,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ t o i̯ m i n eː t,o l k ɑː mː eˣ
+toimia,V;ACT;PRS;POS;IMP;3;PL,t o i̯ m i k oː t,t o i̯ m i k ɑː
+toimia,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t o i̯ m i k o,e i̯ ʋ æ t t o i̯ m i n eˣ
+toimia,V;PASS;PRS;NEG;IMP,æ l k øː n t o i̯ m i tː ɑ k o,æ l k øː n t o i̯ m i tː uˣ
+toimia,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː t o i̯ m i n u t,l i e̯ n eː t o i̯ m i n u t
+toimia,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ t o i̯ m i n eˣ,e mː eˣ l i e̯ n eˣ t o i̯ m i n eː t
+toimia,V;NFIN;3;ACT;AT+ESS,t o i̯ m i m ɑ lː ɑ,t o i̯ m i m ɑ lː ɑ
+toimia,V;NFIN;3;ACT;INS,t o i̯ m i m ɑ n,t o i̯ m i m ɑ n
+toimia,V;NFIN;5;PASS,t o i̯ m i m ɑ i̯ s i lː ɑː n,t o i̯ m i tː ɑ m ɑ i̯ s i lː ɑː n
+tukea,V;ACT;PRS;POS;IND;2;SG,t u e t,e t t u eˣ
+tukea,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ t u k e n u t,e t t u eˣ
+tukea,V;ACT;PRS;POS;IND;3;SG,t u k eː,t u k eˣ k oː n
+tukea,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ t u k e n u t,e i̯ o l i s i t u k e n u t
+tukea,V;ACT;PRS;NEG;IND;2;PL,e tː e t u eˣ,e tː e t u eˣ
+tukea,V;ACT;PST;POS;IND;1;SG,t u i̯ n,t u k e n t ɑ n eː t
+tukea,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t t u k e n u t,e n o lː u t t u k e n u t
+tukea,V;ACT;PST;POS;IND;3;SG,t u k i,e l i t u k e n u t
+tukea,V;ACT;PST;POS;IND;1;PL,t u i̯ mː eˣ,t u i̯ tː e
+tukea,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ t u k e n eː t,o l i n t u k e n eː t
+tukea,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ t u k e n eː t,o l i tː eˣ t u k e n eː t
+tukea,V;ACT;PST;POS;IND;3;PL,t u k i ʋ ɑ t,o m ɑ s i ʋ ɑ t t u k e n eː t
+tukea,V;PASS;PST;PRF;POS;IND,o l i t u e tː uˣ,t u e tː iː n
+tukea,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i t u k e n u t,e n o l i s i t u k e n u t
+tukea,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ t u k i s i,e i̯ s i s i mː e
+tukea,V;ACT;PRS;POS;COND;2;PL,t u k i s i tː eˣ,k e r t ɑ i̯ s i tː eˣ
+tukea,V;ACT;PRS;NEG;COND;2;PL,e tː e t u k i s i,e tː e s i s i t u k e n eː t
+tukea,V;ACT;PRS;POS;COND;3;PL,t u k i s i ʋ ɑ t,t u k e n e ʋ ɑ t
+tukea,V;PASS;PRS;PRF;POS;COND,o l i s i t u e tː uˣ,t u e tː ɑ i̯ s iː n
+tukea,V;ACT;PRS;NEG;IMP;2;SG,æ l æ t u eˣ,æ l æ t ɑ k s ɑ
+tukea,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ t u k e k o,e mː eˣ t u k e n eˣ
+tukea,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o t u k e n eː t,e mː e o l eˣ t u k e n eː t
+tukea,V;ACT;PRS;POS;IMP;2;PL,t u k eˣ k ɑː,t u e tː e
+tukea,V;ACT;PRS;POS;POT;1;SG,t u k e n e n,t u k e n e n
+tukea,V;ACT;PRS;NEG;POT;2;SG,e t u k e n eˣ,e t t u k e n t ɑ n eˣ
+tukea,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ t u k e n eː t,l i e̯ n e tː eˣ t u k e n eː t
+tukea,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ t u k e n eː t,e i̯ ʋ æ t t u k e n eˣ
+tukea,V;NFIN;1;PASS,t u k e ɑ k s eː n,t u k e m ɑ k s eː n
+tukea,V;NFIN;2;ACT;INS,t u k i e n,s iː tː æ e n
+tukea,V;NFIN;3;ACT;IN+ESS,t u k e m ɑ sː ɑ,t u k e m æ sː æ
+tukea,V;NFIN;3;ACT;INS,t u k e m ɑ n,t ɑ k s ɑ m ɑ n
+tukea,V;NFIN;5;ACT,t u k e m ɑ i̯ s i lː ɑː n,t u k e m æ i̯ s i lː æː n
+saada,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n s ɑː n u t,o l e n e n s ɑː n u t
+saada,V;ACT;PRS;POS;IND;2;SG,s ɑː t,s ɑː n
+saada,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ s ɑː n u t,e t o l eˣ s ɑː n u t
+saada,V;ACT;PRS;POS;IND;3;SG,s ɑː,e i̯ s ɑː
+saada,V;ACT;PRS;NEG;IND;2;PL,e tː e s ɑː,e i̯ s ɑ i̯ s i tː eˣ
+saada,V;ACT;PRS;POS;IND;3;PL,s ɑː ʋ ɑ t,s ɑ i̯ s i ʋ æ t
+saada,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ s ɑː t u,e i̯ o l eˣ s ɑː t u
+saada,V;ACT;PST;POS;IND;1;SG,s ɑ i̯ n,s ɑː n
+saada,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t s ɑː n u t,e n s ɑː n u t
+saada,V;ACT;PST;NEG;IND;2;SG,e t s ɑː n u t,e t s ɑː n u t
+saada,V;ACT;PST;POS;IND;1;PL,s ɑ i̯ mː eˣ,e mː eˣ s ɑː n eː t
+saada,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t s ɑː n eː t,e i̯ ʋ æ t ɑ n u t
+saada,V;ACT;PRS;POS;COND;1;SG,s ɑ i̯ s i n,s ɑ i̯ s i n
+saada,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i s ɑː n u t,e n o l i s i
+saada,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t s ɑː n u t,o l i s i s ɑː n eː t
+saada,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i s ɑː n u t,e t o l i s i s ɑː n u t
+saada,V;ACT;PRS;POS;COND;1;PL,s ɑ i̯ s i mː e,s ɑ i̯ s i mː eˣ
+saada,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ s ɑ i̯ s i,e n s ɑ i̯ s i ʋ ɑ t
+saada,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i s ɑː n eː t,e mː eˣ l i e̯ n eˣ s ɑː n eː t
+saada,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ s ɑː n eː t,o l i s i tː eˣ s ɑː n eː t
+saada,V;PASS;PRS;NEG;COND,e i̯ s ɑː t ɑ i̯ s i,e i̯ s ɑ i̯ s i s ɑː t u
+saada,V;PASS;PRS;PRF;POS;COND,o l i s i s ɑː t u,o n s ɑ i̯ s i t e tː yˣ
+saada,V;ACT;PRS;POS;IMP;3;SG,s ɑː k oː n,o l k oː n s ɑː n eː t
+saada,V;ACT;PRS;POS;IMP;2;PL,s ɑː k ɑː,s ɑ i̯ s i tː eˣ
+saada,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː s ɑː k o,e tː e s ɑː n eˣ
+saada,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o s ɑː n eː t,e i̯ ʋ æ t l i e̯ n eˣ s ɑː n eː t
+saada,V;ACT;PRS;POS;POT;1;SG,s ɑː n e n,l i e̯ n e n s ɑː n u t
+saada,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː s ɑː n u t,l i e̯ n eː s ɑː n u t
+saada,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t s ɑː n eˣ,e i̯ s ɑː n eˣ
+saada,V;NFIN;1;ACT,s ɑː d ɑ k s eː n,s ɑː t ɑ k s eː n
+saada,V;NFIN;3;ACT;PRIV,s ɑː m ɑ tː ɑ,o l e m ɑ tː ɑ
+saada,V;NFIN;4;PASS;NOM,s ɑː m i n e n,s ɑː t ɑ m i n e n
+saada,V;NFIN;5;PASS,s ɑː m ɑ i̯ s i lː ɑː n,s ɑː t ɑ m ɑ i̯ s i lː ɑː n
+valita,V;ACT;PRS;POS;IND;2;SG,ʋ ɑ l i t s e t,s iː t æ t
+valita,V;ACT;PRS;POS;IND;3;SG,ʋ ɑ l i t s eː,ʋ ɑ l i t s eˣ
+valita,V;ACT;PRS;POS;IND;1;PL,ʋ ɑ l i t s e mː e,l æ h d e mː eˣ ʋ ɑ l i nː eː t
+valita,V;ACT;PST;PRF;POS;IND;1;SG,o l i n ʋ ɑ l i nː u t,ʋ ɑ l i t s i n
+valita,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t ʋ ɑ l i nː u t,e n ʋ ɑ l i nː u t
+valita,V;ACT;PST;PRF;POS;IND;3;SG,o l i ʋ ɑ l i nː u t,o l i ʋ ɑ l i t
+valita,V;ACT;PST;POS;IND;1;PL,ʋ ɑ l i t s i mː eˣ,l ø y̯ s i mː eˣ ʋ ɑ l i nː eː t
+valita,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t ʋ ɑ l i nː eː t,e mː eˣ ʋ ɑ l i nː eː t
+valita,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t ʋ ɑ l i nː eː t,e i̯ ʋ æ t ʋ ɑ l i nː eː t
+valita,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t ʋ ɑ l i nː eː t,o l i ʋ ɑ t
+valita,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t ʋ ɑ l i nː eː t,e i̯ ʋ æ t s i ʋ ɑ l i nː eː t
+valita,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t ʋ ɑ l i nː u t,o l i s i ʋ ɑ l i t
+valita,V;ACT;PRS;NEG;COND;3;SG,e i̯ ʋ ɑ l i t s i s i,e i̯ ʋ ɑ l i t s i s i
+valita,V;ACT;PRS;POS;COND;2;PL,ʋ ɑ l i t s i s i tː eˣ,ʋ ɑ l i t k ɑːˣ
+valita,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i ʋ ɑ l i nː eː t,e i̯ o l i s i ʋ ɑ l i nː eː t
+valita,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n ʋ ɑ l i nː u t,o l k oː n ʋ ɑ l i nː u t
+valita,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ ʋ ɑ l i nː eː t,ʋ ɑ l i t k ɑː mː e
+valita,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o ʋ ɑ l i nː eː t,æ l k øː t s e ʋ ɑ l i nː eː t
+valita,V;PASS;PRS;NEG;IMP,æ l k øː n ʋ ɑ l i tː ɑ k o,ʋ ɑ l i tː ɑ k oː n
+valita,V;ACT;PRS;NEG;POT;2;SG,e t ʋ ɑ l i nː eˣ,e t ʋ ɑ l i nː eˣ
+valita,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t ʋ ɑ l i nː u t,l i e̯ n e t ʋ ɑ l i nː u t
+valita,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː ʋ ɑ l i nː u t,ʋ ɑ l i nː eː
+valita,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ ʋ ɑ l i nː eː t,l i e̯ n e mː eˣ
+valita,V;ACT;PRS;POS;POT;3;PL,ʋ ɑ l i nː eˣ ʋ ɑ t,ʋ ɑ l i t s e ʋ ɑ t
+valita,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ ʋ ɑ l i nː eː t,e i̯ l i e̯ n eˣ ʋ ɑ l i nː eː t
+valita,V;PASS;PRS;POS;POT,ʋ ɑ l i tː ɑ n eː n,ʋ ɑ l i t e tː ɑ n eˣ
+valita,V;PASS;PRS;NEG;POT,e i̯ ʋ ɑ l i tː ɑ n eˣ,e i̯ t o t e tː æ n eˣ
+valita,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ ʋ ɑ l i tː uˣ,e i̯ o l eˣ ʋ ɑ l i tː uˣ
+valita,V;NFIN;ACT+PASS,ʋ ɑ l i t ɑˣ,s iː tː y æˣ
+valita,V;NFIN;2;ACT;IN+ESS,ʋ ɑ l i t e sː ɑ,ʋ ɑ l i t e sː ɑ
+valita,V;NFIN;3;ACT;IN+ABL,ʋ ɑ l i t s e m ɑ s t ɑ,ʋ ɑ l i t s e m ɑ s t ɑ
+valita,V;NFIN;3;PASS;INS,ʋ ɑ l i tː ɑ m ɑ n,ʋ ɑ l i tː ɑ m ɑ n
+pitää,V;ACT;PRS;NEG;IND;1;SG,e n p i d æˣ,e n p i d e t
+pitää,V;ACT;PRS;NEG;IND;2;SG,e t p i d æˣ,e t p i t æ i̯ s iː n
+pitää,V;ACT;PRS;NEG;IND;3;SG,e i̯ p i d æˣ,e i̯ k e r t ɑːˣ
+pitää,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t p i d æˣ,e i̯ ʋ æ t o l eˣ p i t æ n eː t
+pitää,V;PASS;PRS;POS;IND,p i d e t æː n,p i d e tː ɑ n eː n
+pitää,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ p i d e tː yˣ,e i̯ o l eˣ p i d e tː yˣ
+pitää,V;ACT;PST;PRF;POS;IND;1;SG,o l i n p i t æ n y t,p i d i n
+pitää,V;ACT;PST;POS;IND;1;PL,p i d i mː e,l ø y̯ s i mː eˣ p i t æ n eː t
+pitää,V;ACT;PST;NEG;IND;1;PL,e mː eˣ p i t æ n eː t,e mː eˣ p i t æ n y t
+pitää,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ p i t æ n eː t,o l i tː eˣ p i t æ n eː t
+pitää,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n p i t æ n y t,o l i s i n
+pitää,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i p i t æ n y t,e t o l i s i p i t æ n y t
+pitää,V;PASS;PRS;NEG;COND,e i̯ p i d e tː æ i̯ s i,e i̯ t ɑ i̯ s i t æ k ø
+pitää,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n p i t æ n y t,o l i p i d æˣ
+pitää,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ p i t æ k ø,æ l k æː mː eˣ p i t æ n eː t
+pitää,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o p i t æ n eː t,e mː eˣ o l eˣ p i t æ n eː t
+pitää,V;PASS;PRS;POS;IMP,p i d e tː æ k øː n,p i d e tː ɑ k oː n
+pitää,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n p i t æ n y t,p i t æ n e n
+pitää,V;ACT;PRS;PRF;NEG;POT;1;PL,e mː e l i e̯ n eˣ p i t æ n eː t,e mː e l i e̯ n eˣ p i t æ n eː t
+pitää,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t p i t æ n eˣ,e tː e p i t æ n eˣ
+pitää,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ p i t æ n eː t,e i̯ ʋ æ t p i t æ n eˣ
+pitää,V;NFIN;ACT+PASS,p i t æːˣ,s ɑ n o ɑˣ
+pitää,V;NFIN;3;ACT;IN+ESS,p i t æ m æ sː æ,p i t æ m æ sː æ
+pitää,V;NFIN;3;ACT;IN+ALL,p i t æ m æː n,p i t æ m æː n
+pitää,V;NFIN;3;ACT;INS,p i t æ m æ n,p i t æ m æ n
+tapahtua,V;ACT;PRS;POS;IND;1;SG,t ɑ p ɑ h d u n,t ɑ p ɑ h d uˣ
+tapahtua,V;ACT;PRS;PRF;NEG;IND;1;PL,e mː e o l eˣ t ɑ p ɑ h t u n eː t,e mː e o l eˣ t ɑ p ɑ h t u n eː t
+tapahtua,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t t ɑ p ɑ h d uˣ,e i̯ ʋ æ t t ɑ p ɑ h t u n u t
+tapahtua,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ t ɑ p ɑ h d u tː uˣ,e i̯ o l eˣ t ɑ p ɑ h d u tː uˣ
+tapahtua,V;ACT;PST;NEG;IND;2;SG,e t ɑ p ɑ h t u n u t,e i̯ t ɑ p ɑ h t u n u t
+tapahtua,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t t ɑ p ɑ h t u n u t,e i̯ o lː u t t ɑ p ɑ h t u n u t
+tapahtua,V;ACT;PST;POS;IND;2;PL,t ɑ p ɑ h d u i̯ tː e,t ɑ p ɑ h t u i̯ mː eˣ
+tapahtua,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ t ɑ p ɑ h t u n eː t,o l i tː eˣ
+tapahtua,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n t ɑ p ɑ h t u n u t,o l i s i n
+tapahtua,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i t ɑ p ɑ h t u n u t,e t l i e̯ n eˣ t ɑ p ɑ h t u n eː t
+tapahtua,V;ACT;PRS;POS;COND;3;SG,t ɑ p ɑ h t u i̯ s i,t ɑ p ɑ h t u i̯ s i
+tapahtua,V;ACT;PRS;NEG;COND;2;PL,e tː e t ɑ p ɑ h t u i̯ s i,e tː e o tː ɑ i̯ s i
+tapahtua,V;ACT;PRS;POS;IMP;1;PL,t ɑ p ɑ h t u k ɑː mː e,o l k ɑː mː e
+tapahtua,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ t ɑ p ɑ h t u k o,e mː eˣ t ɑ p ɑ h d uˣ
+tapahtua,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ t ɑ p ɑ h t u n eː t,o l k ɑː mː eˣ t ɑ p ɑ h t u n eː t
+tapahtua,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː t ɑ p ɑ h t u k o,e tː e t ɑ p ɑ h d uˣ
+tapahtua,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o t ɑ p ɑ h t u n eː t,e tː e o l eˣ t ɑ p ɑ h t u n eː t
+tapahtua,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t ɑ p ɑ h t u n eː t,o l k oː t s i
+tapahtua,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ t ɑ p ɑ h t u n u t,e n o l eˣ t ɑ p ɑ h t u n eˣ
+tapahtua,V;ACT;PRS;NEG;POT;2;SG,e t ɑ p ɑ h t u n eˣ,e t l i e̯ n eˣ t ɑ p ɑ h t u n eː t
+tapahtua,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ t ɑ p ɑ h t u n eˣ,e mː eˣ t ɑ p ɑ h t u n eˣ
+tapahtua,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ t ɑ p ɑ h t u n eː t,e i̯ l i e̯ n eˣ ʋ ɑ t
+tapahtua,V;PASS;PRS;NEG;POT,e i̯ t ɑ p ɑ h d u tː ɑ n eˣ,t ɑ p ɑ h d u tː ɑ n eː n
+tapahtua,V;NFIN;4;ACT;NOM,t ɑ p ɑ h t u m i n e n,t ɑ p ɑ h t u m i n e n
+tapahtua,V;NFIN;5;ACT,t ɑ p ɑ h t u m ɑ i̯ s i lː ɑː n,t ɑ p ɑ h t u m ɑ i̯ s i lː ɑː n
+juuria,V;ACT;PRS;NEG;IND;1;SG,e n j uː r i,e n j uː r i
+juuria,V;ACT;PRS;PRF;POS;IND;3;SG,o n,o ʋ ɑ t j uː r i n u t
+juuria,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t j uː r i,e mː eˣ j uː r i
+juuria,V;ACT;PST;POS;IND;1;SG,j uː r i n,t o i̯ m i n
+juuria,V;ACT;PST;POS;IND;2;SG,j uː r i t,j uː r i t
+juuria,V;ACT;PST;POS;IND;1;PL,j uː r i mː e,k æ ʋ i mː e
+juuria,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ j uː r i n eː t,o l i j uː r i tː e
+juuria,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t j uː r i n eː t,e mː eˣ j uː r i n eː t
+juuria,V;PASS;PST;NEG;IND,e i̯ j uː r i tː uˣ,e i̯ j uː r i tː ɑ k o
+juuria,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t j uː r i n u t,o l i s i t j uː r i n u t
+juuria,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i j uː r i n u t,l i e̯ n eː j uː r i n eː t
+juuria,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ j uː r i s i,e n j uː r i s i ʋ ɑ t
+juuria,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ j uː r i n eː t,o l i s i mː e
+juuria,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t j uː r i s i,e i̯ j uː r i s i ʋ æ t
+juuria,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ j uː r i n u t,e t o l eˣ j uː r i n u t
+juuria,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n j uː r i n u t,o l k oː n j uː r i n u t
+juuria,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ j uː r i k o,æ l k æː mː eˣ j uː r i n eː t
+juuria,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o j uː r i n eː t,e tː e o l i s i j uː r i n eː t
+juuria,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t j uː r i n eː t,j uː r i k oː t
+juuria,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o j uː r i tː uˣ,æ l k øː n j uː r i tː uˣ
+juuria,V;ACT;PRS;NEG;POT;1;SG,e n j uː r i n eˣ,e n j uː r i n eˣ
+juuria,V;ACT;PRS;NEG;POT;2;SG,e t j uː r i n eˣ,j uː r i n e t
+juuria,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ j uː r i n u t,e t l i e̯ n eˣ j uː r i n u t
+juuria,V;ACT;PRS;POS;POT;3;SG,j uː r i n eː,j uː r i
+juuria,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t j uː r i n eˣ,e tː e j uː r i n eː
+juuria,V;NFIN;1;ACT,j uː r i ɑ k s eː n,e l æ t ɑ k s eː n
+juuria,V;NFIN;2;PASS;IN+ESS,j uː r i tː ɑ e sː ɑ,j uː r i tː ɑ e sː ɑ
+juuria,V;NFIN;4;ACT;NOM,j uː r i m i n e n,j uː r i m i n e n
+juuria,V;NFIN;5;PASS,j uː r i m ɑ i̯ s i lː ɑː n,j uː r i tː æ m æ i̯ s i lː æː n
+lähettää,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t l æ h e tː æ n y t,o l e t l æ h e tː æ n y t
+lähettää,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ l æ h e tː æ n y t,e t o lː u t l æ h e tː æ k ø
+lähettää,V;ACT;PRS;NEG;IND;3;SG,e i̯ l æ h e t æˣ,e i̯ l æ h e t æˣ
+lähettää,V;ACT;PRS;POS;IND;1;PL,l æ h e t æ mː eˣ,o l e mː eˣ l æ h e tː æ n eː t
+lähettää,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e l æ h e tː æ n eː t,o l e t i tː eˣ l æ h e tː æ n y t
+lähettää,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ l æ h e tː æ n eː t,e i̯ ʋ æ t o l eˣ l æ h e tː æ n eː t
+lähettää,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t l æ h e tː æ n y t,e n o lː u t l æ h e tː æ n y t
+lähettää,V;ACT;PST;POS;IND;3;SG,l æ h e tː i,o l i l æ h e tː æ n y t
+lähettää,V;ACT;PST;NEG;IND;1;PL,e mː eˣ l æ h e tː æ n eː t,e mː eˣ l æ h e t æˣ
+lähettää,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t l æ h e tː æ n eː t,e tː e l æ h e tː æ n eː t
+lähettää,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i l æ h e tː æ n y t,e n o l i s i l æ h e tː æ n y t
+lähettää,V;PASS;PRS;POS;COND,l æ h e t e tː æ i̯ s iː n,j uː r i tː ɑ i̯ s iː n
+lähettää,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i l æ h e t e tː yˣ,e i̯ o l i s i t e tː ɑ n u t
+lähettää,V;ACT;PRS;NEG;IMP;2;SG,æ l æ l æ h e t æˣ,æ l æ l æ h e t æˣ
+lähettää,V;ACT;PRS;POS;IMP;3;SG,l æ h e tː æ k øː n,uː s i k oː n
+lähettää,V;ACT;PRS;POS;IMP;1;PL,l æ h e tː æ k æː mː eˣ,l æ h e tː æ n e mː e
+lähettää,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ l æ h e tː æ n eː t,o l i s i mː eˣ l æ h e tː æ n eː t
+lähettää,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o l æ h e tː æ n eː t,e mː eˣ o l eˣ l æ h e tː æ n eː t
+lähettää,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː l æ h e tː æ k ø,e tː e l æ h e t æˣ
+lähettää,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː l æ h e tː æ n eː t,o l i tː eˣ l æ h e tː æ n eˣ
+lähettää,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t l æ h e tː æ n eː t,o l k oː n l æ h e tː æ k ø
+lähettää,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t l æ h e tː æ n y t,l i e̯ n e tː eˣ l æ h e tː æ n y t
+lähettää,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ l æ h e tː æ n eˣ,æ l k æː mː eˣ l æ h e tː æ k ø
+lähettää,V;PASS;PRS;POS;POT,l æ h e t e tː æ n eː n,l æ h e t e tː æ n eˣ
+lähettää,V;NFIN;2;PASS;IN+ESS,l æ h e t e tː æ e sː æ,l æ h e t e tː ɑ e sː ɑ
+lähettää,V;NFIN;2;ACT;INS,l æ h e tː æ e n,p æː s t e n l æ h e tː æ n y t
+lähettää,V;NFIN;3;PASS;INS,l æ h e t e tː æ m æ n,t ɑː tː ɑ m ɑ n
+saattaa,V;ACT;PRS;POS;IND;1;SG,s ɑː t ɑ n,o l e n s ɑː tː ɑ n u t
+saattaa,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ s ɑː tː ɑ n u t,e n o l eˣ s ɑː tː ɑ n u t
+saattaa,V;ACT;PRS;NEG;IND;2;SG,e t s ɑː t ɑˣ,e t s ɑː tː ɑ n eː n
+saattaa,V;ACT;PST;POS;IND;1;SG,s ɑː t o i̯ n,o l i n s ɑː tː ɑ n u t
+saattaa,V;ACT;PST;NEG;IND;1;SG,e n,e n
+saattaa,V;ACT;PST;POS;IND;2;SG,s ɑː t o i̯ t,o s ɑ s i t s ɑː tː ɑ n eː t
+saattaa,V;ACT;PST;NEG;IND;2;SG,e t s ɑː tː ɑ n u t,e t o l i s ɑː tː ɑ n eː t
+saattaa,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t s ɑː tː ɑ n u t,e t o lː u t s ɑː tː ɑ n u t
+saattaa,V;ACT;PST;NEG;IND;3;SG,e i̯ s ɑː tː ɑ n u t,e i̯ ʋ æ t s ɑː tː ɑ n u t
+saattaa,V;PASS;PST;POS;IND,s ɑː t e tː iː n,s ɑː t e tː ɑ n eː t
+saattaa,V;PASS;PST;PRF;POS;IND,o l i s ɑː t e tː uˣ,s ɑː t e tː iː n
+saattaa,V;ACT;PRS;NEG;COND;1;SG,e n s ɑː tː ɑ i̯ s i,e n t ɑ i̯ s i s ɑː tː ɑ n u t
+saattaa,V;PASS;PRS;PRF;POS;COND,o l i s i s ɑː t e tː uˣ,s ɑː t e tː ɑ i̯ s iː n
+saattaa,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n s ɑː tː ɑ k o,æ l k øː t s ɑː tː ɑ n u t
+saattaa,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ s ɑː tː ɑ k o,æ l k æː mː eˣ s ɑː tː ɑ n u t
+saattaa,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ s ɑː tː ɑ n eː t,o l k ɑː mː eˣ
+saattaa,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː s ɑː tː ɑ n eː t,o l k ɑː s ɑː tː ɑ k o
+saattaa,V;ACT;PRS;POS;IMP;3;PL,s ɑː tː ɑ k oː t,s ɑː tː ɑ i̯ s i ʋ ɑ t
+saattaa,V;PASS;PRS;POS;IMP,s ɑː t e tː ɑ k oː n,s ɑː t e tː ɑ k oː n
+saattaa,V;PASS;PRS;NEG;IMP,æ l k øː n s ɑː t e tː ɑ k o,æ l k øː t s ɑː t e tː uˣ
+saattaa,V;ACT;PRS;POS;POT;1;SG,s ɑː tː ɑ n e n,s ɑː tː ɑ n eː
+saattaa,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ s ɑː tː ɑ n u t,e t l i e̯ n eˣ s ɑː tː ɑ n u t
+saattaa,V;ACT;PRS;NEG;POT;3;SG,e i̯ s ɑː tː ɑ n eˣ,e i̯ o lː u t s ɑː tː ɑ n eˣ
+saattaa,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː s ɑː tː ɑ n u t,o l i s ɑː tː ɑ n eˣ
+saattaa,V;ACT;PRS;PRF;NEG;POT;3;SG,e i̯ l i e̯ n eˣ s ɑː tː ɑ n u t,e i̯ o lː u t s ɑː tː ɑ n eˣ
+saattaa,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː s ɑː t e tː uˣ,s ɑː t e tː ɑ n eˣ
+saattaa,V;NFIN;1;PASS,s ɑː tː ɑː k s eː n,k ɑ nː ɑ tː ɑː k s eː n
+saattaa,V;NFIN;2;ACT;INS,s ɑː tː ɑ e n,s iː tː æ e n
+saattaa,V;NFIN;3;ACT;IN+ABL,s ɑː tː ɑ m ɑ s t ɑ,s ɑː tː ɑ m ɑ s t ɑ
+saattaa,V;NFIN;5;ACT,s ɑː tː ɑ m ɑ i̯ s i lː ɑː n,s ɑː tː ɑ m ɑ i̯ s i lː ɑː n
+uusia,V;ACT;PRS;NEG;IND;1;SG,e n uː s i,e t uː s i n
+uusia,V;ACT;PRS;POS;IND;2;SG,uː s i t,uː s i t
+uusia,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ uː s i,e n uː s i ʋ ɑ t
+uusia,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e uː s i n eː t,o n uː s i tː eˣ
+uusia,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l eˣ uː s i n eː t,e t o l eˣ uː s i mː eˣ
+uusia,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ uː s i n eː t,e i̯ ʋ æ t o l i s i uː s i n eː t
+uusia,V;PASS;PRS;POS;IND,uː s i t ɑː n,uː s i ʋ ɑ t e t æˣ
+uusia,V;PASS;PRS;PRF;POS;IND,o n,l i e̯ n eː uː s i tː uˣ
+uusia,V;ACT;PST;PRF;POS;IND;1;SG,o l i n uː s i n u t,o l i n
+uusia,V;ACT;PST;NEG;IND;1;PL,e mː eˣ uː s i n eː t,e mː eˣ uː s i n eː t
+uusia,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ uː s i n eː t,o l i t uː s i ʋ ɑ t
+uusia,V;PASS;PST;POS;IND,uː s i tː iː n,uː s i t e tː iː n
+uusia,V;PASS;PST;PRF;POS;IND,o l i uː s i tː uˣ,h y ʋ æ t uː s i tː uˣ
+uusia,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n uː s i n u t,o l i s i n
+uusia,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t uː s i n u t,uː s i s i t s i t
+uusia,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i uː s i n u t,e t o l i s i uː s i n u t
+uusia,V;ACT;PRS;POS;COND;2;PL,uː s i s i tː e,uː s i s i tː eˣ
+uusia,V;PASS;PRS;PRF;POS;COND,o l i s i,o l k oː n uː s i tː uˣ
+uusia,V;ACT;PRS;POS;IMP;1;PL,uː s i k ɑː mː e,uː s i s i mː eˣ
+uusia,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː uː s i k o,uː s i k ɑː
+uusia,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t uː s i k o,æ l k øː n uː s i ʋ ɑ t
+uusia,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o uː s i tː uˣ,e i̯ l i e̯ n eˣ uː s i tː uˣ
+uusia,V;ACT;PRS;NEG;POT;2;PL,e tː e uː s i n eˣ,e tː e n iː tː æ n eˣ
+uusia,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ uː s i n eː t,l i e̯ n e tː e
+uusia,V;PASS;PRS;NEG;POT,e i̯ uː s i tː ɑ n eˣ,e i̯ l i e̯ n eˣ uː s i tː uˣ
+uusia,V;NFIN;1;ACT,uː s i ɑ k s eː n,uː s i tː æː k s eː n
+uusia,V;NFIN;3;ACT;IN+ESS,uː s i m ɑ sː ɑ,uː s i m ɑ sː ɑ
+uusia,V;NFIN;3;PASS;INS,uː s i tː ɑ m ɑ n,uː s i tː ɑ m ɑ n
+kasvaa,V;ACT;PRS;POS;IND;1;SG,k ɑ s ʋ ɑ n,k ɑ s ʋ ɑ n
+kasvaa,V;ACT;PRS;NEG;IND;1;SG,e n k ɑ s ʋ ɑ,e n k ɑ s ʋ ɑ
+kasvaa,V;ACT;PRS;POS;IND;2;SG,k ɑ s ʋ ɑ t,k ɑ s ʋ ɑ t ɑ t
+kasvaa,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ k ɑ s ʋ ɑ,e mː eˣ k ɑ s ʋ ɑ t
+kasvaa,V;ACT;PRS;NEG;IND;2;PL,e tː e k ɑ s ʋ ɑ,e t k ɑ s ʋ ɑ t
+kasvaa,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t k ɑ s ʋ ɑ n eː t,h y ʋ æ t o l eˣ k ɑ s ʋ ɑ n eː t
+kasvaa,V;ACT;PST;POS;IND;1;SG,k ɑ s ʋ o i̯ n,e l i n k ɑ s ʋ ɑ n u t
+kasvaa,V;ACT;PST;NEG;IND;3;SG,e i̯ k ɑ s ʋ ɑ n u t,e i̯ k ɑ s ʋ ɑ n u t
+kasvaa,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t k ɑ s ʋ ɑ n u t,e i̯ k ɑ s ʋ ɑ n u t
+kasvaa,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t k ɑ s ʋ ɑ n eː t,e mː e k ɑ s ʋ ɑ n u t
+kasvaa,V;ACT;PST;POS;IND;3;PL,k ɑ s ʋ o i̯ ʋ ɑ t,k ɑ s ʋ o i̯ mː eˣ
+kasvaa,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t k ɑ s ʋ ɑ n eː t,e i̯ ʋ æ t k ɑ s ʋ ɑ n eː t
+kasvaa,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t k ɑ s ʋ e tː uˣ,e i̯ o l eˣ k ɑ s ʋ e tː uˣ
+kasvaa,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n k ɑ s ʋ ɑ n u t,o l i s i k ɑ s ʋ ɑ n eː t
+kasvaa,V;ACT;PRS;POS;COND;2;SG,k ɑ s ʋ ɑ i̯ s i t,k ɑ s ʋ ɑ i̯ s i t
+kasvaa,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i k ɑ s ʋ ɑ n u t,e t o l i s i k ɑ s ʋ ɑ n u t
+kasvaa,V;ACT;PRS;POS;COND;1;PL,k ɑ s ʋ ɑ i̯ s i mː e,ɑ u̯ tː ɑ i̯ s i mː e
+kasvaa,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t k ɑ s ʋ ɑ i̯ s i,e i̯ ʋ æ t s i s i
+kasvaa,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ k ɑ s ʋ ɑ n u t,æ l æ o l eˣ k ɑ s ʋ ɑ n u t
+kasvaa,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n k ɑ s ʋ ɑ n u t,o l eˣ k ɑ s ʋ ɑ n u t
+kasvaa,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ k ɑ s ʋ ɑ n eː t,o l k ɑː mː eˣ k ɑ s ʋ ɑ n eː t
+kasvaa,V;PASS;PRS;POS;IMP,k ɑ s ʋ e tː ɑ k oː n,o l k oː n k ɑ s ʋ e tː uˣ
+kasvaa,V;PASS;PRS;PRF;POS;IMP,o l k oː n k ɑ s ʋ e tː uˣ,o l i s i k ɑ s ʋ e tː uˣ
+kasvaa,V;ACT;PRS;NEG;POT;1;SG,e n k ɑ s ʋ ɑ n eˣ,e i̯ k ɑ s ʋ ɑ n eˣ
+kasvaa,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ k ɑ s ʋ ɑ n u t,e n l i e̯ n eˣ k ɑ s ʋ ɑ n u t
+kasvaa,V;ACT;PRS;POS;POT;2;SG,k ɑ s ʋ ɑ n e t,k ɑ s ʋ ɑ n e t
+kasvaa,V;ACT;PRS;NEG;POT;3;SG,e i̯ k ɑ s ʋ ɑ n eˣ,e i̯ l i e̯ n eˣ k ɑ s ʋ ɑ n eː t
+kasvaa,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː k ɑ s ʋ ɑ n u t,k ɑ s ʋ ɑ n eː
+kasvaa,V;ACT;PRS;POS;POT;1;PL,k ɑ s ʋ ɑ n e mː e,o l i mː eˣ k ɑ s ʋ ɑ n eˣ
+kasvaa,V;NFIN;ACT+PASS,k ɑ s ʋ ɑːˣ,k ɑ s ʋ o i̯ tː ɑːˣ
+kasvaa,V;NFIN;1;PASS,k ɑ s ʋ ɑː k s eː n,t o i̯ t ɑː k s eː n
+kasvaa,V;NFIN;2;PASS;IN+ESS,k ɑ s ʋ e tː ɑ e sː ɑ,k ɑ s ʋ e tː ɑ e sː ɑ
+kasvaa,V;NFIN;3;ACT;IN+ALL,k ɑ s ʋ ɑ m ɑː n,k ɑ s ʋ ɑ m ɑː n
+kasvaa,V;NFIN;3;ACT;AT+ESS,k ɑ s ʋ ɑ m ɑ lː ɑ,k ɑ s ʋ ɑ m ɑ lː ɑ
+kasvaa,V;NFIN;4;ACT;NOM,k ɑ s ʋ ɑ m i n e n,k ɑ s ʋ ɑ m i n e n
+kasvaa,V;NFIN;4;PASS;PRT,k ɑ s ʋ ɑ m i s t ɑ,k ɑ s ʋ ɑ m i s t æ
+todeta,V;ACT;PRS;NEG;IND;1;SG,e n t o t e ɑ,e n t o t e ɑ
+todeta,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ t o d e nː u t,e n o l eˣ t o d e nː u t
+todeta,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ t o d e nː u t,e t o l eˣ t o d e nː u t
+todeta,V;ACT;PRS;POS;IND;3;SG,t o t e ɑː,t o d e t k oː n
+todeta,V;ACT;PRS;PRF;POS;IND;3;SG,o n t o d e nː u t,o l e t o d e nː u t
+todeta,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ t o d e nː u t,e i̯ o l eˣ t o d e nː u t
+todeta,V;ACT;PRS;PRF;NEG;IND;1;PL,e mː e o l eˣ t o d e nː eː t,e mː e o l eˣ t o d e nː eː t
+todeta,V;ACT;PRS;NEG;IND;2;PL,e tː e t o t e ɑ,e tː e t o t e ɑ
+todeta,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e t o d e nː eː t,e tː e t o t e ɑ
+todeta,V;ACT;PRS;POS;IND;3;PL,t o t eˣ ɑ ʋ ɑ t,t o t eˣ s i ʋ ɑ t
+todeta,V;ACT;PST;POS;IND;3;SG,t o t e s i,o m ɑ s i t o d e nː eː t
+todeta,V;PASS;PST;PRF;POS;IND,o l i t o d e tː uˣ,o l i
+todeta,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t t o d e tː uˣ,e i̯ o lː u t t o d e tː uˣ
+todeta,V;ACT;PRS;POS;COND;2;SG,t o t eˣ ɑ i̯ s i tː o t e i̯ s i t,t o t eˣ ɑ i̯ s i t
+todeta,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t t o d e nː u t,o l i s i t s i t o d e nː eː t
+todeta,V;ACT;PRS;POS;COND;2;PL,t o t eˣ ɑ i̯ s i tː eˣ t o t e i̯ s i tː eˣ,p i e̯ n e t e ɑ i̯ s i e mː e t o t e i̯ s i
+todeta,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ t o d e nː u t,o l k oː n t o d e nː eː t
+todeta,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː t o d e t k o,e tː e t o t e ɑ
+todeta,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t o d e t k o,æ l k øː t o d e nː u t
+todeta,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o t o d e nː eː t,æ l k øː t o l eˣ t o d e nː eː t
+todeta,V;PASS;PRS;POS;IMP,t o d e tː ɑ k oː n,t o d e tː ɑ k oː n
+todeta,V;PASS;PRS;NEG;IMP,æ l k øː n t o d e tː ɑ k o,æ l k øː n t o d e tː ɑ k o
+todeta,V;ACT;PRS;POS;POT;1;SG,t o d e nː e n,t ɑ p ɑ h t u n e n
+todeta,V;ACT;PRS;POS;POT;2;SG,t o d e nː e t,ʋ o i̯ n e t t o d e nː u t
+todeta,V;ACT;PRS;POS;POT;3;SG,t o d e nː eː,e i̯ t o d e nː eˣ
+todeta,V;ACT;PRS;PRF;NEG;POT;3;SG,e i̯ l i e̯ n eˣ t o d e nː u t,e i̯ l i e̯ n eˣ t o d e nː u t
+todeta,V;ACT;PRS;POS;POT;2;PL,t o d e nː e tː e,ɑ n t o d e tː eˣ
+todeta,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ t o d e nː eː t,e tː e l i e̯ n eˣ t o d e nː eː t
+todeta,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t t o d e nː eː t,l i e̯ n e ʋ æ t t o d e nː eː t
+todeta,V;NFIN;1;ACT,t o d eˣ t ɑ k s eː n,s ɑː tː ɑː k s eː n
+todeta,V;NFIN;2;ACT;IN+ESS,t o d eˣ t e sː ɑ,t o d e tː ɑ e sː ɑ
+todeta,V;NFIN;3;ACT;IN+ALL,t o t e ɑ m ɑː n,t o t e ɑ m ɑː n
+todeta,V;NFIN;3;ACT;INS,t o t e ɑ m ɑ n,t o t e ɑ m ɑ n
+todeta,V;NFIN;4;ACT;NOM,t o t e ɑ m i n e n,t o t e ɑ m i n e n
+löytää,V;ACT;PRS;NEG;IND;1;SG,e n l ø y̯ d æˣ,e n l ø y̯ t æ n y t
+löytää,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n l ø y̯ t æ n y t,l ø y̯ t æ n
+löytää,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ l ø y̯ t æ n y t,e n o l eˣ l ø y̯ t æ n y t
+löytää,V;ACT;PRS;POS;IND;2;SG,l ø y̯ d æ t,s e u̯ r ɑː t
+löytää,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t l ø y̯ t æ n y t,o l e t
+löytää,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ l ø y̯ t æ n eː t,o l e mː eˣ l ø y̯ t æ n eː t
+löytää,V;ACT;PRS;NEG;IND;2;PL,e tː e l ø y̯ d æˣ,e tː e l ø y̯ d æˣ
+löytää,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l eˣ l ø y̯ t æ n eː t,e tː e o l eˣ l ø y̯ t æ n eː t
+löytää,V;ACT;PST;NEG;IND;3;SG,e i̯ l ø y̯ t æ n y t,e i̯ l ø y̯ t æ n y t
+löytää,V;ACT;PST;POS;IND;1;PL,l ø y̯ s i mː eˣ,e l i mː eˣ
+löytää,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ l ø y̯ t æ n eː t,o l i mː e
+löytää,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t l ø y̯ d e tː yˣ,e i̯ l ø y̯ d e tː yˣ
+löytää,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i l ø y̯ t æ n eː t,e mː eˣ o l i s i l ø y̯ t æ n eː t
+löytää,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t l ø y̯ t æ i̯ s i,e i̯ ʋ æ t l ø y̯ t æ n eˣ
+löytää,V;PASS;PRS;PRF;POS;COND,o l i s i l ø y̯ d e tː yˣ,l ø y̯ d e tː æ i̯ s iː n
+löytää,V;ACT;PRS;POS;IMP;2;SG,l ø y̯ d æˣ,l ø y̯ t æ n e t
+löytää,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ l ø y̯ t æ n y t,e t o l eˣ l ø y̯ t æ n y t
+löytää,V;ACT;PRS;POS;IMP;3;PL,l ø y̯ t æ k øː t,l ø y̯ t æ k øː n
+löytää,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t l ø y̯ t æ n eː t,o l k oː t l ø y̯ t æ k ø
+löytää,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o l ø y̯ t æ n eː t,æ l k øː t o l k o l ø y̯ t æ n eː t
+löytää,V;PASS;PRS;POS;IMP,l ø y̯ d e tː æ k øː n,o l k oː n l ø y̯ d e tː uˣ
+löytää,V;ACT;PRS;POS;POT;1;SG,l ø y̯ t æ n e n,l i e̯ n e n l ø y̯ t æ n y t
+löytää,V;ACT;PRS;POS;POT;2;SG,l ø y̯ t æ n e t,l ø y̯ s i t æ n e t
+löytää,V;ACT;PRS;NEG;POT;3;SG,e i̯ l ø y̯ t æ n eˣ,e i̯ l ø y̯ t æ n eˣ
+löytää,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː l ø y̯ t æ n y t,l i e̯ n e t l ø y̯ t æ n y t
+löytää,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ l ø y̯ d e tː yˣ,e i̯ l i e̯ n eˣ e s i t e tː uˣ
+löytää,V;NFIN;ACT+PASS,l ø y̯ t æːˣ,s ɑ n o ɑˣ
+löytää,V;NFIN;1;ACT,l ø y̯ t æː k s eː n,l ø y̯ s i tː æː k s eː n
+tuottaa,V;ACT;PRS;POS;IND;2;SG,t u o̯ t ɑ t,o l e t u o̯ tː ɑ n eː t
+tuottaa,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t t u o̯ tː ɑ n u t,o l e t u o̯ tː ɑ n u t
+tuottaa,V;ACT;PRS;POS;IND;1;PL,t u o̯ t ɑ mː eˣ,t ɑ r ʋ i t s e mː eˣ
+tuottaa,V;ACT;PRS;POS;IND;2;PL,t u o̯ t ɑ tː eˣ,t u o̯ tː ɑ k ɑː
+tuottaa,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e t u o̯ tː ɑ n eː t,e tː e o l eˣ t u o̯ tː ɑ n eː t
+tuottaa,V;PASS;PRS;PRF;POS;IND,o n,t u o̯ t e t ɑː n
+tuottaa,V;ACT;PST;POS;IND;1;SG,t u o̯ t i n,o l i n t u o̯ tː ɑ n eː t
+tuottaa,V;ACT;PST;PRF;POS;IND;2;SG,o l i t t u o̯ tː ɑ n u t,o l i t t u o̯ tː ɑ n u t
+tuottaa,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t t u o̯ tː ɑ n u t,e t o lː u t t u o̯ tː ɑ n u t
+tuottaa,V;ACT;PST;POS;IND;3;SG,t u o̯ tː i,e i̯ t u o̯ tː ɑ n u t
+tuottaa,V;ACT;PST;NEG;IND;3;SG,e i̯ t u o̯ tː ɑ n u t,e i̯ t u o̯ t ɑˣ
+tuottaa,V;ACT;PST;POS;IND;1;PL,t u o̯ t i mː eˣ,o s ɑ s i mː eˣ t u o̯ tː ɑ n eː t
+tuottaa,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t t u o̯ tː ɑ n eː t,e tː e o lː eː t t u o̯ tː ɑ n eː t
+tuottaa,V;ACT;PST;POS;IND;3;PL,t u o̯ tː i ʋ ɑ t,t u o̯ tː ɑ ʋ ɑ t
+tuottaa,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t t u o̯ tː ɑ n eː t,e i̯ ʋ æ t
+tuottaa,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t t u o̯ tː ɑ n eː t,e i̯ ʋ æ t t u o̯ tː ɑ n u t
+tuottaa,V;ACT;PRS;POS;COND;2;SG,t u o̯ tː ɑ i̯ s i t,t u o̯ tː ɑ i̯ s i t
+tuottaa,V;ACT;PRS;POS;IMP;2;SG,t u o̯ t ɑ,t u o̯ tː ɑ k ɑː
+tuottaa,V;ACT;PRS;POS;IMP;3;PL,t u o̯ tː ɑ k oː t,t u o̯ tː ɑ k oː t
+tuottaa,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t t u o̯ tː ɑ k o,æ l k øː t t u o̯ tː ɑ n eː t
+tuottaa,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t u o̯ tː ɑ n eː t,o l k oː t t u o̯ tː ɑ n eː t
+tuottaa,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o t u o̯ tː ɑ n eː t,æ l k øː t o l eˣ t u o̯ tː ɑ n eː t
+tuottaa,V;PASS;PRS;POS;IMP,t u o̯ t e tː ɑ k oː n,t u o̯ t e tː æ i̯ s iː n
+tuottaa,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ t u o̯ tː ɑ n u t,e n l i e̯ n eˣ t u o̯ tː ɑ n u t
+tuottaa,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ t u o̯ tː ɑ n u t,e t l i e̯ n eˣ t u o̯ tː ɑ n u t
+tuottaa,V;ACT;PRS;NEG;POT;1;PL,e mː e t u o̯ tː ɑ n eˣ,e mː eˣ t u o̯ tː ɑ n eˣ
+tuottaa,V;PASS;PRS;POS;POT,t u o̯ t e tː ɑ n eː n,t u o̯ t e tː ɑ n eː n
+tuottaa,V;NFIN;1;PASS,t u o̯ tː ɑː k s eː n,t ɑː t ɑ k s eː n
+tuottaa,V;NFIN;4;ACT;NOM,t u o̯ tː ɑ m i n e n,t u o̯ tː ɑ m i n e n
+antaa,V;ACT;PRS;NEG;IND;2;SG,e t ɑ nː ɑ,æ l æ ɑ nː ɑ t
+antaa,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t ɑ n t ɑ n u t,o l e t ɑ n t ɑ n u t
+antaa,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ ɑ n t ɑ n u t,e t o l eˣ ɑ n t ɑ n u t
+antaa,V;ACT;PRS;NEG;IND;3;SG,e i̯ nː ɑ,e i̯ o l eˣ ɑ n t ɑ n eː t
+antaa,V;ACT;PRS;NEG;IND;2;PL,e tː e ɑ nː ɑ,e tː e ɑ n t ɑ n
+antaa,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e ɑ n t ɑ n eː t,o l e mː eˣ ɑ n t ɑ n eː t
+antaa,V;ACT;PRS;POS;IND;3;PL,ɑ n t ɑ ʋ ɑ t,o ʋ ɑ t ɑ n t ɑ n eː t
+antaa,V;ACT;PST;NEG;IND;1;SG,e n ɑ n t ɑ n u t,e n o lː u t ɑ n t ɑ n u t
+antaa,V;ACT;PST;PRF;POS;IND;1;SG,o l i n ɑ n t ɑ n u t,o l i n t ɑ n t ɑ n u t
+antaa,V;ACT;PST;POS;IND;2;SG,ɑ nː o i̯ t,e l i t ɑ n t ɑ n u t
+antaa,V;ACT;PST;POS;IND;1;PL,ɑ nː o i̯ mː eˣ,t ɑ k ɑ s i mː e
+antaa,V;ACT;PST;NEG;IND;2;PL,e tː e ɑ n t ɑ n eː t,e tː e o lː eː t ɑ n t ɑ n eː t
+antaa,V;ACT;PRS;NEG;COND;1;SG,e n ɑ n t ɑ i̯ s i,e n t ɑ n t ɑ i̯ s i
+antaa,V;ACT;PRS;NEG;COND;3;SG,e i̯ ʋ ɑ n t ɑ i̯ s i,e i̯ ʋ ɑ n t ɑ i̯ s i
+antaa,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ ɑ n t ɑ n eː t,o l i s i mː eˣ ɑ n t ɑ n eː t
+antaa,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i ɑ n t ɑ n eː t,e i̯ ʋ æ t o l i s i
+antaa,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o ɑ n t ɑ n eː t,æ l k æː mː eˣ ɑ n t ɑ n t ɑ n eː t
+antaa,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t ɑ n t ɑ n eː t,o l k oː t t ɑ k s ɑ n u t
+antaa,V;ACT;PRS;NEG;POT;1;SG,e n ɑ n t ɑ n eˣ,e i̯ uː s i n ɑ n t ɑ n eˣ
+antaa,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː e ɑ n t ɑ n eː t,l i e̯ n e tː eˣ ɑ n t ɑ n eː t
+antaa,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ ɑ n t ɑ n eː t,e tː e ɑ n t ɑ n t ɑ n eˣ
+antaa,V;PASS;PRS;NEG;POT,e i̯ ʋ ɑ nː e tː ɑ n eˣ,e i̯ ʋ ɑ nː e t ɑˣ
+antaa,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ ɑ nː e tː uˣ,e i̯ o l eˣ ɑ nː e tː uˣ
+antaa,V;NFIN;ACT+PASS,ɑ n t ɑː,o s ɑ lː i s t u ɑˣ
+antaa,V;NFIN;1;ACT,ɑ n t ɑː k s eː n,ɑ n t ɑ k s eː n
+antaa,V;NFIN;3;ACT;IN+ALL,ɑ n t ɑ m ɑː n,ɑ n t ɑ m ɑː n
+antaa,V;NFIN;4;ACT;NOM,ɑ n t ɑ m i n e n,ɑ n t ɑ m i n e n
+antaa,V;NFIN;4;ACT;PRT,ɑ n t ɑ m i s t ɑ,ɑ n t ɑ m i s t ɑ
+siittää,V;ACT;PRS;NEG;IND;1;SG,e n s iː t æ,e n s iː t æ
+siittää,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t s iː tː æ n y t,o l eˣ s iː tː æ n y t
+siittää,V;ACT;PRS;POS;IND;3;SG,s iː tː æːˣ,s iː t æ
+siittää,V;ACT;PRS;POS;IND;1;PL,s iː t æ mː eˣ,o l e mː eˣ s iː tː æ n eː t
+siittää,V;ACT;PRS;NEG;IND;2;PL,e tː e s iː t æ,e i̯ s iː t e tː e
+siittää,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e s iː tː æ n eː t,e t s iː t æ tː eˣ
+siittää,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t s iː t æ,e i̯ s iː t e tː e
+siittää,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t s iː tː æ n eː t,o l e mː eˣ s iː tː æ n y t
+siittää,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ s iː t e tː yˣ,e i̯ o l eˣ s iː t e tː yˣ
+siittää,V;ACT;PST;NEG;IND;1;SG,e n s iː tː æ n y t,e n s iː tː æ n y t
+siittää,V;ACT;PST;PRF;POS;IND;3;SG,o l i s iː tː æ n y t,o l i ʋ ɑ t s iː tː æ n y t
+siittää,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ s iː tː æ n eː t,o l i tː eˣ
+siittää,V;ACT;PST;POS;IND;3;PL,s iː tː i ʋ æ t,t ɑ k s o i̯ ʋ ɑ t
+siittää,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t s iː tː æ n eː t,e i̯ ʋ æ t s i s iː tː æ n eː t
+siittää,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t s iː tː æ n eː t,o l i mː eˣ s iː tː æ n y t
+siittää,V;ACT;PRS;NEG;COND;2;SG,e t s iː tː æ i̯ s i,e t ɑ r ʋ i o i̯ s i s iː tː æ n eː t
+siittää,V;ACT;PRS;NEG;COND;3;SG,e i̯ s iː tː æ i̯ s i,e i̯ s iː tː æ i̯ s i n u t
+siittää,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i s iː tː æ n y t,o l i s i s iː tː æ n y t
+siittää,V;ACT;PRS;POS;COND;1;PL,s iː tː æ i̯ s i mː e,s iː tː æ i̯ s i mː e
+siittää,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ s iː tː æ i̯ s i,e mː eˣ s iː tː æ i̯ s i
+siittää,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ s iː tː æ n eː t,o l i s i mː eˣ s iː tː æ n eː t
+siittää,V;ACT;PRS;POS;COND;3;PL,s iː tː æ i̯ s i ʋ æ t,s iː tː æ i̯ s i ʋ ɑ t
+siittää,V;ACT;PRS;NEG;IMP;2;SG,æ l æ s iː t æ,æ l k øː n s iː tː æ k ø
+siittää,V;ACT;PRS;POS;IMP;3;PL,s iː tː æ k øː t,s iː tː æ k øː n
+siittää,V;PASS;PRS;PRF;POS;IMP,o l k oː n s iː t e tː yˣ,o l k oː n s i t ɑˣ
+siittää,V;ACT;PRS;NEG;POT;1;SG,e n s iː tː æ n eˣ,e n o lː u t s iː tː æ n eˣ
+siittää,V;ACT;PRS;NEG;POT;2;SG,e t s iː tː æ n eˣ,e t s iː tː æ n eː n
+siittää,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ s iː tː æ n eˣ,e mː eˣ s iː tː æ n eˣ
+siittää,V;ACT;PRS;POS;POT;3;PL,s iː tː æ n e ʋ æ t,p y r k i n e ʋ ɑ t
+siittää,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t s iː tː æ n eː t,l i e̯ n e ʋ ɑ t
+siittää,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ s iː tː æ n eː t,e i̯ ʋ æ t s iː tː æ n eˣ
+siittää,V;NFIN;ACT+PASS,s iː tː æːˣ,s iː tː y æˣ
+siittää,V;NFIN;1;ACT,s iː tː æː k s eː n,s iː tː æː k s eː n
+siittää,V;NFIN;2;ACT;IN+ESS,s iː tː æ e sː æ,s iː tː æ e sː æ
+siittää,V;NFIN;3;ACT;AT+ESS,s iː tː æ m æ lː æ,s iː tː æ m æ lː æ
+siittää,V;NFIN;3;ACT;PRIV,s iː tː æ m æ tː æ,s iː tː æ m æ tː æ
+siittää,V;NFIN;4;ACT;NOM,s iː tː æ m i n e n,s iː tː æ m i n e n
+selvittää,V;ACT;PRS;PRF;POS;IND;3;SG,o n,o l i s e l ʋ i t æˣ
+selvittää,V;ACT;PRS;POS;IND;2;PL,s e l ʋ i t æ tː eˣ,uː s i tː eˣ s e l ʋ i tː æ k ø
+selvittää,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l eˣ s e l ʋ i tː æ n eː t,e tː e o l eˣ s e l ʋ i tː æ n eː t
+selvittää,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ s e l ʋ i tː æ n eː t,e i̯ ʋ æ t o l eˣ s e l ʋ i tː æ n eː t
+selvittää,V;ACT;PST;PRF;POS;IND;1;SG,o l i n s e l ʋ i tː æ n y t,s e l ʋ i t i n
+selvittää,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t s e l ʋ i tː æ n y t,e t o lː u t s e l ʋ i tː æ n y t
+selvittää,V;ACT;PST;NEG;IND;3;SG,e i̯ s e l ʋ i tː æ n y t,e i̯ ʋ æ t s e l ʋ i tː æ n y t
+selvittää,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ s e l ʋ i tː æ n eː t,o l i tː e s e l ʋ i tː æ n eː t
+selvittää,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t s e l ʋ i tː æ n eː t,o l i ʋ ɑ t e s i tː æ n y t
+selvittää,V;ACT;PRS;POS;COND;1;SG,s e l ʋ i tː æ i̯ s i n,s e l ʋ i tː æ i̯ s i
+selvittää,V;ACT;PRS;NEG;COND;1;SG,e n s e l ʋ i tː æ i̯ s i,e i̯ s e l ʋ i tː æ i̯ s i
+selvittää,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i s e l ʋ i tː æ n y t,e n o l i s i s e l ʋ i tː æ n y t
+selvittää,V;ACT;PRS;NEG;COND;2;SG,e t s e l ʋ i tː æ i̯ s i,e i̯ s e l ʋ i tː æ i̯ s i
+selvittää,V;ACT;PRS;NEG;COND;2;PL,e tː e s e l ʋ i tː æ i̯ s i,e tː e s e l ʋ i t æˣ
+selvittää,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ s e l ʋ i tː æ n eː t,o l i s i tː eˣ s e l ʋ i tː æ n eː t
+selvittää,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t s e l ʋ i tː æ n eː t,o l i mː eˣ s e l ʋ i tː æ i̯ s i
+selvittää,V;PASS;PRS;NEG;COND,e i̯ s e l ʋ i t e tː æ i̯ s i,e i̯ d e tː æ i̯ s i
+selvittää,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i s e l ʋ i t e tː yˣ,e i̯ o l eˣ s e l ʋ i t e tː yˣ
+selvittää,V;ACT;PRS;POS;IMP;2;SG,s e l ʋ i t æˣ,s e l ʋ i tː æ k øː n
+selvittää,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ s e l ʋ i tː æ n eː t,o l k ɑː mː eˣ s e l ʋ i tː æ n y t
+selvittää,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː s e l ʋ i tː æ n eː t,æ l k æː o l k o s e l ʋ i tː æ n eː t
+selvittää,V;ACT;PRS;NEG;POT;3;SG,e i̯ s e l ʋ i tː æ n eˣ,e i̯ s e l ʋ i tː æ n eˣ
+selvittää,V;ACT;PRS;POS;POT;1;PL,s e l ʋ i tː æ n e mː e,uː s i n e mː eˣ s e l ʋ i tː æ n y t
+selvittää,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ s e l ʋ i tː æ n eː t,l i e̯ n e mː eˣ s e l ʋ i tː æ n eː t
+selvittää,V;ACT;PRS;POS;POT;2;PL,s e l ʋ i tː æ n e tː e,s e l ʋ i tː æ n e tː e
+selvittää,V;ACT;PRS;POS;POT;3;PL,s e l ʋ i tː æ n e ʋ æ t,n æ h n e ʋ æ t
+selvittää,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t s e l ʋ i tː æ n eː t,l i e̯ n e ʋ ɑ t
+selvittää,V;NFIN;ACT+PASS,s e l ʋ i tː æːˣ,o s ɑ lː i s t u ɑˣ
+selvittää,V;NFIN;1;PASS,s e l ʋ i tː æː k s eː n,s e l ʋ i tː æː k s eː n
+selvittää,V;NFIN;2;PASS;IN+ESS,s e l ʋ i t e tː æ e sː æ,s e l ʋ i t e tː ɑ e sː ɑ
+selvittää,V;NFIN;3;ACT;IN+ABL,s e l ʋ i tː æ m æ s t æ,s e l ʋ i tː æ m æ s t æ
+selvittää,V;NFIN;3;ACT;IN+ALL,s e l ʋ i tː æ m æː n,s e l ʋ i tː æ m æː n
+selvittää,V;NFIN;5;ACT,s e l ʋ i tː æ m æ i̯ s i lː æː n,s e l ʋ i tː æ m æ i̯ s i lː æː n
+jäädä,V;ACT;PRS;POS;IND;1;SG,j æː n,j æː t æ n
+jäädä,V;ACT;PRS;POS;IND;2;PL,j æː tː e,e tː e j æː
+jäädä,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ j æː n eː t,e i̯ o l eˣ ʋ ɑ t
+jäädä,V;ACT;PST;NEG;IND;2;SG,e t j æː n y t,e t j æː n y t
+jäädä,V;ACT;PST;PRF;POS;IND;3;SG,o l i j æː n y t,o l i t j æː n y t
+jäädä,V;ACT;PST;NEG;IND;1;PL,e mː eˣ j æː n eː t,e mː e j æː
+jäädä,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t j æː n eː t,e n o lː u t j æː n eː t
+jäädä,V;ACT;PST;NEG;IND;2;PL,e tː e j æː n eː t,e tː e o tː ɑ n eː t
+jäädä,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t j æː n eː t,e i̯ ʋ æ t j æː n y t
+jäädä,V;PASS;PST;POS;IND,j æː t iː n,s iː t e tː iː n
+jäädä,V;ACT;PRS;POS;COND;1;SG,j æ i̯ s i n,j æː m æ i̯ s i n
+jäädä,V;ACT;PRS;POS;COND;2;SG,j æ i̯ s i t,e l i s i t j æː n eː t
+jäädä,V;ACT;PRS;POS;COND;3;SG,j æ i̯ s i,j æː
+jäädä,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ j æ i̯ s i,e i̯ j æ i̯ s i mː e
+jäädä,V;ACT;PRS;POS;COND;2;PL,j æ i̯ s i tː eˣ,t o i̯ s i tː eˣ
+jäädä,V;ACT;PRS;POS;COND;3;PL,j æ i̯ s i ʋ æ t,j æ i̯ s i ʋ ɑ t
+jäädä,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t j æː n eː t,o l i s i tː eˣ j æː n y t
+jäädä,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i j æː n eː t,e i̯ ʋ æ t o l i s i
+jäädä,V;PASS;PRS;NEG;COND,e i̯ j æː t æ i̯ s i,e i̯ d e tː ɑ i̯ s i
+jäädä,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n j æː k ø,æ l k øː n j æː n y t
+jäädä,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o j æː n y t,æ l k øː n o l k o j æː n eː t
+jäädä,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ j æː k ø,æ l k æː mː eˣ j æː n eː t
+jäädä,V;ACT;PRS;POS;IMP;2;PL,j æː k æː,s iː tː y i̯ s i tː e
+jäädä,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː j æː n eː t,o l k oː t j æː n eː t
+jäädä,V;ACT;PRS;POS;IMP;3;PL,j æː k øː t,j æː k øː t o l k o
+jäädä,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t j æː k ø,æ l k øː t o l k o
+jäädä,V;PASS;PRS;POS;IMP,j æː t æ k øː n,j æː k øː n o t e tː ɑ k o
+jäädä,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ j æː n y t,e n l i e̯ n eˣ j æː n y t
+jäädä,V;ACT;PRS;POS;POT;2;SG,j æː n e t,s iː tː æ n e t
+jäädä,V;ACT;PRS;NEG;POT;3;SG,e i̯ j æː n eˣ,e i̯ j æː n eˣ
+jäädä,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː j æː n y t,l i e̯ n eː j æː n y t
+jäädä,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ j æː n eː t,l i e̯ n e tː e
+jäädä,V;NFIN;ACT+PASS,j æː d æˣ,s iː tː y æˣ
+jäädä,V;NFIN;3;ACT;IN+ALL,j æː m æː n,j æː m æ tː æ m æː n
+jäädä,V;NFIN;4;PASS;NOM,j æː m i n e n,j æː d æ k s y m i n e n
+käydä,V;ACT;PRS;PRF;POS;IND;3;SG,o n k æ y̯ n y t,o l i k æ y̯
+käydä,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ k æ y̯ n eː t,o l e mː eˣ k æ y̯ n eː t
+käydä,V;ACT;PRS;POS;IND;2;PL,k æ y̯ tː eˣ,k æ y̯ mː eˣ
+käydä,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t k æ y̯ n eː t,o l e n e ʋ æ t k æ y̯ n eː t
+käydä,V;PASS;PRS;NEG;IND,e i̯ k æ y̯ d æˣ,e i̯ o l eˣ k æ y̯ t yˣ
+käydä,V;PASS;PRS;PRF;POS;IND,o n k æ y̯ t yˣ,o n
+käydä,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ k æ y̯ t yˣ,e i̯ o l eˣ k æ y̯ t yˣ
+käydä,V;ACT;PST;POS;IND;1;SG,k æ ʋ i n,uː s i n k æ y̯ n y t
+käydä,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t k æ y̯ n y t,e n o lː u t k æ y̯ n y t
+käydä,V;ACT;PST;NEG;IND;2;SG,e t k æ y̯ n y t,e t k æ y̯ n y t
+käydä,V;ACT;PST;PRF;POS;IND;2;SG,o l i t k æ y̯ n y t,o l i tː eˣ k æ y̯ n y t
+käydä,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ k æ y̯ n eː t,k æ ʋ i t s i tː eˣ
+käydä,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t k æ y̯ n eː t,e i̯ ʋ æ t k æ y̯ t æ n eː t
+käydä,V;ACT;PRS;POS;COND;1;SG,k æ ʋ i s i n,t o t e u tː ɑ i̯ s i n
+käydä,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t k æ y̯ n y t,o l i s i k æ y̯ n eː t
+käydä,V;ACT;PRS;POS;COND;3;SG,k æ ʋ i s i,k æ ʋ i s i
+käydä,V;ACT;PRS;NEG;IMP;2;SG,æ l æ k æ y̯,æ l æ j uː r i
+käydä,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o k æ y̯ n y t,æ l k øː n o l eˣ k æ y̯ n eː t
+käydä,V;ACT;PRS;POS;IMP;2;PL,k æ y̯ k æː,k æ y̯ n e t k ɑːˣ
+käydä,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː k æ y̯ n eː t,o l i s i tː eˣ k æ y̯ n eː t
+käydä,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o k æ y̯ n eː t,æ l k æː k æ y̯ k ø
+käydä,V;ACT;PRS;POS;IMP;3;PL,k æ y̯ k øː t,k æ ʋ i s i ʋ ɑ t
+käydä,V;PASS;PRS;PRF;POS;IMP,o l k oː n k æ y̯ t yˣ,o l k oː n k æ y̯ t yˣ
+käydä,V;ACT;PRS;POS;POT;2;SG,k æ y̯ n e t,k æ y̯ n e t k æ y̯ n eː t
+käydä,V;ACT;PRS;POS;POT;3;SG,k æ y̯ n eː,k æ y̯
+käydä,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː k æ y̯ n y t,l i e̯ n eː k æ y̯ n y t
+käydä,V;ACT;PRS;NEG;POT;2;PL,e tː e k æ y̯ n eˣ,e tː e p i t æ n eˣ
+käydä,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ k æ y̯ n eː t,l i e̯ n e tː eˣ
+käydä,V;ACT;PRS;POS;POT;3;PL,k æ y̯ n e ʋ æ t,k æ y̯ n e ʋ ɑ t
+käydä,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t k æ y̯ n eˣ,æ l k øː t k æ y̯ n eː t
+käydä,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ k æ y̯ n eː t,e i̯ l i e̯ n eˣ k æ y̯ n eː t
+käydä,V;PASS;PRS;POS;POT,k æ y̯ t æ n eː n,l i e̯ n eː k æ y̯ t yˣ
+käydä,V;NFIN;1;ACT,k æ y̯ d æ k s eː n,k æ ʋ i t ɑ k s eː n
+käydä,V;NFIN;3;ACT;AT+ESS,k æ y̯ m æ lː æ,k æ y̯ m æ lː æ
+käydä,V;NFIN;4;ACT;NOM,k æ y̯ m i n e n,k æ y̯ m i n e n
+muuttaa,V;ACT;PRS;POS;IND;1;SG,m uː t ɑ n,o l e n m uː tː ɑ n u t
+muuttaa,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t m uː tː ɑ n u t,l i e̯ n e t m uː tː ɑ n eː t
+muuttaa,V;ACT;PRS;PRF;POS;IND;3;SG,o n,o ʋ ɑ t m uː tː ɑ n u t
+muuttaa,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ m uː tː ɑ n eː t,o l e mː eˣ
+muuttaa,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e m uː tː ɑ n eː t,e tː e o l e m uː tː ɑ n eː t
+muuttaa,V;PASS;PRS;PRF;POS;IND,o n,m uː t e t ɑː n
+muuttaa,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ m uː t e tː uˣ,e i̯ o l i s i m uː t e tː uˣ
+muuttaa,V;ACT;PST;NEG;IND;1;SG,e n,e n
+muuttaa,V;ACT;PST;POS;IND;2;SG,m uː t i t,m uː t ɑ t
+muuttaa,V;ACT;PST;PRF;POS;IND;2;SG,o l i t m uː tː ɑ n u t,e t o lː u t m uː tː ɑ n u t
+muuttaa,V;ACT;PST;NEG;IND;3;SG,e i̯ m uː tː ɑ n u t,e i̯ j uː r i n u t
+muuttaa,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t m uː tː ɑ n u t,e i̯ o lː u t t o t e u tː ɑ n u t
+muuttaa,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t m uː tː ɑ n eː t,e mː e o lː eː t m uː tː ɑ n eː t
+muuttaa,V;ACT;PST;POS;IND;2;PL,m uː t i tː eˣ,m uː tː i ʋ æ t
+muuttaa,V;ACT;PST;NEG;IND;2;PL,e tː e m uː tː ɑ n eː t,e tː e m uː tː ɑ n eː t
+muuttaa,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ m uː tː ɑ n eː t,o l i ʋ ɑ t m uː tː ɑ n eː t
+muuttaa,V;PASS;PST;PRF;POS;IND,o l i m uː t e tː uˣ,m uː t e tː ɑ n u t
+muuttaa,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t m uː t e tː uˣ,e i̯ m uː t e tː ɑ n u t
+muuttaa,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i m uː tː ɑ n u t,e t o l i s i m uː tː ɑ n u t
+muuttaa,V;ACT;PRS;NEG;COND;3;SG,e i̯ m uː tː ɑ i̯ s i,e i̯ m uː tː ɑ i̯ s i
+muuttaa,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ m uː tː ɑ n eː t,o l i s i mː eˣ
+muuttaa,V;ACT;PRS;POS;COND;3;PL,m uː tː ɑ i̯ s i ʋ ɑ t,m uː tː ɑ i̯ s i ʋ ɑ t
+muuttaa,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t m uː tː ɑ n eː t,o l i s i ʋ ɑ t
+muuttaa,V;ACT;PRS;NEG;IMP;2;SG,æ l æ m uː t ɑ,e t m uː t ɑ
+muuttaa,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n m uː tː ɑ k o,æ l k øː n m uː tː ɑ k o
+muuttaa,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t m uː tː ɑ n eː t,m uː tː ɑ k oː t
+muuttaa,V;PASS;PRS;POS;IMP,m uː t e tː ɑ k oː n,m uː t e tː ɑ i̯ s iː n
+muuttaa,V;ACT;PRS;POS;POT;1;SG,m uː tː ɑ n e n,m uː tː ɑ n e n
+muuttaa,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ m uː tː ɑ n eː t,l i e̯ n e mː eˣ
+muuttaa,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ m uː tː ɑ n eː t,e tː e o l e m uː tː ɑ n eˣ
+muuttaa,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t m uː tː ɑ n eˣ,e i̯ ʋ æ t m uː tː ɑ n eˣ
+muuttaa,V;NFIN;ACT+PASS,m uː tː ɑːˣ,s iː tː y æˣ
+muuttaa,V;NFIN;1;ACT,m uː tː ɑː k s eː n,s ɑː tː ɑː k s eː n
+muuttaa,V;NFIN;3;ACT;IN+ALL,m uː tː ɑ m ɑː n,m uː tː ɑ m ɑː n
+muuttaa,V;NFIN;4;PASS;NOM,m uː tː ɑ m i n e n,m uː tː ɑ m i n e n
+hyväksyä,V;ACT;PRS;NEG;IND;3;SG,e i̯ h y ʋ æ k s y,e i̯ ʋ æ k s yː
+hyväksyä,V;ACT;PRS;PRF;NEG;IND;1;PL,e mː eˣ o l eˣ h y ʋ æ k s y n eː t,e mː e o l eˣ h y ʋ æ k s y n eː t
+hyväksyä,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l eˣ h y ʋ æ k s y n eː t,e tː e o l eˣ h y ʋ æ k s y n eː t
+hyväksyä,V;ACT;PST;POS;IND;1;SG,h y ʋ æ k s y i̯ n,k ɑ s ʋ o i̯ n
+hyväksyä,V;ACT;PST;NEG;IND;1;SG,e n,e n o lː u t h y ʋ æ k s y n eː t
+hyväksyä,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t h y ʋ æ k s y n y t,e n o lː u t h y ʋ æ k s y n y t
+hyväksyä,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t h y ʋ æ k s y n y t,e i̯ o lː u t h y ʋ æ k s y n y t
+hyväksyä,V;ACT;PST;POS;IND;1;PL,h y ʋ æ k s y i̯ mː eˣ,e l i mː eˣ
+hyväksyä,V;ACT;PST;NEG;IND;1;PL,e mː eˣ h y ʋ æ k s y n eː t,e mː eˣ ʋ ɑ t h y ʋ æ k s y n y t
+hyväksyä,V;PASS;PST;PRF;POS;IND,o l i h y ʋ æ k s y tː yˣ,h y ʋ æ k s y tː iː n
+hyväksyä,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t h y ʋ æ k s y n eː t,h y ʋ æ t o l i s i n eː t
+hyväksyä,V;PASS;PRS;POS;COND,h y ʋ æ k s y tː æ i̯ s iː n,h y ʋ æ k s y tː æ i̯ s i
+hyväksyä,V;PASS;PRS;PRF;POS;COND,o l i s i,o l i s i tː iː n
+hyväksyä,V;ACT;PRS;POS;IMP;2;SG,h y ʋ æ k s y,h y ʋ æ k s y k øː n
+hyväksyä,V;PASS;PRS;PRF;POS;IMP,o l k oː n h y ʋ æ k s y tː yˣ,o l k oː n o t e tː uˣ
+hyväksyä,V;ACT;PRS;POS;POT;1;SG,h y ʋ æ k s y n e n,h y ʋ æ k s y n e mː e
+hyväksyä,V;ACT;PRS;NEG;POT;3;SG,e i̯ h y ʋ æ k s y n eˣ,e i̯ h y ʋ æ k s y n eˣ
+hyväksyä,V;ACT;PRS;PRF;NEG;POT;3;SG,e i̯ l i e̯ n eˣ h y ʋ æ k s y n y t,e i̯ l i e̯ n eˣ h y ʋ æ k s y n y t
+hyväksyä,V;ACT;PRS;PRF;NEG;POT;1;PL,e mː eˣ l i e̯ n eˣ h y ʋ æ k s y n eː t,e mː eˣ h y ʋ æ k s y n eˣ
+hyväksyä,V;ACT;PRS;POS;POT;3;PL,h y ʋ æ k s y n e ʋ æ t,h y ʋ æ t s i n eˣ
+hyväksyä,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t h y ʋ æ k s y n eː t,o l k oː t h y ʋ æ k s y n eː t
+hyväksyä,V;PASS;PRS;POS;POT,h y ʋ æ k s y tː æ n eː n,h o i̯ d e tː ɑ n eː n
+hyväksyä,V;PASS;PRS;NEG;POT,e i̯ ʋ æ k s y tː æ n eˣ,e i̯ ʋ æ k s y tː æ n eˣ
+hyväksyä,V;NFIN;1;PASS,h y ʋ æ k s y æ k s eː n,j o h t ɑː k s eː n
+hyväksyä,V;NFIN;2;ACT;IN+ESS,h y ʋ æ k s y e sː æ,h y ʋ æ k s y m æ sː æ
+hyväksyä,V;NFIN;3;ACT;IN+ESS,h y ʋ æ k s y m æ sː æ,h y ʋ æ k s y m æ tː æ
+hyväksyä,V;NFIN;3;ACT;IN+ABL,h y ʋ æ k s y m æ s t æ,h y ʋ æ k s y m æ s t æ
+jatkaa,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ j ɑ t k ɑ n u t,e t o l eˣ j ɑ t k ɑ n u t
+jatkaa,V;ACT;PRS;PRF;POS;IND;3;SG,o n j ɑ t k ɑ n u t,o l e n j ɑ t k ɑ n u t
+jatkaa,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ j ɑ t k ɑ,e mː eˣ j ɑ t k ɑ
+jatkaa,V;ACT;PRS;PRF;NEG;IND;1;PL,e mː e o l eˣ j ɑ t k ɑ n eː t,e mː e o l e j ɑ t k ɑ n eː t
+jatkaa,V;ACT;PRS;POS;IND;2;PL,j ɑ t k ɑ tː eˣ,j ɑ t k ɑ i̯ s i tː eˣ
+jatkaa,V;PASS;PRS;POS;IND,j ɑ t k e t ɑː n,j ɑ t k e tː ɑ i̯ s iː n
+jatkaa,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t j ɑ t k ɑ n u t,e t o lː u t j ɑ t k ɑ n u t
+jatkaa,V;ACT;PRS;NEG;COND;1;SG,e n,e n t ɑ i̯ s i
+jatkaa,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n j ɑ t k ɑ n u t,j ɑ t k ɑ i̯ s i n
+jatkaa,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i j ɑ t k ɑ n u t,e t o l i s i j ɑ t k ɑ n u t
+jatkaa,V;ACT;PRS;POS;COND;3;SG,j ɑ t k ɑ i̯ s i,j ɑ t k ɑ i̯ s i
+jatkaa,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ j ɑ t k ɑ i̯ s i,e n j ɑ t k ɑ i̯ s i tː eˣ
+jatkaa,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ j ɑ t k ɑ n eː t,j ɑ t k ɑ i̯ s i tː eˣ
+jatkaa,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t j ɑ t k ɑ i̯ s i,e i̯ ʋ æ t s i s i
+jatkaa,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t j ɑ t k ɑ n eː t,o l i s i ʋ ɑ t
+jatkaa,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ j ɑ t k ɑ n u t,æ l æ j ɑ t k ɑ
+jatkaa,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ j ɑ t k ɑ n u t,e n l i e̯ n eˣ j ɑ t k ɑ n u t
+jatkaa,V;ACT;PRS;POS;POT;2;SG,j ɑ t k ɑ n e t,l u o̯ n e t j ɑ t k ɑ n u t
+jatkaa,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t j ɑ t k ɑ n u t,o l e t j ɑ t k ɑ n eˣ
+jatkaa,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ j ɑ t k ɑ n u t,e t e l i e̯ n eˣ j ɑ t k ɑ n u t
+jatkaa,V;ACT;PRS;NEG;POT;2;PL,e tː e j ɑ t k ɑ n eˣ,e tː e j ɑ t k ɑ
+jatkaa,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː e j ɑ t k ɑ n eː t,l i e̯ n e tː e
+jatkaa,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ j ɑ t k ɑ n eː t,e i̯ ʋ æ t j ɑ t k ɑ n eˣ
+jatkaa,V;NFIN;2;ACT;INS,j ɑ t k ɑ e n,e l æ e n
+jatkaa,V;NFIN;4;ACT;NOM,j ɑ t k ɑ m i n e n,j ɑ t k ɑ m i n e n
+elää,V;ACT;PRS;POS;IND;2;SG,e l æ t,e l æ e l æ
+elää,V;ACT;PRS;POS;IND;3;SG,e l æː,e l e t
+elää,V;ACT;PRS;PRF;POS;IND;3;SG,o n e l æ n y t,o l eˣ e l æ n y t
+elää,V;ACT;PRS;POS;IND;1;PL,e l æ mː e,e l æ n e mː eˣ
+elää,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e e l æ n eː t,e tː e o l eˣ e l æ n y t
+elää,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ e l æ n eː t,e i̯ ʋ æ t e l æ
+elää,V;ACT;PST;POS;IND;3;SG,e l i,p æː tː i
+elää,V;ACT;PST;NEG;IND;3;SG,e i̯ e l æ n y t,e i̯ e l æ n y t
+elää,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t e l æ n eː t,e i̯ ʋ æ t e l æ n eː t
+elää,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t e l æ n eː t,e i̯ ʋ æ t e l æ n y t
+elää,V;ACT;PRS;POS;COND;1;SG,e l æ i̯ s i n,e l i s i n
+elää,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t e l æ n y t,o l i s i e l æ n eː t
+elää,V;ACT;PRS;NEG;COND;3;SG,e i̯ e l æ i̯ s i,e i̯ e l æ i̯ s i
+elää,V;ACT;PRS;POS;IMP;2;SG,e l æ,e l i s i t
+elää,V;ACT;PRS;POS;IMP;3;SG,e l æ k øː n,e l æ n eː
+elää,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o e l æ n y t,æ l k øː n e l æ n y t
+elää,V;ACT;PRS;POS;IMP;1;PL,e l æ k æː mː e,e l i s i mː eˣ
+elää,V;ACT;PRS;POS;IMP;2;PL,e l æ k æː,e l e tː e
+elää,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o e l æ n eː t,e tː e o l eˣ e l æ n y t
+elää,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t e l æ k ø,æ l k øː n e l æ h e tː æ k ø
+elää,V;PASS;PRS;POS;IMP,e l e tː æ k øː n,o l k oː n e l e tː yˣ
+elää,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o e l e tː yˣ,æ l k øː n e l e tː yˣ
+elää,V;ACT;PRS;POS;POT;2;SG,e l æ n e t,e l e t
+elää,V;ACT;PRS;NEG;POT;3;SG,e i̯ e l æ n eˣ,e i̯ l i e̯ n eˣ e l æ n eː t
+elää,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː e l æ n y t,l i e̯ n eː e l æ n y t
+elää,V;ACT;PRS;NEG;POT;1;PL,e mː e e l æ n eˣ,e mː eˣ e l æ n eˣ
+elää,V;ACT;PRS;PRF;NEG;POT;1;PL,e mː e l i e̯ n eˣ e l æ n eː t,e mː eˣ e l æ n eˣ
+elää,V;NFIN;3;ACT;IN+ABL,e l æ m æ s t æ,e l æ m æ s t æ
+elää,V;NFIN;3;ACT;PRIV,e l æ m æ tː æ,e l æ m æ tː æ
+elää,V;NFIN;5;PASS,e l æ m æ i̯ s i lː æː n,e l e tː ɑ m ɑ i̯ s i lː ɑː n
+päästä,V;ACT;PRS;NEG;IND;3;SG,e i̯ p æː s eˣ,e i̯ p æː s i
+päästä,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ p æː sː y t,e i̯ o l eˣ p æː sː y t
+päästä,V;ACT;PRS;NEG;IND;2;PL,e tː e p æː s eˣ,e i̯ p æː s i s i tː eˣ
+päästä,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e p æː sː eː t,o l eˣ p æː s i tː eˣ
+päästä,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t p æː sː y t,e n o lː u t p æː sː y t
+päästä,V;ACT;PST;POS;IND;2;SG,p æː s i t,uː s i t p æː sː eː t
+päästä,V;ACT;PST;POS;IND;3;SG,p æː s i,e i̯ p æː sː y t
+päästä,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t p æː sː y t,e i̯ p æː sː y t
+päästä,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ p æː sː eː t,o l i mː eˣ p æː sː eː t
+päästä,V;ACT;PST;POS;IND;2;PL,p æː s i tː eˣ,j o h d i tː eˣ p æː sː eː t
+päästä,V;ACT;PST;POS;IND;3;PL,p æː s i ʋ æ t,e l i ʋ ɑ t
+päästä,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t p æː sː eː t,e i̯ ʋ æ t p æː sː eː t
+päästä,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t p æː sː eː t,o l i ʋ ɑ t p æː sː eː t
+päästä,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t p æː sː eː t,e i̯ ʋ æ t p æː sː y t
+päästä,V;ACT;PRS;POS;COND;3;SG,p æː s i s i,p æː s i s i
+päästä,V;ACT;PRS;POS;COND;2;PL,p æː s i s i tː eˣ,s iː tː æ i̯ s i tː eˣ
+päästä,V;ACT;PRS;POS;COND;3;PL,p æː s i s i ʋ æ t,p æː s i s i ʋ æ t
+päästä,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ p æː sː y t,æ l æ o l eˣ p æː sː y t
+päästä,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t p æː s k ø,æ l k øː t p æː sː y t
+päästä,V;PASS;PRS;NEG;IMP,æ l k øː n p æː s t æ k ø,e i̯ p æː s t æ k øː n
+päästä,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o p æː s t yˣ,e i̯ o l eˣ p æː s t yˣ
+päästä,V;ACT;PRS;POS;POT;3;SG,p æː sː eː,p æː s k øː n
+päästä,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ p æː sː eː t,e tː e p æː sː e
+päästä,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t p æː sː eˣ,e i̯ p æː sː eˣ
+päästä,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t p æː sː eː t,l i e̯ n e ʋ ɑ t
+päästä,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː p æː s t yˣ,p æː s t æ n eː
+päästä,V;NFIN;4;ACT;NOM,p æː s e m i n e n,p æː s e m i n e n
+päästä,V;NFIN;4;PASS;NOM,p æː s e m i n e n,p æː s e m i n e n
+päästä,V;NFIN;5;ACT,p æː s e m æ i̯ s i lː æː n,p æː s e m æ i̯ s i lː æː n
+kerrata,V;ACT;PRS;POS;IND;1;PL,k e r t ɑː mː e,k e rː ɑ nː e mː e
+kerrata,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e k e rː ɑ nː eː t,æ l æ o l eˣ ʋ ɑ t k e rː ɑ nː eː t
+kerrata,V;ACT;PRS;PRF;POS;IND;3;PL,o ʋ ɑ t k e rː ɑ nː eː t,o ʋ ɑ t k e rː ɑ nː u t
+kerrata,V;PASS;PRS;NEG;IND,e i̯ k e rː ɑ t ɑˣ,e i̯ o l eˣ k e rː ɑ tː uˣ
+kerrata,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t k e rː ɑ nː u t,e n o lː u t k e rː ɑ nː u t
+kerrata,V;ACT;PST;PRF;POS;IND;2;SG,o l i t k e rː ɑ nː u t,o l i t k e rː ɑ nː u t
+kerrata,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t k e rː ɑ nː eː t,e i̯ ʋ æ t k e rː ɑ nː eː t
+kerrata,V;PASS;PST;POS;IND,k e rː ɑ tː iː n,k e r t ɑ s i t ɑˣ
+kerrata,V;PASS;PST;NEG;IND,e i̯ k e rː ɑ tː uˣ,e i̯ k e rː ɑ tː uˣ
+kerrata,V;PASS;PST;PRF;POS;IND,o l i k e rː ɑ tː uˣ,k e r t ɑ s i t e tː yˣ
+kerrata,V;ACT;PRS;POS;COND;1;SG,k e r t ɑ i̯ s i n,k e r t ɑ i̯ s i n
+kerrata,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n k e rː ɑ nː u t,o l i s i k e rː ɑ nː eː t
+kerrata,V;ACT;PRS;POS;COND;2;SG,k e r t ɑ i̯ s i t,k e r t ɑ i̯ s i
+kerrata,V;ACT;PRS;NEG;COND;2;SG,e t k e r t ɑ i̯ s i,e tː e l i s i k e rː ɑ nː u t
+kerrata,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t k e rː ɑ nː u t,o l i s i k e rː ɑ nː u t
+kerrata,V;ACT;PRS;PRF;POS;COND;3;SG,o l i s i k e rː ɑ nː u t,o l i k e r t ɑ i̯ s i
+kerrata,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ k e rː ɑ nː eː t,o l i s i tː eˣ k e rː ɑ nː eː t
+kerrata,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i k e rː ɑ nː eː t,e tː e o l i s i
+kerrata,V;ACT;PRS;POS;COND;3;PL,k e r t ɑ i̯ s i ʋ ɑ t,k e r t ɑ i̯ s i ʋ ɑ t
+kerrata,V;PASS;PRS;POS;COND,k e rː ɑ tː ɑ i̯ s iː n,k e rː ɑ tː ɑ i̯ s iː n
+kerrata,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i k e rː ɑ tː uˣ,e i̯ k e rː ɑ tː ɑ i̯ s i
+kerrata,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o k e rː ɑ nː u t,æ l k øː n o l k o k e rː ɑ nː eː t
+kerrata,V;ACT;PRS;POS;IMP;1;PL,k e rː ɑ t k ɑː mː eˣ,p y r k i k æː mː e
+kerrata,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː k e rː ɑ t k o,æ l k øː t k e rː ɑ t k o
+kerrata,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n k e rː ɑ nː u t,o l e n k e rː ɑ nː u t
+kerrata,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ k e rː ɑ nː u t,e n o l eˣ k e rː ɑ nː eˣ
+kerrata,V;ACT;PRS;NEG;POT;2;SG,e t k e rː ɑ nː eˣ,e t k e r t ɑːˣ
+kerrata,V;ACT;PRS;PRF;NEG;POT;1;PL,e mː e l i e̯ n eˣ k e rː ɑ nː eː t,e mː e l i e̯ n eˣ k e rː ɑ nː eː t
+kerrata,V;ACT;PRS;NEG;POT;2;PL,e tː e k e rː ɑ nː eˣ,e tː e k e rː ɑ nː eˣ
+kerrata,V;PASS;PRS;POS;POT,k e rː ɑ tː ɑ n eː n,k e rː ɑ tː ɑ n eː n
+kerrata,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː k e rː ɑ tː uˣ,l i e̯ n eː k ɑ s ʋ e tː uˣ
+kerrata,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ k e rː ɑ tː uˣ,e i̯ o l eˣ k e rː ɑ tː uˣ
+kerrata,V;NFIN;ACT+PASS,k e rː ɑ t ɑˣ,uː s i ɑ
+kerrata,V;NFIN;2;ACT;INS,k e rː ɑ t e n,p y r k i e n
+kerrata,V;NFIN;3;ACT;IN+ESS,k e r t ɑː m ɑ sː ɑ,k e r t ɑː m ɑ sː ɑ
+kerrata,V;NFIN;3;ACT;AT+ESS,k e r t ɑː m ɑ lː ɑ,k e r t ɑː m ɑ lː ɑ
+kerrata,V;NFIN;4;ACT;PRT,k e r t ɑː m i s t ɑ,k e r t ɑː m i s t ɑ
+kerrata,V;NFIN;5;ACT,k e r t ɑː m ɑ i̯ s i lː ɑː n,k e r t ɑː m ɑ i̯ s i lː ɑː n
+alkaa,V;ACT;PRS;POS;IND;1;SG,ɑ l ɑ n,ɑ l k ɑ n e n
+alkaa,V;ACT;PRS;NEG;IND;1;SG,e n ɑ l ɑ,e t ɑ l k ɑ n
+alkaa,V;ACT;PRS;PRF;POS;IND;3;SG,o n ɑ l k ɑ n u t,o n ɑ l k ɑ n u t
+alkaa,V;ACT;PRS;POS;IND;1;PL,ɑ l ɑ mː e,o l e mː eˣ ɑ l k ɑ n eː t
+alkaa,V;ACT;PRS;NEG;IND;2;PL,e tː e ɑ l ɑ,ɑ l ɑ tː e
+alkaa,V;PASS;PRS;POS;IND,ɑ l e t ɑː n,ɑ l e tː iː n
+alkaa,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ ɑ l e tː uˣ,e i̯ o l eˣ ɑ l e tː uˣ
+alkaa,V;ACT;PST;PRF;POS;IND;1;SG,o l i n ɑ l k ɑ n u t,o l i n ɑ l k ɑ n u t
+alkaa,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t ɑ l k ɑ n u t,e n o lː u t ɑ l k ɑ n u t
+alkaa,V;ACT;PST;POS;IND;3;SG,ɑ l k o i̯,o l i ɑ l k ɑ n eː t
+alkaa,V;ACT;PST;NEG;IND;3;SG,e i̯ l ɑ l k ɑ n u t,e i̯ ʋ ɑ l k ɑ n eː t
+alkaa,V;ACT;PST;POS;IND;2;PL,ɑ l o i̯ tː eˣ,o s ɑ s i tː eˣ ɑ l k ɑ n eː t
+alkaa,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t ɑ l k ɑ n eː t,e i̯ ʋ æ t ɑ l k ɑ n eː t
+alkaa,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t ɑ l k ɑ n eː t,h y ʋ æ t o lː eː t ɑ l k ɑ n eː t
+alkaa,V;PASS;PST;NEG;IND,e i̯ l e tː uˣ,ɑ l e tː iː n
+alkaa,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n ɑ l k ɑ n u t,o l i s i n ɑ l k ɑ n u t
+alkaa,V;ACT;PRS;PRF;NEG;COND;1;SG,e n o l i s i,e n o l i s i ɑ l k ɑ n u t
+alkaa,V;ACT;PRS;POS;COND;2;SG,ɑ l k ɑ i̯ s i t,ɑ l k ɑ i̯ s i t
+alkaa,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t,o l i s i tː eˣ ɑ l k ɑ n u t
+alkaa,V;ACT;PRS;NEG;COND;3;SG,e i̯ ʋ ɑ l k ɑ i̯ s i,æ l k øː n ɑ l k ɑ i̯ s i
+alkaa,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː e o l i s i ɑ l k ɑ n eː t,e mː e o l i s i ɑ l k ɑ n eː t
+alkaa,V;ACT;PRS;POS;COND;3;PL,ɑ l k ɑ i̯ s i ʋ ɑ t,h y ʋ æ t ɑ l k ɑ i̯ s i
+alkaa,V;PASS;PRS;NEG;COND,e i̯ ʋ ɑ l e tː ɑ i̯ s i,ɑ l e tː ɑ i̯ s iː n
+alkaa,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i ɑ l e tː uˣ,e i̯ o l eˣ ɑ l e tː uˣ
+alkaa,V;ACT;PRS;POS;IMP;2;SG,ɑ l ɑ,ɑ l e t
+alkaa,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o ɑ l k ɑ n eː t,æ l k æː mː eˣ ɑ l k ɑ k o
+alkaa,V;ACT;PRS;POS;IMP;2;PL,ɑ l k ɑ k ɑː,ɑ l e tː e
+alkaa,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t ɑ l k ɑ n eː t,ɑ l k ɑ k oː t
+alkaa,V;ACT;PRS;NEG;POT;1;SG,e n ɑ l k ɑ n eˣ,e n ɑ l ɑ
+alkaa,V;ACT;PRS;NEG;POT;2;SG,e t ɑ l k ɑ n eˣ,æ l æ ɑ l ɑ
+alkaa,V;ACT;PRS;POS;POT;3;SG,ɑ l k ɑ n eː,o l i ɑ l k ɑ n eˣ
+alkaa,V;ACT;PRS;POS;POT;2;PL,ɑ l k ɑ n e tː e,ɑ l e tː e
+alkaa,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t ɑ l k ɑ n eˣ,e i̯ ʋ æ t ɑ l k ɑ n eˣ
+alkaa,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t ɑ l k ɑ n eː t,ɑ l k ɑ n e ʋ ɑ t
+alkaa,V;PASS;PRS;POS;POT,ɑ l e tː ɑ n eː n,ɑ l e tː ɑ n eː n
+alkaa,V;PASS;PRS;NEG;POT,e i̯ ʋ ɑ l e tː ɑ n eˣ,e i̯ o t e tː ɑ n eˣ
+alkaa,V;NFIN;ACT+PASS,ɑ l k ɑː,p y r k i æˣ
+alkaa,V;NFIN;1;PASS,ɑ l k ɑː k s eː n,s iː tː æː k s eː n
+alkaa,V;NFIN;2;ACT;INS,ɑ l k ɑ e n,k ɑ s ʋ ɑ e n
+alkaa,V;NFIN;3;ACT;IN+ALL,ɑ l k ɑ m ɑː n,ɑ l k ɑ m ɑː n
+alkaa,V;NFIN;3;ACT;AT+ESS,ɑ l k ɑ m ɑ lː ɑ,ɑ l k ɑ m ɑ lː ɑ
+liittyä,V;ACT;PRS;POS;IND;1;PL,l iː t y mː eˣ,l iː t y n e mː e
+liittyä,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e l iː tː y n eː t,o l e tː e
+liittyä,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t l iː t y,e i̯ l iː t y
+liittyä,V;PASS;PRS;PRF;POS;IND,o n,o n
+liittyä,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t l iː tː y n y t,e i̯ o lː u t l iː tː y n y t
+liittyä,V;ACT;PST;POS;IND;2;PL,l iː t y i̯ tː eˣ,l iː t y tː eˣ
+liittyä,V;ACT;PST;POS;IND;3;PL,l iː tː y i̯ ʋ æ t,h y ʋ æ t l iː tː y n eː t
+liittyä,V;PASS;PST;PRF;POS;IND,o l i l iː t y tː yˣ,o l i
+liittyä,V;ACT;PRS;POS;COND;1;SG,l iː tː y i̯ s i n,l iː tː y i̯ s i n
+liittyä,V;ACT;PRS;NEG;COND;3;SG,e i̯ l iː tː y i̯ s i,e t l iː tː y i̯ s i
+liittyä,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i l iː tː y n y t,e i̯ o l i s i l iː tː y n y t
+liittyä,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ l iː tː y i̯ s i,e mː eˣ l iː t y
+liittyä,V;ACT;PRS;NEG;COND;2;PL,e tː e l iː tː y i̯ s i,e tː e o tː ɑ i̯ s i
+liittyä,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ l iː tː y n eː t,o l i s i tː eˣ l iː tː y n eː t
+liittyä,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t l iː tː y n eː t,o l i ʋ ɑ t s i s i l iː tː y n eː t
+liittyä,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n l iː tː y n y t,o l k oː n l iː tː y n y t
+liittyä,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o l iː tː y n eː t,e mː e o l eˣ l iː tː y n eː t
+liittyä,V;ACT;PRS;POS;IMP;2;PL,l iː tː y k æː,l iː tː y n e tː eˣ
+liittyä,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t l iː tː y n eː t,l iː tː y k øː t
+liittyä,V;ACT;PRS;PRF;NEG;IMP;3;PL,æ l k øː t o l k o l iː tː y n eː t,æ l k øː t o l eˣ l iː tː y n eː t
+liittyä,V;ACT;PRS;NEG;POT;1;SG,e n l iː tː y n eˣ,e n l iː tː y n eˣ
+liittyä,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ l iː tː y n y t,e n l i e̯ n eˣ l iː tː y n y t
+liittyä,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ l iː tː y n eˣ,e mː eˣ l iː tː y n eː
+liittyä,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ l iː tː y n eː t,l i e̯ n i mː eˣ l iː tː y n eː t
+liittyä,V;ACT;PRS;POS;POT;3;PL,l iː tː y n e ʋ æ t,n æ y̯ tː æ n e ʋ æ t
+liittyä,V;NFIN;2;ACT;IN+ESS,l iː tː y e sː æ,l iː tː y m æ sː æ
+liittyä,V;NFIN;3;ACT;IN+ABL,l iː tː y m æ s t æ,l iː tː y m æ s t æ
+liittyä,V;NFIN;4;ACT;NOM,l iː tː y m i n e n,n æ k e m i n e n
+liittyä,V;NFIN;4;PASS;NOM,l iː tː y m i n e n,l iː t y tː æ m i n e n
+liittyä,V;NFIN;4;PASS;PRT,l iː tː y m i s t æ,l iː t y tː æ m i s t æ
+kuulua,V;ACT;PRS;NEG;IND;2;SG,e t k uː l u,e t k uː l u
+kuulua,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t k uː l u n u t,o l eˣ k uː l u n u t
+kuulua,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ k uː l u n u t,e t o l eˣ k uː l u n u t
+kuulua,V;ACT;PRS;PRF;POS;IND;3;SG,o n,o l eˣ k uː l u n u t
+kuulua,V;ACT;PRS;NEG;IND;3;PL,e i̯ ʋ æ t k uː l u,e i̯ ʋ æ t k uː l u n eː t
+kuulua,V;PASS;PRS;PRF;POS;IND,o n,k uː l u t ɑː n
+kuulua,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t k uː l u n u t,e t o lː u t k uː l u n u t
+kuulua,V;ACT;PST;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o lː eː t k uː l u n eː t,e i̯ ʋ æ t o l k o k uː l u n eː t
+kuulua,V;PASS;PST;NEG;IND,e i̯ k uː l u tː uˣ,e i̯ s iː t e tː uˣ
+kuulua,V;PASS;PST;PRF;POS;IND,o l i k uː l u tː uˣ,k uː l u tː iː n
+kuulua,V;ACT;PRS;NEG;COND;1;SG,e n k uː l u i̯ s i,e n k uː l u i̯ s i
+kuulua,V;ACT;PRS;NEG;COND;3;SG,e i̯ k uː l u i̯ s i,e i̯ ʋ ɑ i̯ s i k uː l u n u t
+kuulua,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ k uː l u n eː t,o l i s i tː eˣ k uː l u n eː t
+kuulua,V;ACT;PRS;POS;COND;3;PL,k uː l u i̯ s i ʋ ɑ t,e l i s i ʋ ɑ t k uː l u n eː t
+kuulua,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i k uː l u n eː t,e i̯ ʋ æ t o l i s i
+kuulua,V;PASS;PRS;POS;COND,k uː l u tː ɑ i̯ s iː n,k uː l u tː ɑ i̯ s iː n
+kuulua,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n k uː l u k o,æ l k øː n k uː l u n u t
+kuulua,V;ACT;PRS;POS;IMP;1;PL,k uː l u k ɑː mː e,ɑ u̯ tː ɑ k ɑː mː e
+kuulua,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː k uː l u k o,e tː e k uː l u
+kuulua,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o k uː l u n eː t,e tː e o l eˣ k uː l u n eː t
+kuulua,V;ACT;PRS;POS;IMP;3;PL,k uː l u k oː t,s ɑː k oː t
+kuulua,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t k uː l u k o,æ l k øː t
+kuulua,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t k uː l u n eː t,o l k oː n k uː l u n eː t
+kuulua,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ k uː l u n u t,e n l i e̯ n eˣ k uː l u n u t
+kuulua,V;ACT;PRS;POS;POT;3;PL,k uː l u n e ʋ ɑ t,o tː ɑ n e ʋ æ t k uː l u n eː t
+kuulua,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t k uː l u n eˣ,e i̯ k uː l u n eˣ
+kuulua,V;PASS;PRS;NEG;POT,e i̯ k uː l u tː ɑ n eˣ,e i̯ k uː l u tː ɑ n eˣ
+kuulua,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː k uː l u tː uˣ,l i e̯ n eː k uː l u tː uˣ
+kuulua,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ k uː l u tː uˣ,æ l k øː n o l k o k uː l u tː uˣ
+kuulua,V;NFIN;4;PASS;NOM,k uː l u m i n e n,k uː l u m i n e n
+kuulua,V;NFIN;5;ACT,k uː l u m ɑ i̯ s i lː ɑː n,k uː l u m ɑ i̯ s i lː ɑː n
+kuulua,V;NFIN;5;PASS,k uː l u m ɑ i̯ s i lː ɑː n,k uː l u ɑ m ɑ i̯ s i lː ɑː n
+maksaa,V;ACT;PRS;NEG;IND;1;SG,e n,e n
+maksaa,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n m ɑ k s ɑ n u t,o l i m ɑ k s ɑ n
+maksaa,V;ACT;PRS;PRF;POS;IND;3;SG,o n m ɑ k s ɑ n u t,o l i m ɑ k s ɑ
+maksaa,V;ACT;PRS;NEG;IND;1;PL,e mː eˣ m ɑ k s ɑ,e mː eˣ m ɑ k s ɑ
+maksaa,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ m ɑ k s ɑ n eː t,e i̯ o l eˣ m ɑ k s ɑ n eː t
+maksaa,V;PASS;PRS;POS;IND,m ɑ k s e t ɑː n,m ɑ k s e tː ɑ i̯ s iː n
+maksaa,V;ACT;PST;PRF;POS;IND;1;SG,o l i n m ɑ k s ɑ n u t,m ɑ k s o i̯ n
+maksaa,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t m ɑ k s ɑ n u t,e mː e o lː eː t m ɑ k s ɑ n u t
+maksaa,V;PASS;PST;NEG;IND,e i̯ m ɑ k s e tː uˣ,e i̯ m ɑ k s e tː ɑ n u t
+maksaa,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t m ɑ k s e tː uˣ,e i̯ m ɑ k s e tː uˣ
+maksaa,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t m ɑ k s ɑ n u t,o l i s i m ɑ k s ɑ n u t
+maksaa,V;ACT;PRS;PRF;NEG;COND;2;SG,e t o l i s i m ɑ k s ɑ n u t,e t o l i s i m ɑ k s ɑ n u t
+maksaa,V;ACT;PRS;POS;COND;3;SG,m ɑ k s ɑ i̯ s i,m ɑ k s ɑ i̯ s i
+maksaa,V;ACT;PRS;POS;COND;1;PL,m ɑ k s ɑ i̯ s i mː e,m ɑ k s ɑ i̯ s i mː e
+maksaa,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ m ɑ k s ɑ i̯ s i,e mː eˣ m ɑ k s ɑ
+maksaa,V;ACT;PRS;NEG;COND;2;PL,e tː e m ɑ k s ɑ i̯ s i,e tː e l i s i m ɑ k s ɑ n eː t
+maksaa,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i m ɑ k s ɑ n eː t,e i̯ ʋ æ t o l i s i
+maksaa,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i m ɑ k s e tː uˣ,e i̯ o l i s i m ɑ k s e tː uˣ
+maksaa,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n m ɑ k s ɑ n u t,m ɑ k s ɑ k oː n
+maksaa,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o m ɑ k s ɑ n u t,æ l k øː n o l k o m ɑ k s ɑ n u t
+maksaa,V;ACT;PRS;POS;IMP;1;PL,m ɑ k s ɑ k ɑː mː e,m uː tː ɑ k ɑː mː e
+maksaa,V;ACT;PRS;POS;IMP;2;PL,m ɑ k s ɑ k ɑː,m ɑ k s ɑ n e tː eˣ
+maksaa,V;PASS;PRS;POS;IMP,m ɑ k s e tː ɑ k oː n,o l k oː n m ɑ k s e tː uˣ
+maksaa,V;ACT;PRS;NEG;POT;1;SG,e n,e i̯ m ɑ k s ɑ n eˣ
+maksaa,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t m ɑ k s ɑ n u t,l i e̯ n eː m ɑ k s ɑ n u t
+maksaa,V;ACT;PRS;POS;POT;3;SG,m ɑ k s ɑ n eː,m ɑ k s ɑ n eː n
+maksaa,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː m ɑ k s ɑ n u t,o l i m ɑ k s ɑ n eˣ
+maksaa,V;ACT;PRS;POS;POT;1;PL,m ɑ k s ɑ n e mː e,e l æ n e mː e
+maksaa,V;ACT;PRS;POS;POT;2;PL,m ɑ k s ɑ n e tː e,m ɑ k s ɑ n e tː e
+maksaa,V;ACT;PRS;NEG;POT;2;PL,e tː e m ɑ k s ɑ n eˣ,e i̯ m ɑ k s ɑ n e tː e
+maksaa,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ m ɑ k s ɑ n eː t,e tː e l i e̯ n eˣ m ɑ k s ɑ n eː t
+maksaa,V;ACT;PRS;POS;POT;3;PL,m ɑ k s ɑ n e ʋ ɑ t,n æ h n e ʋ æ t m ɑ k s ɑ n eː t
+maksaa,V;NFIN;2;ACT;IN+ESS,m ɑ k s ɑ e sː ɑ,m ɑ k s ɑ e sː ɑ
+maksaa,V;NFIN;3;ACT;IN+ALL,m ɑ k s ɑ m ɑː n,m ɑ k s ɑ m ɑː n
+maksaa,V;NFIN;3;PASS;INS,m ɑ k s e tː ɑ m ɑ n,m ɑ k s e tː ɑ m ɑ n
+voida,V;ACT;PRS;NEG;IND;2;SG,e t ʋ o i̯,e t ʋ o i̯
+voida,V;ACT;PRS;PRF;NEG;IND;2;SG,e t o l eˣ ʋ o i̯ n u t,e t o l eˣ ʋ o i̯ n u t
+voida,V;ACT;PRS;PRF;POS;IND;3;SG,o n ʋ o i̯ n u t,o l i ʋ o i̯
+voida,V;ACT;PRS;POS;IND;1;PL,ʋ o i̯ mː e,ʋ o i̯ mː e
+voida,V;ACT;PRS;NEG;IND;2;PL,e tː e ʋ o i̯,e tː e ʋ o i̯
+voida,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t ʋ o i̯ n eː t,e tː e s i t ʋ o i̯ n u t
+voida,V;PASS;PST;PRF;NEG;IND,e i̯ o lː u t ʋ o i̯ t uˣ,e i̯ ʋ o i̯ t uˣ
+voida,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t ʋ o i̯ n u t,o l i ʋ o i̯ s i t
+voida,V;ACT;PRS;NEG;COND;3;SG,e i̯ ʋ o i̯ s i,e i̯ ʋ ɑ i̯ s i ʋ o i̯ n u t
+voida,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i ʋ o i̯ n u t,e i̯ o l i s i ʋ o i̯ n u t
+voida,V;ACT;PRS;POS;COND;1;PL,ʋ o i̯ s i mː e,ʋ o i̯ s i mː eˣ
+voida,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ ʋ o i̯ s i,e mː eˣ ʋ o i̯ s i n eː t
+voida,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i ʋ o i̯ n eː t,e tː e o l i s i ʋ o i̯ n eː t
+voida,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t ʋ o i̯ n eː t,o l i ʋ o i̯ s i tː eˣ
+voida,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i ʋ o i̯ n eː t,e i̯ ʋ æ t o l i s i n u t
+voida,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n ʋ o i̯ k o,æ l k øː n ʋ o i̯ k o
+voida,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o ʋ o i̯ n u t,æ l k øː n ʋ o i̯ n u t
+voida,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ ʋ o i̯ n eː t,o l k ɑː mː eˣ ʋ o i̯ n eː t
+voida,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o ʋ o i̯ n eː t,e mː e o l eˣ ʋ o i̯ n eː t
+voida,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː ʋ o i̯ n eː t,l i e̯ n e tː eˣ ʋ o i̯ n eː t
+voida,V;ACT;PRS;PRF;NEG;IMP;2;PL,æ l k æː o l k o ʋ o i̯ n eː t,e tː e o l eˣ ʋ o i̯ n eː t
+voida,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ ʋ o i̯ n u t,e n l i e̯ n eˣ ʋ o i̯ n u t
+voida,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t ʋ o i̯ n u t,o l i ʋ o i̯ n eˣ
+voida,V;ACT;PRS;PRF;POS;POT;3;PL,l i e̯ n e ʋ æ t ʋ o i̯ n eː t,l i e̯ n e ʋ ɑ t
+voida,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ ʋ o i̯ n eː t,e i̯ ʋ æ t ʋ o i̯ n eˣ
+voida,V;PASS;PRS;POS;POT,ʋ o i̯ t ɑ n eː n,l i e̯ n eː ʋ o i̯ t uˣ
+voida,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ ʋ o i̯ t uˣ,e i̯ ʋ o i̯ t ɑ n eˣ
+voida,V;NFIN;1;ACT,ʋ o i̯ d ɑ k s eː n,ʋ o i̯ d ɑ k s eː n
+voida,V;NFIN;2;PASS;IN+ESS,ʋ o i̯ t ɑ e sː ɑ,ʋ o i̯ t ɑ tː ɑ e sː ɑ
+mennä,V;ACT;PRS;POS;IND;1;SG,m e n e n,m e n i s i n
+mennä,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n m e nː y t,o l e t m e nː y t
+mennä,V;ACT;PRS;NEG;IND;2;SG,e t m e n eˣ,e t m e n eˣ
+mennä,V;ACT;PRS;POS;IND;3;SG,m e n eː,t ɑ p ɑ h t uː
+mennä,V;ACT;PRS;PRF;NEG;IND;3;SG,e i̯ o l eˣ m e nː y t,e i̯ o l i s i m e nː y t
+mennä,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː e m e nː eː t,o l e mː e
+mennä,V;ACT;PRS;POS;IND;2;PL,m e n e tː e,m e n e t k ɑːˣ
+mennä,V;ACT;PRS;NEG;IND;2;PL,e tː e m e n eˣ,e tː e o l e m e nː eː t
+mennä,V;PASS;PRS;POS;IND,m e nː æː n,m e nː e t ɑː n
+mennä,V;ACT;PST;NEG;IND;1;SG,e n m e nː y t,e n m e nː y t
+mennä,V;ACT;PST;PRF;POS;IND;3;SG,o l i m e nː y t,o l i m e nː eː t
+mennä,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ m e nː eː t,o l i mː eˣ
+mennä,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t m e nː eː t,e mː eˣ m e nː eː t
+mennä,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t m e nː eː t,h y ʋ æ t o lː eː t m e nː eː t
+mennä,V;ACT;PRS;NEG;COND;1;SG,e n m e n i s i,e n m e n i s i
+mennä,V;ACT;PRS;NEG;COND;2;PL,e tː e m e n i s i,e i̯ m e n i s i tː eˣ
+mennä,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i m e nː eː t,e tː e o l i s i
+mennä,V;ACT;PRS;POS;IMP;2;SG,m e n eˣ,m e ŋ k øː n
+mennä,V;ACT;PRS;NEG;IMP;2;SG,æ l æ m e n eˣ,æ l k øː n m e ŋ k ø
+mennä,V;ACT;PRS;PRF;POS;IMP;2;SG,o l eˣ m e nː y t,o l k oː n m e nː eː t
+mennä,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n m e nː y t,l i e̯ n eː m e nː eː t
+mennä,V;ACT;PRS;PRF;NEG;IMP;3;SG,æ l k øː n o l k o m e nː y t,æ l k øː n o l eˣ m e nː eː t
+mennä,V;ACT;PRS;POS;IMP;1;PL,m e ŋ k æː mː e,m e ŋ k æː mː eˣ
+mennä,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ m e nː y t,e n l i e̯ n eˣ m e nː y t
+mennä,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t m e nː y t,l i e̯ n eː m e nː eː t
+mennä,V;ACT;PRS;POS;POT;3;SG,m e nː eː,l i e̯ n eː m e nː eː t
+mennä,V;ACT;PRS;POS;POT;1;PL,m e nː e mː e,s iː tː æ n e mː e
+mennä,V;ACT;PRS;NEG;POT;1;PL,e mː e m e nː eˣ,æ l k æː mː eˣ m e m e ŋ k ø
+mennä,V;ACT;PRS;NEG;POT;2;PL,e tː e m e nː eˣ,m e nː e tː e
+mennä,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː e m e nː eː t,o l i tː eˣ m e nː eˣ
+mennä,V;PASS;PRS;NEG;POT,e i̯ m e n t æ n eˣ,e i̯ t e tː æ n eˣ
+mennä,V;PASS;PRS;PRF;NEG;POT,e i̯ l i e̯ n eˣ m e n t y,l i e̯ n eː m e n t y
+mennä,V;NFIN;2;ACT;IN+ESS,m e nː e sː æ,m e n e m æ sː æ
+mennä,V;NFIN;2;PASS;IN+ESS,m e n t æ e sː æ,m e n i tː æ e sː æ
+mennä,V;NFIN;3;ACT;IN+ALL,m e n e m æː n,m e n e m æː n
+mennä,V;NFIN;3;PASS;INS,m e n t æ m æ n,m e n t æ m æ n
+haluta,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n h ɑ l u nː u t,o l e n ɑ l k ɑ n u t
+haluta,V;ACT;PRS;POS;IND;2;PL,h ɑ l u ɑ tː eˣ,t ɑ k s e tː eˣ
+haluta,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e h ɑ l u nː eː t,o l e n e tː e h ɑ l u nː eː t
+haluta,V;ACT;PST;POS;IND;1;SG,h ɑ l u s i n,h ɑ l u s i
+haluta,V;ACT;PST;PRF;POS;IND;1;SG,o l i n h ɑ l u nː u t,o l i mː eˣ h ɑ l u nː u t
+haluta,V;ACT;PST;POS;IND;2;SG,h ɑ l u s i t,h ɑ l u s i
+haluta,V;ACT;PST;NEG;IND;2;SG,e t h ɑ l u nː u t,e t h ɑ l u nː u t
+haluta,V;ACT;PST;POS;IND;2;PL,h ɑ l u s i tː eˣ,h ɑ l u s i tː eˣ
+haluta,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t h ɑ l u nː eː t,o l i ʋ ɑ t
+haluta,V;ACT;PRS;POS;COND;1;SG,h ɑ l u ɑ i̯ s i n,h ɑ l u ɑ i̯ s i n
+haluta,V;ACT;PRS;NEG;COND;1;SG,e n,e mː e l i s i h ɑ l u nː eː t
+haluta,V;ACT;PRS;NEG;COND;3;SG,e i̯ h ɑ l u ɑ i̯ s i,e i̯ ʋ ɑ i̯ s i h ɑ l u nː u t
+haluta,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t h ɑ l u ɑ i̯ s i,e tː e h ɑ l u ɑ i̯ s i
+haluta,V;ACT;PRS;PRF;NEG;COND;3;PL,e i̯ ʋ æ t o l i s i h ɑ l u nː eː t,e i̯ ʋ æ t o l i s i
+haluta,V;PASS;PRS;PRF;POS;COND,o l i s i h ɑ l u tː uˣ,o l i s i h ɑ l u tː uˣ
+haluta,V;ACT;PRS;POS;IMP;3;SG,h ɑ l u t k oː n,h ɑ l u ɑˣ
+haluta,V;ACT;PRS;POS;IMP;1;PL,h ɑ l u t k ɑː mː e,ʋ o i̯ k ɑː mː e
+haluta,V;ACT;PRS;NEG;IMP;1;PL,æ l k æː mː eˣ h ɑ l u t k o,æ l k æː mː eˣ h ɑ l u nː u t
+haluta,V;ACT;PRS;POS;IMP;2;PL,h ɑ l u t k ɑːˣ,h ɑ l u nː e tː eˣ
+haluta,V;ACT;PRS;POS;IMP;3;PL,h ɑ l u t k oː t,o l k oː t
+haluta,V;PASS;PRS;POS;IMP,h ɑ l u tː ɑ k oː n,o l k oː n h ɑ l u tː uˣ
+haluta,V;ACT;PRS;PRF;NEG;POT;1;PL,e mː eˣ l i e̯ n eˣ h ɑ l u nː eː t,e n l i e̯ n eˣ h ɑ l u nː eː t
+haluta,V;NFIN;1;PASS,h ɑ l u t ɑ k s eː n,h ɑ l u t ɑ k s eː n
+haluta,V;NFIN;3;ACT;AT+ESS,h ɑ l u ɑ m ɑ lː ɑ,h ɑ l u ɑ m ɑ lː ɑ
+haluta,V;NFIN;5;PASS,h ɑ l u ɑ m ɑ i̯ s i lː ɑː n,h ɑ l u tː ɑ m ɑ i̯ s i lː ɑː n
+esittää,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ e s i tː æ n y t,e n o l eˣ e s i tː æ n y t
+esittää,V;ACT;PRS;POS;IND;3;SG,e s i tː æːˣ,e s i tː æ n eː
+esittää,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː e e s i tː æ n eː t,e s i t æ mː eˣ
+esittää,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e e s i tː æ n eː t,e tː e o l i s i e s i tː æ n eː t
+esittää,V;PASS;PRS;NEG;IND,e i̯ e s i t e t æˣ,e s i t e t æː n
+esittää,V;PASS;PRS;PRF;NEG;IND,e i̯ o l eˣ e s i t e tː yˣ,e i̯ o l eˣ e s i t e tː yˣ
+esittää,V;ACT;PST;POS;IND;1;PL,e s i t i mː e,h o i̯ d i mː eˣ e s i tː æ n eː t
+esittää,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ e s i tː æ n eː t,t i e̯ s i mː eˣ e s i tː æ n eː t
+esittää,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t e s i tː æ n eː t,e mː e o lː eː t e s i tː æ n eː t
+esittää,V;ACT;PST;NEG;IND;2;PL,e tː e e s i tː æ n eː t,e i̯ e s i tː eˣ e s i t e tː uˣ
+esittää,V;ACT;PST;PRF;POS;IND;2;PL,o l i tː eˣ e s i tː æ n eː t,o l i tː e t e s i tː æ n y t
+esittää,V;ACT;PST;NEG;IND;3;PL,e i̯ ʋ æ t e s i tː æ n eː t,e i̯ ʋ æ t e s i tː æ k ø
+esittää,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t e s i tː æ n y t,o l i t e s i s i tː æ n y t
+esittää,V;ACT;PRS;POS;COND;3;SG,e s i tː æ i̯ s i,e s i tː æ i̯ s i
+esittää,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i e s i tː æ n y t,e i̯ o l i s i e s i tː æ n y t
+esittää,V;ACT;PRS;NEG;COND;2;PL,e tː e e s i tː æ i̯ s i,e tː e t e s i tː æ i̯ s i
+esittää,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t e s i tː æ i̯ s i,e i̯ ʋ æ t e s i s i tː æ n eː t
+esittää,V;PASS;PRS;POS;COND,e s i t e tː æ i̯ s iː n,e s i t e tː æ i̯ s iː n
+esittää,V;ACT;PRS;NEG;IMP;2;SG,æ l æ e s i t æˣ,e t e s i tː æ k øː n
+esittää,V;ACT;PRS;POS;IMP;3;SG,e s i tː æ k øː n,æ l k øː n e s i tː æ k ø
+esittää,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o e s i tː æ n eː t,æ l k æː mː eˣ e s i tː æ n y t æ l æ o l eˣ t i e̯ nː
+esittää,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t e s i tː æ n eː t,e s i tː æ k øː t
+esittää,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n e s i tː æ n y t,l i e̯ n e s i tː æ n y t
+esittää,V;ACT;PRS;PRF;NEG;POT;1;SG,e n l i e̯ n eˣ e s i tː æ n y t,e n l i e̯ n eˣ e s i tː æ n y t
+esittää,V;ACT;PRS;POS;POT;1;PL,e s i tː æ n e mː e,e s i tː æ i̯ s i mː eˣ
+esittää,V;ACT;PRS;POS;POT;2;PL,e s i tː æ n e tː e,e s i t e tː e
+esittää,V;ACT;PRS;NEG;POT;2;PL,e tː e e s i tː æ n eˣ,e t e s i tː æ n eˣ
+esittää,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ e s i tː æ n eː t,e tː e l i e̯ n eˣ e s i tː æ n eː t
+esittää,V;NFIN;2;ACT;IN+ESS,e s i tː æ e sː æ,e s i t æ e sː æ
+esittää,V;NFIN;3;ACT;AT+ESS,e s i tː æ m æ lː æ,e s i tː æ m æ lː æ
+esittää,V;NFIN;3;ACT;PRIV,e s i tː æ m æ tː æ,e s i tː æ m æ tː æ
+esittää,V;NFIN;3;ACT;INS,e s i tː æ m æ n,e s i tː æ m æ n
+esittää,V;NFIN;4;ACT;PRT,e s i tː æ m i s t æ,e s i tː æ m i s t ɑ
+esittää,V;NFIN;4;PASS;PRT,e s i tː æ m i s t æ,e s i tː æ m i s t æ
+osata,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n o s ɑ nː u t,o l e mː eˣ o s ɑ nː u t
+osata,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ o s ɑ nː u t,e n o l eˣ o s ɑ nː u t
+osata,V;ACT;PRS;NEG;IND;2;SG,e t o s ɑːˣ,e i̯ o s ɑː
+osata,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t o s ɑ nː u t,o l eˣ o s ɑ nː u t
+osata,V;ACT;PRS;PRF;POS;IND;2;PL,o l e tː e o s ɑ nː eː t,o l e tː e t o s ɑ nː u t
+osata,V;ACT;PRS;PRF;NEG;IND;3;PL,e i̯ ʋ æ t o l eˣ o s ɑ nː eː t,e i̯ ʋ æ t o l k o o s ɑ nː eː t
+osata,V;ACT;PST;NEG;IND;1;SG,e n,e n o s ɑ nː u t
+osata,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t o s ɑ nː u t,e n o lː u t o s ɑ nː u t
+osata,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t o s ɑ nː u t,e i̯ o lː u t o s ɑ nː u t
+osata,V;PASS;PST;POS;IND,o s ɑ tː iː n,s iː t e tː iː n
+osata,V;PASS;PST;PRF;POS;IND,o l i o s ɑ tː uˣ,o s ɑ nː e tː iː n
+osata,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n o s ɑ nː u t,o s ɑ i̯ s i n
+osata,V;ACT;PRS;POS;COND;2;SG,o s ɑ i̯ s i t,o s ɑ i̯ s i t
+osata,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t o s ɑ nː u t,o l e t o s ɑ i̯ s i n eː t
+osata,V;ACT;PRS;NEG;COND;1;PL,e mː eˣ o s ɑ i̯ s i,e mː eˣ l i s i o s ɑ nː eː t
+osata,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t o s ɑ i̯ s i,e i̯ ʋ æ t s i s i
+osata,V;ACT;PRS;PRF;POS;COND;3;PL,o l i s i ʋ ɑ t o s ɑ nː eː t,o l i s i ʋ ɑ t
+osata,V;PASS;PRS;PRF;POS;COND,o l i s i o s ɑ tː uˣ,o l i s i o s ɑ tː uˣ
+osata,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n o s ɑ nː u t,o l eˣ o s ɑ nː u t
+osata,V;ACT;PRS;POS;IMP;1;PL,o s ɑ t k ɑː mː eˣ,k æ y̯ tː æ k æː mː eˣ
+osata,V;ACT;PRS;NEG;IMP;2;PL,æ l k æː o s ɑ t k o,e tː e o s ɑːˣ
+osata,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t o s ɑ nː eː t,o s ɑ t k oː t
+osata,V;PASS;PRS;NEG;IMP,æ l k øː n o s ɑ tː ɑ k o,æ l k øː n o s ɑ tː uˣ
+osata,V;PASS;PRS;PRF;NEG;IMP,æ l k øː n o l k o o s ɑ tː uˣ,e i̯ o l eˣ o s ɑ tː uˣ
+osata,V;ACT;PRS;NEG;POT;1;SG,e n o s ɑ nː eˣ,e n o s ɑ nː eˣ
+osata,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ o s ɑ nː u t,e t l i e̯ n eˣ o s ɑ nː u t
+osata,V;ACT;PRS;NEG;POT;1;PL,e mː eˣ o s ɑ nː eˣ,e mː e l i e̯ n eˣ o s ɑ nː eː t
+osata,V;ACT;PRS;PRF;NEG;POT;1;PL,e mː e l i e̯ n eˣ o s ɑ nː eː t,e mː e l i e̯ n eˣ o s ɑ nː eː t
+osata,V;ACT;PRS;NEG;POT;3;PL,e i̯ ʋ æ t o s ɑ nː eˣ,e i̯ o s ɑ nː e mː e
+osata,V;NFIN;1;ACT,o s ɑ t ɑ k s eː n,t i e̯ t æː k s eː n
+osata,V;NFIN;2;ACT;IN+ESS,o s ɑ t e sː ɑ,o s ɑ tː ɑ e sː ɑ
+osata,V;NFIN;2;PASS;IN+ESS,o s ɑ tː ɑ e sː ɑ,o s ɑ tː ɑ e sː ɑ
+osata,V;NFIN;3;ACT;INS,o s ɑː m ɑ n,o s ɑː m ɑ n
+osata,V;NFIN;4;PASS;NOM,o s ɑː m i n e n,o s ɑː m i n e n
+osata,V;NFIN;4;PASS;PRT,o s ɑː m i s t ɑ,o s ɑː m i s t ɑˣ
+osata,V;NFIN;5;ACT,o s ɑː m ɑ i̯ s i lː ɑː n,o s ɑː m ɑ i̯ s i lː ɑː n
+päättää,V;ACT;PRS;PRF;POS;IND;1;SG,o l e n p æː tː æ n y t,l i e̯ n e n p æː tː æ n y t
+päättää,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t p æː tː æ n y t,o l e t t ɑ k s ɑ n eː t
+päättää,V;ACT;PST;PRF;POS;IND;1;SG,o l i n p æː tː æ n y t,o l i n
+päättää,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ p æː tː æ n eː t,o l i mː eˣ p æː tː æ n eː t
+päättää,V;ACT;PST;NEG;IND;2;PL,e tː e p æː tː æ n eː t,e tː e p æː tː æ n eː t
+päättää,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t p æː tː æ n eː t,e tː e o lː eː t p æː tː æ n eː t
+päättää,V;PASS;PST;PRF;POS;IND,o l i p æː t e tː yˣ,p æː t e tː iː n
+päättää,V;ACT;PRS;PRF;POS;COND;1;SG,o l i s i n p æː tː æ n y t,p æː tː æ i̯ s i n
+päättää,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i p æː tː æ n y t,e i̯ o l i s i p æː tː æ n y t
+päättää,V;ACT;PRS;POS;COND;1;PL,p æː tː æ i̯ s i mː eˣ,o l i mː eˣ p æː tː æ i̯ s i
+päättää,V;ACT;PRS;PRF;POS;COND;1;PL,o l i s i mː eˣ p æː tː æ n eː t,p æː t i mː eˣ t o i̯ s i
+päättää,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ p æː tː æ n eː t,o l i s i t p æː tː æ n eː t
+päättää,V;ACT;PRS;NEG;COND;3;PL,e i̯ ʋ æ t p æː tː æ i̯ s i,e tː e p æː tː æ i̯ s i
+päättää,V;PASS;PRS;PRF;POS;COND,o l i s i p æː t e tː yˣ,p æː t e tː æ i̯ s iː n
+päättää,V;ACT;PRS;POS;IMP;3;SG,p æː tː æ k øː n,p æː tː æ k øː n
+päättää,V;ACT;PRS;PRF;POS;IMP;1;PL,o l k ɑː mː eˣ p æː tː æ n eː t,o l k ɑː mː eˣ p æː tː æ n eː t
+päättää,V;ACT;PRS;POS;IMP;2;PL,p æː tː æ k æː,æ l k æː p æː tː æ k ø
+päättää,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t p æː tː æ k ø,æ l k øː t o tː ɑ k o
+päättää,V;ACT;PRS;PRF;POS;IMP;3;PL,o l k oː t p æː tː æ n eː t,p æː tː æ k øː t
+päättää,V;ACT;PRS;PRF;POS;POT;3;SG,l i e̯ n eː p æː tː æ n y t,o l i p æː tː æ n eˣ
+päättää,V;ACT;PRS;PRF;POS;POT;1;PL,l i e̯ n e mː eˣ p æː tː æ n eː t,l i e̯ n e mː eˣ p æː tː æ n y t
+päättää,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ p æː tː æ n eː t,o l i tː eˣ p æː tː æ n eˣ
+päättää,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː,l i e̯ n e t p æː t e tː uˣ
+päättää,V;NFIN;2;PASS;IN+ESS,p æː t e tː æ e sː æ,p æː t e tː ɑ e sː ɑ
+tarjota,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ t ɑ r j o nː u t,e n o l eˣ t ɑ r j o nː u t
+tarjota,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t t ɑ r j o nː u t,o l e t ɑ r j o ɑˣ
+tarjota,V;ACT;PRS;POS;IND;1;PL,t ɑ r j o ɑ mː eˣ,o l e mː eˣ t ɑ r j o nː eː t
+tarjota,V;ACT;PRS;PRF;POS;IND;1;PL,o l e mː eˣ t ɑ r j o nː eː t,o l e mː eˣ ʋ ɑ t t ɑ r j o nː eː t
+tarjota,V;PASS;PRS;PRF;POS;IND,o n,o n t ɑ r j o tː uˣ
+tarjota,V;ACT;PST;NEG;IND;3;SG,e i̯ t ɑ r j o nː u t,e i̯ ʋ ɑ t ɑ r j o nː u t
+tarjota,V;ACT;PST;PRF;NEG;IND;3;SG,e i̯ o lː u t t ɑ r j o nː u t,e i̯ o lː u t t ɑ r j o nː u t
+tarjota,V;ACT;PST;NEG;IND;1;PL,e mː eˣ t ɑ r j o nː eː t,e mː eˣ o lː eː t t ɑ r j o nː eː t
+tarjota,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t t ɑ r j o nː eː t,e tː e o lː eː t t ɑ r j o nː eː t
+tarjota,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t t ɑ r j o nː eː t,o l i ʋ ɑ t ɑ r j o nː eː t
+tarjota,V;ACT;PRS;PRF;POS;COND;2;SG,o l i s i t t ɑ r j o nː u t,o l i s i t ɑ r j o nː u t
+tarjota,V;ACT;PRS;NEG;COND;2;PL,e t e t ɑ r j o ɑ i̯ s i e tː e t ɑ r j o i̯ s i,e tː e t ɑ r j o ɑ i̯ s i
+tarjota,V;ACT;PRS;POS;COND;3;PL,t ɑ r j o ɑ i̯ s i ʋ ɑ tː ɑ r j o i̯ s i ʋ ɑ t,o l i s i ʋ ɑ t ɑ r j o nː eː t
+tarjota,V;PASS;PRS;PRF;NEG;COND,e i̯ o l i s i t ɑ r j o tː uˣ,e i̯ o l eˣ t ɑ r j o tː uˣ
+tarjota,V;ACT;PRS;PRF;NEG;IMP;2;SG,æ l æ o l eˣ t ɑ r j o nː u t,æ l æ o l eˣ t ɑ r j o nː u t
+tarjota,V;ACT;PRS;NEG;IMP;3;SG,æ l k øː n t ɑ r j o t k o,e i̯ t ɑ r j o ɑˣ
+tarjota,V;ACT;PRS;PRF;NEG;IMP;1;PL,æ l k æː mː eˣ o l k o t ɑ r j o nː eː t,e mː e o l eˣ t ɑ r j o nː eː t
+tarjota,V;ACT;PRS;PRF;POS;IMP;2;PL,o l k ɑː t ɑ r j o nː eː t,l i e̯ n e tː eˣ t ɑ r j o nː eː t
+tarjota,V;ACT;PRS;NEG;IMP;3;PL,æ l k øː t t ɑ r j o t k o,æ l k øː t ɑ r j o nː u t
+tarjota,V;ACT;PRS;POS;POT;2;SG,t ɑ r j o nː e t,s iː tː æ n e t ɑ r j o nː u t
+tarjota,V;ACT;PRS;PRF;POS;POT;2;SG,l i e̯ n e t t ɑ r j o nː u t,l i e̯ n e t ɑ r j o nː u t
+tarjota,V;ACT;PRS;PRF;NEG;POT;2;SG,e t l i e̯ n eˣ t ɑ r j o nː u t,e t l i e̯ n eˣ t ɑ r j o nː u t
+tarjota,V;ACT;PRS;POS;POT;3;SG,t ɑ r j o nː eː,t ɑ r j o t k oː n
+tarjota,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ t ɑ r j o nː eː t,e tː e t ɑ r j o nː eˣ
+tarjota,V;PASS;PRS;PRF;POS;POT,l i e̯ n eː t ɑ r j o tː uˣ,l i e̯ n e t ɑ r j o tː uˣ
+tarjota,V;NFIN;2;ACT;IN+ESS,t ɑ r j o t e sː ɑ,ʋ ɑ s t ɑ t e sː ɑ
+tarjota,V;NFIN;3;ACT;PRIV,t ɑ r j o ɑ m ɑ tː ɑ,t ɑ r j o ɑ m ɑ tː ɑ
+tarjota,V;NFIN;4;ACT;NOM,t ɑ r j o ɑ m i n e n,t ɑ r j o ɑ m i n e n
+omata,V;ACT;PRS;PRF;NEG;IND;2;PL,e tː e o l e o m ɑ nː eː t,e tː e o l eˣ o m ɑ nː u t
+omata,V;ACT;PRS;POS;IND;3;PL,o m ɑː ʋ ɑ t,ɑ u̯ tː ɑ ʋ ɑ t
+omata,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t o m ɑ nː u t,e n o lː u t o m ɑ nː u t
+omata,V;ACT;PST;PRF;NEG;IND;2;SG,e t o lː u t o m ɑ nː u t,e t o lː u t o m ɑ nː u t
+omata,V;ACT;PST;PRF;POS;IND;1;PL,o l i mː eˣ o m ɑ nː eː t,o l i n e mː eˣ o m ɑ nː eː t
+omata,V;ACT;PST;PRF;NEG;IND;1;PL,e mː e o lː eː t o m ɑ nː eː t,e mː eˣ o m ɑ nː u t
+omata,V;ACT;PST;POS;IND;2;PL,o m ɑ s i tː e,ɑ nː o i̯ tː eˣ
+omata,V;ACT;PST;PRF;NEG;IND;2;PL,e tː e o lː eː t o m ɑ nː eː t,e tː e t o m ɑ nː u t
+omata,V;ACT;PST;POS;IND;3;PL,o m ɑ s i ʋ ɑ t,o m ɑ s i ʋ æ t
+omata,V;ACT;PST;PRF;POS;IND;3;PL,o l i ʋ ɑ t o m ɑ nː eː t,o l i o m ɑ nː eː t
+omata,V;ACT;PRS;POS;COND;1;SG,o m ɑ i̯ s i n,o m ɑ i̯ s i n
+omata,V;ACT;PRS;POS;COND;3;SG,o m ɑ i̯ s i,o m ɑ i̯ s i
+omata,V;ACT;PRS;PRF;NEG;COND;3;SG,e i̯ o l i s i o m ɑ nː u t,e i̯ o l i s i o m ɑ nː u t
+omata,V;ACT;PRS;PRF;NEG;COND;2;PL,e tː e o l i s i o m ɑ nː eː t,e tː e o l i s i o m ɑ nː eː t
+omata,V;PASS;PRS;NEG;COND,e i̯ o m ɑ tː ɑ i̯ s i,e i̯ o m ɑ tː ɑ i̯ s i
+omata,V;ACT;PRS;PRF;POS;IMP;3;SG,o l k oː n o m ɑ nː u t,o l k oː n o m ɑ nː eː t
+omata,V;ACT;PRS;POS;IMP;3;PL,o m ɑ t k oː t,o m ɑ i̯ s i ʋ æ t
+omata,V;ACT;PRS;PRF;POS;POT;1;SG,l i e̯ n e n o m ɑ nː u t,e n l i e̯ n eˣ o m ɑ nː u t
+omata,V;ACT;PRS;NEG;POT;2;PL,e tː e o m ɑ nː eˣ,e tː e o m ɑː
+omata,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː e o m ɑ nː eː t,l i e̯ n e tː e
+omata,V;ACT;PRS;PRF;NEG;POT;3;PL,e i̯ ʋ æ t l i e̯ n eˣ o m ɑ nː eː t,e i̯ ʋ æ t o m ɑ nː eˣ
+omata,V;NFIN;1;ACT,o m ɑ t ɑ k s eː n,s iː t æ k s eː n
+omata,V;NFIN;2;PASS;IN+ESS,o m ɑ tː ɑ e sː ɑ,o m ɑ tː ɑ e sː ɑ
+omata,V;NFIN;3;ACT;IN+ABL,o m ɑː m ɑ s t ɑ,o m ɑː m ɑ s t ɑ
+omata,V;NFIN;4;ACT;NOM,o m ɑː m i n e n,o m ɑː m i n e n
+omata,V;NFIN;4;PASS;NOM,o m ɑː m i n e n,o m ɑː m i n e n
+pyrkiä,V;ACT;PRS;PRF;NEG;IND;1;SG,e n o l eˣ p y r k i n y t,e n o l eˣ p y r k i n y t
+pyrkiä,V;ACT;PRS;PRF;POS;IND;2;SG,o l e t p y r k i n y t,o l i p y r k i s i t
+pyrkiä,V;ACT;PRS;POS;IND;3;SG,p y r k iː,s o p iː
+pyrkiä,V;ACT;PRS;PRF;POS;IND;3;SG,o n,o n t u lː u t
+pyrkiä,V;ACT;PST;PRF;NEG;IND;1;SG,e n o lː u t p y r k i n y t,e n o lː u t k e rː ɑ nː u t
+pyrkiä,V;ACT;PST;PRF;POS;IND;2;SG,o l i t p y r k i n y t,o l i tː eˣ p y r k i n y t
+pyrkiä,V;ACT;PST;POS;IND;3;SG,p y r k i,t u k i
+pyrkiä,V;ACT;PST;NEG;IND;3;SG,e i̯ p y r k i n y t,e i̯ o lː u t p y r k i n eː t
+pyrkiä,V;ACT;PST;POS;IND;2;PL,p y r i tː e,p y r i tː e
+pyrkiä,V;PASS;PST;NEG;IND,e i̯ p y r i tː yˣ,e i̯ s iː t e tː uˣ
+pyrkiä,V;ACT;PRS;NEG;COND;1;SG,e n,e n s i s i
+pyrkiä,V;ACT;PRS;PRF;NEG;COND;1;PL,e mː eˣ o l i s i p y r k i n eː t,e n o l i s i p y r k i n eː t
+pyrkiä,V;ACT;PRS;PRF;POS;COND;2;PL,o l i s i tː eˣ p y r k i n eː t,o l i s i tː eˣ
+pyrkiä,V;ACT;PRS;POS;IMP;2;SG,p y r i,p y r k i k øː n
+pyrkiä,V;ACT;PRS;POS;IMP;3;PL,p y r k i k øː t,p y r k i k øː t
+pyrkiä,V;PASS;PRS;PRF;POS;IMP,o l k oː n p y r i tː yˣ,o l k oː n p y r i tː yˣ
+pyrkiä,V;ACT;PRS;POS;POT;1;PL,p y r k i n e mː e,p y r k i n e mː e
+pyrkiä,V;ACT;PRS;PRF;POS;POT;2;PL,l i e̯ n e tː eˣ p y r k i n eː t,l i e̯ n e tː eˣ o s ɑ n eː t
+pyrkiä,V;ACT;PRS;PRF;NEG;POT;2;PL,e tː e l i e̯ n eˣ p y r k i n eː t,e tː e l i e̯ n eˣ p y r k i n eː t
+pyrkiä,V;NFIN;3;ACT;IN+ESS,p y r k i m æ sː æ,p y r k i m æ sː æ
+pyrkiä,V;NFIN;3;ACT;IN+ABL,p y r k i m æ s t æ,p y r k i m æ s t æ
+pyrkiä,V;NFIN;3;ACT;IN+ALL,p y r k i m æː n,p y r k i m æː n
+pyrkiä,V;NFIN;4;ACT;NOM,p y r k i m i n e n,p y r k i m i n e n
+pyrkiä,V;NFIN;4;PASS;PRT,p y r k i m i s t æ,p y r k i m i s t æ

@@ -1,0 +1,747 @@
+lemma,paradigm_slot,target,prediction
+spotkać,V;PST;1;SG;FEM,s p ɔ t k a w a m,s p ɔ t k a w a m
+spotkać,V;COND;2;SG;MASC,s p ɔ t k a w b ɨ ɕ,s p ɔ t k a w b ɨ ɕ t͡ɕ ɛ
+spotkać,V;PST;3;SG;MASC,s p ɔ t k a w,s p ɔ t k a w
+spotkać,V;PST;2;PL,s p ɔ t k a w ɨ ɕ t͡ɕ ɛ,s p ɔ t k a w ɨ ɕ t͡ɕ ɛ
+spotkać,V;FUT;1;SG,s p ɔ t k a m,s p ɔ t k a m
+stanowić,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ ʂ
+stanowić,V;PRS;2;PL,s t a n ɔ v i t͡ɕ ɛ,s t a n ɔ v j ɔ w̃
+stanowić,V;COND;2;SG;FEM,s t a n ɔ v i w a b ɨ ɕ,s t a n ɔ v i w a b ɨ ɕ
+stanowić,V;PST;1;SG;FEM,s t a n ɔ v i w a m,s t a n ɔ v i w ɛ m
+stanowić,V;COND;1;SG;MASC,s t a n ɔ v i w b ɨ m,s t a n ɔ v i w b ɨ m
+stanowić,V;PST;2;PL;MASC;HUM,s t a n ɔ v i l i ɕ t͡ɕ ɛ,s t a n ɔ v i l i ɕ t͡ɕ ɛ
+stanowić,V;PST;1;PL;MASC;HUM,s t a n ɔ v i l i ɕ m ɨ,s t a n ɔ v i l i ɕ m ɨ
+stanowić,V;PST;3;PL;MASC;HUM,s t a n ɔ v i l i,d ɔ d a v a l i
+stanowić,V;PST;3;SG;MASC,s t a n ɔ v i w,s t a n ɔ v i w a
+stanowić,V;COND;2;PL,s t a n ɔ v i w ɨ b ɨ ɕ t͡ɕ ɛ,s t a n ɔ v i w ɨ b ɨ ɕ
+stanowić,V;COND;3;PL,s t a n ɔ v i w ɨ b ɨ,s t a n ɔ v i w ɨ b ɨ
+stanowić,V;PST;1;PL,s t a n ɔ v i w ɨ ɕ m ɨ,s t a n ɔ v i w ɨ ɕ m ɨ
+stanowić,V;IMP;2;SG,s t a n u f,s t a n ɔ v i ʂ
+dać,V;FUT;2;PL,d a t͡ɕ ɛ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ d͡ʑ a w ɨ
+dać,V;IMP;2;SG,d a j,d ɔ d a j
+dać,V;COND;1;SG;FEM,d a w a b ɨ m,d a w a b ɨ m
+dać,V;COND;2;SG;MASC,d a w b ɨ ɕ,d a v a w b ɨ ɕ
+dać,V;PST;1;SG;MASC,d a w ɛ m,d a w a m
+dać,V;PST;2;PL;MASC;HUM,d a l i ɕ t͡ɕ ɛ,d a v a l i ɕ t͡ɕ ɛ
+dać,V;PST;1;PL;MASC;HUM,d a l i ɕ m ɨ,d a l i ɕ m ɨ
+dać,V;PST;3;SG;NEUT,d a w ɔ,d ɔ d a w ɔ
+dać,V;COND;2;PL,d a w ɨ b ɨ ɕ t͡ɕ ɛ,d a w ɨ b ɨ ɕ
+dać,V;PST;1;PL,d a w ɨ ɕ m ɨ,d a v a w ɨ ɕ m ɨ
+dać,V;FUT;1;PL,d a m ɨ,b ɛ ɲ d͡ʑ ɛ m ɨ z m j ɛ n t a w ɨ
+dać,V;IMP;1;SG,ɲ ɛ x d a m,d a m
+pojawić się,V;IMP;3;PL,ɲ ɛ x,ɲ ɛ x
+pojawić się,V;IMP;3;SG,ɲ ɛ x,ɲ ɛ x
+pojawić się,V;COND;1;SG;MASC,p ɔ j a v i w b ɨ m,p ɔ j a v i w b ɨ ɕ m ɨ
+pojawić się,V;COND;3;PL;MASC;HUM,p ɔ j a v i l i b ɨ,p ɔ j a v i l i b ɨ
+pojawić się,V;PST;3;SG;NEUT,p ɔ j a v i w ɔ,p ɔ j a v i w ɔ
+pojawić się,V;FUT;3;SG,p ɔ j a v i,p a m j ɛ
+pojawić się,V;IMP;2;SG,p ɔ j a f,d ɔ d a j
+wyglądać,V;FUT;1;SG;MASC,b ɛ n d ɛ v ɨ ɡ l ɔ n d a w,b ɛ n d ɛ v ɨ ɡ l ɔ n d a w
+wyglądać,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ v ɨ ɡ l ɔ n d a l i,b ɛ n d ɔ w̃ v ɨ ɡ l ɔ n d a l i
+wyglądać,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ v ɨ ɡ l ɔ n d a w a,b ɛ ɲ d͡ʑ ɛ v ɨ ɡ l ɔ n d a w a
+wyglądać,V;IMP;3;PL,ɲ ɛ x,ɲ ɛ x
+wyglądać,V;PRS;2;PL,v ɨ ɡ l ɔ n d a t͡ɕ ɛ,v ɨ ɡ l ɔ n d a w ɨ b ɨ ɕ t͡ɕ ɛ
+wyglądać,V;NFIN,v ɨ ɡ l ɔ n d a t͡ɕ,d a t͡ɕ
+wyglądać,V;IMP;2;PL,v ɨ ɡ l ɔ n d a j t͡ɕ ɛ,v ɨ ɡ l ɔ n d a j t͡ɕ ɛ
+wyglądać,V;PST;2;SG;FEM,v ɨ ɡ l ɔ n d a w a ɕ,d a v a w a ɕ
+wyglądać,V;COND;1;PL,v ɨ ɡ l ɔ n d a w ɨ b ɨ ɕ m ɨ,v ɨ ɡ l ɔ n d a w ɨ b ɨ ɕ m ɨ
+wyglądać,V;PST;2;PL,v ɨ ɡ l ɔ n d a w ɨ ɕ t͡ɕ ɛ,v ɨ ɡ l ɔ n d a w ɨ ɕ t͡ɕ ɛ
+wyglądać,V;PST;1;PL,v ɨ ɡ l ɔ n d a w ɨ ɕ m ɨ,v ɨ ɡ l ɔ n d a w ɨ ɕ m ɨ
+używać,V;FUT;1;SG;MASC,b ɛ n d ɛ u ʐ ɨ v a w,b ɛ ɲ d͡ʑ ɛ m ɨ u ʐ ɨ v a w
+używać,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ u ʐ ɨ v a l i,b ɛ n d ɛ u ʐ ɨ v a l i
+używać,V;FUT;3;SG;NEUT,b ɛ ɲ d͡ʑ ɛ u ʐ ɨ v a w ɔ,b ɛ ɲ d͡ʑ ɛ u ʐ ɨ v a w ɔ
+używać,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ u ʐ ɨ v a w,b ɛ ɲ d͡ʑ ɛ u ʐ ɨ v a w
+używać,V;PRS;3;PL,u ʐ ɨ v a j ɔ w̃,u ʐ ɨ v a j ɔ w̃
+używać,V;IMP;2;SG,u ʐ ɨ v a j,u ʐ ɨ v a j
+używać,V;PST;1;SG;FEM,u ʐ ɨ v a w a m,u ʐ ɨ v a w a m
+używać,V;COND;2;SG;MASC,u ʐ ɨ v a w b ɨ ɕ,u ʐ ɨ v a w b ɨ ɕ t͡ɕ ɛ
+używać,V;PST;3;SG;NEUT,u ʐ ɨ v a w ɔ,u ʐ ɨ v a w ɔ
+używać,V;PST;3;PL,u ʐ ɨ v a w ɨ,u ʐ ɨ v a w ɨ
+używać,V;PRS;1;SG,u ʐ ɨ v a m,u ʐ ɨ v a m
+sprawiać,V;IMP;3;SG,ɲ ɛ x,ɲ ɛ x
+sprawiać,V;COND;3;PL,s p r a v j a w ɨ b ɨ,s p r a v j a w ɨ b ɨ
+sprawiać,V;PRS;2;SG,s p r a v j a ʂ,d a j ɛ ʂ
+pomagać,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ p ɔ m a ɡ a w,b ɛ ɲ d͡ʑ ɛ
+pomagać,V;PRS;2;PL,p ɔ m a ɡ a t͡ɕ ɛ,p ɔ m a ɡ a t͡ɕ ɛ
+pomagać,V;IMP;2;SG,p ɔ m a ɡ a j,p ɔ m a ɡ a j
+pomagać,V;COND;3;PL;MASC;HUM,p ɔ m a ɡ a l i b ɨ,p ɔ m a ɡ a l i b ɨ
+pomagać,V;PST;2;PL;MASC;HUM,p ɔ m a ɡ a l i ɕ t͡ɕ ɛ,d a v a l i ɕ t͡ɕ ɛ
+pomagać,V;PST;3;PL;MASC;HUM,p ɔ m a ɡ a l i,p ɔ m a ɡ a l i
+pomagać,V;COND;2;PL,p ɔ m a ɡ a w ɨ b ɨ ɕ t͡ɕ ɛ,p ɔ m a ɡ a w ɨ b ɨ ɕ t͡ɕ ɛ
+pomagać,V;COND;1;PL,p ɔ m a ɡ a w ɨ b ɨ ɕ m ɨ,p ɔ m a ɡ a w ɨ b ɨ ɕ m ɨ
+pomagać,V;COND;3;PL,p ɔ m a ɡ a w ɨ b ɨ,p ɔ m a ɡ a w ɨ b ɨ
+pomagać,V;PST;3;PL,p ɔ m a ɡ a w ɨ,p ɔ m a ɡ a w ɨ
+pomagać,V;PRS;2;SG,p ɔ m a ɡ a ʂ,d͡ʑ ɛ j ɛ ʂ
+pomagać,V;PRS;3;SG,p ɔ m a ɡ a,u v a ʐ a
+uwielbiać,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ u v j ɛ l b j a l i,b ɛ n d ɔ w̃ u v j ɛ l b j a l i
+uwielbiać,V;FUT;1;SG;FEM,b ɛ n d ɛ u v j ɛ l b j a w a,b ɛ n d ɛ u v j ɛ l b j a w a
+uwielbiać,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ u v j ɛ l b j a w ɨ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ u v j ɛ l b j a w ɨ
+uwielbiać,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ u v j ɛ l b j a w a,b ɛ ɲ d͡ʑ ɛ u v j ɛ l b j a w a
+uwielbiać,V;PRS;3;PL,u v j ɛ l b j a j ɔ w̃,d ɔ d a j ɔ w̃
+uwielbiać,V;COND;3;SG;FEM,u v j ɛ l b j a w a b ɨ,u v j ɛ l b j a w a b ɨ
+uwielbiać,V;PST;2;SG;FEM,u v j ɛ l b j a w a ɕ,u v j ɛ l b j a w a ɕ
+uwielbiać,V;COND;3;SG;MASC,u v j ɛ l b j a w b ɨ,u v j ɛ l b j a w b ɨ
+uwielbiać,V;PST;2;SG;MASC,u v j ɛ l b j a w ɛ ɕ,u v j ɛ l b j a w a ɕ
+uwielbiać,V;PST;3;SG;MASC,u v j ɛ l b j a w,u v j ɛ l b j a w
+uwielbiać,V;PST;2;PL,u v j ɛ l b j a w ɨ ɕ t͡ɕ ɛ,u v j ɛ l b j a w ɨ ɕ t͡ɕ ɛ
+uwielbiać,V;PST;1;PL,u v j ɛ l b j a w ɨ ɕ m ɨ,u v j ɛ l b j a w ɨ ɕ m ɨ
+uwielbiać,V;PRS;1;PL,u v j ɛ l b j a m ɨ,u v j ɛ l b j a m ɨ
+uwielbiać,V;PRS;2;SG,u v j ɛ l b j a ʂ,d͡ʑ ɛ j ɛ ʂ
+przeczytać,V;COND;1;SG;FEM,p ʂ ɛ t͡ʂ ɨ t a w a b ɨ m,p ʂ ɛ t͡ʂ ɨ t a w a b ɨ ɕ m ɨ
+przeczytać,V;PST;1;SG;FEM,p ʂ ɛ t͡ʂ ɨ t a w a m,p ʂ ɛ t͡ʂ ɨ t a w a m
+przeczytać,V;COND;2;SG;MASC,p ʂ ɛ t͡ʂ ɨ t a w b ɨ ɕ,p ʂ ɛ t͡ʂ ɨ t a w b ɨ ɕ t͡ɕ ɛ
+przeczytać,V;COND;3;PL;MASC;HUM,p ʂ ɛ t͡ʂ ɨ t a l i b ɨ,p ʂ ɛ t͡ʂ ɨ t a l i b ɨ
+przeczytać,V;PST;3;PL;MASC;HUM,p ʂ ɛ t͡ʂ ɨ t a l i,p ʂ ɛ t͡ʂ ɨ t a l i
+przeczytać,V;PST;3;SG;NEUT,p ʂ ɛ t͡ʂ ɨ t a w ɔ,p ʂ ɛ t͡ʂ ɨ t a w ɔ
+otworzyć,V;IMP;3;SG,ɲ ɛ x,ɲ ɛ x d a
+otworzyć,V;IMP;2;PL,ɔ t f u ʂ t͡ɕ ɛ,ɔ t f ɔ ʐ ɨ t͡ɕ ɛ
+otworzyć,V;NFIN,ɔ t f ɔ ʐ ɨ t͡ɕ,ɔ ɡ l ɔ n d a t͡ɕ
+otworzyć,V;COND;1;PL;MASC;HUM,ɔ t f ɔ ʐ ɨ l i b ɨ ɕ m ɨ,ɔ t f ɔ ʐ ɨ l i b ɨ ɕ m ɨ
+otworzyć,V;COND;2;PL,ɔ t f ɔ ʐ ɨ w ɨ b ɨ ɕ t͡ɕ ɛ,ɔ t f ɔ ʐ ɨ w ɨ b ɨ ɕ t͡ɕ ɛ
+otworzyć,V;COND;3;PL,ɔ t f ɔ ʐ ɨ w ɨ b ɨ,ɔ t f ɔ ʐ ɨ w ɨ b ɨ
+otworzyć,V;PST;2;PL,ɔ t f ɔ ʐ ɨ w ɨ ɕ t͡ɕ ɛ,ɔ t f ɔ ʐ ɨ t͡ɕ ɛ
+otworzyć,V;FUT;1;PL,ɔ t f ɔ ʐ ɨ m ɨ,z m j ɛ m ɨ
+wybrać,V;IMP;2;SG,v ɨ b j ɛ ʂ,v ɨ b r a w a j
+wybrać,V;COND;2;SG;FEM,v ɨ b r a w a b ɨ ɕ,v ɨ b r a w a b ɨ ɕ t͡ɕ ɛ
+wybrać,V;PST;1;SG;MASC,v ɨ b r a w ɛ m,v ɨ b r a w ɛ m
+wybrać,V;PST;2;SG;MASC,v ɨ b r a w ɛ ɕ,v ɨ b r a w a ɕ
+wybrać,V;PST;3;PL,v ɨ b r a w ɨ,v ɨ b r a w ɨ
+leczyć,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ l ɛ t͡ʂ ɨ l i,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ l ɛ t͡ʂ ɨ l i
+leczyć,V;FUT;1;SG;FEM,b ɛ n d ɛ l ɛ t͡ʂ ɨ w a,b ɛ ɲ d͡ʑ ɛ l ɛ t͡ʂ ɨ w a m
+leczyć,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ l ɛ t͡ʂ ɨ l i,b ɛ ɲ d͡ʑ ɛ m ɨ p ɔ z v a l i
+leczyć,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ l ɛ t͡ʂ ɨ w,b ɛ ɲ d͡ʑ ɛ ʂ
+leczyć,V;IMP;2;PL,l ɛ t͡ʂ t͡ɕ ɛ,l ɛ t͡ʂ ɨ t͡ɕ ɛ
+leczyć,V;COND;2;PL;MASC;HUM,l ɛ t͡ʂ ɨ l i b ɨ ɕ t͡ɕ ɛ,l ɛ t͡ʂ ɨ l i b ɨ ɕ
+leczyć,V;COND;2;PL,l ɛ t͡ʂ ɨ w ɨ b ɨ ɕ t͡ɕ ɛ,l ɛ t͡ʂ ɨ w ɨ b ɨ ɕ
+połączyć,V;IMP;1;SG,ɲ ɛ x,ɲ ɛ x d ɔ d a m
+połączyć,V;COND;2;SG;MASC,p ɔ w ɔ n t͡ʂ ɨ w b ɨ ɕ,p ɔ w ɔ n t͡ʂ ɨ w b ɨ ɕ t͡ɕ ɛ
+połączyć,V;PST;2;SG;MASC,p ɔ w ɔ n t͡ʂ ɨ w ɛ ɕ,p ɔ w ɔ n t͡ʂ ɨ w ɛ ɕ
+połączyć,V;COND;2;PL;MASC;HUM,p ɔ w ɔ n t͡ʂ ɨ l i b ɨ ɕ t͡ɕ ɛ,p ɔ w ɔ n t͡ʂ ɨ l i b ɨ ɕ t͡ɕ ɛ
+połączyć,V;COND;1;PL;MASC;HUM,p ɔ w ɔ n t͡ʂ ɨ l i b ɨ ɕ m ɨ,p ɔ w ɔ n t͡ʂ ɨ l i b ɨ ɕ m ɨ
+połączyć,V;COND;3;PL;MASC;HUM,p ɔ w ɔ n t͡ʂ ɨ l i b ɨ,p ɔ w ɔ n t͡ʂ ɨ l i b ɨ
+połączyć,V;PST;3;PL;MASC;HUM,p ɔ w ɔ n t͡ʂ ɨ l i,p ɔ w ɔ n t͡ʂ ɨ l i
+połączyć,V;COND;1;PL,p ɔ w ɔ n t͡ʂ ɨ w ɨ b ɨ ɕ m ɨ,p ɔ w ɔ n t͡ʂ ɨ w ɨ b ɨ ɕ m ɨ
+połączyć,V;PST;1;PL,p ɔ w ɔ n t͡ʂ ɨ w ɨ ɕ m ɨ,p ɔ w ɔ n t͡ʂ ɨ w ɨ ɕ m ɨ
+połączyć,V;PST;3;PL,p ɔ w ɔ n t͡ʂ ɨ w ɨ,p ɔ w ɔ n t͡ʂ ɨ w ɨ
+wymagać,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ v ɨ m a ɡ a l i,v ɨ m a ɡ a l i
+wymagać,V;FUT;3;PL,b ɛ n d ɔ w̃ v ɨ m a ɡ a w ɨ,b ɛ ɲ d͡ʑ ɛ v ɨ m a ɡ a w ɨ
+wymagać,V;FUT;1;SG;FEM,b ɛ n d ɛ v ɨ m a ɡ a w a,b ɛ ɲ d͡ʑ ɛ m ɨ v ɨ m a ɡ a w a
+wymagać,V;IMP;3;SG,ɲ ɛ x,ɲ ɛ x
+wymagać,V;PRS;2;PL,v ɨ m a ɡ a t͡ɕ ɛ,v ɨ m a ɡ a t͡ɕ ɛ
+wymagać,V;IMP;1;PL,v ɨ m a ɡ a j m ɨ,v ɨ m a ɡ a j m ɨ
+wymagać,V;PST;3;SG;FEM,v ɨ m a ɡ a w a,v ɨ m a ɡ a w a
+wymagać,V;PST;1;SG;MASC,v ɨ m a ɡ a w ɛ m,v ɨ m a ɡ a w ɛ m
+wymagać,V;COND;2;PL;MASC;HUM,v ɨ m a ɡ a l i b ɨ ɕ t͡ɕ ɛ,v ɨ m a ɡ a l i b ɨ ɕ t͡ɕ ɛ
+wymagać,V;PST;3;SG;NEUT,v ɨ m a ɡ a w ɔ,v ɨ m a ɡ a w ɔ
+wymagać,V;PRS;2;SG,v ɨ m a ɡ a ʂ,v ɨ m a ɡ a j
+działać,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ ɲ d͡ʑ a w a l i,b ɛ ɲ d͡ʑ ɛ d͡ʑ a w a w a l i
+działać,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ d͡ʑ a w a w,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ d͡ʑ a w a w
+działać,V;NFIN,d͡ʑ a w a t͡ɕ,d͡ʑ a w a t͡ɕ
+działać,V;IMP;2;PL,d͡ʑ a w a j t͡ɕ ɛ,d͡ʑ a w a j t͡ɕ ɛ
+działać,V;COND;2;SG;MASC,d͡ʑ a w a w b ɨ ɕ,d͡ʑ a w a w b ɨ ɕ
+działać,V;PRS;3;SG,d͡ʑ a w a,d͡ʑ a w a ʂ
+pojawiać się,V;FUT;1;SG;FEM,b ɛ n d ɛ,b ɛ ɲ d͡ʑ ɛ m ɨ p ɔ j a v j a w a
+pojawiać się,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ p ɔ j a v j a w ɨ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ p ɔ j a v j a w ɨ
+pojawiać się,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ p ɔ j a v j a w a,b ɛ ɲ d͡ʑ ɛ p ɔ j a v j a w a
+pojawiać się,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ p ɔ j a v j a w,b ɛ ɲ d͡ʑ ɛ p ɔ j a v j a w
+pojawiać się,V;COND;1;SG;MASC,p ɔ j a v j a w b ɨ m,p ɔ j a v j a w b ɨ m
+pojawiać się,V;COND;2;SG;MASC,p ɔ j a v j a w b ɨ ɕ,p ɔ j a v j a w b ɨ ɕ t͡ɕ ɛ
+pojawiać się,V;COND;3;SG;MASC,p ɔ j a v j a w b ɨ,p ɔ j a v j a w b ɨ
+pojawiać się,V;COND;1;PL;MASC;HUM,p ɔ j a v j a l i b ɨ ɕ m ɨ,p ɔ j a v j a l i b ɨ ɕ m ɨ
+pojawiać się,V;PST;3;PL;MASC;HUM,p ɔ j a v j a l i,p ɔ j a v j a l i
+pojawiać się,V;PST;3;SG;NEUT,p ɔ j a v j a w ɔ,p ɔ j a v j a w ɔ
+pojawiać się,V;PST;1;PL,p ɔ j a v j a w ɨ ɕ m ɨ,p ɔ j a v j a w ɨ ɕ m ɨ
+pojawiać się,V;PRS;3;SG,p ɔ j a v j a,p ɔ j a v j a
+tworzyć,V;FUT;1;SG;FEM,b ɛ n d ɛ t f ɔ ʐ ɨ w a,b ɛ n d ɛ t f ɔ ʐ ɨ w a
+tworzyć,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ t f ɔ ʐ ɨ l i,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ t f ɔ ʐ ɨ l i
+tworzyć,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ t f ɔ ʐ ɨ w ɨ,b ɛ n d ɛ t f ɔ ʐ ɨ w ɨ
+tworzyć,V;PRS;3;PL,t f ɔ ʐ ɔ w̃,t f ɔ ʐ ɨ w ɨ b ɨ
+tworzyć,V;IMP;1;PL,t f u ʐ m ɨ,t f ɔ ʐ ɨ m ɨ
+tworzyć,V;PST;1;SG;FEM,t f ɔ ʐ ɨ w a m,t f ɔ ʐ ɨ w a m
+tworzyć,V;PST;1;SG;MASC,t f ɔ ʐ ɨ w ɛ m,t f ɔ ʐ ɨ w ɛ m
+tworzyć,V;PST;3;SG;NEUT,t f ɔ ʐ ɨ w ɔ,t f ɔ ʐ ɨ w ɔ
+tworzyć,V;PST;3;SG;MASC,t f ɔ ʐ ɨ w,d ɔ d a w
+tworzyć,V;PRS;3;SG,t f ɔ ʐ ɨ,v ɨ m a ɡ a
+pokazać,V;COND;2;SG;FEM,p ɔ k a z a w a b ɨ ɕ,p ɔ k a z a w a b ɨ ɕ
+pokazać,V;COND;1;SG;MASC,p ɔ k a z a w b ɨ m,p ɔ k a z a w b ɨ m
+pokazać,V;PST;1;PL;MASC;HUM,p ɔ k a z a l i ɕ m ɨ,s m a k ɔ v a l i ɕ m ɨ
+pokazać,V;PST;3;SG;MASC,p ɔ k a z a w,p ɔ k a z a w
+pokazać,V;COND;2;PL,p ɔ k a z a w ɨ b ɨ ɕ t͡ɕ ɛ,p ɔ k a z a w ɨ b ɨ ɕ t͡ɕ ɛ
+pokazać,V;PST;3;PL,p ɔ k a z a w ɨ,p ɔ k a z a w ɨ
+pokazać,V;FUT;3;SG,p ɔ k a ʐ ɛ,p ɔ k a ʐ ɛ
+zaczynać,V;FUT;1;SG;FEM,b ɛ n d ɛ z a t͡ʂ ɨ n a w a,b ɛ n d ɛ z a t͡ʂ ɨ n a w a
+zaczynać,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ z a t͡ʂ ɨ n a l i,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ z a t͡ʂ ɨ n a l i
+zaczynać,V;FUT;2;SG;FEM,b ɛ ɲ d͡ʑ ɛ ʂ z a t͡ʂ ɨ n a w a,b ɛ ɲ d͡ʑ ɛ ʂ z a t͡ʂ ɨ n a w a
+zaczynać,V;IMP;3;SG,ɲ ɛ x z a t͡ʂ ɨ n a,ɲ ɛ x
+zaczynać,V;NFIN,z a t͡ʂ ɨ n a t͡ɕ,z a t͡ʂ ɨ n a t͡ɕ
+zaczynać,V;COND;2;SG;MASC,z a t͡ʂ ɨ n a w b ɨ ɕ,z a t͡ʂ ɨ n a w b ɨ ɕ
+zaczynać,V;COND;3;PL;MASC;HUM,z a t͡ʂ ɨ n a l i b ɨ,z a t͡ʂ ɨ n a l i b ɨ
+zaczynać,V;COND;3;SG;NEUT,z a t͡ʂ ɨ n a w ɔ b ɨ,z a t͡ʂ ɨ n a w ɔ b ɨ
+zaczynać,V;PST;3;PL,z a t͡ʂ ɨ n a w ɨ,z a t͡ʂ ɨ n a w ɨ
+zaczynać,V;PRS;1;SG,z a t͡ʂ ɨ n a m,z a t͡ʂ ɨ n a m
+zaczynać,V;PRS;2;SG,z a t͡ʂ ɨ n a ʂ,p ɔ z v a l a ʂ
+zmienić,V;PST;1;PL;MASC;HUM,z m j ɛ ɲ i l i ɕ m ɨ,z m j ɛ ɲ i l i ɕ m ɨ
+zmienić,V;PST;3;PL;MASC;HUM,z m j ɛ ɲ i l i,z m j ɛ ɲ i l i
+zmienić,V;PST;3;PL,z m j ɛ ɲ i w ɨ,z m j ɛ ɲ i w ɨ
+zmienić,V;FUT;2;SG,z m j ɛ ɲ i ʂ,z m j ɛ ɲ
+zmienić,V;FUT;3;SG,z m j ɛ ɲ i,z m j ɛ
+zmieniać,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ z m j ɛ ɲ a w ɨ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ z m j ɛ ɲ a w ɨ
+zmieniać,V;COND;3;SG;MASC,z m j ɛ ɲ a w b ɨ,z m j ɛ ɲ a w b ɨ
+zmieniać,V;PST;2;SG;MASC,z m j ɛ ɲ a w ɛ ɕ,z m j ɛ ɲ a w ɛ ɕ
+trwać,V;FUT;1;SG;FEM,b ɛ n d ɛ t r f a w a,b ɛ ɲ d͡ʑ ɛ m ɨ t r f a w a
+trwać,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ t r f a w ɨ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ t r f a w ɨ
+trwać,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ t r f a w a,b ɛ ɲ d͡ʑ ɛ t r f a w a
+trwać,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ t r f a w,b ɛ n d ɔ w̃ t r f a w
+trwać,V;PRS;3;PL,t r f a j ɔ w̃,t r f a j ɔ w̃
+trwać,V;IMP;2;SG,t r f a j,t r f a j
+trwać,V;COND;1;SG;FEM,t r f a w a b ɨ m,t r f a w a b ɨ m
+trwać,V;PST;1;PL;MASC;HUM,t r f a l i ɕ m ɨ,t r f a l i ɕ m ɨ
+trwać,V;COND;3;PL,t r f a w ɨ b ɨ,t r f a w ɨ b ɨ
+trwać,V;PST;3;PL,t r f a w ɨ,t r f a w ɨ
+trwać,V;PRS;3;SG,t r f a,u v j ɛ l b j a
+dokonać,V;NFIN,d ɔ k ɔ n a t͡ɕ,d ɔ k ɔ n a t͡ɕ
+dokonać,V;COND;2;SG;FEM,d ɔ k ɔ n a w a b ɨ ɕ,d ɔ k ɔ n a w a b ɨ ɕ t͡ɕ ɛ
+dokonać,V;PST;2;SG;FEM,d ɔ k ɔ n a w a ɕ,d ɔ k ɔ n a w a ɕ
+dokonać,V;PST;1;SG;MASC,d ɔ k ɔ n a w ɛ m,d ɔ k ɔ n a w ɛ m
+dokonać,V;PST;3;SG;NEUT,d ɔ k ɔ n a w ɔ,d ɔ k ɔ n a w ɔ
+dokonać,V;COND;1;PL,d ɔ k ɔ n a w ɨ b ɨ ɕ m ɨ,d ɔ k ɔ n a w ɨ b ɨ ɕ m ɨ
+dokonać,V;IMP;1;SG,ɲ ɛ x d ɔ k ɔ n a m,d ɔ k ɔ n a m
+należeć,V;PST;2;SG;FEM,n a l ɛ ʐ a w a ɕ,n a l ɛ ʐ a w a ɕ
+należeć,V;COND;1;SG;MASC,n a l ɛ ʐ a w b ɨ m,n a l ɛ ʐ a w b ɨ m
+należeć,V;COND;2;SG;MASC,n a l ɛ ʐ a w b ɨ ɕ,n a l ɛ ʐ a w b ɨ ɕ
+należeć,V;COND;3;SG;MASC,n a l ɛ ʐ a w b ɨ,n a l ɛ ʐ a w b ɨ
+należeć,V;COND;1;PL,n a l ɛ ʐ a w ɨ b ɨ ɕ m ɨ,n a l ɛ ʐ a w ɨ b ɨ ɕ m ɨ
+należeć,V;PST;1;PL,n a l ɛ ʐ a w ɨ ɕ m ɨ,n a l ɛ ʐ a w ɨ ɕ m ɨ
+należeć,V;PST;2;PL;MASC;HUM,n a l ɛ ʐ ɛ l i ɕ t͡ɕ ɛ,n a l ɛ ʐ ɛ l i ɕ t͡ɕ ɛ
+należeć,V;IMP;3;SG,ɲ ɛ x,ɲ ɛ x
+dawać,V;FUT;3;PL,b ɛ n d ɔ w̃ d a v a w ɨ,b ɛ ɲ d͡ʑ ɛ d a v a w ɨ
+dawać,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ d a v a l i,b ɛ n d ɛ d a v a l i
+dawać,V;FUT;2;SG;FEM,b ɛ ɲ d͡ʑ ɛ ʂ d a v a w a,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ d a v a w a
+dawać,V;PRS;2;PL,d a j ɛ t͡ɕ ɛ,d ɔ d a j ɛ t͡ɕ ɛ
+dawać,V;COND;1;SG;FEM,d a v a w a b ɨ m,d a v a w a b ɨ ɕ m ɨ
+dawać,V;COND;3;SG;MASC,d a v a w b ɨ,d a v a w b ɨ
+dawać,V;COND;2;PL;MASC;HUM,d a v a l i b ɨ ɕ t͡ɕ ɛ,d a v a l i b ɨ ɕ t͡ɕ ɛ
+dawać,V;COND;3;PL,d a v a w ɨ b ɨ,d a v a w ɨ b ɨ
+przygotować,V;PST;2;SG;FEM,p ʂ ɨ ɡ ɔ t ɔ v a w a ɕ,d ɔ d a v a w a ɕ
+przygotować,V;COND;1;SG;MASC,p ʂ ɨ ɡ ɔ t ɔ v a w b ɨ m,p ʂ ɨ ɡ ɔ t ɔ v a w b ɨ m
+przygotować,V;COND;3;SG;MASC,p ʂ ɨ ɡ ɔ t ɔ v a w b ɨ,p ʂ ɨ ɡ ɔ t ɔ v a w b ɨ
+przygotować,V;COND;3;SG;NEUT,p ʂ ɨ ɡ ɔ t ɔ v a w ɔ b ɨ,p ʂ ɨ ɡ ɔ t ɔ v a w ɔ
+przygotować,V;PST;3;SG;MASC,p ʂ ɨ ɡ ɔ t ɔ v a w,p ʂ ɨ ɡ ɔ t ɔ v a w
+przygotować,V;PST;2;PL,p ʂ ɨ ɡ ɔ t ɔ v a w ɨ ɕ t͡ɕ ɛ,p ʂ ɨ ɡ ɔ t ɔ v a w ɨ ɕ t͡ɕ ɛ
+przygotować,V;PST;1;PL,p ʂ ɨ ɡ ɔ t ɔ v a w ɨ ɕ m ɨ,p ʂ ɨ ɡ ɔ t ɔ v a w ɨ ɕ m ɨ
+czytać,V;COND;2;SG;FEM,t͡ʂ ɨ t a w a b ɨ ɕ,t͡ʂ ɨ t a w a b ɨ ɕ t͡ɕ ɛ
+czytać,V;PST;2;SG;MASC,t͡ʂ ɨ t a w ɛ ɕ,t͡ʂ ɨ t a w ɛ ɕ
+czytać,V;COND;3;PL,t͡ʂ ɨ t a w ɨ b ɨ,t͡ʂ ɨ t a w ɨ b ɨ
+czytać,V;PRS;1;PL,t͡ʂ ɨ t a m ɨ,t͡ʂ ɨ t a w ɨ b ɨ ɕ m ɨ
+czytać,V;IMP;3;PL,ɲ ɛ x,ɲ ɛ x
+pozwalać,V;FUT;2;SG;FEM,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ ʂ
+pozwalać,V;IMP;3;PL,ɲ ɛ x,ɲ ɛ x
+pozwalać,V;NFIN,p ɔ z v a l a t͡ɕ,p ɔ z v a l a t͡ɕ
+pozwalać,V;PST;1;SG;FEM,p ɔ z v a l a w a m,p ɔ z v a l a w a m
+pozwalać,V;PST;2;SG;FEM,p ɔ z v a l a w a ɕ,p ɔ z v a l a w a ɕ
+pozwalać,V;COND;3;SG;MASC,p ɔ z v a l a w b ɨ,p ɔ z v a l a w b ɨ
+pozwalać,V;PST;2;PL,p ɔ z v a l a w ɨ ɕ t͡ɕ ɛ,p ɔ z v a l a w ɨ ɕ t͡ɕ ɛ
+pozwalać,V;PST;3;PL,p ɔ z v a l a w ɨ,p ɔ z v a l a j ɔ w̃
+pozwalać,V;PRS;1;PL,p ɔ z v a l a m ɨ,p ɔ z v a l a m ɨ
+obejmować,V;FUT;3;SG;NEUT,b ɛ ɲ d͡ʑ ɛ ɔ b ɛ j m ɔ v a w ɔ,b ɛ ɲ d͡ʑ ɛ ɔ b ɛ j m ɔ v a w ɔ
+obejmować,V;IMP;3;PL,ɲ ɛ x,ɲ ɛ x
+obejmować,V;IMP;3;SG,ɲ ɛ x ɔ b ɛ j m u j ɛ,ɲ ɛ x
+obejmować,V;COND;3;SG;FEM,ɔ b ɛ j m ɔ v a w a b ɨ,ɔ b ɛ j m ɔ v a w a b ɨ
+obejmować,V;COND;1;PL;MASC;HUM,ɔ b ɛ j m ɔ v a l i b ɨ ɕ m ɨ,ɔ b ɛ j m ɔ v a l i b ɨ ɕ m ɨ
+obejmować,V;PST;1;PL;MASC;HUM,ɔ b ɛ j m ɔ v a l i ɕ m ɨ,ɔ b ɛ j m ɔ v a l i ɕ m ɨ
+obejmować,V;COND;2;PL,ɔ b ɛ j m ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ,ɔ b ɛ j m ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ
+obejmować,V;PRS;2;PL,ɔ b ɛ j m u j ɛ t͡ɕ ɛ,ɔ b ɛ j m u j ɛ t͡ɕ ɛ
+obejmować,V;PRS;1;SG,ɔ b ɛ j m u j ɛ,ɔ b ɛ j m u j ɛ m
+pobrać,V;IMP;2;PL,p ɔ b j ɛ ʂ t͡ɕ ɛ,p ɔ b r a w ɨ ɕ t͡ɕ ɛ
+pobrać,V;FUT;2;PL,p ɔ b j ɛ ʐ ɛ t͡ɕ ɛ,p ɔ b r a w ɨ ɕ t͡ɕ ɛ
+pobrać,V;FUT;2;SG,p ɔ b j ɛ ʐ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ ʂ
+pobrać,V;FUT;3;SG,p ɔ b j ɛ ʐ ɛ,p ɔ b j ɛ ʐ ɛ
+pobrać,V;IMP;1;PL,p ɔ b j ɛ ʐ m ɨ,d ɔ d a v a j m ɨ
+pobrać,V;IMP;2;SG,p ɔ b j ɛ ʂ,d ɔ d a j
+pobrać,V;FUT;3;PL,p ɔ b j ɔ r ɔ w̃,p ɔ b j ɔ r ɔ w̃
+pobrać,V;PST;2;SG;FEM,p ɔ b r a w a ɕ,p ɔ b r a w ɛ ɕ
+pobrać,V;COND;3;PL,p ɔ b r a w ɨ b ɨ,p ɔ b r a w ɨ b ɨ
+pokazywać,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ p ɔ k a z ɨ v a l i,b ɛ ɲ d͡ʑ ɛ p ɔ k a z ɨ v a l i
+pokazywać,V;FUT;1;SG;FEM,b ɛ n d ɛ p ɔ k a z ɨ v a w a,b ɛ n d ɛ
+pokazywać,V;FUT;1;SG;MASC,b ɛ n d ɛ,b ɛ n d ɛ p ɔ k a z ɨ v a w
+pokazywać,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ p ɔ k a z ɨ v a w ɨ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ p ɔ k a z ɨ v a w ɨ
+pokazywać,V;PRS;2;SG,p ɔ k a z u j ɛ ʂ,p ɔ k a z u j ɛ ʂ
+pokazywać,V;IMP;1;PL,p ɔ k a z u j m ɨ,p ɔ k a z u j m ɨ
+pokazywać,V;PST;3;SG;MASC,p ɔ k a z ɨ v a w,p ɔ k a z ɨ v a w
+pokazywać,V;COND;3;PL,p ɔ k a z ɨ v a w ɨ b ɨ,p ɔ k a z ɨ v a w ɨ b ɨ
+starać się,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ s t a r a l i,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ s t a r a l i
+starać się,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ s t a r a w,b ɛ ɲ d͡ʑ ɛ s t a r a w
+starać się,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ s t a r a w
+starać się,V;IMP;3;SG,ɲ ɛ x s t a r a,ɲ ɛ x
+starać się,V;IMP;2;PL,s t a r a j t͡ɕ ɛ,s t a r a t͡ɕ ɛ
+starać się,V;IMP;2;SG,s t a r a j,d ɔ d a j
+starać się,V;COND;2;SG;FEM,s t a r a w a b ɨ ɕ,s t a r a w a b ɨ ɕ
+starać się,V;COND;3;SG;MASC,s t a r a w b ɨ,s t a r a w b ɨ
+starać się,V;PST;1;SG;MASC,s t a r a w ɛ m,s t a r a w ɛ m
+starać się,V;COND;2;PL;MASC;HUM,s t a r a l i b ɨ ɕ t͡ɕ ɛ,s t a r a l i b ɨ ɕ t͡ɕ ɛ
+starać się,V;COND;3;PL;MASC;HUM,s t a r a l i b ɨ,s t a r a l i b ɨ
+starać się,V;PST;1;PL;MASC;HUM,s t a r a l i ɕ m ɨ,s t a r a l i ɕ m ɨ
+starać się,V;PST;3;SG;NEUT,s t a r a w ɔ,s t a r a w ɔ
+starać się,V;PST;3;PL,s t a r a w ɨ,s t a r a w ɨ
+odpowiadać,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ,b ɛ ɲ d͡ʑ ɛ m ɨ p r u b ɔ v a l i
+odpowiadać,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ,ɔ t p ɔ v j a d a m ɨ
+odpowiadać,V;IMP;2;PL,ɔ t p ɔ v j a d a j t͡ɕ ɛ,ɔ t p ɔ v j a d a t͡ɕ ɛ
+odpowiadać,V;PST;1;PL;MASC;HUM,ɔ t p ɔ v j a d a l i ɕ m ɨ,p r u b ɔ v a l i ɕ m ɨ
+odpowiadać,V;PST;3;PL;MASC;HUM,ɔ t p ɔ v j a d a l i,ɔ t p ɔ v j a l i
+odpowiadać,V;PST;1;PL,ɔ t p ɔ v j a d a w ɨ ɕ m ɨ,ɔ t p ɔ v j a d a w ɨ ɕ m ɨ
+odpowiadać,V;PST;3;PL,ɔ t p ɔ v j a d a w ɨ,ɔ t p ɔ v j a d a w ɨ
+zacząć,V;IMP;1;SG,ɲ ɛ x z a t͡ʂ n ɛ,z a t͡ʂ ɲ i j
+zacząć,V;COND;1;SG;MASC,z a t͡ʂ ɔ w b ɨ m,z a t͡ʂ ɔ w b ɨ m
+zacząć,V;COND;2;SG;MASC,z a t͡ʂ ɔ w b ɨ ɕ,z a t͡ʂ ɔ w b ɨ ɕ
+zacząć,V;PST;1;SG;MASC,z a t͡ʂ ɔ w ɛ m,d a v a w ɛ m
+zacząć,V;PST;2;SG;MASC,z a t͡ʂ ɔ w ɛ ɕ,d ɔ d a v a w ɛ ɕ
+zacząć,V;COND;1;SG;FEM,z a t͡ʂ ɛ w a b ɨ m,z a t͡ʂ ɛ w a b ɨ ɕ m ɨ
+zacząć,V;COND;1;PL;MASC;HUM,z a t͡ʂ ɛ l i b ɨ ɕ m ɨ,z a t͡ʂ ɛ l i b ɨ ɕ m ɨ
+zacząć,V;PST;2;PL;MASC;HUM,z a t͡ʂ ɛ l i ɕ t͡ɕ ɛ,z a t͡ʂ ɛ l i ɕ t͡ɕ ɛ
+zacząć,V;PST;3;SG;NEUT,z a t͡ʂ ɛ w ɔ,z a t͡ʂ ɛ w ɔ
+zacząć,V;COND;2;PL,z a t͡ʂ ɛ w ɨ b ɨ ɕ t͡ɕ ɛ,z a t͡ʂ ɛ w ɨ b ɨ ɕ
+zacząć,V;COND;3;PL,z a t͡ʂ ɛ w ɨ b ɨ,z a t͡ʂ ɛ w ɨ b ɨ
+zacząć,V;FUT;2;PL,z a t͡ʂ ɲ ɛ t͡ɕ ɛ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ d͡ʑ a w ɨ
+zacząć,V;FUT;2;SG,z a t͡ʂ ɲ ɛ ʂ,z m j ɛ ʂ
+napisać,V;NFIN,n a p i s a t͡ɕ,d a v a t͡ɕ
+napisać,V;COND;1;SG;FEM,n a p i s a w a b ɨ m,n a p i s a w a b ɨ ɕ m ɨ
+napisać,V;COND;2;SG;FEM,n a p i s a w a b ɨ ɕ,n a p i s a w a b ɨ ɕ t͡ɕ ɛ
+napisać,V;PST;3;SG;FEM,n a p i s a w a,n a p i s a w a
+napisać,V;COND;3;SG;MASC,n a p i s a w b ɨ,n a p i s a w b ɨ
+napisać,V;COND;2;PL,n a p i s a w ɨ b ɨ ɕ t͡ɕ ɛ,n a p i s a w ɨ b ɨ ɕ t͡ɕ ɛ
+napisać,V;PST;3;PL,n a p i s a w ɨ,n a p i s a w ɨ
+napisać,V;FUT;1;PL,n a p i ʂ ɛ m ɨ,n a p i s a w ɨ ɕ m ɨ
+napisać,V;IMP;2;SG,n a p i ʂ,n a p i ʂ
+posiadać,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ p ɔ ɕ a d a l i,b ɛ n d ɔ w̃
+posiadać,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ p ɔ ɕ a d a l i,b ɛ ɲ d͡ʑ ɛ m ɨ p a m j ɛ n t a l i
+posiadać,V;IMP;3;PL,ɲ ɛ x,ɲ ɛ x
+posiadać,V;PRS;3;PL,p ɔ ɕ a d a j ɔ w̃,p ɔ ɕ a d a j ɔ w̃
+posiadać,V;IMP;2;SG,p ɔ ɕ a d a j,p ɔ ɕ a d a j
+posiadać,V;COND;1;SG;FEM,p ɔ ɕ a d a w a b ɨ m,p ɔ ɕ a d a w a b ɨ m
+posiadać,V;PST;1;PL;MASC;HUM,p ɔ ɕ a d a l i ɕ m ɨ,p ɔ ɕ a d a l i ɕ m ɨ
+posiadać,V;COND;3;SG;NEUT,p ɔ ɕ a d a w ɔ b ɨ,p ɔ ɕ a d a w ɔ b ɨ
+posiadać,V;COND;3;PL,p ɔ ɕ a d a w ɨ b ɨ,p ɔ ɕ a d a w ɨ b ɨ
+potrzebować,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ p ɔ t ʂ ɛ b ɔ v a l i,b ɛ n d ɔ w̃ p ɔ t ʂ ɛ b ɔ v a l i
+potrzebować,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ p ɔ t ʂ ɛ b ɔ v a w a,b ɛ ɲ d͡ʑ ɛ p ɔ t ʂ ɛ b ɔ v a w a
+potrzebować,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ p ɔ t ʂ ɛ b ɔ v a w,b ɛ ɲ d͡ʑ ɛ p ɔ t ʂ ɛ b ɔ v a w
+potrzebować,V;FUT;2;SG;FEM,b ɛ ɲ d͡ʑ ɛ ʂ p ɔ t ʂ ɛ b ɔ v a w a,b ɛ ɲ d͡ʑ ɛ ʂ
+potrzebować,V;COND;1;SG;MASC,p ɔ t ʂ ɛ b ɔ v a w b ɨ m,p ɔ t ʂ ɛ b ɔ v a w b ɨ m
+potrzebować,V;COND;3;SG;MASC,p ɔ t ʂ ɛ b ɔ v a w b ɨ,p ɔ t ʂ ɛ b ɔ v a w b ɨ
+potrzebować,V;PST;2;SG;MASC,p ɔ t ʂ ɛ b ɔ v a w ɛ ɕ,p ɔ t ʂ ɛ b ɔ v a w a ɕ
+potrzebować,V;COND;2;PL,p ɔ t ʂ ɛ b ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ,p ɔ t ʂ ɛ b ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ
+korzystać,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ k ɔ ʐ ɨ s t a w a,b ɛ ɲ d͡ʑ ɛ v ɨ k ɔ ʐ ɨ s t a w a
+korzystać,V;FUT;2;SG;FEM,b ɛ ɲ d͡ʑ ɛ ʂ k ɔ ʂ ɨ s t a w a,b ɛ ɲ d͡ʑ ɛ ʂ
+korzystać,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ k ɔ ʂ ɨ s t a w,b ɛ ɲ d͡ʑ ɛ ʂ
+korzystać,V;IMP;1;PL,k ɔ ʐ ɨ s t a j m ɨ,k ɔ ʐ ɨ s t a j m ɨ
+korzystać,V;IMP;2;SG,k ɔ ʐ ɨ s t a j,k ɔ ʐ ɨ s t a j
+korzystać,V;COND;2;SG;MASC,k ɔ ʐ ɨ s t a w b ɨ ɕ,k ɔ ʐ ɨ s t a w b ɨ ɕ
+korzystać,V;COND;3;SG;MASC,k ɔ ʐ ɨ s t a w b ɨ,k ɔ ʐ ɨ s t a w b ɨ
+korzystać,V;PST;2;SG;MASC,k ɔ ʐ ɨ s t a w ɛ ɕ,k ɔ ʐ ɨ s t a w ɛ ɕ
+korzystać,V;COND;3;PL;MASC;HUM,k ɔ ʐ ɨ s t a l i b ɨ,k ɔ ʐ ɨ s t a l i b ɨ
+korzystać,V;PST;2;PL;MASC;HUM,k ɔ ʐ ɨ s t a l i ɕ t͡ɕ ɛ,k ɔ ʐ ɨ s t a l i ɕ t͡ɕ ɛ
+korzystać,V;PST;3;SG;NEUT,k ɔ ʐ ɨ s t a w ɔ,k ɔ ʐ ɨ s t a w ɔ
+korzystać,V;COND;2;PL,k ɔ ʐ ɨ s t a w ɨ b ɨ ɕ t͡ɕ ɛ,k ɔ ʐ ɨ s t a w ɨ b ɨ ɕ
+korzystać,V;COND;1;PL,k ɔ ʐ ɨ s t a w ɨ b ɨ ɕ m ɨ,k ɔ ʐ ɨ s t a w ɨ b ɨ ɕ m ɨ
+korzystać,V;PST;2;PL,k ɔ ʐ ɨ s t a w ɨ ɕ t͡ɕ ɛ,k ɔ ʐ ɨ s t a w ɨ ɕ t͡ɕ ɛ
+korzystać,V;PST;3;PL,k ɔ ʐ ɨ s t a w ɨ,k ɔ ʐ ɨ s t a w ɨ
+korzystać,V;PRS;1;PL,k ɔ ʐ ɨ s t a m ɨ,z m j ɛ ɲ a m ɨ
+korzystać,V;IMP;3;SG,ɲ ɛ x k ɔ ʐ ɨ s t a,ɲ ɛ x
+smakować,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ s m a k ɔ v a l i,b ɛ n d ɔ w̃ ɔ b ɛ j m ɔ v a l i
+smakować,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ ʂ
+smakować,V;PST;3;SG;FEM,s m a k ɔ v a w a,s m a k ɔ v a w a
+smakować,V;COND;1;SG;MASC,s m a k ɔ v a w b ɨ m,s m a k ɔ v a w b ɨ ɕ m ɨ
+smakować,V;COND;2;PL;MASC;HUM,s m a k ɔ v a l i b ɨ ɕ t͡ɕ ɛ,s m a k ɔ v a l i b ɨ ɕ t͡ɕ ɛ
+smakować,V;PST;2;PL;MASC;HUM,s m a k ɔ v a l i ɕ t͡ɕ ɛ,s m a k ɔ v a l i ɕ t͡ɕ ɛ
+smakować,V;COND;1;PL,s m a k ɔ v a w ɨ b ɨ ɕ m ɨ,s m a k ɔ v a w ɨ b ɨ ɕ m ɨ
+smakować,V;PST;2;PL,s m a k ɔ v a w ɨ ɕ t͡ɕ ɛ,s m a k ɔ v a w ɨ ɕ t͡ɕ ɛ
+smakować,V;IMP;2;PL,s m a k u j t͡ɕ ɛ,ɲ ɛ x z m j ɛ t͡ɕ ɛ
+smakować,V;IMP;1;PL,s m a k u j m ɨ,d a v a j m ɨ
+żyć,V;FUT;3;PL,b ɛ n d ɔ w̃ ʐ ɨ w ɨ,b ɛ ɲ d͡ʑ ɛ u v j ɛ l b j a w ɨ
+żyć,V;FUT;1;SG;FEM,b ɛ n d ɛ ʐ ɨ w a,b ɛ ɲ d͡ʑ ɛ d͡ʑ a w a m
+żyć,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ ʐ ɨ l i,b ɛ ɲ d͡ʑ ɛ ʐ ɨ l i ɕ t͡ɕ ɛ
+żyć,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ ʐ ɨ w a,b ɛ ɲ d͡ʑ ɛ u v j ɛ l b j a w a
+żyć,V;PRS;2;PL,ʐ ɨ j ɛ t͡ɕ ɛ,ʐ ɨ j ɛ m ɨ
+żyć,V;PRS;1;PL,ʐ ɨ j ɛ m ɨ,ʐ ɨ j ɛ m ɨ
+żyć,V;PRS;1;SG,ʐ ɨ j ɛ,ʐ ɨ j ɛ m
+żyć,V;COND;1;SG;MASC,ʐ ɨ w b ɨ m,v ɨ k ɔ ʐ ɨ w b ɨ m
+żyć,V;COND;1;PL;MASC;HUM,ʐ ɨ l i b ɨ ɕ m ɨ,ʐ ɨ l i b ɨ ɕ m ɨ
+żyć,V;PST;2;PL;MASC;HUM,ʐ ɨ l i ɕ t͡ɕ ɛ,ʐ ɨ l i ɕ t͡ɕ ɛ
+żyć,V;COND;3;PL,ʐ ɨ w ɨ b ɨ,ʐ ɨ w ɨ b ɨ
+żyć,V;PST;1;PL,ʐ ɨ w ɨ ɕ m ɨ,u v j ɛ l b j a w ɨ ɕ m ɨ
+pamiętać,V;FUT;1;SG;MASC,b ɛ n d ɛ p a m j ɛ n t a w,b ɛ n d ɛ p a m j ɛ n t a w
+pamiętać,V;FUT;3;SG;NEUT,b ɛ ɲ d͡ʑ ɛ p a m j ɛ n t a w ɔ,b ɛ ɲ d͡ʑ ɛ p a m j ɛ n t a w ɔ
+pamiętać,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ d͡ʑ a w
+pamiętać,V;IMP;3;SG,ɲ ɛ x,ɲ ɛ x
+pamiętać,V;COND;3;SG;FEM,p a m j ɛ n t a w a b ɨ,p a m j ɛ n t a w a b ɨ
+pamiętać,V;PST;3;PL;MASC;HUM,p a m j ɛ n t a l i,p a m j ɛ n t a l i
+pamiętać,V;PST;1;PL,p a m j ɛ n t a w ɨ ɕ m ɨ,p a m j ɛ n t a w ɨ ɕ m ɨ
+znaleźć,V;IMP;1;PL,z n a j d͡ʑ m ɨ,p r u b m ɨ
+znaleźć,V;IMP;2;SG,z n a j t͡ɕ,d ɔ d a j
+znaleźć,V;COND;1;SG;FEM,z n a l a z w a b ɨ m,z n a l a z w a b ɨ m
+znaleźć,V;COND;3;SG;FEM,z n a l a z w a b ɨ,z n a l a z w a b ɨ
+znaleźć,V;PST;1;SG;MASC,z n a l a z w ɛ m,d ɔ d a w ɛ m
+znaleźć,V;PST;2;SG;MASC,z n a l a z w ɛ ɕ,d ɔ d a v a w ɛ ɕ
+znaleźć,V;PST;3;SG;NEUT,z n a l a z w ɔ,z n a l a z w ɔ
+znaleźć,V;COND;3;PL,z n a l a z w ɨ b ɨ,z n a l a z w ɨ b ɨ
+znaleźć,V;COND;2;PL;MASC;HUM,z n a l ɛ ʑ l i b ɨ ɕ t͡ɕ ɛ,z n a l ɛ ʑ l i b ɨ ɕ t͡ɕ ɛ
+latać,V;FUT;1;SG;FEM,b ɛ n d ɛ l a t a w a,b ɛ n d ɛ l a t a w a
+latać,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ l a t a w ɨ,b ɛ n d ɔ w̃ l a t a w ɨ
+latać,V;FUT;3;SG;NEUT,b ɛ ɲ d͡ʑ ɛ l a t a w ɔ,b ɛ ɲ d͡ʑ ɛ l a t a w ɔ
+latać,V;PRS;2;PL,l a t a t͡ɕ ɛ,l a t a j ɛ t͡ɕ ɛ
+latać,V;PRS;3;PL,l a t a j ɔ w̃,l a t a t͡ɕ ɛ
+latać,V;COND;1;SG;FEM,l a t a w a b ɨ m,l a t a w a b ɨ m
+latać,V;PST;1;SG;FEM,l a t a w a m,l a t a w a m
+latać,V;COND;3;PL;MASC;HUM,l a t a l i b ɨ,l a t a l i b ɨ
+latać,V;PST;3;SG;NEUT,l a t a w ɔ,l a t a w ɔ
+latać,V;PST;1;PL,l a t a w ɨ ɕ m ɨ,l a t a w ɨ ɕ m ɨ
+latać,V;PRS;3;SG,l a t a,l a t a ʂ
+czuć,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ t͡ʂ u l i,t͡ʂ u l i ɕ t͡ɕ ɛ
+czuć,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ t͡ʂ u w ɨ,b ɛ n d ɔ w̃ t͡ʂ u w ɨ ɕ t͡ɕ ɛ
+czuć,V;NFIN,t͡ʂ u t͡ɕ,ʐ ɨ t͡ɕ
+czuć,V;PRS;1;SG,t͡ʂ u j ɛ,t͡ʂ u j ɛ m
+czuć,V;IMP;2;SG,t͡ʂ u j,t͡ʂ u j ɛ ʂ
+czuć,V;PST;3;SG;FEM,t͡ʂ u w a,t͡ʂ u w
+czuć,V;COND;1;SG;MASC,t͡ʂ u w b ɨ m,t͡ʂ u j ɛ m ɨ v a w b ɨ m
+czuć,V;PST;2;SG;MASC,t͡ʂ u w ɛ ɕ,t͡ʂ u w ɛ ɕ
+czuć,V;COND;2;PL;MASC;HUM,t͡ʂ u l i b ɨ ɕ t͡ɕ ɛ,t͡ʂ u l i b ɨ ɕ t͡ɕ ɛ
+czuć,V;COND;1;PL;MASC;HUM,t͡ʂ u l i b ɨ ɕ m ɨ,t͡ʂ u l i b ɨ ɕ m ɨ
+bronić,V;FUT;3;PL,b ɛ n d ɔ w̃ b r ɔ ɲ i w ɨ,b ɛ ɲ d͡ʑ ɛ b r ɔ ɲ i w ɨ
+bronić,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ b r ɔ ɲ i w a,b ɛ n d ɔ w̃ b r ɔ ɲ i w a
+bronić,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ b r ɔ ɲ i l i,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ b r ɔ ɲ i l i
+bronić,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ b r ɔ ɲ i w,b ɛ ɲ d͡ʑ ɛ ʂ
+bronić,V;PRS;3;PL,b r ɔ ɲ ɔ w̃,b r ɔ ɲ i w ɨ b ɨ
+bronić,V;PST;1;SG;FEM,b r ɔ ɲ i w a m,d a v a w a m
+bronić,V;PST;3;SG;FEM,b r ɔ ɲ i w a,b r ɔ ɲ i w a
+bronić,V;COND;1;PL;MASC;HUM,b r ɔ ɲ i l i b ɨ ɕ m ɨ,b r ɔ ɲ i l i b ɨ ɕ m ɨ
+bronić,V;PST;3;PL;MASC;HUM,b r ɔ ɲ i l i,b r ɔ ɲ i l i
+bronić,V;COND;2;PL,b r ɔ ɲ i w ɨ b ɨ ɕ t͡ɕ ɛ,b r ɔ ɲ i w ɨ b ɨ ɕ
+bronić,V;PST;2;PL,b r ɔ ɲ i w ɨ ɕ t͡ɕ ɛ,b r ɔ ɲ i w ɨ ɕ t͡ɕ ɛ
+bronić,V;PST;1;PL,b r ɔ ɲ i w ɨ ɕ m ɨ,b r ɔ ɲ i w ɨ ɕ m ɨ
+zrobić,V;IMP;1;SG,ɲ ɛ x z r ɔ b j ɛ,z r ɔ b j ɛ
+zrobić,V;PST;3;SG;FEM,z r ɔ b i w a,z r ɔ b i w a
+zrobić,V;COND;3;SG;NEUT,z r ɔ b i w ɔ b ɨ,z r ɔ b i w ɔ b ɨ
+zrobić,V;PST;3;PL,z r ɔ b i w ɨ,z r ɔ b i w ɨ
+zrobić,V;FUT;3;SG,z r ɔ b i,z m j ɛ
+otrzymać,V;IMP;1;SG,ɲ ɛ x,ɲ ɛ x d ɔ d a m
+otrzymać,V;FUT;2;PL,ɔ t ʂ ɨ m a t͡ɕ ɛ,ɔ t ʂ ɨ m a j t͡ɕ ɛ
+otrzymać,V;PST;2;SG;FEM,ɔ t ʂ ɨ m a w a ɕ,ɔ t ʂ ɨ m a w a ɕ
+otrzymać,V;COND;1;SG;MASC,ɔ t ʂ ɨ m a w b ɨ m,ɔ t ʂ ɨ m a w b ɨ m
+otrzymać,V;COND;2;PL;MASC;HUM,ɔ t ʂ ɨ m a l i b ɨ ɕ t͡ɕ ɛ,ɔ t ʂ ɨ m a l i b ɨ ɕ
+otrzymać,V;COND;3;PL;MASC;HUM,ɔ t ʂ ɨ m a l i b ɨ,ɔ t ʂ ɨ m a l i b ɨ
+otrzymać,V;PST;2;PL;MASC;HUM,ɔ t ʂ ɨ m a l i ɕ t͡ɕ ɛ,ɔ t ʂ ɨ m a l i ɕ t͡ɕ ɛ
+otrzymać,V;PST;1;PL;MASC;HUM,ɔ t ʂ ɨ m a l i ɕ m ɨ,ɔ t ʂ ɨ m a l i ɕ m ɨ
+otrzymać,V;COND;3;PL,ɔ t ʂ ɨ m a w ɨ b ɨ,ɔ t ʂ ɨ m a w ɨ b ɨ
+zauważyć,V;IMP;3;PL,ɲ ɛ x z a u v a ʐ ɔ w̃,ɲ ɛ x
+zauważyć,V;IMP;1;SG,ɲ ɛ x z a u v a ʐ ɛ,z a u v a ʂ
+zauważyć,V;IMP;3;SG,ɲ ɛ x z a u v a ʐ ɨ,ɲ ɛ x
+zauważyć,V;NFIN,z a u v a ʐ ɨ t͡ɕ,z a u v a ʐ ɨ t͡ɕ
+zauważyć,V;COND;3;SG;FEM,z a u v a ʐ ɨ w a b ɨ,z a u v a ʐ ɨ w a b ɨ
+zauważyć,V;PST;3;SG;FEM,z a u v a ʐ ɨ w a,z a u v a ʐ ɨ w a
+zauważyć,V;PST;2;SG;MASC,z a u v a ʐ ɨ w ɛ ɕ,d a v a w ɛ ɕ
+zauważyć,V;COND;1;PL;MASC;HUM,z a u v a ʐ ɨ l i b ɨ ɕ m ɨ,z a u v a ʐ ɨ l i b ɨ ɕ m ɨ
+zauważyć,V;PST;3;SG;MASC,z a u v a ʐ ɨ w,d a v a w
+zauważyć,V;COND;3;PL,z a u v a ʐ ɨ w ɨ b ɨ,z a u v a ʐ ɨ w ɨ b ɨ
+stawać,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ s t a v a l i,b ɛ ɲ d͡ʑ ɛ v ɨ k ɔ ʐ ɨ s t a l i
+stawać,V;FUT;1;SG;MASC,b ɛ n d ɛ,b ɛ ɲ d͡ʑ ɛ m ɨ s t a v a w
+stawać,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ s t a v a l i,b ɛ ɲ d͡ʑ ɛ m ɨ s t a v a l i
+stawać,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ s t a v a w ɨ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ s t a v a w ɨ
+stawać,V;IMP;3;SG,ɲ ɛ x s t a j ɛ,ɲ ɛ x
+stawać,V;PRS;3;SG,s t a j ɛ,s t a j ɛ
+stawać,V;IMP;2;PL,s t a v a j t͡ɕ ɛ,ɲ ɛ x s t a j t͡ɕ ɛ
+stawać,V;COND;2;SG;FEM,s t a v a w a b ɨ ɕ,s t a v a w a b ɨ ɕ
+stawać,V;PST;1;SG;FEM,s t a v a w a m,s t a v a w a m
+stawać,V;COND;1;SG;MASC,s t a v a w b ɨ m,s t a v a w b ɨ ɕ m ɨ
+stawać,V;PST;1;SG;MASC,s t a v a w ɛ m,s t a v a w ɛ m
+stawać,V;PST;2;SG;MASC,s t a v a w ɛ ɕ,s t a v a w ɛ ɕ
+stawać,V;COND;3;PL;MASC;HUM,s t a v a l i b ɨ,s t a v a l i b ɨ
+stawać,V;COND;3;SG;NEUT,s t a v a w ɔ b ɨ,s t a v a w ɔ b ɨ
+stawać,V;COND;2;PL,s t a v a w ɨ b ɨ ɕ t͡ɕ ɛ,s t a v a w ɨ b ɨ ɕ t͡ɕ ɛ
+stawać,V;PST;3;PL,s t a v a w ɨ,s m a k ɔ v a w ɨ
+kupować,V;FUT;1;SG;FEM,b ɛ n d ɛ,b ɛ ɲ d͡ʑ ɛ m ɨ k u p ɔ v a w a
+kupować,V;FUT;3;SG;NEUT,b ɛ ɲ d͡ʑ ɛ k u p ɔ v a w ɔ,b ɛ ɲ d͡ʑ ɛ k u p ɔ v a w ɔ
+kupować,V;COND;2;SG;FEM,k u p ɔ v a w a b ɨ ɕ,k u p ɔ v a w a b ɨ ɕ
+kupować,V;PST;2;SG;FEM,k u p ɔ v a w a ɕ,k u p ɔ v a w a ɕ
+kupować,V;COND;1;SG;MASC,k u p ɔ v a w b ɨ m,k u p ɔ v a w b ɨ m
+kupować,V;PST;3;PL;MASC;HUM,k u p ɔ v a l i,k u p ɔ v a l i
+kupować,V;PRS;2;PL,k u p u j ɛ t͡ɕ ɛ,k u p ɔ v a t͡ɕ ɛ
+kupować,V;PRS;3;SG,k u p u j ɛ,k u p u j ɛ
+otrzymywać,V;FUT;3;PL,b ɛ n d ɔ w̃,b ɛ ɲ d͡ʑ ɛ ɔ t ʂ ɨ m ɨ v a w ɨ
+otrzymywać,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ,b ɛ n d ɛ ɔ t ʂ ɨ m ɨ v a w ɨ
+otrzymywać,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ ɔ t ʂ ɨ m ɨ v a w a,ɔ t ʂ ɨ m ɨ v a w a
+otrzymywać,V;FUT;3;SG;NEUT,b ɛ ɲ d͡ʑ ɛ ɔ t ʂ ɨ m ɨ v a w ɔ,b ɛ ɲ d͡ʑ ɛ ɔ t ʂ ɨ m ɨ v a w ɔ
+otrzymywać,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ ʂ
+otrzymywać,V;PRS;3;PL,ɔ t ʂ ɨ m u j ɔ w̃,ɔ t ʂ ɨ m u j ɔ w̃
+otrzymywać,V;COND;3;SG;FEM,ɔ t ʂ ɨ m ɨ v a w a b ɨ,ɔ t ʂ ɨ m ɨ v a w a b ɨ
+otrzymywać,V;PST;1;SG;FEM,ɔ t ʂ ɨ m ɨ v a w a m,d ɔ d a v a w a m
+otrzymywać,V;PST;2;SG;FEM,ɔ t ʂ ɨ m ɨ v a w a ɕ,ɔ t ʂ ɨ m ɨ v a w a ɕ
+otrzymywać,V;PST;1;SG;MASC,ɔ t ʂ ɨ m ɨ v a w ɛ m,ɔ t ʂ ɨ m ɨ v a w ɛ m
+otrzymywać,V;COND;2;PL;MASC;HUM,ɔ t ʂ ɨ m ɨ v a l i b ɨ ɕ t͡ɕ ɛ,ɔ t ʂ ɨ m ɨ v a l i b ɨ ɕ t͡ɕ ɛ
+otrzymywać,V;COND;1;PL;MASC;HUM,ɔ t ʂ ɨ m ɨ v a l i b ɨ ɕ m ɨ,ɔ t ʂ ɨ m ɨ v a l i b ɨ ɕ m ɨ
+otrzymywać,V;PST;3;SG;NEUT,ɔ t ʂ ɨ m ɨ v a w ɔ,ɔ t ʂ ɨ m ɨ v a w ɔ
+otrzymywać,V;PST;1;PL,ɔ t ʂ ɨ m ɨ v a w ɨ ɕ m ɨ,ɔ t ʂ ɨ m ɨ v a w ɨ ɕ m ɨ
+uważać,V;FUT;3;PL,b ɛ n d ɔ w̃ u v a ʐ a w ɨ,b ɛ ɲ d͡ʑ ɛ u v a ʐ a w ɨ
+uważać,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ u v a ʐ a l i,b ɛ ɲ d͡ʑ ɛ m ɨ u v a ʐ a l i
+uważać,V;PRS;2;PL,u v a ʐ a t͡ɕ ɛ,u v a ʐ a t͡ɕ ɛ
+uważać,V;IMP;2;SG,u v a ʐ a j,u v a ʐ a j
+uważać,V;COND;2;SG;FEM,u v a ʐ a w a b ɨ ɕ,u v a ʐ a w a b ɨ ɕ
+uważać,V;PST;2;SG;FEM,u v a ʐ a w a ɕ,u v a ʐ a w a ɕ
+uważać,V;PST;3;SG;FEM,u v a ʐ a w a,u v a ʐ a w a
+uważać,V;COND;1;PL;MASC;HUM,u v a ʐ a l i b ɨ ɕ m ɨ,u v a ʐ a l i b ɨ ɕ m ɨ
+uważać,V;COND;3;PL;MASC;HUM,u v a ʐ a l i b ɨ,u v a ʐ a l i b ɨ
+uważać,V;COND;3;SG;NEUT,u v a ʐ a w ɔ b ɨ,u v a ʐ a w ɔ b ɨ
+uważać,V;COND;3;PL,u v a ʐ a w ɨ b ɨ,u v a ʐ a w ɨ b ɨ
+uważać,V;PRS;1;SG,u v a ʐ a m,u v a ʐ ɛ
+dowiedzieć się,V;IMP;2;PL,d ɔ v j ɛ t͡s t͡ɕ ɛ,d ɔ v j ɛ ʂ t͡ɕ ɛ
+dowiedzieć się,V;COND;1;SG;FEM,d ɔ v j ɛ d͡ʑ a w a b ɨ m,d ɔ v j ɛ d͡ʑ a w a b ɨ m
+dowiedzieć się,V;PST;3;SG;FEM,d ɔ v j ɛ d͡ʑ a w a,d ɔ v j ɛ d͡ʑ a w a
+dowiedzieć się,V;PST;1;SG;MASC,d ɔ v j ɛ d͡ʑ a w ɛ m,d ɔ v j ɛ d͡ʑ a w ɛ m
+dowiedzieć się,V;PST;1;PL,d ɔ v j ɛ d͡ʑ a w ɨ ɕ m ɨ,d ɔ v j ɛ d͡ʑ a w ɨ ɕ m ɨ
+dowiedzieć się,V;IMP;1;PL,d ɔ v j ɛ d͡z m ɨ,ɲ ɛ x d ɔ v j ɛ m ɨ
+dowiedzieć się,V;FUT;1;PL,d ɔ v j ɛ m ɨ,d ɔ v j ɛ m ɨ
+dowiedzieć się,V;FUT;3;SG,d ɔ v j ɛ,ɲ ɛ x d ɔ v j ɛ
+dowiedzieć się,V;IMP;1;SG,ɲ ɛ x d ɔ v j ɛ m,ɲ ɛ x d ɔ v j ɛ m
+dodać,V;COND;1;SG;FEM,d ɔ d a w a b ɨ m,d ɔ d a w a b ɨ m
+dodać,V;PST;1;SG;FEM,d ɔ d a w a m,d a w a m
+dodać,V;COND;1;SG;MASC,d ɔ d a w b ɨ m,d ɔ d a w b ɨ ɕ m ɨ
+dodać,V;PST;1;SG;MASC,d ɔ d a w ɛ m,d ɔ d a w ɛ m
+dodać,V;COND;1;PL;MASC;HUM,d ɔ d a l i b ɨ ɕ m ɨ,d ɔ d a l i b ɨ ɕ m ɨ
+dodać,V;PST;2;PL,d ɔ d a w ɨ ɕ t͡ɕ ɛ,d ɔ d a w ɨ ɕ t͡ɕ ɛ
+dodać,V;PST;1;PL,d ɔ d a w ɨ ɕ m ɨ,d ɔ d a w ɨ ɕ m ɨ
+dodać,V;PST;3;PL,d ɔ d a w ɨ,d ɔ d a w ɨ
+oglądać,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ,b ɛ ɲ d͡ʑ ɛ m ɨ
+oglądać,V;FUT;2;SG;FEM,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ ʂ
+oglądać,V;IMP;3;PL,ɲ ɛ x,ɲ ɛ x
+oglądać,V;IMP;3;SG,ɲ ɛ x,ɲ ɛ x
+oglądać,V;COND;3;SG;FEM,ɔ ɡ l ɔ n d a w a b ɨ,ɔ ɡ l ɔ n d a w a b ɨ
+oglądać,V;PST;1;SG;FEM,ɔ ɡ l ɔ n d a w a m,p ɔ l ɛ t͡s a w a m
+oglądać,V;COND;2;SG;MASC,ɔ ɡ l ɔ n d a w b ɨ ɕ,ɔ ɡ l ɔ n d a w b ɨ ɕ
+oglądać,V;COND;3;SG;MASC,ɔ ɡ l ɔ n d a w b ɨ,ɔ ɡ l ɔ n d a w b ɨ
+oglądać,V;COND;1;PL;MASC;HUM,ɔ ɡ l ɔ n d a l i b ɨ ɕ m ɨ,ɔ ɡ l ɔ n d a l i b ɨ ɕ m ɨ
+oglądać,V;COND;3;PL,ɔ ɡ l ɔ n d a w ɨ b ɨ,ɔ ɡ l ɔ n d a w ɨ b ɨ
+oglądać,V;PST;2;PL,ɔ ɡ l ɔ n d a w ɨ ɕ t͡ɕ ɛ,ɔ ɡ l ɔ n d a w ɨ ɕ t͡ɕ ɛ
+oglądać,V;PRS;1;PL,ɔ ɡ l ɔ n d a m ɨ,ɔ ɡ l ɔ n d a w ɨ b ɨ ɕ m ɨ
+oglądać,V;PRS;2;SG,ɔ ɡ l ɔ n d a ʂ,ɔ ɡ l ɔ n d a j
+znać,V;FUT;3;PL,b ɛ n d ɔ w̃ z n a w ɨ,b ɛ ɲ d͡ʑ ɛ z n a w ɨ
+znać,V;FUT;1;SG;FEM,b ɛ n d ɛ z n a w a,b ɛ ɲ d͡ʑ ɛ m ɨ z n a w a
+znać,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ z n a w ɛ ɕ
+znać,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ z n a w a,b ɛ ɲ d͡ʑ ɛ z n a w a
+znać,V;IMP;3;PL,ɲ ɛ x z n a j ɔ w̃,ɲ ɛ x z n a w ɨ
+znać,V;IMP;2;PL,z n a j t͡ɕ ɛ,z n a t͡ɕ ɛ
+znać,V;IMP;2;SG,z n a j,z n a ʂ
+znać,V;COND;2;SG;FEM,z n a w a b ɨ ɕ,z n a w a b ɨ ɕ t͡ɕ ɛ
+znać,V;COND;3;SG;FEM,z n a w a b ɨ,z n a w a b ɨ
+znać,V;PST;2;SG;FEM,z n a w a ɕ,z n a w a ɕ
+znać,V;COND;1;PL;MASC;HUM,z n a l i b ɨ ɕ m ɨ,d ɔ d a v a l i b ɨ ɕ m ɨ
+znać,V;PST;2;PL;MASC;HUM,z n a l i ɕ t͡ɕ ɛ,z n a l i ɕ t͡ɕ ɛ
+znać,V;PST;3;SG;NEUT,z n a w ɔ,z n a w ɔ
+znać,V;COND;1;PL,z n a w ɨ b ɨ ɕ m ɨ,p ɔ j a v j a d a w ɨ b ɨ ɕ m ɨ
+znać,V;PST;3;PL,z n a w ɨ,ɲ ɛ x z n a w ɨ
+zrozumieć,V;COND;2;SG;MASC,z r ɔ z u m j a w b ɨ ɕ,z r ɔ z u m j a w b ɨ ɕ
+zrozumieć,V;PST;1;SG;MASC,z r ɔ z u m j a w ɛ m,z r ɔ z u m j a w ɛ m
+zrozumieć,V;COND;1;PL,z r ɔ z u m j a w ɨ b ɨ ɕ m ɨ,z r ɔ z u m j a w ɨ b ɨ ɕ m ɨ
+zrozumieć,V;FUT;2;PL,z r ɔ z u m j ɛ t͡ɕ ɛ,z r ɔ z u m j ɛ t͡ɕ ɛ
+zrozumieć,V;COND;1;PL;MASC;HUM,z r ɔ z u m j ɛ l i b ɨ ɕ m ɨ,z r ɔ z u m j ɛ l i b ɨ ɕ m ɨ
+czekać,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ t͡ʂ ɛ k a l i,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ t͡ʂ ɛ k a l i
+czekać,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ t͡ʂ ɛ k a w ɨ,b ɛ ɲ d͡ʑ ɛ m ɨ t͡ʂ ɛ k a w ɨ
+czekać,V;FUT;2;SG;FEM,b ɛ ɲ d͡ʑ ɛ ʂ t͡ʂ ɛ k a w a,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ t͡ʂ ɛ k a w a
+czekać,V;IMP;2;PL,t͡ʂ ɛ k a j t͡ɕ ɛ,t͡ʂ ɛ k a j t͡ɕ ɛ
+czekać,V;IMP;2;SG,t͡ʂ ɛ k a j,t͡ʂ ɛ k a j
+czekać,V;COND;3;SG;FEM,t͡ʂ ɛ k a w a b ɨ,t͡ʂ ɛ k a w a b ɨ
+czekać,V;PST;2;SG;FEM,t͡ʂ ɛ k a w a ɕ,t͡ʂ ɛ k a w a ɕ
+czekać,V;COND;1;SG;MASC,t͡ʂ ɛ k a w b ɨ m,t͡ʂ ɛ k a w b ɨ m
+czekać,V;COND;1;PL;MASC;HUM,t͡ʂ ɛ k a l i b ɨ ɕ m ɨ,t͡ʂ ɛ k a l i b ɨ ɕ m ɨ
+czekać,V;PST;3;PL;MASC;HUM,t͡ʂ ɛ k a l i,t͡ʂ ɛ k a l i
+czekać,V;PST;3;SG;NEUT,t͡ʂ ɛ k a w ɔ,t͡ʂ ɛ k a w ɔ
+robić,V;FUT;1;SG;FEM,b ɛ n d ɛ r ɔ b i w a,b ɛ ɲ d͡ʑ ɛ r ɔ b i w a m
+robić,V;PRS;3;PL,r ɔ b j ɔ w̃,r ɔ b i w ɨ b ɨ
+robić,V;COND;3;SG;MASC,r ɔ b i w b ɨ,r ɔ b i w b ɨ
+robić,V;COND;1;PL;MASC;HUM,r ɔ b i l i b ɨ ɕ m ɨ,r ɔ b i l i b ɨ ɕ m ɨ
+robić,V;PST;3;SG;NEUT,r ɔ b i w ɔ,r ɔ b i w ɔ
+robić,V;PST;1;PL,r ɔ b i w ɨ ɕ m ɨ,r ɔ b i w ɨ ɕ m ɨ
+robić,V;IMP;1;PL,r u b m ɨ,d a v a j m ɨ
+robić,V;IMP;2;SG,r u p,r u p
+lubić,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ ʂ
+lubić,V;NFIN,l u b i t͡ɕ,l u b i t͡ɕ
+lubić,V;COND;3;SG;FEM,l u b i w a b ɨ,l u b i w a b ɨ
+lubić,V;COND;2;SG;MASC,l u b i w b ɨ ɕ,l u b i w b ɨ ɕ
+lubić,V;COND;2;PL;MASC;HUM,l u b i l i b ɨ ɕ t͡ɕ ɛ,l u b i l i b ɨ ɕ t͡ɕ ɛ
+lubić,V;PST;2;PL,l u b i w ɨ ɕ t͡ɕ ɛ,l u b i w ɨ ɕ t͡ɕ ɛ
+lubić,V;PRS;2;SG,l u b i ʂ,l u b j ɛ
+lubić,V;IMP;1;PL,l u b m ɨ,l u b i w ɨ ɕ m ɨ
+lubić,V;IMP;2;SG,l u p,l u b i ʂ
+widzieć,V;FUT;1;SG;FEM,b ɛ n d ɛ v i d͡ʑ a w a,b ɛ ɲ d͡ʑ ɛ m ɨ v i d͡ʑ a w a
+widzieć,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ v i d͡ʑ ɛ l i,b ɛ ɲ d͡ʑ ɛ m ɨ v i d͡ʑ ɛ l i
+widzieć,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ v i d͡ʑ a w,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ v i d͡ʑ a w
+widzieć,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ v i d͡ʑ a w a,b ɛ ɲ d͡ʑ ɛ v i d͡ʑ a w a
+widzieć,V;FUT;3;SG;NEUT,b ɛ ɲ d͡ʑ ɛ v i d͡ʑ a w ɔ,b ɛ n d ɔ w̃ v i d͡ʑ a w ɔ
+widzieć,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ v i d͡ʑ a w,b ɛ n d ɔ w̃ p ɔ l ɛ t͡s a w
+widzieć,V;COND;1;SG;FEM,v i d͡ʑ a w a b ɨ m,v i d͡ʑ a w a b ɨ m
+widzieć,V;COND;3;SG;FEM,v i d͡ʑ a w a b ɨ,v i d͡ʑ a w a b ɨ
+widzieć,V;COND;1;SG;MASC,v i d͡ʑ a w b ɨ m,v i d͡ʑ a w b ɨ m
+widzieć,V;COND;1;PL,v i d͡ʑ a w ɨ b ɨ ɕ m ɨ,v i d͡ʑ a w ɨ b ɨ ɕ m ɨ
+widzieć,V;PST;3;PL,v i d͡ʑ a w ɨ,v i d͡ʑ a w ɨ
+widzieć,V;COND;3;PL;MASC;HUM,v i d͡ʑ ɛ l i b ɨ,v i d͡ʑ ɛ l i b ɨ
+widzieć,V;PRS;2;SG,v i d͡ʑ i ʂ,b r ɔ ɲ i ʂ
+widzieć,V;IMP;2;SG,v i t͡ɕ,ʂ u k a j
+usunąć,V;NFIN,u s u n ɔ ɲ t͡ɕ,d a v a t͡ɕ
+usunąć,V;COND;1;SG;MASC,u s u n ɔ w b ɨ m,u s u n ɔ w b ɨ ɕ m ɨ
+usunąć,V;COND;2;SG;MASC,u s u n ɔ w b ɨ ɕ,u s u n ɔ w b ɨ ɕ
+usunąć,V;PST;3;SG;MASC,u s u n ɔ w,u s u n ɔ w ɛ ɕ
+usunąć,V;COND;2;SG;FEM,u s u n ɛ w a b ɨ ɕ,u s u n ɛ w a b ɨ ɕ
+usunąć,V;PST;3;SG;FEM,u s u n ɛ w a,u s u n ɛ w a
+usunąć,V;PST;2;PL;MASC;HUM,u s u n ɛ l i ɕ t͡ɕ ɛ,d ɔ d a v a l i ɕ t͡ɕ ɛ
+usunąć,V;PST;1;PL;MASC;HUM,u s u n ɛ l i ɕ m ɨ,u s u n ɛ l i ɕ m ɨ
+usunąć,V;PST;3;PL;MASC;HUM,u s u n ɛ l i,u s u n ɛ l i
+usunąć,V;FUT;1;SG,u s u n ɛ,u s u ɲ ɛ m ɨ z n a w
+usunąć,V;IMP;1;PL,u s u ɲ m ɨ,d a v a j m ɨ
+spróbować,V;IMP;3;PL,ɲ ɛ x,ɲ ɛ x
+spróbować,V;COND;3;SG;MASC,s p r u b ɔ v a w b ɨ,s p r u b ɔ v a w a b ɨ
+spróbować,V;COND;2;PL,s p r u b ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ,s p r u b ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ
+spróbować,V;COND;3;PL,s p r u b ɔ v a w ɨ b ɨ,s p r u b ɔ v a w ɨ b ɨ
+spróbować,V;PST;2;PL,s p r u b ɔ v a w ɨ ɕ t͡ɕ ɛ,s p r u b ɔ v a w ɨ ɕ t͡ɕ ɛ
+spróbować,V;FUT;3;PL,s p r u b u j ɔ w̃,b ɛ n d ɔ ɲ d͡ʑ a w ɨ
+kupić,V;IMP;2;PL,k u p t͡ɕ ɛ,k u p t͡ɕ ɛ
+kupić,V;COND;1;SG;FEM,k u p i w a b ɨ m,k u p i w a b ɨ m
+kupić,V;COND;2;SG;FEM,k u p i w a b ɨ ɕ,k u p i w a b ɨ ɕ
+kupić,V;PST;3;SG;FEM,k u p i w a,k u p i w a
+kupić,V;COND;2;PL,k u p i w ɨ b ɨ ɕ t͡ɕ ɛ,k u p i w ɨ b ɨ ɕ t͡ɕ ɛ
+kupić,V;COND;3;PL,k u p i w ɨ b ɨ,k u p i w ɨ b ɨ
+kupić,V;FUT;1;PL,k u p i m ɨ,k u p i w ɨ ɕ m ɨ
+kupić,V;FUT;3;SG,k u p i,z m j ɛ
+kupić,V;IMP;1;PL,k u p m ɨ,d a v a j m ɨ
+kupić,V;IMP;1;SG,ɲ ɛ x k u p j ɛ,k u p
+chcieć,V;FUT;3;PL,b ɛ n d ɔ w̃ x t͡ɕ a w ɨ,b ɛ n d ɔ w̃ ʂ u k a w ɨ
+chcieć,V;FUT;3;SG;FEM,b ɛ ɲ d͡ʑ ɛ x t͡ɕ a w a,b ɛ ɲ d͡ʑ ɛ ʂ u k a w a
+chcieć,V;FUT;3;SG;NEUT,b ɛ ɲ d͡ʑ ɛ x t͡ɕ a w ɔ,b ɛ ɲ d͡ʑ ɛ d͡ʑ a w ɔ
+chcieć,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ x t͡ɕ a w,b ɛ ɲ d͡ʑ ɛ ɔ t ʂ ɨ m a ɡ a w
+chcieć,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ x t͡ɕ a w ɨ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ x t͡ɕ a w ɨ
+chcieć,V;FUT;2;SG;FEM,b ɛ ɲ d͡ʑ ɛ ʂ t͡ɕ a w a,b ɛ ɲ d͡ʑ ɛ ʂ t͡ɕ a w a
+chcieć,V;PRS;2;SG,x t͡s ɛ ʂ,x t͡ɕ ɛ j m u j ɛ ʂ
+chcieć,V;COND;2;SG;MASC,x t͡ɕ a w b ɨ ɕ,d a w b ɨ ɕ
+chcieć,V;PST;1;SG;MASC,x t͡ɕ a w ɛ m,x t͡ɕ ɛ j m ɔ v a w ɛ m
+chcieć,V;COND;2;PL,x t͡ɕ a w ɨ b ɨ ɕ t͡ɕ ɛ,x t͡ɕ a w ɨ b ɨ ɕ
+chcieć,V;COND;2;PL;MASC;HUM,x t͡ɕ ɛ l i b ɨ ɕ t͡ɕ ɛ,d ɔ d a l i b ɨ ɕ t͡ɕ ɛ
+chcieć,V;COND;3;PL;MASC;HUM,x t͡ɕ ɛ l i b ɨ,x t͡ɕ ɛ l i b ɨ
+pisać,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ p i s a l i,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ p i s a l i
+pisać,V;FUT;3;PL,b ɛ n d ɔ w̃ p i s a w ɨ,p i ʂ ɔ w̃
+pisać,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ p i s a w,b ɛ ɲ d͡ʑ ɛ d͡ʑ a w
+pisać,V;COND;3;SG;FEM,p i s a w a b ɨ,p i s a w a b ɨ
+pisać,V;COND;1;SG;MASC,p i s a w b ɨ m,p i s a w b ɨ m
+pisać,V;PST;3;SG;NEUT,p i s a w ɔ,p i s a w ɔ
+pisać,V;PST;1;PL,p i s a w ɨ ɕ m ɨ,p i s a w ɨ ɕ m ɨ
+pisać,V;PRS;3;SG,p i ʂ ɛ,p i ʂ ɛ
+polecać,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ p ɔ l ɛ t͡s a w ɨ,b ɛ ɲ d͡ʑ ɛ m ɨ p ɔ l ɛ t͡s a w ɨ
+polecać,V;FUT;3;SG;MASC,b ɛ ɲ d͡ʑ ɛ p ɔ l ɛ t͡s a w,b ɛ ɲ d͡ʑ ɛ p ɔ l ɛ t͡s a w
+polecać,V;PRS;2;PL,p ɔ l ɛ t͡s a t͡ɕ ɛ,p ɔ l ɛ t͡s a t͡ɕ ɛ
+polecać,V;IMP;1;PL,p ɔ l ɛ t͡s a j m ɨ,p ɔ l ɛ t͡s a j m ɨ
+polecać,V;IMP;2;SG,p ɔ l ɛ t͡s a j,p ɔ l ɛ t͡s a j
+polecać,V;PST;1;SG;FEM,p ɔ l ɛ t͡s a w a m,p ɔ l ɛ t͡s a w a m
+polecać,V;COND;3;SG;MASC,p ɔ l ɛ t͡s a w b ɨ,p ɔ l ɛ t͡s a w b ɨ
+polecać,V;PST;3;SG;MASC,p ɔ l ɛ t͡s a w,p ɔ l ɛ t͡s a w
+polecać,V;COND;2;PL,p ɔ l ɛ t͡s a w ɨ b ɨ ɕ t͡ɕ ɛ,p ɔ l ɛ t͡s a w ɨ b ɨ ɕ t͡ɕ ɛ
+dodawać,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ w̃ d ɔ d a v a l i,b ɛ n d ɔ w̃ ʐ ɨ l i
+dodawać,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ d ɔ d a v a w ɨ,b ɛ ɲ d͡ʑ ɛ d͡ʑ a w ɨ ɕ t͡ɕ ɛ
+dodawać,V;FUT;1;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ m ɨ d ɔ d a v a l i,b ɛ ɲ d͡ʑ ɛ ʐ ɨ l i ɕ m ɨ
+dodawać,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ d ɔ d a v a w ɨ,b ɛ ɲ d͡ʑ ɛ d͡ʑ a w ɨ ɕ m ɨ
+dodawać,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ d ɔ d a v a w,b ɛ ɲ d͡ʑ ɛ ʂ d ɔ d a v a w
+dodawać,V;NFIN,d ɔ d a v a t͡ɕ,d ɔ d a v a t͡ɕ
+dodawać,V;COND;1;SG;FEM,d ɔ d a v a w a b ɨ m,d ɔ d a v a w a b ɨ m
+dodawać,V;COND;2;SG;FEM,d ɔ d a v a w a b ɨ ɕ,d ɔ d a v a w a b ɨ ɕ
+dodawać,V;COND;3;SG;FEM,d ɔ d a v a w a b ɨ,d ɔ d a v a w a b ɨ
+dodawać,V;PST;2;SG;FEM,d ɔ d a v a w a ɕ,d ɔ d a v a w a ɕ
+dodawać,V;COND;3;SG;MASC,d ɔ d a v a w b ɨ,d ɔ d a v a w b ɨ
+dodawać,V;COND;2;PL;MASC;HUM,d ɔ d a v a l i b ɨ ɕ t͡ɕ ɛ,d ɔ d a v a l i b ɨ ɕ t͡ɕ ɛ
+dodawać,V;PST;3;SG;NEUT,d ɔ d a v a w ɔ,d ɔ d a v a w ɔ
+dodawać,V;COND;2;PL,d ɔ d a v a w ɨ b ɨ ɕ t͡ɕ ɛ,d ɔ d a v a w ɨ b ɨ ɕ
+znajdować,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ z n a j d ɔ v a w ɨ,b ɛ n d ɛ z n a j d ɔ v a w ɨ
+znajdować,V;PST;2;SG;FEM,z n a j d ɔ v a w a ɕ,z n a j d ɔ v a w ɛ ɕ
+znajdować,V;COND;1;SG;MASC,z n a j d ɔ v a w b ɨ m,z n a j d ɔ v a w b ɨ m
+znajdować,V;COND;2;SG;MASC,z n a j d ɔ v a w b ɨ ɕ,z n a j d ɔ v a w b ɨ ɕ
+znajdować,V;COND;1;PL;MASC;HUM,z n a j d ɔ v a l i b ɨ ɕ m ɨ,z n a j d ɔ v a l i b ɨ ɕ m ɨ
+znajdować,V;COND;2;PL,z n a j d ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ,z n a j d ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ
+znajdować,V;IMP;1;PL,z n a j d u j m ɨ,z n a j d u j m ɨ
+znajdować,V;IMP;2;SG,z n a j d u j,z n a j d u j
+poznać,V;NFIN,p ɔ z n a t͡ɕ,p ɔ z n a t͡ɕ
+poznać,V;IMP;1;PL,p ɔ z n a j m ɨ,p ɔ z n a m ɨ
+poznać,V;COND;2;SG;FEM,p ɔ z n a w a b ɨ ɕ,p ɔ z n a w a b ɨ ɕ t͡ɕ ɛ
+poznać,V;COND;2;PL;MASC;HUM,p ɔ z n a l i b ɨ ɕ t͡ɕ ɛ,p ɔ z n a l i b ɨ ɕ t͡ɕ ɛ
+poznać,V;COND;3;PL;MASC;HUM,p ɔ z n a l i b ɨ,p ɔ z n a l i b ɨ
+poznać,V;COND;3;SG;NEUT,p ɔ z n a w ɔ b ɨ,p ɔ z n a w ɔ b ɨ
+poznać,V;PST;2;PL,p ɔ z n a w ɨ ɕ t͡ɕ ɛ,p ɔ z n a w ɨ ɕ t͡ɕ ɛ
+poznać,V;PST;3;PL,p ɔ z n a w ɨ,p ɔ z n a w ɨ
+poznać,V;FUT;3;SG,p ɔ z n a,p ɔ z n a ʂ
+wykorzystywać,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ v ɨ k ɔ ʐ ɨ s t ɨ v a w ɨ,v ɨ k ɔ ʐ ɨ s t u j ɛ t͡ɕ ɛ
+wykorzystywać,V;PRS;1;PL,v ɨ k ɔ ʐ ɨ s t u j ɛ m ɨ,s t a j ɛ m ɨ v ɨ k ɔ ʐ ɨ s t ɨ v a w ɨ
+wykorzystywać,V;PRS;2;SG,v ɨ k ɔ ʐ ɨ s t u j ɛ ʂ,v ɨ k ɔ ʐ ɨ s t u j ɛ
+wykorzystywać,V;PRS;3;SG,v ɨ k ɔ ʐ ɨ s t u j ɛ,v ɨ k ɔ ʐ ɨ s t u j ɛ
+wykorzystywać,V;IMP;1;PL,v ɨ k ɔ ʐ ɨ s t u j m ɨ,v ɨ k ɔ ʐ ɨ s t u j t͡ɕ ɛ
+wykorzystywać,V;COND;2;SG;FEM,v ɨ k ɔ ʐ ɨ s t ɨ v a w a b ɨ ɕ,v ɨ k ɔ ʐ ɨ s t ɨ v a w a b ɨ ɕ t͡ɕ ɛ
+wykorzystywać,V;COND;3;SG;MASC,v ɨ k ɔ ʐ ɨ s t ɨ v a w b ɨ,d͡ʑ a w b ɨ
+wykorzystywać,V;COND;1;PL;MASC;HUM,v ɨ k ɔ ʐ ɨ s t ɨ v a l i b ɨ ɕ m ɨ,v ɨ k ɔ ʐ ɨ s t ɨ v a l i ɕ m ɨ
+wykorzystywać,V;PST;3;SG;MASC,v ɨ k ɔ ʐ ɨ s t ɨ v a w,v ɨ k ɔ ʐ ɨ s t ɨ v a w
+wykorzystywać,V;COND;1;PL,v ɨ k ɔ ʐ ɨ s t ɨ v a w ɨ b ɨ ɕ m ɨ,v ɨ k ɔ ʐ ɨ w ɨ b ɨ ɕ m ɨ
+dziać,V;FUT;3;PL;MASC;HUM,b ɛ n d ɔ ɲ d͡ʑ a l i,b ɛ ɲ d͡ʑ ɛ ɔ t ʂ ɨ m a ɡ a l i
+dziać,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ d͡ʑ a w ɨ,b ɛ n d ɛ ɲ d͡ʑ a w ɨ
+dziać,V;COND;2;SG;FEM,d͡ʑ a w a b ɨ ɕ,d͡ʑ a w a b ɨ ɕ
+dziać,V;PST;3;SG;FEM,d͡ʑ a w a,d͡ʑ a w a
+dziać,V;COND;1;SG;MASC,d͡ʑ a w b ɨ m,d͡ʑ a w ɛ m
+dziać,V;COND;3;PL;MASC;HUM,d͡ʑ a l i b ɨ,d͡ʑ a l i b ɨ
+dziać,V;PST;1;PL;MASC;HUM,d͡ʑ a l i ɕ m ɨ,d͡ʑ a l i ɕ m ɨ
+dziać,V;PST;1;PL,d͡ʑ a w ɨ ɕ m ɨ,t͡ʂ ɛ k a w ɨ ɕ m ɨ
+dziać,V;IMP;1;PL,d͡ʑ ɛ j m ɨ,d͡ʑ a w a j m ɨ
+wziąć,V;IMP;3;SG,ɲ ɛ x v ɛ ʑ m j ɛ,ɲ ɛ x
+wziąć,V;NFIN,v ʑ ɔ ɲ t͡ɕ,v ɛ ʑ m j ɛ t͡ɕ
+wziąć,V;PST;2;SG;MASC,v ʑ ɔ w ɛ ɕ,d a v a w ɛ ɕ
+wziąć,V;PST;3;SG;MASC,v ʑ ɔ w,d a v a w
+wziąć,V;COND;2;PL;MASC;HUM,v ʑ ɛ l i b ɨ ɕ t͡ɕ ɛ,v ʑ ɛ l i b ɨ ɕ t͡ɕ ɛ
+wziąć,V;COND;1;PL,v ʑ ɛ w ɨ b ɨ ɕ m ɨ,v ʑ ɛ w ɨ b ɨ ɕ m ɨ
+podać,V;IMP;1;SG,ɲ ɛ x p ɔ d a m,p ɔ d a m
+podać,V;NFIN,p ɔ d a t͡ɕ,p ɔ d a t͡ɕ
+podać,V;COND;2;SG;FEM,p ɔ d a w a b ɨ ɕ,p ɔ d a w a b ɨ ɕ t͡ɕ ɛ
+podać,V;COND;2;SG;MASC,p ɔ d a w b ɨ ɕ,p ɔ d a w b ɨ ɕ
+podać,V;PST;2;SG;MASC,p ɔ d a w ɛ ɕ,p ɔ d a w ɛ ɕ
+podać,V;COND;1;PL;MASC;HUM,p ɔ d a l i b ɨ ɕ m ɨ,p ɔ d a l i b ɨ ɕ m ɨ
+podać,V;COND;3;PL;MASC;HUM,p ɔ d a l i b ɨ,p ɔ d a l i b ɨ
+podać,V;PST;1;PL;MASC;HUM,p ɔ d a l i ɕ m ɨ,p ɔ d a l i ɕ m ɨ
+podać,V;PST;2;PL,p ɔ d a w ɨ ɕ t͡ɕ ɛ,p ɔ d a w ɨ ɕ t͡ɕ ɛ
+podać,V;PST;1;PL,p ɔ d a w ɨ ɕ m ɨ,p ɔ d a w ɨ ɕ m ɨ
+podać,V;PST;3;PL,p ɔ d a w ɨ,p ɔ d a w ɨ
+okazać,V;NFIN,ɔ k a z a t͡ɕ,l a t a t͡ɕ
+okazać,V;COND;1;SG;FEM,ɔ k a z a w a b ɨ m,ɔ k a z a w a b ɨ m
+okazać,V;PST;2;SG;MASC,ɔ k a z a w ɛ ɕ,ɔ k a z a w ɛ ɕ
+okazać,V;COND;3;PL,ɔ k a z a w ɨ b ɨ,ɔ k a z a w ɨ b ɨ
+okazać,V;PST;3;PL,ɔ k a z a w ɨ,d ɔ d a w ɨ
+okazać,V;FUT;1;PL,ɔ k a ʐ ɛ m ɨ,b ɛ ɲ d͡ʑ ɛ m ɨ x t͡ɕ a w ɨ
+okazać,V;IMP;2;SG,ɔ k a ʂ,ɲ ɛ x ɔ k a ʐ ɛ
+sprawdzić,V;IMP;3;SG,ɲ ɛ x,ɲ ɛ x
+sprawdzić,V;PST;3;PL;MASC;HUM,s p r a v d͡ʑ i l i,s p r a v d͡ʑ i l i
+sprawdzić,V;PST;1;PL,s p r a v d͡ʑ i w ɨ ɕ m ɨ,s p r a v d͡ʑ i w ɨ ɕ m ɨ
+pozostawać,V;FUT;2;SG;MASC,b ɛ ɲ d͡ʑ ɛ ʂ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ p ɔ z ɔ s t a w
+pozostawać,V;PRS;1;PL,p ɔ z ɔ s t a j ɛ m ɨ,p ɔ z ɔ s t a j ɔ w̃
+pozostawać,V;PRS;2;SG,p ɔ z ɔ s t a j ɛ ʂ,p ɔ z ɔ s t a j ɛ
+pozostawać,V;NFIN,p ɔ z ɔ s t a v a t͡ɕ,p ɔ z ɔ s t a v a t͡ɕ
+pozostawać,V;COND;3;SG;MASC,p ɔ z ɔ s t a v a w b ɨ,p ɔ z ɔ s t a v a w b ɨ
+pozostawać,V;PST;2;SG;MASC,p ɔ z ɔ s t a v a w ɛ ɕ,d͡ʑ a w ɛ ɕ
+pozostawać,V;COND;1;PL;MASC;HUM,p ɔ z ɔ s t a v a l i b ɨ ɕ m ɨ,p ɔ z ɔ s t a v a l i b ɨ ɕ m ɨ
+pozostawać,V;PST;1;PL;MASC;HUM,p ɔ z ɔ s t a v a l i ɕ m ɨ,p ɔ z ɔ s t a v a l i ɕ m ɨ
+pozostawać,V;PST;3;PL;MASC;HUM,p ɔ z ɔ s t a v a l i,p ɔ z v a l i
+próbować,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ p r u b ɔ v a l i,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ r ɔ b i l i
+próbować,V;FUT;2;PL,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ p r u b ɔ v a w ɨ,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ ɔ ɡ l ɔ n d a w ɨ
+próbować,V;IMP;3;SG,ɲ ɛ x p r u b u j ɛ,ɲ ɛ x d a
+próbować,V;NFIN,p r u b ɔ v a t͡ɕ,p r u b ɔ v a t͡ɕ
+próbować,V;COND;2;SG;FEM,p r u b ɔ v a w a b ɨ ɕ,p r u b ɔ v a w a b ɨ ɕ
+próbować,V;COND;3;SG;MASC,p r u b ɔ v a w b ɨ,p r u b ɔ v a w b ɨ
+próbować,V;PST;2;SG;MASC,p r u b ɔ v a w ɛ ɕ,p r u b ɔ v a w ɛ ɕ
+próbować,V;COND;3;PL;MASC;HUM,p r u b ɔ v a l i b ɨ,p r u b ɔ v a l i b ɨ
+próbować,V;PST;3;SG;MASC,p r u b ɔ v a w,p r u b ɔ v a w
+próbować,V;COND;2;PL,p r u b ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ,p r u b ɔ v a w ɨ b ɨ ɕ
+próbować,V;IMP;2;PL,p r u b u j t͡ɕ ɛ,t f u ʂ t͡ɕ ɛ
+próbować,V;PRS;2;PL,p r u b u j ɛ t͡ɕ ɛ,p r u b ɔ v a w ɨ b ɨ ɕ t͡ɕ ɛ
+próbować,V;PRS;2;SG,p r u b u j ɛ ʂ,d a j ɛ ʂ
+szukać,V;FUT;2;PL;MASC;HUM,b ɛ ɲ d͡ʑ ɛ t͡ɕ ɛ ʂ u k a l i,b ɛ ɲ d͡ʑ ɛ ʂ ʂ u k a l i
+szukać,V;FUT;1;PL,b ɛ ɲ d͡ʑ ɛ m ɨ ʂ u k a w ɨ,b ɛ n d ɛ ʂ u k a w ɨ
+szukać,V;FUT;3;SG;NEUT,b ɛ ɲ d͡ʑ ɛ ʂ u k a w ɔ,b ɛ ɲ d͡ʑ ɛ ʂ u k a w ɔ
+szukać,V;COND;3;SG;FEM,ʂ u k a w a b ɨ,ʂ u k a w a b ɨ
+szukać,V;COND;3;SG;NEUT,ʂ u k a w ɔ b ɨ,ʂ u k a w ɔ b ɨ
+szukać,V;PRS;1;PL,ʂ u k a m ɨ,ʂ u k a m ɨ
+szukać,V;PRS;2;SG,ʂ u k a ʂ,t r f a ʂ

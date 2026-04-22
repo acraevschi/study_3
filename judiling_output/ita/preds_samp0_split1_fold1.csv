@@ -1,0 +1,754 @@
+lemma,paradigm_slot,target,prediction
+postare,V;IND;PST;2;PL;PFV,p o s t a s t e,p ɔ s t a s t e
+postare,V;IND;PST;2;PL;IPFV,p o s t a v a t e,p o s t a v a t e
+postare,V;COND;2;SG,p o s t e r e s t i,p o s t e r e s t i
+postare,V;IND;FUT;1;SG,p o s t e r ɔ,p o s t a r ɔ
+postare,V;IND;PRS;1;PL,p o s t j a m o,p o s t e r ɛ m o
+postare,V;POS;IMP;3;PL,p o s t i n o,p o s t i n o
+postare,V;SBJV;PRS;2;SG,p o s t i,p o s t i
+postare,V;IND;PST;3;SG;PFV,p o s t ɔ,p o s t a j
+provare,V;SBJV;PST;3;SG,p r o v a s s e,p r o v a s s e
+provare,V;SBJV;PST;1;SG,p r o v a s s i,p r o v a s s i
+provare,V;IND;PST;3;PL;IPFV,p r o v a v a n o,p r o v a v a n o
+provare,V;IND;PST;2;SG;IPFV,p r o v a v i,p r o v a v i
+provare,V;IND;FUT;2;PL,p r o v e r e t e,p r o v e r e t e
+provare,V;IND;FUT;1;SG,p r o v e r ɔ,p r o v e r ɔ
+provare,V;POS;IMP;3;PL,p r ɔ v i n o,p r ɔ v a n o
+provare,V;SBJV;PRS;1;SG,p r ɔ v i,p r ɔ v i
+bisognare,V;SBJV;PRS;3;SG,b i z o ɲ ɲ i,b i z o ɲ ɲ a s s e
+iniziare,V;SBJV;PST;2;PL,i n i t t͡s j a s t e,i n i t t͡s j a s t e
+iniziare,V;IND;PST;2;SG;PFV,i n i t t͡s j a s t i,k o m m e n t a s t i
+iniziare,V;IND;PST;1;PL;IPFV,i n i t t͡s j a v a m o,i n i t t͡s j a v a m o
+iniziare,V;IND;PST;3;PL;IPFV,i n i t t͡s j a v a n o,i n i t t͡s j a v a n o
+iniziare,V;IND;FUT;2;SG,i n i t t͡s j e r a j,i n i t t͡s j e r a j
+iniziare,V;IND;FUT;3;SG,i n i t t͡s j e r a,i n i t t͡s j e r ɔ
+iniziare,V;COND;1;PL,i n i t t͡s j e r e m m o,a r r i v e r e m m o
+iniziare,V;IND;PRS;1;SG,i n i t t͡s j o,i n i t t͡s i
+iniziare,V;SBJV;PRS;2;SG,i n i t t͡s i,i n i t t͡s i
+squadrare,V;IND;PST;1;PL;PFV,s k w a d r a m m o,s k w a d r j a m m o
+squadrare,V;IND;PST;3;PL;PFV,s k w a d r a r o n o,s k w a d r a r o n o
+squadrare,V;IND;PRS;2;PL,s k w a d r a t e,s k w a d r e t e
+squadrare,V;IND;PRS;3;SG,s k w a d r a,s k w a d r a
+squadrare,V;IND;FUT;3;PL,s k w a d r e r a n n o,s k w a d r e r a n n o
+squadrare,V;SBJV;PRS;2;PL,s k w a d r i a t e,s k w a d r j a t e
+squadrare,V;POS;IMP;3;PL,s k w a d r i n o,s k w a d r i n o
+squadrare,V;SBJV;PRS;1;SG,s k w a d r i,s k w a d r i
+squadrare,V;IND;PRS;1;SG,s k w a d r o,a r r i v o
+sfidare,V;IND;PST;1;PL;PFV,s f i d a m m o,p u n t a m m o
+sfidare,V;NFIN,s f i d a r e,s f i d e r e
+sfidare,V;SBJV;PST;1;PL,s f i d a s s i m o,s f i d a s s i m o
+sfidare,V;IND;PST;1;PL;IPFV,s f i d a v a m o,s f i d a v a m o
+sfidare,V;IND;PST;2;PL;IPFV,s f i d a v a t e,s f i d a v a t e
+sfidare,V;IND;PST;2;SG;IPFV,s f i d a v i,s f i d a v i
+sfidare,V;COND;3;PL,s f i d e r ɛ b b e r o,s f i d e r ɛ b b e r o
+sfidare,V;COND;3;SG,s f i d e r ɛ b b e,s f i d e r ɛ b b e
+sfidare,V;COND;2;SG,s f i d e r e s t i,s f i d e r e s t i
+sfidare,V;IND;PRS;1;PL,s f i d j a m o,s f i d j a m o
+sfidare,V;SBJV;PRS;3;PL,s f i d i n o,s f i d i n o
+sfidare,V;IND;PST;3;SG;PFV,s f i d ɔ,s f i d a j
+progettare,V;IND;PST;1;PL;PFV,p r o d͡ʒ e t t a m m o,p r o d͡ʒ e t t j a m m o
+progettare,V;SBJV;PST;1;SG,p r o d͡ʒ e t t a s s i,p r o d͡ʒ e t t a s s i
+progettare,V;SBJV;PST;2;PL,p r o d͡ʒ e t t a s t e,p r o d͡ʒ e t t a s t e
+progettare,V;IND;PST;1;SG;IPFV,p r o d͡ʒ e t t a v o,p r o d͡ʒ e t t a v o
+progettare,V;IND;FUT;3;PL,p r o d͡ʒ e t t e r a n n o,p r o d͡ʒ ɛ t t e r e m o
+progettare,V;COND;3;PL,p r o d͡ʒ e t t e r ɛ b b e r o,p r o d͡ʒ e t t e r ɛ b b e r o
+progettare,V;IND;FUT;1;SG,p r o d͡ʒ e t t e r ɔ,p r o d͡ʒ e t t e r ɔ
+progettare,V;POS;IMP;1;PL,p r o d͡ʒ e t t j a m o,p r o d͡ʒ e t t j a m o
+progettare,V;SBJV;PRS;2;PL,p r o d͡ʒ e t t j a t e,p r o d͡ʒ e t t j a t e
+progettare,V;SBJV;PRS;1;SG,p r o d͡ʒ ɛ t t i,p r o d͡ʒ e t t i
+motivare,V;IND;PRS;3;PL,m o t i v a n o,m o t i v a n o
+motivare,V;SBJV;PST;3;PL,m o t i v a s s e r o,m o t i v a s s e r o
+motivare,V;SBJV;PST;3;SG,m o t i v a s s e,m o t i v a s s e
+motivare,V;SBJV;PST;1;PL,m o t i v a s s i m o,m o t i v a s s i m o
+motivare,V;POS;IMP;3;PL,m o t i v i n o,t ɛ s t i n o
+motivare,V;IND;PRS;2;SG,m o t i v i,m o t i v i
+motivare,V;SBJV;PRS;2;SG,m o t i v i,m o t i v i
+sembrare,V;IND;PST;1;PL;PFV,s e m b r a m m o,t e m e m m o
+sembrare,V;IND;PRS;3;PL,s e m b r a n o,s e m b r a n o
+sembrare,V;IND;PST;3;PL;IPFV,s e m b r a v a n o,s e m b r a v a n o
+sembrare,V;IND;PST;2;SG;IPFV,s e m b r a v i,s e m b r a v i
+sembrare,V;IND;FUT;3;SG,s e m b r e r a,s e m b r e r a
+sembrare,V;SBJV;PRS;3;SG,s e m b r i,s e m b r i
+partire,V;SBJV;PRS;3;PL,p a r t a n o,p a r t e
+partire,V;SBJV;PRS;1;SG,p a r t a,p a r t o
+partire,V;COND;2;PL,p a r t i r e s t e,p a r t i r e s t e
+partire,V;IND;PST;3;PL;PFV,p a r t i r o n o,p a r t a r o n o
+partire,V;SBJV;PST;1;PL,p a r t i s s i m o,p a r t i s s i m o
+partire,V;IND;PST;2;PL;PFV,p a r t i s t e,p a r t i s t e
+partire,V;IND;PRS;2;PL,p a r t i t e,p a r t a t e
+partire,V;POS;IMP;2;PL,p a r t i t e,p a r t a t e
+partire,V;IND;PST;2;PL;IPFV,p a r t i v a t e,i n i t t͡s j a v a t e
+partire,V;IND;PRS;2;SG,p a r t i,p a r t i
+partire,V;IND;PST;2;SG;IPFV,p a r t i v i,p a r t a v i
+partire,V;POS;IMP;2;SG,p a r t i,p a r t a
+partire,V;IND;PRS;3;PL,p a r t o n o,p a r t a n o
+fermare,V;IND;PST;3;PL;PFV,f e r m a r o n o,f e r m a r o n o
+fermare,V;SBJV;PST;3;PL,f e r m a s s e r o,f e r m a s s e r o
+fermare,V;SBJV;PST;2;PL,f e r m a s t e,f e r m a s t e
+fermare,V;IND;PST;3;SG;IPFV,f e r m a v a,f e r m a v a
+fermare,V;IND;PRS;3;SG,f e r m a,f e r m i
+fermare,V;COND;3;SG,f e r m e r ɛ b b e,f e r m e r ɛ b b e
+fermare,V;COND;1;PL,f e r m e r e m m o,f e r m e r e m m o
+fermare,V;IND;PRS;1;PL,f e r m j a m o,f e r m j a m o
+fermare,V;POS;IMP;1;PL,f e r m j a m o,f e r m e r e m m o
+fermare,V;POS;IMP;3;PL,f e r m i n o,f e r m e r ɛ b b e r o
+fermare,V;SBJV;PRS;2;SG,f e r m i,f e r m i
+fermare,V;SBJV;PRS;3;SG,f e r m i,f e r m i
+sonare,V;IND;PST;1;PL;PFV,s o n a m m o,s o n a r o n o
+sonare,V;NFIN,s o n a r e,s o n a r e
+sonare,V;IND;PST;2;PL;PFV,s o n a s t e,s o n a s t e
+sonare,V;IND;PST;2;SG;PFV,s o n a s t i,s o n a s t i
+sonare,V;POS;IMP;2;PL,s o n a t e,s o n a t e
+sonare,V;IND;PRS;3;SG,s o n a,v w ɔ l e
+sonare,V;IND;PST;2;SG;IPFV,s o n a v i,s o n a v i
+sonare,V;IND;PST;1;SG;IPFV,s o n a v o,s o n a v o
+sonare,V;COND;2;SG,s o n e r e s t i,s o n e r e s t i
+sonare,V;SBJV;PRS;1;PL,s o n j a m o,s o n j a m o
+sonare,V;SBJV;PRS;2;SG,s o n i,s o n i
+sonare,V;IND;PST;3;SG;PFV,s o n ɔ,t e s t ɔ
+datare,V;SBJV;PST;3;SG,d a t a s s e,d a t a s s e
+datare,V;IND;PST;2;PL;PFV,d a t a s t e,d a t a s t e
+datare,V;IND;PST;2;SG;PFV,d a t a s t i,d a t a s t i
+datare,V;IND;PST;3;PL;IPFV,d a t a v a n o,d a t a v a n o
+datare,V;IND;PRS;3;SG,d a t a,d a t a n o
+datare,V;IND;PST;1;SG;IPFV,d a t a v o,d a t a v o
+datare,V;POS;IMP;2;SG,d a t a,d a t a
+datare,V;IND;FUT;3;PL,d a t e r a n n o,d a t a r a n n o
+datare,V;COND;2;SG,d a t e r e s t i,d a t a r e s t i
+datare,V;IND;FUT;1;SG,d a t e r ɔ,d a t e r ɔ
+datare,V;POS;IMP;1;PL,d a t j a m o,d a t e r e m m o
+datare,V;POS;IMP;3;PL,d a t i n o,v i d͡ʒ i l i n o
+datare,V;SBJV;PRS;3;PL,d a t i n o,d a t j a n o
+datare,V;POS;IMP;3;SG,d a t i,d a t a r ɛ b b e
+datare,V;SBJV;PRS;3;SG,d a t i,d a t i
+datare,V;IND;PST;3;SG;PFV,d a t ɔ,d a t a j
+mancare,V;IND;PST;1;PL;PFV,m a n k a m m o,m a n k a j
+mancare,V;IND;PST;2;PL;PFV,m a n k a s t e,m a n k a s t e
+mancare,V;IND;PRS;2;PL,m a n k a t e,m a n k e r e t e
+mancare,V;POS;IMP;2;PL,m a n k a t e,m a n k e r a t e
+mancare,V;IND;PST;1;PL;IPFV,m a n k a v a m o,m a n k a v a m o
+mancare,V;IND;PST;2;PL;IPFV,m a n k a v a t e,m a n k a v a t e
+mancare,V;POS;IMP;2;SG,m a n k a,m a n k j a
+mancare,V;IND;PRS;1;PL,m a n k j a m o,m a n k e r ɛ m o
+mancare,V;SBJV;PRS;2;PL,m a n k j a t e,v o t j a t e
+mancare,V;POS;IMP;3;SG,m a n k i,m a n k a
+starsi,V;IND;PST;1;PL;IPFV,t͡ʃ i s t a v a m o,m i s t a v a m o
+starsi,V;IND;PRS;1;PL,t͡ʃ i s t j a m o,m i s t a n n o
+starsi,V;SBJV;PST;1;SG,m i s t ɛ s s i,m i s t e s s i
+starsi,V;IND;PST;1;SG;PFV,m i s t e t t i,m i s t a j
+starsi,V;IND;PRS;3;SG,s i s t a,s i s t i
+starsi,V;SBJV;PST;2;SG,t i s t e s s i,t i s t a s s i
+starsi,V;COND;2;PL,v i s t a r e s t e,s i s t j a t e r e s t e
+starsi,V;IND;FUT;2;PL,v i s t a r e t e,t͡ʃ i s t a r e t e
+starsi,V;SBJV;PST;2;PL,v i s t ɛ s t e,t͡ʃ i s t a s t e
+starsi,V;SBJV;PRS;2;PL,v i s t j a t e,t͡ʃ i s t j a t e
+contrare,V;IND;PST;1;SG;PFV,k o n t r a j,k o n t r a v o
+contrare,V;IND;PRS;3;PL,k o n t r a n o,k o n t r e r a n o
+contrare,V;SBJV;PST;1;PL,k o n t r a s s i m o,k o n t r a s s i m o
+contrare,V;IND;PST;2;SG;PFV,k o n t r a s t i,k o n t r a s t i
+contrare,V;COND;3;PL,k o n t r e r ɛ b b e r o,k o n t r e r ɛ b b e r o
+contrare,V;COND;2;SG,k o n t r e r e s t i,k o n t r e r e s t i
+immaginare,V;IND;PST;1;SG;PFV,i m m a d͡ʒ i n a j,i m m a d͡ʒ i n a m m o
+immaginare,V;IND;PST;3;PL;PFV,i m m a d͡ʒ i n a r o n o,i m m a d͡ʒ i n a r o n o
+immaginare,V;SBJV;PST;1;SG,i m m a d͡ʒ i n a s s i,i m m a d͡ʒ i n a s s i
+immaginare,V;POS;IMP;2;SG,i m m a d͡ʒ i n a,i m m a d͡ʒ i n a
+immaginare,V;COND;3;SG,i m m a d͡ʒ i n e r ɛ b b e,i m m a d͡ʒ i n e r ɛ b b e
+immaginare,V;IND;PRS;1;PL,i m m a d͡ʒ i n j a m o,i m m a d͡ʒ i n e r e m o
+immaginare,V;SBJV;PRS;2;PL,i m m a d͡ʒ i n j a t e,i m m a d͡ʒ i n j a t e
+immaginare,V;SBJV;PRS;3;SG,i m m a d͡ʒ i n i,i m m a d͡ʒ i n i
+restare,V;IND;PST;1;SG;PFV,r e s t a j,r e s t a v o
+restare,V;SBJV;PST;3;SG,r e s t a s s e,r e s t a s s e
+restare,V;SBJV;PST;1;PL,r e s t a s s i m o,r e s t a s s i m o
+restare,V;SBJV;PST;1;SG,r e s t a s s i,r ɛ s t a s s i
+restare,V;SBJV;PST;2;PL,r e s t a s t e,r e s t a s t e
+restare,V;IND;PST;1;PL;IPFV,r e s t a v a m o,r e s t a v a m o
+restare,V;IND;PST;3;PL;IPFV,r e s t a v a n o,r e s t a v a n o
+restare,V;IND;FUT;3;SG,r e s t e r a,r e s t a r a
+restare,V;COND;3;SG,r e s t e r ɛ b b e,r e s t e r ɛ b b e
+restare,V;POS;IMP;3;PL,r e s t i n o,r e s t j a n o
+restare,V;SBJV;PRS;3;PL,r e s t i n o,r e s t j a n o
+lavorare,V;IND;PST;1;SG;PFV,l a v o r a j,l a v o r a m m o
+lavorare,V;SBJV;PST;2;PL,l a v o r a s t e,l a v o r a s t e
+lavorare,V;POS;IMP;2;PL,l a v o r a t e,l a v o r a t e
+lavorare,V;IND;PST;1;PL;IPFV,l a v o r a v a m o,l a v o r a v a m o
+lavorare,V;IND;PST;1;SG;IPFV,l a v o r a v o,l a v o r a v o
+lavorare,V;IND;FUT;1;PL,l a v o r e r e m o,l a v o r e r e m o
+lavorare,V;IND;PRS;2;SG,l a v o r i,l a v o r a j
+tornare,V;IND;PST;2;SG;PFV,t o r n a s t i,t o r n a s t i
+tornare,V;IND;FUT;2;SG,t o r n e r a j,t o r n e r a j
+tornare,V;IND;FUT;3;SG,t o r n e r a,t o r n e r a
+tornare,V;SBJV;PRS;2;PL,t o r n j a t e,t o r n j a t e
+tornare,V;SBJV;PRS;1;SG,t o r n i,t o r n o
+tornare,V;SBJV;PRS;3;SG,t o r n i,t o r n i
+venire,V;SBJV;PRS;1;SG,v ɛ n ɡ a,v ɛ n ɡ o
+venire,V;SBJV;PRS;3;SG,v ɛ n ɡ a,v ɛ n ɡ a
+venire,V;IND;PRS;3;PL,v ɛ n ɡ o n o,v e n t a n o
+venire,V;NFIN,v e n i r e,d o p e r e
+venire,V;SBJV;PST;3;PL,v e n i s s e r o,v e n i s s e r o
+venire,V;SBJV;PST;1;PL,v e n i s s i m o,v e n i s s i m o
+venire,V;SBJV;PST;2;PL,v e n i s t e,v e n i s t e
+venire,V;IND;FUT;2;SG,v e r r a j,v e r r a j
+venire,V;IND;FUT;3;PL,v e r r a n n o,v e r r a n n o
+venire,V;COND;3;SG,v e r r ɛ b b e,d a t e r ɛ b b e
+venire,V;COND;1;SG,v e r r ɛ j,v e r r e s t e r ɛ j
+venire,V;IND;FUT;1;PL,v e r r e m o,v e r r a n n o
+vedere,V;SBJV;PRS;3;PL,v e d a n o,v e d a n o
+vedere,V;IND;PST;1;PL;PFV,v e d e m m o,v e d j a m m o
+vedere,V;SBJV;PST;1;PL,v e d e s s i m o,v e d e s s i m o
+vedere,V;SBJV;PST;2;SG,v e d e s s i,v e d e s s i
+vedere,V;IND;PST;1;PL;IPFV,v e d e v a m o,v e d e v a m o
+vedere,V;IND;PST;3;PL;IPFV,v e d e v a n o,v e d e v a n o
+vedere,V;SBJV;PRS;1;PL,v e d j a m o,v e d j a m o
+vedere,V;IND;PRS;3;PL,v e d o n o,v e d e r o
+vedere,V;IND;FUT;2;SG,v e d r a j,v e d e r a j
+vedere,V;IND;FUT;3;SG,v e d r a,v e d e r a
+vedere,V;COND;3;SG,v e d r ɛ b b e,v e d r ɛ b b e
+vedere,V;COND;1;PL,v e d r e m m o,v e d r e m m o
+vedere,V;IND;FUT;1;PL,v e d r ɛ m o,v e d r e m o
+vedere,V;COND;2;SG,v e d r e s t i,v e d r e s t i
+vedere,V;IND;PST;1;SG;PFV,v i d i,v e d e v o
+rapportare,V;SBJV;PST;2;SG,r a p p o r t a s s i,r a p p ɔ r t a s s i
+rapportare,V;SBJV;PST;2;PL,r a p p o r t a s t e,r a p p ɔ r t a s t e
+rapportare,V;IND;PST;1;PL;IPFV,r a p p o r t a v a m o,r a p p o r t a v a m o
+rapportare,V;IND;PST;2;PL;IPFV,r a p p o r t a v a t e,r a p p o r t a v a t e
+rapportare,V;IND;PRS;3;SG,r a p p ɔ r t a,r a p p o r t i
+rapportare,V;IND;PST;1;SG;IPFV,r a p p o r t a v o,r a p p o r t a v o
+rapportare,V;COND;3;PL,r a p p o r t e r ɛ b b e r o,r a p p o r t e r ɛ b b e r o
+rapportare,V;COND;1;SG,r a p p ɔ r t e r ɛ j,r a p p o r t e r ɛ i
+rapportare,V;IND;PST;3;SG;PFV,r a p p o r t ɔ,r a p p o r t a j
+commentare,V;IND;PST;1;SG;PFV,k o m m e n t a j,k o m m e n t a j
+commentare,V;NFIN,k o m m e n t a r e,k o m m e n t a r e
+commentare,V;SBJV;PST;3;SG,k o m m e n t a s s e,k o m m e n t a s s e
+commentare,V;IND;PST;2;SG;PFV,k o m m e n t a s t i,k o m m e n t a s t i
+commentare,V;IND;PRS;2;PL,k o m m e n t a t e,k o m m e n t a t e
+commentare,V;IND;PST;2;PL;IPFV,k o m m e n t a v a t e,k o m m e n t a v a t e
+commentare,V;POS;IMP;2;SG,k o m m e n t a,k o m m e n t a
+commentare,V;COND;3;PL,k o m m e n t e r ɛ b b e r o,k o m m e n t e r ɛ b b e r o
+commentare,V;COND;2;SG,k o m m e n t e r e s t i,k o m m e n t e r e s t i
+commentare,V;SBJV;PRS;2;PL,k o m m e n t j a t e,m i ʎ ʎ o r j a t e
+commentare,V;SBJV;PRS;1;SG,k o m m e n t i,k o m m e n t i
+dettare,V;SBJV;PST;1;PL,d e t t a s s i m o,d e t t a s s i m o
+dettare,V;IND;PST;2;SG;PFV,d e t t a s t i,d e t t a s t i
+dettare,V;IND;FUT;3;SG,d e t t e r a,d e t t e r a
+dettare,V;COND;3;SG,d e t t e r ɛ b b e,d e t t e r ɛ b b e
+dettare,V;COND;1;SG,d e t t e r ɛ j,d e t t e r ɛ j
+dettare,V;IND;FUT;1;PL,d e t t e r e m o,d e t t e r e m o
+dettare,V;POS;IMP;1;PL,d e t t j a m o,d e t t a r e m m o
+dettare,V;SBJV;PRS;2;PL,d e t t j a t e,d e t t j a t e
+dettare,V;SBJV;PRS;3;PL,d e t t i n o,d e t t i n o
+dettare,V;IND;PRS;1;SG,d e t t o,d e t t i
+cambiare,V;IND;PRS;1;PL,k a m b j a m o,k a m b j a m o
+cambiare,V;IND;PST;2;SG;PFV,k a m b j a s t i,k a m b j a s t i
+cambiare,V;POS;IMP;2;PL,k a m b j a t e,s j a t ɛ t͡ʃ i
+cambiare,V;SBJV;PRS;2;PL,k a m b j a t e,k a m b j a t e
+cambiare,V;IND;FUT;1;PL,k a m b j e r e m o,k a m b j e r e m o
+cambiare,V;COND;2;SG,k a m b j e r e s t i,k a m b j e r e s t i
+cambiare,V;SBJV;PRS;3;PL,k a m b i n o,k a m b j a n o
+cambiare,V;SBJV;PRS;1;SG,k a m b i,k a m b i
+passare,V;SBJV;PST;3;SG,p a s s a s s e,p a s s a s s e
+passare,V;SBJV;PST;2;SG,p a s s a s s i,p a s s a s s i
+passare,V;POS;IMP;2;PL,p a s s a t e,p a s s i n o
+passare,V;IND;PST;1;PL;IPFV,p a s s a v a m o,p a s s a v a m o
+passare,V;IND;PST;1;SG;IPFV,p a s s a v o,p a s s a v o
+passare,V;IND;FUT;2;SG,p a s s e r a j,p a s s e r a j
+passare,V;IND;FUT;3;SG,p a s s e r a,p a s s a r a
+passare,V;COND;1;PL,p a s s e r e m m o,p a s s a r e m m o
+passare,V;COND;2;SG,p a s s e r e s t i,p a s s a r e s t i
+passare,V;SBJV;PRS;2;PL,p a s s j a t e,p a s s j a t e
+passare,V;IND;PRS;1;SG,p a s s o,p a s s i
+azzurrare,V;SBJV;PST;1;SG,a d d͡z u r r a s s i,a d d͡z u r r a s s i
+azzurrare,V;IND;PRS;2;PL,a d d͡z u r r a t e,a d d͡z u r r a t e
+azzurrare,V;IND;PST;3;PL;IPFV,a d d͡z u r r a v a n o,a d d͡z u r r a v a n o
+azzurrare,V;IND;FUT;3;SG,a d d͡z u r r e r a,a d d͡z u r r e r a
+azzurrare,V;POS;IMP;1;PL,a d d͡z u r r j a m o,a d d͡z u r r a r e m m o
+notiziare,V;IND;PRS;1;PL,n o t i t t͡s j a m o,n o t i t t͡s j a m o
+notiziare,V;SBJV;PST;1;SG,n o t i t t͡s j a s s i,n o t i t t͡s j a s s i
+notiziare,V;IND;PRS;3;SG,n o t i t t͡s j a,n o t i t t͡s i
+notiziare,V;IND;PST;2;SG;IPFV,n o t i t t͡s j a v i,n o t i t t͡s j a v i
+notiziare,V;IND;FUT;3;PL,n o t i t t͡s j e r a n n o,n o t i t t͡s j a n o
+notiziare,V;COND;3;PL,n o t i t t͡s j e r ɛ b b e r o,a s p e t t e r ɛ b b e r o
+notiziare,V;COND;1;PL,n o t i t t͡s j e r e m m o,v o r r e m m o
+notiziare,V;IND;FUT;1;PL,n o t i t t͡s j ɛ r e m o,n o t i t t͡s j a m o
+notiziare,V;IND;FUT;2;PL,n o t i t t͡s j e r e t e,n o t i t t͡s j e r e t e
+notiziare,V;POS;IMP;3;SG,n o t i t t͡s i,n o t i t t͡s j a
+notiziare,V;SBJV;PRS;2;SG,n o t i t t͡s i,n o t i t t͡s i
+notiziare,V;SBJV;PRS;3;SG,n o t i t t͡s i,n o t i t t͡s i
+diventare,V;IND;PST;1;SG;PFV,d i v e n t a j,d i v e n t a v o
+diventare,V;SBJV;PST;3;SG,d i v e n t a s s e,d i v e n t a s s e
+diventare,V;IND;PST;2;PL;PFV,d i v e n t a s t e,d i v e n t a r o n o
+diventare,V;IND;PST;2;SG;IPFV,d i v e n t a v i,d i v e n t a v i
+diventare,V;IND;FUT;3;PL,d i v e n t e r a n n o,d i v e n t a r e t e
+diventare,V;COND;3;PL,d i v e n t e r ɛ b b e r o,d i v e n t e r ɛ b b e r o
+diventare,V;IND;FUT;2;PL,d i v e n t e r e t e,d i v e n t e r a n n o
+diventare,V;IND;FUT;1;SG,d i v e n t e r ɔ,d i v e n t e r ɔ
+diventare,V;SBJV;PRS;2;PL,d i v e n t͡s j a t e,d i v e n t j a t e
+diventare,V;POS;IMP;3;SG,d i v ɛ n t i,d i v e n t a
+diventare,V;SBJV;PRS;1;SG,d i v ɛ n t i,d i v e n t i
+diventare,V;SBJV;PRS;3;SG,d i v ɛ n t i,d i v e n t i
+diventare,V;IND;PRS;1;SG,d i v e n t o,s o n o
+diventare,V;IND;PST;3;SG;PFV,d i v e n t ɔ,d i v e n t a r o n o
+giocare,V;IND;PRS;3;PL,d͡ʒ ɔ k a n o,d͡ʒ ɔ k a n o
+giocare,V;NFIN,d͡ʒ o k a r e,d͡ʒ o k a r e
+giocare,V;SBJV;PST;3;PL,d͡ʒ o k a s s e r o,d͡ʒ o k a s s e r o
+giocare,V;SBJV;PST;1;SG,d͡ʒ o k a s s i,d͡ʒ o k a s s i
+giocare,V;SBJV;PST;2;SG,d͡ʒ o k a s s i,d͡ʒ o k a s s i
+giocare,V;IND;PST;2;SG;PFV,d͡ʒ o k a s t i,d͡ʒ o k a s t i
+giocare,V;IND;PST;3;PL;IPFV,d͡ʒ o k a v a n o,d͡ʒ o k a v a t e
+giocare,V;IND;PST;1;SG;IPFV,d͡ʒ o k a v o,d͡ʒ o k a v o
+giocare,V;IND;FUT;1;SG,d͡ʒ o k e r ɔ,d͡ʒ o k e r e r ɔ
+liberare,V;IND;PST;1;PL;PFV,l i b e r a m m o,l i b e r j a m m o
+liberare,V;POS;IMP;2;PL,l i b e r a t e,l i b e r a t e
+liberare,V;IND;PST;2;PL;IPFV,l i b e r a v a t e,l i b e r a v a t e
+liberare,V;IND;PRS;3;SG,l i b e r a,l i b e r a
+liberare,V;COND;3;PL,l i b e r e r ɛ b b e r o,l i b e r e r ɛ b b e r o
+liberare,V;COND;1;SG,l i b e r e r ɛ i,l i b e r e r ɛ i
+liberare,V;SBJV;PRS;3;PL,l i b e r i n o,l i b e r o
+pubblicare,V;IND;PST;1;SG;PFV,p u b b l i k a j,u l t i m a j
+pubblicare,V;IND;PST;3;PL;PFV,p u b b l i k a r o n o,p u b b l i k a r o n o
+pubblicare,V;SBJV;PST;3;PL,p u b b l i k a s s e r o,p u b b l i k a s s e r o
+pubblicare,V;SBJV;PST;1;PL,p u b b l i k a s s i m o,p u b b l i k a s s i m o
+pubblicare,V;IND;PST;1;SG;IPFV,p u b b l i k a v o,p u b b l i k a v o
+pubblicare,V;IND;FUT;2;SG,p u b b l i k e r a j,p u b b l i k e r a j
+pubblicare,V;COND;3;SG,p u b b l i k e r ɛ b b e,d a t e r ɛ b b e
+pubblicare,V;COND;1;PL,p u b b l i k e r e m m o,p u b b l i k e r e m m o
+pubblicare,V;SBJV;PRS;1;SG,p u b b l i k i,p u b b l i k i
+pubblicare,V;SBJV;PRS;3;SG,p u b b l i k i,p u b b l i k i
+pubblicare,V;IND;PST;3;SG;PFV,p u b b l i k ɔ,p u b b l i k a r o n o
+dopare,V;IND;PST;1;SG;PFV,d o p a j,r ɛ s t a j
+dopare,V;NFIN,d o p a r e,d o p a r e
+dopare,V;IND;PST;2;PL;PFV,d o p a s t e,d o p a s t e
+dopare,V;IND;PST;2;PL;IPFV,d o p a v a t e,d o p a v a t e
+dopare,V;IND;PRS;3;SG,d ɔ p a,d o p e r a
+dopare,V;IND;PST;1;SG;IPFV,d o p a v o,r ɛ s t a v o
+dopare,V;COND;1;SG,d o p e r ɛ i,d o p j a t e r ɛ j
+dopare,V;IND;FUT;2;PL,d o p e r e t e,d o p e r e t e
+dopare,V;IND;FUT;1;SG,d o p e r ɔ,d o p e r ɔ
+dopare,V;POS;IMP;3;PL,d o p i n o,n o i n o
+dopare,V;POS;IMP;3;SG,d ɔ p i,d ɔ p a
+testare,V;IND;PST;1;SG;PFV,t e s t a j,t e s t a j
+testare,V;IND;PST;2;SG;PFV,t e s t a s t i,t e s t a j
+testare,V;IND;PST;1;PL;IPFV,t e s t a v a m o,t e s t a v a m o
+testare,V;IND;PST;2;SG;IPFV,t e s t a v i,t e s t a v i
+testare,V;IND;PST;1;SG;IPFV,t e s t a v o,t e s t a v o
+testare,V;COND;2;PL,t e s t e r e s t e,t e s t a r e s t e
+testare,V;SBJV;PRS;2;PL,t e s t j a t e,t e s t j a t e
+testare,V;SBJV;PRS;1;SG,t ɛ s t i,t e s t i
+testare,V;SBJV;PRS;2;SG,t ɛ s t i,t e s t i
+dire,V;SBJV;PRS;1;SG,d i k a,d i k o
+dire,V;IND;PST;1;PL;PFV,d i t͡ʃ e m m o,d i s s e r ɛ m o
+dire,V;IND;PST;2;PL;IPFV,d i t͡ʃ e v a t e,d i t͡ʃ e v a t e
+dire,V;IND;PST;3;SG;IPFV,d i t͡ʃ e v a,d i t͡ʃ e v a
+dire,V;IND;PST;2;SG;IPFV,d i t͡ʃ e v i,d i k a v i
+dire,V;IND;FUT;3;SG,d i r a,d i r a j
+dire,V;COND;3;PL,d i r ɛ b b e r o,d i r e s t e r o
+dire,V;COND;3;SG,d i r ɛ b b e,v o r r ɛ b b e
+dire,V;COND;1;SG,d i r ɛ i,d i r ɛ i
+dire,V;COND;2;PL,d i r e s t e,d i r e s t e
+dire,V;POS;IMP;2;PL,d i t e,d i
+musicare,V;IND;PST;1;PL;PFV,m u z i k a m m o,v i s t a m m o
+musicare,V;SBJV;PST;1;PL,m u z i k a s s i m o,m u z i k a s s i m o
+musicare,V;POS;IMP;2;PL,m u z i k a t e,m u z i k a t e
+musicare,V;IND;PST;3;SG;IPFV,m u z i k a v a,m u z i k a v a
+musicare,V;IND;FUT;1;PL,m u z i k e r e m o,m u z i k e r e m o
+musicare,V;COND;2;PL,m u z i k e r e s t e,m u z i k e r e s t e
+musicare,V;IND;FUT;1;SG,m u z i k e r ɔ,m u z i k e r ɔ
+musicare,V;SBJV;PRS;2;PL,m u z i k j a t e,m u z i k a t e
+musicare,V;POS;IMP;3;PL,m u z i k i n o,m u z i k i n o
+musicare,V;IND;PRS;2;SG,m u z i k i,m u z i k a
+musicare,V;IND;PRS;1;SG,m u z i k o,m u z i k e r ɔ
+noiare,V;IND;PST;1;SG;PFV,n o j a j,n o j a m m o
+noiare,V;IND;PST;3;PL;PFV,n o j a r o n o,n o j a r o n o
+noiare,V;SBJV;PST;2;SG,n o j a s s i,n o j a s s i
+noiare,V;SBJV;PST;2;PL,n o j a s t e,n o j a s t e
+noiare,V;IND;PST;3;SG;IPFV,n o j a v a,n o j a v a
+noiare,V;IND;FUT;3;SG,n o j e r a,n o j e r e r a
+noiare,V;COND;3;SG,n o j e r ɛ b b e,n o j e r ɛ b b e
+noiare,V;COND;2;SG,n o j e r e s t i,n o j e r e s t i
+noiare,V;SBJV;PRS;3;PL,n o i n o,n ɔ j a n o
+noiare,V;POS;IMP;3;SG,n ɔ j,n ɔ j a
+noiare,V;SBJV;PRS;1;SG,n ɔ j,n ɔ j o
+noiare,V;SBJV;PRS;2;SG,n ɔ j,n ɔ j
+controllare,V;IND;PST;1;SG;PFV,k o n t r o l l a j,k o n t r o l l a s t i
+controllare,V;IND;PRS;3;PL,k o n t r ɔ l l a n o,k o n t r o l l e r a n o
+controllare,V;IND;PST;3;PL;PFV,k o n t r o l l a r o n o,k o n t r o l l a r o n o
+controllare,V;SBJV;PST;1;PL,k o n t r o l l a s s i m o,b i z o ɲ ɲ a s s i m o
+controllare,V;SBJV;PST;2;SG,k o n t r o l l a s s i,k o n t r ɔ l l a s s i
+controllare,V;SBJV;PST;2;PL,k o n t r o l l a s t e,k o n t r o l l a s t e
+controllare,V;IND;PST;2;SG;IPFV,k o n t r o l l a v i,k o n t r ɔ l l a v o
+controllare,V;POS;IMP;2;SG,k o n t r ɔ l l a,k o n t r ɔ l l a r e s t i
+controllare,V;COND;1;PL,k o n t r o l l e r e m m o,a s p e t t e r e m m o
+controllare,V;SBJV;PRS;1;PL,k o n t r o l l j a m o,k o n t r o l l j a m o
+controllare,V;SBJV;PRS;1;SG,k o n t r ɔ l l i,k o n t r o l l i
+controllare,V;IND;PST;3;SG;PFV,k o n t r o l l ɔ,k o n t r o l l a s t i
+portare,V;POS;IMP;2;PL,p o r t a t e,p o r t a t e
+portare,V;IND;PST;1;PL;IPFV,p ɔ r t a v a m o,p o r t a v a m o
+portare,V;IND;PST;2;PL;IPFV,p ɔ r t a v a t e,p o r t a v a t e
+portare,V;IND;PST;1;SG;IPFV,p ɔ r t a v o,p o r t a v o
+portare,V;COND;3;PL,p o r t e r ɛ b b e r o,p o r t e r ɛ b b e r o
+portare,V;SBJV;PRS;1;PL,p o r t j a m o,p o r t j a m o
+portare,V;SBJV;PRS;3;PL,p o r t i n o,p ɔ r t i n o
+portare,V;POS;IMP;3;SG,p ɔ r t i,p o r t a
+votare,V;IND;PST;3;PL;PFV,v o t a r o n o,v o t a r o n o
+votare,V;IND;PST;2;SG;PFV,v o t a s t i,v o t a s t i
+votare,V;IND;PST;3;SG;IPFV,v o t a v a,v o t a v a
+votare,V;IND;PRS;3;SG,v ɔ t a,v o t e r a
+votare,V;IND;FUT;3;PL,v o t e r a n n o,v o t e r e r a n n o
+votare,V;COND;1;SG,v o t e r ɛ j,v o t e r ɛ i
+votare,V;IND;FUT;1;PL,v o t e r e m o,v o t e r e m o
+votare,V;COND;2;SG,v o t e r e s t i,v o t e r e s t i
+votare,V;IND;FUT;1;SG,v o t e r ɔ,v o t e r ɔ
+votare,V;POS;IMP;1;PL,v o t j a m o,v o t i n o
+votare,V;IND;PRS;2;SG,v o t i,v w ɔ j
+votare,V;SBJV;PRS;2;SG,v o t i,v o t i
+votare,V;SBJV;PRS;3;SG,v o t i,v o t i
+figliare,V;SBJV;PRS;1;PL,f i ʎ ʎ a m o,f i ʎ ʎ a m o
+figliare,V;SBJV;PST;3;SG,f i ʎ ʎ a s s e,f i ʎ ʎ a s s e
+figliare,V;IND;PRS;2;PL,f i ʎ ʎ a t e,f i ʎ ʎ e r e t e
+figliare,V;POS;IMP;2;PL,f i ʎ ʎ a t e,f i ʎ ʎ a t e
+figliare,V;SBJV;PRS;2;PL,f i ʎ ʎ a t e,p o s t j a t e
+figliare,V;IND;PST;2;SG;IPFV,f i ʎ ʎ a v i,f i ʎ ʎ a v i
+figliare,V;IND;FUT;2;SG,f i ʎ ʎ e r a j,f i ʎ ʎ e r a j
+figliare,V;IND;FUT;3;PL,f i ʎ ʎ e r a n n o,f i ʎ ʎ e r a n n o
+figliare,V;COND;1;SG,f i ʎ ʎ e r ɛ i,f i ʎ ʎ e r ɛ j
+figliare,V;POS;IMP;3;SG,f i ʎ ʎ i,f i ʎ ʎ a
+volercene,V;SBJV;PRS;3;PL,v ɔ ʎ ʎ a n o,v ɔ ʎ ʎ o n o
+volercene,V;IND;FUT;3;SG,v o r r a,v o r r a
+dare,V;IND;FUT;1;SG,d a r ɔ,d a t e r ɔ
+dare,V;IND;PST;2;PL;IPFV,d a v a t e,l i b e r a v a t e
+dare,V;SBJV;PST;3;SG,d e s s e,d e s s i
+dare,V;SBJV;PST;2;SG,d e s s i,t i s t a s s i
+dare,V;SBJV;PST;2;PL,d e s t e,d i a t e
+dare,V;POS;IMP;1;PL,d j a m o,d a r e m m o
+dare,V;SBJV;PRS;1;PL,d j a m o,d e s s i m o
+dare,V;POS;IMP;3;SG,d i a,d a
+dare,V;IND;PST;1;SG;PFV,d j e d i,d a j
+aspettare,V;NFIN,a s p e t t a r e,a s p e t t a r e
+aspettare,V;SBJV;PST;2;PL,a s p e t t a s t e,a s p e t t a s t e
+aspettare,V;IND;PRS;2;PL,a s p e t t a t e,a s p e t t e
+aspettare,V;IND;PRS;3;SG,a s p e t t a,a s p ɛ t t i
+aspettare,V;POS;IMP;2;SG,a s p e t t a,d ɔ p a
+aspettare,V;COND;3;PL,a s p e t t e r ɛ b b e r o,a s p e t t e r ɛ b b e r o
+aspettare,V;IND;FUT;1;PL,a s p e t t e r e m o,a s p e t t e r e m o
+aspettare,V;IND;FUT;1;SG,a s p e t t e r ɔ,d o p e r ɔ
+aspettare,V;POS;IMP;3;PL,a s p e t t i n o,a s p ɛ t t i n o
+ancorare,V;SBJV;PST;3;PL,a n k o r a s s e r o,a n k o r a s s e r o
+ancorare,V;SBJV;PST;2;SG,a n k o r a s s i,a n k o r a s s i
+ancorare,V;IND;PST;2;PL;PFV,a n k o r a s t e,a n k o r a s t e
+ancorare,V;IND;FUT;2;SG,a n k o r e r a j,a n k o r e r a j
+ancorare,V;COND;1;PL,a n k o r e r e m m o,a n k o r a t e r e m m o
+ancorare,V;IND;PRS;1;PL,a n k o r j a m o,a n k o r j a m o
+ancorare,V;POS;IMP;1;PL,a n k o r j a m o,a n k o r j a m o
+ancorare,V;IND;PRS;2;SG,a n k o r i,a n k o r a j
+ancorare,V;POS;IMP;3;SG,a n k o r i,a n k o r a
+ancorare,V;SBJV;PRS;3;SG,a n k o r i,a n k o r i
+ancorare,V;IND;PST;3;SG;PFV,a n k o r ɔ,a n k o r a
+volere,V;POS;IMP;3;PL,v ɔ ʎ ʎ a n o,v ɔ ʎ ʎ i n o
+volere,V;SBJV;PRS;3;SG,v ɔ ʎ ʎ a,v ɔ ʎ ʎ a
+volere,V;IND;PST;1;PL;PFV,v o l e m m o,v o ʎ ʎ a m m o
+volere,V;SBJV;PST;3;PL,v o l e s s e r o,v o ʎ ʎ a s s e r o
+volere,V;SBJV;PST;1;SG,v o l e s s i,v o l e s s i
+volere,V;IND;PST;2;PL;PFV,v o l ɛ s t e,v o ʎ ʎ a s t e
+volere,V;IND;PST;1;PL;IPFV,v o l e v a m o,v o l e r a v a m o
+volere,V;IND;PST;3;SG;IPFV,v o l ɛ v a,v o l e v a
+volere,V;IND;PST;3;PL;PFV,v ɔ l l e r o,v ɔ l l e r o
+volere,V;IND;PST;3;SG;PFV,v ɔ l l e,v ɔ l l i
+volere,V;IND;FUT;2;SG,v o r r a j,v o r r a j
+volere,V;COND;3;PL,v o r r ɛ b b e r o,v o l e r ɛ b b e r o
+volere,V;COND;2;SG,v o r r e s t i,v o l e r e s t i
+esserci,V;SBJV;PST;1;PL,t͡ʃ i f ɔ s s i m o,t͡ʃ i f ɔ s s i m o
+esserci,V;COND;3;PL,t͡ʃ i s a r ɛ b b e r o,t͡ʃ i s a r ɛ b b e r o
+esserci,V;IND;FUT;2;PL,t͡ʃ i s a r e t e,t͡ʃ i s j a t e r e t e
+esserci,V;IND;PRS;2;PL,t͡ʃ i s j e t e,t͡ʃ i s a r e t e
+esserci,V;IND;PRS;3;PL,t͡ʃ i s o n o,t͡ʃ i s j a n o
+esserci,V;POS;IMP;1;PL,s j a m o t͡ʃ i,t͡ʃ i s j a m o
+ultimare,V;SBJV;PST;3;SG,u l t i m a s s e,u l t i m a s s e
+ultimare,V;IND;FUT;3;PL,u l t i m e r a n n o,u l t i m e r a n n o
+ultimare,V;COND;3;SG,u l t i m e r ɛ b b e,u l t i m e r ɛ b b e
+ultimare,V;SBJV;PRS;2;PL,u l t i m j a t e,u l t i m a t e
+ultimare,V;POS;IMP;3;PL,u l t i m i n o,u l t i m i n o
+ultimare,V;SBJV;PRS;2;SG,u l t i m i,u l t i m i
+puntare,V;IND;PST;3;PL;PFV,p u n t a r o n o,p u n t a r o n o
+puntare,V;POS;IMP;2;PL,p u n t a t e,p u n t a t e
+puntare,V;IND;PST;3;PL;IPFV,p u n t a v a n o,p u n t a v a n o
+puntare,V;IND;PST;2;PL;IPFV,p u n t a v a t e,p u n t a v a t e
+puntare,V;IND;PRS;1;PL,p u n t j a m o,p u n t j a m o
+puntare,V;SBJV;PRS;1;PL,p u n t j a m o,p u n t j a m o
+dannare,V;IND;PST;1;PL;PFV,d a n n a m m o,d a n n j a m m o
+dannare,V;NFIN,d a n n a r e,d a n n a r e
+dannare,V;SBJV;PST;3;PL,d a n n a s s e r o,d a n n a s s e r o
+dannare,V;SBJV;PST;1;SG,d a n n a s s i,d a n n a s s i
+dannare,V;IND;PST;2;PL;PFV,d a n n a s t e,d a n n a s t e
+dannare,V;IND;PST;2;SG;PFV,d a n n a s t i,d a n n a s t i
+dannare,V;IND;PST;2;PL;IPFV,d a n n a v a t e,d a n n a v a t e
+dannare,V;IND;PRS;3;SG,d a n n a,d e v e
+dannare,V;IND;PST;2;SG;IPFV,d a n n a v i,d a n n a v i
+dannare,V;IND;FUT;3;SG,d a n n e r a,d a n n e r a
+dannare,V;IND;FUT;2;PL,d a n n e r e t e,d a n n e r e t e
+dannare,V;POS;IMP;3;PL,d a n n i n o,d a n n i n o
+dannare,V;IND;PRS;2;SG,d a n n i,d a n n a
+fare,V;POS;IMP;1;PL,f a t t͡ʃ a m o,f a r e m m o
+fare,V;SBJV;PRS;1;PL,f a t t͡ʃ a m o,f a t͡ʃ ɛ s s i m o
+fare,V;SBJV;PRS;3;SG,f a t t͡ʃ a,f a t t͡ʃ a
+fare,V;IND;PST;1;PL;PFV,f a t͡ʃ e m m o,d͡ʒ o k a m m o
+fare,V;SBJV;PST;2;SG,f a t͡ʃ ɛ s s i,f a t͡ʃ e s s i
+fare,V;IND;PRS;2;SG,f a j,f a
+fare,V;IND;FUT;2;SG,f a r a j,f a r a j
+fare,V;POS;IMP;2;SG,f a,d i
+fare,V;IND;PST;3;PL;PFV,f ɛ t͡ʃ e r o,f a t͡ʃ e s t e r o
+fare,V;IND;PST;3;SG;PFV,f ɛ t͡ʃ e,f a n n ɔ
+fare,V;IND;PST;1;SG;PFV,f ɛ t͡ʃ i,f a t͡ʃ e v o
+secondare,V;IND;PST;1;SG;PFV,s e k o n d a j,s e k o n d a v o
+secondare,V;IND;PST;1;PL;PFV,s e k o n d a m m o,s e k o n d j a m m o
+secondare,V;IND;PRS;3;PL,s e k o n d a n o,s e k o n o
+secondare,V;SBJV;PST;3;PL,s e k o n d a s s e r o,s e k o n d a s s e r o
+secondare,V;SBJV;PST;3;SG,s e k o n d a s s e,s e k o n d a s s i
+secondare,V;SBJV;PST;2;PL,s e k o n d a s t e,s e k o n d a s t e
+secondare,V;IND;PRS;2;PL,s e k o n d a t e,s e k o n d a t e
+secondare,V;IND;FUT;2;SG,s e k o n d e r a j,s e k o n d e r a
+secondare,V;IND;FUT;3;PL,s e k o n d e r a n n o,s e k o n d e r a n n o
+secondare,V;COND;1;PL,s e k o n d e r e m m o,s e k o n d e r e m m o
+secondare,V;IND;FUT;1;PL,s e k o n d e r e m o,s e k o n d e r e m o
+secondare,V;COND;2;SG,s e k o n d e r e s t i,s e k o n d e r e s t i
+secondare,V;IND;FUT;2;PL,s e k o n d e r e t e,s e k o n d e r e t e
+secondare,V;IND;FUT;1;SG,s e k o n d e r ɔ,k o z e r ɔ
+secondare,V;IND;PRS;1;PL,s e k o n d j a m o,s e k o n d j a m o
+secondare,V;POS;IMP;3;PL,s e k o n d i n o,s e k o n d i n o
+secondare,V;IND;PRS;1;SG,s e k o n d o,s e k o n d e r ɔ
+secondare,V;IND;PST;3;SG;PFV,s e k o n d ɔ,s e k o n d a s t i
+condizionare,V;IND;PST;1;SG;PFV,k o n d i t t͡s j o n a j,k o n d i t t͡s j o n a v o
+condizionare,V;IND;PRS;3;PL,k o n d i t t͡s j o n a n o,k o n d i t t͡s j o n e r o
+condizionare,V;NFIN,k o n d i t t͡s j o n a r e,n o m a r e
+condizionare,V;IND;PST;3;PL;PFV,k o n d i t t͡s j o n a r o n o,r ɛ s t a r o n o
+condizionare,V;SBJV;PST;1;PL,k o n d i t t͡s j o n a s s i m o,k o n d a s s i m o
+condizionare,V;SBJV;PST;2;SG,k o n d i t t͡s j o n a s s i,k o n d i t t͡s j o n a s s i
+condizionare,V;IND;PRS;3;SG,k o n d i t t͡s j o n a,v w ɔ l e
+condizionare,V;IND;FUT;2;SG,k o n d i t t͡s j o n e r a j,k o n d i t t͡s j o n e r a
+condizionare,V;POS;IMP;1;PL,k o n d i t t͡s j o n j a m o,k o n d i t t͡s j o n j a m o
+condizionare,V;SBJV;PRS;3;PL,k o n d i t t͡s j o n i n o,k o n d i t t͡s j o n i n o
+condizionare,V;IND;PRS;2;SG,k o n d i t t͡s j o n i,k o n d i t t͡s j o n i
+condizionare,V;SBJV;PRS;1;SG,k o n d i t t͡s j o n i,k o n d i t t͡s j o n i
+condizionare,V;SBJV;PRS;3;SG,k o n d i t t͡s j o n i,k o n d i t t͡s j o n i
+campare,V;SBJV;PST;1;PL,k a m p a s s i m o,k a m p a s s i m o
+campare,V;SBJV;PST;2;SG,k a m p a s s i,k a m p a s s i
+campare,V;IND;PST;1;PL;IPFV,k a m p a v a m o,k a m p a v a m o
+campare,V;IND;PRS;3;SG,k a m p a,v w ɔ l e
+campare,V;IND;FUT;1;PL,k a m p e r e m o,k a m p e r e m o
+campare,V;IND;FUT;1;SG,k a m p e r ɔ,k a m p e r ɔ
+campare,V;IND;PST;3;SG;PFV,k a m p ɔ,k o n t r ɔ
+dovere,V;SBJV;PRS;3;PL,d e v a n o,d o v ɛ s s e r o
+dovere,V;SBJV;PRS;1;SG,d e v a,d e v o
+dovere,V;IND;PRS;1;PL,d o b b j a m o,d o b b j a m o
+dovere,V;IND;PST;1;SG;PFV,d o v ɛ i,d o v e m m o
+dovere,V;SBJV;PST;3;SG,d o v e s s e,d o v ɛ s s e
+dovere,V;SBJV;PST;1;PL,d o v e s s i m o,d o v ɛ s s i m o
+dovere,V;SBJV;PST;1;SG,d o v e s s i,d o b b j a s s i
+dovere,V;IND;PST;2;SG;IPFV,d o v e v i,d o v e v i
+dovere,V;COND;2;SG,d o v r e s t i,d o v e r e r e s t i
+dovere,V;IND;FUT;1;SG,d o v r ɔ,d o v e r ɔ
+vigilare,V;IND;PST;1;SG;PFV,v i d͡ʒ i l a j,v i d͡ʒ i l a s t i
+vigilare,V;SBJV;PST;2;PL,v i d͡ʒ i l a s t e,v i d͡ʒ i l a s t e
+vigilare,V;POS;IMP;2;SG,v i d͡ʒ i l a,d ɔ p a
+vigilare,V;COND;1;SG,v i d͡ʒ i l e r ɛ i,v i d͡ʒ i l e r ɛ j
+vigilare,V;POS;IMP;1;PL,v i d͡ʒ i l j a m o,s t j a m o t͡ʃ i
+vigilare,V;SBJV;PRS;3;PL,v i d͡ʒ i l i n o,v i d͡ʒ i l j a t e
+vigilare,V;IND;PRS;1;SG,v i d͡ʒ i l o,v i d͡ʒ i l a
+voltare,V;IND;PRS;3;PL,v ɔ l t a n o,v o l t a n o
+voltare,V;NFIN,v o l t a r e,v ɔ l t a r e
+voltare,V;SBJV;PST;3;SG,v o l t a s s e,v o l t a s s e
+voltare,V;SBJV;PST;2;PL,v o l t a s t e,v ɔ l t a s t e
+voltare,V;IND;PST;2;SG;IPFV,v o l t a v i,v o l t a v i
+voltare,V;IND;FUT;2;SG,v o l t e r a j,v o l t e r a j
+voltare,V;IND;FUT;3;SG,v o l t e r a,v o l t e r a
+voltare,V;COND;3;SG,v o l t e r ɛ b b e,v o l t e r ɛ b b e
+voltare,V;COND;1;SG,v ɔ l t e r ɛ j,v o l t e r ɛ j
+voltare,V;IND;FUT;1;PL,v o l t e r e m o,v o l t e r e m o
+voltare,V;POS;IMP;3;SG,v ɔ l t i,v ɔ l t a
+arrivare,V;IND;PST;1;SG;PFV,a r r i v a j,a r r i v a m m o
+arrivare,V;IND;PST;3;SG;IPFV,a r r i v a v a,a r r i v a v a
+arrivare,V;IND;PRS;3;SG,a r r i v a,a r r i v a
+arrivare,V;IND;PST;2;SG;IPFV,a r r i v a v i,a r r i v a v i
+arrivare,V;IND;FUT;3;PL,a r r i v e r a n n o,a r r i v e r a n n o
+arrivare,V;COND;3;PL,a r r i v e r ɛ b b e r o,a r r i v e r ɛ b b e r o
+arrivare,V;IND;FUT;2;PL,a r r i v e r e t e,a r r i v e r e t e
+arrivare,V;SBJV;PRS;1;PL,a r r i v j a m o,a r r i v j a m o
+arrivare,V;SBJV;PRS;1;SG,a r r i v i,a r r i v o
+pensare,V;IND;PST;1;SG;PFV,p e n s a j,v i s t a j
+pensare,V;IND;PST;1;PL;PFV,p e n s a m m o,p e n s a m m o
+pensare,V;POS;IMP;2;PL,p e n s a t e,p ɛ n s a
+pensare,V;IND;PST;2;PL;IPFV,p e n s a v a t e,p e n s a v a t e
+pensare,V;IND;PRS;3;SG,p ɛ n s a,p e n s i
+pensare,V;IND;PST;1;SG;IPFV,p e n s a v o,p e n s a v o
+pensare,V;IND;FUT;2;SG,p e n s e r a j,p e n s e r a j
+pensare,V;COND;1;PL,p e n s e r e m m o,d o p e r e m m o
+pensare,V;IND;PRS;1;PL,p e n s j a m o,p e n s j a m o
+pensare,V;IND;PST;3;SG;PFV,p e n s ɔ,d e t t a ʎ ʎ ɔ
+dettagliare,V;IND;PST;1;SG;PFV,d e t t a ʎ ʎ a j,v ɔ l l i
+dettagliare,V;IND;PRS;1;PL,d e t t a ʎ ʎ a m o,d e t t a ʎ ʎ a m o
+dettagliare,V;IND;PRS;2;PL,d e t t a ʎ ʎ a t e,d e t t a ʎ ʎ e r e t e
+dettagliare,V;IND;PST;3;PL;IPFV,d e t t a ʎ ʎ a v a n o,d e t t a ʎ ʎ a v a t e
+dettagliare,V;SBJV;PRS;3;SG,d e t t a ʎ ʎ i,d e t t a ʎ ʎ i
+sinistrare,V;IND;PST;1;PL;PFV,s i n i s t r a m m o,a d d͡z u r r a m m o
+sinistrare,V;NFIN,s i n i s t r a r e,s i n i s t r a r e
+sinistrare,V;SBJV;PST;1;PL,s i n i s t r a s s i m o,s i n i s t r a s s i m o
+sinistrare,V;IND;PST;2;PL;PFV,s i n i s t r a s t e,s i n i s t r a s t e
+sinistrare,V;IND;PRS;2;PL,s i n i s t r a t e,s i n i s t r a t e
+sinistrare,V;IND;FUT;2;SG,s i n i s t r e r a j,s i n i s t r e r a j
+sinistrare,V;IND;FUT;3;PL,s i n i s t r e r a n n o,s i n i s t r e r a n n o
+sinistrare,V;COND;2;PL,s i n i s t r e r e s t e,s i n i s t r e r e s t e
+sinistrare,V;COND;2;SG,s i n i s t r e r e s t i,s i n i s t r e r e s t i
+sinistrare,V;IND;FUT;1;SG,s i n i s t r e r ɔ,s i n i s t r e r ɔ
+sinistrare,V;SBJV;PRS;1;PL,s i n i s t r j a m o,s i n i s t r j a m o
+sinistrare,V;SBJV;PRS;2;PL,s i n i s t r j a t e,v o t j a t e
+sinistrare,V;SBJV;PRS;3;PL,s i n i s t r i n o,s i n i s t r i n o
+sinistrare,V;SBJV;PRS;3;SG,s i n i s t r i,s i n i s t r i
+rischiare,V;POS;IMP;1;PL,r i s k j a m o,r i s k j a m o
+rischiare,V;IND;PST;3;PL;PFV,r i s k j a r o n o,r i s k j a r o n o
+rischiare,V;IND;FUT;3;PL,r i s k j e r a n n o,r i s k j a n o
+rischiare,V;IND;FUT;3;SG,r i s k j e r a,r i s k j e r a
+rischiare,V;COND;3;SG,r i s k j e r ɛ b b e,r i s k j e r ɛ b b e
+rischiare,V;COND;1;PL,r i s k j e r e m m o,r i s k j e r e m m o
+rischiare,V;COND;2;SG,r i s k j e r e s t i,r i s k j e r e s t i
+rischiare,V;IND;PST;3;SG;PFV,r i s k j ɔ,r i s k j a s t i
+programmare,V;NFIN,p r o ɡ r a m m a r e,p r o ɡ r a m m a r e
+programmare,V;IND;PST;2;PL;PFV,p r o ɡ r a m m a s t e,p r o ɡ r a m m a r o n o
+programmare,V;POS;IMP;2;PL,p r o ɡ r a m m a t e,p r o ɡ r a m m a t e
+programmare,V;IND;PST;2;PL;IPFV,p r o ɡ r a m m a v a t e,i n i t t͡s j a v a t e
+programmare,V;IND;PRS;3;SG,p r o ɡ r a m m a,v w ɔ l e
+programmare,V;IND;FUT;3;PL,p r o ɡ r a m m e r a n n o,p r o ɡ r a m m e r o
+programmare,V;COND;3;SG,p r o ɡ r a m m e r ɛ b b e,n o m e r ɛ b b e
+programmare,V;IND;PRS;2;SG,p r o ɡ r a m m i,p r o ɡ r a m m a
+cosare,V;IND;PST;1;SG;PFV,k o z a j,k o z a s t i
+cosare,V;IND;PRS;3;PL,k ɔ z a n o,k o z e r a n o
+cosare,V;SBJV;PST;2;SG,k o z a s s i,k o z a s s i
+cosare,V;IND;PST;2;PL;PFV,k o z a s t e,k o z a s t e
+cosare,V;IND;PST;2;SG;PFV,k o z a s t i,k o z a s t i
+cosare,V;POS;IMP;2;PL,k o z a t e,s j a t ɛ t͡ʃ i
+cosare,V;COND;2;SG,k o z e r e s t i,k o z e r e s t i
+cosare,V;SBJV;PRS;2;PL,k o z j a t e,k o z j a t e
+cosare,V;POS;IMP;3;SG,k ɔ z i,k ɔ z a
+cosare,V;SBJV;PRS;2;SG,k ɔ z i,k ɔ z i
+cosare,V;SBJV;PRS;3;SG,k ɔ z i,k ɔ z i
+andare,V;NFIN,a n d a r e,a n d a r e
+andare,V;IND;PRS;2;PL,a n d a t e,v a n n o
+andare,V;COND;2;SG,a n d r e s t i,v a n n e r e s t i
+andare,V;IND;FUT;1;SG,a n d r ɔ,a n d r a j
+andare,V;SBJV;PRS;3;SG,v a d a,v a d a
+andare,V;POS;IMP;2;SG,v a,a n d a
+fondare,V;IND;PRS;3;PL,f o n d a n o,f o n d e r a n o
+fondare,V;IND;PST;3;PL;IPFV,f o n d a v a n o,f o n d a v a n o
+fondare,V;IND;FUT;1;PL,f o n d e r e m o,f o n d e r e m o
+fondare,V;COND;2;SG,f o n d e r e s t i,f o n d a r ɛ b b e
+fondare,V;POS;IMP;3;PL,f o n d i n o,f o n d i n o
+fondare,V;IND;PRS;2;SG,f o n d i,f o n d a
+fondare,V;IND;PRS;1;SG,f o n d o,r ɛ s t o
+migliorare,V;IND;PRS;3;PL,m i ʎ ʎ o r a n o,m i ʎ ʎ o r a n o
+migliorare,V;POS;IMP;2;PL,m i ʎ ʎ o r a t e,m i ʎ ʎ o r a t e
+migliorare,V;IND;PST;1;PL;IPFV,m i ʎ ʎ o r a v a m o,m i ʎ ʎ o r a v a n n o
+migliorare,V;POS;IMP;2;SG,m i ʎ ʎ o r a,d i
+migliorare,V;IND;FUT;2;SG,m i ʎ ʎ o r e r a j,m i ʎ ʎ o r e r a
+migliorare,V;COND;3;PL,m i ʎ ʎ o r e r ɛ b b e r o,m i ʎ ʎ e r ɛ b b e r o
+migliorare,V;IND;FUT;1;PL,m i ʎ ʎ o r e r e m o,m i ʎ ʎ o r e r e m o
+migliorare,V;SBJV;PRS;1;PL,m i ʎ ʎ o r j a m o,m i ʎ ʎ o r j a m o
+migliorare,V;SBJV;PRS;3;PL,m i ʎ ʎ o r i n o,m i ʎ ʎ o r j a t e
+migliorare,V;IND;PRS;1;SG,m i ʎ ʎ ɔ r o,m i ʎ ʎ o
+migliorare,V;IND;PST;3;SG;PFV,m i ʎ ʎ o r ɔ,m i ʎ ʎ o r a s t i
+centrare,V;IND;PST;3;PL;PFV,t͡ʃ e n t r a r o n o,t͡ʃ e n t r a n n o
+centrare,V;IND;PST;3;PL;IPFV,t͡ʃ e n t r a v a n o,t͡ʃ e n t r a v a n o
+centrare,V;COND;3;SG,t͡ʃ e n t r e r ɛ b b e,t͡ʃ e n t r e r ɛ b b e
+centrare,V;COND;1;PL,t͡ʃ e n t r e r e m m o,t͡ʃ e n t r e r e m m o
+centrare,V;IND;PRS;1;PL,t͡ʃ e n t r j a m o,t͡ʃ e n t r j a m o
+centrare,V;SBJV;PRS;1;PL,t͡ʃ e n t r j a m o,t͡ʃ e n t r j a m o
+centrare,V;POS;IMP;3;SG,t͡ʃ e n t r i,t͡ʃ e n t r a
+vistare,V;IND;PST;1;SG;PFV,v i s t a j,v i s t e t t e r ɛ j
+vistare,V;IND;PRS;2;PL,v i s t a t e,v i s t e r e t e
+vistare,V;POS;IMP;2;PL,v i s t a t e,s j a t ɛ t͡ʃ i
+vistare,V;IND;FUT;3;PL,v i s t e r a n n o,v i s t e r a n n o
+vistare,V;COND;3;SG,v i s t e r ɛ b b e,v i s t e r ɛ b b e
+vistare,V;COND;1;PL,v i s t e r e m m o,v i s t e r ɛ i
+vistare,V;POS;IMP;1;PL,v i s t j a m o,v i s t j a m o
+vistare,V;SBJV;PRS;3;PL,v i s t i n o,v i s t i n o
+vistare,V;POS;IMP;3;SG,v i s t i,v i s t a
+vistare,V;SBJV;PRS;1;SG,v i s t i,v i s t i a
+vistare,V;IND;PST;3;SG;PFV,v i s t ɔ,v i s t ɛ s t i
+nomare,V;SBJV;PST;1;SG,n o m a s s i,n o m a s s i
+nomare,V;IND;FUT;3;SG,n o m e r a,n o m a t e r a
+nomare,V;COND;2;PL,n o m e r e s t e,n o m e r e s t e
+nomare,V;SBJV;PRS;1;PL,n o m j a m o,n o m j a m o
+nomare,V;IND;PRS;2;SG,n ɔ m i,n ɔ m a
+nomare,V;SBJV;PRS;2;SG,n ɔ m i,n ɔ m i
+stare,V;IND;FUT;3;PL,s t a r a n n o,s t a n n o
+stare,V;IND;FUT;3;SG,s t a r a,s t a r a
+stare,V;COND;1;SG,s t a r ɛ i,d͡ʒ o k e r ɛ i
+stare,V;NFIN,s t a r e,s t a r ɛ b b e r e
+stare,V;IND;PST;1;SG;IPFV,s t a v o,t͡ʃ e n t r a v o
+stare,V;IND;PRS;1;SG,s t o,m i ʎ ʎ o
+continuare,V;IND;PST;1;SG;PFV,k o n t i n u a j,k o n t i n u a v o
+continuare,V;IND;PST;1;PL;PFV,k o n t i n u a m m o,t e s t a m m o
+continuare,V;IND;PRS;3;PL,k o n t i n u a n o,k o n o
+continuare,V;IND;PST;3;PL;PFV,k o n t i n u a r o n o,v ɔ l l e r o
+continuare,V;SBJV;PST;1;PL,k o n t i n u a s s i m o,k o n t i n u a s s i m o
+continuare,V;POS;IMP;2;PL,k o n t i n u a t e,k o n t i n u a r e s t e
+continuare,V;IND;FUT;3;PL,k o n t i n u e r a n n o,k o n t i n u e r a n n o
+continuare,V;COND;3;SG,k o n t i n u e r ɛ b b e,k o n t i n u e r ɛ b b e
+continuare,V;COND;1;SG,k o n t i n u e r ɛ i,k o n t i n u e r ɛ j
+continuare,V;IND;FUT;1;PL,k o n t i n u e r e m o,k o n t i n u e r e m o
+temere,V;IND;PST;1;SG;PFV,t e m ɛ i,t e m e m m o
+temere,V;IND;FUT;1;PL,t e m e r ɛ m o,t e m e r e m o
+temere,V;COND;2;PL,t e m e r e s t e,t e m e r e s t e
+temere,V;IND;PST;2;SG;PFV,t e m e s t i,t ɛ m e r a s t i
+temere,V;IND;PST;3;SG;PFV,t e m e t t e,t e m e t t e r o
+temere,V;IND;PST;3;PL;IPFV,t e m ɛ v a n o,t e m e v a t e
+temere,V;IND;PRS;1;PL,t e m j a m o,t e m e r e m o
+temere,V;SBJV;PRS;1;PL,t e m j a m o,t e m j a m o
+gravare,V;IND;PST;1;PL;PFV,ɡ r a v a m m o,ɡ r a v e r a m m o
+gravare,V;NFIN,ɡ r a v a r e,ɡ r a v e r e
+gravare,V;SBJV;PST;3;PL,ɡ r a v a s s e r o,ɡ r a v a s s e r o
+gravare,V;SBJV;PST;2;SG,ɡ r a v a s s i,ɡ r a v a s s i
+gravare,V;POS;IMP;2;PL,ɡ r a v a t e,ɡ r a v a t e
+gravare,V;IND;PST;3;PL;IPFV,ɡ r a v a v a n o,ɡ r a v a v a n o
+gravare,V;IND;FUT;1;PL,ɡ r a v e r e m o,ɡ r a v e r e m o
+gravare,V;COND;2;PL,ɡ r a v e r e s t e,ɡ r a v e r e s t e
+durare,V;IND;PRS;3;PL,d u r a n o,d u r e r a n o
+durare,V;SBJV;PST;2;SG,d u r a s s i,d u r a s s i
+durare,V;IND;PST;2;PL;PFV,d u r a s t e,d u r a s t e
+durare,V;IND;PST;2;PL;IPFV,d u r a v a t e,d u r a v a t e
+durare,V;IND;PST;2;SG;IPFV,d u r a v i,d u r a v i
+durare,V;COND;3;PL,d u r e r ɛ b b e r o,d u r e r ɛ b b e r o
+durare,V;IND;PRS;1;PL,d u r j a m o,d u r j a m o
+prezzare,V;SBJV;PST;1;PL,p r e t t͡s a s s i m o,v i s t a s s i m o
+prezzare,V;SBJV;PST;1;SG,p r e t t͡s a s s i,p r e t t͡s j a s s i
+prezzare,V;IND;PST;2;PL;PFV,p r e t t͡s a s t e,p r e t t͡s a s t e
+prezzare,V;SBJV;PST;2;PL,p r e t t͡s a s t e,p r ɛ t t͡s a s t e
+prezzare,V;IND;PST;1;PL;IPFV,p r e t t͡s a v a m o,p r e t t͡s a v a m o
+prezzare,V;IND;FUT;3;PL,p r e t t͡s e r a n n o,p r e t t͡s e r a n n o
+prezzare,V;COND;3;PL,p r e t t͡s e r ɛ b b e r o,p r e t t͡s e r ɛ b b e r o
+prezzare,V;COND;2;PL,p r ɛ t t͡s e r e s t e,p r ɛ t t͡s a t e r e s t e
+prezzare,V;SBJV;PRS;1;PL,p r e t t͡s j a m o,p r e t t͡s e r e m m o
+prezzare,V;IND;PST;3;SG;PFV,p r e t t͡s ɔ,p r e t t͡s j ɔ
+notare,V;SBJV;PST;3;PL,n o t a s s e r o,n o t a s s e r o
+notare,V;SBJV;PST;3;SG,n o t a s s e,n o t a s s e
+notare,V;POS;IMP;2;SG,n ɔ t a,n o t i
+notare,V;COND;1;PL,n o t e r e m m o,n o t e r e m m o
+notare,V;SBJV;PRS;3;PL,n o t i n o,n o t j a n o
+notare,V;SBJV;PRS;1;SG,n ɔ t i,n o t i
+numerare,V;SBJV;PST;3;PL,n u m e r a s s e r o,n u m e r a s s e r o
+numerare,V;SBJV;PST;1;SG,n u m e r a s s i,n u m e r a s s i
+numerare,V;SBJV;PST;2;PL,n u m e r a s t e,n u m e r a s t e
+numerare,V;IND;PST;1;PL;IPFV,n u m e r a v a m o,n u m e r a v a m o
+numerare,V;IND;PST;3;SG;IPFV,n u m e r a v a,n u m e r a v a
+numerare,V;IND;FUT;3;PL,n u m e r e r a n n o,n u m e r e r a n n o
+numerare,V;SBJV;PRS;1;SG,n u m e r i,n u m e r i
+ragionare,V;IND;PST;1;SG;PFV,r a d͡ʒ o n a j,r a d͡ʒ o n a m m o
+ragionare,V;NFIN,r a d͡ʒ o n a r e,r a d͡ʒ o n e r e
+ragionare,V;IND;PST;3;PL;PFV,r a d͡ʒ o n a r o n o,r a d͡ʒ o n a v a n o
+ragionare,V;SBJV;PST;3;SG,r a d͡ʒ o n a s s e,r a d͡ʒ o n a s s e
+ragionare,V;IND;PRS;2;PL,r a d͡ʒ o n a t e,r a d͡ʒ o n a t e
+ragionare,V;COND;3;SG,r a d͡ʒ o n e r ɛ b b e,r a d͡ʒ o n e r ɛ b b e
+ragionare,V;COND;2;PL,r a d͡ʒ o n e r e s t e,r a d͡ʒ o n e r e s t e
+ragionare,V;IND;FUT;1;SG,r a d͡ʒ o n e r ɔ,r a d͡ʒ o n e r ɔ
+ragionare,V;SBJV;PRS;2;PL,r a d͡ʒ o n j a t e,s k w a d r j a t e
+ragionare,V;SBJV;PRS;3;PL,r a d͡ʒ o n i n o,r a d͡ʒ o n i n o
+ragionare,V;POS;IMP;3;SG,r a d͡ʒ o n i,r a d͡ʒ o n a
+ragionare,V;SBJV;PRS;1;SG,r a d͡ʒ o n i,r a d͡ʒ o n i
+ragionare,V;SBJV;PRS;3;SG,r a d͡ʒ o n i,r a d͡ʒ o n i
+ragionare,V;IND;PST;3;SG;PFV,r a d͡ʒ o n ɔ,d͡ʒ o k ɔ

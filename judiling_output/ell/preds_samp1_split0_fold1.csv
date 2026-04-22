@@ -1,0 +1,698 @@
+lemma,paradigm_slot,target,prediction
+έχουνε,V;2;SG;IPFV;FUT,θ a e ç i s,θ a e ç i s
+έχουνε,V;2;SG;IMP,e ç e,e ç e
+έχουνε,V;3;SG;IPFV;PRS,e ç i,e ç i
+έχουνε," έχομε""",0.0028833703703703,0.0028833703703703
+έχουνε,V;1;PL;IPFV;PST,i x a m e,i x a m e
+έχουνε,V;2;PL;IPFV;SBJV,n a e ç e t e,n a e ç e t e
+θα είμαστε,V;1;SG;IPFV;PRS,i m e,e x o
+θα είμαστε,V;1;SG;IPFV;FUT,θ a i m e,θ a i m e
+θα είμαστε,V;3;SG;IPFV;PST,i t a n e n,i ç e
+θα είμαστε,V;1;PL;IPFV;PRS,i m a s t e n,i m a s t e
+θα είμαστε,V;1;PL;IPFV;PST,i m a s t e,i x a m e
+θα είμαστε,V;2;PL;IPFV;PRS,i s t e,i s t e
+θα είμαστε,V;3;PL;IPFV;SBJV,n a i n e,n a i n e
+θα είμαστε,V;PTCP,o n d a s,o n d a s
+έχουν,V;2;SG;IPFV;PRS,e ç i s,e ç i s
+έχουν,V;2;SG;IPFV;PST,i ç e s,i ç e s
+έχουν,V;1;PL;IPFV;PST,i x a m e,i m a s t e
+έχουν," έχομε""",0.0028833703703703,0.0028833703703703
+έχουν," έχουνε""",0.0028833703703703,0.0028833703703703
+είναι,V;2;SG;IPFV;SBJV,n a i s e,n a e ç i s
+είναι,V;2;PL;IPFV;PRS,i s t e,i s t e
+είναι,V;PTCP,o n d a s,e x o n d a s
+ήμαστε,V;2;SG;IPFV;PST,i s u n a s u n a n,ð i l o n e s
+ήμαστε,V;3;SG;IPFV;FUT,θ a i n e,θ a e ç i
+ήμαστε,V;1;PL;IPFV;PRS,i m a s t e n,e x u m e
+ήμαστε,V;2;PL;IPFV;PRS,i s t e,i s a s t e n
+ήμαστε,V;3;PL;IPFV;FUT,θ a i n e,θ a i n e
+θα είστε,V;1;SG;IPFV;PRS,i m e,e x o
+θα είστε,V;1;SG;IPFV;FUT,θ a i m e,θ a e x o
+θα είστε,V;2;SG;IPFV;FUT,θ a i s e,θ a i s e
+θα είστε,V;3;SG;IPFV;PRS,i n e,e ç i
+θα είστε,V;3;SG;IPFV;PST,i t a n e n,i ç e
+θα είστε,V;1;PL;IPFV;PST,i m a s t e,i x a m e
+έρχομαι,V;1;SG;IPFV;PRS,e r x o m e,e r x o m e
+έρχομαι," ερχόσαστε""",9.344736842105262e-05,9.344736842105262e-05
+έρχομαι," θα έλθουμε""",9.344736842105262e-05,9.344736842105262e-05
+έρχομαι," ήλθατε""",9.344736842105262e-05,9.344736842105262e-05
+ήσουν,V;2;SG;IPFV;PRS,i s e,i s e
+ήσουν,V;2;SG;IPFV;FUT,θ a i s e,θ a i s e
+ήσουν,V;1;PL;IPFV;FUT,θ a i m a s t e,θ a e x u m e
+ήσουν,V;2;PL;IPFV;SBJV,n a i s t e i s a s t e,n a i s t e
+ήσαστε,V;1;SG;IPFV;PST,i m u n a n,i m u n a n
+ήσαστε,V;1;SG;IPFV;FUT,θ a i m e,θ a i m e
+ήσαστε,V;2;SG;IPFV;PST,i s u n a s u n a n,i ç e s
+ήσαστε,V;2;SG;IMP,d e,e ç e
+ήσαστε,V;3;SG;IPFV;FUT,θ a i n e,θ a e ç i
+ήσαστε,V;1;PL;IPFV;FUT,θ a i m a s t e,θ a i m a s t e
+ήσαστε,V;2;PL;IPFV;PRS,i s t e,i s t e
+ήσαστε,V;2;PL;IPFV;PST,i s a s t e,i x a t e
+ήσαστε,V;3;PL;IPFV;FUT,θ a i n e,θ a i n e
+είχανε,V;2;SG;IPFV;PST,i ç e s,i ç e s
+είχανε,V;2;SG;IPFV;SBJV,n a e ç i s,n a e ç i s
+είχανε,V;3;SG;IPFV;PST,i ç e,i ç e
+είχανε,V;1;PL;IPFV;PST,i x a m e,i x a m e
+είχανε," έχομε""",0.0028833703703703,0.0028833703703703
+είχανε,V;2;PL;IPFV;PRS,e ç e t e,e ç e t e
+δείχνω,V;1;SG;IPFV;FUT,θ a ð i x n o,θ a ð i x n o
+δείχνω,V;2;PL;IPFV;PST,ð i x n a t e,ð i x n a t e
+δείχνω," δείχνουνε""",4.968055555555554e-05,4.968055555555554e-05
+δείχνω,V;3;SG;PFV;PST,e ð i k s e,e ð i k s e s
+δείχνω," δείξομε""",4.968055555555554e-05,4.968055555555554e-05
+δείχνω,V;2;PL;PFV;PST,ð i k s a t e,e ð i k s a t e
+δείχνω," δείξουνε""",4.968055555555554e-05,4.968055555555554e-05
+δείχνω,V;2;SG;PRF;PST,i ç e s ð i k s i,i ç e ð i k s i s
+δείχνω,V;1;PL;PRF;PST,i x a m e ð i k s i,i x a m e ð i k s i
+δείχνω,V;2;PL;PRF;SBJV,n a e ç e t e ð i k s i,n a e ç e t e ð i k s i
+δείχνω,V;3;PL;PRF;PRS,e x u n ð i k s i,e x u n ð i k s i
+δείχνω,V;3;PL;PRF;FUT,θ a e x u n ð i k s i,θ a e x u n ð i k s i
+έχει,V;1;SG;IPFV;PRS,e x o,e x o
+έχει,V;2;SG;IPFV;PRS,e ç i s,e ç i s
+έχει,V;2;SG;IPFV;FUT,θ a e ç i s,θ a e ç i s
+έχει,V;PTCP,e x o n d a s,o n d a s
+άγω,V;2;SG;IPFV;PRS,a ʝ i s,i s e
+άγω,V;3;SG;IPFV;PST,d e,i ç e
+άγω,V;3;SG;IPFV;FUT,d e,θ a e ç i
+άγω,V;3;SG;IPFV;SBJV,d e,n a e ç i
+άγω,V;1;PL;IPFV;SBJV,d e,n a e x u m e
+άγω,V;2;PL;IPFV;PST,d e,i s a s t e
+άγω,V;PTCP,a ɣ o n d a s,o n d a s
+ζω,V;2;SG;IPFV;PRS,z i s,e ç i z i s
+ζω,V;2;SG;IPFV;SBJV,n a z i s,n a z i s
+ζω,V;2;PL;IPFV;PST,z u s a t e,i x a t e
+ζω,V;2;PL;IPFV;FUT,θ a z i t e,θ a e ç e t e
+ζω,V;2;PL;IPFV;SBJV,n a z i t e,n a e ç e t e
+ζω,V;2;SG;PFV;SBJV,n a z i s i s,n a z i s i s
+ζω,V;3;SG;PFV;PST,e z i s e,e z i s e
+ζω,V;2;PL;PFV;PST,z i s a t e,θ e o ɾ i θ i k a t e
+ζω,V;1;SG;PRF;PST,i x a z i s i,z i s a
+ζω,V;1;SG;PRF;FUT,θ a e x o z i s i,θ a e x o z i s i
+ζω,V;2;SG;PRF;PRS,e ç i s z i s i,e z i s o ð i m i u r ʝ i s i
+ζω,V;2;SG;PRF;FUT,θ a e ç i s z i s i,θ a e ç i s z i s i
+ζω,V;3;PL;PRF;SBJV,n a e x u n z i s i,n a e x u n z i s i
+ζω,V;PTCP,z o n d a s,o n d a s
+ζω,V;NFIN,z i s i,p i
+βρίσκω,V;2;SG;IPFV;SBJV,n a v ɾ i s c i s,n a v ɾ i s c i s
+βρίσκω,V;2;SG;IMP,v ɾ i s c e,v ɾ e s
+βρίσκω,V;3;SG;IPFV;PRS,v ɾ i s c i,e ç i
+βρίσκω,V;3;SG;IPFV;SBJV,n a v ɾ i s c i,n a v ɾ i s c i
+βρίσκω,V;1;PL;IPFV;PST,v ɾ i s k a m e,i x a m e
+βρίσκω, βρίσκαν,0.0,5.812499999999999e-05
+βρίσκω," βρίσκουνε""",5.812499999999999e-05,5.812499999999999e-05
+βρίσκω,V;1;SG;PFV;SBJV,n a v ɾ o,n a v ɾ o
+βρίσκω,V;2;PL;PFV;PST,v ɾ i k a t e,v ɾ i s k a t e
+βρίσκω," βρήκανε""",5.812499999999999e-05,0.0
+βρίσκω,V;1;SG;PRF;SBJV,n a e x o v ɾ i,n a e x o v ɾ i
+βρίσκω,V;2;SG;PRF;PRS,e ç i s v ɾ i,e ç i s x ɾ i s i
+βρίσκω,V;2;SG;PRF;PST,i ç e s v ɾ i,i ç e v ɾ i s
+βρίσκω,V;3;SG;PRF;SBJV,n a e ç i v ɾ i,n a e ç i v ɾ i
+βρίσκω,V;3;PL;PRF;FUT,θ a e x u n v ɾ i,θ a e x u n v ɾ i
+χρειάζομαι," χρειαζόσαστε1""",0.0001877631578947,0.0001877631578947
+χρειάζομαι," χρειαζόσαστε1""",0.0001877631578947,0.0001877631578947
+χρειάζομαι, χρειαζόντανε,0.0,0.0001877631578947
+χρειάζομαι,V;2;PL;IMP,x ɾ i a s t i t e,x ɾ i a s t i t e
+υπάρχω,V;1;SG;IPFV;PST,i p i ɾ x a,i x a
+υπάρχω,V;2;SG;IPFV;SBJV,n a i p a ɾ ç i s,n a i s e
+υπάρχω,V;2;SG;IMP,n a i p a ɾ ç i s,i p a ɾ k s e
+υπάρχω,V;3;SG;IPFV;FUT,θ a i p a ɾ ç i,θ a e ç i
+υπάρχω,V;3;SG;IPFV;SBJV,n a i p a ɾ ç i,n a e ç i
+υπάρχω,V;2;PL;IPFV;SBJV,n a i p a r ç e t e,n a i p a r ç e t e
+υπάρχω,V;2;PL;IMP,i p a r ç e t e,m e t ɾ i s t e
+υπάρχω,V;1;SG;PFV;PST,i p i ɾ k s a,i p i ɾ k s e s
+υπάρχω,V;2;SG;PFV;PST,i p i ɾ k s e s,i p i ɾ k s e
+υπάρχω,V;2;SG;PFV;FUT,θ a i p a ɾ k s i s,θ a i p a ɾ k s i s
+υπάρχω,V;1;SG;PRF;PST,i x a i p a ɾ k s i,i x a x ɾ i s i
+υπάρχω,V;2;PL;PRF;PST,i x a t e i p a ɾ k s i,i x a t e i p a ɾ k s i
+υπάρχω,V;2;PL;PRF;FUT,θ a e ç e t e i p a ɾ k s i,θ a e ç e t e i p a ɾ k s i
+υπάρχω,V;3;PL;PRF;PRS,e x u n i p a ɾ k s i,e x u n m e t ɾ i s i
+θα έχω,V;2;SG;IPFV;PST,i ç e s,i ç e s
+θα έχω,V;2;SG;IPFV;FUT,θ a e ç i s,θ a e ç i s
+θα έχω,V;3;SG;IPFV;FUT,θ a e ç i,θ a e ç i
+θα έχω," έχομε""",0.0028833703703703,0.0028833703703703
+θα έχω,V;1;PL;IPFV;PST,i x a m e,z u s a m e
+θα έχω," έχομε""",0.0028833703703703,0.0028833703703703
+ήταν,V;3;SG;IPFV;SBJV,n a i n e,n a e ç i
+ήταν,V;1;PL;IPFV;PST,i m a s t e,i x a m e
+ήταν,V;1;PL;IPFV;FUT,θ a i m a s t e,θ a e x u m e
+ήταν,V;1;PL;IPFV;SBJV,n a i m a s t e,n a e x u m e
+ήταν,V;2;PL;IPFV;SBJV,n a i s t e i s a s t e,n a i s t e
+ήταν,V;3;PL;IPFV;PST,i t a n e s a n e l,i t a n e s a n e l
+φτάνω,V;1;SG;IPFV;PRS,f t a n o,f t a n o
+φτάνω,V;1;SG;IPFV;FUT,θ a f t a n o,θ a f t a n o
+φτάνω,V;2;SG;IPFV;PRS,f t a n i s,f t a n i s
+φτάνω,V;2;SG;IPFV;SBJV,n a f t a n i s,n a i s e
+φτάνω,V;2;SG;IMP,e f t a n e,e ç e
+φτάνω,V;3;SG;IPFV;SBJV,n a f t a n i,n a f t a n i
+φτάνω," φτάνομε""",5.680555555555556e-05,5.680555555555556e-05
+φτάνω,V;1;SG;PFV;SBJV,n a f t a s o,n a f t a s o
+φτάνω,V;2;SG;PFV;FUT,θ a f t a s i s,θ a k s e c i n i s i s
+φτάνω,V;2;SG;PFV;SBJV,n a f t a s i s,n a m e t ɾ i s i s
+φτάνω,V;1;PL;PFV;PST,f t a s a m e,f t a s a m e
+φτάνω," φτάσομε""",5.680555555555556e-05,5.680555555555556e-05
+φτάνω," φτάστε""",5.680555555555556e-05,5.680555555555556e-05
+φτάνω,V;1;SG;PRF;PST,i x a f t a s i,i x a k s e c i n i s i
+φτάνω,V;2;SG;PRF;PST,i ç e s f t a s i,f t a n e n
+φτάνω,V;2;SG;PRF;SBJV,n a e ç i s f t a s i,n a e ç i s p a i
+φτάνω,V;2;PL;PRF;PST,i x a t e f t a s i,i x a t e f t a s i
+φτάνω,V;3;PL;PRF;PRS,e x u n f t a s i,e x u n f t a s i
+φτάνω,V;3;PL;PRF;FUT,θ a e x u n f t a s i,θ a e x u n a l a k s i
+φτάνω,V;3;PL;PRF;SBJV,n a e x u n f t a s i,n a e x u n p a i
+ξεκινώ,V;2;SG;IPFV;PRS,k s e c i n a s,e ç i s
+ξεκινώ,V;2;PL;IPFV;FUT,θ a k s e c i n a t e,θ a k s e c i n a t e
+ξεκινώ, να ξεκινούνε,V;3;PL;IPFV;SBJV,5.91111111111111e-05
+ξεκινώ,V;1;SG;PFV;PST,k s e c i n i s a,m e t ɾ i s a
+ξεκινώ," ξεκίνα""",5.91111111111111e-05,5.91111111111111e-05
+ξεκινώ,V;3;SG;PFV;PST,k s e c i n i s e,p ɾ o i l θ e
+ξεκινώ," θα ξεκινήσουνε""",5.91111111111111e-05,5.91111111111111e-05
+ξεκινώ,V;1;SG;PRF;SBJV,n a e x o k s e c i n i s i,n a e x o k s e c i n i s i
+ξεκινώ,V;2;SG;PRF;PST,i ç e s k s e c i n i s i,i ç e s p a i
+ξεκινώ,V;1;PL;PRF;FUT,θ a e x u m e k s e c i n i s i,θ a e x u m e k s e c i n i s i
+ξεκινώ,V;2;PL;PRF;PRS,e ç e t e k s e c i n i s i,e ç e t e k s e c i n i s i
+ξεκινώ,V;2;PL;PRF;PST,i x a t e k s e c i n i s i,i x a t e p a i
+ξεκινώ,V;3;PL;PRF;FUT,θ a e x u n k s e c i n i s i,θ a e x u n k s e c i n i s i
+είχαμε,V;1;SG;IPFV;FUT,θ a e x o,θ a e x o
+είχαμε,V;1;SG;IPFV;SBJV,n a e x o,n a e x o
+είχαμε,V;2;SG;IPFV;SBJV,n a e ç i s,n a e ç i s
+είχαμε,V;3;SG;IPFV;PRS,e ç i,e ç i
+είχαμε,V;2;PL;IPFV;FUT,θ a e ç e t e,θ a e ç e t e
+είχαμε," είχαν""",0.0028833703703703,0.0028833703703703
+αναφέρω,V;1;SG;IPFV;PRS,a n a f e ɾ o,e x o
+αναφέρω,V;2;SG;IPFV;PRS,a n a f e ɾ i s,i s e
+αναφέρω,V;3;SG;IPFV;PRS,a n a f e ɾ i,e ç i
+αναφέρω," αναφέρομε""",5.776388888888888e-05,5.776388888888888e-05
+αναφέρω,V;2;PL;IPFV;FUT,θ a a n a f e ɾ e t e,θ a a n a f e ɾ e t e
+αναφέρω,V;2;PL;IPFV;SBJV,n a a n a f e ɾ e t e,n a a n a f e ɾ e t e
+αναφέρω, αναφέραν,V;3;PL;IPFV;PST,0.0
+αναφέρω," ανάφερα""",5.776388888888888e-05,5.776388888888888e-05
+αναφέρω,V;1;SG;PFV;FUT,θ a a n a f e ɾ o,θ a a n a f e ɾ i s o
+αναφέρω,V;3;SG;PFV;SBJV,n a a n a f e ɾ i,n a a n a f e ɾ i s i
+αναφέρω," θα αναφέρομε""",5.776388888888888e-05,0.0
+αναφέρω,V;1;SG;PRF;PST,i x a a n a f e ɾ i,a n a f e ɾ a m e t ɾ i s i
+αναφέρω,V;1;SG;PRF;SBJV,n a e x o a n a f e ɾ i,n a e x o a n a f e ɾ i
+αναφέρω,V;2;SG;PRF;PRS,e ç i s a n a f e ɾ i,i s u n a n a n a f e ɾ i
+αναφέρω,V;2;SG;PRF;PST,i ç e s a n a f e ɾ i,i ç e s p a i
+αναφέρω,V;3;SG;PRF;FUT,θ a e ç i a n a f e ɾ i,θ a a n a f e ɾ i
+αναφέρω,V;3;SG;PRF;SBJV,n a e ç i a n a f e ɾ i,n a a n a f e ɾ i
+αναφέρω,V;1;PL;PRF;PRS,e x u m e a n a f e ɾ i,e x u m e a n a f e ɾ i
+ανήκω,V;2;SG;IPFV;PST,a n i c e s,i ç e s
+ανήκω,V;2;SG;IMP,a n i c e,e ç e
+ανήκω,V;3;SG;IPFV;FUT,θ a a n i c i,θ a a n i c i
+ανήκω,V;2;PL;IPFV;FUT,θ a a n i c e t e,θ a a n i c e t e
+ανήκω,V;2;PL;IMP,a n i c e t e,k s e c i n i s t e
+ανήκω," ανήκουνε""",8.174074074074075e-05,8.174074074074075e-05
+ανήκω,V;PTCP,a n i k o n d a s,o n d a s
+παίρνω,V;1;SG;IPFV;SBJV,n a p e ɾ n o,n a p e ɾ n o
+παίρνω,V;2;SG;IMP,p e ɾ n e,e ç e
+παίρνω,V;3;SG;IPFV;PST,e p e ɾ n e,e p e ɾ n e
+παίρνω,V;3;SG;IPFV;SBJV,n a p e ɾ n i,n a p e ɾ n i
+παίρνω," παίρνομε""",9.901388888888888e-05,9.901388888888888e-05
+παίρνω,V;2;PL;IPFV;PST,p e ɾ n a t e,i s a s t e
+παίρνω," παίρνουνε""",9.901388888888888e-05,9.901388888888888e-05
+παίρνω,V;1;SG;PFV;SBJV,n a p a ɾ o,n a p a ɾ o
+παίρνω,V;2;SG;IMP,p a ɾ e,p e ɾ n e
+παίρνω,V;1;PL;PFV;PST,p i ɾ a m e,p i ɾ a m e
+παίρνω,V;2;PL;PFV;FUT,θ a p a ɾ e t e,θ a k s e c i n i s e t e
+παίρνω,V;2;PL;IMP,p a ɾ t e,p e ɾ n e t e
+παίρνω,V;3;SG;PRF;FUT,θ a e ç i p a ɾ i,θ a e ç i p a ɾ i
+παίρνω,V;2;PL;PRF;PRS,e ç e t e p a ɾ i,e ç e t e p a ɾ i
+παίρνω,V;2;PL;PRF;FUT,θ a e ç e t e p a ɾ i,θ a e ç e t e p a ɾ i
+παίρνω,V;3;PL;PRF;PST,i x a n p a ɾ i,i t a n e t e p a ɾ i
+παίρνω,V;PTCP,p e ɾ n o n d a s,e x o n d a s
+παίρνω,V;NFIN,p a ɾ i,p i
+ήσασταν,V;2;SG;IPFV;PRS,i s e,i s e
+ήσασταν,V;2;SG;IPFV;FUT,θ a i s e,θ a i s e
+ήσασταν,V;3;SG;IPFV;FUT,θ a i n e,θ a e ç i
+ήσασταν,V;1;PL;IPFV;PRS,i m a s t e n,i m a s t e n
+ήσασταν,V;2;PL;IPFV;PRS,i s t e,i s a s t e n
+ήσασταν,V;2;PL;IMP,d e,d e
+ήσασταν,V;3;PL;IPFV;PRS,i n e,i n e
+ήσασταν,V;3;PL;IPFV;FUT,θ a i n e,θ a i n e
+ήσασταν,V;PTCP,o n d a s,e x o n d a s
+είσαστε,V;1;SG;IPFV;FUT,θ a i m e,θ a e x o
+είσαστε,V;1;SG;IPFV;SBJV,n a i m e,n a i m e
+είσαστε,V;3;SG;IPFV;PST,i t a n e n,i t a n e n
+είσαστε,V;1;PL;IPFV;PST,i m a s t e,i x a m e
+είσαστε,V;2;PL;IPFV;PRS,i s t e,i s t e
+είσαστε,V;3;PL;IPFV;PRS,i n e,i n e
+προέρχομαι,V;3;SG;IPFV;PRS,p ɾ o e ɾ ç e t e,e ç i
+προέρχομαι,V;3;SG;IPFV;FUT,θ a p ɾ o e r ç e t e,θ a e ç i
+προέρχομαι,V;1;PL;IPFV;PST,p ɾ o e ɾ x o m a s t e n,i m a s t e
+προέρχομαι,V;1;SG;PFV;PRS,p ɾ o e l θ o,x ɾ i a s t o
+προέρχομαι,V;3;SG;PFV;FUT,θ a p ɾ o e l θ i,θ a m e t ɾ i s i
+προέρχομαι,V;1;PL;PFV;PRS,p ɾ o e l θ u m e,p ɾ o e ɾ x o m a s t e
+προέρχομαι,V;1;PL;PFV;FUT,θ a p ɾ o e l θ u m e,θ a p ɾ o e ɾ x o m a s t e
+προέρχομαι,V;1;PL;PFV;PST,p ɾ o i l θ a m e,e r ɣ a s t i k a m e
+εργάζομαι," εργαζόμουνα""",5.271052631578948e-05,V;3;PL;IPFV;SBJV
+εργάζομαι,V;1;PL;IPFV;PRS,e r ɣ a z o m a s t e,i m a s t e n
+εργάζομαι,V;2;SG;PFV;FUT,θ a e ɾ ɣ a s t i s,θ a i p a ɾ k s i s
+εργάζομαι,V;3;SG;PFV;PRS,e ɾ ɣ a s t i,e r ɣ a s t i c e
+εργάζομαι,V;2;PL;PFV;FUT,θ a e ɾ ɣ a s t i t e,e ɾ ɣ a s t i t e
+εργάζομαι," θα εργαστούνε""",5.271052631578948e-05,5.271052631578948e-05
+εργάζομαι," εργαστήκανε""",5.271052631578948e-05,5.271052631578948e-05
+είμαι,V;1;SG;IPFV;PRS,i m e,e x o
+είμαι,V;1;SG;IPFV;SBJV,n a i m e,n a e x o
+είμαι,V;3;SG;IPFV;PRS,i n e,e ç i
+είμαι,V;3;SG;IPFV;PST,i t a n e n,i ç e
+δίνομαι,V;2;SG;IPFV;PRS,ð i n e s e,e ç i s
+δίνομαι,V;1;PL;IPFV;FUT,θ a ð i n o m a s t e,θ a ð i n o m a s t e
+δίνομαι, δινόντανε,0.0,0.0028833703703703
+δίνομαι,V;1;SG;PFV;PRS,ð o θ o,ð o θ i k a
+δίνομαι,V;3;SG;PFV;PRS,ð o θ i,ð o θ i c e
+δίνομαι,V;1;PL;PFV;FUT,θ a ð o θ u m e,θ a p a m e
+δίνομαι,V;2;PL;PFV;PRS,ð o θ i t e,ð o θ i t e
+δίνομαι," θα δοθούνε""",8.992105263157894e-05,8.992105263157894e-05
+δηλώνω,V;1;SG;IPFV;SBJV,n a ð i l o n o,n a ð i l o n o
+δηλώνω," δηλώνομε""",5.605555555555555e-05,5.605555555555555e-05
+δηλώνω," δηλώνομε""",5.605555555555555e-05,5.605555555555555e-05
+δηλώνω,V;2;PL;IPFV;PRS,ð i l o n e t e,i s t e
+δηλώνω,V;2;PL;IPFV;PST,ð i l o n a t e,i s a s t e
+δηλώνω,V;2;PL;IPFV;FUT,θ a ð i l o n e t e,θ a ð i l o n e t e
+δηλώνω,V;2;PL;IMP,ð i l o n e t e,ð i l o s t e
+δηλώνω, δηλώναν,0.0,5.605555555555555e-05
+δηλώνω,V;1;SG;PFV;SBJV,n a ð i l o s o,n a ð i l o s o
+δηλώνω,V;2;SG;PFV;SBJV,n a ð i l o s i s,n a ð i l o s i s
+δηλώνω,V;2;SG;IMP,ð i l o s e,e ç e
+δηλώνω,V;3;SG;PFV;SBJV,n a ð i l o s i,n a ð i l o s i
+δηλώνω,V;1;PL;PFV;PST,ð i l o s a m e,v ɾ i k a m e
+δηλώνω,V;2;PL;PFV;FUT,θ a ð i l o s e t e,θ a p a t e
+δηλώνω,V;2;PL;PFV;SBJV,n a ð i l o s e t e,n a k s e c i n i s e t e
+δηλώνω,V;1;SG;PRF;PST,i x a ð i l o s i,i x a k s e c i n i s i
+δηλώνω,V;1;SG;PRF;FUT,θ a e x o ð i l o s i,θ a e x o ð i l o s i
+δηλώνω,V;1;PL;PRF;SBJV,n a e x u m e ð i l o s i,n a e x u m e ð i l o s i
+ήμασταν,V;1;SG;IPFV;SBJV,n a i m e,n a i m e
+ήμασταν,V;2;SG;IPFV;PRS,i s e,e ç i s
+ήμασταν,V;2;SG;IMP,d e,e ç e
+ήμασταν,V;3;SG;IPFV;SBJV,n a i n e,n a e ç i
+ήμασταν,V;2;PL;IPFV;PRS,i s t e,i s a s t e n
+ήμασταν,V;3;PL;IPFV;SBJV,n a i n e,n a i n e
+είχαν,V;2;SG;IPFV;PRS,e ç i s,e ç i s
+είχαν,V;2;SG;IPFV;FUT,θ a e ç i s,θ a e ç i s
+είχαν,V;2;SG;IPFV;SBJV,n a e ç i s,n a i s e
+είχαν,V;3;SG;IPFV;SBJV,n a e ç i,n a e ç i
+είχαν," έχομε""",0.0028833703703703,0.0028833703703703
+είχαν,V;2;PL;IPFV;PRS,e ç e t e,i s t e
+είχαν," έχουνε""",0.0028833703703703,0.0028833703703703
+είστε,V;2;SG;IPFV;SBJV,n a i s e,n a i s e
+είστε,V;3;SG;IPFV;PST,i t a n e n,i t a n e n
+είστε,V;3;SG;IPFV;SBJV,n a i n e,n a e ç i
+είστε,V;2;PL;IPFV;FUT,θ a i s t e i s a s t e,θ a a r ç i z e t e
+πηγαίνω,V;2;SG;IPFV;PST,p i ʝ e n e s,p i ʝ e n e s
+πηγαίνω," πηγαίνεις""",5.230555555555556e-05,5.230555555555556e-05
+πηγαίνω," πηγαίνουμε""",5.230555555555556e-05,5.230555555555556e-05
+πηγαίνω," πηγαίνετε""",5.230555555555556e-05,5.230555555555556e-05
+πηγαίνω,V;2;PL;IPFV;PST,p i ʝ e n a t e,i s a s t e
+πηγαίνω, παν,V;3;PL;IPFV;PRS,V;3;PL;IPFV;SBJV
+πηγαίνω,V;2;SG;PFV;SBJV,n a p a s,n a p a s
+πηγαίνω,V;2;PL;PFV;SBJV,n a p a t e,n a p a t e
+πηγαίνω," πήγανε""",5.230555555555556e-05,5.230555555555556e-05
+πηγαίνω," παν""",5.230555555555556e-05,5.230555555555556e-05
+πηγαίνω," παν""",5.230555555555556e-05,5.230555555555556e-05
+πηγαίνω,V;3;SG;PRF;PST,i ç e p a i,i ç e o ð i l o s i
+πηγαίνω,V;1;PL;PRF;PST,i x a m e p a i,i x a m e p a i
+πηγαίνω,V;2;PL;PRF;PRS,e ç e t e p a i,e ç e t e p a i
+πηγαίνω,V;3;PL;PRF;FUT,θ a e x u n p a i,θ a e x u n p a i
+ξεκινάω," ξεκινάω""",5.91111111111111e-05,5.91111111111111e-05
+ξεκινάω," ξεκίναγα""",5.91111111111111e-05,5.91111111111111e-05
+ξεκινάω," ξεκίναγες""",5.91111111111111e-05,5.91111111111111e-05
+ξεκινάω," ξεκίναγε""",5.91111111111111e-05,5.91111111111111e-05
+ξεκινάω," να ξεκινάει""",5.91111111111111e-05,5.91111111111111e-05
+ξεκινάω," ξεκινάμε""",5.91111111111111e-05,5.91111111111111e-05
+ξεκινάω," να ξεκινάμε""",5.91111111111111e-05,5.91111111111111e-05
+ξεκινάω,V;2;PL;IPFV;FUT,θ a k s e c i n a t e,θ a k s e c i n a t e
+ξεκινάω, ξεκινούνε,V;3;PL;IPFV;PRS,V;3;PL;IPFV;PRS
+ξεκινάω, θα ξεκινούνε,V;3;PL;IPFV;FUT,5.91111111111111e-05
+ξεκινάω,V;1;SG;PFV;PST,k s e c i n i s a,v ɾ i k a
+ξεκινάω,V;1;SG;PFV;FUT,θ a k s e c i n i s o,θ a k s e c i n i s o
+ξεκινάω,V;3;SG;PFV;FUT,θ a k s e c i n i s i,θ a a l a k s e c i n i s i
+ξεκινάω,V;1;SG;PRF;FUT,θ a e x o k s e c i n i s i,θ a e x o a n a f e ɾ i
+ξεκινάω,V;3;SG;PRF;FUT,θ a e ç i k s e c i n i s i,θ a e ç i k s e c i n i s i
+ξεκινάω,V;2;PL;PRF;PST,i x a t e k s e c i n i s i,i x a t e k s e c i n i s i
+ξεκινάω,V;NFIN,k s e c i n i s i,p i
+μετρώ," μετράω""",5.468055555555557e-05,5.468055555555557e-05
+μετρώ," θα μετράει""",5.468055555555557e-05,5.468055555555557e-05
+μετρώ,V;2;PL;IPFV;SBJV,n a m e t ɾ a t e,n a m e t ɾ a t e
+μετρώ, μετρούνε,V;3;PL;IPFV;PRS,5.468055555555557e-05
+μετρώ,V;2;SG;PFV;SBJV,n a m e t ɾ i s i s,n a m e t ɾ i s i s
+μετρώ," να μετρήσομε""",5.468055555555557e-05,5.468055555555557e-05
+μετρώ," θα μετρήσουνε""",5.468055555555557e-05,5.468055555555557e-05
+μετρώ,V;2;SG;PRF;PRS,e ç i s m e t ɾ i s i,e ç i s m e t ɾ i s i
+μετρώ,V;2;SG;PRF;SBJV,n a e ç i s m e t ɾ i s i,n a e ç i s m e t ɾ i s i
+μετρώ,V;3;SG;PRF;PRS,e ç i m e t ɾ i s i,e ç i p a i
+μετρώ,V;3;SG;PRF;SBJV,n a e ç i m e t ɾ i s i,n a e ç i m e t ɾ i s i
+μετρώ,V;1;PL;PRF;SBJV,n a e x u m e m e t ɾ i s i,n a e x u m e m e t ɾ i s i
+μετρώ,V;3;PL;PRF;SBJV,n a e x u n m e t ɾ i s i,n a e x u n m e t ɾ i s i
+δημιουργώ,V;2;SG;IPFV;PST,ð i m i u ɾ ɣ u s e s,ð i m i u ɾ ɣ u s e s
+δημιουργώ,V;3;SG;IPFV;FUT,θ a ð i m i u ɾ ʝ i,θ a ð i m i u r ʝ i
+δημιουργώ,V;1;PL;IPFV;FUT,θ a ð i m i u r ɣ u m e,θ a e x u m e
+δημιουργώ," να δημιουργούνε""",8.456944444444446e-05,V;3;PL;IPFV;FUT
+δημιουργώ,V;1;SG;PFV;SBJV,n a ð i m i u r ʝ i s o,n a ð i m i u r ʝ i s o
+δημιουργώ,V;2;SG;PFV;SBJV,n a ð i m i u r ʝ i s i s,n a ð i m i u r ʝ i s e
+δημιουργώ,V;3;SG;PFV;PST,ð i m ɲ u ɾ ʝ i s e,ð i m i u ɾ ʝ i s e
+δημιουργώ,V;1;PL;PFV;PST,ð i m i u r ʝ i s a m e,ð i m ɲ u ɾ ʝ i s a m e
+δημιουργώ," να δημιουργήσουνε""",8.456944444444446e-05,0.0
+δημιουργώ,V;1;SG;PRF;SBJV,n a e x o ð i m i u r ʝ i s i,n a e x o ð i m i u r ʝ i s i
+δημιουργώ,V;2;SG;PRF;FUT,θ a e ç i s ð i m i u r ʝ i s i,θ a e ç i s ð i m i u r ʝ i s i
+δημιουργώ,V;3;SG;PRF;PRS,e ç i ð i m i u r ʝ i s i,ð i m i u ɾ ʝ i s i
+είμαστε,V;1;SG;IPFV;SBJV,n a i m e,n a e x o
+είμαστε,V;2;SG;IPFV;PST,i s u n a s u n a n,i s u n a s u n a n
+είμαστε,V;2;SG;IPFV;SBJV,n a i s e,n a i s e
+είμαστε,V;3;SG;IPFV;PRS,i n e,e ç i
+είμαστε,V;1;PL;IPFV;FUT,θ a i m a s t e,θ a i m a s t e
+είμαστε,V;2;PL;IPFV;FUT,θ a i s t e i s a s t e,θ a i s t e
+είμαστε,V;2;PL;IMP,d e,d e
+είμαστε,V;3;PL;IPFV;PRS,i n e,i n e
+ήμουνα,V;1;PL;IPFV;FUT,θ a i m a s t e,θ a i m a s t e
+ήμουνα,V;3;PL;IPFV;PRS,i n e,i n e
+μετράω," μέτραγες""",5.468055555555557e-05,5.468055555555557e-05
+μετράω," μέτραγε""",5.468055555555557e-05,5.468055555555557e-05
+μετράω," θα μετράει""",5.468055555555557e-05,5.468055555555557e-05
+μετράω,V;2;PL;IPFV;PRS,m e t ɾ a t e,e ç e t e
+μετράω, θα μετρούνε,V;3;PL;IPFV;FUT,0.0
+μετράω, να μετρούνε,V;3;PL;IPFV;SBJV,5.468055555555557e-05
+μετράω,V;1;SG;PFV;PST,m e t ɾ i s a,m e t ɾ i s a
+μετράω,V;1;SG;PFV;FUT,θ a m e t ɾ i s o,θ a m e t ɾ i s o
+μετράω,V;3;SG;PFV;PST,m e t ɾ i s e,p i ʝ e
+μετράω," να μετρήσομε""",5.468055555555557e-05,5.468055555555557e-05
+μετράω,V;1;SG;PRF;PRS,e x o m e t ɾ i s i,e x o m e t ɾ i s i
+μετράω,V;1;SG;PRF;PST,i x a m e t ɾ i s i,i x a x ɾ i s i
+μετράω,V;2;SG;PRF;PST,i ç e s m e t ɾ i s i,i ç e s p a i
+μετράω,V;2;PL;PRF;FUT,θ a e ç e t e m e t ɾ i s i,θ a e ç e t e m e t ɾ i s i
+μετράω,V;3;PL;PRF;FUT,θ a e x u n m e t ɾ i s i,θ a e x u n m e t ɾ i s i
+μετράω,V;NFIN,m e t ɾ i s i,p i
+θα έχουμε,V;2;SG;IPFV;PST,i ç e s,i ç e s
+θα έχουμε,V;2;SG;IPFV;FUT,θ a e ç i s,θ a e ç i s
+θα έχουμε,V;2;SG;IPFV;SBJV,n a e ç i s,n a e ç i s
+θα έχουμε,V;2;SG;IMP,e ç e,e ç e
+θα έχουμε,V;3;SG;IPFV;PST,i ç e,i t a n e n
+θα έχουμε,V;3;SG;IPFV;FUT,θ a e ç i,θ a e ç i
+θα έχουμε,V;3;SG;IPFV;SBJV,n a e ç i,n a e ç i
+θα έχουμε,V;2;PL;IPFV;PST,i x a t e,i x a t e
+θα έχουμε,V;2;PL;IMP,e ç e t e,ð o s t e
+θα έχουμε,V;PTCP,e x o n d a s,e x o n d a s
+είχε,V;1;SG;IPFV;PRS,e x o,e x o
+είχε,V;2;SG;IPFV;FUT,θ a e ç i s,θ a e ç i s
+είχε,V;2;SG;IPFV;SBJV,n a e ç i s,n a e ç i s
+είχε,V;3;SG;IPFV;PRS,e ç i,e ç i
+έχεις,V;1;SG;IPFV;PST,i x a,i x a
+έχεις,V;1;SG;IPFV;FUT,θ a e x o,θ a e x o
+έχεις,V;2;SG;IPFV;FUT,θ a e ç i s,θ a e ç i s
+έχεις,V;2;PL;IPFV;PRS,e ç e t e,i s t e
+έχεις,V;2;PL;IPFV;PST,i x a t e,i x a t e
+έχεις," έχουνε""",0.0028833703703703,0.0028833703703703
+έχεις," είχαν""",0.0028833703703703,0.0028833703703703
+θα έχετε,V;1;SG;IPFV;PST,i x a,i m u n a n
+θα έχετε,V;3;SG;IPFV;PRS,e ç i,e ç i
+θα έχετε,V;3;SG;IPFV;SBJV,n a e ç i,n a e ç i
+θα έχετε,V;2;PL;IPFV;PST,i x a t e,i s a s t e
+θα έχετε," έχουνε""",0.0028833703703703,0.0028833703703703
+κάνω,V;2;SG;IPFV;SBJV,n a k a n i s,n a k a n i s
+κάνω,V;3;SG;IPFV;PST,e k a n e,e k a n e
+κάνω,V;2;PL;IPFV;SBJV,n a k a n e t e,n a k a n e t e
+κάνω,V;1;SG;PFV;SBJV,n a k a n o,n a k a n o
+κάνω," κάνομε""",0.0003207222222222,0.0003207222222222
+κάνω," κάνομε""",0.0003207222222222,0.0003207222222222
+κάνω,V;1;SG;PRF;PRS,e x o k a n i,k a n o
+κάνω,V;3;SG;PRF;FUT,θ a e ç i k a n i,θ a k a n i
+κάνω,V;1;PL;PRF;PRS,e x u m e k a n i,e x u m e k a n i
+κάνω,V;1;PL;PRF;PST,i x a m e k a n i,i x a m e p a i
+κάνω,V;2;PL;PRF;PRS,e ç e t e k a n i,e x u n k a n i s
+αποτελώ,V;2;SG;IMP,d e,e ç e
+αποτελώ,V;3;SG;IPFV;FUT,θ a a p o t e l i,θ a a p o t e l i
+αποτελώ,V;2;SG;IMP,a p o t e l e s e,e ç e
+αποτελώ,V;1;PL;PFV;PST,a p o t e l e s a m e,a p o t e l e s a m e
+αποτελώ," να αποτελέσομε""",0.0001611944444444,0.0001611944444444
+αποτελώ," θα αποτελέσουνε""",0.0001611944444444,0.0001611944444444
+αποτελώ,V;1;SG;PRF;PRS,e x o a p o t e l e s i,a p o t e l o
+θα είσαστε,V;1;SG;IPFV;SBJV,n a i m e,n a e x o
+θα είσαστε,V;2;SG;IMP,d e,e ç e
+θα είσαστε,V;3;SG;IPFV;SBJV,n a i n e,n a e ç i
+θα είσαστε,V;1;PL;IPFV;PRS,i m a s t e n,e x u m e
+θα είσαστε,V;1;PL;IPFV;PST,i m a s t e,i x a m e
+θα είσαστε,V;1;PL;IPFV;FUT,θ a i m a s t e,θ a i m a s t e
+θα είσαστε,V;2;PL;IPFV;PRS,i s t e,i s t e
+παρουσιάζω,V;1;SG;IPFV;PST,p a ɾ u s i a z a,i m u n a n
+παρουσιάζω,V;1;SG;IPFV;SBJV,n a p a ɾ u s ç a z o,n a p a ɾ u s ç a z o
+παρουσιάζω,V;2;SG;IPFV;FUT,θ a p a ɾ u s ç a z i s,θ a p a ɾ u s ç a z i s
+παρουσιάζω," παρουσιάζομε""",7.180555555555556e-05,7.180555555555556e-05
+παρουσιάζω, παρουσιάζαν,0.0,7.180555555555556e-05
+παρουσιάζω,V;2;PL;PFV;PST,p a ɾ u s ç a s a t e,p a ɾ u s i a s t i k a t e
+παρουσιάζω," παρουσιάσουνε""",7.180555555555556e-05,7.180555555555556e-05
+παρουσιάζω,V;1;SG;PRF;PST,i x a p a ɾ u s ç a s i,i x a x ɾ i s i
+παρουσιάζω,V;1;SG;PRF;SBJV,n a e x o p a ɾ u s ç a s i,n a e x o p a ɾ u s ç a s i
+παρουσιάζω,V;2;SG;PRF;PRS,e ç i s p a ɾ u s ç a s i,e ç i s k s e c i n i s i
+παρουσιάζω,V;2;PL;PRF;PST,i x a t e p a ɾ u s ç a s i,i x a t e m e t ɾ i s i
+παρουσιάζω,V;3;PL;PRF;PST,i x a n p a ɾ u s ç a s i,i x a n p a ɾ u s ç a s i
+παρουσιάζω,V;3;PL;PRF;FUT,θ a e x u n p a ɾ u s ç a s i,θ a e x u n p a ɾ u s ç a s i
+παρουσιάζω,V;NFIN,p a ɾ u s ç a s i,7.180555555555556e-05
+ήμουν,V;1;SG;IPFV;PST,i m u n a n,i x a
+ήμουν,V;2;SG;IPFV;PST,i s u n a s u n a n,i ç e s
+ήμουν,V;2;SG;IPFV;FUT,θ a i s e,θ a i s e
+ήμουν,V;2;SG;IPFV;SBJV,n a i s e,n a e ç i s
+ήμουν,V;3;SG;IPFV;FUT,θ a i n e,θ a e ç i
+ήμουν,V;1;PL;IPFV;SBJV,n a i m a s t e,n a e x u m e
+έχε,V;1;SG;IPFV;PRS,e x o,e x o
+έχε,V;1;SG;IPFV;FUT,θ a e x o,θ a e x o
+έχε,V;2;SG;IPFV;PST,i ç e s,i ç e s
+έχε,V;2;SG;IMP,e ç e,e ç e
+έχε,V;3;SG;IPFV;PST,i ç e,i ç e
+έχε,V;2;PL;IPFV;PRS,e ç e t e,i s t e
+έχε,V;2;PL;IPFV;FUT,θ a e ç e t e,θ a e ç e t e
+έχε," έχουνε""",0.0028833703703703,0.0028833703703703
+είχατε,V;1;SG;IPFV;PST,i x a,i m u n a n
+είχατε,V;2;SG;IMP,e ç e,e ç e
+είχατε,V;3;SG;IPFV;SBJV,n a e ç i,n a e ç i
+είχατε," έχομε""",0.0028833703703703,0.0028833703703703
+είχατε," έχομε""",0.0028833703703703,0.0028833703703703
+είχατε,V;PTCP,e x o n d a s,e x o n d a s
+έχουμε,V;3;SG;IPFV;PST,i ç e,i t a n e n
+έχουμε,V;3;SG;IPFV;FUT,θ a e ç i,θ a e ç i
+έχουμε," έχομε""",0.0028833703703703,0.0028833703703703
+έχουμε," είχαν""",0.0028833703703703,0.0028833703703703
+αλλάζω,V;1;SG;IPFV;PST,a l a z a,i x a
+αλλάζω,V;2;PL;IPFV;SBJV,n a a l a z e t e,n a e ç e t e
+αλλάζω,V;2;SG;IMP,a l a k s e,a l a z e
+αλλάζω,V;2;PL;PFV;FUT,θ a a l a k s e t e,θ a a l a z i s a t e
+αλλάζω,V;2;PL;PFV;SBJV,n a a l a k s e t e,n a e ç i s e t e
+αλλάζω," αλλάχτε""",5.1513888888888886e-05,5.1513888888888886e-05
+αλλάζω, αλλάξαν,0.0,5.1513888888888886e-05
+αλλάζω,V;2;SG;PRF;FUT,θ a e ç i s a l a k s i,θ a e ç i s x ɾ i s i
+αλλάζω,V;2;SG;PRF;SBJV,n a e ç i s a l a k s i,n a e ç i a l a k s i s
+αλλάζω,V;3;SG;PRF;PRS,e ç i a l a k s i,e ç i ð i k s i
+αλλάζω,V;1;PL;PRF;SBJV,n a e x u m e a l a k s i,n a e x u m e a l a k s i
+θα έχουνε,V;1;SG;IPFV;FUT,θ a e x o,θ a e x o
+θα έχουνε,V;2;SG;IMP,e ç e,e ç e
+θα έχουνε,V;2;PL;IPFV;FUT,θ a e ç e t e,θ a e ç e t e
+θα έχουνε," έχουνε""",0.0028833703703703,0.0028833703703703
+θα έχουνε," έχουνε""",0.0028833703703703,0.0028833703703703
+θα έχουνε," έχουνε""",0.0028833703703703,0.0028833703703703
+φέρνω,V;1;SG;IPFV;FUT,θ a f e ɾ n o,θ a f e ɾ n o
+φέρνω,V;2;SG;IPFV;PRS,f e ɾ n i s,f e ɾ n i s
+φέρνω,V;2;SG;IPFV;SBJV,n a f e ɾ n i s,n a f e ɾ n i s
+φέρνω,V;3;SG;IPFV;FUT,θ a f e ɾ n i,θ a f e ɾ n i
+φέρνω, φέρναν,0.0,5.161111111111111e-05
+φέρνω," φέρνουνε""",5.161111111111111e-05,5.161111111111111e-05
+φέρνω,V;2;SG;PFV;FUT,θ a f e ɾ i s,θ a f e ɾ i s
+φέρνω,V;3;SG;PFV;FUT,θ a f e ɾ i,θ a f e ɾ n i s i
+φέρνω,V;3;SG;PFV;SBJV,n a f e ɾ i,n a f e ɾ i
+φέρνω,V;2;PL;PFV;PST,f e ɾ a t e,k s e c i n i s a t e
+φέρνω, φέραν,0.0,5.161111111111111e-05
+φέρνω," φέρουνε""",5.161111111111111e-05,5.161111111111111e-05
+φέρνω,V;3;SG;PRF;PST,i ç e f e ɾ i,i ç e f e ɾ i
+φέρνω,V;3;PL;PRF;FUT,θ a e x u n f e ɾ i,θ a e x u n f e ɾ i
+φέρνω,V;PTCP,f e ɾ n o n d a s,f e ɾ n o n d a s
+αρέσω,V;1;SG;IPFV;PRS,a ɾ e s o,e x o
+αρέσω,V;1;SG;IPFV;SBJV,n a a ɾ e s o,n a a ɾ e s o
+αρέσω,V;2;SG;IPFV;PRS,a ɾ e s i s,e ç i s
+αρέσω,V;2;SG;IPFV;PST,a ɾ e s e s,a ɾ e s
+αρέσω,V;2;SG;IPFV;FUT,θ a a ɾ e s i s,θ a e ç i s
+αρέσω,V;2;SG;IPFV;SBJV,n a a ɾ e s i s,n a e ç i s
+αρέσω,V;3;SG;IPFV;PRS,a ɾ e s i,e ç i
+αρέσω," αρέσομε""",5.519444444444446e-05,5.519444444444446e-05
+αρέσω,V;2;PL;IPFV;PST,a ɾ e s a t e,i x a t e
+αρέσω,V;2;PL;IMP,a ɾ e s e t e,a ɾ e s e t e
+αρέσω," αρέσουνε""",5.519444444444446e-05,5.519444444444446e-05
+αρέσω," αρέσουνε""",5.519444444444446e-05,5.519444444444446e-05
+αρέσω,V;2;SG;PFV;PST,a ɾ e s e s,a ɾ e s e s
+αρέσω,V;2;SG;PFV;SBJV,n a a ɾ e s i s,n a a ɾ e s i s
+αρέσω," αρέσομε""",5.519444444444446e-05,5.519444444444446e-05
+αρέσω," αρέσομε""",5.519444444444446e-05,5.519444444444446e-05
+αρέσω,V;2;PL;PFV;PST,a ɾ e s a t e,m e t ɾ i s a t e
+αρέσω,V;2;PL;IMP,a ɾ e s t e,m e t ɾ i s t e
+αρέσω, αρέσαν,0.0,0.0
+αρέσω," αρέσουνε""",5.519444444444446e-05,5.519444444444446e-05
+αρέσω,V;3;SG;PRF;PRS,e ç i a ɾ e s i,e ç i x r i s i
+αρέσω,V;3;SG;PRF;FUT,θ a e ç i a ɾ e s i,θ a a ɾ e s i
+αρέσω,V;2;PL;PRF;PST,i x a t e a ɾ e s i,i x a t e a ɾ e s i
+μπορώ,V;1;SG;IPFV;PST,b o ɾ u s a,b o ɾ u s a
+μπορώ,V;1;SG;IPFV;SBJV,n a b o ɾ o,n a b o ɾ o
+μπορώ,V;1;PL;IPFV;PRS,b o ɾ u m e,e x u m e
+μπορώ,V;2;PL;IPFV;PST,b o ɾ u s a t e,b o ɾ u s a t e
+μπορώ,V;2;PL;IPFV;SBJV,n a b o ɾ i t e,n a b o ɾ i t e
+μπορώ,V;2;PL;IMP,b o ɾ i t e,b o ɾ u s ç a s t e
+μπορώ," μπορούνε""",0.0006889861111111,0.0006889861111111
+μπορώ,V;1;SG;PFV;PST,b o ɾ e s a,b o ɾ e s a
+μπορώ,V;2;SG;PFV;FUT,θ a b o ɾ e s i s,θ a b o ɾ e s i s
+μπορώ,V;3;SG;PFV;PST,b o ɾ e s e,v ɾ i c e
+μπορώ,V;3;SG;PFV;SBJV,n a b o ɾ e s i,n a k s e c i n i s i
+μπορώ,V;2;PL;PFV;FUT,θ a b o ɾ e s e t e,θ a b o ɾ u s ç a s e t e
+μπορώ,V;1;SG;PRF;PRS,e x o b o ɾ e s i,e x o k s e c i n i s i
+μπορώ,V;1;SG;PRF;SBJV,n a e x o b o ɾ e s i,n a e x o b o ɾ e s i
+μπορώ,V;NFIN,b o ɾ e s i,p i
+έχετε,V;2;SG;IPFV;PRS,e ç i s,e ç i s
+έχετε," έχομε""",0.0028833703703703,0.0028833703703703
+έχετε,V;2;PL;IPFV;PST,i x a t e,i x a t e
+έχετε,V;2;PL;IPFV;SBJV,n a e ç e t e,n a e ç e t e
+έχετε,V;2;PL;IMP,e ç e t e,d e
+είχες,V;1;SG;IPFV;FUT,θ a e x o,θ a e x o
+είχες,V;3;SG;IPFV;FUT,θ a e ç i,θ a e ç i
+είχες,V;1;PL;IPFV;PST,i x a m e,i x a m e
+είχες,V;2;PL;IPFV;PRS,e ç e t e,i s t e
+ήτανε,V;1;SG;IPFV;PRS,i m e,e x o
+ήτανε,V;2;SG;IPFV;PRS,i s e,e ç i s
+ήτανε,V;1;PL;IPFV;PST,i m a s t e,i x a m e
+ήτανε,V;2;PL;IPFV;PST,i s a s t e,i s a s t e
+θεωρούμαι,V;2;SG;IPFV;PST,d e,i ç e s
+θεωρούμαι,V;1;PL;IPFV;FUT,θ a θ e o ɾ u m a s t e,θ a i m a s t e
+θεωρούμαι,V;1;PL;IPFV;SBJV,n a θ e o ɾ u m a s t e,n a i m a s t e
+θεωρούμαι,V;2;PL;IPFV;PST,d e,i s a s t e
+θεωρούμαι," εθεωρούντο""",4.9527777777777766e-05,0.0
+θεωρούμαι,V;1;PL;PFV;SBJV,n a θ e o r i θ u m e,n a θ e o r i θ u m e
+θεωρούμαι,V;2;PL;PRF;PST,i x a t e θ e o r i θ i,i x a t e θ e o r i θ i
+θεωρούμαι,V;2;PL;PRF;FUT,θ a e ç e t e θ e o r i θ i,θ a e ç e t e θ e o r i θ i
+θεωρούμαι,V;3;PL;PRF;FUT,θ a e x u n θ e o r i θ i,θ a e x u n θ e o r i θ i
+χρησιμοποιώ,V;2;SG;IPFV;PRS,x ɾ i s i m o p i i s,i s e
+χρησιμοποιώ,V;2;SG;IPFV;FUT,θ a x ɾ i s i m o p i i s,θ a x ɾ i s i m o p i i s
+χρησιμοποιώ," χρησιμοποιούσανε""",8.261111111111111e-05,0.0
+χρησιμοποιώ,V;1;SG;PFV;FUT,θ a x ɾ i s i m o p i i s o,θ a x ɾ i s i m o p i i s o
+χρησιμοποιώ,V;2;SG;PFV;PST,x ɾ i s i m o p i i s e s,x ɾ i s i m o p i i s e s
+χρησιμοποιώ," θα χρησιμοποιήσομε""",8.261111111111111e-05,V;3;PL;IPFV;SBJV
+χρησιμοποιώ,V;3;SG;PRF;FUT,θ a e ç i x r i s i m o p i i s i,θ a e ç i x r i s i m o p i i s i
+χρησιμοποιώ,V;2;PL;PRF;PRS,e ç e t e x r i s i m o p i i s i,m e t ɾ a t e x r i s i m o p i i s i
+χρησιμοποιώ,V;2;PL;PRF;PST,i x a t e x ɾ i s i m o p i i s i,i x a t e a r ç i s i m o p i i s i
+χρησιμοποιώ,V;2;PL;PRF;SBJV,n a e ç e t e x r i s i m o p i i s i,n a e ç e t e x r i s i m o p i i s i
+δίνω,V;1;SG;IPFV;SBJV,n a ð i n o,n a ð i n o
+δίνω,V;3;SG;IPFV;PST,e ð i n e,e ð i n e
+δίνω,V;3;SG;IPFV;FUT,θ a ð i n i,θ a ð i n i
+δίνω," δίνομε""",0.0001517361111111,0.0001517361111111
+δίνω,V;2;PL;IPFV;SBJV,n a ð i n e t e,n a ð i n e t e
+δίνω,V;2;PL;IMP,ð i n e t e,ð o s t e
+δίνω,V;1;SG;PFV;FUT,θ a ð o s o,θ a p a o
+δίνω,V;1;SG;PFV;SBJV,n a ð o s o,n a p a o
+δίνω,V;3;SG;PFV;FUT,θ a ð o s i,θ a ð o s i
+δίνω," δώσουνε""",0.0001517361111111,0.0001517361111111
+δίνω,V;1;SG;PRF;PRS,e x o ð o s i,e x o k s e c i n i s i
+δίνω,V;2;PL;PRF;FUT,θ a e ç e t e ð o s i,θ a e ç e t e ð o s i
+δίνω,V;3;PL;PRF;PRS,e x u n ð o s i,e x u n ð o s i
+δίνω,V;3;PL;PRF;FUT,θ a e x u n ð o s i,θ a e x u n ð o s i
+λέω, λέγουμε,0.0,0.0
+λέω, λεν,V;3;PL;IPFV;PRS,V;3;PL;IPFV;SBJV
+λέω,V;1;SG;PFV;FUT,θ a p o,θ a p o
+λέω,V;1;PL;PFV;SBJV,n a p u m e,n a p u m e
+λέω," πέστε""",9.825e-05,9.825e-05
+λέω," πούνε""",9.825e-05,9.825e-05
+λέω,V;1;SG;PRF;PST,i x a p i,l e ɣ a
+λέω,V;1;SG;PRF;SBJV,n a e x o p i,n a e x o ð i ʝ i s i
+λέω,V;2;SG;PRF;SBJV,n a e ç i s p i,n a e ç i s p i
+λέω,V;1;PL;PRF;PRS,e x u m e p i,e x u m e p i
+λέω,V;1;PL;PRF;PST,i x a m e p i,p e ɾ n a m e p i
+λέω,V;2;PL;PRF;PST,i x a t e p i,i x a t e p i
+λέω,V;3;PL;PRF;PST,i x a n p i,i x a n k s e c i n i s i
+ήσουνα,V;1;SG;IPFV;FUT,θ a i m e,θ a i m e
+ήσουνα,V;1;PL;IPFV;SBJV,n a i m a s t e,n a i m a s t e
+ήσουνα,V;2;PL;IPFV;PST,i s a s t e,i s a s t e
+ήσουνα,V;2;PL;IPFV;FUT,θ a i s t e i s a s t e,θ a e ç e t e
+ήσουνα,V;2;PL;IMP,d e,k s e c i n i s t e
+θα είμαι,V;1;SG;IPFV;PST,i m u n a n,i x a
+θα είμαι,V;1;SG;IPFV;FUT,θ a i m e,θ a i m e
+θα είμαι,V;2;SG;IPFV;PST,i s u n a s u n a n,i ç e s
+θα είμαι,V;3;SG;IPFV;FUT,θ a i n e,θ a e ç i
+θα είμαι,V;3;SG;IPFV;SBJV,n a i n e,n a e ç i
+θα είμαι,V;3;PL;IPFV;FUT,θ a i n e,θ a i n e
+είχα,V;1;SG;IPFV;PRS,e x o,e x o
+είχα,V;1;SG;IPFV;SBJV,n a e x o,n a e x o
+είχα,V;2;SG;IPFV;PRS,e ç i s,e ç i s
+είχα,V;2;SG;IPFV;SBJV,n a e ç i s,n a e ç i s
+είχα,V;2;PL;IPFV;PRS,e ç e t e,i s t e
+είχα,V;2;PL;IPFV;FUT,θ a e ç e t e,θ a e ç e t e
+είχα," έχουνε""",0.0028833703703703,0.0028833703703703
+είχα," έχουνε""",0.0028833703703703,0.0028833703703703
+πάω,V;2;SG;IMP,p i ʝ e n e,e ç e
+πάω,V;2;PL;IPFV;PST,p i ʝ e n a t e,i s a s t e
+πάω,V;2;SG;PFV;PST,p i ʝ e s,p i ʝ e s
+πάω,V;2;SG;PFV;SBJV,n a p a s,n a p a s
+πάω,V;1;SG;PRF;PST,i x a p a i,i x a p a i
+πάω,V;1;SG;PRF;SBJV,n a e x o p a i,n a e x o p a i
+πάω,V;3;SG;PRF;FUT,θ a e ç i p a i,θ a e ç i p a i
+πάω,V;2;PL;PRF;PRS,e ç e t e p a i,e ç e t e p a i
+πάω,V;PTCP,p i ʝ e n o n d a s,o n d a s
+θα έχει,V;1;SG;IPFV;PST,i x a,i x a
+θα έχει,V;1;SG;IPFV;FUT,θ a e x o,θ a e x o
+θα έχει,V;2;SG;IPFV;PST,i ç e s,p i ʝ e n e s
+θα έχει,V;2;SG;IPFV;SBJV,n a e ç i s,n a e ç i s
+θα έχει,V;3;SG;IPFV;FUT,θ a e ç i,θ a e ç i
+θα έχει," έχομε""",0.0028833703703703,0.0028833703703703
+θα έχει,V;1;PL;IPFV;PST,i x a m e,i x a m e
+θα έχει,V;2;PL;IPFV;SBJV,n a e ç e t e,n a e ç e t e
+παρουσιάζομαι,V;1;SG;IPFV;PRS,p a ɾ u s ç a z o m e,e x o
+παρουσιάζομαι,V;2;SG;IPFV;PRS,p a ɾ u s ç a z e s e,i s e
+παρουσιάζομαι,V;3;SG;IPFV;PRS,p a ɾ u s ç a z e t e,e ç i
+παρουσιάζομαι,V;1;SG;PFV;PST,p a ɾ u s ç a s t i k a,p a ɾ u s ç a s t o
+παρουσιάζομαι,V;3;SG;PFV;FUT,θ a p a ɾ u s ç a s t i,θ a p a i
+παρουσιάζομαι,V;3;SG;PFV;PST,p a ɾ u s ç a s t i c e,p a ɾ u s ç a s t i
+παρουσιάζομαι,V;1;PL;PFV;PST,p a ɾ u s ç a s t i k a m e,m e t ɾ i s a m e
+παρουσιάζομαι,V;2;PL;PFV;FUT,θ a p a ɾ u s ç a s t i t e,θ a k s e c i n i s e t e
+παρουσιάζομαι," παρουσιαστήκανε""",7.128947368421052e-05,0.0
+έχω,V;2;SG;IPFV;PRS,e ç i s,e ç i s
+έχω,V;2;SG;IPFV;PST,i ç e s,i ç e s
+έχω,V;2;SG;IPFV;SBJV,n a e ç i s,n a e ç i s
+έχω,V;3;SG;IPFV;PST,i ç e,i t a n e n
+έχω," έχομε""",0.0028833703703703,0.0028833703703703
+έχω,V;2;PL;IPFV;PST,i x a t e,i x a t e
+έχω,V;2;PL;IPFV;FUT,θ a e ç e t e,θ a e ç e t e
+έχω,V;2;PL;IPFV;SBJV,n a e ç e t e,n a e ç e t e
+έχω," έχουνε""",0.0028833703703703,0.0028833703703703
+οδηγώ,V;1;SG;IPFV;PRS,o ð i ɣ o,e x o
+οδηγώ,V;1;SG;IPFV;PST,o ð i ɣ u s a,o ð i ɣ u s a
+οδηγώ,V;2;SG;IPFV;PRS,o ð i ʝ i s,o ð i ʝ i s
+οδηγώ,V;1;SG;PFV;SBJV,n a o ð i ʝ i s o,n a o ð i ʝ i s o
+οδηγώ,V;2;PL;PFV;PST,o ð i ʝ i s a t e,o ð i ʝ i s a t e
+οδηγώ,V;2;PL;PFV;SBJV,n a o ð i ʝ i s e t e,n a o ð i ʝ i s e t e
+οδηγώ, οδηγήσαν,0.0,V;3;PL;IPFV;SBJV
+οδηγώ,V;1;SG;PRF;PST,i x a o ð i ʝ i s i,i x a p a i
+οδηγώ,V;3;SG;PRF;FUT,θ a e ç i o ð i ʝ i s i,θ a e ç i o ð i ʝ i s i
+οδηγώ,V;3;PL;PRF;SBJV,n a e x u n o ð i ʝ i s i,n a e x u n o ð i ʝ i s i
+οδηγώ,V;PTCP,o ð i ɣ o n d a s,o n d a s
+οδηγώ,V;NFIN,o ð i ʝ i s i,p i
+αρχίζω,V;1;SG;IPFV;SBJV,n a a ɾ ç i z o,n a a r ç i z o
+αρχίζω,V;3;SG;IPFV;PST,a r ç i z e,i ç e
+αρχίζω,V;3;SG;IPFV;SBJV,n a a ɾ ç i z i,n a a r ç i z i
+αρχίζω," αρχίζομε""",0.00010375,0.00010375
+αρχίζω,V;2;PL;IMP,a r ç i z e t e,a r ç i s t e
+αρχίζω," αρχίζουνε""",0.00010375,0.00010375
+αρχίζω," αρχίζουνε""",0.00010375,0.00010375
+αρχίζω," αρχίσουνε""",0.00010375,0.00010375
+αρχίζω,V;1;SG;PRF;FUT,θ a e x o a r ç i s i,θ a e x o a r ç i s i
+αρχίζω,V;3;SG;PRF;FUT,θ a e ç i a r ç i s i,θ a a ɾ ç i z i s i
+αρχίζω,V;1;PL;PRF;FUT,θ a e x u m e a r ç i s i,θ a e x u m e a r ç i s i
+αρχίζω,V;2;PL;PRF;FUT,θ a e ç e t e a r ç i s i,θ a e ç e t e a r ç i s i
+θα έχεις,V;1;SG;IPFV;PRS,e x o,e x o
+θα έχεις,V;2;SG;IPFV;FUT,θ a e ç i s,θ a e ç i s
+θα έχεις,V;2;SG;IPFV;SBJV,n a e ç i s,n a e ç i s
+θα έχεις,V;2;SG;IMP,e ç e,e ç e
+θα έχεις,V;3;SG;IPFV;PRS,e ç i,e ç i
+θα έχεις,V;3;SG;IPFV;PST,i ç e,i ç e
+θα έχεις,V;3;SG;IPFV;SBJV,n a e ç i,n a e ç i
+θα έχεις," έχομε""",0.0028833703703703,0.0028833703703703
+θα έχουν," έχομε""",0.0028833703703703,0.0028833703703703
+θα έχουν," έχουνε""",0.0028833703703703,0.0028833703703703
+ξέρω,V;3;SG;IPFV;FUT,θ a k s e ɾ i,θ a k s e ɾ i
+ξέρω," ξέρομε""",0.0001541111111111,0.0001541111111111
+ξέρω,V;2;PL;IPFV;PRS,k s e ɾ e t e,k s e ɾ e t e
+ξέρω,V;2;PL;IPFV;FUT,θ a k s e ɾ e t e,θ a k s e ɾ e t e
+ξέρω," ξέρουνε""",0.0001541111111111,0.0001541111111111
+θα είναι,V;1;SG;IPFV;FUT,θ a i m e,θ a i m e
+θα είναι,V;2;SG;IPFV;SBJV,n a i s e,n a i s e
+θα είναι,V;1;PL;IPFV;PRS,i m a s t e n,i m a s t e n
+θα είναι,V;1;PL;IPFV;SBJV,n a i m a s t e,n a i m a s t e
+θα είναι,V;2;PL;IPFV;PRS,i s t e,i s t e

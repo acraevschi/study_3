@@ -1,0 +1,737 @@
+lemma,paradigm_slot,target,prediction
+গাওয়া,V;2;PST;PROG;POL,ɡ a t͡ʃʰː i l o,ɡ e t̪ o
+গাওয়া,V;3;PST;POL,ɡ e l e n,ɡ e l e n
+গাওয়া,V;3;FUT;INFM,ɡ a b e,ɡ a b e
+গাওয়া,V;2;PST;LGSPEC1,ɡ e l i,ɡ e l i
+গাওয়া,V;2;PRS;PRF;LGSPEC1,ɡ e e s i ʃ,ɡ e l e t͡ʃʰ i ʃ
+গাওয়া,V;2;PST;HAB;POL,ɡ e t̪ o,ɔ n u ɹ o d̪ʱ o k ɔ ɹ o t̪ o
+গাওয়া,V;1;FUT,ɡ a b o,b u d͡ʒʱ b o
+গাওয়া,V;3;PST;HAB;POL,ɡ e t̪ e n,ɡ e t̪ e n
+গাওয়া,V;3;PRS;PROG;INFM,ɡ a t͡ʃʰː o,ɡ a t͡ʃʰː o
+গাওয়া,V;1;PST;HAB,ɡ e t̪ a m,ɡ e t̪ a m
+গাওয়া,V;1;PST;PRF,ɡ e e s i l a m,ɡ e e s i l a m
+লুকানো,V;3;PRS;PRF;POL,l u k i̯ e t͡ʃʰ e n,l u k i̯ e t͡ʃʰ e n
+লুকানো,V;2;PRS;PRF;LGSPEC1,l u k i̯ e t͡ʃʰ i ʃ,l u k i̯ e t͡ʃʰ i ʃ
+লুকানো,V;V.NFIN,l u k a t̪ e,l u k a t̪ e
+লুকানো,V;3;PRS;PRF;INFM,l u k i̯ e t͡ʃʰ o,l u k i̯ e t͡ʃʰ o
+লুকানো,V;3;FUT;POL,l u k a b e n,l u k a b e n
+লুকানো,V;2;PST;HAB;LGSPEC1,l u k a t̪ i ʃ,l u k a l i
+লুকানো,V;3;PRS;POL,l u k a n,l u k a t͡ʃʰː e n
+ইচ্ছা হওয়া,V;3;PST;POL,i t͡ʃʰː a,i t͡ʃʰː a
+ইচ্ছা হওয়া,V;3;PRS;PROG;POL,i t͡ʃʰː a,a t͡ʃ ɔ ɹ o n o k o ɹ o t͡ʃʰ e n
+ইচ্ছা হওয়া,V;3;PST;HAB;INFM,i t͡ʃʰː a,i t͡ʃʰː a
+ইচ্ছা হওয়া,V;2;FUT;LGSPEC1,i t͡ʃʰː a,ɡʱ a m a b i
+ইচ্ছা হওয়া,V;V.PTCP;PRF,i t͡ʃʰː a,e k e
+ইচ্ছা হওয়া,V;2;PST;HAB;POL,i t͡ʃʰː a,b ɔ n d̪ʱ o k ɔ ɹ o t̪ o
+ইচ্ছা হওয়া,V;1;FUT,i t͡ʃʰː a,d͡ʒ a ɡ b o
+ইচ্ছা হওয়া,V;2;PST;HAB;LGSPEC1,i t͡ʃʰː a,r a kʰ t̪ i ʃ
+ইচ্ছা হওয়া,V;2;FUT;POL,i t͡ʃʰː a,i t͡ʃʰː a
+ইচ্ছা হওয়া,V;3;PRS;PROG;INFM,i t͡ʃʰː a,k i n s o
+ইচ্ছা হওয়া,V;3;PST;PROG;INFM,i t͡ʃʰː a,m a ɹ t͡ʃʰ i l e
+ইচ্ছা হওয়া,V;2;PRS;LGSPEC1,i t͡ʃʰː a,i t͡ʃʰː a h ɔ e̯ t͡ʃʰ i ʃ
+জাগা,V;2;PRS;PROG;LGSPEC1,d͡ʒ a ɡ t͡ʃʰ i ʃ,d͡ʒ a ɡ t͡ʃʰ i ʃ
+জাগা,V;3;PST;POL,d͡ʒ a ɡ l e n,d͡ʒ a ɡ l e n
+জাগা,V;3;PRS;PRF;POL,d͡ʒ e ɡ e t͡ʃʰ e n,d͡ʒ e ɡ e t͡ʃʰ e n
+জাগা,V;3;PST;PRF;POL,d͡ʒ e ɡ e t͡ʃʰ i l e n,d͡ʒ e ɡ e t͡ʃʰ i l e n
+জাগা,V;3;PST;HAB;INFM,d͡ʒ a ɡ t̪ e,d͡ʒ a ɡ t͡ʃʰ i l e
+জাগা,V;3;FUT;POL,d͡ʒ a ɡ b e n,d͡ʒ a ɡ b e n
+জাগা,V;3;PST;HAB;POL,d͡ʒ a ɡ t̪ e n,d͡ʒ a ɡ t̪ e n
+জাগা,V;1;PST;HAB,d͡ʒ a ɡ t̪ a m,d͡ʒ a ɡ t̪ a m
+খোঁজা,V;3;PST;POL,kʰ u d͡ʒ l e n,kʰ u d͡ʒ l e n
+খোঁজা,V;2;PST;PRF;POL,kʰ u d͡ʒ e t͡ʃʰ i l o,kʰ u d͡ʒ e t͡ʃʰ i l o
+খোঁজা,V;V.NFIN,kʰ u d͡ʒ t̪ e,kʰ o d͡ʒ a
+খোঁজা,V;1;PRS,kʰ u d͡ʒ i,kʰ u d͡ʒ t͡ʃʰ i
+খোঁজা,V;2;FUT;POL,kʰ u d͡ʒ b e,kʰ u d͡ʒ l o
+খোঁজা,V;1;PST;PRF,kʰ u d͡ʒ e t͡ʃʰ i l a m,kʰ u d͡ʒ e t͡ʃʰ i l a m
+খোঁজা,V;2;PRS;LGSPEC1,kʰ u d͡ʒ i ʃ,kʰ u d͡ʒ t͡ʃʰ i ʃ
+ভাঙা,V;2;PST;PROG;POL,bʱ a ŋ s i l o,bʱ a ŋ t͡ʃʰ i l o
+ভাঙা,V;V.PTCP;PROG,bʱ a ŋ t̪ e,p a tʰ a t̪ o n o k ɔ ɹ t̪ e k ɔ r o t̪ e
+ভাঙা,V;3;FUT;INFM,bʱ a ŋ b e,bʱ a ŋ b e
+ভাঙা,V;3;PST;PRF;POL,bʱ e ŋ e t͡ʃʰ i l e n,bʱ e ŋ e t͡ʃʰ i l e n
+ভাঙা,V;3;PRS;INFM,bʱ a ŋ o,bʱ e ŋ e t͡ʃʰ o
+ভাঙা,V;3;PST;PROG;POL,bʱ a ŋ t͡ʃʰ i l e n,bʱ a ŋ t͡ʃʰ i l e n
+ভাঙা,V;3;PRS;PROG;POL,bʱ a ŋ t͡ʃʰ e n,bʱ a ŋ t͡ʃʰ e n
+ভাঙা,V;V.PTCP;PRF,bʱ e ŋ e,bʱ e ŋ e
+ভাঙা,V;1;FUT,bʱ a ŋ b o,bʱ a l o b a ʃ b o
+ভাঙা,V;2;PST;PRF;LGSPEC1,bʱ e ŋ e t͡ʃʰ i l i,bʱ e ŋ e t͡ʃʰ i l i
+ভাঙা,V;V.PTCP;COND,bʱ a ŋ l e,bʱ e ŋ e
+ভাঙা,V;1;PST;HAB,bʱ a ŋ t̪ a m,bʱ a ŋ l a m
+বসা,V;2;PST;PROG;POL,b ɔ s t͡ʃʰ i l o,b ɔ ʃ t͡ʃʰ i l o
+বসা,V;3;PRS;PRF;POL,b ɔ ʃ e t͡ʃʰ e n,b ɔ ʃ e t͡ʃʰ e n
+বসা,V;2;PST;HAB;POL,b ɔ ʃ t̪ o,b ɔ ʃ t̪ o
+বসা,V;2;PST;PRF;LGSPEC1,b ɔ ʃ e t͡ʃʰ i l i,b ɔ ʃ e t͡ʃʰ i l i
+বসা,V;1;PST;HAB,b ɔ ʃ t̪ a m,b ɔ ʃ l a m
+বসা,V;1;PST;PRF,b ɔ ʃ e t͡ʃʰ i l a m,b ɔ ʃ e t͡ʃʰ i l a m
+বোঝা,V;3;PST;POL,b u d͡ʒʱ l e n,b u d͡ʒʱ l e n
+বোঝা,V;V.PTCP;HAB,b u d͡ʒʱ e,b u d͡ʒʱ t̪ e
+বোঝা,V;1;PST;PROG,b u d͡ʒʱ t͡ʃʰ i l a m,b u d͡ʒʱ t͡ʃʰ i l a m
+বোঝা,V;2;PRS;PROG;POL,b u d͡ʒʱ t͡ʃʰ e,b u d͡ʒʱ t͡ʃʰ e
+বোঝা,V;2;PST;HAB;POL,b u d͡ʒʱ o t̪ o,b u d͡ʒʱ l o
+বোঝা,V;1;PRS,b u d͡ʒʱ i,b u d͡ʒʱ t͡ʃʰ i
+বোঝা,V;1;PST,b u d͡ʒʱ l a m,b u d͡ʒʱ t͡ʃʰ i l a m
+বোঝা,V;3;PST;HAB;POL,b u d͡ʒʱ t̪ e n,b u d͡ʒʱ t̪ e n
+পছন্দ করা,V;3;PST;PRF;POL,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ e t͡ʃʰ i l e n,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ l e n
+পছন্দ করা,V;2;FUT;LGSPEC1,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ o b i,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ o b i
+পছন্দ করা,V;V.NFIN,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ o t̪ e,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ t̪ e
+পছন্দ করা,V;3;FUT;POL,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ b e n,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ b e n
+পছন্দ করা,V;2;PRS;POL,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ e,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ o t͡ʃʰ e
+পছন্দ করা,V;3;PST;PRF;INFM,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ e t͡ʃʰ i l e,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ e t͡ʃʰ i l e
+পছন্দ করা,V;2;PST;PRF;LGSPEC1,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ e t͡ʃʰ i l i,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ o l i
+পছন্দ করা,V;3;PST;PROG;INFM,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ t͡ʃʰ i l e,p ɔ t͡ʃʰ o n d̪ o k ɔ ɹ t͡ʃʰ i l e
+চাপা,V;2;PST;POL,t͡ʃ a p l o,t͡ʃ a p t͡ʃʰ i l o
+চাপা,V;3;FUT;INFM,t͡ʃ a p b e,t͡ʃ a p l e
+চাপা,V;3;PST;PRF;POL,t͡ʃ e p e t͡ʃʰ i l e n,t͡ʃ e p e t͡ʃʰ i l e n
+চাপা,V;3;PRS;INFM,t͡ʃ a p o,t͡ʃ e p e t͡ʃʰ o
+চাপা,V;3;FUT;POL,t͡ʃ a p b e n,t͡ʃ a p b e n
+চাপা,V;2;PRS;POL,t͡ʃ a p e,t͡ʃ e p e t͡ʃʰ e
+চাপা,V;2;PST;PROG;LGSPEC1,t͡ʃ a p t͡ʃʰ i l i,t͡ʃ a p t͡ʃʰ i l i
+চাপা,V;3;PRS;PROG;INFM,t͡ʃ a p s o,t͡ʃ a p s i l e
+চাপা,V;2;PRS;PRF;POL,t͡ʃ e p e t͡ʃʰ e,t͡ʃ e p e t͡ʃʰ e
+চাপা,V;2;PRS;LGSPEC1,t͡ʃ a p i ʃ,t͡ʃ e p e t͡ʃʰ i ʃ
+কাটা,V;3;PST;HAB;INFM,k a ʈ t e,k a t l e
+কাটা,V;2;FUT;LGSPEC1,k a ʈ b i,d͡ʒ a b i
+কাটা,V;1;PST;PROG,k a t s i l a m,k a t s i l a m
+কাটা,V;2;PRS;POL,k a t e,k a t e
+কাটা,V;2;PST;HAB;POL,k a ʈ o,k a ʈ l o
+কাটা,V;3;PST;PRF;INFM,k e t e t͡ʃʰ i l e,k e t e t͡ʃʰ i l e
+কাটা,V;3;PST;PROG;INFM,k a t s i l e,k a t s i l e
+ভরা,V;1;PRS;PRF,bʱ ɔ ɹ e t͡ʃʰ i,bʱ ɔ ɹ e t͡ʃʰ i
+ভরা,V;3;PRS;INFM,bʱ ɔ ɹ o,bʱ ɔ ɹ o
+ভরা,V;3;PST;HAB;INFM,bʱ ɔ ɹ t̪ e,bʱ ɔ ɹ e t͡ʃʰ i l e
+ভরা,V;V.PTCP;PRF,bʱ ɔ ɹ e,bʱ ɔ ɹ e
+ভরা,V;3;PRS;PRF;INFM,bʱ ɔ ɹ e t͡ʃʰ o,bʱ ɔ ɹ o
+ভরা,V;3;FUT;POL,bʱ ɔ ɹ b e n,bʱ ɔ ɹ b e n
+ভরা,V;2;PRS;PROG;POL,bʱ ɔ ɹ o t͡ʃʰ e,bʱ ɔ ɹ o t͡ʃʰ e
+ভরা,V;2;PST;HAB;LGSPEC1,bʱ ɔ ɹ t̪ i ʃ,bʱ ɔ ɹ l i
+ভরা,V;1;PST;HAB,bʱ ɔ ɹ t̪ a m,bʱ ɔ ɹ e t͡ʃʰ i l a m
+অপেক্ষা করা,V;3;PRS;PRF;POL,ɔ p e kʰː a k ɔ ɹ e t͡ʃʰ e n,ɔ p e kʰː a k ɔ ɹ e t͡ʃʰ e n
+অপেক্ষা করা,V;3;PST;PRF;POL,ɔ p e kʰː a k ɔ ɹ e t͡ʃʰ i l e n,ɔ p e kʰː a k ɔ ɹ e t͡ʃʰ i l e n
+অপেক্ষা করা,V;3;PRS;INFM,ɔ p e kʰː a k ɔ ɹ o,ɔ p e kʰː a k ɔ ɹ o
+অপেক্ষা করা,V;2;PRS;POL,ɔ p e kʰː a k ɔ ɹ e,ɔ p e kʰː a k ɔ ɹ o t͡ʃʰ e
+অপেক্ষা করা,V;3;PST;HAB;POL,ɔ p e kʰː a k ɔ ɹ t̪ e n,ɔ p e kʰː a k ɔ ɹ t̪ e n
+অপেক্ষা করা,V;2;PST;PRF;LGSPEC1,ɔ p e kʰː a k ɔ ɹ e t͡ʃʰ i l i,ɔ p e kʰː a k ɔ ɹ e t͡ʃʰ i l i
+অপেক্ষা করা,V;1;PST;PRF,ɔ p e kʰː a k ɔ ɹ e t͡ʃʰ i l a m,ɔ p e kʰː a k ɔ ɹ e t͡ʃʰ i l a m
+অপেক্ষা করা,V;2;PRS;LGSPEC1,ɔ p e kʰː a k ɔ ɹ i ʃ,ɔ p e kʰː a k ɔ ɹ i ʃ
+পরা,V;2;PST;PROG;POL,p ɔ ɹ t͡ʃʰ i l o,p ɔ ɹ t͡ʃʰ i l o
+পরা,V;2;PRS;PROG;LGSPEC1,p ɔ ɹ t͡ʃʰ i ʃ,p ɔ ɹ t͡ʃʰ i ʃ
+পরা,V;3;PST;PRF;POL,p ɔ ɹ e t͡ʃʰ i l e n,p ɔ ɹ e t͡ʃʰ i l e n
+পরা,V;3;PRS;INFM,p ɔ ɹ o,p ɔ ɹ e t͡ʃʰ o
+পরা,V;2;PST;PRF;POL,p ɔ ɹ e t͡ʃʰ i l o,p ɔ ɹ e t͡ʃʰ i l o
+পরা,V;V.PTCP;PRF,p ɔ ɹ e,p ɔ ɹ e
+পরা,V;2;PST;PRF;LGSPEC1,p ɔ ɹ e t͡ʃʰ i l i,p ɔ ɹ e t͡ʃʰ i l i
+পরা,V;3;PST;PROG;INFM,p ɔ ɹ t͡ʃʰ i l e,p ɔ ɹ t͡ʃʰ i l e
+বন্ধ করা,V;3;FUT;INFM,b ɔ n d̪ʱ o k ɔ ɹ b e,b ɔ n d̪ʱ o k ɔ ɹ o b e
+বন্ধ করা,V;2;PST;LGSPEC1,b ɔ n d̪ʱ o k ɔ ɹ o l i,b ɔ n d̪ʱ o k ɔ ɹ t͡ʃʰ i l i
+বন্ধ করা,V;3;PST;PRF;POL,b ɔ n d̪ʱ o k ɔ ɹ e t͡ʃʰ i l e n,b ɔ n d̪ʱ o k ɔ ɹ e t͡ʃʰ i l e n
+বন্ধ করা,V;V.NFIN,b ɔ n d̪ʱ o k ɔ ɹ o t̪ e,b ɔ n d̪ʱ o k ɔ ɹ o t̪ e
+বন্ধ করা,V;3;PRS;PRF;INFM,b ɔ n d̪ʱ o k ɔ ɹ e t͡ʃʰ o,b ɔ n d̪ʱ o k ɔ ɹ o
+বন্ধ করা,V;2;PRS;POL,b ɔ n d̪ʱ o k ɔ ɹ e,b ɔ n d̪ʱ o k o ɹ o t͡ʃʰ e
+বন্ধ করা,V;3;PST;PRF;INFM,b ɔ n d̪ʱ o k ɔ ɹ e t͡ʃʰ i l e,b ɔ n d̪ʱ o k ɔ ɹ e t͡ʃʰ i l e
+বন্ধ করা,V;1;PRS,b ɔ n d̪ʱ o k o ɹ i,b ɔ n d̪ʱ o k ɔ ɹ i
+বন্ধ করা,V;2;PST;PROG;LGSPEC1,b ɔ n d̪ʱ o k ɔ ɹ t͡ʃʰ i l i,b ɔ n d̪ʱ o k ɔ ɹ t͡ʃʰ i l i
+বন্ধ করা,V;3;PST;PROG;INFM,b ɔ n d̪ʱ o k ɔ ɹ t͡ʃʰ i l e,b ɔ n d̪ʱ o k ɔ ɹ t͡ʃʰ i l e
+অনুবাদ করা,V;V.PTCP;HAB,ɔ n u b a d̪ k o ɹ e k ɔ ɹ e,ɔ n u b a d̪ k ɔ ɹ e k ɔ ɹ e
+অনুবাদ করা,V;3;PST;PRF;POL,ɔ n u b a d̪ k o ɹ e t͡ʃʰ i l e n,ɔ n u b a d̪ k ɔ ɹ e t͡ʃʰ i l e n
+অনুবাদ করা,V;3;PRS;INFM,ɔ n u b a d̪ k o ɹ o,o n u b a d̪ o k o ɹ o
+অনুবাদ করা,V;3;PST;PROG;POL,ɔ n u b a d̪ o k o ɹ t͡ʃʰ i l e n,o n u b a d̪ k ɔ ɹ l e n
+অনুবাদ করা,V;1;PST;PROG,ɔ n u b a d̪ o k o ɹ t͡ʃʰ i l a m,ɔ n u b a d̪ o k ɔ ɹ t͡ʃʰ i l a m
+অনুবাদ করা,V;V.PTCP;PRF,ɔ n u b a d̪ k ɔ ɹ e,o n u b a d̪ k o ɹ e
+অনুবাদ করা,V;2;PRS;PROG;POL,ɔ n u b a d̪ k ɔ ɹ o t͡ʃʰ e,ɔ n u b a d̪ k ɔ ɹ t͡ʃʰ e
+অনুবাদ করা,V;2;PST;PROG;LGSPEC1,ɔ n u b a d̪ k ɔ ɹ t͡ʃʰ i l i,ɔ n u b a d̪ o k ɔ ɹ t͡ʃʰ i l i
+অনুবাদ করা,V;2;FUT;POL,ɔ n u b a d̪ k ɔ ɹ b e,ɔ n u b a d̪ k ɔ ɹ b e
+অনুবাদ করা,V;3;PST;HAB;POL,ɔ n u b a d̪ k ɔ ɹ t̪ e n,o n u b a d̪ k ɔ ɹ l e n
+অনুবাদ করা,V;2;PST;PRF;LGSPEC1,o n u b a d̪ k o ɹ e t͡ʃʰ i l i,ɔ n u b a d̪ k ɔ ɹ e t͡ʃʰ i l i
+অনুবাদ করা,V;1;PST;HAB,ɔ n u b a d̪ k ɔ ɹ t̪ a m,d̪ i t̪ a m
+লেখা,V;3;PRS;PRF;POL,l i kʰ e t͡ʃʰ e n,l i kʰ e t͡ʃʰ e n
+লেখা,V;2;PST;LGSPEC1,l i kʰ l i,l i kʰ l i
+লেখা,V;V.PTCP;HAB,l i kʰ e,l i kʰ e
+লেখা,V;3;PRS;PROG;POL,l i kʰ s e n,l i kʰ s o
+লেখা,V;3;PST;HAB;INFM,l i kʰ t̪ e,l i kʰ t̪ e n
+লেখা,V;V.PTCP;PRF,l i kʰ e,l i kʰ t̪ e
+লেখা,V;V.NFIN,l i kʰ t̪ e,l i kʰ t̪ e
+লেখা,V;2;PRS;POL,l e kʰ e,l i kʰ s e
+লেখা,V;2;PST;HAB;LGSPEC1,l i kʰ t̪ i ʃ,l i kʰ e t͡ʃʰ i l i
+লেখা,V;V.PTCP;COND,l i kʰ l e,kʰ u lː e
+লেখা,V;2;PRS;PRF;POL,l i kʰ e t͡ʃʰ e,l i kʰ e t͡ʃʰ e
+লেখা,V;3;PST;PROG;INFM,l i kʰ s i l e,l i kʰ s i l e
+লেখা,V;2;PRS;LGSPEC1,l i kʰ i ʃ,l i kʰ i ʃ
+হাগা,V;1;PRS;PRF,h e ɡ e t͡ʃʰ i,h e ɡ e t͡ʃʰ i
+হাগা,V;2;PST;PROG;POL,h a ɡ t͡ʃʰ i l o,h a ɡ t͡ʃʰ i l o
+হাগা,V;3;PST;POL,h a ɡ l e n,h a ɡ l e n
+হাগা,V;2;PST;LGSPEC1,h a ɡ l i,h a ɡ t͡ʃʰ i l i
+হাগা,V;3;PRS;INFM,h a ɡ o,h e ɡ e t͡ʃʰ o
+হাগা,V;3;FUT;POL,h a ɡ b e n,h a ɡ b e n
+হাগা,V;2;PST;HAB;LGSPEC1,h a ɡ t̪ i ʃ,h e ɡ e t͡ʃʰ i l i
+হাগা,V;2;PST;PRF;LGSPEC1,h e ɡ e t͡ʃʰ i l i,h e ɡ e t͡ʃʰ i l i
+হাগা,V;1;PST;PRF,h e ɡ e t͡ʃʰ i l a m,h e ɡ e t͡ʃʰ i l a m
+নাচা,V;2;PRS;PROG;LGSPEC1,n a t͡ʃ s i ʃ,n a t͡ʃ i ʃ
+নাচা,V;V.PTCP;HAB,n e t͡ʃ e,n a t͡ʃ ɔ t̪ e
+নাচা,V;1;PRS;PROG,n a t͡ʃ o s i,n a t͡ʃ i
+নাচা,V;V.PTCP;PRF,n e t͡ʃ e,ɡ i̯ e
+নাচা,V;V.NFIN,n a t͡ʃ ɔ t̪ e,d͡ʒ e t̪ e
+নাচা,V;3;FUT;POL,n a t͡ʃ b e n,n a t͡ʃ b e n
+নাচা,V;3;PST;PRF;INFM,n e t͡ʃ e t͡ʃʰ i l e,n e t͡ʃ e t͡ʃʰ i l e
+নাচা,V;V.MSDR,n a t͡ʃ a,ɡʱ a m a n o
+নাচা,V;3;PST;PROG;INFM,n a t͡ʃ t͡ʃʰ i l e,n a t͡ʃ t͡ʃʰ i l e
+পাঠানো,V;2;PST;POL,p a tʰ a l o,p a tʰ a t̪ o
+পাঠানো,V;3;PST;INFM,p a tʰ a l e,p a tʰ a l e
+পাঠানো,V;3;PRS;INFM,p a tʰ a o̯,p a tʰ a t̪ o n k ɔ ɹ o
+পাঠানো,V;3;PST;HAB;INFM,p a tʰ a t̪ e,p a tʰ a l e
+পাঠানো,V;V.PTCP;PRF,p a ʈʰ a e̯,n i̯ e
+পাঠানো,V;3;FUT;POL,p a tʰ a b e n,p a tʰ a b e
+পাঠানো,V;1;PRS,p a tʰ a i̯,p a tʰ a t͡ʃʰː i
+পাঠানো,V;2;PST;PROG;LGSPEC1,p a tʰ a t͡ʃʰː i l i,p a tʰ a t͡ʃʰː i l i
+পাঠানো,V;1;PST,p a tʰ a l a m,p a tʰ a l a m
+পাঠানো,V;2;PST;PRF;LGSPEC1,p a tʰ i̯ e t͡ʃʰ i l i,p a tʰ i̯ e t͡ʃʰ i l i
+পাঠানো,V;V.PTCP;COND,p a tʰ a l e,p a tʰ a n o k ɔ ɹ l e
+পাঠানো,V;3;PRS;PROG;INFM,p a tʰ a t͡ʃʰː o,p a tʰ a t͡ʃʰː e n
+পাঠানো,V;1;PST;PRF,p a tʰ i̯ e t͡ʃʰ i l a m,p a tʰ i̯ e t͡ʃʰ i l a m
+খাওয়া,V;1;PRS;PRF,kʰ e e s i,kʰ e e t͡ʃʰ i
+খাওয়া,V;3;PRS;PRF;POL,kʰ e e s e n,kʰ e e s e n
+খাওয়া,V;2;PRS;PRF;LGSPEC1,kʰ e e s i ʃ,kʰ e e s i ʃ
+খাওয়া,V;3;PST;PROG;POL,kʰ a t͡ʃʰː i l e n,kʰ a t͡ʃʰː i l e n
+খাওয়া,V;2;FUT;LGSPEC1,kʰ a b i,kʰ a b i
+খাওয়া,V;V.NFIN,kʰ e t̪ e,kʰ e t̪ e
+খাওয়া,V;3;PRS;PRF;INFM,kʰ e e s o,kʰ e e s o
+খাওয়া,V;3;PST;PROG;INFM,kʰ a t͡ʃʰː i l e,kʰ a t͡ʃʰː i l e
+টানা,V;2;PST;POL,t a n l o,t a n l o
+টানা,V;2;PRS;PROG;LGSPEC1,t a n t͡ʃʰ i ʃ,t a n t͡ʃʰ i ʃ
+টানা,V;1;PST;PROG,t a n t͡ʃʰ i l a m,t a n t͡ʃʰ i l a m
+টানা,V;V.NFIN,t a n t̪ e,t a n t̪ e
+টানা,V;2;PST;HAB;POL,t a n o t̪ o,t e n e t͡ʃʰ i l o
+টানা,V;1;FUT,t a n b o,t a n b o
+টানা,V;1;PRS,t a n i,t a n i
+টানা,V;3;PST;HAB;POL,t a n t̪ e n,t a n t̪ e n
+টানা,V;V.PTCP;COND,t a n l e,t e n e
+আচরণ করা,V;1;PRS;PRF,a t͡ʃ ɔ ɹ o n k o ɹ e t͡ʃʰ i,a t͡ʃ ɔ ɹ o n k ɔ ɹ e t͡ʃʰ i
+আচরণ করা,V;V.PTCP;PROG,a t͡ʃ ɔ ɹ o n o k ɔ ɹ t̪ e k ɔ r o t̪ e,a t͡ʃ ɔ ɹ o n k o ɹ t̪ e k ɔ ɹ e
+আচরণ করা,V;3;PRS;PROG;POL,a t͡ʃ ɔ ɹ o n k ɔ ɹ t͡ʃʰ e n,a t͡ʃ ɔ ɹ o n k ɔ ɹ o t͡ʃʰ e n
+আচরণ করা,V;2;PST;PRF;POL,a t͡ʃ ɔ ɹ o n k o ɹ e t͡ʃʰ i l o,a t͡ʃ ɔ ɹ o n k ɔ ɹ e t͡ʃʰ i l o
+আচরণ করা,V;2;PRS;POL,a t͡ʃ ɔ ɹ o n k ɔ ɹ e,a t͡ʃ ɔ ɹ o n k o ɹ e t͡ʃʰ e
+আচরণ করা,V;1;PRS,a t͡ʃ ɔ ɹ o n k ɔ ɹ i,a t͡ʃ ɔ ɹ o n k o ɹ e t͡ʃʰ i
+আচরণ করা,V;3;PST;HAB;POL,a t͡ʃ ɔ ɹ o n k ɔ ɹ t̪ e n,a t͡ʃ ɔ ɹ o n k ɔ ɹ t̪ e n
+আচরণ করা,V;3;PST;PROG;INFM,a t͡ʃ ɔ ɹ o n o k ɔ ɹ t͡ʃʰ i l e,a t͡ʃ ɔ ɹ o n k ɔ ɹ t͡ʃʰ i l e
+ঘামানো,V;1;PRS;PRF,ɡʱ a m i̯ e t͡ʃʰ i,k ɔ ɹ e t͡ʃʰ i
+ঘামানো,V;2;PRS;PROG;LGSPEC1,ɡʱ a m a t͡ʃʰː i ʃ,ɡʱ a m a t͡ʃʰː i ʃ
+ঘামানো,V;V.PTCP;PROG,ɡʱ a m a t̪ e,ɡʱ a m a t̪ e
+ঘামানো,V;3;PRS;PRF;POL,ɡʱ a m i̯ e t͡ʃʰ e n,ɡʱ a m i̯ e t͡ʃʰ e n
+ঘামানো,V;3;PST;HAB;INFM,ɡʱ a m a t̪ e,ɡʱ a m a t̪ e n
+ঘামানো,V;1;PRS;PROG,ɡʱ a m a t͡ʃʰː i,ɡʱ a m a t͡ʃʰː i
+ঘামানো,V;2;PST;PRF;POL,ɡʱ a m i̯ e t͡ʃʰ i l o,ɡʱ a m i̯ e t͡ʃʰ i l o
+ঘামানো,V;V.PTCP;PRF,ɡʱ a m a e̯,ɡʱ a m a e̯
+ঘামানো,V;3;PRS;PRF;INFM,ɡʱ a m i̯ e t͡ʃʰ o,ɡʱ a m i̯ e t͡ʃʰ i l e
+ঘামানো,V;2;PRS;PROG;POL,ɡʱ a m a t͡ʃʰː e,ɡʱ a m a t͡ʃʰː i l o
+ঘামানো,V;2;PRS;POL,ɡʱ a m a e̯,ɡʱ a m a t͡ʃʰː e
+ঘামানো,V;1;FUT,ɡʱ a m a b o,ɡʱ a m a b o
+ঘামানো,V;1;PST,ɡʱ a m a l a m,ɡʱ a m a t͡ʃʰː i l a m
+ঘামানো,V;2;PRS;PRF;POL,ɡʱ a m i̯ e t͡ʃʰ e,t͡ʃ e kʰ e t͡ʃʰ e
+অনুভব করা,V;2;PST;PROG;POL,o n u bʱ o b o k o ɹ t͡ʃʰ i l o,o n u bʱ o b o k o ɹ t͡ʃʰ i l o
+অনুভব করা,V;3;PST;POL,ɔ n u bʱ o b o k o ɹ l e n,o n u bʱ o b o k o ɹ l e n
+অনুভব করা,V;2;PRS;PRF;LGSPEC1,o n u bʱ o b o k o ɹ e t͡ʃʰ i ʃ,o n u bʱ o b o k o ɹ e t͡ʃʰ i ʃ
+অনুভব করা,V;3;PRS;PRF;INFM,ɔ n u bʱ o b o k o ɹ e t͡ʃʰ o,o n u bʱ o b o k o ɹ e t͡ʃʰ o
+অনুভব করা,V;2;PRS;PROG;POL,ɔ n u bʱ o b o k o ɹ o t͡ʃʰ e,o n u bʱ o b o k o ɹ o t͡ʃʰ e
+অনুভব করা,V;V.MSDR,ɔ n u bʱ o b o k ɔ ɹ a,ɔ n u bʱ o b o k o ɹ e k ɔ ɹ a
+অনুভব করা,V;1;PST;PRF,o n u bʱ o b o k o ɹ e t͡ʃʰ i l a m,o n u bʱ o b o k ɔ ɹ l a m
+ভালবাসা,V;3;FUT;INFM,bʱ a l b a ʃ b e,bʱ a l b e
+ভালবাসা,V;3;PST;PRF;POL,bʱ a l b e ʃ e t͡ʃʰ i l e n,bʱ a l b a ʃ l e n
+ভালবাসা,V;V.PTCP;PRF,bʱ a l b e ʃ e,bʱ a l b e ʃ e
+ভালবাসা,V;3;FUT;POL,bʱ a l b a ʃ b e n,bʱ a l b e n
+ভালবাসা,V;2;PST;HAB;LGSPEC1,bʱ a l b a ʃ t̪ i ʃ,bʱ a l b a ʃ l i
+ভালবাসা,V;2;PST;PROG;LGSPEC1,bʱ a l b a ʃ t͡ʃʰ i l i,bʱ a l b a ʃ l i
+ভালবাসা,V;2;FUT;POL,bʱ a l b a ʃ b e,bʱ a l b e
+ভালবাসা,V;V.MSDR,bʱ a l b a ʃ a,h a t a
+ভালবাসা,V;1;PST,bʱ a l b a ʃ l a m,bʱ a l b e ʃ e t͡ʃʰ i l a m
+ভালবাসা,V;3;PST;HAB;POL,bʱ a l b a ʃ t̪ e n,bʱ a l b a ʃ t̪ e n
+ভালবাসা,V;3;PRS;PROG;INFM,bʱ a l b a ʃ o t͡ʃʰ o,bʱ a l b a ʃ t͡ʃʰ i l e
+ফেলা,V;2;PST;POL,f e lː o,f e l t̪ o
+ফেলা,V;3;PRS;PRF;POL,f e l e t͡ʃʰ e n,f e l e t͡ʃʰ e n
+ফেলা,V;3;PST;HAB;INFM,f e l t̪ e,f e l b e ʃ e t͡ʃʰ i l e
+ফেলা,V;2;PST;HAB;POL,f e l t̪ o,f e l t̪ o
+ফেলা,V;3;PST;PRF;INFM,f e l e t͡ʃʰ i l e,f e l e t͡ʃʰ i l e
+ফেলা,V;1;FUT,f e l b o,f e l b o
+ফেলা,V;1;PST,f e lː a m,f e l a m
+ফেলা,V;3;PRS;PROG;INFM,f e l s o,f e l t͡ʃʰ i l e
+ফেলা,V;3;PST;PROG;INFM,f e l t͡ʃʰ i l e,f e l t͡ʃʰ i l e
+দাঁড়ানো,V;2;PST;PROG;POL,d̪ a ɹ a t͡ʃʰː i l o,d̪ a ɹ a t͡ʃʰː i l o
+দাঁড়ানো,V;3;PST;INFM,d̪ a ɹ a l e,d̪ a ɹ a l e
+দাঁড়ানো,V;3;PRS;INFM,d̪ a ɹ a o̯,d̪ a ɹ i̯ e s o
+দাঁড়ানো,V;3;PST;PROG;POL,d̪ a ɹ a t͡ʃʰː i l e n,d̪ a ɹ a t͡ʃʰː i l e n
+দাঁড়ানো,V;V.NFIN,d̪ a ɹ a t̪ e,d̪ a ɹ a n o
+দাঁড়ানো,V;2;PRS;PROG;POL,d̪ a ɹ a t͡ʃʰː e,d̪ a ɹ a t͡ʃʰː e
+দাঁড়ানো,V;2;PRS;POL,d̪ a ɹ a e̯,d̪ a ɹ a t͡ʃʰː e
+দাঁড়ানো,V;3;PST;PRF;INFM,d̪ a ɹ i̯ e t͡ʃʰ i l e,d̪ a ɹ i̯ e t͡ʃʰ i l e
+দাঁড়ানো,V;2;FUT;POL,d̪ a ɹ a b e,d̪ a ɹ a b e
+দাঁড়ানো,V;V.MSDR,d̪ a ɹ a n o,d̪ a ɹ a
+দাঁড়ানো,V;2;PST;PRF;LGSPEC1,d̪ a ɹ i̯ e t͡ʃʰ i l i,d̪ a ɹ i̯ e t͡ʃʰ i l i
+দাঁড়ানো,V;V.PTCP;COND,d̪ a ɹ a l e,d̪ a ɹ a e̯
+দাঁড়ানো,V;3;PRS;PROG;INFM,d̪ a ɹ a t͡ʃʰː o,d̪ a ɹ a t͡ʃʰː o
+দাঁড়ানো,V;2;PRS;PRF;POL,d̪ a ɹ i̯ e t͡ʃʰ e,d̪ a ɹ i̯ e t͡ʃʰ i l o
+জানা,V;2;PST;POL,d͡ʒ a n l o,d͡ʒ a n t͡ʃʰ i l o
+জানা,V;3;PST;INFM,d͡ʒ a n l e,d͡ʒ a n l e
+জানা,V;3;FUT;INFM,d͡ʒ a n b e,d͡ʒ a n b e
+জানা,V;3;PRS;PROG;POL,d͡ʒ a n t͡ʃʰ e n,kʰ u d͡ʒ t͡ʃʰ e n
+জানা,V;3;PRS;PRF;INFM,d͡ʒ e n e t͡ʃʰ o,d͡ʒ e n e t͡ʃʰ o
+জানা,V;2;PST;PRF;LGSPEC1,d͡ʒ e n e t͡ʃʰ i l i,d͡ʒ e n e t͡ʃʰ i l i
+জানা,V;V.PTCP;COND,d͡ʒ a n l e,d͡ʒ a n a
+জানা,V;3;PRS;PROG;INFM,d͡ʒ a n t͡ʃʰ o,d͡ʒ a n t͡ʃʰ i l e
+জানা,V;2;PRS;PRF;POL,d͡ʒ e n e t͡ʃʰ e,d͡ʒ a n e
+ভাবা,V;2;PST;PROG;POL,bʱ a b t͡ʃʰ i l o,bʱ a b t͡ʃʰ i l o
+ভাবা,V;3;PRS;PRF;POL,bʱ e b e t͡ʃʰ e n,d̪ i̯ e t͡ʃʰ e n
+ভাবা,V;2;PST;PRF;POL,bʱ e b e t͡ʃʰ i l o,bʱ e b e t͡ʃʰ i l o
+ভাবা,V;3;PRS;PRF;INFM,bʱ e b e t͡ʃʰ o,bʱ e b e t͡ʃʰ o
+ভাবা,V;3;FUT;POL,bʱ a b b e n,bʱ a b b e n
+ভাবা,V;2;PRS;PROG;POL,bʱ a b t͡ʃʰ e,bʱ a b t͡ʃʰ e
+ভাবা,V;3;PST;PRF;INFM,bʱ e b e t͡ʃʰ i l e,bʱ e b e t͡ʃʰ i l e
+ভাবা,V;1;FUT,bʱ a b b o,b ɔ ʃ b o
+ভাবা,V;2;PST;HAB;LGSPEC1,bʱ a b t̪ i ʃ,bʱ a b l i
+ভাবা,V;2;PST;PROG;LGSPEC1,bʱ a b t͡ʃʰ i l i,bʱ a b t͡ʃʰ i l i
+ভাবা,V;V.MSDR,bʱ a b a,m ɔ ɹ a
+ভাবা,V;3;PRS;POL,bʱ a b e n,bʱ a b e
+ভাবা,V;3;PST;HAB;POL,bʱ a b t̪ e n,bʱ a b t̪ e n
+ভাবা,V;2;PST;PRF;LGSPEC1,bʱ e b e t͡ʃʰ i l i,bʱ e b e t͡ʃʰ i l i
+ভাবা,V;3;PRS;PROG;INFM,bʱ a b s o,bʱ a b t͡ʃʰ i l e
+ভাবা,V;3;PST;PROG;INFM,bʱ a b t͡ʃʰ i l e,bʱ a b t͡ʃʰ i l e
+ভাবা,V;2;PRS;LGSPEC1,bʱ a b i ʃ,bʱ a b i
+চাখা,V;2;PST;POL,t͡ʃ a kʰ l o,t͡ʃ a kʰ t̪ o
+চাখা,V;V.PTCP;PROG,t͡ʃ a kʰ t̪ e,t͡ʃ a kʰ t̪ e
+চাখা,V;3;PRS;PRF;POL,t͡ʃ e kʰ e t͡ʃʰ e n,t͡ʃ e kʰ e t͡ʃʰ e n
+চাখা,V;V.PTCP;HAB,t͡ʃ e kʰ e,t͡ʃ e kʰ e
+চাখা,V;3;PST;HAB;INFM,t͡ʃ a kʰ t̪ e,t͡ʃ a kʰ l e
+চাখা,V;3;PRS;PRF;INFM,t͡ʃ e kʰ e t͡ʃʰ o,t͡ʃ a kʰ o
+চাখা,V;2;PST;HAB;LGSPEC1,t͡ʃ a kʰ t̪ i ʃ,t͡ʃ a kʰ t̪ i ʃ
+চাখা,V;V.PTCP;COND,t͡ʃ a kʰ l e,t͡ʃ e kʰ e
+চাখা,V;3;PRS;PROG;INFM,t͡ʃ a kʰ s o,t͡ʃ a kʰ o
+চাখা,V;3;PST;PROG;INFM,t͡ʃ a kʰ t͡ʃʰ i l e,t͡ʃ a kʰ t͡ʃʰ i l e
+দেখা,V;2;PST;POL,d̪ e kʰ l o,d̪ e kʰ s i l o
+দেখা,V;1;PRS;PRF,d̪ e kʰ e t͡ʃʰ i,d̪ e kʰ e t͡ʃʰ i
+দেখা,V;3;PST;POL,d̪ e kʰ l e n,d̪ e kʰ l e n
+দেখা,V;2;PST;PRF;POL,d̪ e kʰ e t͡ʃʰ i l o,d̪ e kʰ e t͡ʃʰ i l o
+দেখা,V;1;PRS,d̪ e kʰ i,d̪ e kʰ e t͡ʃʰ i
+দেখা,V;3;PST;HAB;POL,d̪ e kʰ t̪ e n,d̪ e kʰ t̪ e n
+দেখা,V;2;PST;PRF;LGSPEC1,d̪ e kʰ e t͡ʃʰ i l i,d̪ e kʰ e t͡ʃʰ i l i
+দেখা,V;V.PTCP;COND,d̪ e kʰ l e,d̪ e kʰ e
+দেখা,V;1;PST;HAB,d̪ e kʰ t̪ a m,d̪ e kʰ t̪ a m
+দেখা,V;2;PRS;LGSPEC1,d̪ e kʰ i ʃ,d͡ʒ a ɡ a ʃ
+কেনা,V;3;PST;POL,k i n l e n,k i n l e n
+কেনা,V;2;FUT;LGSPEC1,k i n b i,k i n l i
+কেনা,V;1;PST;PROG,k i n t͡ʃʰ i l a m,k i n t͡ʃʰ i l a m
+কেনা,V;V.PTCP;PRF,k i n e,k i n e
+কেনা,V;3;PRS;PRF;INFM,k i n e t͡ʃʰ o,k i n e t͡ʃʰ o
+কেনা,V;2;PST;HAB;POL,k i n o t̪ o,m a ɹ a t̪ o
+কেনা,V;1;PRS,k i n i,k i n e t͡ʃʰ i
+কেনা,V;2;PST;PROG;LGSPEC1,k i n t͡ʃʰ i l i,k i n t͡ʃʰ i l i
+কেনা,V;1;PST;HAB,k i n t̪ a m,k i n t̪ a m
+চালানো,V;1;PRS;PRF,t͡ʃ a l i̯ e t͡ʃʰ i,t͡ʃ a l i̯ e t͡ʃʰ i
+চালানো,V;3;PST;PRF;POL,t͡ʃ a l i̯ e t͡ʃʰ i l e n,t͡ʃ a l a l e n
+চালানো,V;3;PRS;INFM,t͡ʃ a l a o̯,t͡ʃ a l a t͡ʃʰː o
+চালানো,V;3;PRS;PROG;POL,t͡ʃ a l a t͡ʃʰː e n,t͡ʃ a l a t͡ʃʰː e n
+চালানো,V;V.NFIN,t͡ʃ a l a t̪ e,t͡ʃ a l a n o
+চালানো,V;2;PRS;POL,t͡ʃ a l a e̯,t͡ʃ a l a t͡ʃʰː e
+চালানো,V;2;PST;HAB;LGSPEC1,t͡ʃ a l a t̪ i ʃ,t͡ʃ a l a t̪ i ʃ
+চালানো,V;1;PRS,t͡ʃ a l a i̯,t͡ʃ a l a t͡ʃʰː i
+চালানো,V;3;PRS;POL,t͡ʃ a l a n,t͡ʃ a l a n
+চালানো,V;3;PST;HAB;POL,t͡ʃ a l a t̪ e n,t͡ʃ a l a t̪ e n
+চালানো,V;2;PRS;PRF;POL,t͡ʃ a l i̯ e s e,t͡ʃ a l i̯ e t͡ʃʰ e
+প্রশ্ন করা,V;2;PRS;PROG;LGSPEC1,p ɹ o ʃː o k ɔ ɹ o t͡ʃʰ i ʃ,p ɹ o ʃː o k ɔ ɹ t͡ʃʰ i ʃ
+প্রশ্ন করা,V;3;PST;HAB;INFM,p ɹ o ʃː o k ɔ ɹ o t̪ e,p ɹ o ʃː o k ɔ ɹ o t̪ e n
+প্রশ্ন করা,V;1;PRS;PROG,p ɹ o ʃː o k ɔ ɹ o t͡ʃʰ i,p ɹ o ʃː o k ɔ ɹ i
+প্রশ্ন করা,V;3;PRS;PRF;INFM,p ɹ o ʃː o k ɔ ɹ e t͡ʃʰ o,p ɹ o ʃː o k ɔ ɹ o
+প্রশ্ন করা,V;1;PST,p ɹ o ʃː o k ɔ ɹ l a m,p ɹ o ʃː o k ɔ ɹ l a m
+প্রশ্ন করা,V;2;PST;PRF;LGSPEC1,p ɹ o ʃː o k ɔ ɹ e t͡ʃʰ i l i,p ɹ o ʃː o k ɔ ɹ o l i
+জাগানো,V;2;PST;POL,d͡ʒ a ɡ a l o,d͡ʒ a ɡ a t̪ o
+জাগানো,V;3;PST;HAB;INFM,d͡ʒ a ɡ a t̪ e,d͡ʒ a ɡ i̯ e t͡ʃʰ i l e
+জাগানো,V;V.NFIN,d͡ʒ a ɡ a t̪ e,d͡ʒ a ɡ a t̪ e
+জাগানো,V;3;PRS;PRF;INFM,d͡ʒ a ɡ i̯ e s o,d͡ʒ a ɡ i̯ e t͡ʃʰ o
+জাগানো,V;2;PRS;POL,d͡ʒ a ɡ a e̯,d͡ʒ a ɡ a t͡ʃʰː e
+জাগানো,V;2;PST;PROG;LGSPEC1,d͡ʒ a ɡ a t͡ʃʰː i l i,d͡ʒ a ɡ a t͡ʃʰː i l i
+জাগানো,V;2;FUT;POL,d͡ʒ a ɡ a b e,d͡ʒ a ɡ a b e
+জাগানো,V;3;PST;HAB;POL,d͡ʒ a ɡ a t̪ e n,d͡ʒ a ɡ a t̪ e n
+জাগানো,V;1;PST;HAB,d͡ʒ a ɡ a t̪ a m,d͡ʒ a ɡ a t̪ a m
+বৃষ্টি হওয়া,V;3;PST;POL,b ɹ i ʃ ʈ i h o l e n,b ɹ i ʃ ʈ i h ɔ e̯ s i l e n
+বৃষ্টি হওয়া,V;3;PRS;PRF;POL,b ɹ i ʃ ʈ i h ɔ e̯ s e n,b ɹ i ʃ ʈ i h ɔ e̯ s o
+বৃষ্টি হওয়া,V;3;PST;PROG;POL,b ɹ i ʃ ʈ i h ɔ t͡ʃʰː i l e n,b ɹ i ʃ ʈ i h ɔ t͡ʃʰː i l e n
+বৃষ্টি হওয়া,V;3;FUT;POL,b ɹ i ʃ ʈ i,d̪ʱ ɔ ɹ b e n
+বৃষ্টি হওয়া,V;3;PST;HAB;POL,b ɹ i ʃ ʈ i,b u d͡ʒʱ t̪ e n
+বৃষ্টি হওয়া,V;2;PST;PRF;LGSPEC1,b ɹ i ʃ ʈ i h ɔ e̯ s i l i,b ɹ i ʃ ʈ i h ɔ e̯ s i ʃ
+বৃষ্টি হওয়া,V;V.PTCP;COND,b ɹ i ʃ ʈ i,b ɹ i ʃ ʈ i h ɔ e̯ h ɔ e̯ e
+বৃষ্টি হওয়া,V;3;PRS;PROG;INFM,b ɹ i ʃ ʈ i h ɔ t͡ʃʰː o,b ɹ i ʃ ʈ i h ɔ t͡ʃʰː i l e
+চুম্বন করা,V;2;PST;POL,t͡ʃ u m b o n k ɔ ɹ l o,t͡ʃ u m b o n k ɔ ɹ l o
+চুম্বন করা,V;3;FUT;INFM,t͡ʃ u m b o n k ɔ ɹ b e,t͡ʃ u m b o n k ɔ ɹ b e
+চুম্বন করা,V;3;PST;PRF;POL,t͡ʃ u m b o n k o ɹ e t͡ʃʰ i l e n,t͡ʃ u m b o n k ɔ ɹ e t͡ʃʰ i l e n
+চুম্বন করা,V;3;PRS;INFM,t͡ʃ u m b o n k o ɹ o,t͡ʃ u m b o n o k ɔ ɹ o
+চুম্বন করা,V;3;FUT;POL,t͡ʃ u m b o n k ɔ ɹ b e n,t͡ʃ u m b o n o k ɔ ɹ b e n
+চুম্বন করা,V;2;PRS;POL,t͡ʃ u m b o n k ɔ ɹ e,t͡ʃ u m b o n k ɔ ɹ t͡ʃʰ e
+চুম্বন করা,V;2;PST;HAB;LGSPEC1,t͡ʃ u m b o n k ɔ ɹ o t̪ i ʃ,t͡ʃ u m b o n o k ɔ ɹ o t̪ i ʃ
+চুম্বন করা,V;2;FUT;POL,t͡ʃ u m b o n k ɔ ɹ b e,t͡ʃ u m b o n o k ɔ ɹ b e
+চুম্বন করা,V;3;PRS;POL,t͡ʃ u m b o n k o ɹ e n,t͡ʃ u m b o n k o ɹ e n
+চোষা,V;1;PRS;PRF,t͡ʃ u ʃ e t͡ʃʰ i,t͡ʃ u ʃ e t͡ʃʰ i
+চোষা,V;3;PRS;PROG;POL,t͡ʃ u ʃ t͡ʃʰ e n,t͡ʃ o ʃ e n
+চোষা,V;V.NFIN,t͡ʃ u ʃ t̪ e,t͡ʃ o ʃ a
+চোষা,V;3;PRS;PRF;INFM,t͡ʃ u ʃ e t͡ʃʰ o,t͡ʃ u ʃ e t͡ʃʰ o
+চোষা,V;3;FUT;POL,t͡ʃ u ʃ b e n,t͡ʃ u ʃ b e n
+চোষা,V;2;PRS;PROG;POL,t͡ʃ u ʃ t͡ʃʰ e,t͡ʃ u ʃ t͡ʃʰ i l o
+চোষা,V;2;PRS;POL,t͡ʃ o ʃ e,t͡ʃ o ʃ e
+চোষা,V;1;PST,t͡ʃ u ʃ l a m,t͡ʃ u ʃ e t͡ʃʰ i l a m
+চোষা,V;2;PRS;LGSPEC1,t͡ʃ u ʃ i ʃ,t͡ʃ u ʃ e t͡ʃʰ i ʃ
+জ্বালাতন করা,V;2;PST;POL,d͡ʒ a l a t̪ o n k ɔ ɹ o l o,d͡ʒ a l a t̪ o n k ɔ ɹ t͡ʃʰ i l o
+জ্বালাতন করা,V;3;PST;INFM,d͡ʒ a l a t̪ o n k ɔ ɹ l e,d͡ʒ a l a t̪ o n k ɔ ɹ l e
+জ্বালাতন করা,V;2;FUT;LGSPEC1,d͡ʒ a l a t̪ o n k ɔ ɹ o b i,d͡ʒ a l a b i
+জ্বালাতন করা,V;2;PST;PROG;LGSPEC1,d͡ʒ a l a t̪ o n k ɔ ɹ t͡ʃʰ i l i,d͡ʒ a l a t̪ o n k ɔ ɹ t͡ʃʰ i l i
+জ্বালাতন করা,V;1;PST,d͡ʒ a l a t̪ o n k ɔ ɹ l a m,d͡ʒ a l a m
+জ্বালাতন করা,V;3;PST;HAB;POL,d͡ʒ a l a t̪ o n k ɔ ɹ t̪ e n,d͡ʒ a l a t̪ e n
+জ্বালাতন করা,V;1;PST;HAB,d͡ʒ a l a t̪ o n k ɔ ɹ ɔ t̪ a m,d͡ʒ a l a t̪ o n k ɔ ɹ o t̪ a m
+জ্বালাতন করা,V;2;PRS;PRF;POL,d͡ʒ a l a t̪ o n k ɔ ɹ e t͡ʃʰ e,d͡ʒ a l a t̪ o n k ɔ ɹ e t͡ʃʰ e
+রাখা,V;V.PTCP;PROG,r a kʰ t̪ e,r e kʰ e
+রাখা,V;V.PTCP;HAB,r e kʰ e,r e kʰ e
+রাখা,V;3;PST;PROG;POL,r a kʰ t͡ʃʰ i l e n,r a kʰ t͡ʃʰ i l e n
+রাখা,V;3;PST;HAB;INFM,r a kʰ t̪ e,r a kʰ l e
+রাখা,V;2;PRS;PROG;POL,r a kʰ t͡ʃʰ e,r a kʰ t͡ʃʰ e
+রাখা,V;2;PST;PROG;LGSPEC1,r a kʰ t͡ʃʰ i l i,r a kʰ s i l i
+রাখা,V;2;PST;PRF;LGSPEC1,r e kʰ e t͡ʃʰ i l i,r e kʰ e t͡ʃʰ i l i
+রাখা,V;2;PRS;LGSPEC1,r a kʰ i ʃ,r a kʰ t͡ʃʰ i ʃ
+ঘৃণা করা,V;2;PST;PROG;POL,ɡʱ ɹ i n a k o ɹ t͡ʃʰ i l o,ɡʱ ɹ i n a k o ɹ t͡ʃʰ i l o
+ঘৃণা করা,V;3;PST;POL,ɡʱ ɹ i n a k ɔ ɹ l e n,ɡʱ ɹ i n a k ɔ ɹ l e n
+ঘৃণা করা,V;2;PST;LGSPEC1,ɡʱ ɹ i n a k ɔ ɹ o l i,ɡʱ ɹ i n a k o ɹ t͡ʃʰ i l i
+ঘৃণা করা,V;3;PST;PRF;POL,ɡʱ ɹ i n a k ɔ ɹ e t͡ʃʰ i l e n,ɡʱ ɹ i n a k ɔ ɹ e t͡ʃʰ i l e n
+ঢুকানো,V;2;PST;PROG;POL,dʱ u k a t͡ʃʰː i l o,dʱ u k a t͡ʃʰː i l o
+ঢুকানো,V;3;PRS;PRF;POL,dʱ u k i̯ e t͡ʃʰ e n,dʱ u k i̯ e t͡ʃʰ e n
+ঢুকানো,V;3;PST;PRF;POL,dʱ u k i̯ e t͡ʃʰ i l e n,dʱ u k i̯ e t͡ʃʰ i l e n
+ঢুকানো,V;3;PST;HAB;INFM,dʱ u k a t̪ e,dʱ u k i̯ e t͡ʃʰ i l e
+ঢুকানো,V;1;PST;PROG,dʱ u k a t͡ʃʰː i l a m,dʱ u k a t͡ʃʰː i l a m
+ঢুকানো,V;2;PST;HAB;POL,dʱ u k a t̪ o,dʱ u k a t̪ o
+ঢুকানো,V;2;PST;HAB;LGSPEC1,dʱ u k a t̪ i ʃ,p e t̪ i ʃ
+ঢুকানো,V;3;PST;HAB;POL,dʱ u k a t̪ e n,dʱ u k a l e n
+ঢুকানো,V;2;PRS;PRF;POL,dʱ u k i̯ e t͡ʃʰ e,ɡ i̯ e t͡ʃʰ e
+ঢুকানো,V;2;PRS;LGSPEC1,dʱ u k a ʃ,dʱ u k a ʃ
+বিশেষ করা,V;2;PRS;PROG;LGSPEC1,b i ʃ e ʃ o k ɔ ɹ t͡ʃʰ i ʃ,b i ʃ e ʃ o k ɔ ɹ o t͡ʃʰ i ʃ
+বিশেষ করা,V;3;PST;PRF;POL,b i ʃ e ʃ o k ɔ ɹ e t͡ʃʰ i l e n,b i ʃ e ʃ o k ɹ e t͡ʃʰ i l e n
+বিশেষ করা,V;3;PRS;INFM,b i ʃ e ʃ k o ɹ o,b i ʃ e ʃ o k ɔ ɹ o t͡ʃʰ o
+বিশেষ করা,V;2;PRS;PRF;LGSPEC1,b i ʃ e ʃ o k ɹ e t͡ʃʰ i ʃ,b i ʃ e ʃ o k ɔ ɹ e t͡ʃʰ i ʃ
+বিশেষ করা,V;2;PST;PROG;LGSPEC1,b i ʃ e ʃ o k ɔ ɹ t͡ʃʰ i l i,b i ʃ e ʃ o k ɔ ɹ t͡ʃʰ i l i
+চেনা,V;3;PRS;PRF;POL,t͡ʃ i n e t͡ʃʰ e n,t͡ʃ i n e t͡ʃʰ e n
+চেনা,V;V.PTCP;HAB,t͡ʃ i n e,t͡ʃ i n t̪ e
+চেনা,V;3;PRS;PROG;POL,t͡ʃ i n t͡ʃʰ e n,t͡ʃ i n t͡ʃʰ e n
+চেনা,V;2;PST;PRF;POL,t͡ʃ i n e t͡ʃʰ i l o,t͡ʃ i n e t͡ʃʰ i l o
+চেনা,V;3;PRS;PRF;INFM,t͡ʃ i n e t͡ʃʰ o,d̪ i̯ e t͡ʃʰ o
+চেনা,V;3;FUT;POL,t͡ʃ i n b e n,t͡ʃ i n b e n
+চেনা,V;1;PRS,t͡ʃ i n i,t͡ʃ i n t͡ʃʰ i
+চেনা,V;V.MSDR,t͡ʃ e n a,t͡ʃ e n a
+চেনা,V;V.PTCP;COND,t͡ʃ i n l e,t͡ʃ i n t̪ e
+চেনা,V;2;PRS;PRF;POL,t͡ʃ i n e t͡ʃʰ e,t͡ʃ i n e t͡ʃʰ e
+চেনা,V;3;PST;PROG;INFM,t͡ʃ i n t͡ʃʰ i l e,t͡ʃ i n t͡ʃʰ i l e
+গেলা,V;3;FUT;INFM,ɡ i l b e,ɡʱ a m b e
+গেলা,V;3;PRS;PROG;POL,ɡ i l t͡ʃʰ e n,ɡ i l t͡ʃʰ e n
+গেলা,V;2;PST;HAB;LGSPEC1,ɡ i l t̪ i ʃ,ɡ i l t̪ i ʃ
+গেলা,V;1;PRS,ɡ i l i,ɡ i l t͡ʃʰ i
+গেলা,V;2;PST;PROG;LGSPEC1,ɡ i l t͡ʃʰ i l i,ɡ i l t͡ʃʰ i l i
+গেলা,V;2;FUT;POL,ɡ i l b e,ɡ i l b e
+গেলা,V;V.MSDR,ɡ e l a,bʱ a l o b a ʃ a
+গেলা,V;2;PST;PRF;LGSPEC1,ɡ i l e t͡ʃʰ i l i,ɡ i l e t͡ʃʰ i l i
+গেলা,V;1;PST;PRF,ɡ i l e t͡ʃʰ i l a m,ɡ i l e t͡ʃʰ i l a m
+ধরা,V;2;PST;PROG;POL,d̪ʱ ɔ ɹ t͡ʃʰ i l o,d̪ʱ ɔ ɹ t͡ʃʰ i l o
+ধরা,V;3;PRS;PROG;POL,d̪ʱ ɔ ɹ t͡ʃʰ e n,d̪ʱ ɔ ɹ o t͡ʃʰ e n
+ধরা,V;V.PTCP;PRF,d̪ʱ ɔ ɹ e,d̪ʱ ɔ ɹ e
+ধরা,V;3;PST;PRF;INFM,d̪ʱ ɔ ɹ e t͡ʃʰ i l e,d̪ʱ ɔ ɹ e t͡ʃʰ i l e
+ধরা,V;1;PRS,d̪ʱ ɔ ɹ i,d̪ʱ ɔ ɹ t͡ʃʰ i
+ধরা,V;2;PRS;PRF;POL,d̪ʱ ɔ ɹ e t͡ʃʰ e,d̪ʱ ɔ ɹ e t͡ʃʰ e
+যাওয়া,V;2;PST;POL,ɡ e l o,ɡ e l o
+যাওয়া,V;2;PRS;PROG;LGSPEC1,d͡ʒ a t͡ʃʰː i ʃ,d͡ʒ a t͡ʃʰː i ʃ
+যাওয়া,V;V.PTCP;HAB,ɡ i̯ e,b ɔ l b e ʃ e
+যাওয়া,V;2;PRS;PRF;LGSPEC1,ɡ i̯ e s i ʃ,ɡ i̯ e t͡ʃʰ i ʃ
+যাওয়া,V;3;PST;HAB;INFM,d͡ʒ e t̪ e,d͡ʒ e t̪ e n
+যাওয়া,V;2;PST;HAB;POL,d͡ʒ e t̪ o,ɡʱ a m a t̪ o
+যাওয়া,V;3;PST;PRF;INFM,ɡ i̯ e t͡ʃʰ i l e,ɡ i̯ e t͡ʃʰ i l e
+যাওয়া,V;2;PRS;PRF;POL,ɡ i̯ e s e,d͡ʒ a e̯
+যাওয়া,V;3;PST;PROG;INFM,d͡ʒ a t͡ʃʰː i l e,d͡ʒ a t͡ʃʰː o
+শিখানো,V;2;PRS;PROG;LGSPEC1,ʃ i kʰ a t͡ʃʰː i ʃ,ʃ i kʰ a t͡ʃʰː i ʃ
+শিখানো,V;3;PST;INFM,ʃ i kʰ a l e,ʃ i kʰ a l e
+শিখানো,V;V.PTCP;PROG,ʃ i kʰ a t̪ e,ʃ i kʰ a t̪ e
+শিখানো,V;3;PST;PRF;POL,ʃ i kʰ i̯ e t͡ʃʰ i l e n,ʃ i kʰ i̯ e t͡ʃʰ i l e n
+শিখানো,V;3;PRS;PROG;POL,ʃ i kʰ a t͡ʃʰː e n,ʃ i kʰ a n
+শিখানো,V;3;PRS;PRF;INFM,ʃ i kʰ i̯ e s o,ʃ i kʰ a o̯
+শিখানো,V;3;FUT;POL,ʃ i kʰ a b e n,ʃ i kʰ a b e n
+শিখানো,V;2;PRS;PROG;POL,ʃ i kʰ a t͡ʃʰː e,ʃ i kʰ a t͡ʃʰː e
+শিখানো,V;2;PRS;POL,ʃ i kʰ a e̯,ʃ i kʰ i̯ e t͡ʃʰ e
+শিখানো,V;2;PST;HAB;LGSPEC1,ʃ i kʰ a t̪ i ʃ,ʃ i kʰ a l i
+শিখানো,V;1;PST,ʃ i kʰ a l a m,ʃ i kʰ a l a m
+শিখানো,V;2;PRS;PRF;POL,ʃ i kʰ i̯ e s e,t͡ʃ i n e t͡ʃʰ e
+আগানো,V;3;PST;INFM,a ɡ a l e,a ɡ a l e
+আগানো,V;3;PST;PRF;POL,a ɡ i̯ e t͡ʃʰ i l e n,a ɡ i̯ e t͡ʃʰ i l e n
+আগানো,V;3;PST;HAB;INFM,a ɡ a t̪ e,a ɡ i̯ e t͡ʃʰ i l e
+আগানো,V;3;PRS;PRF;INFM,a ɡ i̯ e s o,a ɡ i̯ e t͡ʃʰ o
+আগানো,V;2;PST;HAB;POL,a ɡ a t̪ o,t͡ʃ a kʰ t̪ o
+আগানো,V;2;PST;HAB;LGSPEC1,a ɡ a t̪ i ʃ,a ɡ a l i
+আগানো,V;3;PST;HAB;POL,a ɡ a t̪ e n,a ɡ a t̪ e n
+আগানো,V;2;PRS;LGSPEC1,a ɡ a ʃ,a ɡ a t͡ʃʰː i ʃ
+বলা,V;2;PST;POL,b ɔ lː o,b ɔ l t̪ o
+বলা,V;1;PRS;PRF,b ɔ l e t͡ʃʰ i,b ɔ l e t͡ʃʰ i
+বলা,V;2;PST;PROG;POL,b ɔ l t͡ʃʰ i l o,b ɔ l t͡ʃʰ i l o
+বলা,V;2;PRS;PRF;LGSPEC1,b ɔ l e t͡ʃʰ i ʃ,b ɔ l e t͡ʃʰ i ʃ
+বলা,V;3;PST;HAB;INFM,b ɔ l t̪ e,b ɔ l e t͡ʃʰ i l e
+বলা,V;1;PST;PROG,b ɔ l t͡ʃʰ i l a m,b ɔ l t͡ʃʰ i l a m
+বলা,V;3;PRS;PRF;INFM,b ɔ l e t͡ʃʰ o,b ɔ l e t͡ʃʰ i l e
+বলা,V;3;PST;PRF;INFM,b ɔ l e t͡ʃʰ i l e,b ɔ l e t͡ʃʰ i l e
+বলা,V;1;FUT,b ɔ l b o,b ɔ l b o
+বলা,V;2;PST;PROG;LGSPEC1,b ɔ l t͡ʃʰ i l i,b ɔ l t͡ʃʰ i l i
+বলা,V;3;PRS;PROG;INFM,b ɔ l t͡ʃʰ o,b ɔ l t͡ʃʰ i l e
+বলা,V;3;PST;PROG;INFM,b ɔ l t͡ʃʰ i l e,b ɔ l t͡ʃʰ i l e
+বলা,V;2;PRS;LGSPEC1,b ɔ l i ʃ,b ɔ l t͡ʃʰ i ʃ
+চাওয়া,V;2;PST;POL,t͡ʃ e l o,t͡ʃ e t̪ o
+চাওয়া,V;1;PRS;PRF,t͡ʃ e e s i,t͡ʃ e e t͡ʃʰ i
+চাওয়া,V;3;PST;INFM,t͡ʃ e l e,t͡ʃ a t͡ʃʰː i l e
+চাওয়া,V;V.PTCP;HAB,t͡ʃ e e,t͡ʃ e e
+চাওয়া,V;3;PST;PRF;POL,t͡ʃ e e t͡ʃʰ i l e n,t͡ʃ e e t͡ʃʰ i l e n
+চাওয়া,V;3;PRS;INFM,t͡ʃ a o̯,t͡ʃ a o̯
+চাওয়া,V;3;PST;PROG;POL,t͡ʃ a t͡ʃʰː i l e n,t͡ʃ a t͡ʃʰː i l e n
+চাওয়া,V;3;PRS;PROG;POL,t͡ʃ a t͡ʃʰː e n,t͡ʃ a t͡ʃʰː e n
+চাওয়া,V;2;PST;PRF;POL,t͡ʃ e e t͡ʃʰ i l o,t͡ʃ e e s i l o
+চাওয়া,V;2;PST;PROG;LGSPEC1,t͡ʃ a t͡ʃʰː i l i,t͡ʃ a t͡ʃʰː i l i
+চাওয়া,V;V.PTCP;COND,t͡ʃ e l e,t͡ʃ e e
+ব্যবহার করা,V;3;PST;POL,b æ b h a ɹ k ɔ ɹ l e n,b æ b h a ɹ k ɔ ɹ l e n
+ব্যবহার করা,V;3;FUT;POL,b æ b h a ɹ k ɔ ɹ b e n,b æ b h a ɹ k ɔ ɹ b e n
+ব্যবহার করা,V;3;PST;HAB;POL,b æ b h a ɹ k ɔ ɹ t̪ e n,m a ɹ a t̪ e n
+ব্যবহার করা,V;1;PST;HAB,b æ b h a ɹ o k ɔ ɹ t̪ a m,b æ b h a ɹ o k ɔ ɹ o t̪ a m
+ব্যবহার করা,V;1;PST;PRF,b æ b h a ɹ o k ɔ ɹ e t͡ʃʰ i l a m,b æ b h a ɹ o k ɔ ɹ e t͡ʃʰ i l a m
+উল্কি আঁকা,V;2;PST;POL,u l k i a k l o,u l k i a k s i l o
+উল্কি আঁকা,V;V.PTCP;HAB,u l k i e̯ k e e̯ k e,u l k i a k o ɹ e k ɔ ɹ e
+উল্কি আঁকা,V;3;PRS;INFM,u l k i a k o,u l k i e̯ k e t͡ʃʰ o
+উল্কি আঁকা,V;3;PST;HAB;INFM,u l k i a k t̪ e,u l k i e̯ k e t͡ʃʰ i l e
+উল্কি আঁকা,V;3;FUT;POL,u l k i a k b e n,u l k i a k b e n
+উল্কি আঁকা,V;2;PST;HAB;POL,u l k i a k o t̪ o,u l k i a k t̪ e n
+উল্কি আঁকা,V;1;PST,u l k i a k l a m,u l k i a k s i l a m
+উল্কি আঁকা,V;3;PRS;PROG;INFM,u l k i a k s o,u l k i a k o ɹ t͡ʃʰ i l e
+উল্কি আঁকা,V;1;PST;HAB,u l k i a k t̪ a m,p ɔ ɹ t̪ a m
+ভুলে যাওয়া,V;1;PRS;PRF,bʱ u l e ɡ i̯ e s i,bʱ u l e ɡ i̯ e t͡ʃʰ i
+ভুলে যাওয়া,V;2;PRS;PROG;LGSPEC1,bʱ u l e d͡ʒː i ʃ,bʱ u l e d͡ʒ a ʃ
+ভুলে যাওয়া,V;3;PST;POL,bʱ u l e ɡ e l e n,bʱ u l e ɡ e l e n
+ভুলে যাওয়া,V;V.PTCP;PRF,bʱ u l e ɡ i̯ e,bʱ u l e ɡ i̯ e ɡ i̯ e
+ভুলে যাওয়া,V;2;PRS;POL,bʱ u l e e̯,bʱ u l e d͡ʒ a t͡ʃʰː e
+ভুলে যাওয়া,V;3;PST;PRF;INFM,bʱ u l e ɡ i̯ e t͡ʃʰ i l e,bʱ u l e ɡ i̯ e t͡ʃʰ i l e
+ভুলে যাওয়া,V;1;FUT,bʱ u l e d͡ʒ a b o,n i b o
+ভুলে যাওয়া,V;1;PRS,bʱ u l e d͡ʒ a i̯,bʱ u l e d͡ʒ a t͡ʃʰː i
+ভুলে যাওয়া,V;3;PST;PROG;INFM,bʱ u l e d͡ʒː i l e,bʱ u l e d͡ʒː i l e
+দেওয়া,V;2;PRS;PROG;LGSPEC1,d̪ i t͡ʃʰː i ʃ,d̪ i t͡ʃʰː i ʃ
+দেওয়া,V;3;PRS;PRF;POL,d̪ i̯ e t͡ʃʰ e n,d̪ e n
+দেওয়া,V;3;PRS;INFM,d̪ a o̯,d̪ i̯ e s o
+দেওয়া,V;1;PRS;PROG,d̪ i t͡ʃʰː i,d̪ e i̯
+দেওয়া,V;V.NFIN,d̪ e t̪ e,d̪ e o̯ a
+দেওয়া,V;2;PRS;POL,d̪ e e,d̪ i̯ e s e
+দেওয়া,V;2;PST;HAB;LGSPEC1,d̪ i t̪ i ʃ,d̪ i l i
+ওঠা,V;V.PTCP;PROG,u tʰ t̪ e,u tʰ e
+ওঠা,V;2;PST;LGSPEC1,u tʰ l i,u tʰ e t͡ʃʰ i l i
+ওঠা,V;2;PRS;POL,o ʈʰ e,u tʰ e t͡ʃʰ e
+ওঠা,V;1;FUT,u tʰ b o,ʃ i kʰ b o
+ওঠা,V;2;PST;HAB;LGSPEC1,u tʰ t̪ i ʃ,a t͡ʃ ɔ ɹ o n o k o ɹ o t̪ i ʃ
+ওঠা,V;2;PRS;PRF;POL,u tʰ e t͡ʃʰ e,u tʰ e t͡ʃʰ e
+ডিফ্র্যাগমেন্ট করা,V;2;PST;POL,d i f ɹ æ ɡ m e n t o k ɔ ɹ l o,d i f ɹ æ ɡ m e n t o k ɔ ɹ e t͡ʃʰ i l o
+ডিফ্র্যাগমেন্ট করা,V;1;PRS;PRF,d i f ɹ æ ɡ m e n t o k ɔ ɹ e t͡ʃʰ i,d i f ɹ æ ɡ m e n t o k ɔ ɹ e t͡ʃʰ i
+ডিফ্র্যাগমেন্ট করা,V;3;PST;INFM,d i f ɹ æ ɡ m e n t o k ɔ ɹ l e,d i f ɹ æ ɡ m e n t o k ɔ ɹ l e
+ডিফ্র্যাগমেন্ট করা,V;V.PTCP;PROG,d i f ɹ a ɡ m e n t o k ɔ ɹ t̪ e k ɔ r o t̪ e,d i f ɹ æ ɡ m e n t o k ɔ ɹ t̪ e
+ডিফ্র্যাগমেন্ট করা,V;3;PRS;PRF;POL,d i f ɹ æ ɡ m e n t o k ɔ ɹ e t͡ʃʰ e n,d i f ɹ æ ɡ m e n t o k ɔ ɹ e n
+ডিফ্র্যাগমেন্ট করা,V;2;PST;LGSPEC1,d i f ɹ æ ɡ m e n t o k ɔ r o l i,d i f ɹ æ ɡ m e n t o k ɔ ɹ e t͡ʃʰ i l i
+ডিফ্র্যাগমেন্ট করা,V;1;PST;PROG,d i f ɹ æ ɡ m e n t o k ɔ ɹ t͡ʃʰ i l a m,d i f ɹ æ ɡ m e n t o k ɔ ɹ l a m
+ডিফ্র্যাগমেন্ট করা,V;V.PTCP;PRF,d i f ɹ æ ɡ m e n t o k ɔ ɹ e,d i f ɹ æ ɡ m e n t o k ɔ ɹ e
+ডিফ্র্যাগমেন্ট করা,V;3;PST;PRF;INFM,d i f ɹ æ ɡ m e n t o k ɔ ɹ e t͡ʃʰ i l e,d i f ɹ æ ɡ m e n t o k ɔ ɹ e t͡ʃʰ i l e n
+ডিফ্র্যাগমেন্ট করা,V;1;FUT,d i f ɹ æ ɡ m e n t o k ɔ r o b o,d͡ʒ a ɡ b o
+ডিফ্র্যাগমেন্ট করা,V;2;PST;PROG;LGSPEC1,d i f ɹ æ ɡ m e n t o k ɔ ɹ t͡ʃʰ i l i,d i f ɹ æ ɡ m e n t o k ɔ ɹ e t͡ʃʰ i l i
+খোলা,V;2;PST;POL,kʰ u lː o,kʰ u l t͡ʃʰ i l o
+খোলা,V;3;PST;INFM,kʰ u lː e,kʰ u l t͡ʃʰ i l e
+খোলা,V;V.NFIN,kʰ u l t̪ e,kʰ u l e d͡ʒ e t̪ e
+খোলা,V;1;PRS,kʰ u l i,kʰ u l t͡ʃʰ i
+খোলা,V;1;PST,kʰ u lː a m,kʰ u l t͡ʃʰ i l a m
+নেওয়া,V;V.PTCP;HAB,n i̯ e,n i̯ e
+নেওয়া,V;3;PST;PRF;POL,n i̯ e t͡ʃʰ i l e n,n i̯ e t͡ʃʰ i l e n
+নেওয়া,V;3;PRS;INFM,n a o̯,n i̯ e s o
+নেওয়া,V;2;PRS;PRF;LGSPEC1,n i̯ e s i ʃ,n i̯ e t͡ʃʰ i ʃ
+নেওয়া,V;3;PRS;PROG;POL,n i t͡ʃʰː e n,n i t͡ʃʰː e n
+নেওয়া,V;1;PRS;PROG,n i t͡ʃʰː i,n e i̯
+নেওয়া,V;V.PTCP;PRF,n i̯ e,n i̯ e
+নেওয়া,V;V.NFIN,n e t̪ e,a k t̪ e
+নেওয়া,V;3;PRS;PRF;INFM,n i̯ e s o,n i̯ e t͡ʃʰ o
+নেওয়া,V;2;PST;PROG;LGSPEC1,n i t͡ʃʰː i l i,n i t͡ʃʰː i l i
+নেওয়া,V;3;PST;HAB;POL,n i t̪ e n,n i l e n
+ঘুমানো,V;2;PST;LGSPEC1,ɡʱ u m a l i,ɡʱ u m a l i
+ঘুমানো,V;3;PRS;INFM,ɡʱ u m a o̯,ɡʱ u m i̯ e t͡ʃʰ o
+ঘুমানো,V;2;PST;HAB;LGSPEC1,ɡʱ u m a t̪ i ʃ,ɡʱ u m i̯ e t͡ʃʰ i l i
+ঘুমানো,V;2;FUT;POL,ɡʱ u m a b e,ɡʱ u m a n o k ɔ ɹ b e
+ঘুমানো,V;1;PST;PRF,ɡʱ u m i̯ e t͡ʃʰ i l a m,ɡʱ u m a l a m
+ঘুমানো,V;2;PRS;LGSPEC1,ɡʱ u m a ʃ,ɡʱ u m a t͡ʃʰː i ʃ
+প্রমাণ করা,V;2;PST;PROG;POL,p ɹ o m a n o k ɔ ɹ t͡ʃʰ i l o,p ɹ o m a n o k ɔ ɹ o l o
+প্রমাণ করা,V;2;PRS;PROG;LGSPEC1,p ɹ o m a n o k ɔ ɹ t͡ʃʰ i ʃ,p ɹ o m a n o k ɔ ɹ t͡ʃʰ i ʃ
+প্রমাণ করা,V;3;PRS;PROG;POL,p ɹ o m a n o k ɔ ɹ t͡ʃʰ e n,p ɹ o m a n o k ɔ ɹ o t͡ʃʰ e n
+প্রমাণ করা,V;3;PST;HAB;INFM,p ɹ o m a n o k ɔ ɹ o t̪ e,p ɹ o m a n o k o ɹ t̪ e n
+প্রমাণ করা,V;V.NFIN,p ɹ o m a n o k ɔ ɹ o t̪ e,p ɹ o m a n o k ɔ ɹ t̪ e
+প্রমাণ করা,V;2;PST;HAB;POL,p ɹ o m a n o k ɔ ɹ o t̪ o,p ɹ o m a n o k ɔ ɹ o t̪ o
+প্রমাণ করা,V;1;PRS,p ɹ o m a n o k o ɹ i,p ɹ o m a n o k ɔ ɹ o t͡ʃʰ i
+প্রমাণ করা,V;2;PST;PROG;LGSPEC1,p ɹ o m a n o k ɔ ɹ t͡ʃʰ i l i,p ɹ o m a n o k ɔ ɹ t͡ʃʰ i l i
+প্রমাণ করা,V;2;PST;PRF;LGSPEC1,p ɹ o m a n o k ɔ ɹ e t͡ʃʰ i l i,p ɹ o m a n o k ɔ ɹ o l i
+প্রমাণ করা,V;2;PRS;PRF;POL,p ɹ o m a n o k ɔ ɹ e t͡ʃʰ e,p ɹ o m a n o k ɔ ɹ e t͡ʃʰ e
+শোনা,V;1;PRS;PRF,ʃ u n e t͡ʃʰ i,ʃ u n e t͡ʃʰ i
+শোনা,V;V.PTCP;PROG,ʃ u n t̪ e,ʃ u n e
+শোনা,V;3;PRS;PRF;POL,ʃ u n e t͡ʃʰ e n,ʃ u n e t͡ʃʰ e n
+শোনা,V;2;PST;LGSPEC1,ʃ u n l i,ʃ u n l i
+শোনা,V;V.PTCP;HAB,ʃ u n e,ʃ u n e
+শোনা,V;2;PRS;PRF;LGSPEC1,ʃ u n e t͡ʃʰ i ʃ,ʃ u n e t͡ʃʰ i ʃ
+শোনা,V;3;PRS;PRF;INFM,ʃ u n e t͡ʃʰ o,ʃ u n e t͡ʃʰ o
+শোনা,V;2;PST;HAB;POL,ʃ u n o t̪ o,ʃ u n l o
+শোনা,V;1;PRS,ʃ u n i,ʃ u n t͡ʃʰ i
+শোনা,V;1;PST,ʃ u n l a m,ʃ u n t͡ʃʰ i l a m
+শোনা,V;3;PRS;POL,ʃ o n e n,ʃ o n e n
+শোনা,V;2;PRS;PRF;POL,ʃ u n e t͡ʃʰ e,ʃ u n e t͡ʃʰ e
+শোনা,V;1;PST;PRF,ʃ u n e t͡ʃʰ i l a m,ʃ u n e t͡ʃʰ i l a m
+মরা,V;2;PRS;PROG;LGSPEC1,m ɔ ɹ t͡ʃʰ i ʃ,m ɔ ɹ t͡ʃʰ i ʃ
+মরা,V;3;PST;INFM,m ɔ ɹ l e,m ɔ ɹ l e
+মরা,V;3;PST;PROG;POL,m ɔ ɹ t͡ʃʰ i l e n,m ɔ ɹ t͡ʃʰ i l e n
+মরা,V;3;PST;HAB;INFM,m ɔ ɹ t̪ e,m ɔ ɹ e t͡ʃʰ i l e
+মরা,V;2;PST;HAB;POL,m ɔ ɹ o t̪ o,m ɔ ɹ o t̪ o
+মরা,V;1;FUT,m ɔ ɹ b o,m ɔ ɹ b o
+মরা,V;2;PST;HAB;LGSPEC1,m ɔ ɹ t̪ i ʃ,m ɔ ɹ t̪ i ʃ
+মরা,V;3;PST;HAB;POL,m ɔ ɹ t̪ e n,m ɔ ɹ t̪ e n
+মরা,V;2;PRS;PRF;POL,m ɔ ɹ e t͡ʃʰ e,m ɔ ɹ e t͡ʃʰ e
+মরা,V;1;PST;PRF,m ɔ ɹ e t͡ʃʰ i l a m,m ɔ ɹ e t͡ʃʰ i l a m
+শেখা,V;2;PRS;PROG;LGSPEC1,ʃ i kʰ s i ʃ,ʃ i kʰ t͡ʃʰ i ʃ
+শেখা,V;1;PST;PROG,ʃ i kʰ t͡ʃʰ i l a m,ʃ i kʰ t͡ʃʰ i l a m
+শেখা,V;V.NFIN,ʃ i kʰ t̪ e,ʃ i kʰ t̪ e
+শেখা,V;1;FUT,ʃ i kʰ b o,ʃ i kʰ b o
+শেখা,V;2;PST;PROG;LGSPEC1,ʃ i kʰ t͡ʃʰ i l i,ʃ i kʰ t͡ʃʰ i l i
+শেখা,V;3;PRS;POL,ʃ e kʰ e n,ʃ e kʰ e n
+ঢোকা,V;1;PRS;PRF,dʱ u k e t͡ʃʰ i,dʱ u k e t͡ʃʰ i
+ঢোকা,V;2;PRS;PROG;LGSPEC1,dʱ u k s i ʃ,dʱ u k s i ʃ
+ঢোকা,V;3;PST;PROG;POL,dʱ u k t͡ʃʰ i l e n,dʱ u k s i l e n
+ঢোকা,V;2;FUT;LGSPEC1,dʱ u k b i,t͡ʃ a kʰ b i
+ঢোকা,V;1;PST;PROG,dʱ u k t͡ʃʰ i l a m,dʱ u k s i l a m
+ঢোকা,V;3;FUT;POL,dʱ u k b e n,dʱ u k b e n
+ঢোকা,V;2;PST;HAB;LGSPEC1,dʱ u k t̪ i ʃ,a t͡ʃ ɔ ɹ o n k ɔ ɹ o t̪ i ʃ
+ঢোকা,V;1;PRS,dʱ u k i,dʱ u k s i
+ঢোকা,V;2;FUT;POL,dʱ u k b e,dʱ u k l o
+ঢোকা,V;1;PST,dʱ u k l a m,dʱ u k e t͡ʃʰ i l a m
+ঢোকা,V;3;PST;HAB;POL,dʱ u k t̪ e n,dʱ u k t̪ e n
+ঢোকা,V;2;PRS;PRF;POL,dʱ u k e t͡ʃʰ e,dʱ u k e t͡ʃʰ e
+ঢোকা,V;3;PST;PROG;INFM,dʱ u k t͡ʃʰ i l e,dʱ u k s i l e
+হওয়া,V;2;PST;PROG;POL,h ɔ t͡ʃʰː i l o,h ɔ t͡ʃʰː i l o
+হওয়া,V;3;PRS;INFM,h ɔ o̯,h ɔ e̯ e t͡ʃʰ o
+হওয়া,V;3;FUT;POL,h ɔ b e n,h ɔ b e n
+হওয়া,V;2;PRS;POL,h ɔ e̯,h ɔ t͡ʃʰː e
+হওয়া,V;2;PST;HAB;POL,h ɔ t̪ o,d̪ i t̪ o
+হওয়া,V;1;FUT,h ɔ b o,d̪ i b o
+হওয়া,V;V.PTCP;COND,h ɔ l e,h ɔ e̯ e
+হওয়া,V;3;PRS;PROG;INFM,h ɔ t͡ʃʰː o,h ɔ t͡ʃʰː i l e
+হওয়া,V;1;PST;HAB,h ɔ t̪ a m,h ɔ l a m
+হাঁটা,V;V.PTCP;PROG,h a t t̪ e,h æ t e
+হাঁটা,V;3;PST;POL,h a t l e n,h a t l e n
+হাঁটা,V;3;PRS;INFM,h a t o,h æ t e t͡ʃʰ o
+হাঁটা,V;3;PST;PROG;POL,h a t t͡ʃʰ i l e n,h a t s i l e n
+হাঁটা,V;V.PTCP;PRF,h æ t e,h æ t e
+হাঁটা,V;3;PRS;PRF;INFM,h æ t e t͡ʃʰ o,h æ t e t͡ʃʰ o
+হাঁটা,V;1;FUT,h a t b o,h a t l a m
+হাঁটা,V;V.PTCP;COND,h a t l e,kʰ u lː e
+হাঁটা,V;3;PRS;PROG;INFM,h a t s o,h a t s o
+ঘামা,V;2;PRS;PROG;LGSPEC1,ɡʱ a m t͡ʃʰ i ʃ,ɡʱ a m t͡ʃʰ i ʃ
+ঘামা,V;2;PRS;PRF;LGSPEC1,ɡʱ e m e t͡ʃʰ i ʃ,ɡʱ e m e t͡ʃʰ i ʃ
+ঘামা,V;3;PRS;PROG;POL,ɡʱ a m t͡ʃʰ e n,ɡʱ a m e n
+ঘামা,V;2;PST;PRF;POL,ɡʱ e m e t͡ʃʰ i l o,ɡʱ e m e t͡ʃʰ i l o
+ঘামা,V;V.NFIN,ɡʱ a m t̪ e,ɡʱ a m a
+ঘামা,V;2;PRS;PROG;POL,ɡʱ a m t͡ʃʰ e,ɡʱ a m e
+ঘামা,V;2;FUT;POL,ɡʱ a m b e,ɡʱ a m e
+পাওয়া,V;2;PST;POL,p e l o,p e l o
+পাওয়া,V;V.PTCP;PROG,p e t̪ e,p e e
+পাওয়া,V;3;PST;POL,p e l e n,p e e s i l e n
+পাওয়া,V;3;PRS;PRF;POL,p e e s e n,p a n
+পাওয়া,V;3;PST;PRF;POL,p e e s i l e n,p e e s i l e n
+পাওয়া,V;3;PST;HAB;INFM,p e t̪ e,p e e s i l e
+পাওয়া,V;V.PTCP;PRF,p e e,p e e
+পাওয়া,V;3;PRS;PRF;INFM,p e e s o,p e e s o
+পাওয়া,V;2;PST;HAB;POL,p e t̪ o,p e e s i l o
+পাওয়া,V;1;FUT,p a b o,ɡʱ a m a b o
+পাওয়া,V;2;PST;HAB;LGSPEC1,p e t̪ i ʃ,p e l i
+আসা,V;V.PTCP;PROG,a ʃ t̪ e,e ʃ e
+আসা,V;3;PRS;PRF;POL,e ʃ e t͡ʃʰ e n,e ʃ e t͡ʃʰ e n
+আসা,V;2;PST;LGSPEC1,a s l i,a s t͡ʃʰ i l i
+আসা,V;3;PST;HAB;INFM,a ʃ t̪ e,a s t̪ e n
+আসা,V;1;PST;PROG,a s t͡ʃʰ i l a m,a s t͡ʃʰ i l a m
+আসা,V;1;PRS;PROG,a ʃ t͡ʃʰ i,a ʃ i
+আসা,V;V.NFIN,a ʃ t̪ e,e ʃ e
+আসা,V;3;FUT;POL,a s b e n,a ʃ b e n
+আসা,V;2;PST;HAB;LGSPEC1,a s t̪ i ʃ,d͡ʒ e t̪ i ʃ
+আসা,V;V.MSDR,a ʃ a,d̪ʱ ɔ ɹ a
+চাটা,V;3;PRS;PROG;POL,t͡ʃ a t t͡ʃʰ e n,t͡ʃ a ʈ t͡ʃʰ o
+চাটা,V;2;FUT;LGSPEC1,t͡ʃ a ʈ b i,t͡ʃ a t i ʃ
+চাটা,V;1;PRS;PROG,t͡ʃ a t s i,t͡ʃ a ʈ i
+চাটা,V;3;PRS;POL,t͡ʃ a ʈ e n,t͡ʃ e t e t͡ʃʰ e n
+চাটা,V;3;PST;HAB;POL,t͡ʃ a ʈ t̪ e n,t͡ʃ a ʈ l e n
+চাটা,V;V.PTCP;COND,t͡ʃ a ʈ l e,t͡ʃ e ʈ e
+মারা,V;2;PRS;PROG;LGSPEC1,m a ɹ t͡ʃʰ i ʃ,m a ɹ t͡ʃʰ i ʃ
+মারা,V;3;PST;INFM,m a ɹ l e,m a ɹ l e
+মারা,V;V.PTCP;HAB,m e ɹ e,m a ɹ t̪ e
+মারা,V;3;PST;PRF;POL,m e ɹ e t͡ʃʰ i l e n,m e ɹ e t͡ʃʰ i l e n
+মারা,V;3;PST;PROG;POL,m a ɹ t͡ʃʰ i l e n,m a ɹ t͡ʃʰ i l e n
+মারা,V;3;PRS;PROG;POL,m a ɹ t͡ʃʰ e n,m a ɹ a t͡ʃʰː e n
+মারা,V;1;PST;PROG,m a ɹ t͡ʃʰ i l a m,m a ɹ t͡ʃʰ i l a m
+মারা,V;2;FUT;POL,m a ɹ b e,m a ɹ b e
+মারা,V;1;PST;HAB,m a ɹ t̪ a m,m a ɹ a l a m
+মারা,V;1;PST;PRF,m e ɹ e t͡ʃʰ i l a m,m e ɹ e t͡ʃʰ i l a m
+টাইপ করা,V;3;PST;POL,t a i̯ p o k ɔ ɹ l e n,t a i̯ p o k ɔ ɹ l e n
+টাইপ করা,V;3;FUT;INFM,t a i̯ p o k ɔ ɹ b e,t a i̯ p o k ɔ ɹ b e
+টাইপ করা,V;3;PST;PROG;POL,t a i̯ p o k ɔ ɹ t͡ʃʰ i l e n,t a i̯ p o k ɔ ɹ l e n
+টাইপ করা,V;3;PRS;PROG;POL,t a i̯ p o k ɔ ɹ t͡ʃʰ e n,t a i̯ p o k ɔ ɹ o t͡ʃʰ e n
+টাইপ করা,V;3;FUT;POL,t a i̯ p o k ɔ ɹ b e n,t a i̯ p o k ɔ ɹ b e n
+টাইপ করা,V;2;PRS;POL,t a i̯ p k ɔ ɹ e,t a i̯ p o k ɹ e t͡ʃʰ e
+টাইপ করা,V;1;PRS,t a i̯ p k ɔ ɹ i,t a i̯ p o k ɔ ɹ e t͡ʃʰ i
+টাইপ করা,V;1;PST,t a i̯ p o k ɔ ɹ l a m,t a i̯ p o k ɔ ɹ e t͡ʃʰ i l a m
+টাইপ করা,V;3;PST;HAB;POL,t a i̯ p o k ɔ ɹ t̪ e n,t a i̯ p o k ɔ ɹ t̪ e n
+টাইপ করা,V;2;PRS;PRF;POL,t a i̯ p o k ɔ ɹ e t͡ʃʰ e,t a i̯ p o k ɔ ɹ e t͡ʃʰ e
+টাইপ করা,V;3;PST;PROG;INFM,t a i̯ p o k ɔ ɹ t͡ʃʰ i l e,t a i̯ p o k ɔ ɹ t͡ʃʰ i l e
+চেষ্টা করা,V;V.PTCP;PROG,t͡ʃ e ʃ ʈ a k ɔ ɹ t̪ e k ɔ ɹ ɔ t̪ e,t͡ʃ e ʃ ʈ a k ɔ ɹ e
+চেষ্টা করা,V;2;PST;LGSPEC1,t͡ʃ e ʃ ʈ a k ɔ ɹ o l i,t͡ʃ e ʃ ʈ a k ɔ ɹ t͡ʃʰ i l i
+চেষ্টা করা,V;3;PST;PROG;INFM,t͡ʃ e ʃ ʈ a k ɔ ɹ t͡ʃʰ i l e,t͡ʃ e ʃ ʈ a k ɔ ɹ t͡ʃʰ i l e
+দেখানো,V;3;PST;POL,d̪ e kʰ a l e n,d̪ e kʰ a l e n
+দেখানো,V;3;FUT;INFM,d̪ e kʰ a b e,d̪ e kʰ a b e
+দেখানো,V;2;PST;LGSPEC1,d̪ e kʰ a l i,d̪ e kʰ a l i
+দেখানো,V;2;PRS;PRF;LGSPEC1,d̪ e kʰ i̯ e t͡ʃʰ i ʃ,d̪ e kʰ i̯ e t͡ʃʰ i ʃ
+দেখানো,V;3;PST;HAB;INFM,d̪ e kʰ a t̪ e,d̪ e kʰ a t̪ e n
+দেখানো,V;2;FUT;LGSPEC1,d̪ e kʰ a b i,d̪ e kʰ a b i
+দেখানো,V;V.NFIN,d̪ e kʰ a t̪ e,d̪ e kʰ a t̪ e
+দেখানো,V;2;PRS;POL,d̪ e kʰ a e̯,d̪ e kʰ a t͡ʃʰː e
+দেখানো,V;3;PRS;POL,d̪ e kʰ a n,d̪ e kʰ a t͡ʃʰː e n
+দেখানো,V;3;PRS;PROG;INFM,d̪ e kʰ a t͡ʃʰː o,d̪ e kʰ a t͡ʃʰː o
+দেখানো,V;1;PST;HAB,d̪ e kʰ a t̪ a m,d̪ e kʰ i̯ e t͡ʃʰ i l a m
+দেখানো,V;2;PRS;PRF;POL,d̪ e kʰ i̯ e s e,d̪ e kʰ i̯ e t͡ʃʰ e
+দেখানো,V;3;PST;PROG;INFM,d̪ e kʰ a t͡ʃʰː i l e,d̪ e kʰ a t͡ʃʰː i l e
+অনুরোধ করা,V;1;PRS;PRF,o n u ɹ o d̪ʱ o k ɔ ɹ e t͡ʃʰ i,o n u ɹ o d̪ʱ o k ɔ ɹ e t͡ʃʰ i
+অনুরোধ করা,V;3;PST;INFM,ɔ n u ɹ o d̪ʱ o k ɔ ɹ l e,o n u ɹ o d̪ʱ o k ɔ ɹ l e
+অনুরোধ করা,V;3;FUT;INFM,ɔ n u ɹ o d̪ʱ o k ɔ ɹ b e,o n u ɹ o d̪ʱ o k o ɹ b e
+অনুরোধ করা,V;3;PST;PRF;POL,o n u ɹ o d̪ʱ o k ɔ ɹ e t͡ʃʰ i l e n,ɔ n u ɹ o d̪ʱ o k ɔ ɹ e t͡ʃʰ i l e n
+অনুরোধ করা,V;3;PST;HAB;INFM,ɔ n u ɹ o d̪ʱ o k ɔ ɹ o t̪ e,o n u ɹ o d̪ʱ o k ɔ r o t̪ e
+অনুরোধ করা,V;2;FUT;LGSPEC1,o n u ɹ o d̪ʱ o k ɔ r o b i,o n u ɹ o d̪ʱ o k ɔ r o b i
+অনুরোধ করা,V;1;PST;PROG,o n u ɹ o d̪ʱ o k o ɹ t͡ʃʰ i l a m,o n u ɹ o d̪ʱ o k ɔ ɹ t͡ʃʰ i l a m
+অনুরোধ করা,V;3;PST;HAB;POL,ɔ n u ɹ o d̪ʱ o k ɔ ɹ t̪ e n,o n u ɹ o d̪ʱ o k o ɹ t̪ e n
+অনুরোধ করা,V;2;PST;PRF;LGSPEC1,o n u ɹ o d̪ʱ o k ɾ e t͡ʃʰ i l i,o n u ɹ o d̪ʱ o k ɔ ɹ e t͡ʃʰ i l i
+অনুরোধ করা,V;3;PST;PROG;INFM,o n u ɹ o d̪ʱ o k ɔ ɹ t͡ʃʰ i l e,o n u ɹ o d̪ʱ o k ɔ ɹ t͡ʃʰ i l e
+অনুরোধ করা,V;1;PST;PRF,o n u ɹ o d̪ʱ o k ɾ e t͡ʃʰ i l a m,o n u ɹ o d̪ʱ o k ɔ ɹ l a m
+করা,V;2;PST;LGSPEC1,k ɔ ɹ l i,k ɔ ɹ l i
+করা,V;2;FUT;LGSPEC1,k ɔ ɹ b i,k ɔ ɹ b i
+করা,V;3;PRS;PRF;INFM,k ɔ ɹ e t͡ʃʰ o,k ɔ ɹ e t͡ʃʰ o
+করা,V;2;PST;HAB;LGSPEC1,k ɔ ɹ t̪ i ʃ,k ɔ ɹ e t͡ʃʰ i l i
+করা,V;1;PRS,k ɔ ɹ i,k ɔ ɹ t͡ʃʰ i
+করা,V;1;PST,k ɔ ɹ l a m,k ɔ ɹ l a m
+করা,V;3;PST;HAB;POL,k ɔ ɹ t̪ e n,k ɔ ɹ t̪ e n
+করা,V;3;PRS;PROG;INFM,k ɔ ɹ o t͡ʃʰ o,k ɔ ɹ o t͡ʃʰ o
+আঁকা,V;1;PRS;PRF,e k e t͡ʃʰ i,e k e t͡ʃʰ i
+আঁকা,V;2;PRS;PROG;LGSPEC1,a k s i ʃ,a k i ʃ
+আঁকা,V;2;PST;LGSPEC1,a k l i,e k e t͡ʃʰ i l i
+আঁকা,V;3;PRS;PROG;POL,a k s e n,a k s o
+আঁকা,V;2;FUT;LGSPEC1,a k b i,m ɔ ɹ b i
+আঁকা,V;2;PST;PRF;POL,e k e t͡ʃʰ i l o,e k e t͡ʃʰ i l o
+আঁকা,V;3;FUT;POL,a k b e n,a k b e n
+আঁকা,V;1;FUT,a k b o,ʃ u n b o
+আঁকা,V;2;PST;HAB;LGSPEC1,a k t̪ i ʃ,n i t̪ i ʃ
+আঁকা,V;3;PRS;POL,a k e n,e k e t͡ʃʰ e n
+ভালোবাসা,V;1;PRS;PRF,bʱ a l o b e ʃ e t͡ʃʰ i,bʱ a l o b e ʃ e t͡ʃʰ i
+ভালোবাসা,V;V.PTCP;PROG,bʱ a l o b a ʃ t̪ e,bʱ a l o b e ʃ e
+ভালোবাসা,V;3;PST;POL,bʱ a l o b a ʃ l e n,bʱ a l o b a ʃ l e n
+ভালোবাসা,V;3;PST;PROG;POL,bʱ a l o b a s t͡ʃʰ i l e n,bʱ a l o b a ʃ t͡ʃʰ i l e
+ভালোবাসা,V;3;PRS;PRF;INFM,bʱ a l o b e ʃ e t͡ʃʰ o,bʱ a l o b a ʃ o
+ভালোবাসা,V;3;FUT;POL,bʱ a l o b a ʃ b e n,bʱ a l o b a ʃ b e
+ভালোবাসা,V;3;PRS;POL,bʱ a l o b a ʃ e n,bʱ a l o b a ʃ t͡ʃʰ e n
+ভালোবাসা,V;2;PRS;PRF;POL,bʱ a l o b e ʃ e t͡ʃʰ e,bʱ a l o b a ʃ e
+ভালোবাসা,V;2;PRS;LGSPEC1,bʱ a l o b a ʃ i ʃ,bʱ a l o b a ʃ t͡ʃʰ i ʃ

@@ -1,0 +1,460 @@
+lemma,paradigm_slot,target,prediction
+halten,V;IND;PL;1;PRS,h a l t n̩,h a l t n̩
+halten,V;SBJV;PL;2;PRS,h a l t ə t,h a l t ə t
+halten,V;IND;SG;1;PST,h iː l t,h iː l t ə
+halten,V;SBJV;PL;1;PST,h iː l t n̩,h a l t ə t ə n
+halten,V;IND;PL;3;PST,h iː l t n̩,h iː l t n̩
+verlieren,V;IND;PL;1;PRS,f ɛ ɐ̯ l iː ʁ ə n,f ɛ ɐ̯ l iː ʁ ə n
+verlieren,V;SBJV;PL;2;PRS,f ɛ ɐ̯ l iː ʁ ə t,f ɛ ɐ̯ l iː ʁ ə t
+verlieren,V;SBJV;SG;3;PRS,f ɛ ɐ̯ l iː ʁ ə,f ɛ ɐ̯ l iː ʁ ə
+verlieren,V;IND;SG;2;PST,f ɛ ɐ̯ l ɔ ʁ s t,k ɔ n t ə s t
+verlieren,V;IND;PL;2;PST,f ɛ ɐ̯ l oː ɐ̯ t,m ʊ s t ə t
+verlieren,V;IND;PL;3;PST,f ɛ ɐ̯ l oː ʁ ə n,f ɛ ɐ̯ l øː ʁ ə n
+verlieren,V;SBJV;PL;3;PST,f ɛ ɐ̯ l øː ʁ ə n,f ɛ ɐ̯ l øː ʁ ə n
+fahren,V;IND;SG;1;PRS,f aː ʁ ə,f aː ʁ ə
+fahren,V;IND;SG;2;PRS,f eː ɐ̯ s t,v ɪ l s t
+fahren,V;IND;PL;3;PRS,f aː ʁ ə n,f aː ʁ ə n
+fahren,V;IND;SG;1;PST,f uː ɐ̯,k ɔ n t ə
+fahren,V;SBJV;PL;1;PST,f yː ʁ ə n,f aː ʁ ə n
+fahren,V;SBJV;PL;2;PST,f yː ʁ ə t,b eː t ə t
+fahren,V;SBJV;SG;3;PST,f yː ʁ ə,m ʏ s t ə
+fahren,V;IMP;SG;2,f aː ʁ ə,f aː ɐ̯
+geben,V;NFIN,ɡ eː b ə n,ʊ m h ɪ n k œ n ə n
+geben,V;IND;SG;2;PRS,ɡ iː p s t,t a ɪ̯ k s t
+geben,V;IND;SG;1;PST,ɡ aː p,ɡ aː p
+geben,V;IND;PL;1;PST,ɡ aː b n̩,ɡ aː p t
+geben,V;SBJV;PL;2;PST,ɡ eː b ə t,ɡ eː b ə t
+geben,V;SBJV;SG;3;PST,ɡ eː b ə,ɡ aː p
+geben,V;IMP;SG;2,ɡ iː p,d uː
+gehen,V;NFIN,ɡ eː ə n,h ɪ n ʔ a ɪ̯ n v ɔ l ə n
+gehen,V;IND;SG;1;PRS,ɡ eː ə,ɡ eː ə
+gehen,V;SBJV;PL;1;PRS,ɡ eː ə n,ɡ eː ə n
+gehen,V;IND;SG;3;PRS,ɡ eː t,ɡ eː ə
+gehen,V;SBJV;SG;2;PST,ɡ ɪ ŋ ə s t,ɡ ɪ ŋ ə
+gehen,V;IND;SG;3;PST,ɡ ɪ ŋ,ɡ ɪ ŋ ə
+losmüssen,V;SBJV;SG;1;PRS,m ʏ s ə,m ʏ s ə
+losmüssen,V;SBJV;PL;2;PRS,m ʏ s ə t,m ʏ s ə t
+losmüssen,V;SBJV;PL;1;PST,m ʏ s t n̩,m ʏ s t n̩
+losmüssen,V;IMP;PL;2,iː ɐ̯,iː ɐ̯
+zeigen,V;SBJV;PL;1;PRS,t͡s a ɪ̯ ɡ n̩,t͡s a ɪ̯ ɡ ə t
+zeigen,V;SBJV;PL;3;PRS,t͡s a ɪ̯ ɡ n̩,t͡s a ɪ̯ ɡ n̩
+zeigen,V;IND;SG;2;PST,t͡s a ɪ̯ k t ə s t,t͡s a ɪ̯ k t ə s t
+zeigen,V;IND;PL;2;PST,t͡s a ɪ̯ k t ə t,t͡s a ɪ̯ k t ə n
+zeigen,V;SBJV;PL;2;PST,t͡s a ɪ̯ k t ə t,t͡s a ɪ̯ k t ə t
+führen,V;IND;PL;1;PRS,f yː ʁ ə n,m ʏ s n̩
+führen,V;SBJV;PL;1;PRS,f yː ʁ ə n,f yː ʁ ə n
+führen,V;IND;SG;3;PRS,f yː ɐ̯ t,k a n
+führen,V;SBJV;SG;3;PRS,f yː ʁ ə,f yː ʁ ə
+führen,V;SBJV;PL;1;PST,f yː ɐ̯ t n̩,f yː ɐ̯ t n̩
+führen,V;IND;SG;2;PST,f yː ɐ̯ t ə s t,f yː ɐ̯ t ə s t
+führen,V;IND;PL;2;PST,f yː ɐ̯ t ə t,f yː ɐ̯ t ə t
+führen,V;SBJV;PL;3;PST,f yː ɐ̯ t n̩,f yː ɐ̯ t n̩
+finden,V;IND;SG;3;PRS,f ɪ n d ə t,v ɪ l
+finden,V;SBJV;PL;3;PRS,f ɪ n d ə n,f ɪ n d ə n
+finden,V;SBJV;PL;1;PST,f ɛ n d n̩,f ɛ n d ə n
+finden,V;IND;SG;2;PST,f a n d ə s t,f a n d ə s t
+finden,V;SBJV;SG;2;PST,f ɛ n d ə s t,f ɛ n d ə s t
+finden,V;IND;SG;3;PST,f a n t,f a n t
+finden,V;IND;PL;3;PST,f a n d ə n,f a n d ə n
+finden,V;IMP;SG;2,f ɪ n d ə,t a ɪ̯ l
+einigen,V;IND;SG;3;PRS,a ɪ̯ n ɪ k t,k a n
+einigen,V;SBJV;PL;3;PRS,a ɪ̯ n ɪ ɡ n̩,a ɪ̯ n ɪ ɡ n̩
+einigen,V;IND;PL;1;PST,a ɪ̯ n ɪ k t n̩,a ɪ̯ n ɪ k t n̩
+einigen,V;SBJV;PL;1;PST,a ɪ̯ n ɪ k t n̩,a ɪ̯ n ɪ k t ə n
+einigen,V;SBJV;PL;2;PST,a ɪ̯ n ɪ ç t ə t,v ɔ l t ə t
+letzen,V;SBJV;PL;2;PRS,l ɛ t͡s ə t,l ɛ t͡s ə t
+folgen,V;SBJV;PL;2;PRS,f ɔ l ɡ ə t,f ɔ l ɡ ə n
+folgen,V;IND;PL;3;PRS,f ɔ l ɡ ə n,f ɔ l ɡ ə n
+folgen,V;IND;PL;1;PST,f ɔ l k t n̩,f ɔ l k t n̩
+folgen,V;SBJV;SG;3;PST,f ɔ l k t ə,f ɔ l k t ə
+sollen,V;IND;SG;2;PRS,z ɔ l s t,v ɪ l s t
+sollen,V;SBJV;SG;2;PRS,z ɔ l ə s t,z ɔ l ə s t
+sollen,V;SBJV;PL;2;PRS,z ɔ l ə t,l eː ɡ ə t
+sollen,V;SBJV;PL;1;PST,z ɔ l t n̩,z ɔ l t n̩
+sollen,V;IND;SG;3;PST,z ɔ l t ə,z ɔ l t ə
+sollen,V;SBJV;SG;3;PST,z ɔ l t ə,z ɔ l t ə
+durchmüssen,V;NFIN,d ʊ ʁ ç m ʏ s n̩,d ʊ ʁ ç t͡s u m ʏ s n̩
+durchmüssen,V;SBJV;SG;1;PRS,m ʏ s ə,m ʏ s ə
+durchmüssen,V;SBJV;PL;1;PRS,m ʏ s n̩,m ʏ s n̩
+durchmüssen,V;SBJV;PL;2;PRS,m ʏ s ə t,v ɔ l ə t
+durchmüssen,V;SBJV;PL;3;PRS,m ʏ s n̩,v ɔ l ə n
+durchmüssen,V;IND;SG;1;PST,m ʊ s t ə,m ʊ s t ə
+durchmüssen,V;IND;PL;2;PST,m ʊ s t ə t,m ʊ s t ə t
+durchmüssen,V;IND;PL;3;PST,m ʊ s t n̩,m ʊ s t n̩
+haben,V;IND;SG;3;PRS,h a t,m ʊ s
+haben,V;SBJV;SG;3;PRS,h aː b ə,k œ n ə
+haben,V;SBJV;PL;3;PRS,h aː b ə n,h aː b ə n
+haben,V;SBJV;SG;1;PST,h ɛ t ə,h ɛ t ə
+haben,V;SBJV;PL;2;PST,h ɛ t ə t,h ɛ t ə t
+lassen,V;NFIN,l a s n̩,l oː s t͡s u m ʏ s n̩
+lassen,V;IND;PL;2;PRS,l a s t,l a s ə t
+lassen,V;SBJV;PL;3;PRS,l a s n̩,l a s n̩
+lassen,V;IND;SG;2;PST,l iː s t,l iː s t
+lassen,V;IND;PL;2;PST,l iː s t,l iː s t
+lassen,V;IND;SG;3;PST,l iː s,l iː s
+lassen,V;IMP;SG;2,l a s,d uː
+bieten,V;NFIN,b iː t ə n,h ɪ n ʔ a ɪ̯ n v ɔ l ə n
+bieten,V;SBJV;SG;1;PRS,b iː t ə,b iː t ə
+bieten,V;SBJV;PL;2;PRS,b iː t ə t,b iː t ə t
+bieten,V;IND;SG;1;PST,b oː t,b oː t ə s t
+bieten,V;IND;PL;1;PST,b oː t n̩,b oː t ə t
+bieten,V;IND;PL;3;PST,b oː t n̩,b oː t
+bieten,V;SBJV;PL;3;PST,b øː t ə n,b øː t ə n
+bieten,V;IMP;SG;2,b iː t ə,d uː
+nehmen,V;IND;PL;1;PRS,n eː m ə n,n eː m ə n
+nehmen,V;SBJV;SG;1;PRS,n eː m ə,n eː m ə
+nehmen,V;SBJV;SG;2;PRS,n eː m ə s t,n eː m ə s t
+nehmen,V;IND;SG;1;PST,n aː m,n aː m
+nehmen,V;SBJV;SG;1;PST,n eː m ə,n eː m ə
+nehmen,V;SBJV;PL;3;PST,n eː m ə n,n eː m ə n
+nehmen,V;IMP;SG;2,n ɪ m,d uː
+legen,V;SBJV;PL;1;PRS,l eː ɡ n̩,l eː ɡ n̩
+legen,V;SBJV;SG;3;PRS,l eː ɡ ə,k œ n ə
+legen,V;IND;PL;1;PST,l eː k t n̩,l eː k t n̩
+legen,V;IND;SG;2;PST,l eː k t ə s t,l eː k t ə s t
+legen,V;IND;PL;2;PST,l eː k t ə t,l eː k t ə t
+legen,V;SBJV;PL;3;PST,l eː k t n̩,l eː k t n̩
+setzen,V;NFIN,z ɛ t͡s n̩,ʊ m h ɪ n k œ n ə n
+setzen,V;SBJV;PL;1;PRS,z ɛ t͡s n̩,z ɛ t͡s n̩
+setzen,V;IND;SG;3;PRS,z ɛ t͡s t,v ɪ l
+setzen,V;SBJV;SG;1;PST,z ɛ t͡s t ə,z ɛ t͡s t ə
+setzen,V;SBJV;PL;1;PST,z ɛ t͡s t n̩,z ɛ t͡s t ə n
+setzen,V;IND;PL;2;PST,z ɛ t͡s t ə t,z ɛ t͡s t ə t
+setzen,V;SBJV;PL;3;PST,z ɛ t͡s t n̩,z ɛ t͡s t n̩
+setzen,V;IMP;SG;2,z ɛ t͡s,d uː
+erwarten,V;NFIN,ɛ ɐ̯ v a ʁ t n̩,ʊ m h ɪ n k œ n ə n
+erwarten,V;IND;PL;1;PRS,ɛ ɐ̯ v a ʁ t n̩,ɛ ɐ̯ v a ʁ t n̩
+erwarten,V;SBJV;SG;2;PST,ɛ ɐ̯ v a ʁ t ə t ə s t,ɛ ɐ̯ v a ʁ t ə t ə s t
+erwarten,V;IND;PL;3;PST,ɛ ɐ̯ v a ʁ t ə t ə n,ɛ ɐ̯ v a ʁ t ə t ə n
+erwarten,V;SBJV;PL;3;PST,ɛ ɐ̯ v a ʁ t ə t ə n,ɛ ɐ̯ v a ʁ t ə t ə n
+entscheiden,V;IND;SG;1;PRS,ɛ n t ʃ a ɪ̯ d ə,ɛ n t ʃ a ɪ̯ d ə
+entscheiden,V;IND;PL;3;PRS,ɛ n t ʃ a ɪ̯ d n̩,ɛ n t ʃ a ɪ̯ d n̩
+entscheiden,V;IND;PL;1;PST,ɛ n t ʃ iː d n̩,ɛ n t ʃ iː d ə t
+entscheiden,V;SBJV;SG;2;PST,ɛ n t ʃ iː d ə s t,ɛ n t ʃ iː d ə s t
+entscheiden,V;SBJV;PL;2;PST,ɛ n t ʃ iː d ə t,ɛ n t ʃ iː d ə t
+entscheiden,V;IND;PL;3;PST,ɛ n t ʃ iː d n̩,ɛ n t ʃ iː d ə t
+stellen,V;IND;PL;1;PRS,ʃ t ɛ l ə n,ʃ t ɛ l ə n
+stellen,V;IND;SG;2;PRS,ʃ t ɛ l s t,ʃ t ɛ l t
+stellen,V;SBJV;SG;2;PRS,ʃ t ɛ l ə s t,k œ n ə s t
+stellen,V;SBJV;PL;3;PRS,ʃ t ɛ l ə n,ʃ t ɛ l ə n
+stellen,V;SBJV;SG;2;PST,ʃ t ɛ l t ə s t,ʃ t ɛ l t ə s t
+stellen,V;IMP;SG;2,ʃ t ɛ l ə,ʃ t ɛ l
+beginnen,V;SBJV;PL;2;PRS,b ə ɡ ɪ n ə t,b ə ɡ ɪ n ə t
+beginnen,V;SBJV;SG;3;PRS,b ə ɡ ɪ n ə,b ə ɡ ɪ n ə
+beginnen,V;SBJV;SG;1;PST,b ə ɡ ɛ n ə,b ə ɡ œ n ə
+beginnen,V;SBJV;SG;2;PST,b ə ɡ œ n ə s t,b ə ɡ ɛ n ə s t
+beginnen,V;IMP;SG;2,b ə ɡ ɪ n,d uː
+müssen,V;NFIN,m ʏ s n̩,v ɛ k v ɔ l ə n
+müssen,V;IND;SG;3;PRS,m ʊ s,v ɪ l
+müssen,V;IND;PL;3;PRS,m ʏ s n̩,m ʏ s n̩
+müssen,V;SBJV;SG;3;PRS,m ʏ s ə,m ʏ s ə
+müssen,V;IND;SG;2;PST,m ʊ s t ə s t,m ʊ s t ə s t
+müssen,V;IMP;SG;2,d uː,d uː
+sagen,V;NFIN,z aː ɡ n̩,a p k œ n ə n
+sagen,V;SBJV;SG;3;PRS,z aː ɡ ə,z aː ɡ ə
+steigen,V;IND;PL;1;PRS,ʃ t a ɪ̯ ɡ n̩,ʃ t a ɪ̯ ɡ n̩
+steigen,V;IND;PL;1;PST,ʃ t iː ɡ ə n,ʃ t iː k t
+steigen,V;IND;SG;3;PST,ʃ t iː k,ʃ t a ɪ̯ k t ə
+fasen,V;NFIN,f aː z n̩,h ɪ n ʔ a ɪ̯ n v ɔ l ə n
+fasen,V;IND;SG;1;PRS,f aː z ə,f a s t
+fasen,V;SBJV;PL;2;PRS,f a z ɛ t,f aː z n̩
+fasen,V;IND;PL;3;PRS,f aː z n̩,f aː z n̩
+fasen,V;IND;PL;2;PST,f a s t ə t,f a s t ə t
+fasen,V;SBJV;PL;2;PST,f a s t ə t,f a s t ə t
+fasen,V;IND;PL;3;PST,f a s t n̩,f a s t n̩
+fasen,V;IMP;PL;2,f a s t,iː ɐ̯
+zurückwollen,V;NFIN,t͡s u ʁ ʏ k v ɔ l ə n,t͡s u ʁ ʏ k t͡s uː v ɔ l ə n
+zurückwollen,V;IND;PL;1;PRS,v ɔ l ə n,v ɔ l ə n
+zurückwollen,V;SBJV;SG;1;PRS,v ɔ l ə,v ɔ l ə
+zurückwollen,V;SBJV;PL;1;PRS,v ɔ l ə n,v ɔ l ə n
+zurückwollen,V;SBJV;PL;2;PRS,v ɔ l ə t,v ɔ l ə t
+zurückwollen,V;SBJV;PL;1;PST,v ɔ l t n̩,m ʏ s t n̩
+zurückwollen,V;IND;SG;3;PST,v ɔ l t ə,k ɔ n t ə
+zurückwollen,V;SBJV;SG;3;PST,v ɔ l t ə,v ɔ l t ə
+erhalten,V;IND;SG;1;PRS,ɛ ɐ̯ h a l t ə,ɛ ɐ̯ h a l t ə
+erhalten,V;SBJV;SG;2;PRS,ɛ ɐ̯ h a l t ə s t,ɛ ɐ̯ h a l t ə s t
+erhalten,V;SBJV;SG;2;PST,ɛ ɐ̯ h iː l t ə s t,ɛ ɐ̯ h iː l t ə s t
+erhalten,V;IND;PL;3;PST,ɛ ɐ̯ h iː l t n̩,ɛ ɐ̯ h iː l t n̩
+erreichen,V;IND;SG;2;PRS,ɛ ɐ̯ ʁ a ɪ̯ ç s t,ɛ ɐ̯ ʁ a ɪ̯ ç t
+erreichen,V;IND;PL;3;PRS,ɛ ɐ̯ ʁ a ɪ̯ ç n̩,ɛ ɐ̯ ʁ a ɪ̯ ç t
+erreichen,V;SBJV;PL;3;PRS,ɛ ɐ̯ ʁ a ɪ̯ ç n̩,ɛ ɐ̯ ʁ a ɪ̯ ç ə t
+erreichen,V;SBJV;SG;1;PST,ɛ ɐ̯ ʁ a ɪ̯ ç t ə,ɛ ɐ̯ ʁ a ɪ̯ ç t ə
+erreichen,V;SBJV;SG;2;PST,ɛ ɐ̯ ʁ a ɪ̯ ç t ə s t,ɛ ɐ̯ ʁ a ɪ̯ ç t ə s t
+erreichen,V;SBJV;PL;3;PST,ɛ ɐ̯ ʁ a ɪ̯ ç t n̩,ɛ ɐ̯ ʁ a ɪ̯ ç t n̩
+können,V;NFIN,k œ n ə n,h ɪ n ʔ a ɪ̯ n v ɔ l ə n
+können,V;IND;SG;1;PRS,k a n,m ʊ s
+können,V;IND;SG;3;PRS,k a n,k a n
+können,V;IND;SG;1;PST,k ɔ n t ə,k ɔ n t ə
+können,V;IND;SG;2;PST,k ɔ n t ə s t,k ɔ n t ə s t
+können,V;SBJV;SG;2;PST,k œ n t ə s t,k œ n t ə s t
+können,V;IND;PL;3;PST,k ɔ n t ə n,k ɔ n t ə n
+können,V;IMP;SG;2,d uː,d uː
+leben,V;SBJV;SG;1;PST,l eː p t ə,l eː p t ə
+leben,V;IND;PL;2;PST,l eː p t ə t,l eː p t ə t
+leben,V;IND;PL;3;PST,l eː p t ə n,l eː p t ə n
+leben,V;IMP;PL;2,l eː p t,iː ɐ̯
+dürfen,V;IND;PL;1;PRS,d ʏ ʁ f ə n,d ʏ ʁ f ə n
+dürfen,V;IND;SG;2;PST,d ʊ ʁ f t ə s t,d ʊ ʁ f t ə
+dürfen,V;SBJV;SG;2;PST,d ʏ ʁ f t ə s t,d ʏ ʁ f t ə s t
+dürfen,V;SBJV;SG;3;PST,d ʏ ʁ f t ə,d ʏ ʁ f t ə
+dürfen,V;IMP;SG;2,d uː,f yː ɐ̯
+dürfen,V;IMP;PL;2,iː ɐ̯,iː ɐ̯
+abkönnen,V;IND;SG;1;PRS,k a n,k a n
+abkönnen,V;SBJV;SG;1;PRS,k œ n ə,k œ n ə
+abkönnen,V;SBJV;PL;3;PRS,k œ n ə n,k œ n ə n
+abkönnen,V;SBJV;SG;1;PST,k œ n t ə,k œ n t ə
+abkönnen,V;SBJV;SG;2;PST,k œ n t ə s t,k œ n t ə s t
+abkönnen,V;SBJV;PL;3;PST,k œ n t ə n,k œ n t ə n
+abkönnen,V;IMP;SG;2,d uː,d uː
+bestätigen,V;SBJV;PL;3;PRS,b ə ʃ t eː t ɪ ɡ n̩,b ə ʃ t eː t ɪ ɡ n̩
+bestätigen,V;IND;SG;3;PST,b ə ʃ t eː t ɪ k t ə,b ə ʃ t ɛː t ɪ k t ə
+bestätigen,V;IND;PL;3;PST,b ə ʃ t eː t ɪ ç t n̩,b ə ʃ t ɛː t ɪ k t ə n
+bestätigen,V;IMP;PL;2,b ə ʃ t eː t ɪ k t,iː ɐ̯
+unterstützen,V;IND;PL;1;PST,ʊ n t ɐ ʃ t ʏ t͡s t ə n,ʊ n t ɐ ʃ t ʏ t͡s t ə n
+erfolgen,V;SBJV;SG;1;PRS,ɛ ɐ̯ f ɔ l ɡ ə,ɛ ɐ̯ f ɔ l ɡ ə
+erfolgen,V;IND;PL;2;PRS,ɛ ɐ̯ f ɔ l k t,ɛ ɐ̯ f ɔ l k t
+erfolgen,V;SBJV;SG;2;PRS,ɛ ɐ̯ f ɔ l ɡ ə s t,v ɔ l ə s t
+erfolgen,V;SBJV;SG;3;PRS,ɛ ɐ̯ f ɔ l ɡ ə,ɛ ɐ̯ f ɔ l ɡ ə
+erfolgen,V;SBJV;PL;1;PST,ɛ ɐ̯ f ɔ l k t ə n,ɛ ɐ̯ f ɔ l k t ə n
+erfolgen,V;IND;SG;2;PST,ɛ ɐ̯ f ɔ l k t ə s t,ɛ ɐ̯ f ɔ l k t ə s t
+befinden,V;IND;SG;1;PRS,b ə f ɪ n d ə,b ə f ɪ n d ə
+befinden,V;SBJV;PL;1;PRS,b ə f ɪ n d ə n,b ə f ɪ n d ə n
+befinden,V;SBJV;PL;2;PRS,b ə f ɪ n d ə t,b ə f ɪ n d ə t
+befinden,V;IND;SG;3;PRS,b ə f ɪ n d ə t,b ə f ɪ n d ə
+befinden,V;SBJV;SG;3;PST,b ə f ɛ n d ə,b ə f ɛ n d ə
+fordern,V;IND;SG;1;PRS,f ɔ ʁ d ʁ ə,f ɔ ʁ d ɐ
+fordern,V;SBJV;SG;1;PRS,f ɔ ʁ d ə ʁ ə,f ɔ ʁ d ə ʁ ə
+fordern,V;IND;SG;2;PRS,f ɔ ʁ d ɐ s t,f ɔ ʁ d ɐ t
+fordern,V;SBJV;SG;2;PRS,f ɔ ʁ t ʁ ɛ s t,f ɔ ʁ d ə ʁ ə s t
+fordern,V;SBJV;PL;1;PST,f ɔ ʁ d ɐ t n̩,f ɔ ʁ d ɐ t n̩
+fordern,V;IND;SG;2;PST,f ɔ ʁ d ɐ t ə s t,f ɔ ʁ d ɐ t ə s t
+fordern,V;IMP;SG;2,f ɔ ʁ d ə ʁ ə,d uː
+fordern,V;IMP;SG;2,f ɔ ʁ d ɐ,d uː
+helfen,V;IND;SG;1;PRS,h ɛ l f ə,v ɪ l
+helfen,V;SBJV;SG;1;PRS,h ɛ l f ə,h ɛ l f ə
+helfen,V;IND;SG;2;PRS,h ɪ l f s t,h ɪ l f t
+helfen,V;IND;PL;2;PRS,h ɛ l f t,h ɛ l f t
+helfen,V;IND;PL;3;PRS,h ɛ l f n̩,h ɛ l f ə n
+helfen,V;IND;SG;2;PST,h a l f s t,h a l f
+sorgen,V;IND;SG;2;PRS,z ɔ ʁ k s t,z ɔ ʁ k t
+sorgen,V;IND;SG;3;PST,z ɔ ʁ k t ə,z ɔ ʁ k t ə
+sorgen,V;IMP;SG;2,z ɔ ʁ ɡ ə,z ɔ ʁ k
+hineinwollen,V;IND;PL;2;PRS,v ɔ l t,v ɪ l s t
+hineinwollen,V;IND;PL;3;PRS,v ɔ l ə n,v ɔ l ə n
+hineinwollen,V;IND;SG;1;PST,v ɔ l t ə,v ɔ l t ə
+hineinwollen,V;IND;PL;1;PST,v ɔ l t n̩,b ʁ a x t ə n
+hineinwollen,V;IND;PL;3;PST,v ɔ l t n̩,v ɔ l t n̩
+hineinwollen,V;IMP;SG;2,d uː,d uː
+heißen,V;SBJV;PL;1;PRS,h a ɪ̯ s n̩,h a ɪ̯ s ə t
+heißen,V;SBJV;PL;3;PRS,h a ɪ̯ s n̩,h a ɪ̯ s n̩
+heißen,V;SBJV;SG;1;PST,h iː s ə,h iː s ə
+heißen,V;SBJV;SG;2;PST,h iː s ə s t,h iː s ə s t
+heißen,V;IND;PL;3;PST,h iː s n̩,h iː s n̩
+machen,V;SBJV;SG;2;PRS,m a x ə s t,m a x ə
+machen,V;IND;SG;2;PST,m a x t ə s t,m a x t ə s t
+machen,V;IMP;SG;2,m a x ə,m a x
+ziehen,V;SBJV;SG;1;PRS,t͡s iː ə,m ʏ s ə
+ziehen,V;SBJV;PL;1;PRS,t͡s iː ə n,t͡s iː ə t
+ziehen,V;SBJV;SG;3;PRS,t͡s iː ə,t͡s iː ə s t
+ziehen,V;SBJV;PL;1;PST,t͡s øː ɡ ə n,k eː m ə n
+ziehen,V;SBJV;SG;2;PST,t͡s øː ɡ ə s t,m ʏ s t ə s t
+bleiben,V;NFIN,b l a ɪ̯ b n̩,a p k œ n ə n
+bleiben,V;IND;PL;1;PRS,b l a ɪ̯ b n̩,b l a ɪ̯ b n̩
+bleiben,V;IND;SG;2;PRS,b l a ɪ̯ p s t,b l a ɪ̯ b ə
+bleiben,V;IND;PL;2;PRS,b l a ɪ̯ p t,b l a ɪ̯ p t
+bleiben,V;SBJV;SG;2;PRS,b l a ɪ̯ b ə s t,k œ n ə s t
+bleiben,V;IND;PL;1;PST,b l iː b ə n,b l iː b ə n
+bleiben,V;IMP;SG;2,b l a ɪ̯ p,d uː
+wegwollen,V;IND;SG;1;PRS,v ɪ l,m ʊ s
+wegwollen,V;SBJV;PL;1;PRS,v ɔ l ə n,v ɔ l ə n
+wegwollen,V;SBJV;SG;3;PRS,v ɔ l ə,v ɔ l ə
+wegwollen,V;IND;PL;1;PST,v ɔ l t n̩,v ɔ l t n̩
+wegwollen,V;SBJV;PL;2;PST,v ɔ l t ə t,v ɔ l t ə t
+sehen,V;IND;PL;1;PRS,z eː ə n,z eː ə n
+sehen,V;SBJV;SG;1;PRS,z eː ə,z eː ə
+sehen,V;IND;PL;3;PRS,z eː ə n,z eː ə n
+sehen,V;IND;PL;1;PST,z aː ə n,k ɔ n t ə n
+sehen,V;SBJV;PL;1;PST,z eː ə n,k œ n t ə n
+sehen,V;SBJV;SG;2;PST,z eː ə s t,m ʏ s t ə s t
+sehen,V;SBJV;PL;2;PST,z eː ə t,z eː ə t
+gelten,V;IND;SG;2;PRS,ɡ ɪ l t͡s t,v ɪ l s t
+gelten,V;IND;PL;2;PRS,ɡ ɛ l t ə t,ɡ ɛ l t
+gelten,V;IND;SG;1;PST,ɡ a l t,ɡ a l t ə
+gelten,V;SBJV;PL;1;PST,ɡ ɛ l t n̩,ɡ œ l t n̩
+gelten,V;IMP;PL;2,ɡ ɛ l t ə t,iː ɐ̯
+kommen,V;SBJV;SG;1;PRS,k ɔ m ə,k ɔ m ə
+kommen,V;IND;SG;3;PRS,k ɔ m t,k ɔ m ə
+kommen,V;IND;PL;2;PST,k a m t,k aː m ə n
+kommen,V;SBJV;SG;2;PST,k eː m ə s t,k eː m ə s t
+kommen,V;IND;SG;3;PST,k a m,k aː m s t
+kommen,V;SBJV;PL;3;PST,k eː m ə n,m ʏ s t n̩
+kommen,V;IMP;SG;2,k ɔ m,l ɛ t͡s
+gehören,V;NFIN,ɡ ə h øː ʁ ə n,ʊ m h ɪ n k œ n ə n
+gehören,V;IND;SG;1;PRS,ɡ ə h øː ʁ ə,ɡ ə h øː ʁ ə
+gehören,V;IND;SG;3;PRS,ɡ ə h øː ɐ̯ t,v ɪ l
+gehören,V;SBJV;PL;1;PST,ɡ ə h øː ɐ̯ t n̩,ɡ ə h øː ɐ̯ t n̩
+gehören,V;SBJV;SG;2;PST,ɡ ə h øː ɐ̯ t ə s t,ɡ ə h øː ɐ̯ t ə s t
+gehören,V;IND;PL;3;PST,ɡ ə h øː ɐ̯ t n̩,ɡ ə h øː ɐ̯ t n̩
+gehören,V;IMP;SG;2,ɡ ə h øː ɐ̯,z ɛ t͡s
+brauchen,V;IND;PL;2;PRS,b ʁ a ʊ̯ x t,b ʁ a ʊ̯ x t
+brauchen,V;SBJV;SG;1;PST,b ʁ a ʊ̯ x t ə,b ʁ ɔ ɪ̯ ç t ə
+brauchen,V;IND;SG;2;PST,b ʁ a ʊ̯ x t ə s t,b ʁ a ʊ̯ x t ə s t
+brauchen,V;SBJV;SG;3;PST,b ʁ a ʊ̯ x t ə,b ʁ ɔ ɪ̯ ç t ə
+brauchen,V;IMP;PL;2,b ʁ a ʊ̯ x t,iː ɐ̯
+brauchen,V;IND;SG;1;PRS,b ʁ a ʊ̯ x ə,b ʁ a ʊ̯ x ə
+brauchen,V;SBJV;SG;2;PRS,b ʁ a ʊ̯ x ə s t,b ʁ a ʊ̯ x ə s t
+brauchen,V;IND;SG;3;PRS,b ʁ a ʊ̯ x t,k a n
+brauchen,V;IND;PL;3;PRS,b ʁ a ʊ̯ x ə n,b ʁ a ʊ̯ x t
+brauchen,V;IND;PL;2;PST,b ʁ a ʊ̯ x t ə t,b ʁ a ʊ̯ x t ə t
+brauchen,V;SBJV;PL;2;PST,b ʁ ɔ ɪ̯ ç t ə t,b ʁ ɔ ɪ̯ ç t ə t
+brauchen,V;SBJV;SG;3;PST,b ʁ ɔ ɪ̯ ç t ə,b ʁ ɔ ɪ̯ ç t ə
+umhinkönnen,V;NFIN;LGSPEC01,ʊ m h ɪ n t͡s uː k œ n ə n,ʊ m h ɪ n k œ n ə n
+umhinkönnen,V;IND;SG;1;PRS,k a n,k a n
+umhinkönnen,V;IND;PL;2;PRS,k œ n t,k a n s t
+umhinkönnen,V;IND;SG;1;PST,k ɔ n t ə,k ɔ n t ə
+umhinkönnen,V;SBJV;SG;1;PST,k œ n t ə,k œ n t ə
+umhinkönnen,V;SBJV;PL;2;PST,k œ n t ə t,k œ n t ə t
+umhinkönnen,V;SBJV;SG;3;PST,k œ n t ə,k œ n t ə
+suchen,V;IND;SG;1;PST,z uː x t ə,z ʊ x t ə
+suchen,V;IND;PL;1;PST,z uː x t n̩,z uː x t n̩
+betragen,V;NFIN,b ə t ʁ aː ɡ ə n,ʊ m h ɪ n k œ n ə n
+betragen,V;SBJV;SG;3;PST,b ə t ʁ yː ɡ ə,b ə t ʁ yː ɡ ə
+wollen,V;IND;PL;1;PRS,v ɔ l ə n,v ɔ l ə n
+wollen,V;IND;SG;2;PRS,v ɪ l s t,v ɪ l s t
+wollen,V;IND;PL;2;PRS,v ɔ l t,v ɔ l t
+wollen,V;SBJV;SG;3;PRS,v ɔ l ə,v ɔ l ə
+wollen,V;SBJV;PL;2;PST,v ɔ l t ə t,v ɔ l t ə t
+fehlen,V;IND;SG;1;PRS,f eː l ə,m ʊ s
+fehlen,V;SBJV;SG;1;PRS,f eː l ə,f eː l ə
+fehlen,V;IND;PL;2;PRS,f eː l t,f eː l t
+fehlen,V;IND;PL;3;PST,f eː l t n̩,k ɔ n t ə n
+mehren,V;IND;PL;1;PRS,m eː ʁ ə n,m eː ʁ ə n
+mehren,V;IND;PL;3;PRS,m eː ʁ ə n,m eː ɐ̯ t
+mehren,V;IMP;SG;2,m eː ɐ̯,d uː
+spielen,V;NFIN,ʃ p iː l ə n,v oː l v ɔ l ə n
+spielen,V;IND;PL;1;PRS,ʃ p iː l ə n,ʃ p iː l ə n
+spielen,V;SBJV;SG;3;PRS,ʃ p iː l ə,ʃ p iː l ə
+spielen,V;IND;PL;1;PST,ʃ p iː l t n̩,ʃ p iː l t n̩
+spielen,V;IND;PL;2;PST,ʃ p iː l t ə t,v ɔ l t ə t
+spielen,V;IMP;SG;2,ʃ p iː l,d uː
+kosten,V;IND;SG;1;PRS,k ɔ s t ə,k ɔ s t ə
+kosten,V;IND;SG;2;PRS,k oː s t ə s t,k ɔ s t ə s t
+kosten,V;IND;PL;1;PST,k ɔ s t ə t ə n,k ɔ s t ə t ə n
+kosten,V;IND;SG;2;PST,k ɔ s t ə t ə s t,k ɔ s t ə t ə s t
+kosten,V;SBJV;PL;2;PST,k ɔ s t eː t ə t,k ɔ s t ə t ə t
+kosten,V;IND;SG;2;PRS,k oː s t ə s t,k ɔ s t ə s t
+kosten,V;SBJV;PL;1;PST,k ɔ s t ə t ə n,k oː s t ə t ə n
+kosten,V;IND;SG;2;PST,k ɔ s t ə t ə s t,k ɔ s t eː t ə
+kosten,V;SBJV;SG;3;PST,k ɔ s t ə t ə,k oː s t ə t ə
+kosten,V;SBJV;PL;3;PST,k ɔ s t ə t ə n,k ɔ s t ə t ə n
+laufen,V;IND;SG;1;PRS,l a ʊ̯ f ə,l a ʊ̯ f ə
+laufen,V;SBJV;PL;2;PRS,l a ʊ̯ f ə t,l a ʊ̯ f ə t
+laufen,V;IND;SG;3;PRS,l ɔ ʏ̯ f t,v ɪ l
+laufen,V;SBJV;PL;2;PST,l iː f ə t,m ʏ s t ə t
+laufen,V;IND;PL;3;PST,l iː f ə n,k ɔ n t ə n
+laufen,V;IMP;SG;2,l a ʊ̯ f,d uː
+laufen,V;IMP;PL;2,l a ʊ̯ f t,iː ɐ̯
+bilden,V;IND;PL;1;PRS,b ɪ l d n̩,b ɪ l d n̩
+bilden,V;SBJV;PL;3;PRS,b ɪ l d n̩,b ɪ l d n̩
+bilden,V;IND;PL;1;PST,b ɪ l d ə t ə n,b ɪ l d ə t ə n
+bilden,V;IND;PL;3;PST,b ɪ l d ə t ə n,b ɪ l d ə t ə t
+bilden,V;SBJV;SG;3;PST,b ɪ l d ə t ə,b ɪ l d ə t ə
+bilden,V;SBJV;PL;3;PST,b ɪ l d ə t ə n,b ɪ l d ə t ə n
+ankönnen,V;NFIN,a n k œ n ə n,v oː l v ɔ l ə n
+ankönnen,V;NFIN;LGSPEC01,a n t͡s uː k œ n ə n,h ɪ n a ʊ̯ f t͡s uː v ɔ l ə n
+ankönnen,V;SBJV;SG;1;PRS,k œ n ə,ɡ ə h øː ʁ ə
+ankönnen,V;IND;SG;2;PRS,k a n s t,m ʊ s t
+ankönnen,V;IND;SG;3;PRS,k a n,k a n
+ankönnen,V;SBJV;SG;3;PRS,k œ n ə,k œ n ə
+ankönnen,V;SBJV;PL;1;PST,k œ n t ə n,k œ n t ə n
+hinaufwollen,V;NFIN,h ɪ n a ʊ̯ f v ɔ l ə n,h ɪ n a ʊ̯ f t͡s uː v ɔ l ə n
+hinaufwollen,V;SBJV;PL;2;PRS,v ɔ l ə t,k œ n ə t
+hinaufwollen,V;SBJV;PL;1;PST,v ɔ l t n̩,m ʏ s t n̩
+hinaufwollen,V;IND;PL;2;PST,v ɔ l t ə t,v ɔ l t ə t
+werden,V;IND;SG;1;PRS,v eː ɐ̯ t,v eː ɐ̯ d ə
+werden,V;IND;PL;1;PRS,v eː ɐ̯ d n̩,k œ n ə n
+werden,V;SBJV;PL;1;PRS,v eː ɐ̯ d n̩,v eː ɐ̯ d n̩
+werden,V;IND;PL;2;PRS,v eː ɐ̯ d ə t,v eː ɐ̯ d ə t
+werden,V;SBJV;PL;2;PRS,v eː ɐ̯ d ə t,k œ n ə t
+werden,V;IND;SG;3;PRS,v ɪ ʁ t,v ɪ l
+werden,V;IND;PL;1;PST,v ʊ ʁ d n̩,v ʊ ʁ d n̩
+werden,V;SBJV;SG;1;PST,v ʏ ʁ d ə,v ʏ ʁ d ə
+werden,V;SBJV;PL;1;PST,v ʏ ʁ d n̩,b ʁ ɛ ç t ə n
+werden,V;IND;SG;2;PST,v ʊ ʁ d ə s t,v a ʁ d ə s t
+werden,V;SBJV;PL;2;PST,v ʏ ʁ d ə t,v ʏ ʁ d ə t
+werden,V;SBJV;PL;3;PST,v ʏ ʁ d n̩,v ʏ ʁ d ə t
+bestimmen,V;IND;PL;2;PRS,b ə ʃ t ɪ m t,b ə ʃ t ɪ m ə n
+bestimmen,V;SBJV;PL;3;PRS,b ə ʃ t ɪ m ə n,b ə ʃ t ɪ m ə n
+bestimmen,V;IND;PL;1;PST,b ə ʃ t ɪ m t n̩,b ə ʃ t ɪ m t n̩
+bestimmen,V;IND;PL;2;PST,b ə ʃ t ɪ m t ə t,b ə ʃ t ɪ m t ə t
+liegen,V;NFIN,l iː ɡ ə n,l oː s m ʏ s n̩
+liegen,V;IND;SG;1;PRS,l iː ɡ ə,l iː ɡ ə
+liegen,V;SBJV;PL;2;PRS,l iː ɡ ə t,l iː ɡ ə t
+liegen,V;IND;SG;2;PST,l aː k s t,l aː k
+liegen,V;SBJV;SG;2;PST,l eː ɡ ə s t,k œ n t ə s t
+liegen,V;SBJV;PL;2;PST,l eː ɡ ə t,h ʏ l f ə t
+sprechen,V;SBJV;SG;3;PRS,ʃ p ʁ ɛ ç ə,v ɔ l ə
+sprechen,V;IND;SG;1;PST,ʃ p ʁ aː χ,m ʊ s t ə
+sprechen,V;IND;PL;1;PST,ʃ p ʁ aː x n̩,ʃ p ʁ aː x t
+sprechen,V;SBJV;SG;1;PST,ʃ p ʁ ɛː ç ə,ʃ p ʁ ɛː ç ə
+sprechen,V;SBJV;PL;1;PST,ʃ p ʁ ɛː ç ə n,ʃ p ʁ ɛ ç t ə n
+sprechen,V;IND;SG;3;PST,ʃ p ʁ aː χ,k ɔ n t ə
+sprechen,V;IND;PL;3;PST,ʃ p ʁ aː x n̩,ʃ p ʁ ɪ ç t ə n
+bitten,V;NFIN,b ɪ t n̩,ʊ m h ɪ n k œ n ə n
+bitten,V;SBJV;SG;2;PRS,b ɪ t ə s t,b ɪ t ə s t
+bitten,V;IND;PL;3;PRS,b ɪ t n̩,b ɪ t n̩
+bitten,V;SBJV;PL;3;PST,b eː t n̩,b eː t ə t
+meinen,V;IND;PL;1;PST,m a ɪ̯ n t n̩,m a ɪ̯ n t n̩
+meinen,V;IND;SG;2;PST,m a ɪ̯ n t ə s t,m a ɪ̯ n t ə s t
+meinen,V;IND;PL;2;PST,m a ɪ̯ n t ə t,m a ɪ̯ n t ə t
+meinen,V;IMP;SG;2,m a ɪ̯ n,d uː
+heuen,V;IND;SG;2;PRS,h ɔ ɪ̯ s t,h ɔ ɪ̯ t
+heuen,V;SBJV;SG;3;PRS,h ɔ ʏ̯ ə,m ʏ s ə
+heuen,V;IND;PL;2;PST,h ɔ ʏ̯ t ə t,h ɔ ʏ̯ t ə t
+heuen,V;SBJV;SG;2;PST,h ɔ ɪ̯ t ə s t,k œ n t ə s t
+heuen,V;IND;PL;3;PST,h ɔ ʏ̯ t n̩,k ɔ n t ə n
+schonen,V;SBJV;SG;2;PRS,ʃ oː n ə s t,ʃ oː n ə s t
+schonen,V;SBJV;SG;3;PST,ʃ oː n t ə,ʃ oː n t ə
+fallen,V;NFIN,f a l ə n,a p k œ n ə n
+fallen,V;IND;PL;1;PRS,f a l ə n,f a l ə n
+fallen,V;SBJV;SG;1;PRS,f a l ə,f a l ə
+fallen,V;SBJV;SG;2;PST,f iː l ə s t,f iː l ə s t
+bekommen,V;IND;SG;2;PRS,b ə k ɔ m s t,b ə k ɔ m ə s t
+bekommen,V;SBJV;PL;3;PRS,b ə k ɔ m ə n,b ə k ɔ m ə n
+bekommen,V;IND;PL;3;PST,b ə k aː m ə n,b ə k aː m ə n
+teilen,V;SBJV;SG;1;PRS,t a ɪ̯ l ə,t a ɪ̯ l ə
+teilen,V;IND;PL;3;PRS,t a ɪ̯ l ə n,t a ɪ̯ l ə n
+teilen,V;SBJV;PL;3;PRS,t a ɪ̯ l ə n,t a ɪ̯ l ə n
+teilen,V;IND;SG;1;PST,t a ɪ̯ l t ə,t a ɪ̯ l t ə
+teilen,V;IND;PL;3;PST,t a ɪ̯ l t n̩,t a ɪ̯ l t n̩
+teilen,V;SBJV;SG;3;PST,t a ɪ̯ l t ə,t a ɪ̯ l t ə
+verletzen,V;SBJV;PL;1;PRS,f ɛ ɐ̯ l ɛ t͡s n̩,f ɛ ɐ̯ l ɛ t͡s n̩
+verletzen,V;IND;SG;2;PRS,f ɛ ɐ̯ l ɛ t͡s t,f ɛ ɐ̯ l ɛ t͡s t
+verletzen,V;IND;SG;1;PST,f ɛ ɐ̯ l ɛ t͡s t ə,f ɛ ɐ̯ l ɛ t͡s t ə
+verletzen,V;SBJV;PL;1;PST,f ɛ ɐ̯ l ɛ t͡s t ə n,f ɛ ɐ̯ l ɛ t͡s t ə n
+verletzen,V;IND;PL;3;PST,f ɛ ɐ̯ l ɛ t͡s t ə n,f ɛ ɐ̯ l ɛ t͡s t ə n
+verletzen,V;SBJV;PL;3;PST,f ɛ ɐ̯ l ɛ t͡s t ə n,f ɛ ɐ̯ l ɛ t͡s t ə n
+verletzen,V;IMP;SG;2,f ɛ ɐ̯ l ɛ t͡s,d uː
+verletzen,V;IMP;SG;2,f ɛ ɐ̯ l ɛ t͡s ə,d uː
+bringen,V;IND;SG;1;PRS,b ʁ ɪ ŋ ə,b ʁ ɪ ŋ
+bringen,V;SBJV;SG;1;PRS,b ʁ ɪ ŋ ə,b ʁ ɪ ŋ ə
+bringen,V;IND;SG;2;PRS,b ʁ ɪ ŋ s t,k a n s t
+bringen,V;IND;SG;2;PST,b ʁ a x t ə s t,b ʁ a x t ə s t
+bringen,V;IND;SG;3;PST,b ʁ a x t ə,b ʁ a x t ə
+bringen,V;SBJV;SG;3;PST,b ʁ ɛ ç t ə,b ʁ ɛ ç t ə
+bringen,V;IMP;SG;2,b ʁ ɪ ŋ ə,b ʁ ɪ ŋ
+langen,V;NFIN,l a ŋ ə n,l oː s m ʏ s n̩
+langen,V;SBJV;SG;1;PRS,l a ŋ ə,l a ŋ ə
+langen,V;SBJV;PL;1;PRS,l a ŋ ə n,l a ŋ ə n
+langen,V;IND;SG;3;PRS,l a ŋ t,l a ŋ ə
+langen,V;SBJV;PL;3;PRS,l a ŋ ə n,l a ŋ ə n
+langen,V;IND;SG;1;PST,l a ŋ t ə,l a ŋ t ə
+langen,V;SBJV;SG;1;PST,l a ŋ t ə,l a ŋ t ə
+langen,V;IND;SG;2;PST,l a ŋ t ə s t,l a ŋ t ə s t
+langen,V;IND;SG;3;PST,l a ŋ t ə,l a ŋ t ə
+langen,V;IMP;PL;2,l a ŋ t,l a ŋ
+wohlwollen,V;SBJV;SG;1;PRS,v ɔ l ə,v ɔ l ə
+wohlwollen,V;IND;SG;1;PST,v ɔ l t ə,v ɔ l t ə
+wohlwollen,V;IND;SG;2;PST,v ɔ l t ə s t,k ɔ n t ə s t
+wohlwollen,V;IND;SG;3;PST,v ɔ l t ə,k ɔ n t ə
+wohlwollen,V;IMP;SG;2,d uː,d uː

@@ -1,0 +1,332 @@
+lemma,paradigm_slot,target,prediction
+neiyé,V;REAL;IPFV/PROG;1;SG,n ɑ́ː ʃʰ ɛ́,n ɪ̀ ʃ ʔ ɪ̀ː h
+neiyé,V;REAL;IPFV/PROG;2;SG,n ɑ̀ n ɪ̀ j ɛ́,ɪ̀ t͡ʃʰ ɪ̀ ʔ
+neiyé,V;REAL;PROSP;1;DU/PL,ⁿd ìː k éː ɬ,n ɪ̀ t ìː k éː ɬ
+neiyé,V;REAL;PROSP;2;DU/PL,ⁿt òː hʼ éː ɬ,t òː h ʔ ɑ́ː ɬ
+neiyé,V;REAL;PFV/PRF;2;SG,n ɪ̀ s ɪ̀ n ɪ́ j ĩ́,n ɪ̀ n ɪ́ j ɑ́
+neiyé,V;REAL;PROSP;4;SG/DU/PL,n ɪ̀ ʒ t òː j éː ɬ,n ɪ̀ ʒ t òː j éː ɬ
+nineez,V;REAL;PFV/PRF;1;DU/PL,n ìː ʔ n èː z,n ìː t ɪ̀ n èː z
+nineez,V;REAL;PFV/PRF;2;DU/PL,n ò x n èː z,t ɪ̀ n ɪ́ː ʔ n èː z
+adlą́,V;REAL;PROSP;1;SG,ʔ ɑ̀ t èː ʃ t l ĩ́ː ɬ,ʔ ɑ̀ t ìː t l ĩ́ː ɬ
+adlą́,V;REAL;PROSP;2;SG,ʔ ɑ̀ t íː t l ĩ́ː ɬ,t íː l éː ɬ
+adlą́,V;REAL;PROSP;3;SG/DU/PL,ʔ ɑ̀ t òː t l ĩ́ː ɬ,ʔ ɑ̀ t òː t l ĩ́ː ɬ
+adlą́,V;REAL;PFV/PRF;4;SG/DU/PL,ʔ ɑ̀ t͡ʃ òː t l ɑ̃́ː ʔ,t͡ʃ ɪ̀ z l ĩ́ː ʔ
+adlą́,V;REAL;IPFV/PROG;1;SG,ʔ ɑ̀ ʃ t l ɑ̃̀,èː ʃ t l ɑ̃̀
+adlą́,V;REAL;PROSP;4;SG/DU/PL,ʔ ɑ̀ ʒ t òː t l ĩ́ː ɬ,ʔ ɑ̀ ʒ t òː t l ĩ́ː ɬ
+adlą́,V;REAL;IPFV/PROG;1;PL,t ɑ̀ ʔ ìː t l ã́,t è ìː t ã́
+adlą́,V;REAL;IPFV/PROG;4;PL,t ɑ̀ ʔ t͡ʃ ɪ̀ t l ã́,ʔ ɑ̀ t͡ʃ ɪ̀ ʔ ɑ́ː ʃ
+adlą́,V;REAL;PFV/PRF;1;DU/PL,ìː t l ã́ː ʔ,s ìː t l íː ʔ
+didziih,V;REAL;PFV/PRF;3;PL,t ɑ̀ t ɪ̀ t͡s ìː h,t ɪ̀ t͡s ìː x
+didziih,V;REAL;PFV/PRF;3;SG/DU/PL,t ɪ̀ t͡s ìː h,t ɪ̀ t͡s ìː x
+didziih,V;REAL;PFV/PRF;1;SG,t ɪ̀ s t͡s ìː x,ʔ ɑ̀ ʃ t l ɑ̃̀ː ʔ
+yikááh,V;REAL;PFV/PRF;3;SG/DU/PL,j ɪ̀ kʰ à ɪ̀,t ɑ̀ː s k ɑ̀ ɪ̀
+yidlą́,V;REAL;PROSP;1;SG,t èː ʃ t l ĩ́ː ɬ,t èː ʃ ɑ́ː ɬ
+yidlą́,V;REAL;PROSP;2;SG,t íː t l íː ɬ,t íː j ĩ́ː ɬ
+nilį́,V;REAL;PROSP;4;PL,t ɑ̀ ʒ t òː l éː ɬ,t ɑ̀ ʒ t òː j ĩ́ː ɬ
+halneʼ,V;REAL;PROSP;3;PL,t ɑ̀ h ò t òː l n ɪ̀ x,x ò t òː l n ɪ̀ x
+halneʼ,V;REAL;PROSP;1;SG,x ò t èː ʃ n ɪ̀ x,t èː ʃ n ɛ́ ʔ
+halneʼ,V;OPT;4;SG/DU/PL,x ò t͡ʃ ò l n ɛ́ ʔ,n ɑ́ h ò t͡ʃ ò l n ɛ́ ʔ
+halneʼ,V;OPT;3;SG/DU/PL,h ò l n ɛ́ ʔ,x òː l n ɛ́ ʔ
+halneʼ,V;OPT;1;SG,x ò ʃ n ɛ́ ʔ,w ò ʃ ɬ ɛ́ ʔ
+halneʼ,V;REAL;PROSP;4;SG/DU/PL,x ò ʒ t òː l n ɪ̀ x,ìː ʒ t òː ɬ n ɛ́ ʔ
+halneʼ,V;REAL;PFV/PRF;1;DU/PL,xʷ ìː l n ɛ́ ʔ,j ìː kʰ à ɪ̀
+yidiz,V;REAL;IPFV/PROG;2;PL,t ɑ̀ː h t ɪ̀ z,ʔ ɑ̀ t ɛ̀ ɪ̀ n ò ɬ j é
+yidiz,V;REAL;IPFV/PROG;4;PL,t ɑ̀ t͡ʃ ɪ̀ t ɪ̀ z,t͡ʃ ɪ̀ t ɪ̀ z
+yidiz,V;REAL;IPFV/PROG;3;PL,t è ɪ̀ t ɪ̀ z,j ɪ̀ ʔ ɑ̀ː ʃ
+yidiz,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃ ɪ̀ t ɪ̀ z,x ò t͡ʃ ɪ̀ l n ɛ́ ʔ
+yidiz,V;REAL;IPFV/PROG;2;SG,n ɪ̀ t ɪ̀ z,p ɪ̀ t ɪ̀ z
+yidiz,V;REAL;PFV/PRF;2;DU/PL,s òː t ɪ̀ z,ʔ ɑ̀ s òː t ɪ̀ z
+naaʼeeł,V;REAL;IPFV/PROG;2;DU/PL,n ɑ́ː h èː ɬ,ⁿt òː h ò ɬ n ɪ́ ʃ
+naaʼeeł,V;REAL;PROSP;1;DU/PL,ⁿd ìː tʼ ó ɬ,n ɪ̀ t ìː tʼ ó ɬ
+naaʼeeł,V;REAL;PROSP;3;SG/DU/PL,ⁿt òː ʔ ò ɬ,n ɪ̀ t òː ʔ ò ɬ
+naaʼeeł,V;REAL;IPFV/PROG;3;PL,n ɪ̀ t ɑ́ː ʔ èː ɬ,n ɑ́ː ʔ èː ɬ
+naaʼeeł,V;REAL;PFV/PRF;3;PL,n ɪ̀ t ɑ́ː z ʔ éː l,t ɛ̀ ɪ̀ ʔ èː ɬ
+naaʼeeł,V;REAL;PFV/PRF;2;PL,n ɪ̀ t ɑ̀ s òː ʔ éː l,n ɪ̀ t ɑ̀ s òː j ĩ̀
+chʼélyeed,V;REAL;PFV/PRF;1;PL,t͡ʃʼ ɪ̀ t ɑ̀ n ɪ́ː l w ò t,t è ìː t ã́ː ʔ
+chʼélyeed,V;REAL;PROSP;2;SG,t͡ʃʼ ɪ̀ t íː lʷ ó ɬ,t íː l éː ɬ
+chʼélyeed,V;REAL;PFV/PRF;2;SG,t͡ʃʼ íː n ɪ́ l w ò t,n ɪ̀ s ɪ̀ n ɪ́ ʔ éː l
+chʼélyeed,V;REAL;IPFV/PROG;1;DU/PL,t͡ʃʼ ɪ̀ n ɪ́ː l j éː t,t͡ʃʼ ɪ̀ n íː l j éː t
+chʼélyeed,V;REAL;PFV/PRF;1;SG,t͡ʃʼ ɪ̀ n ɪ́ ʃʷ ó t,s ɛ̀ l ĩ́ː ʔ
+chʼélyeed,V;REAL;PROSP;4;SG/DU/PL,t͡ʃʼ ɪ̀ ʒ t òː l w ó ɬ,t͡ʃ ɪ̀ t òː lʷ ó ɬ
+yighááh,V;REAL;PROSP;3;SG/DU/PL,t òː kʰ ɑ́ː ɬ,j ɪ̀ t òː ʔ ɑ́ː ʒ
+yighááh,V;REAL;PROSP;4;SG/DU/PL,t͡ʃ ɪ̀ t òː kʰ ɑ́ː ɬ,t͡ʃ íː j ɑ́
+yighááh,V;REAL;PFV/PRF;4;PL,t͡ʃ íː ʔ ɑ́ː ʒ,ʔ ɑ̀ t͡ʃ ɪ̀ ʒ ʔ ɑ́ː ʒ
+yighááh,V;REAL;IPFV/PROG;3;PL,j ɪ̀ ʔ ɑ̀ː ʃ,t ɛ̀ ɪ̀ ɬ t͡ʃʰ ò ʒ
+yighááh,V;REAL;IPFV/PROG;1;PL,j ìː kʰ ɑ́ː h,n ɪ̀ t è ìː k é
+yighááh,V;REAL;PFV/PRF;1;PL,j ìː kʰ à ɪ̀,j ìː tʼ ɑ́ː ʒ
+yighááh,V;REAL;PFV/PRF;3;SG/DU/PL,j ɪ̀ j ɑ́,ɬ ɪ̀ t͡ʃʰ ò
+áłtsʼózí,V;REAL;PFV/PRF;3;PL,ʔ ɑ̀ t ɑ́ː ɬ t͡sʼ ó z ɪ́,t ɑ̀ː l t͡sʰ ò
+áłtsʼózí,V;REAL;PFV/PRF;1;PL,ʔ ɑ̀ t ɑ̀ n ìː l t͡sʼ ó z ɪ́,t è ìː t ã́ː ʔ
+dijool,V;REAL;PFV/PRF;3;PL,t ɑ̀ t ɪ̀ t͡ʃ òː l,t ɑ̀ t ɪ̀ t͡ʃ òː l
+dijool,V;REAL;PFV/PRF;4;PL,t ɑ̀ ʒ t ɪ̀ t͡ʃ òː l,t ɑ̀ t͡ʃ òː l
+dijool,V;REAL;PFV/PRF;2;DU/PL,t ɪ̀ n ò x t͡ʃ òː l,ʔ ɑ̀ t ɪ̀ n ò x t͡ʃ òː l
+yiłchí,V;REAL;PROSP;2;SG,t íː ɬ t͡ʃʰ íː ɬ,t ɪ̀ t íː n ɑ́ː ɬ
+yiłchí,V;REAL;PFV/PRF;2;SG,ʃ ɪ̀ n ɪ́ ɬ t͡ʃ ĩ́,j ɪ̀ n ɪ̀ ʃ t͡ʃʰ ĩ́
+yiłchí,V;REAL;PFV/PRF;2;DU/PL,ʃ òː ɬ t͡ʃʰ ĩ́,w òː ɬ t͡ʃʰ íː ɬ
+yiłchí,V;REAL;IPFV/PROG;2;DU/PL,w ò ɬ t͡ʃʰ ɪ̀,ʔ ɑ̀ n ɪ̀ ɬ t͡ʃʰ ɪ̀
+ałhą́ą́ʼ,V;REAL;IPFV/PROG;3;SG/DU/PL,ʔ ɑ̀ ɬ h ɑ̃̀ː ʔ,t ɑ̀ ʔ ɑ̀ ɬ h ɑ̃̀ː ʔ
+ałhą́ą́ʼ,V;REAL;PFV/PRF;1;PL,t ɑ̀ ʔ ìː l kʰ ɑ̃́ː ʔ,t ɑ̀ ʔ íː ɬ h ɑ̃̀ː ʔ
+didzééh,V;REAL;PFV/PRF;1;SG,t èː s t͡s ɑ̀ ʔ,s ɛ̀ l ĩ́ː ʔ
+didzééh,V;REAL;IPFV/PROG;3;SG/DU/PL,t ɪ̀ t͡s éː h,t ɪ̀ t͡s éː h
+didzééh,V;REAL;IPFV/PROG;1;DU/PL,t ìː t͡s éː h,t èː t͡s ɑ̀ ʔ
+didzééh,V;REAL;IPFV/PROG;2;DU/PL,t ò x t͡sʼ éː h,p ɪ̀ t ɪ̀ t͡s éː h
+wolyé,V;REAL;PFV/PRF;4;PL,t ɑ̀ t͡ʃ òː sʲ ɛ̀ ʔ,n ɪ̀ t ɑ̀ t͡ʃ òː sʲ ɛ̀ ʔ
+wolyé,V;REAL;PFV/PRF;1;PL,t ɛ̀ ɪ̀ s ìː lʲ ɛ́ ʔ,t ɛ̀ ɪ̀ n ɪ́ː l j ɛ́ ʔ
+wolyé,V;REAL;IPFV/PROG;3;SG/DU/PL,w ò l j ɛ́,j ɪ̀ t ɪ̀ z
+wolyé,V;REAL;IPFV/PROG;1;DU/PL,j ɪ̀ n ɪ́ː l j ɛ́,n è ìː tʼ èː ɬ
+wolyé,V;REAL;PFV/PRF;1;DU/PL,j ɪ̀ s ìː l j ɛ́ ʔ,t èː t͡s ɑ̀ ʔ
+wolyé,V;REAL;PFV/PRF;2;SG,j ɪ̀ s ɪ̀ n ɪ̀ l j ɛ́ ʔ,j ɪ̀ n ɪ́ j ɑ́
+digeeh,V;REAL;PFV/PRF;3;PL,t ɑ̀ t èː z k ò ʔ,t ɑ̀ t ɪ̀ t òː k ò ʔ
+digeeh,V;REAL;IPFV/PROG;3;PL,t ɑ̀ t ɪ̀ k èː h,t ɪ̀ k èː h
+digeeh,V;REAL;PROSP;4;PL,t ɑ̀ ʒ t ɪ̀ t òː k ò h,t ɑ̀ ʒ t òː t l ĩ́ː ɬ
+digeeh,V;REAL;PROSP;1;SG,t ɪ̀ t èː ʃ k ò h,t èː ʃ ɑ́ː ɬ
+digeeh,V;REAL;PROSP;1;DU/PL,t ɪ̀ t ìː k ò h,t ìː t íː ɬ
+digeeh,V;REAL;IPFV/PROG;2;DU/PL,t ò x k èː h,w ò h ʔ àː ʃ
+yileeh,V;REAL;IPFV/PROG;3;PL,t ɑ̀ː l èː h,t ɑ̀ ʔ ɑ̀ t͡ʃʰ ɪ́ ʔ
+yileeh,V;REAL;PROSP;2;PL,t ɑ̀ t òː x ɬ èː ɬ,t ɑ̀ òː x t l éː h
+yileeh,V;REAL;IPFV/PROG;4;PL,t ɑ̀ t͡ʃ ɪ̀ l éː h,t͡ʃ ɪ̀ ʔ ɑ̀ː ʃ
+yileeh,V;OPT;1;PL,t ɑ̀ òː l ɛ́ ʔ,t ɑ̀ ò l ɛ́ ʔ
+yileeh,V;REAL;PROSP;4;PL,t ɑ̀ ʒ t òː l éː ɬ,t ɑ̀ ʒ t òː ʔ ɑ́ː ɬ
+yileeh,V;REAL;PROSP;1;DU/PL,t ìː l èː ɬ,t ìː tʼ ɑ̀ ʃ
+yileeh,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃ ɪ̀ l éː h,t͡ʃ ɪ̀ ɣ ɑ́ː h
+yileeh,V;REAL;IPFV/PROG;2;SG,n ɪ̀ l èː h,n ɪ̀ n ɪ̀ t l éː h
+yileeh,V;REAL;PFV/PRF;2;DU/PL,s òː l íː ʔ,s ɪ̀ n òː ʔ ɑ́ː ʒ
+yileeh,V;REAL;IPFV/PROG;2;DU/PL,w ò ʔ ɬ èː h,w òː x t l éː h
+yileeh,V;OPT;2;SG,w òː l é ʔ,w òː x ɬ ɛ́ ʔ
+yiłní,V;REAL;PFV/PRF;2;DU/PL,p ɪ̀ t ò x n ɪ́,p ɪ̀ t ɪ̀ n òː ʔ ĩ́ː ʔ
+yiłní,V;REAL;PFV/PRF;3;SG/DU/PL,j ɪ̀ ɬ n ɪ́,p ɪ̀ t ɪ̀ n ìː ʔ n ɪ́
+yiłhod,V;REAL;PFV/PRF;3;PL,t ɑ̀ j íː ɬ h ò t,j ɪ̀ j íː ɬ h ò t
+yiłhod,V;REAL;PFV/PRF;1;PL,t ɛ̀ ɪ̀ː lʷ ò t,t ɑ̀ ʔ íː ɬ h ò t
+yiłhod,V;REAL;IPFV/PROG;3;PL,t ɛ̀ ɪ̀ ɬ h ò t,t ɑ̀ t ɪ̀ ɬ h ò t
+yiłhod,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃ ɪ̀ ɬ h ò t,t͡ʃ ɪ̀ kʰ ɑ́ː h
+yiłhod,V;REAL;IPFV/PROG;3;SG/DU/PL,j ɪ̀ ɬ h ò t,j ɪ̀ t ɪ̀ ɬ h ò t
+óolyé,V;REAL;IPFV/PROG;4;PL,ʔ ɑ̀ t ɑ̀ t͡ʃ òː l j ɛ́,t ɑ̀ t͡ʃ òː l j ɛ́
+óolyé,V;REAL;PFV/PRF;1;PL,ʔ ɑ̀ t ɛ̀ ɪ̀ s ìː lʲ ɛ́ ʔ,ʔ ɑ̀ t ɛ̀ ɪ̀ n ìː l j ɛ́ ʔ
+óolyé,V;REAL;IPFV/PROG;3;SG/DU/PL,òː l j é,t ɪ̀ t͡ʃ òː l j ɛ́
+ákótʼé,V;REAL;PFV/PRF;2;PL,ʔ ɑ̀ kʰ ó t ɑ̀ n ò x tʼ ɛ́,ʔ ɑ̀ kʰ ó n ɪ́ tʼ ɛ́
+ákótʼé,V;REAL;PFV/PRF;4;SG/DU/PL,ʔ ɑ̀ kʰ ó t͡ʃ ɪ̀ tʼ ɛ́,ʔ ɑ̀ kʰ ó t ɑ̀ t͡ʃ ɪ̀ tʼ ɛ́
+ákótʼé,V;REAL;PFV/PRF;1;DU/PL,ʔ ɑ̀ kʰ ó n ìː tʼ ɛ́,t ìː t͡s ìː h
+ákótʼé,V;REAL;PFV/PRF;2;DU/PL,ʔ ɑ̀ kʰ ó n ó x tʼ ɛ́,ʔ ɑ̀ n ó h t ɪ̀ n
+ákótʼé,V;REAL;PFV/PRF;3;SG/DU/PL,ʔ ɑ̀ kʼ ó tʼ ɛ̀,s ɪ̀ l ĩ́ː ʔ
+áníldííl,V;REAL;PFV/PRF;1;PL,ʔ ɑ̀ t ɑ̀ n ìː l t íː l,t è ìː t ã́ː ʔ
+áníldííl,V;REAL;PFV/PRF;1;DU/PL,ʔ ɑ̀ n ìː l t íː l,ʔ ɑ̀ t íː n íː l t íː l
+aheełtʼé,V;REAL;PFV/PRF;3;SG/DU/PL,ʔ ɑ̀ h èː ɬ tʼ ɛ́,s ɪ̀ l ĩ́ː ʔ
+aheełtʼé,V;REAL;PFV/PRF;3;PL,ʔ ɑ̀ h ɪ̀ t ɑ́ː ɬ tʼ ɛ́,t ɑ̀ j òː t ĩ́ː ɬ
+aheełtʼé,V;REAL;PFV/PRF;4;PL,ʔ ɑ̀ h ɪ̀ t ɑ̀ t͡ʃ ɪ̀ ɬ tʼ ɛ́,ʔ ɑ̀ h ɪ̀ t ɑ̀ t͡ʃ ɪ̀ tʼ ɛ́
+aheełtʼé,V;REAL;PFV/PRF;1;PL,ʔ ɑ̀ h ɪ̀ t ɑ̀ n ìː l tʼ ɛ́,ʔ ɑ̀ h ɪ̀ t ɑ̀ n ìː tʼ ɛ́
+aheełtʼé,V;REAL;PFV/PRF;2;SG,ʔ ɑ̀ h ɪ̀ n ɪ̀ ɬ tʼ ɛ́,n ɪ̀ ʃ ɪ̀ n ɪ́ j ɑ́
+naaghá,V;REAL;IPFV/PROG;2;PL,n ɑ́ː h k ɑ́ ɪ̀,n ɪ̀ t͡ʃ ɪ̀ ʔ ɑ́ː ʃ
+naaghá,V;REAL;PFV/PRF;4;SG/DU/PL,n ɪ̀ t͡ʃ ɪ̀ j ɑ́,t ɪ̀ ʒ n ɪ́ j ɑ́
+naaghá,V;OPT;4;PL,ɲ t͡ʃ ò ʔ ɑ́ː ʃ,ⁿt͡ʃ ó j à ʔ
+adiníłdíín,V;REAL;PFV/PRF;2;SG,ʔ ɑ̀ t íː n ɪ̀ ɬ t íː n,t ɪ̀ n ɪ̀ n ɪ̀ ɬ t íː n
+adiníłdíín,V;REAL;PFV/PRF;3;SG/DU/PL,ʔ ɑ̀ t ɪ̀ n ɪ̀ ɬ t íː n,j òː t l ã́ː ʔ
+adiníłdíín,V;REAL;PFV/PRF;1;PL,t ɑ̀ ʔ t íː n íː l t íː n,t è ìː t ã́ː ʔ
+adiníłdíín,V;REAL;PFV/PRF;4;PL,t ɑ̀ ʒ t ɪ̀ ʔ n ɪ́ ɬ t íː n,t ɑ̀ t ɪ̀ ʒ n ɪ́ ɬ t íː n
+łikizh,V;REAL;PFV/PRF;4;PL,t ɑ̀ t͡ʃ ɪ̀ l k ɪ́ ʒ,t ɑ̀ ɬ ɪ̀ n ìː k ɪ́ ʒ
+łikizh,V;REAL;PFV/PRF;4;SG/DU/PL,t͡ʃ ɪ̀ l kʰ ɪ̀ ʒ,ʔ ɑ̀ ʒ n ɪ́ l t íː l
+łikizh,V;REAL;PFV/PRF;1;SG,ɬ ɪ̀ n ɪ̀ ʃ k ɪ́ ʒ,s ɛ̀ l ĩ́ː ʔ
+átʼé,V;REAL;IPFV/PROG;4;PL,ʔ ɑ̀ t ɑ̀ t͡ʃ ɪ̀ tʼ ɛ́,n ɪ̀ t͡ʃ ɪ̀ ʔ ɑ̀ː ʃ
+átʼé,V;REAL;PROSP;1;PL,ʔ ɑ̀ t ɑ̀ n ìː tʼ éː t òː,t ɑ̀ n ìː tʼ éː t óː
+átʼé,V;REAL;PFV/PRF;1;PL,ʔ ɑ̀ t ɑ̀ n ìː tʼ éː n ɪ́ tʼ éː ʔ,ʔ ɑ̀ t ɑ̀ n ìː tʼ éː n ɪ́ tʼ éː ʔ
+átʼé,V;REAL;PFV/PRF;2;PL,ʔ ɑ̀ t ɑ̀ n ò h tʼ éː n ɪ́ tʼ éː ʔ,t ɑ̀ ɬ ɪ̀ n ò ɬ tʼ ɛ́
+átʼé,V;REAL;PROSP;1;SG,ʔ ɑ̀ n ɪ̀ ʃ tʼ éː t óː,ìː n ɪ̀ ʃ tʼ ɛ́
+átʼé,V;REAL;PFV/PRF;1;SG,ɑ̀ n ɪ̀ ʃ tʼ éː n ɪ́ tʼ éː ʔ,ʔ ɑ̀ ʃ ɪ̀ n ɪ́ ʃ tʼ ɛ́
+átʼé,V;REAL;IPFV/PROG;2;SG,ʔ ɑ̀ ŋ̀ tʼ ɛ̀,ʔ ɑ̀ ŋ̀ tʼ éː n ɪ̀ tʼ éː ʔ
+átʼé,V;REAL;IPFV/PROG;3;SG/DU/PL,ʔ ɑ̀ tʼ ɛ̀,j ɪ̀ ɣ ɑ́ː h
+chʼínéísííd,V;REAL;PFV/PRF;1;PL,t͡ʃʼ éː t ɑ̀ n ìː l z ɪ́ t,t ɑ̀ n ìː l z ɪ́ t
+chʼínéísííd,V;REAL;IPFV/PROG;1;PL,t͡ʃʼ éː t ɑ̀ n ìː l z íː t,t è ìː t ã́
+chʼínéísííd,V;REAL;IPFV/PROG;2;SG,t͡ʃʼ éː n ɪ́ s íː t,t͡ʃʼ éː ɪ̀ n ɪ́ s ɪ̀ t
+diʼil,V;REAL;PFV/PRF;1;PL,t ɑ̀ t ɪ̀ n ìː tʼ ɪ̀ l,ɬ ɪ̀ n ìː k à ɪ̀
+diʼil,V;REAL;PFV/PRF;1;DU/PL,t ɪ̀ n ìː tʼ ɪ̀ l,j ìː t ã́ː ʔ
+diʼil,V;REAL;PFV/PRF;1;SG,t ɪ̀ n ɪ̀ ʃ ʔ ɪ̀ l,ɬ ɪ̀ n ɪ̀ ʔ ɪ̀ l
+níyá,V;REAL;PROSP;2;SG,t íː n ɑ́ː ɬ,t ɪ̀ t íː n ɑ́ː ɬ
+níyá,V;REAL;PROSP;1;DU/PL,t ìː tʼ ɑ̀ ʃ,t ìː tʼ ɑ̀ ʃ
+níyá,V;REAL;PROSP;2;DU/PL,t òː x ʔ ɑ̀ ʃ,n ò h ʔ àː ʃ
+níyá,V;REAL;IPFV/PROG;4;PL,t͡ʃ ɪ̀ ʔ ɑ̀ː ʃ,t͡ʃ ɪ̀ ʔ ɑ̀ː ʃ
+níyá,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃ ɪ̀ ɣ ɑ́ː h,t͡ʃ ɪ̀ kʰ ɑ́ː h
+níyá,V;REAL;IPFV/PROG;1;SG,n ɪ̀ ʃ ɑ́ː h,j ɪ̀ ʃ t͡ʃʰ ɪ̀
+níyá,V;REAL;IPFV/PROG;2;PL,n ò x kʰ ɑ́ː h,t ɑ̀ n ó h ʔ ɑ́ː ʃ
+níyá,V;REAL;PFV/PRF;2;DU/PL,n òː ʔ ɑ́ː ʒ,n ò x k ɑ̀ h
+níyá,V;REAL;PFV/PRF;2;PL,n òː x kʰ à ɪ̀,n ɪ̀ ʔ ɑ́ː ʒ
+átʼį́,V;REAL;IPFV/PROG;3;PL,ʔ ɑ̀ t ɑ́ː tʼ ĩ́,ʔ ɑ̀ tʼ ĩ́
+átʼį́,V;REAL;PFV/PRF;1;PL,ɑ̀ t è ìː t͡s ɑ́ː,t ɛ̀ ɪ̀ n ɪ́ː l j ɛ́ ʔ
+átʼį́,V;REAL;IPFV/PROG;1;PL,ʔ ɑ̀ t é ìː tʼ ĩ́,t ɑ̀ n ìː t͡s íː t
+átʼį́,V;REAL;PFV/PRF;1;SG,ʔ ɑ̀ s t͡s ɑ́ː,t ɛ̀ k ò ʔ
+yildeeł,V;REAL;IPFV/PROG;4;PL,t ɑ̀ t͡ʃ ɪ̀ l t éː ɬ,t͡ʃ ɪ̀ l t èː ɬ
+yildeeł,V;REAL;PFV/PRF;3;PL,t ɑ̀ j òː l t éː l,t ɑ̀ j òː l t éː l
+yildeeł,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃ ɪ̀ l t éː ɬ,t͡ʃ ɪ̀ l t èː ɬ
+yildeeł,V;REAL;IPFV/PROG;1;DU/PL,j ìː l t éː ɬ,ìː l ʒ ɪ̀ ʃ
+yildeeł,V;REAL;PFV/PRF;1;DU/PL,j ìː l t éː l,s ìː t l íː ʔ
+yildeeł,V;REAL;PFV/PRF;2;SG,j ɪ̀ n ɪ̀ l t éː l,n ɪ̀ l t éː l
+yildeeł,V;REAL;PFV/PRF;3;SG/DU/PL,j òː l t éː l,j òː l t éː l
+hiná,V;REAL;PFV/PRF;3;PL,t ɑ̀ h ɑ́ n ɑ́,h ɪ̀ n ɪ̀ ʔ ɑ́ː ʃ
+hiná,V;REAL;PFV/PRF;1;SG,h ɪ̀ n ɪ̀ ʃ n ɑ́,t ɑ̀ h ɪ̀ n ìː ʔ n ɑ́
+hiná,V;REAL;PFV/PRF;2;DU/PL,h ɪ̀ n ò h n ɑ́,w òː x kʰ à ɪ̀
+ííłdįįh,V;REAL;IPFV/PROG;2;PL,ʔ ɑ̀ t ɑ́ː ɬ t ɪ́ː x,ʔ ɑ̀ s ɪ̀ n ɪ̀ ɬ t ɪ́ h
+ííłdįįh,V;REAL;PFV/PRF;1;PL,ɑ̀ t ɑ̀ s ìː l t íː t,t ɑ̀ ʔ s ìː l t íː t
+ííłdįįh,V;REAL;IPFV/PROG;3;PL,ʔ ɑ̀ t ɛ̀ ɪ̀ ɬ t ɪ́ː h,t ɛ̀ ɪ̀ ɬ t ɪ́ː x
+ííłdįįh,V;REAL;IPFV/PROG;4;SG/DU/PL,ʔ ɑ̀ t͡ʃ ɪ̀ ɬ t ɪ́ h,ʔ ɑ̀ t͡ʃ òː l j ɛ́
+ííłdįįh,V;REAL;PFV/PRF;4;SG/DU/PL,ʔ ɑ̀ t͡ʃ ɪ̀ s t íː t,t ɪ̀ n ɪ̀ t͡ʃ ɪ̀ ɬ t íː t
+ííłdįįh,V;REAL;IPFV/PROG;3;SG/DU/PL,ìː ɬ t íː x,ìː l t íː n ɪ̀ ɬ t ɪ́ h
+ałhosh,V;REAL;PFV/PRF;4;SG/DU/PL,ʔ ɑ̀ t͡ʃ ìː ɬ h ɑ́ː ʒ,t͡ʃ ɪ̀ z l ĩ́ː ʔ
+ałhosh,V;REAL;IPFV/PROG;4;PL,t ɑ̀ ʔ t͡ʃ ɪ̀ ɬ h ó ʃ,t ɑ̀ t͡ʃ ɪ̀ l w ó ʃ
+ałhosh,V;REAL;PROSP;1;DU/PL,ìː t ìː l w ó ʃ,ìː t òː ɬ h ɑ́ː ʒ
+ałhosh,V;REAL;PFV/PRF;1;DU/PL,ìː l kʰ ɑ́ː ʒ,j ìː kʰ à ɪ̀
+ałhosh,V;REAL;PFV/PRF;3;SG/DU/PL,ìː ɬ h ɑ́ː ʒ,t ɑ̀ ʔ ìː ɬ h ɑ́ː ʒ
+ałhosh,V;REAL;IPFV/PROG;2;SG,ʔ ɪ̀ ɬ h ó ʃ,ɑ̀ n ɪ̀ ɬ h ó ʃ
+naʼatłʼoʼ,V;REAL;PFV/PRF;3;SG/DU/PL,n ɑ̀ ʔ ɑ̀ z t ɬʼ õ̃̀,n ɑ̀ ʔ ɑ̀ z t ɬʼ õ̃̀
+naʼatłʼoʼ,V;REAL;PROSP;3;SG/DU/PL,n ɪ̀ ʔ t òː t͡ɬʼ òː ɬ,n ɪ̀ t ɑ̀ ʔ t òː t͡ɬʼ òː ɬ
+yózhí,V;REAL;PFV/PRF;1;DU/PL,j ɪ̀ n íː t͡ʃ ɪ́,ìː l ʒ ìː ʒ
+yózhí,V;REAL;PFV/PRF;2;SG,j ɪ̀ n ɪ́ ʒ ɪ́,s ɪ̀ n ɪ̀ l ĩ́ː ʔ
+yózhí,V;REAL;PFV/PRF;2;DU/PL,j ɪ̀ n ó x ʒ ɪ̀,òː ɬ ʒ ìː ʒ
+chʼííłʼá,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃʼ ɪ̀ t͡ʃ ɪ̀ ɬ ʔ ɑ́,ʔ ɑ̀ t͡ʃ ɪ̀ ɬ ʔ ɑ́
+chʼííłʼá,V;REAL;IPFV/PROG;1;DU/PL,t͡ʃʼ ɪ̀ n ìː l ʔ ɑ́,j ìː t͡s ìː h
+yiyą́,V;REAL;PROSP;1;PL,t ɑ̀ t ìː t ĩ́ː ɬ,t ɑ̀ ʔ t ìː t l ĩ́ː ɬ
+yiyą́,V;REAL;IPFV/PROG;2;PL,t ɑ̀ ò x s ɑ̃̀,t ɑ̀ òː x t l ĩ́ː ʔ
+yiyą́,V;REAL;PROSP;3;PL,t ɛ̀ ɪ̀ t òː j ĩ́ː ɬ,t òː ʔ ɑ̀ ʃ
+yiyą́,V;REAL;PROSP;2;DU/PL,t òː x s íː ɬ,t òː x ʔ ɑ̀ ʃ
+yiyą́,V;REAL;PFV/PRF;2;DU/PL,w òː j ã̀ː ʔ,ʔ ɑ̀ n ó h s íː ɬ
+yiyą́,V;REAL;IPFV/PROG;1;DU/PL,j ìː t ã́,j ìː t l íː ʔ
+yiyą́,V;REAL;PFV/PRF;3;SG/DU/PL,j ɪ̀ j íː j ɑ̃̀ː ʔ,j ɪ̀ kʰ ɑ̀ h
+áłtsʼóózí,V;REAL;PFV/PRF;3;PL,ʔ ɑ̀ t ɑ́ː ɬ t͡sʼ óː z ɪ́,ʔ ɑ̀ t ɑ̀ n ìː l t͡sʼ óː z ɪ́
+áłtsʼóózí,V;REAL;PFV/PRF;4;PL,ʔ ɑ̀ t ɑ̀ t͡ʃ ɪ̀ ɬ t͡sʼ óː z ɪ́,ʔ ɑ̀ t ɑ̀ t͡ʃ òː sʲ ɛ̀ ʔ
+áłtsʼóózí,V;REAL;PFV/PRF;1;SG,ɑ̀ n ɪ̀ s t͡sʼ óː z ɪ́,ʔ ɑ̀ n ɪ̀ ɬ t͡sʼ óː z ɪ́
+ádin,V;REAL;PFV/PRF;1;PL,ʔ ɑ̀ t ɑ̀ n ìː t ɪ̀ n,t ɑ̀ n ìː t ɪ̀ n
+achįʼ,V;REAL;PFV/PRF;1;PL,t ɑ̀ ʔ ʃ ìː t͡ʃʰ ɑ́ː ʔ,t è ìː t ã́ː ʔ
+achįʼ,V;REAL;IPFV/PROG;1;DU/PL,ìː t͡ʃʰ ɪ̀ ʔ,j ìː t l íː ʔ
+yootį́į́ł,V;REAL;PFV/PRF;3;PL,t ɛ̀ ɪ̀ tʰ ɪ́ː h,j ɪ̀ ʔ ɑ́ː ʒ
+yootį́į́ł,V;REAL;PFV/PRF;2;DU/PL,w ò h t ĩ́ː ɬ,t͡ʃʼ ɪ̀ n òː ɬ ʔ ɑ̀ ʔ
+yootį́į́ł,V;REAL;PFV/PRF;1;DU/PL,j ìː t ĩ́ː ɬ,t ìː t͡s ìː h
+chʼéjeeh,V;REAL;IPFV/PROG;4;PL,t͡ʃʼ ɪ̀ t ɑ̀ t͡ʃ ɪ̀ t͡ʃ èː t͡ʃ èː h,t ɑ̀ ʔ t͡ʃ ɪ̀ t l ɑ̃́
+chʼéjeeh,V;REAL;PFV/PRF;1;PL,t͡ʃʼ ɪ̀ t ɑ̀ n ɪ́ː t͡ʃ éː ʔ,t ɑ̀ hʷ ìː tʼ ĩ́
+yilghał,V;REAL;IPFV/PROG;1;PL,t ɛ̀ ìː l kʰ ɑ́ ɬ,t ɑ̀ ʔ ìː l kʰ ɑ́ ɬ
+yilghał,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃ ɪ̀ l kʰ ɑ́ ɬ,t͡ʃ ɪ̀ kʰ ɑ́ː h
+yilghał,V;REAL;IPFV/PROG;2;DU/PL,w ò ɬ kʰ ɑ̀ ɬ,n ò h t ã́
+yilghał,V;REAL;PFV/PRF;1;DU/PL,j ìː l kʼ ɑ́ l,j ìː l kʰ ɑ́ l
+yilghał,V;REAL;PFV/PRF;1;SG,j ɪ̀ ʃ kʰ ɑ̀ l,j ìː l kʰ ɑ́ l
+noodǫ́ǫ́z,V;REAL;PFV/PRF;2;PL,t ɑ̀ n ɪ̀ s òː h t óː z,t ɑ̀ s òː t ɪ̀ z
+noodǫ́ǫ́z,V;REAL;PFV/PRF;2;DU/PL,n òː h t óː z,w ò x k ɑ̀ h
+áłtsʼíísí,V;REAL;PFV/PRF;2;PL,ʔ ɑ̀ t ɑ̀ n ò ɬ t͡sʼ íː s ɪ́,ʔ ɑ̀ t ɑ̀ n ò ɬ t͡sʼ íː s ɪ́
+áłtsʼíísí,V;REAL;PFV/PRF;4;SG/DU/PL,ʔ ɑ̀ t͡ʃ ɪ̀ ɬ t͡sʼ íː s ɪ́,t͡ʃ ɪ̀ z l ĩ́ː ʔ
+áłtsʼíísí,V;REAL;PFV/PRF;1;DU/PL,ʔ ɑ̀ n ìː l t͡sʼ íː s ɪ́,j ìː t ɪ̀ n ìː l t͡sʼ íː s ɪ́
+chʼéldlóósh,V;REAL;IPFV/PROG;3;SG/DU/PL,t͡ʃʼ ɛ̀ l t l óː ʃ,t͡ʃʼ ɪ̀ t ɑ́ː ʃ t l óː ʃ
+chʼéldlóósh,V;REAL;IPFV/PROG;3;PL,t͡ʃʼ ɪ̀ t ɑ́ː l t l óː ʃ,t͡ʃʼ ɪ̀ t ɑ́ː ʃ t l óː ʃ
+chʼéldlóósh,V;REAL;PROSP;3;PL,t͡ʃʼ ɪ̀ t ɑ̀ t òː l t l ó ʃ,t͡ʃʼ ɪ̀ t ɑ̀ t òː ɬ t l ó ʃ
+chʼéldlóósh,V;REAL;PROSP;1;SG,t͡ʃʼ ɪ̀ t éː ʃ t l ó ʃ,t͡ʃʼ ɪ̀ t íː n ɪ̀ ʃ t l ó ʃ
+chʼéldlóósh,V;REAL;PROSP;3;SG/DU/PL,t͡ʃʼ ɪ̀ t òː l t l ó ʃ,t͡ʃʼ ɛ̀ l t l óː ʒ
+chʼéldlóósh,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃʼ ɪ̀ t͡ʃ ɪ̀ l t l óː ʃ,t͡ʃʼ ɪ̀ t͡ʃ ɪ̀ l t l óː ʃ
+chʼéldlóósh,V;REAL;IPFV/PROG;1;SG,t͡ʃʼ ɪ̀ n ɪ̀ ʃ t l óː ʃ,t͡ʃʼ ɪ̀ n ɪ̀ l t l óː ʃ
+chʼéldlóósh,V;REAL;IPFV/PROG;2;DU/PL,t͡ʃʼ ɪ̀ n ó ɬ t l óː ʃ,t͡ʃʼ ɪ̀ n òː ɬ t l óː ʃ
+yidą́,V;REAL;PROSP;2;PL,t ɑ̀ t òː h t ĩ́ː ɬ,t ɑ̀ t òː t ĩ́ː ɬ
+yidą́,V;REAL;PROSP;4;PL,t ɑ̀ ʒ t òː t ĩ́ː ɬ,t ɑ̀ ʒ t òː t ĩ́ː ɬ
+yidą́,V;REAL;PFV/PRF;1;PL,t è ìː t ã́ː ʔ,t ɑ̀ s ìː t l ĩ́ː ʔ
+yidą́,V;REAL;PROSP;2;DU/PL,t òː h t ĩ́ː ɬ,t òː h t ɑ̃̀ː ʔ
+yidą́,V;REAL;IPFV/PROG;2;SG,n ɪ̀ t ɑ̃̀,t ɪ̀ n ɪ̀ l n ɛ́ ʔ
+yidą́,V;REAL;IPFV/PROG;1;SG,j ɪ̀ ʃ t ɑ̃̀,t͡ʃʼ ɪ̀ n ɪ́ ʃ ʔ ɑ́
+ałchin,V;REAL;PFV/PRF;2;SG,ʔ ɑ̀ s ɪ̀ n ɪ̀ ɬ t͡ʃʰ ɑ̃́ː ʔ,n íː n ɪ̀ ɬ t͡ʃ ɪ̀ n
+ałchin,V;REAL;PFV/PRF;4;PL,t ɑ̀ ʔ t͡ʃ ɪ̀ s t͡ʃʰ ɑ̃̀ː ʔ,t ɑ̀ ʔ t͡ʃ ìː ɬ h ɑ́ː ʒ
+ałchin,V;REAL;IPFV/PROG;1;DU/PL,ìː l t͡ʃʰ ɪ̀ n,ʔ ɑ̀ s ìː l t͡ʃʰ ɪ̀ n
+ahigą́,V;REAL;IPFV/PROG;1;DU/PL,ʔ ɑ̀ h ìː k ɑ̃̀,t ɑ̀ ʔ ɑ̀ h ìː k ɑ̃̀
+atłʼó,V;REAL;PFV/PRF;2;SG,ʔ ɑ̀ s ɪ̀ n ɪ̀ t͡ɬʼ õ̃̀,ɪ̀ t͡ɬʼ ó
+atłʼó,V;REAL;IPFV/PROG;4;PL,t ɑ̀ ʔ t͡ʃ ɪ̀ t͡ɬʼ ó,t ɑ̀ t͡ʃ ɪ̀ t͡ɬʼ ó
+atłʼó,V;REAL;IPFV/PROG;2;PL,t ɑ̀ ʔ ò x t͡ɬʼ ó,n ɪ̀ t ɑ́ː h é
+atłʼó,V;REAL;PFV/PRF;1;PL,t ɑ̀ ʔ s ìː t͡ɬʼ õ̃̀,t ɑ̀ s ìː t͡ɬʼ õ̃̀
+atłʼó,V;REAL;IPFV/PROG;2;DU/PL,ò x t͡ɬʼ ó,t͡ʃʼ ɪ̀ n ó ɬ ʔ ɑ́
+yiniʼįįh,V;REAL;IPFV/PROG;2;PL,t ɑ̀ n ò x ʔ ɪ̀ː h,t ɑ̀ òː x t l ĩ́ː ʔ
+yiniʼįįh,V;REAL;IPFV/PROG;4;PL,t ɑ̀ ʒ n ɪ̀ ʔ ɪ̀ h,t ɑ̀ t͡ʃ ɪ̀ kʰ ɑ́ː h
+yiniʼįįh,V;REAL;IPFV/PROG;3;PL,t ɛ̀ ɪ̀ n ɪ̀ ʔ ɪ̀ h,t ɑ̀ n ɪ̀ ʔ ɪ̀ː h
+yooyééł,V;REAL;PFV/PRF;1;SG,j ɪ̀ ʃʰ éː ɬ,j ɪ̀ n ɪ́ ʃ
+yooyééł,V;REAL;PFV/PRF;2;SG,j ɪ̀ j éː ɬ,s ɪ̀ n ɪ̀ l ĩ́ː ʔ
+adiłhash,V;REAL;PFV/PRF;2;DU/PL,ʔ ɑ̀ t ò ɬ h ɑ́ ʃ,t ɪ̀ n òː ʔ ɑ́ː ʒ
+adiłhash,V;REAL;PFV/PRF;1;PL,t ɑ̀ ʔ t ìː l kʰ ɑ́ ʃ,t ɑ̀ t ìː l kʰ ɑ́ ʃ
+naalnish,V;REAL;IPFV/PROG;3;SG/DU/PL,n ɑ́ː l n ɪ́ ʃ,n ɑ́ː ʃ n ɪ́ ʃ
+naalnish,V;REAL;IPFV/PROG;2;SG,n ɑ̀ n ɪ̀ l n ɪ́ ʃ,ìː n ɪ́ l j ɛ́
+naalnish,V;REAL;PROSP;4;PL,ⁿt ɑ̀ ʒ t òː l n ɪ́ ʃ,n ɪ̀ ʒ t òː ʔ ɑ̀ ʃ
+naalnish,V;REAL;PROSP;2;SG,ⁿd íː l n ɪ́ ʃ,n ɑ́ h ó l n ɪ́ ʃ
+naalnish,V;REAL;IPFV/PROG;4;PL,n ɪ̀ t ɑ̀ t͡ʃ ɪ̀ l n ɪ́ ʃ,n ɪ̀ t͡ʃ ɪ̀ ʔ ɑ̀ː ʃ
+naalnish,V;REAL;PFV/PRF;2;PL,n ɪ̀ t ɑ̀ ʃ òː ɬ n ɪ̀ ʃ,t ɑ̀ òː j ɑ̃̀ː ʔ
+naalnish,V;REAL;PFV/PRF;1;SG,n ɪ̀ ʃ ɪ̀ ʃ n ɪ́ ʃ,n ɪ̀ ʃ ɪ̀ n ɪ̀ ʃ n ɪ́ ʃ
+alzhish,V;REAL;IPFV/PROG;3;PL,t ɑ̀ ʔ ɑ̀ l ʒ ɪ̀ ʃ,j ɪ̀ ʔ ɑ̀ː ʃ
+alzhish,V;REAL;IPFV/PROG;4;PL,t ɑ̀ ʔ t͡ʃ ɪ̀ l ʒ ɪ̀ ʃ,t͡ʃʼ éː t ɑ̀ t͡ʃ ɪ̀ t͡s íː t
+alzhish,V;REAL;PFV/PRF;2;PL,t ɑ̀ ʔ òː ɬ ʒ ìː ʒ,t ɑ̀ s òː l ĩ́ː ʔ
+alzhish,V;REAL;PFV/PRF;1;SG,èː ʃ ʒ ìː ʒ,t ɪ̀ n ɪ́ ʃ
+yidziih,V;REAL;PFV/PRF;2;PL,t ɑ́ òː x t͡s íː ʔ,t ɑ̀ òː j ɑ̃̀ː ʔ
+yidziih,V;REAL;PROSP;4;PL,t ɑ̀ ʒ t òː t͡s ɪ̀ x,t ɑ̀ ʒ t òː k ɑ́ː ɬ
+yidziih,V;REAL;PROSP;2;SG,t íː t͡s ɪ̀ x,t ɪ̀ t íː n ɑ́ː ɬ
+yidziih,V;REAL;PROSP;2;DU/PL,t òː x t͡s ɪ̀ x,t ìː t͡s ɪ̀ x
+yiʼaah,V;REAL;PROSP;3;PL,t ɛ̀ ɪ̀ t òː ʔ ɑ́ː ɬ,t ɛ̀ ɪ̀ t òː ʔ ɑ́ː ɬ
+yiʼaah,V;REAL;PROSP;1;DU/PL,t ìː tʼ ɑ́ː ɬ,t ìː t íː ɬ
+yiʼaah,V;REAL;PROSP;4;SG/DU/PL,t͡ʃ ɪ̀ t òː ʔ ɑ́ː ɬ,ʔ ɑ̀ ʒ t òː ʔ ɑ́ː ɬ
+yiʼaah,V;REAL;PFV/PRF;1;SG,j ɪ̀ ʔ ɑ̃̀,s ɛ̀ l ĩ́ː ʔ
+yiʼaah,V;REAL;PFV/PRF;3;SG/DU/PL,j ɪ̀ j íː ʔ ɑ̃̀,s ɪ̀ l ĩ́ː ʔ
+niné,V;REAL;IPFV/PROG;1;PL,t ɑ̀ n ìː ʔ n ɛ́,t ɑ̀ n éː ʔ n ɑ́
+niné,V;REAL;IPFV/PROG;2;PL,t ɑ̀ n ò h n é,t ɑ̀ òː x t l ã́
+niné,V;REAL;PFV/PRF;4;PL,t͡ʃ ɪ̀ n èː z n ɑ́,ʔ ɑ̀ t ɑ̀ t͡ʃ òː sʲ ɛ̀ ʔ
+niné,V;REAL;IPFV/PROG;4;PL,t͡ʃ ɪ̀ n ɪ̀ n ɛ́,t ɑ̀ t͡ʃ ɪ̀ t l ɑ̃́
+niné,V;REAL;IPFV/PROG;3;PL,n ɪ̀ n ɛ́,n èː z n ɑ́
+niné,V;REAL;PFV/PRF;2;DU/PL,s ɪ̀ n òː n ɑ́,ʔ ɑ̀ s ɪ̀ n òː n ɑ́
+alizh,V;REAL;PFV/PRF;3;SG/DU/PL,ʔ ɑ̀ ʒ l ɪ́ ʒ,ʔ ɑ̀ l ɪ́ ʒ
+alizh,V;REAL;IPFV/PROG;2;PL,t ɑ̀ ʔ ò x ɬ ɪ̀ ʔ,t ɑ̀ ʔ ʃ òː l ɪ́ ʒ
+alizh,V;REAL;PFV/PRF;1;PL,t ɑ̀ ʔ ʃ ìː t l ɪ́ ʒ,t è ìː t l ã́ː ʔ
+alizh,V;REAL;IPFV/PROG;2;SG,ɪ̀ l ɪ́ ʒ,ʔ ɑ̀ ʃ ɪ̀ n ɪ́ l ɪ́ ʒ
+alizh,V;REAL;IPFV/PROG;2;DU/PL,ò x ɬ ɪ̀ ʒ,w òː x t l ã́
+achʼiish,V;REAL;PFV/PRF;4;SG/DU/PL,ʔ ɑ̀ t͡ʃ íː t͡ʃʼ íː ʒ,ʔ ɑ̀ t͡ʃ ɪ̀ t͡ʃʼ ìː ʃ
+achʼiish,V;REAL;IPFV/PROG;1;DU/PL,ìː t͡ʃʼ íː ʃ,ìː t͡ʃʼ íː ʃ
+chʼínádzííd,V;REAL;PFV/PRF;3;PL,t͡ʃʼ éː t ɑ́ː z t͡s ɪ̀ t,t͡ʃʼ éː t ɑ́ː t͡s ɑ̀
+chʼínádzííd,V;REAL;PROSP;2;PL,t͡ʃʼ éː t ɑ̀ t òː h t͡ʃ ɪ̀ ɬ,t͡ʃʼ éː t òː h t͡s ɪ̀ ɬ
+chʼínádzííd,V;REAL;PFV/PRF;4;PL,t͡ʃʼ éː t ɑ̀ t͡ʃ ɪ̀ t͡s ɪ̀ t͡ʃ ɪ̀ t͡ʃ ɪ̀,t͡ʃʼ éː t ɑ̀ t͡ʃ òː sʲ ɛ̀ ʔ
+chʼínádzííd,V;REAL;PFV/PRF;2;PL,t͡ʃʼ éː t ɑ̀ n òː h t͡s ɪ̀ t,t͡ʃʼ éː t ɑ̀ n ò ɬ z ó l ɪ́
+chʼínádzííd,V;REAL;PROSP;3;SG/DU/PL,t͡ʃʼ éː t òː t͡s ɪ̀ ɬ,t ɪ̀ t òː k ɑ́ː ɬ
+chʼínádzííd,V;REAL;PFV/PRF;2;SG,t͡ʃʼ éː ɪ̀ n ɪ́ t͡s ɪ̀ t,t͡ʃʼ éː ɪ̀ n ɪ́ j ɑ́
+chʼínádzííd,V;REAL;PFV/PRF;1;DU/PL,t͡ʃʼ éː n ìː t͡s ɪ̀ t,ʔ ɑ̀ n ìː t͡s ɪ̀ t
+chʼínádzííd,V;REAL;PFV/PRF;1;SG,t͡ʃʼ éː n ɪ́ s t͡s ɪ̀ t,j ɪ̀ ʃ t l ɑ̃̀ː ʔ
+diłhił,V;REAL;PFV/PRF;1;DU/PL,t ɪ̀ n ɪ́ː l j ɪ̀ ɬ,j ìː ʔ ò ɬ h ɪ̀ ɬ
+diłhił,V;REAL;PFV/PRF;4;SG/DU/PL,t͡ʃ ɪ̀ t ɪ̀ ɬ h ɪ̀ ɬ,t͡ʃ ɪ̀ t ɪ̀ ɬ h ɪ̀ ɬ
+akʼeʼelchí,V;REAL;IPFV/PROG;1;PL,ʔ ɑ̀ kʼ ɛ̀ t ɑ̀ ʔ ìː l t͡ʃʰ ɪ̀,ʔ ɑ̀ kʼ ɛ̀ ʔ ìː l t͡ʃʰ ɪ̀
+akʼeʼelchí,V;REAL;PFV/PRF;1;PL,ʔ ɑ̀ kʼ ɛ̀ t ɑ̀ ʔ ʃ íː l t͡ʃʰ ĩ́,t ɑ̀ s ìː t l ĩ́ː ʔ
+akʼeʼelchí,V;REAL;PROSP;2;SG,ʔ ɑ̀ kʼ ɛ̀ ʔ t íː ɬ t͡ʃʰ íː ɬ,ʔ ɑ̀ ŋ̀ tʼ éː t óː
+akʼeʼelchí,V;REAL;PFV/PRF;4;SG/DU/PL,ʔ ɑ̀ kʼ ɛ̀ ʔ t͡ʃ ɪ̀ ʃ t͡ʃʰ ĩ́,t͡ʃ ɪ̀ z l ĩ́ː ʔ
+yiʼoł,V;REAL;PFV/PRF;4;PL,t ɑ̀ t͡ʃ ɪ̀ ʔ èː ɬ,t ɑ̀ t͡ʃ òː sʲ ɛ̀ ʔ
+yiʼoł,V;REAL;PFV/PRF;4;SG/DU/PL,t͡ʃ òː ʔ ò ɬ,ʔ ɑ̀ t͡ʃ òː l ʒ ìː ʒ
+yiʼoł,V;REAL;PFV/PRF;3;SG/DU/PL,j ɪ̀ ʔ ò ɬ,j òː t l ã́ː ʔ
+yiʼoł,V;REAL;PFV/PRF;1;SG,j ɪ̀ ʃ ʔ ò ɬ,n èː s t óː z
+kééhatʼį́,V;REAL;PFV/PRF;1;SG,kʰ éː h ɑ̀ ʃ tʼ ĩ́,s ɛ̀ l ĩ́ː ʔ
+yikah,V;REAL;PFV/PRF;3;PL,t ɛ̀ ɪ̀ kʰ ɑ́ː h,j ɪ̀ ʔ ɑ́ː ʒ
+yikah,V;REAL;PFV/PRF;2;PL,t ɛ̀ ɪ̀ n ó x kʰ ɑ́ː h,t ɑ̀ ʔ ʃ òː t͡ʃʰ ɑ́ː ʔ
+yikah,V;REAL;PFV/PRF;2;SG,j ɪ̀ kʰ ɑ̀ h,h ɪ̀ n ɪ́ n ɑ́
+ałeeh,V;REAL;IPFV/PROG;3;SG/DU/PL,ʔ ɑ̀ ɬ èː h,ʔ ɑ̀ t͡ʃʰ ɪ̀ ʔ
+ałeeh,V;REAL;IPFV/PROG;1;SG,ʔ ɑ̀ ʃ ɬ èː h,ʔ ɑ̀ ʃ ʒ ɪ̀ ʃ
+ałeeh,V;REAL;PFV/PRF;2;DU/PL,ʔ ɑ̀ s òː ɬ íː ʔ,n ò x t l ɑ̃̀ː ʔ
+ałeeh,V;REAL;PFV/PRF;3;PL,t ɑ̀ ʔ ɑ̀ s ɬ ĩ́ː ʔ,t ɑ̀ ʔ ɑ̀ z t ɬʼ õ̃̀
+ałeeh,V;REAL;IPFV/PROG;2;PL,t ɑ̀ ʔ ò ɬ èː h,t ɑ̀ òː x t l ã́
+ałeeh,V;REAL;IPFV/PROG;2;SG,ʔ ɪ̀ ɬ èː h,n ɪ̀ t l ã́
+yiłchozh,V;REAL;IPFV/PROG;2;PL,t ɑ́ː ɬ t͡ʃʰ ò ʒ,t ɑ́ː ɬ t͡ʃʰ ò ʒ
+yiłchozh,V;REAL;PFV/PRF;4;PL,t ɑ̀ t͡ʃ íː ɬ t͡ʃʰ ò ʒ,t ɑ̀ t͡ʃ íː ɬ t͡ʃʰ ó ʒ
+yiłchozh,V;REAL;IPFV/PROG;1;PL,t ɛ̀ ɪ̀ː l t͡ʃʰ ò ʒ,n ìː kʰ ɑ́ː h
+yiłchozh,V;REAL;IPFV/PROG;3;PL,t ɛ̀ ɪ̀ ɬ t͡ʃʰ ò ʒ,t ɑ̀ n ɪ̀ ɬ t͡ʃʰ ò ʒ
+yiłchozh,V;REAL;PROSP;1;DU/PL,t ìː l t͡ʃʰ ó ʃ,j ìː l t͡ʃʰ ò ʒ
+yiłchozh,V;REAL;PFV/PRF;3;SG/DU/PL,j ɪ̀ j íː ɬ t͡ʃʰ ò ʒ,s ɪ̀ l ĩ́ː ʔ
+déesxéél,V;REAL;PFV/PRF;3;PL,t ɑ̀ t éː ʃ éː l,t ɑ̀ t ɪ̀ n íː l j éː l
+déesxéél,V;REAL;PFV/PRF;2;PL,t ɑ̀ t ɪ̀ n òː ɬ h éː l,t ɑ̀ t ɪ̀ n ò x n ɪ́
+déesxéél,V;REAL;PFV/PRF;2;SG,t ɪ̀ n ɪ̀ ɬ h éː l,t ɪ̀ n ɪ̀ t͡s íː ʔ
+déesxéél,V;REAL;PFV/PRF;2;DU/PL,t ɪ̀ n òː ɬ h éː l,ʔ ɑ̀ ʃ òː t͡ʃʰ ɑ́ː ʔ
+déesxéél,V;REAL;PFV/PRF;4;SG/DU/PL,t͡ʃ ɪ̀ t éː ʃ éː l,t͡ʃ ɪ̀ z l ĩ́ː ʔ
+chʼéghááh,V;REAL;IPFV/PROG;3;SG/DU/PL,t͡ʃʼ ɛ̀ ɣ ɑ́ː h,j ɪ̀ ɣ ɑ́ː h
+chʼéghááh,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃʼ ɪ̀ t͡ʃ ɪ̀ ɣ ɑ́ː h,t͡ʃʼ ɪ̀ t͡ʃ ɪ̀ ɣ ɑ́
+chʼéghááh,V;REAL;IPFV/PROG;1;SG,t͡ʃʼ ɪ̀ n ɪ́ ʃ ɑ́ː h,t͡ʃʼ ɪ̀ n ɑ́
+chʼéghááh,V;REAL;PFV/PRF;3;SG/DU/PL,t͡ʃʼ ɪ̀ n ɪ́ j ɑ́,t͡ʃʼ ɪ̀ t òː k ɑ́ː ɬ
+chʼéghááh,V;REAL;PROSP;4;PL,t͡ʃʼ ɪ̀ ʒ t òː ʔ ɑ́ ʃ,t͡ʃʼ ɪ̀ t ɑ̀ ʒ t òː t͡ʃ ɪ̀ ɬ t͡ʃ ĩ̀
+chʼéghááh,V;REAL;PROSP;4;SG/DU/PL,t͡ʃʼ ɪ̀ ʒ t òː k ɑ́ː ɬ,t͡ʃʼ ɪ̀ ʒ n òː t ɑ́ː ɬ
+nidaah,V;REAL;PROSP;2;SG,t ɪ̀ n íː t ɑ́ː ɬ,t ɪ̀ t íː n ɑ́ː ɬ
+nidaah,V;REAL;PROSP;3;PL,t ɪ̀ n òː kʰ èː ɬ,t ɛ̀ ɪ̀ t òː k ɑ́ː ɬ
+nidaah,V;REAL;PFV/PRF;2;PL,t ɪ̀ s ɪ̀ n òː p ɪ̀ n,j ɪ̀ n éː z kʰ ɛ́
+nidaah,V;REAL;IPFV/PROG;4;SG/DU/PL,t͡ʃ ɪ̀ n ɪ̀ t ɑ́ː h,t͡ʃ ɪ̀ t ɑ́ː h
+nidaah,V;OPT;4;SG/DU/PL,t͡ʃ ɪ̀ n ò t ɑ́ː h,ⁿt͡ʃ ó j à ʔ
+nidaah,V;OPT;4;PL,t͡ʃ ɪ̀ n ó kʰ èː h,t ɪ̀ n òː p íː h
+nidaah,V;REAL;PFV/PRF;3;SG/DU/PL,n èː z t ɑ́,t ɪ̀ n èː z t ɑ́
+nidaah,V;OPT;2;DU/PL,n òː x kʰ èː h,t ɪ̀ n òː h p íː h
+nidaah,V;REAL;PFV/PRF;2;DU/PL,s ɪ̀ n òː kʰ ɛ́,n ò x t l ɑ̃̀ː ʔ
+łitsxo,V;REAL;PFV/PRF;2;PL,t ɑ̀ ɬ ɪ̀ n ò x t͡ʃʰ ò,t ɑ̀ n ò x t͡sʰ ò
+nteel,V;REAL;PFV/PRF;4;PL,t ɑ̀ t͡ʃ ɪ̀ t èː l,ʔ ɑ̀ t ɑ̀ t͡ʃ òː sʲ ɛ̀ ʔ
+nteel,V;REAL;PFV/PRF;3;PL,t ɑ̀ n ɪ̀ tʰ èː l,t ɑ̀ n ìː tʰ èː l
+nteel,V;REAL;PFV/PRF;3;SG/DU/PL,ⁿtʰ èː l,t ɪ̀ t èː l

@@ -1,0 +1,759 @@
+lemma,paradigm_slot,target,prediction
+poder,V;IND;PST;1;PL;IPFV,p u d i e m,p u z a v e m
+poder,V;IND;FUT;2;SG,p u d ɾ a s,t o ɾ n a ɾ a s
+poder,V;COND;1;PL,p u d ɾ i e m,p u ɡ e s i t a ɾ i e m
+poder,V;COND;3;PL,p u d ɾ i ə̯ n,t u ɾ n a ɾ j ə n
+poder,V;COND;2;SG,p u d ɾ i s,p u d ɾ i s
+poder,V;SBJV;PST;3;SG,p u ɡ e s,p o ɡ e s
+poder,V;SBJV;PRS;1;PL,p u ɡ e m,p u ɡ e m
+poder,V;POS;IMP;3;PL,p u ɡ i n,p u ɡ i n
+poder,V;SBJV;PRS;3;PL,p u ɡ i n,p u ɡ i n
+poder,V;SBJV;PRS;3;SG,p u ɡ i,p u ɡ i
+presentar,V;IND;FUT;3;PL,p ɾ e s e n t a ɾ a n,p ɾ e z e n t a ɾ a n
+presentar,V;IND;PST;1;PL;PFV,p ɾ e z ɛ n t a ɾ ə m,p ɾ e z ɛ n t a ɾ e m
+presentar,V;IND;PST;2;SG;PFV,p ɾ e s e n t a ɾ e s,t u ɾ n a ɾ e s
+presentar,V;IND;FUT;2;PL,p ɾ e z e n t a ɾ u,p ɾ e z e n t a ɾ e w
+presentar,V;COND;1;SG,p ɾ e z e n t a ɾ j a,p ɾ e z ɛ n t a ɾ i s
+presentar,V;COND;3;SG,p ɾ e z e n t a ɾ j a,p ɾ e z e n t a ɾ j a
+presentar,V;COND;3;PL,p ɾ e z ɛ n t a ɾ j ɛ̃,p u s a ɾ j ə n
+presentar,V;IND;PST;3;SG;PFV,p ɾ e z ɛ n t a,p ɾ e z ɛ n t a ɾ e s
+presentar,V;IND;PRS;3;PL,p ɾ e s e n t ə n,p ɾ e s e n t ə n
+presentar,V;SBJV;PST;2;SG,p ɾ e s e n t e s i s,p ɾ e z ɛ n t e s
+presentar,V;IND;PRS;2;PL,p ɾ e s e n t ø,p ɾ e s e n t u
+presentar,V;SBJV;PRS;2;PL,p ɾ e s e n t ø,p ɾ e s e n t e s j u
+baixar,V;IND;FUT;2;SG,b a j ʃ a ɾ a s,b a i ʃ a ɾ a s
+baixar,V;IND;PST;3;PL;PFV,b a i ʃ a ɾ e n,b a j ʃ a ɾ e s i n
+baixar,V;IND;PST;2;SG;PFV,b a i ʃ a ɾ e s,b a j ʃ a ɾ e s
+baixar,V;COND;1;SG,b a i ʃ a ɾ j a,b a i ʃ a ɾ j a
+baixar,V;IND;PRS;3;PL,b a i ʃ e n,b a j ʃ a ɾ a n
+baixar,V;SBJV;PST;2;SG,b a ʃ e s i s,b a j ʃ e s
+baixar,V;IND;PRS;2;PL,b a j ʃ e w,b a i ʃ e w
+baixar,V;IND;PST;1;SG;PFV,b a i ʃ i,b a j ʃ a ɾ e
+baixar,V;POS;IMP;3;SG,b a i ʃ i,b a j ʃ a
+millorar,V;IND;FUT;1;PL,m i ʎ o ɾ a ɾ e m,m i ʎ o ɾ a ɾ e m
+millorar,V;IND;PST;2;PL;PFV,m i ʎ u ɾ a ɾ e w,m i ʎ u ɾ a ɾ e w
+millorar,V;COND;3;PL,m i ʎ o ɾ a ɾ j ə n,m i ʎ o ɾ a ɾ j ə n
+millorar,V;COND;2;SG,m i ʎ o ɾ a ɾ i s,m i ʎ o ɾ a ɾ i s
+millorar,V;IND;PST;1;SG;IPFV,m i ʎ o ɾ a v a,m i ʎ o ɾ a v a
+millorar,V;IND;PRS;3;PL,m i ʎ o ɾ ə n,m i ʎ o ɾ i n
+servir,V;POS;IMP;3;PL,s e r b e ʃ i n,s e r b i ɾ j ə n
+servir,V;SBJV;PRS;1;SG,s e r b e i ʃ i,s e r b e ʃ e s
+servir,V;IND;PRS;1;SG,s e r b e i ʃ u,t o ɾ n o
+servir,V;IND;PST;1;SG;IPFV,s e ɾ b j a,s ɛ ɾ v i s i
+servir,V;IND;PST;1;PL;IPFV,s e ɾ v i e m,s ɛ ɾ v i s i m
+servir,V;IND;PST;2;PL;IPFV,s e r v i j u,t u ɾ n a v e w
+servir,V;IND;PST;2;PL;PFV,s e r v i ɾ e w,t u ɾ n a ɾ e w
+servir,V;COND;3;SG,s e r b i ɾ j a,s e r b i ɾ j a
+servir,V;SBJV;PST;1;SG,s e ɾ v i s,p o z e s
+semblar,V;IND;FUT;3;PL,s ə m b l a ɾ a n,s e m b l a ɾ a n
+semblar,V;IND;FUT;1;SG,s e m b l a ɾ e,s e m b l a ɾ a
+semblar,V;COND;1;SG,s e m b l a ɾ j a,s e m b l a ɾ j a
+semblar,V;COND;2;SG,s e m b l a ɾ i s,s ɛ m b l a ɾ j a
+semblar,V;COND;2;PL,s e m b l a ɾ i j u,s e m b l a ɾ i j u
+semblar,V;IND;PST;3;PL;IPFV,s e m b l a v ə n,s e m b l a v ə n
+semblar,V;IND;PST;2;SG;IPFV,s e m b l a v s,s e m b l a v s
+semblar,V;IND;PST;2;PL;IPFV,s e m b l a v ø,s ɛ m b l a v ɛ m
+semblar,V;IND;PST;3;SG;PFV,s e m b l a,s e m b l a ɾ e s
+semblar,V;POS;IMP;1;PL,s e m b l ə m,b u l ɡ e m
+semblar,V;SBJV;PST;1;PL,s ɛ m b l e s i m,s ɛ m b l e s i m
+semblar,V;SBJV;PST;2;SG,s e m b l e s i s,s ɛ m b l e s i s
+semblar,V;SBJV;PRS;2;PL,s e m b l u,s e m b l u
+semblar,V;SBJV;PRS;1;SG,s e m b l i,s e m b l i
+semblar,V;SBJV;PRS;3;SG,s e m b l i,s e m b l e s
+semblar,V;IND;PRS;1;SG,s e m b l o,s ɛ m b l a ɾ e
+posar,V;IND;PST;3;PL;PFV,p u s a ɾ e n,t u ɾ n a ɾ e n
+posar,V;IND;PST;2;SG;PFV,p u s a ɾ e s,p u z a ɾ e s
+posar,V;COND;1;PL,p u s a ɾ i e m,p u z a ɾ i ə m
+posar,V;COND;3;PL,p u s a ɾ j ɛ̃,p u z a ɾ j ə n
+posar,V;IND;PST;2;SG;IPFV,p u s a v s,p u z a v s
+posar,V;IND;PST;2;PL;IPFV,p u s a v ø,p u z a v ø
+posar,V;IND;PST;3;SG;PFV,p u s a,a ɡ e
+posar,V;POS;IMP;1;PL,p u s e m,p ɾ u v ə m
+posar,V;SBJV;PST;1;PL,p u z e s i m,p u z e s i m
+posar,V;IND;PRS;1;SG,p o s u,t o ɾ n o
+oferir,V;SBJV;PRS;3;PL,o f e ɾ e i ʃ i n,u f e ɾ i s i n
+oferir,V;SBJV;PRS;1;SG,o f e ɾ e i ʃ i,u f e ɾ e i ʃ i
+oferir,V;IND;PRS;1;SG,u f e ɾ e i ʃ o,o f e ɾ e i ʃ u
+oferir,V;IND;PRS;3;SG,u f e ɾ e i ʃ,e s
+oferir,V;POS;IMP;1;PL,o f e ɾ i m,b u l ɡ e m
+oferir,V;IND;PST;1;PL;PFV,o f e ɾ i ɾ e m,o f e ɾ i ɾ e m
+oferir,V;COND;1;SG,o f e ɾ i ɾ j a,u f e ɾ i ɾ j a
+oferir,V;IND;PRS;2;PL,o f e ɾ j u,u f e ɾ i ɾ e w
+oferir,V;SBJV;PRS;2;PL,o f e ɾ j u,u f e ɾ i e̞
+seguir,V;IND;PRS;3;PL,s e ɡ e i ʃ e n,s e ɡ i ɾ a n
+seguir,V;POS;IMP;3;PL,s e ɡ e i ʃ i n,s e ɡ e i ʃ i n
+seguir,V;SBJV;PRS;3;SG,s e ɡ e i ʃ i,s e ɡ e i ʃ i
+seguir,V;IND;PRS;3;SG,s e ɡ e i ʃ,s e ɡ i ɾ a
+seguir,V;IND;FUT;1;SG,s e ɡ i ɾ e,s e ɡ i ɾ a
+seguir,V;COND;3;SG,s e ɡ i ɾ j a,s e ɡ i ɾ j a
+seguir,V;IND;PST;3;SG;PFV,s e ɡ i,s e ɡ i ɾ e s
+passar-se,V;IND;FUT;3;SG,p a s a ɾ a,p a s a ɾ a
+passar-se,V;IND;PST;2;PL;PFV,p a s a ɾ e w,p a s a ɾ e w
+passar-se,V;IND;FUT;1;SG,p a s a ɾ e,p a s a ɾ e
+passar-se,V;COND;1;SG,p a s a ɾ j a,p a s a ɾ j a
+passar-se,V;COND;1;PL,p a s a ɾ i ə m,p a s a ɾ i ə m
+passar-se,V;IND;PRS;3;SG,p a s a,a
+passar-se,V;IND;PRS;1;PL,p a s ə m,p a s j u ɾ e m
+passar-se,V;SBJV;PST;3;SG,p a s e s,p a s e s i t e s
+passar-se,V;SBJV;PRS;2;SG,p a s i s,p ɛ ɾ m i s
+passar-se,V;IND;PST;1;SG;PFV,p a s i,f w i
+passar-se,V;SBJV;PRS;1;SG,p a s i,p a s i
+passar-se,V;IND;PRS;1;SG,p a s u,t o ɾ n o
+forçar,V;COND;1;SG,f o ɾ s a ɾ j a,f o ɾ s a ɾ j a
+forçar,V;POS;IMP;2;SG,f o ɾ s a,p u ɡ s
+forçar,V;IND;PRS;1;PL,f o ɾ s ə m,f o ɾ s a ɾ e m
+forçar,V;SBJV;PST;3;PL,f o ɾ s e s i n,f o ɾ s e s i n
+forçar,V;SBJV;PST;2;SG,f o ɾ s e s i s,f o ɾ s e s i s
+forçar,V;SBJV;PST;2;PL,f o ɾ s e s j u,f o ɾ s e s j u
+forçar,V;SBJV;PRS;3;PL,f o ɾ s i n,f o ɾ s i n
+ser,V;IND;PST;2;SG;IPFV,e ɾ e s,s e ɾ a v s
+ser,V;IND;PRS;2;SG,e t s,p o s e s
+ser,V;IND;FUT;1;PL,s e ɾ e m,s e ɾ e m
+ser,V;COND;3;PL,s e ɾ j ɛ̃,s e ɾ j ə n
+ser,V;POS;IMP;1;PL,s i ɡ w e m,s e ɡ w e m
+ser,V;POS;IMP;3;SG,s i ɡ i,s i ɡ i
+ser,V;IND;PRS;2;PL,s u,s u
+dar,V;IND;FUT;1;PL,d a ɾ e m,d a ɾ e m
+dar,V;IND;FUT;2;PL,d a ɾ u,d a ɾ u
+dar,V;IND;FUT;1;SG,d a ɾ e,d a ɾ e
+dar,V;COND;1;PL,d a ɾ i e m,d a ɾ i e m
+dar,V;IND;PST;1;SG;IPFV,d a b a,d a b a
+dar,V;SBJV;PRS;1;PL,d e m,d e m
+noure,V;IND;PST;3;PL;PFV,n u ɡ e ɾ e n,n u ɡ e ɾ e n
+noure,V;SBJV;PRS;2;PL,n o ɡ e w,n u ɡ e s j u
+noure,V;SBJV;PRS;2;SG,n u ɡ i s,n u ɡ e s i s
+noure,V;IND;PST;2;SG;IPFV,n o i s,n o j a
+noure,V;IND;FUT;2;SG,n u ɾ a s,n u ɾ a s
+noure,V;NFIN,n u ɾ,b j u ɾ
+noure,V;COND;2;PL,n u ɾ i j u,n u ɾ i j u
+noure,V;IND;PRS;2;SG,n u s,n u ɾ e s
+tenir,V;IND;PST;3;PL;IPFV,t e n j ɛ̃,a v j ɛ̃
+tenir,V;COND;1;PL,t i n d ɾ i e m,t i n d ɾ i e m
+tenir,V;SBJV;PRS;1;PL,t i ŋ ɡ e m,t i ŋ ɡ e m
+tenir,V;SBJV;PRS;3;PL,t i ŋ ɡ i n,t e n s i n
+tenir,V;SBJV;PRS;3;SG,t i ŋ ɡ i,t i ŋ ɡ i s i
+considerar,V;IND;PST;2;SG;PFV,k u n s i d ə ɾ a ɾ e s,k u n s i d e ɾ e s
+considerar,V;IND;PST;2;PL;PFV,k u n s i d e ɾ a ɾ e w,t u ɾ n a ɾ e w
+considerar,V;IND;FUT;1;SG,k u n s i d e ɾ a ɾ e,k u n s i d e ɾ e
+considerar,V;COND;1;PL,k u n s i d ə ɾ a ɾ i ə m,k e d a ɾ i e m
+considerar,V;COND;2;PL,k u n s i d ə ɾ a ɾ i j u,k u n s i d ə ɾ a ɾ i s
+considerar,V;IND;PST;1;SG;IPFV,k u n s i d ə ɾ a v a,k u n s i d ə ɾ a v a
+considerar,V;IND;PST;3;SG;PFV,k u n s i d e ɾ a,k u n s i d e ɾ a ɾ ə n
+considerar,V;SBJV;PST;1;SG,k u n s i d ə ɾ e s,k u n s i d ə ɾ e s
+considerar,V;SBJV;PRS;3;PL,k u n s i d ə ɾ i n,k u n s i d e ɾ a n
+mesurar,V;IND;FUT;3;PL,m e s u ɾ a ɾ a n,m e s u ɾ a ɾ a n
+mesurar,V;COND;2;PL,m e s u ɾ a ɾ i j u,m e s u ɾ a ɾ i j u
+mesurar,V;NFIN,m e s u ɾ a,k o r e
+mesurar,V;SBJV;PST;2;SG,m e s j u ɾ e s i s,m e s u ɾ e s i s
+mesurar,V;SBJV;PST;1;SG,m e s u ɾ e s,m e s u ɾ e s i
+mesurar,V;POS;IMP;2;PL,m e s u ɾ e w,m e s u ɾ e w
+mesurar,V;SBJV;PRS;2;SG,m e s u ɾ i s,m e s u ɾ e s
+mesurar,V;SBJV;PRS;3;SG,m e s u ɾ i,m e s u ɾ a
+rebre,V;IND;PRS;1;PL,r e b e m,r e b e m
+rebre,V;IND;PST;3;PL;PFV,r e b e ɾ e n,r e b e ɾ e n
+rebre,V;IND;PST;2;SG;PFV,r e b e ɾ e s,r e b e ɾ e s
+rebre,V;SBJV;PST;1;PL,r e b e s i m,r e b e s i m
+rebre,V;SBJV;PST;2;SG,r e b e s i s,r e b e s
+rebre,V;SBJV;PST;3;SG,r e b e s,r e b e s
+rebre,V;IND;PRS;2;PL,r e b e w,r e b e w
+rebre,V;IND;PST;3;SG;PFV,r e b e,s e ɡ e
+rebre,V;IND;PST;2;PL;IPFV,r e b i e w,r e b i e w
+rebre,V;POS;IMP;3;PL,r e b i n,r e b i n
+rebre,V;IND;FUT;1;SG,r e b ɾ e,r e b ɾ i ɾ e
+rebre,V;COND;1;PL,r e b ɾ i e m,r e b ɾ e m
+mostrar,V;IND;FUT;3;SG,m u s t ɾ a ɾ a,m u s t ɾ a
+mostrar,V;COND;3;SG,m u s t ɾ a ɾ j a,m u s t ɾ a ɾ j a
+mostrar,V;IND;PRS;3;SG,m o s t ɾ a,m u s t ɾ a
+mostrar,V;SBJV;PST;3;PL,m o s t ɾ e s i n,a ɡ e s i n
+mostrar,V;SBJV;PRS;2;PL,m o s t ɾ e w,m o s t ɾ e w
+mostrar,V;POS;IMP;3;PL,m o s t ɾ i n,m o s t ɾ i n
+mostrar,V;POS;IMP;3;SG,m o s t ɾ i,m o s t ɾ a
+tornar,V;IND;FUT;1;PL,t u ɾ n a ɾ e m,t o ɾ n a ɾ e m
+tornar,V;COND;2;SG,t o ɾ n a ɾ i s,t o ɾ n a ɾ i s
+tornar,V;COND;2;PL,t o ɾ n a ɾ i j u,t o ɾ n a ɾ i j u
+tornar,V;POS;IMP;2;SG,t o ɾ n a,t o ɾ n a
+tornar,V;IND;PRS;3;PL,t o ɾ n ə n,p o s ə n
+tornar,V;SBJV;PRS;1;SG,t o ɾ n i,t o ɾ n i
+trobar,V;IND;FUT;3;PL,t ɾ u b a ɾ a n,t ɾ u b a ɾ a n
+trobar,V;COND;2;SG,t ɾ u b a ɾ i s,t ɾ u b a ɾ i s
+trobar,V;COND;2;PL,t ɾ u b a ɾ i j u,b j u ɾ i j u
+trobar,V;IND;PST;1;SG;IPFV,t ɾ o b a v a,t ɾ u b a v a
+trobar,V;IND;PST;2;SG;IPFV,t ɾ u b a v s,t ɾ u b a v a
+trobar,V;POS;IMP;2;SG,t ɾ o b a,p u ɡ s
+trobar,V;IND;PRS;3;PL,t ɾ u b e n,p a s e n
+trobar,V;SBJV;PST;3;PL,t ɾ u b e s i n,t ɾ u b e s i n
+trobar,V;SBJV;PST;3;SG,t ɾ o b e s,t ɾ o b i
+trobar,V;IND;PRS;2;PL,t ɾ u b e w,t ɾ o b a ɾ e w
+trobar,V;POS;IMP;2;PL,t ɾ u b e w,s u
+trobar,V;IND;PRS;1;SG,t ɾ u b o,t ɾ o b i
+treballar,V;IND;FUT;1;PL,t ɾ e b a l a ɾ e m,t ɾ e b a l a ɾ e m
+treballar,V;IND;PST;1;PL;PFV,t ɾ e b a l a ɾ e m,t ɾ e b a l a ɾ a ɾ ə m
+treballar,V;COND;3;SG,t ɾ e b a l a ɾ j a,t ɾ e b a l a ɾ j a
+treballar,V;COND;3;PL,t ɾ e b a l a ɾ j ə n,t ɾ e b a l a ɾ a ɾ j ə n
+treballar,V;COND;2;PL,t ɾ e b a l a ɾ i j u,u f e ɾ i ɾ i j u
+treballar,V;IND;PST;2;SG;IPFV,t ɾ e b a l a v s,t ɾ e b a l a v a
+treballar,V;SBJV;PRS;1;PL,t ɾ e b a l ə m,t ɾ e b a l i s i m
+treballar,V;SBJV;PST;2;SG,t ɾ e b a l e s i s,t ɾ e b a l e s i s
+treballar,V;SBJV;PST;2;PL,t ɾ e b a l e s j u,t ɾ e b a l e s j u
+treballar,V;SBJV;PRS;2;PL,t ɾ e b a l j u,t ɾ e b a l j u
+treballar,V;SBJV;PRS;2;SG,t ɾ e b a l i s,t ɾ e b a l i s
+treballar,V;POS;IMP;3;SG,t ɾ e b a l i,t ɾ e b a l a
+realitzar,V;IND;FUT;3;PL,r e a l i t s a ɾ a n,b j u ɾ a n
+realitzar,V;IND;FUT;1;SG,r e a l i t s a ɾ e,p u s a ɾ e
+realitzar,V;COND;1;SG,r e a l i t s a ɾ j a,r e a l i t s a ɾ j a
+realitzar,V;COND;3;SG,r e a l i t s a ɾ j a,r e a l i t s a ɾ j a
+realitzar,V;COND;3;PL,r e a l i t s a ɾ j ɛ̃,a w ɾ j ɛ̃
+realitzar,V;IND;PST;1;SG;IPFV,r e a l i t s a v a,r e a l i t s a v a
+realitzar,V;IND;PST;3;SG;IPFV,r e a l i t s a v a,r e a l i t s a v a
+realitzar,V;IND;PST;2;PL;IPFV,r e a l i t s a v ø,r e a l i t s a v e w
+realitzar,V;IND;PRS;3;PL,r e a l i t s ə n,p o d ə n
+realitzar,V;SBJV;PST;3;PL,r e a l i t s e s i n,r e a l i s i n
+realitzar,V;SBJV;PRS;3;PL,r e a l i t s i n,k a p i ɡ ə n
+realitzar,V;IND;PST;1;SG;PFV,r e a l i t s i,f w i
+realitzar,V;SBJV;PRS;3;SG,r e a l i t s i,r e a l i t s i
+casar-se,V;IND;FUT;1;PL,k a s a ɾ e m,k a s a ɾ e m
+casar-se,V;IND;PST;1;PL;PFV,k a s a ɾ e m,k a s a ɾ e m
+casar-se,V;IND;PST;2;SG;PFV,k a s a ɾ e s,k a s a ɾ e s
+casar-se,V;COND;1;SG,k a s a ɾ j a,k a s a ɾ j a
+casar-se,V;COND;1;PL,k a s a ɾ i e m,k a s a ɾ i e m
+casar-se,V;IND;PST;3;SG;PFV,k a s a,b o l ɡ e
+casar-se,V;SBJV;PST;2;PL,k a s e s j u,k a s e s j u
+casar-se,V;IND;PST;1;SG;PFV,k a s i,f w i
+deixar,V;IND;FUT;2;SG,d e i ʃ a ɾ a s,d e i ʃ a ɾ a s
+deixar,V;IND;PST;1;PL;PFV,d e i ʃ a ɾ e m,d e i ʃ a ɾ e s i m
+deixar,V;IND;PST;3;PL;PFV,d e i ʃ a ɾ e n,d e i ʃ a ɾ e n
+deixar,V;IND;PST;2;SG;PFV,d e i ʃ a ɾ e s,k a s a ɾ e s
+deixar,V;IND;PST;3;SG;PFV,d e i ʃ a,d e i ʃ a ɾ e s
+deixar,V;SBJV;PST;2;SG,d e i ʃ e s i s,d e i ʃ e s i s
+deixar,V;IND;PRS;2;SG,d e i ʃ e s,d e i ʃ e s
+deixar,V;IND;PRS;1;SG,d e i ʃ o,t o ɾ n o
+cabre,V;IND;PST;1;PL;PFV,k a b e ɾ e m,k a b e ɾ e m
+cabre,V;IND;PST;3;PL;PFV,k a b e ɾ e n,p a s a ɾ e n
+cabre,V;IND;PST;2;SG;PFV,k a b e ɾ e s,k a p i ɡ e ɾ e s
+cabre,V;SBJV;PST;1;PL,k a b e s i m,k a b e s i m
+cabre,V;SBJV;PST;1;SG,k a b e s,k a b e s
+cabre,V;IND;PST;3;SG;IPFV,k a b j a,k a b j a
+cabre,V;IND;PST;1;SG;PFV,k a b i,k a b e ɾ e s
+cabre,V;IND;PRS;1;SG,k a b o,k e d o
+cabre,V;IND;FUT;2;SG,k a b ɾ a s,k a b ɾ a s
+cabre,V;IND;FUT;1;SG,k a b ɾ e,k a b ɾ a
+cabre,V;COND;3;PL,k a b ɾ i ə̯ n,k a b ɾ i ɾ j ɛ̃
+cabre,V;SBJV;PRS;1;SG,k a p i ɡ a,k a p i ɡ e s
+cabre,V;POS;IMP;1;PL,k a p i ɡ e m,k a b e m
+cabre,V;POS;IMP;3;PL,k a p i ɡ ə n,k a p i ɡ ə n
+cabre,V;IND;PRS;3;SG,k a p,e s
+permetre,V;POS;IMP;1;PL,p ə ɾ m e t ə m,t ɛ ɾ m e m
+permetre,V;IND;PRS;3;PL,p ə ɾ m e t ə n,p e r m e t ɾ ə n
+permetre,V;SBJV;PST;1;PL,p ɛ ɾ m e t e s i m,p ɛ ɾ m ə t e s i m
+permetre,V;POS;IMP;2;PL,p e r m e t j u,p a s j u
+permetre,V;IND;PST;1;PL;IPFV,p ə ɾ m e t i ə m,p u s a v e m
+permetre,V;IND;PST;3;PL;IPFV,p ə ɾ m e t j ɛ̃,s e ɡ j e n
+permetre,V;IND;PST;2;SG;IPFV,p ɛ ɾ m e t i s,p ə ɾ m e t i a
+permetre,V;IND;PST;2;PL;IPFV,p e ɾ m e t i j u,p u s a v ø
+permetre,V;POS;IMP;3;PL,p ə ɾ m e t i n,p ə ɾ m e t i n
+permetre,V;SBJV;PRS;2;SG,p ə ɾ m e t i s,p ɛ ɾ m e t ɾ i s
+permetre,V;COND;3;SG,p ə ɾ m e t ɾ i a,p ɛ ɾ m ə t ɾ i a
+permetre,V;COND;3;PL,p ə ɾ m e t ɾ i ə̯,p ɛ ɾ m ə t ɾ i ə m
+arribar,V;IND;PST;2;PL;PFV,a r i b a ɾ e w,a r i b a ɾ e w
+arribar,V;COND;1;SG,a r i b a ɾ j a,a r i b a ɾ j a
+arribar,V;NFIN,a r i b a,a r i b a ɾ
+arribar,V;IND;PST;1;SG;IPFV,a r i b a v a,a r i b a v a
+arribar,V;SBJV;PST;1;PL,a r i b e s i m,f o s i m
+arribar,V;IND;PRS;2;PL,a r i b e w,a r i b e n
+arribar,V;POS;IMP;2;PL,a r i b e w,a r i b a ɾ i e̞
+partir,V;IND;PRS;2;SG,p a ɾ t e i ʃ e s,p a ɾ t e i ʃ i s
+partir,V;POS;IMP;3;PL,p a ɾ t e i ʃ i n,p a ɾ t e i ʃ i n
+partir,V;SBJV;PRS;1;SG,p a ɾ t e i ʃ i,p a ɾ t e i ʃ i
+partir,V;SBJV;PST;2;SG,p a ɾ t i s i s,p a ɾ t i s i s
+dir,V;IND;PST;3;SG;IPFV,d e j a,e ɾ a
+dir,V;IND;PST;3;PL;PFV,d i ɡ e ɾ e n,d i ɡ e ɾ e n
+dir,V;SBJV;PST;2;PL,d i ɡ e s j u,d i ɡ e s j u
+dir,V;SBJV;PRS;1;SG,d i ɡ i,d i ɡ i
+dir,V;IND;FUT;2;PL,d i ɾ u,d i ɾ a s
+dir,V;IND;FUT;1;SG,d i ɾ e,d i ɾ e
+dir,V;COND;1;PL,d i ɾ i ə m,t u ɾ n a ɾ i e m
+heure,V;SBJV;PRS;1;PL,a ɡ e m,a ɡ e m
+heure,V;COND;1;PL,a w ɾ i e m,t u ɾ n a ɾ i e m
+heure,V;COND;3;PL,a w ɾ j ɛ̃,t u ɾ n a ɾ j ə n
+heure,V;COND;2;SG,a w ɾ i s,p u s a ɾ i s
+heure,V;COND;2;PL,a w ɾ i j u,j u ɾ i j u
+heure,V;POS;IMP;2;PL,a v e w,s u
+necessitar,V;IND;FUT;3;PL,n e s e s i t a ɾ a n,k e d a ɾ a n
+necessitar,V;IND;PST;3;PL;PFV,n e s e s i t a ɾ ə n,t u ɾ n a ɾ e n
+necessitar,V;IND;PST;2;PL;PFV,n e s e s i t a ɾ e w,n e s e s i t a ɾ e w
+necessitar,V;IND;FUT;1;SG,n e s e s i t a ɾ e,n e s e s i t a ɾ e
+necessitar,V;IND;PST;1;SG;IPFV,n e s e s i t a v a,n e s e s i t a v a
+necessitar,V;SBJV;PST;1;PL,n e s e s i t e s i m,n e s e s i m
+necessitar,V;SBJV;PST;2;SG,n e s e s i t e s i s,n e s e s i t e s
+necessitar,V;SBJV;PST;1;SG,n e s e s i t e s,n e s e s i t e s
+necessitar,V;POS;IMP;2;PL,n e s e s i t j u,s u
+necessitar,V;SBJV;PRS;2;PL,n e s e s i t j u,n e s e s i t j u
+necessitar,V;POS;IMP;3;SG,n e s e s i t i,n e s e s i t a
+provar,V;IND;FUT;2;SG,p ɾ u v a ɾ a s,p ɾ u v a ɾ a s
+provar,V;IND;FUT;1;PL,p ɾ u v a ɾ e m,p ɾ u v a ɾ e m
+provar,V;IND;PST;1;PL;PFV,p ɾ u v a ɾ e m,p ɾ u v a ɾ e m
+provar,V;COND;1;PL,p ɾ u v a ɾ i e m,p ɾ u v a ɾ i e m
+provar,V;COND;3;PL,p ɾ u v a ɾ j ɛ̃,a w ɾ j ɛ̃
+provar,V;COND;2;SG,p ɾ u v a ɾ i s,p ɾ u v a ɾ i s
+provar,V;IND;PST;3;SG;IPFV,p ɾ u v a v a,p ɾ u v a v a
+provar,V;SBJV;PRS;1;PL,p ɾ u v ə m,p ɾ u v i s i m
+provar,V;IND;PRS;3;PL,p ɾ u v ə n,p o s ə n
+provar,V;SBJV;PRS;2;PL,p ɾ u v ø,p ɾ u v ø
+provar,V;IND;PST;1;SG;PFV,p ɾ u v i,p ɾ u v a ɾ e s
+provar,V;POS;IMP;3;SG,p ɾ u v i,p ɾ u v a
+provar,V;SBJV;PRS;1;SG,p ɾ u v i,p ɾ u v i
+disposar,V;IND;PST;1;PL;PFV,d i s p u z a ɾ e m,d i s p o z a ɾ ə m
+disposar,V;COND;2;PL,d i s p o z a ɾ i j u,p a s a ɾ i j u
+disposar,V;IND;PST;1;PL;IPFV,d i s p u z a v e m,d i s p u s a v ɛ m
+disposar,V;IND;PRS;1;PL,d i s p u s ə m,d i s p o s e s i m
+disposar,V;SBJV;PST;3;PL,d i s p o z e s i n,d i s p u s e s i n
+disposar,V;POS;IMP;2;PL,d i s p o s e,s u
+disposar,V;SBJV;PRS;1;SG,d i s p o s i,d i s p o s i
+disposar,V;IND;PRS;1;SG,d i s p o s o,d i s p o s a ɾ e
+tornar-se,V;IND;PST;2;SG;PFV,t u ɾ n a ɾ e s,t u ɾ n a ɾ e s
+tornar-se,V;IND;FUT;2;PL,t o ɾ n a ɾ u,a w ɾ e w
+tornar-se,V;COND;2;PL,t o ɾ n a ɾ i j u,t u ɾ n a ɾ i j u
+tornar-se,V;NFIN,t o ɾ n a,b j u ɾ
+tornar-se,V;IND;PST;3;SG;IPFV,t o ɾ n a v a,t u ɾ n a v a
+tornar-se,V;IND;PRS;1;PL,t o ɾ n e m,t u ɾ n e m
+tornar-se,V;POS;IMP;1;PL,t o ɾ n e m,t u ɾ n e m
+tornar-se,V;SBJV;PST;3;SG,t o ɾ n e s,t u ɾ n e s
+tornar-se,V;POS;IMP;3;PL,t o ɾ n i n,t u ɾ n a ɾ i n
+tornar-se,V;POS;IMP;3;SG,t o ɾ n i,t u ɾ n a
+demanar,V;IND;FUT;2;PL,d e m a n a ɾ u,d e m a n a ɾ u
+demanar,V;IND;PST;2;PL;PFV,d e m a n a ɾ e w,d e m a n a ɾ e w
+demanar,V;IND;FUT;1;SG,d e m a n a ɾ e,d e m a n a ɾ e
+demanar,V;COND;1;SG,d e m a n a ɾ j a,d e m a n a ɾ j a
+demanar,V;COND;3;PL,d e m a n a ɾ j ə n,d e m a n a ɾ j ə n
+demanar,V;COND;2;SG,d e m a n a ɾ i s,d e m a n a ɾ i s
+demanar,V;IND;PST;3;SG;IPFV,d e m a n a v a,d e m a n a v a
+demanar,V;IND;PRS;2;SG,d e m a n e s,b o l s
+demanar,V;POS;IMP;3;PL,d e m a n i n,e ɡ i n
+demanar,V;SBJV;PRS;3;SG,d e m a n i,d e m a n i
+demanar,V;IND;PRS;1;SG,d e m a n o,d e m a n i
+pair,V;IND;PRS;3;PL,p e i ʃ e n,p e ɾ e n
+pair,V;IND;PRS;1;SG,p e i ʃ o,p e i ʃ e s
+pair,V;SBJV;PRS;1;PL,p a i m,p e i ʃ e s i m
+pair,V;IND;FUT;3;SG,p a i ɾ a,p e ɾ a
+pair,V;IND;PST;3;PL;PFV,p a i ɾ e n,p e ɾ a ɾ e n
+pair,V;COND;2;SG,p e ɾ i s,p a i ɾ i s
+pair,V;NFIN,p e ɾ,d i ɾ
+pair,V;SBJV;PST;2;PL,p a i s j u,p a s e s j u
+pair,V;SBJV;PST;1;SG,p a i s,p a i s i
+pair,V;POS;IMP;2;PL,p a j u,p e i ʃ e w
+pair,V;SBJV;PRS;2;PL,p a j u,p e i ʃ e w
+parar,V;IND;FUT;2;SG,p a ɾ a ɾ a s,p a ɾ a ɾ a s
+parar,V;IND;FUT;1;PL,p a ɾ a ɾ e m,p a ɾ a ɾ e m
+parar,V;IND;PST;2;SG;PFV,p a ɾ a ɾ e s,p a ɾ a ɾ e s
+parar,V;COND;2;SG,p a ɾ a ɾ i s,p a ɾ a ɾ i s
+parar,V;IND;PST;2;SG;IPFV,p a ɾ a v e s,p a ɾ a v s
+parar,V;POS;IMP;2;SG,p a ɾ a,p a ɾ i
+parar,V;SBJV;PST;3;SG,p a ɾ e s,a ɡ e s
+parar,V;SBJV;PRS;3;SG,p a ɾ i,p a ɾ a
+consultar,V;IND;PST;1;PL;PFV,k u n s u l t a ɾ e m,k u n s u l t a ɾ e m
+consultar,V;IND;PST;3;PL;PFV,k u n s u l t a ɾ ə n,k u n s u l t a ɾ ə n
+consultar,V;COND;2;SG,k u n s u l t a ɾ i s,k u n s u l t a ɾ j e s
+consultar,V;IND;PST;3;SG;PFV,k u n s u l t a,s e ɡ e
+consultar,V;POS;IMP;1;PL,k u n s u l t ə m,k u n s u l t ə m
+consultar,V;SBJV;PRS;1;PL,k u n s u l t ə m,k u n s u l t e s i m
+consultar,V;SBJV;PRS;2;PL,k u n s u l t e w,k u n s u l t e s j u
+consultar,V;POS;IMP;3;PL,k u n s u l t i n,k u n s u l t i n
+consultar,V;SBJV;PRS;3;SG,k u n s u l t i,k u n s u l t i
+podar,V;IND;PST;1;PL;PFV,p u d a ɾ e m,p u d a ɾ e m
+podar,V;IND;PST;3;PL;PFV,p u d a ɾ e n,s e ɡ e ɾ ə n
+podar,V;IND;PST;2;SG;PFV,p u d a ɾ e s,p u d a ɾ e s
+podar,V;IND;PST;2;PL;PFV,p u d a ɾ e w,p u d a ɾ e s j u
+podar,V;COND;3;SG,p u d a ɾ j a,p u d a ɾ j a
+podar,V;COND;2;SG,p u d a ɾ i s,p u d a ɾ i s
+podar,V;IND;PST;1;PL;IPFV,p u d a v e m,p u d a v e m
+podar,V;IND;PRS;3;SG,p o d a,p u d a ɾ a
+podar,V;POS;IMP;1;PL,p u d e m,p u d e m
+podar,V;SBJV;PST;3;SG,p o d e s,p u d e s
+podar,V;POS;IMP;3;PL,p o d i n,p o d a ɾ i n
+podar,V;SBJV;PRS;3;SG,p o d i,p u d e s
+voler,V;IND;FUT;1;PL,b o l d ɾ e m,b j u ɾ e m
+voler,V;IND;FUT;1;SG,v o l d ɾ e,b o l d ɾ e
+voler,V;IND;PRS;3;PL,b o l e n,p o s ə n
+voler,V;NFIN,b o l e,k o r e
+voler,V;IND;PST;2;PL;IPFV,b u l i e̯,b u l a v ø
+voler,V;IND;PRS;3;SG,b o l,b u l ɡ i
+formar,V;IND;FUT;3;SG,f o ɾ m a ɾ a,f o ɾ m a ɾ a
+formar,V;IND;PST;3;PL;PFV,f o ɾ m a ɾ e n,f o ɾ ə n
+formar,V;IND;FUT;2;PL,f o ɾ m a ɾ u,b j u ɾ ø
+formar,V;COND;2;PL,f o ɾ m a ɾ i j u,f o ɾ m a ɾ i e̞
+formar,V;IND;PST;1;SG;IPFV,f o ɾ m a v a,f o ɾ m a v a
+formar,V;IND;PST;3;PL;IPFV,f o ɾ m a v ə n,f o ɾ m a v ɛ n
+formar,V;IND;PRS;3;SG,f o ɾ m a,f o ɾ m a ɾ a
+formar,V;IND;PRS;1;PL,f o ɾ m e m,f o ɾ m a ɾ e m
+formar,V;IND;PRS;2;PL,f o ɾ m u,f o ɾ m a ɾ u
+formar,V;POS;IMP;3;PL,f o ɾ m i n,t i ŋ ɡ i n
+formar,V;POS;IMP;3;SG,f o ɾ m i,f o ɾ m a
+formar,V;IND;PRS;1;SG,f o ɾ m o,f o ɾ m i n o
+visitar,V;IND;FUT;1;SG,b i z i t a ɾ e,b i z i t a ɾ a
+visitar,V;IND;PST;3;PL;IPFV,b i z i t a v ə n,b i z i t a v ə n
+visitar,V;IND;PST;2;PL;IPFV,v i z i t a v e w,k e d a v ø
+visitar,V;IND;PST;3;SG;PFV,b i z i t a,b i s i t a ɾ e s
+visitar,V;SBJV;PST;2;SG,b i z i t e s i s,b i z i t e s i s
+visitar,V;SBJV;PST;3;SG,b i z i t e s,b i s i t e s i
+visitar,V;POS;IMP;2;PL,b i z i t j u,b i s i t a ɾ i j u
+visitar,V;SBJV;PRS;2;PL,b i z i t j u,b i z i t j u
+creure,V;IND;PRS;1;SG,k ɾ e k,k ɾ e ɡ i
+creure,V;POS;IMP;1;PL,k ɾ e ɡ e m,k ɾ e ɡ i n
+creure,V;IND;PST;2;SG;PFV,k ɾ e ɡ e ɾ e s,k ɾ e ɡ e ɾ e s
+creure,V;SBJV;PST;3;SG,k ɾ e ɡ e s,k ɾ e ɡ e s
+creure,V;POS;IMP;3;SG,k ɾ e ɡ i,k ɾ e w
+creure,V;SBJV;PRS;1;SG,k ɾ e ɡ i,k ɾ e ɡ e s
+creure,V;SBJV;PRS;3;SG,k ɾ e ɡ i,k ɾ e ɡ e s
+creure,V;IND;PST;2;PL;IPFV,k ɾ e j ø,k ɾ e j e s j u
+creure,V;IND;FUT;1;SG,k ɾ e u ɾ e,k ɾ e u ɾ e
+ajudar,V;IND;PST;2;PL;PFV,a h u d a ɾ e w,a h u d a ɾ e w
+ajudar,V;COND;1;PL,a h u d a ɾ i e m,a h u d a ɾ i e m
+ajudar,V;COND;3;PL,a h u d a ɾ j ə n,a h u d a ɾ j ə n
+ajudar,V;IND;PST;2;PL;IPFV,a h u d a v ø,a h u d a v ø
+ajudar,V;IND;PRS;3;SG,a h u d a,a h u d o
+ajudar,V;POS;IMP;2;SG,a h u d a,a h u d a
+ajudar,V;IND;PRS;3;PL,a h u d ə n,a h u d a ɾ a n
+ajudar,V;SBJV;PST;1;PL,a h u d e s i m,a h u d e s i m
+ajudar,V;SBJV;PST;2;SG,a h u d e s i s,a h u d e s i s
+ajudar,V;SBJV;PRS;2;SG,a h u d i s,a h u d s
+ajudar,V;IND;PST;1;SG;PFV,a h u d i,a h u d a ɾ e s
+ajudar,V;SBJV;PRS;3;SG,a h u d i,a h u d i
+acabar,V;COND;3;SG,a k a b a ɾ j a,a k a b a ɾ j a
+acabar,V;COND;2;PL,a k a b a ɾ i j u,a k a b a ɾ i j u
+acabar,V;IND;PST;1;PL;IPFV,a k a b a v e m,a k a b a v ɛ m
+acabar,V;IND;PST;2;SG;IPFV,a k a b a v s,a k a b a v a
+acabar,V;IND;PRS;1;PL,a k a b e m,a k a b a ɾ e m
+acabar,V;SBJV;PST;3;PL,a k a b e s i n,a k a b i n
+acabar,V;SBJV;PRS;2;PL,a k a b e w,a k a b e w
+acabar,V;POS;IMP;3;PL,a k a b i n,s e ɡ i n
+acabar,V;SBJV;PRS;3;PL,a k a b i n,a k a b e n
+acabar,V;POS;IMP;3;SG,a k a b i,a k a b a
+viure,V;IND;PST;1;PL;PFV,b i s k e ɾ e m,b i s k e ɾ e m
+viure,V;IND;PST;3;PL;PFV,b i s k e ɾ ə n,b i s k e ɾ e n
+viure,V;SBJV;PST;2;PL,v i s k e s j u,s e ɡ i s j u
+viure,V;IND;FUT;1;PL,b i u ɾ e m,b i u ɾ a n
+viure,V;NFIN,b i u ɾ e,e s e
+viure,V;COND;3;PL,b i u ɾ j ɛ̃,b i u ɾ i s i n
+viure,V;COND;2;PL,b i u ɾ i e w,b i u ɾ i s j u
+viure,V;IND;PRS;2;SG,b i u s,b i s k
+viure,V;IND;PRS;3;SG,b i u,b i s k i
+viure,V;POS;IMP;2;SG,b i u,b i u ɾ i s
+viure,V;IND;PST;1;PL;IPFV,b i v i e m,b i s k e ɾ e m
+viure,V;IND;PST;2;SG;IPFV,b i v i s,t o ɾ n a v s
+viure,V;IND;PST;2;PL;IPFV,b i v i e̞,t o ɾ n a v ø
+viure,V;IND;PRS;1;PL,b i v i m,s o m
+establir,V;SBJV;PRS;3;PL,e s t a b l e i ʃ i n,e s t a b l e i ʃ i n
+establir,V;POS;IMP;3;SG,e s t a b l e i ʃ i,e s t a b l e i ʃ
+establir,V;POS;IMP;2;SG,e s t a b l e i ʃ,e s t a b l e i ʃ
+establir,V;POS;IMP;1;PL,e s t a b l i m,e s t a b l j u
+establir,V;IND;FUT;3;SG,e s t a b l i ɾ a,e s t a b l i ɾ a
+establir,V;IND;FUT;1;PL,e s t a b l i ɾ e m,e s t a b l i ɾ e m
+establir,V;IND;PST;3;PL;PFV,e s t a b l i ɾ ə n,e s t a b l i n
+establir,V;IND;PST;2;SG;PFV,e s t a b l i ɾ e s,t o ɾ n a ɾ e s
+establir,V;IND;FUT;2;PL,e s t a b l i ɾ e w,e s t a b l i ɾ a s
+establir,V;COND;1;PL,e s t a b l i ɾ i e m,k e d a ɾ i e m
+establir,V;SBJV;PST;3;SG,e s t a b l i s,e s t a b l i s i
+tractar,V;IND;FUT;3;PL,t ɾ a k t a ɾ a n,k a s a ɾ a n
+tractar,V;IND;FUT;2;SG,t ɾ a k t a ɾ a s,t ɾ a k t a ɾ a s
+tractar,V;IND;FUT;2;PL,t ɾ a k t a ɾ u,t ɾ a k t a ɾ u
+tractar,V;IND;FUT;1;SG,t ɾ a k t a ɾ e,t ɾ a k t a ɾ e
+tractar,V;IND;PST;1;PL;IPFV,t ɾ a k t a v ɛ m,t ɾ a k t a v ɛ m
+tractar,V;IND;PRS;3;SG,t ɾ a k t a,t ɾ a k t i
+tractar,V;IND;PRS;1;PL,t ɾ a k t ə m,t ɾ a k t ə m
+tractar,V;SBJV;PST;2;PL,t ɾ a k t e s j u,t ɾ a k t e s j u
+tractar,V;IND;PRS;2;PL,t ɾ a k t j u,t ɾ a k t ə n
+tractar,V;POS;IMP;2;PL,t ɾ a k t j u,p ɾ e s e n t ø
+quedar,V;IND;FUT;3;SG,k e d a ɾ a,k e d a ɾ a
+quedar,V;IND;FUT;1;SG,k e d a ɾ e,k e d a ɾ e
+quedar,V;COND;2;PL,k e d a ɾ i e̞,k e d a ɾ i j u
+quedar,V;IND;PST;1;PL;IPFV,k e d a v ɛ m,k e d a v e m
+quedar,V;IND;PST;3;PL;IPFV,k e d a v ə n,k e d a v ə n
+quedar,V;IND;PRS;1;PL,k e d e m,k e d e m
+quedar,V;SBJV;PRS;1;PL,k e d e m,k e d e m
+quedar,V;POS;IMP;2;PL,k e d e,k e d e
+quedar,V;POS;IMP;3;PL,k e d i n,k e d a ɾ i n
+quedar,V;POS;IMP;3;SG,k e d i,k e d a
+córrer,V;SBJV;PST;2;SG,k u r e ɡ e s i s,k u r ə ɡ e s
+córrer,V;SBJV;PST;2;PL,k u r ə ɡ e s j u,k u r ə ɡ e s j u
+córrer,V;POS;IMP;2;SG,k u r e,k u r ə ɾ i s
+córrer,V;IND;PST;1;SG;IPFV,k u r j a,k u r j a
+córrer,V;IND;PST;2;PL;IPFV,k u r i j u,k u r e ɾ a v ø
+córrer,V;SBJV;PRS;1;SG,k u r i,k u r o
+estar,V;IND;FUT;2;SG,e s t a ɾ a s,e s t a ɾ a s
+estar,V;COND;3;SG,e s t a ɾ j a,e s t a ɾ j a
+estar,V;COND;3;PL,e s t a ɾ j ə n,e s t a ɾ j ə n
+estar,V;COND;2;SG,e s t a ɾ i s,e s t a ɾ i s
+estar,V;IND;PST;1;SG;IPFV,e s t a v a,e s t a v a
+estar,V;IND;PST;3;PL;IPFV,e s t a v ə n,e s t a v e n
+estar,V;IND;PST;2;SG;IPFV,e s t a v s,e s t a v s
+estar,V;IND;PST;2;PL;IPFV,e s t a v e w,e s t a v ø
+estar,V;POS;IMP;1;PL,e s t i ɡ e m,e s t i ɡ e m
+estar,V;SBJV;PST;1;PL,e s t i ɡ e s i m,e s t i ɡ e s i m
+estar,V;SBJV;PST;2;SG,e s t i ɡ e s i s,e s t i ɡ e s i s
+estar,V;POS;IMP;2;PL,e s t i ɡ u,e s t i ɡ u
+estar,V;SBJV;PRS;2;SG,e s t i ɡ i s,e s t i ɡ e s
+estar,V;IND;PST;1;SG;PFV,e s t i ɡ i,e s t a ɾ e s
+saber,V;IND;PST;3;PL;PFV,s a b e ɾ e n,s a p i ɡ e ɾ e n
+saber,V;IND;PST;2;PL;PFV,s a b e ɾ ø,s a b e ɾ ø
+saber,V;NFIN,s a b e,k o r e
+saber,V;SBJV;PST;3;SG,s a b e s,s a p i ɡ e s i
+saber,V;IND;PST;2;PL;IPFV,s a b i j u,a v i e w
+saber,V;IND;PST;1;SG;PFV,s a b i,s a b e ɾ e
+saber,V;IND;FUT;1;PL,s a b ɾ e m,s a b ɾ u
+saber,V;IND;FUT;1;SG,s a b ɾ e,s a b e ɾ e
+saber,V;COND;1;PL,s a b ɾ i e m,b u l a ɾ i ə m
+saber,V;COND;2;PL,s a b ɾ i j u,s a b ɾ i s j u
+saber,V;POS;IMP;2;SG,s a p i ɡ e s,s a p
+començar,V;IND;FUT;2;SG,k u m e n s a ɾ a s,k u m e n s a ɾ e
+començar,V;IND;FUT;3;SG,k u m e n s a ɾ a,k u m e n s a ɾ a
+començar,V;COND;1;SG,k u m e n s a ɾ j a,k u m e n s a ɾ j a
+començar,V;COND;2;PL,k u m e n s a ɾ i e̞,s e ɾ i j u
+començar,V;IND;PST;1;PL;IPFV,k u m e n s a v e m,k a s a v e m
+començar,V;IND;PST;2;SG;IPFV,k u m e n s a v e s,k u m e n s a v a
+començar,V;IND;PRS;1;PL,k u m e n s ə m,k u m e n s a ɾ e m
+començar,V;SBJV;PST;1;PL,k u m e n s e s i m,k u m e n s e s i m
+començar,V;SBJV;PST;2;PL,k u m e n s e s j u,k u m e n s e s j u
+començar,V;IND;PRS;2;SG,k u m e n s e s,k u m e n s i s
+començar,V;POS;IMP;3;PL,k u m e n s i n,k u m e n s i n
+caldre,V;IND;FUT;3;PL,k a l d ɾ a n,k a l d ɾ a n
+caldre,V;IND;PST;3;PL;PFV,k a l ɡ e ɾ ə n,u b ɾ i ɾ e n
+caldre,V;SBJV;PST;3;PL,k a l ɡ e s i n,k a l ɡ e s i m
+caldre,V;IND;PST;3;SG;PFV,k a l ɡ e,k a l ɡ e ɾ e s
+donar,V;IND;PST;3;PL;PFV,d u n a ɾ e n,d u n a ɾ e n
+donar,V;IND;PST;2;SG;PFV,d u n a ɾ e s,d u n a ɾ e s
+donar,V;IND;FUT;1;SG,d u n a ɾ e,d u n a ɾ e
+donar,V;IND;PST;1;SG;IPFV,d u n a v a,d u n a v a
+donar,V;IND;PRS;3;PL,d u n e n,d u n a ɾ a n
+donar,V;SBJV;PST;2;SG,d u n e s i s,d u n e s i s
+donar,V;SBJV;PRS;2;PL,d u n e w,d u n e w
+donar,V;SBJV;PRS;3;PL,d o n i n,d o n i n
+donar,V;SBJV;PRS;2;SG,d o n i s,d u n e i ʃ i s
+donar,V;IND;PRS;1;SG,d o n o,d u n e i ʃ o
+utilitzar,V;IND;FUT;3;PL,u t i l i t s a ɾ a n,u t i l i t s a ɾ a n
+utilitzar,V;IND;FUT;2;PL,u t i l i t s a ɾ e w,u t i l i t s a ɾ a s
+utilitzar,V;IND;PST;1;SG;IPFV,u t i l i t s a v a,u t i l i t s a v a
+utilitzar,V;IND;PST;3;PL;IPFV,u t i l i t s a v ə n,u t i l i t s a v ə n
+utilitzar,V;SBJV;PRS;1;PL,u t i l i t s e m,u t i l i t s ə m
+utilitzar,V;SBJV;PST;1;PL,u t i l i t s e s i m,t o ɾ n e s i m
+utilitzar,V;POS;IMP;2;PL,u t i l i t s e w,u t i l i t s e w
+utilitzar,V;POS;IMP;3;SG,u t i l i t s i,u t i l i t s a
+volar,V;IND;FUT;1;PL,b u l a ɾ e m,b u l a ɾ e m
+volar,V;IND;PST;1;PL;PFV,v u l a ɾ e m,v u l a ɾ e m
+volar,V;COND;1;SG,b u l a ɾ j a,b u l a ɾ j a
+volar,V;COND;3;SG,b u l a ɾ j a,b u l a ɾ j a
+volar,V;COND;2;PL,b u l a ɾ i j u,b u l a ɾ i j u
+volar,V;IND;PRS;3;SG,b o l a,e s
+volar,V;SBJV;PST;1;PL,b u l e s i m,b u l e s i m
+volar,V;POS;IMP;2;PL,b o l e w,b o l a
+volar,V;SBJV;PRS;2;SG,b o l i s,b o l i s
+volar,V;SBJV;PRS;1;SG,b o l i,b u l e s
+agradar,V;IND;FUT;3;PL,a ɡ ɾ a d a ɾ a n,a ɡ ɾ a d a ɾ a n
+agradar,V;IND;FUT;2;PL,a ɡ ɾ a d a ɾ e w,b j u ɾ ø
+agradar,V;COND;1;PL,a ɡ ɾ a d a ɾ i e m,a ɡ ɾ a d a ɾ i e m
+agradar,V;IND;PST;1;PL;IPFV,a ɡ ɾ a d a v ɛ m,k e d a v e m
+agradar,V;IND;PST;3;PL;IPFV,a ɡ ɾ a d a v ə n,a ɡ ɾ a d a v ə n
+agradar,V;IND;PST;2;SG;IPFV,a ɡ ɾ a d a v s,a ɡ ɾ a d a v s
+agradar,V;IND;PRS;2;SG,a ɡ ɾ a d s,a ɡ ɾ a d i s
+agradar,V;IND;PRS;2;PL,a ɡ ɾ a d e,a ɡ ɾ a d e
+agradar,V;POS;IMP;3;PL,a ɡ ɾ a d i n,s e ɡ i n
+agradar,V;SBJV;PRS;3;PL,a ɡ ɾ a d i n,a ɡ ɾ a d ə n
+agradar,V;SBJV;PRS;1;SG,a ɡ ɾ a d i,a ɡ ɾ a d i
+plantar,V;IND;FUT;3;SG,p l a n t a ɾ a,p l a n t a ɾ a
+plantar,V;IND;PST;1;PL;PFV,p l a n t a ɾ e m,p l a n t a ɾ e m
+plantar,V;IND;PST;2;PL;PFV,p l a n t a ɾ e w,p l a n t a ɾ ə n
+plantar,V;IND;FUT;1;SG,p l a n t a ɾ e,p l a n t a ɾ e
+plantar,V;COND;3;SG,p l a n t a ɾ j a,p l a n t a ɾ j a
+plantar,V;IND;PST;1;SG;IPFV,p l a n t a v a,p l a n t a v a
+plantar,V;IND;PST;2;PL;IPFV,p l a n t a v ø,p u z a v ø
+plantar,V;SBJV;PST;2;PL,p l a n t e s j u,p l a n t e s j u
+plantar,V;POS;IMP;3;SG,p l a n t i,p l a n t a
+datar,V;IND;PST;3;PL;PFV,d a t a ɾ e n,d a t a ɾ e n
+datar,V;IND;PST;2;SG;PFV,d a t a ɾ e s,d a t a ɾ e s
+datar,V;IND;FUT;2;PL,d a t a ɾ u,d a t a ɾ u
+datar,V;IND;FUT;1;SG,d a t a ɾ e,d a t a ɾ e
+datar,V;COND;3;SG,d a t a ɾ j a,d a t a ɾ j a
+datar,V;IND;PST;2;SG;IPFV,d a t a v e s,d a t a v s
+datar,V;IND;PRS;3;SG,d a t a,d a t i
+datar,V;SBJV;PST;2;SG,d a t e s i s,d a t e s i s
+datar,V;SBJV;PST;2;PL,d a t e s j u,d a t e s j u
+datar,V;SBJV;PST;1;SG,d a t e s,d a t e s
+sentir,V;IND;PST;3;SG;IPFV,s e n t j a,s e n t j a
+sentir,V;IND;PST;2;PL;IPFV,s e n t i j u,t u ɾ n a v e w
+sentir,V;POS;IMP;1;PL,s e n t i m,s e n t i m
+sentir,V;POS;IMP;3;PL,s e n t i n,b o l i n
+sentir,V;SBJV;PRS;3;PL,s e n t i n,s e n t i s i n
+sentir,V;IND;PST;3;PL;PFV,s e n t i ɾ e n,f o ɾ ə n
+sentir,V;IND;PST;2;SG;PFV,s e n t i ɾ e s,s e n t i ɾ e s
+sentir,V;IND;FUT;1;SG,s e n t i ɾ e,s e n t i ɾ e
+sentir,V;COND;2;SG,s e n t i ɾ i s,s e n t i ɾ i s
+sentir,V;SBJV;PRS;2;SG,s e n t i s,s e n t i s
+sentir,V;SBJV;PST;3;SG,s e n t i s,s e n t i s i
+sentir,V;POS;IMP;2;PL,s e n t j u,s e j e
+sentir,V;POS;IMP;3;SG,s e n t i,k u r i
+sentir,V;IND;PRS;1;SG,s e n t o,t o ɾ n o
+sentir,V;POS;IMP;2;SG,s e n t,p u ɡ s
+restar,V;IND;PST;2;PL;PFV,r e s t a ɾ e w,r e s t a ɾ e w
+restar,V;COND;3;SG,r e s t a ɾ j a,r e s t a ɾ j a
+restar,V;NFIN,r e s t a,e s e
+restar,V;IND;PST;2;SG;IPFV,r e s t a v s,r e s t a v s
+restar,V;IND;PST;2;PL;IPFV,r e s t a v ø,r e s t a v e w
+restar,V;IND;PRS;3;SG,r e s t a,r e s t i
+restar,V;SBJV;PRS;1;PL,r e s t ə m,r e s t ə m
+restar,V;SBJV;PST;3;PL,r e s t e s i n,r e s t e s i m
+restar,V;IND;PRS;2;PL,r e s t ø,r e s t a ɾ u
+posar-se,V;IND;PST;1;PL;PFV,p u z a ɾ e m,p u s a ɾ e s i m
+posar-se,V;IND;PST;2;PL;PFV,p u z a ɾ e w,p u s a ɾ e w
+posar-se,V;COND;3;SG,p u s a ɾ j a,p u s a ɾ j a
+posar-se,V;COND;2;SG,p u z a ɾ i s,p o s a ɾ j a
+posar-se,V;POS;IMP;1;PL,p u s e m,p u s a ɾ i e m
+posar-se,V;SBJV;PST;2;PL,p u z e s j u,p u z e s j u
+continuar,V;IND;PST;1;PL;PFV,k u n t i n w a ɾ e m,k u n t i n w a ɾ e m
+continuar,V;IND;PST;2;SG;PFV,k u n t i n w a ɾ e s,k u n t i n w a ɾ e s
+continuar,V;IND;FUT;2;PL,k u n t i n w a ɾ u,a w ɾ e w
+continuar,V;COND;1;PL,k u n t i n w a ɾ i e m,k u n t i n w a ɾ i e m
+continuar,V;IND;PST;1;PL;IPFV,k u n t i n w a v e m,k u n t i n w a v ə n
+continuar,V;IND;PRS;1;PL,k u n t i n w e m,k u n t i n w a ɾ e m
+continuar,V;SBJV;PST;3;PL,k u n t i n w e s i n,k u n t i s i n
+continuar,V;SBJV;PST;2;PL,k u n t i n w e s j u,k u n t i s j u
+continuar,V;IND;PST;1;SG;PFV,k u n t i n w i,f w i
+continuar,V;POS;IMP;3;SG,k u n t i n u i,k u n t i n w a
+continuar,V;SBJV;PRS;3;SG,k u n t i n u i,k u n t i
+aconseguir,V;IND;PRS;1;SG,a k u n s e ɡ e i ʃ o,a k u n s e ɡ i ɾ e
+aconseguir,V;IND;PST;3;PL;IPFV,a k u n s e ɡ j ɛ̃,a k u n s e ɡ i e m
+aconseguir,V;IND;PST;2;PL;IPFV,a k u n s e ɡ i e̞,p u z a v ø
+aconseguir,V;IND;FUT;2;PL,a k u n s e ɡ i ɾ e w,b j u ɾ ø
+aconseguir,V;IND;PRS;2;PL,a k u n s e ɡ j u,a k u n s e ɡ j u
+haver,V;SBJV;PRS;3;SG,a ɡ i,a
+haver,V;IND;PST;3;PL;PFV,a ɡ e ɾ e n,a h u d a ɾ ə n
+haver,V;SBJV;PST;3;PL,a ɡ e s i n,a ɡ e s i n
+haver,V;SBJV;PST;1;SG,a ɡ e s,a ɡ e s
+haver,V;IND;FUT;1;PL,a w ɾ e m,b i u ɾ e m
+haver,V;IND;FUT;1;SG,a w ɾ e,a w ɾ e
+haver,V;NFIN,a w ɾ e,d a ɾ
+haver,V;IND;PST;2;SG;IPFV,a v i s,b u l a v s
+obrir,V;IND;PRS;3;SG,o b ɾ e,o b ɾ i ɾ a
+obrir,V;IND;PST;3;SG;IPFV,o b ɾ i a,e ɾ a
+obrir,V;IND;PST;2;PL;IPFV,o b ɾ i e̞,p a s a v e w
+obrir,V;IND;FUT;3;PL,o b ɾ i ɾ a n,u b ɾ i ɾ a n
+obrir,V;COND;2;PL,o b ɾ i ɾ i j e w,u b ɾ i ɾ i j u
+obrir,V;NFIN,o b ɾ i ɾ,u b ɾ i ɾ
+obrir,V;SBJV;PST;1;PL,o b ɾ i s i m,u b ɾ i s i m
+obrir,V;SBJV;PST;1;SG,o b ɾ i s,u b ɾ i a
+obrir,V;POS;IMP;2;PL,o b ɾ i u,s u
+obrir,V;IND;PST;1;SG;PFV,o b ɾ i,u b ɾ i
+obrir,V;POS;IMP;3;SG,o b ɾ i,s a p
+casar,V;IND;FUT;1;PL,k a s a ɾ e m,k a s a ɾ e m
+casar,V;IND;FUT;2;PL,k a s a ɾ u,k a s a ɾ u
+casar,V;COND;1;SG,k a s a ɾ j a,k a s a ɾ j a
+casar,V;COND;3;PL,k a s a ɾ j ə n,k a s a ɾ j ɛ̃
+casar,V;COND;2;SG,k a s a ɾ i s,k a s a ɾ i s
+casar,V;NFIN,k a s a,e s e
+casar,V;IND;PST;2;SG;IPFV,k a s a v s,k a s a v s
+casar,V;IND;PST;1;SG;PFV,k a s i,f w i
+casar,V;SBJV;PRS;3;SG,k a s i,k a s i
+veure,V;POS;IMP;1;PL,b e d͡ʒ ə m,b e j e
+veure,V;POS;IMP;2;SG,b e d͡ʒ e s,b e j e
+veure,V;IND;PRS;1;PL,b e j e m,b j u ɾ e m
+veure,V;IND;PST;1;PL;IPFV,v ɛ j ə m,p u s a v e m
+veure,V;IND;PST;2;SG;PFV,b e j e ɾ e s,b e j e ɾ e s
+veure,V;SBJV;PST;2;PL,b e j e s j u,b e j e s j u
+veure,V;IND;PST;2;PL;IPFV,v ɛ j ø,a v i e w
+veure,V;IND;PRS;1;SG,b e ɡ,p u k
+veure,V;IND;PRS;3;PL,b j u ə n,s o n
+veure,V;IND;FUT;2;SG,b j u ɾ a s,b j u ɾ a s
+veure,V;COND;1;SG,b j u ɾ j a,p u s a ɾ j a
+veure,V;COND;3;SG,b j u ɾ j a,b j u ɾ j ɛ̃
+veure,V;COND;1;PL,b j u ɾ i ə m,b j u ɾ i e m
+veure,V;COND;3;PL,b j u ɾ j ɛ̃,d u n a ɾ j ɛ̃
+veure,V;COND;2;SG,b j u ɾ i s,b j u ɾ i s
+veure,V;IND;PRS;3;SG,b e w,b e d͡ʒ i
+parlar,V;IND;FUT;3;PL,p a ɾ l a ɾ a n,p a ɾ l a ɾ a n
+parlar,V;IND;FUT;3;SG,p a ɾ l a ɾ a,p a ɾ l a ɾ a
+parlar,V;IND;FUT;1;SG,p a ɾ l a ɾ e,p a ɾ l a ɾ e
+parlar,V;COND;1;SG,p a ɾ l a ɾ j a,p a ɾ l a ɾ j a
+parlar,V;COND;3;SG,p a ɾ l a ɾ j a,p a ɾ l a ɾ j a
+parlar,V;COND;1;PL,p a ɾ l a ɾ i e m,p a ɾ l a ɾ i e m
+parlar,V;COND;3;PL,p a ɾ l a ɾ j ə n,p a ɾ l a ɾ j ə n
+parlar,V;IND;PST;1;SG;IPFV,p a ɾ l a v a,p a ɾ l a v a
+parlar,V;IND;PRS;3;SG,p a ɾ l a,e s
+parlar,V;POS;IMP;3;SG,p a ɾ l i,p a ɾ l a
+seure,V;SBJV;PST;1;PL,s e ɡ e s i m,s e ɡ i s i m
+seure,V;SBJV;PST;3;PL,s e ɡ e s i n,s e ɡ e s i n
+seure,V;IND;PST;3;SG;PFV,s e ɡ e,s e ɡ e
+seure,V;POS;IMP;3;PL,s e ɡ i n,s e ɡ i n
+seure,V;SBJV;PRS;3;PL,s e ɡ i n,s e ɡ u
+seure,V;IND;PST;1;SG;IPFV,s e j a,s e j a
+seure,V;IND;PRS;2;PL,s e j e,s j u ɾ e u
+seure,V;NFIN,s j u ɾ,s e ɡ i ɾ
+seure,V;COND;3;SG,s j u ɾ j a,s j u ɾ j a
+conèixer,V;SBJV;PST;3;PL,k u n ɡ e s i n,k u n ə ɡ e s i n
+conèixer,V;POS;IMP;3;PL,k u n ə ɡ i n,k u n e ɡ i n
+conèixer,V;SBJV;PRS;1;SG,k u n e ɡ i,k u n e k
+conèixer,V;IND;FUT;2;SG,k u n e i ʃ e ɾ a s,k u n e i ʃ e ɾ a s
+conèixer,V;IND;FUT;1;SG,k u n e ʃ e ɾ e,k u n e i ʃ e ɾ e
+conèixer,V;COND;1;SG,k u n e i ʃ e ɾ i a,k u n e i ʃ e ɾ i a
+conèixer,V;IND;PST;3;SG;IPFV,k u n e i ʃ j a,k u n e i ʃ e ɾ a v a
+conèixer,V;IND;PST;2;PL;IPFV,k u n e i ʃ i e w,p a s a v ø
+terminar,V;IND;FUT;1;PL,t ɛ ɾ m i n a ɾ ə m,t e ɾ m i n a ɾ a ɾ e m
+terminar,V;IND;FUT;2;PL,t e ɾ m i n a ɾ u,t e ɾ m i n a ɾ a ɾ u
+terminar,V;IND;PST;3;SG;IPFV,t ɛ ɾ m i n a v a,t e ɾ m i n a v a
+terminar,V;IND;PST;3;PL;IPFV,t ɛ ɾ m i n a v ə n,t e ɾ m i n a ɾ a v ə n
+terminar,V;IND;PST;2;SG;IPFV,t ɛ ɾ m i n a v s,t ɛ ɾ m i n a v s
+terminar,V;POS;IMP;1;PL,t ɛ ɾ m i n ə m,t e ɾ m i n a ɾ i ə m
+terminar,V;SBJV;PST;2;SG,t ɛ ɾ m i n e s i s,t ɛ ɾ m i n e s i s
+terminar,V;IND;PRS;2;PL,t e ɾ m i n e w,t e ɾ m i n a ɾ e w
+terminar,V;SBJV;PRS;2;SG,t ɛ ɾ m i n i s,t e ɾ m i n s
+incloure,V;SBJV;PST;2;SG,i n k l o ɡ e s i s,i n k l o ɡ e s i s
+incloure,V;SBJV;PRS;2;SG,i n k l u ɡ i s,t o ɾ n i s
+incloure,V;IND;PST;3;SG;IPFV,i n k l o j a,i n k l o j a
+incloure,V;IND;PST;1;PL;IPFV,i n k l o i e m,i n k l o j e n
+incloure,V;IND;PST;2;SG;IPFV,i n k l o i s,v u l a v s
+incloure,V;IND;FUT;3;SG,i n k l u ɾ a,i n k l u ɾ a
+incloure,V;COND;1;SG,i n k l u ɾ j a,i n k l u ɾ j a
+incloure,V;COND;3;PL,i n k l u ɾ j ɛ̃,i n k l u ɾ i ə m
+incloure,V;IND;PRS;3;SG,i n k l u,i n k l o ɡ i
+ésser,V;IND;PST;1;PL;IPFV,e ɾ e m,e ɾ e m
+ésser,V;IND;PST;3;PL;IPFV,e ɾ e n,e ɾ e n
+ésser,V;IND;PST;2;SG;IPFV,e ɾ e s,t u ɾ n a v s
+ésser,V;IND;PRS;2;SG,e t s,b o l s
+ésser,V;IND;PST;2;SG;PFV,f o ɾ e s,f o ɾ e s
+ésser,V;SBJV;PST;2;PL,f o s j u,p u s e s j u
+ésser,V;SBJV;PST;1;SG,f o s,f o s
+ésser,V;IND;PST;3;SG;PFV,f u,p a i
+ésser,V;IND;FUT;1;SG,s e ɾ e,p u s a ɾ e
+ésser,V;POS;IMP;2;SG,s i ɡ e s,t e ɾ m e t
+ésser,V;SBJV;PRS;3;SG,s i ɡ i,s i ɡ i
+ésser,V;IND;PRS;1;SG,s o k,e s
+portar,V;IND;PST;1;PL;PFV,p u ɾ t a ɾ e m,p u ɾ t a ɾ e m
+portar,V;IND;PST;3;PL;PFV,p o ɾ t a ɾ ə n,p u ɾ t a ɾ e n
+portar,V;IND;PST;2;SG;PFV,p o ɾ t a ɾ e s,p u ɾ t a ɾ e s
+portar,V;IND;FUT;2;PL,p o ɾ t a ɾ u,p o ɾ t a ɾ u
+portar,V;COND;3;SG,p u ɾ t a ɾ j a,p u ɾ t a ɾ j a
+portar,V;IND;PST;2;SG;IPFV,p o ɾ t a v s,p o ɾ t a v s
+portar,V;SBJV;PST;3;SG,p o ɾ t e s,p u ɾ t e s
+portar,V;SBJV;PRS;2;PL,p o r t u,p o r t u
+portar,V;SBJV;PRS;3;PL,p o ɾ t i n,p o ɾ t i n
+participar,V;NFIN,p a ɾ t i s i p a,s j u ɾ
+participar,V;SBJV;PST;3;PL,p a ɾ t i s i p e s i n,p u z e s i n
+participar,V;POS;IMP;2;PL,p a ɾ t i s i p u,r e s t ø
+participar,V;POS;IMP;3;PL,p a ɾ t i s i p i n,s i ɡ i n
+participar,V;SBJV;PRS;3;PL,p a ɾ t i s i p i n,p a ɾ t i s i p e n
+participar,V;SBJV;PRS;1;SG,p a ɾ t i s i p i,p a ɾ t i s i p e s
+passar,V;IND;FUT;3;PL,p a s a ɾ a n,p a s a ɾ a n
+passar,V;IND;FUT;2;SG,p a s a ɾ a s,p a s a ɾ a s
+passar,V;IND;FUT;2;PL,p a s a ɾ u,p a s a ɾ u
+passar,V;COND;2;SG,p a s a ɾ i s,p a s a ɾ i s
+passar,V;IND;PRS;2;PL,p a s j u,p a j u
+passar,V;SBJV;PRS;2;PL,p a s j u,p a s u
+passar,V;SBJV;PRS;3;PL,p a s i n,p a s i n
+passar,V;IND;PST;1;SG;PFV,p a s i,b i u
+passar,V;IND;PRS;1;SG,p a s u,t o ɾ n o
+quedar-se,V;IND;PST;3;PL;PFV,k e d a ɾ ə n,k e d a ɾ e n
+quedar-se,V;COND;1;PL,k e d a ɾ i e m,k e d a ɾ i e m
+quedar-se,V;IND;PRS;3;SG,k e d a,a
+quedar-se,V;IND;PST;3;SG;PFV,k e d a,k e d a v a
+quedar-se,V;SBJV;PST;2;SG,k e d e s i s,k e d e s i s
+quedar-se,V;IND;PRS;2;SG,k e d e s,b o l s
+quedar-se,V;SBJV;PST;3;SG,k e d e s,k e d e s
+quedar-se,V;SBJV;PRS;2;SG,k e d i s,k e d i s
+quedar-se,V;POS;IMP;3;SG,k e d i,k e d a

@@ -1,0 +1,2939 @@
+lemma,paradigm_slot,target,prediction
+thula,V;BANTU3;PRS,ú j a tʰ ûː l a,úː tʰ uː l a
+thula,V;BANTU15;RCT;PST;PROG,ɓ e ɠ ú tʰ uː l a,ɓ e ɠ ú tʰ uː l a
+thula,V;1;SG;RCT;PST,n ɡ í tʰ uː l eː,úː tʰ uː l eː
+thula,V;BANTU8;FUT,z i z ó tʰ uː l a,z i z o tʰ uː l a
+thula,V;BANTU10;SBJV,z í tʰ uː l e,z í tʰ uː l e
+thula,V;IMP;2;SG;LGSPEC3,tʰ úː l e,ɓ ôː pʰ e
+thula,V;BANTU15;FUT,ɠ ú z o tʰ uː l a,ú z o tʰ ûː l a
+thula,V;BANTU8;RMT;PST,z áː tʰ uː l a,z áː tʰ uː l a
+thula,V;1;PL;FUT,s i z ó tʰ uː l a,s i z ó tʰ uː l a
+thula,V;2;PL;RCT;PST,n íː tʰ uː l eː,n í tʰ uː l eː
+thula,V;BANTU3;RCT;PST,úː tʰ uː l êː,úː tʰ u l íː l e
+thula,V;BANTU3;V.PTCP,úː tʰ uː l a,êː tʰ uː l a
+thula,V;IMP;2;PL,tʰ ú l aː n i,tʰ ú l aː n i
+thula,V;BANTU2;SBJV,ɓ á tʰ uː l e,z í tʰ uː l e
+thula,V;BANTU17;RMT;PST;PROG,k w a ɠ ú tʰ uː l a,z a z í tʰ uː l a
+thula,V;BANTU10;PRS,z i j a tʰ ûː l a,z i j a tʰ ûː l a
+thula,V;BANTU5;RMT;PST;PROG,l a l í tʰ uː l a,l áː tʰ uː l a
+thula,V;1;SG;V.PTCP,n ɡ í tʰ uː l a,n ɡ í tʰ uː l a
+thula,V;BANTU17;V.PTCP,ɠ ú tʰ uː l a,ɠ ú tʰ uː l a
+thula,V;2;PL;RMT;PST,n áː tʰ uː l a,n a n í tʰ uː l a
+thula,V;BANTU9;V.PTCP,íː tʰ uː l a,íː tʰ uː l a
+thula,V;BANTU11;PRS,l ú j a tʰ uː l a,l ú j a tʰ ûː l a
+thula,V;BANTU2;RMT;PST;PROG,ɓ a ɓ é tʰ uː l a,j a j í tʰ uː l a
+thula,V;BANTU17;PRS,ɠ ú tʰ uː l a,ɠ ú j a tʰ ûː l a
+thula,V;BANTU9;RMT;PST,j áː tʰ uː l a,w áː tʰ uː l a
+thula,V;BANTU4;RCT;PST,íː tʰ u l íː l e,íː tʰ uː l eː
+thula,V;2;PL;PRS,n i j a tʰ ûː l a,n i j a tʰ ûː l a
+thula,V;BANTU11;RMT;PST,l w áː tʰ uː l a,l w áː tʰ uː l a
+thula,V;BANTU7;V.PTCP,s í tʰ uː l a,êː tʰ uː l a
+thula,V;BANTU2;PRS,ɓ á tʰ uː l a,ɓ a j a tʰ ûː l a
+thula,V;BANTU1;RCT;PST;PROG,ú ɓ e tʰ ûː l a,ɓ e j í tʰ uː l a
+thula,V;BANTU1;PRS,ú j a tʰ ûː l a,úː tʰ uː l a
+thula,V;BANTU8;RCT;PST,z i tʰ ú l iː l e,z í tʰ uː l eː
+wa,V;BANTU3;PRS,ú j aː w a,ú j aː w a
+wa,V;BANTU15;RCT;PST;PROG,ɓ é ɠ uː w a,ɠ úː w eː
+wa,V;BANTU6;PRS,a j áː w a,ɠ ú j aː w a
+wa,V;1;SG;RCT;PST,n ɡ i w íː l e,úː w eː
+wa,V;1;SG;RCT;PST,n ɡ íː w eː,s í w iː l e
+wa,V;BANTU10;RCT;PST;PROG,ɓ é z iː w a,z í ɓ eː w a
+wa,V;IMP;2;SG;LGSPEC3,j íː w e,j í w eː n i
+wa,V;1;PL;V.PTCP,s íː w a,s íː w a
+wa,V;BANTU15;RMT;PST;PROG,k w a ɠ úː w a,z á z iː w a
+wa,V;BANTU5;RMT;PST,l áː w a,w áː w a
+wa,V;BANTU17;SBJV,ɠ úː w e,ɠ úː w e
+wa,V;BANTU1;FUT,ú z o ɠ uː w á,ú z o ɠ úː w a
+wa,V;BANTU1;RMT;PST;PROG,w a j éː w a,z á z iː w a
+wa,V;BANTU8;PRS,z íː w a,z íː w a
+wa,V;BANTU7;PRS,s í j aː w a,s íː w a
+wa,V;BANTU10;PRS,z í j aː w a,z í j aː w a
+wa,V;2;PL;RMT;PST;PROG,n á n iː w a,s á s iː w a
+wa,V;BANTU5;RMT;PST;PROG,l á l iː w a,l a l i d ʒ íː m a
+wa,V;2;PL;RCT;PST;PROG,n í ɓ eː w a,n íː w eː
+wa,V;BANTU10;RMT;PST,z áː w a,w áː w a
+wa,V;BANTU6;SBJV,áː w e,z íː w e
+wa,V;BANTU11;PRS,l ú j aː w a,l ú j aː w a
+wa,V;BANTU5;RCT;PST,l íː w eː,l íː w eː
+wa,V;1;SG;RCT;PST;PROG,ɓ é n ɡ iː w a,s í ɓ eː w a
+wa,V;BANTU15;PRS,ɠ úː w a,ɠ ú j aː w a
+wa,V;2;PL;PRS,n íː w a,n í j aː w a
+wa,V;BANTU11;RMT;PST,l w áː w a,j áː w a
+wa,V;BANTU11;RCT;PST;PROG,ɓ é l uː w a,l ú w iː l é
+wa,V;1;SG;FUT,n ɡ i z o ɠ ûː w a,ᵑɡ íː w a
+wa,V;BANTU7;FUT,s i z o ɠ ûː w a,s i z o ɠ uː w a
+wa,V;BANTU1;PRS,úː w a,ú j aː w a
+wa,V;BANTU11;RCT;PST,l úː w eː,l úː w eː
+wa,V;BANTU4;RMT;PST;PROG,j a j íː w a,j a j íː w a
+hamba,V;BANTU10;RCT;PST,z i h á m b iː l e,z í h aː m b eː
+hamba,V;BANTU6;PRS,a j a h âː m b a,a j a h âː m b a
+hamba,V;BANTU8;V.PTCP,z í h aː m b a,z í h aː m b a
+hamba,V;BANTU5;PRS,l i j a h âː m b a,l i j a h âː m b a
+hamba,V;BANTU3;RMT;PST,w áː h aː m b a,w áː h aː m b a
+hamba,V;BANTU15;FUT,ɠ ú z o h aː m b a,ɠ ú z o h aː m b a
+hamba,V;BANTU1;RCT;PST,úː h a m b íː l e,êː h aː m b eː
+hamba,V;BANTU8;RMT;PST,z áː h aː m b a,k w áː h aː m b a
+hamba,V;BANTU17;SBJV,ɠ ú h aː m b e,ɠ ú h aː m b e
+hamba,V;BANTU15;RCT;PST,ɠ u h a m b íː l e,ɠ ú h aː m b eː
+hamba,V;BANTU2;RCT;PST,ɓ a h a m b íː l e,ɓ á h aː m b eː
+hamba,V;1;PL;SBJV,s íː h aː m b e,s í h aː m b e
+hamba,V;1;SG;PRS,n ɡ i j a h âː m b a,n ɡ i h âː m b a
+hamba,V;BANTU2;RCT;PST;PROG,ɓ e ɓ e h âː m b a,ɓ e ɓ e h âː m b a
+hamba,V;BANTU17;RCT;PST,ɠ ú h aː m b eː,ɠ ú h aː m b eː
+hamba,V;BANTU10;PRS,z í h aː m b a,z i j a h âː m b a
+hamba,V;BANTU5;RMT;PST;PROG,l a l í h aː m b a,j a j í h aː m b a
+hamba,V;BANTU14;PRS,ɓ u j a h âː m b a,ɓ u j a h âː m b a
+hamba,V;BANTU17;FUT,ɠ ú z o h aː m b a,ɠ ú z o h aː m b a
+hamba,V;BANTU14;RMT;PST;PROG,ɓ a ɓ ú h aː m b a,ɓ a ɓ ú h aː m b a
+hamba,V;BANTU3;SBJV,úː h aː m b e,úː h aː m b e
+hamba,V;BANTU2;RMT;PST;PROG,ɓ a ɓ e h âː m b a,ɓ a ɓ e h âː m b a
+hamba,V;BANTU9;RMT;PST,j áː h aː m b a,ɓ áː h aː m b a
+hamba,V;BANTU2;V.PTCP,ɓ é h aː m b a,ɓ a h áː m b a
+hamba,V;BANTU8;SBJV,z íː h aː m b e,z í h aː m b e
+hamba,V;BANTU9;RCT;PST,íː h a m b íː l e,íː h aː m b eː
+hamba,V;BANTU6;RCT;PST;PROG,a ɓ e h âː m b a,a ɓ e h âː m b a
+hamba,V;BANTU8;RCT;PST,z i h á m b iː l e,z í h aː m b eː
+hamba,V;BANTU9;SBJV,íː h aː m b e,íː h aː m b e
+hamba,V;BANTU11;RCT;PST,l ú h aː m b eː,l ú h aː m b eː
+hamba,V;BANTU6;FUT,a z ó h aː m b a,ú z o h âː m b a
+hamba,V;BANTU9;RMT;PST;PROG,j a j í h aː m b a,j a j í h aː m b a
+phila,V;BANTU3;PRS,úː pʰ íː l a,ú j a pʰ íː l a
+phila,V;BANTU10;RCT;PST,z í pʰ iː l êː,z í pʰ iː l êː
+phila,V;1;SG;RCT;PST,n ɡ i pʰ í l iː l e,n ɡ í pʰ iː l e
+phila,V;1;SG;RCT;PST,n ɡ í pʰ iː l eː,n ɡ í pʰ iː l e
+phila,V;BANTU10;SBJV,z í pʰ iː l é,z í ɓ eː ɠ e
+phila,V;2;SG;RCT;PST,ú pʰ i l íː l e,úː pʰ iː l êː
+phila,V;2;SG;RCT;PST,úː pʰ iː l êː,ú j a pʰ íː l e
+phila,V;BANTU5;RMT;PST,l áː pʰ iː l a,l a l í pʰ iː l a
+phila,V;BANTU8;RCT;PST;PROG,ɓ e z í pʰ iː l a,ɓ e z í pʰ iː l a
+phila,V;2;SG;RCT;PST;PROG,ú ɓ e pʰ íː l a,w a w ú pʰ iː l a
+phila,V;BANTU17;SBJV,ɠ ú pʰ iː l e,ɠ ú l aː l e
+phila,V;BANTU10;RMT;PST;PROG,z a z í pʰ iː l a,z a z í pʰ iː l a
+phila,V;BANTU7;RMT;PST,s áː pʰ iː l a,s áː pʰ iː l a
+phila,V;2;PL;FUT,n í z o pʰ íː l a,n í z o pʰ iː l a
+phila,V;BANTU10;V.PTCP,z í pʰ iː l a,z í pʰ iː l a
+phila,V;1;PL;SBJV,s í pʰ iː l é,s í f iː ɠ é
+phila,V;BANTU17;RCT;PST,ɠ ú pʰ i l íː l e,ɠ ú pʰ iː l eː
+phila,V;BANTU2;FUT,ɓ a z ó pʰ iː l a,ɓ a z ó pʰ iː l a
+phila,V;BANTU5;RMT;PST;PROG,l a l í pʰ iː l a,ɓ a ɓ ú pʰ iː l a
+phila,V;BANTU17;RCT;PST;PROG,ɓ e ɠ ú pʰ iː l a,ɓ e ɠ ú pʰ iː l a
+phila,V;1;SG;RMT;PST,n ɡ áː pʰ iː l a,s áː pʰ iː l a
+phila,V;BANTU4;FUT,íː z o pʰ íː l a,íː z o pʰ íː l a
+phila,V;2;PL;RMT;PST,n áː pʰ iː l a,w áː pʰ iː l a
+phila,V;BANTU17;FUT,ɠ ú z o pʰ iː l a,k ú z o pʰ iː l a
+phila,V;BANTU4;V.PTCP,íː pʰ iː l a,íː pʰ iː l a
+phila,V;1;PL;RMT;PST,s áː pʰ iː l a,s áː ɮ a
+phila,V;BANTU17;PRS,ɠ ú j a pʰ íː l a,k ú j a pʰ íː l a
+phila,V;BANTU17;PRS,ɠ ú pʰ iː l a,ɠ u j a pʰ íː l a
+phila,V;BANTU14;RMT;PST,ɓ áː pʰ iː l a,ɓ a ɓ ú pʰ iː l a
+phila,V;BANTU4;RCT;PST,íː pʰ iː l eː,íː pʰ i l íː l e
+phila,V;BANTU7;RCT;PST,s í pʰ i l íː l e,s í pʰ iː l eː
+phila,V;BANTU7;V.PTCP,s í pʰ iː l a,s í pʰ iː l a
+phila,V;1;PL;PRS,s i j a pʰ íː l a,s í pʰ iː l a
+phila,V;1;PL;PRS,s í pʰ iː l a,s i j a pʰ íː l a
+phila,V;BANTU11;RMT;PST;PROG,l w a l ú pʰ iː l a,j a j í pʰ iː l a
+phila,V;1;SG;SBJV,n ɡ í pʰ iː l e,n ɡ í pʰ iː l a
+phila,V;BANTU15;RMT;PST,k w áː pʰ iː l a,k w áː pʰ iː l a
+phila,V;BANTU11;RCT;PST;PROG,ɓ e l ú pʰ iː l a,l ú pʰ iː l êː
+phila,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ í pʰ iː l a,s a s í pʰ iː l a
+phila,V;BANTU4;PRS,íː j a pʰ íː l a,íː j a pʰ íː l a
+phila,V;BANTU4;PRS,íː pʰ iː l a,íː j a pʰ íː l a
+phila,V;BANTU6;V.PTCP,éː pʰ iː l a,a j a pʰ íː l a
+phila,V;BANTU11;RCT;PST,l ú pʰ i l íː l e,l ú pʰ iː l êː
+bika,V;BANTU10;RCT;PST,z í ɓ i ɠ êː,z i ɓ í ɠ iː l e
+bika,V;BANTU1;RMT;PST,w áː ɓ iː ɠ a,w áː ɓ iː ɠ a
+bika,V;BANTU8;FUT,z i z ó ɓ iː ɠ a,z i z o ɓ iː ɠ a
+bika,V;BANTU11;FUT,l ú z o ɓ iː ɠ a,l ú z o ɓ iː ɠ a
+bika,V;BANTU8;V.PTCP,z í ɓ iː ɠ a,z í ɓ iː ɠ a
+bika,V;1;PL;V.PTCP,s í ɓ iː ɠ a,s í ɓ iː ɠ a
+bika,V;BANTU8;RMT;PST;PROG,z a z í ɓ iː ɠ a,z a z í ɓ iː ɠ a
+bika,V;BANTU15;RMT;PST;PROG,k w a ɠ ú ɓ iː ɠ a,z a z í ɓ iː ɠ a
+bika,V;BANTU3;RMT;PST;PROG,w a w ú ɓ iː ɠ a,w a w ú ɓ iː ɠ a
+bika,V;BANTU8;RCT;PST;PROG,ɓ e z í ɓ iː ɠ a,ɓ e z í ɓ iː ɠ a
+bika,V;2;SG;RCT;PST;PROG,ú ɓ e ɓ íː ɠ a,ú ɓ iː ɠ êː
+bika,V;2;PL;RCT;PST,n í ɓ iː ɠ êː,n í ɓ iː ɠ êː
+bika,V;BANTU3;RCT;PST,ú ɓ i ɠ íː l e,í ɓ i ɠ íː l e
+bika,V;BANTU3;RCT;PST,ú ɓ iː ɠ êː,ú ɓ iː ɠ êː
+bika,V;BANTU15;RCT;PST,k u ɓ í ɠ iː l e,k ú ɓ iː ɠ êː
+bika,V;IMP;2;PL,ɓ í ɠ aː n i,n í ɓ iː ɠ a
+bika,V;BANTU2;RCT;PST,ɓ a ɓ í ɠ iː l e,z i ɓ í ɠ iː l e
+bika,V;2;PL;V.PTCP,n í ɓ iː ɠ a,n í ɓ iː ɠ a
+bika,V;BANTU2;FUT,ɓ a z ó ɓ iː ɠ a,ɓ a z ó ɓ iː ɠ a
+bika,V;BANTU9;RCT;PST;PROG,ɓ e j í ɓ iː ɠ a,ɓ e j í ɓ iː ɠ a
+bika,V;BANTU9;PRS,íː ɓ iː ɠ a,íː j a ɓ íː ɠ a
+bika,V;1;SG;RMT;PST,n ɡ áː ɓ iː ɠ a,s áː ɓ iː ɠ a
+bika,V;BANTU17;V.PTCP,k ú ɓ iː ɠ a,ɠ ú ɓ iː ɠ a
+bika,V;BANTU17;FUT,ɠ ú z o ɓ iː ɠ a,ɠ u z o ɓ iː ɠ a
+bika,V;BANTU17;PRS,k ú ɓ iː ɠ a,ɠ u j a ɓ iː ɠ a
+bika,V;BANTU7;RCT;PST;PROG,ɓ e s í ɓ iː ɠ a,ɓ e s í ɓ iː ɠ a
+bika,V;BANTU15;PRS,ɠ ú j a ɓ iː ɠ a,ɠ ú j a ɓ íː ɠ a
+bika,V;BANTU7;RCT;PST,s í ɓ i ɠ êː,s í ɓ iː ɠ êː
+bika,V;BANTU11;RMT;PST;PROG,l w a l ú ɓ iː ɠ a,j a j í ɓ iː ɠ a
+bika,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ i ɓ íː ɠ a,w a w ú ɓ iː ɠ a
+bika,V;BANTU8;RCT;PST,z í ɓ i ɠ êː,íː ɓ iː ɠ êː
+bhala,V;2;SG;SBJV,úː b aː l é,úː b aː l e
+bhala,V;BANTU3;PRS,úː b aː l a,ú b aː l a
+bhala,V;BANTU8;FUT,z i z ó b aː l a,ú z o b áː l a
+bhala,V;BANTU11;FUT,l ú z o b aː l a,l ú z o b aː l a
+bhala,V;BANTU8;V.PTCP,z í b aː l a,z í b aː l a
+bhala,V;BANTU6;RMT;PST,áː b aː l a,s áː b aː l a
+bhala,V;BANTU8;RMT;PST;PROG,z a z í b aː l a,w a w ú b aː l a
+bhala,V;BANTU15;FUT,ɠ ú z o b aː l a,ɠ ú z o b aː l a
+bhala,V;2;SG;RCT;PST,ú b aː l êː,ú b a l íː l e
+bhala,V;IMP;2;SG,b áː l a,b áː l a
+bhala,V;BANTU17;SBJV,ɠ ú b aː l e,ɠ ú b aː l e
+bhala,V;2;PL;RCT;PST,n í b a l iː l é,n í b aː l eː
+bhala,V;BANTU1;SBJV,á b aː l é,ú b aː l e
+bhala,V;BANTU3;RCT;PST,ú b a l íː l e,ɓ e w ú b aː l a
+bhala,V;BANTU3;V.PTCP,úː b aː l a,êː b aː l a
+bhala,V;BANTU15;RCT;PST,ɠ ú b aː l eː,ɠ ú b a l íː l e
+bhala,V;BANTU2;RCT;PST,ɓ a b áː l eː,ɓ e ɓ e b áː l a
+bhala,V;BANTU8;PRS,z i j a b áː l a,z i j a b aː l a
+bhala,V;2;PL;FUT,n í z o b aː l a,n i z ó b aː l a
+bhala,V;BANTU3;FUT,ú z o b áː l a,ú z o b áː l a
+bhala,V;1;SG;PRS,n ɡ i j a b áː l a,n ɡ í b aː l a
+bhala,V;BANTU2;SBJV,ɓ á b aː l e,z í b aː l e
+bhala,V;BANTU7;PRS,s í b aː l a,s i j a b áː l a
+bhala,V;BANTU17;RCT;PST,ɠ ú b a l iː l é,ɠ ú b aː l eː
+bhala,V;BANTU9;RCT;PST;PROG,ɓ e j í b aː l a,ɓ e j í b aː l a
+bhala,V;BANTU9;PRS,íː j a b áː l a,íː j a b áː l a
+bhala,V;2;PL;RMT;PST,n áː b aː l a,n a n í b aː l a
+bhala,V;BANTU10;RMT;PST,z áː b aː l a,w áː b aː l a
+bhala,V;BANTU14;RMT;PST;PROG,ɓ a ɓ ú b aː l a,j a j í b aː l a
+bhala,V;BANTU11;PRS,l ú j a b aː l a,l ú j a b áː l a
+bhala,V;BANTU9;RMT;PST,j áː b aː l a,w áː b aː l a
+bhala,V;BANTU14;RMT;PST,ɓ áː b aː l a,ɓ a ɓ ú b aː l a
+bhala,V;2;PL;PRS,n í b aː l a,n í j a b áː l a
+bhala,V;BANTU11;RMT;PST,l w áː b aː l a,l w aː b áː l a
+bhala,V;1;PL;PRS,s í b aː l a,s i j a b áː l a
+bhala,V;BANTU6;RCT;PST,a b a l íː l e,a b áː l eː
+bhala,V;BANTU11;RMT;PST;PROG,l w a l ú b aː l a,l w aː b áː l a
+bhala,V;BANTU9;RCT;PST,íː b a l íː l e,íː b aː l eː
+bhala,V;BANTU11;RCT;PST;PROG,ɓ e l ú b aː l a,l ú b aː l eː
+bhala,V;BANTU7;FUT,s i z ó b aː l a,s i z ó b aː l a
+bhala,V;BANTU8;RCT;PST,z í b aː l eː,z í b aː l eː
+bhala,V;BANTU11;RCT;PST,l ú b aː l eː,l ú b aː l eː
+bhala,V;BANTU6;FUT,a z o b áː l a,a z o b áː l a
+vela,V;BANTU3;PRS,ú j a v êː l a,ú j a v êː l a
+vela,V;BANTU8;V.PTCP,z í v eː l a,z í v eː l a
+vela,V;BANTU15;SBJV,ɠ ú v eː l e,ɠ ú v eː l e
+vela,V;BANTU10;FUT,z i z ó v eː l a,z i z o v eː l a
+vela,V;BANTU3;RMT;PST;PROG,w a w ú v eː l a,w a w ú v eː l a
+vela,V;BANTU3;RCT;PST;PROG,ɓ e w ú v eː l a,ɓ e w ú v eː l a
+vela,V;2;SG;RCT;PST;PROG,ú ɓ e v êː l a,ú v e l íː l e
+vela,V;BANTU17;SBJV,ɠ ú v eː l e,ɠ ú v eː l e
+vela,V;BANTU3;RCT;PST,ú v e l íː l e,ú v eː l êː
+vela,V;2;SG;FUT,ú z o v êː l a,n i z ó v eː l a
+vela,V;BANTU1;FUT,ú z o v êː l a,ú z o v êː l a
+vela,V;BANTU17;RCT;PST,ɠ ú v eː l eː,ɠ ú v eː l eː
+vela,V;1;SG;V.PTCP,n ɡ i v êː l a,ᵑɡ íː m a
+vela,V;BANTU17;RCT;PST;PROG,ɓ e ɠ ú v eː l a,ɓ e ɠ ú v eː l a
+vela,V;BANTU4;FUT,íː z o v êː l a,íː z o v êː l a
+vela,V;BANTU10;RMT;PST,z áː v eː l a,z áː v eː l a
+vela,V;BANTU11;PRS,l ú j a v eː l a,l ú j a v êː l a
+vela,V;BANTU2;RMT;PST;PROG,ɓ a ɓ e v êː l a,ɓ a ɓ e v êː l a
+vela,V;1;PL;RMT;PST;PROG,s a s í v eː l a,s áː v eː l a
+vela,V;BANTU4;RCT;PST,íː v eː l eː,z í v eː l eː
+vela,V;2;PL;PRS,n i j a v êː l a,n i j a v êː l a
+vela,V;2;PL;PRS,n í v eː l a,n i j a v êː l a
+vela,V;BANTU7;V.PTCP,s í v eː l a,s í v eː l a
+vela,V;BANTU6;RMT;PST;PROG,a j e v éː l a,áː v eː l a
+vela,V;BANTU6;RCT;PST,a v éː l eː,z í v eː l eː
+vela,V;BANTU9;RCT;PST,íː v eː l eː,íː v e l íː l e
+vela,V;BANTU6;RCT;PST;PROG,a ɓ e v êː l a,ɓ e z í v eː l a
+vela,V;BANTU6;FUT,a z o v éː l a,a z o v êː l a
+shaya,V;BANTU6;PRS,áː ʃ aː j a,a j a ʃ áː j a
+shaya,V;BANTU4;RCT;PST;PROG,ɓ e j í ʃ aː j a,ɓ e j í ʃ aː j a
+shaya,V;BANTU11;FUT,l ú z o ʃ aː j a,l ú z o ʃ aː j a
+shaya,V;BANTU10;SBJV,z í ʃ aː j e,z í ʃ aː j e
+shaya,V;NFIN,ú ɠ u ʃ âː j a,ú ɠ u ɓ úː z a
+shaya,V;1;PL;RCT;PST,s í ʃ a j eː,s í ʃ a j iː l é
+shaya,V;BANTU8;RCT;PST;PROG,ɓ e z í ʃ aː j a,ɓ e z í ʃ aː j a
+shaya,V;BANTU11;SBJV,l ú ʃ aː j e,l ú ʃ aː j e
+shaya,V;BANTU17;SBJV,ɠ ú ʃ aː j e,ɠ ú ʃ aː j e
+shaya,V;BANTU3;RCT;PST,úː ʃ a j êː,ú ʃ a j íː l e
+shaya,V;BANTU3;V.PTCP,úː ʃ aː j a,úː ʃ aː j a
+shaya,V;BANTU2;RCT;PST;PROG,ɓ e ɓ é ʃ aː j a,ɓ a ʃ a j eː
+shaya,V;BANTU2;SBJV,ɓ á ʃ aː j e,ɓ á ʃ aː j e
+shaya,V;BANTU7;PRS,s i j a ʃ áː j a,s i j a ʃ aː j a
+shaya,V;BANTU17;RCT;PST,ɠ ú ʃ a j iː l é,ɠ ú ʃ a j eː
+shaya,V;2;SG;RMT;PST,w áː ʃ aː j a,w a w ú ʃ aː j a
+shaya,V;BANTU5;FUT,l i z óː ʃ aː j a,l i z óː ʃ aː j a
+shaya,V;BANTU5;RMT;PST;PROG,l a l í ʃ aː j a,l a l í ʃ aː j a
+shaya,V;BANTU14;PRS,ɓ ú ʃ aː j a,ɓ u j a ʃ aː j a
+shaya,V;2;PL;RCT;PST;PROG,n í ɓ e ʃ aː j a,n í ʃ a j íː l e
+shaya,V;BANTU9;V.PTCP,íː ʃ aː j a,êː ʃ aː j a
+shaya,V;BANTU6;SBJV,áː ʃ aː j é,áː ʃ aː j é
+shaya,V;1;PL;RMT;PST,s áː ʃ aː j a,n ɡ aː ʃ áː j a
+shaya,V;BANTU5;RCT;PST,l í ʃ a j íː l e,l í ʃ a j eː
+shaya,V;1;PL;RMT;PST;PROG,s a s í ʃ aː j a,s a s í ʃ aː j a
+shaya,V;1;SG;FUT,n ɡ i z óː ʃ aː j a,ᵑɡ í ʃ aː j a
+shaya,V;BANTU7;FUT,s i z óː ʃ aː j a,s i z óː ʃ aː j a
+shaya,V;BANTU1;PRS,ú j a ʃ áː j a,ɠ ú j a ʃ aː j a
+shaya,V;BANTU4;PRS,íː j a ʃ áː j a,íː ʃ aː j a
+shaya,V;BANTU4;RMT;PST;PROG,j a j í ʃ aː j a,j a j í ʃ aː j a
+beka,V;BANTU15;RCT;PST;PROG,ɓ e ɠ ú ɓ eː ɠ a,ɓ e ɠ ú ɓ eː ɠ a
+beka,V;BANTU10;RCT;PST,z i ɓ é ɠ iː l e,z í ɓ eː ɠ eː
+beka,V;BANTU8;V.PTCP,z í ɓ eː ɠ a,é ɓ eː ɠ a
+beka,V;BANTU5;PRS,l i j a ɓ êː ɠ a,l i j a ɓ êː ɠ a
+beka,V;NFIN,ú ɠ u ɓ êː ɠ a,ú ɠ u ɓ úː z a
+beka,V;BANTU3;RMT;PST,w áː ɓ eː ɠ a,w áː ɓ eː ɠ a
+beka,V;1;PL;V.PTCP,s í ɓ eː ɠ a,s í ɓ eː ɠ a
+beka,V;2;PL;SBJV,n í ɓ eː ɠ e,n í ɓ eː ɠ e
+beka,V;BANTU8;RMT;PST;PROG,z a z í ɓ eː ɠ a,z a z í ɓ eː ɠ a
+beka,V;2;SG;RMT;PST;PROG,w a w ú ɓ eː ɠ a,w a w ú ɓ eː ɠ a
+beka,V;1;PL;FUT,s i z ó ɓ eː ɠ a,s í z o ɓ eː ɠ a
+beka,V;2;PL;RCT;PST,n í ɓ eː ɠ eː,n í ɓ eː ɠ êː
+beka,V;BANTU2;RCT;PST,ɓ a ɓ é ɠ iː l e,ɓ é ɓ eː ɠ êː
+beka,V;2;SG;PRS,ú ɓ eː ɠ a,ú j a ɓ êː ɠ a
+beka,V;BANTU14;RCT;PST,ɓ ú ɓ eː ɠ eː,ɓ ú ɓ eː ɠ eː
+beka,V;BANTU3;FUT,ú z o ɓ êː ɠ a,ɠ ú z o ɓ eː ɠ a
+beka,V;1;SG;PRS,n ɡ i j a ɓ êː ɠ a,n ɡ i ɓ éː ɠ a
+beka,V;BANTU2;RCT;PST;PROG,ɓ e ɓ e ɓ êː ɠ a,ɓ é ɓ eː ɠ eː
+beka,V;2;SG;RMT;PST,w áː ɓ eː ɠ a,w áː ɓ eː ɠ a
+beka,V;BANTU5;FUT,l i z ó ɓ eː ɠ a,l i z o ɓ eː ɠ a
+beka,V;BANTU9;PRS,íː ɓ eː ɠ a,í j a ɓ êː ɠ a
+beka,V;1;SG;RMT;PST,n ɡ áː ɓ eː ɠ a,s áː ɓ eː ɠ a
+beka,V;BANTU17;FUT,ɠ ú z o ɓ eː ɠ a,ɠ ú z o ɓ eː ɠ a
+beka,V;BANTU4;V.PTCP,íː ɓ eː ɠ a,íː ɓ eː ɠ a
+beka,V;BANTU6;SBJV,a ɓ éː ɠ e,z í ɓ eː ɠ e
+beka,V;1;PL;RMT;PST,s áː ɓ eː ɠ a,s áː ɓ eː ɠ a
+beka,V;BANTU17;PRS,ɠ ú j a ɓ eː ɠ a,ɠ u j a ɓ êː ɠ a
+beka,V;BANTU9;RMT;PST,j áː ɓ eː ɠ a,j áː ɓ eː ɠ a
+beka,V;BANTU15;PRS,ɠ ú j a ɓ eː ɠ a,ɠ ú ɓ eː ɠ a
+beka,V;BANTU8;SBJV,z í ɓ eː ɠ e,z í ɓ eː ɠ e
+beka,V;1;SG;SBJV,n ɡ i ɓ êː ɠ e,n ɡ i ɓ êː ɠ a
+beka,V;BANTU2;PRS,ɓ a j a ɓ êː ɠ a,ɓ a j a ɓ êː ɠ a
+beka,V;BANTU15;RMT;PST,k w áː ɓ eː ɠ a,k w áː ɓ eː ɠ a
+beka,V;BANTU6;RCT;PST;PROG,a ɓ e ɓ êː ɠ a,a ɓ e ɠ íː l e
+beka,V;BANTU4;PRS,íː j a ɓ êː ɠ a,íː j a ɓ êː ɠ a
+beka,V;BANTU9;SBJV,íː ɓ eː ɠ é,íː ɓ eː ɠ é
+beka,V;BANTU11;RCT;PST,l ú ɓ e ɠ íː l e,l ú ɓ eː ɠ eː
+beka,V;BANTU6;FUT,a z ó ɓ eː ɠ a,a z o ɓ eː ɠ a
+beka,V;BANTU11;V.PTCP,l ú ɓ eː ɠ a,l ú ɓ eː ɠ a
+beka,V;BANTU14;SBJV,ɓ ú ɓ eː ɠ e,ɓ ú ɓ eː ɠ a
+tha,V;BANTU3;PRS,ú j aː tʰ á,úː tʰ a
+tha,V;BANTU10;RCT;PST,z í tʰ iː l é,íː tʰ eː
+tha,V;BANTU6;PRS,a j áː tʰ a,âː tʰ a
+tha,V;1;SG;RCT;PST,n ɡ íː tʰ eː,s í tʰ iː l e
+tha,V;BANTU8;FUT,z i z o ɠ ûː tʰ a,z i z o ɠ uː tʰ a
+tha,V;BANTU7;SBJV,s íː tʰ e,s íː tʰ e
+tha,V;BANTU8;V.PTCP,z íː tʰ a,z íː tʰ a
+tha,V;BANTU10;SBJV,z íː tʰ e,z íː tʰ e
+tha,V;IMP;2;SG;LGSPEC3,j íː tʰ e,j íː tʰ eː n i
+tha,V;1;PL;RCT;PST,s íː tʰ eː,s íː tʰ eː
+tha,V;2;SG;RMT;PST;PROG,w a w úː tʰ a,n á n iː tʰ a
+tha,V;2;SG;RCT;PST,úː tʰ íː l e,úː tʰ eː
+tha,V;IMP;2;SG,j íː tʰ a,j íː tʰ a
+tha,V;BANTU14;FUT,ɓ ú z o ɠ uː tʰ a,ɓ u z o ɠ ûː tʰ a
+tha,V;BANTU11;SBJV,l úː tʰ e,l úː tʰ e
+tha,V;2;SG;RCT;PST;PROG,ú ɓ eː tʰ á,ú ɓ eː tʰ á
+tha,V;2;PL;RCT;PST,n íː tʰ eː,n íː tʰ eː
+tha,V;BANTU7;RMT;PST,s áː tʰ a,w áː tʰ a
+tha,V;BANTU3;RCT;PST,úː tʰ eː,ɠ úː tʰ eː
+tha,V;BANTU15;RCT;PST,ɠ ú tʰ iː l e,ɠ úː tʰ eː
+tha,V;BANTU2;RCT;PST,ɓ áː tʰ eː,úː tʰ eː
+tha,V;2;SG;PRS,ú j aː tʰ á,úː tʰ a
+tha,V;BANTU8;PRS,z íː tʰ a,z í j aː tʰ a
+tha,V;BANTU10;V.PTCP,z íː tʰ a,êː tʰ a
+tha,V;BANTU3;FUT,ú z o ɠ uː tʰ a,ú z o ɠ ûː tʰ a
+tha,V;BANTU2;RCT;PST;PROG,ɓ e ɓ êː tʰ a,ɓ é j iː tʰ a
+tha,V;BANTU5;SBJV,l íː tʰ e,l íː tʰ e
+tha,V;BANTU10;PRS,z íː tʰ a,z í j aː tʰ a
+tha,V;BANTU2;FUT,ɓ a z o ɠ ûː tʰ a,ɓ a z o ɠ uː tʰ a
+tha,V;1;SG;V.PTCP,n ɡ íː tʰ a,s íː tʰ a
+tha,V;1;SG;RMT;PST,n ɡ âː tʰ a,s áː tʰ a
+tha,V;BANTU14;PRS,ɓ úː tʰ a,ɓ úː tʰ a
+tha,V;2;PL;RMT;PST,n âː tʰ a,n á n iː tʰ a
+tha,V;BANTU6;SBJV,âː tʰ e,îː tʰ e
+tha,V;BANTU11;PRS,l ú j aː tʰ a,l ú j aː tʰ a
+tha,V;BANTU17;PRS,ɠ ú j aː tʰ a,ɠ úː tʰ a
+tha,V;BANTU5;RCT;PST,l íː tʰ iː l e,l íː tʰ eː
+tha,V;BANTU5;RCT;PST,l íː tʰ eː,l íː tʰ eː
+tha,V;BANTU4;RCT;PST,îː tʰ íː l e,îː tʰ eː
+tha,V;BANTU15;V.PTCP,ɠ úː tʰ a,ɠ úː tʰ a
+tha,V;BANTU6;RCT;PST,áː tʰ iː l é,áː tʰ eː
+tha,V;BANTU11;RMT;PST;PROG,l w a l ûː tʰ a,l w áː tʰ a
+tha,V;BANTU2;PRS,ɓ a j áː tʰ a,ɓ a j áː kʰ a
+tha,V;BANTU9;RCT;PST,îː tʰ eː,îː tʰ íː l e
+tha,V;1;SG;FUT,n ɡ i z o ɠ ûː tʰ a,ú z o ɠ ûː tʰ a
+tha,V;BANTU7;FUT,s í z o ɠ uː tʰ a,s i z o ɠ ûː tʰ a
+tha,V;BANTU1;PRS,ú j aː tʰ á,úː tʰ a
+tha,V;BANTU8;RCT;PST,z íː tʰ eː,z í tʰ iː l e
+tha,V;BANTU4;PRS,îː tʰ a,îː tʰ a
+tha,V;BANTU14;SBJV,ɓ úː tʰ e,îː tʰ e
+nika,V;BANTU15;RCT;PST;PROG,ɓ e ɠ ú n iː ɠ a,ɠ ú ɓ e n íː ɠ a
+nika,V;BANTU10;RCT;PST,z í n i ɠ êː,z í n iː ɠ eː
+nika,V;1;PL;RCT;PST;PROG,s i ɓ é n iː ɠ a,s i ɓ e d ʒ a ɓ ûː l a
+nika,V;BANTU7;SBJV,s í n iː ɠ é,s í n iː ɠ é
+nika,V;BANTU5;PRS,l í n iː ɠ a,l i j a n íː ɠ a
+nika,V;1;PL;V.PTCP,s í n iː ɠ a,s í n iː ɠ a
+nika,V;BANTU8;RMT;PST;PROG,z a z í n iː ɠ a,k w a ɠ ú n iː ɠ a
+nika,V;2;SG;RMT;PST;PROG,w a w ú n iː ɠ a,ú ɓ e n íː ɠ a
+nika,V;BANTU14;FUT,ɓ u z ó n iː ɠ a,ɓ u z ó n iː ɠ a
+nika,V;BANTU3;RCT;PST,ú n i ɠ íː l e,ú n i ɠ íː l e
+nika,V;IMP;2;PL,n í ɠ aː n i,n í n iː ɠ a
+nika,V;BANTU5;RCT;PST;PROG,ɓ e l í n iː ɠ a,l i ɓ é n iː ɠ a
+nika,V;BANTU2;RCT;PST,ɓ a n íː ɠ eː,ɓ a n íː ɠ eː
+nika,V;BANTU7;RMT;PST;PROG,s a s í n iː ɠ a,s a s í n iː ɠ a
+nika,V;BANTU8;PRS,z í n iː ɠ a,z i j á n iː ɠ a
+nika,V;2;PL;FUT,n i z ó n iː ɠ a,n í z o n iː ɠ a
+nika,V;BANTU7;PRS,s i j á n iː ɠ a,s i j a n íː ɠ a
+nika,V;BANTU10;PRS,z i j á n iː ɠ a,z i j a n íː ɠ a
+nika,V;BANTU5;RMT;PST;PROG,l a l í n iː ɠ a,l a l í n iː ɠ a
+nika,V;1;SG;V.PTCP,n ɡ i n íː ɠ a,n ɡ i n íː ɠ a
+nika,V;BANTU9;PRS,í n iː ɠ a,íː j a n íː ɠ a
+nika,V;BANTU17;V.PTCP,k ú n iː ɠ a,ɠ ú n iː ɠ a
+nika,V;BANTU11;PRS,l ú n iː ɠ a,l ú n iː ɠ a
+nika,V;BANTU2;RMT;PST;PROG,ɓ a ɓ é n iː ɠ a,ɓ a ɓ e n íː ɠ a
+nika,V;IMP;2;PL;LGSPEC3,n í ɠ eː n i,ɓ ó pʰ eː n i
+nika,V;BANTU11;RMT;PST,l w áː n iː ɠ a,l w áː n iː ɠ a
+nika,V;BANTU2;V.PTCP,ɓ é n iː ɠ a,í n iː ɠ a
+nika,V;BANTU7;V.PTCP,s í n iː ɠ a,é n iː ɠ a
+nika,V;BANTU15;V.PTCP,k ú n iː ɠ a,k ú n iː ɠ a
+nika,V;BANTU15;RMT;PST,k w áː n iː ɠ a,z áː n iː ɠ a
+nika,V;BANTU9;RCT;PST,í n i ɠ íː l e,í n i ɠ êː
+nika,V;BANTU1;RCT;PST;PROG,ú ɓ e n íː ɠ a,ú ɓ e n íː ɠ a
+nika,V;BANTU1;PRS,ú n iː ɠ a,w a j a n íː ɠ a
+nika,V;BANTU9;SBJV,í n iː ɠ é,í n iː ɠ é
+nika,V;BANTU4;RMT;PST;PROG,j a j í n iː ɠ a,j a j a n íː ɠ a
+nika,V;BANTU9;FUT,íː z o n íː ɠ a,íː z o n íː ɠ a
+nika,V;BANTU1;V.PTCP,é n iː ɠ a,w a j a n íː ɠ a
+bhekana,V;1;SG;RCT;PST,n ɡ i b e ɠ êː n eː,s i b e ɠ êː n eː
+bhekana,V;1;PL;RCT;PST;PROG,s i ɓ e b e ɠ âː n a,s i ɓ e b e ɠ âː n a
+bhekana,V;BANTU7;SBJV,s i b e ɠ âː n e,s i b e ɠ âː n e
+bhekana,V;BANTU3;RMT;PST,w aː b e ɠ âː n a,w aː b e ɠ âː n a
+bhekana,V;BANTU15;SBJV,ɠ ú b e ɠ aː n e,ɠ ú b e ɠ aː n e
+bhekana,V;BANTU8;RMT;PST;PROG,z a z i b e ɠ âː n a,z a z i b e ɠ âː n a
+bhekana,V;BANTU5;V.PTCP,l i b e ɠ âː n a,l i b e ɠ aː n a
+bhekana,V;2;SG;RMT;PST;PROG,w a w u b e ɠ âː n a,w a w úː z w a
+bhekana,V;BANTU11;SBJV,l ú b e ɠ aː n e,l ú b e ɠ aː n e
+bhekana,V;2;PL;RCT;PST,n í b e ɠ eː n eː,n í b e ɠ êː n eː
+bhekana,V;BANTU3;RCT;PST,ú b e ɠ êː n eː,ú b e ɠ êː n eː
+bhekana,V;2;SG;FUT,ú z o b e ɠ âː n a,úː z o b e ɠ âː n a
+bhekana,V;BANTU2;RCT;PST,ɓ a b e ɠ êː n eː,ɓ a b e ɠ êː n eː
+bhekana,V;BANTU7;RMT;PST;PROG,s a s i b e ɠ âː n a,s aː b e ɠ aː n a
+bhekana,V;1;PL;SBJV,s i b e ɠ âː n e,ɠ ú b e ɠ aː n e
+bhekana,V;2;PL;V.PTCP,n í b e ɠ aː n a,n í b e ɠ aː n a
+bhekana,V;BANTU17;RMT;PST;PROG,k w a ɠ u b e ɠ âː n a,k w aː b e ɠ âː n a
+bhekana,V;BANTU10;PRS,z i b e ɠ âː n a,z i j a b e ɠ âː n a
+bhekana,V;BANTU9;RCT;PST;PROG,ɓ e j i b e ɠ âː n a,ɓ e j i b e ɠ âː n a
+bhekana,V;BANTU9;PRS,íː j a b e ɠ âː n a,íː j a b e ɠ âː n a
+bhekana,V;BANTU17;FUT,ɠ ú z o b e ɠ aː n a,ɠ ú z o b e ɠ âː n a
+bhekana,V;BANTU9;V.PTCP,íː b e ɠ âː n a,íː b e ɠ âː n a
+bhekana,V;BANTU6;SBJV,a b e ɠ âː n e,a b e ɠ âː n e
+bhekana,V;BANTU2;RMT;PST;PROG,ɓ a ɓ e b e ɠ âː n a,z a z i b e ɠ âː n a
+bhekana,V;BANTU17;PRS,ɠ ú b e ɠ aː n a,k ú j a b e ɠ âː n a
+bhekana,V;BANTU9;RMT;PST,j áː b e ɠ aː n a,j áː b e ɠ aː n a
+bhekana,V;2;PL;PRS,n í b e ɠ aː n a,n i j a b e ɠ âː n a
+bhekana,V;BANTU7;V.PTCP,s i b e ɠ âː n a,eː b e ɠ âː n a
+bhekana,V;BANTU8;SBJV,z i b e ɠ âː n e,z i b e ɠ aː n e
+bhekana,V;BANTU11;RMT;PST;PROG,l w a l u b e ɠ âː n a,l w aː b e ɠ âː n a
+bhekana,V;1;SG;SBJV,n ɡ i b e ɠ âː n e,n ɡ i b e ɠ âː n a
+bhekana,V;BANTU7;FUT,s i z o b e ɠ âː n a,s i z o b e ɠ âː n a
+bhekana,V;BANTU8;RCT;PST,z i b e ɠ êː n eː,z i b e ɠ eː n eː
+bhekana,V;BANTU14;SBJV,ɓ u b e ɠ âː n e,ɓ u b e ɠ âː n e
+bhekana,V;BANTU4;RMT;PST;PROG,j a j i b e ɠ âː n a,z a z i b e ɠ âː n a
+akha,V;BANTU15;RCT;PST;PROG,ɓ é ɠ w aː kʰ a,z í ɓ aː kʰ a
+akha,V;1;PL;RCT;PST,s á kʰ iː l e,s áː kʰ eː
+akha,V;2;PL;SBJV,n áː kʰ e,n áː kʰ e
+akha,V;BANTU5;V.PTCP,l áː kʰ a,l áː kʰ a
+akha,V;2;SG;RCT;PST,w áː kʰ iː l e,w áː kʰ eː
+akha,V;IMP;2;SG,j áː kʰ a,m úː ɲ a
+akha,V;BANTU8;RCT;PST;PROG,ɓ e z áː kʰ a,z í ɓ aː kʰ a
+akha,V;BANTU14;V.PTCP,ɓ áː kʰ a,ɓ áː kʰ a
+akha,V;2;SG;RCT;PST;PROG,ú ɓ aː kʰ á,ú ɓ e tʰ ûː l a
+akha,V;BANTU17;SBJV,k w áː kʰ e,k w áː kʰ e
+akha,V;2;PL;RCT;PST,n áː kʰ eː,n áː kʰ eː
+akha,V;BANTU3;RCT;PST,w áː kʰ iː l e,z á kʰ iː l é
+akha,V;2;SG;FUT,ú z o ɠ w áː kʰ a,ú z o ɠ w áː kʰ a
+akha,V;IMP;2;PL,j áː kʰ aː n i,z í l aː n i
+akha,V;BANTU2;RCT;PST,ɓ á kʰ iː l e,ɓ áː kʰ eː
+akha,V;1;PL;SBJV,s áː kʰ e,s áː kʰ e
+akha,V;BANTU2;SBJV,ɓ áː kʰ e,ɓ áː kʰ e
+akha,V;2;PL;RMT;PST;PROG,n á n aː kʰ a,w a w áː kʰ a
+akha,V;BANTU9;RCT;PST;PROG,ɓ e j áː kʰ a,áː kʰ eː
+akha,V;BANTU14;PRS,ɓ ú j aː kʰ a,ɓ ú j aː kʰ a
+akha,V;BANTU17;FUT,ɠ ú z o ɠ w aː kʰ a,ɠ u z o ɠ w aː kʰ a
+akha,V;1;PL;RMT;PST,s áː kʰ a,s áː kʰ a
+akha,V;BANTU17;PRS,ɠ ú j aː kʰ a,ɠ ú j aː kʰ a
+akha,V;BANTU14;RCT;PST;PROG,ɓ é ɓ aː kʰ a,ɓ ú ɓ aː kʰ a
+akha,V;1;PL;RMT;PST;PROG,s a s áː kʰ a,k w a ɠ w áː kʰ a
+akha,V;BANTU4;RCT;PST,áː kʰ iː l é,z áː kʰ eː
+akha,V;BANTU4;RCT;PST,áː kʰ eː,áː kʰ iː l é
+akha,V;2;PL;PRS,n í j aː kʰ a,n í j aː kʰ a
+akha,V;BANTU11;RMT;PST,l w áː kʰ a,l w áː kʰ a
+akha,V;BANTU7;RCT;PST,s á kʰ iː l e,s áː kʰ eː
+akha,V;BANTU15;V.PTCP,k w áː kʰ a,k w áː kʰ a
+akha,V;1;PL;PRS,s í j aː kʰ a,s í j aː kʰ a
+akha,V;BANTU2;PRS,ɓ a j áː kʰ a,ɓ a j áː kʰ a
+akha,V;BANTU9;RCT;PST,áː kʰ iː l é,áː kʰ iː l é
+akha,V;BANTU11;RCT;PST;PROG,ɓ é l w aː kʰ a,l ú ɓ aː kʰ a
+akha,V;BANTU1;PRS,w áː kʰ a,ú j aː kʰ á
+akha,V;BANTU6;FUT,a z o ɠ w áː kʰ a,a z o ɠ w áː kʰ a
+qala,V;BANTU3;PRS,ú j a ǃ âː l a,ú j a ǃ aː l a
+qala,V;BANTU3;PRS,úː ǃ aː l a,ú j a ǃ aː l a
+qala,V;BANTU6;PRS,a j a ǃ âː l a,a j a ǃ aː l a
+qala,V;BANTU6;PRS,áː ǃ aː l a,a j a ǃ aː l a
+qala,V;BANTU11;FUT,l ú z o ǃ aː l a,l ú z o ǃ aː l a
+qala,V;BANTU5;PRS,l i j a ǃ âː l a,l i j a ǃ aː l a
+qala,V;BANTU10;SBJV,z íː ǃ aː l e,z íː ǃ aː l e
+qala,V;1;PL;RCT;PST,s í ǃ a l íː l e,s íː ǃ aː l eː
+qala,V;BANTU10;FUT,z i z ó ǃ aː l a,z i z ó ǃ aː l a
+qala,V;BANTU15;RMT;PST;PROG,k w a ɠ ú ǃ aː l a,k w a ɠ ú ǃ aː l a
+qala,V;2;SG;RCT;PST,úː ǃ aː l eː,úː ǃ a l íː l e
+qala,V;BANTU8;RCT;PST;PROG,ɓ e z í ǃ aː l a,z í ǃ a l iː l é
+qala,V;1;PL;FUT,s i z ó ǃ aː l a,s í z o ǃ aː l a
+qala,V;2;PL;RCT;PST,n í ǃ a l íː l e,n íː ǃ aː l eː
+qala,V;2;PL;RCT;PST,n íː ǃ aː l eː,úː ǃ a l íː l e
+qala,V;2;SG;FUT,ú z o ǃ aː l a,ú z o ǃ aː l a
+qala,V;BANTU15;RCT;PST,ɠ ú ǃ aː l eː,ɠ ú ǃ aː l eː
+qala,V;IMP;2;PL,ǃ a l âː n i,n íː ǃ aː l a
+qala,V;2;SG;PRS,úː ǃ aː l a,ú j a ǃ aː l a
+qala,V;2;PL;V.PTCP,n íː ǃ aː l a,n i j á ǃ aː l a
+qala,V;1;SG;PRS,ᵑɡ í ǃ aː l a,ú j a ǃ âː l a
+qala,V;BANTU2;RCT;PST;PROG,ɓ e ɓ é ǃ aː l a,ɓ á ǃ aː l eː
+qala,V;BANTU17;RCT;PST,ɠ ú ǃ a l iː l é,ɠ ú ǃ aː l eː
+qala,V;BANTU17;RCT;PST,ɠ ú ǃ aː l eː,ɠ ú ǃ a l iː l é
+qala,V;BANTU5;RMT;PST;PROG,l a l í ǃ aː l a,l a l í ǃ aː l a
+qala,V;BANTU9;PRS,íː ǃ aː l a,íː j a ǃ aː l a
+qala,V;BANTU14;PRS,ɓ ú ǃ aː l a,ɓ u j á ǃ aː l a
+qala,V;BANTU17;V.PTCP,ɠ ú ǃ aː l a,ɠ ú ǃ aː l a
+qala,V;2;PL;RMT;PST,n áː ǃ aː l a,w áː ǃ aː l a
+qala,V;2;PL;RCT;PST;PROG,n í ɓ e ǃ aː l a,n í ɓ e ǀ a ɓ âː n ɡ a
+qala,V;BANTU10;RMT;PST,z áː ǃ aː l a,w áː ǃ aː l a
+qala,V;IMP;2;PL;LGSPEC3,ǃ a l éː n i,ɓ ó pʰ eː n i
+qala,V;1;SG;RCT;PST;PROG,ɓ e n ɡ í ǃ aː l a,ú ɓ e ǃ âː l a
+qala,V;2;PL;PRS,n íː ǃ aː l a,s íː j a ǃ âː l a
+qala,V;BANTU2;V.PTCP,ɓ é ǃ aː l a,éː ǃ aː l a
+qala,V;BANTU7;RCT;PST,s í ǃ a l íː l e,s í ǃ a l íː l e
+qala,V;BANTU7;V.PTCP,s íː ǃ aː l a,s íː ǃ aː l a
+qala,V;BANTU8;SBJV,z íː ǃ aː l e,z íː ǃ aː l e
+qala,V;BANTU6;RMT;PST;PROG,a j é ǃ aː l a,z a z í ǃ aː l a
+qala,V;BANTU2;PRS,ɓ á ǃ aː l a,ɓ a j a ǃ aː l a
+qala,V;BANTU9;RCT;PST,íː ǃ a l íː l e,íː ǃ aː l eː
+qala,V;BANTU8;RCT;PST,z íː ǃ aː l eː,z í ǃ a l íː l e
+qala,V;BANTU14;SBJV,ɓ ú ǃ aː l e,ɓ ú ǃ aː l e
+qala,V;BANTU4;RMT;PST;PROG,j a j í ǃ aː l a,j a j í ǃ aː l a
+qala,V;BANTU9;RMT;PST;PROG,j a j í ǃ aː l a,j a j í ǃ aː l a
+bopha,V;BANTU3;PRS,ú j a ɓ ôː pʰ a,ú ɓ oː pʰ a
+bopha,V;BANTU15;RCT;PST;PROG,ɓ e ɠ ú ɓ oː pʰ a,ɓ e ɠ ú ɓ oː pʰ a
+bopha,V;BANTU10;RCT;PST,z í ɓ oː pʰ eː,z í ɓ oː pʰ eː
+bopha,V;1;SG;RCT;PST,n ɡ i ɓ ôː pʰ eː,n ɡ i ɓ ó pʰ iː l é
+bopha,V;1;PL;RCT;PST;PROG,s i ɓ é ɓ oː pʰ a,s i ɓ é ɓ oː pʰ a
+bopha,V;BANTU4;RCT;PST;PROG,ɓ e j í ɓ oː pʰ a,ɓ e ɠ ú ɓ oː pʰ a
+bopha,V;BANTU11;FUT,l ú z o ɓ oː pʰ a,l u z ó ɓ oː pʰ a
+bopha,V;BANTU8;V.PTCP,z í ɓ oː pʰ a,z í ɓ oː pʰ a
+bopha,V;BANTU10;SBJV,z í ɓ oː pʰ é,ɠ ú ɓ oː pʰ e
+bopha,V;NFIN,ú ɠ u ɓ ôː pʰ a,ú ɠ u ɓ ôː pʰ a
+bopha,V;BANTU3;RMT;PST,w áː ɓ oː pʰ a,w áː ɓ oː pʰ a
+bopha,V;BANTU15;FUT,ɠ ú z o ɓ oː pʰ a,íː z o ɓ ôː pʰ a
+bopha,V;2;SG;RMT;PST;PROG,w a w ú ɓ oː pʰ a,w a w úː z w a
+bopha,V;BANTU5;RMT;PST,l áː ɓ oː pʰ a,l a l í ɓ oː pʰ a
+bopha,V;BANTU1;RCT;PST,ú ɓ oː pʰ éː,ú ɓ o pʰ íː l e
+bopha,V;2;SG;RCT;PST;PROG,ú ɓ e ɓ ôː pʰ a,ú ɓ oː pʰ éː
+bopha,V;BANTU3;V.PTCP,ú ɓ oː pʰ á,éː ɓ oː pʰ a
+bopha,V;IMP;2;PL,ɓ ó pʰ aː n i,n í ɓ oː pʰ a
+bopha,V;2;SG;PRS,ú j a ɓ ôː pʰ a,ú j a ɓ ôː pʰ a
+bopha,V;BANTU8;PRS,z í ɓ oː pʰ a,z i j á ɓ oː pʰ a
+bopha,V;2;PL;FUT,n í z o ɓ oː pʰ a,n i z ó ɓ oː pʰ a
+bopha,V;BANTU17;RCT;PST,ɠ ú ɓ oː pʰ eː,ɠ ú ɓ o pʰ íː l e
+bopha,V;BANTU3;SBJV,ú ɓ oː pʰ é,ú ɓ oː pʰ é
+bopha,V;BANTU4;V.PTCP,íː ɓ oː pʰ a,íː ɓ oː pʰ a
+bopha,V;1;PL;RMT;PST,s áː ɓ oː pʰ a,s áː ɓ oː pʰ a
+bopha,V;BANTU14;RMT;PST,ɓ áː ɓ oː pʰ a,ɓ a ɓ ú ɓ oː pʰ a
+bopha,V;BANTU14;RCT;PST;PROG,ɓ e ɓ ú ɓ oː pʰ a,ɓ e ɓ ú ɓ oː pʰ a
+bopha,V;BANTU15;PRS,ɠ ú ɓ oː pʰ a,ɠ ú j a ɓ oː pʰ a
+bopha,V;BANTU4;RCT;PST,íː ɓ o pʰ éː,íː ɓ o pʰ íː l e
+bopha,V;BANTU2;V.PTCP,ɓ é ɓ oː pʰ a,ɓ a z ó ɓ oː pʰ a
+bopha,V;BANTU17;RMT;PST,k w áː ɓ oː pʰ a,z áː ɓ oː pʰ a
+bopha,V;BANTU8;SBJV,z í ɓ oː pʰ é,z í ɓ oː pʰ e
+bopha,V;BANTU15;V.PTCP,ɠ ú ɓ oː pʰ a,ɠ ú ɓ oː pʰ a
+bopha,V;1;PL;PRS,s i j á ɓ oː pʰ a,s i j a ɓ ôː pʰ a
+bopha,V;BANTU6;RMT;PST;PROG,a j é ɓ oː pʰ a,a ɓ é ɓ oː pʰ a
+bopha,V;BANTU6;RCT;PST,a ɓ ó pʰ iː l e,a ɓ é ɓ oː pʰ a
+bopha,V;BANTU2;PRS,ɓ á ɓ oː pʰ a,ɓ a j a ɓ oː pʰ a
+bopha,V;1;SG;FUT,n ɡ i z ó ɓ oː pʰ a,n ɡ í ɓ oː pʰ a
+bopha,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ í ɓ oː pʰ a,n ɡ áː ɓ oː pʰ a
+bopha,V;BANTU11;RCT;PST,l ú ɓ oː pʰ eː,l ú ɓ o pʰ íː l e
+bopha,V;BANTU4;RMT;PST;PROG,j a j í ɓ oː pʰ a,j a j í ɓ oː pʰ a
+bopha,V;BANTU9;FUT,íː z o ɓ ôː pʰ a,ɠ u z ó ɓ oː pʰ a
+bopha,V;BANTU9;RMT;PST;PROG,j a j í ɓ oː pʰ a,j a j í ɓ oː pʰ a
+izwa,V;BANTU10;RCT;PST,z íː z w eː,z í z w iː l e
+izwa,V;1;SG;RCT;PST,n ɡ íː z w eː,ᵑɡ íː z w eː
+izwa,V;BANTU11;FUT,l ú z o ɠ uː z w a,l ú z o ɠ uː z w a
+izwa,V;BANTU8;V.PTCP,z íː z w a,z íː z w a
+izwa,V;BANTU5;PRS,l í j eː z w a,l íː z w a
+izwa,V;1;PL;RCT;PST,s í z w iː l e,n íː z w eː
+izwa,V;2;SG;RCT;PST,úː z w íː l e,úː z w eː
+izwa,V;BANTU3;RMT;PST;PROG,w a w úː z w a,k w a ɠ úː z w a
+izwa,V;1;PL;FUT,s i z o ɠ úː z w a,s íː z w a
+izwa,V;2;SG;V.PTCP,úː z w a,úː z w a
+izwa,V;BANTU4;SBJV,îː z w e,íː z w e
+izwa,V;BANTU2;RCT;PST,ɓ éː z w eː,ɓ é z w iː l é
+izwa,V;1;PL;SBJV,s íː z w e,s íː z w e
+izwa,V;1;SG;PRS,ᵑɡ íː z w a,n ɡ i j éː z w a
+izwa,V;BANTU7;PRS,s í j eː z w a,ɓ a s íː z w a
+izwa,V;BANTU17;RMT;PST;PROG,k w a ɠ úː z w a,j a j íː z w a
+izwa,V;BANTU17;RCT;PST,ɠ úː z w eː,ɠ ú z w iː l é
+izwa,V;BANTU14;PRS,ɓ úː z w a,ɓ ú j eː z w a
+izwa,V;BANTU17;V.PTCP,ɠ úː z w a,ɠ úː z w a
+izwa,V;BANTU10;RMT;PST,z áː z w a,z áː z w a
+izwa,V;BANTU11;PRS,l úː z w a,l ú j eː z w a
+izwa,V;BANTU9;RMT;PST,j áː z w a,j áː z w a
+izwa,V;BANTU5;RCT;PST,l íː z w eː,ɓ é l iː z w a
+izwa,V;BANTU14;RMT;PST,ɓ áː z w a,ɓ áː z w a
+izwa,V;BANTU14;RCT;PST;PROG,ɓ e ɓ úː z w a,ɓ ú z w iː l e
+izwa,V;BANTU7;V.PTCP,s íː z w a,s íː z w a
+izwa,V;BANTU17;RMT;PST,k w áː z w a,w áː z w a
+izwa,V;BANTU15;V.PTCP,ɠ úː z w a,ɠ úː z w a
+izwa,V;BANTU6;RCT;PST,éː z w iː l e,úː z w eː
+izwa,V;BANTU2;PRS,ɓ éː z w a,ɓ a j íː z w a
+izwa,V;BANTU15;RMT;PST,k w áː z w a,k w áː z w a
+izwa,V;BANTU9;RCT;PST,íː z w íː l e,íː z w eː
+izwa,V;BANTU11;RCT;PST;PROG,ɓ e l úː z w a,l ú ɓ eː z w a
+izwa,V;BANTU8;RCT;PST,z íː z w eː,z íː z w eː
+izwa,V;BANTU11;RCT;PST,l úː z w eː,l ú z w iː l e
+phenduka,V;BANTU15;RCT;PST;PROG,ɓ e ɠ u pʰ é n d uː ɠ a,ɓ e ɠ u pʰ é n d uː ɠ a
+phenduka,V;BANTU10;RCT;PST,z i pʰ e n d ú ɠ iː l e,z í pʰ e n d u ɠ eː
+phenduka,V;BANTU6;PRS,a j a pʰ é n d uː ɠ a,a pʰ e n d úː ɠ a
+phenduka,V;BANTU4;RCT;PST;PROG,ɓ e j i pʰ é n d uː ɠ a,ɓ e z i pʰ é n d uː ɠ a
+phenduka,V;BANTU11;FUT,l ú z o pʰ e n d uː ɠ a,l ú z o pʰ é n d uː ɠ a
+phenduka,V;BANTU5;PRS,l í pʰ e n d uː ɠ a,l i j a pʰ é n d uː ɠ a
+phenduka,V;BANTU15;SBJV,ɠ ú pʰ e n d uː ɠ e,ɠ ú pʰ e n d uː ɠ e
+phenduka,V;1;PL;RCT;PST,s i pʰ e n d ú ɠ iː l e,s í pʰ e n d u ɠ eː
+phenduka,V;BANTU1;RCT;PST,úː pʰ e n d ú ɠ eː,ú pʰ e n d u ɠ íː l e
+phenduka,V;BANTU14;V.PTCP,ɓ ú pʰ e n d uː ɠ a,ɓ ú pʰ e n d uː ɠ a
+phenduka,V;2;SG;RCT;PST;PROG,ú ɓ e pʰ e n d úː ɠ a,úː pʰ e n d u ɠ íː l e
+phenduka,V;BANTU1;SBJV,a pʰ e n d ûː ɠ e,ú pʰ e n d ûː ɠ e
+phenduka,V;BANTU15;RCT;PST,ɠ ú pʰ e n d u ɠ íː l e,ɠ ú pʰ e n d u ɠ eː
+phenduka,V;BANTU14;RCT;PST,ɓ ú pʰ e n d u ɠ íː l e,ɓ ú pʰ e n d u ɠ eː
+phenduka,V;BANTU14;RCT;PST,ɓ ú pʰ e n d u ɠ eː,ɓ ú pʰ e n d u ɠ eː
+phenduka,V;1;PL;SBJV,s í pʰ e n d uː ɠ e,s í pʰ e n d uː ɠ e
+phenduka,V;BANTU17;RMT;PST;PROG,k w a ɠ u pʰ é n d uː ɠ a,k w a ɠ u pʰ é n d uː ɠ a
+phenduka,V;2;PL;RMT;PST;PROG,n a n i pʰ é n d uː ɠ a,n áː pʰ e n d uː ɠ a
+phenduka,V;1;SG;RMT;PST,n ɡ aː pʰ e n d úː ɠ a,n ɡ a n ɡ i pʰ é n d uː ɠ a
+phenduka,V;BANTU17;V.PTCP,ɠ ú pʰ e n d uː ɠ a,ɠ ú pʰ e n d uː ɠ a
+phenduka,V;BANTU4;V.PTCP,íː pʰ e n d ûː ɠ a,z í pʰ e n d uː ɠ a
+phenduka,V;BANTU11;PRS,l ú pʰ e n d uː ɠ a,l ú pʰ e n d uː ɠ a
+phenduka,V;BANTU17;PRS,ɠ ú j a pʰ e n d uː ɠ a,ɠ u j a pʰ é n d uː ɠ a
+phenduka,V;IMP;2;PL;LGSPEC3,pʰ e n d ú ɠ eː n i,pʰ ú m eː n i
+phenduka,V;BANTU14;RCT;PST;PROG,ɓ e ɓ u pʰ é n d uː ɠ a,ɓ e ɓ u pʰ é n d uː ɠ a
+phenduka,V;BANTU15;PRS,ɠ ú j a pʰ e n d uː ɠ a,ɠ ú j a pʰ é n d uː ɠ a
+phenduka,V;1;PL;RMT;PST;PROG,s a s i pʰ é n d uː ɠ a,s a s i pʰ é n d uː ɠ a
+phenduka,V;BANTU4;RCT;PST,íː pʰ e n d ú ɠ eː,íː pʰ e n d ú ɠ iː l e
+phenduka,V;BANTU2;V.PTCP,ɓ e pʰ e n d ûː ɠ a,ɓ a pʰ e n d uː ɠ a
+phenduka,V;BANTU11;RMT;PST;PROG,l w a l u pʰ é n d uː ɠ a,z a z i pʰ é n d uː ɠ a
+phenduka,V;BANTU15;RMT;PST,k w aː pʰ e n d úː ɠ a,k w aː pʰ e n d úː ɠ a
+phenduka,V;1;SG;FUT,n ɡ i z o pʰ é n d uː ɠ a,n ɡ i pʰ é n d uː ɠ a
+phenduka,V;BANTU1;PRS,ú j a pʰ e n d úː ɠ a,w a j a pʰ é n d uː ɠ a
+phenduka,V;BANTU2;RMT;PST,ɓ áː pʰ e n d uː ɠ a,k w aː pʰ e n d úː ɠ a
+phenduka,V;BANTU4;RMT;PST;PROG,j a j í pʰ e n d uː ɠ a,j a j i pʰ é n d uː ɠ a
+phenduka,V;BANTU1;V.PTCP,eː pʰ e n d úː ɠ a,z í pʰ e n d uː ɠ a
+bala,V;2;SG;SBJV,ú ɓ aː l é,ú ɓ aː l é
+bala,V;BANTU1;RMT;PST,w áː ɓ aː l a,w áː ɓ aː l a
+bala,V;BANTU4;RMT;PST,j áː ɓ aː l a,j áː ɓ aː l a
+bala,V;BANTU11;FUT,l ú z o ɓ aː l a,íː z o ɓ âː l a
+bala,V;BANTU7;SBJV,s í ɓ aː l e,s í ɓ aː l e
+bala,V;BANTU5;PRS,l i j a ɓ âː l a,l i j a ɓ âː l a
+bala,V;BANTU6;RMT;PST,áː ɓ aː l a,z áː ɓ aː l a
+bala,V;BANTU1;RCT;PST,ú ɓ a l íː l e,ú ɓ aː l êː
+bala,V;BANTU14;FUT,ɓ u z ó ɓ aː l a,ɓ ú ɓ aː l a
+bala,V;2;SG;RCT;PST;PROG,ú ɓ e ɓ âː l a,ɓ e n ɡ i ɓ âː l a
+bala,V;2;PL;RCT;PST,n i ɓ a l íː l e,n í ɓ aː l eː
+bala,V;2;SG;V.PTCP,ú ɓ aː l a,ú ɓ aː l a
+bala,V;BANTU3;RCT;PST,ú ɓ aː l êː,ú ɓ aː l êː
+bala,V;BANTU4;SBJV,íː ɓ aː l é,íː ɓ aː l é
+bala,V;BANTU2;RCT;PST,ɓ a ɓ a l íː l e,ú ɓ aː l êː
+bala,V;2;SG;PRS,ú ɓ aː l a,ú j a ɓ âː l a
+bala,V;BANTU14;RCT;PST,ɓ u ɓ a l íː l e,ɓ ú ɓ aː l eː
+bala,V;BANTU8;PRS,z i j a ɓ âː l a,z i j a ɓ aː l a
+bala,V;2;PL;FUT,n í z o ɓ aː l a,n i z ó ɓ aː l a
+bala,V;BANTU17;RCT;PST,ɠ u ɓ a l íː l e,ɠ ú ɓ aː l eː
+bala,V;BANTU17;RCT;PST,ɠ ú ɓ aː l eː,ɠ ú ɓ aː l eː
+bala,V;BANTU2;FUT,ɓ a z o ɓ âː l a,ɓ a z ó ɓ aː l a
+bala,V;2;PL;RMT;PST;PROG,n a n í ɓ aː l a,n a n í ɓ aː l a
+bala,V;1;SG;V.PTCP,n ɡ i ɓ âː l a,n ɡ i ɓ âː l a
+bala,V;BANTU17;V.PTCP,ɠ ú ɓ aː l a,ɠ ú ɓ aː l a
+bala,V;BANTU6;SBJV,á ɓ aː l é,z í ɓ aː l e
+bala,V;BANTU4;RCT;PST,íː ɓ aː l eː,íː ɓ aː l eː
+bala,V;BANTU11;RMT;PST,l w aː ɓ âː l a,l w aː ɓ âː l a
+bala,V;BANTU2;V.PTCP,ɓ é ɓ aː l a,ɓ á ɓ aː l a
+bala,V;BANTU7;RCT;PST,s í ɓ aː l eː,s í ɓ aː l eː
+bala,V;BANTU8;SBJV,z í ɓ aː l e,z í ɓ aː l e
+bala,V;1;PL;PRS,s í ɓ aː l a,s í ɓ aː l a
+bala,V;BANTU15;RMT;PST,k w aː ɓ âː l a,k w aː ɓ âː l a
+bala,V;BANTU9;RCT;PST,íː ɓ aː l eː,íː ɓ a l íː l e
+bala,V;BANTU1;PRS,ú j a ɓ âː l a,á ɓ aː l a
+bala,V;BANTU6;RCT;PST;PROG,a ɓ e ɓ âː l a,a ɓ áː l eː
+bala,V;BANTU8;RCT;PST,z i ɓ a l íː l e,z í ɓ aː l eː
+bala,V;BANTU6;V.PTCP,é ɓ aː l a,é ɓ aː l a
+phuma,V;BANTU3;PRS,ú j a pʰ ûː m a,ú j a pʰ ûː m a
+phuma,V;BANTU6;PRS,a j a pʰ úː m a,a j a pʰ ûː m a
+phuma,V;BANTU11;FUT,l ú z o pʰ uː m a,l ú z o pʰ uː m a
+phuma,V;BANTU5;PRS,l i j a pʰ ûː m a,l i j a pʰ ûː m a
+phuma,V;BANTU3;RMT;PST,w áː pʰ uː m a,w áː pʰ uː m a
+phuma,V;BANTU8;RMT;PST;PROG,z a z í pʰ uː m a,k w a ɠ ú pʰ uː m a
+phuma,V;2;SG;RCT;PST,ú pʰ u m íː l e,ú pʰ u m êː
+phuma,V;2;SG;RCT;PST,úː pʰ u m êː,ú pʰ u m êː
+phuma,V;BANTU3;RMT;PST;PROG,w a w ú pʰ uː m a,w a w ú pʰ uː m a
+phuma,V;BANTU5;RMT;PST,l áː pʰ uː m a,j áː pʰ uː m a
+phuma,V;BANTU8;RCT;PST;PROG,ɓ e z í pʰ uː m a,ɓ e z í pʰ uː m a
+phuma,V;BANTU17;SBJV,ɠ ú pʰ uː m e,ɠ ú pʰ uː m e
+phuma,V;BANTU7;RMT;PST,s áː pʰ uː m a,ɓ áː pʰ uː m a
+phuma,V;BANTU15;RCT;PST,ɠ ú pʰ u m iː l é,ɠ ú pʰ u m êː
+phuma,V;BANTU15;RCT;PST,ɠ ú pʰ u m eː,úː pʰ u m êː
+phuma,V;BANTU7;RMT;PST;PROG,s a s í pʰ uː m a,s a s í pʰ uː m a
+phuma,V;BANTU14;RCT;PST,ɓ ú pʰ u m eː,ɓ ú pʰ u m êː
+phuma,V;1;SG;PRS,n ɡ i j a pʰ ûː m a,n ɡ í pʰ uː m a
+phuma,V;BANTU17;RMT;PST;PROG,k w a ɠ ú pʰ uː m a,z a z í pʰ uː m a
+phuma,V;BANTU5;FUT,l i z ó pʰ uː m a,l í z o pʰ uː m a
+phuma,V;BANTU9;RCT;PST;PROG,ɓ e j í pʰ uː m a,ɓ e z í pʰ uː m a
+phuma,V;BANTU17;RCT;PST;PROG,ɓ e ɠ ú pʰ uː m a,ɠ ú pʰ u m eː
+phuma,V;BANTU4;FUT,íː z o pʰ ûː m a,íː z o pʰ ûː m a
+phuma,V;BANTU11;PRS,l ú pʰ uː m a,l ú j a pʰ ûː m a
+phuma,V;1;PL;RMT;PST,s áː pʰ uː m a,s áː pʰ uː m a
+phuma,V;BANTU15;PRS,ɠ ú pʰ uː m a,ɠ ú j a pʰ ûː m a
+phuma,V;BANTU11;RMT;PST,l w áː pʰ uː m a,l w áː pʰ uː m a
+phuma,V;BANTU17;RMT;PST,k w áː pʰ uː m a,j áː pʰ uː m a
+phuma,V;BANTU6;RCT;PST,áː pʰ u m êː,a ɓ é pʰ uː m a
+phuma,V;1;SG;SBJV,n ɡ í pʰ uː m e,n ɡ í pʰ uː m a
+phuma,V;BANTU9;RCT;PST,íː pʰ u m íː l e,ú pʰ u m êː
+phuma,V;BANTU7;FUT,s i z ó pʰ uː m a,s i z o pʰ uː m a
+phuma,V;BANTU1;RCT;PST;PROG,ú ɓ e pʰ ûː m a,úː pʰ u m íː l e
+phuma,V;BANTU11;V.PTCP,l ú pʰ uː m a,l ú pʰ uː m a
+phuma,V;BANTU1;V.PTCP,êː pʰ uː m a,w a j a pʰ ûː m a
+buza,V;BANTU6;PRS,a ɓ úː z a,ú j a ɓ uː z a
+buza,V;BANTU8;FUT,z i z ó ɓ uː z a,z i z o ɓ ûː z a
+buza,V;BANTU4;RMT;PST,j áː ɓ uː z a,j áː ɓ uː z a
+buza,V;BANTU7;SBJV,s í ɓ uː z e,s í ɓ uː z é
+buza,V;BANTU8;V.PTCP,z í ɓ uː z a,z í ɓ uː z a
+buza,V;BANTU15;SBJV,ɠ ú ɓ uː z e,ɠ ú ɓ uː z é
+buza,V;IMP;2;SG;LGSPEC3,ɓ úː z e,ǀ eː l e
+buza,V;BANTU6;RMT;PST,áː ɓ uː z a,a j e ɓ ûː z a
+buza,V;2;SG;RMT;PST;PROG,w a w ú ɓ uː z a,w a w ú ɓ uː z a
+buza,V;2;PL;RCT;PST,n í ɓ u z iː l é,n í ɓ uː z eː
+buza,V;2;PL;RCT;PST,n í ɓ uː z eː,n í ɓ uː z eː
+buza,V;BANTU10;RMT;PST;PROG,z a z i ɓ ûː z a,z áː ɓ uː z a
+buza,V;BANTU7;RMT;PST,s áː ɓ uː z a,w áː ɓ uː z a
+buza,V;BANTU1;SBJV,a ɓ úː z e,ú ɓ uː z é
+buza,V;2;SG;V.PTCP,ú ɓ uː z á,ú ɓ uː z a
+buza,V;BANTU3;RCT;PST,ú ɓ u z íː l e,ú ɓ uː z êː
+buza,V;2;SG;PRS,ú ɓ uː z á,ú j a ɓ uː z a
+buza,V;1;SG;PRS,n ɡ i j a ɓ ûː z a,n ɡ i ɓ ûː z a
+buza,V;BANTU7;PRS,s i j a ɓ ûː z a,s i j a ɓ ûː z a
+buza,V;2;PL;RMT;PST;PROG,n á n i ɓ uː z a,n áː ɓ uː z a
+buza,V;BANTU5;RMT;PST;PROG,l a l i ɓ ûː z a,l a l í ɓ uː z a
+buza,V;BANTU9;RCT;PST;PROG,ɓ e j i ɓ ûː z a,ɓ e j i ɓ ûː z a
+buza,V;BANTU14;PRS,ɓ u j a ɓ ûː z a,ɓ ú ɓ uː z a
+buza,V;2;PL;RMT;PST,n áː ɓ uː z a,n áː ɓ uː z a
+buza,V;BANTU5;RCT;PST,l í ɓ uː z eː,l í ɓ uː z eː
+buza,V;BANTU15;PRS,ɠ ú ɓ uː z a,ɠ ú j a ɓ uː z a
+buza,V;1;PL;RMT;PST;PROG,s a s í ɓ uː z a,s a s í ɓ uː z a
+buza,V;BANTU7;V.PTCP,s í ɓ uː z a,s í ɓ uː z a
+buza,V;BANTU6;RCT;PST,a ɓ úː z eː,a j a ɓ úː z eː
+buza,V;BANTU9;RCT;PST,í ɓ u z íː l e,íː ɓ uː z eː
+buza,V;BANTU11;RCT;PST;PROG,ɓ e l ú ɓ uː z a,ɓ e l ú ɓ uː z a
+buza,V;1;SG;FUT,n ɡ i z o ɓ ûː z a,n ɡ i ɓ ûː z a
+buza,V;BANTU8;RCT;PST,z í ɓ uː z eː,z í ɓ uː z eː
+buza,V;BANTU9;SBJV,íː ɓ uː z e,íː ɓ uː z é
+buza,V;BANTU9;RMT;PST;PROG,j a j í ɓ uː z a,j a j í ɓ uː z a
+aba,V;2;SG;SBJV,w áː ɓ e,w áː ɓ e
+aba,V;BANTU3;PRS,ú j aː ɓ a,íː j aː ɓ a
+aba,V;BANTU6;PRS,a j áː ɓ a,a j áː ɓ a
+aba,V;1;SG;RCT;PST,n ɡ áː ɓ eː,ɓ é n ɡ aː ɓ a
+aba,V;BANTU4;RMT;PST,j áː ɓ a,j áː ɓ a
+aba,V;BANTU10;SBJV,z áː ɓ e,z áː ɓ e
+aba,V;1;PL;RCT;PST,s á ɓ iː l é,s áː ɓ eː
+aba,V;BANTU3;RMT;PST;PROG,w a w áː ɓ a,j á j aː ɓ a
+aba,V;IMP;2;SG,j áː ɓ a,j á kʰ iː w a
+aba,V;BANTU1;RCT;PST,w áː ɓ eː,w á ɓ iː l é
+aba,V;BANTU3;RCT;PST;PROG,ɓ e w áː ɓ a,ú ɓ aː ɓ a
+aba,V;1;PL;FUT,s í z o ɠ w aː ɓ a,s i z ó ɠ w aː ɓ a
+aba,V;BANTU14;V.PTCP,ɓ áː ɓ a,ɓ u z o ɠ w aː ɓ a
+aba,V;2;SG;FUT,ú z o ɠ w áː ɓ a,ú z o ɠ w áː ɓ a
+aba,V;BANTU15;RCT;PST,k w áː ɓ eː,k w aː ɓ a
+aba,V;BANTU4;SBJV,áː ɓ e,z áː ɓ e
+aba,V;2;SG;PRS,w áː ɓ a,n í j aː ɓ a
+aba,V;BANTU14;RCT;PST,ɓ á ɓ iː l e,ɓ áː ɓ eː
+aba,V;BANTU8;PRS,z í j aː ɓ a,z áː ɓ a
+aba,V;2;PL;FUT,n í z o ɠ w aː ɓ a,n í z o ɠ w aː ɓ a
+aba,V;BANTU10;V.PTCP,z áː ɓ a,z áː ɓ a
+aba,V;BANTU2;SBJV,ɓ áː ɓ e,ɓ áː ɓ e
+aba,V;BANTU7;PRS,s áː ɓ a,s í j aː ɓ a
+aba,V;BANTU5;SBJV,l áː ɓ e,l áː ɓ e
+aba,V;BANTU5;RMT;PST;PROG,l áː l aː ɓ a,w á j aː ɓ a
+aba,V;BANTU14;PRS,ɓ ú j aː ɓ a,ɓ ú j aː ɓ a
+aba,V;BANTU14;PRS,ɓ áː ɓ a,ɓ u j a ɓ aː n ɡ a
+aba,V;BANTU6;SBJV,áː ɓ e,áː ɓ e
+aba,V;BANTU17;PRS,ɠ ú j aː ɓ a,k w áː ɓ a
+aba,V;IMP;2;PL;LGSPEC3,j á ɓ eː n i,l á l eː n i
+aba,V;BANTU5;RCT;PST,l á ɓ iː l é,l áː ɓ eː
+aba,V;BANTU5;RCT;PST,l á ɓ eː,l áː ɓ eː
+aba,V;1;PL;RMT;PST;PROG,s a s áː ɓ a,z á z aː ɓ a
+aba,V;BANTU4;RCT;PST,á ɓ iː l é,j áː ɓ eː
+aba,V;2;PL;PRS,n áː ɓ a,n í j aː ɓ a
+aba,V;1;PL;PRS,s í j aː ɓ a,s í j aː ɓ a
+aba,V;BANTU6;RCT;PST,áː ɓ eː,áː ɓ eː
+aba,V;BANTU2;PRS,ɓ áː ɓ a,ɓ a j áː ɓ a
+aba,V;BANTU15;RMT;PST,k w áː ɓ a,k w áː ɓ a
+aba,V;BANTU9;RCT;PST,áː ɓ eː,l áː ɓ eː
+aba,V;BANTU7;FUT,s í z o ɠ w aː ɓ a,s i z ó ɠ w aː ɓ a
+aba,V;BANTU1;PRS,w áː ɓ a,ú j aː ɓ a
+aba,V;BANTU6;RCT;PST;PROG,a ɓ áː ɓ a,ú ɓ aː ɓ a
+aba,V;BANTU11;RCT;PST,l w á ɓ iː l e,l w áː ɓ eː
+aba,V;BANTU11;RCT;PST,l w áː ɓ eː,l w áː ɓ eː
+aba,V;BANTU6;FUT,a z ó ɠ w aː ɓ a,a z o ɠ w áː ɓ a
+aba,V;BANTU11;V.PTCP,l áː ɓ a,l w áː ɓ a
+aba,V;BANTU2;RMT;PST,ɓ áː ɓ a,ɓ a ɓ áː ɓ a
+aba,V;BANTU9;FUT,íː z o ɠ w áː ɓ a,íː z o ɠ w áː ɓ a
+cela,V;BANTU1;RMT;PST,w áː ǀ eː l a,w áː ǀ eː l a
+cela,V;BANTU8;FUT,z i z óː ǀ eː l a,z i z ó ǀ eː l a
+cela,V;BANTU7;SBJV,s íː ǀ eː l e,s íː ǀ eː l e
+cela,V;BANTU10;RCT;PST;PROG,ɓ e z í ǀ eː l a,ɓ e z í ǀ eː l a
+cela,V;BANTU10;SBJV,z íː ǀ eː l e,z íː ǀ eː l e
+cela,V;2;SG;RCT;PST,úː ǀ e l íː l e,úː ǀ eː l eː
+cela,V;IMP;2;SG,ǀ eː l a,ǀ eː l e
+cela,V;BANTU8;RCT;PST;PROG,ɓ e z í ǀ eː l a,ɓ e z í ǀ eː l a
+cela,V;1;PL;FUT,s i z ó ǀ eː l a,s i z ó ǀ eː l a
+cela,V;BANTU1;SBJV,áː ǀ eː l e,êː ǀ eː l e
+cela,V;IMP;2;PL,ǀ e l âː n i,l á l aː n i
+cela,V;BANTU2;RCT;PST,ɓ a ǀ e l íː l e,ɓ áː ǀ eː l eː
+cela,V;2;SG;PRS,ú j a ǀ eː l a,úː ǀ eː l a
+cela,V;BANTU8;PRS,z i j áː ǀ eː l a,z i j áː ǀ eː l a
+cela,V;BANTU8;PRS,z íː ǀ eː l a,z i j áː ǀ eː l a
+cela,V;BANTU3;FUT,ú z o ǀ eː l a,ú z o ǀ eː l a
+cela,V;1;PL;SBJV,s íː ǀ eː l e,s i j áː ǀ eː l e
+cela,V;1;SG;PRS,n ɡ í ǀ eː l a,n ɡ i j áː ǀ eː l a
+cela,V;BANTU9;RCT;PST;PROG,ɓ e j í ǀ eː l a,ɓ e j í ǀ eː l a
+cela,V;BANTU14;PRS,ɓ ú ǀ eː l a,ɓ u j á ǀ eː l a
+cela,V;BANTU17;V.PTCP,ɠ úː ǀ eː l a,ɠ úː ǀ eː l a
+cela,V;BANTU4;V.PTCP,îː ǀ eː l a,îː ǀ eː l a
+cela,V;BANTU11;PRS,l ú j a ǀ eː l a,l úː ǀ eː l a
+cela,V;BANTU9;RMT;PST,j áː ǀ eː l a,j áː ǀ eː l a
+cela,V;BANTU14;RMT;PST,ɓ áː ǀ eː l a,ɓ a ɓ ú ǀ eː l a
+cela,V;BANTU15;PRS,ɠ úː ǀ eː l a,ɠ úː ǀ eː l a
+cela,V;2;PL;PRS,n i j áː ǀ eː l a,n íː ǀ eː l a
+cela,V;BANTU2;V.PTCP,ɓ éː ǀ eː l a,ɓ áː ǀ eː l a
+cela,V;BANTU7;V.PTCP,s íː ǀ eː l a,s íː ǀ eː l a
+cela,V;1;PL;PRS,s i j áː ǀ eː l a,s íː ǀ eː l a
+cela,V;BANTU6;RCT;PST,aː ǀ e l íː l e,áː ǀ eː l eː
+cela,V;BANTU2;PRS,ɓ a j á ǀ eː l a,ɓ áː ǀ eː l a
+cela,V;BANTU11;RCT;PST;PROG,ɓ e l ú ǀ eː l a,l ú ǀ eː l eː
+cela,V;BANTU1;RCT;PST;PROG,ú ɓ e ǀ eː l a,ɓ e ɠ ú ǀ eː l a
+cela,V;BANTU1;PRS,ú j a ǀ eː l a,úː ǀ eː l a
+cela,V;BANTU1;PRS,úː ǀ eː l a,ú j a ǀ eː l a
+cela,V;BANTU6;RCT;PST;PROG,a ɓ éː ǀ eː l a,áː ǀ eː l eː
+cela,V;BANTU6;FUT,a z óː ǀ eː l a,áː ǀ eː l a
+cela,V;BANTU9;FUT,íː z o ǀ eː l a,íː z o ǀ eː l a
+zinga,V;2;SG;SBJV,úː z iː n ɡ e,úː z iː n ɡ e
+zinga,V;BANTU3;PRS,ú j a z íː n ɡ a,ú j a z íː n ɡ a
+zinga,V;BANTU7;SBJV,s í z iː n ɡ e,s í z iː n ɡ e
+zinga,V;BANTU10;RCT;PST;PROG,ɓ e z i z íː n ɡ a,z i ɓ é z iː n ɡ a
+zinga,V;BANTU6;RMT;PST,áː z iː n ɡ a,z áː z iː n ɡ a
+zinga,V;IMP;2;SG,z íː n ɡ a,j í z iː n ɡ a
+zinga,V;BANTU1;RCT;PST,ú z iː n ɡ eː,ú z i n ɡ íː l e
+zinga,V;BANTU14;FUT,ɓ u z ó z iː n ɡ a,ú z o z íː n ɡ a
+zinga,V;1;PL;FUT,s i z ó z iː n ɡ a,s i z ó z iː n ɡ a
+zinga,V;BANTU3;RCT;PST,ú z iː n ɡ eː,úː z iː n ɡ eː
+zinga,V;2;SG;FUT,ú z o z íː n ɡ a,ú z o z íː n ɡ a
+zinga,V;BANTU8;PRS,z í z iː n ɡ a,z i j a z íː n ɡ a
+zinga,V;2;PL;V.PTCP,n í z iː n ɡ a,n í z iː n ɡ a
+zinga,V;BANTU17;RMT;PST;PROG,k w a ɠ ú z iː n ɡ a,k w a ɠ ú z iː n ɡ a
+zinga,V;BANTU17;RCT;PST,ɠ ú z iː n ɡ eː,ɠ ú z iː n ɡ eː
+zinga,V;BANTU5;SBJV,l í z iː n ɡ e,l í z iː n ɡ e
+zinga,V;BANTU9;RCT;PST;PROG,ɓ e j í z iː n ɡ a,ɓ e j í z iː n ɡ a
+zinga,V;BANTU17;FUT,ɠ ú z o z iː n ɡ a,ɠ u z ó z iː n ɡ a
+zinga,V;BANTU14;RMT;PST;PROG,ɓ a ɓ ú z iː n ɡ a,z a z i z íː n ɡ a
+zinga,V;BANTU3;SBJV,úː z iː n ɡ e,úː z iː n ɡ e
+zinga,V;BANTU15;PRS,ɠ u j a z íː n ɡ a,ɠ ú j a z íː n ɡ a
+zinga,V;BANTU4;RCT;PST,íː z i n ɡ íː l e,íː z iː n ɡ eː
+zinga,V;2;PL;PRS,n í z iː n ɡ a,n í ɓ a z íː n ɡ a
+zinga,V;BANTU7;V.PTCP,s í z iː n ɡ a,s í z iː n ɡ a
+zinga,V;BANTU17;RMT;PST,k w aː z íː n ɡ a,w áː z iː n ɡ a
+zinga,V;BANTU15;V.PTCP,ɠ ú z iː n ɡ a,ɠ ú z iː n ɡ a
+zinga,V;BANTU2;PRS,ɓ a z íː n ɡ a,ɓ a j a z íː n ɡ a
+zinga,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ i z íː n ɡ a,n ɡ aː z íː n ɡ a
+zinga,V;BANTU1;PRS,úː z iː n ɡ a,ú j a z íː n ɡ a
+zinga,V;BANTU6;FUT,a z o z íː n ɡ a,z i z ó z iː n ɡ a
+zinga,V;BANTU11;V.PTCP,l ú z iː n ɡ a,l ú z iː n ɡ a
+ima,V;BANTU15;RCT;PST;PROG,ɓ e ɠ úː m a,ú ɓ eː m a
+ima,V;BANTU10;RCT;PST,z í m iː l é,z íː m eː
+ima,V;1;PL;RCT;PST;PROG,s í ɓ eː m a,s í ɓ eː m a
+ima,V;BANTU4;RMT;PST,j áː m a,k w áː m a
+ima,V;BANTU11;FUT,l ú z o ɠ uː m a,l ú z o ɠ uː m a
+ima,V;BANTU3;RMT;PST,w áː m a,ɓ âː m a
+ima,V;1;PL;V.PTCP,s íː m a,s íː m a
+ima,V;BANTU6;RMT;PST,áː m a,w áː m a
+ima,V;2;PL;SBJV,n íː m e,n íː m e
+ima,V;BANTU15;RMT;PST;PROG,k w a ɠ ûː m a,z á z iː m a
+ima,V;2;SG;RCT;PST,ú m íː l e,úː m eː
+ima,V;IMP;2;SG,j íː m a,j íː m e
+ima,V;BANTU8;RCT;PST;PROG,ɓ é z iː m a,ɓ e ɠ úː m a
+ima,V;1;PL;FUT,s i z o ɠ ûː m a,s í z o ɠ ûː m a
+ima,V;BANTU17;SBJV,ɠ úː m e,ɠ úː m e
+ima,V;BANTU3;RCT;PST,ú m íː l e,úː m eː
+ima,V;2;SG;FUT,ú z o ɠ uː m a,ú z o ɠ uː m a
+ima,V;BANTU3;V.PTCP,úː m a,îː m a
+ima,V;BANTU5;RCT;PST;PROG,ɓ é l iː m a,l íː m eː
+ima,V;BANTU14;RCT;PST,ɓ ú m eː,ɓ ú m eː
+ima,V;1;SG;PRS,ᵑɡ íː m a,n ɡ i j êː m a
+ima,V;BANTU2;SBJV,ɓ êː m e,îː m e
+ima,V;BANTU17;RMT;PST;PROG,k w a ɠ ûː m a,k w áː m a
+ima,V;BANTU17;RCT;PST,ɠ ú m iː l e,ɠ ú m iː l e
+ima,V;BANTU9;PRS,îː m a,íː j eː m a
+ima,V;BANTU14;PRS,ɓ ú j eː m a,ɓ ú j eː m a
+ima,V;BANTU4;FUT,íː z o ɠ ûː m a,z i z o ɠ ûː m a
+ima,V;BANTU10;RMT;PST,z áː m a,z áː m a
+ima,V;BANTU17;PRS,ɠ úː m a,ɠ ú j eː m a
+ima,V;BANTU7;RCT;PST,s íː m eː,s íː m eː
+ima,V;BANTU15;V.PTCP,ɠ úː m a,ɠ úː m a
+ima,V;BANTU11;RMT;PST;PROG,l w a l ûː m a,l w áː m a
+ima,V;BANTU9;RCT;PST,íː m eː,ɠ ú m eː
+ima,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ íː m a,s áː m a
+ima,V;BANTU1;RCT;PST;PROG,ú ɓ eː m a,ɓ é j iː m a
+ima,V;BANTU6;FUT,a z o ɠ ûː m a,êː m a
+ima,V;BANTU14;SBJV,ɓ úː m e,ɓ úː m e
+lala,V;BANTU3;PRS,ú l aː l a,ú j a l áː l a
+lala,V;BANTU6;PRS,a j a l áː l a,a j a l áː l a
+lala,V;BANTU4;RMT;PST,j áː l aː l a,j áː l aː l a
+lala,V;BANTU4;RCT;PST;PROG,ɓ e j i l âː l a,ɓ é j iː kʰ a
+lala,V;BANTU15;SBJV,ɠ ú l aː l e,ɠ ú l aː l e
+lala,V;1;PL;RCT;PST,s i l a l íː l e,s í l aː l eː
+lala,V;BANTU6;RMT;PST,áː l aː l a,a j e l âː l a
+lala,V;2;PL;SBJV,n í l aː l e,n í l aː l e
+lala,V;2;SG;RMT;PST;PROG,w a w ú l aː l a,w a w ú l aː l a
+lala,V;IMP;2;SG,l áː l a,j í l aː l a
+lala,V;BANTU1;RCT;PST,ú l a l íː l e,ú l aː l éː
+lala,V;BANTU3;RCT;PST;PROG,ɓ e w ú l aː l a,ɓ e w ú l aː l a
+lala,V;BANTU10;RMT;PST;PROG,z a z i l âː l a,z a z i l âː l a
+lala,V;2;SG;PRS,ú j a l áː l a,úː l aː l a
+lala,V;2;SG;PRS,ú l aː l a,úː l aː l a
+lala,V;BANTU14;RCT;PST,ɓ u l a l íː l e,ɓ u j a l iː l e
+lala,V;BANTU14;RCT;PST,ɓ ú l aː l eː,ɓ u j a l iː l e
+lala,V;BANTU3;FUT,ú z o l âː l a,ú z o l âː l a
+lala,V;1;SG;PRS,n ɡ i l âː l a,n ɡ i l áː l a
+lala,V;BANTU5;FUT,l i z ó l aː l a,l i z ó l aː l a
+lala,V;BANTU9;PRS,íː j a l âː l a,z í l aː l a
+lala,V;BANTU4;FUT,íː z o l âː l a,íː z o l âː l a
+lala,V;BANTU17;FUT,ɠ ú z o l aː l a,k u z o l aː l a
+lala,V;BANTU10;RMT;PST,z áː l aː l a,z áː l aː l a
+lala,V;BANTU14;RMT;PST;PROG,ɓ a ɓ u l âː l a,j a j í l aː l a
+lala,V;BANTU3;SBJV,úː l aː l é,ú l aː l é
+lala,V;BANTU17;PRS,ɠ u j a l âː l a,k ú j a l âː l a
+lala,V;BANTU5;RCT;PST,l í l aː l eː,l í l aː l eː
+lala,V;BANTU14;RCT;PST;PROG,ɓ e ɓ u l âː l a,ɓ e ɓ ú l aː l a
+lala,V;BANTU15;PRS,ɠ u j a l âː l a,ɠ ú j a l âː l a
+lala,V;BANTU15;PRS,ɠ ú l aː l a,ɠ ú j a l âː l a
+lala,V;BANTU11;RMT;PST,l w aː l áː l a,l w aː l áː l a
+lala,V;BANTU7;V.PTCP,s í l aː l a,s í l aː l a
+lala,V;BANTU9;RCT;PST,íː l aː l eː,íː l aː l eː
+lala,V;BANTU1;PRS,ú l aː l a,ú j a l áː l a
+lala,V;BANTU8;RCT;PST,z i l a l íː l e,z í l aː l eː
+lala,V;BANTU6;FUT,a z o l âː l a,z i z ó l aː l a
+lala,V;BANTU11;V.PTCP,l ú l aː l a,l ú l aː l a
+lala,V;BANTU1;V.PTCP,éː l aː l a,ú l aː l a
+hlaba,V;BANTU6;PRS,a j a ɬ áː ɓ a,a j a ɬ âː ɓ a
+hlaba,V;BANTU5;PRS,l íː ɬ aː ɓ a,l i j áː ɬ aː ɓ a
+hlaba,V;BANTU10;RCT;PST;PROG,ɓ e z í ɬ aː ɓ a,ɓ e z í ɬ aː ɓ a
+hlaba,V;BANTU15;SBJV,ɠ úː ɬ aː ɓ e,ɠ úː ɬ aː ɓ e
+hlaba,V;1;PL;V.PTCP,s íː ɬ aː ɓ a,s íː ɬ aː ɓ a
+hlaba,V;BANTU6;RMT;PST,áː ɬ aː ɓ a,a j e ɬ âː ɓ a
+hlaba,V;2;PL;SBJV,n íː ɬ aː ɓ e,n íː ɬ aː ɓ e
+hlaba,V;BANTU15;FUT,ɠ ú z o ɬ aː ɓ a,ɠ ú z o ɬ aː ɓ a
+hlaba,V;BANTU1;RCT;PST,úː ɬ a ɓ êː,úː ɬ a ɓ íː l e
+hlaba,V;BANTU14;FUT,ɓ ú z o ɬ aː ɓ a,ɓ ú z o ɬ aː ɓ a
+hlaba,V;BANTU3;RCT;PST;PROG,ɓ e w úː ɬ aː ɓ a,ɓ e j í ɬ aː ɓ a
+hlaba,V;1;PL;FUT,s í z o ɬ aː ɓ a,s i z óː ɬ aː ɓ a
+hlaba,V;BANTU11;SBJV,l úː ɬ aː ɓ e,l ú ɬ aː ɓ e
+hlaba,V;BANTU14;V.PTCP,ɓ úː ɬ aː ɓ a,ɓ úː ɬ aː ɓ a
+hlaba,V;2;PL;RCT;PST,n íː ɬ a ɓ eː,n íː ɬ a ɓ eː
+hlaba,V;BANTU10;RMT;PST;PROG,z a z í ɬ aː ɓ a,z a z í ɬ aː ɓ a
+hlaba,V;BANTU3;RCT;PST,úː ɬ a ɓ êː,úː ɬ a ɓ íː l e
+hlaba,V;2;SG;FUT,ú z o ɬ âː ɓ a,ú z o ɬ âː ɓ a
+hlaba,V;BANTU3;V.PTCP,úː ɬ aː ɓ a,z íː ɬ aː ɓ a
+hlaba,V;BANTU14;RCT;PST,ɓ ú ɬ a ɓ iː l e,ɓ ú ɬ a ɓ íː l e
+hlaba,V;BANTU8;PRS,z i j áː ɬ aː ɓ a,z i j a ɬ aː ɓ a
+hlaba,V;BANTU10;V.PTCP,z íː ɬ aː ɓ a,z íː ɬ aː ɓ a
+hlaba,V;1;PL;SBJV,s íː ɬ aː ɓ e,s íː ɬ aː ɓ e
+hlaba,V;BANTU7;PRS,s i j áː ɬ aː ɓ a,s íː ɬ aː ɓ a
+hlaba,V;BANTU17;RCT;PST,ɠ ú ɬ a ɓ eː,ɠ ú ɬ a ɓ iː l é
+hlaba,V;2;SG;RMT;PST,w áː ɬ aː ɓ a,w a w úː ɬ aː ɓ a
+hlaba,V;BANTU14;PRS,ɓ ú j a ɬ aː ɓ a,ɓ úː ɬ aː ɓ a
+hlaba,V;BANTU17;V.PTCP,ɠ úː ɬ aː ɓ a,ɠ ú ɬ aː ɓ a
+hlaba,V;BANTU11;PRS,l ú j a ɬ aː ɓ a,l ú j a ɬ áː ɓ a
+hlaba,V;BANTU5;RCT;PST,l íː ɬ a ɓ eː,l íː ɬ a ɓ eː
+hlaba,V;BANTU15;PRS,ɠ ú j a ɬ aː ɓ a,ɠ úː ɬ aː ɓ a
+hlaba,V;BANTU11;RMT;PST,l w áː ɬ aː ɓ a,l ú ɬ a ɓ iː l é
+hlaba,V;BANTU11;RMT;PST;PROG,l w a l ú ɬ aː ɓ a,j a j í ɬ aː ɓ a
+hlaba,V;BANTU15;RMT;PST,k w áː ɬ aː ɓ a,z áː ɬ aː ɓ a
+hlaba,V;BANTU6;FUT,a z óː ɬ aː ɓ a,z i z óː ɬ aː ɓ a
+hlaba,V;BANTU9;FUT,íː z o ɬ âː ɓ a,íː z o ɬ âː ɓ a
+thandana,V;BANTU3;PRS,úː tʰ a n d âː n a,ú j a tʰ a n d âː n a
+thandana,V;BANTU6;PRS,a tʰ a n d âː n a,a j a tʰ a n d âː n a
+thandana,V;1;SG;RCT;PST,n ɡ i tʰ á n d eː n eː,s i tʰ a n d eː n eː
+thandana,V;BANTU5;PRS,l í tʰ a n d aː n a,l i j a tʰ a n d âː n a
+thandana,V;BANTU15;SBJV,ɠ ú tʰ a n d aː n e,ɠ ú tʰ a n d aː n e
+thandana,V;1;PL;RCT;PST,s i tʰ á n d eː n eː,s í tʰ a n d eː n eː
+thandana,V;BANTU10;FUT,z i z o tʰ á n d aː n a,z i z o tʰ a n d aː n a
+thandana,V;2;PL;SBJV,n í tʰ a n d aː n e,s í tʰ a n d aː n e
+thandana,V;2;SG;RMT;PST;PROG,w a w u tʰ á n d aː n a,n a n i tʰ á n d aː n a
+thandana,V;2;SG;RCT;PST,úː tʰ a n d éː n eː,n í tʰ a n d eː n eː
+thandana,V;BANTU5;RMT;PST,l áː tʰ a n d aː n a,l áː tʰ a n d aː n a
+thandana,V;BANTU11;SBJV,l ú tʰ a n d aː n e,l ú tʰ a n d aː n e
+thandana,V;BANTU1;SBJV,a tʰ á n d aː n e,íː tʰ a n d âː n e
+thandana,V;BANTU15;RCT;PST,ɠ ú tʰ a n d eː n eː,ɠ ú tʰ a n d eː n eː
+thandana,V;BANTU1;FUT,ú z o tʰ á n d aː n a,ú z o tʰ á n d aː n a
+thandana,V;BANTU1;RMT;PST;PROG,w a j e tʰ á n d aː n a,z a z i tʰ á n d aː n a
+thandana,V;BANTU2;RCT;PST,ɓ a tʰ á n d eː n eː,ɓ a tʰ a n d eː n eː
+thandana,V;2;SG;PRS,úː tʰ a n d âː n a,ú j a tʰ a n d âː n a
+thandana,V;BANTU10;V.PTCP,z i tʰ á n d aː n a,z i tʰ á n d aː n a
+thandana,V;2;PL;V.PTCP,n í tʰ a n d aː n a,n í tʰ a n d âː n a
+thandana,V;BANTU2;SBJV,ɓ a tʰ á n d aː n e,íː tʰ a n d âː n e
+thandana,V;BANTU5;FUT,l i z o tʰ á n d aː n a,l í z o tʰ a n d aː n a
+thandana,V;1;SG;V.PTCP,n ɡ i tʰ á n d aː n a,úː tʰ a n d âː n a
+thandana,V;1;SG;RMT;PST,n ɡ aː tʰ a n d âː n a,s áː tʰ a n d aː n a
+thandana,V;BANTU14;PRS,ɓ u j a tʰ á n d aː n a,ɓ u j a tʰ a n d âː n a
+thandana,V;BANTU14;RMT;PST;PROG,ɓ a ɓ u tʰ á n d aː n a,ɓ a ɓ úː tʰ a n d aː n a
+thandana,V;BANTU3;SBJV,úː tʰ a n d âː n e,úː tʰ a n d aː n e
+thandana,V;BANTU17;PRS,ɠ ú j a tʰ a n d aː n a,k ú j a tʰ á n d aː n a
+thandana,V;BANTU17;PRS,ɠ ú tʰ a n d aː n a,ɠ ú j a tʰ á n d aː n a
+thandana,V;BANTU14;RMT;PST,ɓ aː tʰ a n d âː n a,ɓ áː tʰ a n d aː n a
+thandana,V;BANTU14;RCT;PST;PROG,ɓ e ɓ u tʰ á n d aː n a,ɓ ú tʰ a n d eː n eː
+thandana,V;BANTU15;PRS,ɠ ú tʰ a n d aː n a,ɠ u j a tʰ a n d aː n a
+thandana,V;BANTU4;RCT;PST,íː tʰ a n d éː n eː,íː tʰ a n d eː n eː
+thandana,V;2;PL;PRS,n í tʰ a n d aː n a,n í tʰ a n d aː n a
+thandana,V;BANTU17;RMT;PST,k w aː tʰ a n d âː n a,w aː tʰ a n d âː n a
+thandana,V;1;SG;SBJV,n ɡ i tʰ á n d aː n e,úː tʰ a n d aː n e
+thandana,V;BANTU2;PRS,ɓ a j a tʰ a n d âː n a,ɓ a j a tʰ a n d âː n a
+thandana,V;BANTU15;RMT;PST,k w aː tʰ a n d âː n a,k w aː tʰ a n d aː n a
+thandana,V;BANTU9;RCT;PST,íː tʰ a n d éː n eː,z i tʰ á n d eː n eː
+thandana,V;1;SG;FUT,n ɡ i z o tʰ á n d aː n a,s i z o tʰ á n d aː n a
+thandana,V;BANTU8;RCT;PST,z i tʰ á n d eː n eː,z i tʰ á n d eː n eː
+thandana,V;BANTU4;PRS,íː tʰ a n d âː n a,íː j a tʰ a n d âː n a
+thandana,V;BANTU9;SBJV,íː tʰ a n d âː n e,íː tʰ a n d âː n e
+thandana,V;BANTU11;RCT;PST,l ú tʰ a n d eː n eː,l úː tʰ a n d eː n eː
+thandana,V;BANTU2;RMT;PST,ɓ aː tʰ a n d âː n a,ɓ áː tʰ a n d aː n a
+thandana,V;BANTU9;FUT,íː z o tʰ a n d âː n a,íː z o tʰ á n d aː n a
+thandana,V;BANTU1;V.PTCP,eː tʰ a n d âː n a,úː tʰ a n d âː n a
+gqoka,V;BANTU3;PRS,úᵑ ǃʱ oː ɠ a,úᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU15;RCT;PST;PROG,ɓ e ɠ úᵑ ǃʱ oː ɠ a,ɠ úᵑ ǃʱ o ɠ íː l e
+gqoka,V;BANTU6;PRS,áᵑ ǃʱ oː ɠ a,áᵑ ǃʱ oː ɠ a
+gqoka,V;1;PL;RCT;PST,s íᵑ ǃʱ o ɠ íː l e,s íᵑ ǃʱ oː ɠ eː
+gqoka,V;BANTU6;RMT;PST,áːᵑ ǃʱ oː ɠ a,w áːᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU5;V.PTCP,l íᵑ ǃʱ oː ɠ a,l íᵑ ǃʱ oː ɠ a
+gqoka,V;2;SG;RMT;PST;PROG,w a w úᵑ ǃʱ oː ɠ a,n a n íᵑ ǃʱ oː ɠ a
+gqoka,V;2;SG;RCT;PST,úᵑ ǃʱ o ɠ íː l e,n íᵑ ǃʱ o ɠ íː l e
+gqoka,V;2;SG;RCT;PST,úᵑ ǃʱ óː ɠ eː,úᵑ ǃʱ o ɠ íː l e
+gqoka,V;IMP;2;SG,ᶢǃʱ óː ɠ a,ᶢǃʱ o ɠ âː n i
+gqoka,V;BANTU1;RCT;PST,úᵑ ǃʱ óː ɠ eː,ɠ úᵑ ǃʱ o ɠ íː l e
+gqoka,V;BANTU14;V.PTCP,ɓ úᵑ ǃʱ oː ɠ a,ɓ u z óᵑ ǃʱ oː ɠ a
+gqoka,V;2;PL;RCT;PST,n íᵑ ǃʱ oː ɠ eː,n íᵑ ǃʱ o ɠ íː l e
+gqoka,V;BANTU15;RCT;PST,ɠ úᵑ ǃʱ oː ɠ eː,ɠ úᵑ ǃʱ oː ɠ eː
+gqoka,V;BANTU1;FUT,ú z oᵑ ǃʱ oː ɠ a,z i z óᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU8;PRS,z i j áᵑ ǃʱ oː ɠ a,z íᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU10;V.PTCP,z íᵑ ǃʱ oː ɠ a,z íᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU7;PRS,s i j áᵑ ǃʱ oː ɠ a,s i j áᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU5;FUT,l i z óᵑ ǃʱ oː ɠ a,l i z óᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU17;RCT;PST;PROG,ɓ e ɠ úᵑ ǃʱ oː ɠ a,ɠ úᵑ ǃʱ oː ɠ eː
+gqoka,V;BANTU4;V.PTCP,íᵑ ǃʱ ôː ɠ a,íᵑ ǃʱ ôː ɠ a
+gqoka,V;IMP;2;PL;LGSPEC3,ᶢǃʱ o ɠ êː n i,l éː n d eː n i
+gqoka,V;1;SG;RCT;PST;PROG,ɓ e n ɡ íᵑ ǃʱ oː ɠ a,ᵑɡ íᵑ ǃʱ oː ɠ eː
+gqoka,V;BANTU7;RCT;PST,s íᵑ ǃʱ oː ɠ eː,s íᵑ ǃʱ o ɠ íː l e
+gqoka,V;BANTU7;V.PTCP,s íᵑ ǃʱ oː ɠ a,s íᵑ ǃʱ oː ɠ a
+gqoka,V;1;PL;PRS,s i j áᵑ ǃʱ oː ɠ a,s i j áᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU15;RMT;PST,k w áːᵑ ǃʱ oː ɠ a,j áːᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU9;RCT;PST,íᵑ ǃʱ óː ɠ eː,íᵑ ǃʱ o ɠ íː l e
+gqoka,V;BANTU7;FUT,s i z óᶢ ǃʱ oː ɠ a,s i z óᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU1;PRS,ú j aᵑ ǃʱ oː ɠ a,k u j áᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU6;RCT;PST;PROG,a ɓ éᵑ ǃʱ oː ɠ a,áᵑ ǃʱ óː ɠ eː
+gqoka,V;BANTU8;RCT;PST,z íᵑ ǃʱ oː ɠ eː,z íᵑ ǃʱ o ɠ íː l e
+gqoka,V;BANTU4;PRS,íː j aᵑ ǃʱ oː ɠ a,íᵑ ǃʱ ôː ɠ a
+gqoka,V;BANTU11;V.PTCP,l úᵑ ǃʱ oː ɠ a,l úᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU14;SBJV,ɓ úᵑ ǃʱ oː ɠ e,ɓ úᵑ ǃʱ oː ɠ é
+gqoka,V;BANTU4;RMT;PST;PROG,j a j íᵑ ǃʱ oː ɠ a,j áːᵑ ǃʱ oː ɠ a
+gqoka,V;BANTU1;V.PTCP,éᵑ ǃʱ oː ɠ a,úᵑ ǃʱ oː ɠ a
+suka,V;BANTU3;PRS,ú s uː ɠ a,ú j a s úː ɠ a
+suka,V;BANTU7;SBJV,s í s uː ɠ é,s í s uː ɠ é
+suka,V;BANTU5;PRS,l í s uː ɠ a,l i j a s úː ɠ a
+suka,V;BANTU10;RCT;PST;PROG,ɓ e z i s ûː ɠ a,ɓ e z i s ûː ɠ a
+suka,V;BANTU3;RMT;PST,w áː s uː ɠ a,w áː s uː ɠ a
+suka,V;1;PL;V.PTCP,s í s uː ɠ a,s í s uː ɠ a
+suka,V;BANTU15;RMT;PST;PROG,k w a ɠ ú s uː ɠ a,k w a ɠ ú s uː ɠ a
+suka,V;BANTU3;RMT;PST;PROG,w a w ú s uː ɠ a,z a z i s ûː ɠ a
+suka,V;BANTU3;RCT;PST;PROG,ɓ e w ú s uː ɠ a,ɓ e j i s úː ɠ a
+suka,V;BANTU17;SBJV,ɠ ú s uː ɠ e,ɠ ú s uː ɠ é
+suka,V;BANTU3;RCT;PST,ú s uː ɠ êː,ú s u ɠ íː l e
+suka,V;BANTU15;RCT;PST,ɠ ú s u ɠ íː l e,ɠ ú s u ɠ êː
+suka,V;BANTU1;FUT,ú z o s uː ɠ a,z i z ó s uː ɠ a
+suka,V;BANTU1;RMT;PST;PROG,w a j e s úː ɠ a,k w a ɠ ú s uː ɠ a
+suka,V;IMP;2;PL,s ú ɠ aː n i,n í s uː ɠ a
+suka,V;BANTU2;RCT;PST,ɓ a s ú ɠ iː l e,z i s ú ɠ iː l e
+suka,V;BANTU2;RCT;PST,ɓ a s úː ɠ eː,ɓ e ɓ e s úː ɠ a
+suka,V;BANTU7;RMT;PST;PROG,s a s i s úː ɠ a,s a s i s úː ɠ a
+suka,V;2;PL;V.PTCP,n í s uː ɠ a,n í s uː ɠ a
+suka,V;BANTU7;PRS,s í s uː ɠ a,s i j a s úː ɠ a
+suka,V;BANTU10;PRS,z i j a s úː ɠ a,z i j a s uː ɠ a
+suka,V;BANTU10;PRS,z í s uː ɠ a,z i j a s uː ɠ a
+suka,V;BANTU5;FUT,l i z ó s uː ɠ a,l i z ó s uː ɠ a
+suka,V;BANTU9;V.PTCP,í s uː ɠ a,í s uː ɠ a
+suka,V;BANTU9;RMT;PST,j áː s uː ɠ a,w áː s uː ɠ a
+suka,V;BANTU11;RMT;PST,l w áː s uː ɠ a,l w áː s uː ɠ a
+suka,V;BANTU15;V.PTCP,ɠ ú s uː ɠ a,ɠ ú s uː ɠ a
+suka,V;1;PL;PRS,s i j a s úː ɠ a,s íː j a s uː ɠ a
+suka,V;BANTU6;RCT;PST,a s úː ɠ eː,a s u ɠ íː l e
+suka,V;BANTU9;RCT;PST,í s u ɠ íː l e,í s u ɠ íː l e
+suka,V;BANTU9;RCT;PST,í s u ɠ êː,í s uː ɠ êː
+suka,V;BANTU1;RCT;PST;PROG,ú ɓ e s úː ɠ a,ɓ e z i s ûː ɠ a
+suka,V;BANTU6;V.PTCP,é s uː ɠ a,z í s uː ɠ a
+suka,V;BANTU2;RMT;PST,ɓ áː s uː ɠ a,ɓ áː s uː ɠ a
+suka,V;BANTU14;SBJV,ɓ ú s uː ɠ e,ɓ ú s uː ɠ e
+letha,V;BANTU10;RCT;PST,z í l eː tʰ eː,z í l eː tʰ eː
+letha,V;BANTU6;PRS,a l éː tʰ a,a j a l êː tʰ a
+letha,V;BANTU11;FUT,l ú z o l eː tʰ a,l ú z o l êː tʰ a
+letha,V;BANTU3;RMT;PST,w áː l eː tʰ a,w áː l eː tʰ a
+letha,V;BANTU6;RMT;PST,áː l eː tʰ a,j áː l eː tʰ a
+letha,V;BANTU5;V.PTCP,l í l eː tʰ a,l í l eː tʰ a
+letha,V;BANTU3;RMT;PST;PROG,w a w ú l eː tʰ a,w a w ú l eː tʰ a
+letha,V;BANTU1;RCT;PST,ú l eː tʰ éː,ú l e tʰ íː l e
+letha,V;BANTU8;RCT;PST;PROG,ɓ e z i l êː tʰ a,ɓ e z i l êː tʰ a
+letha,V;IMP;2;PL,l é tʰ aː n i,n í l eː tʰ a
+letha,V;1;SG;PRS,n ɡ i l êː tʰ a,n ɡ i j a l êː tʰ a
+letha,V;BANTU5;SBJV,l í l eː tʰ e,l í l eː tʰ e
+letha,V;BANTU10;PRS,z í l eː tʰ a,z i j a l êː tʰ a
+letha,V;BANTU2;FUT,ɓ a z o l êː tʰ a,ɓ a z o l êː tʰ a
+letha,V;BANTU5;RMT;PST;PROG,l a l í l eː tʰ a,k w a ɠ ú l eː tʰ a
+letha,V;1;SG;V.PTCP,n ɡ i l êː tʰ a,n ɡ i ɓ ú l eː tʰ a
+letha,V;BANTU14;PRS,ɓ u j a l êː tʰ a,ɓ u j a l êː tʰ a
+letha,V;BANTU14;PRS,ɓ ú l eː tʰ a,ɓ u j a l êː tʰ a
+letha,V;BANTU4;FUT,íː z o l êː tʰ a,íː z o l êː tʰ a
+letha,V;BANTU10;RMT;PST,z áː l eː tʰ a,z áː l eː tʰ a
+letha,V;BANTU4;V.PTCP,íː l eː tʰ a,íː l eː tʰ a
+letha,V;BANTU9;V.PTCP,íː l eː tʰ a,íː l eː tʰ a
+letha,V;BANTU6;SBJV,a l éː tʰ e,z í l eː tʰ e
+letha,V;BANTU2;RMT;PST;PROG,ɓ a ɓ e l êː tʰ a,z a z í l eː tʰ a
+letha,V;BANTU5;RCT;PST,l í l eː tʰ eː,z í l eː tʰ eː
+letha,V;1;PL;RMT;PST;PROG,s a s í l eː tʰ a,s a s í l eː tʰ a
+letha,V;BANTU4;RCT;PST,íː l eː tʰ eː,íː l eː tʰ éː
+letha,V;2;PL;PRS,n í l eː tʰ a,n i j a l êː tʰ a
+letha,V;BANTU7;RCT;PST,s i l é tʰ iː l e,s í l eː tʰ eː
+letha,V;BANTU7;RCT;PST,s í l eː tʰ eː,s í l eː tʰ eː
+letha,V;BANTU17;RMT;PST,k w áː l eː tʰ a,j áː l eː tʰ a
+letha,V;BANTU15;V.PTCP,ɠ ú l eː tʰ a,ɠ ú l eː tʰ a
+letha,V;1;PL;PRS,s i j a l êː tʰ a,s í l eː tʰ a
+letha,V;BANTU2;PRS,ɓ a j a l êː tʰ a,ɓ a j a l êː tʰ a
+letha,V;BANTU2;PRS,ɓ a l êː tʰ a,ɓ a j a l êː tʰ a
+letha,V;BANTU15;RMT;PST,k w áː l eː tʰ a,j áː l eː tʰ a
+letha,V;BANTU1;RCT;PST;PROG,ú ɓ e l êː tʰ a,ú ɓ e l êː tʰ a
+letha,V;BANTU1;PRS,ú j a l êː tʰ a,w a j a l êː tʰ a
+letha,V;BANTU11;RCT;PST,l ú l eː tʰ eː,l ú l eː tʰ eː
+letha,V;BANTU9;FUT,íː z o l êː tʰ a,íː z o l êː tʰ a
+letha,V;BANTU9;RMT;PST;PROG,j a j í l eː tʰ a,j a j í l eː tʰ a
+letha,V;BANTU1;V.PTCP,é l eː tʰ a,ú l eː tʰ á
+ona,V;BANTU10;RCT;PST,z óː n eː,z ó n iː l e
+ona,V;BANTU6;PRS,ôː n a,ú j ôː n a
+ona,V;BANTU1;RMT;PST,w óː n a,w a j ôː n a
+ona,V;1;SG;RCT;PST,n ɡ ó n iː l e,w óː n eː
+ona,V;BANTU4;RMT;PST,j óː n a,j a j óː n a
+ona,V;1;PL;RCT;PST,s ó n iː l e,s óː n eː
+ona,V;1;PL;V.PTCP,s óː n a,s óː n a
+ona,V;BANTU8;RMT;PST;PROG,z a z ôː n a,j a j óː n a
+ona,V;BANTU15;FUT,ɠ ú z o ɠ w oː n a,ɠ ú z o ɠ w ôː n a
+ona,V;2;SG;RMT;PST;PROG,w a w ôː n a,j a j óː n a
+ona,V;BANTU3;RMT;PST;PROG,w a w ôː n a,j a j óː n a
+ona,V;BANTU11;SBJV,l w óː n e,l w óː n e
+ona,V;2;PL;RCT;PST,n ó n iː l e,n óː n eː
+ona,V;BANTU10;RMT;PST;PROG,z a z ôː n a,j a j óː n a
+ona,V;BANTU7;RMT;PST,s óː n a,s óː n a
+ona,V;BANTU8;PRS,z í j oː n a,z óː n a
+ona,V;1;PL;SBJV,s óː n e,s óː n e
+ona,V;BANTU2;RCT;PST;PROG,ɓ é ɓ oː n a,ɓ óː n eː
+ona,V;BANTU10;PRS,z í j oː n a,z í j oː n a
+ona,V;BANTU5;FUT,l i z ó ɠ w oː n a,l i z o ɠ w ôː n a
+ona,V;1;SG;V.PTCP,n ɡ ôː n a,w óː n a
+ona,V;1;SG;RMT;PST,n ɡ oː n a,n ɡ âː ɓ a
+ona,V;BANTU3;SBJV,w óː n e,w óː n e
+ona,V;BANTU11;PRS,l óː n a,l ú j oː n a
+ona,V;BANTU17;RMT;PST,k w óː n a,k w a ɠ w ôː n a
+ona,V;1;SG;SBJV,n ɡ ôː n e,s óː n e
+ona,V;BANTU9;RCT;PST,ôː n eː,z óː n eː
+ona,V;BANTU11;RCT;PST;PROG,ɓ é l w oː n a,ɓ é j oː n a
+ona,V;BANTU7;FUT,s i z ó ɠ w oː n a,s i z o ɠ w ôː n a
+ona,V;BANTU8;RCT;PST,z ó n iː l e,z óː n eː
+ona,V;BANTU8;RCT;PST,z óː n eː,z óː n eː
+phumula,V;BANTU3;PRS,ú pʰ u m ûː l a,ú pʰ u m ûː l a
+phumula,V;BANTU15;RCT;PST;PROG,ɓ e ɠ u pʰ ú m uː l a,ɓ e j i pʰ ú m uː l a
+phumula,V;BANTU10;RCT;PST,z í pʰ u m uː l eː,z i pʰ u m ú l iː l e
+phumula,V;BANTU4;RMT;PST,j áː pʰ u m uː l a,j a j a pʰ ú m uː l a
+phumula,V;BANTU7;SBJV,s í pʰ u m uː l e,s i pʰ u m uː l e
+phumula,V;BANTU10;SBJV,z í pʰ u m uː l e,z i pʰ ú m uː l e
+phumula,V;BANTU10;FUT,z i z o pʰ ú m uː l a,z i z o pʰ ú m uː l a
+phumula,V;BANTU15;FUT,ɠ ú z o pʰ u m uː l a,ɠ ú z o pʰ ú m uː l a
+phumula,V;2;SG;RMT;PST;PROG,w a w u pʰ ú m uː l a,w a w ú v eː l a
+phumula,V;BANTU3;RCT;PST;PROG,ɓ e w u pʰ ú m uː l a,ɓ e j i pʰ ú m uː l a
+phumula,V;BANTU8;RCT;PST;PROG,ɓ e z i pʰ ú m uː l a,ɓ e z i pʰ ú m uː l a
+phumula,V;BANTU1;SBJV,a pʰ ú m uː l e,úː pʰ u m ûː l e
+phumula,V;2;SG;FUT,ú z o pʰ u m ûː l a,n i z o pʰ ú m uː l a
+phumula,V;BANTU15;RCT;PST,ɠ ú pʰ u m uː l eː,ɠ ú pʰ u m uː l eː
+phumula,V;IMP;2;PL,pʰ u m ú l aː n i,n í pʰ u m uː l a
+phumula,V;BANTU5;RCT;PST;PROG,ɓ e l i pʰ ú m uː l a,l í pʰ u m uː l eː
+phumula,V;2;SG;PRS,ú pʰ u m ûː l a,ú j a pʰ u m ûː l a
+phumula,V;BANTU14;RCT;PST,ɓ ú pʰ u m u l íː l e,ɓ ú pʰ u m uː l eː
+phumula,V;BANTU8;PRS,z i j a pʰ ú m uː l a,z i j a pʰ ú m uː l a
+phumula,V;BANTU10;V.PTCP,z i pʰ ú m uː l a,z í pʰ u m ûː l a
+phumula,V;BANTU3;FUT,ú z o pʰ u m ûː l a,ú z o pʰ u m ûː l a
+phumula,V;1;SG;PRS,n ɡ i j a pʰ ú m uː l a,n ɡ i pʰ ú m uː l a
+phumula,V;BANTU7;PRS,s i j a pʰ ú m uː l a,s i pʰ ú m uː l a
+phumula,V;BANTU2;FUT,ɓ a z o pʰ ú m uː l a,ɓ a z o pʰ ú m uː l a
+phumula,V;2;SG;RMT;PST,w aː pʰ ú m uː l a,w aː pʰ ú m uː l a
+phumula,V;2;PL;RMT;PST;PROG,n a n i pʰ ú m uː l a,n áː pʰ u m uː l a
+phumula,V;BANTU5;FUT,l i z o pʰ ú m uː l a,l i z o pʰ ú m uː l a
+phumula,V;BANTU5;RMT;PST;PROG,l a l i pʰ ú m uː l a,s a s i pʰ ú m uː l a
+phumula,V;BANTU9;PRS,íː j a pʰ u m ûː l a,íː j a pʰ u m ûː l a
+phumula,V;BANTU4;FUT,íː z o pʰ u m ûː l a,íː z o pʰ u m ûː l a
+phumula,V;BANTU17;FUT,ɠ ú z o pʰ u m uː l a,ɠ u z o pʰ ú m uː l a
+phumula,V;BANTU11;PRS,l ú j a pʰ u m uː l a,l u j a pʰ ú m uː l a
+phumula,V;BANTU7;RCT;PST;PROG,ɓ e s i pʰ ú m uː l a,ɓ e s i pʰ ú m uː l a
+phumula,V;1;SG;RCT;PST;PROG,ɓ e n ɡ i pʰ ú m uː l a,n ɡ i pʰ ú m uː l eː
+phumula,V;BANTU7;V.PTCP,s í pʰ u m uː l a,s i pʰ ú m uː l a
+phumula,V;BANTU17;RMT;PST,k w aː pʰ ú m uː l a,k w aː pʰ ú m uː l a
+phumula,V;1;PL;PRS,s í pʰ u m uː l a,s i j a pʰ ú m uː l a
+phumula,V;BANTU6;RMT;PST;PROG,a j e pʰ ú m uː l a,a ɓ e pʰ ú m uː l a
+phumula,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ i pʰ ú m uː l a,n ɡ aː pʰ ú m uː l a
+phumula,V;BANTU7;FUT,s i z o pʰ ú m uː l a,s i z o pʰ ú m uː l a
+phumula,V;BANTU1;RCT;PST;PROG,ú ɓ e pʰ u m ûː l a,ɓ e z i pʰ ú m uː l a
+phumula,V;BANTU11;RCT;PST,l ú pʰ u m u l íː l e,l ú pʰ u m uː l eː
+phumula,V;BANTU6;FUT,a z o pʰ ú m uː l a,a pʰ u m ûː l a
+phumula,V;BANTU1;V.PTCP,eː pʰ u m ûː l a,ɠ ú pʰ u m uː l a
+xoxa,V;2;SG;SBJV,úː ǃ ôː ǃ e,n íː ǃ oː ǃ e
+xoxa,V;BANTU10;RCT;PST,z í ǃ oː ǃ eː,z i ǃ ó ǃ iː l e
+xoxa,V;1;PL;RCT;PST;PROG,s i ɓ é ǃ oː ǁ a,s i ɓ é v uː l a
+xoxa,V;BANTU10;SBJV,z íː ǃ oː ǃ e,z í ǃ oː ǃ e
+xoxa,V;BANTU6;RMT;PST,áː ǃ oː ǁ a,j áː ǃ oː ǁ a
+xoxa,V;BANTU5;V.PTCP,l íː ǃ oː ǁ a,l íː ǃ oː ǃ a
+xoxa,V;BANTU3;RMT;PST;PROG,w a w ú ǃ oː ǀ a,w a w ú ǃ oː ǁ a
+xoxa,V;IMP;2;SG,ǃ ôː ǁ a,ǃ ôː ǃ e
+xoxa,V;BANTU1;RCT;PST,úː ǃ o ǃ íː l e,ú j a ǃ ôː ǃ eː
+xoxa,V;BANTU14;FUT,ɓ u z ó ǃ oː ǃ a,ɓ ú ǃ oː ǁ a
+xoxa,V;BANTU3;RCT;PST;PROG,ɓ e w ú ǃ oː ǃ a,ɓ e j í ǃ oː ǃ a
+xoxa,V;1;PL;FUT,s i z ó ǃ oː ǃ a,s i z ó ǃ oː ǃ a
+xoxa,V;2;PL;RCT;PST,n í ǃ o ǃ iː l é,n íː ǃ o ǃ eː
+xoxa,V;2;SG;FUT,ú z o ǃ ôː ǀ a,ú z o ǃ ôː ǀ a
+xoxa,V;BANTU15;RCT;PST,k ú ǃ oː ǃ eː,k ú ǃ o ǃ iː l e
+xoxa,V;BANTU1;FUT,ú z o ǃ ôː ǀ a,ú z o ǃ ôː ǀ a
+xoxa,V;BANTU5;RCT;PST;PROG,ɓ e l í ǃ oː ǀ a,ɓ e l í ǃ oː ǀ a
+xoxa,V;BANTU2;RCT;PST,ɓ a ǃ o ǃ íː l e,ɓ a ǃ ôː ǃ eː
+xoxa,V;BANTU8;PRS,z i j a ǃ ôː ǀ a,z íː ǃ oː ǁ a
+xoxa,V;1;PL;SBJV,s í ǃ oː ǃ e,s í ǃ oː ǃ e
+xoxa,V;BANTU2;SBJV,ɓ a ǃ ôː ǃ e,z í ǃ oː ǃ e
+xoxa,V;BANTU10;PRS,z i j a ǃ ôː ǀ a,z i j a ǃ ôː ǀ a
+xoxa,V;BANTU2;FUT,ɓ a z ó ǃ oː ǁ a,ɓ a z ó ǃ oː ǃ a
+xoxa,V;2;SG;RMT;PST,w áː ǃ oː ǁ a,w áː ǃ oː ǀ a
+xoxa,V;BANTU17;RCT;PST;PROG,ɓ e ɠ ú ǃ oː ǃ a,k ú ǃ oː ǃ eː
+xoxa,V;2;PL;RCT;PST;PROG,n i ɓ é ǃ oː ǀ a,n i ɓ é ǃ oː ǁ a
+xoxa,V;BANTU10;RMT;PST,z áː ǃ oː ǀ a,z áː h aː m b a
+xoxa,V;BANTU9;V.PTCP,íː ǃ ôː ǁ a,íː ǃ ôː ǁ a
+xoxa,V;BANTU11;PRS,l ú ǃ oː ǀ a,l ú j a ǃ ôː ǀ a
+xoxa,V;IMP;2;PL;LGSPEC3,ǁ ó ǃ eː n i,ǃ ôː ǃ e
+xoxa,V;BANTU4;RCT;PST,íː ǃ óː ǀ eː,z i ǃ ó ǃ iː l é
+xoxa,V;BANTU11;RMT;PST,l w áː ǃ oː ǁ a,j áː ǃ oː ǁ a
+xoxa,V;BANTU6;RCT;PST,áː ǃ oː ǃ eː,aː ǃ o ǃ íː l e
+xoxa,V;BANTU15;RMT;PST,k w áː ǃ oː ǁ a,k w áː ǃ oː ǃ a
+xoxa,V;BANTU6;V.PTCP,êː ǃ oː ǁ a,a j a ǃ ôː ǀ a
+xoxa,V;BANTU6;FUT,a z ó ǃ oː ǁ a,a z o ǃ ôː ǀ a
+linda,V;BANTU3;PRS,ú j a l íː n d a,ú j a l íː n d a
+linda,V;BANTU3;PRS,ú l íː n d a,ú j a l íː n d a
+linda,V;BANTU5;PRS,l i j a l íː n d a,l í l iː n d a
+linda,V;BANTU10;RCT;PST;PROG,ɓ e z í l iː n d a,ɓ e z í l iː n d a
+linda,V;BANTU15;FUT,ɠ ú z o l iː n d a,z i z ó l iː n d a
+linda,V;2;SG;RCT;PST,ú l iː n d eː,ú l íː n d eː
+linda,V;BANTU3;RCT;PST;PROG,ɓ e w ú l iː n d a,ɓ e w ú l iː n d a
+linda,V;BANTU8;RMT;PST,z áː l iː n d a,z áː l iː n d a
+linda,V;BANTU3;RCT;PST,ú l i n d íː l e,ú l iː n d eː
+linda,V;BANTU3;RCT;PST,ú l iː n d eː,ɓ e w ú l iː n d a
+linda,V;BANTU15;RCT;PST,ɠ ú l i n d iː l e,ɠ ú l iː n d eː
+linda,V;BANTU15;RCT;PST,ɠ ú l iː n d eː,ɠ ú l iː n d eː
+linda,V;BANTU1;RMT;PST;PROG,w a j e l íː n d a,k w a ɠ ú l iː n d a
+linda,V;BANTU5;RCT;PST;PROG,ɓ e l í l iː n d a,l i ɓ é l iː n d a
+linda,V;2;SG;PRS,ú l íː n d a,ú l íː n d a
+linda,V;BANTU8;PRS,z i j a l íː n d a,z i j a l íː n d a
+linda,V;1;SG;PRS,n ɡ í l iː n d a,n ɡ í l iː n d a
+linda,V;BANTU17;RMT;PST;PROG,k w a ɠ ú l iː n d a,j a j í l iː n d a
+linda,V;BANTU10;PRS,z í l iː n d a,z i j a l iː n d a
+linda,V;2;PL;RMT;PST;PROG,n a n í l iː n d a,j a j í l iː n d a
+linda,V;BANTU5;RMT;PST;PROG,l a l í l iː n d a,l áː l iː n d a
+linda,V;2;PL;RMT;PST,n áː l iː n d a,s áː l iː n d a
+linda,V;2;PL;RCT;PST;PROG,n í ɓ e l íː n d a,n i ɓ é l iː n d a
+linda,V;BANTU3;SBJV,úː l íː n d e,ú l íː n d e
+linda,V;BANTU9;V.PTCP,íː l íː n d a,ú l íː n d a
+linda,V;BANTU17;PRS,ɠ ú j a l iː n d a,ɠ ú l iː n d a
+linda,V;BANTU17;PRS,ɠ ú l iː n d a,ɠ u j a l íː n d a
+linda,V;BANTU14;RMT;PST,ɓ áː l iː n d a,j áː l iː n d a
+linda,V;1;PL;RMT;PST;PROG,s a s í l iː n d a,s áː l iː n d a
+linda,V;2;PL;PRS,n í l iː n d a,n i j a l íː n d a
+linda,V;BANTU7;V.PTCP,s í l iː n d a,s í l iː n d a
+linda,V;BANTU6;RMT;PST;PROG,a j e l íː n d a,áː l iː n d a
+linda,V;BANTU8;RCT;PST,z í l iː n d eː,z i l í n d iː l e
+linda,V;BANTU9;SBJV,íː l íː n d e,íː l iː n d e
+linda,V;BANTU6;V.PTCP,é l iː n d a,a l íː n d a
+linda,V;BANTU2;RMT;PST,ɓ áː l iː n d a,j áː l iː n d a
+linda,V;BANTU9;FUT,íː z o l íː n d a,z i z ó l iː n d a
+linda,V;BANTU9;RMT;PST;PROG,j a j í l iː n d a,j a j í l iː n d a
+linda,V;BANTU1;V.PTCP,é l iː n d a,w a j a l íː n d a
+buya,V;BANTU3;PRS,ú ɓ uː j á,ú j a ɓ úː j a
+buya,V;BANTU6;PRS,a j a ɓ úː j a,a j a ɓ úː j a
+buya,V;BANTU1;RMT;PST,w áː ɓ uː j a,w áː ɓ uː j a
+buya,V;BANTU8;FUT,z i z ó ɓ uː j a,z i z o ɓ uː j a
+buya,V;BANTU8;V.PTCP,z í ɓ uː j a,z í ɓ uː j a
+buya,V;BANTU5;PRS,l í ɓ uː j a,l i j a ɓ uː j a
+buya,V;BANTU10;SBJV,z í ɓ uː j é,z í ɓ uː j é
+buya,V;BANTU3;RMT;PST,w áː ɓ uː j a,z áː ɓ uː j a
+buya,V;1;PL;RCT;PST,s í ɓ u j íː l e,s í ɓ u j êː
+buya,V;BANTU6;RMT;PST,áː ɓ uː j a,ɓ áː ɓ uː j a
+buya,V;2;SG;RCT;PST,ú ɓ u j íː l e,n í ɓ u j íː l e
+buya,V;2;SG;RCT;PST,ú ɓ u j êː,ú ɓ u j íː l e
+buya,V;IMP;2;SG,ɓ úː j a,v úː l a
+buya,V;BANTU8;RMT;PST,z áː ɓ uː j a,z áː ɓ uː j a
+buya,V;2;PL;RCT;PST,n í ɓ u j íː l e,n í ɓ u j êː
+buya,V;BANTU10;RMT;PST;PROG,z a z í ɓ uː j a,z a z í ɓ uː j a
+buya,V;2;SG;V.PTCP,ú ɓ uː j á,ú ɓ uː j a
+buya,V;BANTU2;RCT;PST,ɓ a ɓ ú j iː l e,ú ɓ u j íː l e
+buya,V;BANTU2;RCT;PST,ɓ a ɓ ú j eː,ú ɓ u j êː
+buya,V;1;PL;SBJV,s í ɓ uː j é,s í ɓ uː j é
+buya,V;1;SG;PRS,n ɡ i ɓ úː j a,n ɡ i j a ɓ uː j a
+buya,V;BANTU17;RCT;PST,ɠ ú ɓ u j eː,ɠ ú ɓ u j íː l e
+buya,V;2;SG;RMT;PST,w áː ɓ uː j a,n áː ɓ uː j a
+buya,V;2;PL;RCT;PST;PROG,n í ɓ e ɓ uː j á,n i ɓ é ɓ uː j a
+buya,V;BANTU14;RCT;PST;PROG,ɓ e ɓ ú ɓ uː j a,ɓ e ɓ ú ɓ uː j a
+buya,V;BANTU7;RCT;PST,s í ɓ u j êː,s í ɓ u j íː l e
+buya,V;BANTU6;RMT;PST;PROG,a j e ɓ úː j a,z a z í ɓ uː j a
+buya,V;BANTU11;RMT;PST;PROG,l w a l u ɓ ûː j a,j a j í ɓ uː j a
+buya,V;1;SG;SBJV,n ɡ í ɓ uː j e,s í ɓ uː j é
+buya,V;1;SG;FUT,n ɡ i z ó ɓ uː j a,n ɡ i ɓ úː j a
+buya,V;BANTU1;RCT;PST;PROG,ú ɓ e ɓ úː j a,ú ɓ e ɓ úː j a
+buya,V;BANTU11;RCT;PST,l ú ɓ u j êː,ɠ ú ɓ u j íː l e
+buya,V;BANTU14;SBJV,ɓ ú ɓ uː j é,ɓ ú ɓ uː j é
+buya,V;BANTU4;RMT;PST;PROG,j a j í ɓ uː j a,j a j í ɓ uː j a
+buya,V;BANTU1;V.PTCP,é ɓ uː j á,ú ɓ uː j a
+lalela,V;BANTU10;RCT;PST,z i l a l éː l eː,z i l a l éː l eː
+lalela,V;BANTU6;PRS,a j a l a l éː l a,a j a l a l éː l a
+lalela,V;BANTU11;FUT,l u z o l á l eː l a,l ú z o l a l êː l a
+lalela,V;BANTU7;SBJV,s i l a l êː l e,s i l a l eː l e
+lalela,V;BANTU10;RCT;PST;PROG,ɓ e z i l a l êː l a,ɓ e z i l a l éː l a
+lalela,V;IMP;2;SG;LGSPEC3,l a l éː l e,ʃ íː s e
+lalela,V;2;SG;RCT;PST,ú l a l éː l eː,ú l a l éː l eː
+lalela,V;BANTU5;RMT;PST,l áː l a l eː l a,l a l i l a l êː l a
+lalela,V;BANTU8;RMT;PST,z áː l a l eː l a,aː l a l êː l a
+lalela,V;BANTU3;RCT;PST,ú l a l éː l eː,ú l a l éː l eː
+lalela,V;BANTU2;RCT;PST,ɓ a l a l éː l eː,ɓ a l a l éː l eː
+lalela,V;BANTU8;PRS,z i j a l a l éː l a,z i j a l a l êː l a
+lalela,V;2;PL;FUT,n i z o l a l êː l a,n í z o l a l êː l a
+lalela,V;BANTU2;SBJV,ɓ a l a l êː l e,ɓ á tʰ eː l e
+lalela,V;2;SG;RMT;PST,w aː l a l éː l a,w aː l a l éː l a
+lalela,V;BANTU9;PRS,íː j a l a l éː l a,íː j a l a l êː l a
+lalela,V;BANTU4;V.PTCP,íː l a l êː l a,íː l a l éː l a
+lalela,V;BANTU6;SBJV,a l a l éː l e,a j a l a l êː l e
+lalela,V;2;PL;PRS,n i l a l éː l a,n i j a l a l éː l a
+lalela,V;BANTU2;V.PTCP,ɓ e l a l êː l a,ɓ a z o l a l êː l a
+lalela,V;BANTU17;RMT;PST,k w aː l a l éː l a,w aː l a l êː l a
+lalela,V;BANTU8;SBJV,z i l a l êː l e,z i l a l éː l a
+lalela,V;1;PL;PRS,s i j a l a l êː l a,s i j a l a l éː l a
+lalela,V;1;PL;PRS,s i l a l êː l a,s i j a l a l éː l a
+lalela,V;BANTU9;SBJV,íː l a l êː l e,k ú l a l eː l e
+lalela,V;BANTU6;FUT,a z o l a l éː l a,a z o l a l êː l a
+lalela,V;BANTU11;V.PTCP,l ú l a l eː l a,l ú l a l éː l a
+shisa,V;BANTU4;RCT;PST;PROG,ɓ e j í ʃ iː s a,ɓ e j í ʃ iː s a
+shisa,V;BANTU5;PRS,l í ʃ iː s a,l i j a ʃ íː s a
+shisa,V;1;PL;RCT;PST,s í ʃ i s eː,s í ʃ i s iː l e
+shisa,V;1;PL;V.PTCP,s í ʃ iː s a,s í ʃ iː s a
+shisa,V;2;PL;SBJV,n í ʃ iː s e,n í ʃ iː s e
+shisa,V;BANTU8;RMT;PST;PROG,z a z í ʃ iː s a,z a z í ʃ iː s a
+shisa,V;IMP;2;SG,ʃ íː s a,ʃ íː s e
+shisa,V;BANTU5;RMT;PST,l áː ʃ iː s a,l áː ʃ iː s a
+shisa,V;BANTU14;FUT,ɓ u z ó ʃ iː s a,ɓ u z ó ʃ iː s a
+shisa,V;1;PL;FUT,s i z ó ʃ iː s a,s i z ó ʃ iː s a
+shisa,V;BANTU3;RCT;PST,ú ʃ i s íː l e,íː ʃ i s íː l e
+shisa,V;BANTU3;RCT;PST,ú ʃ iː s êː,ɓ e w ú ʃ iː s a
+shisa,V;BANTU3;V.PTCP,úː ʃ iː s a,ú ʃ iː s a
+shisa,V;BANTU4;SBJV,íː ʃ iː s é,íː ʃ iː s é
+shisa,V;BANTU1;RMT;PST;PROG,w a j é ʃ iː s a,s a s í ʃ iː s a
+shisa,V;BANTU5;RCT;PST;PROG,ɓ e l í ʃ iː s a,ɓ e l í ʃ iː s a
+shisa,V;2;PL;FUT,n í z o ʃ iː s a,n í z o ʃ iː s a
+shisa,V;BANTU10;V.PTCP,z í ʃ iː s a,z í ʃ iː s a
+shisa,V;1;PL;SBJV,s í ʃ iː s e,s í ʃ iː s e
+shisa,V;BANTU7;PRS,s í ʃ iː s a,s i j a ʃ íː s a
+shisa,V;BANTU17;RMT;PST;PROG,k w a ɠ ú ʃ iː s a,k w áː ʃ iː s a
+shisa,V;BANTU5;SBJV,l í ʃ iː s e,l í ʃ iː s e
+shisa,V;BANTU10;PRS,z í ʃ iː s a,z i j a ʃ íː s a
+shisa,V;BANTU5;FUT,l i z ó ʃ iː s a,l i z ó ʃ iː s a
+shisa,V;BANTU9;RCT;PST;PROG,ɓ e j í ʃ iː s a,ɓ e j í ʃ iː s a
+shisa,V;BANTU9;PRS,íː ʃ iː s a,íː j a ʃ íː s a
+shisa,V;1;SG;RMT;PST,n ɡ aː ʃ íː s a,s áː ʃ iː s a
+shisa,V;BANTU3;SBJV,úː ʃ iː s é,s í ʃ iː s e
+shisa,V;IMP;2;PL;LGSPEC3,ʃ í s eː n i,l á l eː n i
+shisa,V;BANTU14;RMT;PST,ɓ áː ʃ iː s a,ɓ áː ʃ iː s a
+shisa,V;BANTU15;PRS,k ú j a ʃ iː s a,ɠ ú j a ʃ íː s a
+shisa,V;BANTU15;PRS,ɠ ú ʃ iː s a,ɠ ú ʃ iː s a
+shisa,V;BANTU4;RCT;PST,íː ʃ i s êː,íː ʃ i s íː l e
+shisa,V;2;PL;PRS,n í ʃ iː s a,n i j a ʃ íː s a
+shisa,V;BANTU15;V.PTCP,ɠ ú ʃ iː s a,ɠ ú ʃ iː s a
+shisa,V;BANTU11;RMT;PST;PROG,l w a l ú ʃ iː s a,l w áː ʃ iː s a
+shisa,V;BANTU2;PRS,ɓ á ʃ iː s a,ɓ a j a ʃ íː s a
+shisa,V;BANTU11;RCT;PST;PROG,ɓ e l ú ʃ iː s a,l ú ʃ i s iː l é
+shisa,V;BANTU11;RCT;PST,l ú ʃ i s iː l é,l ú ʃ i s eː
+shisa,V;BANTU2;RMT;PST,ɓ áː ʃ iː s a,w áː ʃ iː s a
+shisa,V;BANTU9;FUT,íː z o ʃ íː s a,íː z o ʃ íː s a
+shisa,V;BANTU9;RMT;PST;PROG,j a j í ʃ iː s a,j a j í ʃ iː s a
+shona,V;BANTU15;RCT;PST;PROG,ɓ e ɠ ú ʃ oː n a,ɓ e ɠ ú ʃ oː n a
+shona,V;BANTU10;RCT;PST,z i ʃ ó n iː l e,z í ʃ oː n eː
+shona,V;1;SG;RCT;PST,n ɡ i ʃ ó n iː l e,s i ʃ ó n iː l e
+shona,V;BANTU8;V.PTCP,z í ʃ oː n a,z í ʃ oː n a
+shona,V;NFIN,ú ɠ u ʃ ôː n a,ú ɠ uː m a
+shona,V;BANTU6;RMT;PST,áː ʃ oː n a,a j é ʃ oː n a
+shona,V;2;PL;SBJV,n í ʃ oː n e,n í ʃ oː n e
+shona,V;BANTU14;FUT,ɓ u z ó ʃ oː n a,ɓ u z ó ʃ oː n a
+shona,V;BANTU3;RCT;PST;PROG,ɓ e w ú ʃ oː n a,ɓ e w ú ʃ oː n a
+shona,V;BANTU17;SBJV,ɠ ú ʃ oː n e,ɠ ú ʃ oː n e
+shona,V;BANTU10;RMT;PST;PROG,z a z í ʃ oː n a,z a z í ʃ oː n a
+shona,V;2;SG;FUT,ú z o ʃ ôː n a,n i z ó ʃ oː n a
+shona,V;BANTU15;RCT;PST,ɠ ú ʃ oː n eː,ɠ ú ʃ o n iː l e
+shona,V;IMP;2;PL,ʃ ó n aː n i,n í ʃ oː n a
+shona,V;BANTU8;PRS,z í ʃ oː n a,z í ʃ oː n a
+shona,V;BANTU3;FUT,ú z o ʃ ôː n a,ú z o ʃ ôː n a
+shona,V;1;SG;PRS,n ɡ í ʃ oː n a,n ɡ í ʃ oː n a
+shona,V;BANTU2;RCT;PST;PROG,ɓ e ɓ é ʃ oː n a,ɓ e ɓ é ʃ oː n a
+shona,V;BANTU17;V.PTCP,ɠ ú ʃ oː n a,ɠ ú ʃ oː n a
+shona,V;2;PL;RMT;PST,n áː ʃ oː n a,n a n í ʃ oː n a
+shona,V;BANTU10;RMT;PST,z áː ʃ oː n a,w áː ʃ oː n a
+shona,V;BANTU14;RMT;PST;PROG,ɓ a ɓ ú ʃ oː n a,ɓ a ɓ ú ʃ oː n a
+shona,V;BANTU11;PRS,l u j a ʃ ôː n a,l ú j a ʃ ôː n a
+shona,V;1;PL;PRS,s i j a ʃ ôː n a,s i j a ʃ oː n a
+shona,V;BANTU6;RCT;PST,a ʃ ó n iː l e,áː ʃ oː n eː
+shona,V;BANTU2;PRS,ɓ á ʃ oː n a,ɓ a j a ʃ ôː n a
+shona,V;BANTU11;V.PTCP,l ú ʃ oː n a,l ú ʃ oː n a
+shona,V;BANTU9;RMT;PST;PROG,j a j í ʃ oː n a,j a j í ʃ oː n a
+jabula,V;BANTU10;RCT;PST,z i d ʒ a ɓ ú l iː l e,z i d ʒ a ɓ uː l eː
+jabula,V;1;SG;RCT;PST,n ɡ i d ʒ a ɓ ú l iː l e,s i d ʒ a ɓ uː l eː
+jabula,V;BANTU8;V.PTCP,z i d ʒ a ɓ ûː l a,eː d ʒ a ɓ ûː l a
+jabula,V;BANTU10;FUT,z i z o d ʒ á ɓ uː l a,z i z o d ʒ a ɓ uː l a
+jabula,V;2;PL;SBJV,n í d ʒ a ɓ uː l é,n í d ʒ a ɓ uː l a
+jabula,V;BANTU8;RMT;PST;PROG,z a z i d ʒ á ɓ uː l a,z a z i d ʒ á ɓ uː l a
+jabula,V;BANTU15;RMT;PST;PROG,k w a ɠ u d ʒ á ɓ uː l a,w a w u d ʒ a ɓ ûː l a
+jabula,V;BANTU8;RMT;PST,z áː d ʒ a ɓ uː l a,z áː ɡ i d ʒ á ɓ uː l a
+jabula,V;BANTU7;RMT;PST,s áː d ʒ a ɓ uː l a,w aː d ʒ a ɓ ûː l a
+jabula,V;2;SG;V.PTCP,ú d ʒ a ɓ ûː l a,d ʒ a ɓ ûː l a
+jabula,V;2;SG;PRS,ú j a d ʒ a ɓ úː l a,ú j a d͡ʒ a ɓ uː l a
+jabula,V;BANTU14;RCT;PST,ɓ ú d ʒ a ɓ uː l eː,ɓ u d ʒ a ɓ uː l eː
+jabula,V;BANTU8;PRS,z i j a d͡ʒ á ɓ uː l a,z i j a d͡ʒ a ɓ ûː l a
+jabula,V;BANTU17;RCT;PST,ɠ u d ʒ a ɓ ú l iː l e,ɠ ú d ʒ a ɓ uː l eː
+jabula,V;BANTU10;PRS,z i j a d͡ʒ á ɓ uː l a,z i j a d͡ʒ a ɓ uː l a
+jabula,V;BANTU5;FUT,l i z o d ʒ á ɓ uː l a,l i z o d ʒ á ɓ uː l a
+jabula,V;1;SG;V.PTCP,n ɡ i d ʒ á ɓ uː l a,s i d ʒ a ɓ uː l a
+jabula,V;BANTU9;PRS,íː d ʒ a ɓ ûː l a,íː j a d ʒ a ɓ ûː l a
+jabula,V;BANTU14;PRS,ɓ u d ʒ a ɓ ûː l a,ɓ u j a d͡ʒ a ɓ ûː l a
+jabula,V;BANTU17;FUT,ɠ ú z o d ʒ a ɓ uː l a,ɠ ú z o d ʒ á ɓ uː l a
+jabula,V;BANTU3;SBJV,ú d ʒ a ɓ ûː l e,ú j a d ʒ a ɓ ûː l e
+jabula,V;1;PL;RMT;PST,s áː d ʒ a ɓ uː l a,s i d ʒ a ɓ ú l iː l e
+jabula,V;1;SG;RCT;PST;PROG,ɓ e n ɡ i d ʒ á ɓ uː l a,s i ɓ e d ʒ á ɓ uː l a
+jabula,V;BANTU15;PRS,ɠ ú j a d͡ʒ a ɓ uː l a,ɠ ú j a d͡ʒ a ɓ ûː l a
+jabula,V;BANTU4;RCT;PST,íː d ʒ a ɓ u l íː l e,íː j a d ʒ a ɓ úː l eː
+jabula,V;BANTU7;RCT;PST,s i d ʒ a ɓ ú l iː l e,s i d ʒ a ɓ úː l eː
+jabula,V;BANTU7;V.PTCP,s i d ʒ a ɓ ûː l a,s i d ʒ a ɓ uː l a
+jabula,V;BANTU8;SBJV,z i d ʒ a ɓ ûː l e,z i d ʒ a ɓ uː l e
+jabula,V;BANTU2;PRS,ɓ a j a d͡ʒ a ɓ ûː l a,ɓ a j a d͡ʒ a ɓ ûː l a
+jabula,V;BANTU15;RMT;PST,k w aː d ʒ a ɓ ûː l a,j áː d ʒ a ɓ uː l a
+jabula,V;BANTU9;RCT;PST,íː d ʒ a ɓ úː l eː,íː d ʒ a ɓ u l íː l e
+jabula,V;1;SG;FUT,n ɡ i z o d͡ʒ á ɓ uː l a,n ɡ i d ʒ á ɓ uː l a
+jabula,V;BANTU4;PRS,íː d ʒ a ɓ ûː l a,íː j a d ʒ a ɓ ûː l a
+jabula,V;BANTU11;V.PTCP,l ú d ʒ a ɓ uː l a,l ú d ʒ a ɓ uː l a
+jabula,V;BANTU2;RMT;PST,ɓ aː d ʒ a ɓ úː l a,w aː d ʒ a ɓ ûː l a
+thenga,V;BANTU3;PRS,ú j a tʰ éː n ɡ a,ú j a tʰ éː n ɡ a
+thenga,V;BANTU3;PRS,úː tʰ eː n ɡ a,úː tʰ eː n ɡ a
+thenga,V;BANTU10;RCT;PST,z í tʰ eː n ɡ eː,z i tʰ é n ɡ iː l e
+thenga,V;BANTU8;V.PTCP,z í tʰ eː n ɡ a,z í tʰ eː n ɡ a
+thenga,V;BANTU10;SBJV,z í tʰ eː n ɡ e,z íː tʰ eː n ɡ e
+thenga,V;2;SG;RCT;PST,úː tʰ e n ɡ íː l e,úː tʰ eː n ɡ eː
+thenga,V;BANTU4;SBJV,íː tʰ eː n ɡ e,íː tʰ eː n ɡ e
+thenga,V;BANTU8;PRS,z í tʰ eː n ɡ a,z i j a tʰ éː n ɡ a
+thenga,V;1;SG;PRS,n ɡ i tʰ éː n ɡ a,n ɡ i j âː tʰ a
+thenga,V;BANTU2;SBJV,ɓ a tʰ éː n ɡ e,ɓ a tʰ éː n ɡ e
+thenga,V;BANTU17;RCT;PST,ɠ ú tʰ e n ɡ iː l e,ɠ ú tʰ eː n ɡ eː
+thenga,V;1;SG;RMT;PST,n ɡ aː tʰ éː n ɡ a,n ɡ âː kʰ a
+thenga,V;BANTU11;PRS,l ú j a tʰ eː n ɡ a,l ú j a tʰ éː n ɡ a
+thenga,V;BANTU17;PRS,ɠ ú j a tʰ eː n ɡ a,k ú j a tʰ éː n ɡ a
+thenga,V;BANTU4;RCT;PST,íː tʰ eː n ɡ eː,íː tʰ eː n ɡ eː
+thenga,V;BANTU2;PRS,ɓ a j a tʰ éː n ɡ a,ɓ a tʰ éː n ɡ a
+thenga,V;BANTU1;PRS,ú j a tʰ éː n ɡ a,ú j a tʰ éː n ɡ a
+thenga,V;BANTU1;PRS,úː tʰ eː n ɡ a,ú j a tʰ éː n ɡ a
+thenga,V;BANTU4;PRS,íː j a tʰ éː n ɡ a,íː j a tʰ éː n ɡ a
+fa,V;BANTU3;PRS,ú j aː f a,úː f a
+fa,V;BANTU1;RMT;PST,w áː f a,j áː f a
+fa,V;BANTU8;FUT,z i z o ɠ ûː f a,z i z o ɠ uː f a
+fa,V;BANTU4;RMT;PST,j áː f a,j áː f a
+fa,V;BANTU6;RMT;PST,áː f a,a j éː f a
+fa,V;BANTU15;FUT,ɠ ú z o ɠ uː f a,ɠ ú z o ɠ ûː f a
+fa,V;2;SG;RCT;PST,ú f íː l e,úː f eː
+fa,V;IMP;2;SG,j íː f a,j í f aː n i
+fa,V;BANTU3;RCT;PST;PROG,ɓ e w ûː f a,úː f eː
+fa,V;2;SG;RCT;PST;PROG,ú ɓ eː f a,úː f eː
+fa,V;2;PL;RCT;PST,n íː f eː,n í f iː l é
+fa,V;BANTU10;RMT;PST;PROG,z á z iː f a,a j éː f a
+fa,V;BANTU1;RMT;PST;PROG,w a j éː f a,w a j e l âː l a
+fa,V;BANTU2;RCT;PST,ɓ a f íː l e,z í f iː l e
+fa,V;2;PL;V.PTCP,n íː f a,n i z o ɠ ûː f a
+fa,V;BANTU2;SBJV,ɓ áː f e,z íː f e
+fa,V;BANTU7;PRS,s í j aː f a,s í j aː f a
+fa,V;BANTU7;PRS,s íː f a,s í j aː f a
+fa,V;BANTU17;RMT;PST;PROG,k w a ɠ ûː f a,z á z iː f a
+fa,V;BANTU17;RCT;PST,ɠ ú f iː l e,ɠ úː f eː
+fa,V;2;SG;RMT;PST,w áː f a,w áː f a
+fa,V;BANTU5;FUT,l i z o ɠ ûː f a,l i z o ɠ uː f a
+fa,V;BANTU9;PRS,íː j aː f a,íː j aː f a
+fa,V;BANTU9;PRS,îː f a,z í j aː f a
+fa,V;BANTU17;RCT;PST;PROG,ɓ é ɠ uː f a,z í ɓ eː f a
+fa,V;BANTU4;FUT,íː z o ɠ ûː f a,íː z o ɠ uː f á
+fa,V;BANTU11;PRS,l ú j aː f a,l úː f a
+fa,V;BANTU5;RCT;PST,l í f iː l é,l íː f eː
+fa,V;1;SG;RCT;PST;PROG,ɓ e n ɡ íː f a,ɓ é n ɡ iː m b a
+fa,V;1;PL;RMT;PST;PROG,s a s íː f a,n á n iː f a
+fa,V;BANTU11;RMT;PST,l w áː f a,ɓ âː f a
+fa,V;1;SG;SBJV,n ɡ íː f e,n ɡ íː f a
+fa,V;BANTU15;RMT;PST,k w áː f a,z áː f a
+fa,V;BANTU1;PRS,úː f a,ú j aː f a
+fa,V;BANTU4;PRS,íː j aː f a,íː j aː f a
+fa,V;BANTU6;V.PTCP,êː f a,z íː f a
+fa,V;BANTU4;RMT;PST;PROG,j a j íː f a,z á z iː f a
+nquma,V;2;SG;SBJV,úᵑ ǃ uː m e,úᵑ ǃ uː m e
+nquma,V;BANTU3;PRS,ú j aᵑ ǃ uː m a,úᵑ ǃ uː m a
+nquma,V;BANTU10;RCT;PST,z íᵑ ǃ u m eː,z íᵑ ǃ u m eː
+nquma,V;1;SG;RCT;PST,n ɡ íᵑ ǃ uː m eː,n ɡ iᵑ ǃ u m íː l e
+nquma,V;1;PL;RCT;PST;PROG,s i ɓ éᵑ ǃ uː m a,s i ɓ é ɓ uː j a
+nquma,V;BANTU8;V.PTCP,z íᵑ ǃ uː m a,z íᵑ ǃ uː m a
+nquma,V;BANTU15;SBJV,ɠ úᵑ ǃ uː m e,k úᵑ ǃ uː m e
+nquma,V;BANTU15;FUT,ɠ ú z oᵑ ǃ uː m a,ɠ ú z oᵑ ǃ uː m a
+nquma,V;1;PL;FUT,s i z óᵑ ǃ uː m a,s i z óᵑ ǃ uː m a
+nquma,V;2;PL;RCT;PST,n íᵑ ǃ u m íː l e,n íᵑ ǃ u m eː
+nquma,V;BANTU7;RMT;PST,s áᵑ ǃ uː m a,w áᵑ ǃ uː m a
+nquma,V;BANTU1;SBJV,áᵑ ǃ uː m e,úᵑ ǃ uː m e
+nquma,V;BANTU3;RCT;PST,úᵑ ǃ u m eː,úᵑ ǃ u m íː l e
+nquma,V;BANTU1;RMT;PST;PROG,w a j éᵑ ǃ uː m a,z a z íᵑ ǃ uː m a
+nquma,V;BANTU2;RCT;PST,ɓ aᵑ ǃ u m íː l e,ɓ e ɓ éᵑ ǃ uː m a
+nquma,V;BANTU14;RCT;PST,ɓ úᵑ ǃ u m iː l e,ɓ úᵑ ǃ u m íː l e
+nquma,V;1;SG;PRS,n ɡ i j áᵑ ǃ uː m a,n ɡ íᵑ ǃ uː m a
+nquma,V;BANTU5;SBJV,l íᵑ ǃ uː m e,l íᵑ ǃ uː m e
+nquma,V;BANTU2;FUT,ɓ a z óᵑ ǃ uː m a,ɓ a z óᵑ ǃ uː m a
+nquma,V;BANTU9;PRS,íᵑ ǃ uː m a,ɠ ú j aᵑ ǃ uː m a
+nquma,V;BANTU14;PRS,ɓ u j áᵑ ǃ uː m a,ɓ úᵑ ǃ uː m a
+nquma,V;BANTU10;RMT;PST,z áᵑ ǃ uː m a,j áᵑ ǃ uː m a
+nquma,V;BANTU11;PRS,l úᵑ ǃ uː m a,l úᵑ ǃ uː m a
+nquma,V;BANTU14;RMT;PST,ɓ áᵑ ǃ uː m a,j áᵑ ǃ uː m a
+nquma,V;2;PL;PRS,n íᵑ ǃ uː m a,n i j áᵑ ǃ uː m a
+nquma,V;BANTU7;RCT;PST,s íᵑ ǃ u m íː l e,s íᵑ ǃ uː m eː
+nquma,V;BANTU17;RMT;PST,k w áᵑ ǃ uː m a,j áᵑ ǃ uː m a
+nquma,V;1;PL;PRS,s íᵑ ǃ uː m a,s íᵑ ǃ uː m a
+nquma,V;BANTU6;RMT;PST;PROG,a j éᵑ ǃ uː m a,z a z íᵑ ǃ uː m a
+nquma,V;BANTU6;RCT;PST,áᵑ ǃ u m eː,úᵑ ǃ u m íː l e
+nquma,V;BANTU15;RMT;PST,k w áᵑ ǃ uː m a,w áᵑ ǃ uː m a
+nquma,V;BANTU9;RCT;PST,íᵑ ǃ u m eː,íᵑ ǃ u m íː l e
+nquma,V;BANTU6;RCT;PST;PROG,a ɓ éᵑ ǃ uː m a,ɓ e z íᵑ ǃ uː m a
+nquma,V;BANTU8;RCT;PST,z íᵑ ǃ u m eː,z íᵑ ǃ u m iː l é
+nquma,V;BANTU4;PRS,íː j aᵑ ǃ uː m a,íᵑ ǃ uː m a
+nquma,V;BANTU9;SBJV,íᵑ ǃ uː m e,íᵑ ǃ uː m e
+nquma,V;BANTU6;V.PTCP,éᵑ ǃ uː m a,áᵑ ǃ uː m a
+nquma,V;BANTU6;FUT,a z óᵑ ǃ uː m a,ú z oᵑ ǃ uː m a
+nquma,V;BANTU1;V.PTCP,éᵑ ǃ uː m a,úᵑ ǃ uː m a
+enda,V;BANTU15;RCT;PST;PROG,ɓ é ɠ w eː n d a,ɓ é z eː n d a
+enda,V;1;SG;RCT;PST,n ɡ éː n d eː,n ɡ i ɓ êː n d a
+enda,V;BANTU8;FUT,z i z ó ɠ w eː n d a,z i z o ɠ w éː n d a
+enda,V;BANTU5;PRS,l éː n d a,l éː n d a
+enda,V;2;SG;RCT;PST,w éː n d eː,w éː n d eː
+enda,V;IMP;2;SG,j éː n d a,ᵑd íː z a
+enda,V;BANTU10;RMT;PST;PROG,z á z eː n d a,k w a ɠ w éː n d a
+enda,V;2;SG;V.PTCP,w éː n d a,w éː n d a
+enda,V;BANTU3;RCT;PST,w éː n d eː,w é n d iː l e
+enda,V;2;SG;FUT,ú z o ɠ w éː n d a,ú z o ɠ w éː n d a
+enda,V;BANTU1;RMT;PST;PROG,w a j éː n d a,w á j eː n d a
+enda,V;BANTU8;PRS,z í j eː n d a,z í j eː n d a
+enda,V;1;SG;PRS,ᵑɡ éː n d a,n ɡ i j a ɓ âː n ɡ a
+enda,V;BANTU10;PRS,z éː n d a,z í j eː n d a
+enda,V;2;PL;RMT;PST;PROG,n á n eː n d a,n a n í ɓ aː l a
+enda,V;BANTU5;RMT;PST;PROG,l a l éː n d a,k w a ɠ w éː n d a
+enda,V;BANTU17;RCT;PST;PROG,ɓ é ɠ w eː n d a,k w éː n d eː
+enda,V;BANTU4;FUT,íː z o ɠ w éː n d a,íː z o ɠ w éː n d a
+enda,V;BANTU14;RMT;PST;PROG,ɓ á ɓ eː n d a,k w a ɠ w éː n d a
+enda,V;BANTU4;V.PTCP,êː n d a,éː n d a
+enda,V;BANTU11;PRS,l éː n d a,l ú j eː n d a
+enda,V;BANTU2;RMT;PST;PROG,ɓ á ɓ eː n d a,j a j éː n d a
+enda,V;BANTU17;PRS,k w éː n d a,ɠ ú j eː n d a
+enda,V;BANTU9;RMT;PST,j éː n d a,j éː n d a
+enda,V;IMP;2;PL;LGSPEC3,j é n d eː n i,tʰ a n d a n êː n i
+enda,V;BANTU14;RMT;PST,ɓ êː n d a,ɓ áː v uː l a
+enda,V;1;SG;RCT;PST;PROG,ɓ é n ɡ eː n d a,s í ɓ eː n d a
+enda,V;1;PL;RMT;PST;PROG,s a s éː n d a,s a s éː n d a
+enda,V;1;PL;PRS,s í j eː n d a,s éː n d a
+enda,V;BANTU6;RMT;PST;PROG,a j éː n d a,j a j éː n d a
+enda,V;BANTU11;RCT;PST;PROG,ɓ é l w eː n d a,ɓ é ɓ eː n d a
+enda,V;BANTU8;RCT;PST,z éː n d eː,z éː n d eː
+enda,V;BANTU4;PRS,íː j éː n d a,íː j éː n d a
+enda,V;BANTU6;V.PTCP,êː n d a,éː n d a
+enda,V;BANTU11;RCT;PST,l w éː n d eː,l w é n d iː l é
+enda,V;BANTU9;RMT;PST;PROG,j á j eː n d a,j a j éː n d a
+enda,V;BANTU1;V.PTCP,êː n d a,éː n d a
+khetha,V;BANTU3;PRS,úː kʰ eː tʰ a,ú j a kʰ êː tʰ a
+khetha,V;BANTU4;RCT;PST;PROG,ɓ e j í kʰ eː tʰ a,ɓ e j í kʰ eː tʰ a
+khetha,V;BANTU7;SBJV,s í kʰ eː tʰ e,s í kʰ eː tʰ e
+khetha,V;BANTU5;PRS,l íː kʰ eː tʰ a,l i j a kʰ êː tʰ a
+khetha,V;BANTU10;RCT;PST;PROG,ɓ e z í kʰ eː tʰ a,ɓ e z í kʰ eː tʰ a
+khetha,V;1;PL;RCT;PST,s í kʰ e tʰ íː l e,s í kʰ eː tʰ eː
+khetha,V;BANTU10;FUT,z i z ó kʰ eː tʰ a,z i z ó kʰ eː tʰ a
+khetha,V;BANTU6;RMT;PST,áː kʰ eː tʰ a,a j é kʰ eː tʰ a
+khetha,V;BANTU3;RMT;PST;PROG,w a w ú kʰ eː tʰ a,w a w ú kʰ eː tʰ a
+khetha,V;BANTU14;FUT,ɓ u z ó kʰ eː tʰ a,ɓ u z ó kʰ eː tʰ a
+khetha,V;2;SG;RCT;PST;PROG,ú ɓ e kʰ êː tʰ a,ú ɓ e ǀ eː l a
+khetha,V;2;PL;RCT;PST,n í kʰ e tʰ iː l é,n íː kʰ eː tʰ eː
+khetha,V;BANTU10;RMT;PST;PROG,z a z í kʰ eː tʰ a,k w a ɠ ú kʰ eː tʰ a
+khetha,V;BANTU7;RMT;PST,s áː kʰ eː tʰ a,j áː kʰ eː tʰ a
+khetha,V;IMP;2;PL,kʰ é tʰ aː n i,n íː kʰ eː tʰ a
+khetha,V;BANTU5;RCT;PST;PROG,ɓ e l í kʰ eː tʰ a,l í kʰ eː tʰ eː
+khetha,V;BANTU14;RCT;PST,ɓ ú kʰ e tʰ iː l é,ɓ ú kʰ eː tʰ eː
+khetha,V;1;PL;SBJV,s í kʰ eː tʰ e,s í kʰ eː tʰ e
+khetha,V;1;SG;PRS,n ɡ í kʰ eː tʰ a,n ɡ í kʰ eː tʰ a
+khetha,V;BANTU7;PRS,s í kʰ eː tʰ a,s i j a kʰ êː tʰ a
+khetha,V;BANTU17;RCT;PST,ɠ ú kʰ e tʰ iː l é,ɠ ú kʰ eː tʰ eː
+khetha,V;BANTU5;SBJV,l íː kʰ eː tʰ e,l í kʰ eː tʰ e
+khetha,V;BANTU10;PRS,z i j a kʰ êː tʰ a,z i j a kʰ êː tʰ a
+khetha,V;BANTU10;PRS,z í kʰ eː tʰ a,z i j a kʰ eː tʰ a
+khetha,V;BANTU17;V.PTCP,ɠ ú kʰ eː tʰ a,ɠ ú kʰ eː tʰ a
+khetha,V;BANTU5;RCT;PST,l íː kʰ eː tʰ eː,l íː kʰ eː tʰ eː
+khetha,V;BANTU4;RCT;PST,íː kʰ e tʰ íː l e,íː kʰ eː tʰ éː
+khetha,V;BANTU4;RCT;PST,íː kʰ eː tʰ eː,íː kʰ eː tʰ éː
+khetha,V;2;PL;PRS,n i j a kʰ êː tʰ a,n i j a kʰ êː tʰ a
+khetha,V;BANTU11;RMT;PST,l w áː kʰ eː tʰ a,l w áː kʰ eː tʰ a
+khetha,V;BANTU7;RCT;PST,s í kʰ eː tʰ eː,z í kʰ e tʰ íː l e
+khetha,V;BANTU7;V.PTCP,s í kʰ eː tʰ a,s í kʰ eː tʰ a
+khetha,V;BANTU17;RMT;PST,k w áː kʰ eː tʰ a,k w áː kʰ eː tʰ a
+khetha,V;BANTU8;SBJV,z í kʰ eː tʰ e,z í kʰ eː tʰ e
+khetha,V;BANTU6;RCT;PST,áː kʰ eː tʰ eː,úː kʰ e tʰ íː l e
+khetha,V;BANTU6;RCT;PST;PROG,a ɓ é kʰ eː tʰ a,a kʰ é tʰ iː l e
+khetha,V;BANTU9;SBJV,íː kʰ eː tʰ e,íː kʰ eː tʰ e
+khetha,V;BANTU11;RCT;PST,l ú kʰ e tʰ íː l e,l ú kʰ eː tʰ eː
+khetha,V;BANTU6;FUT,a z ó kʰ eː tʰ a,ú z o kʰ êː tʰ a
+khetha,V;BANTU2;RMT;PST,ɓ áː kʰ eː tʰ a,ɓ áː kʰ eː tʰ a
+gijima,V;BANTU3;PRS,ú j a ɡ í d ʒ iː m a,ú j a ɡ í d ʒ iː m a
+gijima,V;BANTU8;FUT,z i z o ɡ í d ʒ iː m a,z i z o ɡ í d ʒ iː m a
+gijima,V;BANTU4;RCT;PST;PROG,ɓ e j i ɡ í d ʒ iː m a,ɓ e z i ɡ í d ʒ iː m a
+gijima,V;BANTU8;V.PTCP,z i ɡ í d ʒ iː m a,z i ɡ í d ʒ iː m a
+gijima,V;BANTU10;RCT;PST;PROG,ɓ e z i ɡ í d ʒ iː m a,z i ɡ i d ʒ í m eː
+gijima,V;BANTU3;RMT;PST,w aː ɡ i d ʒ íː m a,w aː ɡ i d ʒ íː m a
+gijima,V;2;PL;SBJV,n í ɡ i d ʒ íː m e,ú ɡ i d ʒ íː m e
+gijima,V;BANTU15;RMT;PST;PROG,k w a ɠ u ɡ í d ʒ iː m a,k w aː ɡ i d ʒ iː m a
+gijima,V;2;SG;RCT;PST,ú ɡ i d ʒ í m iː l e,ú ɡ i d ʒ í m eː
+gijima,V;IMP;2;SG,ɡ í d ʒ iː m a,v úː l a
+gijima,V;BANTU1;RCT;PST,ú ɡ i d ʒ í m eː,ú ɡ i d ʒ í m iː l e
+gijima,V;BANTU14;FUT,ɓ u z o ɡ í d ʒ iː m a,ɓ u z o ɡ í d ʒ iː m a
+gijima,V;BANTU8;RMT;PST,z áː ɡ i d ʒ iː m a,ɓ aː ɡ i d ʒ íː m a
+gijima,V;1;PL;FUT,s i z o ɡ í d ʒ iː m a,s í z o ɡ í d ʒ iː m a
+gijima,V;BANTU17;SBJV,k ú ɡ i d ʒ íː m e,k ú ɡ i d ʒ íː m e
+gijima,V;2;PL;RCT;PST,n i ɡ i d ʒ í m iː l e,n í ɡ i d ʒ i m êː
+gijima,V;BANTU3;RCT;PST,ú ɡ i d ʒ í m iː l e,z i ɡ i d ʒ íː m eː
+gijima,V;BANTU3;RCT;PST,ú ɡ i d ʒ í m eː,z i ɡ i d ʒ i m êː
+gijima,V;BANTU8;PRS,z i ɡ í d ʒ iː m a,z íː j a ɡ í d ʒ iː m a
+gijima,V;1;SG;PRS,n ɡ i ɡ í d ʒ iː m a,n ɡ i d ʒ íː m a
+gijima,V;BANTU2;RCT;PST;PROG,ɓ e ɓ e ɡ í d ʒ iː m a,ɓ a ɡ i d ʒ í m iː l e
+gijima,V;BANTU10;PRS,z i j a ɡ í d ʒ iː m a,z i j a ɡ í d ʒ iː m a
+gijima,V;BANTU4;FUT,i z o ɡ í d ʒ iː m a,íː z o ɡ í d ʒ iː m a
+gijima,V;2;PL;RMT;PST,n áː ɡ i d ʒ iː m a,w aː ɡ i d ʒ íː m a
+gijima,V;BANTU5;RCT;PST,l i ɡ i d ʒ í m iː l e,l i ɡ i d ʒ í m iː l e
+gijima,V;BANTU14;RCT;PST;PROG,ɓ e ɓ u ɡ í d ʒ iː m a,ɓ e ɓ u ɡ í d ʒ iː m a
+gijima,V;BANTU15;PRS,k ú j a ɡ i d ʒ íː m a,k ú ɡ i d ʒ íː m a
+gijima,V;1;PL;RMT;PST;PROG,s a s i ɡ í d ʒ iː m a,n a n i ɡ í d ʒ iː m a
+gijima,V;2;PL;PRS,n i ɡ í d ʒ iː m a,n i j a ɡ í d ʒ iː m a
+gijima,V;BANTU2;V.PTCP,ɓ e ɡ í d ʒ iː m a,ɓ a ɡ i d ʒ íː m a
+gijima,V;BANTU6;RCT;PST,a ɡ i d ʒ í m eː,a j a ɡ í d ʒ i m eː
+gijima,V;BANTU6;RCT;PST;PROG,a ɓ e ɡ í d ʒ iː m a,a ɓ e ɡ í d ʒ iː m a
+gijima,V;BANTU11;RCT;PST,l ú ɡ i d ʒ i m íː l e,l ú ɡ i d ʒ i m êː
+gijima,V;BANTU4;RMT;PST;PROG,j a j i ɡ í d ʒ iː m a,j a j a ɡ í d ʒ iː m a
+gijima,V;BANTU9;RMT;PST;PROG,j a j i ɡ í d ʒ iː m a,j a j i ɡ í d ʒ iː m a
+fika,V;BANTU8;FUT,z i z ó f iː ɠ a,z i z o f íː ɠ a
+fika,V;1;PL;RCT;PST;PROG,s i ɓ e f íː ɠ a,s i ɓ e f íː ɠ a
+fika,V;BANTU15;RMT;PST;PROG,k w a ɠ ú f iː ɠ a,j a j í f iː ɠ a
+fika,V;2;SG;RCT;PST,ú f i ɠ íː l e,ú f iː ɠ êː
+fika,V;BANTU11;SBJV,l ú f iː ɠ é,l ú f iː ɠ é
+fika,V;2;SG;RCT;PST;PROG,ú ɓ e f íː ɠ a,ɓ e z i f íː ɠ a
+fika,V;2;SG;V.PTCP,ú f íː ɠ a,ú f iː ɠ a
+fika,V;BANTU2;RCT;PST,ɓ a f í ɠ iː l e,ɠ u f í ɠ iː l e
+fika,V;2;SG;PRS,ú j a f íː ɠ a,ú j a f íː ɠ a
+fika,V;BANTU14;RCT;PST,ɓ ú f iː ɠ eː,ɓ ú f iː ɠ êː
+fika,V;BANTU10;V.PTCP,z í f iː ɠ a,z í f iː ɠ a
+fika,V;1;SG;PRS,n ɡ i j a f íː ɠ a,n ɡ i f íː ɠ a
+fika,V;BANTU17;RMT;PST;PROG,k w a ɠ ú f iː ɠ a,j a j i f íː ɠ a
+fika,V;BANTU10;PRS,z í f iː ɠ a,z i j a f íː ɠ a
+fika,V;BANTU2;FUT,ɓ a z o f íː ɠ a,ɓ a z o f íː ɠ a
+fika,V;2;PL;RMT;PST;PROG,n a n í f iː ɠ a,s a s í f iː ɠ a
+fika,V;BANTU5;FUT,l i z ó f iː ɠ a,l i z o f iː ɠ a
+fika,V;BANTU5;RMT;PST;PROG,l a l í f iː ɠ a,j a j í f iː ɠ a
+fika,V;1;SG;V.PTCP,n ɡ i f íː ɠ a,n ɡ i f íː ɠ a
+fika,V;BANTU9;PRS,íː j a f íː ɠ a,íː j a f íː ɠ a
+fika,V;BANTU14;PRS,ɓ u j a f íː ɠ a,ɓ u j a f íː ɠ a
+fika,V;2;PL;RCT;PST;PROG,n i ɓ é f iː ɠ a,n í f iː ɠ êː
+fika,V;BANTU11;PRS,l ú j a f íː ɠ a,l ú j a f íː ɠ a
+fika,V;BANTU2;RMT;PST;PROG,ɓ a ɓ e f íː ɠ a,j a j i f íː ɠ a
+fika,V;BANTU5;RCT;PST,l í f iː ɠ êː,z í f iː ɠ êː
+fika,V;BANTU4;RCT;PST,í f iː ɠ êː,ɠ u f í ɠ iː l é
+fika,V;BANTU2;V.PTCP,ɓ é f iː ɠ a,ɓ a f íː ɠ a
+fika,V;BANTU7;V.PTCP,s í f iː ɠ a,é f iː ɠ a
+fika,V;BANTU17;RMT;PST,k w áː f iː ɠ a,z áː f iː ɠ a
+fika,V;BANTU6;RCT;PST,a f íː ɠ eː,a f íː ɠ eː
+fika,V;BANTU11;RMT;PST;PROG,l w a l ú f iː ɠ a,j a j i f íː ɠ a
+fika,V;1;SG;FUT,n ɡ i z o f íː ɠ a,n ɡ i f íː ɠ a
+fika,V;BANTU4;PRS,íː f íː ɠ a,íː j a f íː ɠ a
+fika,V;BANTU11;RCT;PST,l ú f i ɠ íː l e,l ú f iː ɠ êː
+enza,V;BANTU3;PRS,ú j éː n z a,z i j éː n z a
+enza,V;BANTU10;RCT;PST,z é n z iː l e,z éː n z eː
+enza,V;BANTU6;PRS,éː n z a,a j éː n z a
+enza,V;1;SG;RCT;PST,n ɡ e n z íː l e,s éː n z eː
+enza,V;BANTU8;FUT,z i z o ɠ w éː n z a,z i z o ɠ w éː n z a
+enza,V;BANTU7;SBJV,s éː n z e,s éː n z e
+enza,V;BANTU10;RCT;PST;PROG,ɓ e z éː n z a,z éː n z eː
+enza,V;BANTU15;SBJV,ɠ w éː n z e,k w éː n z e
+enza,V;IMP;2;SG;LGSPEC3,j éː n z e,ᶢǃʱ óː ɠ e
+enza,V;2;PL;SBJV,n éː n z e,s éː n z e
+enza,V;BANTU15;FUT,ɠ ú z o ɠ w éː n z a,ɠ ú z o ɠ w éː n z a
+enza,V;BANTU5;V.PTCP,l éː n z a,ɠ w éː n z a
+enza,V;BANTU8;RMT;PST,z éː n z a,z a z éː n z a
+enza,V;BANTU8;RCT;PST;PROG,ɓ e z éː n z a,z é n z iː l é
+enza,V;2;PL;RCT;PST,n é n z iː l e,n éː n z eː
+enza,V;2;PL;RCT;PST,n éː n z eː,s éː n z eː
+enza,V;BANTU1;SBJV,éː n z e,éː n z e
+enza,V;BANTU3;RCT;PST,w éː n z eː,w é n z iː l e
+enza,V;BANTU1;RMT;PST;PROG,w a j éː n z a,w á j eː n z a
+enza,V;BANTU7;RMT;PST;PROG,s a s éː n z a,z a z éː n z a
+enza,V;2;SG;PRS,ú j éː n z a,w éː n z a
+enza,V;BANTU14;RCT;PST,ɓ éː n z eː,ɓ éː n z eː
+enza,V;BANTU8;PRS,z éː n z a,z i j éː n z a
+enza,V;1;SG;PRS,n ɡ éː n z a,n ɡ êː n z a
+enza,V;BANTU10;PRS,z i j éː n z a,z i j éː n z a
+enza,V;2;PL;RMT;PST;PROG,n a n éː n z a,n a n í ǃ aː l a
+enza,V;BANTU5;FUT,l i z o ɠ w éː n z a,l i z o ɠ w éː n z a
+enza,V;BANTU17;RCT;PST;PROG,ɓ e ɠ w éː n z a,ɓ e j éː n z a
+enza,V;1;SG;RMT;PST,n ɡ éː n z a,n ɡ âː ɲ a
+enza,V;BANTU14;RMT;PST;PROG,ɓ a ɓ éː n z a,z a z éː n z a
+enza,V;BANTU9;V.PTCP,éː n z a,éː n z a
+enza,V;BANTU6;SBJV,éː n z e,éː n z e
+enza,V;BANTU17;PRS,ɠ w éː n z a,ɠ w éː n z a
+enza,V;BANTU7;RCT;PST;PROG,ɓ e s éː n z a,ú ɓ eː n z a
+enza,V;1;SG;RCT;PST;PROG,ɓ e n ɡ êː n z a,n ɡ éː n z eː
+enza,V;2;PL;PRS,n í j eː n z a,n í j eː n z a
+enza,V;BANTU6;RCT;PST,é n z iː l é,z éː n z eː
+enza,V;BANTU1;RCT;PST;PROG,ú ɓ eː n z á,ɓ e ɓ êː n z a
+enza,V;BANTU1;PRS,w éː n z a,z i j éː n z a
+enza,V;BANTU11;RCT;PST,l w é n z iː l e,l w éː n z eː
+enza,V;BANTU11;V.PTCP,l éː n z a,l w éː n z a
+enza,V;BANTU14;SBJV,ɓ êː n z e,ɓ éː n z e
+enza,V;BANTU9;RMT;PST;PROG,j a j éː n z a,j a j éː n z a
+enza,V;BANTU1;V.PTCP,éː n z a,éː n z a
+munya,V;2;SG;SBJV,ú m uː ɲ é,ú m uː ɲ e
+munya,V;BANTU6;PRS,a j a m úː ɲ a,a j a m ûː ɲ a
+munya,V;BANTU8;FUT,z i z ó m uː ɲ a,z i z ó m uː ɲ a
+munya,V;BANTU4;RMT;PST,j áː m uː ɲ a,j áː m uː ɲ a
+munya,V;BANTU11;FUT,l ú z o m uː ɲ a,l ú z o m uː ɲ a
+munya,V;BANTU3;RMT;PST,w áː m uː ɲ a,w áː m uː ɲ a
+munya,V;BANTU15;SBJV,ɠ ú m uː ɲ e,ɠ ú m uː ɲ e
+munya,V;IMP;2;SG;LGSPEC3,m úː ɲ e,m ú ɲ eː n i
+munya,V;2;PL;SBJV,n í m uː ɲ e,ú m uː ɲ e
+munya,V;2;SG;RCT;PST,ú m u ɲ êː,ú m u ɲ íː l e
+munya,V;BANTU11;SBJV,l ú m uː ɲ e,l ú m uː ɲ e
+munya,V;BANTU14;V.PTCP,ɓ ú m uː ɲ a,ɓ ú m uː ɲ a
+munya,V;2;SG;RCT;PST;PROG,ú ɓ e m ûː ɲ a,ú ɓ e m ûː ɲ a
+munya,V;BANTU7;RMT;PST,s áː m uː ɲ a,l áː m uː ɲ a
+munya,V;BANTU1;SBJV,a m úː ɲ e,z í m uː ɲ e
+munya,V;BANTU3;RCT;PST,ú m u ɲ êː,ú m u ɲ íː l e
+munya,V;BANTU15;RCT;PST,ɠ ú m u ɲ eː,ɠ ú m u ɲ iː l e
+munya,V;BANTU1;FUT,ú z o m uː ɲ a,ú z o m ûː ɲ a
+munya,V;IMP;2;PL,m ú ɲ aː n i,n í m uː ɲ a
+munya,V;BANTU2;RCT;PST,ɓ a m úː ɲ eː,ɓ á m uː ɲ eː
+munya,V;2;SG;PRS,ú j a m ûː ɲ a,ú m uː ɲ á
+munya,V;BANTU14;RCT;PST,ɓ u m ú ɲ iː l e,ɓ ú m uː ɲ eː
+munya,V;1;PL;SBJV,s í m uː ɲ e,n ɡ i m ûː ɲ e
+munya,V;BANTU7;PRS,s í m uː ɲ a,s i j a m ûː ɲ a
+munya,V;BANTU17;RCT;PST,ɠ u m ú ɲ iː l e,ɠ ú m u ɲ eː
+munya,V;BANTU5;RMT;PST;PROG,l a l í m uː ɲ a,l a l í m uː ɲ a
+munya,V;BANTU9;RCT;PST;PROG,ɓ e j í m uː ɲ a,ɓ e j í m uː ɲ a
+munya,V;BANTU9;PRS,íː j a m ûː ɲ a,íː j a m ûː ɲ a
+munya,V;2;PL;RCT;PST;PROG,n í ɓ e m uː ɲ a,n í m u ɲ iː l é
+munya,V;BANTU10;RMT;PST,z áː m uː ɲ a,ɓ áː m uː ɲ a
+munya,V;BANTU6;SBJV,a m úː ɲ e,íː m uː ɲ e
+munya,V;BANTU11;PRS,l ú j a m uː ɲ a,l ú j a m ûː ɲ a
+munya,V;BANTU2;RMT;PST;PROG,ɓ a ɓ é m uː ɲ a,z a z í m uː ɲ a
+munya,V;1;PL;RMT;PST,s áː m uː ɲ a,s áː m uː ɲ a
+munya,V;BANTU9;RMT;PST,j áː m uː ɲ a,k w áː m uː ɲ a
+munya,V;BANTU2;V.PTCP,ɓ é m uː ɲ a,ɓ á m uː ɲ a
+munya,V;BANTU7;RCT;PST,s i m ú ɲ iː l e,s í m uː ɲ eː
+munya,V;BANTU8;SBJV,z í m uː ɲ e,z í m uː ɲ e
+munya,V;1;PL;PRS,s i j a m ûː ɲ a,s i j a m ûː ɲ a
+munya,V;1;PL;PRS,s í m uː ɲ a,s í m uː ɲ a
+munya,V;BANTU6;RCT;PST,a m ú ɲ iː l e,a m ú ɲ eː
+munya,V;BANTU2;PRS,ɓ a j a m ûː ɲ a,ɓ a j a m ûː ɲ a
+munya,V;BANTU15;RMT;PST,k w áː m uː ɲ a,k w áː m uː ɲ a
+munya,V;BANTU9;RCT;PST,í m u ɲ íː l e,z í m uː ɲ eː
+munya,V;BANTU9;RCT;PST,í m u ɲ eː,z í m uː ɲ eː
+munya,V;BANTU1;V.PTCP,é m uː ɲ a,ú m uː ɲ a
+cabanga,V;BANTU10;RCT;PST,z i ǀ a ɓ a n ɡ íː l e,z íː ǀ a ɓ aː n ɡ eː
+cabanga,V;BANTU6;PRS,aː ǀ a ɓ âː n ɡ a,a j a ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU1;RMT;PST,w áː ǀ a ɓ aː n ɡ a,w áː ǀ a ɓ aː n ɡ a
+cabanga,V;1;SG;RCT;PST,n ɡ i ǀ a ɓ a n ɡ íː l e,ɓ e n ɡ i ǀ a ɓ âː n ɡ a
+cabanga,V;1;SG;RCT;PST,n ɡ i ǀ a ɓ áː n ɡ eː,s íː ǀ a ɓ aː n ɡ eː
+cabanga,V;BANTU8;FUT,z i z óː ǀ a ɓ aː n ɡ a,z i z óː ǀ a ɓ aː n ɡ a
+cabanga,V;BANTU5;PRS,l íː ǀ a ɓ aː n ɡ a,l i ǀ a ɓ aː n ɡ a
+cabanga,V;1;PL;RCT;PST,s i ǀ a ɓ a n ɡ íː l e,s íː ǀ a ɓ aː n ɡ eː
+cabanga,V;BANTU10;FUT,z i z óː ǀ a ɓ aː n ɡ a,ú z o ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU6;RMT;PST,áː ǀ a ɓ aː n ɡ a,j áː ǀ a ɓ aː n ɡ a
+cabanga,V;2;SG;RMT;PST;PROG,w a w ú ǀ a ɓ aː n ɡ a,w a w ú ǀ a ɓ aː n ɡ a
+cabanga,V;BANTU4;SBJV,íː ǀ a ɓ âː n ɡ e,íː ǀ a ɓ âː n ɡ e
+cabanga,V;IMP;2;PL,ǁ a ɓ a n ɡ âː n i,j á ɓ aː n i
+cabanga,V;BANTU8;PRS,z íː ǀ a ɓ âː n ɡ a,z i j a ǀ a ɓ aː n ɡ a
+cabanga,V;1;PL;SBJV,s íː ǀ a ɓ aː n ɡ e,s íː ǀ a ɓ aː n ɡ e
+cabanga,V;1;SG;PRS,n ɡ i ǀ a ɓ âː n ɡ a,n ɡ i j áː ǀ a ɓ aː n ɡ a
+cabanga,V;BANTU7;PRS,s i j a ǀ a ɓ âː n ɡ a,s i j a ǀ a ɓ aː n ɡ a
+cabanga,V;BANTU10;PRS,z íː ǀ a ɓ âː n ɡ a,z i j a ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU2;FUT,ɓ a z o ǃ a ɓ âː n ɡ a,ú z o ǀ a ɓ aː n ɡ a
+cabanga,V;BANTU5;FUT,l i z ó ǀ a ɓ aː n ɡ a,l íː ǀ a ɓ aː n ɡ a
+cabanga,V;BANTU14;PRS,ɓ úː ǀ a ɓ aː n ɡ a,ɓ ú j a ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU10;RMT;PST,z áː ǀ a ɓ aː n ɡ a,k w aː ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU9;V.PTCP,íː ǀ a ɓ âː n ɡ a,íː ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU17;PRS,ɠ ú j a ǀ a ɓ aː n ɡ a,ɠ ú ǀ a ɓ âː n ɡ a
+cabanga,V;1;PL;RMT;PST;PROG,s a s í ǀ a ɓ aː n ɡ a,n ɡ a n ɡ i ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU7;RCT;PST,s i ǀ a ɓ a n ɡ íː l e,s íː ǀ a ɓ aː n ɡ eː
+cabanga,V;BANTU8;SBJV,z íː ǀ a ɓ âː n ɡ e,z íː ǀ a ɓ aː n ɡ e
+cabanga,V;1;PL;PRS,s i j a ǀ a ɓ âː n ɡ a,s i j a ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU6;RMT;PST;PROG,a j e ǀ a ɓ âː n ɡ a,z a z i ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU6;RCT;PST,áː ǀ a ɓ aː n ɡ eː,aː ǀ a ɓ aː n ɡ eː
+cabanga,V;BANTU2;PRS,ɓ áː ǀ a ɓ aː n ɡ a,ɓ a j a ǀ a ɓ âː n ɡ a
+cabanga,V;BANTU9;RCT;PST,íː ǀ a ɓ a n ɡ íː l e,íː ǀ a ɓ aː n ɡ eː
+cabanga,V;BANTU11;RCT;PST;PROG,ɓ e l ú ǀ a ɓ aː n ɡ a,l ú ǀ a ɓ aː n ɡ eː
+cabanga,V;BANTU2;RMT;PST,ɓ áː ǀ a ɓ aː n ɡ a,k w aː ǀ a ɓ aː n ɡ a
+cabanga,V;BANTU4;RMT;PST;PROG,j a j íː ǀ a ɓ aː n ɡ a,j a j a ǀ a ɓ aː n ɡ a
+cabanga,V;BANTU9;FUT,íː z o ǀ a ɓ aː n ɡ a,íː z o ǀ a ɓ âː n ɡ a
+ya,V;1;SG;RCT;PST,n ɡ í j eː,úː j eː
+ya,V;BANTU10;SBJV,z íː j e,z íː j e
+ya,V;IMP;2;SG,j íː j a,j í j aː n i
+ya,V;BANTU11;SBJV,l úː j e,îː j e
+ya,V;2;SG;RCT;PST;PROG,úː ɓ eː j á,úː j eː
+ya,V;BANTU1;SBJV,áː j e,s íː j e
+ya,V;BANTU8;PRS,z í j aː j a,z í j aː j a
+ya,V;2;PL;FUT,n í z o ɠ uː j á,n í z o ɠ uː j a
+ya,V;BANTU3;FUT,ú z o ɠ úː j a,ú z o ɠ úː j a
+ya,V;2;PL;V.PTCP,n íː j a,n íː j a
+ya,V;BANTU2;RCT;PST;PROG,ɓ é ɓ eː j a,ɓ á ɓ eː j a
+ya,V;BANTU2;SBJV,ɓ áː j e,îː j e
+ya,V;BANTU10;PRS,z í j aː j a,z i j a
+ya,V;BANTU10;PRS,z íː j a,z í j aː j a
+ya,V;BANTU5;RMT;PST;PROG,l áː l i j a,l áː j a
+ya,V;1;SG;RMT;PST,n ɡ âː j a,s áː j a
+ya,V;BANTU17;V.PTCP,ɠ úː j a,ɠ úː j a
+ya,V;BANTU4;V.PTCP,îː j a,êː j a
+ya,V;BANTU6;SBJV,áː j e,z íː j e
+ya,V;BANTU11;PRS,l úː j a,l ú j aː j a
+ya,V;BANTU17;PRS,ɠ ú j aː j a,ɠ ú j aː j a
+ya,V;BANTU17;PRS,ɠ úː j a,ɠ úː j a
+ya,V;IMP;2;PL;LGSPEC3,j í j eː n i,pʰ ú m eː n i
+ya,V;2;PL;PRS,n íː j a,s í j aː j a
+ya,V;BANTU7;RCT;PST,s í j eː,s í j iː l é
+ya,V;BANTU17;RMT;PST,k w áː j a,k w áː j a
+ya,V;BANTU6;RCT;PST,áː j eː,á j iː l é
+ya,V;BANTU11;RMT;PST;PROG,l w a l úː j a,l w áː j a
+ya,V;BANTU1;RCT;PST;PROG,úː ɓ eː j á,ɓ éː z iː j a
+ya,V;BANTU6;FUT,a z o ɠ úː j a,a z o ɠ úː j a
+ya,V;BANTU11;V.PTCP,l úː j a,êː j a
+khala,V;1;SG;RCT;PST,n ɡ i kʰ áː l eː,n ɡ i kʰ á l iː l e
+khala,V;BANTU11;FUT,l ú z o kʰ aː l a,l ú z o kʰ aː l a
+khala,V;BANTU8;V.PTCP,z í kʰ aː l a,z íː kʰ aː l a
+khala,V;BANTU10;RCT;PST;PROG,ɓ e z í kʰ aː l a,ɓ e z í kʰ aː l a
+khala,V;BANTU5;RMT;PST,l áː kʰ aː l a,l áː kʰ aː l a
+khala,V;BANTU17;SBJV,ɠ ú kʰ aː l e,ɠ ú kʰ aː l e
+khala,V;2;PL;RCT;PST,n íː kʰ aː l eː,n íː kʰ aː l eː
+khala,V;BANTU10;RMT;PST;PROG,z a z í kʰ aː l a,j a j í kʰ aː l a
+khala,V;BANTU7;RMT;PST,s áː kʰ aː l a,s áː kʰ aː l a
+khala,V;BANTU3;RCT;PST,úː kʰ aː l êː,ú kʰ a l íː l e
+khala,V;BANTU15;RCT;PST,ɠ ú kʰ aː l eː,ú kʰ a l íː l e
+khala,V;BANTU5;RCT;PST;PROG,ɓ e l í kʰ aː l a,ɓ e l í kʰ aː l a
+khala,V;BANTU2;RCT;PST,ɓ a kʰ a l íː l e,ɓ á kʰ aː l eː
+khala,V;2;SG;PRS,úː kʰ áː l a,úː kʰ aː l a
+khala,V;BANTU14;RCT;PST,ɓ ú kʰ a l iː l é,ɓ ú kʰ aː l eː
+khala,V;BANTU17;RMT;PST;PROG,k w a ɠ ú kʰ aː l a,k w a ɠ ú kʰ aː l a
+khala,V;BANTU9;RCT;PST;PROG,ɓ e j í kʰ aː l a,ɓ e j í kʰ aː l a
+khala,V;BANTU10;RMT;PST,z áː kʰ aː l a,z áː kʰ aː l a
+khala,V;BANTU11;PRS,l ú kʰ aː l a,l ú j a kʰ áː l a
+khala,V;BANTU17;PRS,ɠ ú kʰ aː l a,ɠ ú kʰ aː l a
+khala,V;IMP;2;PL;LGSPEC3,kʰ á l eː n i,kʰ á l eː n i
+khala,V;BANTU15;PRS,ɠ ú j a kʰ aː l a,ɠ ú j a kʰ áː l a
+khala,V;1;PL;RMT;PST;PROG,s a s í kʰ aː l a,s a s í kʰ aː l a
+khala,V;1;SG;SBJV,n ɡ í kʰ aː l e,n ɡ í kʰ aː l a
+khala,V;BANTU15;RMT;PST,k w aː kʰ áː l a,w áː kʰ aː l a
+khala,V;BANTU9;RCT;PST,íː kʰ aː l eː,íː kʰ aː l eː
+khala,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ i kʰ âː l a,n ɡ aː kʰ áː l a
+khala,V;BANTU6;RCT;PST;PROG,a ɓ é kʰ aː l a,ɓ e w ú kʰ aː l a
+khala,V;BANTU9;SBJV,íː kʰ aː l e,íː kʰ aː l é
+khala,V;BANTU6;V.PTCP,êː kʰ aː l a,a j a kʰ áː l a
+khala,V;BANTU11;RCT;PST,l ú kʰ a l íː l e,l ú kʰ aː l eː
+khala,V;BANTU2;RMT;PST,ɓ áː kʰ aː l a,ɓ a ɓ é kʰ aː l a
+khala,V;BANTU4;RMT;PST;PROG,j a j í kʰ aː l a,z a z í kʰ aː l a
+ndiza,V;BANTU10;RCT;PST,z í n d iː z eː,z í n d íː z eː
+ndiza,V;BANTU4;RCT;PST;PROG,ɓ e j í n d iː z a,ɓ e j í n d iː z a
+ndiza,V;BANTU5;PRS,l í n d iː z a,l i j a n d íː z a
+ndiza,V;IMP;2;SG;LGSPEC3,ᵑd íː z e,j íː j a n d íː z a
+ndiza,V;1;PL;RCT;PST,s i n d í z iː l e,s í n d i z íː l e
+ndiza,V;BANTU15;RMT;PST;PROG,k w a ɠ ú n d iː z a,z a z i n d íː z a
+ndiza,V;2;SG;RCT;PST,ú n d iː z êː,ú n d i z íː l e
+ndiza,V;BANTU3;RMT;PST;PROG,w a w ú n d iː z a,w a w ú n d íː z a
+ndiza,V;BANTU1;RCT;PST,ú n d i z íː l e,z í n d iː z eː
+ndiza,V;BANTU1;RCT;PST,ú n d iː z êː,ú j a n d íː z eː
+ndiza,V;BANTU14;FUT,ɓ ú z o n d iː z a,ɓ ú z o n d íː z a
+ndiza,V;1;PL;FUT,s i z o n d íː z a,s í z o n d íː z a
+ndiza,V;BANTU11;SBJV,l ú n d iː z e,l ú n d iː z é
+ndiza,V;2;SG;RCT;PST;PROG,ú ɓ e n d íː z a,n i ɓ e n d íː z a
+ndiza,V;BANTU15;RCT;PST,ɠ ú n d i z iː l é,ɠ ú n d íː z eː
+ndiza,V;BANTU15;RCT;PST,ɠ ú n d iː z eː,ɠ ú n d iː z eː
+ndiza,V;BANTU4;SBJV,í n d iː z é,í n d íː z e
+ndiza,V;2;SG;PRS,ú j a n d íː z a,ú n d íː z a
+ndiza,V;BANTU8;PRS,z i j a n d íː z a,z i j a n d íː z a
+ndiza,V;2;PL;V.PTCP,n í n d iː z a,n í n d iː z a
+ndiza,V;BANTU2;SBJV,ɓ á n d iː z e,ɓ a n d iː z e
+ndiza,V;BANTU17;RCT;PST,ɠ ú n d iː z eː,ɠ ú n d i z iː l é
+ndiza,V;BANTU5;SBJV,l í n d iː z é,í n d iː z é
+ndiza,V;2;PL;RMT;PST;PROG,n a n í n d iː z a,n i ɓ e n d íː z a
+ndiza,V;BANTU5;FUT,l i z o n d íː z a,l i z o n d íː z a
+ndiza,V;BANTU5;RMT;PST;PROG,l a l í n d iː z a,l a l í n d íː z a
+ndiza,V;BANTU9;PRS,í n d íː z a,ú j a n d íː z a
+ndiza,V;BANTU14;RMT;PST;PROG,ɓ a ɓ ú n d iː z a,z a z i n d iː z a
+ndiza,V;BANTU11;PRS,l ú j a n d iː z a,l ú j a n d íː z a
+ndiza,V;BANTU17;PRS,ɠ ú n d iː z a,ɠ u j a n d íː z a
+ndiza,V;IMP;2;PL;LGSPEC3,ᵑd í z eː n i,l í n d eː n i
+ndiza,V;BANTU5;RCT;PST,l i n d í z iː l e,l é n d iː z eː
+ndiza,V;2;PL;PRS,n i j á n d iː z a,n í n d iː z a
+ndiza,V;BANTU11;RMT;PST,l w áː n d iː z a,z áː n d iː z a
+ndiza,V;1;PL;PRS,s i j á n d iː z a,s í n d íː z a
+ndiza,V;1;PL;PRS,s í n d iː z a,s i j a n d íː z a
+ndiza,V;BANTU6;RCT;PST,a n d íː z eː,a ɓ e n d íː z a
+ndiza,V;1;SG;SBJV,n ɡ i n d íː z e,ú n d íː z e
+ndiza,V;BANTU9;RCT;PST,í n d iː z eː,í n d i z íː l e
+ndiza,V;1;SG;FUT,n ɡ i z o n d íː z a,s i z o n d iː z a
+ndiza,V;BANTU7;FUT,s i z o n d íː z a,s i z o n d iː z a
+ndiza,V;BANTU1;RCT;PST;PROG,ú ɓ e n d íː z a,ɓ e z i n d íː z a
+ndiza,V;BANTU9;RMT;PST;PROG,j a j í n d iː z a,j a j í n d íː z a
+baza,V;BANTU10;RCT;PST,z í ɓ aː z eː,z í ɓ aː z eː
+baza,V;BANTU6;PRS,a j a ɓ âː z a,a ɓ áː z a
+baza,V;1;PL;RCT;PST;PROG,s i ɓ é ɓ aː z a,s i ɓ e ɓ âː z a
+baza,V;BANTU8;V.PTCP,z í ɓ aː z a,z í ɓ aː z a
+baza,V;BANTU5;PRS,l i j a ɓ âː z a,l i j a ɓ âː z a
+baza,V;BANTU10;SBJV,z í ɓ aː z e,z í ɓ aː z e
+baza,V;BANTU10;FUT,z i z ó ɓ aː z a,z i z o ɓ aː z a
+baza,V;1;PL;V.PTCP,s í ɓ aː z a,s í ɓ aː z a
+baza,V;2;PL;SBJV,n í ɓ aː z e,n í ɓ aː z e
+baza,V;BANTU8;RMT;PST;PROG,z a z i ɓ âː z a,z a z í ɓ aː z a
+baza,V;BANTU5;V.PTCP,l í ɓ aː z a,l í ɓ aː z a
+baza,V;BANTU1;RCT;PST,ú ɓ aː z eː,z i ɓ á z iː l e
+baza,V;BANTU3;RCT;PST;PROG,ɓ e w ú ɓ aː z a,ɓ e w ú ɓ aː z a
+baza,V;BANTU7;RMT;PST,s áː ɓ aː z a,z áː ɓ aː z a
+baza,V;2;SG;V.PTCP,ú ɓ aː z a,ú ɓ aː z a
+baza,V;BANTU3;RCT;PST,ú ɓ a z íː l e,ú ɓ aː z eː
+baza,V;BANTU3;V.PTCP,ú ɓ aː z a,é ɓ aː z a
+baza,V;BANTU4;SBJV,íː ɓ aː z e,íː ɓ aː z a
+baza,V;BANTU1;RMT;PST;PROG,w a j e ɓ âː z a,w a j e ɓ âː z a
+baza,V;BANTU2;RCT;PST,ɓ a ɓ a z íː l e,ɓ áː z eː
+baza,V;BANTU2;RCT;PST,ɓ a ɓ áː z eː,ɓ á ɓ aː z eː
+baza,V;2;PL;FUT,n í z o ɓ aː z a,n i z ó ɓ aː z a
+baza,V;1;SG;PRS,n ɡ i j a ɓ âː z a,n ɡ i ɓ âː z a
+baza,V;BANTU7;PRS,s í ɓ aː z a,s i j a ɓ âː z a
+baza,V;BANTU9;PRS,íː ɓ aː z a,íː ɓ aː z a
+baza,V;2;PL;RCT;PST;PROG,n í ɓ e ɓ aː z a,n í ɓ a z iː l e
+baza,V;BANTU9;V.PTCP,íː ɓ aː z a,ɠ ú ɓ aː z a
+baza,V;BANTU17;PRS,ɠ ú ɓ aː z a,ɠ ú j a ɓ âː z a
+baza,V;IMP;2;PL;LGSPEC3,ɓ á z eː n i,ɓ á z aː n i
+baza,V;BANTU15;PRS,ɠ ú j a ɓ aː z a,ɠ ú j a ɓ âː z a
+baza,V;2;PL;PRS,n í j a ɓ aː z a,n i j a ɓ âː z a
+baza,V;2;PL;PRS,n í ɓ aː z a,n i j a ɓ âː z a
+baza,V;BANTU17;RMT;PST,k w aː ɓ âː z a,j áː ɓ aː z a
+baza,V;BANTU11;RMT;PST;PROG,l w a l u ɓ âː z a,z a z i ɓ âː z a
+baza,V;BANTU9;RCT;PST,íː ɓ aː z eː,íː ɓ a z íː l e
+baza,V;BANTU11;RCT;PST;PROG,ɓ e l ú ɓ aː z a,l ú ɓ aː z eː
+baza,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ i ɓ âː z a,n ɡ aː ɓ âː z a
+baza,V;BANTU6;V.PTCP,é ɓ aː z a,é ɓ aː z a
+baza,V;BANTU2;RMT;PST,ɓ áː ɓ aː z a,ɓ áː ɓ aː z a
+baza,V;BANTU9;FUT,íː z o ɓ aː z a,íː z o ɓ âː z a
+imba,V;BANTU3;PRS,ú j eː m b a,úː m b a
+imba,V;BANTU15;RCT;PST;PROG,ɓ é ɠ uː m b a,ɠ ú ɓ eː m b a
+imba,V;BANTU10;RCT;PST,z í m b eː,z íː m b eː
+imba,V;1;PL;RCT;PST;PROG,s í ɓ eː m b a,s i ɓ é ɓ oː n ɡ a
+imba,V;BANTU5;PRS,l íː m b a,l í j eː m b a
+imba,V;BANTU10;RCT;PST;PROG,ɓ é z iː m b a,z í ɓ eː m b a
+imba,V;2;PL;SBJV,n íː m b e,n íː m b e
+imba,V;BANTU8;RMT;PST;PROG,z á z iː m b a,z áː m b a
+imba,V;BANTU10;RMT;PST;PROG,z á z iː m b a,z á z iː m b a
+imba,V;BANTU7;RMT;PST,s áː m b a,w áː m b a
+imba,V;2;SG;FUT,ú z o ɠ uː m b a,ú z o ɠ uː m b a
+imba,V;BANTU15;RCT;PST,ɠ ú m̩ b eː,ɠ ú m̩ b iː l é
+imba,V;BANTU5;RCT;PST;PROG,ɓ é l iː m b a,ɓ é j iː m b a
+imba,V;BANTU14;RCT;PST,ɓ ú m b iː l é,í m b íː l e
+imba,V;BANTU8;PRS,z íː m b a,z í j eː m b a
+imba,V;BANTU17;RCT;PST,ɠ ú m̩ b iː l é,í m b íː l e
+imba,V;BANTU17;RCT;PST,ɠ ú m̩ b eː,ú m̩ b êː
+imba,V;BANTU5;SBJV,l íː m b e,l íː m b e
+imba,V;2;PL;RMT;PST;PROG,n á n iː m b a,n a n í tʰ eː l a
+imba,V;BANTU14;PRS,ɓ ú j eː m b a,ɓ ú j eː m b a
+imba,V;BANTU17;V.PTCP,ɠ úː m b a,ɠ úː m b a
+imba,V;BANTU3;SBJV,úː m b e,úː m b e
+imba,V;BANTU4;V.PTCP,íː m b a,íː m b a
+imba,V;BANTU6;SBJV,éː m b e,éː m b e
+imba,V;BANTU2;RMT;PST;PROG,ɓ a ɓ éː m b a,k w a ɠ ûː m b a
+imba,V;BANTU14;RCT;PST;PROG,ɓ é ɓ uː m b a,ɓ é j iː m b a
+imba,V;BANTU7;V.PTCP,s íː m b a,s íː m b a
+imba,V;BANTU15;V.PTCP,ɠ úː m b a,ɠ úː m b a
+imba,V;1;SG;SBJV,ᵑɡ íː m b e,ᵑɡ íː m b e
+imba,V;BANTU15;RMT;PST,k w áː m b a,k w áː m b a
+imba,V;BANTU9;RCT;PST,í m b eː,íː m b eː
+imba,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ íː m b a,s á s iː m b a
+imba,V;BANTU6;RCT;PST;PROG,á ɓ eː m b a,ú m̩ b êː
+imba,V;BANTU6;V.PTCP,éː m b a,éː m b a
+imba,V;BANTU11;RCT;PST,l ú m̩ b eː,ɓ é l uː m b a
+imba,V;BANTU9;FUT,íː z o ɠ ûː m b a,íː z o ɠ uː m b a
+hlala,V;BANTU10;RCT;PST,z íː ɬ aː l eː,z i ɬ á l iː l e
+hlala,V;BANTU1;RMT;PST,w aː ɬ âː l a,z áː ɬ aː l a
+hlala,V;BANTU4;RCT;PST;PROG,ɓ e j í ɬ aː l a,íː ɬ aː l éː
+hlala,V;BANTU5;PRS,l í ɬ aː l a,l íː ɬ aː l a
+hlala,V;BANTU6;RMT;PST,áː ɬ aː l a,w áː ɬ aː l a
+hlala,V;BANTU15;FUT,ɠ ú z o ɬ aː l a,ɠ ú z o ɬ aː l a
+hlala,V;BANTU5;V.PTCP,l í ɬ aː l a,éː ɬ aː l a
+hlala,V;2;SG;RCT;PST,úː ɬ áː l eː,úː ɬ a l íː l e
+hlala,V;BANTU3;RMT;PST;PROG,w a w ú ɬ aː l a,s a s í ɬ aː l a
+hlala,V;BANTU5;RMT;PST,l áː ɬ aː l a,l áː ɬ aː l a
+hlala,V;BANTU1;RCT;PST,úː ɬ áː l eː,úː ɬ a l íː l e
+hlala,V;BANTU14;V.PTCP,ɓ ú ɬ aː l a,ɓ ú ɬ aː l a
+hlala,V;BANTU3;RCT;PST,úː ɬ a l íː l e,úː ɬ a l íː l e
+hlala,V;BANTU15;RCT;PST,ɠ ú ɬ a l iː l é,ɠ ú ɬ aː l eː
+hlala,V;BANTU8;PRS,z i j a ɬ âː l a,z i j a ɬ âː l a
+hlala,V;2;PL;FUT,n í z o ɬ aː l a,n íː ɬ aː l a
+hlala,V;1;SG;PRS,n ɡ i ɬ âː l a,n ɡ i j a ɬ âː l a
+hlala,V;BANTU2;SBJV,ɓ a ɬ âː l e,ɓ a z o ɬ aː l e
+hlala,V;BANTU17;RMT;PST;PROG,k w a ɠ ú ɬ aː l a,k w aː ɬ âː l a
+hlala,V;BANTU5;FUT,l i z ó ɬ aː l a,l i z ó ɬ aː l a
+hlala,V;BANTU5;RMT;PST;PROG,l a l í ɬ aː l a,l a l í ɬ aː l a
+hlala,V;2;PL;RCT;PST;PROG,n i ɓ é ɬ aː l a,n íː ɬ aː l eː
+hlala,V;BANTU9;V.PTCP,íː ɬ aː l a,ɠ ú ɬ aː l a
+hlala,V;BANTU11;PRS,l ú j a ɬ aː l a,l ú j a ɬ âː l a
+hlala,V;BANTU11;PRS,l ú ɬ aː l a,l ú j a ɬ âː l a
+hlala,V;1;SG;RCT;PST;PROG,ɓ e n ɡ i ɬ âː l a,n ɡ i ɬ âː l eː
+hlala,V;BANTU11;RMT;PST,l w aː ɬ âː l a,l w aː ɬ âː l a
+hlala,V;BANTU6;RCT;PST,aː ɬ áː l eː,aː ɬ a l íː l e
+hlala,V;1;SG;SBJV,n ɡ í ɬ aː l e,n ɡ i ɬ âː l a
+hlala,V;BANTU2;PRS,ɓ a ɬ âː l a,ɓ a j a ɬ âː l a
+hlala,V;BANTU11;RCT;PST,l ú ɬ aː l eː,l ú ɬ aː l eː
+lunga,V;BANTU10;RCT;PST,z í l uː n ɡ eː,z í l uː n ɡ eː
+lunga,V;BANTU6;PRS,a j a l ûː n ɡ a,a j a l ûː n ɡ a
+lunga,V;1;PL;RCT;PST;PROG,s i ɓ é l uː n ɡ a,n i ɓ é l uː n ɡ a
+lunga,V;BANTU7;SBJV,s í l uː n ɡ e,s í l uː n ɡ e
+lunga,V;NFIN,ú ɠ u l ûː n ɡ a,ú ɠ u tʰ á n d aː n a
+lunga,V;BANTU10;FUT,z i z ó l uː n ɡ a,z i z o l uː n ɡ a
+lunga,V;2;PL;SBJV,n í l uː n ɡ e,n í l uː n ɡ e
+lunga,V;BANTU8;RCT;PST;PROG,ɓ e z í l uː n ɡ a,ɓ e z í l uː n ɡ a
+lunga,V;BANTU14;V.PTCP,ɓ ú l uː n ɡ a,ɓ ú l uː n ɡ a
+lunga,V;BANTU1;SBJV,a l úː n ɡ e,w a j a l ûː n ɡ e
+lunga,V;2;SG;V.PTCP,ú l uː n ɡ a,ú l uː n ɡ a
+lunga,V;BANTU3;RCT;PST,ú l u n ɡ íː l e,ú l uː n ɡ eː
+lunga,V;BANTU15;RCT;PST,ɠ ú l uː n ɡ eː,ɠ ú l u n ɡ iː l e
+lunga,V;BANTU5;RCT;PST;PROG,ɓ e l í l uː n ɡ a,l i l ú n ɡ iː l é
+lunga,V;BANTU3;FUT,ú z o l ûː n ɡ a,ú z o l ûː n ɡ a
+lunga,V;2;PL;V.PTCP,n í l uː n ɡ a,n í l uː n ɡ a
+lunga,V;1;SG;V.PTCP,n ɡ i l ûː n ɡ a,n ɡ i l ûː n ɡ a
+lunga,V;BANTU14;PRS,ɓ u j a l ûː n ɡ a,ɓ u j a l ûː n ɡ a
+lunga,V;BANTU14;RMT;PST;PROG,ɓ a ɓ ú l uː n ɡ a,k w a ɠ ú l uː n ɡ a
+lunga,V;BANTU17;PRS,ɠ ú l uː n ɡ a,k ú j a l ûː n ɡ a
+lunga,V;IMP;2;PL;LGSPEC3,l ú n ɡ eː n i,l úː n ɡ eː n i
+lunga,V;BANTU14;RMT;PST,ɓ áː l uː n ɡ a,ɓ a ɓ ú l uː n ɡ a
+lunga,V;BANTU4;RCT;PST,íː l u n ɡ íː l e,íː l uː n ɡ eː
+lunga,V;BANTU17;RMT;PST,k w áː l uː n ɡ a,z áː l uː n ɡ a
+lunga,V;1;SG;SBJV,n ɡ i l ûː n ɡ e,n ɡ i l ûː n ɡ a
+lunga,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ i l ûː n ɡ a,n ɡ aː l úː n ɡ a
+lunga,V;BANTU6;RCT;PST;PROG,a ɓ é l uː n ɡ a,a ɓ e l ûː n ɡ a
+lunga,V;BANTU4;PRS,íː l uː n ɡ a,íː j a l ûː n ɡ a
+lunga,V;BANTU6;V.PTCP,éː l uː n ɡ a,ú l uː n ɡ a
+lunga,V;BANTU4;RMT;PST;PROG,j a j í l uː n ɡ a,j a j í l uː n ɡ a
+dla,V;BANTU3;PRS,ú j aː ɮ a,úː ɮ a
+dla,V;1;PL;RCT;PST;PROG,s í ɓ eː ɮ a,s íː ɮ eː
+dla,V;BANTU7;SBJV,s íː ɮ e,áː ɮ e
+dla,V;IMP;2;SG;LGSPEC3,j íː ɮ e,j íː ɮ a
+dla,V;BANTU8;RMT;PST;PROG,z a z íː ɮ a,k w a ɠ úː ɮ a
+dla,V;BANTU15;RMT;PST;PROG,k w a ɠ úː ɮ a,z a z íː ɮ a
+dla,V;IMP;2;SG,j íː ɮ a,j íː ɮ a
+dla,V;BANTU5;RMT;PST,l áː ɮ a,z áː ɮ a
+dla,V;BANTU1;RCT;PST,úː ɮ iː l é,úː ɮ eː
+dla,V;2;SG;RCT;PST;PROG,ú ɓ eː ɮ a,úː ɮ iː l é
+dla,V;2;PL;RCT;PST,n í ɮ iː l é,úː ɮ eː
+dla,V;BANTU7;RMT;PST,s áː ɮ a,w áː ɮ a
+dla,V;2;SG;V.PTCP,úː ɮ a,úː ɮ a
+dla,V;BANTU3;RCT;PST,úː ɮ iː l é,úː ɮ eː
+dla,V;BANTU3;RCT;PST,úː ɮ eː,ɓ e w úː ɮ a
+dla,V;BANTU5;RCT;PST;PROG,ɓ é l iː ɮ a,l íː ɮ eː
+dla,V;BANTU7;RMT;PST;PROG,s a s íː ɮ a,s a s íː ɮ a
+dla,V;2;PL;V.PTCP,n íː ɮ a,n íː ɮ a
+dla,V;BANTU7;PRS,s í j aː ɮ a,s í j aː ɮ a
+dla,V;BANTU17;RCT;PST,ɠ úː ɮ eː,ɠ úː ɮ eː
+dla,V;BANTU10;PRS,z íː ɮ a,z í j aː ɮ a
+dla,V;BANTU5;RMT;PST;PROG,l a l íː ɮ a,k w a ɠ úː ɮ a
+dla,V;1;SG;V.PTCP,ᵑɡ íː ɮ a,ᵑɡ íː ɮ a
+dla,V;BANTU9;RCT;PST;PROG,ɓ e j íː ɮ a,ɓ é z iː ɮ a
+dla,V;BANTU17;RCT;PST;PROG,ɓ e ɠ úː ɮ a,ɠ ú ɮ iː l é
+dla,V;BANTU4;FUT,íː z o ɠ úː ɮ a,íː z o ɠ uː ɮ a
+dla,V;2;PL;RMT;PST,n áː ɮ a,w áː ɮ a
+dla,V;2;PL;RCT;PST;PROG,n í ɓ eː ɮ a,n íː ɮ eː
+dla,V;2;PL;PRS,n í j aː ɮ a,n í j aː ɮ a
+dla,V;BANTU7;RCT;PST,s íː ɮ eː,ɓ é s iː ɮ a
+dla,V;BANTU17;RMT;PST,k w áː ɮ a,k w áː ɮ a
+dla,V;1;PL;PRS,s íː ɮ a,s í j aː ɮ a
+dla,V;BANTU7;FUT,s i z o ɠ ûː ɮ a,ú z o ɠ úː ɮ a
+dla,V;BANTU1;RCT;PST;PROG,ú ɓ eː ɮ a,ɓ é l uː ɮ a
+dla,V;BANTU1;PRS,úː ɮ a,ú j aː ɮ a
+dla,V;BANTU4;PRS,íː j aː ɮ a,íː j aː ɮ a
+dla,V;BANTU9;SBJV,îː ɮ e,ɠ úː ɮ e
+dla,V;BANTU2;RMT;PST,ɓ áː ɮ a,ɓ áː ɮ a
+dla,V;BANTU9;RMT;PST;PROG,j a j íː ɮ a,k w a ɠ úː ɮ a
+esaba,V;BANTU3;PRS,ú j e s áː ɓ a,w é s aː ɓ a
+esaba,V;BANTU10;RCT;PST,z é s a ɓ eː,z e s a ɓ íː l e
+esaba,V;BANTU6;PRS,a j é s aː ɓ a,z i j é s aː ɓ a
+esaba,V;BANTU6;PRS,é s aː ɓ a,z i j é s aː ɓ a
+esaba,V;BANTU5;PRS,l i j é s aː ɓ a,l i j é s aː ɓ a
+esaba,V;BANTU10;RCT;PST;PROG,ɓ e z e s âː ɓ a,ɓ e ɠ w é s aː ɓ a
+esaba,V;BANTU15;SBJV,k w é s aː ɓ e,k w é s aː ɓ e
+esaba,V;BANTU8;RMT;PST;PROG,z a z e s áː ɓ a,k w a ɠ w é s aː ɓ a
+esaba,V;BANTU15;RMT;PST;PROG,k w a ɠ w é s aː ɓ a,k w a ɠ w é s aː ɓ a
+esaba,V;BANTU14;FUT,ɓ ú z o ɠ w e s aː ɓ a,ɓ u z o ɠ w é s aː ɓ a
+esaba,V;BANTU17;SBJV,k w é s aː ɓ e,é s aː ɓ e
+esaba,V;2;PL;RCT;PST,n é s a ɓ iː l e,n é s a ɓ eː
+esaba,V;BANTU10;RMT;PST;PROG,z a z e s áː ɓ a,z éː s aː ɓ a
+esaba,V;BANTU3;RCT;PST,w é s a ɓ eː,w e s á ɓ iː l e
+esaba,V;BANTU3;V.PTCP,w é s aː ɓ a,é s aː ɓ a
+esaba,V;BANTU15;RCT;PST,k w e s á ɓ iː l e,k w é s a ɓ eː
+esaba,V;BANTU1;FUT,ú z o ɠ w é s aː ɓ a,ú z o ɠ w é s aː ɓ a
+esaba,V;BANTU5;RCT;PST;PROG,ɓ e l é s aː ɓ a,l i ɓ é s aː ɓ a
+esaba,V;BANTU2;RCT;PST,ɓ e s a ɓ íː l e,ɓ e ɓ e s áː ɓ a
+esaba,V;BANTU7;RMT;PST;PROG,s a s é s aː ɓ a,k w a ɠ w é s aː ɓ a
+esaba,V;BANTU14;RCT;PST,ɓ e s a ɓ íː l e,w e s á ɓ iː l e
+esaba,V;BANTU8;PRS,z é s aː ɓ a,z i j é s aː ɓ a
+esaba,V;2;PL;FUT,n í z o ɠ w e s aː ɓ a,n í z o ɠ w é s aː ɓ a
+esaba,V;2;PL;V.PTCP,n é s aː ɓ a,n é s aː ɓ a
+esaba,V;1;SG;PRS,n ɡ i j é s aː ɓ a,n ɡ e s áː ɓ a
+esaba,V;BANTU7;PRS,s é s aː ɓ a,s i j é s aː ɓ a
+esaba,V;BANTU17;RCT;PST,k w e s á ɓ iː l e,k w é s a ɓ eː
+esaba,V;2;PL;RMT;PST;PROG,n á n e s aː ɓ a,n éː s aː ɓ a
+esaba,V;BANTU5;RMT;PST;PROG,l a l é s aː ɓ a,l éː s aː ɓ a
+esaba,V;BANTU9;PRS,íː j e s áː ɓ a,é s aː ɓ a
+esaba,V;BANTU14;PRS,ɓ é s aː ɓ a,ɓ ú j e s aː ɓ a
+esaba,V;BANTU14;RMT;PST;PROG,ɓ a ɓ é s aː ɓ a,ɓ éː s aː ɓ a
+esaba,V;BANTU3;SBJV,w é s aː ɓ e,é s aː ɓ e
+esaba,V;BANTU7;RCT;PST;PROG,ɓ e s é s aː ɓ a,ú ɓ e s áː ɓ a
+esaba,V;BANTU4;RCT;PST,e s á ɓ eː,w e s á ɓ iː l e
+esaba,V;BANTU11;RMT;PST,l w éː s aː ɓ a,j éː s aː ɓ a
+esaba,V;BANTU2;V.PTCP,ɓ é s aː ɓ a,ɓ é s aː ɓ a
+esaba,V;BANTU7;V.PTCP,s é s aː ɓ a,ɓ é s aː ɓ a
+esaba,V;BANTU8;SBJV,z é s aː ɓ e,z é s aː ɓ e
+esaba,V;BANTU6;RMT;PST;PROG,a j é s aː ɓ a,a ɓ e s áː ɓ a
+esaba,V;BANTU6;RCT;PST,e s a ɓ íː l e,a ɓ e s áː ɓ a
+esaba,V;BANTU6;RCT;PST,e s á ɓ eː,a ɓ e s áː ɓ a
+esaba,V;BANTU11;RMT;PST;PROG,l w a l w é s aː ɓ a,j a j é s aː ɓ a
+esaba,V;BANTU2;PRS,ɓ é s aː ɓ a,ɓ a j é s aː ɓ a
+esaba,V;BANTU15;RMT;PST,k w éː s aː ɓ a,j éː s aː ɓ a
+esaba,V;BANTU9;RCT;PST,e s a ɓ íː l e,w e s á ɓ iː l e
+esaba,V;BANTU9;RCT;PST,e s á ɓ eː,w e s á ɓ iː l e
+esaba,V;BANTU8;RCT;PST,z e s a ɓ íː l e,z é s a ɓ eː
+esaba,V;BANTU4;PRS,íː j e s áː ɓ a,é s aː ɓ a
+esaba,V;BANTU11;RCT;PST,l w é s a ɓ eː,l é s a ɓ eː
+esaba,V;BANTU14;SBJV,ɓ é s aː ɓ e,é s aː ɓ e
+geza,V;BANTU15;RCT;PST;PROG,ɓ e ɠ ú ɡ eː z a,ɠ ú ɡ e z iː l é
+geza,V;1;SG;RCT;PST,n ɡ i ɡ é z iː l e,s í ɡ eː z eː
+geza,V;1;SG;RCT;PST,n ɡ i ɡ éː z eː,ɓ e n ɡ i ɡ êː z a
+geza,V;BANTU8;FUT,z i z ó ɡ eː z a,z i z o ɡ eː z a
+geza,V;BANTU11;FUT,l ú z o ɡ eː z a,l ú z o ɡ eː z a
+geza,V;BANTU8;V.PTCP,z í ɡ eː z a,z í ɡ eː z a
+geza,V;NFIN,ú ɠ u ɡ êː z a,ú ɠ u ǀ êː l a
+geza,V;2;PL;SBJV,n í ɡ eː z e,n í ɡ eː z e
+geza,V;2;SG;RMT;PST;PROG,w a w ú ɡ eː z a,w a w ú ɡ eː z a
+geza,V;BANTU1;RCT;PST,ú ɡ e z íː l e,z í ɡ eː z eː
+geza,V;BANTU11;SBJV,l ú ɡ eː z e,l ú ɡ eː z e
+geza,V;2;SG;RCT;PST;PROG,ú ɓ e ɡ êː z a,ú ɓ e ɡ êː z a
+geza,V;2;PL;RCT;PST,n í ɡ e z iː l é,n í ɡ eː z eː
+geza,V;BANTU3;RCT;PST,ú ɡ eː z eː,úː ɡ eː z eː
+geza,V;BANTU1;FUT,ú z o ɡ êː z a,ú z o ɡ êː z a
+geza,V;BANTU8;PRS,z i j a ɡ êː z a,z i j a ɡ eː z a
+geza,V;BANTU7;PRS,s í ɡ eː z a,ú j a ɡ êː z a
+geza,V;BANTU17;RCT;PST,ɠ ú ɡ e z iː l é,ɠ ú ɡ eː z eː
+geza,V;BANTU17;RCT;PST,ɠ ú ɡ eː z eː,ɠ ú ɡ eː z eː
+geza,V;BANTU5;SBJV,l í ɡ eː z e,l í ɡ eː z e
+geza,V;BANTU5;FUT,l i z ó ɡ eː z a,l i z ó ɡ eː z a
+geza,V;BANTU9;RCT;PST;PROG,ɓ e j í ɡ eː z a,ɓ e z í ɡ eː z a
+geza,V;BANTU14;PRS,ɓ ú ɡ eː z a,ɓ u j a ɡ êː z a
+geza,V;2;PL;RCT;PST;PROG,n í ɓ e ɡ eː z a,n i ɓ é ɡ eː z a
+geza,V;BANTU11;PRS,l ú j a ɡ eː z a,l ú j a ɡ êː z a
+geza,V;BANTU11;PRS,l ú ɡ eː z a,l ú j a ɡ êː z a
+geza,V;1;PL;RMT;PST,s áː ɡ eː z a,s a s í ɡ eː z a
+geza,V;BANTU4;RCT;PST,íː ɡ e z íː l e,íː ɡ eː z eː
+geza,V;2;PL;PRS,n í ɡ eː z a,n i j a ɡ êː z a
+geza,V;BANTU6;RCT;PST,a ɡ e z íː l e,a ɡ éː z eː
+geza,V;BANTU11;RMT;PST;PROG,l w a l ú ɡ eː z a,l w áː ɡ eː z a
+geza,V;1;SG;SBJV,ᵑɡ i ɡ êː z e,s í ɡ eː z e
+geza,V;BANTU8;RCT;PST,z i ɡ e z íː l e,z í ɡ eː z eː
+geza,V;BANTU6;V.PTCP,éː ɡ eː z a,ɓ é ɡ eː z a
+geza,V;BANTU9;RMT;PST;PROG,j a j í ɡ eː z a,k w a ɠ ú ɡ eː z a
+geza,V;BANTU1;V.PTCP,éː ɡ eː z a,ú ɡ eː z a
+thela,V;BANTU3;PRS,ú j a tʰ éː l a,ú j a tʰ éː l a
+thela,V;BANTU15;RCT;PST;PROG,ɓ e ɠ ú tʰ eː l a,ɓ e ɠ ú tʰ eː l a
+thela,V;BANTU5;PRS,l íː tʰ eː l a,l i j á tʰ eː l a
+thela,V;BANTU1;RCT;PST,úː tʰ e l íː l e,úː tʰ eː l eː
+thela,V;BANTU8;RCT;PST;PROG,ɓ e z í tʰ eː l a,ɓ e z í tʰ eː l a
+thela,V;1;PL;FUT,s i z ó tʰ eː l a,s i z ó tʰ eː l a
+thela,V;2;PL;RCT;PST,n í tʰ e l íː l e,n íː tʰ eː l eː
+thela,V;2;SG;V.PTCP,úː tʰ eː l a,úː tʰ eː l a
+thela,V;BANTU1;FUT,ú z o tʰ éː l a,ú z o tʰ éː l a
+thela,V;BANTU5;RCT;PST;PROG,ɓ e l í tʰ eː l a,ɓ e l í tʰ eː l a
+thela,V;2;SG;PRS,úː tʰ eː l a,ú j a tʰ éː l a
+thela,V;BANTU8;PRS,z i j á tʰ eː l a,z i j á tʰ eː l a
+thela,V;2;PL;FUT,n í z o tʰ eː l a,n i z ó tʰ eː l a
+thela,V;BANTU3;FUT,ú z o tʰ éː l a,ú z o tʰ éː l a
+thela,V;BANTU2;RCT;PST;PROG,ɓ e ɓ é tʰ eː l a,ɓ e ɓ é tʰ eː l a
+thela,V;BANTU7;PRS,s i j á tʰ eː l a,s íː tʰ eː l a
+thela,V;BANTU5;SBJV,l íː tʰ eː l e,l íː tʰ eː l e
+thela,V;BANTU17;FUT,ɠ ú z o tʰ eː l a,z i z ó tʰ eː l a
+thela,V;BANTU14;RMT;PST;PROG,ɓ a ɓ ú tʰ eː l a,z a z í tʰ eː l a
+thela,V;BANTU4;V.PTCP,îː tʰ eː l a,îː tʰ eː l a
+thela,V;BANTU11;PRS,l ú j a tʰ eː l a,l ú tʰ eː l a
+thela,V;BANTU15;PRS,ɠ ú tʰ eː l a,ɠ u j á tʰ eː l a
+thela,V;2;PL;PRS,n í tʰ eː l a,n íː tʰ eː l a
+thela,V;BANTU2;PRS,ɓ a j a tʰ éː l a,ɓ a j a tʰ eː l a
+thela,V;BANTU9;RCT;PST,íː tʰ e l íː l e,z í tʰ eː l eː
+thela,V;BANTU9;RCT;PST,îː tʰ eː l eː,îː tʰ eː l eː
+thela,V;BANTU6;RCT;PST;PROG,a ɓ é tʰ eː l a,a ɓ e tʰ êː l a
+thela,V;BANTU4;PRS,îː tʰ eː l a,íː j a tʰ éː l a
+akhiwa,V;BANTU3;PRS,ú j a kʰ íː w a,ú j a kʰ íː w a
+akhiwa,V;BANTU3;PRS,w á kʰ iː w a,ú j a kʰ íː w a
+akhiwa,V;BANTU10;RCT;PST,z a kʰ í w iː l e,a kʰ í w iː l e
+akhiwa,V;BANTU6;PRS,a j a kʰ íː w a,a j a kʰ íː w a
+akhiwa,V;BANTU15;SBJV,k w á kʰ iː w e,áː kʰ iː w é
+akhiwa,V;IMP;2;SG;LGSPEC3,j á kʰ iː w é,ᶢǃʱ óː ɠ e
+akhiwa,V;2;PL;SBJV,n á kʰ iː w é,n á kʰ iː w é
+akhiwa,V;BANTU15;FUT,k u z o ɠ w á kʰ iː w a,ɠ ú z o ɠ w á kʰ iː w a
+akhiwa,V;BANTU1;RCT;PST,w a kʰ í w iː l e,w áː kʰ i w eː
+akhiwa,V;BANTU3;RCT;PST;PROG,ɓ e w a kʰ íː w a,ɓ e j a kʰ íː w a
+akhiwa,V;BANTU8;RCT;PST;PROG,ɓ e z á kʰ iː w a,z áː kʰ i w êː
+akhiwa,V;BANTU1;SBJV,áː kʰ iː w é,w á kʰ iː w é
+akhiwa,V;BANTU15;RCT;PST,k w a kʰ í w iː l e,áː kʰ i w êː
+akhiwa,V;BANTU15;RCT;PST,k w a kʰ íː w eː,a kʰ í w iː l e
+akhiwa,V;BANTU5;RCT;PST;PROG,ɓ e l a kʰ íː w a,l á kʰ i w êː
+akhiwa,V;BANTU2;SBJV,ɓ á kʰ iː w é,ɓ á kʰ iː w é
+akhiwa,V;BANTU17;RCT;PST,k w a kʰ í w iː l e,k w a kʰ íː w eː
+akhiwa,V;BANTU5;FUT,l i z o ɠ w á kʰ iː w a,l i z o ɠ w á kʰ iː w a
+akhiwa,V;1;SG;RMT;PST,n ɡ áː kʰ iː w a,n ɡ á kʰ iː w a
+akhiwa,V;BANTU14;PRS,ɓ u j á kʰ iː w a,ɓ u j á kʰ iː w a
+akhiwa,V;BANTU14;PRS,ɓ á kʰ iː w a,ɓ u j á kʰ iː w a
+akhiwa,V;2;PL;RMT;PST,n áː kʰ iː w a,n áː kʰ iː w a
+akhiwa,V;BANTU10;RMT;PST,z áː kʰ iː w a,z áː kʰ iː w a
+akhiwa,V;BANTU14;RMT;PST;PROG,ɓ a ɓ á kʰ iː w a,z a z á kʰ iː w a
+akhiwa,V;BANTU5;RCT;PST,l a kʰ í w iː l e,l á kʰ i w eː
+akhiwa,V;BANTU4;RCT;PST,áː kʰ i w êː,íː j a kʰ íː w eː
+akhiwa,V;BANTU15;V.PTCP,k w á kʰ iː w a,k w á kʰ iː w a
+akhiwa,V;1;PL;PRS,s i j á kʰ iː w a,s íː j a kʰ íː w a
+akhiwa,V;1;PL;PRS,s á kʰ iː w a,s íː j a kʰ íː w a
+akhiwa,V;BANTU15;RMT;PST,k w áː kʰ iː w a,k w áː kʰ iː w a
+akhiwa,V;1;SG;FUT,n ɡ i z o ɠ w á kʰ iː w a,n ɡ a kʰ íː w a
+akhiwa,V;BANTU1;RCT;PST;PROG,ú ɓ a kʰ íː w a,ɓ e ɓ a kʰ íː w a
+akhiwa,V;BANTU8;RCT;PST,z a kʰ í w iː l e,z áː kʰ i w eː
+akhiwa,V;BANTU2;RMT;PST,ɓ áː kʰ iː w a,ɓ áː kʰ iː w a
+akhiwa,V;BANTU9;RMT;PST;PROG,j a j a kʰ íː w a,z a z á kʰ iː w a
+bheka,V;BANTU3;PRS,úː b eː ɠ a,ú j a b éː ɠ a
+bheka,V;1;SG;RCT;PST,n ɡ i b éː ɠ eː,s í b e ɠ eː
+bheka,V;BANTU4;RCT;PST;PROG,ɓ e j í b eː ɠ a,ɓ e j í b eː ɠ a
+bheka,V;BANTU10;RCT;PST;PROG,ɓ e z í b eː ɠ a,ɓ e z í b eː ɠ a
+bheka,V;1;PL;V.PTCP,s í b eː ɠ a,s í b eː ɠ a
+bheka,V;2;SG;RMT;PST;PROG,w a w ú b eː ɠ a,w a w úː z w a
+bheka,V;BANTU3;RCT;PST;PROG,ɓ e w ú b eː ɠ a,ɓ e ɠ ú b eː ɠ a
+bheka,V;BANTU3;RCT;PST,ú b eː ɠ êː,ú b e ɠ îː l e
+bheka,V;BANTU15;RCT;PST,ɠ ú b e ɠ iː l é,ɠ ú b eː ɠ êː
+bheka,V;BANTU15;RCT;PST,ɠ ú b eː ɠ eː,ɠ ú b eː ɠ êː
+bheka,V;BANTU4;SBJV,îː b eː ɠ é,îː b eː ɠ é
+bheka,V;BANTU5;RCT;PST;PROG,ɓ e l í b eː ɠ a,l í b e ɠ eː
+bheka,V;BANTU2;RCT;PST,ɓ a b éː ɠ eː,ɓ á b eː ɠ eː
+bheka,V;2;PL;FUT,n í z o b eː ɠ a,n í z o b eː ɠ a
+bheka,V;BANTU3;FUT,úː z o b êː ɠ a,ú z o b eː ɠ a
+bheka,V;1;SG;PRS,n ɡ í b eː ɠ a,s i j a b êː ɠ a
+bheka,V;BANTU7;PRS,s i j a b êː ɠ a,s i j a b eː ɠ a
+bheka,V;BANTU10;PRS,z i j a b éː ɠ a,z i j a b eː ɠ a
+bheka,V;BANTU10;PRS,z í b eː ɠ a,z i j a b eː ɠ a
+bheka,V;2;PL;RMT;PST;PROG,n a n í b eː ɠ a,s a s í b eː ɠ a
+bheka,V;BANTU5;FUT,l í z o b eː ɠ a,l i z ó b eː ɠ a
+bheka,V;BANTU14;PRS,ɓ ú b eː ɠ a,ɓ u j a b eː ɠ a
+bheka,V;BANTU17;FUT,ɠ ú z o b eː ɠ a,ɠ u z o b eː ɠ a
+bheka,V;BANTU11;PRS,l ú b eː ɠ a,l ú j a b eː ɠ a
+bheka,V;1;PL;RMT;PST,s áː b eː ɠ a,s áː b eː ɠ a
+bheka,V;BANTU5;RCT;PST,l í b e ɠ eː,îː b eː ɠ êː
+bheka,V;2;PL;PRS,n í j a b eː ɠ a,n i j a b eː ɠ a
+bheka,V;BANTU7;V.PTCP,s í b eː ɠ a,s í b eː ɠ a
+bheka,V;BANTU17;RMT;PST,k w áː b eː ɠ a,z áː b eː ɠ a
+bheka,V;BANTU9;RCT;PST,íː b e ɠ îː l e,îː b eː ɠ êː
+bheka,V;BANTU6;V.PTCP,êː b eː ɠ a,a b éː ɠ a
+bheka,V;BANTU11;RCT;PST,l ú b e ɠ íː l e,l ú b eː ɠ eː
+baleka,V;BANTU3;PRS,ú ɓ a l êː ɠ a,ú j a ɓ a l êː ɠ a
+baleka,V;BANTU15;RCT;PST;PROG,ɓ e ɠ u ɓ a l êː ɠ a,ɓ e ɠ u ɓ á l eː ɠ a
+baleka,V;BANTU8;FUT,z i z o ɓ á l eː ɠ a,z i z o ɓ a l êː ɠ a
+baleka,V;BANTU11;FUT,l ú z o ɓ a l eː ɠ a,l ú z o ɓ á l eː ɠ a
+baleka,V;BANTU15;SBJV,k ú ɓ a l eː ɠ é,ɠ u ɓ a l éː ɠ e
+baleka,V;IMP;2;SG;LGSPEC3,ɓ a l éː ɠ e,ᶢǃʱ óː ɠ e
+baleka,V;2;PL;SBJV,n í ɓ a l eː ɠ é,n i ɓ a l éː ɠ e
+baleka,V;BANTU5;V.PTCP,l i ɓ a l éː ɠ a,l i ɓ a l êː ɠ a
+baleka,V;BANTU5;RMT;PST,l áː ɓ a l eː ɠ a,l í j aː ɓ a l eː ɠ a
+baleka,V;BANTU8;RCT;PST;PROG,ɓ e z i ɓ á l eː ɠ a,ɓ e ɠ u ɓ a l êː ɠ a
+baleka,V;BANTU11;SBJV,l ú ɓ a l eː ɠ é,l ú ɓ a l éː ɠ e
+baleka,V;2;PL;RCT;PST,n í ɓ a l eː ɠ êː,n i ɓ a l e ɠ íː l e
+baleka,V;2;SG;V.PTCP,ú ɓ a l êː ɠ a,ú ɓ a l êː ɠ e
+baleka,V;BANTU1;FUT,ú z o ɓ a l êː ɠ a,ú z o ɓ a l êː ɠ a
+baleka,V;BANTU5;RCT;PST;PROG,ɓ e l i ɓ a l êː ɠ a,ɓ e l i ɓ á l eː ɠ a
+baleka,V;2;SG;PRS,ú j a ɓ a l êː ɠ a,ú j a ɓ a l éː ɠ a
+baleka,V;2;SG;PRS,ú ɓ a l êː ɠ a,ú ɓ a l êː ɠ a
+baleka,V;1;SG;PRS,n ɡ i ɓ á l eː ɠ a,n ɡ i ɓ á l eː ɠ a
+baleka,V;BANTU17;RMT;PST;PROG,k w a ɠ u ɓ á l eː ɠ a,k w a ɠ u ɓ á l eː ɠ a
+baleka,V;2;SG;RMT;PST,w aː ɓ a l êː ɠ a,w aː ɓ a l éː ɠ a
+baleka,V;BANTU14;PRS,ɓ u j a ɓ á l eː ɠ a,ɓ u j a ɓ á l eː ɠ a
+baleka,V;BANTU14;PRS,ɓ u ɓ a l êː ɠ a,ɓ u j a ɓ á l eː ɠ a
+baleka,V;BANTU17;FUT,ɠ ú z o ɓ a l eː ɠ a,ɠ ú z o ɓ á l eː ɠ a
+baleka,V;BANTU14;RMT;PST;PROG,ɓ a ɓ u ɓ a l êː ɠ a,j a j i ɓ á l eː ɠ a
+baleka,V;BANTU3;SBJV,ú ɓ a l êː ɠ e,ú ɓ a l éː ɠ e
+baleka,V;BANTU4;V.PTCP,íː ɓ a l êː ɠ a,íː ɓ a l êː ɠ a
+baleka,V;BANTU2;RMT;PST;PROG,ɓ a ɓ e ɓ a l êː ɠ a,ɓ a ɓ e ɓ a l êː ɠ a
+baleka,V;BANTU7;RCT;PST;PROG,ɓ e s i ɓ a l êː ɠ a,ɓ e z i ɓ á l eː ɠ a
+baleka,V;BANTU14;RMT;PST,ɓ aː ɓ a l êː ɠ a,ɓ áː ɓ a l éː ɠ a
+baleka,V;BANTU15;PRS,ɠ ú j a ɓ a l eː ɠ a,ɠ ú j a ɓ á l eː ɠ a
+baleka,V;BANTU4;RCT;PST,íː ɓ a l éː ɠ eː,íː ɓ a l e ɠ íː l e
+baleka,V;BANTU7;V.PTCP,s i ɓ a l éː ɠ a,s i ɓ a l êː ɠ a
+baleka,V;BANTU8;SBJV,z i ɓ á l eː ɠ e,z i ɓ a l éː ɠ e
+baleka,V;BANTU11;RMT;PST;PROG,l w a l u ɓ á l eː ɠ a,l w a l u ɓ á l eː ɠ a
+baleka,V;BANTU2;PRS,ɓ a ɓ a l êː ɠ a,ɓ a j a ɓ á l eː ɠ a
+baleka,V;BANTU9;RCT;PST,íː ɓ a l éː ɠ eː,íː ɓ a l e ɠ íː l e
+baleka,V;BANTU11;RCT;PST,l u ɓ a l é ɠ iː l e,ɓ e l u ɓ á l eː ɠ a
+baleka,V;BANTU11;RCT;PST,l ú ɓ a l eː ɠ êː,l ú ɓ a l e ɠ íː l e
+baleka,V;BANTU9;FUT,íː z o ɓ a l êː ɠ a,íː z o ɓ a l êː ɠ a
+vula,V;BANTU8;FUT,z i z ó v uː l a,z i z o v uː l a
+vula,V;BANTU4;RMT;PST,j áː v uː l a,j áː v uː l a
+vula,V;BANTU5;PRS,l i j a v ûː l a,l i j a v ûː l a
+vula,V;IMP;2;SG;LGSPEC3,v úː l e,ǀ eː l e
+vula,V;BANTU8;RMT;PST;PROG,z a z í v uː l a,z a z í v uː l a
+vula,V;2;SG;RCT;PST,ú v uː l êː,ú v u l íː l e
+vula,V;BANTU1;RCT;PST,ú v uː l êː,ú v u l íː l e
+vula,V;2;SG;RCT;PST;PROG,ú ɓ e v ûː l a,ú ɓ e v ûː l a
+vula,V;BANTU7;RMT;PST,s áː v uː l a,s áː v uː l a
+vula,V;BANTU1;SBJV,a v úː l e,ú v uː l e
+vula,V;2;SG;FUT,ú z o v ûː l a,ú z o v ûː l a
+vula,V;BANTU1;FUT,ú z o v ûː l a,ú z o v ûː l a
+vula,V;BANTU5;RCT;PST;PROG,ɓ e l í v uː l a,l í v uː l eː
+vula,V;2;SG;PRS,ú j a v ûː l a,ú j a v ûː l a
+vula,V;2;SG;PRS,ú v uː l a,ú j a v ûː l a
+vula,V;BANTU14;RCT;PST,ɓ u v ú l iː l e,ɓ u v ú l iː l é
+vula,V;BANTU14;RCT;PST,ɓ ú v uː l eː,ɓ ú v uː l eː
+vula,V;BANTU8;PRS,z í v uː l a,z íː j a v ûː l a
+vula,V;BANTU17;RMT;PST;PROG,k w a ɠ ú v uː l a,k w a ɠ ú v uː l a
+vula,V;BANTU2;FUT,ɓ a z ó v uː l a,ɓ a z o v uː l a
+vula,V;BANTU5;FUT,l i z ó v uː l a,l i z o v uː l a
+vula,V;1;SG;RMT;PST,n ɡ aː v úː l a,w áː v uː l a
+vula,V;BANTU17;V.PTCP,ɠ ú v uː l a,ɠ ú v uː l a
+vula,V;BANTU11;PRS,l ú j a v uː l a,l u j a v ûː l a
+vula,V;BANTU11;PRS,l ú v uː l a,l ú j a v uː l a
+vula,V;1;SG;RCT;PST;PROG,ɓ e n ɡ í v uː l a,ɓ e n ɡ i ɓ ûː z a
+vula,V;1;PL;RMT;PST;PROG,s a s í v uː l a,s a s í v uː l a
+vula,V;BANTU7;RCT;PST,s i v ú l iː l e,s í v uː l eː
+vula,V;BANTU17;RMT;PST,k w áː v uː l a,z áː v uː l a
+vula,V;BANTU6;RCT;PST,a v ú l iː l e,éː v uː l eː
+vula,V;1;SG;FUT,n ɡ i z ó v uː l a,n ɡ í v uː l a
+vula,V;BANTU8;RCT;PST,z i v ú l iː l e,z í v uː l eː
+vula,V;BANTU4;PRS,íː j a v ûː l a,íː v uː l a
+vula,V;BANTU11;RCT;PST,l ú v u l íː l e,l ú v uː l eː
+vula,V;BANTU6;FUT,a z o v úː l a,a z o v ûː l a
+vula,V;BANTU2;RMT;PST,ɓ áː v uː l a,z áː v uː l a
+vula,V;BANTU1;V.PTCP,éː v uː l a,ú v uː l a
+kha,V;BANTU10;RCT;PST,z í kʰ iː l é,z í kʰ iː l e
+kha,V;BANTU6;PRS,áː kʰ a,a j áː kʰ a
+kha,V;BANTU5;PRS,l íː kʰ a,l íː kʰ a
+kha,V;BANTU6;RMT;PST,âː kʰ a,êː s aː ɓ a
+kha,V;2;PL;SBJV,n íː kʰ e,n íː kʰ e
+kha,V;BANTU8;RMT;PST;PROG,z á z iː kʰ a,z á z iː kʰ a
+kha,V;BANTU15;RMT;PST;PROG,k w a ɠ ûː kʰ a,z á z iː kʰ a
+kha,V;BANTU5;RMT;PST,l áː kʰ a,l áː ɬ aː ɓ a
+kha,V;BANTU8;RCT;PST;PROG,ɓ é z iː kʰ a,z í ɓ eː kʰ a
+kha,V;BANTU1;SBJV,áː kʰ e,z íː kʰ e
+kha,V;BANTU3;V.PTCP,úː kʰ a,úː kʰ a
+kha,V;BANTU4;SBJV,îː kʰ e,íː kʰ e
+kha,V;2;SG;PRS,úː kʰ a,úː kʰ a
+kha,V;BANTU14;RCT;PST,ɓ ú kʰ iː l e,ɓ úː kʰ eː
+kha,V;1;PL;SBJV,s íː kʰ e,s íː kʰ e
+kha,V;BANTU7;PRS,s íː kʰ a,ɓ a s íː kʰ a
+kha,V;BANTU17;RCT;PST,ɠ úː kʰ eː,ɠ ú kʰ iː l e
+kha,V;2;PL;RMT;PST;PROG,n á n iː kʰ a,w a w úː kʰ a
+kha,V;BANTU9;RCT;PST;PROG,ɓ é j iː kʰ a,îː kʰ eː
+kha,V;BANTU17;V.PTCP,ɠ úː kʰ a,ɠ úː kʰ a
+kha,V;BANTU3;SBJV,úː kʰ e,úː kʰ e
+kha,V;BANTU9;V.PTCP,îː kʰ a,îː kʰ a
+kha,V;BANTU7;RCT;PST;PROG,ɓ é s iː kʰ a,s íː kʰ eː
+kha,V;BANTU14;RCT;PST;PROG,ɓ é ɓ uː kʰ a,ɓ úː kʰ eː
+kha,V;BANTU15;PRS,ɠ úː kʰ a,ɠ úː kʰ a
+kha,V;2;PL;PRS,n í j aː kʰ a,n í j aː kʰ a
+kha,V;BANTU6;RCT;PST,áː kʰ eː,a j áː kʰ eː
+kha,V;BANTU11;RMT;PST;PROG,l w a l úː kʰ a,l w áː kʰ a
+kha,V;BANTU4;PRS,íː j aː kʰ a,îː kʰ a
+kha,V;BANTU11;V.PTCP,l úː kʰ a,ɓ êː kʰ a
+kha,V;BANTU1;V.PTCP,êː kʰ a,úː kʰ a
+funa,V;BANTU4;RCT;PST;PROG,ɓ e j i f ûː n a,ɓ e j i f ûː n a
+funa,V;BANTU5;PRS,l í f uː n a,l i j a f ûː n a
+funa,V;BANTU10;RCT;PST;PROG,ɓ e z i f ûː n a,ɓ e z i f ûː n a
+funa,V;BANTU3;RMT;PST,w aː f úː n a,w aː f úː n a
+funa,V;BANTU15;SBJV,ɠ ú f uː n e,ɠ ú f uː n e
+funa,V;IMP;2;SG;LGSPEC3,f úː n e,ɓ ôː pʰ e
+funa,V;1;PL;V.PTCP,s í f uː n a,s í f uː n a
+funa,V;BANTU6;RMT;PST,áː f uː n a,j áː f uː n a
+funa,V;BANTU8;RMT;PST;PROG,z a z i f ûː n a,w a j e f ûː n a
+funa,V;BANTU15;FUT,ɠ ú z o f uː n a,ɠ ú z o f ûː n a
+funa,V;BANTU15;RMT;PST;PROG,k w a ɠ u f ûː n a,j a j i f ûː n a
+funa,V;BANTU14;FUT,ɓ u z o f ûː n a,ɓ u z o f ûː n a
+funa,V;BANTU8;RMT;PST,z áː f uː n a,k w aː f ûː n a
+funa,V;BANTU8;RCT;PST;PROG,ɓ e z i f ûː n a,ɓ e z i f ûː n a
+funa,V;BANTU11;SBJV,l ú f uː n e,l ú f uː n e
+funa,V;BANTU17;SBJV,ɠ ú f uː n e,ɠ ú f uː n é
+funa,V;BANTU1;SBJV,a f úː n e,ú j a f ûː n e
+funa,V;BANTU3;V.PTCP,ú f uː n a,ú f uː n a
+funa,V;BANTU15;RCT;PST,ɠ u f ú n iː l e,ú f u n íː l e
+funa,V;BANTU15;RCT;PST,ɠ ú f uː n eː,ɠ ú f uː n eː
+funa,V;BANTU1;FUT,ú z o f ûː n a,ú z o f úː n a
+funa,V;2;PL;V.PTCP,n í f uː n a,n í f uː n a
+funa,V;1;SG;PRS,n ɡ i j a f ûː n a,s i j a f uː n a
+funa,V;BANTU2;RCT;PST;PROG,ɓ e ɓ e f ûː n a,ɓ e ɓ e f ûː n a
+funa,V;BANTU17;RMT;PST;PROG,k w a ɠ u f ûː n a,k w aː f ûː n a
+funa,V;BANTU17;RCT;PST,ɠ u f ú n iː l e,ɠ ú f uː n eː
+funa,V;BANTU10;PRS,z í f uː n a,z i j a f ûː n a
+funa,V;BANTU5;RMT;PST;PROG,l a l i f ûː n a,j a j i f ûː n a
+funa,V;1;SG;V.PTCP,n ɡ i f ûː n a,n ɡ i f ûː n a
+funa,V;BANTU9;PRS,íː f uː n a,íː j a f ûː n a
+funa,V;BANTU17;RCT;PST;PROG,ɓ e ɠ ú f uː n a,ɠ ú ɓ e f ûː n a
+funa,V;BANTU14;PRS,ɓ ú f uː n a,ɓ u j a f ûː n a
+funa,V;BANTU9;V.PTCP,íː f uː n a,íː f uː n a
+funa,V;BANTU9;RMT;PST,j áː f uː n a,k w aː f ûː n a
+funa,V;BANTU14;RMT;PST,ɓ aː f úː n a,ɓ a ɓ u f ûː n a
+funa,V;BANTU4;RCT;PST,í f u n íː l e,íː f uː n êː
+funa,V;BANTU4;RCT;PST,íː f u n eː,z i f ú n iː l é
+funa,V;BANTU2;V.PTCP,ɓ e f úː n a,e f úː n a
+funa,V;BANTU7;RCT;PST,s í f uː n eː,s í f uː n eː
+funa,V;BANTU15;V.PTCP,ɠ ú f uː n a,ɠ ú f uː n a
+funa,V;1;PL;PRS,s i j a f ûː n a,s i j a f uː n a
+funa,V;BANTU2;PRS,ɓ a j a f ûː n a,ɓ a j a f ûː n a
+funa,V;BANTU2;PRS,ɓ a f úː n a,ɓ a j a f ûː n a
+funa,V;BANTU9;RCT;PST,í f u n íː l e,íː f uː n êː
+funa,V;BANTU9;RCT;PST,íː f u n eː,ú f u n íː l e
+funa,V;BANTU11;RCT;PST;PROG,ɓ e l u f ûː n a,l ú f uː n eː
+funa,V;BANTU7;FUT,s i z o f ûː n a,s i z o f ûː n a
+funa,V;BANTU6;RCT;PST;PROG,a ɓ e f ûː n a,a ɓ e f ûː n a
+funa,V;BANTU9;RMT;PST;PROG,j a j i f ûː n a,j a j i f ûː n a
+funa,V;BANTU1;V.PTCP,e f úː n a,z í f uː n a
+nya,V;2;SG;SBJV,úː ɲ e,úː l aː l é
+nya,V;BANTU6;PRS,a j áː ɲ a,z í j aː ɲ a
+nya,V;1;SG;RCT;PST,ᵑɡ íː ɲ eː,n ɡ í ɲ iː l e
+nya,V;BANTU11;FUT,l ú z o ɠ uː ɲ a,l ú z o ɠ ûː ɲ a
+nya,V;BANTU5;PRS,l í j aː ɲ a,l íː ɲ a
+nya,V;BANTU15;SBJV,ɠ úː ɲ e,ɠ úː ɲ e
+nya,V;BANTU6;RMT;PST,áː ɲ a,a j áː ɲ a
+nya,V;BANTU15;FUT,ɠ ú z o ɠ uː ɲ a,ú z o ɠ ûː ɲ a
+nya,V;2;SG;RCT;PST,ú ɲ iː l é,ɲ í ɲ iː l é
+nya,V;2;SG;RCT;PST,úː ɲ eː,ɲ í ɲ iː l é
+nya,V;IMP;2;SG,j íː ɲ a,ᵑd íː z a
+nya,V;BANTU1;RCT;PST,ú ɲ iː l é,í ɲ iː l é
+nya,V;BANTU1;RCT;PST,úː ɲ eː,ɠ ú ɲ iː l e
+nya,V;BANTU3;RCT;PST;PROG,ɓ e w úː ɲ a,ɓ e w úː kʰ a
+nya,V;BANTU8;RMT;PST,z áː ɲ a,z áː ǃ oː ǀ a
+nya,V;BANTU8;RCT;PST;PROG,ɓ é z iː ɲ a,z í ɲ eː
+nya,V;BANTU17;SBJV,ɠ úː ɲ e,áː ɲ e
+nya,V;BANTU7;RMT;PST,s áː ɲ a,w áː ɲ a
+nya,V;BANTU3;RCT;PST,úː ɲ eː,ú ɲ iː l é
+nya,V;BANTU2;RCT;PST,ɓ á ɲ iː l e,ɓ á ɲ eː
+nya,V;BANTU8;PRS,z íː ɲ a,ú j aː ɲ a
+nya,V;2;PL;FUT,n í z o ɠ uː ɲ a,n i z o ɠ ûː ɲ a
+nya,V;BANTU3;FUT,ú z o ɠ uː ɲ a,ú z o ɠ ûː ɲ a
+nya,V;1;SG;PRS,ᵑɡ íː ɲ a,n ɡ i z o ɠ ûː ɲ a
+nya,V;BANTU17;RCT;PST,ɠ ú ɲ eː,ɠ ú ɲ iː l é
+nya,V;BANTU10;PRS,z í j aː ɲ a,z í j aː ɲ a
+nya,V;BANTU10;PRS,z íː ɲ a,z í j aː ɲ a
+nya,V;2;PL;RMT;PST;PROG,n á n iː ɲ a,n áː ɲ a
+nya,V;BANTU5;FUT,l i z o ɠ ûː ɲ a,l i z o ɠ ûː ɲ a
+nya,V;1;SG;V.PTCP,ᵑɡ íː ɲ a,ᵑɡ íː ɲ a
+nya,V;BANTU17;RCT;PST;PROG,ɓ é ɠ uː ɲ a,ɓ é j iː ɲ a
+nya,V;BANTU14;PRS,ɓ úː ɲ a,ɓ ú j aː ɲ a
+nya,V;2;PL;RCT;PST;PROG,n í ɓ eː ɲ a,n í ɓ eː ɲ a
+nya,V;BANTU17;PRS,ɠ úː ɲ a,z í j aː ɲ a
+nya,V;BANTU7;RCT;PST;PROG,ɓ é s iː ɲ a,ɓ é j iː ɲ a
+nya,V;1;SG;RCT;PST;PROG,ɓ é n ɡ iː ɲ a,n ɡ í ɲ iː l é
+nya,V;BANTU15;PRS,ɠ ú j aː ɲ a,ɠ úː ɲ a
+nya,V;1;PL;RMT;PST;PROG,s á s iː ɲ a,j á j iː ɲ a
+nya,V;BANTU4;RCT;PST,íː ɲ eː,í ɲ iː l é
+nya,V;2;PL;PRS,n í j aː ɲ a,n í j aː ɲ a
+nya,V;BANTU17;RMT;PST,k w áː ɲ a,k w áː ɲ a
+nya,V;BANTU11;RMT;PST;PROG,l w a l úː ɲ a,l w áː ɲ a
+nya,V;BANTU9;RCT;PST,íː ɲ eː,í ɲ iː l é
+nya,V;BANTU7;FUT,s i z o ɠ ûː ɲ a,íː z o ɠ uː ɲ a
+nya,V;BANTU1;PRS,ú j aː ɲ a,ú j aː ɲ a
+nya,V;BANTU1;PRS,úː ɲ a,ú j aː ɲ a
+nya,V;BANTU4;PRS,íː j áː ɲ a,îː ɲ a
+nya,V;BANTU6;FUT,a z o ɠ ûː ɲ a,a z o ɠ ûː ɲ a
+sebenza,V;BANTU10;RCT;PST,z i s e ɓ éː n z eː,z i s e ɓ é n z iː l e
+sebenza,V;BANTU1;RMT;PST,w aː s e ɓ êː n z a,j áː s e ɓ êː n z a
+sebenza,V;1;SG;RCT;PST,n ɡ i s e ɓ é n z iː l e,s i s e ɓ é n z iː l e
+sebenza,V;BANTU8;V.PTCP,z i s é ɓ eː n z a,z i s e ɓ eː n z a
+sebenza,V;1;PL;RCT;PST,s i s é ɓ eː n z eː,s i s e ɓ é n z iː l e
+sebenza,V;BANTU6;RMT;PST,aː s e ɓ êː n z a,w aː s e ɓ êː n z a
+sebenza,V;BANTU15;RMT;PST;PROG,k w a ɠ u s é ɓ eː n z a,j a j i s é ɓ eː n z a
+sebenza,V;IMP;2;SG,s é ɓ eː n z a,tʰ úː l a
+sebenza,V;BANTU3;RCT;PST;PROG,ɓ e w u s é ɓ eː n z a,ɓ e j i s é ɓ eː n z a
+sebenza,V;2;SG;RCT;PST;PROG,ú ɓ e s e ɓ êː n z a,ú ɓ e s e ɓ êː n z a
+sebenza,V;BANTU17;SBJV,ɠ ú s e ɓ eː n z e,ɠ ú s e ɓ éː n z e
+sebenza,V;2;SG;V.PTCP,ú s e ɓ êː n z a,n i s e ɓ eː n z a
+sebenza,V;BANTU3;V.PTCP,ú s e ɓ êː n z a,z i s e ɓ eː n z a
+sebenza,V;2;SG;PRS,ú j a s e ɓ êː n z a,ú j a s e ɓ êː n z a
+sebenza,V;2;SG;PRS,ú s e ɓ êː n z a,ú j a s e ɓ êː n z a
+sebenza,V;BANTU10;V.PTCP,z i s é ɓ eː n z a,z i s e ɓ eː n z a
+sebenza,V;BANTU17;RMT;PST;PROG,k w a ɠ u s é ɓ eː n z a,z a z i s é ɓ eː n z a
+sebenza,V;BANTU17;RCT;PST,ɠ ú s e ɓ eː n z eː,ɠ ú s e ɓ éː n z eː
+sebenza,V;2;SG;RMT;PST,w aː s e ɓ êː n z a,l áː s e ɓ eː n z a
+sebenza,V;2;PL;RMT;PST;PROG,n a n i s é ɓ eː n z a,n í ɓ e s e ɓ êː n z a
+sebenza,V;1;SG;V.PTCP,n ɡ i s é ɓ eː n z a,n ɡ i s é ɓ eː n z a
+sebenza,V;BANTU4;FUT,íː z o s e ɓ êː n z a,íː z o s e ɓ êː n z a
+sebenza,V;BANTU3;SBJV,ú s e ɓ êː n z e,ú s e ɓ éː n z e
+sebenza,V;IMP;2;PL;LGSPEC3,s e ɓ é n z eː n i,s e ɓ êː n z e
+sebenza,V;BANTU5;RCT;PST,l i s e ɓ éː n z eː,l i s e ɓ é n z iː l e
+sebenza,V;BANTU15;PRS,ɠ ú s e ɓ eː n z a,ɠ ú j a s e ɓ eː n z a
+sebenza,V;BANTU4;RCT;PST,i s e ɓ éː n z eː,í s e ɓ éː n z eː
+sebenza,V;BANTU7;RCT;PST,s i s é ɓ eː n z eː,s i s é ɓ eː n z eː
+sebenza,V;BANTU17;RMT;PST,k w aː s e ɓ êː n z a,k w aː s e ɓ êː n z a
+sebenza,V;BANTU8;SBJV,z i s e ɓ êː n z e,z i s e ɓ éː n z e
+sebenza,V;1;PL;PRS,s i s é ɓ eː n z a,s i j a s é ɓ eː n z a
+sebenza,V;BANTU2;PRS,ɓ a j a s é ɓ eː n z a,ɓ a j a s é ɓ eː n z a
+sebenza,V;BANTU1;RCT;PST;PROG,ú ɓ e s e ɓ êː n z a,ú ɓ e s e ɓ êː n z a
+sebenza,V;BANTU6;V.PTCP,e s e ɓ êː n z a,a s e ɓ éː n z a
+sebenza,V;BANTU11;RCT;PST,l ú s e ɓ eː n z eː,l ú s e ɓ éː n z eː
+sebenza,V;BANTU1;V.PTCP,e s e ɓ êː n z a,w a j a s e ɓ eː n z a
+hlangana,V;BANTU1;RMT;PST,w aː ɬ a n ɡ âː n a,w aː ɬ a n ɡ aː n a
+hlangana,V;BANTU15;SBJV,ɠ ú ɬ a n ɡ aː n e,ɠ ú ɬ a n ɡ aː n e
+hlangana,V;1;PL;RCT;PST,s i ɬ á n ɡ eː n eː,s í ɬ a n ɡ eː n eː
+hlangana,V;1;PL;V.PTCP,s í ɬ a n ɡ aː n a,s i ɬ a n ɡ aː n a
+hlangana,V;BANTU3;RMT;PST;PROG,w a w ú ɬ a n ɡ aː n a,z a z i ɬ a n ɡ âː n a
+hlangana,V;BANTU5;RMT;PST,l áː ɬ a n ɡ aː n a,l a l i ɬ a n ɡ âː n a
+hlangana,V;BANTU11;SBJV,l ú ɬ a n ɡ aː n e,l ú ɬ a n ɡ aː n e
+hlangana,V;2;SG;FUT,ú z o ɬ a n ɡ âː n a,n í z o ɬ a n ɡ âː n a
+hlangana,V;BANTU3;V.PTCP,úː ɬ a n ɡ âː n a,z i ɬ á n ɡ aː n a
+hlangana,V;BANTU15;RCT;PST,ɠ ú ɬ a n ɡ eː n eː,ɠ ú ɬ a n ɡ eː n eː
+hlangana,V;BANTU7;RMT;PST;PROG,s a s i ɬ a n ɡ âː n a,j a j i ɬ a n ɡ âː n a
+hlangana,V;BANTU17;RMT;PST;PROG,k w a ɠ u ɬ a n ɡ âː n a,j a j i ɬ a n ɡ aː n a
+hlangana,V;2;PL;RMT;PST;PROG,n a n i ɬ a n ɡ âː n a,w a w ú ɬ a n ɡ aː n a
+hlangana,V;BANTU17;RCT;PST;PROG,ɓ e ɠ u ɬ a n ɡ âː n a,ɓ e ɠ ú ɬ a n ɡ aː n a
+hlangana,V;2;PL;RMT;PST,n áː ɬ a n ɡ aː n a,w aː ɬ a n ɡ aː n a
+hlangana,V;BANTU3;SBJV,úː ɬ a n ɡ âː n e,úː ɬ a n ɡ âː n e
+hlangana,V;BANTU2;RMT;PST;PROG,ɓ a ɓ e ɬ a n ɡ âː n a,ɓ a ɓ e ɬ a n ɡ âː n a
+hlangana,V;IMP;2;PL;LGSPEC3,ɬ a n ɡ a n êː n i,ɬ a n ɡ eː n i
+hlangana,V;BANTU5;RCT;PST,l i ɬ á n ɡ eː n eː,l í ɬ a n ɡ eː n eː
+hlangana,V;BANTU15;PRS,ɠ ú j a ɬ a n ɡ aː n a,ɠ u j a ɬ a n ɡ âː n a
+hlangana,V;2;PL;PRS,n í ɬ a n ɡ aː n a,n i j a ɬ a n ɡ âː n a
+hlangana,V;BANTU15;V.PTCP,ɠ ú ɬ a n ɡ aː n a,ɠ ú ɬ a n ɡ aː n a
+hlangana,V;1;PL;PRS,s i j a ɬ a n ɡ âː n a,s i j a ɬ a n ɡ âː n a
+hlangana,V;1;PL;PRS,s í ɬ a n ɡ aː n a,s i ɬ a n ɡ âː n a
+hlangana,V;BANTU2;PRS,ɓ a j a ɬ a n ɡ âː n a,ɓ a j a ɬ a n ɡ âː n a
+hlangana,V;1;SG;FUT,n ɡ i z o ɬ a n ɡ âː n a,n ɡ i ɬ a n ɡ âː n a
+hlangana,V;BANTU1;RCT;PST;PROG,ú ɓ e ɬ a n ɡ âː n a,ɓ e z i ɬ a n ɡ aː n a
+hlangana,V;BANTU1;PRS,ú j a ɬ a n ɡ âː n a,w a j a ɬ a n ɡ âː n a
+hlangana,V;BANTU2;RMT;PST,ɓ aː ɬ a n ɡ âː n a,z áː ɬ a n ɡ aː n a
+hlangana,V;BANTU1;V.PTCP,eː ɬ a n ɡ âː n a,z i ɬ a n ɡ aː n a
+eba,V;BANTU15;RCT;PST;PROG,ɓ é ɠ w eː ɓ a,ɓ é ɓ eː ɓ a
+eba,V;BANTU6;PRS,êː ɓ a,a j éː ɓ a
+eba,V;BANTU1;RMT;PST,w éː ɓ a,k w êː ɓ a
+eba,V;1;PL;RCT;PST;PROG,s í ɓ eː ɓ a,s í ɓ eː ɓ a
+eba,V;BANTU4;RCT;PST;PROG,ɓ e j éː ɓ a,ɓ e j éː ɓ a
+eba,V;BANTU15;RMT;PST;PROG,k w a ɠ w éː ɓ a,k w a ɠ w éː ɓ a
+eba,V;2;SG;RCT;PST,w é ɓ iː l e,w éː ɓ eː
+eba,V;BANTU1;RCT;PST,w é ɓ iː l e,l éː ɓ eː
+eba,V;BANTU1;RCT;PST,w éː ɓ eː,ɓ éː ɓ eː
+eba,V;BANTU11;SBJV,l w éː ɓ e,l éː ɓ e
+eba,V;2;SG;RCT;PST;PROG,ú ɓ eː ɓ a,ú ɓ eː ɓ a
+eba,V;2;PL;RCT;PST,n é ɓ iː l e,w éː ɓ eː
+eba,V;BANTU10;RMT;PST;PROG,z áː z eː ɓ a,s á s eː ɓ a
+eba,V;BANTU1;SBJV,êː ɓ e,z éː ɓ e
+eba,V;BANTU3;V.PTCP,w éː ɓ a,w éː ɓ a
+eba,V;BANTU15;RCT;PST,k w é ɓ eː,k w é ɓ iː l é
+eba,V;IMP;2;PL,j é ɓ aː n i,n éː ɓ a
+eba,V;BANTU14;RCT;PST,ɓ é ɓ iː l e,é ɓ iː l é
+eba,V;BANTU8;PRS,z í j eː ɓ a,z í j eː ɓ a
+eba,V;BANTU8;PRS,z éː ɓ a,ú j eː ɓ a
+eba,V;BANTU7;PRS,s í j eː ɓ a,ú j eː ɓ a
+eba,V;BANTU17;RCT;PST,k w é ɓ eː,k w é ɓ iː l é
+eba,V;BANTU5;SBJV,l éː ɓ e,l éː ɓ e
+eba,V;BANTU5;FUT,l i z ó ɠ w eː ɓ a,l i z ó ɠ w eː ɓ a
+eba,V;BANTU9;PRS,êː ɓ a,íː j eː ɓ a
+eba,V;BANTU14;PRS,ɓ ú j eː ɓ a,ɓ ú j eː ɓ a
+eba,V;BANTU14;PRS,ɓ éː ɓ a,ɓ éː ɓ a
+eba,V;BANTU4;FUT,íː z o ɠ w éː ɓ a,íː z o ɠ w éː ɓ a
+eba,V;BANTU17;FUT,ɠ ú z o ɠ w eː ɓ a,k ú z o ɠ w eː ɓ a
+eba,V;BANTU2;RMT;PST;PROG,ɓ a ɓ éː ɓ a,j á j eː ɓ a
+eba,V;BANTU15;PRS,ɠ ú j eː ɓ a,ɠ ú j eː ɓ a
+eba,V;BANTU4;RCT;PST,éː ɓ eː,é ɓ iː l é
+eba,V;BANTU11;RMT;PST,l w éː ɓ a,l w éː ɓ a
+eba,V;BANTU11;RMT;PST;PROG,l w a l w éː ɓ a,j á j eː ɓ a
+eba,V;BANTU9;RCT;PST,éː ɓ eː,ɓ éː ɓ eː
+eba,V;BANTU7;FUT,s í z o ɠ w eː ɓ a,s i z ó ɠ w eː ɓ a
+eba,V;BANTU1;PRS,w éː ɓ a,ú j eː ɓ a
+eba,V;BANTU8;RCT;PST,z é ɓ iː l e,z éː ɓ eː
+eba,V;BANTU8;RCT;PST,z éː ɓ eː,z éː ɓ eː
+eba,V;BANTU4;PRS,íː j eː ɓ a,z í j eː ɓ a
+eba,V;BANTU14;SBJV,ɓ êː ɓ e,êː ɓ e
+eba,V;BANTU1;V.PTCP,êː ɓ a,ɓ éː ɓ a
+sika,V;BANTU1;RMT;PST,w áː s iː ɠ a,w áː s iː ɠ a
+sika,V;BANTU4;RCT;PST;PROG,ɓ e j i s íː ɠ a,í s i ɠ íː l e
+sika,V;BANTU15;SBJV,ɠ ú s iː ɠ e,ɠ ú s iː ɠ é
+sika,V;BANTU6;RMT;PST,áː s iː ɠ a,j áː s iː ɠ a
+sika,V;BANTU8;RMT;PST;PROG,z a z i s íː ɠ a,z a z i s íː ɠ a
+sika,V;2;SG;RCT;PST,ú s i ɠ íː l e,n ɡ i s íː ɠ eː
+sika,V;IMP;2;SG,s íː ɠ a,v úː l a
+sika,V;BANTU8;RCT;PST;PROG,ɓ e z i s íː ɠ a,ɓ e z i s íː ɠ a
+sika,V;BANTU14;V.PTCP,ɓ ú s iː ɠ a,ɓ ú s iː ɠ a
+sika,V;2;SG;V.PTCP,ú s iː ɠ a,ú s iː ɠ a
+sika,V;BANTU3;RCT;PST,ú s i ɠ íː l e,ú s iː ɠ êː
+sika,V;BANTU3;V.PTCP,ú s iː ɠ a,ú s iː ɠ a
+sika,V;BANTU2;RCT;PST,ɓ a s í ɠ iː l e,ɓ é s iː ɠ eː
+sika,V;BANTU8;PRS,z i j a s íː ɠ a,z i j a s íː ɠ a
+sika,V;2;PL;V.PTCP,n í s iː ɠ a,n í s iː ɠ a
+sika,V;1;SG;PRS,n ɡ i j a s íː ɠ a,n ɡ i s íː ɠ a
+sika,V;BANTU2;SBJV,ɓ a s íː ɠ e,z í s iː ɠ é
+sika,V;BANTU17;RCT;PST,ɠ u s í ɠ iː l e,ɠ u s í ɠ iː l é
+sika,V;BANTU17;RCT;PST,ɠ ú s iː ɠ eː,z i s í ɠ iː l e
+sika,V;BANTU5;FUT,l i z ó s iː ɠ a,l i z ó s iː ɠ a
+sika,V;BANTU9;PRS,í s iː ɠ a,í s iː ɠ a
+sika,V;BANTU17;RCT;PST;PROG,ɓ e ɠ ú s iː ɠ a,ɓ e j i s íː ɠ a
+sika,V;BANTU14;PRS,ɓ u j a s íː ɠ a,ɓ u j a s íː ɠ a
+sika,V;2;PL;RCT;PST;PROG,n í ɓ e s iː ɠ a,n i ɓ é s iː ɠ a
+sika,V;BANTU4;V.PTCP,í s iː ɠ a,í s iː ɠ a
+sika,V;BANTU6;SBJV,a s íː ɠ e,a j a s íː ɠ e
+sika,V;BANTU11;PRS,l ú j a s iː ɠ a,l ú j a s íː ɠ a
+sika,V;1;SG;RCT;PST;PROG,ɓ e n ɡ i s íː ɠ a,ɓ e n ɡ i kʰ êː tʰ a
+sika,V;BANTU15;PRS,ɠ ú s iː ɠ a,ɠ ú j a s iː ɠ a
+sika,V;BANTU4;RCT;PST,i s í ɠ iː l e,í s iː ɠ êː
+sika,V;BANTU7;RCT;PST,s i s í ɠ eː,s í s iː ɠ êː
+sika,V;BANTU8;SBJV,z í s iː ɠ é,z í s iː ɠ é
+sika,V;BANTU6;RMT;PST;PROG,a j e s íː ɠ a,j a j i s íː ɠ a
+sika,V;BANTU15;RMT;PST,k w áː s iː ɠ a,j áː s iː ɠ a
+sika,V;BANTU8;RCT;PST,z i s í ɠ iː l e,z í s iː ɠ êː
+sika,V;BANTU8;RCT;PST,z i s í ɠ eː,z í s iː ɠ êː
+sika,V;BANTU9;SBJV,í s iː ɠ é,í s iː ɠ é
+sika,V;BANTU11;RCT;PST,l ú s i ɠ íː l e,l ú s iː ɠ eː
+sika,V;BANTU11;V.PTCP,l ú s iː ɠ a,l ú s iː ɠ a
+sika,V;BANTU1;V.PTCP,é s iː ɠ a,ú s iː ɠ a
+bonga,V;2;SG;SBJV,ú ɓ oː n ɡ e,ú ɓ oː n ɡ e
+bonga,V;BANTU4;RCT;PST;PROG,ɓ e j í ɓ oː n ɡ a,ɓ e j í ɓ oː n ɡ a
+bonga,V;BANTU7;SBJV,s í ɓ oː n ɡ e,s í ɓ oː n ɡ e
+bonga,V;BANTU15;SBJV,ɠ ú ɓ oː n ɡ e,ɠ ú ɓ oː n ɡ e
+bonga,V;IMP;2;SG;LGSPEC3,ɓ óː n ɡ e,ɓ ó n ɡ eː n i
+bonga,V;BANTU15;FUT,ɠ ú z o ɓ oː n ɡ a,ɠ ú z o ɓ oː n ɡ a
+bonga,V;2;SG;RMT;PST;PROG,w a w ú ɓ oː n ɡ a,w a w ú ɓ oː n ɡ a
+bonga,V;2;SG;RCT;PST,ú ɓ oː n ɡ eː,j á ɓ oː n ɡ eː
+bonga,V;IMP;2;SG,ɓ ôː n ɡ a,tʰ a n d âː n a
+bonga,V;BANTU3;RCT;PST;PROG,ɓ e w ú ɓ oː n ɡ a,ɓ e ɠ ú ɓ oː n ɡ a
+bonga,V;BANTU8;RCT;PST;PROG,ɓ e z í ɓ oː n ɡ a,ɓ e j í ɓ oː n ɡ a
+bonga,V;1;PL;FUT,s i z ó ɓ oː n ɡ a,s í z o ɓ oː n ɡ a
+bonga,V;BANTU10;RMT;PST;PROG,z a z í ɓ oː n ɡ a,z a z í ɓ oː n ɡ a
+bonga,V;2;SG;V.PTCP,ú ɓ oː n ɡ a,ú ɓ oː n ɡ a
+bonga,V;BANTU3;V.PTCP,ú ɓ oː n ɡ a,éː ɓ oː n ɡ a
+bonga,V;BANTU15;RCT;PST,ɠ ú ɓ oː n ɡ eː,ɠ ú ɓ o n ɡ iː l e
+bonga,V;2;SG;PRS,ú j a ɓ ôː n ɡ a,ú j a ɓ ôː n ɡ a
+bonga,V;BANTU8;PRS,z í ɓ oː n ɡ a,z i j á ɓ oː n ɡ a
+bonga,V;1;PL;SBJV,s í ɓ oː n ɡ e,s í ɓ oː n ɡ e
+bonga,V;1;SG;PRS,n ɡ í ɓ oː n ɡ a,n ɡ i ɓ ôː n ɡ a
+bonga,V;BANTU2;RCT;PST;PROG,ɓ e ɓ é ɓ oː n ɡ a,ɓ e ɓ é ɓ oː n ɡ a
+bonga,V;BANTU7;PRS,s í ɓ oː n ɡ a,s i j a ɓ ôː n ɡ a
+bonga,V;BANTU17;RCT;PST,ɠ ú ɓ o n ɡ iː l e,ɠ ú ɓ oː n ɡ eː
+bonga,V;2;PL;RMT;PST;PROG,n á n i ɓ oː n ɡ a,n áː ɓ oː n ɡ a
+bonga,V;BANTU14;PRS,ɓ u j a ɓ ôː n ɡ a,ɓ u j a ɓ ôː n ɡ a
+bonga,V;BANTU17;PRS,ɠ ú j a ɓ oː n ɡ a,ɠ ú j a ɓ ôː n ɡ a
+bonga,V;BANTU17;PRS,ɠ ú ɓ oː n ɡ a,k ú j a ɓ oː n ɡ a
+bonga,V;BANTU14;RMT;PST,ɓ áː ɓ oː n ɡ a,ɓ áː ɓ oː n ɡ a
+bonga,V;BANTU14;RCT;PST;PROG,ɓ e ɓ ú ɓ oː n ɡ a,ɓ e ɓ ú ɓ oː n ɡ a
+bonga,V;BANTU15;PRS,ɠ ú j a ɓ oː n ɡ a,ɠ ú j a ɓ oː n ɡ a
+bonga,V;BANTU7;RCT;PST,s í ɓ oː n ɡ eː,s i ɓ ó n ɡ iː l é
+bonga,V;1;PL;PRS,s i j á ɓ oː n ɡ a,s í ɓ oː n ɡ a
+bonga,V;BANTU11;RMT;PST;PROG,l w a l ú ɓ oː n ɡ a,j a j í ɓ oː n ɡ a
+bonga,V;BANTU9;RCT;PST,íː ɓ oː n ɡ eː,íː ɓ o n ɡ íː l e
+bonga,V;1;SG;FUT,n ɡ i z ó ɓ oː n ɡ a,s i z ó ɓ oː n ɡ a
+bonga,V;BANTU8;RCT;PST,z í ɓ oː n ɡ eː,íː ɓ o n ɡ íː l e
+bonga,V;BANTU2;RMT;PST,ɓ áː ɓ oː n ɡ a,ɓ a j é ɓ oː n ɡ a
+iza,V;BANTU3;PRS,ú j eː z a,ú j eː z a
+iza,V;BANTU11;FUT,l ú z o ɠ uː z a,l ú z o ɠ uː z a
+iza,V;BANTU7;SBJV,s íː z e,s íː z e
+iza,V;BANTU5;PRS,l í j eː z a,l íː j eː z a
+iza,V;BANTU5;V.PTCP,l íː z a,êː z a
+iza,V;BANTU3;RMT;PST;PROG,w a w úː z a,j a j íː z a
+iza,V;BANTU3;RCT;PST;PROG,ɓ e w úː z a,ɓ e ɠ ûː z a
+iza,V;BANTU8;RMT;PST,z áː z a,ɓ âː z a
+iza,V;2;SG;RCT;PST;PROG,ú ɓ eː z a,w a w úː z a
+iza,V;BANTU1;RMT;PST;PROG,w a j êː z a,j a j íː z a
+iza,V;BANTU2;RCT;PST,ɓ é z iː l e,úː z eː
+iza,V;BANTU14;RCT;PST,ɓ úː z eː,ɓ úː z eː
+iza,V;2;PL;FUT,n í z o ɠ uː z a,n i z o ɠ ûː z a
+iza,V;BANTU10;V.PTCP,z íː z a,z íː z a
+iza,V;BANTU3;FUT,ú z o ɠ uː z a,ɠ u z o ɠ ûː z a
+iza,V;BANTU2;RCT;PST;PROG,ɓ é ɓ eː z a,ɓ é ɓ eː z a
+iza,V;BANTU2;SBJV,ɓ êː z e,ɓ a j íː z e
+iza,V;2;SG;RMT;PST,w áː z a,w áː z a
+iza,V;BANTU5;RMT;PST;PROG,l a l íː z a,l áː z a
+iza,V;2;PL;RCT;PST;PROG,n í ɓ eː z a,n í ɓ eː z a
+iza,V;BANTU10;RMT;PST,z áː z a,z áː z a
+iza,V;BANTU14;RMT;PST;PROG,ɓ a ɓ úː z a,j a j íː z a
+iza,V;BANTU3;SBJV,úː z e,îː z e
+iza,V;BANTU11;PRS,l ú j eː z a,l ú j eː z a
+iza,V;BANTU17;PRS,ɠ úː z a,ɠ ú j eː z a
+iza,V;BANTU9;RMT;PST,j áː z a,j áː z a
+iza,V;1;SG;RCT;PST;PROG,ɓ e n ɡ íː z a,ú ɓ eː z a
+iza,V;2;PL;PRS,n í j eː z a,n íː z a
+iza,V;1;PL;PRS,s í j eː z a,s íː z a
+iza,V;1;PL;PRS,s íː z a,s íː z a
+iza,V;BANTU6;RMT;PST;PROG,a j éː z a,z a z íː z a
+iza,V;BANTU9;RCT;PST,íː z eː,úː z eː
+iza,V;BANTU11;RCT;PST;PROG,ɓ é l uː z a,l úː z eː
+iza,V;BANTU1;PRS,ú j eː z a,z í j eː z a
+bulala,V;1;PL;RCT;PST;PROG,s i ɓ e ɓ u l âː l a,s i ɓ e l a l êː l a
+bulala,V;BANTU5;PRS,l i ɓ ú l aː l a,l i ɓ u l âː l a
+bulala,V;BANTU10;SBJV,z i ɓ ú l aː l e,z i ɓ u l âː l e
+bulala,V;BANTU10;FUT,z i z o ɓ ú l aː l a,z i z o ɓ u l âː l a
+bulala,V;1;PL;V.PTCP,s i ɓ u l âː l a,s i ɓ ú l aː l a
+bulala,V;BANTU8;RMT;PST;PROG,z a z i ɓ ú l aː l a,z a z i ɓ u l âː l a
+bulala,V;BANTU5;V.PTCP,l i ɓ ú l aː l a,l i ɓ ú l eː l a
+bulala,V;2;SG;RCT;PST,ú ɓ u l éː l eː,n i ɓ u l eː l eː
+bulala,V;BANTU3;RMT;PST;PROG,w a w u ɓ ú l aː l a,z a z i ɓ u l âː l a
+bulala,V;BANTU1;RCT;PST,ú ɓ u l éː l eː,ɓ ú l aː l eː
+bulala,V;BANTU3;RCT;PST;PROG,ɓ e w u ɓ ú l aː l a,ɓ e w u ɓ ú l aː l a
+bulala,V;BANTU8;RMT;PST,z áː ɓ u l aː l a,z áː ɓ u l aː l a
+bulala,V;1;PL;FUT,s i z o ɓ u l âː l a,s í z o ɓ ú l aː l a
+bulala,V;BANTU1;SBJV,a ɓ ú l aː l e,ɓ ú l aː l e
+bulala,V;2;SG;V.PTCP,ú ɓ u l âː l a,ú ɓ u l âː l a
+bulala,V;IMP;2;PL,ɓ u l a l âː n i,ɓ ú l aː n i
+bulala,V;BANTU3;FUT,ú z o ɓ u l âː l a,ú z o ɓ u l âː l a
+bulala,V;2;PL;V.PTCP,n i ɓ ú l aː l a,n í ɓ u l âː l a
+bulala,V;BANTU2;RCT;PST;PROG,ɓ e ɓ e ɓ u l âː l a,ɓ e ɓ u l eː l eː
+bulala,V;BANTU2;SBJV,ɓ a ɓ ú l aː l e,ɓ e ɓ u l âː l e
+bulala,V;2;PL;RMT;PST;PROG,n a n i ɓ u l âː l a,n á n i ɓ ú l aː l a
+bulala,V;BANTU5;FUT,l i z o ɓ u l âː l a,l i z o ɓ ú l aː l a
+bulala,V;BANTU9;PRS,íː j a ɓ u l âː l a,í j a ɓ u l âː l a
+bulala,V;BANTU17;RCT;PST;PROG,ɓ e ɠ u ɓ u l âː l a,ɓ e ɠ ú l aː l a
+bulala,V;2;PL;RCT;PST;PROG,n i ɓ e ɓ u l âː l a,n í ɓ u l eː l eː
+bulala,V;BANTU10;RMT;PST,z áː ɓ u l aː l a,z áː ɓ u l aː l a
+bulala,V;BANTU6;SBJV,a ɓ ú l aː l e,z i ɓ ú l aː l e
+bulala,V;BANTU9;RMT;PST,j áː ɓ u l aː l a,j a j a ɓ u l âː l a
+bulala,V;BANTU14;RMT;PST,ɓ aː ɓ u l âː l a,ɓ a ɓ u ɓ u l âː l a
+bulala,V;1;SG;RCT;PST;PROG,ɓ e n ɡ i ɓ u l âː l a,ú ɓ e ɓ u l âː l a
+bulala,V;BANTU2;PRS,ɓ a ɓ u l âː l a,ɓ a j a ɓ u l âː l a
+bulala,V;BANTU1;RCT;PST;PROG,ú ɓ e ɓ u l âː l a,ú ɓ e ɓ u l âː l a
+bulala,V;BANTU9;FUT,íː z o ɓ u l âː l a,íː z o ɓ ú l aː l a
+pha,V;BANTU3;PRS,úː pʰ a,ú j aː pʰ á
+pha,V;BANTU11;FUT,l ú z o ɠ uː pʰ a,l ú z o ɠ ûː pʰ a
+pha,V;BANTU7;SBJV,s íː pʰ e,s íː pʰ e
+pha,V;BANTU5;PRS,l í j aː pʰ a,l í j aː pʰ a
+pha,V;NFIN,ú ɠ uː pʰ á,ú ɠ uː j á
+pha,V;BANTU15;SBJV,ɠ úː pʰ e,ɠ úː pʰ e
+pha,V;1;PL;RCT;PST,s í pʰ iː l é,s íː pʰ eː
+pha,V;2;PL;SBJV,n íː pʰ e,n íː pʰ a
+pha,V;2;SG;RMT;PST;PROG,w a w úː pʰ a,w a w ú ɬ a n ɡ aː n a
+pha,V;2;SG;RCT;PST,úː pʰ eː,ú ɓ eː pʰ á
+pha,V;BANTU1;RCT;PST,úː pʰ eː,z íː pʰ eː
+pha,V;BANTU8;RMT;PST,z áː pʰ a,z áː pʰ a
+pha,V;BANTU3;RCT;PST,úː pʰ eː,îː pʰ eː
+pha,V;BANTU8;PRS,z í j aː pʰ a,z í j aː pʰ a
+pha,V;1;PL;SBJV,s íː pʰ e,s íː pʰ e
+pha,V;2;PL;V.PTCP,n íː pʰ a,n íː pʰ a
+pha,V;BANTU17;RMT;PST;PROG,k w a ɠ ûː pʰ a,k w a ɠ ûː pʰ a
+pha,V;BANTU5;SBJV,l íː pʰ e,l íː pʰ e
+pha,V;BANTU10;PRS,z íː pʰ a,z í j aː pʰ a
+pha,V;1;SG;RCT;PST;PROG,ɓ e n ɡ íː pʰ a,ú ɓ eː pʰ á
+pha,V;BANTU15;PRS,ɠ ú j aː pʰ a,k úː pʰ a
+pha,V;BANTU2;V.PTCP,ɓ êː pʰ a,êː pʰ a
+pha,V;BANTU7;RCT;PST,s íː pʰ eː,îː pʰ eː
+pha,V;1;SG;SBJV,ᵑɡ íː pʰ e,ᵑɡ íː pʰ a
+pha,V;BANTU15;RMT;PST,k w áː pʰ a,w áː pʰ a
+pha,V;BANTU9;RCT;PST,íː pʰ iː l é,z íː pʰ eː
+pha,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ íː pʰ a,s a s íː pʰ a
+pha,V;BANTU1;PRS,ú j aː pʰ á,ɠ ú j aː pʰ a
+pha,V;BANTU1;PRS,úː pʰ a,íː j áː pʰ a
+pha,V;BANTU11;RCT;PST,l úː pʰ eː,l úː pʰ eː
+pha,V;BANTU2;RMT;PST,ɓ âː pʰ a,ɓ áː pʰ a
+pha,V;BANTU14;SBJV,ɓ úː pʰ e,ɓ úː pʰ a
+pha,V;BANTU9;FUT,íː z o ɠ ûː pʰ a,íː z o ɠ uː pʰ á
+lwa,V;BANTU8;FUT,z i z o ɠ ûː l w a,z i z o ɠ ûː l w a
+lwa,V;BANTU8;RMT;PST;PROG,z á z iː l w a,z áː l w a
+lwa,V;2;SG;RMT;PST;PROG,w a w úː l w a,w a w ú kʰ aː l a
+lwa,V;2;SG;RCT;PST,úː l w eː,úː l w eː
+lwa,V;IMP;2;SG,j íː l w a,j íː l w e
+lwa,V;BANTU1;RCT;PST,úː l w eː,úː l w eː
+lwa,V;BANTU1;SBJV,áː l w e,úː l w e
+lwa,V;BANTU3;RCT;PST,ú l w íː l e,z í l w iː l é
+lwa,V;BANTU1;FUT,ú z o ɠ uː l w á,ɠ ú z o ɠ ûː l w a
+lwa,V;BANTU5;RCT;PST;PROG,ɓ é l iː l w a,l í ɓ eː l w a
+lwa,V;BANTU2;RCT;PST,ɓ áː l w eː,z í l w iː l e
+lwa,V;1;PL;SBJV,s íː l w e,s íː l w e
+lwa,V;BANTU2;RCT;PST;PROG,ɓ é ɓ eː l w a,ɓ é ɓ eː l w a
+lwa,V;BANTU17;RMT;PST;PROG,k w a ɠ úː l w a,k w a ɠ úː l w a
+lwa,V;BANTU17;RCT;PST,ɠ úː l w eː,íː l w íː l e
+lwa,V;BANTU10;PRS,z íː l w a,z í j aː l w a
+lwa,V;BANTU9;RCT;PST;PROG,ɓ e j íː l w a,ɓ e j íː l w a
+lwa,V;BANTU14;PRS,ɓ ú j aː l w a,ɓ ú j aː l w a
+lwa,V;BANTU4;FUT,íː z o ɠ ûː l w a,ɠ u z o ɠ uː l w a
+lwa,V;BANTU17;FUT,ɠ ú z o ɠ uː l w a,ɠ ú z o ɠ ûː l w a
+lwa,V;BANTU6;SBJV,áː l w e,áː l w e
+lwa,V;BANTU11;PRS,l ú j aː l w a,l ú j aː l w a
+lwa,V;BANTU14;RMT;PST,ɓ áː l w a,ɓ áː l w a
+lwa,V;1;PL;PRS,s íː l w a,s í j aː l w a
+lwa,V;BANTU6;RCT;PST,á l w iː l é,a ɓ áː l w a
+lwa,V;BANTU2;PRS,ɓ a j áː l w a,ɓ a s íː l w a
+lwa,V;BANTU4;RMT;PST;PROG,j a j íː l w a,j a j íː l w a
+lwa,V;BANTU9;FUT,íː z o ɠ ûː l w a,íː z o ɠ úː l w a
+lwa,V;BANTU1;V.PTCP,êː l w a,z íː l w a
+vala,V;BANTU10;RCT;PST,z i v á l iː l e,z í v aː l eː
+vala,V;BANTU1;RMT;PST,w áː v aː l a,k w aː v áː l a
+vala,V;BANTU4;RMT;PST,j áː v aː l a,l w aː v áː l a
+vala,V;BANTU3;RMT;PST,w áː v aː l a,w áː v aː l a
+vala,V;BANTU15;SBJV,ɠ ú v aː l e,ɠ ú v aː l e
+vala,V;BANTU6;RMT;PST,áː v aː l a,k w aː v áː l a
+vala,V;BANTU15;RMT;PST;PROG,k w a ɠ ú v aː l a,z a z í v aː l a
+vala,V;BANTU8;RMT;PST,z áː v aː l a,k w aː v áː l a
+vala,V;BANTU8;RCT;PST;PROG,ɓ e z i v âː l a,ɓ e ɠ ú v aː l a
+vala,V;BANTU17;SBJV,ɠ ú v aː l e,ɠ ú v aː l e
+vala,V;BANTU10;RMT;PST;PROG,z a z í v aː l a,z a z í v aː l a
+vala,V;2;SG;FUT,ú z o v âː l a,ú z o v áː l a
+vala,V;BANTU15;RCT;PST,ɠ ú v aː l eː,ɠ u v a l íː l e
+vala,V;BANTU4;SBJV,íː v aː l e,íː v aː l e
+vala,V;BANTU3;FUT,ú z o v âː l a,k ú z o v âː l a
+vala,V;BANTU7;PRS,s i j a v âː l a,s i j a v aː l a
+vala,V;BANTU5;SBJV,l í v aː l e,l í v aː l e
+vala,V;BANTU10;PRS,z i j a v âː l a,z i j a v aː l a
+vala,V;BANTU5;RMT;PST;PROG,l a l í v aː l a,l a l í v aː l a
+vala,V;BANTU14;PRS,ɓ ú v aː l a,ɓ u j a v âː l a
+vala,V;BANTU17;V.PTCP,ɠ ú v aː l a,ɠ ú v aː l a
+vala,V;2;PL;RMT;PST,n áː v aː l a,n áː v aː l a
+vala,V;BANTU17;FUT,ɠ ú z o v aː l a,ɠ ú z o v âː l a
+vala,V;BANTU10;RMT;PST,z áː v aː l a,z áː v aː l a
+vala,V;BANTU14;RMT;PST;PROG,ɓ a ɓ u v âː l a,j a j í v aː l a
+vala,V;BANTU11;PRS,l ú v aː l a,l ú j a v aː l a
+vala,V;1;SG;RCT;PST;PROG,ɓ e n ɡ i v âː l a,n ɡ i v á l iː l e
+vala,V;1;PL;RMT;PST;PROG,s a s í v aː l a,s a s í v aː l a
+vala,V;BANTU7;RCT;PST,s í v aː l eː,s í v aː l eː
+vala,V;BANTU8;SBJV,z í v aː l e,z í v aː l e
+vala,V;1;PL;PRS,s í v aː l a,s í v aː l a
+vala,V;BANTU6;RMT;PST;PROG,a j e v âː l a,z a z í v aː l a
+vala,V;BANTU2;PRS,ɓ a v áː l a,ɓ a j a v aː l a
+vala,V;BANTU4;RMT;PST;PROG,j a j í v aː l a,j a j í v aː l a
+sondela,V;2;SG;SBJV,ú s o n d êː l e,ú s o n d eː l e
+sondela,V;BANTU10;RCT;PST,z i s ó n d eː l eː,z i s ó n d eː l eː
+sondela,V;BANTU6;PRS,a j a s ó n d eː l a,a j a s ó n d eː l a
+sondela,V;1;SG;RCT;PST,n ɡ i s ó n d eː l eː,ú s o n d eː l eː
+sondela,V;BANTU8;V.PTCP,z i s ó n d eː l a,z i s óː n d eː l a
+sondela,V;BANTU15;SBJV,ɠ ú s o n d eː l e,ɠ ú s o n d eː l e
+sondela,V;1;PL;V.PTCP,s i s ó n d eː l a,s i s ó n d eː l a
+sondela,V;IMP;2;SG,s ó n d eː l a,ᵑd íː z a
+sondela,V;BANTU11;SBJV,l ú s o n d eː l e,l ú s o n d eː l a
+sondela,V;BANTU14;V.PTCP,ɓ u s ó n d eː l a,ɓ u s ó n d eː l a
+sondela,V;2;PL;RCT;PST,n í s o n d eː l eː,n i s ó n d eː l eː
+sondela,V;2;SG;V.PTCP,ú s o n d éː l a,s o n d eː l a
+sondela,V;BANTU4;SBJV,í s o n d êː l e,z i s ó n d eː l e
+sondela,V;BANTU5;RCT;PST;PROG,ɓ e l i s ó n d eː l a,ɓ e l i s ó n d eː l a
+sondela,V;1;PL;SBJV,s i s ó n d eː l e,s i s ó n d eː l e
+sondela,V;BANTU7;PRS,s i j a s ó n d eː l a,s i j a s o n d eː l a
+sondela,V;BANTU17;RCT;PST,ɠ ú s o n d eː l eː,ɠ u s ó n d eː l eː
+sondela,V;BANTU10;PRS,z i s ó n d eː l a,z i j a s ó n d eː l a
+sondela,V;2;SG;RMT;PST,w áː s o n d eː l a,n ɡ aː s ó n d eː l a
+sondela,V;2;PL;RMT;PST;PROG,n a n i s ó n d eː l a,w a w u s ó n d eː l a
+sondela,V;1;SG;V.PTCP,n ɡ i s ó n d eː l a,e s ó n d eː l a
+sondela,V;BANTU17;RCT;PST;PROG,ɓ e ɠ u s ó n d eː l a,ɓ e j i s ó n d eː l a
+sondela,V;2;PL;RMT;PST,n áː s o n d eː l a,n i s ó n d eː l eː
+sondela,V;2;PL;RCT;PST;PROG,n i ɓ e s ó n d eː l a,n í ɓ e s óː n d eː l a
+sondela,V;BANTU6;SBJV,a s ó n d eː l e,z i s ó n d eː l e
+sondela,V;BANTU2;RMT;PST;PROG,ɓ a ɓ e s ó n d eː l a,ɓ a ɓ e s ó n d eː l a
+sondela,V;1;PL;RMT;PST,s áː s o n d eː l a,s áː s o n d eː l a
+sondela,V;BANTU14;RMT;PST,ɓ áː s o n d eː l a,w áː s o n d eː l a
+sondela,V;BANTU14;RCT;PST;PROG,ɓ e ɓ u s ó n d eː l a,ɓ u s ó n d eː l eː
+sondela,V;BANTU15;PRS,ɠ u s ó n d eː l a,ɠ ú j a s o n d eː l a
+sondela,V;BANTU4;RCT;PST,í s o n d éː l eː,í s o n d éː l eː
+sondela,V;2;PL;PRS,n i j a s ó n d eː l a,n i j a s ó n d eː l a
+sondela,V;BANTU15;V.PTCP,ɠ u s ó n d eː l a,ɠ u s ó n d eː l a
+sondela,V;1;SG;SBJV,n ɡ i s óː n d eː l e,n ɡ i s ó n d eː l a
+sondela,V;1;SG;RMT;PST;PROG,n ɡ a n ɡ i s ó n d eː l a,n ɡ aː s ó n d eː l a
+sondela,V;BANTU4;PRS,í s o n d éː l a,íː j a s ó n d eː l a
+sondela,V;BANTU11;RCT;PST,l ú s o n d eː l eː,l ú s o n d eː l eː
+sondela,V;BANTU14;SBJV,ɓ u s ó n d eː l e,ɓ u s ó n d eː l e
+sondela,V;BANTU9;RMT;PST;PROG,j a j i s ó n d eː l a,j a j i s ó n d eː l a
+sukuma,V;BANTU3;PRS,ú s u ɠ ûː m a,ú j a s u ɠ ûː m a
+sukuma,V;BANTU8;RMT;PST;PROG,z a z i s ú ɠ uː m a,z a z i s ú ɠ uː m a
+sukuma,V;2;SG;RCT;PST,ú s u ɠ u m íː l e,ú s u ɠ ú m iː l e
+sukuma,V;2;SG;RCT;PST,ú s u ɠ ú m eː,ú s u ɠ ú m eː
+sukuma,V;BANTU5;RMT;PST,l áː s u ɠ uː m a,w aː s u ɠ ûː m a
+sukuma,V;2;PL;RCT;PST,n i s u ɠ ú m iː l e,n í s u ɠ ú m iː l e
+sukuma,V;BANTU1;SBJV,a s ú ɠ uː m e,ú s u ɠ ûː m e
+sukuma,V;2;SG;V.PTCP,ú s u ɠ ûː m a,ú s u ɠ ûː m a
+sukuma,V;2;SG;FUT,ú z o s u ɠ ûː m a,ú z o s u ɠ ûː m a
+sukuma,V;BANTU3;V.PTCP,ú s u ɠ ûː m a,ú s u ɠ ûː m a
+sukuma,V;BANTU2;RCT;PST,ɓ a s u ɠ ú m eː,ɓ a s u ɠ ú m iː l e
+sukuma,V;BANTU14;RCT;PST,ɓ u s u ɠ ú m iː l e,ɓ ú s u ɠ u m êː
+sukuma,V;2;PL;FUT,n i z o s ú ɠ uː m a,n i z o s ú ɠ uː m a
+sukuma,V;BANTU10;V.PTCP,z i s ú ɠ uː m a,z i s ú ɠ uː m a
+sukuma,V;BANTU2;RCT;PST;PROG,ɓ e ɓ e s ú ɠ uː m a,ɓ e ɓ e s ú ɠ uː m a
+sukuma,V;2;PL;RMT;PST;PROG,n a n i s ú ɠ uː m a,s a s i s ú ɠ uː m a
+sukuma,V;1;SG;V.PTCP,n ɡ i s ú ɠ uː m a,n ɡ i s ú ɠ uː m a
+sukuma,V;BANTU9;PRS,íː j a s u ɠ ûː m a,íː j a s ú ɠ uː m a
+sukuma,V;BANTU14;PRS,ɓ u s u ɠ ûː m a,ɓ u s u ɠ ûː m a
+sukuma,V;BANTU17;FUT,ɠ ú z o s u ɠ uː m a,ɠ ú z o s ú ɠ uː m a
+sukuma,V;BANTU15;PRS,ɠ ú s u ɠ uː m a,ɠ ú j a s u ɠ uː m a
+sukuma,V;2;PL;PRS,n i j a s ú ɠ uː m a,n i j a s ú ɠ uː m a
+sukuma,V;2;PL;PRS,n i s ú ɠ uː m a,n i j a s ú ɠ uː m a
+sukuma,V;BANTU11;RMT;PST;PROG,l w a l u s ú ɠ uː m a,l w aː s u ɠ ûː m a
+sukuma,V;BANTU11;RCT;PST;PROG,ɓ e l u s ú ɠ uː m a,l ú s u ɠ u m êː
+sukuma,V;BANTU1;PRS,ú j a s u ɠ ûː m a,w a j a s u ɠ ûː m a
+sukuma,V;BANTU1;PRS,ú s u ɠ ûː m a,w a j a s u ɠ ûː m a
+sukuma,V;BANTU8;RCT;PST,z i s ú ɠ u m eː,z i s u ɠ ú m iː l e
+sukuma,V;BANTU9;SBJV,í s u ɠ ûː m e,í s u ɠ ûː m e
+sukuma,V;BANTU9;FUT,íː z o s u ɠ ûː m a,íː z o s u ɠ ûː m a
+zila,V;BANTU6;PRS,a j a z íː l a,a j a z íː l a
+zila,V;BANTU1;RMT;PST,w áː z iː l a,w áː z iː l a
+zila,V;BANTU7;SBJV,s í z iː l e,s í z iː l a
+zila,V;BANTU8;V.PTCP,z í z iː l a,z í z iː l a
+zila,V;NFIN,ú ɠ u z íː l a,ú ɠ u z íː l a
+zila,V;BANTU3;RMT;PST,w áː z iː l a,w áː z iː l a
+zila,V;BANTU10;FUT,z i z ó z iː l a,z i z ó z iː l a
+zila,V;2;SG;RCT;PST,ú z i l íː l e,ú j a z íː l e
+zila,V;IMP;2;SG,z íː l a,f úː n a
+zila,V;BANTU3;RCT;PST;PROG,ɓ e w ú z iː l a,ɓ e w ú z iː l a
+zila,V;BANTU8;RMT;PST,z áː z iː l a,z áː z iː l a
+zila,V;BANTU11;SBJV,l ú z iː l e,l ú z iː l é
+zila,V;BANTU10;RMT;PST;PROG,z a z i z íː l a,z a z i z íː l a
+zila,V;BANTU15;RCT;PST,ɠ ú z i l iː l é,ɠ ú z iː l eː
+zila,V;BANTU4;SBJV,íː z iː l e,íː z iː l é
+zila,V;BANTU2;RCT;PST,ɓ a z íː l eː,ɓ é z iː l eː
+zila,V;2;SG;PRS,úː z iː l a,ú j a z íː l a
+zila,V;BANTU14;RCT;PST,ɓ ú z iː l eː,ɓ ú z iː l eː
+zila,V;BANTU2;FUT,ɓ a z ó z iː l a,ɓ a z ó z iː l a
+zila,V;2;SG;RMT;PST,w áː z iː l a,w áː z iː l a
+zila,V;BANTU17;V.PTCP,ɠ ú z iː l a,ɠ ú z iː l a
+zila,V;BANTU9;V.PTCP,íː z iː l a,z í z iː l a
+zila,V;BANTU11;PRS,l ú z iː l a,l u j a z íː l a
+zila,V;BANTU5;RCT;PST,l i z í l iː l e,l i z í l iː l e
+zila,V;BANTU5;RCT;PST,l í z iː l eː,l i z í l iː l e
+zila,V;BANTU15;PRS,ɠ ú z iː l a,ɠ ú j a z íː l a
+zila,V;BANTU4;RCT;PST,íː z iː l êː,í z i l íː l e
+zila,V;BANTU15;V.PTCP,ɠ ú z iː l a,ɠ ú z iː l a
+zila,V;1;PL;PRS,s i j a z íː l a,s i j a z íː l a
+zila,V;BANTU2;PRS,ɓ a j a z íː l a,ɓ a j a z íː l a
+zila,V;BANTU15;RMT;PST,k w áː z iː l a,k w aː z íː l a
+zila,V;BANTU9;RCT;PST,íː z iː l êː,í z i l íː l e
+zila,V;BANTU4;PRS,íː j a z íː l a,íː j a z íː l a
+zila,V;BANTU11;RCT;PST,l ú z iː l eː,l ú z iː l eː
+zila,V;BANTU2;RMT;PST,ɓ áː z iː l a,z áː z iː l a
+zila,V;BANTU4;RMT;PST;PROG,j a j í z iː l a,j a j í z iː l a

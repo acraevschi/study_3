@@ -1,0 +1,1008 @@
+lemma,paradigm_slot,target,prediction
+oibrigh,V;3;SG;SBJV;PRS,ɡ ə nˠ ə bʲ ɾʲ iː ʃ eː,ɡ ɔ lˠ u ʃ eː
+oibrigh,V;3;SG;PST;IND,d̪ˠ ɛ bʲ ɾʲ i ʃ eː,d̪ˠ ɛ bʲ ɾʲ iː ʃ eː
+oibrigh,V;AUTO;PRS;IND,ɛ bʲ ɾʲ iː tʲ ə ɾˠ,ɛ bʲ ɾʲ iː tʲ ə ɾˠ
+oibrigh,V;3;SG;IMP,ɛ bʲ ɾʲ iː ʃ eː,ɛ bʲ ɾʲ oː ʃ eː
+oibrigh,V;V.MSDR,ɛ bʲ ɾʲ u,bˠ u ə lˠ u
+oibrigh,V;3;PL;IMP,ɛ bʲ ɾʲ iː dʲ iː ʃ,ɛ bʲ ɾʲ iː dʲ iː ʃ
+oibrigh,V;2;PL;COND,d̪ˠ ɛ bʲ ɾʲ oː ʃ ə vʲ,ɛ bʲ ɾʲ oː ʃ iː
+oibrigh,V;1;SG;COND,d̪ˠ ɛ bʲ ɾʲ oː n̠ʲ,ç a ŋ ɡ lˠ oː n̠ʲ
+oibrigh,V;1;SG;PST;IND,d̪ˠ ɛ bʲ ɾʲ iː mʲ eː,ɛ bʲ ɾʲ iː mʲ eː
+eagraigh,V;REL;FUT;IND,ə ɡ ɾˠ oː,ə ɡ ɾˠ oː fˠ ə ɾˠ
+eagraigh,V;AUTO;PST;HAB;IND,dʲ a ɡ ɾˠ iː tʲ iː,dʲ a ɡ ɾˠ iː tʲ i
+eagraigh,V;1;PL;IMP,a ɡ ɾˠ iː mʲ ə ʃ,a ɡ ɾˠ iː mʲ ə ʃ
+eagraigh,V;REL;PST;IND,ə dʲ a ɡ ɾˠ i,ə dʲ a ɡ ɾˠ iː u
+eagraigh,V;2;PL;SBJV;PST,d̪ˠ aː n̪ˠ a ɡ ɾˠ iː ʃ i vʲ,d̪ˠ aː n̠ʲ a ɡ ɾˠ iː ʃ iː
+eagraigh,V;3;SG;PST;IND,dʲ a ɡ ɾˠ iː ʃ eː,dʲ a ɡ ɾˠ iː tʲ ʃ eː
+eagraigh,V;3;PL;PST;IND,dʲ a ɡ ɾˠ i ʃ i ə d̪ˠ,a ɡ ɾˠ iː dʲ iː ʃ
+eagraigh,V;3;PL;SBJV;PST,d̪ˠ aː n̪ˠ a ɡ ɾˠ iː dʲ iː ʃ,d̪ˠ aː vʲ eː d̪ˠ ə dʲ iː ʃ
+eagraigh,V;2;PL;PRS;IND,a ɡ ɾˠ iː n̪ˠ ʃ iː,dʲ a ɡ ɾˠ oː ʃ ə vʲ
+eagraigh,V;3;SG;IMP,a ɡ ɾˠ iː ʃ eː,a ɡ ɾˠ iː tʲ ʃ eː
+eagraigh,V;2;PL;FUT;IND,a ɡ ɾˠ oː ʃ ə vʲ,a ɡ ɾˠ oː ʃ iː
+eagraigh,V;V.MSDR,a ɡ ɾˠ u,bˠ a lʲ u
+eagraigh,V;2;PL;COND,dʲ a ɡ ɾˠ oː ʃ ə vʲ,a ɡ ɾˠ oː ʃ iː
+eagraigh,V;2;PL;PST;IND,dʲ a ɡ ɾˠ iː ʃ iː,dʲ a ɡ ɾˠ iː ʃ i vʲ
+luaigh,V;REL;FUT;IND,ə l̪ˠ u ə h ə,ə x ɾʲ ɛ tʲ h ə
+luaigh,V;1;SG;IMP,l̪ˠ u ə mʲ,l̪ˠ u ə mʲ
+luaigh,V;1;PL;PRS;IND,l̪ˠ u ə mʲ ə dʲ,l̪ˠ u ə h ə mʲ ə dʲ
+luaigh,V;2;PL;SBJV;PST,d̪ˠ aː l̪ˠ u ə ʃ iː,d̪ˠ aː l̪ˠ u ə ʃ i vʲ
+luaigh,V;REL;COND,ə l̪ˠ u ə h u,ə l̪ˠ u ə h u
+luaigh,V;2;PL;SBJV;PRS,ɡ ɔ lˠ u ə ʃ ə vʲ,ɡ ɔ lˠ u ə ʃ ə vʲ
+luaigh,V;3;PL;PST;IND,l̪ˠ u ə ʃ i ə d̪ˠ,l̪ˠ u ə ʃ i ə d̪ˠ
+luaigh,V;1;PL;COND,l̪ˠ u ə fˠ ə mʲ ə ʃ,l̪ˠ u ə mʲ ə ʃ
+luaigh,V;3;PL;SBJV;PRS,ɡ ɔ lˠ u ə ʃ i ə d̪ˠ,ɡ ɔ lˠ u ə ʃ i ə d̪ˠ
+luaigh,V;2;SG;PST;HAB;IND,l̪ˠ u ə tʲ ɑː,l̪ˠ u ə t̪ˠ uː
+luaigh,V;3;PL;IMP,l̪ˠ u ə dʲ iː ʃ,l̪ˠ u ə dʲ iː ʃ
+luaigh,V;2;SG;IMP,l̪ˠ u ə,l̪ˠ u ə fˠ ɑː
+luaigh,V;3;SG;PST;HAB;IND,l̪ˠ u ə ʃ eː,l̪ˠ u ə ʃ eː
+spreag,V;AUTO;PST;HAB;IND,sˠ pʲ ɾʲ a k t̪ˠ iː,sˠ pʲ ɾʲ a ɡ u
+spreag,V;2;SG;COND,sˠ pʲ ɾʲ a ɡ ɑː,sˠ pʲ ɾʲ a k u
+spreag,V;3;SG;SBJV;PRS,ɡ ɔ sˠ pʲ ɾʲ a ɡ ə ʃ eː,ɡ ə n̪ˠ i ə ɾˠ ə ʃ eː
+spreag,V;AUTO;PRS;IND,sˠ pʲ ɾʲ a k t̪ˠ ə ɾˠ,sˠ pʲ ɾʲ a ɡ ə ɾˠ
+spreag,V;2;PL;SBJV;PRS,ɡ ɔ sˠ pʲ ɾʲ a ɡ ə ʃ iː,ɡ ɔ sˠ pʲ ɾʲ a ɡ ə ʃ i vʲ
+spreag,V;2;SG;PRS;IND,sˠ pʲ ɾʲ a ɡ ə n̪ˠ t̪ˠ uː,sˠ pʲ ɾʲ a ɡ ə t̪ˠ uː
+spreag,V;AUTO;COND,sˠ pʲ ɾʲ a ɡ iː,sˠ pʲ ɾʲ a k u
+spreag,V;3;SG;SBJV;PST,d̪ˠ aː sˠ pʲ ɾʲ a ɡ u ʃ eː,sˠ pʲ ɾʲ a ɡ u ʃ eː
+spreag,V;3;SG;PRS;IND,sˠ pʲ ɾʲ a ɡ ə n̪ˠ ʃ eː,sˠ pʲ ɾʲ a ɡ ə n̪ˠ ʃ eː
+mol,V;1;SG;IMP,mˠ ɔ lˠ ə mʲ,mˠ ɔ lˠ ə n̠ʲ
+mol,V;1;PL;FUT;IND,mˠ ɔ lˠ h ə mʲ ə dʲ,mˠ ɔ lˠ h ə mʲ ə dʲ
+mol,V;1;PL;IMP,mˠ ɔ lˠ ə mʲ ə ʃ,mˠ ɔ lˠ u ə mʲ ə ʃ
+mol,V;AUTO;FUT;IND,mˠ ɔ lˠ h ə ɾˠ,mˠ ɔ lˠ h ə ɾˠ
+mol,V;3;SG;PST;IND,vˠ ɔ lˠ ʃ eː,vˠ ɔ lˠ u ʃ eː
+mol,V;2;PL;SBJV;PRS,ɡ ɔ mˠ ɔ lˠ ə ʃ ɪ vʲ,ɡ ɔ vʲ ɾʲ a sˠ t̪ˠ ə lˠ iː ʃ iː
+mol,V;1;SG;PRS;IND,mˠ ɔ lˠ ə mʲ,ɡ ɔ mˠ ɔ lˠ ə mʲ eː
+mol,V;2;SG;SBJV;PST,d̪ˠ aː mˠ ɔ l̪ˠ t̪ˠ a,d̪ˠ aː ŋ ɡ ə lʲ
+mol,V;1;PL;SBJV;PRS,ɡ ɔ mˠ ɔ lˠ ə mʲ ə dʲ,ɡ ɔ mˠ ɔ lˠ ə mʲ ə dʲ
+mol,V;3;PL;PRS;IND,mˠ ɔ lˠ ə n̪ˠ ʃ i ə d̪ˠ,mˠ ɔ lˠ ə n̪ˠ ʃ i ə d̪ˠ
+mol,V;AUTO;SBJV;PST,d̪ˠ aː mˠ ɔ l̪ˠ t̪ˠ iː,mˠ ɔ lˠ u
+mol,V;3;SG;PST;HAB;IND,vˠ ɔ lˠ u ʃ eː,vˠ ɔ lˠ uː ɾˠ iː ʃ eː
+mol,V;1;PL;PST;IND,vˠ ɔ lˠ ə mˠ ə ɾˠ,vˠ ɔ lˠ ə mʲ ə ʃ
+creid,V;2;SG;SBJV;PRS,ɡ ɔ ɟ ɾʲ ɛ dʲ ə t̪ˠ uː,ɡ ɔ ɟ ɾʲ ɛ tʲ aː
+creid,V;AUTO;PST;HAB;IND,ç ɾʲ ɛ tʲ iː,c ɾʲ ɛ dʲ u
+creid,V;REL;PST;IND,a x ɾʲ ɛ dʲ,a ç ɾʲ ɛ dʲ u
+creid,V;1;SG;SBJV;PST,d̪ˠ aː ɟ ɾʲ ɛ dʲ ə n̠ʲ,d̪ˠ aː ɟ ɾʲ ɛ dʲ u ʃ eː
+creid,V;2;PL;SBJV;PRS,ɡ ɔ ɟ ɾʲ ɛ dʲ ə ʃ ɪ vʲ,ɡ ɔ ɟ ɾʲ ɛ dʲ ə ʃ i vʲ
+creid,V;V.PTCP;PST,c ɾʲ ɛ tʲ ə,c ɾʲ ɛ tʲ ə
+creid,V;3;PL;PST;IND,ç ɾʲ ɛ dʲ ʃ i ə d̪ˠ,ç ɾʲ ɛ tʲ ə dʲ iː ʃ
+creid,V;1;SG;PRS;IND,c ɾʲ ɛ dʲ ə mʲ,ç ɾʲ ɛ dʲ ə mʲ
+creid,V;3;SG;FUT;IND,c ɾʲ ɛ dʲ ə ʃ eː,c ɾʲ ɛ tʲ ə ʃ eː
+creid,V;2;PL;FUT;IND,c ɾʲ ɛ tʲ ə ʃ ə vʲ,c ɾʲ ɛ tʲ ə ʃ ə vʲ
+creid,V;3;PL;SBJV;PRS,ɡ ɔ ɟ ɾʲ ɛ dʲ ə ʃ i ə d̪ˠ,ɡ ɔ ɟ ɾʲ ɛ dʲ ə ʃ i ə d̪ˠ
+creid,V;2;PL;COND,ç ɾʲ ɛ tʲ u ʃ ə vʲ,j lʲ iː h u ʃ iː
+creid,V;3;PL;PRS;IND,c ɾʲ ɛ dʲ ə n̪ˠ ʃ i ə d̪ˠ,ç ɾʲ ɛ tʲ ə dʲ iː ʃ
+creid,V;2;SG;IMP,c ɾʲ ɛ dʲ,c ɾʲ ɛ tʲ h aː
+creid,V;1;SG;PST;IND,ç ɾʲ ɛ dʲ mʲ eː,ç ɾʲ ɛ dʲ ə mʲ
+creid,V;AUTO;SBJV;PST,d̪ˠ aː ɟ ɾʲ ɛ tʲ iː,d̪ˠ aː ɟ ɾʲ ɛ tʲ ə ɾˠ
+creid,V;2;PL;IMP,c ɾʲ ɛ dʲ ə ɟ iː,c ɾʲ ɛ dʲ ʃ ɪ vʲ
+creid,V;1;PL;SBJV;PST,d̪ˠ aː ɟ ɾʲ ɛ dʲ ə mʲ ə ʃ,d̪ˠ aː vʲ ɾʲ a h nˠ iː mʲ ə ʃ
+caith,V;3;SG;FUT;IND,k a h ə ʃ eː,k a h u ʃ eː
+caith,V;3;PL;COND,x a h ə dʲ iː ʃ,ɾˠ i ə ɾˠ h ə dʲ i ʃ
+caith,V;3;SG;IMP,k a h u ʃ eː,k a h u ʃ eː
+caith,V;2;SG;FUT;IND,k a h ə tʲ uː,k a h ɪ ɟ ə t̪ˠ uː
+caith,V;1;SG;COND,x a h i n̠ʲ,k a h ə n̠ʲ
+caith,V;AUTO;PST;IND,k a h u,k a h ə ɾˠ
+cleacht,V;2;SG;SBJV;PRS,ɡ ɔ ɡ lʲ a x t̪ˠ uː,ɡ ɔ ɡ lʲ a x t̪ˠ uː
+cleacht,V;REL;PST;HAB;IND,ə x lʲ a x t̪ˠ u,ə x lʲ a x t̪ˠ
+cleacht,V;1;SG;SBJV;PRS,ɡ ɔ ɡ lʲ a x t̪ˠ ə mʲ eː,ɡ ə nˠ æː ɾʲ iː mʲ eː
+cleacht,V;1;SG;PRS;IND,c lʲ a x t̪ˠ ə mʲ,ç lʲ a x t̪ˠ ə mʲ
+cleacht,V;3;PL;COND,ç lʲ a x t̪ˠ ə dʲ iː ʃ,vˠ a lʲ oː dʲ iː ʃ
+cleacht,V;3;SG;IMP,c lʲ a x t̪ˠ uː ʃ eː,c lʲ a x t̪ˠ uː ʃ eː
+cleacht,V;V.MSDR,c lʲ a x t̪ˠ u,aː ɾʲ u
+cleacht,V;3;PL;PRS;IND,c lʲ a x t̪ˠ ə n̪ˠ ʃ i ə d̪ˠ,c lʲ a x t̪ˠ ə ʃ i ə d̪ˠ
+cleacht,V;3;PL;PST;HAB;IND,ç lʲ a x t̪ˠ ə dʲ iː ʃ,ç lʲ a x t̪ˠ ʃ i ə d̪ˠ
+cleacht,V;AUTO;SBJV;PST,d̪ˠ aː ɡ lʲ a x t̪ˠ iː,c lʲ a x t̪ˠ u
+aontaigh,V;REL;PST;HAB;IND,ə d̪ˠ iː n̪ˠ t̪ˠ iː u,a ç ɾʲ ɛ dʲ u
+aontaigh,V;REL;FUT;IND,ə iː n̪ˠ t̪ˠ oː,ə h oː h ə
+aontaigh,V;AUTO;IMP,iː n̪ˠ t̪ˠ iː tʲ ə ɾˠ,iː n̪ˠ t̪ˠ iː
+aontaigh,V;1;PL;FUT;IND,iː n̪ˠ t̪ˠ oː mʲ ə dʲ,mˠ a ɾˠ oː mʲ ə dʲ
+aontaigh,V;2;SG;COND,d̪ˠ iː n̪ˠ t̪ˠ oː fˠ ɑː,d̪ˠ iː n̪ˠ t̪ˠ oː fˠ aː
+aontaigh,V;1;SG;SBJV;PST,d̪ˠ aː n̪ˠ iː n̪ˠ t̪ˠ iː n̠ʲ,d̪ˠ aː n̠ʲ iː n̠ʲ
+aontaigh,V;3;PL;SBJV;PST,d̪ˠ aː n̪ˠ iː dʲ iː ʃ,d̪ˠ aː nˠ ə mʲ iː dʲ iː ʃ
+aontaigh,V;2;SG;SBJV;PST,d̪ˠ aː n̪ˠ iː tʲ aː,d̪ˠ aː n̪ˠ iː n̪ˠ t̪ˠ iː t̪ˠ uː
+aontaigh,V;3;SG;IMP,iː n̪ˠ t̪ˠ iː tʲ ʃ eː,iː n̪ˠ t̪ˠ iː tʲ ʃ eː
+aontaigh,V;2;SG;PST;HAB;IND,d̪ˠ iː n̪ˠ t̪ˠ iː tʲ ɑː,vʲ ɾʲ a sˠ t̪ˠ ə lˠ iː tʲ aː
+aontaigh,V;2;PL;COND,d̪ˠ iː n̪ˠ t̪ˠ oː ʃ ə vʲ,d̪ˠ iː n̪ˠ t̪ˠ oː ʃ ə vʲ
+aontaigh,V;2;PL;PST;IND,d̪ˠ iː n̪ˠ t̪ˠ iː ʃ ə vʲ,d̪ˠ iː n̪ˠ t̪ˠ iː ʃ ə vʲ
+aontaigh,V;3;SG;SBJV;PST,d̪ˠ aː n̪ˠ iː n̪ˠ t̪ˠ iː ʃ eː,ɡ ə nˠ iː n̪ˠ t̪ˠ iː ʃ eː
+aontaigh,V;2;SG;FUT;IND,iː n̪ˠ t̪ˠ oː t̪ˠ uː,ɨ̞ n̪ˠ sˠ oː t̪ˠ uː
+aontaigh,V;AUTO;SBJV;PST,d̪ˠ aː n̪ˠ iː n̪ˠ t̪ˠ iː,ɡ ə n̪ˠ iː n̪ˠ t̪ˠ iː tʲ iː
+scar,V;3;SG;SBJV;PRS,ɡ ɔ sˠ k a ɾˠ ə ʃ eː,ɡ ɔ sˠ k a ɾˠ u ʃ eː
+scar,V;3;PL;PST;IND,sˠ k a ɾˠ ʃ i ə d̪ˠ,sˠ k a ɾˠ ʃ i ə d̪ˠ
+scar,V;1;SG;PRS;IND,sˠ k a ɾˠ ə mʲ,sˠ k a ɾˠ ə mʲ
+scar,V;2;SG;SBJV;PST,d̪ˠ aː sˠ k ə ɾˠ t̪ˠ aː,d̪ˠ aː sˠ k a ɾˠ ə t̪ˠ uː
+scar,V;2;PL;PST;HAB;IND,sˠ k a ɾˠ u ʃ iː,sˠ k a ɾˠ h ə ʃ i vʲ
+maraigh,V;REL;PST;HAB;IND,ə vˠ ɑ ɾˠ iː u,a x a h u
+maraigh,V;REL;FUT;IND,ə vˠ ɑː ɾˠ oː,ə i bʲ ɾʲ oː
+maraigh,V;1;SG;IMP,mˠ a ɾˠ iː mʲ,t̪ˠ a ʃ tʲ ə n̠ʲ
+maraigh,V;1;PL;IMP,mˠ a ɾˠ iː mʲ ə ʃ,mˠ a ɾˠ iː mʲ ə ʃ
+maraigh,V;REL;PST;IND,ə vˠ ɑː ɾˠ i,ə d̪ˠ æː ɾʲ i
+maraigh,V;2;PL;SBJV;PST,d̪ˠ aː mˠ ə ɾˠ iː ʃ i vʲ,ɡ ɔ mˠ ə ɾˠ iː ʃ ə vʲ
+maraigh,V;3;SG;SBJV;PRS,ɡ ɔ mˠ ə ɾˠ iː ʃ eː,ɡ ɔ mˠ ə ɾˠ iː ʃ eː
+maraigh,V;3;PL;SBJV;PST,d̪ˠ aː mˠ ə ɾˠ iː dʲ iː ʃ,d̪ˠ aː lʲ eː ɾʲ iː dʲ iː ʃ
+maraigh,V;2;SG;SBJV;PST,d̪ˠ aː mˠ ə ɾˠ iː tʲ aː,ɡ ɔ mˠ ə ɾˠ iː t̪ˠ uː
+maraigh,V;2;PL;IMP,mˠ a ɾˠ iː ɟ iː,mˠ a ɾˠ u ʃ iː
+cosain,V;2;SG;SBJV;PRS,ɡ ɔ ɡ ɔ sˠ n̪ˠ iː t̪ˠ uː,ɡ ɔ ɡ ɔ sˠ n̪ˠ iː tʲ aː
+cosain,V;2;PL;SBJV;PST,d̪ˠ aː ɡ ɔ sˠ n̪ˠ iː ʃ i vʲ,d̪ˠ aː ɡ ɔ sˠ n̪ˠ iː ʃ ə vʲ
+cosain,V;1;SG;SBJV;PRS,ɡ ɔ ɡ ɔ sˠ n̪ˠ iː mʲ eː,k ɔ sˠ n̪ˠ iː mʲ
+cosain,V;3;PL;SBJV;PST,d̪ˠ aː ɡ ɔ sˠ n̪ˠ iː dʲ iː ʃ,d̪ˠ aː ɡ ɔ sˠ n̪ˠ iː ʃ i ə d̪ˠ
+cosain,V;1;PL;COND,x ɔ sˠ n̪ˠ oː mʲ ə ʃ,k ɔ sˠ n̪ˠ oː mʲ ə ʃ
+cosain,V;2;PL;PRS;IND,k ɔ sˠ n̪ˠ iː n̪ˠ ʃ ə vʲ,k ɔ sˠ ə n̪ˠ ʃ ə vʲ
+cosain,V;3;PL;SBJV;PRS,ɡ ɔ ɡ ɔ sˠ n̪ˠ iː ʃ i ə d̪ˠ,ɡ ɔ vˠ u ə lʲ ʃ i ə d̪ˠ
+cosain,V;AUTO;COND,x ɔ sˠ n̪ˠ oː fˠ iː,x aː lʲ oː fˠ iː
+cosain,V;2;PL;COND,x ɔ sˠ n̪ˠ oː ʃ ə vʲ,k ɔ sˠ n̪ˠ oː ʃ ə vʲ
+cosain,V;AUTO;SBJV;PST,d̪ˠ aː ɡ ɔ sˠ n̪ˠ iː tʲ iː,d̪ˠ aː ɡ ɔ sˠ n̪ˠ iː tʲ ə ɾˠ
+cosain,V;3;SG;PRS;IND,k ɔ sˠ n̪ˠ iː n̪ˠ ʃ eː,dʲ lʲ iː n̪ˠ ʃ eː
+ionsaigh,V;1;SG;IMP,ɨ̞ n̠ʲ sˠ iː mʲ,ɨ̞ n̠ʲ sˠ iː mʲ
+ionsaigh,V;AUTO;PST;HAB;IND,dʲ ɨ̞ n̠ʲ sˠ iː tʲ i,ʌ n̠ʲ sˠ iː tʲ i
+ionsaigh,V;AUTO;IMP,ɨ̞ n̠ʲ sˠ iː tʲ ə ɾˠ,ɨ̞ n̠ʲ sˠ iː
+ionsaigh,V;1;SG;FUT;IND,ɨ̞ n̠ʲ sˠ oː mʲ eː,ɨ̞ n̠ʲ sˠ iː n̠ʲ
+ionsaigh,V;3;SG;SBJV;PRS,ɡ ə n̠ʲ ɪ n̠ʲ sˠ iː ʃ eː,ɡ ə n̠ʲ ɪ n̠ʲ sˠ iː ʃ eː
+ionsaigh,V;3;SG;FUT;IND,ʊ n̪ˠ sˠ oː ʃ eː,ʌ n̠ʲ sˠ iː tʲ ʃ eː
+ionsaigh,V;2;PL;PST;HAB;IND,dʲ ɨ̞ n̠ʲ sˠ iː ʃ i vʲ,ʌ n̠ʲ sˠ iː tʲ ʃ ə vʲ
+ionsaigh,V;2;PL;FUT;IND,ɨ̞ n̠ʲ sˠ oː ʃ ə vʲ,ɨ̞ n̠ʲ sˠ iː ʃ ə vʲ
+ionsaigh,V;2;SG;PST;HAB;IND,dʲ ɨ̞ n̠ʲ sˠ iː tʲ aː,l̪ˠ ɪ tʲ ɑː
+ionsaigh,V;1;SG;COND,dʲ ɨ̞ n̠ʲ sˠ oː n̠ʲ,dʲ ɨ̞ n̠ʲ sˠ oː
+ionsaigh,V;1;SG;PST;IND,dʲ ɨ̞ n̠ʲ sˠ iː mʲ eː,ʌ n̠ʲ sˠ iː mʲ eː
+ionsaigh,V;3;SG;PST;HAB;IND,dʲ ɨ̞ n̠ʲ sˠ iː tʲ ʃ eː,dʲ ɨ̞ n̠ʲ sˠ iː ʃ eː
+ionsaigh,V;2;PL;IMP,ɨ̞ n̠ʲ sˠ iː ɟ iː,iː n̪ˠ t̪ˠ iː ɟ iː
+ionsaigh,V;1;PL;SBJV;PST,d̪ˠ aː n̠ʲ ɪ n̠ʲ sˠ iː mʲ ə ʃ,d̪ˠ aː n̠ʲ ɪ n̠ʲ sˠ iː dʲ iː ʃ
+athbhreithnigh,V;1;SG;IMP,a h vʲ ɾʲ ɛ h nʲ iː mʲ,t̪ˠ ɔ i mʲ
+athbhreithnigh,V;AUTO;PST;HAB;IND,d̪ˠ a h vʲ ɾʲ ɛ h nʲ iː tʲ i,d̪ˠ a h vʲ ɾʲ ɛ h nʲ iː tʲ iː
+athbhreithnigh,V;2;SG;COND,d̪ˠ a h vʲ ɾʲ ɛ h nʲ oː fˠ aː,a h vʲ ɾʲ ɛ h nʲ oː
+athbhreithnigh,V;1;SG;SBJV;PST,d̪ˠ aː n̠ʲ ə h vʲ ɾʲ ɛ h nʲ iː n̠ʲ,d̪ˠ aː n̠ʲ iː n̠ʲ
+athbhreithnigh,V;AUTO;COND,d̪ˠ a h vʲ ɾʲ ɛ h nʲ oː fˠ iː,d̪ˠ a h vʲ ɾʲ ɛ h nʲ oː
+athbhreithnigh,V;3;PL;PST;HAB;IND,d̪ˠ a h vʲ ɾʲ ɛ h nʲ iː dʲ iː ʃ,d̪ˠ a h vʲ ɾʲ ɛ h nʲ i ʃ i ə d̪ˠ
+athbhreithnigh,V;AUTO;PST;IND,a vʲ ɾʲ ɛ h nʲ iː ə,a vʲ ɾʲ ɛ h nʲ i ə u
+athbhreithnigh,V;AUTO;SBJV;PST,d̪ˠ aː n̪ˠ ə h vʲ ɾʲ ɛ h nʲ iː tʲ i,d̪ˠ aː n̪ˠ ə h vʲ ɾʲ ɛ h nʲ iː tʲ ə ɾˠ
+athbhreithnigh,V;3;SG;PST;HAB;IND,d̪ˠ a h vʲ ɾʲ ɛ h nʲ iː ʃ eː,d̪ˠ a h vʲ ɾʲ ɛ h nʲ iː ʃ eː
+athbhreithnigh,V;1;PL;SBJV;PST,d̪ˠ aː n̪ˠ ə h vʲ ɾʲ ɛ h nʲ iː mʲ ə ʃ,d̪ˠ a h vʲ ɾʲ ɛ h nʲ iː mʲ ə ʃ
+bunaigh,V;REL;FUT;IND,ə vˠ ə nˠ oː,ə h eː x ə
+bunaigh,V;AUTO;IMP,bˠ ʊ nˠ iː tʲ ə ɾˠ,bˠ ʊ nˠ iː tʲ iː
+bunaigh,V;1;PL;IMP,bˠ ʊ nˠ iː mʲ ə ʃ,bˠ ʊ nˠ ə mʲ iː ʃ
+bunaigh,V;1;SG;FUT;IND,bˠ ʊ n̪ˠ oː mʲ eː,bˠ ʊ nˠ iː mʲ eː
+bunaigh,V;1;PL;PST;HAB;IND,vˠ ɔ nˠ iː mʲ ə ʃ,d̪ˠ aː ɡ ə mˠ ə mʲ ə ʃ
+bunaigh,V;1;SG;SBJV;PRS,ɡ ə mˠ ə nˠ iː mʲ eː,ɡ ɔ mˠ ə nˠ iː mʲ eː
+bunaigh,V;2;PL;PRS;IND,bˠ ʊ n̪ˠ iː n̪ˠ ʃ ə vʲ,bˠ ʊ n̪ˠ iː n̪ˠ ʃ ə vʲ
+bunaigh,V;3;PL;COND,vˠ ɔ n̪ˠ oː dʲ iː ʃ,vˠ ɔ n̪ˠ oː dʲ iː ʃ
+bunaigh,V;AUTO;COND,vˠ ɔ nˠ oː fˠ iː,vˠ ɔ nˠ oː fˠ iː
+bunaigh,V;2;PL;PST;IND,vˠ ʊ nˠ iː ʃ ə vʲ,vˠ ʊ nˠ iː ʃ iː
+gráigh,V;REL;PST;HAB;IND,ə ɣ ɾˠ aː,ə ɣ ɾˠ aː j
+gráigh,V;1;SG;IMP,ɡ ɾˠ aː mʲ,ɡ ɾˠ aː j
+gráigh,V;3;PL;FUT;IND,ɡ ɾˠ aː h i ʃ i ə d̪ˠ,ɡ ɾˠ aː j ʃ i ə d̪ˠ
+gráigh,V;1;SG;SBJV;PRS,ɡ ɔ ŋ ɾˠ aː mʲ eː,ɡ ɔ vʲ ɾʲ a h nˠ iː mʲ
+gráigh,V;3;SG;FUT;IND,ɡ ɾˠ aː h ə ʃ eː,ɡ ɾˠ aː j ʃ eː
+gráigh,V;2;PL;PRS;IND,ɡ ɾˠ aː n̪ˠ ʃ ɪ vʲ,fʲ ɾʲ a sˠ t̪ˠ ə lˠ iː n̪ˠ ʃ iː
+gráigh,V;1;PL;SBJV;PRS,ɡ ɔ ŋ ɾˠ aː mʲ ə dʲ,ɡ ɾˠ aː mʲ ə dʲ
+gráigh,V;2;SG;PRS;IND,ɡ ɾˠ aː n̪ˠ t̪ˠ uː,ʃ a sˠ t̪ˠ iː n̪ˠ t̪ˠ uː
+gráigh,V;2;SG;PST;HAB;IND,ɣ ɾˠ aː tʲ aː,ɣ ɾˠ aː j t̪ˠ uː
+gráigh,V;2;PL;COND,ɣ ɾˠ aː h u ʃ iː,vˠ ɔ nˠ oː ʃ ɪ vʲ
+gráigh,V;3;PL;PRS;IND,ɡ ɾˠ aː n̪ˠ ʃ i ə d̪ˠ,a vʲ ɾʲ ɛ h nʲ i ə d̪ˠ
+gráigh,V;1;SG;PST;IND,ɣ ɾˠ aː j mʲ eː,h aː ŋ ɡ ɾˠ aː n̠ʲ
+gráigh,V;1;PL;SBJV;PST,d̪ˠ aː ŋ ɡ ɾˠ aː mʲ ə ʃ,d̪ˠ aː vˠ a ɡ ə mʲ ə ʃ
+fan,V;2;SG;SBJV;PRS,ɡ ɔ vˠ ɑ nˠ ə t̪ˠ uː,ɡ ɔ vˠ ɑ nˠ ə t̪ˠ uː
+fan,V;REL;FUT;IND,ə nˠ h ə,a d̪ˠ a nˠ h ə
+fan,V;1;PL;FUT;IND,fˠ a nˠ h ə mʲ ə dʲ,fˠ a nˠ h ə mʲ ə dʲ
+fan,V;1;SG;FUT;IND,fˠ a nˠ h ə mʲ eː,fˠ a nˠ ə mʲ eː
+fan,V;3;SG;PST;IND,d̪ˠ a nˠ ʃ eː,d̪ˠ a nˠ ʃ eː
+fan,V;2;PL;SBJV;PRS,ɡ ɔ w ə nˠ ə ʃ ə vʲ,ɡ ɔ vˠ ɑ nˠ ə ʃ ə vʲ
+fan,V;1;PL;PST;HAB;IND,d̪ˠ a nˠ ə mʲ ə ʃ,d̪ˠ a nˠ ə mʲ iː ʃ
+fan,V;1;SG;PRS;IND,fˠ a nˠ ə mʲ,fˠ a n̪ˠ t̪ˠ ə mʲ eː
+fan,V;1;PL;COND,d̪ˠ a nˠ ə mʲ ə ʃ,d̪ˠ a nˠ h ə n̠ʲ
+fan,V;AUTO;SBJV;PRS,ɡ ɔ vˠ a n̪ˠ t̪ˠ ə ɾˠ,d̪ˠ aː vˠ a n̪ˠ t̪ˠ ə ɾˠ
+fan,V;2;SG;PRS;IND,fˠ a nˠ ə n̪ˠ t̪ˠ uː,fˠ a nˠ ə n̪ˠ t̪ˠ uː
+fan,V;3;PL;IMP,fˠ a nˠ ə dʲ iː ʃ,fˠ a nˠ ə ɟ iː
+fan,V;2;SG;IMP,fˠ a nˠ,fˠ a nˠ
+fan,V;2;PL;IMP,fˠ a nˠ ə ɟ iː,fˠ a nˠ u ʃ iː
+féad,V;3;PL;FUT;IND,fʲ eː d̪ˠ ə ʃ i ə d̪ˠ,fʲ eː d̪ˠ ə ʃ i ə d̪ˠ
+féad,V;2;SG;COND,dʲ eː d̪ˠ h aː,ɣ ɾˠ aː fˠ aː
+féad,V;REL;COND,ə dʲ eː d̪ˠ u,ə ɣ ɾˠ aː h u
+féad,V;3;PL;PST;IND,dʲ eː d̪ˠ ʃ i ə d̪ˠ,fʲ eː d̪ˠ ə ʃ i ə d̪ˠ
+féad,V;1;SG;PRS;IND,fʲ eː d̪ˠ ə mʲ,dʲ eː d̪ˠ ə mʲ
+féad,V;3;SG;FUT;IND,fʲ eː d̪ˠ ə ʃ eː,dʲ a ɾˠ h ə ʃ eː
+féad,V;2;PL;PRS;IND,fʲ eː d̪ˠ ə n̪ˠ ʃ ə vʲ,ɡ ɔ vʲ eː d̪ˠ ə ʃ ə vʲ
+féad,V;2;SG;SBJV;PST,d̪ˠ aː vˠ eː t̪ˠ aː,dʲ eː d̪ˠ t̪ˠ uː
+féad,V;V.MSDR,fʲ eː d̪ˠ ə x t̪ˠ a lʲ,ɡ ɾˠ aː
+féad,V;3;PL;PST;HAB;IND,dʲ eː d̪ˠ ə dʲ iː ʃ,ç a ŋ lˠ iː dʲ iː ʃ
+féad,V;2;SG;FUT;IND,fʲ eː d̪ˠ ə t̪ˠ uː,aː ɾʲ oː tʲ u
+féad,V;AUTO;PST;IND,fʲ eː d̪ˠ u,a ɡ ɾˠ iː u
+féad,V;1;PL;SBJV;PST,d̪ˠ aː vʲ eː d̪ˠ ə mʲ ə ʃ,d̪ˠ aː vʲ eː d̪ˠ ə mʲ ə ʃ
+éirigh,V;REL;FUT;IND,ə eː ɾʲ oː,eː ɾʲ i ə ɾˠ h ə ɾˠ
+éirigh,V;2;SG;COND,dʲ eː ɾʲ oː fˠ ɑː,vˠ ɾˠ uː fˠ ɑː
+éirigh,V;1;PL;IMP,eː ɾʲ iː mʲ ə ʃ,dʲ eː ɾʲ oː mʲ ə ʃ
+éirigh,V;REL;PST;IND,ə dʲ eː ɾʲ i,ə dʲ eː ɾʲ i ə u
+éirigh,V;1;PL;PRS;IND,eː ɾʲ iː mʲ ə dʲ,eː ɾʲ oː mʲ ə dʲ
+éirigh,V;2;PL;SBJV;PST,d̪ˠ aː nʲ eː ɾʲ i ə ʃ i vʲ,d̪ˠ aː nʲ eː ɾʲ i ə ʃ iː
+éirigh,V;2;PL;SBJV;PRS,ɡ ə nʲ eː ɾʲ iː ʃ ə vʲ,ɡ ə nʲ eː ɾʲ iː ʃ ə vʲ
+éirigh,V;1;PL;PST;HAB;IND,dʲ eː ɾʲ iː mʲ ə ʃ,dʲ eː ɾʲ i ə ɾˠ ə mʲ ə dʲ
+éirigh,V;2;SG;PST;IND,dʲ eː ɾʲ i tʲ u,dʲ eː ɾʲ i tʲ uː
+éirigh,V;2;PL;PRS;IND,eː ɾʲ i n̠ʲ ʃ ə vʲ,eː ɾʲ oː ʃ ə vʲ
+éirigh,V;2;SG;PRS;IND,eː ɾʲ i ə n̪ˠ t̪ˠ uː,dʲ eː ɾʲ i ə n̪ˠ
+éirigh,V;2;PL;PST;IND,dʲ eː ɾʲ i ʃ ə vʲ,dʲ eː ɾʲ oː ʃ iː
+éirigh,V;1;SG;PST;IND,dʲ eː ɾʲ i mʲ eː,dʲ eː ɾʲ i ə ɾˠ ə mʲ eː
+éirigh,V;2;PL;IMP,eː ɾʲ iː ɟ iː,eː ɾʲ i
+éirigh,V;1;PL;PST;IND,dʲ eː ɾʲ iː mˠ ə ɾˠ,dʲ eː ɾʲ iː mʲ ə ʃ
+breathnaigh,V;2;SG;COND,vʲ ɾʲ a h nˠ oː h a,x a h a
+breathnaigh,V;AUTO;FUT;IND,bʲ ɾʲ a h nˠ oː h ə ɾˠ,bʲ ɾʲ a h nˠ iː tʲ iː
+breathnaigh,V;1;SG;SBJV;PST,d̪ˠ aː mˠ bʲ ɾʲ a h nˠ iː n̪ˠ,d̪ˠ aː vʲ ɾʲ a h nˠ iː mʲ eː
+breathnaigh,V;3;PL;PST;IND,vʲ ɾʲ a h nˠ i ʃ i ə d̪ˠ,vʲ ɾʲ a h nˠ iː ʃ i ə d̪ˠ
+breathnaigh,V;1;SG;PST;HAB;IND,vʲ ɾʲ a h nˠ iː n̪ˠ,vʲ ɾʲ a h nˠ iː mˠ
+breathnaigh,V;1;PL;COND,vʲ ɾʲ a h nˠ oː mʲ ə ʃ,h ɪ c ɪ mʲ ə ʃ
+breathnaigh,V;2;SG;PST;IND,vʲ ɾʲ a h nˠ iː t̪ˠ uː,vʲ ɾʲ a h nˠ iː t̪ˠ uː
+breathnaigh,V;3;SG;IMP,bʲ ɾʲ a h nˠ iː ʃ eː,bʲ ɾʲ a h nˠ iː ʃ eː
+breathnaigh,V;3;PL;PST;HAB;IND,vʲ ɾʲ a h nˠ iː dʲ iː ʃ,vʲ ɾʲ a h nˠ oː ʃ i ə d̪ˠ
+breathnaigh,V;2;SG;FUT;IND,bʲ ɾʲ a h nˠ oː t̪ˠ uː,ʃ iː lʲ h ə t̪ˠ uː
+breathnaigh,V;1;SG;PST;IND,vʲ ɾʲ a h nˠ iː mʲ eː,vʲ ɾʲ a h nˠ iː mˠ
+breathnaigh,V;AUTO;PST;IND,bʲ ɾʲ a h nˠ iː u,vʲ ɾʲ a h nˠ iː tʲ ə ɾˠ
+breathnaigh,V;3;SG;PRS;IND,bʲ ɾʲ a h n̪ˠ iː n̪ˠ ʃ eː,bʲ ɾʲ a h nˠ iː ʃ eː
+breathnaigh,V;1;PL;SBJV;PST,d̪ˠ aː mʲ bʲ ɾʲ a h nˠ iː mʲ ə ʃ,vʲ ɾʲ a h nˠ iː mʲ ə ʃ
+measc,V;REL;PST;HAB;IND,ə vʲ a sˠ k u,ə vʲ a sˠ k
+measc,V;AUTO;PST;HAB;IND,vʲ a sˠ k t̪ˠ iː,vʲ a sˠ k ə ɾˠ
+measc,V;REL;PRS;IND,ə vʲ a sˠ k ə n̪ˠ,vʲ a sˠ k ə n̪ˠ
+measc,V;AUTO;FUT;IND,mʲ a sˠ k ə ɾˠ,mʲ a sˠ k t̪ˠ ə ɾˠ
+measc,V;1;SG;SBJV;PST,d̪ˠ aː mʲ a sˠ k ə n̠ʲ,vʲ a sˠ k ə n̠ʲ
+measc,V;1;SG;PRS;IND,mʲ a sˠ k ə mʲ,mʲ a sˠ k ə mʲ eː
+measc,V;2;SG;SBJV;PST,d̪ˠ aː mʲ a sˠ k t̪ˠ aː,d̪ˠ aː d̪ˠ iː ɾˠ t̪ˠ aː
+measc,V;2;PL;PST;HAB;IND,vʲ a sˠ k uː ʃ iː,vʲ a sˠ k ʃ ɪ vʲ
+measc,V;2;SG;PRS;IND,mʲ a sˠ k ə n̪ˠ t̪ˠ uː,mʲ a sˠ k ə n̪ˠ t̪ˠ uː
+measc,V;V.MSDR,mʲ a sˠ k u,c ɾʲ ɛ dʲ uː nʲ tʲ
+measc,V;2;SG;PST;HAB;IND,vʲ a sˠ k t̪ˠ aː,vʲ a sˠ k
+measc,V;2;SG;FUT;IND,mʲ a sˠ k ə t̪ˠ uː,mʲ a sˠ k a ɾˠ ə t̪ˠ uː
+measc,V;1;SG;PST;IND,vʲ a sˠ c mʲ eː,vʲ a sˠ k ə mʲ
+measc,V;AUTO;PST;IND,mʲ a sˠ k u,vʲ a sˠ k t̪ˠ ə ɾˠ
+measc,V;AUTO;SBJV;PST,d̪ˠ aː mʲ a sˠ k t̪ˠ iː,d̪ˠ aː mʲ a sˠ k u
+taitin,V;2;SG;SBJV;PRS,ɡ ə d̪ˠ a tʲ nʲ iː t̪ˠ uː,ɡ ə d̪ˠ a tʲ nʲ iː tʲ u
+taitin,V;REL;PST;HAB;IND,ə h a tʲ nʲ iː u,ə vˠ ə nˠ iː u
+taitin,V;1;SG;IMP,t̪ˠ a tʲ nʲ iː mʲ,t̪ˠ a tʲ nʲ iː mʲ
+taitin,V;1;PL;PRS;IND,t̪ˠ a tʲ nʲ iː mʲ ə dʲ,t̪ˠ a tʲ nʲ iː mʲ ə dʲ
+taitin,V;REL;COND,ə h a tʲ nʲ oː,ə lʲ eː h u
+taitin,V;3;SG;PST;IND,h a tʲ ə nʲ ʃ eː,h a tʲ nʲ iː ʃ eː
+taitin,V;3;SG;COND,h a tʲ nʲ oː ʃ eː,t̪ˠ a tʲ nʲ oː ʃ eː
+taitin,V;3;PL;PST;IND,h a tʲ ə nʲ ʃ i ə d̪ˠ,h a tʲ ə nʲ ʃ i ə d̪ˠ
+taitin,V;3;PL;SBJV;PST,d̪ˠ aː d̪ˠ a tʲ nʲ iː dʲ iː ʃ,d̪ˠ aː d̪ˠ a tʲ nʲ iː dʲ iː ʃ
+taitin,V;1;SG;PST;HAB;IND,h a tʲ nʲ iː n̠ʲ,l̠ʲ eː n̠ʲ
+taitin,V;3;PL;COND,h a tʲ nʲ oː dʲ iː ʃ,x aː lʲ oː dʲ iː ʃ
+taitin,V;2;PL;FUT;IND,t̪ˠ a tʲ nʲ oː ʃ iː,t̪ˠ a tʲ nʲ oː ʃ ə vʲ
+taitin,V;2;PL;COND,h a tʲ nʲ oː ʃ iː,h a tʲ nʲ oː fˠ aː
+taitin,V;2;SG;FUT;IND,t̪ˠ a tʲ nʲ oː t̪ˠ uː,t̪ˠ a tʲ ə nʲ t̪ˠ uː
+taitin,V;AUTO;PST;IND,t̪ˠ a tʲ nʲ iː u,h a tʲ nʲ iː tʲ ə ɾˠ
+taitin,V;2;PL;IMP,t̪ˠ a tʲ nʲ iː ɟ iː,t̪ˠ a tʲ nʲ iː ʃ i vʲ
+leasaigh,V;2;SG;COND,l̠ʲ a sˠ oː fˠ aː,ɣ ɾˠ aː fˠ aː
+leasaigh,V;1;PL;PRS;IND,l̠ʲ a sˠ iː mʲ ə dʲ,l̠ʲ a sˠ iː mʲ ə dʲ
+leasaigh,V;3;SG;SBJV;PRS,ɡ ɔ lʲ a sˠ iː ʃ eː,ɡ ɔ n̠ʲ dʲ a ɾˠ ə ʃ eː
+leasaigh,V;1;SG;SBJV;PST,d̪ˠ aː lʲ a sˠ iː n̠ʲ,d̪ˠ aː lʲ a sˠ iː mʲ eː
+leasaigh,V;2;PL;SBJV;PRS,ɡ ɔ lʲ a sˠ iː ʃ ə vʲ,ɡ ɔ vˠ u ə lʲ ə ʃ ə vʲ
+leasaigh,V;3;PL;SBJV;PST,d̪ˠ aː lʲ a sˠ iː dʲ iː ʃ,ɡ ɔ lʲ a sˠ iː ʃ i ə d̪ˠ
+leasaigh,V;1;PL;COND,l̠ʲ a sˠ oː mʲ ə ʃ,l̠ʲ a sˠ oː dʲ iː ʃ
+leasaigh,V;2;SG;PST;IND,l̠ʲ a sˠ i t̪ˠ uː,h ɪ tʲ uː
+leasaigh,V;2;PL;PST;HAB;IND,l̠ʲ a sˠ iː tʲ ʃ ə vʲ,l̠ʲ a sˠ iː ʃ i vʲ
+leasaigh,V;1;SG;COND,l̠ʲ a sˠ oː n̠ʲ,vˠ ɑ ɾˠ oː n̠ʲ
+oscail,V;3;PL;FUT;IND,ɔ sˠ k lˠ oː ʃ i ə d̪ˠ,ɔ sˠ k lˠ iː dʲ iː ʃ
+oscail,V;AUTO;IMP,ɔ sˠ k lˠ iː tʲ ə ɾˠ,ɔ sˠ k ə l̠ʲ tʲ ə ɾˠ
+oscail,V;1;PL;FUT;IND,ɔ sˠ k lˠ oː mʲ ə dʲ,d̪ˠ ɔ sˠ k lˠ oː mʲ ə dʲ
+oscail,V;1;SG;FUT;IND,ɔ sˠ k lˠ oː mʲ eː,ɔ sˠ k lˠ iː mʲ
+oscail,V;3;SG;PST;IND,d̪ˠ ɔ sˠ k ə lʲ ʃ eː,d̪ˠ ɔ sˠ k ə lʲ ʃ eː
+oscail,V;AUTO;SBJV;PRS,ɡ ɔ nˠ ɔ sˠ k lˠ iː tʲ ə ɾˠ,ɡ ɔ nˠ ɔ sˠ k lˠ iː tʲ ə ɾˠ
+oscail,V;3;SG;IMP,ɔ sˠ k lˠ iː ʃ eː,mˠ ɔ lˠ u ʃ eː
+oscail,V;AUTO;COND,d̪ˠ ɔ sˠ k lˠ oː fˠ iː,d̪ˠ ɔ sˠ k lˠ oː fˠ iː
+oscail,V;2;SG;IMP,ɔ sˠ k ə lʲ,ɔ sˠ k lˠ oː fˠ aː
+oscail,V;3;SG;PST;HAB;IND,d̪ˠ ɔ sˠ k lˠ iː ʃ eː,d̪ˠ ɔ sˠ k lˠ iː ʃ eː
+iarr,V;REL;PST;HAB;IND,ə dʲ i ə ɾˠ u,ə i ə ɾˠ u
+iarr,V;3;PL;FUT;IND,i ə ɾˠ h ə ʃ i ə d̪ˠ,ɪ mʲ ɾʲ oː ʃ i ə d̪ˠ
+iarr,V;2;SG;COND,dʲ i ə ɾˠ fˠ aː,dʲ i ə ɾˠ fˠ aː
+iarr,V;1;PL;PRS;IND,i ə ɾˠ ə mʲ ə dʲ,i ə ɾˠ ə mʲ ə dʲ
+iarr,V;REL;COND,ə dʲ i ə ɾˠ u,ə i ə ɾˠ h i
+iarr,V;3;PL;PST;IND,dʲ i ə ɾˠ ʃ i ə d̪ˠ,dʲ i ə ɾˠ ə dʲ iː ʃ
+iarr,V;1;SG;PRS;IND,i ə ɾˠ ə mʲ,dʲ i ə ɾˠ ə mʲ
+iarr,V;3;PL;SBJV;PST,d̪ˠ aː n̪ˠ i ə ɾˠ ə dʲ iː ʃ,d̪ˠ aː ɾˠ oː nˠ iː dʲ iː ʃ
+iarr,V;1;SG;PST;HAB;IND,dʲ i ə ɾˠ ə n̠ʲ,i ə ɾˠ ə n̠ʲ
+iarr,V;2;SG;PST;IND,dʲ i ə ɾˠ t̪ˠ uː,d̪ˠ aː n̪ˠ i ə ɾˠ ə t̪ˠ uː
+iarr,V;3;PL;IMP,i ə ɾˠ ə dʲ i ʃ,bˠ ɾˠ ɔ n̪ˠ ə dʲ iː ʃ
+iarr,V;2;PL;COND,dʲ i ə ɾˠ u ʃ i vʲ,l̠ʲ eː ɾʲ i ə ɾˠ u ʃ i vʲ
+iarr,V;1;SG;COND,dʲ i ə ɾˠ h ə n̠ʲ,i ə ɾˠ h ə n̠ʲ
+iarr,V;AUTO;SBJV;PST,d̪ˠ aː n̪ˠ i ə ɾˠ t̪ˠ iː,d̪ˠ aː vʲ ɾʲ a h nˠ iː tʲ iː
+iarr,V;2;PL;IMP,i ə ɾˠ ə ɟ iː,i ə ɾˠ ə ɟ iː
+cuidigh,V;AUTO;PST;HAB;IND,x ɪ dʲ iː tʲ i,x ɪ dʲ oː fˠ ə ɾˠ
+cuidigh,V;3;PL;FUT;IND,k ɪ dʲ oː ʃ i ə d̪ˠ,k ɪ dʲ oː ʃ i ə d̪ˠ
+cuidigh,V;2;PL;SBJV;PST,d̪ˠ aː ɡ ɪ dʲ iː ʃ ə vʲ,d̪ˠ aː ɡ ɪ dʲ iː ʃ i vʲ
+cuidigh,V;REL;COND,ə x ɪ dʲ oː,ə h ɪ c u
+cuidigh,V;3;SG;PST;IND,x ɪ dʲ iː ʃ eː,x ə mˠ ʃ eː
+cuidigh,V;3;SG;COND,x ɪ dʲ oː ʃ eː,k ɪ dʲ oː ʃ eː
+cuidigh,V;V.PTCP;PST,k ɪ dʲ ə,k ɪ dʲ iː tʲ ə
+cuidigh,V;1;SG;SBJV;PRS,ɡ ɔ ɡ ɪ dʲ iː mʲ eː,ɡ ɔ ɡ ɪ dʲ iː n̠ʲ
+cuidigh,V;1;SG;PST;HAB;IND,x ɪ dʲ iː n̠ʲ,x ɪ dʲ i mʲ eː
+cuidigh,V;AUTO;SBJV;PRS,ɡ ɔ ɡ ɪ dʲ iː tʲ ə ɾˠ,ɡ ɔ ɡ ɪ dʲ iː tʲ i
+cuidigh,V;V.MSDR,k ɪ dʲ u,t̪ˠ ɪ ʃ c ɪ n̠ʲ tʲ
+cuidigh,V;2;SG;PST;HAB;IND,x ɪ dʲ iː tʲ aː,x ɪ dʲ iː tʲ aː
+cuidigh,V;3;SG;SBJV;PST,d̪ˠ aː ɡ ɪ dʲ iː ʃ eː,d̪ˠ aː ɡ ɪ dʲ iː ʃ eː
+cuidigh,V;2;SG;FUT;IND,k ɪ dʲ oː tʲ u,ʃ iː lʲ h ə t̪ˠ uː
+cuidigh,V;1;SG;COND,x ɪ dʲ oː n̠ʲ,x aː lʲ oː n̠ʲ
+cuidigh,V;3;SG;PRS;IND,k ɪ dʲ iː n̪ˠ ʃ eː,k ɪ dʲ iː n̪ˠ ʃ eː
+cuidigh,V;1;PL;SBJV;PST,d̪ˠ aː ɡ ɪ dʲ iː mʲ ə ʃ,d̪ˠ aː ɡ ɪ dʲ iː mʲ ə dʲ
+buail,V;2;SG;SBJV;PRS,ɡ ɔ mˠ u ə lʲ ə t̪ˠ u,ɡ ɔ mˠ u ə lʲ t̪ˠ uː
+buail,V;REL;FUT;IND,ə vˠ u ə lʲ h ə,ə mʲ ɾʲ oː
+buail,V;1;SG;FUT;IND,bˠ u ə lʲ h ə mʲ eː,bˠ u ə lʲ h ə mʲ eː
+buail,V;V.PTCP;PST,bˠ u ə l̠ʲ tʲ ə,bˠ u ə l̠ʲ tʲ ə
+buail,V;1;SG;PRS;IND,bˠ u ə lʲ ə mʲ,bˠ u ə lʲ ə mʲ eː
+buail,V;3;PL;SBJV;PST,d̪ˠ aː mˠ u ə lʲ ə dʲ iː ʃ,ɡ ɔ mˠ u ə lʲ ʃ i ə d̪ˠ
+buail,V;1;PL;COND,vˠ u ə lʲ h ə mʲ ə ʃ,h ɪ c ɪ mʲ ə ʃ
+buail,V;2;PL;FUT;IND,bˠ u ə lʲ h ə ʃ ə vʲ,bˠ u ə lʲ h ə ʃ ə vʲ
+buail,V;3;PL;SBJV;PRS,ɡ ɔ mˠ u ə lʲ ə ʃ i ə d̪ˠ,ɡ ɔ mˠ u ə lʲ ə ʃ i ə d̪ˠ
+buail,V;1;PL;SBJV;PRS,ɡ ə mˠ u ə lʲ ə mʲ ə dʲ,ɡ ə ɟ a ŋ lˠ iː mʲ ə dʲ
+buail,V;2;SG;PRS;IND,bˠ u ə lʲ ə n̪ˠ t̪ˠ uː,bˠ u ə lʲ ə n̪ˠ t̪ˠ uː
+buail,V;2;SG;PST;HAB;IND,vˠ u ə l̠ʲ tʲ ɑː,d̪ˠ ɛ bʲ ɾʲ iː tʲ aː
+buail,V;3;PL;IMP,bˠ u ə lʲ ə dʲ iː ʃ,bˠ u ə lʲ ə dʲ iː ʃ
+buail,V;2;PL;PST;IND,vˠ u ə lʲ ʃ ə vʲ,bˠ u ə lʲ u ʃ ə vʲ
+buail,V;3;PL;PRS;IND,bˠ u ə lʲ ə n̪ˠ ʃ i ə d̪ˠ,bˠ u ə lʲ ə n̪ˠ ʃ eː
+buail,V;2;SG;IMP,bˠ u ə lʲ,bˠ u ə lʲ t̪ˠ uː
+togh,V;2;SG;COND,h oː h aː,d̪ˠ aː ɾʲ oː fˠ aː
+togh,V;2;PL;SBJV;PST,d̪ˠ aː d̪ˠ oː ʃ ə vʲ,d̪ˠ aː d̪ˠ oː ʃ ə vʲ
+togh,V;3;SG;SBJV;PRS,ɡ ɔ d̪ˠ oː ʃ eː,ɡ ɔ d̪ˠ a ɡ ə ʃ eː
+togh,V;1;SG;SBJV;PRS,ɡ ɔ d̪ˠ oː mʲ eː,ɡ ɔ d̪ˠ oː mʲ eː
+togh,V;1;SG;PRS;IND,t̪ˠ ɔ i mʲ,h oː mʲ eː
+togh,V;1;SG;PST;HAB;IND,h oː n̠ʲ,h oː mʲ eː
+togh,V;V.MSDR,t̪ˠ ɔ u,ɡ ɾˠ aː
+togh,V;2;SG;FUT;IND,t̪ˠ ɔ h ə t̪ˠ uː,t̪ˠ ɔ h ə t̪ˠ uː
+togh,V;3;SG;PST;HAB;IND,h oː ʃ eː,h oː ʃ eː
+sílim,V;1;PL;IMP,ʃ iː lʲ ə mʲ ə ʃ,ʃ iː lʲ h ə mʲ ə ʃ
+sílim,V;3;SG;SBJV;PRS,ɡ ɔ ʃ iː lʲ ə ʃ eː,ɡ ə ʃ iː lʲ u ʃ eː
+sílim,V;3;SG;COND,h iː lʲ h u ʃ eː,sˠ mˠ iː nʲ h u ʃ eː
+sílim,V;1;SG;SBJV;PRS,ɡ ɔ ʃ iː lʲ ə mʲ eː,ʃ iː lʲ ə mʲ
+sílim,V;3;SG;IMP,ʃ iː lʲ u ʃ eː,ʃ iː lʲ u ʃ eː
+sílim,V;2;PL;FUT;IND,ʃ iː lʲ h ə ʃ ɪ vʲ,ʃ iː lʲ h ə ʃ ə vʲ
+sílim,V;1;SG;COND,h iː lʲ h ə n̠ʲ,h iː lʲ h ə n̠ʲ
+sílim,V;AUTO;SBJV;PST,d̪ˠ aː ʃ iː l̠ʲ tʲ i,ʃ iː lʲ u
+sílim,V;2;PL;IMP,ʃ iː lʲ ɪ ɟ iː,æː ɾʲ iː ɟ iː
+cruinnigh,V;REL;PST;HAB;IND,ə x ɾˠ ɪ n̠ʲ iː u,ə x ɾˠ ɪ n̠ʲ iː n̠ʲ
+cruinnigh,V;2;PL;SBJV;PST,d̪ˠ aː ɡ ɾˠ ɪ n̠ʲ iː ʃ i vʲ,d̪ˠ aː ɡ ɾˠ ɪ n̠ʲ iː ʃ ə vʲ
+cruinnigh,V;AUTO;FUT;IND,k ɾˠ ɪ n̠ʲ oː h ə ɾˠ,k ɾˠ ɪ n̠ʲ iː u
+cruinnigh,V;REL;COND,ə x ɾˠ ɪ n̠ʲ oː,ə lʲ eː h u
+cruinnigh,V;3;SG;PST;IND,x ɾˠ ɪ n̠ʲ iː ʃ eː,x ɾˠ ɪ n̠ʲ iː ʃ eː
+cruinnigh,V;AUTO;PRS;IND,k ɾˠ ɪ n̠ʲ iː tʲ ə ɾˠ,k ɾˠ ɪ n̠ʲ iː tʲ ə ɾˠ
+cruinnigh,V;1;PL;PST;HAB;IND,x ɾˠ ɪ n̠ʲ iː mʲ ə ʃ,x ɾˠ ɪ n̠ʲ iː mʲ ə ʃ
+cruinnigh,V;1;SG;SBJV;PRS,ɡ ɔ ɡ ɾˠ ɪ n̠ʲ iː mʲ eː,ɡ ɔ ɡ ɾˠ ɪ n̠ʲ iː n̠ʲ
+cruinnigh,V;1;PL;COND,x ɾˠ ɪ n̠ʲ oː mʲ ə ʃ,x ɾˠ ɪ n̠ʲ oː mʲ ə ʃ
+cruinnigh,V;2;PL;PRS;IND,k ɾˠ ɪ n̠ʲ iː n̠ʲ ʃ ə vʲ,k ɾˠ ɪ n̠ʲ iː ʃ ə vʲ
+cruinnigh,V;3;SG;IMP,k ɾˠ ɪ n̠ʲ iː ʃ eː,k æː lʲ i ə ʃ eː
+cruinnigh,V;3;PL;SBJV;PRS,ɡ ɔ ɡ ɾˠ ɪ n̠ʲ iː ʃ i ə d̪ˠ,ɡ ɔ ɡ ɾˠ ɪ n̠ʲ iː dʲ iː ʃ
+cruinnigh,V;3;SG;SBJV;PST,d̪ˠ aː ɡ ɾˠ ɪ n̠ʲ iː ʃ eː,d̪ˠ aː ɡ ɾˠ ɪ n̠ʲ iː ʃ eː
+cruinnigh,V;1;SG;COND,x ɾˠ ɪ n̠ʲ oː n̠ʲ,x ɾˠ ɪ n̠ʲ iː mʲ
+cruinnigh,V;AUTO;SBJV;PST,d̪ˠ aː ɡ ɾˠ ɪ n̠ʲ iː tʲ iː,d̪ˠ aː ɡ ɾˠ ɪ n̠ʲ iː tʲ iː
+cruinnigh,V;3;SG;PST;HAB;IND,x ɾˠ ɪ n̠ʲ iː ʃ eː,x ɾˠ ɪ n̠ʲ iː ʃ eː
+cruinnigh,V;2;PL;IMP,k ɾˠ ɪ n̠ʲ iː ɟ iː,k ɾˠ ɪ n̠ʲ oː ʃ ə vʲ
+riar,V;AUTO;PST;HAB;IND,ɾˠ i ə ɾˠ t̪ˠ iː,ɾˠ i ə ɾˠ u
+riar,V;REL;PST;IND,ə ɾʲ i ə ɾˠ,ə ɾʲ i ə ɾˠ u
+riar,V;2;PL;SBJV;PST,d̪ˠ aː ɾˠ i ə ɾˠ u ʃ i vʲ,d̪ˠ aː ɾˠ i ə ɾˠ ə ʃ ə vʲ
+riar,V;2;PL;PST;HAB;IND,ɾˠ i ə ɾˠ u ʃ i vʲ,ɾˠ i ə ɾˠ u ʃ ə vʲ
+riar,V;3;PL;SBJV;PRS,ɡ ɔ ɾʲ i ə ɾˠ ə ʃ i ə d̪ˠ,ɡ ɔ vˠ ɑː ɡ ə ʃ i ə d̪ˠ
+riar,V;1;PL;SBJV;PRS,ɡ ɔ ɾʲ i ə ɾˠ ə mʲ ə dʲ,ɡ ɔ ɾʲ i ə ɾˠ ə mʲ ə dʲ
+riar,V;3;PL;IMP,ɾˠ i ə ɾˠ ə dʲ iː ʃ,ɾˠ i ə ɾˠ h ə dʲ i ʃ
+riar,V;2;SG;FUT;IND,ɾˠ i ə ɾˠ h ə t̪ˠ uː,ɾˠ i ə ɾˠ h ə t̪ˠ uː
+tíor,V;AUTO;IMP,tʲ iː ɾˠ t̪ˠ ə ɾˠ,tʲ iː ɾˠ u
+tíor,V;REL;PST;IND,ə h iː ɾˠ,ə h iː ɾˠ u
+tíor,V;2;PL;SBJV;PST,d̪ˠ aː dʲ iː ɾˠ u ʃ iː,d̪ˠ aː dʲ iː ɾˠ u ʃ iː
+tíor,V;3;SG;SBJV;PRS,ɡ ə dʲ iː ɾˠ ə ʃ eː,ɡ ə dʲ iː ɾˠ ə ʃ eː
+tíor,V;3;PL;SBJV;PST,d̪ˠ aː dʲ iː ɾˠ ə dʲ iː ʃ,d̪ˠ aː vʲ eː x ə dʲ iː ʃ
+tíor,V;3;SG;FUT;IND,tʲ iː ɾˠ h ə ʃ eː,tʲ iː ɾˠ h ə ʃ eː
+tíor,V;2;PL;PRS;IND,tʲ iː ɾˠ ə n̪ˠ ʃ ə vʲ,tʲ iː ɾˠ ə n̪ˠ ʃ ə vʲ
+tíor,V;2;PL;PST;HAB;IND,h iː ɾˠ u ʃ ə vʲ,h iː ɾˠ ʃ ə vʲ
+tíor,V;1;PL;SBJV;PRS,ɡ ə dʲ iː ɾˠ ə mʲ ə dʲ,ɡ ə dʲ iː ɾˠ ə ʃ i ə d̪ˠ
+tíor,V;3;PL;IMP,tʲ iː ɾˠ ə dʲ iː ʃ,tʲ iː ɾˠ ə dʲ iː ʃ
+tíor,V;3;PL;PRS;IND,tʲ iː ɾˠ ə n̪ˠ ʃ i ə d̪ˠ,tʲ iː ɾˠ ə n̪ˠ ʃ i ə d̪ˠ
+tíor,V;2;SG;FUT;IND,tʲ iː ɾˠ h ə tʲ uː,tʲ iː ɾˠ t̪ˠ uː
+tíor,V;1;SG;PST;IND,h iː ɾˠ mʲ eː,h iː ɾˠ ʃ eː
+tíor,V;1;PL;SBJV;PST,d̪ˠ aː dʲ iː ɾˠ ə mʲ ə ʃ,h iː ɾˠ ə mʲ ə ʃ
+maígh,V;3;PL;FUT;IND,mˠ iː ʃ i ə d̪ˠ,mˠ iː h ə ʃ i ə d̪ˠ
+maígh,V;1;SG;FUT;IND,mˠ iː h ə mʲ eː,mˠ iː h ə mʲ eː
+maígh,V;1;PL;PRS;IND,mˠ iː mʲ ə dʲ,mˠ iː n̪ˠ ʃ ə vʲ
+maígh,V;2;PL;SBJV;PST,d̪ˠ aː mˠ iː ʃ ə vʲ,d̪ˠ aː mˠ iː ʃ i vʲ
+maígh,V;1;SG;SBJV;PST,d̪ˠ aː mˠ iː n̠ʲ,ɡ ɔ mˠ iː mʲ eː
+maígh,V;1;PL;PST;HAB;IND,vˠ iː mʲ ə ʃ,vˠ iː mʲ ə ʃ
+maígh,V;3;PL;SBJV;PST,d̪ˠ aː mˠ iː dʲ iː ʃ,d̪ˠ aː ʃ tʲ ə dʲ iː ʃ
+maígh,V;2;SG;SBJV;PST,d̪ˠ aː mˠ iː tʲ aː,d̪ˠ aː mˠ iː tʲ aː
+maígh,V;3;SG;IMP,mˠ iː u ʃ eː,mˠ iː
+maígh,V;3;PL;SBJV;PRS,ɡ ə mˠ iː ʃ i ə d̪ˠ,ɡ ɔ mˠ iː ʃ i ə d̪ˠ
+maígh,V;3;PL;PRS;IND,mˠ iː n̪ˠ ʃ i ə d̪ˠ,ɛ bʲ ɾʲ iː n̪ˠ ʃ i ə d̪ˠ
+maígh,V;3;SG;PST;HAB;IND,vˠ iː ʃ eː,vˠ iː ə ʃ eː
+scrúdaigh,V;REL;PST;HAB;IND,ə sˠ k ɾˠ uː d̪ˠ i ə,ə h oː u
+scrúdaigh,V;REL;FUT;IND,ə sˠ k ɾˠ uː d̪ˠ oː,ə h oː h ə
+scrúdaigh,V;AUTO;PST;HAB;IND,sˠ k ɾˠ uː d̪ˠ iː tʲ iː,sˠ k ɾˠ uː d̪ˠ i ə
+scrúdaigh,V;3;PL;FUT;IND,sˠ k ɾˠ uː d̪ˠ oː ʃ i ə d̪ˠ,sˠ k ɾˠ uː d̪ˠ oː ʃ i ə d̪ˠ
+scrúdaigh,V;REL;PRS;IND,ə sˠ k ɾˠ uː d̪ˠ iː n̪ˠ,ə nˠ ə n̪ˠ
+scrúdaigh,V;1;PL;FUT;IND,sˠ k ɾˠ uː d̪ˠ oː mʲ ə dʲ,sˠ k ɾˠ uː d̪ˠ oː mʲ ə dʲ
+scrúdaigh,V;REL;PST;IND,ə sˠ k ɾˠ uː d̪ˠ i,ə h oː
+scrúdaigh,V;AUTO;FUT;IND,sˠ k ɾˠ uː d̪ˠ oː fˠ ə ɾˠ,sˠ k ɾˠ uː d̪ˠ oː fˠ ə ɾˠ
+scrúdaigh,V;2;PL;SBJV;PRS,ɡ ɔ sˠ k ɾˠ uː d̪ˠ iː ʃ iː,sˠ k ɾˠ uː d̪ˠ i n̪ˠ ʃ iː
+scrúdaigh,V;1;PL;COND,sˠ k ɾˠ uː d̪ˠ oː mʲ ə ʃ,sˠ k ɾˠ uː d̪ˠ iː ʃ
+scrúdaigh,V;2;SG;SBJV;PST,d̪ˠ aː sˠ k ɾˠ uː d̪ˠ iː tʲ aː,d̪ˠ aː sˠ k ɾˠ uː d̪ˠ iː tʲ aː
+scrúdaigh,V;2;PL;PST;HAB;IND,sˠ k ɾˠ uː d̪ˠ iː ʃ i vʲ,sˠ k ɾˠ uː d̪ˠ iː ʃ iː
+scrúdaigh,V;3;SG;IMP,sˠ k ɾˠ uː d̪ˠ iː ʃ eː,t̪ˠ ɔ u ʃ eː
+scrúdaigh,V;1;PL;SBJV;PRS,ɡ ɔ sˠ k ɾˠ uː d̪ˠ iː mʲ ə dʲ,ɡ ɔ sˠ k ɾˠ uː d̪ˠ iː mʲ ə dʲ
+scrúdaigh,V;3;SG;SBJV;PST,d̪ˠ aː sˠ k ɾˠ uː d̪ˠ iː ʃ eː,d̪ˠ aː sˠ k ɾˠ uː d̪ˠ iː ʃ eː
+scrúdaigh,V;2;SG;IMP,sˠ k ɾˠ uː d̪ˠ i,sˠ k ɾˠ uː d̪ˠ oː fˠ ɑː
+scrúdaigh,V;1;SG;COND,sˠ k ɾˠ uː d̪ˠ oː n̠ʲ,sˠ k ɾˠ uː d̪ˠ i mˠ
+scrúdaigh,V;1;SG;PST;IND,sˠ k ɾˠ uː d̪ˠ iː mʲ eː,d̪ˠ ɔ sˠ k ɾˠ uː d̪ˠ iː mʲ eː
+scrúdaigh,V;3;SG;PST;HAB;IND,sˠ k ɾˠ uː d̪ˠ iː ʃ eː,sˠ k ɾˠ uː d̪ˠ iː ʃ eː
+brúigh,V;1;SG;IMP,bˠ ɾˠ uː mʲ,bˠ ɾˠ uː mʲ eː
+brúigh,V;AUTO;PST;HAB;IND,vˠ ɾˠ uː tʲ i,h a sˠ t̪ˠ iː tʲ iː
+brúigh,V;REL;PRS;IND,ə vˠ ɾˠ uː n̪ˠ,ə vˠ ɾˠ uː h ə
+brúigh,V;AUTO;FUT;IND,bˠ ɾˠ uː fˠ ə ɾˠ,vˠ ɾˠ uː h ə
+brúigh,V;REL;COND,ə vˠ ɾˠ uː h u,ə x a l̠ʲ h u
+brúigh,V;1;SG;PRS;IND,bˠ ɾˠ uː mʲ,bˠ ɾˠ uː n̠ʲ
+brúigh,V;3;SG;FUT;IND,bˠ ɾˠ uː h ə ʃ eː,bˠ ɾˠ uː h ə ʃ eː
+brúigh,V;3;PL;SBJV;PRS,ɡ ɔ mˠ ɾˠ uː ʃ i ə d̪ˠ,ɡ ɔ vʲ ɾʲ a sˠ t̪ˠ ə lˠ iː ʃ i ə d̪ˠ
+brúigh,V;3;PL;PRS;IND,bˠ ɾˠ uː n̪ˠ ʃ i ə d̪ˠ,bˠ ɾˠ uː h ə ʃ i ə d̪ˠ
+brúigh,V;3;SG;SBJV;PST,d̪ˠ aː mˠ ɾˠ uː ʃ eː,ɡ ə mˠ ɾˠ uː ʃ eː
+brúigh,V;3;SG;PRS;IND,bˠ ɾˠ uː n̪ˠ ʃ eː,fʲ ɾʲ a sˠ t̪ˠ ə lˠ iː n̪ˠ ʃ eː
+suigh,V;REL;PST;HAB;IND,ə h iː u,ə d̪ˠ a d̪ˠ vˠ iː u
+suigh,V;1;SG;IMP,sˠ iː mʲ,sˠ ɪ tʲ ə mʲ
+suigh,V;AUTO;PST;HAB;IND,h ɪ tʲ i,sˠ ɪ tʲ iː
+suigh,V;3;PL;FUT;IND,sˠ iː ʃ i ə d̪ˠ,sˠ iː dʲ iː ʃ
+suigh,V;2;SG;COND,h iː h aː,h iː h aː
+suigh,V;2;PL;SBJV;PST,d̪ˠ aː sˠ iː ʃ i vʲ,ɡ ɔ sˠ iː ʃ ə vʲ
+suigh,V;3;SG;SBJV;PRS,ɡ ɔ sˠ iː ʃ eː,ɡ ɔ sˠ iː ʃ eː
+suigh,V;2;PL;SBJV;PRS,ɡ ɔ sˠ iː ʃ ə vʲ,ɡ ɔ ŋ ɾˠ aː ʃ ə vʲ
+suigh,V;1;SG;SBJV;PRS,ɡ ɔ sˠ iː mʲ eː,ɡ ɔ sˠ iː mʲ
+suigh,V;3;SG;FUT;IND,sˠ iː h ə ʃ eː,sˠ iː h ə ʃ eː
+suigh,V;1;PL;COND,h iː h ə mʲ ə ʃ,sˠ ɪ tʲ ə mʲ ə ʃ
+suigh,V;3;PL;COND,h iː h ə dʲ iː ʃ,sˠ iː dʲ iː ʃ
+suigh,V;AUTO;SBJV;PRS,ɡ ɔ sˠ ɪ tʲ ə ɾˠ,ɡ ɔ vˠ u ə l̠ʲ tʲ ə ɾˠ
+suigh,V;1;PL;SBJV;PRS,ɡ ə sˠ iː mʲ ə dʲ,ɡ ɔ sˠ iː mʲ ə ʃ
+suigh,V;2;SG;PRS;IND,sˠ iː n̪ˠ t̪ˠ uː,sˠ iː tʲ u
+suigh,V;AUTO;COND,h iː fʲ iː,dʲ eː ʃ tʲ ə lˠ oː fˠ iː
+suigh,V;2;SG;PST;HAB;IND,h ɪ tʲ ɑː,vˠ u ə tʲ aː
+suigh,V;2;SG;IMP,sˠ ɪ j,æː ɾʲ i
+suigh,V;1;SG;PST;IND,h ɪ mʲ eː,sˠ iː mʲ eː
+suigh,V;3;SG;PST;HAB;IND,h iː ʃ eː,h ɪ mʲ ə ɾʲ ʃ eː
+suigh,V;1;PL;SBJV;PST,d̪ˠ aː sˠ ɪ mʲ ə ʃ,h iː mˠ ə ɾˠ
+ceangail,V;2;SG;SBJV;PRS,ɡ ɔ ɟ ə ŋ lˠ iː t̪ˠ uː,ɡ ə ɟ a ŋ lˠ iː tʲ aː
+ceangail,V;REL;PST;IND,ə ç a ŋ ɡ ə lʲ,ə ç a ŋ lˠ iː u
+ceangail,V;2;PL;SBJV;PRS,ɡ ɔ ɟ ə ŋ lˠ iː ʃ ə vʲ,ɡ ɔ d̪ˠ oː ʃ ə vʲ
+ceangail,V;V.PTCP;PST,c a ŋ ɡ ə l̠ʲ tʲ ə,tʲ a sˠ t̪ˠ ə
+ceangail,V;3;PL;SBJV;PST,d̪ˠ aː ɟ ə ŋ lˠ iː dʲ iː ʃ,ç a ŋ ɡ ə lʲ ʃ i ə d̪ˠ
+ceangail,V;1;SG;PST;HAB;IND,ç a ŋ lˠ iː n̠ʲ,ç a ŋ lˠ iː mʲ eː
+ceangail,V;1;PL;COND,ç a ŋ ɡ lˠ oː mʲ ə ʃ,ç a ŋ ɡ lˠ oː mʲ ə ʃ
+ceangail,V;2;SG;SBJV;PST,d̪ˠ aː ɟ a ŋ ɡ lˠ iː tʲ aː,d̪ˠ aː ɟ a ŋ lˠ iː tʲ aː
+ceangail,V;3;PL;IMP,c a ŋ ɡ lˠ iː dʲ iː ʃ,c a ŋ ɡ lˠ iː ʃ i ə d̪ˠ
+ceangail,V;3;PL;PRS;IND,c a ŋ ɡ lˠ i n̪ˠ ʃ i ə d̪ˠ,c a ŋ ɡ lˠ iː ʃ i ə d̪ˠ
+ceangail,V;2;SG;FUT;IND,c a ŋ ɡ lˠ oː t̪ˠ uː,c a ŋ ɡ ə lʲ t̪ˠ uː
+ceangail,V;2;PL;IMP,c a ŋ ɡ lˠ iː ɟ iː,k æː lʲ iː ɟ iː
+ceangail,V;3;SG;PRS;IND,c a ŋ ɡ lˠ iː n̪ˠ ʃ eː,c a ŋ lˠ iː n̪ˠ ʃ eː
+seas,V;2;SG;SBJV;PRS,ɡ ɔ ʃ a sˠ ə t̪ˠ uː,ɡ ɔ d̪ˠ a ʃ tʲ ə lˠ iː t̪ˠ uː
+seas,V;AUTO;PST;HAB;IND,h a sˠ t̪ˠ iː,h a sˠ t̪ˠ ə ɾˠ
+seas,V;REL;PST;IND,ə h a sˠ,ə h a sˠ u
+seas,V;3;SG;PST;IND,h a sˠ ʃ eː,h a sˠ t̪ˠ iː ʃ eː
+seas,V;3;PL;PST;IND,h a sˠ ʃ i ə d̪ˠ,h a sˠ ʃ i ə d̪ˠ
+seas,V;1;SG;PST;HAB;IND,h a sˠ ə n̠ʲ,h a sˠ ə mʲ
+seas,V;2;PL;PRS;IND,ʃ a sˠ ə n̪ˠ ʃ ə vʲ,ɡ ɔ ʃ a sˠ ə ʃ ə vʲ
+seas,V;2;PL;PST;HAB;IND,h a sˠ u ʃ iː,dʲ a ɡ ɾˠ iː ʃ i vʲ
+seas,V;3;SG;PST;HAB;IND,h a sˠ u ʃ eː,h a sˠ iː ʃ eː
+seas,V;1;PL;PST;IND,h a sˠ ə mˠ ə ɾˠ,h a sˠ ə mʲ ə ʃ
+smaoinigh,V;2;SG;SBJV;PRS,ɡ ə sˠ mˠ iː nʲ iː tʲ u,ɡ ɔ ŋ ɾˠ aː t̪ˠ uː
+smaoinigh,V;REL;FUT;IND,ə sˠ mˠ iː nʲ oː,ə x ɾʲ ɛ tʲ h ə
+smaoinigh,V;3;PL;FUT;IND,sˠ mˠ iː nʲ oː ʃ i ə d̪ˠ,sˠ mˠ iː nʲ i ə ʃ i ə d̪ˠ
+smaoinigh,V;2;SG;COND,sˠ mˠ iː nʲ oː fˠ ɑː,sˠ mˠ iː nʲ oː fˠ aː
+smaoinigh,V;1;PL;IMP,sˠ mˠ iː nʲ iː mʲ ə ʃ,sˠ mˠ iː nʲ oː mʲ ə ʃ
+smaoinigh,V;AUTO;FUT;IND,sˠ mˠ iː nʲ oː h ə ɾˠ,sˠ mˠ iː nʲ iː tʲ ə ɾˠ
+smaoinigh,V;REL;COND,ə sˠ mˠ iː nʲ oː,ə x ɾʲ ɛ tʲ u
+smaoinigh,V;1;SG;SBJV;PST,d̪ˠ aː sˠ mˠ iː nʲ iː n̠ʲ,d̪ˠ aː sˠ mˠ iː nʲ iː n̠ʲ
+smaoinigh,V;3;SG;COND,sˠ mˠ iː nʲ oː ʃ eː,h ʊ k uː ʃ eː
+smaoinigh,V;3;PL;PST;IND,sˠ mˠ iː nʲ i ʃ i ə d̪ˠ,sˠ mˠ iː nʲ iː dʲ iː ʃ
+smaoinigh,V;1;PL;COND,sˠ mˠ iː nʲ oː mʲ ə ʃ,h ʊ k ə mʲ ə ʃ
+smaoinigh,V;2;PL;PRS;IND,sˠ mˠ iː nʲ i ə n̠ʲ ʃ iː,sˠ mˠ iː nʲ i ə n̪ˠ ʃ ə vʲ
+smaoinigh,V;2;PL;PST;HAB;IND,sˠ mˠ iː nʲ i ə ʃ iː,sˠ mˠ iː nʲ i ə ʃ iː
+smaoinigh,V;AUTO;SBJV;PRS,ɡ ə sˠ mˠ iː nʲ iː tʲ ə ɾˠ,d̪ˠ aː sˠ mˠ iː nʲ iː tʲ ə ɾˠ
+smaoinigh,V;1;PL;SBJV;PRS,ɡ ə sˠ mˠ iː nʲ iː mʲ ə dʲ,ɡ ə sˠ mˠ iː nʲ iː mʲ ə dʲ
+smaoinigh,V;2;PL;PST;IND,sˠ mˠ iː nʲ i ʃ ə vʲ,sˠ mˠ iː nʲ i ə ʃ ə vʲ
+smaoinigh,V;AUTO;PST;IND,sˠ mˠ iː nʲ i ə u,sˠ mˠ iː nʲ iː tʲ i
+smaoinigh,V;3;SG;PRS;IND,sˠ mˠ iː nʲ i ə n̠ʲ ʃ eː,sˠ mˠ iː nʲ iː ʃ eː
+taispeáin,V;2;SG;SBJV;PRS,ɡ ɔ d̪ˠ a ʃ pʲ ɑː n̪ˠ ə t̪ˠ uː,ɡ ɔ d̪ˠ a ʃ pʲ aː n̪ˠ t̪ˠ uː
+taispeáin,V;3;PL;FUT;IND,t̪ˠ a ʃ pʲ aː n̪ˠ h i ə d̪ˠ,t̪ˠ a ʃ pʲ aː n̪ˠ h ə ʃ i ə d̪ˠ
+taispeáin,V;REL;PST;IND,ə h a ʃ pʲ ɑː nʲ,ə h a ʃ pʲ ɑː n̪ˠ u
+taispeáin,V;3;SG;COND,h a ʃ pʲ aː n̪ˠ h u ʃ eː,j eː nˠ u ʃ eː
+taispeáin,V;3;PL;PST;IND,h a ʃ pʲ aː nʲ ʃ i ə d̪ˠ,d̪ˠ aː d̪ˠ a ʃ pʲ ɑː n̪ˠ ə ʃ i ə d̪ˠ
+taispeáin,V;2;PL;PST;IND,h a ʃ pʲ ɑː nʲ ʃ ə vʲ,h a ʃ pʲ aː nˠ u ʃ iː
+taispeáin,V;3;SG;SBJV;PST,d̪ˠ aː d̪ˠ a ʃ pʲ aː nˠ u ʃ eː,d̪ˠ aː d̪ˠ a ʃ pʲ ɑː n̪ˠ ə ʃ eː
+taispeáin,V;AUTO;PST;IND,t̪ˠ a ʃ pʲ aː nˠ u,t̪ˠ a ʃ pʲ aː n̪ˠ t̪ˠ iː
+taispeáin,V;2;PL;IMP,t̪ˠ a ʃ pʲ aː nˠ ə ɟ iː,t̪ˠ a ʃ pʲ aː nˠ u ʃ iː
+taispeáin,V;1;PL;PST;IND,h a ʃ pʲ aː nˠ ə mˠ ə ɾˠ,h a ʃ pʲ aː nˠ ə mʲ iː ʃ
+dligh,V;REL;FUT;IND,ə j lʲ iː,ə lˠ ə mʲ oː
+dligh,V;1;SG;IMP,dʲ lʲ iː mʲ,dʲ lʲ ɪ tʲ ə n̠ʲ
+dligh,V;1;PL;IMP,dʲ lʲ iː mʲ ə ʃ,dʲ lʲ iː h ə mʲ ə ʃ
+dligh,V;3;SG;IMP,dʲ lʲ iː ʃ eː,dʲ lʲ iː ʃ eː
+dligh,V;3;PL;SBJV;PRS,ɡ ə n̠ʲ d̪ˠ l̠ʲ iː ʃ i ə d̪ˠ,ɡ ɔ n̠ʲ dʲ lʲ iː ʃ i ə d̪ˠ
+dligh,V;2;SG;PRS;IND,dʲ lʲ iː n̪ˠ t̪ˠ uː,dʲ lʲ iː n̪ˠ
+dligh,V;AUTO;COND,j lʲ iː h iː,ç ɾʲ ɛ dʲ iː
+dligh,V;2;SG;PST;HAB;IND,j lʲ ɪ tʲ aː,j lʲ iː t̪ˠ u
+dligh,V;2;PL;PST;IND,j lʲ iː ʃ ə vʲ,j lʲ ɪ tʲ ə ʃ iː
+dligh,V;3;PL;PRS;IND,dʲ lʲ iː n̪ˠ ʃ i ə d̪ˠ,dʲ lʲ iː dʲ iː ʃ
+dligh,V;3;SG;SBJV;PST,d̪ˠ aː n̠ʲ d̪ˠ l̠ʲ iː ʃ eː,d̪ˠ aː n̠ʲ d̪ˠ l̠ʲ iː ʃ eː
+dligh,V;2;SG;FUT;IND,dʲ lʲ iː h t̪ˠ uː,a vʲ ɾʲ ɛ h nʲ oː tʲ uː
+pléigh,V;2;SG;SBJV;PRS,ɡ ɔ bˠ l̠ʲ eː t̪ˠ u,ɡ ɔ bˠ lʲ eː tʲ aː
+pléigh,V;REL;PST;HAB;IND,a fʲ lʲ eː,ə fʲ lʲ eː
+pléigh,V;REL;PRS;IND,a fʲ lʲ eː n̪ˠ,fʲ lʲ eː n̪ˠ
+pléigh,V;AUTO;FUT;IND,pʲ lʲ eː fʲ ə ɾˠ,pʲ lʲ eː tʲ i
+pléigh,V;3;PL;SBJV;PRS,ɡ ɔ bˠ lʲ eː ʃ i ə d̪ˠ,ɡ ɔ sˠ k a ɾˠ ə ʃ i ə d̪ˠ
+pléigh,V;2;SG;PRS;IND,pʲ lʲ eː n̪ˠ t̪ˠ uː,tʲ iː ɾˠ ə n̪ˠ t̪ˠ uː
+pléigh,V;3;PL;IMP,pʲ lʲ eː dʲ iː ʃ,pʲ lʲ eː dʲ iː ʃ
+pléigh,V;3;SG;SBJV;PST,d̪ˠ aː bˠ lʲ eː ʃ eː,d̪ˠ aː bˠ lʲ eː ʃ eː
+pléigh,V;1;SG;PST;IND,fʲ lʲ eː mʲ eː,fʲ lʲ eː mʲ
+pléigh,V;AUTO;PST;IND,pʲ lʲ eː,fʲ lʲ eː h ə
+pléigh,V;1;PL;PST;IND,fʲ lʲ eː mˠ ə ɾˠ,fʲ lʲ eː mʲ ə ʃ
+pléigh,V;3;SG;PRS;IND,pʲ lʲ eː n̪ˠ ʃ eː,pʲ lʲ eː ʃ eː
+teastaigh,V;1;PL;FUT;IND,tʲ a sˠ t̪ˠ oː mʲ ə dʲ,tʲ a sˠ t̪ˠ oː mʲ ə dʲ
+teastaigh,V;2;SG;COND,h a sˠ t̪ˠ oː fˠ aː,h a sˠ t̪ˠ oː fˠ aː
+teastaigh,V;1;SG;FUT;IND,tʲ a sˠ t̪ˠ oː mʲ eː,tʲ a sˠ t̪ˠ oː mʲ eː
+teastaigh,V;REL;COND,ə h a sˠ t̪ˠ oː,ə h iː h u
+teastaigh,V;3;SG;COND,h a sˠ t̪ˠ oː ʃ eː,tʲ a sˠ t̪ˠ oː ʃ eː
+teastaigh,V;3;SG;FUT;IND,tʲ a sˠ t̪ˠ oː ʃ eː,t̪ˠ ɪ c ɪ ʃ eː
+teastaigh,V;1;SG;PST;HAB;IND,h a sˠ t̪ˠ iː n̠ʲ,h a sˠ t̪ˠ iː n̠ʲ
+teastaigh,V;2;SG;PST;IND,h a sˠ t̪ˠ ə t̪ˠ uː,tʲ a sˠ t̪ˠ iː tʲ ɑː
+teastaigh,V;2;SG;SBJV;PST,d̪ˠ aː d̪ˠ iː tʲ aː,d̪ˠ aː d̪ˠ a sˠ t̪ˠ iː tʲ aː
+teastaigh,V;2;SG;PST;HAB;IND,h a sˠ t̪ˠ iː tʲ aː,h oː k t̪ˠ aː
+teastaigh,V;2;SG;IMP,tʲ a sˠ t̪ˠ i,ʃ a sˠ t̪ˠ oː fˠ aː
+teastaigh,V;2;SG;FUT;IND,tʲ a sˠ t̪ˠ oː t̪ˠ uː,tʲ a sˠ t̪ˠ iː tʲ ɑː
+teastaigh,V;1;SG;COND,h a sˠ t̪ˠ oː n̠ʲ,h a sˠ t̪ˠ oː n̠ʲ
+teastaigh,V;2;PL;IMP,tʲ a sˠ t̪ˠ iː ɟ iː,tʲ a sˠ t̪ˠ oː ʃ iː
+teastaigh,V;1;PL;PST;IND,h a sˠ t̪ˠ iː mˠ ə ɾˠ,sˠ mˠ iː nʲ iː mˠ ə ɾˠ
+can,V;REL;COND,ə x a nˠ u,ə d̪ˠ ɔ ɾˠ d̪ˠ oː
+can,V;3;SG;FUT;IND,k a nˠ h ə ʃ eː,k a nˠ ə ʃ eː
+can,V;1;SG;PST;HAB;IND,x a nˠ ə n̠ʲ,x a n̪ˠ t̪ˠ iː mʲ
+can,V;AUTO;SBJV;PST,d̪ˠ aː ɡ a n̪ˠ t̪ˠ iː,d̪ˠ aː ɡ a nˠ u
+siúil,V;REL;FUT;IND,ə h uː lˠ h ə,ə h uː lˠ u
+siúil,V;1;SG;IMP,ʃ uː lˠ ə mʲ,ʃ uː lˠ h ə mʲ
+siúil,V;REL;PST;IND,ə h uː lʲ,ə h uː lˠ u
+siúil,V;2;PL;SBJV;PRS,ɡ ɔ ʃ uː lˠ ə ʃ ə vʲ,ɡ ɔ ʃ uː lˠ ə ʃ ɪ vʲ
+siúil,V;1;SG;PST;HAB;IND,h uː lˠ ə n̠ʲ,h uː lˠ ə mʲ eː
+siúil,V;3;SG;SBJV;PST,d̪ˠ aː ʃ uː lˠ u ʃ eː,d̪ˠ aː ʃ uː lˠ ə ʃ eː
+siúil,V;1;PL;SBJV;PST,d̪ˠ aː ʃ uː lˠ ə mʲ ə ʃ,d̪ˠ aː ʃ uː lˠ ə mʲ ə ʃ
+achtaigh,V;2;SG;SBJV;PRS,ɡ ə nˠ a x t̪ˠ iː t̪ˠ uː,ɡ ɔ nˠ a x t̪ˠ iː tʲ aː
+achtaigh,V;REL;FUT;IND,ə a x t̪ˠ oː,ə sˠ t̪ˠ ə lˠ oː
+achtaigh,V;1;SG;IMP,a x t̪ˠ iː mʲ,d̪ˠ a x t̪ˠ oː n̠ʲ
+achtaigh,V;1;PL;IMP,a x t̪ˠ iː mʲ ə ʃ,d̪ˠ a x t̪ˠ oː mʲ ə ʃ
+achtaigh,V;1;SG;FUT;IND,a x t̪ˠ oː mʲ eː,k ɔ sˠ n̪ˠ oː mʲ eː
+achtaigh,V;1;PL;PRS;IND,a x t̪ˠ iː mʲ ə dʲ,d̪ˠ a x t̪ˠ oː mʲ ə dʲ
+achtaigh,V;REL;COND,ə d̪ˠ a x t̪ˠ oː,ə a x t̪ˠ oː fˠ iː
+achtaigh,V;AUTO;PRS;IND,a x t̪ˠ iː tʲ ə ɾˠ,a x t̪ˠ ə ɾˠ
+achtaigh,V;1;PL;PST;HAB;IND,d̪ˠ a x t̪ˠ iː mʲ ə ʃ,d̪ˠ a x t̪ˠ iː mʲ ə dʲ
+achtaigh,V;1;SG;SBJV;PRS,ɡ ɔ nˠ a x t̪ˠ iː mʲ eː,ɡ ɔ nˠ a x t̪ˠ iː mʲ eː
+achtaigh,V;1;SG;PRS;IND,a x t̪ˠ iː mʲ,a x t̪ˠ iː mʲ
+achtaigh,V;3;PL;SBJV;PST,d̪ˠ aː nˠ a x t̪ˠ iː dʲ iː ʃ,d̪ˠ aː n̪ˠ a x t̪ˠ iː ʃ i ə d̪ˠ
+achtaigh,V;AUTO;SBJV;PRS,ɡ ɔ nˠ a x t̪ˠ iː tʲ ə ɾˠ,ɡ ɔ nˠ a x t̪ˠ ə ɾˠ
+achtaigh,V;V.MSDR,a x t̪ˠ uː,fʲ ɾʲ a sˠ t̪ˠ ə lˠ
+achtaigh,V;3;PL;IMP,a x t̪ˠ iː dʲ iː ʃ,k æː lʲ iː dʲ iː ʃ
+achtaigh,V;2;SG;FUT;IND,a x t̪ˠ oː t̪ˠ uː,d̪ˠ a x t̪ˠ uː
+achtaigh,V;AUTO;PST;IND,a x t̪ˠ iː u,d̪ˠ a x t̪ˠ ə ɾˠ
+achtaigh,V;AUTO;SBJV;PST,d̪ˠ aː nˠ a x t̪ˠ iː tʲ iː,d̪ˠ aː n̪ˠ a x t̪ˠ iː tʲ ə ɾˠ
+achtaigh,V;1;PL;PST;IND,d̪ˠ a x t̪ˠ iː mˠ ə ɾˠ,d̪ˠ a x t̪ˠ iː mˠ ə ɾˠ
+achtaigh,V;1;PL;SBJV;PST,d̪ˠ aː nˠ a x t̪ˠ iː mʲ ə ʃ,d̪ˠ aː d̪ˠ oː ɡ ə mʲ ə ʃ
+áirigh,V;1;PL;PRS;IND,aː ɾʲ iː mʲ ə dʲ,æː ɾʲ iː mʲ ə dʲ
+áirigh,V;AUTO;FUT;IND,aː ɾʲ oː fˠ ə ɾˠ,sˠ k a ɾˠ ə fˠ ə ɾˠ
+áirigh,V;REL;COND,ə d̪ˠ aː ɾʲ oː,d̪ˠ aː ɾʲ oː
+áirigh,V;2;PL;SBJV;PRS,ɡ ə nˠ æː ɾʲ iː ʃ ə vʲ,ɡ ə nˠ a x t̪ˠ iː ʃ ə vʲ
+áirigh,V;1;PL;PST;HAB;IND,d̪ˠ aː ɾʲ iː mʲ ə ʃ,aː ɾʲ iː mʲ ə dʲ
+áirigh,V;3;PL;SBJV;PST,d̪ˠ aː nˠ æː ɾʲ iː dʲ iː ʃ,d̪ˠ aː n̪ˠ æː ɾʲ i ə ʃ i ə d̪ˠ
+áirigh,V;2;SG;SBJV;PST,d̪ˠ aː n̪ˠ æː ɾʲ iː tʲ aː,d̪ˠ aː nˠ æː ɾʲ iː tʲ aː
+áirigh,V;3;SG;IMP,aː ɾʲ iː ʃ eː,aː ɾʲ oː ʃ eː
+áirigh,V;2;PL;FUT;IND,aː ɾʲ oː ʃ ə vʲ,sˠ iː h ə ʃ ə vʲ
+áirigh,V;AUTO;COND,d̪ˠ aː ɾʲ oː fˠ iː,x aː lʲ oː fˠ iː
+áirigh,V;2;PL;PST;IND,d̪ˠ aː ɾʲ i ʃ ə vʲ,d̪ˠ aː ɾʲ iː ʃ ə vʲ
+áirigh,V;2;SG;FUT;IND,aː ɾʲ oː tʲ u,aː ɾʲ oː tʲ u
+dein,V;2;SG;COND,j eː nˠ ɑː,dʲ ɛ nʲ
+dein,V;1;SG;FUT;IND,dʲ eː nˠ h ə mʲ eː,dʲ eː nˠ ə mʲ
+dein,V;AUTO;PRS;IND,dʲ ɛ nʲ tʲ ə ɾˠ,j ɛ nʲ ə n̪ˠ t̪ˠ ə ɾˠ
+dein,V;1;SG;SBJV;PST,d̪ˠ aː n̠ʲ dʲ ɛ nʲ ə n̠ʲ,d̪ˠ aː sˠ mˠ iː n̠ʲ
+dein,V;3;SG;FUT;IND,dʲ eː nˠ h ə ʃ eː,j ɛ nʲ ʃ eː
+dein,V;1;PL;COND,j eː nˠ ə mʲ iː ʃ,j eː nˠ h ə mʲ ə ʃ
+dein,V;1;PL;SBJV;PRS,ɡ ɔ nʲ dʲ ɛ nʲ ə mʲ iː dʲ,ɡ ɔ n̠ʲ dʲ ɛ nʲ ə mʲ ə ʃ
+dein,V;AUTO;COND,j eː nˠ h i,dʲ eː n̪ˠ t̪ˠ oː fˠ iː
+dein,V;2;SG;PST;HAB;IND,j ɛ nʲ tʲ aː,j ɛ nʲ
+dein,V;3;PL;IMP,dʲ ɛ nʲ ə dʲ iː ʃ,dʲ ɛ nʲ ə dʲ iː ʃ
+dein,V;2;SG;FUT;IND,dʲ eː nˠ h ə t̪ˠ uː,dʲ ɛ nʲ ə n̪ˠ t̪ˠ uː
+dein,V;1;SG;COND,j eː nˠ ə n̠ʲ,j eː nˠ ə mʲ
+dein,V;AUTO;PST;IND,dʲ ɛ nʲ u,j ɛ nʲ tʲ ə ɾˠ
+dein,V;2;PL;IMP,dʲ ɛ nʲ ə,dʲ ɛ nʲ u ʃ iː
+foghlaim,V;REL;PRS;IND,ə u lˠ ə mʲ i ə n̪ˠ,ə h a sˠ ə n̪ˠ
+foghlaim,V;1;PL;IMP,fˠ oː lˠ ə mʲ iː mʲ ə ʃ,fˠ oː lˠ ə mʲ oː mʲ ə ʃ
+foghlaim,V;1;SG;FUT;IND,fˠ oː lˠ ə mʲ oː mʲ eː,fˠ oː lˠ ə mʲ oː mʲ eː
+foghlaim,V;1;SG;SBJV;PST,d̪ˠ aː vˠ oː lˠ ə mʲ iː n̠ʲ,d̪ˠ aː vˠ oː lˠ ə mʲ iː mʲ eː
+foghlaim,V;1;PL;PST;HAB;IND,d̪ˠ oː lˠ ə mʲ iː mʲ ə ʃ,d̪ˠ oː lˠ ə mʲ iː mʲ ə dʲ
+foghlaim,V;1;SG;PRS;IND,fˠ oː lˠ ə mʲ i mʲ,fˠ oː lˠ ə mʲ iː mʲ eː
+foghlaim,V;AUTO;SBJV;PRS,ɡ ɔ vˠ oː lˠ ə mʲ iː tʲ ə ɾˠ,ɡ ɔ vˠ oː lˠ ə mʲ iː tʲ i
+foghlaim,V;3;SG;IMP,fˠ oː lˠ ə mʲ iː ʃ eː,fˠ a lˠ ə mʲ oː ʃ eː
+foghlaim,V;2;SG;PRS;IND,fˠ oː lˠ ə mʲ iː n̪ˠ t̪ˠ uː,fˠ oː lˠ ə mʲ iː n̪ˠ t̪ˠ uː
+foghlaim,V;AUTO;COND,d̪ˠ oː lˠ ə mʲ oː fˠ iː,d̪ˠ oː lˠ ə mʲ oː fˠ iː
+foghlaim,V;2;PL;COND,d̪ˠ oː lˠ ə mʲ oː ʃ ə vʲ,d̪ˠ oː lˠ ə mʲ oː fˠ ɑː
+foghlaim,V;3;SG;SBJV;PST,d̪ˠ aː vˠ oː lˠ ə mʲ iː ʃ eː,d̪ˠ aː vˠ oː lˠ ə mʲ eː
+foghlaim,V;1;PL;PST;IND,d̪ˠ oː lˠ ə mʲ iː mˠ ə ɾˠ,d̪ˠ oː lˠ ə mʲ ə dʲ
+foghlaim,V;1;PL;SBJV;PST,d̪ˠ aː vˠ oː lˠ ə mʲ iː mʲ ə ʃ,d̪ˠ aː vˠ oː lˠ ə mʲ iː mʲ ə ʃ
+lean,V;1;PL;FUT;IND,l̠ʲ a nˠ ə mʲ ə dʲ,l̠ʲ a nˠ ə mʲ ə dʲ
+lean,V;2;SG;COND,l̠ʲ a nˠ h aː,l̠ʲ a nˠ
+lean,V;3;SG;SBJV;PRS,ɡ ɔ lʲ ə nˠ ə ʃ eː,ɡ ɔ lʲ ə nˠ ə mʲ iː ʃ eː
+lean,V;2;PL;SBJV;PRS,ɡ ɔ lʲ a nˠ ə ʃ ə vʲ,ɡ ɔ lʲ ə nˠ ə ʃ ɪ vʲ
+lean,V;1;SG;SBJV;PRS,ɡ ɔ lʲ a nˠ ə mʲ eː,ɡ ɔ lʲ ə nˠ ə mʲ eː
+lean,V;1;SG;PRS;IND,l̠ʲ a nˠ ə mʲ,l̠ʲ a n̪ˠ t̪ˠ iː mʲ
+lean,V;2;SG;PST;IND,l̠ʲ a nˠ t̪ˠ uː,l̠ʲ a nˠ t̪ˠ uː
+lean,V;2;PL;PST;HAB;IND,l̠ʲ a nˠ u ʃ iː,l̠ʲ a nˠ ə mʲ iː ʃ i vʲ
+lean,V;2;SG;PST;HAB;IND,l̠ʲ a n̪ˠ t̪ˠ a,vʲ ɾʲ a h nˠ iː tʲ aː
+lean,V;3;PL;IMP,l̠ʲ a nˠ ə dʲ iː ʃ,l̠ʲ a nˠ ə dʲ iː ʃ
+lean,V;3;PL;PST;HAB;IND,l̠ʲ a nˠ ə dʲ iː ʃ,l̠ʲ a n̪ˠ t̪ˠ iː dʲ iː ʃ
+lean,V;1;SG;COND,l̠ʲ a n̠ʲ h ə n̠ʲ,l̠ʲ a nˠ h ə n̠ʲ
+caill,V;AUTO;IMP,k a l̠ʲ tʲ ə ɾˠ,k a l̠ʲ tʲ ə ɾˠ
+caill,V;1;SG;FUT;IND,k a l̠ʲ h ə mʲ eː,k a l̠ʲ h ə mʲ eː
+caill,V;3;SG;SBJV;PRS,ɡ ɔ ɡ a l̠ʲ ə ʃ eː,ɡ ɔ ɡ a l̠ʲ ə ʃ eː
+caill,V;AUTO;PRS;IND,k a l̠ʲ tʲ ə ɾˠ,x a l̠ʲ ə n̪ˠ
+caill,V;1;SG;SBJV;PST,d̪ˠ aː ɡ a l̠ʲ ə n̠ʲ,d̪ˠ aː ɡ a l̠ʲ ə mʲ eː
+caill,V;3;PL;SBJV;PST,d̪ˠ aː ɡ a l̠ʲ ə dʲ iː ʃ,d̪ˠ aː ɡ a nˠ ə dʲ iː ʃ
+caill,V;1;SG;PST;HAB;IND,x a l̠ʲ ə n̠ʲ,x a l̠ʲ ə mʲ eː
+caill,V;2;PL;PRS;IND,k a l̠ʲ ə n̪ˠ ʃ ə vʲ,k a l̠ʲ u ʃ iː
+caill,V;3;PL;COND,x a l̠ʲ h ə dʲ iː ʃ,x a l̠ʲ h ə dʲ i ʃ
+caill,V;AUTO;SBJV;PRS,ɡ ɔ ɡ a l̠ʲ tʲ ə ɾˠ,ɡ ɔ d̪ˠ a ʃ tʲ ə ɾˠ
+caill,V;AUTO;COND,x a l̠ʲ h iː,sˠ mˠ iː nʲ oː fˠ iː
+caill,V;2;SG;PST;HAB;IND,x a l̠ʲ tʲ aː,d̪ˠ u ə tʲ aː
+caill,V;3;SG;SBJV;PST,d̪ˠ aː ɡ a l̠ʲ u ʃ eː,d̪ˠ aː ɡ a l̠ʲ ə ʃ eː
+caill,V;3;PL;PST;HAB;IND,x a l̠ʲ ə dʲ iː ʃ,x a l̠ʲ ə dʲ iː ʃ
+caill,V;1;PL;SBJV;PST,d̪ˠ aː ɡ a l̠ʲ ə mʲ ə ʃ,d̪ˠ aː ɡ a l̠ʲ ə mʲ ə ʃ
+pós,V;2;SG;SBJV;PRS,ɡ ɔ bˠ oː sˠ ə t̪ˠ uː,ɡ ɔ bˠ oː sˠ t̪ˠ aː
+pós,V;AUTO;IMP,pˠ oː sˠ t̪ˠ ə ɾˠ,pˠ oː sˠ t̪ˠ iː
+pós,V;3;SG;SBJV;PRS,ɡ ɔ bˠ oː sˠ ə ʃ eː,ɡ ɔ d̪ˠ a ʃ pʲ ɑː n̪ˠ ə ʃ eː
+pós,V;1;PL;PST;HAB;IND,fˠ oː sˠ ə mʲ ə ʃ,fˠ oː sˠ ə mʲ ə ʃ
+pós,V;1;SG;PST;HAB;IND,fˠ oː sˠ ə n̠ʲ,fˠ oː sˠ ə mʲ eː
+pós,V;1;PL;COND,fˠ oː sˠ ə mʲ ə ʃ,d̪ˠ a x t̪ˠ oː mʲ ə ʃ
+pós,V;2;SG;PST;IND,fˠ oː sˠ t̪ˠ uː,fˠ oː sˠ
+pós,V;AUTO;SBJV;PRS,ɡ ɔ bˠ oː sˠ t̪ˠ ə ɾˠ,ɡ ɔ bˠ oː sˠ t̪ˠ ə lˠ iː u
+pós,V;3;SG;IMP,pˠ oː sˠ uː ʃ eː,pˠ oː sˠ uː ʃ eː
+pós,V;2;PL;FUT;IND,pˠ oː sˠ ə ʃ ə vʲ,pˠ oː sˠ ə ʃ ə vʲ
+pós,V;2;PL;COND,fˠ oː sˠ uː ʃ ə vʲ,pˠ oː sˠ uː ʃ ə vʲ
+pós,V;3;SG;SBJV;PST,d̪ˠ aː bˠ oː sˠ uː ʃ eː,d̪ˠ aː ɡ lˠ ɔ ʃ uː ʃ eː
+pós,V;3;SG;PST;HAB;IND,fˠ oː sˠ uː ʃ eː,fˠ oː sˠ t̪ˠ iː ə ʃ eː
+clois,V;2;SG;SBJV;PRS,ɡ ɔ ɡ lˠ ɔ ʃ t̪ˠ uː,ɡ ɔ d̪ˠ oː ɡ ə t̪ˠ uː
+clois,V;1;SG;SBJV;PST,d̪ˠ aː ɡ lˠ ɔ ʃ ə n̠ʲ,d̪ˠ aː ɡ lˠ ɔ ʃ ə mʲ eː
+clois,V;2;PL;SBJV;PRS,ɡ ɔ ɡ lˠ ɔ ʃ ə ʃ ə vʲ,ɡ ɔ ɡ lˠ ɔ ʃ uː ʃ iː
+clois,V;1;PL;PST;HAB;IND,x lˠ ɔ ʃ ə mʲ ə ʃ,x u ə lˠ ə mʲ ə dʲ
+clois,V;1;SG;PST;HAB;IND,x lˠ ɔ ʃ ə n̠ʲ,x lˠ ɔ ʃ ə mʲ eː
+clois,V;1;PL;COND,x lˠ ɔ ʃ h ə mʲ ə ʃ,x lˠ ɔ ʃ ə mʲ ə ʃ
+clois,V;2;PL;PRS;IND,k lˠ ɔ ʃ ə n̪ˠ ʃ ə vʲ,k lˠ ɔ ʃ ə n̪ˠ ʃ ə vʲ
+clois,V;2;PL;IMP,k lˠ ɔ ʃ ɪ ɟ iː,k lˠ ɔ ʃ uː ʃ ə vʲ
+luigh,V;REL;FUT;IND,ə l̪ˠ iː,ə x ɪ dʲ oː
+luigh,V;3;PL;FUT;IND,l̪ˠ iː ʃ i ə d̪ˠ,ɛ bʲ ɾʲ oː ʃ i ə d̪ˠ
+luigh,V;1;PL;FUT;IND,l̪ˠ iː h ə mʲ ə dʲ,l̪ˠ iː mʲ ə dʲ
+luigh,V;1;PL;IMP,l̪ˠ iː mʲ ə ʃ,l̪ˠ ɪ tʲ ə mʲ ə ʃ
+luigh,V;3;SG;SBJV;PRS,ɡ ɔ lˠ iː ʃ eː,ɡ ɔ d̪ˠ oː ɡ ə ʃ eː
+luigh,V;3;PL;SBJV;PST,d̪ˠ aː lˠ ɪ dʲ iː ʃ,d̪ˠ aː l̪ˠ iː ʃ i ə d̪ˠ
+luigh,V;1;SG;PST;HAB;IND,l̪ˠ iː n̠ʲ,l̪ˠ ɪ j mʲ eː
+luigh,V;2;PL;PRS;IND,l̪ˠ iː n̪ˠ ʃ ə vʲ,l̪ˠ iː n̪ˠ ʃ ə vʲ
+luigh,V;AUTO;SBJV;PRS,ɡ ɔ lˠ ɪ tʲ ə ɾˠ,l̪ˠ ɪ tʲ ə ɾˠ
+luigh,V;3;PL;PRS;IND,l̪ˠ iː n̪ˠ ʃ i ə d̪ˠ,l̪ˠ iː n̪ˠ ʃ i ə d̪ˠ
+luigh,V;3;SG;SBJV;PST,d̪ˠ aː l̪ˠ iː ʃ eː,d̪ˠ aː l̪ˠ iː ʃ eː
+luigh,V;1;SG;COND,l̪ˠ iː h ə n̠ʲ,l̪ˠ iː h ə n̠ʲ
+cáiligh,V;REL;PST;HAB;IND,ə x æː lʲ i ə,x aː lʲ i ə
+cáiligh,V;REL;PRS;IND,ə x æː lʲ i ə n̪ˠ,ə x æː lʲ oː
+cáiligh,V;2;SG;COND,x aː lʲ oː fˠ aː,x aː lʲ oː h aː
+cáiligh,V;1;SG;FUT;IND,k aː lʲ oː mʲ eː,k aː lʲ i mʲ
+cáiligh,V;AUTO;FUT;IND,k aː lʲ oː h ə ɾˠ,k aː lʲ iː tʲ ə ɾˠ
+cáiligh,V;1;SG;SBJV;PST,d̪ˠ aː ɡ aː lʲ i n̠ʲ,d̪ˠ aː ɡ aː lʲ iː mʲ
+cáiligh,V;3;SG;COND,x aː lʲ oː ʃ eː,ç ɾʲ ɛ tʲ u ʃ eː
+cáiligh,V;2;SG;SBJV;PST,d̪ˠ aː ɡ aː lʲ i tʲ aː,d̪ˠ aː ɡ aː lʲ iː tʲ aː
+cáiligh,V;2;PL;PST;HAB;IND,x aː lʲ i ə ʃ ə vʲ,x aː lʲ iː ʃ ə vʲ
+cáiligh,V;2;PL;PST;IND,x aː lʲ iː ʃ ə vʲ,x aː lʲ i ə ʃ ə vʲ
+cáiligh,V;3;PL;PRS;IND,k aː lʲ i n̪ˠ ʃ i ə d̪ˠ,k æː lʲ i n̪ˠ ʃ i ə d̪ˠ
+cáiligh,V;1;PL;SBJV;PST,d̪ˠ aː ɡ aː lʲ iː mʲ ə ʃ,d̪ˠ aː n̪ˠ i ə ɾˠ ə mʲ ə ʃ
+tuig,V;AUTO;IMP,t̪ˠ ɪ c tʲ ə ɾˠ,t̪ˠ ɪ ɟ
+tuig,V;1;PL;PRS;IND,t̪ˠ ɪ ɟ ɪ mʲ ə dʲ,t̪ˠ ɪ ɟ ɪ mʲ ə dʲ
+tuig,V;3;SG;SBJV;PRS,ɡ ɔ d̪ˠ ɪ ɟ ə ʃ eː,ɡ ɔ dʲ ɪ ɟ u ʃ eː
+tuig,V;1;SG;SBJV;PST,d̪ˠ aː dʲ ɪ ɟ ɪ n̠ʲ,d̪ˠ aː ɡ lʲ a x t̪ˠ ə n̠ʲ
+tuig,V;3;PL;COND,h ɪ c ɪ dʲ iː ʃ,d̪ˠ oː lˠ ə mʲ oː dʲ iː ʃ
+tuig,V;2;PL;PST;HAB;IND,h ɪ ɟ u ʃ ə vʲ,vˠ ɔ nˠ iː ʃ ə vʲ
+tuig,V;1;PL;PST;IND,h ɪ ɟ ə mˠ ə ɾˠ,h ɪ ɟ ɪ mʲ ə ʃ
+tuig,V;3;SG;PRS;IND,t̪ˠ ɪ ɟ ə n̪ˠ ʃ eː,t̪ˠ ɪ ɟ ə n̪ˠ ʃ eː
+léigh,V;REL;PST;HAB;IND,ə lʲ eː,l̠ʲ eː tʲ iː
+léigh,V;1;PL;IMP,l̠ʲ eː mʲ ə ʃ,l̠ʲ eː fʲ ə mʲ ə ʃ
+léigh,V;1;SG;FUT;IND,l̠ʲ eː h ə mʲ eː,l̠ʲ eː mʲ eː
+léigh,V;3;SG;PST;IND,l̠ʲ eː ʃ eː,l̠ʲ eː ʃ eː
+léigh,V;AUTO;PRS;IND,l̠ʲ eː tʲ ə ɾˠ,l̠ʲ eː mˠ ə ɾˠ iː tʲ ə ɾˠ
+léigh,V;1;SG;PRS;IND,l̠ʲ eː mʲ,l̠ʲ eː mʲ
+léigh,V;3;PL;SBJV;PST,d̪ˠ aː lʲ eː dʲ iː ʃ,d̪ˠ aː n̠ʲ ə mʲ ɾʲ iː dʲ iː ʃ
+léigh,V;3;SG;FUT;IND,l̠ʲ eː h ə ʃ eː,l̠ʲ eː ʃ eː
+léigh,V;3;PL;SBJV;PRS,ɡ ɔ lʲ eː ʃ i ə d̪ˠ,ɡ ɔ d̪ˠ a tʲ nʲ iː ʃ i ə d̪ˠ
+léigh,V;3;PL;PRS;IND,l̠ʲ eː n̪ˠ ʃ i ə d̪ˠ,ʃ a sˠ t̪ˠ iː n̪ˠ ʃ i ə d̪ˠ
+léigh,V;3;PL;PST;HAB;IND,l̠ʲ eː dʲ iː ʃ,l̠ʲ eː ʃ i ə d̪ˠ
+léigh,V;AUTO;SBJV;PST,d̪ˠ aː lʲ eː tʲ iː,d̪ˠ aː dʲ ɪ c tʲ iː
+léigh,V;3;SG;PRS;IND,l̠ʲ eː n̪ˠ ʃ eː,pˠ oː sˠ ə n̪ˠ ʃ eː
+léigh,V;1;PL;SBJV;PST,d̪ˠ aː lʲ eː mʲ ə ʃ,d̪ˠ aː lʲ eː mʲ ə ʃ
+tar,V;2;SG;COND,h ʊ k fˠ aː,h ʊ k ə t̪ˠ uː
+tar,V;3;SG;SBJV;PRS,ɡ ɔ d̪ˠ a ɡ ə ʃ eː,ɡ ɔ d̪ˠ a ɡ u ʃ eː
+tar,V;3;SG;PST;IND,h æː nʲ ɪ ɟ ʃ eː,t̪ˠ a ɡ u ʃ eː
+tar,V;V.PTCP;PST,t̪ˠ a k ə,t̪ˠ a tʲ ə
+tar,V;3;PL;PST;IND,h æː nʲ ɪ ɟ ʃ i ə d̪ˠ,h ʊ k i ʃ i ə d̪ˠ
+tar,V;1;SG;PST;HAB;IND,h a ɡ ə n̠ʲ,h a ɡ ə n̠ʲ
+tar,V;3;SG;IMP,t̪ˠ a ɡ u ʃ eː,t̪ˠ a ɡ u ʃ eː
+tar,V;1;PL;SBJV;PRS,ɡ ɔ d̪ˠ a ɡ ə mʲ ə dʲ,ɡ ɔ d̪ˠ a ɡ ə mʲ ə dʲ
+tar,V;3;SG;SBJV;PST,d̪ˠ aː d̪ˠ a ɡ u ʃ eː,d̪ˠ aː d̪ˠ a ɡ u ʃ eː
+tar,V;2;SG;IMP,t̪ˠ a ɾˠ,eː ʃ tʲ
+tar,V;3;SG;PRS;IND,t̪ˠ a ɡ ə n̪ˠ ʃ eː,t̪ˠ a ɡ ə n̪ˠ ʃ eː
+nigh,V;1;SG;IMP,nʲ iː mʲ,n̠ʲ ɪ tʲ ə n̠ʲ
+nigh,V;3;PL;FUT;IND,n̠ʲ iː ʃ i ə d̪ˠ,n̠ʲ iː ʃ i ə d̪ˠ
+nigh,V;2;PL;SBJV;PST,d̪ˠ aː nʲ iː ʃ ə vʲ,d̪ˠ aː ɾˠ oː nˠ iː ʃ i vʲ
+nigh,V;3;SG;PST;IND,n̠ʲ iː ʃ eː,n̠ʲ iː ʃ eː
+nigh,V;1;SG;SBJV;PST,d̪ˠ aː nʲ iː n̠ʲ,n̠ʲ iː mʲ eː
+nigh,V;3;PL;SBJV;PST,d̪ˠ aː nʲ ə dʲ iː ʃ,d̪ˠ aː dʲ iː ʃ
+nigh,V;3;SG;FUT;IND,nʲ iː ʃ eː,bˠ ʊ n̪ˠ oː ʃ eː
+nigh,V;2;PL;PRS;IND,n̠ʲ iː n̪ˠ ʃ ə vʲ,n̠ʲ ɪ tʲ ə n̪ˠ ʃ ə vʲ
+nigh,V;2;SG;SBJV;PST,d̪ˠ aː nʲ ɪ tʲ aː,d̪ˠ aː vʲ ɾʲ a sˠ t̪ˠ ə lˠ iː tʲ aː
+nigh,V;3;SG;IMP,n̠ʲ iː ʃ eː,n̠ʲ iː
+nigh,V;3;PL;SBJV;PRS,ɡ ə nʲ iː ʃ i ə d̪ˠ,ɡ ə nˠ a x t̪ˠ iː ʃ i ə d̪ˠ
+nigh,V;AUTO;COND,nʲ iː fʲ iː,h oː h iː
+nigh,V;2;PL;PST;IND,n̠ʲ iː ʃ ə vʲ,n̠ʲ iː ʃ ə vʲ
+nigh,V;2;PL;IMP,nʲ iː ɟ iː,fˠ u ə ɟ iː
+éist,V;REL;PRS;IND,ə eː ʃ tʲ ə n̪ˠ,ə dʲ eː ʃ tʲ ə lˠ iː tʲ ə ɾˠ
+éist,V;2;SG;COND,dʲ eː ʃ tʲ ɑː,dʲ eː ʃ tʲ ə lˠ oː
+éist,V;REL;PST;IND,ə dʲ eː ʃ tʲ,ə dʲ eː ʃ tʲ u
+éist,V;3;SG;SBJV;PRS,ɡ ɔ nʲ eː ʃ tʲ ə ʃ eː,ɡ ɔ nʲ eː ʃ tʲ ə ʃ eː
+éist,V;1;PL;PST;HAB;IND,dʲ eː ʃ tʲ ə mʲ ə ʃ,j lʲ ɪ mʲ ə ʃ
+éist,V;2;SG;SBJV;PST,d̪ˠ aː nʲ eː ʃ tʲ aː,d̪ˠ aː nʲ eː ʃ tʲ ə lˠ iː t̪ˠ uː
+éist,V;2;PL;FUT;IND,eː ʃ tʲ ə ʃ ə vʲ,dʲ eː ʃ tʲ ə ʃ ə vʲ
+éist,V;2;SG;PRS;IND,eː ʃ tʲ ə n̪ˠ t̪ˠ uː,ɡ ə nʲ eː ʃ tʲ ə t̪ˠ uː
+éist,V;2;PL;IMP,eː ʃ tʲ ə ɟ iː,eː ʃ tʲ ə ʃ ə vʲ
+éist,V;3;SG;PRS;IND,eː ʃ tʲ ə n̪ˠ ʃ eː,eː ʃ tʲ ə n̪ˠ ʃ eː
+admhaigh,V;REL;FUT;IND,ə ə d̪ˠ vˠ oː,ə h eː x ə
+admhaigh,V;1;PL;FUT;IND,a d̪ˠ vˠ oː mʲ ə dʲ,ə d̪ˠ vˠ oː mʲ ə ʃ
+admhaigh,V;2;SG;COND,d̪ˠ a d̪ˠ vˠ oː fˠ aː,x oː nˠ oː fˠ ɑː
+admhaigh,V;REL;PST;IND,ə d̪ˠ a d̪ˠ u,ə d̪ˠ a d̪ˠ vˠ iː u
+admhaigh,V;REL;COND,ə d̪ˠ a d̪ˠ vˠ oː,ə x a l̠ʲ h u
+admhaigh,V;1;PL;COND,d̪ˠ a d̪ˠ vˠ oː mʲ ə ʃ,d̪ˠ a d̪ˠ u ə mʲ ə ʃ
+admhaigh,V;3;PL;COND,d̪ˠ a d̪ˠ vˠ oː dʲ iː ʃ,x ɪ dʲ oː dʲ iː ʃ
+admhaigh,V;AUTO;SBJV;PRS,ɡ ə nˠ ə d̪ˠ vˠ iː tʲ ə ɾˠ,ɡ ɔ nˠ ə d̪ˠ vˠ iː tʲ ə ɾˠ
+admhaigh,V;1;PL;SBJV;PRS,ɡ ə nˠ ə d̪ˠ vˠ iː mʲ ə dʲ,d̪ˠ aː n̪ˠ ə d̪ˠ vˠ iː mʲ ə dʲ
+admhaigh,V;3;SG;SBJV;PST,d̪ˠ aː n̪ˠ ə d̪ˠ vˠ iː ʃ eː,d̪ˠ a d̪ˠ u ə ʃ eː
+admhaigh,V;3;SG;PST;HAB;IND,d̪ˠ a d̪ˠ vˠ iː ʃ eː,d̪ˠ a d̪ˠ u ə ʃ eː
+admhaigh,V;3;SG;PRS;IND,a d̪ˠ vˠ iː n̪ˠ ʃ eː,a d̪ˠ vˠ iː n̪ˠ t̪ˠ iː ʃ eː
+bronn,V;REL;PRS;IND,ə vˠ ɾˠ ɔ n̪ˠ ə n̪ˠ,vˠ ɾˠ ɔ n̪ˠ ə n̪ˠ
+bronn,V;1;SG;FUT;IND,bˠ ɾˠ ɔ n̪ˠ h ə mʲ eː,bˠ ɾˠ ɔ n̪ˠ h ə mʲ eː
+bronn,V;3;SG;PST;IND,vˠ ɾˠ ɔ n̪ˠ ʃ eː,vˠ ɾˠ ɔ n̪ˠ uː ʃ eː
+bronn,V;1;SG;SBJV;PST,d̪ˠ aː mˠ bˠ ɾˠ ɔ n̪ˠ ə n̠ʲ,d̪ˠ aː mˠ ɾˠ ɔ n̪ˠ ə mˠ eː
+bronn,V;1;PL;PST;HAB;IND,vˠ ɾˠ ɔ n̪ˠ ə mʲ ə ʃ,vˠ ɾˠ ɔ n̪ˠ ə mʲ ə ʃ
+bronn,V;V.PTCP;PST,bˠ ɾˠ ɔ n̪ˠ t̪ˠ ə,tʲ a sˠ t̪ˠ ə
+bronn,V;3;PL;PST;IND,vˠ ɾˠ ɔ n̪ˠ ʃ i ə d̪ˠ,vˠ ɾˠ ɔ n̪ˠ ə dʲ iː ʃ
+bronn,V;3;SG;FUT;IND,bˠ ɾˠ ɔ n̪ˠ h ə ʃ eː,bˠ ɾˠ ɔ n̪ˠ h ə ʃ eː
+bronn,V;2;SG;PST;IND,vˠ ɾˠ ɔ n̪ˠ t̪ˠ uː,vˠ ɾˠ ɔ n̪ˠ
+bronn,V;2;SG;PRS;IND,bˠ ɾˠ ɔ n̪ˠ ə n̪ˠ t̪ˠ uː,bˠ ɾˠ ɔ n̪ˠ ə n̪ˠ t̪ˠ uː
+bronn,V;AUTO;COND,vˠ ɾˠ ɔ n̪ˠ h iː,vˠ ɾˠ ɔ n̪ˠ h u
+bronn,V;2;PL;COND,vˠ ɾˠ ɔ n̪ˠ h u ʃ iː,vˠ ɾˠ ɔ n̪ˠ h u ʃ iː
+bronn,V;2;PL;PST;IND,vˠ ɾˠ ɔ n̪ˠ ʃ ɪ vʲ,vˠ ɾˠ ɔ n̪ˠ h ə ʃ ə vʲ
+bronn,V;3;SG;SBJV;PST,d̪ˠ aː mˠ ɾˠ ɔ n̪ˠ uː ʃ eː,d̪ˠ aː mˠ ɾˠ ɔ n̪ˠ uː ʃ eː
+bronn,V;3;PL;PST;HAB;IND,vˠ ɾˠ ɔ n̪ˠ ə dʲ iː ʃ,vˠ ɾˠ ɔ n̪ˠ ə dʲ iː ʃ
+bronn,V;1;SG;COND,vˠ ɾˠ ɔ n̪ˠ h ə n̠ʲ,vˠ ɾˠ ɔ n̪ˠ h ə mʲ
+bronn,V;1;PL;PST;IND,vˠ ɾˠ ɔ n̪ˠ ə mˠ ə ɾˠ,vˠ ɾˠ ɔ n̪ˠ h ə mʲ ə ʃ
+fuaigh,V;AUTO;IMP,fˠ u ə tʲ ə ɾˠ,fˠ u ə
+fuaigh,V;AUTO;PRS;IND,fˠ u ə tʲ ə ɾˠ,fˠ u ə n̪ˠ
+fuaigh,V;3;PL;SBJV;PST,d̪ˠ aː vˠ u ə dʲ iː ʃ,ɡ ɔ vˠ u ə ʃ i ə d̪ˠ
+fuaigh,V;AUTO;SBJV;PRS,ɡ ɔ vˠ u ə tʲ ə ɾˠ,ɡ ɔ vˠ u ə l̠ʲ tʲ iː
+fuaigh,V;AUTO;COND,d̪ˠ u ə fˠ iː,d̪ˠ u ə h u
+fuaigh,V;3;PL;PRS;IND,fˠ u ə n̪ˠ ʃ i ə d̪ˠ,fˠ u ə n̪ˠ ʃ i ə d̪ˠ
+fuaigh,V;1;SG;PST;IND,d̪ˠ u ə mʲ eː,d̪ˠ u ə mʲ
+cónaigh,V;2;SG;SBJV;PRS,ɡ ɔ ɡ oː nˠ iː t̪ˠ uː,ɡ ɔ ɡ oː nˠ iː t̪ˠ uː
+cónaigh,V;2;SG;COND,x oː nˠ oː fˠ ɑː,x oː nˠ oː fˠ ɑː
+cónaigh,V;1;PL;IMP,k oː nˠ iː mʲ ə ʃ,k oː nˠ iː mʲ ə ʃ
+cónaigh,V;2;PL;SBJV;PST,d̪ˠ aː ɡ oː nˠ iː ʃ i vʲ,d̪ˠ aː ɡ oː nˠ iː ʃ i vʲ
+cónaigh,V;3;SG;SBJV;PRS,ɡ ɔ ɡ oː nˠ iː ʃ eː,ɡ ɔ ɡ oː nˠ iː ʃ eː
+cónaigh,V;REL;COND,ə x oː nˠ oː,ə x oː nˠ oː
+cónaigh,V;1;SG;SBJV;PST,d̪ˠ aː ɡ oː nˠ iː n̠ʲ,d̪ˠ aː vˠ eː x ə n̠ʲ
+cónaigh,V;V.PTCP;PST,k oː nˠ ə,k oː nˠ iː tʲ ə
+cónaigh,V;3;PL;PST;IND,x oː nˠ i ʃ i ə d̪ˠ,x oː nˠ oː ʃ i ə d̪ˠ
+cónaigh,V;3;SG;FUT;IND,k oː nˠ oː ʃ eː,k oː nˠ oː ʃ eː
+cónaigh,V;1;PL;COND,x oː nˠ oː mʲ ə ʃ,k oː nˠ oː mʲ ə ʃ
+cónaigh,V;2;PL;PRS;IND,k oː nˠ iː n̪ˠ ʃ iː,k oː nˠ iː ʃ iː
+cónaigh,V;3;PL;COND,x oː nˠ oː dʲ iː ʃ,vˠ a lʲ oː dʲ iː ʃ
+cónaigh,V;2;PL;PST;HAB;IND,x oː nˠ iː ʃ i vʲ,x oː nˠ iː ʃ ə vʲ
+cónaigh,V;2;SG;PST;HAB;IND,x oː nˠ iː tʲ ɑː,x oː nˠ iː t̪ˠ uː
+cónaigh,V;3;PL;IMP,k oː nˠ iː dʲ iː ʃ,k oː nˠ iː dʲ iː ʃ
+cónaigh,V;3;PL;PRS;IND,k oː nˠ iː n̪ˠ ʃ i ə d̪ˠ,k oː nˠ iː n̪ˠ ʃ i ə d̪ˠ
+cónaigh,V;AUTO;PST;IND,k oː nˠ iː u,x oː nˠ iː tʲ ə ɾˠ
+cónaigh,V;1;PL;PST;IND,x oː nˠ iː mˠ ə ɾˠ,x oː nˠ iː mʲ ə ʃ
+cónaigh,V;1;PL;SBJV;PST,d̪ˠ aː ɡ oː nˠ iː mʲ ə ʃ,d̪ˠ aː dʲ a ʃ tʲ ə mʲ ə ʃ
+freastail,V;3;SG;SBJV;PRS,ɡ ɔ vʲ ɾʲ a sˠ t̪ˠ ə lˠ iː ʃ eː,ɡ ɔ vʲ ɾʲ a sˠ t̪ˠ ə lˠ iː ʃ eː
+freastail,V;3;SG;COND,dʲ ɾʲ a sˠ t̪ˠ ə lˠ oː ʃ eː,vʲ ɾʲ a sˠ t̪ˠ ə lˠ oː ʃ eː
+freastail,V;1;PL;COND,dʲ ɾʲ a sˠ t̪ˠ ə lˠ oː mʲ ə ʃ,fʲ ɾʲ a sˠ t̪ˠ ə lˠ oː mʲ ə ʃ
+freastail,V;3;PL;COND,dʲ ɾʲ a sˠ t̪ˠ ə lˠ oː dʲ iː ʃ,d̪ˠ a x t̪ˠ oː dʲ iː ʃ
+freastail,V;2;SG;PRS;IND,fʲ ɾʲ a sˠ t̪ˠ ə lˠ iː n̪ˠ t̪ˠ uː,fʲ ɾʲ a sˠ t̪ˠ ə lˠ iː tʲ aː
+freastail,V;3;PL;PST;HAB;IND,dʲ ɾʲ a sˠ t̪ˠ ə lˠ iː dʲ iː ʃ,dʲ ɾʲ a sˠ t̪ˠ ə lˠ iː dʲ iː ʃ
+freastail,V;1;SG;COND,dʲ ɾʲ a sˠ t̪ˠ ə lˠ oː n̠ʲ,j lʲ iː h ə n̠ʲ
+freastail,V;1;SG;PST;IND,dʲ ɾʲ a sˠ t̪ˠ ə lʲ mʲ eː,dʲ ɾʲ a sˠ t̪ˠ ə lˠ iː mʲ
+tit,V;REL;PST;HAB;IND,a h ɪ tʲ u,a ç ɾʲ ɛ dʲ u
+tit,V;REL;FUT;IND,ə h ɪ tʲ h ə,ə mʲ ɾʲ oː
+tit,V;AUTO;PST;HAB;IND,h ɪ tʲ iː,h ɪ tʲ iː
+tit,V;3;PL;FUT;IND,tʲ ɪ tʲ ə ʃ i ə d̪ˠ,tʲ ɪ tʲ ə dʲ iː ʃ
+tit,V;1;PL;PRS;IND,tʲ ɪ tʲ ə mʲ ə dʲ,tʲ ɪ tʲ ə mʲ ə dʲ
+tit,V;3;SG;SBJV;PRS,ɡ ɔ dʲ ɪ tʲ ə ʃ eː,ɡ ɔ dʲ ɪ tʲ ə ʃ eː
+tit,V;1;SG;SBJV;PST,d̪ˠ aː dʲ ɪ tʲ ə n̠ʲ,d̪ˠ aː dʲ ɪ tʲ ə mʲ eː
+tit,V;2;SG;PST;HAB;IND,h ɪ tʲ aː,h ɪ tʲ uː
+tit,V;3;SG;SBJV;PST,d̪ˠ aː dʲ ɪ tʲ u ʃ eː,d̪ˠ aː nˠ ə d̪ˠ vˠ iː ʃ eː
+tit,V;AUTO;PST;IND,tʲ ɪ tʲ u,d̪ˠ aː dʲ ɪ tʲ iː
+tit,V;1;PL;SBJV;PST,d̪ˠ aː dʲ ɪ tʲ ə mʲ ə ʃ,d̪ˠ aː dʲ ɪ tʲ ə mʲ ə ʃ
+fág,V;2;SG;SBJV;PRS,ɡ ɔ vˠ ɑː ɡ ə t̪ˠ uː,ɡ ɔ vˠ a k t̪ˠ aː
+fág,V;REL;FUT;IND,ə aː k ə,ə x ɾʲ ɛ tʲ h ə
+fág,V;3;PL;FUT;IND,fˠ aː k i ʃ i ə d̪ˠ,fˠ aː k ə ʃ eː
+fág,V;REL;PST;IND,ə d̪ˠ aː ɡ,ə d̪ˠ aː ɡ u
+fág,V;AUTO;FUT;IND,fˠ aː k ə ɾˠ,fˠ aː k ə ɾˠ
+fág,V;1;SG;SBJV;PRS,ɡ ɔ vˠ aː ɡ ə mʲ eː,ɡ ɔ vˠ ɑː ɡ ə mʲ eː
+fág,V;3;PL;COND,d̪ˠ aː k ə dʲ iː ʃ,fˠ aː ɡ ə dʲ iː ʃ
+fág,V;1;PL;SBJV;PRS,ɡ ɔ vˠ ɑː ɡ ə mʲ ə dʲ,ɡ ɔ vˠ ɑː ɡ ə mʲ ə dʲ
+fág,V;AUTO;COND,d̪ˠ aː k iː,d̪ˠ aː k t̪ˠ ə ɾˠ
+fág,V;2;SG;FUT;IND,fˠ aː k ə t̪ˠ uː,bˠ ɾˠ ɔ n̪ˠ h ə t̪ˠ uː
+fág,V;AUTO;SBJV;PST,d̪ˠ aː vˠ a k t̪ˠ iː,d̪ˠ aː vˠ a k t̪ˠ ə ɾˠ
+féach,V;AUTO;PST;HAB;IND,dʲ eː x t̪ˠ iː,dʲ eː x u
+féach,V;REL;PRS;IND,ə h eː x ə n̪ˠ,dʲ eː x ə n̪ˠ
+féach,V;AUTO;FUT;IND,fʲ eː x ə ɾˠ,pˠ oː sˠ fˠ ə ɾˠ
+féach,V;AUTO;PRS;IND,fʲ eː x t̪ˠ ə ɾˠ,dʲ eː x t̪ˠ ə ɾˠ
+féach,V;2;PL;SBJV;PRS,ɡ ɔ vʲ eː x ə ʃ ə vʲ,fʲ eː x ə n̪ˠ ʃ iː
+féach,V;V.PTCP;PST,fʲ eː x t̪ˠ ə,fʲ eː x t̪ˠ ə
+féach,V;3;PL;PST;IND,dʲ eː x ʃ i ə d̪ˠ,x ɪ dʲ i ʃ i ə d̪ˠ
+féach,V;2;SG;SBJV;PST,d̪ˠ aː vʲ eː x t̪ˠ a,d̪ˠ aː d̪ˠ a sˠ t̪ˠ ə lˠ iː t̪ˠ uː
+féach,V;2;PL;FUT;IND,fʲ eː x ə ʃ ə vʲ,fʲ eː x ə t̪ˠ uː
+féach,V;3;PL;IMP,fʲ eː x ə dʲ iː ʃ,fʲ eː x ə dʲ iː ʃ
+féach,V;2;PL;PST;IND,dʲ eː x ʃ ə vʲ,dʲ eː x ə mˠ ə ɾʲ
+féach,V;2;PL;IMP,fʲ eː x ə ɟ iː,fʲ eː x u ʃ iː
+féach,V;3;SG;PRS;IND,fʲ eː x ə n̪ˠ ʃ eː,fʲ eː x ə n̪ˠ ʃ eː
+ordaigh,V;2;SG;SBJV;PRS,ɡ ə nˠ ɔ ɾˠ d̪ˠ iː t̪ˠ uː,ɡ ɔ n̠ʲ dʲ ɛ nʲ ə ɾʲ
+ordaigh,V;REL;PST;HAB;IND,ə d̪ˠ ɔ ɾˠ d̪ˠ iː u,ə x oː nˠ i ə
+ordaigh,V;1;SG;IMP,ɔ ɾˠ d̪ˠ iː mʲ,ɔ ɾˠ d̪ˠ iː mʲ
+ordaigh,V;1;PL;IMP,ɔ ɾˠ d̪ˠ iː mʲ ə ʃ,ɔ ɾˠ d̪ˠ oː mʲ ə ʃ
+ordaigh,V;REL;PST;IND,ə d̪ˠ ɔ ɾˠ d̪ˠ i,a dʲ eː x
+ordaigh,V;3;SG;PST;IND,d̪ˠ ɔ ɾˠ d̪ˠ iː ʃ eː,ɔ ɾˠ d̪ˠ iː ʃ eː
+ordaigh,V;AUTO;PRS;IND,ɔ ɾˠ d̪ˠ iː tʲ ə ɾˠ,ɔ ɾˠ d̪ˠ iː tʲ ə ɾˠ
+ordaigh,V;V.PTCP;PST,ɔ ɾˠ d̪ˠ ə,tʲ a sˠ t̪ˠ ə
+ordaigh,V;1;SG;SBJV;PRS,ɡ ə nˠ ɔ ɾˠ d̪ˠ iː mʲ eː,ɡ ə nˠ ɔ ɾˠ d̪ˠ iː mʲ eː
+ordaigh,V;1;SG;PRS;IND,ɔ ɾˠ d̪ˠ iː mʲ,ɔ ɾˠ d̪ˠ iː mʲ
+ordaigh,V;2;PL;FUT;IND,ɔ ɾˠ d̪ˠ oː ʃ ə vʲ,d̪ˠ ɔ ɾˠ d̪ˠ oː ʃ ə vʲ
+ordaigh,V;2;SG;PRS;IND,ɔ ɾˠ d̪ˠ iː n̪ˠ t̪ˠ uː,d̪ˠ ɔ ɾˠ d̪ˠ iː n̠ʲ t̪ˠ uː
+ordaigh,V;V.MSDR,ɔ ɾˠ d̪ˠ uː,ə d̪ˠ vˠ ɑː lʲ
+ordaigh,V;AUTO;PST;IND,ɔ ɾˠ d̪ˠ iː,d̪ˠ ɔ ɾˠ d̪ˠ iː tʲ ə ɾˠ
+ordaigh,V;1;PL;SBJV;PST,d̪ˠ aː n̪ˠ ɔ ɾˠ d̪ˠ iː mʲ ə ʃ,d̪ˠ aː n̪ˠ ɔ ɾˠ d̪ˠ iː mʲ ə ʃ
+bailigh,V;2;SG;COND,vˠ a lʲ oː h aː,vˠ a lʲ i
+bailigh,V;1;PL;IMP,bˠ a lʲ iː mʲ ə ʃ,bˠ a lʲ iː mʲ ə ʃ
+bailigh,V;1;PL;PRS;IND,bˠ a lʲ iː mʲ ə dʲ,ɡ ɔ mˠ a lʲ iː mʲ ə dʲ
+bailigh,V;3;SG;PST;IND,vˠ a lʲ i ʃ eː,vˠ a lʲ iː ʃ eː
+bailigh,V;AUTO;PRS;IND,bˠ a lʲ iː tʲ ə ɾˠ,æː ɾʲ i ə ɾˠ t̪ˠ ə ɾˠ
+bailigh,V;1;SG;PRS;IND,bˠ a lʲ iː mʲ,ɡ ɔ mˠ a lʲ iː mʲ eː
+bailigh,V;1;SG;PST;HAB;IND,vˠ a lʲ iː n̠ʲ,vˠ a lʲ i mʲ eː
+bailigh,V;2;SG;PST;IND,vˠ a lʲ i t̪ˠ uː,vˠ a lʲ i
+bailigh,V;1;PL;SBJV;PRS,ɡ ə mˠ a lʲ iː mʲ ə dʲ,ɡ ə mˠ a lʲ iː mʲ eː
+bailigh,V;AUTO;COND,vˠ a lʲ oː h i,vˠ a lʲ oː h i
+bailigh,V;2;PL;COND,vˠ a lʲ oː ʃ ə vʲ,bˠ a lʲ oː ʃ iː
+bailigh,V;3;SG;SBJV;PST,d̪ˠ aː mˠ a lʲ i ə ʃ eː,d̪ˠ aː n̪ˠ ə bʲ ɾʲ iː ʃ eː
+bailigh,V;AUTO;SBJV;PST,d̪ˠ aː mʲ a lʲ iː tʲ iː,d̪ˠ aː mˠ a lʲ iː tʲ ə ɾˠ
+bailigh,V;1;PL;SBJV;PST,d̪ˠ aː mʲ a lʲ iː mʲ ə ʃ,d̪ˠ aː dʲ a ʃ tʲ ə lˠ iː mʲ ə ʃ
+lonnaigh,V;2;SG;SBJV;PRS,ɡ ɔ l̪ˠ ɔ n̪ˠ iː t̪ˠ uː,ɡ ɔ lˠ ɔ n̪ˠ iː n̪ˠ t̪ˠ uː
+lonnaigh,V;REL;PST;HAB;IND,ə l̪ˠ ɔ n̪ˠ iː u,ə l̪ˠ ɔ n̪ˠ i
+lonnaigh,V;1;SG;IMP,l̪ˠ ɔ n̪ˠ iː mʲ,l̪ˠ ɔ n̪ˠ i
+lonnaigh,V;AUTO;PST;HAB;IND,l̪ˠ ɔ n̪ˠ iː tʲ iː,l̪ˠ ɔ n̪ˠ iː u
+lonnaigh,V;REL;PRS;IND,ə l̪ˠ ɔ n̪ˠ iː n̪ˠ,ə l̪ˠ ɔ n̪ˠ ə n̪ˠ
+lonnaigh,V;AUTO;IMP,l̪ˠ ɔ n̪ˠ iː tʲ ə ɾˠ,l̪ˠ ɔ n̪ˠ oː fˠ iː
+lonnaigh,V;1;SG;SBJV;PRS,ɡ ɔ lˠ ɔ n̪ˠ iː mʲ eː,ɡ ə nˠ ə mʲ eː
+lonnaigh,V;1;SG;PRS;IND,l̪ˠ ɔ n̪ˠ iː mʲ,l̪ˠ ɔ n̪ˠ iː n̪ˠ
+lonnaigh,V;1;PL;COND,l̪ˠ ɔ n̪ˠ oː mʲ ə ʃ,l̪ˠ ɔ n̪ˠ oː mʲ ə ʃ
+lonnaigh,V;2;PL;PRS;IND,l̪ˠ ɔ n̪ˠ iː n̪ˠ ʃ ə vʲ,l̪ˠ ɔ n̪ˠ iː ʃ ə vʲ
+lonnaigh,V;2;SG;PRS;IND,l̪ˠ ɔ n̪ˠ iː n̪ˠ t̪ˠ uː,eː ɾʲ i ə ɾˠ ə n̪ˠ t̪ˠ uː
+lonnaigh,V;V.MSDR,l̪ˠ ɔ n̪ˠ uː,k aː lʲ u
+lonnaigh,V;3;PL;PRS;IND,l̪ˠ ɔ n̪ˠ iː n̪ˠ ʃ i ə d̪ˠ,l̪ˠ ɔ n̪ˠ iː ʃ i ə d̪ˠ
+lonnaigh,V;2;PL;IMP,l̪ˠ ɔ n̪ˠ iː ɟ iː,k æː lʲ iː ɟ iː
+lonnaigh,V;1;PL;PST;IND,l̪ˠ ɔ n̪ˠ iː mˠ ə ɾˠ,l̪ˠ ɔ n̪ˠ iː mʲ ə dʲ
+lonnaigh,V;1;PL;SBJV;PST,d̪ˠ aː l̪ˠ ɔ n̪ˠ iː mʲ ə ʃ,d̪ˠ aː l̪ˠ ɔ n̪ˠ iː mʲ ə ʃ
+roghnaigh,V;2;SG;SBJV;PRS,ɡ ɔ ɾˠ oː nˠ iː t̪ˠ uː,ɡ ɔ ŋ ɾˠ aː t̪ˠ uː
+roghnaigh,V;AUTO;IMP,ɾˠ oː nˠ iː tʲ ə ɾˠ,ɾˠ oː n̪ˠ oː h i
+roghnaigh,V;1;PL;FUT;IND,ɾˠ oː n̪ˠ oː mʲ ə dʲ,ɾˠ oː nˠ iː mˠ ə ɾˠ
+roghnaigh,V;1;PL;IMP,ɾˠ oː nˠ iː mʲ ə ʃ,ɾˠ oː n̪ˠ oː mʲ ə ʃ
+roghnaigh,V;1;SG;FUT;IND,ɾˠ oː n̪ˠ oː mʲ eː,ɾˠ oː nˠ iː mʲ eː
+roghnaigh,V;3;SG;COND,ɾˠ oː nˠ oː ʃ eː,h oː h u ʃ eː
+roghnaigh,V;3;SG;FUT;IND,ɾˠ oː n̪ˠ oː ʃ eː,ɾˠ oː n̪ˠ oː ʃ eː
+roghnaigh,V;3;PL;SBJV;PRS,ɡ ɔ ɾˠ oː nˠ iː ʃ i ə d̪ˠ,ɡ ɔ ɾˠ oː nˠ iː ʃ i ə d̪ˠ
+roghnaigh,V;1;PL;SBJV;PRS,ɡ ɔ ɾˠ oː nˠ iː mʲ ə dʲ,d̪ˠ aː ɾˠ oː nˠ iː mʲ ə dʲ
+roghnaigh,V;3;PL;IMP,ɾˠ oː nˠ iː dʲ iː ʃ,æː ɾʲ iː dʲ iː ʃ
+roghnaigh,V;2;PL;PST;IND,ɾˠ oː nˠ iː ʃ ə vʲ,ɾˠ oː nˠ iː ʃ iː
+roghnaigh,V;3;SG;SBJV;PST,d̪ˠ aː ɾˠ oː nˠ iː ʃ eː,d̪ˠ aː ɾˠ oː n̪ˠ iː n̠ʲ
+roghnaigh,V;AUTO;PST;IND,ɾˠ oː nˠ iː u,ɾˠ oː nˠ iː tʲ ə ɾˠ
+roghnaigh,V;2;PL;IMP,ɾˠ oː nˠ iː ɟ iː,æː ɾʲ iː ɟ iː
+roghnaigh,V;3;SG;PRS;IND,ɾˠ oː n̪ˠ iː n̪ˠ ʃ eː,ɾˠ oː n̪ˠ iː n̪ˠ ʃ eː
+dear,V;1;SG;IMP,dʲ a ɾˠ ə mʲ,dʲ a ɾˠ h ə n̠ʲ
+dear,V;AUTO;IMP,dʲ a ɾˠ t̪ˠ ə ɾˠ,dʲ a ɾˠ t̪ˠ ə ɾˠ
+dear,V;2;SG;COND,j aː ɾˠ ə h aː,j a ɾˠ
+dear,V;AUTO;FUT;IND,dʲ a ɾˠ ə fˠ ə ɾˠ,dʲ a ɾˠ h ə ɾˠ
+dear,V;2;PL;SBJV;PRS,ɡ ɔ n̠ʲ ɑː ɾˠ ə ʃ iː,ɡ ɔ n̠ʲ dʲ a ɾˠ ə ʃ i vʲ
+dear,V;1;PL;PST;HAB;IND,j a ɾˠ ə mʲ ə ʃ,j a ɾˠ ə mʲ ə dʲ
+dear,V;3;SG;COND,j a ɾˠ u ʃ eː,j a ɾˠ u ʃ eː
+dear,V;3;PL;PST;IND,j a ɾˠ ʃ i ə d̪ˠ,j a ɾˠ h ə ʃ i ə d̪ˠ
+dear,V;3;PL;SBJV;PST,d̪ˠ aː n̠ʲ dʲ a ɾˠ ə dʲ iː ʃ,d̪ˠ aː n̠ʲ dʲ a ɾˠ ə ʃ i ə d̪ˠ
+dear,V;3;SG;FUT;IND,dʲ a ɾˠ h ə ʃ eː,dʲ a ɾˠ h ə ʃ eː
+dear,V;2;SG;PRS;IND,dʲ a ɾˠ ə n̪ˠ t̪ˠ uː,dʲ a ɾˠ ə n̪ˠ t̪ˠ uː
+dear,V;AUTO;COND,j aː ɾˠ h iː,j a ɾˠ u
+dear,V;3;PL;IMP,dʲ a ɾˠ ə dʲ iː ʃ,dʲ a ɾˠ h ə dʲ iː ʃ
+dear,V;3;SG;SBJV;PST,d̪ˠ aː n̪ˠ dʲ a ɾˠ u ʃ eː,d̪ˠ aː n̠ʲ dʲ a ɾˠ ə ʃ eː
+dear,V;1;PL;SBJV;PST,d̪ˠ aː n̠ʲ dʲ a ɾˠ ə mʲ ə ʃ,d̪ˠ aː d̪ˠ a tʲ nʲ iː mʲ ə ʃ
+taistil,V;AUTO;PST;HAB;IND,h a ʃ tʲ ə lˠ iː tʲ i,h a ʃ tʲ ə lˠ iː tʲ i
+taistil,V;REL;PRS;IND,ə h a ʃ tʲ ə lˠ iː n̪ˠ,ə h a ʃ tʲ ə lˠ iː tʲ ə ɾˠ
+taistil,V;1;PL;IMP,t̪ˠ a ʃ tʲ ə lˠ iː mʲ ə ʃ,t̪ˠ a ʃ tʲ ə lˠ iː mʲ ə ʃ
+taistil,V;1;PL;PRS;IND,t̪ˠ a ʃ tʲ ə lˠ iː mʲ ə dʲ,ɡ ə d̪ˠ a ʃ tʲ ə lˠ iː mʲ ə dʲ
+taistil,V;AUTO;PRS;IND,t̪ˠ a ʃ tʲ ə lˠ iː tʲ ə ɾˠ,t̪ˠ a ʃ tʲ ə l̪ˠ t̪ˠ ə ɾˠ
+taistil,V;1;SG;PRS;IND,t̪ˠ a ʃ tʲ ə lˠ iː mʲ,h a ʃ tʲ ə lˠ iː mʲ
+taistil,V;3;PL;SBJV;PST,d̪ˠ aː ʃ tʲ ə lˠ iː dʲ iː ʃ,d̪ˠ aː dʲ a ʃ tʲ ə dʲ iː ʃ
+taistil,V;1;PL;COND,h a ʃ tʲ ə lˠ oː mʲ ə ʃ,t̪ˠ a ʃ tʲ ə lˠ oː mʲ ə ʃ
+taistil,V;AUTO;SBJV;PRS,ɡ ɔ d̪ˠ a ʃ tʲ ə lˠ iː tʲ ə ɾˠ,ɡ ə d̪ˠ a ʃ tʲ ə lˠ iː tʲ iː
+taistil,V;2;PL;FUT;IND,t̪ˠ a ʃ tʲ ə lˠ oː ʃ ə vʲ,t̪ˠ a ʃ tʲ ə ʃ ɪ vʲ
+taistil,V;3;PL;SBJV;PRS,ɡ ə d̪ˠ a ʃ tʲ ə lˠ iː ʃ i ə d̪ˠ,ɡ ə nˠ ə ʃ i ə d̪ˠ
+taistil,V;AUTO;PST;IND,t̪ˠ a ʃ tʲ ə lˠ iː u,h a ʃ tʲ ə l̪ˠ t̪ˠ ə ɾˠ
+taistil,V;1;PL;PST;IND,h a ʃ tʲ ə lˠ iː mˠ ə ɾˠ,h a ʃ tʲ ə lˠ oː mʲ ə ʃ
+smaoin,V;2;SG;SBJV;PRS,ɡ ə sˠ mˠ iː nʲ t̪ˠ uː,ɡ ə sˠ mˠ iː nʲ ə ʃ
+smaoin,V;REL;PRS;IND,ə sˠ mˠ iː nʲ ə n̪ˠ,sˠ mˠ iː nʲ ə n̪ˠ
+smaoin,V;1;PL;FUT;IND,sˠ mˠ iː nʲ h ə mʲ ə dʲ,sˠ mˠ iː nʲ ə mʲ ə dʲ
+smaoin,V;1;PL;IMP,sˠ mˠ iː nʲ ə mʲ ə ʃ,sˠ mˠ iː nʲ h ə mʲ ə ʃ
+smaoin,V;REL;PST;IND,ə sˠ mˠ iː nʲ,ə nʲ i
+smaoin,V;3;SG;FUT;IND,sˠ mˠ iː nʲ h ə ʃ eː,sˠ mˠ iː nʲ u ʃ eː
+smaoin,V;3;PL;COND,sˠ mˠ iː nʲ h ə dʲ iː ʃ,vˠ a lʲ oː dʲ iː ʃ
+smaoin,V;2;SG;SBJV;PST,d̪ˠ aː sˠ mˠ iː n̠ʲ tʲ aː,d̪ˠ aː ɡ a l̠ʲ tʲ aː
+smaoin,V;2;PL;FUT;IND,sˠ mˠ iː nʲ h ə ʃ ɪ vʲ,k a h i ʃ ə vʲ
+smaoin,V;2;SG;PST;HAB;IND,sˠ mˠ iː n̠ʲ tʲ ɑː,x a tʲ aː
+smaoin,V;3;PL;IMP,sˠ mˠ iː nʲ ə dʲ iː ʃ,sˠ mˠ iː nʲ ə ɟ iː
+smaoin,V;2;PL;COND,sˠ mˠ iː nʲ h ə ʃ ə vʲ,h oː h u ʃ iː
+smaoin,V;3;PL;PST;HAB;IND,sˠ mˠ iː nʲ ə dʲ iː ʃ,ç a ŋ lˠ iː dʲ iː ʃ
+smaoin,V;2;SG;FUT;IND,sˠ mˠ iː nʲ h ə t̪ˠ uː,fˠ u ə h ə t̪ˠ uː
+smaoin,V;1;SG;COND,sˠ mˠ iː nʲ h ə n̠ʲ,d̪ˠ aː ɾʲ oː n̠ʲ
+smaoin,V;1;SG;PST;IND,sˠ mˠ iː nʲ mʲ eː,sˠ mˠ iː nʲ ə n̠ʲ
+smaoin,V;AUTO;PST;IND,sˠ mˠ iː nʲ u,sˠ mˠ iː n̠ʲ tʲ ə ɾˠ
+smaoin,V;1;PL;PST;IND,sˠ mˠ iː nʲ ə mˠ ə ɾˠ,sˠ mˠ iː nʲ ə mʲ ə dʲ
+tóg,V;REL;FUT;IND,ə h oː k ə,ə x ɪ dʲ oː
+tóg,V;REL;PRS;IND,ə h oː ɡ ə n̪ˠ,h oː ɡ ə n̪ˠ
+tóg,V;AUTO;PRS;IND,t̪ˠ oː k t̪ˠ ə ɾˠ,h oː ɡ ə n̪ˠ t̪ˠ ə ɾˠ
+tóg,V;3;PL;PST;IND,h oː ɡ ʃ i ə d̪ˠ,h iː lʲ ʃ i ə d̪ˠ
+tóg,V;1;SG;PRS;IND,t̪ˠ oː ɡ ə mʲ,h oː ɡ ə mʲ
+tóg,V;AUTO;SBJV;PRS,ɡ ɔ d̪ˠ oː ɡ t̪ˠ ə ɾˠ,ɡ ɔ d̪ˠ oː ɡ ə ɾˠ
+tóg,V;2;PL;FUT;IND,t̪ˠ oː k ə ʃ ə vʲ,t̪ˠ oː ɡ ə n̪ˠ iː ʃ ə vʲ
+tóg,V;3;PL;IMP,t̪ˠ oː ɡ ə dʲ iː ʃ,t̪ˠ oː ɡ ə dʲ iː ʃ
+tóg,V;2;PL;COND,h oː k uː ʃ ə vʲ,h oː k uː ʃ ə vʲ
+tóg,V;1;SG;COND,h oː ɡ ə n̠ʲ,t̪ˠ oː ɡ ə mʲ
+imir,V;REL;PST;HAB;IND,ə dʲ ɪ mʲ ɾʲ iː u,ə dʲ ɪ mʲ ə ɾʲ
+imir,V;1;SG;IMP,ɪ mʲ ɾʲ iː mʲ,ɪ mʲ ɾʲ iː mʲ
+imir,V;REL;COND,ə dʲ ɪ mʲ ɾʲ oː,dʲ ɪ mʲ ɾʲ oː
+imir,V;2;PL;SBJV;PRS,ɡ ɔ nˠ ɪ mʲ ɾʲ iː ʃ ə vʲ,ɡ ɔ nˠ ɪ mʲ ɾʲ iː ʃ ə vʲ
+imir,V;3;PL;PST;IND,dʲ ɪ mʲ ə ɾʲ ʃ i ə d̪ˠ,ɪ mʲ ɾʲ iː ʃ i ə d̪ˠ
+imir,V;3;SG;FUT;IND,ɪ mʲ ɾʲ oː ʃ eː,dʲ ɪ mʲ ɾʲ oː ʃ eː
+imir,V;1;SG;PST;HAB;IND,dʲ ɪ mʲ ɾʲ iː n̠ʲ,dʲ ɪ mʲ ɾʲ iː n̠ʲ
+imir,V;2;PL;PST;IND,dʲ ɪ mʲ ə ɾʲ ʃ ə vʲ,dʲ ɪ mʲ ɾʲ iː ʃ ə vʲ
+imir,V;1;PL;PST;IND,dʲ ɪ mʲ ɾʲ iː mˠ ə ɾˠ,dʲ ɪ mʲ ɾʲ iː mʲ ə ʃ
+léirigh,V;3;PL;FUT;IND,l̠ʲ eː ɾʲ oː ʃ i ə d̪ˠ,l̠ʲ eː ɾʲ i ʃ i ə d̪ˠ
+léirigh,V;1;SG;FUT;IND,l̠ʲ eː ɾʲ oː mʲ eː,l̠ʲ eː ɾʲ oː mʲ eː
+léirigh,V;REL;PST;IND,ə lʲ eː ɾʲ i,ə lʲ eː ɾʲ i ə u
+léirigh,V;AUTO;FUT;IND,l̠ʲ eː ɾʲ oː fˠ ə ɾˠ,l̠ʲ eː ɾʲ oː fˠ ə ɾˠ
+léirigh,V;REL;COND,ə lʲ eː ɾʲ oː,ə lʲ eː ɾʲ oː fˠ iː
+léirigh,V;3;SG;FUT;IND,l̠ʲ eː ɾʲ oː ʃ eː,l̠ʲ eː ɾʲ oː ʃ eː
+léirigh,V;2;PL;PRS;IND,l̠ʲ eː ɾʲ i n̪ˠ ʃ iː,l̠ʲ eː ɾʲ i ʃ ə vʲ
+léirigh,V;3;PL;SBJV;PRS,ɡ ə lʲ eː ɾʲ i ʃ i ə d̪ˠ,ɡ ə lʲ eː ɾʲ iː ʃ i ə d̪ˠ
+léirigh,V;AUTO;COND,l̠ʲ eː ɾʲ oː fˠ iː,l̠ʲ eː ɾʲ oː fˠ iː
+léirigh,V;2;PL;COND,l̠ʲ eː ɾʲ oː ʃ iː,l̠ʲ eː ɾʲ oː ʃ ə vʲ
+léirigh,V;1;PL;SBJV;PST,d̪ˠ aː lʲ eː ɾʲ iː mʲ ə ʃ,d̪ˠ aː lʲ eː ɾʲ iː mʲ ə ʃ
+labhair,V;REL;PST;HAB;IND,ə lˠ uː ɾˠ iː u,ə lˠ uː ɾʲ
+labhair,V;AUTO;IMP,l̪ˠ uː ɾˠ iː tʲ ə ɾˠ,t̪ˠ a ʃ tʲ ə ɾˠ
+labhair,V;1;PL;PRS;IND,l̪ˠ uː ɾˠ iː mʲ ə dʲ,l̪ˠ uː ɾˠ oː mʲ ə dʲ
+labhair,V;AUTO;FUT;IND,l̪ˠ uː ɾˠ oː h ə ɾˠ,l̪ˠ uː ɾˠ oː h ə ɾˠ
+labhair,V;1;SG;SBJV;PST,d̪ˠ aː lˠ u ɾˠ iː n̠ʲ,d̪ˠ aː lˠ uː ɾˠ iː n̠ʲ
+labhair,V;1;SG;SBJV;PRS,ɡ ɔ lˠ uː ɾˠ iː mʲ eː,ɡ ɔ lˠ uː ɾˠ iː mʲ eː
+labhair,V;1;SG;PRS;IND,l̪ˠ uː ɾˠ iː mʲ,l̪ˠ uː ɾˠ iː mʲ eː
+labhair,V;3;SG;FUT;IND,l̪ˠ uː ɾˠ oː ʃ eː,l̪ˠ uː ɾˠ oː ʃ eː
+labhair,V;1;PL;COND,l̪ˠ uː ɾˠ oː mʲ ə ʃ,l̪ˠ uː ɾˠ oː mʲ ə ʃ
+labhair,V;2;PL;PRS;IND,l̪ˠ uː ɾˠ iː n̪ˠ ʃ iː,l̪ˠ uː ɾˠ i n̪ˠ ʃ ə vʲ
+labhair,V;3;SG;IMP,l̪ˠ uː ɾˠ iː ʃ eː,l̪ˠ uː ɾˠ iː tʲ ʃ eː
+labhair,V;1;PL;SBJV;PRS,ɡ ɔ lˠ uː ɾˠ iː mʲ ə dʲ,ɡ ɔ lˠ uː ɾˠ iː mʲ ə ʃ
+labhair,V;V.MSDR,l̪ˠ uː ɾˠ tʲ,c ɾʲ ɛ dʲ uː nʲ tʲ
+labhair,V;2;SG;PST;HAB;IND,l̪ˠ uː ɾˠ iː tʲ ɑː,l̪ˠ uː ɾˠ iː tʲ ɑː
+labhair,V;2;PL;IMP,l̪ˠ uː ɾˠ iː ɟ iː,l̪ˠ uː ɾˠ oː ʃ iː
+cum,V;1;PL;FUT;IND,k ʊ mˠ h ə mʲ ə dʲ,k ʊ mˠ h ə mʲ ə dʲ
+cum,V;REL;PST;IND,ə x ə mˠ,ə x ə mˠ u
+cum,V;3;SG;FUT;IND,k ʊ mˠ h ə ʃ eː,k ʊ mˠ h ə ʃ eː
+cum,V;1;SG;PST;HAB;IND,x ʊ mˠ ə n̠ʲ,x ʊ mˠ ə mʲ
+cum,V;2;SG;SBJV;PST,d̪ˠ aː ɡ ə mˠ t̪ˠ aː,d̪ˠ aː ʃ iː l̠ʲ tʲ aː
+cum,V;3;SG;IMP,k ʊ mˠ uː ʃ eː,k ʊ mˠ uː ʃ eː
+cum,V;AUTO;COND,x ʊ mˠ h iː,k ʊ mˠ u
+cum,V;3;PL;IMP,k ʊ mˠ ə dʲ iː ʃ,k ʊ mˠ ə dʲ iː ʃ
+cum,V;3;PL;PST;HAB;IND,x ʊ mˠ ə dʲ iː ʃ,x ʊ mˠ h ə ʃ i ə d̪ˠ
+cum,V;1;SG;PST;IND,x ʊ mˠ eː,x ʊ mˠ ə mʲ
+cum,V;AUTO;SBJV;PST,d̪ˠ aː ɡ ə mˠ t̪ˠ iː,d̪ˠ aː mˠ bˠ ɾˠ uː tʲ iː
+cum,V;1;PL;SBJV;PST,d̪ˠ aː ɡ ə mˠ ə mʲ ə ʃ,d̪ˠ aː d̪ˠ oː ɡ ə mʲ ə ʃ

@@ -1,0 +1,318 @@
+lemma,paradigm_slot,target,prediction
+hålla,V;V.CVB;ACT,h ɔ l ɪ t,b ɛ t
+hålla,V;IND;SG;ACT;PRS,h ɔ l ɛ r,v ɛ r k ɑː r
+hålla,V;IND;PL;ACT;PST,h œ l ʊ,b l eː v ʊ
+hålla,V;IND;PL;PASS;PST,h œ l uː s,t uː ɡ ʊ s
+hålla,V;SBJV;PASS;PRS,h ɔ l ɛ s,ɔ m f a t ɛ s
+hålla,V;SBJV;PASS;PST,h œ l ɛ s,b oː d ɛ s
+bedja,V;V.CVB;PASS,b ɛ t s,f œ l j t s
+bedja,V;IND;SG;ACT;PST,b ɑː d,t uː ɡ
+bedja,V;IND;PL;ACT;PST,b oː d ʊ,² b ɛ j a
+bedja,V;IND;PL;PASS;PRS,b eː d j a s,b eː d eː s
+bedja,V;V.PTCP;PRS,² b eː d j a n d ɛ,b eː d ɛ r a n d ɛ
+bedja,V;V.PTCP;PST,b ɛ d,² s k a d
+öka,V;IND;PL;ACT;PRS,øː k a,øː k a r
+öka,V;SBJV;ACT;PRS,øː k ɛ,b eː d ɛ
+öka,V;SBJV;PASS;PST,øː k a d eː s,t uː ɡ eː s
+öka,V;V.PTCP;PST,øː k a d,² b l iː v ɛ n
+lägga,V;NFIN;PASS,² l ɛ ɡ a s,² l ɛ ɡ a s
+lägga,V;IMP;ACT,l ɛ ɡ,t ɑː ɡ
+lägga,V;IND;SG;PASS;PST,l ɑː d ɛ s,ɡ ɑː v s
+lägga,V;IND;PL;PASS;PRS,² l ɛ ɡ a s,² l ɛ ɡ a s
+lägga,V;SBJV;ACT;PRS,² l ɛ ɡ ɛ,l ɛ ɡ ɛ
+lämna,V;IMP;ACT,² l ɛ m n a,² l ɛ m n a
+lämna,V;IND;PL;ACT;PRS,² l ɛ m n a,l ɛ m n a r
+lämna,V;V.PTCP;PRS,² l ɛ m n a n d ɛ,l ɛ m n a n d ɛ
+välja,V;IMP;ACT,v ɛ l j,² v ɛ l j a
+välja,V;IND;SG;PASS;PRS,v ɛ l j s,s øː k s
+välja,V;IND;PL;ACT;PST,² v a l d ɛ,² v a l d ɛ
+välja,V;V.PTCP;PRS,² v ɛ l j a n d ɛ,s k a n d ɛ
+arbeta,V;V.CVB;ACT,a r b ɛ t ɑː t,a r b ɛ t ɑː t
+arbeta,V;IND;SG;ACT;PST,a r b ɛ t ɑː d ɛ,a r b ɛ t ɑː d ɛ
+arbeta,V;IND;SG;PASS;PST,a r b ɛ t a d eː s,a r b ɛ t a d eː s
+arbeta,V;V.PTCP;PRS,a r b ɛ t a n d ɛ,² t ɑː ɡ a n d ɛ
+arbeta,V;V.PTCP;PST,a r b ɛ t ɑː d,a r b ɛ t a d
+starta,V;NFIN;PASS,s t a r t a s,s t a r t ɑː t s
+starta,V;SBJV;ACT;PRS,² s t a r t ɛ,s t a r t ɛ
+läsa,V;V.CVB;PASS,l ɛ s t s,l ɛ s t s
+läsa,V;IND;SG;PASS;PRS,l ɛː s ɛ s,b eː d s
+läsa,V;IND;SG;PASS;PST,l ɛ s t ɛ s,l ɛ s t ɛ s
+läsa,V;SBJV;PASS;PRS,l ɛː s ɛ s,² l ɛː s a s
+läsa,V;V.PTCP;PST,l ɛ s t,² b l iː v ɛ n
+ta,V;IND;PL;ACT;PRS,t a,² b ɛ j a
+ta,V;IND;PL;PASS;PRS,t ɑː s,t ɑː ɡ a s
+ta,V;SBJV;PASS;PRS,t ɑː s,t ɑː ɧ ɛ s
+ta,V;V.PTCP;PRS,t a ɡ a n d ɛ,t ɑː ɡ a n d ɛ
+ta,V;IND;PL;PASS;PST,t uː ɡ ʊ s,t uː ɡ ʊ s
+leda,V;IMP;ACT,l eː d,l eː d
+leda,V;IND;PL;PASS;PRS,l eː d a s,l eː d ɛ s
+leda,V;V.PTCP;PST,l ɛ d,b l iː v ɛ n
+stå,V;IMP;ACT,s t oː,s t ɔ t
+stå,V;IMP;ACT,s t a t,t ɑː ɡ
+falla,V;IND;SG;ACT;PST,f œ lː,b l eː v
+falla,V;V.PTCP;PRS,² f a l a n d ɛ,² f ɪ nː a n d ɛ
+falla,V;V.PTCP;PST,f a l ɛ n,b ʏ ɡ d
+använda,V;V.CVB;ACT,a n v ɛ n t,s k ɑː t
+använda,V;IND;SG;PASS;PRS,a n v ɛ n d s,a n v ɛ n d ɛ s
+använda,V;V.PTCP;PRS,a n v ɛ n d a n d ɛ,a n v ɛ n d a n d ɛ
+betala,V;V.CVB;PASS,b ɛ t a l a t s,² s k a t s
+betala,V;IMP;ACT,b ɛ t ɑː l a,b l iː v
+betala,V;SBJV;PASS;PRS,b ɛ t ɑː l eː s,l ɛ m n ɛ s
+betala,V;V.PTCP;PRS,b ɛ t ɑː l a n d ɛ,b eː d ɛ r a n d ɛ
+påverka,V;V.CVB;PASS,p oː v eː r k a t s,l ɛ m n a t s
+påverka,V;IND;PL;ACT;PRS,p oː v ɛ r k a,p oː v ɛ r k ɑː r
+påverka,V;IND;PL;ACT;PST,p oː v ɛ r k ɑː d ɛ,p oː v ɛ r k a d ɛ
+påverka,V;IND;PL;PASS;PRS,p oː v ɛ r k a s,p oː v eː r k a s
+skapa,V;IMP;ACT,² s k ɑː p a,s k a
+skapa,V;IND;SG;ACT;PST,² s k ɑː p a d ɛ,t uː ɡ
+skapa,V;IND;PL;ACT;PST,² s k ɑː p a d ɛ,² s k ɑː p a d ɛ
+skapa,V;SBJV;PASS;PST,s k ɑː p a d eː s,² s k ɑː p a d ɛ s
+bli,V;IND;SG;ACT;PST,b l eː v,b l eː v
+bli,V;IND;PL;ACT;PRS,b l iː,² b l iː v a
+bli,V;V.PTCP;PST,b l iː v ɛ n,b l iː v ɛ n
+bli,V;SBJV;ACT;PST,² b l eː v ɛ,² b l eː v ɛ
+ge,V;IND;PL;ACT;PST,ɡ oː v ʊ,j iː v a
+ge,V;SBJV;ACT;PRS,j eː,j ɪ f v ɛ
+ge,V;V.PTCP;PRS,j iː v a n d ɛ,j ɪ f v a n d ɛ
+ge,V;IND;SG;PASS;PST,ɡ ɑː v s,ɡ ɑː v s
+ge,V;IND;PL;ACT;PST,ɡ oː v ʊ,j iː v a
+ge,V;IND;PL;PASS;PRS,j iː v a s,j eː s
+ge,V;IND;PL;ACT;PST,ɡ oː f v uː,j iː v ɛ n d ɛ r ɑː d ɛ
+nå,V;IND;PL;ACT;PRS,n oː,² b ɛ j a
+nå,V;SBJV;ACT;PST,² n oː d ɛ,n oː d ɛ
+nå,V;V.PTCP;PRS,² n oː ɛ n d ɛ,² l ɪ ɡ a n d ɛ
+nå,V;V.PTCP;PST,n oː d,b l iː v ɛ n
+tänka,V;V.CVB;ACT,t ɛ ŋ k t,t ɛ ŋ k t
+tänka,V;IND;SG;ACT;PST,² t ɛ ŋ k t ɛ,² t ɛ ŋ k t ɛ
+tänka,V;IND;PL;ACT;PRS,² t ɛ ŋ k a,² t ɛ ŋ k ɛ r
+tänka,V;IND;PL;PASS;PST,² t ɛ ŋ k t ɛ s,² t ɛ ŋ k t ɛ s
+tänka,V;SBJV;ACT;PRS,² t ɛ ŋ k ɛ,² j ɔ b ɛ
+genomföra,V;NFIN;ACT,j ɛ n ɔ m f øː r a,f œ r t s ɛ t a
+genomföra,V;V.CVB;ACT,j ɛ n ɔ m f œ r t,l eː ɡ ɑː t
+genomföra,V;IMP;ACT,j ɛ n ɔ m f øː r,t ɑː ɡ
+genomföra,V;IND;SG;PASS;PRS,j ɛ n ɔ m f øː r ɛ s,j ɛ n ɔ m f øː r ɛ s
+genomföra,V;IND;PL;ACT;PST,j ɛ n ɔ m f øː r d ɛ,j ɛ n ɔ m f øː r d ɛ
+genomföra,V;SBJV;PASS;PST,j ɛ n ɔ m f øː r d ɛ s,² b oː d ɛ s
+genomföra,V;V.PTCP;PRS,j ɛ n ɔ m f øː r a n d ɛ,j ɛ n ɔ m f øː r a n d ɛ
+genomföra,V;V.PTCP;PST,j ɛ n ɔ m f øː r d,s t a r t a d
+utveckla,V;IMP;ACT,² ʉː t v ɛ k l a,² b l iː v
+utveckla,V;IND;SG;PASS;PRS,² ʉː t v ɛ k l a s,² ʉː t v ɛ k l ɛ s
+utveckla,V;IND;SG;PASS;PST,² ʉː t v ɛ k l a d ɛ s,² ʉː t v ɛ k l a d ɛ s
+utveckla,V;IND;PL;PASS;PRS,² ʉː t v ɛ k l a s,² ʉː t v ɛ k l a s
+utveckla,V;V.PTCP;PRS,² ʉː t v ɛ k l a n d ɛ,f ɔ r t s ɛ t a n d ɛ
+gå,V;IND;SG;PASS;PRS,ɡ oː s,ɡ oː s
+gå,V;IND;PL;ACT;PRS,ɡ oː,ɡ oː r
+gå,V;IND;PL;PASS;PST,j ɪ ŋ ɡ ʊ s,j ɪ k s
+gå,V;SBJV;ACT;PST,j ɪ ŋ ɛ,ɡ oː
+verka,V;SBJV;ACT;PRS,² v ɛ r k ɛ,² b l iː v ɛ
+ingå,V;IMP;ACT,ɪ n ɡ oː,b eː d
+ingå,V;SBJV;PASS;PRS,ɪ n ɡ oː s,ɪ n ɡ oː s
+ingå,V;V.PTCP;PRS,ɪ n ɡ oː ɛ n d ɛ,² b l iː v a n d ɛ
+ställa,V;V.CVB;PASS,s t ɛ l t s,t a j ɪ t s
+ställa,V;IMP;ACT,s t ɛ lː,f a l
+ställa,V;IND;SG;ACT;PRS,² s t ɛ l ɛ r,s t a r
+ställa,V;IND;SG;PASS;PST,² s t ɛ l d ɛ s,s t ɛ l d ɛ s
+ställa,V;IND;PL;ACT;PRS,² s t ɛ lː a,² b l iː v a
+ställa,V;IND;PL;PASS;PRS,² s t ɛ l a s,s t ɛ l s
+ställa,V;SBJV;ACT;PST,² s t ɛ l d ɛ,s t ɛ l d ɛ
+sätta,V;V.CVB;ACT,s a tː,b ʏ ɡ t
+sätta,V;V.CVB;PASS,s a t s,s k a t s
+sätta,V;IND;SG;ACT;PRS,s ɛ t ɛ r,² s t a r
+sätta,V;IND;PL;ACT;PST,² s a t ɛ,² s a t ɛ
+sätta,V;IND;PL;PASS;PST,² s a t ɛ s,² s a t ɛ s
+sätta,V;SBJV;PASS;PST,² s a t ɛ s,b oː d ɛ s
+be,V;NFIN;ACT,b eː,b eː
+be,V;IND;PL;ACT;PRS,b eː,b oː d ʊ
+be,V;V.PTCP;PST,b ɛ d,b ɛ d
+be,V;NFIN;ACT,² b ɛ j a,b eː
+be,V;SBJV;ACT;PRS,b eː d ɛ,b eː
+lita,V;SBJV;PASS;PST,l iː t a d eː s,² l iː t a d ɛ s
+samarbeta,V;IMP;ACT,s a m a r b eː t a,s a m a r b ɛ t a
+samarbeta,V;IND;SG;ACT;PRS,s a m a r b eː t a r,b eː d ɛ r
+bliva,V;NFIN;ACT,² b l iː v a,² t ɛ ŋ k a
+bliva,V;V.CVB;ACT,b l iː v iː t,b l iː v iː t
+behandla,V;IMP;ACT,b ɛ h a n d l a,² b l iː v
+behandla,V;IND;SG;ACT;PRS,b ɛ h a n d l a r,b ə h a n d l ɑː d ɛ
+behandla,V;IND;SG;PASS;PRS,b ɛ h a n d l ɑː s,b ə h a n d l ɑː s
+behandla,V;IND;SG;PASS;PST,b ɛ h a n d l a d eː s,b ɛ h a n d l ɑː d ɛ s
+behandla,V;SBJV;PASS;PRS,b ə h a n d l ɛ s,b ə h a n d l ɛ s
+behandla,V;V.PTCP;PRS,b ɛ h a n d l a n d ɛ,b ə h a n d l a d
+förstå,V;V.CVB;ACT,f œ r s t ɔ t,s k ɑː t
+förstå,V;IMP;ACT,f œ r s t oː,b eː d
+förstå,V;IND;PL;ACT;PST,f œ r s t ʊ d ʊ,b l eː v ʊ
+förstå,V;SBJV;PASS;PRS,f œ r s t oː s,f œ r s t ʊ d ɛ s
+åka,V;IMP;ACT,oː k,t ɑː ɡ
+åka,V;IND;SG;ACT;PST,² oː k t ɛ,oː k ɛ r
+åka,V;IND;PL;ACT;PST,² oː k t ɛ,l oː ɡ ʊ
+åka,V;SBJV;ACT;PRS,oː k ɛ,² l iː t ɛ
+behöva,V;IND;SG;PASS;PRS,b ə h øː v s,b ə h øː v ɛ s
+behöva,V;IND;PL;ACT;PRS,b ɛ h øː v a,b ə h øː v ɛ r
+behöva,V;IND;PL;PASS;PST,b ə h øː v d ɛ s,b ə h øː v a s
+behöva,V;SBJV;PASS;PST,b ə h øː v d ɛ s,b ɛ h øː v d ɛ s
+behöva,V;V.PTCP;PRS,b ə h øː v a n d ɛ,b ə h øː v d
+presentera,V;V.CVB;ACT,p r ɛ s ɛ n t ɛ r ɑː t,p r ɛ s ɛ n t eː r a
+presentera,V;IND;SG;PASS;PST,p r ɛ s ɛ n t ɛ r a d eː s,p r ɛ s ɛ n t eː r a d eː s
+presentera,V;IND;PL;PASS;PRS,p r ɛ s ɛ n t eː r a s,p r ɛ s ɛ n t eː r a s
+presentera,V;IND;PL;PASS;PST,p r ɛ s ɛ n t ɛ r a d eː s,p r ɛ s ɛ n t ɛ r a d eː s
+presentera,V;SBJV;ACT;PRS,p r ɛ s ɛ n t eː r ɛ,p r ɛ s ɛ n t eː r a
+presentera,V;SBJV;PASS;PRS,p r ɛ s ɛ n t eː r eː s,p r ɛ s ɛ n t eː r a s
+försöka,V;NFIN;ACT,f œ r s øː k a,f œ r s øː k a
+försöka,V;V.CVB;PASS,f œ r s œ k t s,t a j ɪ t s
+försöka,V;IND;PL;PASS;PST,f œ r s øː k t ɛ s,f œ r s øː k a d eː s
+försöka,V;SBJV;ACT;PRS,² f œ r s øː k ɛ,f œ r s øː k ɛ
+försöka,V;V.PTCP;PST,f œ r s œ k t,s t ɛ l d
+hjälpa,V;NFIN;ACT,j ɛ l p a,j ɛ l p a
+hjälpa,V;IND;SG;ACT;PST,j ɛ l p t ɛ,j ɛ l p t ɛ
+hjälpa,V;IND;SG;PASS;PRS,j ɛ l p s,j ɛ l p s
+hjälpa,V;IND;SG;PASS;PRS,j ɛ l p ɛ s,j ɛ l p s
+hjälpa,V;IND;PL;ACT;PRS,j ɛ l p a,j ɛ l p a
+hjälpa,V;V.PTCP;PRS,j ɛ l p a n d ɛ,j ɛ l p a n d ɛ
+hjälpa,V;V.PTCP;PST,j ɛ l p t,j ɛ l p a n d ɛ
+hjälpa,V;IND;SG;ACT;PRS,j ɛ l p ɛ r,j ɛ l p ɛ r
+hjälpa,V;IND;SG;ACT;PST,h a l p,h ɵ l p ɛ r
+hjälpa,V;IND;SG;PASS;PRS,j ɛ l p ɛ s,j ɛ l p a s
+hjälpa,V;SBJV;ACT;PST,² h ɵ l p ɛ,j ɛ l p t ɛ
+hjälpa,V;SBJV;PASS;PRS,j ɛ l p ɛ s,j ɛ l p ɛ s
+hjälpa,V;SBJV;PASS;PST,h ɵ l p ɛ s,h ɵ l p ɛ s
+minska,V;NFIN;PASS,² m ɪ n s k a s,² m ɪ n s k a s
+minska,V;V.CVB;PASS,m iː n s k a t s,ɛ r b j ʉː d ɪ t s
+minska,V;IND;SG;ACT;PRS,m ɪ n s k ɑː r,² b l iː v ɛ r
+minska,V;IND;SG;PASS;PST,m ɪ n s k a d eː s,m iː n s k a d eː s
+minska,V;IND;PL;ACT;PRS,² m ɪ n s k a,² m ɪ n s k a
+minska,V;IND;PL;PASS;PST,m ɪ n s k a d eː s,m iː n s k a d eː s
+känna,V;IND;SG;PASS;PRS,ɕ ɛ n ɛ s,ɕ ɛ n s
+jobba,V;IMP;ACT,² j ɔ bː a,t ɑː ɡ
+jobba,V;IND;SG;ACT;PST,j ɔ b a d ɛ,b ɑː d
+jobba,V;IND;PL;ACT;PST,j ɔ b a d ɛ,h ɵ l p ʊ
+företaga,V;IND;PL;ACT;PST,f øː r ɛ t uː ɡ ʊ,f øː r ɛ t uː ɡ
+företaga,V;IND;PL;PASS;PST,f øː r ɛ t uː ɡ uː s,f øː r ɛ t ɑː d ɛ s
+företaga,V;V.PTCP;PST,f øː r ɛ t ɑː ɡ ɛ n,² b l iː v ɛ n
+föra,V;IND;SG;ACT;PST,² f øː r d ɛ,² f øː r d ɛ
+föra,V;IND;SG;PASS;PRS,f œ r s,f øː r ɛ s
+föra,V;IND;PL;PASS;PST,f øː r d ɛ s,² f øː r d ɛ s
+införa,V;IND;SG;ACT;PRS,ɪ n f øː r,ɪ n f øː r
+införa,V;SBJV;PASS;PST,ɪ n f øː r d ɛ s,ɪ n f øː r d ɛ s
+införa,V;V.PTCP;PRS,ɪ n f øː r a n d ɛ,² ɪ n f øː r a n d ɛ
+sina,V;V.CVB;ACT,s ɪ n ɑː t,b ɛ t
+sina,V;IND;SG;ACT;PST,² s iː n a d ɛ,s iː n a r
+sina,V;IND;PL;ACT;PRS,² s iː n a,s iː n a r
+sina,V;SBJV;ACT;PST,² s iː n a d ɛ,² s iː n a d ɛ
+sina,V;V.PTCP;PST,s iː n a d,² s iː n a d
+böra,V;IND;SG;ACT;PRS,b øː r,l ɛ ɡ ɛ r
+böra,V;IND;PL;ACT;PRS,² b øː r a,² b øː r a
+fråga,V;NFIN;PASS,f r oː ɡ a s,b eː d j a s
+fråga,V;IND;PL;ACT;PST,² f r oː ɡ a d ɛ,f r oː ɡ a d ɛ
+fråga,V;V.PTCP;PRS,² f r oː ɡ a n d ɛ,f r oː ɡ a n d ɛ
+nästa,V;NFIN;ACT,² n ɛ s t a,² n ɛ s t a
+nästa,V;SBJV;PASS;PRS,² n ɛ s t ɛ s,² n ɛ s t ɛ s
+nästa,V;V.PTCP;PRS,² n ɛ s t a n d ɛ,² n ɛ s t a n d ɛ
+nästa,V;V.CVB;ACT,n ɛ s t,n ɛ s t ɑː t
+nästa,V;IND;SG;ACT;PST,² n ɛ s t ɛ,² n ɛ s t a d ɛ
+nästa,V;IND;SG;PASS;PRS,n ɛ s t s,² n ɛ s t a s
+nästa,V;IND;PL;ACT;PST,² n ɛ s t ɛ,b l eː v ʊ
+nästa,V;SBJV;PASS;PRS,² n ɛ s t ɛ s,² n ɛ s t ɛ s
+nästa,V;SBJV;PASS;PST,² n ɛ s t ɛ s,² n ɛ s t ɛ s
+sida,V;V.CVB;PASS,s ɪ d ɑː t s,² s iː d a s
+sida,V;IND;SG;ACT;PST,² s iː d ɑː d ɛ,t uː ɡ
+sida,V;IND;SG;PASS;PRS,² s iː d a s,s t ɛ l s
+sida,V;IND;PL;ACT;PST,² s iː d ɑː d ɛ,b l eː v ʊ
+sida,V;IND;PL;PASS;PRS,² s iː d a s,² s k a s
+kontakta,V;V.CVB;PASS,k ɔ n t a k t a t s,² s k a t s
+kontakta,V;IMP;ACT,k ɔ n t a k t a,k ɔ n t a k t a
+kontakta,V;IND;PL;ACT;PRS,k ɔ n t a k t a,² b ɛ j a
+tycka,V;IND;SG;ACT;PST,² t ʏ k t ɛ,t ʏ k t ɛ
+tycka,V;IND;SG;PASS;PRS,² t ʏ kː ɛ s,t ʏ k s
+tycka,V;IND;PL;ACT;PRS,² t ʏ kː a,² t ʏ k t ɛ
+tycka,V;SBJV;ACT;PST,² t ʏ k t ɛ,² t ʏ k t ɛ
+tycka,V;V.PTCP;PST,t ʏ k t,t ɑː ɡ ɛ n
+dela,V;IMP;ACT,d eː l a,b l iː v
+dela,V;IND;SG;ACT;PRS,d eː l a r,d eː l a
+dela,V;IND;PL;ACT;PST,d eː l ɑː d ɛ,b l eː v ʊ
+dela,V;IND;PL;PASS;PRS,d eː l a s,d eː l a s
+dela,V;IND;PL;PASS;PST,d eː l a d eː s,d eː l a d eː s
+dela,V;SBJV;PASS;PST,d eː l a d eː s,d eː l ɑː d ɛ s
+dela,V;V.PTCP;PRS,d eː l a n d ɛ,b l iː v ɛ n t eː r a n d ɛ
+spela,V;IND;SG;ACT;PRS,s p eː l a r,² s p eː l a
+spela,V;IND;PL;ACT;PST,² s p eː l a d ɛ,h ɵ l p ʊ
+spela,V;IND;PL;PASS;PST,s p eː l a d eː s,s p eː l a d ɛ s
+hitta,V;V.CVB;ACT,h ɪ t a t,b ɛ t
+hitta,V;IND;PL;PASS;PRS,² h ɪ tː a s,² h ɪ tː a d ɛ s
+hitta,V;IND;PL;PASS;PST,h ɪ t a d eː s,² h ɪ tː a d ɛ s
+skriva,V;V.CVB;PASS,s k r iː v ɪ t s,² ʉː t v ɛ k l a t s
+skriva,V;IND;SG;ACT;PST,s k r eː v,s k a d ɛ
+skriva,V;IND;SG;PASS;PRS,s k r iː v s,s k r iː v ɛ s
+skriva,V;V.PTCP;PRS,² s k r iː v a n d ɛ,s k r iː v ɛ n
+söka,V;V.CVB;PASS,s øː k t s,j ɛ t s
+söka,V;V.PTCP;PST,s øː k t,t ɑː ɡ ɛ n
+omfatta,V;V.CVB;PASS,ɔ m f a t a t s,t a j ɪ t s
+omfatta,V;IMP;ACT,ɔ m f a tː a,t ɑː ɡ
+omfatta,V;SBJV;ACT;PRS,² ɔ m f a t ɛ,ɔ m f a t ɛ
+omfatta,V;V.PTCP;PST,ɔ m f a t a d,ɔ m f a t a d
+öppna,V;NFIN;ACT,² œ p n a,² œ p n a
+öppna,V;IND;PL;ACT;PST,² œ p n a d ɛ,² œ p n a d ɛ
+öppna,V;SBJV;PASS;PST,² œ p n a d eː s,² œ p n ɛ s
+skicka,V;NFIN;ACT,ɧ ɪ kː a,ɧ ɪ kː a
+skicka,V;V.CVB;ACT,ɧ ɪ k a t,ɧ ɪ k a t
+skicka,V;IND;SG;ACT;PRS,ɧ ɪ k a r,k l a r
+skicka,V;IND;PL;ACT;PRS,ɧ ɪ kː a,² b ɛ j a
+skicka,V;IND;PL;PASS;PRS,ɧ ɪ k a s,ɧ ɪ k a s
+samla,V;V.CVB;PASS,s a m l a t s,s k a t s
+samla,V;IND;SG;ACT;PRS,² s a m l a r,f ɪ nː ɛ r
+samla,V;IND;SG;PASS;PRS,² s a m l a s,² a n s
+samla,V;IND;PL;PASS;PRS,² s a m l a s,² s øː k a s
+samla,V;V.PTCP;PRS,² s a m l a n d ɛ,² s k a n d ɛ
+studera,V;NFIN;PASS,s t ʉː d eː r a s,s t ɵ d eː r a s
+studera,V;IND;SG;PASS;PST,s t ʉː d ɛ r a d eː s,s t ʉː d eː r a d eː s
+studera,V;IND;PL;ACT;PRS,s t ɵ d eː r a,s t ʉː d eː r a
+studera,V;IND;PL;ACT;PST,s t ʉː d ɛ r ɑː d ɛ,s t ʉː d eː r a
+säga,V;IND;PL;PASS;PRS,² s ɛː ɡ a s,² s ɛː ɡ a s
+säga,V;IND;PL;PASS;PST,s ɑː d ɛ,s ɑː d ɛ
+säga,V;SBJV;ACT;PST,s ɑː d ɛ,² b oː d ɛ
+ligga,V;V.CVB;PASS,l eː ɡ ɑː t s,k r ɛ v t s
+ligga,V;IMP;ACT,l ɪ ɡ,b l iː v
+ligga,V;IND;SG;ACT;PST,l oː ɡ,f øː r ɛ t uː ɡ
+ligga,V;IND;PL;ACT;PST,l oː ɡ ʊ,l oː ɡ ʊ
+sitta,V;IND;SG;PASS;PRS,² s ɪ t ɛ s,s ɪ t s
+sitta,V;IND;SG;PASS;PST,s a t s,t uː ɡ s
+sitta,V;IMP;ACT,s ɪ t,² b l iː v
+sitta,V;IND;SG;PASS;PRS,² s ɪ t ɛ s,s ɪ t s
+sitta,V;IND;PL;PASS;PST,s oː t ʊ s,s ɵ t ʊ s
+sitta,V;SBJV;ACT;PST,² s oː t ɛ,² f øː r ɛ t uː ɡ ɛ
+fungera,V;V.CVB;ACT,f ɵ ŋ ɛ r ɑː t,f ɵ ŋ eː r a
+fungera,V;SBJV;ACT;PRS,² f ɵ ŋ eː r ɛ,t ɑː ɧ ɛ
+följa,V;IND;SG;PASS;PRS,f œ l j ɛ s,f œ l j s
+följa,V;IND;SG;PASS;PST,f œ l j d ɛ s,² f œ l j d ɛ s
+erbjuda,V;SBJV;ACT;PST,ɛ r b j øː d ɛ,ɛ r b j ʉː d ɛ r ɑː d ɛ
+klara,V;IND;SG;ACT;PST,k l ɑː r a d ɛ,k l ɑː r a d ɛ
+klara,V;IND;SG;PASS;PRS,k l ɑː r a s,b eː d j eː s
+klara,V;IND;PL;ACT;PST,k l ɑː r a d ɛ,k l ɑː r a d ɛ
+klara,V;IND;PL;PASS;PRS,k l ɑː r a s,k l ɑː r a s
+klara,V;SBJV;ACT;PRS,k l ɑː r ɛ,k l ɑː r a
+diskutera,V;NFIN;ACT,d ɪ s k ɵ t eː r a,d ɪ s k ʉː t eː r a
+diskutera,V;V.CVB;PASS,d ɪ s k ʉː t ɛ r ɑː t s,² s t a t s
+diskutera,V;IND;SG;PASS;PRS,d ɪ s k ɵ t eː r a s,d ɪ s k ʉː t eː r a s
+diskutera,V;IND;PL;ACT;PST,d ɪ s k ʉː t ɛ r ɑː d ɛ,b l eː v ʊ
+diskutera,V;SBJV;PASS;PRS,d ɪ s k ʉː t eː r eː s,d ɪ s k ɵ t eː r a s
+anse,V;V.CVB;ACT,a n s ɛ t,a n s ɛ t a j iː t
+anse,V;IND;SG;ACT;PST,a n s oː ɡ,a n s ɛ r
+anse,V;IND;SG;PASS;PRS,a n s eː s,² a n s
+anse,V;IND;PL;ACT;PST,oː n s oː ɡ ʊ,b l eː v ʊ
+anse,V;SBJV;PASS;PST,² oː n s oː ɡ ɛ s,a n s eː s
+fortsätta,V;IND;SG;PASS;PRS,f ɔ r t s ɛ t ɛ s,f ɔ r t s ɛ t s
+finna,V;V.CVB;PASS,f ɵ n ɪ t s,t a j ɪ t s
+finna,V;SBJV;ACT;PST,² f ɵ nː ɛ,f ɵ nː ɛ
+kräva,V;NFIN;PASS,k r ɛː v a s,k r ɛ v t s
+kräva,V;IND;PL;PASS;PRS,k r ɛː v a s,k r ɛː v a s
+kräva,V;SBJV;ACT;PRS,² k r ɛː v ɛ,j iː v ɛ
+taga,V;NFIN;PASS,t ɑː ɡ a s,t ɑː ɡ a s
+taga,V;V.CVB;ACT,t a j iː t,t a j iː t
+taga,V;SBJV;PASS;PRS,t ɑː ɧ ɛ s,² l iː t ɛ s
+innebära,V;SBJV;ACT;PST,ɪ nː ɛ b ʉː r ɛ,ɪ nː ɛ b ɛː r ɛ
+innebära,V;V.PTCP;PRS,ɪ nː ɛ b ɛː r a n d ɛ,² b l iː v a n d ɛ
+börja,V;IND;SG;PASS;PRS,² b œ r j a s,s ɪ t s
+börja,V;IND;PL;ACT;PRS,² b œ r j a,² b œ r j a r
+bygga,V;NFIN;PASS,² b ʏ ɡː a s,b ʏ ɡ t s
+bygga,V;IND;SG;PASS;PRS,² b ʏ ɡ ɛ s,t ʏ k s
+bygga,V;IND;SG;PASS;PST,b ʏ ɡ d ɛ s,² b ʏ ɡ d ɛ s
+bygga,V;IND;PL;ACT;PST,² b ʏ ɡ d ɛ,b ʏ ɡ d ɛ
+bygga,V;SBJV;PASS;PST,b ʏ ɡ d ɛ s,² b oː d ɛ s
