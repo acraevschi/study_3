@@ -1,0 +1,66 @@
+# ---------------------------------------------------------------------------
+# study_3 — PhD Study 3: morphological complexity vs. speaker demography
+#
+# Rule of thumb: everything needed to REPRODUCE the analysis is committed.
+# What is excluded is either (a) too large for git, (b) mechanically
+# regenerable from what is committed, or (c) re-downloadable from a cited
+# source. README.md §Data says which is which for every excluded path.
+# ---------------------------------------------------------------------------
+
+# --- MGN benchmark (Guzman Naranjo 2024), ~8.7 GB upstream repo -------------
+# Only the four files the pipeline reads are committed (see the negations).
+mgn_data/*
+!mgn_data/results-final/
+mgn_data/results-final/*
+!mgn_data/results-final/all-accuracies.csv
+!mgn_data/results-final/compressed-lang-pairs-v.csv.gz
+!mgn_data/results-final/compressed-lang-pairs-n.csv
+!mgn_data/results-final/compressed-lang-pairs-adj.csv.gz
+
+# --- CorA-ReN Middle Low German corpus, 694 MB ------------------------------
+# CC BY 4.0 but far too large for git. scripts/fetch_cora_ren.sh retrieves it;
+# germanic/extracted_verbs.csv (the only thing we derive from it) IS committed.
+germanic/cora_ren_xml_1.1/
+
+# --- Demographic sources ----------------------------------------------------
+# data.Rdata is 11 MB and auto-downloads; bromham_extracted.csv, the 388 KB
+# extract the pipeline actually uses, is committed instead.
+data_sources/data.Rdata
+
+# --- Generated: too large for git -------------------------------------------
+# brms fits are ~163 MB each, over GitHub's 100 MB per-file limit.
+fits/*.rds
+# The uncompressed modelling dataset is 46 MB; the 3 MB .gz is committed.
+mgn_modeling_dataset.csv
+# Sampler run logs: chain-by-chain console output. What matters from a run is in
+# results/*.csv, which is committed.
+results/*.log
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.venv/
+venv/
+
+# --- R ----------------------------------------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
+
+# --- Stan / cmdstanr build artefacts ----------------------------------------
+*.stan
+*.hpp
+*.o
+
+# --- Editor / OS ------------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# --- Agents artifacts -------------------------------------------------------
+.agents/

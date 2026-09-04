@@ -1,5 +1,6 @@
-import os
 import csv
+import os
+from pathlib import Path
 from tqdm import tqdm
 import xml.etree.ElementTree as ET
 
@@ -48,7 +49,9 @@ def extract_mlg_verbs(input_dir, output_csv):
         )
 
         # Iterate through all XML files in the directory
-        for filename in tqdm(os.listdir(input_dir), desc="Processing files"):
+        # sorted() so the output row order is reproducible: os.listdir returns
+        # directory order, which changes if the corpus is copied or moved.
+        for filename in tqdm(sorted(os.listdir(input_dir)), desc="Processing files"):
             if filename.endswith(".xml"):
                 file_path = os.path.join(input_dir, filename)
 
@@ -143,4 +146,11 @@ def extract_mlg_verbs(input_dir, output_csv):
     print(f"Extraction complete! Verbs saved to {output_csv}")
 
 
-# extract_mlg_verbs("CorA-ReN-XML_1.1/ReN_anno_2021-01-06", "extracted_verbs.csv")
+if __name__ == "__main__":
+    # Middle Low German verb tokens from the annotated CorA-ReN XML corpus.
+    # Run from the repository root:  python3 src/low_german_extraction.py
+    project_root = Path(__file__).resolve().parent.parent
+    extract_mlg_verbs(
+        project_root / "germanic" / "cora_ren_xml_1.1" / "ReN_anno_2021-01-06",
+        project_root / "germanic" / "extracted_verbs.csv",
+    )

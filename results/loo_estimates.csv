@@ -1,0 +1,7 @@
+"model","statistic","Estimate","SE","bad_pareto_k"
+"Minimal","elpd_loo",-23803.3219351999,93.4101964751006,0
+"Minimal","p_loo",90.2547392322133,6.6220696740136,0
+"Minimal","looic",47606.6438703997,186.820392950201,0
+"Comprehensive","elpd_loo",-23803.6540635646,93.3672776724516,0
+"Comprehensive","p_loo",90.5493094582874,6.60575173650093,0
+"Comprehensive","looic",47607.3081271291,186.734555344903,0

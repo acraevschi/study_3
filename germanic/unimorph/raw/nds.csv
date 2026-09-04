@@ -1,0 +1,3925 @@
+lemma,form,paradigm_slot
+dünken,dünken,V;NFIN
+dünken,dünk,V;IND;SG;1;PRS
+dünken,düch,V;IND;SG;1;PST
+dünken,düchst,V;IND;SG;2;PRS
+dünken,dünkst,V;IND;SG;2;PRS
+dünken,düchst,V;IND;SG;2;PST
+dünken,dücht,V;IND;SG;3;PRS
+dünken,dünkt,V;IND;SG;3;PRS
+dünken,düch,V;IND;SG;3;PST
+dünken,dünkt,V;IND;PL;PRS
+dünken,düchen,V;IND;PL;PST
+dünken,dünk,V;IMP;SG;PRS
+dünken,dünkt,V;IMP;PL;PRS
+bögen,bögen,V;NFIN
+bögen,böög,V;IND;SG;1;PRS
+bögen,boog,V;IND;SG;1;PST
+bögen,böögst,V;IND;SG;2;PRS
+bögen,boogst,V;IND;SG;2;PST
+bögen,böögt,V;IND;SG;3;PRS
+bögen,boog,V;IND;SG;3;PST
+bögen,böögt,V;IND;PL;PRS
+bögen,böögen,V;IND;PL;PRS
+bögen,bogen,V;IND;PL;PST
+bögen,böög,V;IMP;SG;PRS
+bögen,böögt,V;IMP;PL;PRS
+bargen,bargen,V;NFIN
+bargen,barg,V;IND;SG;1;PRS
+bargen,barg,V;IND;SG;1;PST
+bargen,bargst,V;IND;SG;2;PRS
+bargen,bargst,V;IND;SG;2;PST
+bargen,bargt,V;IND;SG;3;PRS
+bargen,barg,V;IND;SG;3;PST
+bargen,bargt,V;IND;PL;PRS
+bargen,bargen,V;IND;PL;PRS
+bargen,bargen,V;IND;PL;PST
+bargen,barge,V;IMP;SG;PRS
+bargen,bargt,V;IMP;PL;PRS
+bargen,barg,V;IMP;SG;PRS
+geelsnacken,geelsnacken,V;NFIN
+geelsnacken,snack geel,V;IND;SG;1;PRS
+geelsnacken,snack geel,V;IND;SG;1;PST
+geelsnacken,geelsnack,V;IND;SG;1;PRS;LGSPEC02
+geelsnacken,geelsnack,V;IND;SG;1;PST;LGSPEC02
+geelsnacken,snackst geel,V;IND;SG;2;PRS
+geelsnacken,snackst geel,V;IND;SG;2;PST
+geelsnacken,geelsnackst,V;IND;SG;2;PRS;LGSPEC02
+geelsnacken,geelsnackst,V;IND;SG;2;PST;LGSPEC02
+geelsnacken,snackt geel,V;IND;SG;3;PRS
+geelsnacken,snack geel,V;IND;SG;3;PST
+geelsnacken,geelsnackt,V;IND;SG;3;PRS;LGSPEC02
+geelsnacken,geelsnack,V;IND;SG;3;PST;LGSPEC02
+geelsnacken,snackt geel,V;IND;PL;PRS
+geelsnacken,snacken geel,V;IND;PL;PST
+geelsnacken,geelsnackt,V;IND;PL;PRS;LGSPEC02
+geelsnacken,geelsnacken,V;IND;PL;PST;LGSPEC02
+geelsnacken,snack geel,V;IMP;SG;PRS
+geelsnacken,snackt geel,V;IMP;PL;PRS
+verkrunkeln,verkrunkeln,V;NFIN
+verkrunkeln,verkrunkel,V;IND;SG;1;PRS
+verkrunkeln,verkrunkel,V;IND;SG;1;PST
+verkrunkeln,verkrunkelst,V;IND;SG;2;PRS
+verkrunkeln,verkrunkelst,V;IND;SG;2;PST
+verkrunkeln,verkrunkelt,V;IND;SG;3;PRS
+verkrunkeln,verkrunkel,V;IND;SG;3;PST
+verkrunkeln,verkrunkelt,V;IND;PL;PRS
+verkrunkeln,verkrunkeln,V;IND;PL;PST
+verkrunkeln,verkrunkel,V;IMP;SG;PRS
+verkrunkeln,verkrunkelt,V;IMP;PL;PRS
+knudeln,knudeln,V;NFIN
+knudeln,knudel,V;IND;SG;1;PRS
+knudeln,knudel,V;IND;SG;1;PST
+knudeln,knudelst,V;IND;SG;2;PRS
+knudeln,knudelst,V;IND;SG;2;PST
+knudeln,knudelt,V;IND;SG;3;PRS
+knudeln,knudel,V;IND;SG;3;PST
+knudeln,knudelt,V;IND;PL;PRS
+knudeln,knudelen,V;IND;PL;PRS
+knudeln,knudelen,V;IND;PL;PST
+knudeln,knudele,V;IMP;SG;PRS
+knudeln,knudelt,V;IMP;PL;PRS
+anwrümmeln,anwrümmeln,V;NFIN
+anwrümmeln,wrümmel an,V;IND;SG;1;PRS
+anwrümmeln,wrümmel an,V;IND;SG;1;PST
+anwrümmeln,anwrümmel,V;IND;SG;1;PRS;LGSPEC02
+anwrümmeln,anwrümmel,V;IND;SG;1;PST;LGSPEC02
+anwrümmeln,wrümmelst an,V;IND;SG;2;PRS
+anwrümmeln,wrümmelst an,V;IND;SG;2;PST
+anwrümmeln,anwrümmelst,V;IND;SG;2;PRS;LGSPEC02
+anwrümmeln,anwrümmelst,V;IND;SG;2;PST;LGSPEC02
+anwrümmeln,wrümmelt an,V;IND;SG;3;PRS
+anwrümmeln,wrümmel an,V;IND;SG;3;PST
+anwrümmeln,anwrümmelt,V;IND;SG;3;PRS;LGSPEC02
+anwrümmeln,anwrümmel,V;IND;SG;3;PST;LGSPEC02
+anwrümmeln,wrümmelt an,V;IND;PL;PRS
+anwrümmeln,wrümmeln an,V;IND;PL;PST
+anwrümmeln,anwrümmelt,V;IND;PL;PRS;LGSPEC02
+anwrümmeln,anwrümmeln,V;IND;PL;PST;LGSPEC02
+anwrümmeln,wrümmel an,V;IMP;SG;PRS
+anwrümmeln,wrümmelt an,V;IMP;PL;PRS
+uteneenfallen,uteneenfallen,V;NFIN
+uteneenfallen,fall uteneen,V;IND;SG;1;PRS
+uteneenfallen,full uteneen,V;IND;SG;1;PST
+uteneenfallen,uteneenfall,V;IND;SG;1;PRS;LGSPEC02
+uteneenfallen,uteneenfull,V;IND;SG;1;PST;LGSPEC02
+uteneenfallen,fallst uteneen,V;IND;SG;2;PRS
+uteneenfallen,fullst uteneen,V;IND;SG;2;PST
+uteneenfallen,uteneenfallst,V;IND;SG;2;PRS;LGSPEC02
+uteneenfallen,uteneenfullst,V;IND;SG;2;PST;LGSPEC02
+uteneenfallen,fallt uteneen,V;IND;SG;3;PRS
+uteneenfallen,full uteneen,V;IND;SG;3;PST
+uteneenfallen,uteneenfallt,V;IND;SG;3;PRS;LGSPEC02
+uteneenfallen,uteneenfull,V;IND;SG;3;PST;LGSPEC02
+uteneenfallen,fallt uteneen,V;IND;PL;PRS
+uteneenfallen,fullen uteneen,V;IND;PL;PST
+uteneenfallen,uteneenfallt,V;IND;PL;PRS;LGSPEC02
+uteneenfallen,uteneenfullen,V;IND;PL;PST;LGSPEC02
+uteneenfallen,fall uteneen,V;IMP;SG;PRS
+uteneenfallen,fallt uteneen,V;IMP;PL;PRS
+wriwen,wriwen,V;NFIN
+wriwen,wriw,V;IND;SG;1;PRS
+wriwen,wreew,V;IND;SG;1;PST
+wriwen,riffst,V;IND;SG;2;PRS
+wriwen,wreewst,V;IND;SG;2;PST
+wriwen,rifft,V;IND;SG;3;PRS
+wriwen,wreew,V;IND;SG;3;PST
+wriwen,wriwt,V;IND;PL;PRS
+wriwen,wriwen,V;IND;PL;PRS
+wriwen,rewen,V;IND;PL;PST
+wriwen,wriw,V;IMP;SG;PRS
+wriwen,wriwt,V;IMP;PL;PRS
+drapen,drapen,V;NFIN
+drapen,draap,V;IND;SG;1;PRS
+drapen,droop,V;IND;SG;1;PST
+drapen,dröppst,V;IND;SG;2;PRS
+drapen,droopst,V;IND;SG;2;PST
+drapen,dröppt,V;IND;SG;3;PRS
+drapen,droop,V;IND;SG;3;PST
+drapen,draapt,V;IND;PL;PRS
+drapen,draapen,V;IND;PL;PRS
+drapen,dropen,V;IND;PL;PST
+drapen,draap,V;IMP;SG;PRS
+drapen,draapt,V;IMP;PL;PRS
+luustern,luustern,V;NFIN
+luustern,luuster,V;IND;SG;1;PRS
+luustern,luuster,V;IND;SG;1;PST
+luustern,luusterst,V;IND;SG;2;PRS
+luustern,luusterst,V;IND;SG;2;PST
+luustern,luustert,V;IND;SG;3;PRS
+luustern,luuster,V;IND;SG;3;PST
+luustern,luustert,V;IND;PL;PRS
+luustern,luustern,V;IND;PL;PST
+luustern,luuster,V;IMP;SG;PRS
+luustern,luustert,V;IMP;PL;PRS
+lippen,lippen,V;NFIN
+lippen,lipp,V;IND;SG;1;PRS
+lippen,lipp,V;IND;SG;1;PST
+lippen,lippst,V;IND;SG;2;PRS
+lippen,lippst,V;IND;SG;2;PST
+lippen,lippt,V;IND;SG;3;PRS
+lippen,lipp,V;IND;SG;3;PST
+lippen,lippt,V;IND;PL;PRS
+lippen,lippen,V;IND;PL;PRS
+lippen,lippen,V;IND;PL;PST
+lippen,lippe,V;IMP;SG;PRS
+lippen,lippt,V;IMP;PL;PRS
+vergadern,vergadern,V;NFIN
+vergadern,vergader,V;IND;SG;1;PRS
+vergadern,vergader,V;IND;SG;1;PST
+vergadern,vergaderst,V;IND;SG;2;PRS
+vergadern,vergaderst,V;IND;SG;2;PST
+vergadern,vergadert,V;IND;SG;3;PRS
+vergadern,vergader,V;IND;SG;3;PST
+vergadern,vergadert,V;IND;PL;PRS
+vergadern,vergadern,V;IND;PL;PST
+vergadern,vergader,V;IMP;SG;PRS
+vergadern,vergadert,V;IMP;PL;PRS
+dwingen,dwingen,V;NFIN
+dwingen,dwing,V;IND;SG;1;PRS
+dwingen,dwung,V;IND;SG;1;PST
+dwingen,dwingst,V;IND;SG;2;PRS
+dwingen,dwungst,V;IND;SG;2;PST
+dwingen,dwingt,V;IND;SG;3;PRS
+dwingen,dwung,V;IND;SG;3;PST
+dwingen,dwingt,V;IND;PL;PRS
+dwingen,dwingen,V;IND;PL;PRS
+dwingen,dwungen,V;IND;PL;PST
+dwingen,dwing,V;IMP;SG;PRS
+dwingen,dwingt,V;IMP;PL;PRS
+rüken,rüken,V;NFIN
+rüken,rüük,V;IND;SG;1;PRS
+rüken,rook,V;IND;SG;1;PST
+rüken,rück-,V;IND;SG;2;PRS
+rüken,rüükst,V;IND;SG;2;PRS
+rüken,rookst,V;IND;SG;2;PST
+rüken,rück-,V;IND;SG;3;PRS
+rüken,rüükt,V;IND;SG;3;PRS
+rüken,rook,V;IND;SG;3;PST
+rüken,rüükt,V;IND;PL;PRS
+rüken,rüüken,V;IND;PL;PRS
+rüken,roken,V;IND;PL;PST
+rüken,rüük,V;IMP;SG;PRS
+rüken,rüükt,V;IMP;PL;PRS
+wanken,wanken,V;NFIN
+wanken,wank,V;IND;SG;1;PRS
+wanken,wank,V;IND;SG;1;PST
+wanken,wankst,V;IND;SG;2;PRS
+wanken,wankst,V;IND;SG;2;PST
+wanken,wankt,V;IND;SG;3;PRS
+wanken,wank,V;IND;SG;3;PST
+wanken,wankt,V;IND;PL;PRS
+wanken,wanken,V;IND;PL;PRS
+wanken,wanken,V;IND;PL;PST
+wanken,wanke,V;IMP;SG;PRS
+wanken,wankt,V;IMP;PL;PRS
+nakamen,nakamen,V;NFIN
+nakamen,kaam na,V;IND;SG;1;PRS
+nakamen,keem na,V;IND;SG;1;PST
+nakamen,nakaam,V;IND;SG;1;PRS;LGSPEC02
+nakamen,nakeem,V;IND;SG;1;PST;LGSPEC02
+nakamen,kümmst na,V;IND;SG;2;PRS
+nakamen,keemst na,V;IND;SG;2;PST
+nakamen,nakümmst,V;IND;SG;2;PRS;LGSPEC02
+nakamen,nakeemst,V;IND;SG;2;PST;LGSPEC02
+nakamen,kümmt na,V;IND;SG;3;PRS
+nakamen,keem na,V;IND;SG;3;PST
+nakamen,nakümmt,V;IND;SG;3;PRS;LGSPEC02
+nakamen,nakeem,V;IND;SG;3;PST;LGSPEC02
+nakamen,kaamt na,V;IND;PL;PRS
+nakamen,kemen na,V;IND;PL;PST
+nakamen,nakaamt,V;IND;PL;PRS;LGSPEC02
+nakamen,nakemen,V;IND;PL;PST;LGSPEC02
+nakamen,kaam na,V;IMP;SG;PRS
+nakamen,kaamt na,V;IMP;PL;PRS
+tokamen,tokamen,V;NFIN
+tokamen,kaam to,V;IND;SG;1;PRS
+tokamen,keem to,V;IND;SG;1;PST
+tokamen,tokaam,V;IND;SG;1;PRS;LGSPEC02
+tokamen,tokeem,V;IND;SG;1;PST;LGSPEC02
+tokamen,kümmst to,V;IND;SG;2;PRS
+tokamen,keemst to,V;IND;SG;2;PST
+tokamen,tokümmst,V;IND;SG;2;PRS;LGSPEC02
+tokamen,tokeemst,V;IND;SG;2;PST;LGSPEC02
+tokamen,kümmt to,V;IND;SG;3;PRS
+tokamen,keem to,V;IND;SG;3;PST
+tokamen,tokümmt,V;IND;SG;3;PRS;LGSPEC02
+tokamen,tokeem,V;IND;SG;3;PST;LGSPEC02
+tokamen,kaamt to,V;IND;PL;PRS
+tokamen,kemen to,V;IND;PL;PST
+tokamen,tokaamt,V;IND;PL;PRS;LGSPEC02
+tokamen,tokemen,V;IND;PL;PST;LGSPEC02
+tokamen,kaam to,V;IMP;SG;PRS
+tokamen,kaamt to,V;IMP;PL;PRS
+doon,doon,V;NFIN
+doon,do,V;IND;SG;1;PRS
+doon,dee,V;IND;SG;1;PST
+doon,deist,V;IND;SG;2;PRS
+doon,deest,V;IND;SG;2;PST
+doon,deit,V;IND;SG;3;PRS
+doon,dee,V;IND;SG;3;PST
+doon,doot,V;IND;PL;PRS
+doon,deen,V;IND;PL;PST
+doon,do,V;IMP;SG;PRS
+doon,doot,V;IMP;PL;PRS
+dröven,dröven,V;NFIN
+dröven,dröff,V;IND;SG;1;PRS
+dröven,dröff,V;IND;SG;1;PST
+dröven,dröffst,V;IND;SG;2;PRS
+dröven,dröffst,V;IND;SG;2;PST
+dröven,dröff,V;IND;SG;3;PRS
+dröven,dröff,V;IND;SG;3;PST
+dröven,dröövt,V;IND;PL;PRS
+dröven,dröffen,V;IND;PL;PST
+dröven,dröff,V;IMP;SG;PRS
+dröven,dröövt,V;IMP;PL;PRS
+bugen,bugen,V;NFIN
+bugen,buug,V;IND;SG;1;PRS
+bugen,boog,V;IND;SG;1;PST
+bugen,büggst,V;IND;SG;2;PRS
+bugen,boogst,V;IND;SG;2;PST
+bugen,büggt,V;IND;SG;3;PRS
+bugen,boog,V;IND;SG;3;PST
+bugen,buugt,V;IND;PL;PRS
+bugen,buugen,V;IND;PL;PRS
+bugen,bogen,V;IND;PL;PST
+bugen,buug,V;IMP;SG;PRS
+bugen,buugt,V;IMP;PL;PRS
+impen,impen,V;NFIN
+impen,imp,V;IND;SG;1;PRS
+impen,imp,V;IND;SG;1;PST
+impen,impst,V;IND;SG;2;PRS
+impen,impst,V;IND;SG;2;PST
+impen,impt,V;IND;SG;3;PRS
+impen,imp,V;IND;SG;3;PST
+impen,impt,V;IND;PL;PRS
+impen,impen,V;IND;PL;PRS
+impen,impen,V;IND;PL;PST
+impen,impe,V;IMP;SG;PRS
+impen,impt,V;IMP;PL;PRS
+scheten,scheten,V;NFIN
+scheten,scheet,V;IND;SG;1;PRS
+scheten,schoot,V;IND;SG;1;PST
+scheten,schüttst,V;IND;SG;2;PRS
+scheten,schootst,V;IND;SG;2;PST
+scheten,schütt,V;IND;SG;3;PRS
+scheten,schoot,V;IND;SG;3;PST
+scheten,scheet,V;IND;PL;PRS
+scheten,schoten,V;IND;PL;PST
+scheten,scheet,V;IMP;SG;PRS
+scheten,scheet,V;IMP;PL;PRS
+swinneln,swinneln,V;NFIN
+swinneln,swinnel,V;IND;SG;1;PRS
+swinneln,swinnel,V;IND;SG;1;PST
+swinneln,swinnelst,V;IND;SG;2;PRS
+swinneln,swinnelst,V;IND;SG;2;PST
+swinneln,swinnelt,V;IND;SG;3;PRS
+swinneln,swinnel,V;IND;SG;3;PST
+swinneln,swinnelt,V;IND;PL;PRS
+swinneln,swinneln,V;IND;PL;PST
+swinneln,swinnel,V;IMP;SG;PRS
+swinneln,swinnelt,V;IMP;PL;PRS
+sehn,sehn,V;NFIN
+sehn,seh,V;IND;SG;1;PRS
+sehn,seeg,V;IND;SG;1;PST
+sehn,sühst,V;IND;SG;2;PRS
+sehn,seegst,V;IND;SG;2;PST
+sehn,süht,V;IND;SG;3;PRS
+sehn,seeg,V;IND;SG;3;PST
+sehn,seht,V;IND;PL;PRS
+sehn,sehen,V;IND;PL;PRS
+sehn,segen,V;IND;PL;PST
+sehn,seh,V;IMP;SG;PRS
+sehn,seht,V;IMP;PL;PRS
+maken,maken,V;NFIN
+maken,maak,V;IND;SG;1;PRS
+maken,möök,V;IND;SG;1;PST
+maken,maakst,V;IND;SG;2;PRS
+maken,möökst,V;IND;SG;2;PST
+maken,maakt,V;IND;SG;3;PRS
+maken,möök,V;IND;SG;3;PST
+maken,maakt,V;IND;PL;PRS
+maken,maaken,V;IND;PL;PRS
+maken,möken,V;IND;PL;PST
+maken,maake,V;IMP;SG;PRS
+maken,maakt,V;IMP;PL;PRS
+maken,maak,V;IND;SG;1;PST
+maken,maakst,V;IND;SG;2;PST
+maken,maak,V;IND;SG;3;PST
+maken,maken,V;IND;PL;PST
+wählen,wählen,V;NFIN
+wählen,wähl,V;IND;SG;1;PRS
+wählen,wähl,V;IND;SG;1;PST
+wählen,wählst,V;IND;SG;2;PRS
+wählen,wählst,V;IND;SG;2;PST
+wählen,wählt,V;IND;SG;3;PRS
+wählen,wähl,V;IND;SG;3;PST
+wählen,wählt,V;IND;PL;PRS
+wählen,wählen,V;IND;PL;PRS
+wählen,wählen,V;IND;PL;PST
+wählen,wähle,V;IMP;SG;PRS
+wählen,wählt,V;IMP;PL;PRS
+wreilen,wreilen,V;NFIN
+wreilen,wreil,V;IND;SG;1;PRS
+wreilen,wreil,V;IND;SG;1;PST
+wreilen,wreilst,V;IND;SG;2;PRS
+wreilen,wreilst,V;IND;SG;2;PST
+wreilen,wreilt,V;IND;SG;3;PRS
+wreilen,wreil,V;IND;SG;3;PST
+wreilen,wreilt,V;IND;PL;PRS
+wreilen,wreilen,V;IND;PL;PRS
+wreilen,wreilen,V;IND;PL;PST
+wreilen,wreile,V;IMP;SG;PRS
+wreilen,wreilt,V;IMP;PL;PRS
+krepen,krepen,V;NFIN
+krepen,kreep,V;IND;SG;1;PRS
+krepen,kreep,V;IND;SG;1;PST
+krepen,krippst,V;IND;SG;2;PRS
+krepen,kreepst,V;IND;SG;2;PST
+krepen,krippt,V;IND;SG;3;PRS
+krepen,kreep,V;IND;SG;3;PST
+krepen,kreept,V;IND;PL;PRS
+krepen,kreepen,V;IND;PL;PRS
+krepen,krepen,V;IND;PL;PST
+krepen,kreep,V;IMP;SG;PRS
+krepen,kreept,V;IMP;PL;PRS
+dootgahn,dootgahn,V;NFIN
+dootgahn,gah doot,V;IND;SG;1;PRS
+dootgahn,güng doot,V;IND;SG;1;PST
+dootgahn,dootgah,V;IND;SG;1;PRS;LGSPEC02
+dootgahn,dootgüng,V;IND;SG;1;PST;LGSPEC02
+dootgahn,geihst doot,V;IND;SG;2;PRS
+dootgahn,güngst doot,V;IND;SG;2;PST
+dootgahn,dootgeihst,V;IND;SG;2;PRS;LGSPEC02
+dootgahn,dootgüngst,V;IND;SG;2;PST;LGSPEC02
+dootgahn,geiht doot,V;IND;SG;3;PRS
+dootgahn,güng doot,V;IND;SG;3;PST
+dootgahn,dootgeiht,V;IND;SG;3;PRS;LGSPEC02
+dootgahn,dootgüng,V;IND;SG;3;PST;LGSPEC02
+dootgahn,gaht doot,V;IND;PL;PRS
+dootgahn,güngen doot,V;IND;PL;PST
+dootgahn,dootgaht,V;IND;PL;PRS;LGSPEC02
+dootgahn,dootgüngen,V;IND;PL;PST;LGSPEC02
+dootgahn,gah doot,V;IMP;SG;PRS
+dootgahn,gaht doot,V;IMP;PL;PRS
+seggen,seggen,V;NFIN
+seggen,segg,V;IND;SG;1;PRS
+seggen,sä,V;IND;SG;1;PST
+seggen,seggst,V;IND;SG;2;PRS
+seggen,sääst,V;IND;SG;2;PST
+seggen,seggt,V;IND;SG;3;PRS
+seggen,sä,V;IND;SG;3;PST
+seggen,seggt,V;IND;PL;PRS
+seggen,sään,V;IND;PL;PST
+seggen,segg,V;IMP;SG;PRS
+seggen,seggt,V;IMP;PL;PRS
+wrackeln,wrackeln,V;NFIN
+wrackeln,wrackel,V;IND;SG;1;PRS
+wrackeln,wrackel,V;IND;SG;1;PST
+wrackeln,wrackelst,V;IND;SG;2;PRS
+wrackeln,wrackelst,V;IND;SG;2;PST
+wrackeln,wrackelt,V;IND;SG;3;PRS
+wrackeln,wrackel,V;IND;SG;3;PST
+wrackeln,wrackelt,V;IND;PL;PRS
+wrackeln,wrackeln,V;IND;PL;PST
+wrackeln,wrackel,V;IMP;SG;PRS
+wrackeln,wrackelt,V;IMP;PL;PRS
+wrümmeln,wrümmeln,V;NFIN
+wrümmeln,wrümmel,V;IND;SG;1;PRS
+wrümmeln,wrümmel,V;IND;SG;1;PST
+wrümmeln,wrümmelst,V;IND;SG;2;PRS
+wrümmeln,wrümmelst,V;IND;SG;2;PST
+wrümmeln,wrümmelt,V;IND;SG;3;PRS
+wrümmeln,wrümmel,V;IND;SG;3;PST
+wrümmeln,wrümmelt,V;IND;PL;PRS
+wrümmeln,wrümmeln,V;IND;PL;PST
+wrümmeln,wrümmel,V;IMP;SG;PRS
+wrümmeln,wrümmelt,V;IMP;PL;PRS
+dootföhren,dootföhren,V;NFIN
+dootföhren,föhr doot,V;IND;SG;1;PRS
+dootföhren,föhr doot,V;IND;SG;1;PST
+dootföhren,dootföhr,V;IND;SG;1;PRS;LGSPEC02
+dootföhren,dootföhr,V;IND;SG;1;PST;LGSPEC02
+dootföhren,föhrst doot,V;IND;SG;2;PRS
+dootföhren,föhrst doot,V;IND;SG;2;PST
+dootföhren,dootföhrst,V;IND;SG;2;PRS;LGSPEC02
+dootföhren,dootföhrst,V;IND;SG;2;PST;LGSPEC02
+dootföhren,föhrt doot,V;IND;SG;3;PRS
+dootföhren,föhr doot,V;IND;SG;3;PST
+dootföhren,dootföhrt,V;IND;SG;3;PRS;LGSPEC02
+dootföhren,dootföhr,V;IND;SG;3;PST;LGSPEC02
+dootföhren,föhrt doot,V;IND;PL;PRS
+dootföhren,föhren doot,V;IND;PL;PST
+dootföhren,dootföhrt,V;IND;PL;PRS;LGSPEC02
+dootföhren,dootföhren,V;IND;PL;PST;LGSPEC02
+dootföhren,föhr doot,V;IMP;SG;PRS
+dootföhren,föhrt doot,V;IMP;PL;PRS
+wrangen,wrangen,V;NFIN
+wrangen,wrang,V;IND;SG;1;PRS
+wrangen,wrang,V;IND;SG;1;PST
+wrangen,wrangst,V;IND;SG;2;PRS
+wrangen,wrangst,V;IND;SG;2;PST
+wrangen,wrangt,V;IND;SG;3;PRS
+wrangen,wrang,V;IND;SG;3;PST
+wrangen,wrangt,V;IND;PL;PRS
+wrangen,wrangen,V;IND;PL;PRS
+wrangen,wrangen,V;IND;PL;PST
+wrangen,wrange,V;IMP;SG;PRS
+wrangen,wrangt,V;IMP;PL;PRS
+dootlopen,dootlopen,V;NFIN
+dootlopen,loop doot,V;IND;SG;1;PRS
+dootlopen,leep doot,V;IND;SG;1;PST
+dootlopen,dootloop,V;IND;SG;1;PRS;LGSPEC02
+dootlopen,dootleep,V;IND;SG;1;PST;LGSPEC02
+dootlopen,löppst doot,V;IND;SG;2;PRS
+dootlopen,leepst doot,V;IND;SG;2;PST
+dootlopen,dootlöppst,V;IND;SG;2;PRS;LGSPEC02
+dootlopen,dootleepst,V;IND;SG;2;PST;LGSPEC02
+dootlopen,löppt doot,V;IND;SG;3;PRS
+dootlopen,leep doot,V;IND;SG;3;PST
+dootlopen,dootlöppt,V;IND;SG;3;PRS;LGSPEC02
+dootlopen,dootleep,V;IND;SG;3;PST;LGSPEC02
+dootlopen,loopt doot,V;IND;PL;PRS
+dootlopen,lepen doot,V;IND;PL;PST
+dootlopen,dootloopt,V;IND;PL;PRS;LGSPEC02
+dootlopen,dootlepen,V;IND;PL;PST;LGSPEC02
+dootlopen,loop doot,V;IMP;SG;PRS
+dootlopen,loopt doot,V;IMP;PL;PRS
+smölten,smölten,V;NFIN
+smölten,smölt,V;IND;SG;1;PRS
+smölten,smölt,V;IND;SG;1;PST
+smölten,smöltst,V;IND;SG;2;PRS
+smölten,smöltst,V;IND;SG;2;PST
+smölten,smölt,V;IND;SG;3;PRS
+smölten,smölt,V;IND;SG;3;PST
+smölten,smölt,V;IND;PL;PRS
+smölten,smölten,V;IND;PL;PST
+smölten,smölt,V;IMP;SG;PRS
+smölten,smölt,V;IMP;PL;PRS
+passeren,passeren,V;NFIN
+passeren,passeer,V;IND;SG;1;PRS
+passeren,passeer,V;IND;SG;1;PST
+passeren,passeerst,V;IND;SG;2;PRS
+passeren,passeerst,V;IND;SG;2;PST
+passeren,passeert,V;IND;SG;3;PRS
+passeren,passeer,V;IND;SG;3;PST
+passeren,passeert,V;IND;PL;PRS
+passeren,passeeren,V;IND;PL;PRS
+passeren,passeren,V;IND;PL;PST
+passeren,passeere,V;IMP;SG;PRS
+passeren,passeert,V;IMP;PL;PRS
+adopteren,adopteren,V;NFIN
+adopteren,adopteer,V;IND;SG;1;PRS
+adopteren,adopteer,V;IND;SG;1;PST
+adopteren,adopteerst,V;IND;SG;2;PRS
+adopteren,adopteerst,V;IND;SG;2;PST
+adopteren,adopteert,V;IND;SG;3;PRS
+adopteren,adopteer,V;IND;SG;3;PST
+adopteren,adopteert,V;IND;PL;PRS
+adopteren,adopteeren,V;IND;PL;PRS
+adopteren,adopteeren,V;IND;PL;PST
+adopteren,adopteere,V;IMP;SG;PRS
+adopteren,adopteert,V;IMP;PL;PRS
+splitten,splitten,V;NFIN
+splitten,splitt,V;IND;SG;1;PRS
+splitten,splitt,V;IND;SG;1;PST
+splitten,splittst,V;IND;SG;2;PRS
+splitten,splittst,V;IND;SG;2;PST
+splitten,splitt,V;IND;SG;3;PRS
+splitten,splitt,V;IND;SG;3;PST
+splitten,splitt,V;IND;PL;PRS
+splitten,splitten,V;IND;PL;PST
+splitten,splitt,V;IMP;SG;PRS
+splitten,splitt,V;IMP;PL;PRS
+strieden,strieden,V;NFIN
+strieden,stried,V;IND;SG;1;PRS
+strieden,streed,V;IND;SG;1;PST
+strieden,striddst,V;IND;SG;2;PRS
+strieden,streedst,V;IND;SG;2;PST
+strieden,stridd,V;IND;SG;3;PRS
+strieden,streed,V;IND;SG;3;PST
+strieden,striedt,V;IND;PL;PRS
+strieden,streden,V;IND;PL;PST
+strieden,stritt,V;IMP;SG;PRS
+strieden,striedt,V;IMP;PL;PRS
+visenteren,visenteren,V;NFIN
+visenteren,visenteer,V;IND;SG;1;PRS
+visenteren,visenteer,V;IND;SG;1;PST
+visenteren,visenteerst,V;IND;SG;2;PRS
+visenteren,visenteerst,V;IND;SG;2;PST
+visenteren,visenteert,V;IND;SG;3;PRS
+visenteren,visenteer,V;IND;SG;3;PST
+visenteren,visenteert,V;IND;PL;PRS
+visenteren,visenteeren,V;IND;PL;PRS
+visenteren,visenteren,V;IND;PL;PST
+visenteren,visenteere,V;IMP;SG;PRS
+visenteren,visenteert,V;IMP;PL;PRS
+geneten,geneten,V;NFIN
+geneten,geneet,V;IND;SG;1;PRS
+geneten,genoot,V;IND;SG;1;PST
+geneten,genütst,V;IND;SG;2;PRS
+geneten,genootst,V;IND;SG;2;PST
+geneten,genütt,V;IND;SG;3;PRS
+geneten,genoot,V;IND;SG;3;PST
+geneten,geneett,V;IND;PL;PRS
+geneten,geneeten,V;IND;PL;PRS
+geneten,genoten,V;IND;PL;PST
+geneten,geneet,V;IMP;SG;PRS
+geneten,geneett,V;IMP;PL;PRS
+halen,halen,V;NFIN
+halen,haal,V;IND;SG;1;PRS
+halen,haal,V;IND;SG;1;PST
+halen,haalst,V;IND;SG;2;PRS
+halen,haalst,V;IND;SG;2;PST
+halen,haalt,V;IND;SG;3;PRS
+halen,haal,V;IND;SG;3;PST
+halen,haalt,V;IND;PL;PRS
+halen,haalen,V;IND;PL;PRS
+halen,halen,V;IND;PL;PST
+halen,haale,V;IMP;SG;PRS
+halen,haalt,V;IMP;PL;PRS
+krünkeln,krünkeln,V;NFIN
+krünkeln,krünkel,V;IND;SG;1;PRS
+krünkeln,krünkel,V;IND;SG;1;PST
+krünkeln,krünkelst,V;IND;SG;2;PRS
+krünkeln,krünkelst,V;IND;SG;2;PST
+krünkeln,krünkelt,V;IND;SG;3;PRS
+krünkeln,krünkel,V;IND;SG;3;PST
+krünkeln,krünkelt,V;IND;PL;PRS
+krünkeln,krünkeln,V;IND;PL;PST
+krünkeln,krünkel,V;IMP;SG;PRS
+krünkeln,krünkelt,V;IMP;PL;PRS
+achterangahn,achterangahn,V;NFIN
+achterangahn,gah achteran,V;IND;SG;1;PRS
+achterangahn,güng achteran,V;IND;SG;1;PST
+achterangahn,achterangah,V;IND;SG;1;PRS;LGSPEC02
+achterangahn,achterangüng,V;IND;SG;1;PST;LGSPEC02
+achterangahn,geihst achteran,V;IND;SG;2;PRS
+achterangahn,güngst achteran,V;IND;SG;2;PST
+achterangahn,achterangeihst,V;IND;SG;2;PRS;LGSPEC02
+achterangahn,achterangüngst,V;IND;SG;2;PST;LGSPEC02
+achterangahn,geiht achteran,V;IND;SG;3;PRS
+achterangahn,güng achteran,V;IND;SG;3;PST
+achterangahn,achterangeiht,V;IND;SG;3;PRS;LGSPEC02
+achterangahn,achterangüng,V;IND;SG;3;PST;LGSPEC02
+achterangahn,gaht achteran,V;IND;PL;PRS
+achterangahn,güngen achteran,V;IND;PL;PST
+achterangahn,achterangaht,V;IND;PL;PRS;LGSPEC02
+achterangahn,achterangüngen,V;IND;PL;PST;LGSPEC02
+achterangahn,gah achteran,V;IMP;SG;PRS
+achterangahn,gaht achteran,V;IMP;PL;PRS
+bidden,bidden,V;NFIN
+bidden,bidd,V;IND;SG;1;PRS
+bidden,beed,V;IND;SG;1;PST
+bidden,biddst,V;IND;SG;2;PRS
+bidden,beedst,V;IND;SG;2;PST
+bidden,biddt,V;IND;SG;3;PRS
+bidden,beed,V;IND;SG;3;PST
+bidden,biddt,V;IND;PL;PRS
+bidden,bidden,V;IND;PL;PRS
+bidden,beden,V;IND;PL;PST
+bidden,bidd,V;IMP;SG;PRS
+bidden,biddt,V;IMP;PL;PRS
+swimmen,swimmen,V;NFIN
+swimmen,swimm,V;IND;SG;1;PRS
+swimmen,swumm,V;IND;SG;1;PST
+swimmen,swimmst,V;IND;SG;2;PRS
+swimmen,swummst,V;IND;SG;2;PST
+swimmen,swimmt,V;IND;SG;3;PRS
+swimmen,swumm,V;IND;SG;3;PST
+swimmen,swimmt,V;IND;PL;PRS
+swimmen,swimmen,V;IND;PL;PRS
+swimmen,swummen,V;IND;PL;PST
+swimmen,swimm,V;IMP;SG;PRS
+swimmen,swimmt,V;IMP;PL;PRS
+leefhebben,leefhebben,V;NFIN
+leefhebben,heff leef,V;IND;SG;1;PRS
+leefhebben,harr leef,V;IND;SG;1;PST
+leefhebben,leefheff,V;IND;SG;1;PRS;LGSPEC02
+leefhebben,leefharr,V;IND;SG;1;PST;LGSPEC02
+leefhebben,hest leef,V;IND;SG;2;PRS
+leefhebben,harrst leef,V;IND;SG;2;PST
+leefhebben,leefhest,V;IND;SG;2;PRS;LGSPEC02
+leefhebben,leefharrst,V;IND;SG;2;PST;LGSPEC02
+leefhebben,hett leef,V;IND;SG;3;PRS
+leefhebben,harr leef,V;IND;SG;3;PST
+leefhebben,leefhett,V;IND;SG;3;PRS;LGSPEC02
+leefhebben,leefharr,V;IND;SG;3;PST;LGSPEC02
+leefhebben,hebbt leef,V;IND;PL;PRS
+leefhebben,harren leef,V;IND;PL;PST
+leefhebben,leefhebbt,V;IND;PL;PRS;LGSPEC02
+leefhebben,leefharren,V;IND;PL;PST;LGSPEC02
+leefhebben,hebb leef,V;IMP;SG;PRS
+leefhebben,hebbt leef,V;IMP;PL;PRS
+överwinnen,överwinnen,V;NFIN
+överwinnen,överwinn,V;IND;SG;1;PRS
+överwinnen,överwunn,V;IND;SG;1;PST
+överwinnen,överwinnst,V;IND;SG;2;PRS
+överwinnen,överwunnst,V;IND;SG;2;PST
+överwinnen,överwinnt,V;IND;SG;3;PRS
+överwinnen,överwunn,V;IND;SG;3;PST
+överwinnen,överwinnt,V;IND;PL;PRS
+överwinnen,överwinnen,V;IND;PL;PRS
+överwinnen,överwunnen,V;IND;PL;PST
+överwinnen,överwinn,V;IMP;SG;PRS
+överwinnen,överwinnt,V;IMP;PL;PRS
+flegen,flegen,V;NFIN
+flegen,fleeg,V;IND;SG;1;PRS
+flegen,floog,V;IND;SG;1;PST
+flegen,flüggst,V;IND;SG;2;PRS
+flegen,floogst,V;IND;SG;2;PST
+flegen,flüggt,V;IND;SG;3;PRS
+flegen,floog,V;IND;SG;3;PST
+flegen,fleegt,V;IND;PL;PRS
+flegen,fleegen,V;IND;PL;PRS
+flegen,flogen,V;IND;PL;PST
+flegen,fleeg,V;IMP;SG;PRS
+flegen,fleegt,V;IMP;PL;PRS
+blöden,blöden,V;NFIN
+blöden,blööd,V;IND;SG;1;PRS
+blöden,blödd,V;IND;SG;1;PST
+blöden,blöddst,V;IND;SG;2;PRS
+blöden,blöddst,V;IND;SG;2;PST
+blöden,blöddt,V;IND;SG;3;PRS
+blöden,blödd,V;IND;SG;3;PST
+blöden,blöödt,V;IND;PL;PRS
+blöden,blööden,V;IND;PL;PRS
+blöden,blödden,V;IND;PL;PST
+blöden,blööde,V;IMP;SG;PRS
+blöden,blöödt,V;IMP;PL;PRS
+afdingen,afdingen,V;NFIN
+afdingen,ding af,V;IND;SG;1;PRS
+afdingen,dung af,V;IND;SG;1;PST
+afdingen,afding,V;IND;SG;1;PRS;LGSPEC02
+afdingen,afdung,V;IND;SG;1;PST;LGSPEC02
+afdingen,dingst af,V;IND;SG;2;PRS
+afdingen,dungst af,V;IND;SG;2;PST
+afdingen,afdingst,V;IND;SG;2;PRS;LGSPEC02
+afdingen,afdungst,V;IND;SG;2;PST;LGSPEC02
+afdingen,dingt af,V;IND;SG;3;PRS
+afdingen,dung af,V;IND;SG;3;PST
+afdingen,afdingt,V;IND;SG;3;PRS;LGSPEC02
+afdingen,afdung,V;IND;SG;3;PST;LGSPEC02
+afdingen,dingt af,V;IND;PL;PRS
+afdingen,dungen af,V;IND;PL;PST
+afdingen,afdingt,V;IND;PL;PRS;LGSPEC02
+afdingen,afdungen,V;IND;PL;PST;LGSPEC02
+afdingen,ding af,V;IMP;SG;PRS
+afdingen,dingt af,V;IMP;PL;PRS
+jackeln,jackeln,V;NFIN
+jackeln,jackel,V;IND;SG;1;PRS
+jackeln,jackel,V;IND;SG;1;PST
+jackeln,jackelst,V;IND;SG;2;PRS
+jackeln,jackelst,V;IND;SG;2;PST
+jackeln,jackelt,V;IND;SG;3;PRS
+jackeln,jackel,V;IND;SG;3;PST
+jackeln,jackelt,V;IND;PL;PRS
+jackeln,jackelen,V;IND;PL;PRS
+jackeln,jackelen,V;IND;PL;PST
+jackeln,jackele,V;IMP;SG;PRS
+jackeln,jackelt,V;IMP;PL;PRS
+verdummen,verdummen,V;NFIN
+verdummen,verdumm,V;IND;SG;1;PRS
+verdummen,verdumm,V;IND;SG;1;PST
+verdummen,verdummst,V;IND;SG;2;PRS
+verdummen,verdummst,V;IND;SG;2;PST
+verdummen,verdummt,V;IND;SG;3;PRS
+verdummen,verdumm,V;IND;SG;3;PST
+verdummen,verdummt,V;IND;PL;PRS
+verdummen,verdummen,V;IND;PL;PRS
+verdummen,verdummen,V;IND;PL;PST
+verdummen,verdumme,V;IMP;SG;PRS
+verdummen,verdummt,V;IMP;PL;PRS
+överkamen,överkamen,V;NFIN
+överkamen,överkaam,V;IND;SG;1;PRS
+överkamen,överkeem,V;IND;SG;1;PST
+överkamen,överkümmst,V;IND;SG;2;PRS
+överkamen,överkeemst,V;IND;SG;2;PST
+överkamen,överkümmt,V;IND;SG;3;PRS
+överkamen,överkeem,V;IND;SG;3;PST
+överkamen,överkaamt,V;IND;PL;PRS
+överkamen,överkaamen,V;IND;PL;PRS
+överkamen,överkemen,V;IND;PL;PST
+överkamen,överkaam,V;IMP;SG;PRS
+överkamen,överkaamt,V;IMP;PL;PRS
+swabbeln,swabbeln,V;NFIN
+swabbeln,swabbel,V;IND;SG;1;PRS
+swabbeln,swabbel,V;IND;SG;1;PST
+swabbeln,swabbelst,V;IND;SG;2;PRS
+swabbeln,swabbelst,V;IND;SG;2;PST
+swabbeln,swabbelt,V;IND;SG;3;PRS
+swabbeln,swabbel,V;IND;SG;3;PST
+swabbeln,swabbelt,V;IND;PL;PRS
+swabbeln,swabbeln,V;IND;PL;PST
+swabbeln,swabbel,V;IMP;SG;PRS
+swabbeln,swabbelt,V;IMP;PL;PRS
+bieten,bieten,V;NFIN
+bieten,biet,V;IND;SG;1;PRS
+bieten,beet,V;IND;SG;1;PST
+bieten,bittst,V;IND;SG;2;PRS
+bieten,beetst,V;IND;SG;2;PST
+bieten,bitt,V;IND;SG;3;PRS
+bieten,beet,V;IND;SG;3;PST
+bieten,biet,V;IND;PL;PRS
+bieten,beten,V;IND;PL;PST
+bieten,biet,V;IMP;SG;PRS
+bieten,biet,V;IMP;PL;PRS
+drieten,drieten,V;NFIN
+drieten,driet,V;IND;SG;1;PRS
+drieten,driet,V;IND;SG;1;PST
+drieten,drietst,V;IND;SG;2;PRS
+drieten,drietst,V;IND;SG;2;PST
+drieten,driet,V;IND;SG;3;PRS
+drieten,driet,V;IND;SG;3;PST
+drieten,driet,V;IND;PL;PRS
+drieten,drieten,V;IND;PL;PST
+drieten,driet,V;IMP;SG;PRS
+drieten,driet,V;IMP;PL;PRS
+drieten,dreet,V;IND;SG;1;PST
+drieten,drittst,V;IND;SG;2;PRS
+drieten,dreetst,V;IND;SG;2;PST
+drieten,dritt,V;IND;SG;3;PRS
+drieten,dreet,V;IND;SG;3;PST
+drieten,dreten,V;IND;PL;PST
+quinkeleren,quinkeleren,V;NFIN
+quinkeleren,quinkeleer,V;IND;SG;1;PRS
+quinkeleren,quinkeleer,V;IND;SG;1;PST
+quinkeleren,quinkeleerst,V;IND;SG;2;PRS
+quinkeleren,quinkeleerst,V;IND;SG;2;PST
+quinkeleren,quinkeleert,V;IND;SG;3;PRS
+quinkeleren,quinkeleer,V;IND;SG;3;PST
+quinkeleren,quinkeleert,V;IND;PL;PRS
+quinkeleren,quinkeleeren,V;IND;PL;PRS
+quinkeleren,quinkeleeren,V;IND;PL;PST
+quinkeleren,quinkeleere,V;IMP;SG;PRS
+quinkeleren,quinkeleert,V;IMP;PL;PRS
+basten,basten,V;NFIN
+basten,bast,V;IND;SG;1;PRS
+basten,bost,V;IND;SG;1;PST
+basten,bastst,V;IND;SG;2;PRS
+basten,bostst,V;IND;SG;2;PST
+basten,bast,V;IND;SG;3;PRS
+basten,bost,V;IND;SG;3;PST
+basten,bast,V;IND;PL;PRS
+basten,bosten,V;IND;PL;PST
+basten,bast,V;IMP;SG;PRS
+basten,bast,V;IMP;PL;PRS
+basten,bast,V;IND;SG;1;PST
+basten,bast,V;IND;SG;2;PRS
+basten,bast,V;IND;SG;2;PST
+basten,bast,V;IND;SG;3;PST
+basten,basten,V;IND;PL;PST
+kopen,kopen,V;NFIN
+kopen,koop,V;IND;SG;1;PRS
+kopen,köff,V;IND;SG;1;PST
+kopen,köffst,V;IND;SG;2;PRS
+kopen,köffst,V;IND;SG;2;PST
+kopen,köfft,V;IND;SG;3;PRS
+kopen,köff,V;IND;SG;3;PST
+kopen,koopt,V;IND;PL;PRS
+kopen,koopen,V;IND;PL;PRS
+kopen,köffen,V;IND;PL;PST
+kopen,koope,V;IMP;SG;PRS
+kopen,koopt,V;IMP;PL;PRS
+ehren,ehren,V;NFIN
+ehren,ehr,V;IND;SG;1;PRS
+ehren,ehr,V;IND;SG;1;PST
+ehren,ehrst,V;IND;SG;2;PRS
+ehren,ehrst,V;IND;SG;2;PST
+ehren,ehrt,V;IND;SG;3;PRS
+ehren,ehr,V;IND;SG;3;PST
+ehren,ehrt,V;IND;PL;PRS
+ehren,ehren,V;IND;PL;PRS
+ehren,ehren,V;IND;PL;PST
+ehren,ehre,V;IMP;SG;PRS
+ehren,ehrt,V;IMP;PL;PRS
+utkamen,utkamen,V;NFIN
+utkamen,kaam ut,V;IND;SG;1;PRS
+utkamen,keem ut,V;IND;SG;1;PST
+utkamen,utkaam,V;IND;SG;1;PRS;LGSPEC02
+utkamen,utkeem,V;IND;SG;1;PST;LGSPEC02
+utkamen,kümmst ut,V;IND;SG;2;PRS
+utkamen,keemst ut,V;IND;SG;2;PST
+utkamen,utkümmst,V;IND;SG;2;PRS;LGSPEC02
+utkamen,utkeemst,V;IND;SG;2;PST;LGSPEC02
+utkamen,kümmt ut,V;IND;SG;3;PRS
+utkamen,keem ut,V;IND;SG;3;PST
+utkamen,utkümmt,V;IND;SG;3;PRS;LGSPEC02
+utkamen,utkeem,V;IND;SG;3;PST;LGSPEC02
+utkamen,kaamt ut,V;IND;PL;PRS
+utkamen,kemen ut,V;IND;PL;PST
+utkamen,utkaamt,V;IND;PL;PRS;LGSPEC02
+utkamen,utkemen,V;IND;PL;PST;LGSPEC02
+utkamen,kaam ut,V;IMP;SG;PRS
+utkamen,kaamt ut,V;IMP;PL;PRS
+wribbeln,wribbeln,V;NFIN
+wribbeln,wribbel,V;IND;SG;1;PRS
+wribbeln,wribbel,V;IND;SG;1;PST
+wribbeln,wribbelst,V;IND;SG;2;PRS
+wribbeln,wribbelst,V;IND;SG;2;PST
+wribbeln,wribbelt,V;IND;SG;3;PRS
+wribbeln,wribbel,V;IND;SG;3;PST
+wribbeln,wribbelt,V;IND;PL;PRS
+wribbeln,wribbeln,V;IND;PL;PST
+wribbeln,wribbel,V;IMP;SG;PRS
+wribbeln,wribbelt,V;IMP;PL;PRS
+wecken,wecken,V;NFIN
+wecken,weck,V;IND;SG;1;PRS
+wecken,weck,V;IND;SG;1;PST
+wecken,weckst,V;IND;SG;2;PRS
+wecken,weckst,V;IND;SG;2;PST
+wecken,weckt,V;IND;SG;3;PRS
+wecken,weck,V;IND;SG;3;PST
+wecken,weckt,V;IND;PL;PRS
+wecken,wecken,V;IND;PL;PRS
+wecken,wecken,V;IND;PL;PST
+wecken,wecke,V;IMP;SG;PRS
+wecken,weckt,V;IMP;PL;PRS
+snacken,snacken,V;NFIN
+snacken,snack,V;IND;SG;1;PRS
+snacken,snack,V;IND;SG;1;PST
+snacken,snackst,V;IND;SG;2;PRS
+snacken,snackst,V;IND;SG;2;PST
+snacken,snackt,V;IND;SG;3;PRS
+snacken,snack,V;IND;SG;3;PST
+snacken,snackt,V;IND;PL;PRS
+snacken,snacken,V;IND;PL;PRS
+snacken,snacken,V;IND;PL;PST
+snacken,snacke,V;IMP;SG;PRS
+snacken,snackt,V;IMP;PL;PRS
+fluttern,fluttern,V;NFIN
+fluttern,flutter,V;IND;SG;1;PRS
+fluttern,flutter,V;IND;SG;1;PST
+fluttern,flutterst,V;IND;SG;2;PRS
+fluttern,flutterst,V;IND;SG;2;PST
+fluttern,fluttert,V;IND;SG;3;PRS
+fluttern,flutter,V;IND;SG;3;PST
+fluttern,fluttert,V;IND;PL;PRS
+fluttern,fluttern,V;IND;PL;PST
+fluttern,flutter,V;IMP;SG;PRS
+fluttern,fluttert,V;IMP;PL;PRS
+weten,weten,V;NFIN
+weten,weet,V;IND;SG;1;PRS
+weten,wüss,V;IND;SG;1;PST
+weten,weetst,V;IND;SG;2;PRS
+weten,weeßt,V;IND;SG;2;PRS
+weten,wüsst,V;IND;SG;2;PST
+weten,weet,V;IND;SG;3;PRS
+weten,wüss,V;IND;SG;3;PST
+weten,weet,V;IND;PL;PRS
+weten,wüssen,V;IND;PL;PST
+liggen,liggen,V;NFIN
+liggen,ligg,V;IND;SG;1;PRS
+liggen,leeg,V;IND;SG;1;PST
+liggen,liggst,V;IND;SG;2;PRS
+liggen,leegst,V;IND;SG;2;PST
+liggen,liggt,V;IND;SG;3;PRS
+liggen,leeg,V;IND;SG;3;PST
+liggen,liggt,V;IND;PL;PRS
+liggen,liggen,V;IND;PL;PRS
+liggen,legen,V;IND;PL;PST
+liggen,ligg,V;IMP;SG;PRS
+liggen,liggt,V;IMP;PL;PRS
+ünnergahn,ünnergahn,V;NFIN
+ünnergahn,ünnergah,V;IND;SG;1;PRS
+ünnergahn,ünnergüng,V;IND;SG;1;PST
+ünnergahn,ünnergeihst,V;IND;SG;2;PRS
+ünnergahn,ünnergüngst,V;IND;SG;2;PST
+ünnergahn,ünnergeiht,V;IND;SG;3;PRS
+ünnergahn,ünnergüng,V;IND;SG;3;PST
+ünnergahn,ünnergaht,V;IND;PL;PRS
+ünnergahn,ünnergahen,V;IND;PL;PRS
+ünnergahn,ünnergüngen,V;IND;PL;PST
+ünnergahn,ünnergah,V;IMP;SG;PRS
+ünnergahn,ünnergaht,V;IMP;PL;PRS
+ünnergahn,gah ünner,V;IND;SG;1;PRS
+ünnergahn,güng ünner,V;IND;SG;1;PST
+ünnergahn,ünnergah,V;IND;SG;1;PRS;LGSPEC02
+ünnergahn,ünnergüng,V;IND;SG;1;PST;LGSPEC02
+ünnergahn,geihst ünner,V;IND;SG;2;PRS
+ünnergahn,güngst ünner,V;IND;SG;2;PST
+ünnergahn,ünnergeihst,V;IND;SG;2;PRS;LGSPEC02
+ünnergahn,ünnergüngst,V;IND;SG;2;PST;LGSPEC02
+ünnergahn,geiht ünner,V;IND;SG;3;PRS
+ünnergahn,güng ünner,V;IND;SG;3;PST
+ünnergahn,ünnergeiht,V;IND;SG;3;PRS;LGSPEC02
+ünnergahn,ünnergüng,V;IND;SG;3;PST;LGSPEC02
+ünnergahn,gaht ünner,V;IND;PL;PRS
+ünnergahn,güngen ünner,V;IND;PL;PST
+ünnergahn,ünnergaht,V;IND;PL;PRS;LGSPEC02
+ünnergahn,ünnergüngen,V;IND;PL;PST;LGSPEC02
+ünnergahn,gah ünner,V;IMP;SG;PRS
+ünnergahn,gaht ünner,V;IMP;PL;PRS
+söken,söken,V;NFIN
+söken,söök,V;IND;SG;1;PRS
+söken,söch,V;IND;SG;1;PST
+söken,söchst,V;IND;SG;2;PRS
+söken,söchst,V;IND;SG;2;PST
+söken,söcht,V;IND;SG;3;PRS
+söken,söch,V;IND;SG;3;PST
+söken,söökt,V;IND;PL;PRS
+söken,sööken,V;IND;PL;PRS
+söken,söchen,V;IND;PL;PST
+söken,sööke,V;IMP;SG;PRS
+söken,söökt,V;IMP;PL;PRS
+wrümpeln,wrümpeln,V;NFIN
+wrümpeln,wrümpel,V;IND;SG;1;PRS
+wrümpeln,wrümpel,V;IND;SG;1;PST
+wrümpeln,wrümpelst,V;IND;SG;2;PRS
+wrümpeln,wrümpelst,V;IND;SG;2;PST
+wrümpeln,wrümpelt,V;IND;SG;3;PRS
+wrümpeln,wrümpel,V;IND;SG;3;PST
+wrümpeln,wrümpelt,V;IND;PL;PRS
+wrümpeln,wrümpeln,V;IND;PL;PST
+wrümpeln,wrümpel,V;IMP;SG;PRS
+wrümpeln,wrümpelt,V;IMP;PL;PRS
+gahn,gahn,V;NFIN
+gahn,gah,V;IND;SG;1;PRS
+gahn,güng,V;IND;SG;1;PST
+gahn,geihst,V;IND;SG;2;PRS
+gahn,güngst,V;IND;SG;2;PST
+gahn,geiht,V;IND;SG;3;PRS
+gahn,güng,V;IND;SG;3;PST
+gahn,gaht,V;IND;PL;PRS
+gahn,gahen,V;IND;PL;PRS
+gahn,güngen,V;IND;PL;PST
+gahn,gah,V;IMP;SG;PRS
+gahn,gaht,V;IMP;PL;PRS
+singen,singen,V;NFIN
+singen,sing,V;IND;SG;1;PRS
+singen,sung,V;IND;SG;1;PST
+singen,singst,V;IND;SG;2;PRS
+singen,sungst,V;IND;SG;2;PST
+singen,singt,V;IND;SG;3;PRS
+singen,sung,V;IND;SG;3;PST
+singen,singt,V;IND;PL;PRS
+singen,singen,V;IND;PL;PRS
+singen,sungen,V;IND;PL;PST
+singen,sing,V;IMP;SG;PRS
+singen,singt,V;IMP;PL;PRS
+hölpen,hölpen,V;NFIN
+hölpen,hölp,V;IND;SG;1;PRS
+hölpen,holp,V;IND;SG;1;PST
+hölpen,hölpst,V;IND;SG;2;PRS
+hölpen,holpst,V;IND;SG;2;PST
+hölpen,hölpt,V;IND;SG;3;PRS
+hölpen,holp,V;IND;SG;3;PST
+hölpen,hölpt,V;IND;PL;PRS
+hölpen,hölpen,V;IND;PL;PRS
+hölpen,holpen,V;IND;PL;PST
+hölpen,hölp,V;IMP;SG;PRS
+hölpen,hölpt,V;IMP;PL;PRS
+dootfallen,dootfallen,V;NFIN
+dootfallen,fall doot,V;IND;SG;1;PRS
+dootfallen,full doot,V;IND;SG;1;PST
+dootfallen,dootfall,V;IND;SG;1;PRS;LGSPEC02
+dootfallen,dootfull,V;IND;SG;1;PST;LGSPEC02
+dootfallen,fallst doot,V;IND;SG;2;PRS
+dootfallen,fullst doot,V;IND;SG;2;PST
+dootfallen,dootfallst,V;IND;SG;2;PRS;LGSPEC02
+dootfallen,dootfullst,V;IND;SG;2;PST;LGSPEC02
+dootfallen,fallt doot,V;IND;SG;3;PRS
+dootfallen,full doot,V;IND;SG;3;PST
+dootfallen,dootfallt,V;IND;SG;3;PRS;LGSPEC02
+dootfallen,dootfull,V;IND;SG;3;PST;LGSPEC02
+dootfallen,fallt doot,V;IND;PL;PRS
+dootfallen,fullen doot,V;IND;PL;PST
+dootfallen,dootfallt,V;IND;PL;PRS;LGSPEC02
+dootfallen,dootfullen,V;IND;PL;PST;LGSPEC02
+dootfallen,fall doot,V;IMP;SG;PRS
+dootfallen,fallt doot,V;IMP;PL;PRS
+afsteken,afsteken,V;NFIN
+afsteken,steek af,V;IND;SG;1;PRS
+afsteken,steek af,V;IND;SG;1;PST
+afsteken,afsteek,V;IND;SG;1;PRS;LGSPEC02
+afsteken,afsteek,V;IND;SG;1;PST;LGSPEC02
+afsteken,stickst af,V;IND;SG;2;PRS
+afsteken,steekst af,V;IND;SG;2;PST
+afsteken,afstickst,V;IND;SG;2;PRS;LGSPEC02
+afsteken,afsteekst,V;IND;SG;2;PST;LGSPEC02
+afsteken,stickt af,V;IND;SG;3;PRS
+afsteken,steek af,V;IND;SG;3;PST
+afsteken,afstickt,V;IND;SG;3;PRS;LGSPEC02
+afsteken,afsteek,V;IND;SG;3;PST;LGSPEC02
+afsteken,steekt af,V;IND;PL;PRS
+afsteken,steken af,V;IND;PL;PST
+afsteken,afsteekt,V;IND;PL;PRS;LGSPEC02
+afsteken,afsteken,V;IND;PL;PST;LGSPEC02
+afsteken,steek af,V;IMP;SG;PRS
+afsteken,steekt af,V;IMP;PL;PRS
+afsteken,stook af,V;IND;SG;1;PST
+afsteken,afstook,V;IND;SG;1;PST;LGSPEC02
+afsteken,stookst af,V;IND;SG;2;PST
+afsteken,afstookst,V;IND;SG;2;PST;LGSPEC02
+afsteken,stook af,V;IND;SG;3;PST
+afsteken,afstook,V;IND;SG;3;PST;LGSPEC02
+afsteken,stoken af,V;IND;PL;PST
+afsteken,afstoken,V;IND;PL;PST;LGSPEC02
+holen,holen,V;NFIN
+holen,hool,V;IND;SG;1;PRS
+holen,heel,V;IND;SG;1;PST
+holen,höllst,V;IND;SG;2;PRS
+holen,heelst,V;IND;SG;2;PST
+holen,höllt,V;IND;SG;3;PRS
+holen,heel,V;IND;SG;3;PST
+holen,hoolt,V;IND;PL;PRS
+holen,hoolen,V;IND;PL;PRS
+holen,helen,V;IND;PL;PST
+holen,hool,V;IMP;SG;PRS
+holen,hoolt,V;IMP;PL;PRS
+wrangeln,wrangeln,V;NFIN
+wrangeln,wrangel,V;IND;SG;1;PRS
+wrangeln,wrangel,V;IND;SG;1;PST
+wrangeln,wrangelst,V;IND;SG;2;PRS
+wrangeln,wrangelst,V;IND;SG;2;PST
+wrangeln,wrangelt,V;IND;SG;3;PRS
+wrangeln,wrangel,V;IND;SG;3;PST
+wrangeln,wrangelt,V;IND;PL;PRS
+wrangeln,wrangeln,V;IND;PL;PST
+wrangeln,wrangel,V;IMP;SG;PRS
+wrangeln,wrangelt,V;IMP;PL;PRS
+utenannerdrieven,utenannerdrieven,V;NFIN
+utenannerdrieven,driev utenanner,V;IND;SG;1;PRS
+utenannerdrieven,dreev utenanner,V;IND;SG;1;PST
+utenannerdrieven,utenannerdriev,V;IND;SG;1;PRS;LGSPEC02
+utenannerdrieven,utenannerdreev,V;IND;SG;1;PST;LGSPEC02
+utenannerdrieven,driffst utenanner,V;IND;SG;2;PRS
+utenannerdrieven,dreevst utenanner,V;IND;SG;2;PST
+utenannerdrieven,utenannerdriffst,V;IND;SG;2;PRS;LGSPEC02
+utenannerdrieven,utenannerdreevst,V;IND;SG;2;PST;LGSPEC02
+utenannerdrieven,drifft utenanner,V;IND;SG;3;PRS
+utenannerdrieven,dreev utenanner,V;IND;SG;3;PST
+utenannerdrieven,utenannerdrifft,V;IND;SG;3;PRS;LGSPEC02
+utenannerdrieven,utenannerdreev,V;IND;SG;3;PST;LGSPEC02
+utenannerdrieven,drievt utenanner,V;IND;PL;PRS
+utenannerdrieven,dreven utenanner,V;IND;PL;PST
+utenannerdrieven,utenannerdrievt,V;IND;PL;PRS;LGSPEC02
+utenannerdrieven,utenannerdreven,V;IND;PL;PST;LGSPEC02
+utenannerdrieven,driev utenanner,V;IMP;SG;PRS
+utenannerdrieven,drievt utenanner,V;IMP;PL;PRS
+versammeln,versammeln,V;NFIN
+versammeln,versammel,V;IND;SG;1;PRS
+versammeln,versammel,V;IND;SG;1;PST
+versammeln,versammelst,V;IND;SG;2;PRS
+versammeln,versammelst,V;IND;SG;2;PST
+versammeln,versammelt,V;IND;SG;3;PRS
+versammeln,versammel,V;IND;SG;3;PST
+versammeln,versammelt,V;IND;PL;PRS
+versammeln,versammeln,V;IND;PL;PST
+versammeln,versammel,V;IMP;SG;PRS
+versammeln,versammelt,V;IMP;PL;PRS
+schölen,schölen,V;NFIN
+schölen,schall,V;IND;SG;1;PRS
+schölen,schull,V;IND;SG;1;PST
+schölen,schallst,V;IND;SG;2;PRS
+schölen,schullst,V;IND;SG;2;PST
+schölen,schall,V;IND;SG;3;PRS
+schölen,schull,V;IND;SG;3;PST
+schölen,schöölt,V;IND;PL;PRS
+schölen,schüllt,V;IND;PL;PRS
+schölen,schullen,V;IND;PL;PST
+swarmen,swarmen,V;NFIN
+swarmen,swarm,V;IND;SG;1;PRS
+swarmen,swarm,V;IND;SG;1;PST
+swarmen,swarmst,V;IND;SG;2;PRS
+swarmen,swarmst,V;IND;SG;2;PST
+swarmen,swarmt,V;IND;SG;3;PRS
+swarmen,swarm,V;IND;SG;3;PST
+swarmen,swarmt,V;IND;PL;PRS
+swarmen,swarmen,V;IND;PL;PRS
+swarmen,swarmen,V;IND;PL;PST
+swarmen,swarme,V;IMP;SG;PRS
+swarmen,swarmt,V;IMP;PL;PRS
+geböhren,geböhren,V;NFIN
+geböhren,geböhr,V;IND;SG;1;PRS
+geböhren,geböhr,V;IND;SG;1;PST
+geböhren,geböhrst,V;IND;SG;2;PRS
+geböhren,geböhrst,V;IND;SG;2;PST
+geböhren,geböhrt,V;IND;SG;3;PRS
+geböhren,geböhr,V;IND;SG;3;PST
+geböhren,geböhrt,V;IND;PL;PRS
+geböhren,geböhren,V;IND;PL;PRS
+geböhren,geböhren,V;IND;PL;PST
+geböhren,geböhre,V;IMP;SG;PRS
+geböhren,geböhrt,V;IMP;PL;PRS
+wenken,wenken,V;NFIN
+wenken,wenk,V;IND;SG;1;PRS
+wenken,wenk,V;IND;SG;1;PST
+wenken,wenkst,V;IND;SG;2;PRS
+wenken,wenkst,V;IND;SG;2;PST
+wenken,wenkt,V;IND;SG;3;PRS
+wenken,wenk,V;IND;SG;3;PST
+wenken,wenkt,V;IND;PL;PRS
+wenken,wenken,V;IND;PL;PRS
+wenken,wenken,V;IND;PL;PST
+wenken,wenke,V;IMP;SG;PRS
+wenken,wenkt,V;IMP;PL;PRS
+winken,winken,V;NFIN
+winken,wink,V;IND;SG;1;PRS
+winken,wunk,V;IND;SG;1;PST
+winken,winkst,V;IND;SG;2;PRS
+winken,wunkst,V;IND;SG;2;PST
+winken,winkt,V;IND;SG;3;PRS
+winken,wunk,V;IND;SG;3;PST
+winken,winkt,V;IND;PL;PRS
+winken,winken,V;IND;PL;PRS
+winken,wunken,V;IND;PL;PST
+winken,wink,V;IMP;SG;PRS
+winken,winkt,V;IMP;PL;PRS
+winken,wink,V;IND;SG;1;PST
+winken,winkst,V;IND;SG;2;PST
+winken,wink,V;IND;SG;3;PST
+winken,winken,V;IND;PL;PST
+winken,winke,V;IMP;SG;PRS
+jagen,jagen,V;NFIN
+jagen,jaag,V;IND;SG;1;PRS
+jagen,joog,V;IND;SG;1;PST
+jagen,jaggst,V;IND;SG;2;PRS
+jagen,jaagst,V;IND;SG;2;PRS
+jagen,joogst,V;IND;SG;2;PST
+jagen,jaggt,V;IND;SG;3;PRS
+jagen,jaagt,V;IND;SG;3;PRS
+jagen,joog,V;IND;SG;3;PST
+jagen,jaagt,V;IND;PL;PRS
+jagen,jagen,V;IND;PL;PRS
+jagen,jogen,V;IND;PL;PST
+jagen,jaag,V;IMP;SG;PRS
+jagen,jaagt,V;IMP;PL;PRS
+möten,möten,V;NFIN
+möten,mutt,V;IND;SG;1;PRS
+möten,muss,V;IND;SG;1;PST
+möten,muttst,V;IND;SG;2;PRS
+möten,musst,V;IND;SG;2;PRS
+möten,musst,V;IND;SG;2;PST
+möten,mutt,V;IND;SG;3;PRS
+möten,muss,V;IND;SG;3;PST
+möten,mööt,V;IND;PL;PRS
+möten,mussen,V;IND;PL;PST
+möten,mööt,V;IND;SG;1;PRS
+möten,mööt,V;IND;SG;1;PST
+möten,mött,V;IND;SG;1;PST
+möten,möötst,V;IND;SG;2;PRS
+möten,möttst,V;IND;SG;2;PRS
+möten,möötst,V;IND;SG;2;PST
+möten,möttst,V;IND;SG;2;PST
+möten,mööt,V;IND;SG;3;PRS
+möten,mött,V;IND;SG;3;PRS
+möten,mööt,V;IND;SG;3;PST
+möten,mött,V;IND;SG;3;PST
+möten,möten,V;IND;PL;PST
+möten,mötten,V;IND;PL;PST
+möten,mööt,V;IMP;SG;PRS
+möten,mööt,V;IMP;PL;PRS
+steken,steken,V;NFIN
+steken,steek,V;IND;SG;1;PRS
+steken,steek,V;IND;SG;1;PST
+steken,stickst,V;IND;SG;2;PRS
+steken,steekst,V;IND;SG;2;PST
+steken,stickt,V;IND;SG;3;PRS
+steken,steek,V;IND;SG;3;PST
+steken,steekt,V;IND;PL;PRS
+steken,steeken,V;IND;PL;PRS
+steken,steken,V;IND;PL;PST
+steken,steek,V;IMP;SG;PRS
+steken,steekt,V;IMP;PL;PRS
+steken,stook,V;IND;SG;1;PST
+steken,stookst,V;IND;SG;2;PST
+steken,stook,V;IND;SG;3;PST
+steken,stoken,V;IND;PL;PST
+binnen,binnen,V;NFIN
+binnen,binn,V;IND;SG;1;PRS
+binnen,bunn,V;IND;SG;1;PST
+binnen,binnst,V;IND;SG;2;PRS
+binnen,bunnst,V;IND;SG;2;PST
+binnen,binnt,V;IND;SG;3;PRS
+binnen,bunn,V;IND;SG;3;PST
+binnen,binnt,V;IND;PL;PRS
+binnen,binnen,V;IND;PL;PRS
+binnen,bunnen,V;IND;PL;PST
+binnen,binn,V;IMP;SG;PRS
+binnen,binnt,V;IMP;PL;PRS
+schaken,schaken,V;NFIN
+schaken,schaak,V;IND;SG;1;PRS
+schaken,schaak,V;IND;SG;1;PST
+schaken,schaakt,V;IND;SG;2;PRS
+schaken,schaakt,V;IND;SG;2;PST
+schaken,schaakt,V;IND;SG;3;PRS
+schaken,schaak,V;IND;SG;3;PST
+schaken,schaakt,V;IND;PL;PRS
+schaken,schaken,V;IND;PL;PST
+schaken,schaak,V;IMP;SG;PRS
+schaken,schaakt,V;IMP;PL;PRS
+dootscheten,dootscheten,V;NFIN
+dootscheten,scheet doot,V;IND;SG;1;PRS
+dootscheten,schoot doot,V;IND;SG;1;PST
+dootscheten,dootscheet,V;IND;SG;1;PRS;LGSPEC02
+dootscheten,dootschoot,V;IND;SG;1;PST;LGSPEC02
+dootscheten,schütst doot,V;IND;SG;2;PRS
+dootscheten,schootst doot,V;IND;SG;2;PST
+dootscheten,dootschütst,V;IND;SG;2;PRS;LGSPEC02
+dootscheten,dootschootst,V;IND;SG;2;PST;LGSPEC02
+dootscheten,schütt doot,V;IND;SG;3;PRS
+dootscheten,schoot doot,V;IND;SG;3;PST
+dootscheten,dootschütt,V;IND;SG;3;PRS;LGSPEC02
+dootscheten,dootschoot,V;IND;SG;3;PST;LGSPEC02
+dootscheten,scheett doot,V;IND;PL;PRS
+dootscheten,schoten doot,V;IND;PL;PST
+dootscheten,dootscheett,V;IND;PL;PRS;LGSPEC02
+dootscheten,dootschoten,V;IND;PL;PST;LGSPEC02
+dootscheten,scheet doot,V;IMP;SG;PRS
+dootscheten,scheett doot,V;IMP;PL;PRS
+beennen,beennen,V;NFIN
+beennen,beenn,V;IND;SG;1;PRS
+beennen,beenn,V;IND;SG;1;PST
+beennen,beennst,V;IND;SG;2;PRS
+beennen,beennst,V;IND;SG;2;PST
+beennen,beennt,V;IND;SG;3;PRS
+beennen,beenn,V;IND;SG;3;PST
+beennen,beennt,V;IND;PL;PRS
+beennen,beennen,V;IND;PL;PRS
+beennen,beennen,V;IND;PL;PST
+beennen,beenne,V;IMP;SG;PRS
+beennen,beennt,V;IMP;PL;PRS
+düppen,düppen,V;NFIN
+düppen,düpp,V;IND;SG;1;PRS
+düppen,düpp,V;IND;SG;1;PST
+düppen,düppst,V;IND;SG;2;PRS
+düppen,düppst,V;IND;SG;2;PST
+düppen,düppt,V;IND;SG;3;PRS
+düppen,düpp,V;IND;SG;3;PST
+düppen,düppt,V;IND;PL;PRS
+düppen,düppen,V;IND;PL;PRS
+düppen,düppen,V;IND;PL;PST
+düppen,düppe,V;IMP;SG;PRS
+düppen,düppt,V;IMP;PL;PRS
+swellen,swellen,V;NFIN
+swellen,swell,V;IND;SG;1;PRS
+swellen,swull,V;IND;SG;1;PST
+swellen,swellst,V;IND;SG;2;PRS
+swellen,swullst,V;IND;SG;2;PST
+swellen,swellt,V;IND;SG;3;PRS
+swellen,swull,V;IND;SG;3;PST
+swellen,swellt,V;IND;PL;PRS
+swellen,swellen,V;IND;PL;PRS
+swellen,swullen,V;IND;PL;PST
+swellen,swell,V;IMP;SG;PRS
+swellen,swellt,V;IMP;PL;PRS
+dootfreren,dootfreren,V;NFIN
+dootfreren,freer doot,V;IND;SG;1;PRS
+dootfreren,froor doot,V;IND;SG;1;PST
+dootfreren,dootfreer,V;IND;SG;1;PRS;LGSPEC02
+dootfreren,dootfroor,V;IND;SG;1;PST;LGSPEC02
+dootfreren,früsst doot,V;IND;SG;2;PRS
+dootfreren,froorst doot,V;IND;SG;2;PST
+dootfreren,dootfrüsst,V;IND;SG;2;PRS;LGSPEC02
+dootfreren,dootfroorst,V;IND;SG;2;PST;LGSPEC02
+dootfreren,früst doot,V;IND;SG;3;PRS
+dootfreren,froor doot,V;IND;SG;3;PST
+dootfreren,dootfrüst,V;IND;SG;3;PRS;LGSPEC02
+dootfreren,dootfroor,V;IND;SG;3;PST;LGSPEC02
+dootfreren,freert doot,V;IND;PL;PRS
+dootfreren,froren doot,V;IND;PL;PST
+dootfreren,dootfreert,V;IND;PL;PRS;LGSPEC02
+dootfreren,dootfroren,V;IND;PL;PST;LGSPEC02
+dootfreren,freer doot,V;IMP;SG;PRS
+dootfreren,freert doot,V;IMP;PL;PRS
+friewen,friewen,V;NFIN
+friewen,friew,V;IND;SG;1;PRS
+friewen,freew,V;IND;SG;1;PST
+friewen,friffst,V;IND;SG;2;PRS
+friewen,freewst,V;IND;SG;2;PST
+friewen,frifft,V;IND;SG;3;PRS
+friewen,freew,V;IND;SG;3;PST
+friewen,friewt,V;IND;PL;PRS
+friewen,friewen,V;IND;PL;PRS
+friewen,frewen,V;IND;PL;PST
+friewen,friew,V;IMP;SG;PRS
+friewen,friewt,V;IMP;PL;PRS
+achten,achten,V;NFIN
+achten,acht,V;IND;SG;1;PRS
+achten,acht,V;IND;SG;1;PST
+achten,achtst,V;IND;SG;2;PRS
+achten,achtst,V;IND;SG;2;PST
+achten,achtt,V;IND;SG;3;PRS
+achten,acht,V;IND;SG;3;PST
+achten,achtt,V;IND;PL;PRS
+achten,achten,V;IND;PL;PRS
+achten,achten,V;IND;PL;PST
+achten,achte,V;IMP;SG;PRS
+achten,achtt,V;IMP;PL;PRS
+smielen,smielen,V;NFIN
+smielen,smiel,V;IND;SG;1;PRS
+smielen,smiel,V;IND;SG;1;PST
+smielen,smielst,V;IND;SG;2;PRS
+smielen,smielst,V;IND;SG;2;PST
+smielen,smielt,V;IND;SG;3;PRS
+smielen,smiel,V;IND;SG;3;PST
+smielen,smielt,V;IND;PL;PRS
+smielen,smielen,V;IND;PL;PRS
+smielen,smielen,V;IND;PL;PST
+smielen,smiele,V;IMP;SG;PRS
+smielen,smielt,V;IMP;PL;PRS
+foortkamen,foortkamen,V;NFIN
+foortkamen,kaam foort,V;IND;SG;1;PRS
+foortkamen,keem foort,V;IND;SG;1;PST
+foortkamen,foortkaam,V;IND;SG;1;PRS;LGSPEC02
+foortkamen,foortkeem,V;IND;SG;1;PST;LGSPEC02
+foortkamen,kümmst foort,V;IND;SG;2;PRS
+foortkamen,keemst foort,V;IND;SG;2;PST
+foortkamen,foortkümmst,V;IND;SG;2;PRS;LGSPEC02
+foortkamen,foortkeemst,V;IND;SG;2;PST;LGSPEC02
+foortkamen,kümmt foort,V;IND;SG;3;PRS
+foortkamen,keem foort,V;IND;SG;3;PST
+foortkamen,foortkümmt,V;IND;SG;3;PRS;LGSPEC02
+foortkamen,foortkeem,V;IND;SG;3;PST;LGSPEC02
+foortkamen,kaamt foort,V;IND;PL;PRS
+foortkamen,kemen foort,V;IND;PL;PST
+foortkamen,foortkaamt,V;IND;PL;PRS;LGSPEC02
+foortkamen,foortkemen,V;IND;PL;PST;LGSPEC02
+foortkamen,kaam foort,V;IMP;SG;PRS
+foortkamen,kaamt foort,V;IMP;PL;PRS
+schütten,schütten,V;NFIN
+schütten,schütt,V;IND;SG;1;PRS
+schütten,schütt,V;IND;SG;1;PST
+schütten,schüttst,V;IND;SG;2;PRS
+schütten,schüttst,V;IND;SG;2;PST
+schütten,schütt,V;IND;SG;3;PRS
+schütten,schütt,V;IND;SG;3;PST
+schütten,schütt,V;IND;PL;PRS
+schütten,schütten,V;IND;PL;PST
+schütten,schütt,V;IMP;SG;PRS
+schütten,schütt,V;IMP;PL;PRS
+tostannbringen,tostannbringen,V;NFIN
+tostannbringen,bring tostann,V;IND;SG;1;PRS
+tostannbringen,broch tostann,V;IND;SG;1;PST
+tostannbringen,tostannbring,V;IND;SG;1;PRS;LGSPEC02
+tostannbringen,tostannbroch,V;IND;SG;1;PST;LGSPEC02
+tostannbringen,bringst tostann,V;IND;SG;2;PRS
+tostannbringen,brochst tostann,V;IND;SG;2;PST
+tostannbringen,tostannbringst,V;IND;SG;2;PRS;LGSPEC02
+tostannbringen,tostannbrochst,V;IND;SG;2;PST;LGSPEC02
+tostannbringen,bringt tostann,V;IND;SG;3;PRS
+tostannbringen,broch tostann,V;IND;SG;3;PST
+tostannbringen,tostannbringt,V;IND;SG;3;PRS;LGSPEC02
+tostannbringen,tostannbroch,V;IND;SG;3;PST;LGSPEC02
+tostannbringen,bringt tostann,V;IND;PL;PRS
+tostannbringen,brochen tostann,V;IND;PL;PST
+tostannbringen,tostannbringt,V;IND;PL;PRS;LGSPEC02
+tostannbringen,tostannbrochen,V;IND;PL;PST;LGSPEC02
+tostannbringen,bring tostann,V;IMP;SG;PRS
+tostannbringen,bringt tostann,V;IMP;PL;PRS
+ankamen,ankamen,V;NFIN
+ankamen,kaam an,V;IND;SG;1;PRS
+ankamen,keem an,V;IND;SG;1;PST
+ankamen,ankaam,V;IND;SG;1;PRS;LGSPEC02
+ankamen,ankeem,V;IND;SG;1;PST;LGSPEC02
+ankamen,kümmst an,V;IND;SG;2;PRS
+ankamen,keemst an,V;IND;SG;2;PST
+ankamen,ankümmst,V;IND;SG;2;PRS;LGSPEC02
+ankamen,ankeemst,V;IND;SG;2;PST;LGSPEC02
+ankamen,kümmt an,V;IND;SG;3;PRS
+ankamen,keem an,V;IND;SG;3;PST
+ankamen,ankümmt,V;IND;SG;3;PRS;LGSPEC02
+ankamen,ankeem,V;IND;SG;3;PST;LGSPEC02
+ankamen,kaamt an,V;IND;PL;PRS
+ankamen,kemen an,V;IND;PL;PST
+ankamen,ankaamt,V;IND;PL;PRS;LGSPEC02
+ankamen,ankemen,V;IND;PL;PST;LGSPEC02
+ankamen,kaam an,V;IMP;SG;PRS
+ankamen,kaamt an,V;IMP;PL;PRS
+könen,könen,V;NFIN
+könen,kann,V;IND;SG;1;PRS
+könen,kunn,V;IND;SG;1;PST
+könen,kannst,V;IND;SG;2;PRS
+könen,kunnst,V;IND;SG;2;PST
+könen,kann,V;IND;SG;3;PRS
+könen,kunn,V;IND;SG;3;PST
+könen,köönt,V;IND;PL;PRS
+könen,kunnen,V;IND;PL;PST
+sennen,sennen,V;NFIN
+sennen,senn,V;IND;SG;1;PRS
+sennen,senn,V;IND;SG;1;PST
+sennen,sennst,V;IND;SG;2;PRS
+sennen,sennst,V;IND;SG;2;PST
+sennen,sennt,V;IND;SG;3;PRS
+sennen,senn,V;IND;SG;3;PST
+sennen,sennt,V;IND;PL;PRS
+sennen,sennen,V;IND;PL;PRS
+sennen,sennen,V;IND;PL;PST
+sennen,senne,V;IMP;SG;PRS
+sennen,sennt,V;IMP;PL;PRS
+slaan,slaan,V;NFIN
+slaan,sla,V;IND;SG;1;PRS
+slaan,sloog,V;IND;SG;1;PST
+slaan,sleist,V;IND;SG;2;PRS
+slaan,sloogst,V;IND;SG;2;PST
+slaan,sleit,V;IND;SG;3;PRS
+slaan,sloog,V;IND;SG;3;PST
+slaan,slaat,V;IND;PL;PRS
+slaan,slogen,V;IND;PL;PST
+slaan,sla,V;IMP;SG;PRS
+slaan,slaat,V;IMP;PL;PRS
+laten,laten,V;NFIN
+laten,laat,V;IND;SG;1;PRS
+laten,leet,V;IND;SG;1;PST
+laten,lettst,V;IND;SG;2;PRS
+laten,leetst,V;IND;SG;2;PST
+laten,lett,V;IND;SG;3;PRS
+laten,leet,V;IND;SG;3;PST
+laten,laat,V;IND;PL;PRS
+laten,leten,V;IND;PL;PST
+laten,laat,V;IMP;SG;PRS
+laten,laat,V;IMP;PL;PRS
+schirrwarken,schirrwarken,V;NFIN
+schirrwarken,schirrwark,V;IND;SG;1;PRS
+schirrwarken,schirrwark,V;IND;SG;1;PST
+schirrwarken,schirrwarkst,V;IND;SG;2;PRS
+schirrwarken,schirrwarkst,V;IND;SG;2;PST
+schirrwarken,schirrwarkt,V;IND;SG;3;PRS
+schirrwarken,schirrwark,V;IND;SG;3;PST
+schirrwarken,schirrwarkt,V;IND;PL;PRS
+schirrwarken,schirrwarken,V;IND;PL;PRS
+schirrwarken,schirrwarken,V;IND;PL;PST
+schirrwarken,schirrwarke,V;IMP;SG;PRS
+schirrwarken,schirrwarkt,V;IMP;PL;PRS
+smieten,smieten,V;NFIN
+smieten,smiet,V;IND;SG;1;PRS
+smieten,smeet,V;IND;SG;1;PST
+smieten,smittst,V;IND;SG;2;PRS
+smieten,smeetst,V;IND;SG;2;PST
+smieten,smitt,V;IND;SG;3;PRS
+smieten,smeet,V;IND;SG;3;PST
+smieten,smiet,V;IND;PL;PRS
+smieten,smeten,V;IND;PL;PST
+smieten,smiet,V;IMP;SG;PRS
+smieten,smiet,V;IMP;PL;PRS
+splittern,splittern,V;NFIN
+splittern,splitter,V;IND;SG;1;PRS
+splittern,splitter,V;IND;SG;1;PST
+splittern,splitterst,V;IND;SG;2;PRS
+splittern,splitterst,V;IND;SG;2;PST
+splittern,splittert,V;IND;SG;3;PRS
+splittern,splitter,V;IND;SG;3;PST
+splittern,splittert,V;IND;PL;PRS
+splittern,splittern,V;IND;PL;PST
+splittern,splitter,V;IMP;SG;PRS
+splittern,splittert,V;IMP;PL;PRS
+smüüstern,smüüstern,V;NFIN
+smüüstern,smüüster,V;IND;SG;1;PRS
+smüüstern,smüüster,V;IND;SG;1;PST
+smüüstern,smüüsterst,V;IND;SG;2;PRS
+smüüstern,smüüsterst,V;IND;SG;2;PST
+smüüstern,smüüstert,V;IND;SG;3;PRS
+smüüstern,smüüster,V;IND;SG;3;PST
+smüüstern,smüüstert,V;IND;PL;PRS
+smüüstern,smüüstern,V;IND;PL;PST
+smüüstern,smüüster,V;IMP;SG;PRS
+smüüstern,smüüstert,V;IMP;PL;PRS
+wriggeln,wriggeln,V;NFIN
+wriggeln,wriggel,V;IND;SG;1;PRS
+wriggeln,wriggel,V;IND;SG;1;PST
+wriggeln,wriggelst,V;IND;SG;2;PRS
+wriggeln,wriggelst,V;IND;SG;2;PST
+wriggeln,wriggelt,V;IND;SG;3;PRS
+wriggeln,wriggel,V;IND;SG;3;PST
+wriggeln,wriggelt,V;IND;PL;PRS
+wriggeln,wriggeln,V;IND;PL;PST
+wriggeln,wriggel,V;IMP;SG;PRS
+wriggeln,wriggelt,V;IMP;PL;PRS
+opwecken,opwecken,V;NFIN
+opwecken,weck op,V;IND;SG;1;PRS
+opwecken,weck op,V;IND;SG;1;PST
+opwecken,opweck,V;IND;SG;1;PRS;LGSPEC02
+opwecken,opweck,V;IND;SG;1;PST;LGSPEC02
+opwecken,weckst op,V;IND;SG;2;PRS
+opwecken,weckst op,V;IND;SG;2;PST
+opwecken,opweckst,V;IND;SG;2;PRS;LGSPEC02
+opwecken,opweckst,V;IND;SG;2;PST;LGSPEC02
+opwecken,weckt op,V;IND;SG;3;PRS
+opwecken,weck op,V;IND;SG;3;PST
+opwecken,opweckt,V;IND;SG;3;PRS;LGSPEC02
+opwecken,opweck,V;IND;SG;3;PST;LGSPEC02
+opwecken,weckt op,V;IND;PL;PRS
+opwecken,wecken op,V;IND;PL;PST
+opwecken,opweckt,V;IND;PL;PRS;LGSPEC02
+opwecken,opwecken,V;IND;PL;PST;LGSPEC02
+opwecken,weck op,V;IMP;SG;PRS
+opwecken,weckt op,V;IMP;PL;PRS
+verswinnen,verswinnen,V;NFIN
+verswinnen,verswinn,V;IND;SG;1;PRS
+verswinnen,verswunn,V;IND;SG;1;PST
+verswinnen,verswinnst,V;IND;SG;2;PRS
+verswinnen,verswunnst,V;IND;SG;2;PST
+verswinnen,verswinnt,V;IND;SG;3;PRS
+verswinnen,verswunn,V;IND;SG;3;PST
+verswinnen,verswinnt,V;IND;PL;PRS
+verswinnen,verswinnen,V;IND;PL;PRS
+verswinnen,verswunnen,V;IND;PL;PST
+verswinnen,verswinn,V;IMP;SG;PRS
+verswinnen,verswinnt,V;IMP;PL;PRS
+wunnerwarken,wunnerwarken,V;NFIN
+wunnerwarken,wunnerwark,V;IND;SG;1;PRS
+wunnerwarken,wunnerwark,V;IND;SG;1;PST
+wunnerwarken,wunnerwarkst,V;IND;SG;2;PRS
+wunnerwarken,wunnerwarkst,V;IND;SG;2;PST
+wunnerwarken,wunnerwarkt,V;IND;SG;3;PRS
+wunnerwarken,wunnerwark,V;IND;SG;3;PST
+wunnerwarken,wunnerwarkt,V;IND;PL;PRS
+wunnerwarken,wunnerwarken,V;IND;PL;PRS
+wunnerwarken,wunnerwarken,V;IND;PL;PST
+wunnerwarken,wunnerwarke,V;IMP;SG;PRS
+wunnerwarken,wunnerwarkt,V;IMP;PL;PRS
+lesen,lesen,V;NFIN
+lesen,lees,V;IND;SG;1;PRS
+lesen,lees,V;IND;SG;1;PST
+lesen,leesst,V;IND;SG;2;PRS
+lesen,leesst,V;IND;SG;2;PST
+lesen,leest,V;IND;SG;3;PRS
+lesen,lees,V;IND;SG;3;PST
+lesen,leest,V;IND;PL;PRS
+lesen,leesen,V;IND;PL;PRS
+lesen,lesen,V;IND;PL;PST
+lesen,leese,V;IMP;SG;PRS
+lesen,leest,V;IMP;PL;PRS
+lesen,lisst,V;IND;SG;2;PRS
+lesen,list,V;IND;SG;3;PRS
+lesen,lees,V;IMP;SG;PRS
+klöven,klöven,V;NFIN
+klöven,klööv,V;IND;SG;1;PRS
+klöven,klööv,V;IND;SG;1;PST
+klöven,klöövst,V;IND;SG;2;PRS
+klöven,klöövst,V;IND;SG;2;PST
+klöven,klöövt,V;IND;SG;3;PRS
+klöven,klööv,V;IND;SG;3;PST
+klöven,klöövt,V;IND;PL;PRS
+klöven,klövn,V;IND;PL;PST
+klöven,klööv,V;IMP;SG;PRS
+klöven,klöövt,V;IMP;PL;PRS
+inkamen,inkamen,V;NFIN
+inkamen,kaam in,V;IND;SG;1;PRS
+inkamen,keem in,V;IND;SG;1;PST
+inkamen,inkaam,V;IND;SG;1;PRS;LGSPEC02
+inkamen,inkeem,V;IND;SG;1;PST;LGSPEC02
+inkamen,kümmst in,V;IND;SG;2;PRS
+inkamen,keemst in,V;IND;SG;2;PST
+inkamen,inkümmst,V;IND;SG;2;PRS;LGSPEC02
+inkamen,inkeemst,V;IND;SG;2;PST;LGSPEC02
+inkamen,kümmt in,V;IND;SG;3;PRS
+inkamen,keem in,V;IND;SG;3;PST
+inkamen,inkümmt,V;IND;SG;3;PRS;LGSPEC02
+inkamen,inkeem,V;IND;SG;3;PST;LGSPEC02
+inkamen,kaamt in,V;IND;PL;PRS
+inkamen,kemen in,V;IND;PL;PST
+inkamen,inkaamt,V;IND;PL;PRS;LGSPEC02
+inkamen,inkemen,V;IND;PL;PST;LGSPEC02
+inkamen,kaam in,V;IMP;SG;PRS
+inkamen,kaamt in,V;IMP;PL;PRS
+wölven,wölven,V;NFIN
+wölven,wölv,V;IND;SG;1;PRS
+wölven,wölv,V;IND;SG;1;PST
+wölven,wölvst,V;IND;SG;2;PRS
+wölven,wölvst,V;IND;SG;2;PST
+wölven,wölvt,V;IND;SG;3;PRS
+wölven,wölv,V;IND;SG;3;PST
+wölven,wölvt,V;IND;PL;PRS
+wölven,wölven,V;IND;PL;PRS
+wölven,wölven,V;IND;PL;PST
+wölven,wölve,V;IMP;SG;PRS
+wölven,wölvt,V;IMP;PL;PRS
+annulleren,annulleren,V;NFIN
+annulleren,annulleer,V;IND;SG;1;PRS
+annulleren,annulleer,V;IND;SG;1;PST
+annulleren,annulleerst,V;IND;SG;2;PRS
+annulleren,annulleerst,V;IND;SG;2;PST
+annulleren,annulleert,V;IND;SG;3;PRS
+annulleren,annulleer,V;IND;SG;3;PST
+annulleren,annulleert,V;IND;PL;PRS
+annulleren,annulleeren,V;IND;PL;PRS
+annulleren,annulleeren,V;IND;PL;PST
+annulleren,annulleere,V;IMP;SG;PRS
+annulleren,annulleert,V;IMP;PL;PRS
+quinkeln,quinkeln,V;NFIN
+quinkeln,quinkel,V;IND;SG;1;PRS
+quinkeln,quinkel,V;IND;SG;1;PST
+quinkeln,quinkelst,V;IND;SG;2;PRS
+quinkeln,quinkelst,V;IND;SG;2;PST
+quinkeln,quinkelt,V;IND;SG;3;PRS
+quinkeln,quinkel,V;IND;SG;3;PST
+quinkeln,quinkelt,V;IND;PL;PRS
+quinkeln,quinkeln,V;IND;PL;PST
+quinkeln,quinkel,V;IMP;SG;PRS
+quinkeln,quinkelt,V;IMP;PL;PRS
+drieven,drieven,V;NFIN
+drieven,driev,V;IND;SG;1;PRS
+drieven,dreev,V;IND;SG;1;PST
+drieven,driffst,V;IND;SG;2;PRS
+drieven,dreevst,V;IND;SG;2;PST
+drieven,drifft,V;IND;SG;3;PRS
+drieven,dreev,V;IND;SG;3;PST
+drieven,drievt,V;IND;PL;PRS
+drieven,drieven,V;IND;PL;PRS
+drieven,dreven,V;IND;PL;PST
+drieven,driev,V;IMP;SG;PRS
+drieven,drievt,V;IMP;PL;PRS
+trecken,trecken,V;NFIN
+trecken,treck,V;IND;SG;1;PRS
+trecken,trock,V;IND;SG;1;PST
+trecken,treckst,V;IND;SG;2;PRS
+trecken,trockst,V;IND;SG;2;PST
+trecken,treckt,V;IND;SG;3;PRS
+trecken,trock,V;IND;SG;3;PST
+trecken,treckt,V;IND;PL;PRS
+trecken,trecken,V;IND;PL;PRS
+trecken,trocken,V;IND;PL;PST
+trecken,treck,V;IMP;SG;PRS
+trecken,treckt,V;IMP;PL;PRS
+finnen,finnen,V;NFIN
+finnen,finn,V;IND;SG;1;PRS
+finnen,funn,V;IND;SG;1;PST
+finnen,finnst,V;IND;SG;2;PRS
+finnen,funnst,V;IND;SG;2;PST
+finnen,finnt,V;IND;SG;3;PRS
+finnen,funn,V;IND;SG;3;PST
+finnen,finnt,V;IND;PL;PRS
+finnen,finnen,V;IND;PL;PRS
+finnen,funnen,V;IND;PL;PST
+finnen,finn,V;IMP;SG;PRS
+finnen,finnt,V;IMP;PL;PRS
+ennen,ennen,V;NFIN
+ennen,enn,V;IND;SG;1;PRS
+ennen,enn,V;IND;SG;1;PST
+ennen,ennst,V;IND;SG;2;PRS
+ennen,ennst,V;IND;SG;2;PST
+ennen,ennt,V;IND;SG;3;PRS
+ennen,enn,V;IND;SG;3;PST
+ennen,ennt,V;IND;PL;PRS
+ennen,ennen,V;IND;PL;PRS
+ennen,ennen,V;IND;PL;PST
+ennen,enne,V;IMP;SG;PRS
+ennen,ennt,V;IMP;PL;PRS
+böhren,böhren,V;NFIN
+böhren,böhr,V;IND;SG;1;PRS
+böhren,böhr,V;IND;SG;1;PST
+böhren,böhrst,V;IND;SG;2;PRS
+böhren,böhrst,V;IND;SG;2;PST
+böhren,böhrt,V;IND;SG;3;PRS
+böhren,böhr,V;IND;SG;3;PST
+böhren,böhrt,V;IND;PL;PRS
+böhren,böhren,V;IND;PL;PRS
+böhren,böhren,V;IND;PL;PST
+böhren,böhre,V;IMP;SG;PRS
+böhren,böhrt,V;IMP;PL;PRS
+bedüden,bedüden,V;NFIN
+bedüden,bedüüd,V;IND;SG;1;PRS
+bedüden,bedüüd,V;IND;SG;1;PST
+bedüden,bedüüdst,V;IND;SG;2;PRS
+bedüden,bedüüdst,V;IND;SG;2;PST
+bedüden,bedüüdt,V;IND;SG;3;PRS
+bedüden,bedüüd,V;IND;SG;3;PST
+bedüden,bedüüdt,V;IND;PL;PRS
+bedüden,bedüüden,V;IND;PL;PRS
+bedüden,bedüden,V;IND;PL;PST
+bedüden,bedüüde,V;IMP;SG;PRS
+bedüden,bedüüdt,V;IMP;PL;PRS
+vuneendrieven,vuneendrieven,V;NFIN
+vuneendrieven,driev vuneen,V;IND;SG;1;PRS
+vuneendrieven,dreev vuneen,V;IND;SG;1;PST
+vuneendrieven,vuneendriev,V;IND;SG;1;PRS;LGSPEC02
+vuneendrieven,vuneendreev,V;IND;SG;1;PST;LGSPEC02
+vuneendrieven,driffst vuneen,V;IND;SG;2;PRS
+vuneendrieven,dreevst vuneen,V;IND;SG;2;PST
+vuneendrieven,vuneendriffst,V;IND;SG;2;PRS;LGSPEC02
+vuneendrieven,vuneendreevst,V;IND;SG;2;PST;LGSPEC02
+vuneendrieven,drifft vuneen,V;IND;SG;3;PRS
+vuneendrieven,dreev vuneen,V;IND;SG;3;PST
+vuneendrieven,vuneendrifft,V;IND;SG;3;PRS;LGSPEC02
+vuneendrieven,vuneendreev,V;IND;SG;3;PST;LGSPEC02
+vuneendrieven,drievt vuneen,V;IND;PL;PRS
+vuneendrieven,dreven vuneen,V;IND;PL;PST
+vuneendrieven,vuneendrievt,V;IND;PL;PRS;LGSPEC02
+vuneendrieven,vuneendreven,V;IND;PL;PST;LGSPEC02
+vuneendrieven,driev vuneen,V;IMP;SG;PRS
+vuneendrieven,drievt vuneen,V;IMP;PL;PRS
+tillern,tillern,V;NFIN
+tillern,tiller,V;IND;SG;1;PRS
+tillern,tiller,V;IND;SG;1;PST
+tillern,tillerst,V;IND;SG;2;PRS
+tillern,tillerst,V;IND;SG;2;PST
+tillern,tillert,V;IND;SG;3;PRS
+tillern,tiller,V;IND;SG;3;PST
+tillern,tillert,V;IND;PL;PRS
+tillern,tillern,V;IND;PL;PST
+tillern,tiller,V;IMP;SG;PRS
+tillern,tillert,V;IMP;PL;PRS
+sitten,sitten,V;NFIN
+sitten,sitt,V;IND;SG;1;PRS
+sitten,seet,V;IND;SG;1;PST
+sitten,sittst,V;IND;SG;2;PRS
+sitten,seetst,V;IND;SG;2;PST
+sitten,sittt,V;IND;SG;3;PRS
+sitten,seet,V;IND;SG;3;PST
+sitten,sittt,V;IND;PL;PRS
+sitten,sitten,V;IND;PL;PRS
+sitten,seten,V;IND;PL;PST
+sitten,sitt,V;IMP;SG;PRS
+sitten,sittt,V;IMP;PL;PRS
+torüchkamen,torüchkamen,V;NFIN
+torüchkamen,kaam torüch,V;IND;SG;1;PRS
+torüchkamen,keem torüch,V;IND;SG;1;PST
+torüchkamen,torüchkaam,V;IND;SG;1;PRS;LGSPEC02
+torüchkamen,torüchkeem,V;IND;SG;1;PST;LGSPEC02
+torüchkamen,kümmst torüch,V;IND;SG;2;PRS
+torüchkamen,keemst torüch,V;IND;SG;2;PST
+torüchkamen,torüchkümmst,V;IND;SG;2;PRS;LGSPEC02
+torüchkamen,torüchkeemst,V;IND;SG;2;PST;LGSPEC02
+torüchkamen,kümmt torüch,V;IND;SG;3;PRS
+torüchkamen,keem torüch,V;IND;SG;3;PST
+torüchkamen,torüchkümmt,V;IND;SG;3;PRS;LGSPEC02
+torüchkamen,torüchkeem,V;IND;SG;3;PST;LGSPEC02
+torüchkamen,kaamt torüch,V;IND;PL;PRS
+torüchkamen,kemen torüch,V;IND;PL;PST
+torüchkamen,torüchkaamt,V;IND;PL;PRS;LGSPEC02
+torüchkamen,torüchkemen,V;IND;PL;PST;LGSPEC02
+torüchkamen,kaam torüch,V;IMP;SG;PRS
+torüchkamen,kaamt torüch,V;IMP;PL;PRS
+waggeln,waggeln,V;NFIN
+waggeln,waggel,V;IND;SG;1;PRS
+waggeln,waggel,V;IND;SG;1;PST
+waggeln,waggelst,V;IND;SG;2;PRS
+waggeln,waggelst,V;IND;SG;2;PST
+waggeln,waggelt,V;IND;SG;3;PRS
+waggeln,waggel,V;IND;SG;3;PST
+waggeln,waggelt,V;IND;PL;PRS
+waggeln,waggeln,V;IND;PL;PST
+waggeln,waggel,V;IMP;SG;PRS
+waggeln,waggelt,V;IMP;PL;PRS
+vuneenfallen,vuneenfallen,V;NFIN
+vuneenfallen,fall vuneen,V;IND;SG;1;PRS
+vuneenfallen,full vuneen,V;IND;SG;1;PST
+vuneenfallen,vuneenfall,V;IND;SG;1;PRS;LGSPEC02
+vuneenfallen,vuneenfull,V;IND;SG;1;PST;LGSPEC02
+vuneenfallen,fallst vuneen,V;IND;SG;2;PRS
+vuneenfallen,fullst vuneen,V;IND;SG;2;PST
+vuneenfallen,vuneenfallst,V;IND;SG;2;PRS;LGSPEC02
+vuneenfallen,vuneenfullst,V;IND;SG;2;PST;LGSPEC02
+vuneenfallen,fallt vuneen,V;IND;SG;3;PRS
+vuneenfallen,full vuneen,V;IND;SG;3;PST
+vuneenfallen,vuneenfallt,V;IND;SG;3;PRS;LGSPEC02
+vuneenfallen,vuneenfull,V;IND;SG;3;PST;LGSPEC02
+vuneenfallen,fallt vuneen,V;IND;PL;PRS
+vuneenfallen,fullen vuneen,V;IND;PL;PST
+vuneenfallen,vuneenfallt,V;IND;PL;PRS;LGSPEC02
+vuneenfallen,vuneenfullen,V;IND;PL;PST;LGSPEC02
+vuneenfallen,fall vuneen,V;IMP;SG;PRS
+vuneenfallen,fallt vuneen,V;IMP;PL;PRS
+breken,breken,V;NFIN
+breken,breek,V;IND;SG;1;PRS
+breken,brook,V;IND;SG;1;PST
+breken,brickst,V;IND;SG;2;PRS
+breken,brookst,V;IND;SG;2;PST
+breken,brickt,V;IND;SG;3;PRS
+breken,brook,V;IND;SG;3;PST
+breken,breekt,V;IND;PL;PRS
+breken,breeken,V;IND;PL;PRS
+breken,broken,V;IND;PL;PST
+breken,breek,V;IMP;SG;PRS
+breken,breekt,V;IMP;PL;PRS
+ebben,ebben,V;NFIN
+ebben,ebb,V;IND;SG;1;PRS
+ebben,ebb,V;IND;SG;1;PST
+ebben,ebbst,V;IND;SG;2;PRS
+ebben,ebbst,V;IND;SG;2;PST
+ebben,ebbt,V;IND;SG;3;PRS
+ebben,ebb,V;IND;SG;3;PST
+ebben,ebbt,V;IND;PL;PRS
+ebben,ebben,V;IND;PL;PRS
+ebben,ebben,V;IND;PL;PST
+ebben,ebbe,V;IMP;SG;PRS
+ebben,ebbt,V;IMP;PL;PRS
+schienen,schienen,V;NFIN
+schienen,schien,V;IND;SG;1;PRS
+schienen,scheen,V;IND;SG;1;PST
+schienen,schinnst,V;IND;SG;2;PRS
+schienen,scheenst,V;IND;SG;2;PST
+schienen,schinnt,V;IND;SG;3;PRS
+schienen,scheen,V;IND;SG;3;PST
+schienen,schient,V;IND;PL;PRS
+schienen,schienen,V;IND;PL;PRS
+schienen,schenen,V;IND;PL;PST
+schienen,schien,V;IMP;SG;PRS
+schienen,schient,V;IMP;PL;PRS
+swenken,swenken,V;NFIN
+swenken,swenk,V;IND;SG;1;PRS
+swenken,swenk,V;IND;SG;1;PST
+swenken,swenkst,V;IND;SG;2;PRS
+swenken,swenkst,V;IND;SG;2;PST
+swenken,swenkt,V;IND;SG;3;PRS
+swenken,swenk,V;IND;SG;3;PST
+swenken,swenkt,V;IND;PL;PRS
+swenken,swenken,V;IND;PL;PRS
+swenken,swenken,V;IND;PL;PST
+swenken,swenke,V;IMP;SG;PRS
+swenken,swenkt,V;IMP;PL;PRS
+wrööschen,wrööschen,V;NFIN
+wrööschen,wröösch,V;IND;SG;1;PRS
+wrööschen,wröösch,V;IND;SG;1;PST
+wrööschen,wrööschst,V;IND;SG;2;PRS
+wrööschen,wrööschst,V;IND;SG;2;PST
+wrööschen,wrööscht,V;IND;SG;3;PRS
+wrööschen,wröösch,V;IND;SG;3;PST
+wrööschen,wrööscht,V;IND;PL;PRS
+wrööschen,wrööschen,V;IND;PL;PRS
+wrööschen,wrööschen,V;IND;PL;PST
+wrööschen,wröösche,V;IMP;SG;PRS
+wrööschen,wrööscht,V;IMP;PL;PRS
+dootblieven,dootblieven,V;NFIN
+dootblieven,bliev doot,V;IND;SG;1;PRS
+dootblieven,bleev doot,V;IND;SG;1;PST
+dootblieven,dootbliev,V;IND;SG;1;PRS;LGSPEC02
+dootblieven,dootbleev,V;IND;SG;1;PST;LGSPEC02
+dootblieven,bliffst doot,V;IND;SG;2;PRS
+dootblieven,bleevst doot,V;IND;SG;2;PST
+dootblieven,dootbliffst,V;IND;SG;2;PRS;LGSPEC02
+dootblieven,dootbleevst,V;IND;SG;2;PST;LGSPEC02
+dootblieven,blifft doot,V;IND;SG;3;PRS
+dootblieven,bleev doot,V;IND;SG;3;PST
+dootblieven,dootblifft,V;IND;SG;3;PRS;LGSPEC02
+dootblieven,dootbleev,V;IND;SG;3;PST;LGSPEC02
+dootblieven,blievt doot,V;IND;PL;PRS
+dootblieven,bleven doot,V;IND;PL;PST
+dootblieven,dootblievt,V;IND;PL;PRS;LGSPEC02
+dootblieven,dootbleven,V;IND;PL;PST;LGSPEC02
+dootblieven,bliev doot,V;IMP;SG;PRS
+dootblieven,blievt doot,V;IMP;PL;PRS
+ümkamen,ümkamen,V;NFIN
+ümkamen,kaam üm,V;IND;SG;1;PRS
+ümkamen,keem üm,V;IND;SG;1;PST
+ümkamen,ümkaam,V;IND;SG;1;PRS;LGSPEC02
+ümkamen,ümkeem,V;IND;SG;1;PST;LGSPEC02
+ümkamen,kümmst üm,V;IND;SG;2;PRS
+ümkamen,keemst üm,V;IND;SG;2;PST
+ümkamen,ümkümmst,V;IND;SG;2;PRS;LGSPEC02
+ümkamen,ümkeemst,V;IND;SG;2;PST;LGSPEC02
+ümkamen,kümmt üm,V;IND;SG;3;PRS
+ümkamen,keem üm,V;IND;SG;3;PST
+ümkamen,ümkümmt,V;IND;SG;3;PRS;LGSPEC02
+ümkamen,ümkeem,V;IND;SG;3;PST;LGSPEC02
+ümkamen,kaamt üm,V;IND;PL;PRS
+ümkamen,kemen üm,V;IND;PL;PST
+ümkamen,ümkaamt,V;IND;PL;PRS;LGSPEC02
+ümkamen,ümkemen,V;IND;PL;PST;LGSPEC02
+ümkamen,kaam üm,V;IMP;SG;PRS
+ümkamen,kaamt üm,V;IMP;PL;PRS
+schrieven,schrieven,V;NFIN
+schrieven,schriev,V;IND;SG;1;PRS
+schrieven,schreev,V;IND;SG;1;PST
+schrieven,schriffst,V;IND;SG;2;PRS
+schrieven,schreevst,V;IND;SG;2;PST
+schrieven,schrifft,V;IND;SG;3;PRS
+schrieven,schreev,V;IND;SG;3;PST
+schrieven,schrievt,V;IND;PL;PRS
+schrieven,schrieven,V;IND;PL;PRS
+schrieven,schreven,V;IND;PL;PST
+schrieven,schriev,V;IMP;SG;PRS
+schrieven,schrievt,V;IMP;PL;PRS
+snarken,snarken,V;NFIN
+snarken,snark,V;IND;SG;1;PRS
+snarken,snark,V;IND;SG;1;PST
+snarken,snarkst,V;IND;SG;2;PRS
+snarken,snarkst,V;IND;SG;2;PST
+snarken,snarkt,V;IND;SG;3;PRS
+snarken,snark,V;IND;SG;3;PST
+snarken,snarkt,V;IND;PL;PRS
+snarken,snarken,V;IND;PL;PRS
+snarken,snarken,V;IND;PL;PST
+snarken,snarke,V;IMP;SG;PRS
+snarken,snarkt,V;IMP;PL;PRS
+kamen,kamen,V;NFIN
+kamen,kaam,V;IND;SG;1;PRS
+kamen,keem,V;IND;SG;1;PST
+kamen,kümmst,V;IND;SG;2;PRS
+kamen,keemst,V;IND;SG;2;PST
+kamen,kümmt,V;IND;SG;3;PRS
+kamen,keem,V;IND;SG;3;PST
+kamen,kaamt,V;IND;PL;PRS
+kamen,kaamen,V;IND;PL;PRS
+kamen,kemen,V;IND;PL;PST
+kamen,kaam,V;IMP;SG;PRS
+kamen,kaamt,V;IMP;PL;PRS
+vergeten,vergeten,V;NFIN
+vergeten,vergeet,V;IND;SG;1;PRS
+vergeten,vergeet,V;IND;SG;1;PST
+vergeten,vergittst,V;IND;SG;2;PRS
+vergeten,vergeetst,V;IND;SG;2;PST
+vergeten,vergitt,V;IND;SG;3;PRS
+vergeten,vergeet,V;IND;SG;3;PST
+vergeten,vergeet,V;IND;PL;PRS
+vergeten,vergeten,V;IND;PL;PST
+vergeten,vergitt,V;IMP;SG;PRS
+vergeten,vergeet,V;IMP;SG;PRS
+vergeten,vergeet,V;IMP;PL;PRS
+nagahn,nagahn,V;NFIN
+nagahn,gah na,V;IND;SG;1;PRS
+nagahn,güng na,V;IND;SG;1;PST
+nagahn,nagah,V;IND;SG;1;PRS;LGSPEC02
+nagahn,nagüng,V;IND;SG;1;PST;LGSPEC02
+nagahn,geihst na,V;IND;SG;2;PRS
+nagahn,güngst na,V;IND;SG;2;PST
+nagahn,nageihst,V;IND;SG;2;PRS;LGSPEC02
+nagahn,nagüngst,V;IND;SG;2;PST;LGSPEC02
+nagahn,geiht na,V;IND;SG;3;PRS
+nagahn,güng na,V;IND;SG;3;PST
+nagahn,nageiht,V;IND;SG;3;PRS;LGSPEC02
+nagahn,nagüng,V;IND;SG;3;PST;LGSPEC02
+nagahn,gaht na,V;IND;PL;PRS
+nagahn,güngen na,V;IND;PL;PST
+nagahn,nagaht,V;IND;PL;PRS;LGSPEC02
+nagahn,nagüngen,V;IND;PL;PST;LGSPEC02
+nagahn,gah na,V;IMP;SG;PRS
+nagahn,gaht na,V;IMP;PL;PRS
+fresen,fresen,V;NFIN
+fresen,frees,V;IND;SG;1;PRS
+fresen,froor,V;IND;SG;1;PST
+fresen,früsst,V;IND;SG;2;PRS
+fresen,froorst,V;IND;SG;2;PST
+fresen,früst,V;IND;SG;3;PRS
+fresen,froor,V;IND;SG;3;PST
+fresen,freest,V;IND;PL;PRS
+fresen,freesen,V;IND;PL;PRS
+fresen,froren,V;IND;PL;PST
+fresen,frees,V;IMP;SG;PRS
+fresen,freest,V;IMP;PL;PRS
+döpen,döpen,V;NFIN
+döpen,dööp,V;IND;SG;1;PRS
+döpen,döff,V;IND;SG;1;PST
+döpen,döffst,V;IND;SG;2;PRS
+döpen,döffst,V;IND;SG;2;PST
+döpen,döfft,V;IND;SG;3;PRS
+döpen,döff,V;IND;SG;3;PST
+döpen,dööpt,V;IND;PL;PRS
+döpen,dööpen,V;IND;PL;PRS
+döpen,döffen,V;IND;PL;PST
+döpen,dööpe,V;IMP;SG;PRS
+döpen,dööpt,V;IMP;PL;PRS
+slapen,slapen,V;NFIN
+slapen,slaap,V;IND;SG;1;PRS
+slapen,sleep,V;IND;SG;1;PST
+slapen,slöppst,V;IND;SG;2;PRS
+slapen,sleepst,V;IND;SG;2;PST
+slapen,slöppt,V;IND;SG;3;PRS
+slapen,sleep,V;IND;SG;3;PST
+slapen,slaapt,V;IND;PL;PRS
+slapen,slaapen,V;IND;PL;PRS
+slapen,slepen,V;IND;PL;PST
+slapen,slaap,V;IMP;SG;PRS
+slapen,slaapt,V;IMP;PL;PRS
+spreken,spreken,V;NFIN
+spreken,spreek,V;IND;SG;1;PRS
+spreken,sprook,V;IND;SG;1;PST
+spreken,sprickst,V;IND;SG;2;PRS
+spreken,sprookst,V;IND;SG;2;PST
+spreken,sprickt,V;IND;SG;3;PRS
+spreken,sprook,V;IND;SG;3;PST
+spreken,spreekt,V;IND;PL;PRS
+spreken,spreeken,V;IND;PL;PRS
+spreken,sproken,V;IND;PL;PST
+spreken,spreek,V;IMP;SG;PRS
+spreken,spreekt,V;IMP;PL;PRS
+drepen,drepen,V;NFIN
+drepen,dreep,V;IND;SG;1;PRS
+drepen,dreep,V;IND;SG;1;PST
+drepen,drippst,V;IND;SG;2;PRS
+drepen,dreepst,V;IND;SG;2;PST
+drepen,drippt,V;IND;SG;3;PRS
+drepen,dreep,V;IND;SG;3;PST
+drepen,dreept,V;IND;PL;PRS
+drepen,dreepen,V;IND;PL;PRS
+drepen,drepen,V;IND;PL;PST
+drepen,dreep,V;IMP;SG;PRS
+drepen,dreept,V;IMP;PL;PRS
+verköpen,verköpen,V;NFIN
+verköpen,verkööp,V;IND;SG;1;PRS
+verköpen,verköff,V;IND;SG;1;PST
+verköpen,verköffst,V;IND;SG;2;PRS
+verköpen,verköffst,V;IND;SG;2;PST
+verköpen,verköfft,V;IND;SG;3;PRS
+verköpen,verköff,V;IND;SG;3;PST
+verköpen,verkööpt,V;IND;PL;PRS
+verköpen,verkööpen,V;IND;PL;PRS
+verköpen,verköffen,V;IND;PL;PST
+verköpen,verkööpe,V;IMP;SG;PRS
+verköpen,verkööpt,V;IMP;PL;PRS
+beden,beden,V;NFIN
+beden,beed,V;IND;SG;1;PRS
+beden,bood,V;IND;SG;1;PST
+beden,büddst,V;IND;SG;2;PRS
+beden,boodst,V;IND;SG;2;PST
+beden,büddt,V;IND;SG;3;PRS
+beden,bood,V;IND;SG;3;PST
+beden,beedt,V;IND;PL;PRS
+beden,beeden,V;IND;PL;PRS
+beden,boden,V;IND;PL;PST
+beden,beed,V;IMP;SG;PRS
+beden,beedt,V;IMP;PL;PRS
+swanken,swanken,V;NFIN
+swanken,swank,V;IND;SG;1;PRS
+swanken,swank,V;IND;SG;1;PST
+swanken,swankst,V;IND;SG;2;PRS
+swanken,swankst,V;IND;SG;2;PST
+swanken,swankt,V;IND;SG;3;PRS
+swanken,swank,V;IND;SG;3;PST
+swanken,swankt,V;IND;PL;PRS
+swanken,swanken,V;IND;PL;PRS
+swanken,swanken,V;IND;PL;PST
+swanken,swanke,V;IMP;SG;PRS
+swanken,swankt,V;IMP;PL;PRS
+riewen,riewen,V;NFIN
+riewen,riew,V;IND;SG;1;PRS
+riewen,reew,V;IND;SG;1;PST
+riewen,riffst,V;IND;SG;2;PRS
+riewen,reewst,V;IND;SG;2;PST
+riewen,rifft,V;IND;SG;3;PRS
+riewen,reew,V;IND;SG;3;PST
+riewen,riewt,V;IND;PL;PRS
+riewen,riewen,V;IND;PL;PRS
+riewen,rewen,V;IND;PL;PST
+riewen,riew,V;IMP;SG;PRS
+riewen,riewt,V;IMP;PL;PRS
+hangen,hangen,V;NFIN
+hangen,hang,V;IND;SG;1;PRS
+hangen,hung,V;IND;SG;1;PST
+hangen,hangst,V;IND;SG;2;PRS
+hangen,hungst,V;IND;SG;2;PST
+hangen,hangt,V;IND;SG;3;PRS
+hangen,hung,V;IND;SG;3;PST
+hangen,hangt,V;IND;PL;PRS
+hangen,hangen,V;IND;PL;PRS
+hangen,hungen,V;IND;PL;PST
+hangen,hang,V;IMP;SG;PRS
+hangen,hangt,V;IMP;PL;PRS
+blieven,blieven,V;NFIN
+blieven,bliev,V;IND;SG;1;PRS
+blieven,bleev,V;IND;SG;1;PST
+blieven,bliffst,V;IND;SG;2;PRS
+blieven,bleevst,V;IND;SG;2;PST
+blieven,blifft,V;IND;SG;3;PRS
+blieven,bleev,V;IND;SG;3;PST
+blieven,blievt,V;IND;PL;PRS
+blieven,blieven,V;IND;PL;PRS
+blieven,bleven,V;IND;PL;PST
+blieven,bliev,V;IMP;SG;PRS
+blieven,blievt,V;IMP;PL;PRS
+interesseren,interesseren,V;NFIN
+interesseren,interesseer,V;IND;SG;1;PRS
+interesseren,interesseer,V;IND;SG;1;PST
+interesseren,interesseerst,V;IND;SG;2;PRS
+interesseren,interesseerst,V;IND;SG;2;PST
+interesseren,interesseert,V;IND;SG;3;PRS
+interesseren,interesseer,V;IND;SG;3;PST
+interesseren,interesseert,V;IND;PL;PRS
+interesseren,interesseeren,V;IND;PL;PRS
+interesseren,interesseren,V;IND;PL;PST
+interesseren,interesseere,V;IMP;SG;PRS
+interesseren,interesseert,V;IMP;PL;PRS
+wanneln,wanneln,V;NFIN
+wanneln,wannel,V;IND;SG;1;PRS
+wanneln,wannel,V;IND;SG;1;PST
+wanneln,wannelst,V;IND;SG;2;PRS
+wanneln,wannelst,V;IND;SG;2;PST
+wanneln,wannelt,V;IND;SG;3;PRS
+wanneln,wannel,V;IND;SG;3;PST
+wanneln,wannelt,V;IND;PL;PRS
+wanneln,wanneln,V;IND;PL;PST
+wanneln,wannel,V;IMP;SG;PRS
+wanneln,wannelt,V;IMP;PL;PRS
+utsnacken,utsnacken,V;NFIN
+utsnacken,snack ut,V;IND;SG;1;PRS
+utsnacken,snack ut,V;IND;SG;1;PST
+utsnacken,utsnack,V;IND;SG;1;PRS;LGSPEC02
+utsnacken,utsnack,V;IND;SG;1;PST;LGSPEC02
+utsnacken,snackst ut,V;IND;SG;2;PRS
+utsnacken,snackst ut,V;IND;SG;2;PST
+utsnacken,utsnackst,V;IND;SG;2;PRS;LGSPEC02
+utsnacken,utsnackst,V;IND;SG;2;PST;LGSPEC02
+utsnacken,snackt ut,V;IND;SG;3;PRS
+utsnacken,snack ut,V;IND;SG;3;PST
+utsnacken,utsnackt,V;IND;SG;3;PRS;LGSPEC02
+utsnacken,utsnack,V;IND;SG;3;PST;LGSPEC02
+utsnacken,snackt ut,V;IND;PL;PRS
+utsnacken,snacken ut,V;IND;PL;PST
+utsnacken,utsnackt,V;IND;PL;PRS;LGSPEC02
+utsnacken,utsnacken,V;IND;PL;PST;LGSPEC02
+utsnacken,snack ut,V;IMP;SG;PRS
+utsnacken,snackt ut,V;IMP;PL;PRS
+dootmaken,dootmaken,V;NFIN
+dootmaken,maak doot,V;IND;SG;1;PRS
+dootmaken,möök doot,V;IND;SG;1;PST
+dootmaken,dootmaak,V;IND;SG;1;PRS;LGSPEC02
+dootmaken,dootmöök,V;IND;SG;1;PST;LGSPEC02
+dootmaken,maakst doot,V;IND;SG;2;PRS
+dootmaken,möökst doot,V;IND;SG;2;PST
+dootmaken,dootmaakst,V;IND;SG;2;PRS;LGSPEC02
+dootmaken,dootmöökst,V;IND;SG;2;PST;LGSPEC02
+dootmaken,maakt doot,V;IND;SG;3;PRS
+dootmaken,möök doot,V;IND;SG;3;PST
+dootmaken,dootmaakt,V;IND;SG;3;PRS;LGSPEC02
+dootmaken,dootmöök,V;IND;SG;3;PST;LGSPEC02
+dootmaken,maakt doot,V;IND;PL;PRS
+dootmaken,möken doot,V;IND;PL;PST
+dootmaken,dootmaakt,V;IND;PL;PRS;LGSPEC02
+dootmaken,dootmöken,V;IND;PL;PST;LGSPEC02
+dootmaken,maak doot,V;IMP;SG;PRS
+dootmaken,maakt doot,V;IMP;PL;PRS
+dootmaken,maak doot,V;IND;SG;1;PST
+dootmaken,dootmaak,V;IND;SG;1;PST;LGSPEC02
+dootmaken,maakst doot,V;IND;SG;2;PST
+dootmaken,dootmaakst,V;IND;SG;2;PST;LGSPEC02
+dootmaken,maak doot,V;IND;SG;3;PST
+dootmaken,dootmaak,V;IND;SG;3;PST;LGSPEC02
+dootmaken,maken doot,V;IND;PL;PST
+dootmaken,dootmaken,V;IND;PL;PST;LGSPEC02
+lachen,lachen,V;NFIN
+lachen,lach,V;IND;SG;1;PRS
+lachen,lach,V;IND;SG;1;PST
+lachen,lachst,V;IND;SG;2;PRS
+lachen,lachst,V;IND;SG;2;PST
+lachen,lacht,V;IND;SG;3;PRS
+lachen,lach,V;IND;SG;3;PST
+lachen,lacht,V;IND;PL;PRS
+lachen,lachen,V;IND;PL;PRS
+lachen,lachen,V;IND;PL;PST
+lachen,lache,V;IMP;SG;PRS
+lachen,lacht,V;IMP;PL;PRS
+lahmen,lahmen,V;NFIN
+lahmen,lahm,V;IND;SG;1;PRS
+lahmen,lahm,V;IND;SG;1;PST
+lahmen,lahmst,V;IND;SG;2;PRS
+lahmen,lahmst,V;IND;SG;2;PST
+lahmen,lahmt,V;IND;SG;3;PRS
+lahmen,lahm,V;IND;SG;3;PST
+lahmen,lahmt,V;IND;PL;PRS
+lahmen,lahmen,V;IND;PL;PRS
+lahmen,lahmen,V;IND;PL;PST
+lahmen,lahme,V;IMP;SG;PRS
+lahmen,lahmt,V;IMP;PL;PRS
+achtergahn,achtergahn,V;NFIN
+achtergahn,achtergah,V;IND;SG;1;PRS
+achtergahn,achtergüng,V;IND;SG;1;PST
+achtergahn,achtergeihst,V;IND;SG;2;PRS
+achtergahn,achtergüngst,V;IND;SG;2;PST
+achtergahn,achtergeiht,V;IND;SG;3;PRS
+achtergahn,achtergüng,V;IND;SG;3;PST
+achtergahn,achtergaht,V;IND;PL;PRS
+achtergahn,achtergahen,V;IND;PL;PRS
+achtergahn,achtergüngen,V;IND;PL;PST
+achtergahn,achtergah,V;IMP;SG;PRS
+achtergahn,achtergaht,V;IMP;PL;PRS
+bikamen,bikamen,V;NFIN
+bikamen,kaam bi,V;IND;SG;1;PRS
+bikamen,keem bi,V;IND;SG;1;PST
+bikamen,bikaam,V;IND;SG;1;PRS;LGSPEC02
+bikamen,bikeem,V;IND;SG;1;PST;LGSPEC02
+bikamen,kümmst bi,V;IND;SG;2;PRS
+bikamen,keemst bi,V;IND;SG;2;PST
+bikamen,bikümmst,V;IND;SG;2;PRS;LGSPEC02
+bikamen,bikeemst,V;IND;SG;2;PST;LGSPEC02
+bikamen,kümmt bi,V;IND;SG;3;PRS
+bikamen,keem bi,V;IND;SG;3;PST
+bikamen,bikümmt,V;IND;SG;3;PRS;LGSPEC02
+bikamen,bikeem,V;IND;SG;3;PST;LGSPEC02
+bikamen,kaamt bi,V;IND;PL;PRS
+bikamen,kemen bi,V;IND;PL;PST
+bikamen,bikaamt,V;IND;PL;PRS;LGSPEC02
+bikamen,bikemen,V;IND;PL;PST;LGSPEC02
+bikamen,kaam bi,V;IMP;SG;PRS
+bikamen,kaamt bi,V;IMP;PL;PRS
+fodern,fodern,V;NFIN
+fodern,foder,V;IND;SG;1;PRS
+fodern,foder,V;IND;SG;1;PST
+fodern,foderst,V;IND;SG;2;PRS
+fodern,foderst,V;IND;SG;2;PST
+fodern,fodert,V;IND;SG;3;PRS
+fodern,foder,V;IND;SG;3;PST
+fodern,fodert,V;IND;PL;PRS
+fodern,fodern,V;IND;PL;PST
+fodern,foder,V;IMP;SG;PRS
+fodern,fodert,V;IMP;PL;PRS
+schaven,schaven,V;NFIN
+schaven,schaav,V;IND;SG;1;PRS
+schaven,schaav,V;IND;SG;1;PST
+schaven,schaavst,V;IND;SG;2;PRS
+schaven,schaavst,V;IND;SG;2;PST
+schaven,schaavt,V;IND;SG;3;PRS
+schaven,schaav,V;IND;SG;3;PST
+schaven,schaavt,V;IND;PL;PRS
+schaven,schaaven,V;IND;PL;PRS
+schaven,schaven,V;IND;PL;PST
+schaven,schaave,V;IMP;SG;PRS
+schaven,schaavt,V;IMP;PL;PRS
+winnen,winnen,V;NFIN
+winnen,winn,V;IND;SG;1;PRS
+winnen,wunn,V;IND;SG;1;PST
+winnen,winnst,V;IND;SG;2;PRS
+winnen,wunnst,V;IND;SG;2;PST
+winnen,winnt,V;IND;SG;3;PRS
+winnen,wunn,V;IND;SG;3;PST
+winnen,winnt,V;IND;PL;PRS
+winnen,winnen,V;IND;PL;PRS
+winnen,wunnen,V;IND;PL;PST
+winnen,winn,V;IMP;SG;PRS
+winnen,winnt,V;IMP;PL;PRS
+verkrünkeln,verkrünkeln,V;NFIN
+verkrünkeln,verkrünkel,V;IND;SG;1;PRS
+verkrünkeln,verkrünkel,V;IND;SG;1;PST
+verkrünkeln,verkrünkelst,V;IND;SG;2;PRS
+verkrünkeln,verkrünkelst,V;IND;SG;2;PST
+verkrünkeln,verkrünkelt,V;IND;SG;3;PRS
+verkrünkeln,verkrünkel,V;IND;SG;3;PST
+verkrünkeln,verkrünkelt,V;IND;PL;PRS
+verkrünkeln,verkrünkeln,V;IND;PL;PST
+verkrünkeln,verkrünkel,V;IMP;SG;PRS
+verkrünkeln,verkrünkelt,V;IMP;PL;PRS
+schuckeln,schuckeln,V;NFIN
+schuckeln,schuckel,V;IND;SG;1;PRS
+schuckeln,schuckel,V;IND;SG;1;PST
+schuckeln,schuckelst,V;IND;SG;2;PRS
+schuckeln,schuckelst,V;IND;SG;2;PST
+schuckeln,schuckelt,V;IND;SG;3;PRS
+schuckeln,schuckel,V;IND;SG;3;PST
+schuckeln,schuckelt,V;IND;PL;PRS
+schuckeln,schuckeln,V;IND;PL;PST
+schuckeln,schuckel,V;IMP;SG;PRS
+schuckeln,schuckelt,V;IMP;PL;PRS
+wriggen,wriggen,V;NFIN
+wriggen,wrigg,V;IND;SG;1;PRS
+wriggen,wrigg,V;IND;SG;1;PST
+wriggen,wriggst,V;IND;SG;2;PRS
+wriggen,wriggst,V;IND;SG;2;PST
+wriggen,wriggt,V;IND;SG;3;PRS
+wriggen,wrigg,V;IND;SG;3;PST
+wriggen,wriggt,V;IND;PL;PRS
+wriggen,wriggen,V;IND;PL;PRS
+wriggen,wriggen,V;IND;PL;PST
+wriggen,wrigge,V;IMP;SG;PRS
+wriggen,wriggt,V;IMP;PL;PRS
+tellen,tellen,V;NFIN
+tellen,tell,V;IND;SG;1;PRS
+tellen,tell,V;IND;SG;1;PST
+tellen,tellst,V;IND;SG;2;PRS
+tellen,tellst,V;IND;SG;2;PST
+tellen,tellt,V;IND;SG;3;PRS
+tellen,tell,V;IND;SG;3;PST
+tellen,tellt,V;IND;PL;PRS
+tellen,tellen,V;IND;PL;PRS
+tellen,tellen,V;IND;PL;PST
+tellen,telle,V;IMP;SG;PRS
+tellen,tellt,V;IMP;PL;PRS
+regen,regen,V;NFIN
+regen,regen,V;IND;SG;1;PRS
+regen,regen,V;IND;SG;1;PST
+regen,regenst,V;IND;SG;2;PRS
+regen,regenst,V;IND;SG;2;PST
+regen,regent,V;IND;SG;3;PRS
+regen,regen,V;IND;SG;3;PST
+regen,regent,V;IND;PL;PRS
+regen,regenen,V;IND;PL;PRS
+regen,reegnen,V;IND;PL;PST
+regen,regen,V;IND;PL;PST
+regen,regene,V;IMP;SG;PRS
+regen,regent,V;IMP;PL;PRS
+teken,teken,V;NFIN
+teken,teken,V;IND;SG;1;PRS
+teken,teken,V;IND;SG;1;PST
+teken,tekenst,V;IND;SG;2;PRS
+teken,tekenst,V;IND;SG;2;PST
+teken,tekent,V;IND;SG;3;PRS
+teken,teken,V;IND;SG;3;PST
+teken,tekent,V;IND;PL;PRS
+teken,tekenen,V;IND;PL;PRS
+teken,teeknen,V;IND;PL;PST
+teken,teken,V;IND;PL;PST
+teken,tekene,V;IMP;SG;PRS
+teken,tekent,V;IMP;PL;PRS
+stahn,stahn,V;NFIN
+stahn,stah,V;IND;SG;1;PRS
+stahn,stunn,V;IND;SG;1;PST
+stahn,steihst,V;IND;SG;2;PRS
+stahn,stunnst,V;IND;SG;2;PST
+stahn,steiht,V;IND;SG;3;PRS
+stahn,stunn,V;IND;SG;3;PST
+stahn,staht,V;IND;PL;PRS
+stahn,stunnen,V;IND;PL;PST
+stahn,stah,V;IMP;SG;PRS
+stahn,staht,V;IMP;PL;PRS
+snorren,snorren,V;NFIN
+snorren,snorr,V;IND;SG;1;PRS
+snorren,snorr,V;IND;SG;1;PST
+snorren,snorrst,V;IND;SG;2;PRS
+snorren,snorrst,V;IND;SG;2;PST
+snorren,snorrt,V;IND;SG;3;PRS
+snorren,snorr,V;IND;SG;3;PST
+snorren,snorrt,V;IND;PL;PRS
+snorren,snorren,V;IND;PL;PRS
+snorren,snorren,V;IND;PL;PST
+snorren,snorre,V;IMP;SG;PRS
+snorren,snorrt,V;IMP;PL;PRS
+dregen,dregen,V;NFIN
+dregen,dreeg,V;IND;SG;1;PRS
+dregen,droog,V;IND;SG;1;PST
+dregen,driggst,V;IND;SG;2;PRS
+dregen,droogst,V;IND;SG;2;PST
+dregen,driggt,V;IND;SG;3;PRS
+dregen,droog,V;IND;SG;3;PST
+dregen,dreegt,V;IND;PL;PRS
+dregen,dreegen,V;IND;PL;PRS
+dregen,drogen,V;IND;PL;PST
+dregen,dreeg,V;IMP;SG;PRS
+dregen,dreegt,V;IMP;PL;PRS
+schüdden,schüdden,V;NFIN
+schüdden,schüdd,V;IND;SG;1;PRS
+schüdden,schüdd,V;IND;SG;1;PST
+schüdden,schüddst,V;IND;SG;2;PRS
+schüdden,schüddst,V;IND;SG;2;PST
+schüdden,schüddt,V;IND;SG;3;PRS
+schüdden,schüdd,V;IND;SG;3;PST
+schüdden,schüddt,V;IND;PL;PRS
+schüdden,schüdden,V;IND;PL;PRS
+schüdden,schüdden,V;IND;PL;PST
+schüdden,schüdde,V;IMP;SG;PRS
+schüdden,schüddt,V;IMP;PL;PRS
+gluustern,gluustern,V;NFIN
+gluustern,gluuster,V;IND;SG;1;PRS
+gluustern,gluuster,V;IND;SG;1;PST
+gluustern,gluusterst,V;IND;SG;2;PRS
+gluustern,gluusterst,V;IND;SG;2;PST
+gluustern,gluustert,V;IND;SG;3;PRS
+gluustern,gluuster,V;IND;SG;3;PST
+gluustern,gluustert,V;IND;PL;PRS
+gluustern,gluustern,V;IND;PL;PST
+gluustern,gluuster,V;IMP;SG;PRS
+gluustern,gluustert,V;IMP;PL;PRS
+wrinschen,wrinschen,V;NFIN
+wrinschen,wrinsch,V;IND;SG;1;PRS
+wrinschen,wrinsch,V;IND;SG;1;PST
+wrinschen,wrinschst,V;IND;SG;2;PRS
+wrinschen,wrinschst,V;IND;SG;2;PST
+wrinschen,wrinscht,V;IND;SG;3;PRS
+wrinschen,wrinsch,V;IND;SG;3;PST
+wrinschen,wrinscht,V;IND;PL;PRS
+wrinschen,wrinschen,V;IND;PL;PRS
+wrinschen,wrinschen,V;IND;PL;PST
+wrinschen,wrinsche,V;IMP;SG;PRS
+wrinschen,wrinscht,V;IMP;PL;PRS
+köpen,köpen,V;NFIN
+köpen,kööp,V;IND;SG;1;PRS
+köpen,köff,V;IND;SG;1;PST
+köpen,köffst,V;IND;SG;2;PRS
+köpen,köffst,V;IND;SG;2;PST
+köpen,köfft,V;IND;SG;3;PRS
+köpen,köff,V;IND;SG;3;PST
+köpen,kööpt,V;IND;PL;PRS
+köpen,kööpen,V;IND;PL;PRS
+köpen,köffen,V;IND;PL;PST
+köpen,kööpe,V;IMP;SG;PRS
+köpen,kööpt,V;IMP;PL;PRS
+krökeln,krökeln,V;NFIN
+krökeln,krökel,V;IND;SG;1;PRS
+krökeln,krökel,V;IND;SG;1;PST
+krökeln,krökelst,V;IND;SG;2;PRS
+krökeln,krökelst,V;IND;SG;2;PST
+krökeln,krökelt,V;IND;SG;3;PRS
+krökeln,krökel,V;IND;SG;3;PST
+krökeln,krökelt,V;IND;PL;PRS
+krökeln,krökeln,V;IND;PL;PST
+krökeln,krökel,V;IMP;SG;PRS
+krökeln,krökelt,V;IMP;PL;PRS
+smölen,smölen,V;NFIN
+smölen,smööl,V;IND;SG;1;PRS
+smölen,smööl,V;IND;SG;1;PST
+smölen,smöölst,V;IND;SG;2;PRS
+smölen,smöölst,V;IND;SG;2;PST
+smölen,smöölt,V;IND;SG;3;PRS
+smölen,smööl,V;IND;SG;3;PST
+smölen,smöölt,V;IND;PL;PRS
+smölen,smöölen,V;IND;PL;PRS
+smölen,smölen,V;IND;PL;PST
+smölen,smööle,V;IMP;SG;PRS
+smölen,smöölt,V;IMP;PL;PRS
+tostannkriegen,tostannkriegen,V;NFIN
+tostannkriegen,krieg tostann,V;IND;SG;1;PRS
+tostannkriegen,kreeg tostann,V;IND;SG;1;PST
+tostannkriegen,tostannkrieg,V;IND;SG;1;PRS;LGSPEC02
+tostannkriegen,tostannkreeg,V;IND;SG;1;PST;LGSPEC02
+tostannkriegen,kriggst tostann,V;IND;SG;2;PRS
+tostannkriegen,kreegst tostann,V;IND;SG;2;PST
+tostannkriegen,tostannkriggst,V;IND;SG;2;PRS;LGSPEC02
+tostannkriegen,tostannkreegst,V;IND;SG;2;PST;LGSPEC02
+tostannkriegen,kriggt tostann,V;IND;SG;3;PRS
+tostannkriegen,kreeg tostann,V;IND;SG;3;PST
+tostannkriegen,tostannkriggt,V;IND;SG;3;PRS;LGSPEC02
+tostannkriegen,tostannkreeg,V;IND;SG;3;PST;LGSPEC02
+tostannkriegen,kriegt tostann,V;IND;PL;PRS
+tostannkriegen,kregen tostann,V;IND;PL;PST
+tostannkriegen,tostannkriegt,V;IND;PL;PRS;LGSPEC02
+tostannkriegen,tostannkregen,V;IND;PL;PST;LGSPEC02
+tostannkriegen,krieg tostann,V;IMP;SG;PRS
+tostannkriegen,kriegt tostann,V;IMP;PL;PRS
+afschaven,afschaven,V;NFIN
+afschaven,schaav af,V;IND;SG;1;PRS
+afschaven,schaav af,V;IND;SG;1;PST
+afschaven,afschaav,V;IND;SG;1;PRS;LGSPEC02
+afschaven,afschaav,V;IND;SG;1;PST;LGSPEC02
+afschaven,schaavst af,V;IND;SG;2;PRS
+afschaven,schaavst af,V;IND;SG;2;PST
+afschaven,afschaavst,V;IND;SG;2;PRS;LGSPEC02
+afschaven,afschaavst,V;IND;SG;2;PST;LGSPEC02
+afschaven,schaavt af,V;IND;SG;3;PRS
+afschaven,schaav af,V;IND;SG;3;PST
+afschaven,afschaavt,V;IND;SG;3;PRS;LGSPEC02
+afschaven,afschaav,V;IND;SG;3;PST;LGSPEC02
+afschaven,schaavt af,V;IND;PL;PRS
+afschaven,schaven af,V;IND;PL;PST
+afschaven,afschaavt,V;IND;PL;PRS;LGSPEC02
+afschaven,afschaven,V;IND;PL;PST;LGSPEC02
+afschaven,schaav af,V;IMP;SG;PRS
+afschaven,schaavt af,V;IMP;PL;PRS
+slackern,slackern,V;NFIN
+slackern,slacker,V;IND;SG;1;PRS
+slackern,slacker,V;IND;SG;1;PST
+slackern,slackerst,V;IND;SG;2;PRS
+slackern,slackerst,V;IND;SG;2;PST
+slackern,slackert,V;IND;SG;3;PRS
+slackern,slacker,V;IND;SG;3;PST
+slackern,slackert,V;IND;PL;PRS
+slackern,slackern,V;IND;PL;PST
+slackern,slacker,V;IMP;SG;PRS
+slackern,slackert,V;IMP;PL;PRS
+glöven,glöven,V;NFIN
+glöven,glööv,V;IND;SG;1;PRS
+glöven,glööv,V;IND;SG;1;PST
+glöven,glöövst,V;IND;SG;2;PRS
+glöven,glöövst,V;IND;SG;2;PST
+glöven,glöövt,V;IND;SG;3;PRS
+glöven,glööv,V;IND;SG;3;PST
+glöven,glöövt,V;IND;PL;PRS
+glöven,glööven,V;IND;PL;PRS
+glöven,glöven,V;IND;PL;PST
+glöven,glööve,V;IMP;SG;PRS
+glöven,glöövt,V;IMP;PL;PRS
+gootachten,gootachten,V;NFIN
+gootachten,gootacht,V;IND;SG;1;PRS
+gootachten,gootacht,V;IND;SG;1;PST
+gootachten,gootachtst,V;IND;SG;2;PRS
+gootachten,gootachtst,V;IND;SG;2;PST
+gootachten,gootachtt,V;IND;SG;3;PRS
+gootachten,gootacht,V;IND;SG;3;PST
+gootachten,gootachtt,V;IND;PL;PRS
+gootachten,gootachten,V;IND;PL;PRS
+gootachten,gootachten,V;IND;PL;PST
+gootachten,gootachte,V;IMP;SG;PRS
+gootachten,gootachtt,V;IMP;PL;PRS
+wrachten,wrachten,V;NFIN
+wrachten,wracht,V;IND;SG;1;PRS
+wrachten,wracht,V;IND;SG;1;PST
+wrachten,wrachtst,V;IND;SG;2;PRS
+wrachten,wrachtst,V;IND;SG;2;PST
+wrachten,wracht,V;IND;SG;3;PRS
+wrachten,wracht,V;IND;SG;3;PST
+wrachten,wracht,V;IND;PL;PRS
+wrachten,wrachten,V;IND;PL;PST
+wrachten,wracht,V;IMP;SG;PRS
+wrachten,wracht,V;IMP;PL;PRS
+verdwienen,verdwienen,V;NFIN
+verdwienen,verdwien,V;IND;SG;1;PRS
+verdwienen,verdween,V;IND;SG;1;PST
+verdwienen,verdwinnst,V;IND;SG;2;PRS
+verdwienen,verdweenst,V;IND;SG;2;PST
+verdwienen,verdwinnt,V;IND;SG;3;PRS
+verdwienen,verdween,V;IND;SG;3;PST
+verdwienen,verdwient,V;IND;PL;PRS
+verdwienen,verdwienen,V;IND;PL;PRS
+verdwienen,verdwenen,V;IND;PL;PST
+verdwienen,verdwien,V;IMP;SG;PRS
+verdwienen,verdwient,V;IMP;PL;PRS
+vermoden,vermoden,V;NFIN
+vermoden,vermood,V;IND;SG;1;PRS
+vermoden,vermood,V;IND;SG;1;PST
+vermoden,vermoodst,V;IND;SG;2;PRS
+vermoden,vermoodst,V;IND;SG;2;PST
+vermoden,vermoodt,V;IND;SG;3;PRS
+vermoden,vermood,V;IND;SG;3;PST
+vermoden,vermoodt,V;IND;PL;PRS
+vermoden,vermooden,V;IND;PL;PRS
+vermoden,vermoden,V;IND;PL;PST
+vermoden,vermoode,V;IMP;SG;PRS
+vermoden,vermoodt,V;IMP;PL;PRS
+stinken,stinken,V;NFIN
+stinken,stink,V;IND;SG;1;PRS
+stinken,stunk,V;IND;SG;1;PST
+stinken,stinkst,V;IND;SG;2;PRS
+stinken,stunkst,V;IND;SG;2;PST
+stinken,stinkt,V;IND;SG;3;PRS
+stinken,stunk,V;IND;SG;3;PST
+stinken,stinkt,V;IND;PL;PRS
+stinken,stinken,V;IND;PL;PRS
+stinken,stunken,V;IND;PL;PST
+stinken,stink,V;IMP;SG;PRS
+stinken,stinkt,V;IMP;PL;PRS
+tohoopkleien,tohoopkleien,V;NFIN
+tohoopkleien,klei tohoop,V;IND;SG;1;PRS
+tohoopkleien,klei tohoop,V;IND;SG;1;PST
+tohoopkleien,tohoopklei,V;IND;SG;1;PRS;LGSPEC02
+tohoopkleien,tohoopklei,V;IND;SG;1;PST;LGSPEC02
+tohoopkleien,kleist tohoop,V;IND;SG;2;PRS
+tohoopkleien,kleist tohoop,V;IND;SG;2;PST
+tohoopkleien,tohoopkleist,V;IND;SG;2;PRS;LGSPEC02
+tohoopkleien,tohoopkleist,V;IND;SG;2;PST;LGSPEC02
+tohoopkleien,kleit tohoop,V;IND;SG;3;PRS
+tohoopkleien,klei tohoop,V;IND;SG;3;PST
+tohoopkleien,tohoopkleit,V;IND;SG;3;PRS;LGSPEC02
+tohoopkleien,tohoopklei,V;IND;SG;3;PST;LGSPEC02
+tohoopkleien,kleit tohoop,V;IND;PL;PRS
+tohoopkleien,kleien tohoop,V;IND;PL;PST
+tohoopkleien,tohoopkleit,V;IND;PL;PRS;LGSPEC02
+tohoopkleien,tohoopkleien,V;IND;PL;PST;LGSPEC02
+tohoopkleien,klei tohoop,V;IMP;SG;PRS
+tohoopkleien,kleit tohoop,V;IMP;PL;PRS
+egen,egen,V;NFIN
+egen,egen,V;IND;SG;1;PRS
+egen,egen,V;IND;SG;1;PST
+egen,egenst,V;IND;SG;2;PRS
+egen,egenst,V;IND;SG;2;PST
+egen,egent,V;IND;SG;3;PRS
+egen,egen,V;IND;SG;3;PST
+egen,egent,V;IND;PL;PRS
+egen,egenen,V;IND;PL;PRS
+egen,eegnen,V;IND;PL;PST
+egen,egen,V;IND;PL;PST
+egen,egene,V;IMP;SG;PRS
+egen,egent,V;IMP;PL;PRS
+dören,dören,V;NFIN
+dören,döör,V;IND;SG;1;PRS
+dören,dörs,V;IND;SG;1;PST
+dören,döörst,V;IND;SG;2;PRS
+dören,dörst,V;IND;SG;2;PST
+dören,döört,V;IND;SG;3;PRS
+dören,dörs,V;IND;SG;3;PST
+dören,döört,V;IND;PL;PRS
+dören,dörsen,V;IND;PL;PST
+dören,döör,V;IMP;SG;PRS
+dören,döört,V;IMP;PL;PRS
+wunnerköppen,wunnerköppen,V;NFIN
+wunnerköppen,wunnerköpp,V;IND;SG;1;PRS
+wunnerköppen,wunnerköpp,V;IND;SG;1;PST
+wunnerköppen,wunnerköppst,V;IND;SG;2;PRS
+wunnerköppen,wunnerköppst,V;IND;SG;2;PST
+wunnerköppen,wunnerköppt,V;IND;SG;3;PRS
+wunnerköppen,wunnerköpp,V;IND;SG;3;PST
+wunnerköppen,wunnerköppt,V;IND;PL;PRS
+wunnerköppen,wunnerköppen,V;IND;PL;PRS
+wunnerköppen,wunnerköppen,V;IND;PL;PST
+wunnerköppen,wunnerköppe,V;IMP;SG;PRS
+wunnerköppen,wunnerköppt,V;IMP;PL;PRS
+smuustergrienen,smuustergrienen,V;NFIN
+smuustergrienen,smuustergrien,V;IND;SG;1;PRS
+smuustergrienen,smuustergrien,V;IND;SG;1;PST
+smuustergrienen,smuustergrienst,V;IND;SG;2;PRS
+smuustergrienen,smuustergrienst,V;IND;SG;2;PST
+smuustergrienen,smuustergrient,V;IND;SG;3;PRS
+smuustergrienen,smuustergrien,V;IND;SG;3;PST
+smuustergrienen,smuustergrient,V;IND;PL;PRS
+smuustergrienen,smuustergrienen,V;IND;PL;PRS
+smuustergrienen,smuustergrienen,V;IND;PL;PST
+smuustergrienen,smuustergriene,V;IMP;SG;PRS
+smuustergrienen,smuustergrient,V;IMP;PL;PRS
+krunkeln,krunkeln,V;NFIN
+krunkeln,krunkel,V;IND;SG;1;PRS
+krunkeln,krunkel,V;IND;SG;1;PST
+krunkeln,krunkelst,V;IND;SG;2;PRS
+krunkeln,krunkelst,V;IND;SG;2;PST
+krunkeln,krunkelt,V;IND;SG;3;PRS
+krunkeln,krunkel,V;IND;SG;3;PST
+krunkeln,krunkelt,V;IND;PL;PRS
+krunkeln,krunkeln,V;IND;PL;PST
+krunkeln,krunkel,V;IMP;SG;PRS
+krunkeln,krunkelt,V;IMP;PL;PRS
+vermöden,vermöden,V;NFIN
+vermöden,vermööd,V;IND;SG;1;PRS
+vermöden,vermööd,V;IND;SG;1;PST
+vermöden,vermöödst,V;IND;SG;2;PRS
+vermöden,vermöödst,V;IND;SG;2;PST
+vermöden,vermöödt,V;IND;SG;3;PRS
+vermöden,vermööd,V;IND;SG;3;PST
+vermöden,vermöödt,V;IND;PL;PRS
+vermöden,vermööden,V;IND;PL;PRS
+vermöden,vermöden,V;IND;PL;PST
+vermöden,vermööde,V;IMP;SG;PRS
+vermöden,vermöödt,V;IMP;PL;PRS
+fechten,fechten,V;NFIN
+fechten,fecht,V;IND;SG;1;PRS
+fechten,fecht,V;IND;SG;1;PST
+fechten,fechtst,V;IND;SG;2;PRS
+fechten,fechtst,V;IND;SG;2;PST
+fechten,fecht,V;IND;SG;3;PRS
+fechten,fecht,V;IND;SG;3;PST
+fechten,fecht,V;IND;PL;PRS
+fechten,fechten,V;IND;PL;PST
+fechten,fecht,V;IMP;SG;PRS
+fechten,fecht,V;IMP;PL;PRS
+fechten,focht,V;IND;SG;1;PST
+fechten,fechtst,V;IND;SG;2;PRS
+fechten,fochtst,V;IND;SG;2;PST
+fechten,fechtt,V;IND;SG;3;PRS
+fechten,focht,V;IND;SG;3;PST
+fechten,fechtt,V;IND;PL;PRS
+fechten,fechten,V;IND;PL;PRS
+fechten,fochten,V;IND;PL;PST
+fechten,fechtt,V;IMP;PL;PRS
+utspreken,utspreken,V;NFIN
+utspreken,spreek ut,V;IND;SG;1;PRS
+utspreken,sprook ut,V;IND;SG;1;PST
+utspreken,utspreek,V;IND;SG;1;PRS;LGSPEC02
+utspreken,utsprook,V;IND;SG;1;PST;LGSPEC02
+utspreken,sprickst ut,V;IND;SG;2;PRS
+utspreken,sprookst ut,V;IND;SG;2;PST
+utspreken,utsprickst,V;IND;SG;2;PRS;LGSPEC02
+utspreken,utsprookst,V;IND;SG;2;PST;LGSPEC02
+utspreken,sprickt ut,V;IND;SG;3;PRS
+utspreken,sprook ut,V;IND;SG;3;PST
+utspreken,utsprickt,V;IND;SG;3;PRS;LGSPEC02
+utspreken,utsprook,V;IND;SG;3;PST;LGSPEC02
+utspreken,spreekt ut,V;IND;PL;PRS
+utspreken,sproken ut,V;IND;PL;PST
+utspreken,utspreekt,V;IND;PL;PRS;LGSPEC02
+utspreken,utsproken,V;IND;PL;PST;LGSPEC02
+utspreken,spreek ut,V;IMP;SG;PRS
+utspreken,spreekt ut,V;IMP;PL;PRS
+bedregen,bedregen,V;NFIN
+bedregen,bedreeg,V;IND;SG;1;PRS
+bedregen,bedroog,V;IND;SG;1;PST
+bedregen,bedrüggst,V;IND;SG;2;PRS
+bedregen,bedroogst,V;IND;SG;2;PST
+bedregen,bedrüggt,V;IND;SG;3;PRS
+bedregen,bedroog,V;IND;SG;3;PST
+bedregen,bedreegt,V;IND;PL;PRS
+bedregen,bedreegen,V;IND;PL;PRS
+bedregen,bedrogen,V;IND;PL;PST
+bedregen,bedreeg,V;IMP;SG;PRS
+bedregen,bedreegt,V;IMP;PL;PRS
+bedregen,bedriggst,V;IND;SG;2;PRS
+bedregen,bedriggt,V;IND;SG;3;PRS
+warrn,warrn,V;NFIN
+warrn,warr,V;IND;SG;1;PRS
+warrn,wurr,V;IND;SG;1;PST
+warrn,worr,V;IND;SG;1;PST
+warrn,warrst,V;IND;SG;2;PRS
+warrn,wurrst,V;IND;SG;2;PST
+warrn,worrst,V;IND;SG;2;PST
+warrn,warrt,V;IND;SG;3;PRS
+warrn,wurr,V;IND;SG;3;PST
+warrn,worr,V;IND;SG;3;PST
+warrn,warrt,V;IND;PL;PRS
+warrn,wurrn,V;IND;PL;PST
+warrn,worrn,V;IND;PL;PST
+warrn,warr,V;IMP;SG;PRS
+warrn,warrt,V;IMP;PL;PRS
+ännern,ännern,V;NFIN
+ännern,änner,V;IND;SG;1;PRS
+ännern,änner,V;IND;SG;1;PST
+ännern,ännerst,V;IND;SG;2;PRS
+ännern,ännerst,V;IND;SG;2;PST
+ännern,ännert,V;IND;SG;3;PRS
+ännern,änner,V;IND;SG;3;PST
+ännern,ännert,V;IND;PL;PRS
+ännern,ännern,V;IND;PL;PST
+ännern,änner,V;IMP;SG;PRS
+ännern,ännert,V;IMP;PL;PRS
+lopen,lopen,V;NFIN
+lopen,loop,V;IND;SG;1;PRS
+lopen,leep,V;IND;SG;1;PST
+lopen,löppst,V;IND;SG;2;PRS
+lopen,leepst,V;IND;SG;2;PST
+lopen,löppt,V;IND;SG;3;PRS
+lopen,leep,V;IND;SG;3;PST
+lopen,loopt,V;IND;PL;PRS
+lopen,loopen,V;IND;PL;PRS
+lopen,lepen,V;IND;PL;PST
+lopen,loop,V;IMP;SG;PRS
+lopen,loopt,V;IMP;PL;PRS
+gniegeln,gniegeln,V;NFIN
+gniegeln,gniegel,V;IND;SG;1;PRS
+gniegeln,gniegel,V;IND;SG;1;PST
+gniegeln,gniegelst,V;IND;SG;2;PRS
+gniegeln,gniegelst,V;IND;SG;2;PST
+gniegeln,gniegelt,V;IND;SG;3;PRS
+gniegeln,gniegel,V;IND;SG;3;PST
+gniegeln,gniegelt,V;IND;PL;PRS
+gniegeln,gniegeln,V;IND;PL;PST
+gniegeln,gniegel,V;IMP;SG;PRS
+gniegeln,gniegelt,V;IMP;PL;PRS
+bringen,bringen,V;NFIN
+bringen,bring,V;IND;SG;1;PRS
+bringen,broch,V;IND;SG;1;PST
+bringen,bringst,V;IND;SG;2;PRS
+bringen,brochst,V;IND;SG;2;PST
+bringen,bringt,V;IND;SG;3;PRS
+bringen,broch,V;IND;SG;3;PST
+bringen,bringt,V;IND;PL;PRS
+bringen,bringen,V;IND;PL;PRS
+bringen,brochen,V;IND;PL;PST
+bringen,bringe,V;IMP;SG;PRS
+bringen,bringt,V;IMP;PL;PRS
+glieden,glieden,V;NFIN
+glieden,glied,V;IND;SG;1;PRS
+glieden,gleed,V;IND;SG;1;PST
+glieden,gliddst,V;IND;SG;2;PRS
+glieden,gleedst,V;IND;SG;2;PST
+glieden,gliddt,V;IND;SG;3;PRS
+glieden,gleed,V;IND;SG;3;PST
+glieden,gliedt,V;IND;PL;PRS
+glieden,glieden,V;IND;PL;PRS
+glieden,gleden,V;IND;PL;PST
+glieden,glied,V;IMP;SG;PRS
+glieden,gliedt,V;IMP;PL;PRS
+spekeleren,spekeleren,V;NFIN
+spekeleren,spekeleer,V;IND;SG;1;PRS
+spekeleren,spekeleer,V;IND;SG;1;PST
+spekeleren,spekeleerst,V;IND;SG;2;PRS
+spekeleren,spekeleerst,V;IND;SG;2;PST
+spekeleren,spekeleert,V;IND;SG;3;PRS
+spekeleren,spekeleer,V;IND;SG;3;PST
+spekeleren,spekeleert,V;IND;PL;PRS
+spekeleren,spekeleeren,V;IND;PL;PRS
+spekeleren,spekeleren,V;IND;PL;PST
+spekeleren,spekeleere,V;IMP;SG;PRS
+spekeleren,spekeleert,V;IMP;PL;PRS
+warken,warken,V;NFIN
+warken,wark,V;IND;SG;1;PRS
+warken,wark,V;IND;SG;1;PST
+warken,warkst,V;IND;SG;2;PRS
+warken,warkst,V;IND;SG;2;PST
+warken,warkt,V;IND;SG;3;PRS
+warken,wark,V;IND;SG;3;PST
+warken,warkt,V;IND;PL;PRS
+warken,warken,V;IND;PL;PRS
+warken,warken,V;IND;PL;PST
+warken,warke,V;IMP;SG;PRS
+warken,warkt,V;IMP;PL;PRS
+hängen,hängen,V;NFIN
+hängen,häng,V;IND;SG;1;PRS
+hängen,häng,V;IND;SG;1;PST
+hängen,hängst,V;IND;SG;2;PRS
+hängen,hängst,V;IND;SG;2;PST
+hängen,hängt,V;IND;SG;3;PRS
+hängen,häng,V;IND;SG;3;PST
+hängen,hängt,V;IND;PL;PRS
+hängen,hängen,V;IND;PL;PRS
+hängen,hängen,V;IND;PL;PST
+hängen,hänge,V;IMP;SG;PRS
+hängen,hängt,V;IMP;PL;PRS
+oppurren,oppurren,V;NFIN
+oppurren,purr op,V;IND;SG;1;PRS
+oppurren,purr op,V;IND;SG;1;PST
+oppurren,oppurr,V;IND;SG;1;PRS;LGSPEC02
+oppurren,oppurr,V;IND;SG;1;PST;LGSPEC02
+oppurren,purrst op,V;IND;SG;2;PRS
+oppurren,purrst op,V;IND;SG;2;PST
+oppurren,oppurrst,V;IND;SG;2;PRS;LGSPEC02
+oppurren,oppurrst,V;IND;SG;2;PST;LGSPEC02
+oppurren,purrt op,V;IND;SG;3;PRS
+oppurren,purr op,V;IND;SG;3;PST
+oppurren,oppurrt,V;IND;SG;3;PRS;LGSPEC02
+oppurren,oppurr,V;IND;SG;3;PST;LGSPEC02
+oppurren,purrt op,V;IND;PL;PRS
+oppurren,purren op,V;IND;PL;PST
+oppurren,oppurrt,V;IND;PL;PRS;LGSPEC02
+oppurren,oppurren,V;IND;PL;PST;LGSPEC02
+oppurren,purr op,V;IMP;SG;PRS
+oppurren,purrt op,V;IMP;PL;PRS
+krupen,krupen,V;NFIN
+krupen,kruup,V;IND;SG;1;PRS
+krupen,kroop,V;IND;SG;1;PST
+krupen,krüppst,V;IND;SG;2;PRS
+krupen,kroopst,V;IND;SG;2;PST
+krupen,krüppt,V;IND;SG;3;PRS
+krupen,kroop,V;IND;SG;3;PST
+krupen,kruupt,V;IND;PL;PRS
+krupen,kruupen,V;IND;PL;PRS
+krupen,kropen,V;IND;PL;PST
+krupen,kruup,V;IMP;SG;PRS
+krupen,kruupt,V;IMP;PL;PRS
+begünnen,begünnen,V;NFIN
+begünnen,begünn,V;IND;SG;1;PRS
+begünnen,begunn,V;IND;SG;1;PST
+begünnen,begünnst,V;IND;SG;2;PRS
+begünnen,begunnst,V;IND;SG;2;PST
+begünnen,begünnt,V;IND;SG;3;PRS
+begünnen,begunn,V;IND;SG;3;PST
+begünnen,begünnt,V;IND;PL;PRS
+begünnen,begünnen,V;IND;PL;PRS
+begünnen,begunnen,V;IND;PL;PST
+begünnen,begünn,V;IMP;SG;PRS
+begünnen,begünnt,V;IMP;PL;PRS
+utlachen,utlachen,V;NFIN
+utlachen,lach ut,V;IND;SG;1;PRS
+utlachen,lach ut,V;IND;SG;1;PST
+utlachen,utlach,V;IND;SG;1;PRS;LGSPEC02
+utlachen,utlach,V;IND;SG;1;PST;LGSPEC02
+utlachen,lachst ut,V;IND;SG;2;PRS
+utlachen,lachst ut,V;IND;SG;2;PST
+utlachen,utlachst,V;IND;SG;2;PRS;LGSPEC02
+utlachen,utlachst,V;IND;SG;2;PST;LGSPEC02
+utlachen,lacht ut,V;IND;SG;3;PRS
+utlachen,lach ut,V;IND;SG;3;PST
+utlachen,utlacht,V;IND;SG;3;PRS;LGSPEC02
+utlachen,utlach,V;IND;SG;3;PST;LGSPEC02
+utlachen,lacht ut,V;IND;PL;PRS
+utlachen,lachen ut,V;IND;PL;PST
+utlachen,utlacht,V;IND;PL;PRS;LGSPEC02
+utlachen,utlachen,V;IND;PL;PST;LGSPEC02
+utlachen,lach ut,V;IMP;SG;PRS
+utlachen,lacht ut,V;IMP;PL;PRS
+smuustern,smuustern,V;NFIN
+smuustern,smuuster,V;IND;SG;1;PRS
+smuustern,smuuster,V;IND;SG;1;PST
+smuustern,smuusterst,V;IND;SG;2;PRS
+smuustern,smuusterst,V;IND;SG;2;PST
+smuustern,smuustert,V;IND;SG;3;PRS
+smuustern,smuuster,V;IND;SG;3;PST
+smuustern,smuustert,V;IND;PL;PRS
+smuustern,smuustern,V;IND;PL;PST
+smuustern,smuuster,V;IMP;SG;PRS
+smuustern,smuustert,V;IMP;PL;PRS
+vörbikamen,vörbikamen,V;NFIN
+vörbikamen,kaam vörbi,V;IND;SG;1;PRS
+vörbikamen,keem vörbi,V;IND;SG;1;PST
+vörbikamen,vörbikaam,V;IND;SG;1;PRS;LGSPEC02
+vörbikamen,vörbikeem,V;IND;SG;1;PST;LGSPEC02
+vörbikamen,kümmst vörbi,V;IND;SG;2;PRS
+vörbikamen,keemst vörbi,V;IND;SG;2;PST
+vörbikamen,vörbikümmst,V;IND;SG;2;PRS;LGSPEC02
+vörbikamen,vörbikeemst,V;IND;SG;2;PST;LGSPEC02
+vörbikamen,kümmt vörbi,V;IND;SG;3;PRS
+vörbikamen,keem vörbi,V;IND;SG;3;PST
+vörbikamen,vörbikümmt,V;IND;SG;3;PRS;LGSPEC02
+vörbikamen,vörbikeem,V;IND;SG;3;PST;LGSPEC02
+vörbikamen,kaamt vörbi,V;IND;PL;PRS
+vörbikamen,kemen vörbi,V;IND;PL;PST
+vörbikamen,vörbikaamt,V;IND;PL;PRS;LGSPEC02
+vörbikamen,vörbikemen,V;IND;PL;PST;LGSPEC02
+vörbikamen,kaam vörbi,V;IMP;SG;PRS
+vörbikamen,kaamt vörbi,V;IMP;PL;PRS
+fladdern,fladdern,V;NFIN
+fladdern,fladder,V;IND;SG;1;PRS
+fladdern,fladder,V;IND;SG;1;PST
+fladdern,fladderst,V;IND;SG;2;PRS
+fladdern,fladderst,V;IND;SG;2;PST
+fladdern,fladdert,V;IND;SG;3;PRS
+fladdern,fladder,V;IND;SG;3;PST
+fladdern,fladdert,V;IND;PL;PRS
+fladdern,fladdern,V;IND;PL;PST
+fladdern,fladder,V;IMP;SG;PRS
+fladdern,fladdert,V;IMP;PL;PRS
+kennen,kennen,V;NFIN
+kennen,kenn,V;IND;SG;1;PRS
+kennen,kenn,V;IND;SG;1;PST
+kennen,kennst,V;IND;SG;2;PRS
+kennen,kennst,V;IND;SG;2;PST
+kennen,kennt,V;IND;SG;3;PRS
+kennen,kenn,V;IND;SG;3;PST
+kennen,kennt,V;IND;PL;PRS
+kennen,kennen,V;IND;PL;PRS
+kennen,kennen,V;IND;PL;PST
+kennen,kenne,V;IMP;SG;PRS
+kennen,kennt,V;IMP;PL;PRS
+füllen,füllen,V;NFIN
+füllen,füll,V;IND;SG;1;PRS
+füllen,füll,V;IND;SG;1;PST
+füllen,füllst,V;IND;SG;2;PRS
+füllen,füllst,V;IND;SG;2;PST
+füllen,füllt,V;IND;SG;3;PRS
+füllen,füll,V;IND;SG;3;PST
+füllen,füllt,V;IND;PL;PRS
+füllen,füllen,V;IND;PL;PRS
+füllen,füllen,V;IND;PL;PST
+füllen,fülle,V;IMP;SG;PRS
+füllen,füllt,V;IMP;PL;PRS
+splissen,splissen,V;NFIN
+splissen,spliss,V;IND;SG;1;PRS
+splissen,spliss,V;IND;SG;1;PST
+splissen,splisst,V;IND;SG;2;PRS
+splissen,splisst,V;IND;SG;2;PST
+splissen,splisst,V;IND;SG;3;PRS
+splissen,spliss,V;IND;SG;3;PST
+splissen,splisst,V;IND;PL;PRS
+splissen,splissen,V;IND;PL;PST
+splissen,spliss,V;IMP;SG;PRS
+splissen,splisst,V;IMP;PL;PRS
+kriegen,kriegen,V;NFIN
+kriegen,krieg,V;IND;SG;1;PRS
+kriegen,kreeg,V;IND;SG;1;PST
+kriegen,kriggst,V;IND;SG;2;PRS
+kriegen,kreegst,V;IND;SG;2;PST
+kriegen,kriggt,V;IND;SG;3;PRS
+kriegen,kreeg,V;IND;SG;3;PST
+kriegen,kriegt,V;IND;PL;PRS
+kriegen,kriegen,V;IND;PL;PRS
+kriegen,kregen,V;IND;PL;PST
+kriegen,krieg,V;IMP;SG;PRS
+kriegen,kriegt,V;IMP;PL;PRS
+aten,aten,V;NFIN
+aten,aten,V;IND;SG;1;PRS
+aten,aten,V;IND;SG;1;PST
+aten,atenst,V;IND;SG;2;PRS
+aten,atenst,V;IND;SG;2;PST
+aten,atent,V;IND;SG;3;PRS
+aten,aten,V;IND;SG;3;PST
+aten,atent,V;IND;PL;PRS
+aten,atenen,V;IND;PL;PRS
+aten,aatnen,V;IND;PL;PST
+aten,aten,V;IND;PL;PST
+aten,atene,V;IMP;SG;PRS
+aten,atent,V;IMP;PL;PRS
+wesen,wesen,V;NFIN
+wesen,bin,V;IND;SG;1;PRS
+wesen,bün,V;IND;SG;1;PRS
+wesen,sin,V;IND;SG;1;PRS
+wesen,sen,V;IND;SG;1;PRS
+wesen,weer,V;IND;SG;1;PST
+wesen,was,V;IND;SG;1;PST
+wesen,bist,V;IND;SG;2;PRS
+wesen,büst,V;IND;SG;2;PRS
+wesen,weerst,V;IND;SG;2;PST
+wesen,weres,V;IND;SG;2;PST
+wesen,is,V;IND;SG;3;PRS
+wesen,es,V;IND;SG;3;PRS
+wesen,ös,V;IND;SG;3;PRS
+wesen,weer,V;IND;SG;3;PST
+wesen,was,V;IND;SG;3;PST
+wesen,sind,V;IND;PL;PRS
+wesen,sünd,V;IND;PL;PRS
+wesen,sin,V;IND;PL;PRS
+wesen,weren,V;IND;PL;PST
+wesen,wassen,V;IND;PL;PST
+wesen,wes,V;IMP;SG;PRS
+wesen,si,V;IMP;SG;PRS
+wesen,weset,V;IMP;PL;PRS
+sön,sön,V;NFIN
+sön,sii,V;IND;SG;1;PRS
+sön,weer,V;IND;SG;1;PST
+sön,böst,V;IND;SG;2;PRS
+sön,weerst,V;IND;SG;2;PST
+sön,ös,V;IND;SG;3;PRS
+sön,weer,V;IND;SG;3;PST
+sön,sönd,V;IND;PL;PRS
+sön,weern,V;IND;PL;PST
+sön,sii,V;IMP;SG;PRS
+sön,wees,V;IMP;SG;PRS
+sön,sönd,V;IMP;PL;PRS
+sön,weest,V;IMP;PL;PRS
+afkedden,afkedden,V;NFIN
+afkedden,kedd af,V;IND;SG;1;PRS
+afkedden,kedd af,V;IND;SG;1;PST
+afkedden,afkedd,V;IND;SG;1;PRS;LGSPEC02
+afkedden,afkedd,V;IND;SG;1;PST;LGSPEC02
+afkedden,keddst af,V;IND;SG;2;PRS
+afkedden,keddst af,V;IND;SG;2;PST
+afkedden,afkeddst,V;IND;SG;2;PRS;LGSPEC02
+afkedden,afkeddst,V;IND;SG;2;PST;LGSPEC02
+afkedden,keddt af,V;IND;SG;3;PRS
+afkedden,kedd af,V;IND;SG;3;PST
+afkedden,afkeddt,V;IND;SG;3;PRS;LGSPEC02
+afkedden,afkedd,V;IND;SG;3;PST;LGSPEC02
+afkedden,keddt af,V;IND;PL;PRS
+afkedden,kedden af,V;IND;PL;PST
+afkedden,afkeddt,V;IND;PL;PRS;LGSPEC02
+afkedden,afkedden,V;IND;PL;PST;LGSPEC02
+afkedden,kedd af,V;IMP;SG;PRS
+afkedden,keddt af,V;IMP;PL;PRS
+opwaken,opwaken,V;NFIN
+opwaken,waak op,V;IND;SG;1;PRS
+opwaken,waak op,V;IND;SG;1;PST
+opwaken,opwaak,V;IND;SG;1;PRS;LGSPEC02
+opwaken,opwaak,V;IND;SG;1;PST;LGSPEC02
+opwaken,waakst op,V;IND;SG;2;PRS
+opwaken,waakst op,V;IND;SG;2;PST
+opwaken,opwaakst,V;IND;SG;2;PRS;LGSPEC02
+opwaken,opwaakst,V;IND;SG;2;PST;LGSPEC02
+opwaken,waakt op,V;IND;SG;3;PRS
+opwaken,waak op,V;IND;SG;3;PST
+opwaken,opwaakt,V;IND;SG;3;PRS;LGSPEC02
+opwaken,opwaak,V;IND;SG;3;PST;LGSPEC02
+opwaken,waakt op,V;IND;PL;PRS
+opwaken,waken op,V;IND;PL;PST
+opwaken,opwaakt,V;IND;PL;PRS;LGSPEC02
+opwaken,opwaken,V;IND;PL;PST;LGSPEC02
+opwaken,waak op,V;IMP;SG;PRS
+opwaken,waakt op,V;IMP;PL;PRS
+opkamen,opkamen,V;NFIN
+opkamen,kaam op,V;IND;SG;1;PRS
+opkamen,keem op,V;IND;SG;1;PST
+opkamen,opkaam,V;IND;SG;1;PRS;LGSPEC02
+opkamen,opkeem,V;IND;SG;1;PST;LGSPEC02
+opkamen,kümmst op,V;IND;SG;2;PRS
+opkamen,keemst op,V;IND;SG;2;PST
+opkamen,opkümmst,V;IND;SG;2;PRS;LGSPEC02
+opkamen,opkeemst,V;IND;SG;2;PST;LGSPEC02
+opkamen,kümmt op,V;IND;SG;3;PRS
+opkamen,keem op,V;IND;SG;3;PST
+opkamen,opkümmt,V;IND;SG;3;PRS;LGSPEC02
+opkamen,opkeem,V;IND;SG;3;PST;LGSPEC02
+opkamen,kaamt op,V;IND;PL;PRS
+opkamen,kemen op,V;IND;PL;PST
+opkamen,opkaamt,V;IND;PL;PRS;LGSPEC02
+opkamen,opkemen,V;IND;PL;PST;LGSPEC02
+opkamen,kaam op,V;IMP;SG;PRS
+opkamen,kaamt op,V;IMP;PL;PRS
+uteneendrieven,uteneendrieven,V;NFIN
+uteneendrieven,driev uteneen,V;IND;SG;1;PRS
+uteneendrieven,dreev uteneen,V;IND;SG;1;PST
+uteneendrieven,uteneendriev,V;IND;SG;1;PRS;LGSPEC02
+uteneendrieven,uteneendreev,V;IND;SG;1;PST;LGSPEC02
+uteneendrieven,driffst uteneen,V;IND;SG;2;PRS
+uteneendrieven,dreevst uteneen,V;IND;SG;2;PST
+uteneendrieven,uteneendriffst,V;IND;SG;2;PRS;LGSPEC02
+uteneendrieven,uteneendreevst,V;IND;SG;2;PST;LGSPEC02
+uteneendrieven,drifft uteneen,V;IND;SG;3;PRS
+uteneendrieven,dreev uteneen,V;IND;SG;3;PST
+uteneendrieven,uteneendrifft,V;IND;SG;3;PRS;LGSPEC02
+uteneendrieven,uteneendreev,V;IND;SG;3;PST;LGSPEC02
+uteneendrieven,drievt uteneen,V;IND;PL;PRS
+uteneendrieven,dreven uteneen,V;IND;PL;PST
+uteneendrieven,uteneendrievt,V;IND;PL;PRS;LGSPEC02
+uteneendrieven,uteneendreven,V;IND;PL;PST;LGSPEC02
+uteneendrieven,driev uteneen,V;IMP;SG;PRS
+uteneendrieven,drievt uteneen,V;IMP;PL;PRS
+vertroen,vertroen,V;NFIN
+vertroen,vertro,V;IND;SG;1;PRS
+vertroen,vertro,V;IND;SG;1;PST
+vertroen,vertroost,V;IND;SG;2;PRS
+vertroen,vertroost,V;IND;SG;2;PST
+vertroen,vertroot,V;IND;SG;3;PRS
+vertroen,vertro,V;IND;SG;3;PST
+vertroen,vertroot,V;IND;PL;PRS
+vertroen,vertroen,V;IND;PL;PST
+vertroen,vertro,V;IMP;SG;PRS
+vertroen,vertroot,V;IMP;PL;PRS
+wannern,wannern,V;NFIN
+wannern,wanner,V;IND;SG;1;PRS
+wannern,wanner,V;IND;SG;1;PST
+wannern,wannerst,V;IND;SG;2;PRS
+wannern,wannerst,V;IND;SG;2;PST
+wannern,wannert,V;IND;SG;3;PRS
+wannern,wanner,V;IND;SG;3;PST
+wannern,wannert,V;IND;PL;PRS
+wannern,wannern,V;IND;PL;PST
+wannern,wanner,V;IMP;SG;PRS
+wannern,wannert,V;IMP;PL;PRS
+wedeln,wedeln,V;NFIN
+wedeln,wedel,V;IND;SG;1;PRS
+wedeln,wedel,V;IND;SG;1;PST
+wedeln,wedelst,V;IND;SG;2;PRS
+wedeln,wedelst,V;IND;SG;2;PST
+wedeln,wedelt,V;IND;SG;3;PRS
+wedeln,wedel,V;IND;SG;3;PST
+wedeln,wedelt,V;IND;PL;PRS
+wedeln,wedeln,V;IND;PL;PST
+wedeln,wedel,V;IMP;SG;PRS
+wedeln,wedelt,V;IMP;PL;PRS
+glieken,glieken,V;NFIN
+glieken,gliek,V;IND;SG;1;PRS
+glieken,gleek,V;IND;SG;1;PST
+glieken,glickst,V;IND;SG;2;PRS
+glieken,gleekst,V;IND;SG;2;PST
+glieken,glickt,V;IND;SG;3;PRS
+glieken,gleek,V;IND;SG;3;PST
+glieken,gliekt,V;IND;PL;PRS
+glieken,glieken,V;IND;PL;PRS
+glieken,gleken,V;IND;PL;PST
+glieken,gliek,V;IMP;SG;PRS
+glieken,gliekt,V;IMP;PL;PRS
+smöken,smöken,V;NFIN
+smöken,smöök,V;IND;SG;1;PRS
+smöken,smöök,V;IND;SG;1;PST
+smöken,smöökst,V;IND;SG;2;PRS
+smöken,smöökst,V;IND;SG;2;PST
+smöken,smöökt,V;IND;SG;3;PRS
+smöken,smöök,V;IND;SG;3;PST
+smöken,smöökt,V;IND;PL;PRS
+smöken,smööken,V;IND;PL;PRS
+smöken,smöken,V;IND;PL;PST
+smöken,smööke,V;IMP;SG;PRS
+smöken,smöökt,V;IMP;PL;PRS
+snurken,snurken,V;NFIN
+snurken,snurk,V;IND;SG;1;PRS
+snurken,snurk,V;IND;SG;1;PST
+snurken,snurkst,V;IND;SG;2;PRS
+snurken,snurkst,V;IND;SG;2;PST
+snurken,snurkt,V;IND;SG;3;PRS
+snurken,snurk,V;IND;SG;3;PST
+snurken,snurkt,V;IND;PL;PRS
+snurken,snurken,V;IND;PL;PRS
+snurken,snurken,V;IND;PL;PST
+snurken,snurke,V;IMP;SG;PRS
+snurken,snurkt,V;IMP;PL;PRS
+snurren,snurren,V;NFIN
+snurren,snurr,V;IND;SG;1;PRS
+snurren,snurr,V;IND;SG;1;PST
+snurren,snurrst,V;IND;SG;2;PRS
+snurren,snurrst,V;IND;SG;2;PST
+snurren,snurrt,V;IND;SG;3;PRS
+snurren,snurr,V;IND;SG;3;PST
+snurren,snurrt,V;IND;PL;PRS
+snurren,snurren,V;IND;PL;PRS
+snurren,snurren,V;IND;PL;PST
+snurren,snurre,V;IMP;SG;PRS
+snurren,snurrt,V;IMP;PL;PRS
+röken,röken,V;NFIN
+röken,röök,V;IND;SG;1;PRS
+röken,röök,V;IND;SG;1;PST
+röken,röökst,V;IND;SG;2;PRS
+röken,röökst,V;IND;SG;2;PST
+röken,röökt,V;IND;SG;3;PRS
+röken,röök,V;IND;SG;3;PST
+röken,röökt,V;IND;PL;PRS
+röken,rööken,V;IND;PL;PRS
+röken,röken,V;IND;PL;PST
+röken,rööke,V;IMP;SG;PRS
+röken,röökt,V;IMP;PL;PRS
+strieken,strieken,V;NFIN
+strieken,striek,V;IND;SG;1;PRS
+strieken,streek,V;IND;SG;1;PST
+strieken,strickst,V;IND;SG;2;PRS
+strieken,streekst,V;IND;SG;2;PST
+strieken,strickt,V;IND;SG;3;PRS
+strieken,streek,V;IND;SG;3;PST
+strieken,striekt,V;IND;PL;PRS
+strieken,strieken,V;IND;PL;PRS
+strieken,streken,V;IND;PL;PST
+strieken,striek,V;IMP;SG;PRS
+strieken,striekt,V;IMP;PL;PRS
+achterankamen,achterankamen,V;NFIN
+achterankamen,kaam achteran,V;IND;SG;1;PRS
+achterankamen,keem achteran,V;IND;SG;1;PST
+achterankamen,achterankaam,V;IND;SG;1;PRS;LGSPEC02
+achterankamen,achterankeem,V;IND;SG;1;PST;LGSPEC02
+achterankamen,kümmst achteran,V;IND;SG;2;PRS
+achterankamen,keemst achteran,V;IND;SG;2;PST
+achterankamen,achterankümmst,V;IND;SG;2;PRS;LGSPEC02
+achterankamen,achterankeemst,V;IND;SG;2;PST;LGSPEC02
+achterankamen,kümmt achteran,V;IND;SG;3;PRS
+achterankamen,keem achteran,V;IND;SG;3;PST
+achterankamen,achterankümmt,V;IND;SG;3;PRS;LGSPEC02
+achterankamen,achterankeem,V;IND;SG;3;PST;LGSPEC02
+achterankamen,kaamt achteran,V;IND;PL;PRS
+achterankamen,kemen achteran,V;IND;PL;PST
+achterankamen,achterankaamt,V;IND;PL;PRS;LGSPEC02
+achterankamen,achterankemen,V;IND;PL;PST;LGSPEC02
+achterankamen,kaam achteran,V;IMP;SG;PRS
+achterankamen,kaamt achteran,V;IMP;PL;PRS
+nehmen,nehmen,V;NFIN
+nehmen,nehm,V;IND;SG;1;PRS
+nehmen,nehm,V;IND;SG;1;PST
+nehmen,nimmst,V;IND;SG;2;PRS
+nehmen,nehmst,V;IND;SG;2;PST
+nehmen,nimmt,V;IND;SG;3;PRS
+nehmen,nehm,V;IND;SG;3;PST
+nehmen,nehmt,V;IND;PL;PRS
+nehmen,nehmen,V;IND;PL;PRS
+nehmen,nehmen,V;IND;PL;PST
+nehmen,nehm,V;IMP;SG;PRS
+nehmen,nehmt,V;IMP;PL;PRS
+nehmen,nohm,V;IND;SG;1;PST
+nehmen,nohmst,V;IND;SG;2;PST
+nehmen,nohm,V;IND;SG;3;PST
+nehmen,nohmen,V;IND;PL;PST
+doothauen,doothauen,V;NFIN
+doothauen,hau doot,V;IND;SG;1;PRS
+doothauen,hau doot,V;IND;SG;1;PST
+doothauen,doothau,V;IND;SG;1;PRS;LGSPEC02
+doothauen,doothau,V;IND;SG;1;PST;LGSPEC02
+doothauen,haust doot,V;IND;SG;2;PRS
+doothauen,haust doot,V;IND;SG;2;PST
+doothauen,doothaust,V;IND;SG;2;PRS;LGSPEC02
+doothauen,doothaust,V;IND;SG;2;PST;LGSPEC02
+doothauen,haut doot,V;IND;SG;3;PRS
+doothauen,hau doot,V;IND;SG;3;PST
+doothauen,doothaut,V;IND;SG;3;PRS;LGSPEC02
+doothauen,doothau,V;IND;SG;3;PST;LGSPEC02
+doothauen,haut doot,V;IND;PL;PRS
+doothauen,hauen doot,V;IND;PL;PST
+doothauen,doothaut,V;IND;PL;PRS;LGSPEC02
+doothauen,doothauen,V;IND;PL;PST;LGSPEC02
+doothauen,hau doot,V;IMP;SG;PRS
+doothauen,haut doot,V;IMP;PL;PRS
+taalken,taalken,V;NFIN
+taalken,taalk,V;IND;SG;1;PRS
+taalken,taalk,V;IND;SG;1;PST
+taalken,taalkst,V;IND;SG;2;PRS
+taalken,taalkst,V;IND;SG;2;PST
+taalken,taalkt,V;IND;SG;3;PRS
+taalken,taalk,V;IND;SG;3;PST
+taalken,taalkt,V;IND;PL;PRS
+taalken,taalken,V;IND;PL;PRS
+taalken,taalken,V;IND;PL;PST
+taalken,taalke,V;IMP;SG;PRS
+taalken,taalkt,V;IMP;PL;PRS
+waschen,waschen,V;NFIN
+waschen,wasch,V;IND;SG;1;PRS
+waschen,wusch,V;IND;SG;1;PST
+waschen,waschst,V;IND;SG;2;PRS
+waschen,wuschst,V;IND;SG;2;PST
+waschen,wascht,V;IND;SG;3;PRS
+waschen,wusch,V;IND;SG;3;PST
+waschen,wascht,V;IND;PL;PRS
+waschen,waschen,V;IND;PL;PRS
+waschen,wuschen,V;IND;PL;PST
+waschen,wasch,V;IMP;SG;PRS
+waschen,wascht,V;IMP;PL;PRS
+smuusterlachen,smuusterlachen,V;NFIN
+smuusterlachen,smuusterlach,V;IND;SG;1;PRS
+smuusterlachen,smuusterlach,V;IND;SG;1;PST
+smuusterlachen,smuusterlachst,V;IND;SG;2;PRS
+smuusterlachen,smuusterlachst,V;IND;SG;2;PST
+smuusterlachen,smuusterlacht,V;IND;SG;3;PRS
+smuusterlachen,smuusterlach,V;IND;SG;3;PST
+smuusterlachen,smuusterlacht,V;IND;PL;PRS
+smuusterlachen,smuusterlachen,V;IND;PL;PRS
+smuusterlachen,smuusterlachen,V;IND;PL;PST
+smuusterlachen,smuusterlache,V;IMP;SG;PRS
+smuusterlachen,smuusterlacht,V;IMP;PL;PRS
+mellen,mellen,V;NFIN
+mellen,mell,V;IND;SG;1;PRS
+mellen,mell,V;IND;SG;1;PST
+mellen,mellst,V;IND;SG;2;PRS
+mellen,mellst,V;IND;SG;2;PST
+mellen,mellt,V;IND;SG;3;PRS
+mellen,mell,V;IND;SG;3;PST
+mellen,mellt,V;IND;PL;PRS
+mellen,mellen,V;IND;PL;PRS
+mellen,mellen,V;IND;PL;PST
+mellen,melle,V;IMP;SG;PRS
+mellen,mellt,V;IMP;PL;PRS
+fluddern,fluddern,V;NFIN
+fluddern,fludder,V;IND;SG;1;PRS
+fluddern,fludder,V;IND;SG;1;PST
+fluddern,fludderst,V;IND;SG;2;PRS
+fluddern,fludderst,V;IND;SG;2;PST
+fluddern,fluddert,V;IND;SG;3;PRS
+fluddern,fludder,V;IND;SG;3;PST
+fluddern,fluddert,V;IND;PL;PRS
+fluddern,fluddern,V;IND;PL;PST
+fluddern,fludder,V;IMP;SG;PRS
+fluddern,fluddert,V;IMP;PL;PRS
+vörkamen,vörkamen,V;NFIN
+vörkamen,kaam vör,V;IND;SG;1;PRS
+vörkamen,keem vör,V;IND;SG;1;PST
+vörkamen,vörkaam,V;IND;SG;1;PRS;LGSPEC02
+vörkamen,vörkeem,V;IND;SG;1;PST;LGSPEC02
+vörkamen,kümmst vör,V;IND;SG;2;PRS
+vörkamen,keemst vör,V;IND;SG;2;PST
+vörkamen,vörkümmst,V;IND;SG;2;PRS;LGSPEC02
+vörkamen,vörkeemst,V;IND;SG;2;PST;LGSPEC02
+vörkamen,kümmt vör,V;IND;SG;3;PRS
+vörkamen,keem vör,V;IND;SG;3;PST
+vörkamen,vörkümmt,V;IND;SG;3;PRS;LGSPEC02
+vörkamen,vörkeem,V;IND;SG;3;PST;LGSPEC02
+vörkamen,kaamt vör,V;IND;PL;PRS
+vörkamen,kemen vör,V;IND;PL;PST
+vörkamen,vörkaamt,V;IND;PL;PRS;LGSPEC02
+vörkamen,vörkemen,V;IND;PL;PST;LGSPEC02
+vörkamen,kaam vör,V;IMP;SG;PRS
+vörkamen,kaamt vör,V;IMP;PL;PRS
+hollen,hollen,V;NFIN
+hollen,holl,V;IND;SG;1;PRS
+hollen,heel,V;IND;SG;1;PST
+hollen,höllst,V;IND;SG;2;PRS
+hollen,heelst,V;IND;SG;2;PST
+hollen,höllt,V;IND;SG;3;PRS
+hollen,heel,V;IND;SG;3;PST
+hollen,hollt,V;IND;PL;PRS
+hollen,hollen,V;IND;PL;PRS
+hollen,helen,V;IND;PL;PST
+hollen,holl,V;IMP;SG;PRS
+hollen,hollt,V;IMP;PL;PRS
+denken,denken,V;NFIN
+denken,denk,V;IND;SG;1;PRS
+denken,dach,V;IND;SG;1;PST
+denken,denkst,V;IND;SG;2;PRS
+denken,dachst,V;IND;SG;2;PST
+denken,denkt,V;IND;SG;3;PRS
+denken,dach,V;IND;SG;3;PST
+denken,denkt,V;IND;PL;PRS
+denken,denken,V;IND;PL;PRS
+denken,dachen,V;IND;PL;PST
+denken,denke,V;IMP;SG;PRS
+denken,denkt,V;IMP;PL;PRS
+stauen,stauen,V;NFIN
+stauen,stau,V;IND;SG;1;PRS
+stauen,stau,V;IND;SG;1;PST
+stauen,staust,V;IND;SG;2;PRS
+stauen,staust,V;IND;SG;2;PST
+stauen,staut,V;IND;SG;3;PRS
+stauen,stau,V;IND;SG;3;PST
+stauen,staut,V;IND;PL;PRS
+stauen,stauen,V;IND;PL;PST
+stauen,stau,V;IMP;SG;PRS
+stauen,staut,V;IMP;PL;PRS
+boen,boen,V;NFIN
+boen,bo,V;IND;SG;1;PRS
+boen,bo,V;IND;SG;1;PST
+boen,boost,V;IND;SG;2;PRS
+boen,boost,V;IND;SG;2;PST
+boen,boot,V;IND;SG;3;PRS
+boen,bo,V;IND;SG;3;PST
+boen,boot,V;IND;PL;PRS
+boen,boen,V;IND;PL;PST
+boen,bo,V;IMP;SG;PRS
+boen,boot,V;IMP;PL;PRS
+hebben,hebben,V;NFIN
+hebben,heff,V;IND;SG;1;PRS
+hebben,harr,V;IND;SG;1;PST
+hebben,hest,V;IND;SG;2;PRS
+hebben,harrst,V;IND;SG;2;PST
+hebben,hett,V;IND;SG;3;PRS
+hebben,harr,V;IND;SG;3;PST
+hebben,hebbt,V;IND;PL;PRS
+hebben,harren,V;IND;PL;PST
+hebben,hebb,V;IMP;SG;PRS
+hebben,hebbt,V;IMP;PL;PRS
+kesen,kesen,V;NFIN
+kesen,kees,V;IND;SG;1;PRS
+kesen,koos,V;IND;SG;1;PST
+kesen,küsst,V;IND;SG;2;PRS
+kesen,koost,V;IND;SG;2;PST
+kesen,küsst,V;IND;SG;3;PRS
+kesen,koos,V;IND;SG;3;PST
+kesen,keest,V;IND;PL;PRS
+kesen,kosen,V;IND;PL;PST
+kesen,kees,V;IMP;SG;PRS
+kesen,keest,V;IMP;PL;PRS
+lüüstern,lüüstern,V;NFIN
+lüüstern,lüüster,V;IND;SG;1;PRS
+lüüstern,lüüster,V;IND;SG;1;PST
+lüüstern,lüüsterst,V;IND;SG;2;PRS
+lüüstern,lüüsterst,V;IND;SG;2;PST
+lüüstern,lüüstert,V;IND;SG;3;PRS
+lüüstern,lüüster,V;IND;SG;3;PST
+lüüstern,lüüstert,V;IND;PL;PRS
+lüüstern,lüüstern,V;IND;PL;PST
+lüüstern,lüüster,V;IMP;SG;PRS
+lüüstern,lüüstert,V;IMP;PL;PRS
+tohoopleggen,tohoopleggen,V;NFIN
+tohoopleggen,legg tohoop,V;IND;SG;1;PRS
+tohoopleggen,legg tohoop,V;IND;SG;1;PST
+tohoopleggen,tohooplegg,V;IND;SG;1;PRS;LGSPEC02
+tohoopleggen,tohooplegg,V;IND;SG;1;PST;LGSPEC02
+tohoopleggen,leggst tohoop,V;IND;SG;2;PRS
+tohoopleggen,leggst tohoop,V;IND;SG;2;PST
+tohoopleggen,tohoopleggst,V;IND;SG;2;PRS;LGSPEC02
+tohoopleggen,tohoopleggst,V;IND;SG;2;PST;LGSPEC02
+tohoopleggen,leggt tohoop,V;IND;SG;3;PRS
+tohoopleggen,legg tohoop,V;IND;SG;3;PST
+tohoopleggen,tohoopleggt,V;IND;SG;3;PRS;LGSPEC02
+tohoopleggen,tohooplegg,V;IND;SG;3;PST;LGSPEC02
+tohoopleggen,leggt tohoop,V;IND;PL;PRS
+tohoopleggen,leggen tohoop,V;IND;PL;PST
+tohoopleggen,tohoopleggt,V;IND;PL;PRS;LGSPEC02
+tohoopleggen,tohoopleggen,V;IND;PL;PST;LGSPEC02
+tohoopleggen,legg tohoop,V;IMP;SG;PRS
+tohoopleggen,leggt tohoop,V;IMP;PL;PRS
+tohoopleggen,leed tohoop,V;IND;SG;1;PST
+tohoopleggen,tohoopleed,V;IND;SG;1;PST;LGSPEC02
+tohoopleggen,leedst tohoop,V;IND;SG;2;PST
+tohoopleggen,tohoopleedst,V;IND;SG;2;PST;LGSPEC02
+tohoopleggen,leed tohoop,V;IND;SG;3;PST
+tohoopleggen,tohoopleed,V;IND;SG;3;PST;LGSPEC02
+tohoopleggen,leden tohoop,V;IND;PL;PST
+tohoopleggen,tohoopleden,V;IND;PL;PST;LGSPEC02
+evenen,evenen,V;NFIN
+evenen,even,V;IND;SG;1;PRS
+evenen,even,V;IND;SG;1;PST
+evenen,evenst,V;IND;SG;2;PRS
+evenen,evenst,V;IND;SG;2;PST
+evenen,event,V;IND;SG;3;PRS
+evenen,even,V;IND;SG;3;PST
+evenen,event,V;IND;PL;PRS
+evenen,evenen,V;IND;PL;PRS
+evenen,evenen,V;IND;PL;PST
+evenen,evene,V;IMP;SG;PRS
+evenen,event,V;IMP;PL;PRS
+korrigeren,korrigeren,V;NFIN
+korrigeren,korrigeer,V;IND;SG;1;PRS
+korrigeren,korrigeer,V;IND;SG;1;PST
+korrigeren,korrigeerst,V;IND;SG;2;PRS
+korrigeren,korrigeerst,V;IND;SG;2;PST
+korrigeren,korrigeert,V;IND;SG;3;PRS
+korrigeren,korrigeer,V;IND;SG;3;PST
+korrigeren,korrigeert,V;IND;PL;PRS
+korrigeren,korrigeeren,V;IND;PL;PRS
+korrigeren,korrigeeren,V;IND;PL;PST
+korrigeren,korrigeere,V;IMP;SG;PRS
+korrigeren,korrigeert,V;IMP;PL;PRS
+dringen,dringen,V;NFIN
+dringen,dring,V;IND;SG;1;PRS
+dringen,drung,V;IND;SG;1;PST
+dringen,dringst,V;IND;SG;2;PRS
+dringen,drungst,V;IND;SG;2;PST
+dringen,dringt,V;IND;SG;3;PRS
+dringen,drung,V;IND;SG;3;PST
+dringen,dringt,V;IND;PL;PRS
+dringen,dringen,V;IND;PL;PRS
+dringen,drungen,V;IND;PL;PST
+dringen,dring,V;IMP;SG;PRS
+dringen,dringt,V;IMP;PL;PRS
+wüllen,wüllen,V;NFIN
+wüllen,will,V;IND;SG;1;PRS
+wüllen,wull,V;IND;SG;1;PST
+wüllen,wullt,V;IND;SG;2;PRS
+wüllen,wullst,V;IND;SG;2;PST
+wüllen,will,V;IND;SG;3;PRS
+wüllen,wull,V;IND;SG;3;PST
+wüllen,wüllt,V;IND;PL;PRS
+wüllen,wullen,V;IND;PL;PST
+wüllen,will,V;IMP;SG;PRS
+wüllen,wüllt,V;IMP;PL;PRS
+verlesen,verlesen,V;NFIN
+verlesen,verlees,V;IND;SG;1;PRS
+verlesen,verloor,V;IND;SG;1;PST
+verlesen,verlüsst,V;IND;SG;2;PRS
+verlesen,verloorst,V;IND;SG;2;PST
+verlesen,verlüst,V;IND;SG;3;PRS
+verlesen,verloor,V;IND;SG;3;PST
+verlesen,verleest,V;IND;PL;PRS
+verlesen,verloren,V;IND;PL;PST
+verlesen,verlees,V;IMP;SG;PRS
+verlesen,verleest,V;IMP;PL;PRS
+dörven,dörven,V;NFIN
+dörven,dörv,V;IND;SG;1;PRS
+dörven,dorv,V;IND;SG;1;PST
+dörven,dörvst,V;IND;SG;2;PRS
+dörven,dorvst,V;IND;SG;2;PST
+dörven,dörv,V;IND;SG;3;PRS
+dörven,dorv,V;IND;SG;3;PST
+dörven,dörvt,V;IND;PL;PRS
+dörven,dorven,V;IND;PL;PST
+leggen,leggen,V;NFIN
+leggen,legg,V;IND;SG;1;PRS
+leggen,legg,V;IND;SG;1;PST
+leggen,leed,V;IND;SG;1;PST
+leggen,leggst,V;IND;SG;2;PRS
+leggen,leggst,V;IND;SG;2;PST
+leggen,leedst,V;IND;SG;2;PST
+leggen,leggt,V;IND;SG;3;PRS
+leggen,legg,V;IND;SG;3;PST
+leggen,leed,V;IND;SG;3;PST
+leggen,leggt,V;IND;PL;PRS
+leggen,leggen,V;IND;PL;PST
+leggen,leden,V;IND;PL;PST
+leggen,legg,V;IMP;SG;PRS
+leggen,leggt,V;IMP;PL;PRS
+gniedeln,gniedeln,V;NFIN
+gniedeln,gniedel,V;IND;SG;1;PRS
+gniedeln,gniedel,V;IND;SG;1;PST
+gniedeln,gniedelst,V;IND;SG;2;PRS
+gniedeln,gniedelst,V;IND;SG;2;PST
+gniedeln,gniedelt,V;IND;SG;3;PRS
+gniedeln,gniedel,V;IND;SG;3;PST
+gniedeln,gniedelt,V;IND;PL;PRS
+gniedeln,gniedeln,V;IND;PL;PST
+gniedeln,gniedel,V;IMP;SG;PRS
+gniedeln,gniedelt,V;IMP;PL;PRS
+wabbeln,wabbeln,V;NFIN
+wabbeln,wabbel,V;IND;SG;1;PRS
+wabbeln,wabbel,V;IND;SG;1;PST
+wabbeln,wabbelst,V;IND;SG;2;PRS
+wabbeln,wabbelst,V;IND;SG;2;PST
+wabbeln,wabbelt,V;IND;SG;3;PRS
+wabbeln,wabbel,V;IND;SG;3;PST
+wabbeln,wabbelt,V;IND;PL;PRS
+wabbeln,wabbeln,V;IND;PL;PST
+wabbeln,wabbel,V;IMP;SG;PRS
+wabbeln,wabbelt,V;IMP;PL;PRS
+verännern,verännern,V;NFIN
+verännern,veränner,V;IND;SG;1;PRS
+verännern,veränner,V;IND;SG;1;PST
+verännern,verännerst,V;IND;SG;2;PRS
+verännern,verännerst,V;IND;SG;2;PST
+verännern,verännert,V;IND;SG;3;PRS
+verännern,veränner,V;IND;SG;3;PST
+verännern,verännert,V;IND;PL;PRS
+verännern,verännern,V;IND;PL;PST
+verännern,veränner,V;IMP;SG;PRS
+verännern,verännert,V;IMP;PL;PRS
+fallen,fallen,V;NFIN
+fallen,fall,V;IND;SG;1;PRS
+fallen,full,V;IND;SG;1;PST
+fallen,fallst,V;IND;SG;2;PRS
+fallen,fullst,V;IND;SG;2;PST
+fallen,fallt,V;IND;SG;3;PRS
+fallen,full,V;IND;SG;3;PST
+fallen,fallt,V;IND;PL;PRS
+fallen,fallen,V;IND;PL;PRS
+fallen,fullen,V;IND;PL;PST
+fallen,fall,V;IMP;SG;PRS
+fallen,fallt,V;IMP;PL;PRS
+wassen,wassen,V;NFIN
+wassen,wass,V;IND;SG;1;PRS
+wassen,wuss,V;IND;SG;1;PST
+wassen,wassst,V;IND;SG;2;PRS
+wassen,wussst,V;IND;SG;2;PST
+wassen,wasst,V;IND;SG;3;PRS
+wassen,wuss,V;IND;SG;3;PST
+wassen,wasst,V;IND;PL;PRS
+wassen,wassen,V;IND;PL;PRS
+wassen,wussen,V;IND;PL;PST
+wassen,wass,V;IMP;SG;PRS
+wassen,wasst,V;IMP;PL;PRS
+begraven,begraven,V;NFIN
+begraven,begraav,V;IND;SG;1;PRS
+begraven,begroov,V;IND;SG;1;PST
+begraven,begraavst,V;IND;SG;2;PRS
+begraven,begroovst,V;IND;SG;2;PST
+begraven,begraavt,V;IND;SG;3;PRS
+begraven,begroov,V;IND;SG;3;PST
+begraven,begraavt,V;IND;PL;PRS
+begraven,begraaven,V;IND;PL;PRS
+begraven,begroven,V;IND;PL;PST
+begraven,begraav,V;IMP;SG;PRS
+begraven,begraavt,V;IMP;PL;PRS
+freren,freren,V;NFIN
+freren,freer,V;IND;SG;1;PRS
+freren,froor,V;IND;SG;1;PST
+freren,früsst,V;IND;SG;2;PRS
+freren,froorst,V;IND;SG;2;PST
+freren,früst,V;IND;SG;3;PRS
+freren,froor,V;IND;SG;3;PST
+freren,freert,V;IND;PL;PRS
+freren,freeren,V;IND;PL;PRS
+freren,froren,V;IND;PL;PST
+freren,freer,V;IMP;SG;PRS
+freren,freert,V;IMP;PL;PRS
+grifflachen,grifflachen,V;NFIN
+grifflachen,grifflach,V;IND;SG;1;PRS
+grifflachen,grifflach,V;IND;SG;1;PST
+grifflachen,grifflachst,V;IND;SG;2;PRS
+grifflachen,grifflachst,V;IND;SG;2;PST
+grifflachen,grifflacht,V;IND;SG;3;PRS
+grifflachen,grifflach,V;IND;SG;3;PST
+grifflachen,grifflacht,V;IND;PL;PRS
+grifflachen,grifflachen,V;IND;PL;PRS
+grifflachen,grifflachen,V;IND;PL;PST
+grifflachen,grifflache,V;IMP;SG;PRS
+grifflachen,grifflacht,V;IMP;PL;PRS
+troen,troen,V;NFIN
+troen,tro,V;IND;SG;1;PRS
+troen,tro,V;IND;SG;1;PST
+troen,troost,V;IND;SG;2;PRS
+troen,troost,V;IND;SG;2;PST
+troen,troot,V;IND;SG;3;PRS
+troen,tro,V;IND;SG;3;PST
+troen,troot,V;IND;PL;PRS
+troen,troen,V;IND;PL;PST
+troen,tro,V;IMP;SG;PRS
+troen,troot,V;IMP;PL;PRS
+splieten,splieten,V;NFIN
+splieten,spliet,V;IND;SG;1;PRS
+splieten,spleet,V;IND;SG;1;PST
+splieten,splittst,V;IND;SG;2;PRS
+splieten,spleetst,V;IND;SG;2;PST
+splieten,splitt,V;IND;SG;3;PRS
+splieten,spleet,V;IND;SG;3;PST
+splieten,spliet,V;IND;PL;PRS
+splieten,spleten,V;IND;PL;PST
+splieten,splitt,V;IMP;SG;PRS
+splieten,spliet,V;IMP;SG;PRS
+splieten,spleet,V;IMP;PL;PRS
+sien,sien,V;NFIN
+sien,bün,V;IND;SG;1;PRS
+sien,weer,V;IND;SG;1;PST
+sien,büst,V;IND;SG;2;PRS
+sien,weerst,V;IND;SG;2;PST
+sien,is,V;IND;SG;3;PRS
+sien,weer,V;IND;SG;3;PST
+sien,sünd,V;IND;PL;PRS
+sien,weren,V;IND;PL;PST
+sien,wes,V;IMP;SG;PRS
+sien,west,V;IMP;PL;PRS
+temmen,temmen,V;NFIN
+temmen,temm,V;IND;SG;1;PRS
+temmen,temm,V;IND;SG;1;PST
+temmen,temmst,V;IND;SG;2;PRS
+temmen,temmst,V;IND;SG;2;PST
+temmen,temmt,V;IND;SG;3;PRS
+temmen,temm,V;IND;SG;3;PST
+temmen,temmt,V;IND;PL;PRS
+temmen,temmen,V;IND;PL;PRS
+temmen,temmen,V;IND;PL;PST
+temmen,temme,V;IMP;SG;PRS
+temmen,temmt,V;IMP;PL;PRS
+befehlen,befehlen,V;NFIN
+befehlen,befehl,V;IND;SG;1;PRS
+befehlen,befohl,V;IND;SG;1;PST
+befehlen,befehlst,V;IND;SG;2;PRS
+befehlen,befohlst,V;IND;SG;2;PST
+befehlen,befehlt,V;IND;SG;3;PRS
+befehlen,befohl,V;IND;SG;3;PST
+befehlen,befehlt,V;IND;PL;PRS
+befehlen,befehlen,V;IND;PL;PRS
+befehlen,befohlen,V;IND;PL;PST
+befehlen,befehl,V;IMP;SG;PRS
+befehlen,befehlt,V;IMP;PL;PRS
+eten,eten,V;NFIN
+eten,eet,V;IND;SG;1;PRS
+eten,eet,V;IND;SG;1;PST
+eten,ittst,V;IND;SG;2;PRS
+eten,ettst,V;IND;SG;2;PRS
+eten,eetst,V;IND;SG;2;PST
+eten,itt,V;IND;SG;3;PRS
+eten,ett,V;IND;SG;3;PRS
+eten,eet,V;IND;SG;3;PST
+eten,eet,V;IND;PL;PRS
+eten,eten,V;IND;PL;PST
+eten,itt,V;IMP;SG;PRS
+eten,eet,V;IMP;SG;PRS
+eten,eet,V;IMP;PL;PRS
+rieden,rieden,V;NFIN
+rieden,ried,V;IND;SG;1;PRS
+rieden,reed,V;IND;SG;1;PST
+rieden,riddst,V;IND;SG;2;PRS
+rieden,reedst,V;IND;SG;2;PST
+rieden,riddt,V;IND;SG;3;PRS
+rieden,reed,V;IND;SG;3;PST
+rieden,riedt,V;IND;PL;PRS
+rieden,rieden,V;IND;PL;PRS
+rieden,reden,V;IND;PL;PST
+rieden,ried,V;IMP;SG;PRS
+rieden,riedt,V;IMP;PL;PRS
+splintern,splintern,V;NFIN
+splintern,splinter,V;IND;SG;1;PRS
+splintern,splinter,V;IND;SG;1;PST
+splintern,splinterst,V;IND;SG;2;PRS
+splintern,splinterst,V;IND;SG;2;PST
+splintern,splintert,V;IND;SG;3;PRS
+splintern,splinter,V;IND;SG;3;PST
+splintern,splintert,V;IND;PL;PRS
+splintern,splintern,V;IND;PL;PST
+splintern,splinter,V;IMP;SG;PRS
+splintern,splintert,V;IMP;PL;PRS
+wackeln,wackeln,V;NFIN
+wackeln,wackel,V;IND;SG;1;PRS
+wackeln,wackel,V;IND;SG;1;PST
+wackeln,wackelst,V;IND;SG;2;PRS
+wackeln,wackelst,V;IND;SG;2;PST
+wackeln,wackelt,V;IND;SG;3;PRS
+wackeln,wackel,V;IND;SG;3;PST
+wackeln,wackelt,V;IND;PL;PRS
+wackeln,wackeln,V;IND;PL;PST
+wackeln,wackel,V;IMP;SG;PRS
+wackeln,wackelt,V;IMP;PL;PRS
+stehlen,stehlen,V;NFIN
+stehlen,stehl,V;IND;SG;1;PRS
+stehlen,stohl,V;IND;SG;1;PST
+stehlen,stehlst,V;IND;SG;2;PRS
+stehlen,stohlst,V;IND;SG;2;PST
+stehlen,stehlt,V;IND;SG;3;PRS
+stehlen,stohl,V;IND;SG;3;PST
+stehlen,stehlt,V;IND;PL;PRS
+stehlen,stehlen,V;IND;PL;PRS
+stehlen,stohlen,V;IND;PL;PST
+stehlen,stehl,V;IMP;SG;PRS
+stehlen,stehlt,V;IMP;PL;PRS
+tähmen,tähmen,V;NFIN
+tähmen,tähm,V;IND;SG;1;PRS
+tähmen,tähm,V;IND;SG;1;PST
+tähmen,tähmst,V;IND;SG;2;PRS
+tähmen,tähmst,V;IND;SG;2;PST
+tähmen,tähmt,V;IND;SG;3;PRS
+tähmen,tähm,V;IND;SG;3;PST
+tähmen,tähmt,V;IND;PL;PRS
+tähmen,tähmen,V;IND;PL;PRS
+tähmen,tähmen,V;IND;PL;PST
+tähmen,tähme,V;IMP;SG;PRS
+tähmen,tähmt,V;IMP;PL;PRS
+utenannerfallen,utenannerfallen,V;NFIN
+utenannerfallen,fall utenanner,V;IND;SG;1;PRS
+utenannerfallen,full utenanner,V;IND;SG;1;PST
+utenannerfallen,utenannerfall,V;IND;SG;1;PRS;LGSPEC02
+utenannerfallen,utenannerfull,V;IND;SG;1;PST;LGSPEC02
+utenannerfallen,fallst utenanner,V;IND;SG;2;PRS
+utenannerfallen,fullst utenanner,V;IND;SG;2;PST
+utenannerfallen,utenannerfallst,V;IND;SG;2;PRS;LGSPEC02
+utenannerfallen,utenannerfullst,V;IND;SG;2;PST;LGSPEC02
+utenannerfallen,fallt utenanner,V;IND;SG;3;PRS
+utenannerfallen,full utenanner,V;IND;SG;3;PST
+utenannerfallen,utenannerfallt,V;IND;SG;3;PRS;LGSPEC02
+utenannerfallen,utenannerfull,V;IND;SG;3;PST;LGSPEC02
+utenannerfallen,fallt utenanner,V;IND;PL;PRS
+utenannerfallen,fullen utenanner,V;IND;PL;PST
+utenannerfallen,utenannerfallt,V;IND;PL;PRS;LGSPEC02
+utenannerfallen,utenannerfullen,V;IND;PL;PST;LGSPEC02
+utenannerfallen,fall utenanner,V;IMP;SG;PRS
+utenannerfallen,fallt utenanner,V;IMP;PL;PRS
+evakueren,evakueren,V;NFIN
+evakueren,evakueer,V;IND;SG;1;PRS
+evakueren,evakueer,V;IND;SG;1;PST
+evakueren,evakueerst,V;IND;SG;2;PRS
+evakueren,evakueerst,V;IND;SG;2;PST
+evakueren,evakueert,V;IND;SG;3;PRS
+evakueren,evakueer,V;IND;SG;3;PST
+evakueren,evakueert,V;IND;PL;PRS
+evakueren,evakueeren,V;IND;PL;PRS
+evakueren,evakueren,V;IND;PL;PST
+evakueren,evakueere,V;IMP;SG;PRS
+evakueren,evakueert,V;IMP;PL;PRS
+dootsteken,dootsteken,V;NFIN
+dootsteken,steek doot,V;IND;SG;1;PRS
+dootsteken,steek doot,V;IND;SG;1;PST
+dootsteken,dootsteek,V;IND;SG;1;PRS;LGSPEC02
+dootsteken,dootsteek,V;IND;SG;1;PST;LGSPEC02
+dootsteken,stickst doot,V;IND;SG;2;PRS
+dootsteken,steekst doot,V;IND;SG;2;PST
+dootsteken,dootstickst,V;IND;SG;2;PRS;LGSPEC02
+dootsteken,dootsteekst,V;IND;SG;2;PST;LGSPEC02
+dootsteken,stickt doot,V;IND;SG;3;PRS
+dootsteken,steek doot,V;IND;SG;3;PST
+dootsteken,dootstickt,V;IND;SG;3;PRS;LGSPEC02
+dootsteken,dootsteek,V;IND;SG;3;PST;LGSPEC02
+dootsteken,steekt doot,V;IND;PL;PRS
+dootsteken,steken doot,V;IND;PL;PST
+dootsteken,dootsteekt,V;IND;PL;PRS;LGSPEC02
+dootsteken,dootsteken,V;IND;PL;PST;LGSPEC02
+dootsteken,steek doot,V;IMP;SG;PRS
+dootsteken,steekt doot,V;IMP;PL;PRS
+dootsteken,stook doot,V;IND;SG;1;PST
+dootsteken,dootstook,V;IND;SG;1;PST;LGSPEC02
+dootsteken,stookst doot,V;IND;SG;2;PST
+dootsteken,dootstookst,V;IND;SG;2;PST;LGSPEC02
+dootsteken,stook doot,V;IND;SG;3;PST
+dootsteken,dootstook,V;IND;SG;3;PST;LGSPEC02
+dootsteken,stoken doot,V;IND;PL;PST
+dootsteken,dootstoken,V;IND;PL;PST;LGSPEC02
+mögen,mögen,V;NFIN
+mögen,mag,V;IND;SG;1;PRS
+mögen,much,V;IND;SG;1;PST
+mögen,magst,V;IND;SG;2;PRS
+mögen,muchst,V;IND;SG;2;PST
+mögen,mag,V;IND;SG;3;PRS
+mögen,much,V;IND;SG;3;PST
+mögen,möögt,V;IND;PL;PRS
+mögen,muchen,V;IND;PL;PST
+laden,laden,V;NFIN
+laden,laad,V;IND;SG;1;PRS
+laden,laad,V;IND;SG;1;PST
+laden,laadst,V;IND;SG;2;PRS
+laden,laadst,V;IND;SG;2;PST
+laden,laadt,V;IND;SG;3;PRS
+laden,laad,V;IND;SG;3;PST
+laden,laadt,V;IND;PL;PRS
+laden,laden,V;IND;PL;PST
+laden,laad,V;IMP;SG;PRS
+laden,laadt,V;IMP;PL;PRS
+gellen,gellen,V;NFIN
+gellen,gell,V;IND;SG;1;PRS
+gellen,gull,V;IND;SG;1;PST
+gellen,gellst,V;IND;SG;2;PRS
+gellen,gullst,V;IND;SG;2;PST
+gellen,gellt,V;IND;SG;3;PRS
+gellen,gull,V;IND;SG;3;PST
+gellen,gellt,V;IND;PL;PRS
+gellen,gellen,V;IND;PL;PRS
+gellen,gullen,V;IND;PL;PST
+gellen,gell,V;IMP;SG;PRS
+gellen,gellt,V;IMP;PL;PRS
+böten,böten,V;NFIN
+böten,bööt,V;IND;SG;1;PRS
+böten,bött,V;IND;SG;1;PST
+böten,bötst,V;IND;SG;2;PRS
+böten,böttst,V;IND;SG;2;PST
+böten,bött,V;IND;SG;3;PRS
+böten,bött,V;IND;SG;3;PST
+böten,böött,V;IND;PL;PRS
+böten,bööten,V;IND;PL;PRS
+böten,bötten,V;IND;PL;PST
+böten,bööte,V;IMP;SG;PRS
+böten,böött,V;IMP;PL;PRS
+bruken,bruken,V;NFIN
+bruken,bruuk,V;IND;SG;1;PRS
+bruken,bruuk,V;IND;SG;1;PST
+bruken,bruukst,V;IND;SG;2;PRS
+bruken,bruukst,V;IND;SG;2;PST
+bruken,bruukt,V;IND;SG;3;PRS
+bruken,bruuk,V;IND;SG;3;PST
+bruken,bruukt,V;IND;PL;PRS
+bruken,bruuken,V;IND;PL;PRS
+bruken,bruken,V;IND;PL;PST
+bruken,bruuke,V;IMP;SG;PRS
+bruken,bruukt,V;IMP;PL;PRS
+grienen,grienen,V;NFIN
+grienen,grien,V;IND;SG;1;PRS
+grienen,grien,V;IND;SG;1;PST
+grienen,grienst,V;IND;SG;2;PRS
+grienen,grienst,V;IND;SG;2;PST
+grienen,grient,V;IND;SG;3;PRS
+grienen,grien,V;IND;SG;3;PST
+grienen,grient,V;IND;PL;PRS
+grienen,grienen,V;IND;PL;PRS
+grienen,grienen,V;IND;PL;PST
+grienen,griene,V;IMP;SG;PRS
+grienen,grient,V;IMP;PL;PRS
+gegenkamen,gegenkamen,V;NFIN
+gegenkamen,kaam gegen,V;IND;SG;1;PRS
+gegenkamen,keem gegen,V;IND;SG;1;PST
+gegenkamen,gegenkaam,V;IND;SG;1;PRS;LGSPEC02
+gegenkamen,gegenkeem,V;IND;SG;1;PST;LGSPEC02
+gegenkamen,kümmst gegen,V;IND;SG;2;PRS
+gegenkamen,keemst gegen,V;IND;SG;2;PST
+gegenkamen,gegenkümmst,V;IND;SG;2;PRS;LGSPEC02
+gegenkamen,gegenkeemst,V;IND;SG;2;PST;LGSPEC02
+gegenkamen,kümmt gegen,V;IND;SG;3;PRS
+gegenkamen,keem gegen,V;IND;SG;3;PST
+gegenkamen,gegenkümmt,V;IND;SG;3;PRS;LGSPEC02
+gegenkamen,gegenkeem,V;IND;SG;3;PST;LGSPEC02
+gegenkamen,kaamt gegen,V;IND;PL;PRS
+gegenkamen,kemen gegen,V;IND;PL;PST
+gegenkamen,gegenkaamt,V;IND;PL;PRS;LGSPEC02
+gegenkamen,gegenkemen,V;IND;PL;PST;LGSPEC02
+gegenkamen,kaam gegen,V;IMP;SG;PRS
+gegenkamen,kaamt gegen,V;IMP;PL;PRS
+smullen,smullen,V;NFIN
+smullen,smull,V;IND;SG;1;PRS
+smullen,smull,V;IND;SG;1;PST
+smullen,smullst,V;IND;SG;2;PRS
+smullen,smullst,V;IND;SG;2;PST
+smullen,smullt,V;IND;SG;3;PRS
+smullen,smull,V;IND;SG;3;PST
+smullen,smullt,V;IND;PL;PRS
+smullen,smullen,V;IND;PL;PRS
+smullen,smullen,V;IND;PL;PST
+smullen,smulle,V;IMP;SG;PRS
+smullen,smullt,V;IMP;PL;PRS
+reken,reken,V;NFIN
+reken,reken,V;IND;SG;1;PRS
+reken,reken,V;IND;SG;1;PST
+reken,rekenst,V;IND;SG;2;PRS
+reken,rekenst,V;IND;SG;2;PST
+reken,rekent,V;IND;SG;3;PRS
+reken,reken,V;IND;SG;3;PST
+reken,rekent,V;IND;PL;PRS
+reken,rekenen,V;IND;PL;PRS
+reken,reeknen,V;IND;PL;PST
+reken,reken,V;IND;PL;PST
+reken,rekene,V;IMP;SG;PRS
+reken,rekent,V;IMP;PL;PRS
+drinken,drinken,V;NFIN
+drinken,drink,V;IND;SG;1;PRS
+drinken,drunk,V;IND;SG;1;PST
+drinken,drinkst,V;IND;SG;2;PRS
+drinken,drunkst,V;IND;SG;2;PST
+drinken,drinkt,V;IND;SG;3;PRS
+drinken,drunk,V;IND;SG;3;PST
+drinken,drinkt,V;IND;PL;PRS
+drinken,drinken,V;IND;PL;PRS
+drinken,drunken,V;IND;PL;PST
+drinken,drink,V;IMP;SG;PRS
+drinken,drinkt,V;IMP;PL;PRS
