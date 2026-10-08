@@ -1,0 +1,34 @@
+repo,verb_lemmas,forms_per_lemma,cells_per_lemma,file,glottocode,label,main_pops,exp_pops,main_ind,exp_ind,gelato_match,passes
+vep,2572,87.23755832037325,86.42223950233281,vep/vep-new-written-veps,veps1250,Veps,1.0,1.0,10.0,10.0,exact glottocode,True
+aym,2018,53.641228939544106,59.0,aym/aym,sout2996,Aymara,,,,,macrolanguage aym -> GeLaTo Southern Aymara; variety unchecked,True
+kor,1993,76.85750125439037,72.70546914199699,kor/kor,kore1280,Korean,1.0,1.0,6.0,6.0,exact glottocode,True
+tyv,1321,201.51324753974262,201.00227100681303,tyv/tyv,tuvi1240,Tuvinian,2.0,3.0,20.0,24.0,exact glottocode,True
+arz,1320,5.065151515151515,6.195454545454545,arz/arz,egyp1253,Egyptian Arabic,2.0,3.0,18.0,22.0,exact glottocode,True
+sah,976,90.62602459016394,86.83401639344262,sah/sah,yaku1245,Yakut,1.0,1.0,25.0,25.0,exact glottocode,True
+amh,670,34.232835820895524,37.267164179104476,amh/amh,amha1245,Amharic,1.0,1.0,7.0,7.0,exact glottocode,True
+que,644,38.0,41.0,que/que,cusc1236,Quechua,,,,,macrolanguage que -> GeLaTo Cusco Quechua; variety unchecked,True
+uzb,428,83.68457943925233,84.05841121495327,uzb/uzb_verbs,nort2690,Northern Uzbek,,,,,macrolanguage uzb -> Northern Uzbek,True
+tgl,344,7.5,6.816860465116279,tgl/tgl,taga1270,Tagalog,1.0,1.0,5.0,5.0,exact glottocode,True
+nya,227,13.0,19.0,nya/nya,nyan1308,Chichewa,1.0,1.0,11.0,11.0,exact glottocode,True
+evn,1346,3.7459138187221392,2.952451708766716,evn/evn,even1259,Evenki,2.0,2.0,16.0,16.0,exact glottocode,False
+itl,705,2.082269503546099,1.8425531914893611,itl/itl,itel1242,Itelmen,1.0,1.0,7.0,7.0,exact glottocode,False
+sjo,565,2.368141592920354,2.348672566371681,sjo/sjo,xibe1242,Xibe,1.0,1.0,9.0,9.0,exact glottocode,False
+ket,142,3.014084507042253,2.084507042253521,ket/ket,kett1243,Ket,2.0,2.0,19.0,19.0,exact glottocode,False
+kir,98,54.6530612244898,56.0,kir/kir,kirg1245,Kirghiz,1.0,2.0,10.0,14.0,exact glottocode,False
+orm,92,19.065217391304348,22.0,orm/orm,west2721,Oromo,,,,,macrolanguage orm -> West Central Oromo,False
+guj,90,41.0,52.0,guj/guj,guja1252,Gujarati,3.0,4.0,15.0,19.0,exact glottocode,False
+uig,90,74.26666666666667,87.0,uig/uig,uigh1240,Uighur,1.0,1.0,10.0,10.0,exact glottocode,False
+ben,84,41.154761904761905,46.0,ben/ben,beng1280,Bengali,1.0,1.0,7.0,7.0,exact glottocode,False
+ckt,60,1.283333333333333,1.283333333333333,ckt/ckt,chuk1273,Chukot,2.0,2.0,25.0,25.0,exact glottocode,False
+khk,55,16.345454545454544,13.345454545454546,khk/khk,mong1331,Halh Mongolian,,,,,dialect-level code -> GeLaTo mong1331,False
+nap,40,37.425,44.2,nap/nap,neap1235,Neapolitan,0.0,1.0,,1.0,exact glottocode,False
+cre,32,201.34375,196.625,cre/cre,cree1272,Cree,,,,,macrolanguage cre -> GeLaTo Cree,False
+eus,26,441.9230769230769,457.2692307692308,eus/eus,basq1248,Basque,3.0,3.0,36.0,36.0,exact glottocode,False
+sot,26,15.0,19.0,sot/sot,sout2807,Southern Sotho,0.0,1.0,,1.0,exact glottocode,False
+gla,19,6.2105263157894735,7.0,gla/gla,scot1245,Scottish Gaelic,6.0,7.0,39.0,43.0,exact glottocode,False
+tgk,1,1.0,1.0,tgk/tgk,taji1245,Tajik,2.0,2.0,20.0,20.0,exact glottocode,False
+kaz,0,0.0,0.0,kaz/kaz,kaza1248,Kazakh,2.0,5.0,11.0,17.0,exact glottocode,False
+kjh,0,0.0,0.0,kjh/kjh,khak1248,Khakas,1.0,1.0,6.0,6.0,exact glottocode,False
+mon,0,0.0,0.0,mon,mong1331,Mongolian,,,,,macrolanguage,False
+oss,0,0.0,0.0,oss,iron1242,Iron Ossetic,1.0,1.0,6.0,6.0,exact glottocode,False
+tuk,0,0.0,0.0,tuk/tuk,turk1304,Turkmen,1.0,1.0,7.0,7.0,exact glottocode,False

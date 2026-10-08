@@ -1,0 +1,16 @@
+group_id,group_size,lemma_id,lemma_label,resource_id,join_reasons
+ita.V::g000182,3,mgn_data:ita-v::accendere,accendere,mgn_data:ita-v,source_form
+ita.V::g000182,3,mgn_data:ita-v::accidere,accidere,mgn_data:ita-v,source_form
+ita.V::g000182,3,mgn_data:ita-v::ancidere,ancidere,mgn_data:ita-v,source_form
+ita.V::g003691,2,mgn_data:ita-v::frequentarsi,frequentarsi,mgn_data:ita-v,source_form
+ita.V::g003691,2,mgn_data:ita-v::incontrarsi,incontrarsi,mgn_data:ita-v,source_form
+ita.V::g006590,2,mgn_data:ita-v::restarci,restarci,mgn_data:ita-v,source_form
+ita.V::g006590,2,mgn_data:ita-v::restarsi,restarsi,mgn_data:ita-v,source_form
+ita.V::g006934,2,mgn_data:ita-v::ridolere,ridolere,mgn_data:ita-v,source_form
+ita.V::g006934,2,mgn_data:ita-v::sdolere,sdolere,mgn_data:ita-v,source_form
+ita.V::g008222,2,mgn_data:ita-v::sentirci,sentirci,mgn_data:ita-v,source_form
+ita.V::g008222,2,mgn_data:ita-v::sentirsi,sentirsi,mgn_data:ita-v,source_form
+ita.V::g008686,2,mgn_data:ita-v::sorridere,sorridere,mgn_data:ita-v,source_form
+ita.V::g008686,2,mgn_data:ita-v::sottoridere,sottoridere,mgn_data:ita-v,source_form
+ita.V::g008865,2,mgn_data:ita-v::sperdere,sperdere,mgn_data:ita-v,source_form
+ita.V::g008865,2,mgn_data:ita-v::straperdere,straperdere,mgn_data:ita-v,source_form

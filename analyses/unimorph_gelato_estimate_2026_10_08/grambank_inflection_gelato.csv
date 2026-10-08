@@ -1,0 +1,338 @@
+glottocode,ind_expanded,ind_main,pops,covered,in_grambank,n_coded,n_present,coverage,infl_share,name,family,macroarea,ind_any
+abaz1241,10.0,10.0,Abazin,False,False,,,,,Abaza,Abkhaz-Adyge,Eurasia,10.0
+abkh1244,9.0,9.0,Abkhasian,False,True,35.0,19.0,1.0,0.5428571428571428,Abkhaz,Abkhaz-Adyge,Eurasia,9.0
+adyg1241,33.0,18.0,Adygei;Adygei_Abadzhekh;Adygei_Bzhedug;Adygei_Mamk,True,False,,,,,West Circassian,Abkhaz-Adyge,Eurasia,33.0
+afar1241,5.0,5.0,Afar_WGA,False,True,35.0,16.0,1.0,0.45714285714285713,Afar,Afro-Asiatic,Africa,5.0
+aghe1239,28.0,28.0,Cameroon_Aghem,False,True,35.0,11.0,1.0,0.3142857142857143,Aghem,Atlantic-Congo,Africa,28.0
+akei1237,2.0,,Vanuatu_Santo_Tasiriki,False,True,27.0,5.0,0.7714285714285715,0.18518518518518517,Akei,Austronesian,Papunesia,2.0
+alba1267,6.0,6.0,Albanian,False,False,,,,,Albanian,Indo-European,Eurasia,6.0
+aleu1260,10.0,6.0,Aleut;Aleut_Tlingit,False,True,34.0,20.0,0.9714285714285714,0.5882352941176471,Aleut,Eskimo-Aleut,North America,10.0
+alge1239,5.0,5.0,Algerian,False,False,,,,,Algerian Arabic,Afro-Asiatic,Africa,5.0
+algo1255,9.0,9.0,Algonquin,False,False,,,,,Algonquin,Algic,North America,9.0
+ambr1240,6.0,,Vanuatu_Ambrym,False,False,,,,,Ambrym,Austronesian,Papunesia,6.0
+amha1245,7.0,7.0,Jew_Ethiopian,True,True,27.0,19.0,0.7714285714285715,0.7037037037037037,Amharic,Afro-Asiatic,Africa,7.0
+amis1246,10.0,10.0,Ami,False,True,29.0,8.0,0.8285714285714286,0.27586206896551724,Amis,Austronesian,Papunesia,10.0
+anei1239,6.0,,Vanuatu_Aneityum,False,True,35.0,11.0,1.0,0.3142857142857143,Aneityum,Austronesian,Papunesia,6.0
+apal1257,4.0,,Apalai,False,False,,,,,Apalaí,Cariban,South America,4.0
+apma1240,10.0,,Vanuatu_Pentecost_Bwatnapni;Vanuatu_Pentecost_Mara,False,True,35.0,5.0,1.0,0.14285714285714285,Apma,Austronesian,Papunesia,10.0
+arag1245,6.0,6.0,Spanish_Aragon,False,False,,,,,Aragonese,Indo-European,Eurasia,6.0
+assy1241,16.0,16.0,Assyrian;Assyrian_WGA,False,False,,,,,Assyrian Neo-Aramaic,Afro-Asiatic,Eurasia,16.0
+astu1245,5.0,5.0,Spanish_Cantabria,True,False,,,,,Asturian-Leonese-Cantabrian,Indo-European,Eurasia,5.0
+atay1247,10.0,10.0,Atayal,False,True,31.0,7.0,0.8857142857142857,0.22580645161290322,Atayal,Austronesian,Papunesia,10.0
+avar1256,10.0,10.0,Avar_Gunibsky;Avar_Unchukulsky,False,False,,,,,Avar,Nakh-Daghestanian,Eurasia,10.0
+bafu1246,11.0,11.0,Cameroon_Bafut,False,True,35.0,12.0,1.0,0.34285714285714286,Bafut,Atlantic-Congo,Africa,11.0
+bain1263,14.0,10.0,Baining_Malasait;Baining_Marabu,False,False,,,,,Baining,isolate/none,Papunesia,14.0
+bako1249,1.0,,Cameroon_Bakoko,False,False,,,,,Bakoko,Atlantic-Congo,Africa,1.0
+bash1264,53.0,45.0,Bashkir_Burzjan_Baimaksky;Bashkir_IkskoBelsky_Kyrg,True,True,35.0,15.0,1.0,0.42857142857142855,Bashkir,Turkic,Eurasia,53.0
+basq1248,36.0,36.0,Basque;Spanish_Basque;Spanish_PaisVasco,False,True,35.0,12.0,1.0,0.34285714285714286,Basque,isolate/none,Eurasia,36.0
+bela1254,10.0,10.0,Belarusian,True,True,35.0,20.0,1.0,0.5714285714285714,Belarusian,Indo-European,Eurasia,10.0
+beng1280,7.0,7.0,Bengali,False,False,,,,,Bengali,Indo-European,Eurasia,7.0
+bilu1245,6.0,6.0,Vella_Lavella,False,True,20.0,10.0,0.5714285714285714,0.5,Bilua,isolate/none,Papunesia,6.0
+brah1256,23.0,23.0,Brahui,False,True,31.0,15.0,0.8857142857142857,0.4838709677419355,Brahui,Dravidian,Eurasia,23.0
+brun1245,10.0,10.0,Dusun,False,False,,,,,Brunei Bisaya-Dusun,Austronesian,Papunesia,10.0
+buka1262,5.0,5.0,Buka,False,False,,,,,Buka,Austronesian,Papunesia,5.0
+bulg1262,10.0,10.0,Bulgarian,True,False,,,,,Bulgarian,Indo-European,Eurasia,10.0
+bund1253,13.0,13.0,Lodhi,False,True,33.0,17.0,0.9428571428571428,0.5151515151515151,Bundeli,Indo-European,Eurasia,13.0
+buru1296,24.0,24.0,Burusho,False,True,31.0,24.0,0.8857142857142857,0.7741935483870968,Burushaski,isolate/none,Eurasia,24.0
+cabe1245,4.0,,Cabecar,False,True,33.0,13.0,0.9428571428571428,0.3939393939393939,Cabécar,Chibchan,North America,4.0
+cams1241,4.0,,Kamentsa,False,True,31.0,12.0,0.8857142857142857,0.3870967741935484,Camsá,isolate/none,South America,4.0
+cebu1242,4.0,,Visayan,False,True,20.0,5.0,0.5714285714285714,0.25,Cebuano,Austronesian,Papunesia,4.0
+cent1989,10.0,10.0,Cambodian,False,True,35.0,0.0,1.0,0.0,Central Khmer,Austroasiatic,Eurasia,10.0
+cent2053,10.0,10.0,Semende,False,False,,,,,South Barisan Malay,Austronesian,Papunesia,10.0
+cent2058,10.0,,Vanuatu_Maewo,False,True,26.0,3.0,0.7428571428571429,0.11538461538461539,Central Maewo,Austronesian,Papunesia,10.0
+cent2128,5.0,5.0,Eskimo_ChaplinSireniki,False,False,,,,,Central Siberian Yupik,Eskimo-Aleut,Eurasia,5.0
+cent2288,8.0,8.0,Luhya,False,False,,,,,Central-Eastern Luyia,Atlantic-Congo,Africa,8.0
+chac1250,31.0,27.0,Huancas;LaJalca;Luya;UtcubambaSouth,False,False,,,,,Chachapoyas Quechua,Quechuan,South America,31.0
+chec1245,9.0,9.0,Chechen,False,True,31.0,20.0,0.8857142857142857,0.6451612903225806,Chechen,Nakh-Daghestanian,Eurasia,9.0
+chha1249,15.0,15.0,Brahmin_Tiwari,False,False,,,,,Chhattisgarhi,Indo-European,Eurasia,15.0
+chip1261,26.0,26.0,Chipewyan,False,True,35.0,12.0,1.0,0.34285714285714286,Chipewyan,Athabaskan-Eyak-Tlingit,North America,26.0
+chuk1273,25.0,25.0,Chukchi;Chukchi_Ayon,False,True,35.0,22.0,1.0,0.6285714285714286,Chukchi,Chukotko-Kamchatkan,Eurasia,25.0
+chuv1255,16.0,16.0,Chuvash;Chuvash_Tatarstan,False,True,35.0,14.0,1.0,0.4,Chuvash,Turkic,Eurasia,16.0
+circ1239,9.0,9.0,Circassian,False,False,,,,,Circassian,Abkhaz-Adyge,Eurasia,9.0
+coca1259,7.0,7.0,Cocama,False,True,35.0,12.0,1.0,0.34285714285714286,Cocama-Cocamilla,Tupian,South America,7.0
+cofa1242,4.0,,Cofan,False,True,33.0,14.0,0.9428571428571428,0.42424242424242425,Cofán,isolate/none,South America,4.0
+cree1272,12.0,12.0,Cree,False,False,,,,,Cree,Algic,North America,12.0
+cusc1236,15.0,12.0,Cusco;Cusco2;Peru_Quechua,True,True,34.0,19.0,0.9714285714285714,0.5588235294117647,Cusco Quechua,Quechuan,South America,15.0
+cypr1248,8.0,8.0,Cypriot,False,True,30.0,19.0,0.8571428571428571,0.6333333333333333,Cypriot Arabic,Afro-Asiatic,Eurasia,8.0
+czec1258,10.0,10.0,Czech,True,True,35.0,22.0,1.0,0.6285714285714286,Czech,Indo-European,Eurasia,10.0
+darg1241,16.0,16.0,Darginian;Kaitag,False,True,29.0,18.0,0.8285714285714286,0.6206896551724138,North-Central Dargwa,Nakh-Daghestanian,Eurasia,16.0
+dato1239,3.0,,Datog,False,False,,,,,Barabayiiga-Gisamjanga,Nilotic,Africa,3.0
+daur1238,9.0,9.0,Daur,False,True,29.0,12.0,0.8285714285714286,0.41379310344827586,Dagur,Mongolic-Khitan,Eurasia,9.0
+dink1262,10.0,10.0,Dinka,False,False,,,,,Dinka,Nilotic,Africa,10.0
+dolg1241,4.0,,Dolgan,False,False,,,,,Dolgan,Turkic,Eurasia,4.0
+duke1237,5.0,5.0,Kolombangara,False,False,,,,,Duke,Austronesian,Papunesia,5.0
+dung1253,13.0,13.0,Dungan,False,False,,,,,Dungan,Sino-Tibetan,Eurasia,13.0
+east2295,8.0,8.0,Ashkenazi_Jew,True,False,,,,,Eastern Yiddish,Indo-European,Eurasia,8.0
+east2304,24.0,24.0,Balochi,False,False,,,,,Eastern Balochi,Indo-European,Eurasia,24.0
+east2443,5.0,,Vanuatu_Aoba,False,True,35.0,9.0,1.0,0.2571428571428571,East Ambae,Austronesian,Papunesia,5.0
+east2690,44.0,44.0,BedouinA;BedouinB,False,True,30.0,12.0,0.8571428571428571,0.4,Eastern Egyptian Bedawi Arabic,Afro-Asiatic,Africa;Eurasia,44.0
+efat1236,6.0,,Vanuatu_Efate,False,False,,,,,Efate,Austronesian,Papunesia,6.0
+egyp1253,22.0,18.0,Egyptian;Egyptian1;Egyptian2,True,True,31.0,19.0,0.8857142857142857,0.6129032258064516,Egyptian Arabic,Afro-Asiatic,Africa;Eurasia,22.0
+emae1237,8.0,,Vanuatu_Emae,False,True,34.0,6.0,0.9714285714285714,0.17647058823529413,Emae,Austronesian,Papunesia,8.0
+erzy1239,22.0,22.0,Mordovian;Mordovian_Erzya,False,True,35.0,14.0,1.0,0.4,Erzya,Uralic,Eurasia,22.0
+esan1238,2.0,,Esan,False,True,28.0,4.0,0.8,0.14285714285714285,Esan,Atlantic-Congo,Africa,2.0
+esto1258,10.0,10.0,Estonian,True,True,35.0,12.0,1.0,0.34285714285714286,Estonian,Uralic,Eurasia,10.0
+even1259,16.0,16.0,Evenk_FarEast;Evenk_Transbaikal,False,True,31.0,16.0,0.8857142857142857,0.5161290322580645,Evenki,Tungusic,Eurasia,16.0
+even1260,9.0,9.0,Even,False,True,30.0,16.0,0.8571428571428571,0.5333333333333333,Even,Tungusic,Eurasia,9.0
+extr1243,5.0,5.0,Spanish_Extremadura,False,False,,,,,Extremaduran,Indo-European,Eurasia,5.0
+fars1254,18.0,18.0,Iranian_Bandari;Iranian_Persian,False,False,,,,,Farsic-Caucasian Tat,Indo-European,Eurasia,18.0
+finn1318,8.0,8.0,Finnish,True,True,35.0,14.0,1.0,0.4,Finnish,Uralic,Eurasia,8.0
+futu1245,3.0,,Vanuatu_Futuna,False,True,35.0,8.0,1.0,0.22857142857142856,Futuna-Aniwa,Austronesian,Papunesia,3.0
+gaga1249,9.0,9.0,Gagauz,False,True,35.0,15.0,1.0,0.42857142857142855,Gagauz,Turkic,Eurasia,9.0
+gali1258,5.0,5.0,Spanish_Galicia,True,True,35.0,18.0,1.0,0.5142857142857142,Galician,Indo-European,Eurasia,5.0
+gana1274,8.0,8.0,Gana,False,False,,,,,//Gana,Khoe-Kwadi,Africa,8.0
+gavi1246,1.0,,Zoro,False,False,,,,,Gavião Do Jiparaná,Tupian,South America,1.0
+gela1263,6.0,6.0,Nggela,False,True,34.0,4.0,0.9714285714285714,0.11764705882352941,Gela,Austronesian,Papunesia,6.0
+ghan1242,6.0,6.0,Ranongga,False,True,34.0,7.0,0.9714285714285714,0.20588235294117646,Ghanongga,Austronesian,Papunesia,6.0
+gily1242,8.0,8.0,Nivh,False,True,35.0,17.0,1.0,0.4857142857142857,Amur Nivkh,Nivkh,Eurasia,8.0
+gree1276,40.0,40.0,Greek_Athens;Greek_Thessaloniki;Greek_WGA,True,False,,,,,Greek,Indo-European,Eurasia,40.0
+guja1252,19.0,15.0,GujaratiA;GujaratiB;GujaratiC;GujaratiD,False,False,,,,,Gujarati,Indo-European,Eurasia,19.0
+gwii1239,11.0,11.0,Gui,False,False,,,,,/Gwi,Khoe-Kwadi,Africa,11.0
+hadr1236,16.0,,Yemen_Hadramout;Yemen_Shabwah,False,False,,,,,Hadrami Arabic,Afro-Asiatic,Eurasia,16.0
+hadz1240,25.0,25.0,Hadza;Hadza1,False,True,35.0,13.0,1.0,0.37142857142857144,Hadza,isolate/none,Africa,25.0
+haio1238,9.0,9.0,Haiom,False,True,5.0,4.0,0.14285714285714285,0.8,Hai//om-Akhoe,Khoe-Kwadi,Africa,9.0
+hakk1236,8.0,,Hakka_Taiwan,False,True,34.0,6.0,0.9714285714285714,0.17647058823529413,Hakka Chinese,Sino-Tibetan,Eurasia,8.0
+hano1246,3.0,,Vanuatu_Santo_Sara,False,True,34.0,5.0,0.9714285714285714,0.14705882352941177,Hano,Austronesian,Papunesia,3.0
+hass1238,9.0,9.0,Saharawi,False,True,30.0,18.0,0.8571428571428571,0.6,Hassaniyya,Afro-Asiatic,Africa,9.0
+haza1239,22.0,22.0,Hazara,False,False,,,,,Hazaragi,Indo-European,Eurasia,22.0
+here1253,7.0,5.0,BantuSA_Herero;Himba,False,True,35.0,20.0,1.0,0.5714285714285714,Herero,Atlantic-Congo,Africa,7.0
+hija1235,10.0,10.0,Saudi,False,False,,,,,Hijazi Arabic,Afro-Asiatic,Eurasia,10.0
+hmon1333,10.0,10.0,Miao,False,False,,,,,Hmong Daw,Hmong-Mien,Eurasia,10.0
+hoaa1235,6.0,6.0,Hoan,False,True,35.0,6.0,1.0,0.17142857142857143,Amkoe,Kxa,Africa,6.0
+homs1234,8.0,8.0,Armenian_Hemsheni,False,False,,,,,Western Armenian,Indo-European,Eurasia,8.0
+huaa1248,8.0,8.0,Taa_East,False,True,35.0,7.0,1.0,0.2,East Taa,Tuu,Africa,8.0
+huil1244,4.0,,Chilote,False,False,,,,,Huilliche,Araucanian,South America,4.0
+hung1274,20.0,20.0,Hungarian1;Hungarian2,True,True,35.0,17.0,1.0,0.4857142857142857,Hungarian,Uralic,Eurasia,20.0
+icel1247,12.0,12.0,Icelandic,True,True,35.0,19.0,1.0,0.5428571428571428,Icelandic,Indo-European,Eurasia,12.0
+ilok1237,2.0,,Ilocano,False,True,20.0,9.0,0.5714285714285714,0.45,Iloko,Austronesian,Papunesia,2.0
+indo1317,10.0,10.0,Bajo,False,False,,,,,Indonesian Bajau,Austronesian,Papunesia,10.0
+inga1252,15.0,15.0,Inga,False,True,13.0,3.0,0.37142857142857144,0.23076923076923078,Colombian Inga,Quechuan,South America,15.0
+ingu1240,10.0,10.0,Ingushian,False,True,31.0,18.0,0.8857142857142857,0.5806451612903226,Ingush,Nakh-Daghestanian,Eurasia,10.0
+iris1253,30.0,30.0,Irish_Connacht;Irish_Cork_Kerry;Irish_Leinster;Iri,True,True,35.0,19.0,1.0,0.5428571428571428,Irish,Indo-European,Eurasia,30.0
+iron1242,6.0,6.0,Ossetian_Southern,False,True,35.0,17.0,1.0,0.4857142857142857,Iron Ossetian,Indo-European,Eurasia,6.0
+ital1282,21.0,21.0,Bergamo;Tuscan,True,True,35.0,19.0,1.0,0.5428571428571428,Italian,Indo-European,Eurasia,21.0
+itel1242,7.0,7.0,Itelmen,False,False,,,,,West Itelmen,Chukotko-Kamchatkan,Eurasia,7.0
+japa1256,30.0,30.0,Japanese,True,False,,,,,Japanesic,Japonic,Eurasia;Papunesia,30.0
+jude1264,9.0,9.0,Jew_Libyan,False,False,,,,,Judeo-Tripolitanian Arabic,Afro-Asiatic,Eurasia,9.0
+jude1265,7.0,7.0,Jew_Moroccan,False,False,,,,,Judeo-Moroccan Arabic,Afro-Asiatic,Africa,7.0
+jude1266,9.0,9.0,Jew_Iraqi,False,False,,,,,Judeo-Iraqi Arabic,Afro-Asiatic,Eurasia,9.0
+jude1267,14.0,14.0,Jew_Yemenite;Yemeni,False,False,,,,,Judeo-Yemeni Arabic,Afro-Asiatic,Eurasia,14.0
+juho1239,30.0,30.0,Ju_hoan_North;Ju_hoan_South;San,False,True,16.0,5.0,0.45714285714285713,0.3125,South-Eastern Ju,Kxa,Africa,30.0
+kaba1278,10.0,10.0,Kabardinian,True,True,35.0,21.0,1.0,0.6,Kabardian,Abkhaz-Adyge,Eurasia,10.0
+kala1372,19.0,19.0,Kalash,False,False,,,,,Chitral Kalasha,Indo-European,Eurasia,19.0
+kalm1243,10.0,10.0,Kalmyk,False,True,35.0,11.0,1.0,0.3142857142857143,Oirad-Kalmyk-Darkhat,Mongolic-Khitan,Eurasia,10.0
+kank1243,10.0,10.0,Kankanaey,False,True,34.0,12.0,0.9714285714285714,0.35294117647058826,Kankanaey,Austronesian,Papunesia,10.0
+kaqc1270,5.0,5.0,Kaqchikel,False,True,34.0,14.0,0.9714285714285714,0.4117647058823529,Kaqchikel,Mayan,North America,5.0
+kara1462,40.0,40.0,Tofalar;Tubalar,False,False,,,,,Taiga Sayan Turkic,Turkic,Eurasia,40.0
+kara1465,21.0,21.0,Balkar;Karachai,False,False,,,,,Karachay-Balkar,Turkic,Eurasia,21.0
+kara1467,14.0,14.0,Karakalpak,False,False,,,,,Kara-Kalpak,Turkic,Eurasia,14.0
+kare1335,15.0,15.0,Karelian_Northern;Karelian_Southern,True,False,,,,,Karelian,Uralic,Eurasia,15.0
+kari1311,17.0,13.0,Karitiana;Karitiana_Rondonia,False,True,35.0,12.0,1.0,0.34285714285714286,Karitiâna,Tupian,South America,17.0
+kaza1248,17.0,11.0,Kazakhs_Akmola_Argyn;Kazakhs_Aktyubinsk;Kazakhs_Ea,False,False,,,,,Kazakh,Turkic,Eurasia,17.0
+kett1243,19.0,19.0,Ket;Ket_Southeast,False,True,34.0,14.0,0.9714285714285714,0.4117647058823529,Ket,Yeniseian,Eurasia,19.0
+kgal1244,5.0,5.0,Kgalagadi,False,True,33.0,18.0,0.9428571428571428,0.5454545454545454,Kgalagadi,Atlantic-Congo,Africa,5.0
+khak1248,23.0,19.0,Khakass_Kachins;Khakass_Koibals;Khakass_Kyzils;Kha,False,True,35.0,16.0,1.0,0.45714285714285713,Khakas,Turkic,Eurasia,23.0
+kham1281,10.0,10.0,Khamnegan,False,False,,,,,Khamnigan Mongol,Mongolic-Khitan,Eurasia,10.0
+khar1287,12.0,12.0,Kharia,False,True,32.0,13.0,0.9142857142857143,0.40625,Kharia,Austroasiatic,Eurasia,12.0
+kiku1240,4.0,,Kikuyu,False,True,34.0,18.0,0.9714285714285714,0.5294117647058824,Kikuyu,Atlantic-Congo,Africa,4.0
+kirg1245,14.0,10.0,Kirghiz_Pamir;Kyrgyz,False,False,,,,,Kirghiz,Turkic,Eurasia,14.0
+kolp1236,2.0,,Kol_New_Britain,False,True,20.0,5.0,0.5714285714285714,0.25,Kol (Papua New Guinea),isolate/none,Papunesia,2.0
+kore1280,6.0,6.0,Korean,True,True,35.0,12.0,1.0,0.34285714285714286,Korean,Koreanic,Eurasia,6.0
+kory1246,9.0,9.0,Koryak,False,False,,,,,Koryak,Chukotko-Kamchatkan,Eurasia,9.0
+kove1237,17.0,17.0,Kove;Kove_Tamuniai,False,True,35.0,11.0,1.0,0.3142857142857143,Kove,Austronesian,Papunesia,17.0
+kuan1248,11.0,9.0,Tolai_Kabakada;Tolai_Matupit,False,True,35.0,6.0,1.0,0.17142857142857143,Kuanua,Austronesian,Papunesia,11.0
+kuba1248,6.0,6.0,Kubachinian,False,False,,,,,Kubachi,Nakh-Daghestanian,Eurasia,6.0
+kumy1244,8.0,8.0,Kumyk,False,False,,,,,Kumyk,Turkic,Eurasia,8.0
+kung1261,15.0,15.0,Xuun,False,False,,,,,North-Central Ju,Kxa,Africa,15.0
+kuot1243,18.0,18.0,Kuot_Kabil;Kuot_Lamalaua,False,True,35.0,17.0,1.0,0.4857142857142857,Kuot,isolate/none,Papunesia,18.0
+kusu1250,5.0,5.0,Kusunda,False,True,34.0,15.0,0.9714285714285714,0.4411764705882353,Kusunda,isolate/none,Eurasia,5.0
+kxoe1243,10.0,10.0,Khwe,False,True,35.0,15.0,1.0,0.42857142857142855,Kxoe,Khoe-Kwadi,Africa,10.0
+ladi1251,9.0,9.0,Jew_Turkish,False,False,,,,,Ladino,Indo-European,Eurasia,9.0
+lahu1253,8.0,27.0,Lahu,False,True,35.0,3.0,1.0,0.08571428571428572,Lahu,Sino-Tibetan,Eurasia,27.0
+lakk1252,10.0,10.0,Lak,False,True,31.0,22.0,0.8857142857142857,0.7096774193548387,Lak,Nakh-Daghestanian,Eurasia,10.0
+lavu1241,4.0,,Russell,False,True,35.0,22.0,1.0,0.6285714285714286,Lavukaleve,isolate/none,Papunesia,4.0
+lazz1240,6.0,6.0,Georgian_Laz,False,True,31.0,19.0,0.8857142857142857,0.6129032258064516,Laz,Kartvelian,Eurasia,6.0
+lese1243,11.0,11.0,MbutiPygmy,False,True,35.0,19.0,1.0,0.5428571428571428,Lese,Central Sudanic,Africa,11.0
+lezg1247,10.0,10.0,Lezgin,False,True,35.0,14.0,1.0,0.4,Lezgian,Nakh-Daghestanian,Eurasia,10.0
+liby1240,5.0,5.0,Libyan,False,True,31.0,20.0,0.8857142857142857,0.6451612903225806,Libyan Arabic,Afro-Asiatic,Africa,5.0
+lith1251,10.0,10.0,Lithuanian,True,True,35.0,21.0,1.0,0.6,Lithuanian,Indo-European,Eurasia,10.0
+lolo1267,10.0,10.0,Yi,False,False,,,,,Loloish,Sino-Tibetan,Eurasia,10.0
+luok1236,8.0,8.0,Luo,False,True,34.0,14.0,0.9714285714285714,0.4117647058823529,Luo (Kenya and Tanzania),Nilotic,Africa,8.0
+luri1252,10.0,10.0,Iranian_Lor,False,False,,,,,Luric,Indo-European,Eurasia,10.0
+luuu1242,10.0,10.0,Dai,False,False,,,,,Lü,Tai-Kadai,Eurasia,10.0
+mada1285,10.0,10.0,Madak,False,True,35.0,14.0,1.0,0.4,Madak,Austronesian,Papunesia,10.0
+mala1464,5.0,5.0,Jew_Cochin,False,True,35.0,14.0,1.0,0.4,Malayalam,Dravidian,Eurasia,5.0
+malt1254,8.0,8.0,Maltese,True,True,31.0,24.0,0.8857142857142857,0.7741935483870968,Maltese,Afro-Asiatic,Eurasia,8.0
+mama1275,18.0,18.0,Mamanwa;Mamanwa1,False,True,31.0,6.0,0.8857142857142857,0.1935483870967742,Minamanwa,Austronesian,Papunesia,18.0
+mamu1254,26.0,26.0,Mamusi_Kisiluvi;Mamusi_Lingite;Mamusi_Paleabu,False,False,,,,,Mamusi,Austronesian,Papunesia,26.0
+mand1415,53.0,43.0,Han-NChina;Han_HGDP;TaiwanHan,False,True,35.0,1.0,1.0,0.02857142857142857,Mandarin Chinese,Sino-Tibetan,Eurasia,53.0
+mand1436,24.0,24.0,Gambian;Mandenka,False,True,28.0,2.0,0.8,0.07142857142857142,Mandinka,Mande,Africa,24.0
+mang1403,5.0,5.0,Mangseng,False,True,35.0,8.0,1.0,0.22857142857142856,Mangseng,Austronesian,Papunesia,5.0
+manu1262,2.0,,Manus,False,False,,,,,Manus,Austronesian,Papunesia,2.0
+masa1300,12.0,10.0,Masai1;Masai_Kinyawa_MKK,False,True,22.0,17.0,0.6285714285714286,0.7727272727272727,Masai,Nilotic,Africa,12.0
+maza1291,10.0,10.0,Iranian_Mazandarani,False,False,,,,,Mazanderani,Indo-European,Eurasia,10.0
+mboc1235,20.0,18.0,Cameroon_Mbo,False,True,35.0,18.0,1.0,0.5142857142857142,Mbo (Cameroon),Atlantic-Congo,Africa,20.0
+mbuk1240,5.0,5.0,Mbukushu,False,False,,,,,Mbukushu,Atlantic-Congo,Africa,5.0
+mbya1239,21.0,21.0,Guarani;Guarani_GN;Guarani_KW,False,True,33.0,12.0,0.9428571428571428,0.36363636363636365,Mbyá Guaraní,Tupian,South America,21.0
+mehr1241,14.0,,Yemen_Mahra,False,False,,,,,Mehri,Afro-Asiatic,Eurasia,14.0
+mele1250,10.0,,Vanuatu_Efate_Mele;Vanuatu_Ifira,False,True,29.0,9.0,0.8285714285714286,0.3103448275862069,Mele-Fila,Austronesian,Papunesia,10.0
+mend1266,8.0,8.0,Mende,False,True,27.0,6.0,0.7714285714285715,0.2222222222222222,Mende (Sierra Leone),Mande,Africa,8.0
+meng1267,10.0,10.0,Mengen,False,True,20.0,6.0,0.5714285714285714,0.3,Mengen,Austronesian,Papunesia,10.0
+mera1242,10.0,10.0,Melamela,False,True,13.0,4.0,0.37142857142857144,0.3076923076923077,Meramera,Austronesian,Papunesia,10.0
+mini1257,12.0,10.0,Tolai;Tolai_Vunairoto,False,False,,,,,Minigir-Tolai,Austronesian,Papunesia,12.0
+mixe1286,10.0,10.0,Mixe,False,False,,,,,Mixe,Mixe-Zoque,North America,10.0
+mixt1427,12.0,12.0,Mixtec,False,False,,,,,Mixtec,Otomanguean,North America,12.0
+moks1248,10.0,10.0,Mordovian_Moksha,False,True,35.0,15.0,1.0,0.42857142857142855,Moksha,Uralic,Eurasia,10.0
+mong1331,44.0,44.0,Mongol_Khalkh_Sainnoyon;Mongol_Khalkh_Zasagt;Mongo,True,False,,,,,Mongolian,Mongolic-Khitan,Eurasia,44.0
+moro1286,3.0,,Vanuatu_Santo_Morou,False,False,,,,,Ande,Austronesian,Papunesia,3.0
+moro1292,10.0,10.0,Moroccan,False,False,,,,,Moroccan Arabic,Afro-Asiatic,Africa,10.0
+muru1275,10.0,10.0,Murut,False,False,,,,,Murutic,Austronesian,Papunesia,10.0
+muss1246,10.0,10.0,Mussau,False,True,19.0,5.0,0.5428571428571428,0.2631578947368421,Mussau-Emira,Austronesian,Papunesia,10.0
+naka1262,16.0,16.0,Nakanai_Bileki;Nakanai_Loso,False,True,34.0,4.0,0.9714285714285714,0.11764705882352941,Nakanai,Austronesian,Papunesia,16.0
+nama1264,31.0,31.0,Damara;Nama,False,True,15.0,5.0,0.42857142857142855,0.3333333333333333,Nama (Namibia),Khoe-Kwadi,Africa,31.0
+nama1268,9.0,,Vanuatu_Makura;Vanuatu_Tongoa,False,True,25.0,8.0,0.7142857142857143,0.32,Namakura,Austronesian,Papunesia,9.0
+nana1257,19.0,19.0,Hezhen;Nanai,False,True,35.0,14.0,1.0,0.4,Nanai,Tungusic,Eurasia,19.0
+nara1263,4.0,,Vanuatu_Santo_Rango,False,False,,,,,Narango,Austronesian,Papunesia,4.0
+naro1249,9.0,9.0,Naro,False,False,,,,,Naro,Khoe-Kwadi,Africa,9.0
+nasi1247,10.0,10.0,Nasioi,False,False,,,,,Nasioiic,South Bougainville,Papunesia,10.0
+natu1250,8.0,8.0,Santa_Cruz,False,False,,,,,Natugu-Nalogo,Austronesian,Papunesia,8.0
+nauk1242,15.0,15.0,Eskimo_Naukan,False,False,,,,,Naukan Yupik,Eskimo-Aleut,Eurasia,15.0
+naxi1245,8.0,8.0,Naxi,False,True,35.0,0.0,1.0,0.0,Naxi,Sino-Tibetan,Eurasia,8.0
+ndan1241,2.0,,Cameroon_Bangwa,False,False,,,,,Nda'nda',Atlantic-Congo,Africa,2.0
+ndon1254,6.0,5.0,BantuSA_Ovambo;Wambo,False,False,,,,,Ndonga,Atlantic-Congo,Africa,6.0
+neap1235,4.0,,Italian_Calabria;Italian_South,False,False,,,,,Continental Southern Italian,Indo-European,Eurasia,4.0
+negi1245,4.0,,Negidal_Orochi,False,True,34.0,14.0,0.9714285714285714,0.4117647058823529,Negidal,Tungusic,Eurasia,4.0
+ngan1291,31.0,29.0,Nganasan;Nganasan_Dudinka;Nganasan_UstAvam;Nganasa,False,True,35.0,14.0,1.0,0.4,Nganasan,Uralic,Eurasia,31.0
+ngon1269,4.0,,Malawi_Ngoni,False,False,,,,,Tanzania-Mozambique Ngoni,Atlantic-Congo,Africa,4.0
+noga1249,25.0,25.0,Nogai;Nogai_Astrakhan;Nogai_Stavropol,False,False,,,,,Nogai,Turkic,Eurasia,25.0
+nort2641,18.0,16.0,Ezid;Kurd;Kurd_WGA,True,False,,,,,Northern Kurdish,Indo-European,Eurasia,18.0
+nort2671,3.0,,Saami,True,True,30.0,13.0,0.8571428571428571,0.43333333333333335,North Saami,Uralic,Eurasia,3.0
+nort2686,24.0,24.0,Altaian_Chelkans;Altaian_Kizhi;Tubalar_2,False,False,,,,,Northern Altai,Turkic,Eurasia,24.0
+nort2690,27.0,27.0,Uzbek;Uzbek_Khorezm;Uzbek_Tashkent,True,True,35.0,16.0,1.0,0.45714285714285713,Northern Uzbek,Turkic,Eurasia,27.0
+nort2697,18.0,16.0,Azeri_Azerbajan;Azeri_Dagestan;Azeri_WGA,True,True,35.0,15.0,1.0,0.42857142857142855,North Azerbaijani,Turkic,Eurasia,18.0
+nort2745,5.0,5.0,Yukagir_Forest,False,True,35.0,15.0,1.0,0.42857142857142855,Northern Yukaghir,Yukaghir,Eurasia,5.0
+nort2836,3.0,,Vanuatu_Nguna,False,True,25.0,6.0,0.7142857142857143,0.24,North Efate,Austronesian,Papunesia,3.0
+nort3139,121.0,121.0,Druze;Jordanian;Lebanese;Lebanese_Christian;Lebane,False,True,31.0,20.0,0.8857142857142857,0.6451612903225806,Levantine Arabic,Afro-Asiatic,Eurasia,121.0
+norw1258,11.0,11.0,Norwegian,True,False,,,,,Norwegian,Indo-European,Eurasia,11.0
+nots1237,9.0,9.0,Notsi,False,True,32.0,10.0,0.9142857142857143,0.3125,Notsi,Austronesian,Papunesia,9.0
+nucl1235,14.0,11.0,Armenian;Armenian_WGA,True,True,35.0,17.0,1.0,0.4857142857142857,Eastern Armenian,Indo-European,Eurasia,14.0
+nucl1301,62.0,62.0,Turkish_Adana;Turkish_Aydin;Turkish_Balikesir;Turk,True,True,35.0,16.0,1.0,0.45714285714285713,Turkish,Turkic,Eurasia,62.0
+nucl1302,27.0,27.0,Georgian;Georgian_Imeretins;Jew_Georgian,True,True,35.0,18.0,1.0,0.5142857142857142,Georgian,Kartvelian,Eurasia,27.0
+nucl1310,10.0,10.0,Burmese,False,True,35.0,15.0,1.0,0.42857142857142855,Burmese,Sino-Tibetan,Eurasia,10.0
+nuuu1241,11.0,11.0,Khomani,False,True,31.0,5.0,0.8857142857142857,0.16129032258064516,Ghaap-Kalahari,Tuu,Africa,11.0
+nyan1308,11.0,11.0,Malawi_Chewa,True,False,,,,,Nyanja,Atlantic-Congo,Africa,11.0
+ojib1241,16.0,16.0,Ojibwa,False,False,,,,,Ojibwa,Algic,North America,16.0
+onge1236,10.0,10.0,Onge,False,True,18.0,8.0,0.5142857142857142,0.4444444444444444,Önge,Jarawa-Onge,Eurasia,10.0
+onto1237,8.0,8.0,Ontong_Java,False,True,33.0,5.0,0.9428571428571428,0.15151515151515152,Luangiua,Austronesian,Papunesia,8.0
+oroq1238,9.0,9.0,Oroqen,False,False,,,,,Oroqen,Tungusic,Eurasia,9.0
+osse1243,10.0,10.0,Ossetian,False,False,,,,,Modern Ossetic,Indo-European,Eurasia,10.0
+paam1238,7.0,,Vanuatu_Paama,False,True,29.0,6.0,0.8285714285714286,0.20689655172413793,Paama,Austronesian,Papunesia,7.0
+panj1256,8.0,8.0,Punjabi,False,True,35.0,19.0,1.0,0.5428571428571428,Eastern Panjabi,Indo-European,Eurasia,8.0
+para1310,4.0,,Arara,False,False,,,,,Pará Arára,Cariban,South America,4.0
+pash1269,24.0,24.0,Pathan,False,False,,,,,Pashto,Indo-European,Eurasia,24.0
+pedi1238,1.0,,BantuSA_Pedi,False,False,,,,,Pedi,Atlantic-Congo,Africa,1.0
+pele1245,8.0,5.0,Ata_Bili;Ata_Luge;Ata_Uassilau,False,True,12.0,5.0,0.34285714285714286,0.4166666666666667,Pele-Ata,isolate/none,Papunesia,8.0
+peta1245,3.0,,Buka_Petats,False,False,,,,,Petats,Austronesian,Papunesia,3.0
+piap1246,5.0,5.0,Piapoco,False,True,9.0,3.0,0.2571428571428571,0.3333333333333333,Piapoco,Arawakan,South America,5.0
+pima1248,14.0,14.0,Pima,False,True,33.0,12.0,0.9428571428571428,0.36363636363636365,Pima Bajo,Uto-Aztecan,North America,14.0
+poli1260,23.0,23.0,Polish_Lublin;Polish_Poznan,True,True,35.0,19.0,1.0,0.5428571428571428,Polish,Indo-European,Eurasia,23.0
+polo1242,5.0,,Vanuatu_Santo_Mbauk,False,False,,,,,Polonombauk,Austronesian,Papunesia,5.0
+puno1238,7.0,7.0,Puno,False,False,,,,,Puno Quechua,Quechuan,South America,7.0
+renn1242,7.0,7.0,Rennell_and_Bellona,False,True,31.0,5.0,0.8857142857142857,0.16129032258064516,Rennell-Bellona,Austronesian,Papunesia,7.0
+roma1327,20.0,20.0,Moldavian;Romanian,True,False,,,,,Romanian,Indo-European,Eurasia,20.0
+russ1263,90.0,64.0,Russian;Russian_Archangelsk_Krasnoborsky;Russian_A,True,True,35.0,23.0,1.0,0.6571428571428571,Russian,Indo-European,Eurasia,90.0
+russ1264,39.0,35.0,Buryat_Buryatya_Horinsky_Selenginsky;Buryat_Buryat,False,True,35.0,17.0,1.0,0.4857142857142857,Russia Buriat,Mongolic-Khitan,Eurasia,39.0
+saaa1241,9.0,,Vanuatu_Pentecost_Baie,False,True,33.0,9.0,0.9428571428571428,0.2727272727272727,Sa,Austronesian,Papunesia,9.0
+saka1289,5.0,,Vanuatu_Santo_Port,False,True,35.0,12.0,1.0,0.34285714285714286,Wanohe,Austronesian,Papunesia,5.0
+sana1295,56.0,,Yemen_Ad_Dali;Yemen_Al_Bayda;Yemen_Al_Jawf;Yemen_A,False,True,30.0,15.0,0.8571428571428571,0.5,Sanaani Arabic,Afro-Asiatic,Eurasia,56.0
+sand1273,23.0,23.0,Sandawe,False,True,17.0,12.0,0.4857142857142857,0.7058823529411765,Sandawe,isolate/none,Africa,23.0
+sanm1289,10.0,10.0,Wayku,False,True,34.0,15.0,0.9714285714285714,0.4411764705882353,San Martín Quechua,Quechuan,South America,10.0
+sapo1253,10.0,10.0,Saposa,False,True,35.0,11.0,1.0,0.3142857142857143,Saposa,Austronesian,Papunesia,10.0
+sard1257,28.0,28.0,Sardinian,False,False,,,,,Southern Romance,Indo-European,Eurasia,28.0
+savo1255,7.0,7.0,Savo,False,True,34.0,14.0,0.9714285714285714,0.4117647058823529,Savosavo,isolate/none,Papunesia,7.0
+scot1243,13.0,13.0,Orcadian,False,False,,,,,Scots,Indo-European,Eurasia,13.0
+scot1245,43.0,39.0,Scottish;Scottish_Borders;Scottish_Dumfries_Gallow,False,False,,,,,Scottish Gaelic,Indo-European,Eurasia,43.0
+selk1253,24.0,24.0,Selkup;Selkup_Farkovo;Selkup_Turukhansk,False,False,,,,,Selkup,Uralic,Eurasia,24.0
+shee1238,9.0,9.0,She,False,True,29.0,0.0,0.8285714285714286,0.0,She,Hmong-Mien,Eurasia,9.0
+shor1247,12.0,12.0,Shor_Khakassia;Shor_Mountain,False,True,35.0,16.0,1.0,0.45714285714285713,Mrassu Shor-Tutal,Turkic,Eurasia,12.0
+shua1254,10.0,10.0,Shua,False,False,,,,,Shua,Khoe-Kwadi,Africa,10.0
+sibe1250,25.0,21.0,Tatar_Siberian_Buhar;Tatar_Siberian_Ishtyak_Toguz;,False,False,,,,,Siberian Tatar,Turkic,Eurasia,25.0
+sici1248,11.0,11.0,Sicilian_East;Sicilian_West,False,True,34.0,17.0,0.9714285714285714,0.5,Sicilian,Indo-European,Eurasia,11.0
+siee1239,2.0,,Vanuatu_Erromango,False,True,34.0,15.0,0.9714285714285714,0.4411764705882353,Sie,Austronesian,Papunesia,2.0
+sind1272,24.0,24.0,Sindhi,False,False,,,,,Sindhi,Indo-European,Eurasia,24.0
+sing1270,9.0,9.0,Malay,False,False,,,,,Greater Riau-Johoric,Austronesian,Eurasia;Papunesia,9.0
+sire1246,6.0,6.0,Eskimo_Sireniki,False,False,,,,,Old Sirenik,Eskimo-Aleut,Eurasia,6.0
+soma1255,13.0,13.0,Somali,False,True,27.0,18.0,0.7714285714285715,0.6666666666666666,Somali,Afro-Asiatic,Africa,13.0
+sorb1249,9.0,9.0,German_Sorb,False,False,,,,,Sorbian,Indo-European,Eurasia,9.0
+sout1528,10.0,10.0,Croatian,True,True,35.0,20.0,1.0,0.5714285714285714,Serbian-Croatian-Bosnian,Indo-European,Eurasia,10.0
+sout2642,25.0,25.0,Makrani,False,False,,,,,Southern Balochi,Indo-European,Eurasia,25.0
+sout2694,13.0,13.0,Altaian;Altaian_Telengit,False,False,,,,,Southern Altai,Turkic,Eurasia,13.0
+sout2750,19.0,19.0,Yukagir_Tundra,False,False,,,,,Southern Yukaghir,Yukaghir,Eurasia,19.0
+sout2807,1.0,,BantuSA_S_Sotho,False,True,35.0,20.0,1.0,0.5714285714285714,Southern Sotho,Atlantic-Congo,Africa,1.0
+sout2991,2.0,,Bolivia_Quechua,False,False,,,,,South Bolivian Quechua,Quechuan,South America,2.0
+sout2996,5.0,5.0,Aymara,True,True,35.0,17.0,1.0,0.4857142857142857,Southern Aymara,Aymaran,South America,5.0
+sout3240,8.0,,Vanuatu_Malekula,False,False,,,,,Southwestern Malakula,Austronesian,Papunesia,8.0
+sout3253,9.0,9.0,Mansi,False,False,,,,,Southern Mansi,Uralic,Eurasia,9.0
+sowa1244,5.0,,Vanuatu_Pentecost_Ranmawat,False,False,,,,,Sowa,Austronesian,Papunesia,5.0
+stan1288,25.0,15.0,Canary_Islander;Spanish_Andalucia;Spanish_Balearic,True,False,,,,,Spanish,Indo-European,Eurasia,25.0
+stan1289,10.0,10.0,Spanish_Cataluna;Spanish_Valencia,True,True,35.0,19.0,1.0,0.5428571428571428,Catalan,Indo-European,Eurasia,10.0
+stan1290,63.0,63.0,French_Central;French_East;French_Northwest;French,True,True,35.0,20.0,1.0,0.5714285714285714,French,Indo-European,Eurasia,63.0
+stan1293,10.0,10.0,English_Cornwall;English_Kent,True,True,35.0,10.0,1.0,0.2857142857142857,English,Indo-European,Africa;Eurasia;South America,10.0
+stan1295,10.0,10.0,German_Lipsian,True,False,,,,,German,Indo-European,Eurasia,10.0
+suda1236,3.0,,Shaigi_WGA,False,False,,,,,Sudanese Arabic,Afro-Asiatic,Africa,3.0
+sulk1246,19.0,19.0,Sulka_Ganai;Sulka_Watwat,False,True,20.0,5.0,0.5714285714285714,0.25,Sulka,isolate/none,Papunesia,19.0
+suru1262,12.0,12.0,Surui,False,True,6.0,2.0,0.17142857142857143,0.3333333333333333,Suruí,Tupian,South America,12.0
+taba1259,10.0,10.0,Tabasaran,False,False,,,,,Tabasaran,Nakh-Daghestanian,Eurasia,10.0
+tach1249,3.0,,Ain_Touta_WGA,False,False,,,,,Chaouia of the Aures,Afro-Asiatic,Africa,3.0
+taga1270,5.0,5.0,Tagalog,True,True,20.0,6.0,0.5714285714285714,0.3,Tagalog,Austronesian,Papunesia,5.0
+taga1278,5.0,5.0,Burbur_WGA,False,False,,,,,Ouargli,Afro-Asiatic,Africa,5.0
+tahi1242,4.0,,Tahiti,False,True,35.0,4.0,1.0,0.11428571428571428,Tahitian,Austronesian,Papunesia,4.0
+taji1245,31.0,27.0,Tajik;Tajik_Lowland_Gissar;Tajik_Lowland_Kulyab;Ta,False,False,,,,,Tajik,Indo-European,Eurasia,31.0
+tann1242,9.0,,Vanuatu_Tanna,False,False,,,,,Tanna,Austronesian,Papunesia,9.0
+tata1255,22.0,22.0,Tatar_Kazan;Tatar_Mishar,True,True,35.0,15.0,1.0,0.42857142857142855,Tatar,Turkic,Eurasia,22.0
+telu1262,16.0,16.0,Mala,True,True,28.0,16.0,0.8,0.5714285714285714,Telugu,Dravidian,Eurasia,16.0
+tena1240,17.0,17.0,KichwaOrellana,False,False,,,,,Tena Lowland Quichua,Quechuan,South America,17.0
+teop1238,9.0,9.0,Teop,False,True,33.0,9.0,0.9428571428571428,0.2727272727272727,Teop,Austronesian,Papunesia,9.0
+tere1279,1.0,,Chane,False,False,,,,,Terena-Kinikinao-Chane,Arawakan,South America,1.0
+thai1261,8.0,8.0,Thai,False,True,20.0,0.0,0.5714285714285714,0.0,Thai,Tai-Kadai,Eurasia,8.0
+ticu1245,1.0,,Ticuna,False,True,32.0,16.0,0.9142857142857143,0.5,Ticuna,Ticuna-Yuri,South America,1.0
+tiga1245,9.0,9.0,Tigak,False,True,35.0,5.0,1.0,0.14285714285714285,Tigak,Austronesian,Papunesia,9.0
+tiko1237,6.0,6.0,Tikopia,False,True,34.0,9.0,0.9714285714285714,0.2647058823529412,Tikopia,Austronesian,Papunesia,6.0
+tong1325,10.0,10.0,Tongan,False,True,35.0,3.0,1.0,0.08571428571428572,Tonga (Tonga Islands),Austronesian,Papunesia,10.0
+torr1262,7.0,,Vanuatu_Banks,False,False,,,,,Torres-Banks linkage,Austronesian,Papunesia,7.0
+tsoa1238,8.0,8.0,Tshwa,False,False,,,,,Northern Tshwa,Khoe-Kwadi,Africa,8.0
+tswa1253,7.0,5.0,BantuSA_Tswana;Tswana,False,True,35.0,19.0,1.0,0.5428571428571428,Tswana,Atlantic-Congo,Africa,7.0
+tuji1244,10.0,10.0,Tujia,False,False,,,,,Tujia,Sino-Tibetan,Eurasia,10.0
+tumb1250,10.0,10.0,Malawi_Tumbuka,False,False,,,,,Tumbuka,Atlantic-Congo,Africa,10.0
+tumz1238,25.0,25.0,Mozabite,False,False,,,,,Tumzabt,Afro-Asiatic,Africa,25.0
+tund1254,3.0,,Enets,False,False,,,,,Tundra Enets,Uralic,Eurasia,3.0
+tuni1259,15.0,15.0,Jew_Tunisian;Tunisian,False,False,,,,,Tunisian Arabic,Afro-Asiatic,Africa;Eurasia,15.0
+turk1304,7.0,7.0,Turkmen,False,True,35.0,16.0,1.0,0.45714285714285713,Turkmen,Turkic,Eurasia,7.0
+turo1239,8.0,8.0,Syrian,False,False,,,,,Turoyo,Afro-Asiatic,Eurasia,8.0
+tutu1241,5.0,,Vanuatu_Santo_Tutuba,False,True,35.0,9.0,1.0,0.2571428571428571,Tutuba,Austronesian,Papunesia,5.0
+tuuu1240,10.0,10.0,Tu,False,False,,,,,Monguoric,Mongolic-Khitan,Eurasia,10.0
+tuvi1240,24.0,20.0,Todzin;Tuvinian;Tuvinian_2,True,True,34.0,16.0,0.9714285714285714,0.47058823529411764,Tuvinian,Turkic,Eurasia,24.0
+udmu1245,16.0,16.0,Besermyan;Udmurt_Northern;Udmurt_Southern,False,False,,,,,Udmurt,Uralic,Eurasia,16.0
+uigh1240,10.0,10.0,Uygur,False,False,,,,,Uighur,Turkic,Eurasia,10.0
+ukra1253,20.0,11.0,Ukrainian_East;Ukrainian_Rovenskaya;Ukrainian_Sums,True,True,31.0,20.0,0.8857142857142857,0.6451612903225806,Ukrainian,Indo-European,Eurasia,20.0
+ulch1241,32.0,32.0,Ulchi,False,True,35.0,16.0,1.0,0.45714285714285713,Ulch,Tungusic,Eurasia,32.0
+urub1250,3.0,,UrubuKaapor,False,False,,,,,Urubú-Kaapor,Tupian,South America,3.0
+veps1250,10.0,10.0,Veps,True,True,35.0,15.0,1.0,0.42857142857142855,Veps,Uralic,Eurasia,10.0
+viet1252,18.0,18.0,Kinh;Vietnamese_North;Vietnamese_South,False,True,30.0,0.0,0.8571428571428571,0.0,Vietnamese,Austroasiatic,Eurasia,18.0
+vish1243,14.0,14.0,Vishwabrahmin,False,False,,,,,Vishavan,Dravidian,Eurasia,14.0
+waha1238,8.0,8.0,Lebbo,False,False,,,,,Eastern Lowland Kenyah,Austronesian,Papunesia,8.0
+wayu1243,1.0,,Wayuu,False,True,25.0,14.0,0.7142857142857143,0.56,Wayuu,Arawakan,South America,1.0
+west2369,17.0,17.0,Iran_Non-Zoroastrian_Fars,True,True,34.0,15.0,0.9714285714285714,0.4411764705882353,Western Farsi,Indo-European,Eurasia,17.0
+west2721,5.0,5.0,Oromo,False,False,,,,,West Central Oromo,Afro-Asiatic,Africa,5.0
+xava1240,9.0,9.0,Xavante,False,True,31.0,9.0,0.8857142857142857,0.2903225806451613,Xavánte,Nuclear-Macro-Je,South America,9.0
+xibe1242,9.0,9.0,Xibo,False,False,,,,,Xibe,Tungusic,Eurasia,9.0
+xooo1239,26.0,26.0,Taa_North;Taa_West,False,False,,,,,West !Xoon,Tuu,Africa,26.0
+yaka1272,23.0,23.0,BiakaPygmy,False,True,29.0,14.0,0.8285714285714286,0.4827586206896552,Yaka (Central African Republic),Atlantic-Congo,Africa,23.0
+yaku1245,25.0,25.0,Yakut,True,True,35.0,13.0,1.0,0.37142857142857144,Sakha,Turkic,Eurasia,25.0
+yaoo1241,9.0,9.0,Malawi_Yao,False,True,33.0,18.0,0.9428571428571428,0.5454545454545454,Yao,Atlantic-Congo,Africa,9.0
+yaqu1251,8.0,8.0,Yaquis,False,True,35.0,18.0,1.0,0.5142857142857142,Yaqui,Uto-Aztecan,North America,8.0
+yoru1245,75.0,75.0,Yoruba,False,False,,,,,Yoruba,Atlantic-Congo,Africa,75.0
+yuca1254,21.0,21.0,Maya,False,True,35.0,12.0,1.0,0.34285714285714286,Yucatec Maya,Mayan,North America,21.0
+zapo1437,12.0,12.0,Zapotec,False,False,,,,,Zapotec,Otomanguean,North America,12.0
+zoro1242,28.0,28.0,Iran_Zoroastrian,False,False,,,,,Zoroastrian Yazdi,Indo-European,Eurasia,28.0
+zulu1248,1.0,,BantuSA_Zulu,True,True,11.0,8.0,0.3142857142857143,0.7272727272727273,Zulu,Atlantic-Congo,Africa,1.0

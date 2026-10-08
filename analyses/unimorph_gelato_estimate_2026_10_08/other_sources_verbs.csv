@@ -1,0 +1,11 @@
+source,dataset,language,glottocode,gelato_match,in_mgn,mgn_usable_verb_lemmas,source_verb_lemmas,forms_per_lemma,role
+paralex,Eesthetic v1.0.5 (zenodo 14069724),Estonian,esto1258,exact (Estonian),yes,211,5076,51.0,fills MGN verb gap
+paralex,VeLeRo (zenodo 21242751),Romanian,roma1327,exact (Romanian),yes,1216,7269,25.7,fills MGN verb gap
+paralex,VeLeCa (zenodo 14203025),Catalan,stan1289,exact (Spanish_Cataluna; Spanish_Valencia),yes,1544,3477,41.0,fills MGN verb gap
+paralex,NasLex (zenodo 20039927),Serbo-Croatian,sout1528,candidate (Croatian),yes,4329,0 (nouns only: 11470),6.8,nouns only
+morphynet,ces.inflectional.v1,Czech,czec1258,exact (Czech),yes,359,3232,20.8,fills MGN verb gap
+morphynet,hu.inflectional.segmentation.v1,Hungarian,hung1274,exact (Hungarian1; Hungarian2),yes (nouns only),0,3433,49.3,adds verb unit
+morphynet,rus.inflectional.v1,Russian,russ1263,exact (Russian),yes (nouns only),0,11010,43.9,adds verb unit
+morphynet,mon.inflectional.v1,Mongolian (Halh),halh1238,by hand (mong1331 Khalkh populations),no,,55,16.4,fails 100-lemma rule (verbs); 2062 noun lemmas
+unimorph,krl-new-written-karelian,Karelian,kare1335,dialect level (GeLaTo Karelian_Northern nort2673; Karelian_Southern sout2676),no,,2128,107.8,missed by exact Glottocode join; also krl-new-written-tver 730 lemmas
+unimorph,jpn,Japanese,nucl1643,group level (GeLaTo Japanese japa1256),no,,107,108.3,missed by exact Glottocode join; passes crude rule only

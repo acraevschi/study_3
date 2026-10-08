@@ -1,0 +1,956 @@
+panel,population,base_glottocode,n_individuals,at_least_five,match_status,candidate_mgn_glottocode,mgn_iso,mgn_language,mapping_basis,source,curation_note,latitude,longitude,median_FST_neighbor,Ne
+main_397,Abazin,abaz1241,10,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,44.15,42.2,0.005008904,18620.3728
+main_397,Abkhasian,abkh1244,9,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,43.003333,41.015278,0.006406259,13977.706
+main_397,Adygei,adyg1241,18,True,exact,adyg1241,ady,West Circassian,identical curated base Glottocode,PattersonGenetics2012,automatically assigned by Robert F,44,39,0.006432579,9415.1515
+main_397,Afar_WGA,afar1241,5,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,11.8,41.4,0.020113579,9747.9143
+main_397,Albanian,alba1267,6,True,unmatched,,,,,LazaridisNature2014,correct by Chiara,41.33,19.83,0.002463208,8186.0124
+main_397,Aleut,aleu1260,6,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,55.18,166,NA,1660.3907
+main_397,Algerian,alge1239,5,True,unmatched,,,,,LazaridisNature2014,correct by Harald,36.75,3.04,0.01974172,6868.9496
+main_397,Algonquin,algo1255,9,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,48.4,-71.1,NA,421.224
+main_397,Altaian,sout2694,7,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,51.9,85.95,0.007210885,2761.0343
+main_397,Altaian_Chelkans,chel1242,7,True,unmatched,,,,,Jeong_2019,correct by Harald,52.33,86.97,0.024866017,787.7669
+main_397,Altaian_Kizhi,tuba1280,12,True,unmatched,,,,,Jeong_2019,correct by Harald,50.7,86.38,0.010906161,2355.257
+main_397,Altaian_Telengit,tala1279,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,50.03,88.5,0.015475646,1325.1286
+main_397,Ami,amis1246,10,True,unmatched,,,,,LazaridisNature2014,Correct by Harald,22.8,121.2,0.036532269,1833.6231
+main_397,Armenian,nucl1235,11,True,exact,nucl1235,hye,Eastern Armenian,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,40.193561,44.545441,0.005171931,47533.8511
+main_397,Armenian_Hemsheni,hams1240,8,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,41,39.7,0.008180365,3183.3437
+main_397,Ashkenazi_Jew,east2295,8,True,exact,east2295,ydd,Eastern Yiddish,identical curated base Glottocode,LazaridisNature2014,correct by Harald,52.233333,21.016667,0.009641297,3221.4497
+main_397,Assyrian,assy1241,11,True,unmatched,,,,,LazaridisNature2016,automatically assigned by Robert F,,,NA,6285.638
+main_397,Assyrian_WGA,assy1241,5,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,40.3,44.6,0.011872605,3821.3773
+main_397,Ata_Uassilau,pele1245,5,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-5.577338,150.885841,0.064200928,443.9116
+main_397,Atayal,atay1247,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,24.6,121.3,0.057628782,NA
+main_397,Avar_Gunibsky,avar1256,5,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,41.22,48.3,0.007793931,5291.0103
+main_397,Avar_Unchukulsky,avar1256,5,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,42.41,46.43,0.013230187,1437.098
+main_397,Aymara,sout2996,5,True,unmatched,,,,,LazaridisNature2014,Correct by Harald,-16.5,-68.2,0.010281024,2838.2414
+main_397,Azeri_Azerbajan,nort2697,9,True,exact,nort2697,azj,North Azerbaijani,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,40.06,47.19,0.006271456,28142.631
+main_397,Azeri_Dagestan,nort2697,7,True,exact,nort2697,azj,North Azerbaijani,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,42.2,48.23,0.009853545,2848.2111
+main_397,Baining_Marabu,bain1263,10,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-4.633,152.3,NA,341.4064
+main_397,Bajo,indo1317,10,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-3.967489,122.5947,NA,657.5131
+main_397,Balkar,kara1465,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,43.483333,43.616667,0.006455017,6550.7093
+main_397,Balochi,east2304,24,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,30.498715,66.5,0.005293534,8373.6549
+main_397,Bashkir_Burzjan_Baimaksky,burz1239,8,True,descendant_candidate,bash1264,bak,Bashkir,local Glottolog lookup Language_level_ID; community compatibility unverified,Jeong_2019,automatically assigned by Robert F,52.58,58.32,0.012390957,3520.6157
+main_397,Bashkir_IkskoBelsky_Kyrgyz,bash1264,6,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,55.43,54.32,0.008861252,7542.699
+main_397,Bashkir_IkskoBelsky_Uran,bash1264,8,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,56.27,54.08,0.008696574,5537.9771
+main_397,Bashkir_Ming_Miyakinsky,bash1264,9,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,54.9,55.03,0.008006267,9467.7484
+main_397,Bashkir_North_Tabyn_Balysky,bash1264,7,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,54.52,56.93,0.006959323,5163.872
+main_397,Bashkir_Tamyan_Kypcak,bash1264,7,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,52.67,56.55,0.01154599,3275.1103
+main_397,Basque,basq1248,22,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,43,0,0.007384203,3494.0747
+main_397,BedouinA,east2690,24,True,unmatched,,,,,PattersonGenetics2012,checked by Damian,31,35,0.004296182,8566.7666
+main_397,BedouinB,east2690,20,True,unmatched,,,,,PattersonGenetics2012,checked by Damian,31,35,0.022567849,1061.7737
+main_397,Belarusian,bela1254,10,True,exact,bela1254,bel,Belarusian,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,53.919854,28.011932,0.001562982,24513.9817
+main_397,Bengali,beng1280,7,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,23.7,90.4,0.026987694,50019.3541
+main_397,Bergamo,ital1282,13,True,exact,ital1282,ita,Italian,identical curated base Glottocode,PattersonGenetics2012,checked by Chiara,45.695131,9.680723,0.003634018,NA
+main_397,Besermyan,bese1243,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,58.01,52.09,0.014379855,1576.9611
+main_397,BiakaPygmy,yaka1272,23,True,unmatched,,,,,PattersonGenetics2012,general check ok,4,17,0.043723345,1385.3558
+main_397,Brahmin_Tiwari,chha1249,15,True,unmatched,,,,,LazaridisNature2014,correct by Harald,21.9,83.4,0.008932098,24648.7855
+main_397,Brahui,brah1256,23,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,30.498715,66.5,0.00857621,3412.661
+main_397,Buka,buka1262,5,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-5.422,154.673,0.033954195,2490.2039
+main_397,Bulgarian,bulg1262,10,True,exact,bulg1262,bul,Bulgarian,identical curated base Glottocode,LazaridisNature2014,correct by Chiara,42.163403,24.741211,0.002266517,42978.0503
+main_397,Burbur_WGA,taga1278,5,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,33.5,5.1,0.023039044,15892.6061
+main_397,Burmese,nucl1310,10,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,17.96,96.72,0.009889805,50053.127
+main_397,Burusho,buru1296,24,True,unmatched,,,,,PattersonGenetics2012,general check ok,36.498386,74,0.012892911,3454.2199
+main_397,Buryat_Buryatya_Horinsky_Selenginsky,russ1264,5,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,52.61,109.85,0.001753229,5299.0148
+main_397,Buryat_Buryatya_Zakamensky,russ1264,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,50.88,103.43,0.005352042,3002.576
+main_397,Buryat_Irkutskaya,russ1264,12,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,57.3,105.69,0.004499969,4302.3902
+main_397,Buryat_Zabaikalsky_Aginsky,russ1264,12,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,51.11,114.54,0.004409305,5974.5627
+main_397,Cambodian,cent1989,10,True,unmatched,,,,,PattersonGenetics2012,correct by Harald,12,105,0.002892745,60335.3964
+main_397,Cameroon_Aghem,aghe1239,28,True,unmatched,,,,,Lipson_2020,checked by Chiara,6.3834,10.0664,0.009321203,2416.5662
+main_397,Cameroon_Bafut,bafu1246,11,True,unmatched,,,,,Lipson_2020,checked by Chiara,6.0861,10.1314,0.009001111,2568.4248
+main_397,Cameroon_Mbo,mboc1235,18,True,unmatched,,,,,Lipson_2020,checked by Chiara,5.3495,9.8345,0.008057825,5630.0388
+main_397,Chechen,chec1245,9,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,43.333333,45.65,0.007727679,3684.5112
+main_397,Chipewyan,chip1261,26,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,59.6,-107.3,NA,724.7305
+main_397,Chukchi,chuk1273,15,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,69,169,NA,843.5287
+main_397,Chukchi_Ayon,chuk1273,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,69.9,168,0.021068717,815.4065
+main_397,Chuvash,chuv1255,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,56.110278,47.251111,0.010406173,3407.6025
+main_397,Chuvash_Tatarstan,chuv1255,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,54.75,47.78,0.009019779,3883.3937
+main_397,Circassian,circ1239,9,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,44.2,41.83,0.006148868,10965.6431
+main_397,Cocama,coca1260,7,True,unmatched,,,,,Barbieri_2018,correct by Chiara,-4.133544,-69.981905,0.030747401,1730.3018
+main_397,Cree,cree1272,12,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,50.3,-102.5,NA,1970.8758
+main_397,Croatian,croa1245,10,True,descendant_candidate,sout1528,hbs,Serbian-Croatian-Bosnian,local Glottolog lookup Language_level_ID; community compatibility unverified,LazaridisNature2014,correct by Chiara,43.513,16.446,0.003182275,29509.905
+main_397,Cusco2,cusc1236,7,True,unmatched,,,,,Barbieri_2018,correct by Chiara,-13.5237,-71.9724,0.016153976,6478.388
+main_397,Cypriot,cypr1248,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,35.13,33.43,0.004192725,11054.242
+main_397,Czech,czec1258,10,True,exact,czec1258,ces,Czech,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,50.1,14.4,0.00149105,43991.1776
+main_397,Dai,luuu1242,10,True,unmatched,,,,,PattersonGenetics2012,correct by Harald - checked by Chiara,21,100,0.009038342,9058.617
+main_397,Damara,nama1264,13,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-19.830184,16.225739,0.061084175,1126.8298
+main_397,Darginian,darg1241,8,True,unmatched,,,,,Jeong_2019,assigned by Chiara,42.18,47.22,0.014456102,2211.8377
+main_397,Daur,daur1238,9,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,48.497534,124,0.00611366,5694.592
+main_397,Dinka,dink1262,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,8.783333,27.4,NA,14675.9769
+main_397,Druze,sout3123,42,True,unmatched,,,,,PattersonGenetics2012,general check ok,32,35,0.008584588,2672.453
+main_397,Dungan,dung1253,13,True,unmatched,,,,,Jeong_2019,assigned by Chiara,41.3,69.27,0.037934643,17854.5079
+main_397,Dusun,brun1245,10,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,4.71,114.67,0.025721972,1226.445
+main_397,Egyptian1,egyp1253,11,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,31.12,30.96,0.005732616,18454.9193
+main_397,Egyptian2,egyp1253,7,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,30.173625,31.234131,0.004599862,NA
+main_397,English_Cornwall,stan1293,5,True,exact,stan1293,eng,English,identical curated base Glottocode,LazaridisNature2014,correct by Chiara,50.03,-4.9,0.001704922,29674.6446
+main_397,English_Kent,stan1293,5,True,exact,stan1293,eng,English,identical curated base Glottocode,LazaridisNature2014,correct by Chiara,51.19,0.73,0.001165607,11150.4243
+main_397,Eskimo_ChaplinSireniki,cent2128,5,True,unmatched,,,,,LazaridisNature2014,correct by Harald,64.48,172.86,0.013071547,906.6619
+main_397,Eskimo_Naukan,nauk1242,15,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,66.02,169.71,0.022485269,833.2236
+main_397,Eskimo_Sireniki,sire1246,6,True,unmatched,,,,,LazaridisNature2014,correct by Harald,64.4,173.9,NA,1013.5431
+main_397,Estonian,esto1258,10,True,exact,esto1258,ekk,Estonian,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,58.539039,24.889252,0.002140713,15246.6611
+main_397,Even,even1260,9,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,57.53,135.88,0.012741731,3292.0731
+main_397,Evenk_FarEast,even1259,5,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,54.7,135.3,0.006512559,4833.8944
+main_397,Evenk_Transbaikal,even1259,11,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,56.9,118.2,0.016380726,1513.8092
+main_397,Ezid,nort2641,7,True,exact,nort2641,kmr,Northern Kurdish,identical curated base Glottocode,Jeong_2019,"assigned by Chiara, checked by Harald",36.9,46.6,0.00884338,5518.8911
+main_397,Finnish,finn1318,8,True,exact,finn1318,fin,Finnish,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,60.2,24.9,0.005171528,4838.8776
+main_397,French_Central,stan1290,26,True,exact,stan1290,fra,French,identical curated base Glottocode,PattersonGenetics2012,automatically assigned by Robert F,46,2,0.001587306,390006.3698
+main_397,French_East,stan1290,10,True,exact,stan1290,fra,French,identical curated base Glottocode,LazaridisNature2014,checked by Chiara,49.04698,6.615454,0.001651714,54368.6999
+main_397,French_Northwest,stan1290,10,True,exact,stan1290,fra,French,identical curated base Glottocode,LazaridisNature2014,checked by Chiara,50.461993,2.332996,0.002268354,627891.2191
+main_397,French_South,stan1290,7,True,exact,stan1290,fra,French,identical curated base Glottocode,LazaridisNature2014,checked by Chiara,43.09,-0.05,0.004184236,5275.0062
+main_397,French_West,stan1290,10,True,exact,stan1290,fra,French,identical curated base Glottocode,LazaridisNature2014,checked by Chiara,48.298794,-4.12301,0.001558415,73737.094
+main_397,Gagauz,gaga1249,9,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,45.54,28.38,0.00325641,13524.0131
+main_397,Gambian,mand1436,6,True,unmatched,,,,,LazaridisNature2014,correct by Harald,13.4,16.7,NA,5266.0753
+main_397,Gana,gana1274,8,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-21.6523,23.3889,0.021841974,1787.4241
+main_397,Georgian,nucl1302,12,True,exact,nucl1302,kat,Georgian,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,42.5,41.85,0.007089778,21513.4881
+main_397,Georgian_Imeretins,imer1248,6,True,descendant_candidate,nucl1302,kat,Georgian,local Glottolog lookup Language_level_ID; community compatibility unverified,Jeong_2019,automatically assigned by Robert F,42.25,42.7,0.008566248,6362.9378
+main_397,Georgian_Laz,lazz1240,6,True,unmatched,,,,,Jeong_2019,correct by Harald,40.93,40.84,0.00599623,14431.3632
+main_397,German_Lipsian,stan1295,10,True,exact,stan1295,deu,German,identical curated base Glottocode,LazaridisNature2016,correct by Chiara,51.34,12.373,0.001002082,44162.1642
+main_397,German_Sorb,sorb1249,9,True,unmatched,,,,,LazaridisNature2016,correct by Chiara,51.275,14.102,0.003400025,7418.914
+main_397,Greek_Athens,gree1276,8,True,curated_greek_candidate,mode1248,ell,Modern Greek,published Table S1 maps this Greek population to Modern Greek in GBI and TLI,LazaridisNature2014,correct by Chiara,37.966667,23.716667,0.003019369,8945.364
+main_397,Greek_Thessaloniki,gree1276,14,True,curated_greek_candidate,mode1248,ell,Modern Greek,published Table S1 maps this Greek population to Modern Greek in GBI and TLI,LazaridisNature2014,correct by Chiara,40.64,22.94,0.003182275,14767.9119
+main_397,Greek_WGA,gree1276,18,True,curated_greek_candidate,mode1248,ell,Modern Greek,published Table S1 maps this Greek population to Modern Greek in GBI and TLI,LazaridisNature2014,correct by Chiara,37.9,23.7,0.004437999,84471.1161
+main_397,Guarani,mbya1239,5,True,unmatched,,,,,LazaridisNature2014,correct by Harald,-27.5,-59,0.039874457,2236.7083
+main_397,Guarani_GN,mbya1239,7,True,unmatched,,,,,SkoglundNature2015,automatically assigned by Robert F,-23.333333,-54.5,0.03073239,727.5675
+main_397,Guarani_KW,mbya1239,9,True,unmatched,,,,,SkoglundNature2015,automatically assigned by Robert F,-23.333333,-55.2,0.041946625,390.4902
+main_397,Gui,gwii1239,11,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-21.486584,23.29467,0.020342077,1602.3699
+main_397,GujaratiA,guja1252,5,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,23.2,72.7,0.004754276,9447.7619
+main_397,GujaratiB,guja1252,5,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,23.2,72.7,0.006053889,5201.6104
+main_397,GujaratiC,guja1252,5,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,23.2,72.7,0.005791336,5360.228
+main_397,Hadza,hadz1240,20,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,-3.8,35.3,0.049420463,629.8124
+main_397,Hadza1,hadz1240,5,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-3.6,35.1,0.0800965,414.6212
+main_397,Haiom,haio1238,9,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-19.345077,16.969494,0.027510291,2100.162
+main_397,Han_HGDP,mand1415,33,True,unmatched,,,,,PattersonGenetics2012,correct by Harald - checked by Chiara after ALFRED,32.265668,114,0.002487151,373345.6022
+main_397,Han-NChina,mand1415,10,True,unmatched,,,,,PattersonGenetics2012,general check ok,32.265668,114,0.002487151,35779.9269
+main_397,Hazara,haza1239,22,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,33.498556,70,0.018766494,5595.9229
+main_397,Hezhen,nana1257,9,True,unmatched,,,,,PattersonGenetics2012,correct by Harald_ checked by Chiara after ALFRED,47.497619,133.5,0.007372038,4571.3145
+main_397,Himba,here1253,5,True,unmatched,,,,,PickrellNatureCommunications2012,correct by Chiara,-19.100676,14.123501,0.066719785,1478.5198
+main_397,Hoan,hoaa1235,6,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-23.998918,23.435117,0.02800734,1066.3824
+main_397,Huancas,chac1250,5,True,unmatched,,,,,Barbieri_2018,correct by Chiara checked by P.Heggarty,-6.17391,-77.864453,0.037748229,1030.6331
+main_397,Hungarian1,hung1274,10,True,exact,hung1274,hun,Hungarian,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,47.5,19.1,0.001652775,71059.6304
+main_397,Hungarian2,hung1274,10,True,exact,hung1274,hun,Hungarian,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,47.487513,19.050293,0.001778015,55921.7822
+main_397,Icelandic,icel1247,12,True,exact,icel1247,isl,Icelandic,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,64.133333,-21.933333,NA,7403.6449
+main_397,Inga,inga1252,15,True,unmatched,,,,,Barbieri_2018;LazaridisNature2014,correct by Chiara,1.368314,-76.580119,0.035073357,2056.5776
+main_397,Ingushian,ingu1240,10,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,43.52,44.58,0.009088474,3327.1083
+main_397,Iran_Non-Zoroastrian_Fars,west2369,17,True,exact,west2369,pes,Western Farsi,identical curated base Glottocode,Broushaki2016,correct by Harald,29.616667,52.533333,0.003082493,109758.6869
+main_397,Iran_Zoroastrian,zoro1242,28,True,unmatched,,,,,Broushaki2016,correct by Harald,29.628576,52.502117,0.01577447,1091.0261
+main_397,Iranian_Bandari,fars1254,8,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,27.183,56.267,0.003958536,5607.0136
+main_397,Iranian_Lor,luri1252,10,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,33.465,48.339,0.006247803,11512.3877
+main_397,Iranian_Mazandarani,maza1291,10,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,36.529,52.671,0.007237728,22669.2967
+main_397,Iranian_Persian,fars1254,10,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,29.591,52.584,0.003872095,74649.7506
+main_397,Irish_Connacht,conn1243,6,True,descendant_candidate,iris1253,gle,Irish,local Glottolog lookup Language_level_ID; community compatibility unverified,LazaridisNature2016,checked by Damian,53.72,-8.49,0.000765116,9977.7153
+main_397,Irish_Cork_Kerry,iris1253,6,True,exact,iris1253,gle,Irish,identical curated base Glottocode,LazaridisNature2016,checked by Damian,51.84,-9.2,0.000769776,10340.6191
+main_397,Irish_Leinster,iris1253,6,True,exact,iris1253,gle,Irish,identical curated base Glottocode,LazaridisNature2016,checked by Damian,53.09,-6.88,8.76E-05,12148.1148
+main_397,Irish_Munster,muns1250,6,True,descendant_candidate,iris1253,gle,Irish,local Glottolog lookup Language_level_ID; community compatibility unverified,LazaridisNature2016,checked by Damian,52.36,-8.49,0.000545742,16039.5218
+main_397,Irish_Ulster,done1238,6,True,descendant_candidate,iris1253,gle,Irish,local Glottolog lookup Language_level_ID; community compatibility unverified,LazaridisNature2016,checked by Damian,54.71,-6.95,0.000627688,10330.0146
+main_397,Itelmen,itel1242,7,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,57.2,156.9,NA,1206.6619
+main_397,Japanese,japa1256,30,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,38,138,NA,121656.9487
+main_397,Jew_Cochin,jewi1241,5,True,unmatched,,,,,LazaridisNature2014,correct by Harald,9.97,76.28,0.018230045,1601.7511
+main_397,Jew_Ethiopian,amha1245,7,True,unmatched,,,,,LazaridisNature2014,correct by Harald,9.033333,38.733333,0.020860571,5972.5423
+main_397,Jew_Georgian,jude1258,9,True,unmatched,,,,,LazaridisNature2014,correct by Harald,41.716667,44.783333,0.008237667,3685.4321
+main_397,Jew_Iraqi,jude1266,9,True,unmatched,,,,,LazaridisNature2014,correct by Harald,33.325,44.422,0.006649501,4990.9923
+main_397,Jew_Libyan,jude1264,9,True,unmatched,,,,,LazaridisNature2014,correct by Harald,32.916667,13.183333,0.014879452,1663.667
+main_397,Jew_Moroccan,jude1265,7,True,unmatched,,,,,LazaridisNature2014,correct by Harald,34.02,-6.84,0.008805968,3483.7638
+main_397,Jew_Tunisian,jude1263,7,True,unmatched,,,,,LazaridisNature2014,correct by Harald,36.8,10.183333,0.012335042,2048.0325
+main_397,Jew_Turkish,ladi1251,9,True,unmatched,,,,,LazaridisNature2014,correct by Harald,41.016667,28.95,0.004477337,14559.2317
+main_397,Jew_Yemenite,jude1267,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,15.35,44.2,0.023498792,2494.8797
+main_397,Jordanian,sout3123,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,32.054645,35.914307,0.003071213,22799.2039
+main_397,Ju_hoan_North,juho1239,16,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-18.937257,21.452448,NA,1561.8598
+main_397,Ju_hoan_South,juho1239,9,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-21.151918,20.681539,0.029805093,1788.367
+main_397,Kabardinian,kaba1278,10,True,exact,kaba1278,kbd,Kabardian,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,43.41,43.32,0.005136095,23140.1165
+main_397,Kaitag,darg1241,8,True,unmatched,,,,,Jeong_2019,assigned by Chiara,42.15,47.63,0.01112071,4143.3866
+main_397,Kalash,kala1372,19,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,35.99366,71.5,0.035354563,573.4167
+main_397,Kalmyk,kalm1243,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,46.169444,45.342778,0.07206829,16794.6279
+main_397,Kankanaey,kank1243,10,True,unmatched,,,,,SkoglundNature2016,checked by Damian,17.07,121.03,0.036532269,730.3121
+main_397,Kaqchikel,kaqc1270,5,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,15,-91,0.013249074,4497.2551
+main_397,Karachai,kara1466,11,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,43.94,42.52,0.009468206,2480.8854
+main_397,Karakalpak,kara1467,14,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,43,59,0.031863123,47231.493
+main_397,Karelian_Northern,nort2673,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,60.12,31.1,0.007911226,2511.8997
+main_397,Karelian_Southern,sout2676,9,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,60.59,32.58,0.005046398,3339.7861
+main_397,Karitiana,kari1311,13,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,-10,-63,NA,481.4584
+main_397,Kazakhs_East_Kazakhstan_Naiman,kaza1248,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,49.57,82.37,0.010689889,13981.4352
+main_397,Kazakhs_Omsk_Kypchak,kaza1248,5,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,53.46,73.52,0.012813809,5515.1964
+main_397,Ket,kett1243,9,True,unmatched,,,,,Flegontov_2019,assigned by Chiara,64.443527,87.546972,0.026512096,639.5446
+main_397,Ket_Southeast,kett1243,10,True,unmatched,,,,,Flegontov_2019,assigned by Chiara,62.462346,89.00493,0.01895516,861.3013
+main_397,Kgalagadi,kgal1244,5,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-24.796708,21.751098,0.03048016,1335.0173
+main_397,Khakass_Kachins,kach1278,7,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,55,89,0.010564951,2823.3428
+main_397,Khakass_Koibals,khak1248,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,53,90,0.010869986,2870.3856
+main_397,Khakass_Sagai,saga1260,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,55,89,0.014917975,2141.7562
+main_397,Khamnegan,kham1281,10,True,unmatched,,,,,Jeong_2019,assigned by Chiara,50.68,114.6,0.005464289,5826.3913
+main_397,Kharia,khar1287,12,True,unmatched,,,,,LazaridisNature2014,checked by Harald,25.77,82.73,0.023489284,3092.7921
+main_397,Khomani,nuuu1241,11,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,-28.25,21.15,0.018485201,4389.2479
+main_397,Khwe,kxoe1243,10,True,unmatched,,,,,PickrellNatureCommunications2012,correct by AM Fehn,-18.373452,21.885095,0.026305861,2359.1478
+main_397,KichwaOrellana,tena1240,17,True,unmatched,,,,,Barbieri_2018,correct by Chiara,-0.183278,-77.174667,0.041441051,965.3743
+main_397,Kinh,viet1252,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,21,105.9,0.004506003,20920.937
+main_397,Kolombangara,duke1237,5,True,unmatched,,,,,QinStonekingMBE2015,checked by Chiara after B.Pakendorf,-8.1,157.1,0.051089465,NA
+main_397,Korean,kore1280,6,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,37.6,127,NA,56977.3775
+main_397,Koryak,kory1246,9,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,58.3,159.38,NA,1112.4785
+main_397,Kove,kove1237,7,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-5.4667,148.95,0.052057931,707.257
+main_397,Kove_Tamuniai,kove1237,10,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-5.4667,148.95,0.057406046,625.957
+main_397,Kubachinian,kuba1248,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,42.08,47.58,0.021211899,1087.0981
+main_397,Kumyk,kumy1244,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,43.25,46.583333,0.004595779,29725.4257
+main_397,Kuot_Kabil,kuot1243,10,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-3.067,151.7,0.041156433,1043.5055
+main_397,Kuot_Lamalaua,kuot1243,8,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-3,151.5,0.035929702,1741.872
+main_397,Kurd,nort2641,9,True,exact,nort2641,kmr,Northern Kurdish,identical curated base Glottocode,Jeong_2019,correct by Harald,44.58,39.42,0.00955957,NA
+main_397,Kusunda,kusu1250,5,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,28.072453,82.542991,0.046108925,1115.461
+main_397,Kyrgyz,kirg1245,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,42.866667,74.616667,0.011342816,15731.9019
+main_397,Lahu,lahu1253,27,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,22,100,NA,901.534
+main_397,LaJalca,chac1250,11,True,unmatched,,,,,Barbieri_2018,correct by Chiara checked by P.Heggarty,-6.485608,-77.816172,0.034585698,1204.1713
+main_397,Lak,lakk1252,10,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,42.17,47.12,0.011938643,2813.0781
+main_397,Lebanese,nort3139,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,33.815666,35.57373,0.003692001,25253.2509
+main_397,Lebanese_Christian,stan1323,9,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,33.89,35.5,0.003978486,12032.9168
+main_397,Lebanese_Muslim,stan1323,11,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,33.89,35.5,0.003142766,29465.5283
+main_397,Lebbo,waha1238,8,True,unmatched,,,,,SkoglundNature2016,checked by Damian,1.655308,117.157242,0.031794436,1583.9446
+main_397,Lezgin,lezg1247,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,42.116667,48.183333,0.006654469,13364.1062
+main_397,Libyan,liby1240,5,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,32.88,13.19,0.012676687,5864.2782
+main_397,Lithuanian,lith1251,10,True,exact,lith1251,lit,Lithuanian,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,54.901882,23.917236,0.003315934,10639.8224
+main_397,Lodhi,bund1253,13,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,25.45,78.62,0.00723782,6475.9949
+main_397,Luhya,cent2288,8,True,unmatched,,,,,LazaridisNature2014,general check ok,1.3,36.8,0.043704936,8561.4198
+main_397,Luo,luok1236,8,True,unmatched,,,,,LazaridisNature2014,correct by Harald,-0.1,34.3,0.035941836,11602.8473
+main_397,Luya,chac1250,11,True,unmatched,,,,,Barbieri_2018,correct by Chiara checked by P.Heggarty,-6.191162,-77.968099,0.024834935,3593.4104
+main_397,Madak,mada1285,10,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-3.1,151.7,0.034192648,1759.072
+main_397,Makrani,makr1243,25,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,26,64,0.004457188,7850.5372
+main_397,Mala,telu1262,16,True,exact,telu1262,tel,Telugu,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,18.67,78.17,0.0096244,31641.3233
+main_397,Malawi_Chewa,nyan1308,11,True,unmatched,,,,,SkoglundCell2017,checked by Chiara,-13.703473,33.597743,0.000232003,17696.648
+main_397,Malawi_Tumbuka,tumb1250,10,True,unmatched,,,,,SkoglundCell2017,checked by Chiara,-11.900632,33.598959,0.022791999,11273.5493
+main_397,Malawi_Yao,yaoo1241,9,True,unmatched,,,,,SkoglundCell2017,checked by Chiara,-15.785624,35.008278,0.000694395,17095.2976
+main_397,Malay,sing1270,9,True,unmatched,,,,,SkoglundNature2016,checked by Damian,1.35,103.82,NA,40796.6683
+main_397,Maltese,malt1254,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,35.94,14.38,0.006812709,4211.2891
+main_397,Mamanwa,mama1275,13,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,9.76,125.51,0.055267081,419.1943
+main_397,Mamanwa1,mama1275,5,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,9.76,125.51,0.0298833,6750.9682
+main_397,Mamusi_Kisiluvi,mamu1254,10,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-5.7333,151.0833,0.070931262,455.7052
+main_397,Mamusi_Lingite,mamu1254,10,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-5.867,151.1,0.073754291,397.6154
+main_397,Mamusi_Paleabu,mamu1254,6,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-5.95,150.9,0.052197779,705.1825
+main_397,Mandenka,mand1436,18,True,unmatched,,,,,PattersonGenetics2012,general check ok,12,-12,NA,7131.0672
+main_397,Mangseng,mang1403,5,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-5.933,150.7,0.033351932,2701.6136
+main_397,Mansi,sout3253,9,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,60.2,66.47,0.019685227,2051.2149
+main_397,Masai_Kinyawa_MKK,masa1300,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,-1.5,35.2,0.037919554,NA
+main_397,Maya,yuca1254,21,True,unmatched,,,,,PattersonGenetics2012,correct by Chiara after Alfred,19,-91,0.014762749,7452.1104
+main_397,Mbukushu,mbuk1240,5,True,unmatched,,,,,PickrellNatureCommunications2012,checked by Chiara,-16.85712,22.795715,0.044458119,5261.8606
+main_397,MbutiPygmy,lese1243,11,True,unmatched,,,,,PattersonGenetics2012,correct by Chiara after Alfred,1,29,0.097195122,2756.0289
+main_397,Melamela,mera1242,10,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-5,151.25,0.049009257,868.2714
+main_397,Mende,mend1266,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,8.5,-13.2,NA,14900.3228
+main_397,Mengen,meng1267,10,True,unmatched,,,,,SkoglundNature2016,checked by Damian,-5.1,151.4,0.039937221,2378.0601
+main_397,Miao,hmon1333,10,True,unmatched,,,,,PattersonGenetics2012,correct by Harald,28,109,0.007211615,3881.6139
+main_397,Mixe,mixe1286,10,True,unmatched,,,,,LazaridisNature2014,correct by S¿ren,16.95,-96.583333,0.031738342,572.1205
+main_397,Mixtec,mixt1427,12,True,unmatched,,,,,LazaridisNature2014,general check,15.95,-97.366667,0.016653157,1714.6349
+main_397,Moldavian,mold1248,10,True,descendant_candidate,roma1327,ron,Romanian,local Glottolog lookup Language_level_ID; community compatibility unverified,Jeong_2019,automatically assigned by Robert F,46.38,29.87,0.005790405,5318.2487
+main_397,Mongol_Khalkh_Sainnoyon,mong1331,8,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,47,101,0.004287847,17251.6655
+main_397,Mongol_Khalkh_Zasagt,mong1331,7,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,48,96,0.010352271,20717.9633
+main_397,Mongol_Minorities,mong1331,9,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,,,NA,22372.0562
+main_397,Mongol_Uuld,mong1331,10,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,48.95,91.16,0.008909467,15244.2296
+main_397,Mongola,mong1331,10,True,unmatched,,,,,PattersonGenetics2012,general check ok,45,111,0.005719041,29298.1784
+main_397,Mordovian,erzy1239,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,54.183333,45.183333,0.008134313,10322.5277
+main_397,Mordovian_Erzya,erzy1239,12,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,55.08,44.16,0.008895889,6707.9353
+main_397,Mordovian_Moksha,moks1248,10,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,54.08,43.13,0.007281599,4644.618
+main_397,Moroccan,moro1292,10,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,33.53,-7.58,0.017181725,22836.9026
+main_397,Mozabite,tumz1238,25,True,unmatched,,,,,PattersonGenetics2012,general check ok,32,3,0.022235984,1647.3313
+main_397,Murut,muru1275,10,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,4.62,115.14,0.028529608,971.0649
+main_397,Mussau,muss1246,10,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-1.583,149.733,0.042245672,953.3025
+main_397,Nakanai_Bileki,bile1245,9,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-5.75,150.8,0.051936738,1092.2995
+main_397,Nakanai_Loso,losa1236,7,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-5.483,150.8,0.06664122,462.1535
+main_397,Nama,nama1264,18,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-24.266093,17.260889,0.024070574,3827.5273
+main_397,Nanai,nana1257,10,True,unmatched,,,,,Jeong_2019,assigned by Chiara,49.44,136.51,NA,2447.922
+main_397,Naro,naro1249,9,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-22.032082,21.584054,0.024208659,3086.5447
+main_397,Nasioi,nasi1247,10,True,unmatched,,,,,PattersonGenetics2012,checked by Chiara,-6.48,155.83,0.057524652,1615.9224
+main_397,Naxi,naxi1245,8,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,26,100,0.011499536,5460.2225
+main_397,Nganasan,ngan1291,12,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,71,95,NA,777.6901
+main_397,Nganasan_UstAvam,ngan1291,6,True,unmatched,,,,,Flegontov_2019,assigned by Chiara,71.113181,92.822343,NA,717.8437
+main_397,Nganasan_Volochanka,ngan1291,11,True,unmatched,,,,,Flegontov_2019,assigned by Chiara,70.976289,94.535318,NA,795.5738
+main_397,Nggela,gela1263,6,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,-9.101583,160.147069,0.017086943,3158.2553
+main_397,Nivh,gily1242,8,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,52.85,141.25,NA,916.1835
+main_397,Nogai,noga1249,9,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,44.37252,41.93765,0.009873605,15261.2938
+main_397,Nogai_Astrakhan,noga1249,6,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,46.2,48.01,0.033281446,5665.2569
+main_397,Nogai_Stavropol,noga1249,10,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,44.4,41.5,0.025892398,36714.259
+main_397,Norwegian,norw1258,11,True,exact,norw1258,nor,Norwegian,identical curated base Glottocode,LazaridisNature2014,correct by Chiara,60.359,5.358,0.002417679,16228.406
+main_397,Notsi,nots1237,9,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-3.05,151.65,0.029679111,2978.3981
+main_397,Ojibwa,ojib1241,16,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,46.5,-81,NA,1988.3028
+main_397,Onge,onge1236,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,10.75,92.5,NA,286.1292
+main_397,Ontong_Java,onto1237,8,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,-5.3,159.4,0.078540739,810.0022
+main_397,Orcadian,scot1243,13,True,unmatched,,,,,PattersonGenetics2012,general check ok,59,-3,0.003252887,4277.9648
+main_397,Oromo,west2721,5,True,unmatched,,,,,LazaridisNature2014,correct by Harald,9,36.5,0.006013101,5121.5001
+main_397,Oroqen,oroq1238,9,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,50.433893,126.5,0.006409095,5306.2455
+main_397,Ossetian,osse1243,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,43.016667,44.65,0.006496897,5190.6357
+main_397,Ossetian_Southern,iron1242,6,True,unmatched,,,,,Jeong_2019,correct by Harald,43.12,43.55,0.008347026,4527.7641
+main_397,Palestinian,sout3123,41,True,unmatched,,,,,PattersonGenetics2012,general check ok,32,35,0.004966838,5583.8548
+main_397,Pathan,pash1269,24,True,unmatched,,,,,PattersonGenetics2012,general check ok,33.487006,70.5,0.008285241,28154.7363
+main_397,Peru_Quechua,cusc1236,5,True,unmatched,,,,,LazaridisNature2014,correct by Chiara,-13.5,-72,0.011386905,6490.4567
+main_397,Piapoco,piap1246,5,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,3,-68,0.031507532,957.8375
+main_397,Pima,pima1248,14,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,29,-108,NA,706.846
+main_397,Polish_Lublin,poli1260,8,True,exact,poli1260,pol,Polish,identical curated base Glottocode,LazaridisNature2016,checked by Chiara,51.25,22.566667,0.000952048,34642.4428
+main_397,Polish_Poznan,poli1260,15,True,exact,poli1260,pol,Polish,identical curated base Glottocode,LazaridisNature2016,checked by Chiara,52.24,16.92,0.001438307,55845.1083
+main_397,Punjabi,panj1256,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,31.5,74.3,0.013113176,4699.4654
+main_397,Puno,puno1238,7,True,unmatched,,,,,Barbieri_2018,correct by Chiara,-15.7662,-69.683,0.01645085,1888.7863
+main_397,Ranongga,ghan1242,6,True,unmatched,,,,,QinStonekingMBE2015,checked by Chiara after B.Pakendorf,-8,156.6,0.046816787,2510.4226
+main_397,Rennell_and_Bellona,renn1242,7,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,-11.4,159.9,NA,267.8737
+main_397,Romanian,roma1327,10,True,exact,roma1327,ron,Romanian,identical curated base Glottocode,LazaridisNature2016,checked by Chiara,46.502222,22.950277,0.003672045,5938.4954
+main_397,Russian,russ1263,23,True,exact,russ1263,rus,Russian,identical curated base Glottocode,PattersonGenetics2012,automatically assigned by Robert F,61,40,0.004129785,16138.5539
+main_397,Russian_Archangelsk_Krasnoborsky,russ1263,6,True,exact,russ1263,rus,Russian,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,61.56,45.94,0.005248877,9129.6623
+main_397,Russian_Archangelsk_Leshukonsky,russ1263,5,True,exact,russ1263,rus,Russian,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,64.9,45.74,0.010109522,1690.7279
+main_397,Russian_Archangelsk_Pinezhsky,russ1263,5,True,exact,russ1263,rus,Russian,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,64,44.26,0.009277154,2285.5351
+main_397,Russian_Kaluga,russ1263,5,True,exact,russ1263,rus,Russian,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,54.31,34.53,0.002852355,75964.7891
+main_397,Russian_Ryazan_Mihailovsky,russ1263,5,True,exact,russ1263,rus,Russian,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,54.23,39.03,0.00284832,8386.7893
+main_397,Russian_Ryazan_Spassk_Ryazansky,russ1263,8,True,exact,russ1263,rus,Russian,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,54.4,40.53,0.004614001,15830.6695
+main_397,Russian_Smolensk,russ1263,7,True,exact,russ1263,rus,Russian,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,53.95,32.87,0.002633,19698.0613
+main_397,Saharawi,hass1238,9,True,unmatched,,,,,LazaridisNature2014,correct by Chiara,27.3,-8.9,0.013730478,2969.4501
+main_397,San,juho1239,5,True,unmatched,,,,,PattersonGenetics2012,general check ok,-18.937257,21.452448,NA,1596.1024
+main_397,Sandawe,sand1273,23,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,-5.5,35.5,0.022791999,2221.6031
+main_397,Santa_Cruz,natu1250,8,True,unmatched,,,,,QinStonekingMBE2015,correct by Harald_ checked by Chiara after B.Pakendorf,-11.610733,166.85925,0.036699042,1854.6191
+main_397,Saposa,sapo1253,10,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-5.5833,154.67,0.036479428,1748.245
+main_397,Sardinian,sard1257,28,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,40,9,0.010264591,7938.4659
+main_397,Saudi,hija1235,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,18.490029,42.51709,0.008245756,10638.1835
+main_397,Savo,savo1255,7,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,-9.125138,159.800176,0.024247524,4188.6527
+main_397,Scottish_Borders,scot1245,6,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,55.5,-2.5,0.001264647,19311.2391
+main_397,Scottish_Dumfries_Galloway,scot1245,5,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,55,-4,0.001173415,11982.3582
+main_397,Scottish_Fife,scot1245,6,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,56.25,-3,0.000633286,46967.132
+main_397,Scottish_Grampian,scot1245,6,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,57.25,-2.25,0.000304074,16402.2537
+main_397,Scottish_Highlands,scot1245,6,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,57.5,-4.25,0.000659594,12593.7807
+main_397,Scottish_Shetlandic,scot1245,10,True,unmatched,,,,,LazaridisNature2016,checked by Chiara,60.15,-1.15,0.001414167,9392.9699
+main_397,Selkup,selk1253,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,65.534456,82.299485,0.013991768,1497.0307
+main_397,Selkup_Farkovo,selk1253,8,True,unmatched,,,,,Flegontov_2019,assigned by Chiara,65.718073,86.979478,0.01368219,643.9441
+main_397,Selkup_Turukhansk,selk1253,6,True,unmatched,,,,,Flegontov_2019,assigned by Chiara,65.796083,87.952268,0.012378334,747.6199
+main_397,Semende,cent2053,10,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,-4.0782,103.6437,NA,1476.6171
+main_397,She,shee1238,9,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,27,119,NA,1897.3525
+main_397,Shor_Khakassia,shor1247,5,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,53.3,90,0.026128305,702.4313
+main_397,Shor_Mountain,shor1247,7,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,52.75,88,0.020279691,888.1875
+main_397,Shua,shua1254,10,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-20.550237,25.332131,0.027069759,1869.6699
+main_397,Sicilian_East,sici1248,5,True,unmatched,,,,,LazaridisNature2014,correct by Chiara,37.067,15.267,0.003289606,NA
+main_397,Sicilian_West,sici1248,6,True,unmatched,,,,,LazaridisNature2014,correct by Chiara,38.019,12.515,0.00490585,8699.232
+main_397,Sindhi,sind1272,24,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,25.490636,69,0.004056558,25657.2653
+main_397,Somali,soma1255,13,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,5.6,48.3,NA,11804.9276
+main_397,Spanish_Aragon,arag1245,6,True,unmatched,,,,,LazaridisNature2014,correct by Harald,41,-1,0.002203497,10694.7133
+main_397,Spanish_Basque,basq1248,9,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,43.13,-2.08,0.007091505,3103.705
+main_397,Spanish_Cantabria,astu1245,5,True,unmatched,,,,,LazaridisNature2014,correct by Harald,43.3,-4,0.001911169,6515.7029
+main_397,Spanish_CastillaLaMancha,cast1244,5,True,descendant_candidate,stan1288,spa,Spanish,local Glottolog lookup Language_level_ID; community compatibility unverified,LazaridisNature2014,correct by Harald,39.9,-4,0.001295546,6543.6669
+main_397,Spanish_CastillaLeon,cast1244,5,True,descendant_candidate,stan1288,spa,Spanish,local Glottolog lookup Language_level_ID; community compatibility unverified,LazaridisNature2014,correct by Harald,41.4,-4.5,0.002449111,22056.8287
+main_397,Spanish_Cataluna,stan1289,5,True,exact,stan1289,cat,Catalan,identical curated base Glottocode,LazaridisNature2014,correct by Chiara,41.8,1.5,0.002738006,15196.2619
+main_397,Spanish_Extremadura,extr1243,5,True,unmatched,,,,,LazaridisNature2014,correct by Harald,39,-6,0.001271044,NA
+main_397,Spanish_Galicia,gali1258,5,True,exact,gali1258,glg,Galician,identical curated base Glottocode,LazaridisNature2014,correct by Chiara,42.5,-8.1,0.002396691,23029.8242
+main_397,Spanish_Murcia,murc1238,5,True,descendant_candidate,stan1288,spa,Spanish,local Glottolog lookup Language_level_ID; community compatibility unverified,LazaridisNature2014,correct by Harald,38,-1.1,0.001873192,24063.4992
+main_397,Spanish_PaisVasco,basq1248,5,True,unmatched,,,,,LazaridisNature2014,correct by Chiara,42.8,-2.7,0.00325618,5277.618
+main_397,Spanish_Valencia,stan1289,5,True,exact,stan1289,cat,Catalan,identical curated base Glottocode,LazaridisNature2014,correct by Harald,39.5,-0.4,0.003007639,8496.8658
+main_397,Sulka_Ganai,sulk1246,10,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-4.5,152.333,0.041033913,1643.5278
+main_397,Sulka_Watwat,sulk1246,9,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-4.483,152.3,0.044607782,1520.4443
+main_397,Surui,suru1262,12,True,unmatched,,,,,PattersonGenetics2012,general check ok,-11,-62,NA,427.5319
+main_397,Syrian,turo1239,8,True,unmatched,,,,,LazaridisNature2014,checked by Harald,35.128894,36.870117,0.004946184,6024.9698
+main_397,Taa_East,huaa1248,8,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-24.236516,22.820655,0.025389569,1209.0866
+main_397,Taa_North,xooo1239,11,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-23.014565,22.415858,0.028331705,1336.8032
+main_397,Taa_West,xooo1239,15,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-23.639938,20.272741,0.026016026,2167.4087
+main_397,Tabasaran,taba1259,10,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,41.96,47.82,0.008849354,7790.6931
+main_397,Tagalog,taga1270,5,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,14.6,120.98,0.023497062,9382.7101
+main_397,Tajik,taji1245,8,True,unmatched,,,,,LazaridisNature2014,correct by Harald,37.9,72.166667,0.010123865,10017.7504
+main_397,Tajik_Lowland_Kulyab,kulj1234,7,True,unmatched,,,,,Jeong_2019,correct by Harald,37.9,69.77,0.007596071,11422.9978
+main_397,Tajik_Mountain,taji1245,12,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,39.37,68.52,0.011005707,3082.2025
+main_397,Tatar_Kazan,tata1255,13,True,exact,tata1255,tat,Tatar,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,55.23,52.58,0.004772492,12493.0298
+main_397,Tatar_Mishar,tata1255,9,True,exact,tata1255,tat,Tatar,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,55,48.5,0.006159659,7945.9166
+main_397,Tatar_Siberian_Ishtyak_Toguz,sibe1250,5,True,unmatched,,,,,Jeong_2019,correct by Harald,57.93,69.01,0.005992191,5092.2641
+main_397,Tatar_Siberian_Iskero_Tobolsk,sibe1250,5,True,unmatched,,,,,Jeong_2019,correct by Harald,58.1,68.72,0.007131616,3646.2169
+main_397,Tatar_Siberian_Yalutorovsky,sibe1250,6,True,unmatched,,,,,Jeong_2019,correct by Harald,56.89,66.52,0.010973817,4811.3252
+main_397,Tatar_Siberian_Zabolotniye,sibe1250,5,True,unmatched,,,,,Jeong_2019,correct by Harald,58.41,67.46,0.020209014,1171.2092
+main_397,Teop,teop1238,9,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-5.85,155.18,0.044545659,2447.1782
+main_397,Thai,thai1261,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,13.8,100.5,0.00334835,18287.4812
+main_397,Tigak,tiga1245,9,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-2.567,150.8333,0.040437126,833.1916
+main_397,Tikopia,tiko1237,6,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,-12.296678,168.824107,NA,454.6466
+main_397,Tofalar,kara1462,10,True,unmatched,,,,,LazaridisNature2014,checked by Chiara,54.217657,96.976046,0.031283894,652.0748
+main_397,Tolai,mini1257,10,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-4.311,152.128,0.036272819,2222.5511
+main_397,Tolai_Kabakada,kaba1283,9,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,-4.483,152.1,0.0396371,1819.746
+main_397,Tongan,tong1325,10,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,-21.19,-175.18,NA,1271.6437
+main_397,Tshwa,tsoa1238,8,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-21.024935,25.936576,0.021714492,1941.6671
+main_397,Tswana,tswa1253,5,True,unmatched,,,,,PickrellNatureCommunications2012,automatically assigned by Robert F,-24.066528,25.3656,0.039797677,4742.6433
+main_397,Tu,tuuu1240,10,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,36,101,NA,18300.1314
+main_397,Tubalar,kara1462,30,True,unmatched,,,,,LazaridisNature2014,correct by Harald,51.133333,87,0.016650705,1221.4687
+main_397,Tubalar_2,nort2686,5,True,unmatched,,,,,Jeong_2019,correct by Harald,52.2,87.42,0.021483222,956.7761
+main_397,Tujia,tuji1244,10,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,29,109,0.004330321,40146.7584
+main_397,Tunisian,tuni1259,8,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,36.82,10.17,0.013363904,19033.252
+main_397,Turkish_Adana,nucl1301,10,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,37,35.316667,0.00448799,33133.1595
+main_397,Turkish_Aydin,nucl1301,10,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,37.85,27.833333,0.00387781,31706.1487
+main_397,Turkish_Balikesir,nucl1301,11,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,39.385,27.533,0.006156025,3905.1175
+main_397,Turkish_Istanbul,nucl1301,11,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,41.016666,28.95,0.003756267,42985.887
+main_397,Turkish_Kayseri,nucl1301,10,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,38.733333,35.483333,0.003869319,43448.4705
+main_397,Turkish_Trabzon,nucl1301,10,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,41,39.733333,0.008354875,3867.6971
+main_397,Turkmen,turk1304,7,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,42.463993,59.611816,0.01401007,5539.9476
+main_397,Tuscan,ital1282,8,True,exact,ital1282,ita,Italian,identical curated base Glottocode,PattersonGenetics2012,general check ok,43,11,0.003732805,42791.9606
+main_397,Tuvinian,tuvi1240,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,50.259608,95.160313,0.011336742,3296.673
+main_397,Tuvinian_2,tuvi1240,10,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,51.16,94.47,0.010331958,2250.7828
+main_397,Udmurt_Northern,nort2676,5,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,56.09,52.37,0.015395529,1677.9801
+main_397,Udmurt_Southern,sout2681,5,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,56.09,52.37,0.015847423,1480.0921
+main_397,Ukrainian_East,ukra1253,6,True,exact,ukra1253,ukr,Ukrainian,identical curated base Glottocode,LazaridisNature2014,automatically assigned by Robert F,50.287092,31.557404,0.002171392,32695.3716
+main_397,Ukrainian_Sumskaya,ukra1253,5,True,exact,ukra1253,ukr,Ukrainian,identical curated base Glottocode,Jeong_2019,automatically assigned by Robert F,50.82,33.87,0.003287167,12048.494
+main_397,Ulchi,ulch1241,32,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,51.93,140.41,0.009199369,3835.1302
+main_397,Uygur,uigh1240,10,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,44,81,0.011865462,54013.1641
+main_397,Uzbek,nort2690,10,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,41.266667,69.216667,0.008422232,13085.9638
+main_397,Uzbek_Khorezm,nort2690,8,True,unmatched,,,,,Jeong_2019,correct by Harald,41.55,60.63,0.006509126,6612.4259
+main_397,Uzbek_Tashkent,nort2690,9,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,41.3,69.27,0.007935689,24692.5725
+main_397,Vella_Lavella,bilu1245,6,True,unmatched,,,,,QinStonekingMBE2015,automatically assigned by Robert F,-7.9,156.7,0.042044734,4696.0812
+main_397,Veps,veps1250,10,True,unmatched,,,,,Jeong_2019,automatically assigned by Robert F,61.27,35.02,0.008887636,2061.2131
+main_397,Vietnamese_North,viet1252,5,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,21.03,105.85,0.004330321,18748.9973
+main_397,Vietnamese_South,viet1252,5,True,unmatched,,,,,SkoglundNature2016,checked by Chiara,10.82,106.64,0.003519169,10884.1527
+main_397,Vishwabrahmin,vish1243,14,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,16.3,80.48,0.008145544,14665.2986
+main_397,Wambo,ndon1254,5,True,unmatched,,,,,PickrellNatureCommunications2012,correct by AM Fehn,-17.73,18.06,0.05423409,5605.9452
+main_397,Wayku,sanm1289,10,True,unmatched,,,,,Barbieri_2018,correct by Chiara,-6.422091,-76.51988,0.041199241,789.1735
+main_397,Xavante,xava1240,9,True,unmatched,,,,,SkoglundNature2015,automatically assigned by Robert F,-14.333333,-52.5,NA,389.6822
+main_397,Xibo,xibe1242,9,True,unmatched,,,,,PattersonGenetics2012,general check ok,43.49793,81.5,0.015848655,12573.1325
+main_397,Xuun,kung1261,15,True,unmatched,,,,,PickrellNatureCommunications2012,correct by AM Fehn,-18.69072,19.682631,0.023507406,2967.621
+main_397,Yakut,yaku1245,25,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,62.982878,129.5,0.011406951,1298.133
+main_397,Yaquis,yaqu1251,8,True,unmatched,,,,,Barbieri_2018,correct by Chiara,27.5767,-109.9598,NA,3299.6941
+main_397,Yemeni,jude1267,6,True,unmatched,,,,,LazaridisNature2014,automatically assigned by Robert F,14.040673,44.571533,0.014218534,6998.1154
+main_397,Yi,lolo1267,10,True,unmatched,,,,,PattersonGenetics2012,correct by Harald,28,103,0.010002295,10795.6662
+main_397,Yoruba,yoru1245,75,True,unmatched,,,,,PattersonGenetics2012,automatically assigned by Robert F,7.4,3.9,0.007139288,241486.4893
+main_397,Yukagir_Forest,nort2745,5,True,unmatched,,,,,LazaridisNature2014,correct by Harald,65.48,151,0.050555129,2722.2308
+main_397,Yukagir_Tundra,sout2750,19,True,unmatched,,,,,LazaridisNature2014,correct by Harald,70.6,147.9,0.018823424,2529.3013
+main_397,Zapotec,zapo1437,12,True,unmatched,,,,,LazaridisNature2014,checked by Chiara,17.016667,-96.516667,0.012742923,3860.1139
+expanded_558,Abazin,abaz1241,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Abkhasian,abkh1244,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Adygei,adyg1241,18,True,exact,adyg1241,ady,West Circassian,identical curated base Glottocode,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Adygei_Abadzhekh,abad1240,3,False,descendant_candidate,adyg1241,ady,West Circassian,local Glottolog lookup Language_level_ID; community compatibility unverified,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Adygei_Bzhedug,bezh1247,4,False,descendant_candidate,adyg1241,ady,West Circassian,local Glottolog lookup Language_level_ID; community compatibility unverified,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Adygei_Mamkheg,adyg1241,4,False,exact,adyg1241,ady,West Circassian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Adygei_Shapsug_Black_Sea,shap1240,3,False,descendant_candidate,adyg1241,ady,West Circassian,local Glottolog lookup Language_level_ID; community compatibility unverified,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Adygei_Shapsug_Kuban,shap1240,1,False,descendant_candidate,adyg1241,ady,West Circassian,local Glottolog lookup Language_level_ID; community compatibility unverified,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Afar_WGA,afar1241,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,AfroAmericans_Denver,NA,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ain_Touta_WGA,tach1249,3,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Albanian,alba1267,6,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Aleut,aleu1260,6,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Aleut_Tlingit,aleu1260,4,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Algerian,alge1239,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Algonquin,algo1255,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Altaian,sout2694,7,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Altaian_Chelkans,chel1242,7,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Altaian_Kizhi,tuba1280,12,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Altaian_Telengit,tala1279,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Ami,amis1246,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Apalai,apal1257,4,False,unmatched,,,,,"Skoglund, P., et al. (2015). Genetic evidence for two founding populations of the Americas. Nature, 525(7567), 104-108.",,,,,
+expanded_558,Arara,para1310,4,False,unmatched,,,,,"Skoglund, P., et al. (2015). Genetic evidence for two founding populations of the Americas. Nature, 525(7567), 104-108.",,,,,
+expanded_558,Armenian,nucl1235,11,True,exact,nucl1235,hye,Eastern Armenian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Armenian_Hemsheni,hams1240,8,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Armenian_WGA,nucl1235,3,False,exact,nucl1235,hye,Eastern Armenian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ashkenazi_Jew,east2295,8,True,exact,east2295,ydd,Eastern Yiddish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Assyrian,assy1241,11,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Assyrian_WGA,assy1241,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Atayal,atay1247,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ata_Bili,pele1245,1,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Ata_Luge,pele1245,2,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Ata_Uassilau,pele1245,5,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Australian_WGA,NA,7,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Avar_Gunibsky,avar1256,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Avar_Unchukulsky,avar1256,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Aymara,sout2996,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Azeri_Azerbajan,nort2697,9,True,exact,nort2697,azj,North Azerbaijani,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Azeri_Dagestan,nort2697,7,True,exact,nort2697,azj,North Azerbaijani,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Azeri_WGA,nort2697,2,False,exact,nort2697,azj,North Azerbaijani,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Baining_Malasait,bain1263,4,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Baining_Marabu,bain1263,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Bajo,indo1317,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Balkar,kara1465,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Balochi,east2304,24,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,BantuKenya,NA,9,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,BantuSA_Herero,here1253,2,False,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,BantuSA_Ovambo,ndon1254,1,False,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,BantuSA_Pedi,pedi1238,1,False,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,BantuSA_S_Sotho,sout2807,1,False,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,BantuSA_Tswana,tswa1253,2,False,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,BantuSA_Zulu,zulu1248,1,False,exact,zulu1248,zul,Zulu,identical curated base Glottocode,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Barito,NA,9,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Bashkir_Burzjan_Baimaksky,burz1239,8,True,descendant_candidate,bash1264,bak,Bashkir,local Glottolog lookup Language_level_ID; community compatibility unverified,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Bashkir_IkskoBelsky_Kyrgyz,bash1264,6,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Bashkir_IkskoBelsky_Uran,bash1264,8,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Bashkir_Ming_Miyakinsky,bash1264,9,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Bashkir_North_Tabyn_Balysky,bash1264,7,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Bashkir_North_Unlar,bash1264,4,False,exact,bash1264,bak,Bashkir,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Bashkir_Tamyan_Kypcak,bash1264,7,True,exact,bash1264,bak,Bashkir,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Bashkir_Yurmaty,yurm1239,4,False,descendant_candidate,bash1264,bak,Bashkir,local Glottolog lookup Language_level_ID; community compatibility unverified,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Basque,basq1248,22,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,BedouinA,east2690,24,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,BedouinB,east2690,20,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Belarusian,bela1254,10,True,exact,bela1254,bel,Belarusian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Bengali,beng1280,7,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Besermyan,bese1243,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,BiakaPygmy,yaka1272,23,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Bolivian,NA,7,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Bolivia_Quechua,sout2991,2,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Brahmin_Tiwari,chha1249,15,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Brahui,brah1256,23,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Buka,buka1262,5,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Buka_Petats,peta1245,3,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Bulgarian,bulg1262,10,True,exact,bulg1262,bul,Bulgarian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Burbur_WGA,taga1278,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Burmese,nucl1310,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Burusho,buru1296,24,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Buryat_Buryatya_Horinsky_Selenginsky,russ1264,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Buryat_Buryatya_Zakamensky,russ1264,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Buryat_Irkutskaya,russ1264,12,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Buryat_Zabaikalsky_Aginsky,russ1264,12,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Buryat_Zabaikalsky_Duldurginsky,russ1264,4,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Cabecar,cabe1245,4,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Cambodian,cent1989,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Cameroon_Aghem,aghe1239,28,True,unmatched,,,,,"Lipson, M., et al. (2020). Ancient West African foragers in the context of African population history. Nature, 577(7792), 665-670.",,,,,
+expanded_558,Cameroon_Bafut,bafu1246,11,True,unmatched,,,,,"Lipson, M., et al. (2020). Ancient West African foragers in the context of African population history. Nature, 577(7792), 665-670.",,,,,
+expanded_558,Cameroon_Bakoko,bako1249,1,False,unmatched,,,,,"Lipson, M., et al. (2020). Ancient West African foragers in the context of African population history. Nature, 577(7792), 665-670.",,,,,
+expanded_558,Cameroon_Bangwa,ndan1241,2,False,unmatched,,,,,"Lipson, M., et al. (2020). Ancient West African foragers in the context of African population history. Nature, 577(7792), 665-670.",,,,,
+expanded_558,Cameroon_Mbo,mboc1235,20,True,unmatched,,,,,"Lipson, M., et al. (2020). Ancient West African foragers in the context of African population history. Nature, 577(7792), 665-670.",,,,,
+expanded_558,Canary_Islander,cana1258,2,False,descendant_candidate,stan1288,spa,Spanish,local Glottolog lookup Language_level_ID; community compatibility unverified,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Cao,NA,10,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Chane,chan1322,1,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Chechen,chec1245,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Chilote,huil1244,4,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Chipewyan,chip1261,26,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Choiseul,NA,7,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Chotuna,NA,4,False,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Chukchi,chuk1273,15,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Chukchi_Ayon,chuk1273,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Chulucanas,NA,8,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Chuvash,chuv1255,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Chuvash_Tatarstan,chuv1255,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Circassian,circ1239,9,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Cocama,coca1260,7,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Cofan,cofa1242,4,False,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Cree,cree1272,12,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Croatian,croa1245,10,True,descendant_candidate,sout1528,hbs,Serbian-Croatian-Bosnian,local Glottolog lookup Language_level_ID; community compatibility unverified,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Cusco,cusc1236,3,False,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Cusco2,cusc1236,7,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Cypriot,cypr1248,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Czech,czec1258,10,True,exact,czec1258,ces,Czech,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Dai,luuu1242,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Damara,nama1264,13,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Darginian,darg1241,8,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Datog,dato1239,3,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Daur,daur1238,9,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Dinka,dink1262,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Dolgan,dolg1241,4,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Druze,sout3123,42,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Dungan,dung1253,13,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Dusun,brun1245,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Egyptian,egyp1253,4,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Egyptian1,egyp1253,11,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Egyptian2,egyp1253,7,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Enets,tund1254,3,False,unmatched,,,,,"Flegontov, P., et al. (2019). Palaeo-Eskimo genetic ancestry and the peopling of Chukotka and North America. Nature, 570(7760), 236-240.",,,,,
+expanded_558,English_Cornwall,stan1293,5,True,exact,stan1293,eng,English,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,English_Kent,stan1293,5,True,exact,stan1293,eng,English,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Eritrea,NA,3,False,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Esan,esan1238,2,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Eskimo_ChaplinSireniki,cent2128,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Eskimo_Naukan,nauk1242,15,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Eskimo_Sireniki,sire1246,6,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Estonian,esto1258,10,True,exact,esto1258,ekk,Estonian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Eten,NA,5,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Even,even1260,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Evenk_FarEast,even1259,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Evenk_Transbaikal,even1259,11,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Ezid,nort2641,7,True,exact,nort2641,kmr,Northern Kurdish,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Finnish,finn1318,8,True,exact,finn1318,fin,Finnish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,French_Central,stan1290,26,True,exact,stan1290,fra,French,identical curated base Glottocode,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,French_East,stan1290,10,True,exact,stan1290,fra,French,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,French_Northwest,stan1290,10,True,exact,stan1290,fra,French,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,French_South,stan1290,7,True,exact,stan1290,fra,French,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,French_West,stan1290,10,True,exact,stan1290,fra,French,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Gagauz,gaga1249,9,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Gambian,mand1436,6,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Gana,gana1274,8,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Georgian,nucl1302,12,True,exact,nucl1302,kat,Georgian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Georgian_Imeretins,imer1248,6,True,descendant_candidate,nucl1302,kat,Georgian,local Glottolog lookup Language_level_ID; community compatibility unverified,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Georgian_Laz,lazz1240,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,German_Lipsian,stan1295,10,True,exact,stan1295,deu,German,identical curated base Glottocode,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,German_Sorb,sorb1249,9,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Greek_Athens,gree1276,8,True,curated_greek_candidate,mode1248,ell,Modern Greek,published Table S1 maps this Greek population to Modern Greek in GBI and TLI,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Greek_Thessaloniki,gree1276,14,True,curated_greek_candidate,mode1248,ell,Modern Greek,published Table S1 maps this Greek population to Modern Greek in GBI and TLI,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Greek_WGA,gree1276,18,True,curated_greek_candidate,mode1248,ell,Modern Greek,published Table S1 maps this Greek population to Modern Greek in GBI and TLI,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Guarani,mbya1239,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Guarani_GN,mbya1239,7,True,unmatched,,,,,"Skoglund, P., et al. (2015). Genetic evidence for two founding populations of the Americas. Nature, 525(7567), 104-108.",,,,,
+expanded_558,Guarani_KW,mbya1239,9,True,unmatched,,,,,"Skoglund, P., et al. (2015). Genetic evidence for two founding populations of the Americas. Nature, 525(7567), 104-108.",,,,,
+expanded_558,Gui,gwii1239,11,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,GujaratiA,guja1252,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,GujaratiB,guja1252,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,GujaratiC,guja1252,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,GujaratiD,guja1252,4,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Hadza,hadz1240,20,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Hadza1,hadz1240,5,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Haiom,haio1238,9,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Hakka_Taiwan,yuet1238,8,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Han-NChina,mand1415,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Han_HGDP,mand1415,33,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Hazara,haza1239,22,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Hezhen,nana1257,9,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Himba,here1253,5,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Hoan,hoaa1235,6,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Huancas,chac1250,5,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Hungarian1,hung1274,10,True,exact,hung1274,hun,Hungarian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Hungarian2,hung1274,10,True,exact,hung1274,hun,Hungarian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Icelandic,icel1247,12,True,exact,icel1247,isl,Icelandic,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ilocano,ilok1237,2,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,India_Non-Zoroastrian_Hindu,NA,12,True,unmatched,,,,,"Broushaki, F., et al. (2016). Early Neolithic genomes from the eastern Fertile Crescent. Science, 353(6298), 499-503.",,,,,
+expanded_558,India_Zoroastrian,NA,13,True,unmatched,,,,,"Broushaki, F., et al. (2016). Early Neolithic genomes from the eastern Fertile Crescent. Science, 353(6298), 499-503.",,,,,
+expanded_558,Inga,inga1252,15,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713. & Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ingushian,ingu1240,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Iranian,NA,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Iranian_Bandari,fars1254,8,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Iranian_Lor,luri1252,10,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Iranian_Mazandarani,maza1291,10,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Iranian_Persian,fars1254,10,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Iran_Non-Zoroastrian_Fars,west2369,17,True,exact,west2369,pes,Western Farsi,identical curated base Glottocode,"Broushaki, F., et al. (2016). Early Neolithic genomes from the eastern Fertile Crescent. Science, 353(6298), 499-503.",,,,,
+expanded_558,Iran_Zoroastrian,zoro1242,28,True,unmatched,,,,,"Broushaki, F., et al. (2016). Early Neolithic genomes from the eastern Fertile Crescent. Science, 353(6298), 499-503.",,,,,
+expanded_558,Irish_Connacht,conn1243,6,True,descendant_candidate,iris1253,gle,Irish,local Glottolog lookup Language_level_ID; community compatibility unverified,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Irish_Cork_Kerry,iris1253,6,True,exact,iris1253,gle,Irish,identical curated base Glottocode,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Irish_Leinster,iris1253,6,True,exact,iris1253,gle,Irish,identical curated base Glottocode,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Irish_Munster,muns1250,6,True,descendant_candidate,iris1253,gle,Irish,local Glottolog lookup Language_level_ID; community compatibility unverified,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Irish_Ulster,done1238,6,True,descendant_candidate,iris1253,gle,Irish,local Glottolog lookup Language_level_ID; community compatibility unverified,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Italian_Calabria,neap1235,1,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Italian_South,napo1241,3,False,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Itelmen,itel1242,7,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Japanese,japa1256,30,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Jew_Cochin,jewi1241,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jew_Ethiopian,amha1245,7,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jew_Georgian,jude1258,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jew_Iranian,NA,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jew_Iraqi,jude1266,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jew_Libyan,jude1264,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jew_Moroccan,jude1265,7,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jew_Tunisian,jude1263,7,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jew_Turkish,ladi1251,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jew_Yemenite,jude1267,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Jordanian,sout3123,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ju_hoan_North,juho1239,16,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Ju_hoan_South,juho1239,9,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Kabardinian,kaba1278,10,True,exact,kaba1278,kbd,Kabardian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kaitag,darg1241,8,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kalash,kala1372,19,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Kalmyk,kalm1243,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Kamentsa,cams1241,4,False,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Kankanaey,kank1243,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Kaqchikel,kaqc1270,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Karachai,kara1466,11,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Karakalpak,kara1467,14,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Karelian_Northern,nort2673,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Karelian_Southern,sout2676,9,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Karitiana,kari1311,13,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Karitiana_Rondonia,kari1311,4,False,unmatched,,,,,"Skoglund, P., et al. (2015). Genetic evidence for two founding populations of the Americas. Nature, 525(7567), 104-108.",,,,,
+expanded_558,Kazakhs_Akmola_Argyn,kaza1248,3,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kazakhs_Aktyubinsk,kaza1248,2,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kazakhs_East_Kazakhstan_Naiman,kaza1248,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kazakhs_Omsk_Kypchak,kaza1248,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kazakhs_West_Kazakhstan_Bayuli,kaza1248,1,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Ket,kett1243,9,True,unmatched,,,,,"Flegontov, P., et al. (2019). Palaeo-Eskimo genetic ancestry and the peopling of Chukotka and North America. Nature, 570(7760), 236-240.",,,,,
+expanded_558,Ket_Southeast,kett1243,10,True,unmatched,,,,,"Flegontov, P., et al. (2019). Palaeo-Eskimo genetic ancestry and the peopling of Chukotka and North America. Nature, 570(7760), 236-240.",,,,,
+expanded_558,Kgalagadi,kgal1244,5,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Khakass_Kachins,kach1278,7,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Khakass_Koibals,khak1248,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Khakass_Kyzils,kyzy1244,4,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Khakass_Sagai,saga1260,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Khamnegan,kham1281,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kharia,khar1287,12,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Khomani,nuuu1241,11,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Khwe,kxoe1243,10,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,KichwaOrellana,tena1240,17,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Kikuyu,kiku1240,4,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Kinh,viet1252,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Kirghiz_Pamir,kirg1245,4,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kolombangara,duke1237,5,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Kol_New_Britain,kolp1236,2,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Korean,kore1280,6,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Koryak,kory1246,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Kove,kove1237,7,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Kove_Tamuniai,kove1237,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Kubachinian,kuba1248,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kumyk,kumy1244,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Kuot_Kabil,kuot1243,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Kuot_Lamalaua,kuot1243,8,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Kurd,nort2641,9,True,exact,nort2641,kmr,Northern Kurdish,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Kurd_WGA,nort2641,2,False,exact,nort2641,kmr,Northern Kurdish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Kusunda,kusu1250,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Kyrgyz,kirg1245,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Lahu,lahu1253,8,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,LaJalca,chac1250,11,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Lak,lakk1252,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Lebanese,nort3139,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Lebanese_Christian,stan1323,9,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Lebanese_Muslim,stan1323,11,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Lebbo,waha1238,8,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Lezgin,lezg1247,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Libyan,liby1240,5,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Lithuanian,lith1251,10,True,exact,lith1251,lit,Lithuanian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Lodhi,bund1253,13,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,LoretoMix,NA,7,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Luhya,cent2288,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Luo,luok1236,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Luya,chac1250,11,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Madak,mada1285,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Makira,NA,7,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Makrani,makr1243,25,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Mala,telu1262,16,True,exact,telu1262,tel,Telugu,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Malaita,NA,6,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Malawi_Chewa,nyan1308,11,True,unmatched,,,,,"Skoglund, P., et al. (2017). Reconstructing prehistoric African population structure. Cell, 171(1), 59-71.",,,,,
+expanded_558,Malawi_Ngoni,ngon1269,4,False,unmatched,,,,,"Skoglund, P., et al. (2017). Reconstructing prehistoric African population structure. Cell, 171(1), 59-71.",,,,,
+expanded_558,Malawi_Tumbuka,tumb1250,10,True,unmatched,,,,,"Skoglund, P., et al. (2017). Reconstructing prehistoric African population structure. Cell, 171(1), 59-71.",,,,,
+expanded_558,Malawi_Yao,yaoo1241,9,True,unmatched,,,,,"Skoglund, P., et al. (2017). Reconstructing prehistoric African population structure. Cell, 171(1), 59-71.",,,,,
+expanded_558,Malay,sing1270,9,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Maltese,malt1254,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Mamanwa,mama1275,13,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Mamanwa1,mama1275,5,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Mamusi_Kisiluvi,mamu1254,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Mamusi_Lingite,mamu1254,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Mamusi_Paleabu,mamu1254,6,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Mandenka,mand1436,18,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Mangseng,mang1403,5,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Mansi,sout3253,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Manus,manu1262,2,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Masai1,masa1300,2,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Masai_Kinyawa_MKK,masa1300,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Maya,yuca1254,21,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Mbukushu,mbuk1240,5,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,MbutiPygmy,lese1243,11,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Melamela,mera1242,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Mende,mend1266,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Mengen,meng1267,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Miao,hmon1333,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Mixe,mixe1286,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Mixtec,mixt1427,12,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Moldavian,mold1248,10,True,descendant_candidate,roma1327,ron,Romanian,local Glottolog lookup Language_level_ID; community compatibility unverified,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Mongola,mong1331,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Mongol_Khalkh_Sainnoyon,mong1331,8,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Mongol_Khalkh_Zasagt,mong1331,7,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Mongol_Minorities,mong1331,9,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Mongol_Uuld,mong1331,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Mordovian,erzy1239,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Mordovian_Erzya,erzy1239,12,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Mordovian_Moksha,moks1248,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Moroccan,moro1292,10,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Mozabite,tumz1238,25,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Murut,muru1275,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Mussau,muss1246,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Nailik,NA,9,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Nakanai_Bileki,bile1245,9,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Nakanai_Loso,losa1236,7,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Nama,nama1264,18,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Nanai,nana1257,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Narihuala,NA,5,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Naro,naro1249,9,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Nasioi,nasi1247,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Naxi,naxi1245,8,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Negidal_Orochi,negi1245,4,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,New_Guinea_Highlander,NA,20,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Nganasan,ngan1291,12,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Nganasan_Dudinka,ngan1291,2,False,unmatched,,,,,"Flegontov, P., et al. (2019). Palaeo-Eskimo genetic ancestry and the peopling of Chukotka and North America. Nature, 570(7760), 236-240.",,,,,
+expanded_558,Nganasan_UstAvam,ngan1291,6,True,unmatched,,,,,"Flegontov, P., et al. (2019). Palaeo-Eskimo genetic ancestry and the peopling of Chukotka and North America. Nature, 570(7760), 236-240.",,,,,
+expanded_558,Nganasan_Volochanka,ngan1291,11,True,unmatched,,,,,"Flegontov, P., et al. (2019). Palaeo-Eskimo genetic ancestry and the peopling of Chukotka and North America. Nature, 570(7760), 236-240.",,,,,
+expanded_558,Nggela,gela1263,6,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Nivh,gily1242,8,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Nogai,noga1249,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Nogai_Astrakhan,noga1249,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Nogai_Stavropol,noga1249,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Norwegian,norw1258,11,True,exact,norw1258,nor,Norwegian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Notsi,nots1237,9,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Ojibwa,ojib1241,16,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Olmos,NA,4,False,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Onge,onge1236,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ontong_Java,onto1237,8,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Orcadian,scot1243,13,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Oromo,west2721,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Oroqen,oroq1238,9,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Ossetian,osse1243,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ossetian_Southern,iron1242,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Palestinian,sout3123,41,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Papuan,NA,16,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Papuan_Central_Province,NA,5,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Papuan_Eastern_Highlands,NA,4,False,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Papuan_Gulf_Province,NA,3,False,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Paran,NA,3,False,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Pathan,pash1269,24,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Peru_Quechua,cusc1236,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Piapoco,piap1246,5,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Pima,pima1248,14,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Polish_Lublin,poli1260,8,True,exact,poli1260,pol,Polish,identical curated base Glottocode,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Polish_Poznan,poli1260,15,True,exact,poli1260,pol,Polish,identical curated base Glottocode,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Punjabi,panj1256,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Puno,puno1238,7,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Ranongga,ghan1242,6,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Rennell_and_Bellona,renn1242,7,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Romanian,roma1327,10,True,exact,roma1327,ron,Romanian,identical curated base Glottocode,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Russell,lavu1241,4,False,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Russian,russ1263,23,True,exact,russ1263,rus,Russian,identical curated base Glottocode,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Russian_Archangelsk_Krasnoborsky,russ1263,6,True,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Archangelsk_Leshukonsky,russ1263,5,True,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Archangelsk_Pinezhsky,russ1263,5,True,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Belgorod,russ1263,4,False,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Kaluga,russ1263,5,True,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Kursk,russ1263,4,False,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Oryol,russ1263,4,False,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Pskov_Ostrov,russ1263,4,False,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Pskov_Porkhov,russ1263,3,False,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Ryazan_Mihailovsky,russ1263,5,True,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Ryazan_Spassk_Ryazansky,russ1263,8,True,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Smolensk,russ1263,7,True,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Tver,russ1263,4,False,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Russian_Yaroslavl,russ1263,3,False,exact,russ1263,rus,Russian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Saami,nort2671,3,False,exact,nort2671,sme,North Saami,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Saharawi,hass1238,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,San,juho1239,5,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Sandawe,sand1273,23,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Santa_Cruz,natu1250,8,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Santa_Isabel,NA,8,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Saposa,sapo1253,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Sardinian,sard1257,28,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Saudi,hija1235,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Savo,savo1255,7,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Scottish,scot1245,4,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Scottish_Borders,scot1245,6,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Scottish_Dumfries_Galloway,scot1245,5,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Scottish_Fife,scot1245,6,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Scottish_Grampian,scot1245,6,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Scottish_Highlands,scot1245,6,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Scottish_Shetlandic,scot1245,10,True,unmatched,,,,,"Lazaridis, I., et al. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419-424.",,,,,
+expanded_558,Sechura,NA,3,False,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Selkup,selk1253,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Selkup_Farkovo,selk1253,8,True,unmatched,,,,,"Flegontov, P., et al. (2019). Palaeo-Eskimo genetic ancestry and the peopling of Chukotka and North America. Nature, 570(7760), 236-240.",,,,,
+expanded_558,Selkup_Turukhansk,selk1253,6,True,unmatched,,,,,"Flegontov, P., et al. (2019). Palaeo-Eskimo genetic ancestry and the peopling of Chukotka and North America. Nature, 570(7760), 236-240.",,,,,
+expanded_558,Semende,cent2053,10,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Shaigi_WGA,suda1236,3,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,She,shee1238,9,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Shor_Khakassia,shor1247,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Shor_Mountain,shor1247,7,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Shua,shua1254,10,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Sicilian_East,sici1248,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Sicilian_West,sici1248,6,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Sindhi,sind1272,24,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Somali,soma1255,13,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Southwest_Bougainville,NA,2,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Spanish_Andalucia,anda1279,4,False,descendant_candidate,stan1288,spa,Spanish,local Glottolog lookup Language_level_ID; community compatibility unverified,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_Aragon,arag1245,6,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_Balearic,stan1288,4,False,exact,stan1288,spa,Spanish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_Basque,basq1248,9,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_Cantabria,astu1245,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_CastillaLaMancha,cast1244,5,True,descendant_candidate,stan1288,spa,Spanish,local Glottolog lookup Language_level_ID; community compatibility unverified,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_CastillaLeon,cast1244,5,True,descendant_candidate,stan1288,spa,Spanish,local Glottolog lookup Language_level_ID; community compatibility unverified,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_Cataluna,stan1289,5,True,exact,stan1289,cat,Catalan,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_Extremadura,extr1243,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_Galicia,gali1258,5,True,exact,gali1258,glg,Galician,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_Murcia,murc1238,5,True,descendant_candidate,stan1288,spa,Spanish,local Glottolog lookup Language_level_ID; community compatibility unverified,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_PaisVasco,basq1248,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Spanish_Valencia,stan1289,5,True,exact,stan1289,cat,Catalan,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Sulka_Ganai,sulk1246,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Sulka_Watwat,sulk1246,9,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Surui,suru1262,12,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Syrian,turo1239,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Taa_East,huaa1248,8,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Taa_North,xooo1239,11,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Taa_West,xooo1239,15,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Tabasaran,taba1259,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tagalog,taga1270,5,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Tahiti,tahi1242,4,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,TaiwanHan,taib1240,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Tajik,taji1245,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Tajik_Lowland_Gissar,hiss1235,4,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tajik_Lowland_Kulyab,kulj1234,7,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tajik_Mountain,taji1245,12,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tallan,NA,8,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Tatar_Kazan,tata1255,13,True,exact,tata1255,tat,Tatar,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tatar_Mishar,tata1255,9,True,exact,tata1255,tat,Tatar,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tatar_Siberian_Buhar,sibe1250,4,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tatar_Siberian_Ishtyak_Toguz,sibe1250,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tatar_Siberian_Iskero_Tobolsk,sibe1250,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tatar_Siberian_Yalutorovsky,sibe1250,6,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tatar_Siberian_Zabolotniye,sibe1250,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Teop,teop1238,9,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Thai,thai1261,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ticuna,ticu1245,1,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Tigak,tiga1245,9,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Tikopia,tiko1237,6,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Todzin,tuvi1240,4,False,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tofalar,kara1462,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Tolai,mini1257,10,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Tolai_Kabakada,kaba1283,9,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Tolai_Matupit,matu1260,2,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Tolai_Vunairoto,mini1257,2,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Tongan,tong1325,10,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Tshwa,tsoa1238,8,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Tswana,tswa1253,5,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Tu,tuuu1240,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Tubalar,kara1462,30,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Tubalar_2,nort2686,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Tujia,tuji1244,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Tumbes,NA,8,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Tunisian,tuni1259,8,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Turkish_Adana,nucl1301,10,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Turkish_Aydin,nucl1301,10,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Turkish_Balikesir,nucl1301,11,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Turkish_Istanbul,nucl1301,11,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Turkish_Kayseri,nucl1301,10,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Turkish_Trabzon,nucl1301,10,True,exact,nucl1301,tur,Turkish,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Turkmen,turk1304,7,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Bergamo,ital1282,13,True,exact,ital1282,ita,Italian,identical curated base Glottocode,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Tuscan,ital1282,8,True,exact,ital1282,ita,Italian,identical curated base Glottocode,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Tuvinian,tuvi1240,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Tuvinian_2,tuvi1240,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Udmurt_Northern,nort2676,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Udmurt_Southern,sout2681,5,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Ukrainian_East,ukra1253,6,True,exact,ukra1253,ukr,Ukrainian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ukrainian_Rovenskaya,ukra1253,3,False,exact,ukra1253,ukr,Ukrainian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Ukrainian_Sumskaya,ukra1253,5,True,exact,ukra1253,ukr,Ukrainian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Ukrainian_West,ukra1253,3,False,exact,ukra1253,ukr,Ukrainian,identical curated base Glottocode,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Ukrainian_Zhitomirskaya,ukra1253,3,False,exact,ukra1253,ukr,Ukrainian,identical curated base Glottocode,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Ulchi,ulch1241,32,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,UrubuKaapor,urub1250,3,False,unmatched,,,,,"Skoglund, P., et al. (2015). Genetic evidence for two founding populations of the Americas. Nature, 525(7567), 104-108.",,,,,
+expanded_558,UtcubambaSouth,chac1250,4,False,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Uygur,uigh1240,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Uzbek,nort2690,10,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Uzbek_Khorezm,nort2690,8,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Uzbek_Tashkent,nort2690,9,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Vanuatu_Aoba,east2443,5,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Ambrym,ambr1240,6,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Aneityum,anei1239,6,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Banks,torr1262,7,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Efate,efat1236,6,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Efate_Mele,mele1250,9,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Emae,emae1237,8,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Erromango,siee1239,2,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Futuna,futu1245,3,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Ifira,fila1237,1,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Maewo,cent2058,10,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Makura,maku1276,5,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Malekula,sout3240,8,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Nguna,ngun1274,3,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Paama,paam1238,7,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Pentecost_Baie,saaa1241,9,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Pentecost_Bwatnapni,suru1259,3,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Pentecost_Maram,suru1259,7,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Pentecost_Ranmawat,sowa1244,5,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Pentecost_Wugunmel,NA,5,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Santo_Mbauk,polo1242,5,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Santo_Malau,NA,2,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Santo_Morou,moro1286,3,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Santo_Okoro,NA,4,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Santo_Port,saka1289,5,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Santo_Rango,nara1263,4,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Santo_Sara,hano1246,3,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Santo_Tasiriki,akei1237,2,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Santo_Tutuba,tutu1241,5,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Tanna,tann1242,9,True,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vanuatu_Tongoa,tong1323,4,False,unmatched,,,,,"Lipson, M., et al. (2018). Population turnover in remote Oceania shortly after initial settlement. Current Biology, 28(7), 1157-1165.",,,,,
+expanded_558,Vella_Lavella,bilu1245,6,True,unmatched,,,,,"Qin, P., & Stoneking, M. (2015). Denisovan ancestry in East Eurasian and native American populations. Molecular Biology and Evolution, 32(10), 2665-2674.",,,,,
+expanded_558,Veps,veps1250,10,True,unmatched,,,,,"Jeong, C., et al. (2019). The genetic history of admixture across inner Eurasia. Nature Ecology & Evolution, 3(6), 966-976.",,,,,
+expanded_558,Vietnamese_North,viet1252,5,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Vietnamese_South,viet1252,5,True,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Visayan,mind1257,4,False,unmatched,,,,,"Skoglund, P., et al. (2016). Genomic insights into the peopling of the Southwest Pacific. Nature, 538(7626), 510-513.",,,,,
+expanded_558,Vishwabrahmin,vish1243,14,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Wambo,ndon1254,5,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Wayku,sanm1289,10,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Wayuu,wayu1243,1,False,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Xavante,xava1240,9,True,unmatched,,,,,"Skoglund, P., et al. (2015). Genetic evidence for two founding populations of the Americas. Nature, 525(7567), 104-108.",,,,,
+expanded_558,Xibo,xibe1242,9,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Xuun,kung1261,15,True,unmatched,,,,,"Pickrell, J. K., et al. (2012). The genetic prehistory of southern Africa. Nature communications, 3(1), 1143.",,,,,
+expanded_558,Yakut,yaku1245,25,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Yaquis,yaqu1251,8,True,unmatched,,,,,"Barbieri, C., et al. (2019). The current genomic landscape of western south America: Andes, amazonia, and Pacific coast. Molecular Biology and Evolution, 36(12), 2698-2713.",,,,,
+expanded_558,Yemeni,jude1267,6,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Yemen_Ad_Dali,sana1295,5,True,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Al_Bayda,sana1295,7,True,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Al_Jawf,sana1295,4,False,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Amanat_Al_Asimah,sana1295,4,False,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Amran,sana1295,17,True,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Dhamar,sana1295,10,True,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Hadramout,hadr1236,13,True,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Ibb,sana1295,2,False,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Mahra,mehr1241,14,True,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Marib,sana1295,7,True,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yemen_Shabwah,hadr1236,3,False,unmatched,,,,,"Vyas, D. N., et al. (2017). Testing support for the northern and southern dispersal routes out of Africa: an analysis of Levantine and southern Arabian populations. American Journal of Physical Anthropology, 164(4), 736-749.",,,,,
+expanded_558,Yi,lolo1267,10,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Yoruba,yoru1245,75,True,unmatched,,,,,"Patterson, N., et al. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.",,,,,
+expanded_558,Yukagir_Forest,nort2745,5,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Yukagir_Tundra,sout2750,19,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Zapotec,zapo1437,12,True,unmatched,,,,,"Lazaridis, I., et al. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409-413.",,,,,
+expanded_558,Zoro,gavi1246,1,False,unmatched,,,,,"Skoglund, P., et al. (2015). Genetic evidence for two founding populations of the Americas. Nature, 525(7567), 104-108.",,,,,

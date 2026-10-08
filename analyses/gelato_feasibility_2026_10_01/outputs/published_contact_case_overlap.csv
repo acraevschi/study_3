@@ -1,0 +1,8 @@
+pair_id,target_population,mgn_target,mgn_glottocode,mapping,n_genetic_individuals,source_population,source_base_glottocode,genetic_source_proxy_also_exact_mgn,published_source_language_GBI,published_source_language_TLI,source_clade,evidence_source,F3,F3_Z,F3_Z_below_minus3
+17,Russian,Russian,russ1263,exact_target_population,23,Khanty,,False,surg1248,khan1273,khan1279,pugach2016complex,NA,NA,False
+22,BantuSA_Zulu,Zulu,zulu1248,exact_target_population,1,Naro,naro1249,False,nama1264,nama1264,khoe1242,gelato,-0.0008859,-1.2121172,False
+26.01,Hazara,Western Farsi,west2369,published_linguistic_proxy_only,22,Mongola,mong1331,False,halh1238,halh1238,mong1331,hellenthal2014genetic,NA,NA,False
+30.08,Finnish,Finnish,finn1318,exact_target_population,8,Russian_Archangelsk_Pinezhsky,russ1263,True,russ1263,russ1263,"east1426, east2780",gelato,-0.0013733,-9.9168316,True
+37.01,Bulgarian,Bulgarian,bulg1262,exact_target_population,10,Cypriot,cypr1248,False,NA,nucl1301,west2406,hellenthal2014genetic,NA,NA,False
+37.02,Greek,Modern Greek,mode1248,published_linguistic_proxy_only,,Cypriot,cypr1248,False,nucl1301,nucl1301,west2406,hellenthal2014genetic,NA,NA,False
+39.01,BantuSA_Zulu,Zulu,zulu1248,exact_target_population,1,Taa_East,huaa1248,False,huaa1248,huaa1248,taaa1242,gelato,-0.0009502,-1.3083413,False

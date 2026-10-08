@@ -1,0 +1,1519 @@
+{
+  "scope": "first 500 kB and last 1 MB of central directory; excludes F2results and macOS metadata",
+  "archive_entries": 937249,
+  "central_directory_size": 156900673,
+  "members": [
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 0
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 315
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/.DS_Store",
+      "size": 8196,
+      "compressed_size": 783,
+      "header_offset": 421
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 1328
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 1433
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 1537
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/README.md",
+      "size": 4193,
+      "compressed_size": 1543,
+      "header_offset": 1643
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/scripts/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 3907
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS4-13.docx",
+      "size": 29258,
+      "compressed_size": 22565,
+      "header_offset": 4014
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS22-23.docx",
+      "size": 18554,
+      "compressed_size": 16393,
+      "header_offset": 27014
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/.DS_Store",
+      "size": 6148,
+      "compressed_size": 178,
+      "header_offset": 43874
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS13-21 manual rownames.docx",
+      "size": 47104,
+      "compressed_size": 41613,
+      "header_offset": 44378
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS13-21.docx",
+      "size": 26643,
+      "compressed_size": 21928,
+      "header_offset": 86511
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS22-23 manual rownames.docx",
+      "size": 26763,
+      "compressed_size": 23486,
+      "header_offset": 108577
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS1.csv",
+      "size": 106120,
+      "compressed_size": 10631,
+      "header_offset": 132583
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS24.csv",
+      "size": 667475,
+      "compressed_size": 235653,
+      "header_offset": 143672
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS3.csv",
+      "size": 63710,
+      "compressed_size": 11309,
+      "header_offset": 379688
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS2.csv",
+      "size": 31808,
+      "compressed_size": 7576,
+      "header_offset": 391454
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS25.csv",
+      "size": 669426,
+      "compressed_size": 236114,
+      "header_offset": 400662
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/tables/tableS4-13 manual rownames.docx",
+      "size": 54419,
+      "compressed_size": 48230,
+      "header_offset": 637139
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/gelatoLanguageMapping.R",
+      "size": 10140,
+      "compressed_size": 1818,
+      "header_offset": 685887
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/GBI/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 688224
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/.DS_Store",
+      "size": 6148,
+      "compressed_size": 574,
+      "header_offset": 688333
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/GeLaTo-population-glottocode-mapping.csv",
+      "size": 165751,
+      "compressed_size": 35433,
+      "header_offset": 689037
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/FST.csv",
+      "size": 7217609,
+      "compressed_size": 1530591,
+      "header_offset": 725017
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/TLI/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2256057
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/lang-metadata.csv",
+      "size": 804362,
+      "compressed_size": 200833,
+      "header_offset": 2256166
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2457528
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig4.pdf",
+      "size": 15720,
+      "compressed_size": 14710,
+      "header_offset": 2457656
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS4.pdf",
+      "size": 5314,
+      "compressed_size": 4838,
+      "header_offset": 2472896
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS6.jpg",
+      "size": 1028814,
+      "compressed_size": 861260,
+      "header_offset": 2478173
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS20.pdf",
+      "size": 49867,
+      "compressed_size": 42829,
+      "header_offset": 3340143
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS21.pdf",
+      "size": 51645,
+      "compressed_size": 43930,
+      "header_offset": 3383327
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig1C.pdf",
+      "size": 368277,
+      "compressed_size": 361103,
+      "header_offset": 3427612
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS7.pdf",
+      "size": 39152,
+      "compressed_size": 29456,
+      "header_offset": 3789153
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS5.jpg",
+      "size": 1017909,
+      "compressed_size": 856160,
+      "header_offset": 3819048
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS23.pdf",
+      "size": 90744,
+      "compressed_size": 75865,
+      "header_offset": 4675936
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS22.pdf",
+      "size": 51176,
+      "compressed_size": 44192,
+      "header_offset": 4752156
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig1B.pdf",
+      "size": 181681,
+      "compressed_size": 180088,
+      "header_offset": 4796703
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/figS6intervals.pdf",
+      "size": 198167,
+      "compressed_size": 193028,
+      "header_offset": 4977230
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS2.pdf",
+      "size": 6205,
+      "compressed_size": 5707,
+      "header_offset": 5170629
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig2.pdf",
+      "size": 8541,
+      "compressed_size": 7952,
+      "header_offset": 5176830
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/.DS_Store",
+      "size": 6148,
+      "compressed_size": 348,
+      "header_offset": 5185219
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig1.key",
+      "size": 2507927,
+      "compressed_size": 2343414,
+      "header_offset": 5185889
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS32.pdf",
+      "size": 91755,
+      "compressed_size": 75563,
+      "header_offset": 7530059
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS26.pdf",
+      "size": 43752,
+      "compressed_size": 38110,
+      "header_offset": 7605977
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS27.pdf",
+      "size": 49569,
+      "compressed_size": 41580,
+      "header_offset": 7644442
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig3.pdf",
+      "size": 1256718,
+      "compressed_size": 1245908,
+      "header_offset": 7686377
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS1.pdf",
+      "size": 1256786,
+      "compressed_size": 1219938,
+      "header_offset": 8932922
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig1.pdf",
+      "size": 2625825,
+      "compressed_size": 2603175,
+      "header_offset": 10153555
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS3.png",
+      "size": 290143,
+      "compressed_size": 242651,
+      "header_offset": 12757367
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS25.pdf",
+      "size": 44216,
+      "compressed_size": 37515,
+      "header_offset": 13000457
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS31.pdf",
+      "size": 90329,
+      "compressed_size": 74230,
+      "header_offset": 13038327
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS19.pdf",
+      "size": 50587,
+      "compressed_size": 41700,
+      "header_offset": 13112912
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS18.pdf",
+      "size": 50552,
+      "compressed_size": 42638,
+      "header_offset": 13154967
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS30.pdf",
+      "size": 52050,
+      "compressed_size": 44205,
+      "header_offset": 13197960
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS24.pdf",
+      "size": 91066,
+      "compressed_size": 73523,
+      "header_offset": 13242520
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig3.key",
+      "size": 1935407,
+      "compressed_size": 1845099,
+      "header_offset": 13316398
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS1Abase.pdf",
+      "size": 1286993,
+      "compressed_size": 1201253,
+      "header_offset": 15162286
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS5.pptx",
+      "size": 3754935,
+      "compressed_size": 3446458,
+      "header_offset": 16363988
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig1C.legend.pdf",
+      "size": 358322,
+      "compressed_size": 349282,
+      "header_offset": 19811276
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS1Cbase.pdf",
+      "size": 401317,
+      "compressed_size": 389888,
+      "header_offset": 20161011
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS1Bbase.pdf",
+      "size": 385475,
+      "compressed_size": 374418,
+      "header_offset": 20551262
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/figS5densities.pdf",
+      "size": 52937,
+      "compressed_size": 48972,
+      "header_offset": 20926129
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/figS6densities.pdf",
+      "size": 51657,
+      "compressed_size": 48098,
+      "header_offset": 20975472
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS6.pptx",
+      "size": 3752681,
+      "compressed_size": 3445386,
+      "header_offset": 21023941
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS29.pdf",
+      "size": 51441,
+      "compressed_size": 43985,
+      "header_offset": 24470176
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/figS1Aforlegend.pdf",
+      "size": 6114,
+      "compressed_size": 5644,
+      "header_offset": 24514516
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS15.pdf",
+      "size": 44561,
+      "compressed_size": 38004,
+      "header_offset": 24520533
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS14.pdf",
+      "size": 91042,
+      "compressed_size": 75276,
+      "header_offset": 24558892
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS28.pdf",
+      "size": 51152,
+      "compressed_size": 43427,
+      "header_offset": 24634523
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig1B.2.pdf",
+      "size": 185016,
+      "compressed_size": 184283,
+      "header_offset": 24678305
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS1.pptx",
+      "size": 2818861,
+      "compressed_size": 2719366,
+      "header_offset": 24863031
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS16.pdf",
+      "size": 44089,
+      "compressed_size": 37466,
+      "header_offset": 27583093
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS17.pdf",
+      "size": 49074,
+      "compressed_size": 42096,
+      "header_offset": 27620914
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig1B.3.pdf",
+      "size": 182016,
+      "compressed_size": 181164,
+      "header_offset": 27663365
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS13.pdf",
+      "size": 89309,
+      "compressed_size": 74346,
+      "header_offset": 27844972
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS12.pdf",
+      "size": 10305,
+      "compressed_size": 9311,
+      "header_offset": 27919814
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/Fig3baseA-F.pdf",
+      "size": 310390,
+      "compressed_size": 302017,
+      "header_offset": 27929480
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/figS5intervals.pdf",
+      "size": 198115,
+      "compressed_size": 192957,
+      "header_offset": 28231948
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS8.pdf",
+      "size": 39176,
+      "compressed_size": 29261,
+      "header_offset": 28425361
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS10.pdf",
+      "size": 8798,
+      "compressed_size": 7811,
+      "header_offset": 28454975
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS11.pdf",
+      "size": 17895,
+      "compressed_size": 16539,
+      "header_offset": 28463141
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/figs/FigS9.pdf",
+      "size": 14061,
+      "compressed_size": 12966,
+      "header_offset": 28480121
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/all-features-metadata.csv",
+      "size": 29743,
+      "compressed_size": 6194,
+      "header_offset": 28493581
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/.DS_Store",
+      "size": 6148,
+      "compressed_size": 304,
+      "header_offset": 28500231
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 28500861
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 28500972
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/pairs-allGBI-allTLI-seed26-N300.rda",
+      "size": 3668684,
+      "compressed_size": 3622964,
+      "header_offset": 28501088
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/contact-pairs-gbi.csv",
+      "size": 81824,
+      "compressed_size": 6413,
+      "header_offset": 32124209
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/contact-pairs-tli.csv",
+      "size": 191714,
+      "compressed_size": 12507,
+      "header_offset": 32131003
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/pairs_allGBI_allTLI_seed26_N300_F3.rda",
+      "size": 2531165,
+      "compressed_size": 2467946,
+      "header_offset": 32143891
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/scripts/5-brmsModelling.R",
+      "size": 74686,
+      "compressed_size": 6180,
+      "header_offset": 34612252
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/scripts/.DS_Store",
+      "size": 6148,
+      "compressed_size": 338,
+      "header_offset": 34618944
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/scripts/3-F3.R",
+      "size": 3408,
+      "compressed_size": 1336,
+      "header_offset": 34619610
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/scripts/6-exploringAndPlotting.R",
+      "size": 186173,
+      "compressed_size": 20120,
+      "header_offset": 34621382
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/scripts/4-extractPairData.R",
+      "size": 24950,
+      "compressed_size": 4239,
+      "header_offset": 34642027
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/scripts/2-admixtureTripletsLongListForManualCuration.R",
+      "size": 10323,
+      "compressed_size": 1677,
+      "header_offset": 34646781
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/scripts/1-admixtureTripletsFST.R",
+      "size": 26421,
+      "compressed_size": 6250,
+      "header_offset": 34648973
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/GBI/parameters.csv",
+      "size": 74629,
+      "compressed_size": 11837,
+      "header_offset": 34655695
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/GBI/logicalGBI.csv",
+      "size": 2104124,
+      "compressed_size": 211932,
+      "header_offset": 34667671
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/GBI/statisticalGBI.csv",
+      "size": 2129929,
+      "compressed_size": 217768,
+      "header_offset": 34879742
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/TLI/parameters.csv",
+      "size": 264058,
+      "compressed_size": 32513,
+      "header_offset": 35097653
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/TLI/logicalTLI_full.csv",
+      "size": 7114891,
+      "compressed_size": 408068,
+      "header_offset": 35130305
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/TLI/statisticalTLI_full.csv",
+      "size": 6769073,
+      "compressed_size": 405818,
+      "header_offset": 35538517
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/.DS_Store",
+      "size": 6148,
+      "compressed_size": 422,
+      "header_offset": 36202805
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 36203380
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/.DS_Store",
+      "size": 6148,
+      "compressed_size": 421,
+      "header_offset": 36203518
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 36204275
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity_F3/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 36204398
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/fixed_effect_metaanalysis/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 36204524
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 36204661
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/.DS_Store",
+      "size": 8196,
+      "compressed_size": 481,
+      "header_offset": 36204777
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold90percent/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 36205604
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold80percent/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 36205739
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/longlist_for_manual_curation.csv",
+      "size": 952577,
+      "compressed_size": 67003,
+      "header_offset": 36205874
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold70percent/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 36273041
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/.DS_Store",
+      "size": 6148,
+      "compressed_size": 268,
+      "header_offset": 2819627967
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2819628398
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/GeneticInfoID.csv",
+      "size": 375327,
+      "compressed_size": 59250,
+      "header_offset": 2819628546
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/.DS_Store",
+      "size": 6148,
+      "compressed_size": 390,
+      "header_offset": 2819688293
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2819689043
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/scales/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2819689173
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2819689303
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2819689431
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity_F3/.DS_Store",
+      "size": 6148,
+      "compressed_size": 299,
+      "header_offset": 2819689568
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity_F3/priors/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2819690233
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity_F3/fits/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2819690366
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/fixed_effect_metaanalysis/.DS_Store",
+      "size": 6148,
+      "compressed_size": 178,
+      "header_offset": 2819690497
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/fixed_effect_metaanalysis/metaanalysis.rda",
+      "size": 3411362,
+      "compressed_size": 3348169,
+      "header_offset": 2819691063
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/.DS_Store",
+      "size": 6148,
+      "compressed_size": 388,
+      "header_offset": 2823039665
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2823040399
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/scales/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2823040522
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2823040645
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 2823040766
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold90percent/.DS_Store",
+      "size": 6148,
+      "compressed_size": 178,
+      "header_offset": 2823040896
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold90percent/triplet_longlist_90.csv",
+      "size": 9623081,
+      "compressed_size": 506129,
+      "header_offset": 2823041234
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold90percent/assignment_aid_fst_90.csv",
+      "size": 2011946,
+      "compressed_size": 323459,
+      "header_offset": 2823547806
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold80percent/.DS_Store",
+      "size": 6148,
+      "compressed_size": 178,
+      "header_offset": 2823871712
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold80percent/triplet_longlist_80.csv",
+      "size": 12264391,
+      "compressed_size": 658704,
+      "header_offset": 2823872050
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold80percent/assignment_aid_fst_80.csv",
+      "size": 3413670,
+      "compressed_size": 557532,
+      "header_offset": 2824531197
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold70percent/.DS_Store",
+      "size": 6148,
+      "compressed_size": 178,
+      "header_offset": 2825089176
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold70percent/assignment_aid_fst_70.csv",
+      "size": 4726676,
+      "compressed_size": 771418,
+      "header_offset": 2825089514
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/longlists/threshold70percent/triplet_longlist_70.csv",
+      "size": 13982156,
+      "compressed_size": 754176,
+      "header_offset": 2825861379
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K3.Q",
+      "size": 115635,
+      "compressed_size": 38847,
+      "header_offset": 2826616095
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K30.Q",
+      "size": 975566,
+      "compressed_size": 184675,
+      "header_offset": 2826655165
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K9.Q",
+      "size": 319911,
+      "compressed_size": 89918,
+      "header_offset": 2826840064
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K15.Q",
+      "size": 510208,
+      "compressed_size": 121774,
+      "header_offset": 2826930205
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K11.Q",
+      "size": 383806,
+      "compressed_size": 101333,
+      "header_offset": 2827052203
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K7.Q",
+      "size": 250906,
+      "compressed_size": 71376,
+      "header_offset": 2827153760
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K24.Q",
+      "size": 789057,
+      "compressed_size": 159564,
+      "header_offset": 2827225359
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K20.Q",
+      "size": 668050,
+      "compressed_size": 145506,
+      "header_offset": 2827385147
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K16.Q",
+      "size": 540837,
+      "compressed_size": 125001,
+      "header_offset": 2827530877
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K4.Q",
+      "size": 153593,
+      "compressed_size": 52260,
+      "header_offset": 2827656102
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K12.Q",
+      "size": 414953,
+      "compressed_size": 104668,
+      "header_offset": 2827708585
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K18.Q",
+      "size": 604889,
+      "compressed_size": 135056,
+      "header_offset": 2827813477
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K27.Q",
+      "size": 882309,
+      "compressed_size": 172316,
+      "header_offset": 2827948757
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K29.Q",
+      "size": 945624,
+      "compressed_size": 181817,
+      "header_offset": 2828121297
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K23.Q",
+      "size": 760376,
+      "compressed_size": 157681,
+      "header_offset": 2828303338
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K17.Q",
+      "size": 573256,
+      "compressed_size": 131442,
+      "header_offset": 2828461243
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K5.Q",
+      "size": 188747,
+      "compressed_size": 61054,
+      "header_offset": 2828592909
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K19.Q",
+      "size": 637357,
+      "compressed_size": 142000,
+      "header_offset": 2828654186
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K13.Q",
+      "size": 446584,
+      "compressed_size": 110898,
+      "header_offset": 2828796410
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K26.Q",
+      "size": 852820,
+      "compressed_size": 168113,
+      "header_offset": 2828907532
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K22.Q",
+      "size": 728352,
+      "compressed_size": 152586,
+      "header_offset": 2829075869
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K28.Q",
+      "size": 912879,
+      "compressed_size": 175613,
+      "header_offset": 2829228679
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K8.Q",
+      "size": 285573,
+      "compressed_size": 81177,
+      "header_offset": 2829404516
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K2.Q",
+      "size": 78326,
+      "compressed_size": 21877,
+      "header_offset": 2829485916
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K14.Q",
+      "size": 476836,
+      "compressed_size": 114823,
+      "header_offset": 2829508016
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K10.Q",
+      "size": 351128,
+      "compressed_size": 94675,
+      "header_offset": 2829623063
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K6.Q",
+      "size": 217591,
+      "compressed_size": 64038,
+      "header_offset": 2829717962
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K25.Q",
+      "size": 823781,
+      "compressed_size": 166275,
+      "header_offset": 2829782223
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K21.Q",
+      "size": 697621,
+      "compressed_size": 148887,
+      "header_offset": 2829948722
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m3_gene_tli_s_prior.rda",
+      "size": 36500101,
+      "compressed_size": 36363403,
+      "header_offset": 2830097833
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m3_gene_gbi_s_prior.rda",
+      "size": 18774613,
+      "compressed_size": 18626673,
+      "header_offset": 2866461405
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m4_genesamemacr_tli_s_prior.rda",
+      "size": 35668466,
+      "compressed_size": 35557147,
+      "header_offset": 2885088247
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m2_macr_tli_s_prior.rda",
+      "size": 32263672,
+      "compressed_size": 32176839,
+      "header_offset": 2920645571
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m1_mage_tli_s_prior.rda",
+      "size": 53005938,
+      "compressed_size": 52881268,
+      "header_offset": 2952822579
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m5_genediffmacr_tli_s_prior.rda",
+      "size": 32658654,
+      "compressed_size": 32528277,
+      "header_offset": 3005704016
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m5_genediffmacr_gbi_s_prior.rda",
+      "size": 15323748,
+      "compressed_size": 15175521,
+      "header_offset": 3038232470
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m2_macr_gbi_s_prior.rda",
+      "size": 15125188,
+      "compressed_size": 15013910,
+      "header_offset": 3053408168
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m1_mage_gbi_s_prior.rda",
+      "size": 26597090,
+      "compressed_size": 26470014,
+      "header_offset": 3068422247
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/priors/m4_genesamemacr_gbi_s_prior.rda",
+      "size": 18142710,
+      "compressed_size": 18010201,
+      "header_offset": 3094892430
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/scales/m4_genesamemacr_feat_contact.rda",
+      "size": 205030975,
+      "compressed_size": 203912330,
+      "header_offset": 3112902808
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/scales/m1_mage_feat_contact.rda",
+      "size": 327281790,
+      "compressed_size": 325495219,
+      "header_offset": 3316815316
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/scales/m5_genediffmacr_feat_contact.rda",
+      "size": 451610795,
+      "compressed_size": 449167690,
+      "header_offset": 3642310705
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/scales/m1_mage_feat_macroarea.rda",
+      "size": 325679259,
+      "compressed_size": 323888223,
+      "header_offset": 4091478573
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m2_macr_tli_s_fit.rda",
+      "size": 303103387,
+      "compressed_size": 303117187,
+      "header_offset": 4415366968
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/.DS_Store",
+      "size": 6148,
+      "compressed_size": 252,
+      "header_offset": 4718484320
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m3_gene_gbi_s_fit.rda",
+      "size": 102888244,
+      "compressed_size": 102822934,
+      "header_offset": 4718484942
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m5_genediffmacr_tli_s_fit.rda",
+      "size": 307988053,
+      "compressed_size": 307988751,
+      "header_offset": 4821308041
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m1_mage_gbi_s_fit.rda",
+      "size": 124533602,
+      "compressed_size": 124462126,
+      "header_offset": 5129296965
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m4_genesamemacr_gbi_s_fit.rda",
+      "size": 67080168,
+      "compressed_size": 67038454,
+      "header_offset": 5253759256
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m5_genediffmacr_gbi_s_fit.rda",
+      "size": 82322692,
+      "compressed_size": 82264771,
+      "header_offset": 5320797883
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m3_gene_tli_s_fit.rda",
+      "size": 516514863,
+      "compressed_size": 516560293,
+      "header_offset": 5403062827
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m4_genesamemacr_tli_s_fit.rda",
+      "size": 137052045,
+      "compressed_size": 137008343,
+      "header_offset": 5919623285
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/LOO/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 6056631801
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m1_mage_tli_s_fit.rda",
+      "size": 356194654,
+      "compressed_size": 356143815,
+      "header_offset": 6056631933
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/m2_macr_gbi_s_fit.rda",
+      "size": 94549484,
+      "compressed_size": 94507023,
+      "header_offset": 6412775913
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/m1_mage_feat_contact_G2.rda",
+      "size": 1674452,
+      "compressed_size": 1536260,
+      "header_offset": 6507283101
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/m1_mage_feat_contact_G1.rda",
+      "size": 1890993,
+      "compressed_size": 1767368,
+      "header_offset": 6508819541
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/.DS_Store",
+      "size": 6148,
+      "compressed_size": 178,
+      "header_offset": 6510587089
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/m4_genesamemacr_feat_contact_G2.rda",
+      "size": 1798084,
+      "compressed_size": 1621924,
+      "header_offset": 6510587655
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/m4_genesamemacr_feat_contact_G1.rda",
+      "size": 2006816,
+      "compressed_size": 1840518,
+      "header_offset": 6512209767
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/m5_genediffmacr_feat_contact_G1.rda",
+      "size": 2065884,
+      "compressed_size": 1887480,
+      "header_offset": 6514050473
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/m1_mage_feat_macroarea_G2.rda",
+      "size": 1738297,
+      "compressed_size": 1583522,
+      "header_offset": 6515938141
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/m5_genediffmacr_feat_contact_G2.rda",
+      "size": 1854096,
+      "compressed_size": 1666789,
+      "header_offset": 6517521845
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/meta-analyses/m1_mage_feat_macroarea_G1.rda",
+      "size": 1949287,
+      "compressed_size": 1796494,
+      "header_offset": 6519188822
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity_F3/priors/m1_coge_tli_s_F3_prior.rda",
+      "size": 54417026,
+      "compressed_size": 54302670,
+      "header_offset": 6520985498
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity_F3/priors/m1_coge_gbi_s_f3_prior.rda",
+      "size": 27802319,
+      "compressed_size": 27720142,
+      "header_offset": 6575288613
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity_F3/fits/m1_coge_tli_s_F3_fit.rda",
+      "size": 313171580,
+      "compressed_size": 313114126,
+      "header_offset": 6603009200
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity_F3/fits/.DS_Store",
+      "size": 6148,
+      "compressed_size": 178,
+      "header_offset": 6916123497
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity_F3/fits/m1_coge_gbi_s_f3_fit.rda",
+      "size": 118551631,
+      "compressed_size": 118477475,
+      "header_offset": 6916124051
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m1_coge_tli_s_prior.rda",
+      "size": 54948541,
+      "compressed_size": 54891540,
+      "header_offset": 7034601697
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m3_gene_tli_s_prior.rda",
+      "size": 36292860,
+      "compressed_size": 36213094,
+      "header_offset": 7089493399
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m3_gene_gbi_s_prior.rda",
+      "size": 18559880,
+      "compressed_size": 18473446,
+      "header_offset": 7125706655
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m1_coge_gbi_s_prior.rda",
+      "size": 28507824,
+      "compressed_size": 28442719,
+      "header_offset": 7144180263
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m4_genesamecont_gbi_s_prior.rda",
+      "size": 17948504,
+      "compressed_size": 17855956,
+      "header_offset": 7172623144
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m2_cont_gbi_s_prior.rda",
+      "size": 15958542,
+      "compressed_size": 15891457,
+      "header_offset": 7190479270
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m5_genediffcont_gbi_s_prior.rda",
+      "size": 15320985,
+      "compressed_size": 15208733,
+      "header_offset": 7206370889
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m5_genediffcont_tli_s_prior.rda",
+      "size": 32811968,
+      "compressed_size": 32712476,
+      "header_offset": 7221579792
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m2_cont_tli_s_prior.rda",
+      "size": 33147871,
+      "compressed_size": 33107858,
+      "header_offset": 7254292438
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/priors/m4_genesamecont_tli_s_prior.rda",
+      "size": 35474178,
+      "compressed_size": 35408073,
+      "header_offset": 7287400458
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/scales/m1_coge_feat_contact.rda",
+      "size": 465103987,
+      "compressed_size": 462572897,
+      "header_offset": 7322808701
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/scales/m4_genesamecont_feat_contact.rda",
+      "size": 205391487,
+      "compressed_size": 204269627,
+      "header_offset": 7785381761
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/scales/m1_coge_feat_continent.rda",
+      "size": 463401201,
+      "compressed_size": 460872825,
+      "header_offset": 7989651559
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/scales/m5_genediffcont_feat_contact.rda",
+      "size": 451132738,
+      "compressed_size": 448686379,
+      "header_offset": 8450524549
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m4_genesamecont_tli_s_fit.rda",
+      "size": 137234300,
+      "compressed_size": 137192758,
+      "header_offset": 8899211099
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/.DS_Store",
+      "size": 6148,
+      "compressed_size": 254,
+      "header_offset": 9036404023
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m5_genediffcont_gbi_s_fit.rda",
+      "size": 83405389,
+      "compressed_size": 83317883,
+      "header_offset": 9036404633
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m3_gene_gbi_s_fit.rda",
+      "size": 102888244,
+      "compressed_size": 102822934,
+      "header_offset": 9119722682
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m2_cont_gbi_s_fit.rda",
+      "size": 101891991,
+      "compressed_size": 101840254,
+      "header_offset": 9222545774
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m1_coge_gbi_s_fit.rda",
+      "size": 187773001,
+      "compressed_size": 187740127,
+      "header_offset": 9324386186
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m3_gene_tli_s_fit.rda",
+      "size": 516514863,
+      "compressed_size": 516560293,
+      "header_offset": 9512126471
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m1_coge_tli_s_fit.rda",
+      "size": 528097925,
+      "compressed_size": 528142952,
+      "header_offset": 10028686922
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/LOO/",
+      "size": 0,
+      "compressed_size": 0,
+      "header_offset": 10556830032
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m2_cont_tli_s_fit.rda",
+      "size": 469073488,
+      "compressed_size": 469124563,
+      "header_offset": 10556830157
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m4_genesamecont_gbi_s_fit.rda",
+      "size": 66977001,
+      "compressed_size": 66931885,
+      "header_offset": 11025954878
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/m5_genediffcont_tli_s_fit.rda",
+      "size": 310681251,
+      "compressed_size": 310673469,
+      "header_offset": 11092886929
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/m5_genediffcont_feat_contact_G1.rda",
+      "size": 1819181,
+      "compressed_size": 1706706,
+      "header_offset": 11403560564
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/m5_genediffcont_feat_contact_G2.rda",
+      "size": 1620790,
+      "compressed_size": 1498234,
+      "header_offset": 11405267451
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/.DS_Store",
+      "size": 6148,
+      "compressed_size": 178,
+      "header_offset": 11406765866
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/m1_coge_feat_contact_G2.rda",
+      "size": 1442619,
+      "compressed_size": 1368100,
+      "header_offset": 11406766418
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/m1_coge_feat_contact_G1.rda",
+      "size": 1644465,
+      "compressed_size": 1578840,
+      "header_offset": 11408134691
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/m4_genesamecont_feat_contact_G2.rda",
+      "size": 1550234,
+      "compressed_size": 1438467,
+      "header_offset": 11409713704
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/m4_genesamecont_feat_contact_G1.rda",
+      "size": 1769598,
+      "compressed_size": 1669755,
+      "header_offset": 11411152352
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/m1_coge_feat_continent_G2.rda",
+      "size": 1499589,
+      "compressed_size": 1410879,
+      "header_offset": 11412822288
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/meta-analyses/m1_coge_feat_continent_G1.rda",
+      "size": 1719765,
+      "compressed_size": 1635976,
+      "header_offset": 11414233342
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/LOO/loo_m1_m2_m3_tli_macr.rda",
+      "size": 6600399,
+      "compressed_size": 6550068,
+      "header_offset": 11415869493
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/sensitivity/fits/LOO/loo_m1_m2_m3_gbi_macr.rda",
+      "size": 4041590,
+      "compressed_size": 4024972,
+      "header_offset": 11422419734
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/LOO/loo_m1_m2_m3_gbi_cont.rda",
+      "size": 4956594,
+      "compressed_size": 4948923,
+      "header_offset": 11426444879
+    },
+    {
+      "name": "geneticAdmixture-linguisticDiffusion/output/brms/main/fits/LOO/loo_m1_m2_m3_tli_cont.rda",
+      "size": 8854378,
+      "compressed_size": 8819882,
+      "header_offset": 11431393968
+    }
+  ]
+}

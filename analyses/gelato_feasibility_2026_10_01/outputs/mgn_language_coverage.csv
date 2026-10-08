@@ -1,0 +1,65 @@
+mgn_iso,mgn_source_code,glottocode,language,family,macro_area,parts_of_speech,cell_pair_rows,main_397_exact_populations,main_397_exact_individuals,main_397_exact_populations_min5,main_397_all_candidate_populations,main_397_population_names,expanded_558_exact_populations,expanded_558_exact_individuals,expanded_558_exact_populations_min5,expanded_558_all_candidate_populations,expanded_558_population_names
+bak,bak,bash1264,Bashkir,Turkic,Eurasia,n,55,5,37,5,6,Bashkir_Burzjan_Baimaksky;Bashkir_IkskoBelsky_Kyrgyz;Bashkir_IkskoBelsky_Uran;Bashkir_Ming_Miyakinsky;Bashkir_North_Tabyn_Balysky;Bashkir_Tamyan_Kypcak,6,41,5,8,Bashkir_Burzjan_Baimaksky;Bashkir_IkskoBelsky_Kyrgyz;Bashkir_IkskoBelsky_Uran;Bashkir_Ming_Miyakinsky;Bashkir_North_Tabyn_Balysky;Bashkir_North_Unlar;Bashkir_Tamyan_Kypcak;Bashkir_Yurmaty
+bel,bel,bela1254,Belarusian,Indo-European,Eurasia,adj;n;v,285,1,10,1,1,Belarusian,1,10,1,1,Belarusian
+bul,bul,bulg1262,Bulgarian,Indo-European,Eurasia,adj,325,1,10,1,1,Bulgarian,1,10,1,1,Bulgarian
+cat,cat,stan1289,Catalan,Indo-European,Eurasia,v,1128,2,10,2,2,Spanish_Cataluna;Spanish_Valencia,2,10,2,2,Spanish_Cataluna;Spanish_Valencia
+ckb,ckb,cent1972,Central Kurdish,Indo-European,Eurasia,n;v,3585,0,0,0,0,,0,0,0,0,
+crh,crh,crim1257,Crimean Tatar,Turkic,Eurasia,n,10,0,0,0,0,,0,0,0,0,
+ces,ces,czec1258,Czech,Indo-European,Eurasia,n;v,3331,1,10,1,1,Czech,1,10,1,1,Czech
+dan,dan,dani1285,Danish,Indo-European,Eurasia,n;v,25,0,0,0,0,,0,0,0,0,
+nld,nld,dutc1256,Dutch,Indo-European,Eurasia,adj;v,57,0,0,0,0,,0,0,0,0,
+hye,hye,nucl1235,Eastern Armenian,Indo-European,Eurasia,adj;n;v,11967,1,11,1,1,Armenian,2,14,1,2,Armenian;Armenian_WGA
+ydd,yid,east2295,Eastern Yiddish,Indo-European,Eurasia,adj;v,36,1,8,1,1,Ashkenazi_Jew,1,8,1,1,Ashkenazi_Jew
+eng,eng,stan1293,English,Indo-European,Eurasia,v,21,2,10,2,2,English_Cornwall;English_Kent,2,10,2,2,English_Cornwall;English_Kent
+ekk,est,esto1258,Estonian,Uralic,Eurasia,n;v,2523,1,10,1,1,Estonian,1,10,1,1,Estonian
+fao,fao,faro1244,Faroese,Indo-European,Eurasia,adj;n;v,243,0,0,0,0,,0,0,0,0,
+fin,fin,finn1318,Finnish,Uralic,Eurasia,adj;n;v,9966,1,8,1,1,Finnish,1,8,1,1,Finnish
+fra,fre,stan1290,French,Indo-European,Eurasia,v,1275,5,63,5,5,French_Central;French_East;French_Northwest;French_South;French_West,5,63,5,5,French_Central;French_East;French_Northwest;French_South;French_West
+fur,fur,friu1240,Friulian,Indo-European,Eurasia,v,630,0,0,0,0,,0,0,0,0,
+glg,gal,gali1258,Galician,Indo-European,Eurasia,v,1953,1,5,1,1,Spanish_Galicia,1,5,1,1,Spanish_Galicia
+kat,kat,nucl1302,Georgian,Kartvelian,Eurasia,n,136,1,12,1,2,Georgian;Georgian_Imeretins,1,12,1,2,Georgian;Georgian_Imeretins
+deu,deu,stan1295,German,Indo-European,Eurasia,n;v,225,1,10,1,1,German_Lipsian,1,10,1,1,German_Lipsian
+hin,hin,hind1269,Hindi,Indo-European,Eurasia,v,5356,0,0,0,0,,0,0,0,0,
+hun,hun,hung1274,Hungarian,Uralic,Eurasia,n,561,2,20,2,2,Hungarian1;Hungarian2,2,20,2,2,Hungarian1;Hungarian2
+isl,isl,icel1247,Icelandic,Indo-European,Eurasia,n;v,351,1,12,1,1,Icelandic,1,12,1,1,Icelandic
+gle,gle,iris1253,Irish,Indo-European,Eurasia,adj;n;v,1953,2,12,2,5,Irish_Connacht;Irish_Cork_Kerry;Irish_Leinster;Irish_Munster;Irish_Ulster,2,12,2,5,Irish_Connacht;Irish_Cork_Kerry;Irish_Leinster;Irish_Munster;Irish_Ulster
+ita,ita,ital1282,Italian,Indo-European,Eurasia,v,1128,2,21,2,2,Bergamo;Tuscan,2,21,2,2,Bergamo;Tuscan
+kbd,kbd,kaba1278,Kabardian,Abkhaz-Adyge,Eurasia,n,66,1,10,1,1,Kabardinian,1,10,1,1,Kabardinian
+kan,kan,nucl1305,Kannada,Dravidian,Eurasia,n,45,0,0,0,0,,0,0,0,0,
+klr,klr,khal1275,Khaling,Sino-Tibetan,Eurasia,v,11026,0,0,0,0,,0,0,0,0,
+lld,lld,ladi1250,Ladin,Indo-European,Eurasia,v,666,0,0,0,0,,0,0,0,0,
+lav,lav,latv1249,Latvian,Indo-European,Eurasia,n,78,0,0,0,0,,0,0,0,0,
+lit,lit,lith1251,Lithuanian,Indo-European,Eurasia,adj;n;v,1290,1,10,1,1,Lithuanian,1,10,1,1,Lithuanian
+dsb,dsb,lowe1385,Lower Sorbian,Indo-European,Eurasia,adj,91,0,0,0,0,,0,0,0,0,
+mkd,mkd,mace1250,Macedonian,Indo-European,Eurasia,adj;n;v,350,0,0,0,0,,0,0,0,0,
+ell,ell,mode1248,Modern Greek,Indo-European,Eurasia,adj;n;v,2719,0,0,0,3,Greek_Athens;Greek_Thessaloniki;Greek_WGA,0,0,0,3,Greek_Athens;Greek_Thessaloniki;Greek_WGA
+heb,heb,hebr1245,Modern Hebrew,Afro-Asiatic,Eurasia,n;v,625,0,0,0,0,,0,0,0,0,
+nav,nav,nava1243,Navajo,Athabaskan-Eyak-Tlingit,North America,v,2415,0,0,0,0,,0,0,0,0,
+azj,aze,nort2697,North Azerbaijani,Turkic,Eurasia,n,45,2,16,2,2,Azeri_Azerbajan;Azeri_Dagestan,3,18,2,3,Azeri_Azerbajan;Azeri_Dagestan;Azeri_WGA
+sme,sme,nort2671,North Saami,Uralic,Eurasia,n;v,1497,0,0,0,0,,1,3,0,1,Saami
+kmr,kmr,nort2641,Northern Kurdish,Indo-European,Eurasia,n,36,2,16,2,2,Ezid;Kurd,3,18,2,3,Ezid;Kurd;Kurd_WGA
+als,sqi,tosk1239,Northern Tosk Albanian,Indo-European,Eurasia,n;v,7073,0,0,0,0,,0,0,0,0,
+nor,nob,norw1258,Norwegian,Indo-European,Eurasia,adj;n;v,14,1,11,1,1,Norwegian,1,11,1,1,Norwegian
+oci,oci,occi1239,Occitan,Indo-European,Eurasia,v,1035,0,0,0,0,,0,0,0,0,
+pol,pol,poli1260,Polish,Indo-European,Eurasia,adj;n,181,2,23,2,2,Polish_Lublin;Polish_Poznan,2,23,2,2,Polish_Lublin;Polish_Poznan
+por,por,port1283,Portuguese,Indo-European,Eurasia,v,2278,0,0,0,0,,0,0,0,0,
+ron,ron,roma1327,Romanian,Indo-European,Eurasia,adj;v,633,1,10,1,2,Moldavian;Romanian,1,10,1,2,Moldavian;Romanian
+rus,rus,russ1263,Russian,Indo-European,Eurasia,n,55,8,64,8,8,Russian;Russian_Archangelsk_Krasnoborsky;Russian_Archangelsk_Leshukonsky;Russian_Archangelsk_Pinezhsky;Russian_Kaluga;Russian_Ryazan_Mihailovsky;Russian_Ryazan_Spassk_Ryazansky;Russian_Smolensk,15,90,8,15,Russian;Russian_Archangelsk_Krasnoborsky;Russian_Archangelsk_Leshukonsky;Russian_Archangelsk_Pinezhsky;Russian_Belgorod;Russian_Kaluga;Russian_Kursk;Russian_Oryol;Russian_Pskov_Ostrov;Russian_Pskov_Porkhov;Russian_Ryazan_Mihailovsky;Russian_Ryazan_Spassk_Ryazansky;Russian_Smolensk;Russian_Tver;Russian_Yaroslavl
+hbs,hbs,sout1528,Serbian-Croatian-Bosnian,Indo-European,Eurasia,adj;n;v,1472,0,0,0,1,Croatian,0,0,0,1,Croatian
+slv,slv,slov1268,Slovenian,Indo-European,Eurasia,n;v,324,0,0,0,0,,0,0,0,0,
+pbt,pus,sout2649,Southern Pashto,Indo-European,Eurasia,n,15,0,0,0,0,,0,0,0,0,
+spa,spa,stan1288,Spanish,Indo-European,Eurasia,v,2080,0,0,0,3,Spanish_CastillaLaMancha;Spanish_CastillaLeon;Spanish_Murcia,1,4,0,6,Canary_Islander;Spanish_Andalucia;Spanish_Balearic;Spanish_CastillaLaMancha;Spanish_CastillaLeon;Spanish_Murcia
+arb,ara,stan1318,Standard Arabic,Afro-Asiatic,Eurasia,v,5886,0,0,0,0,,0,0,0,0,
+swe,swe,swed1254,Swedish,Indo-European,Eurasia,adj;n;v,59,0,0,0,0,,0,0,0,0,
+tat,tat,tata1255,Tatar,Turkic,Eurasia,n,10,2,22,2,2,Tatar_Kazan;Tatar_Mishar,2,22,2,2,Tatar_Kazan;Tatar_Mishar
+tel,tel,telu1262,Telugu,Dravidian,Eurasia,v,21,1,16,1,1,Mala,1,16,1,1,Mala
+tur,tur,nucl1301,Turkish,Turkic,Eurasia,n;v,9351,6,62,6,6,Turkish_Adana;Turkish_Aydin;Turkish_Balikesir;Turkish_Istanbul;Turkish_Kayseri;Turkish_Trabzon,6,62,6,6,Turkish_Adana;Turkish_Aydin;Turkish_Balikesir;Turkish_Istanbul;Turkish_Kayseri;Turkish_Trabzon
+ukr,ukr,ukra1253,Ukrainian,Indo-European,Eurasia,n,91,2,11,2,2,Ukrainian_East;Ukrainian_Sumskaya,5,20,2,5,Ukrainian_East;Ukrainian_Rovenskaya;Ukrainian_Sumskaya;Ukrainian_West;Ukrainian_Zhitomirskaya
+urd,urd,urdu1245,Urdu,Indo-European,Eurasia,n,10,0,0,0,0,,0,0,0,0,
+vec,vec,vene1258,Venetian,Indo-European,Eurasia,v,780,0,0,0,0,,0,0,0,0,
+cym,cym,wels1247,Welsh,Indo-European,Eurasia,v,1953,0,0,0,0,,0,0,0,0,
+ady,ady,adyg1241,West Circassian,Abkhaz-Adyge,Eurasia,adj;n,132,1,18,1,1,Adygei,2,22,1,6,Adygei;Adygei_Abadzhekh;Adygei_Bzhedug;Adygei_Mamkheg;Adygei_Shapsug_Black_Sea;Adygei_Shapsug_Kuban
+pes,fas,west2369,Western Farsi,Indo-European,Eurasia,v,8646,1,17,1,1,Iran_Non-Zoroastrian_Fars,1,17,1,1,Iran_Non-Zoroastrian_Fars
+ctp,yai,west2644,Western Highland Chatino,Otomanguean,North America,v,55,0,0,0,0,,0,0,0,0,
+czn,zen,zenz1235,Zenzontepec Chatino,Otomanguean,North America,v,6,0,0,0,0,,0,0,0,0,
+zul,zul,zulu1248,Zulu,Atlantic-Congo,Africa,n,1081,0,0,0,0,,1,1,0,1,BantuSA_Zulu

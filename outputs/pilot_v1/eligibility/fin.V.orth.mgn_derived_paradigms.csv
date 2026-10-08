@@ -1,0 +1,128 @@
+lemma_id,lemma_label,group_id,kind,base_lemma_id,clitic,eligible
+mgn_data:fin-v::ajaa karille,ajaa karille,fin.V::g000078,multiword_source,,,True
+mgn_data:fin-v::ajaa takaa,ajaa takaa,fin.V::g000079,multiword_source,,,True
+mgn_data:fin-v::antaa ilmi,antaa ilmi,fin.V::g000168,multiword_source,,,True
+mgn_data:fin-v::antaa ylen,antaa ylen,fin.V::g000170,multiword_source,,,True
+mgn_data:fin-v::asettaa kyseenalaiseksi,asettaa kyseenalaiseksi,fin.V::g000221,multiword_source,,,True
+mgn_data:fin-v::haastaa oikeuteen,haastaa oikeuteen,fin.V::g000690,multiword_source,,,True
+mgn_data:fin-v::haukkua maanrakoon,haukkua maanrakoon,fin.V::g000855,multiword_source,,,True
+mgn_data:fin-v::haukkua pataluhaksi,haukkua pataluhaksi,fin.V::g000856,multiword_source,,,True
+mgn_data:fin-v::haukkua pystyyn,haukkua pystyyn,fin.V::g000857,multiword_source,,,True
+mgn_data:fin-v::heittää huiviin,heittää huiviin,fin.V::g000911,multiword_source,,,True
+mgn_data:fin-v::heittää menemään,heittää menemään,fin.V::g000912,multiword_source,,,True
+mgn_data:fin-v::heittää ulos,heittää ulos,fin.V::g000913,multiword_source,,,True
+mgn_data:fin-v::jäädä jälkeen,jäädä jälkeen,fin.V::g001936,multiword_source,,,True
+mgn_data:fin-v::jäädä kiinni,jäädä kiinni,fin.V::g001937,multiword_source,,,True
+mgn_data:fin-v::jättää pulaan,jättää pulaan,fin.V::g001925,multiword_source,,,True
+mgn_data:fin-v::johtaa harhaan,johtaa harhaan,fin.V::g001738,multiword_source,,,True
+mgn_data:fin-v::juolahtaa mieleen,juolahtaa mieleen,fin.V::g001795,multiword_source,,,True
+mgn_data:fin-v::juosta pakoon,juosta pakoon,fin.V::g001805,multiword_source,,,True
+mgn_data:fin-v::katsoa vierestä,katsoa vierestä,fin.V::g002223,multiword_source,,,True
+mgn_data:fin-v::käydä käsiksi,käydä käsiksi,fin.V::g003170,multiword_source,,,True
+mgn_data:fin-v::käydä läpi,käydä läpi,fin.V::g003171,multiword_source,,,True
+mgn_data:fin-v::käydä vieraissa,käydä vieraissa,fin.V::g003172,multiword_source,,,True
+mgn_data:fin-v::lähteä kävelemään,lähteä kävelemään,fin.V::g003729,multiword_source,,,True
+mgn_data:fin-v::lähteä matkaan,lähteä matkaan,fin.V::g003730,multiword_source,,,True
+mgn_data:fin-v::lähteä soitellen sotaan,lähteä soitellen sotaan,fin.V::g003731,multiword_source,,,True
+mgn_data:fin-v::laittaa nukkumaan,laittaa nukkumaan,fin.V::g003277,multiword_source,,,True
+mgn_data:fin-v::laittaa päälle,laittaa päälle,fin.V::g003279,multiword_source,,,True
+mgn_data:fin-v::laittaa pois päältä,laittaa pois päältä,fin.V::g003278,multiword_source,,,True
+mgn_data:fin-v::laskea yhteen,laskea yhteen,fin.V::g003320,multiword_source,,,True
+mgn_data:fin-v::liipata läheltä,liipata läheltä,fin.V::g003479,multiword_source,,,True
+mgn_data:fin-v::lyödä ällikällä,lyödä ällikällä,fin.V::g003716,multiword_source,,,True
+mgn_data:fin-v::lyöttäytyä yhteen,lyöttäytyä yhteen,fin.V::g003719,multiword_source,,,True
+mgn_data:fin-v::maksaa takaisin,maksaa takaisin,fin.V::g003847,multiword_source,,,True
+mgn_data:fin-v::mennä hukkaan,mennä hukkaan,fin.V::g003928,multiword_source,,,True
+mgn_data:fin-v::mennä kihloihin,mennä kihloihin,fin.V::g003929,multiword_source,,,True
+mgn_data:fin-v::mennä konkurssiin,mennä konkurssiin,fin.V::g003930,multiword_source,,,True
+mgn_data:fin-v::mennä läpi,mennä läpi,fin.V::g003932,multiword_source,,,True
+mgn_data:fin-v::mennä lukkoon,mennä lukkoon,fin.V::g003931,multiword_source,,,True
+mgn_data:fin-v::mennä manalle,mennä manalle,fin.V::g003933,multiword_source,,,True
+mgn_data:fin-v::mennä manan majoille,mennä manan majoille,fin.V::g003934,multiword_source,,,True
+mgn_data:fin-v::mennä mönkään,mennä mönkään,fin.V::g003936,multiword_source,,,True
+mgn_data:fin-v::mennä myttyyn,mennä myttyyn,fin.V::g003935,multiword_source,,,True
+mgn_data:fin-v::mennä naimisiin,mennä naimisiin,fin.V::g003937,multiword_source,,,True
+mgn_data:fin-v::mennä nukkumaan,mennä nukkumaan,fin.V::g003938,multiword_source,,,True
+mgn_data:fin-v::mennä perille,mennä perille,fin.V::g003939,multiword_source,,,True
+mgn_data:fin-v::mennä plörinäksi,mennä plörinäksi,fin.V::g003940,multiword_source,,,True
+mgn_data:fin-v::mennä rikki,mennä rikki,fin.V::g003941,multiword_source,,,True
+mgn_data:fin-v::mennä virran mukana,mennä virran mukana,fin.V::g003942,multiword_source,,,True
+mgn_data:fin-v::myydä loppuun,myydä loppuun,fin.V::g004140,multiword_source,,,True
+mgn_data:fin-v::nääntyä nälkään,nääntyä nälkään,fin.V::g004541,multiword_source,,,True
+mgn_data:fin-v::nähdä punaista,nähdä punaista,fin.V::g004518,multiword_source,,,True
+mgn_data:fin-v::nousta esiin,nousta esiin,fin.V::g004406,multiword_source,,,True
+mgn_data:fin-v::nukkua pois,nukkua pois,fin.V::g004426,multiword_source,,,True
+mgn_data:fin-v::nukkua pommiin,nukkua pommiin,fin.V::g004427,multiword_source,,,True
+mgn_data:fin-v::nukkua yön yli,nukkua yön yli,fin.V::g004428,multiword_source,,,True
+mgn_data:fin-v::oppia kantapään kautta,oppia kantapään kautta,fin.V::g004627,multiword_source,,,True
+mgn_data:fin-v::osoittaa sormella,osoittaa sormella,fin.V::g004646,multiword_source,,,True
+mgn_data:fin-v::ottaa huomioon,ottaa huomioon,fin.V::g004659,multiword_source,,,True
+mgn_data:fin-v::ottaa iisisti,ottaa iisisti,fin.V::g004660,multiword_source,,,True
+mgn_data:fin-v::ottaa kantaa,ottaa kantaa,fin.V::g004661,multiword_source,,,True
+mgn_data:fin-v::ottaa käyttöön,ottaa käyttöön,fin.V::g004663,multiword_source,,,True
+mgn_data:fin-v::ottaa kiinni,ottaa kiinni,fin.V::g004662,multiword_source,,,True
+mgn_data:fin-v::ottaa osaa,ottaa osaa,fin.V::g004664,multiword_source,,,True
+mgn_data:fin-v::ottaa parempaan käyttöön,ottaa parempaan käyttöön,fin.V::g004665,multiword_source,,,True
+mgn_data:fin-v::ottaa selvää,ottaa selvää,fin.V::g004666,multiword_source,,,True
+mgn_data:fin-v::ottaa vaarin,ottaa vaarin,fin.V::g004667,multiword_source,,,True
+mgn_data:fin-v::ottaa varteen,ottaa varteen,fin.V::g004668,multiword_source,,,True
+mgn_data:fin-v::päästä läpi,päästä läpi,fin.V::g005384,multiword_source,,,True
+mgn_data:fin-v::painaa villaisella,painaa villaisella,fin.V::g004716,multiword_source,,,True
+mgn_data:fin-v::palaa loppuun,palaa loppuun,fin.V::g004766,multiword_source,,,True
+mgn_data:fin-v::pälkähtää päähän,pälkähtää päähän,fin.V::g005365,multiword_source,,,True
+mgn_data:fin-v::panna jalalla koreasti,panna jalalla koreasti,fin.V::g004810,multiword_source,,,True
+mgn_data:fin-v::panna merkille,panna merkille,fin.V::g004811,multiword_source,,,True
+mgn_data:fin-v::panna muistiin,panna muistiin,fin.V::g004812,multiword_source,,,True
+mgn_data:fin-v::panna pystyyn,panna pystyyn,fin.V::g004813,multiword_source,,,True
+mgn_data:fin-v::panna rautoihin,panna rautoihin,fin.V::g004814,multiword_source,,,True
+mgn_data:fin-v::panna töpinäksi,panna töpinäksi,fin.V::g004816,multiword_source,,,True
+mgn_data:fin-v::panna tuulemaan,panna tuulemaan,fin.V::g004815,multiword_source,,,True
+mgn_data:fin-v::pitää kovilla,pitää kovilla,fin.V::g005048,multiword_source,,,True
+mgn_data:fin-v::pitää silmällä,pitää silmällä,fin.V::g005049,multiword_source,,,True
+mgn_data:fin-v::pitää vettä,pitää vettä,fin.V::g005051,multiword_source,,,True
+mgn_data:fin-v::pusertaa kuivaksi,pusertaa kuivaksi,fin.V::g005299,multiword_source,,,True
+mgn_data:fin-v::pyytää anteeksi,pyytää anteeksi,fin.V::g005344,multiword_source,,,True
+mgn_data:fin-v::saada aikaan,saada aikaan,fin.V::g005844,multiword_source,,,True
+mgn_data:fin-v::saada aikaiseksi,saada aikaiseksi,fin.V::g005845,multiword_source,,,True
+mgn_data:fin-v::sanoutua irti,sanoutua irti,fin.V::g005919,multiword_source,,,True
+mgn_data:fin-v::sopia yhteen,sopia yhteen,fin.V::g006168,multiword_source,,,True
+mgn_data:fin-v::sulkea pois,sulkea pois,fin.V::g006267,multiword_source,,,True
+mgn_data:fin-v::syödä kädestä,syödä kädestä,fin.V::g006397,multiword_source,,,True
+mgn_data:fin-v::tehdä huorin,tehdä huorin,fin.V::g006577,multiword_source,,,True
+mgn_data:fin-v::tehdä perinnöttömäksi,tehdä perinnöttömäksi,fin.V::g006578,multiword_source,,,True
+mgn_data:fin-v::tehdä tiettäväksi,tehdä tiettäväksi,fin.V::g006579,multiword_source,,,True
+mgn_data:fin-v::tulla hulluksi,tulla hulluksi,fin.V::g006771,multiword_source,,,True
+mgn_data:fin-v::tulla humalaan,tulla humalaan,fin.V::g006772,multiword_source,,,True
+mgn_data:fin-v::tulla juovuksiin,tulla juovuksiin,fin.V::g006773,multiword_source,,,True
+mgn_data:fin-v::tulla mieleen,tulla mieleen,fin.V::g006774,multiword_source,,,True
+mgn_data:fin-v::tulla perille,tulla perille,fin.V::g006775,multiword_source,,,True
+mgn_data:fin-v::tulla toimeen,tulla toimeen,fin.V::g006776,multiword_source,,,True
+mgn_data:fin-v::tulla toisiin aatoksiin,tulla toisiin aatoksiin,fin.V::g006777,multiword_source,,,True
+mgn_data:fin-v::tulla voimaan,tulla voimaan,fin.V::g006778,multiword_source,,,True
+mgn_data:fin-v::tuoda ilmi,tuoda ilmi,fin.V::g006803,multiword_source,,,True
+mgn_data:fin-v::vääntää rautalangasta,vääntää rautalangasta,fin.V::g007507,multiword_source,,,True
+mgn_data:fin-v::valvoa yötä myöten,valvoa yötä myöten,fin.V::g007158,multiword_source,,,True
+mgn_data:fin-v::viedä ulos,viedä ulos,fin.V::g007292,multiword_source,,,True
+mgn_data:fin-v::ajaa partansa,ajaa partansa,fin.V::g000077,multiword_label,,,True
+mgn_data:fin-v::antaa kaikkensa,antaa kaikkensa,fin.V::g000169,multiword_label,,,True
+mgn_data:fin-v::antaa opetus,antaa opetus,fin.V::g000169,multiword_label,,,True
+mgn_data:fin-v::aukoa päätään,aukoa päätään,fin.V::g000245,multiword_label,,,True
+mgn_data:fin-v::haukkoa henkeään,haukkoa henkeään,fin.V::g000853,multiword_label,,,True
+mgn_data:fin-v::jättää arpi,jättää arpi,fin.V::g001924,multiword_label,,,True
+mgn_data:fin-v::kääntyä jonkun puoleen,kääntyä jonkun puoleen,fin.V::g003186,multiword_label,,,True
+mgn_data:fin-v::kävellä unissaan,kävellä unissaan,fin.V::g003166,multiword_label,,,True
+mgn_data:fin-v::käydä pitkäkseen,käydä pitkäkseen,fin.V::g003169,multiword_label,,,True
+mgn_data:fin-v::menettää kasvonsa,menettää kasvonsa,fin.V::g003927,multiword_label,,,True
+mgn_data:fin-v::menettää tajuntansa,menettää tajuntansa,fin.V::g003927,multiword_label,,,True
+mgn_data:fin-v::miettiä päänsä puhki,miettiä päänsä puhki,fin.V::g003970,multiword_label,,,True
+mgn_data:fin-v::osoittaa mieltään,osoittaa mieltään,fin.V::g004645,multiword_label,,,True
+mgn_data:fin-v::palauttaa mieleensä,palauttaa mieleensä,fin.V::g004769,multiword_label,,,True
+mgn_data:fin-v::pitää varansa,pitää varansa,fin.V::g005050,multiword_label,,,True
+mgn_data:fin-v::polttaa siltansa,polttaa siltansa,fin.V::g005102,multiword_label,,,True
+mgn_data:fin-v::puhua läpiä päähänsä,puhua läpiä päähänsä,fin.V::g005209,multiword_label,,,True
+mgn_data:fin-v::saada alkunsa,saada alkunsa,fin.V::g005843,multiword_label,,,True
+mgn_data:fin-v::saada selkäänsä,saada selkäänsä,fin.V::g005843,multiword_label,,,True
+mgn_data:fin-v::saada surmansa,saada surmansa,fin.V::g005843,multiword_label,,,True
+mgn_data:fin-v::saada turpaansa,saada turpaansa,fin.V::g005843,multiword_label,,,True
+mgn_data:fin-v::tehdä tenä,tehdä tenä,fin.V::g006576,multiword_label,,,True
+mgn_data:fin-v::vaatia itselleen,vaatia itselleen,fin.V::g007084,multiword_label,,,True
