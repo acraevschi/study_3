@@ -1,5 +1,8 @@
 """Glottolog roll-up / map-down and the population link table (fixtures only)."""
 
+import pandas as pd
+import pytest
+
 from morph_ldl.typology import grambank as gb
 from morph_ldl.typology.stage import build_links
 from test_typology_helpers import FIX
@@ -77,3 +80,27 @@ def test_manual_link():
     lk = _links(manual=[{"population": "PopD", "glottocode": "lang2", "reason": "fixture", "by": "test"}])
     m = lk[(lk.population == "PopD") & (lk.link_basis == "manual")].iloc[0]
     assert m.glottocode == "lang2" and m.match_status == "candidate"
+
+
+def test_dialect_entries_substitute_only_for_languages_without_an_entry():
+    from morph_ldl.typology.stage import dialect_substitutes
+    langs = pd.DataFrame([
+        {"ID": "fam1", "Name": "Fam", "Level": "family", "Language_ID": "", "Family_ID": "", "Macroarea": "",
+         "ISO639P3code": ""},
+        *[{"ID": i, "Name": i, "Level": "language", "Language_ID": "", "Family_ID": "fam1", "Macroarea": "",
+           "ISO639P3code": ""} for i in ("lang1", "lang2")],
+        *[{"ID": i, "Name": i, "Level": "dialect", "Language_ID": lg, "Family_ID": "fam1", "Macroarea": "",
+           "ISO639P3code": ""} for i, lg in (("dia1", "lang1"), ("dia2", "lang2"), ("dia3", "lang2"))],
+    ])
+    glotto = gb.Glottolog.from_frames(langs, None)
+    feats = ["GB1", "GB2", "GB3"]
+    fs = {"features": feats, "present_codes": {g: ["1"] for g in feats}}
+    valid = {g: ["0", "1"] for g in feats}
+    vals = pd.DataFrame([(e, g, v) for e, row in {"lang1": "101", "dia1": "111", "dia2": "1?0", "dia3": "011"}.items()
+                         for g, v in zip(feats, row)], columns=["Language_ID", "Parameter_ID", "Value"])
+    ids = ["lang1", "dia1", "dia2", "dia3"]
+    assert dialect_substitutes(ids, {"lang1"}, glotto, vals, fs, valid, "ignore") == {}
+    # lang1 has its own entry (dia1 unused); lang2 takes its best-covered dialect entry (dia3: 3 coded > 2)
+    assert dialect_substitutes(ids, {"lang1"}, glotto, vals, fs, valid, "substitute") == {"lang2": "dia3"}
+    with pytest.raises(ValueError):
+        dialect_substitutes(ids, {"lang1"}, glotto, vals, fs, valid, "merge")

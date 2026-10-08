@@ -475,6 +475,33 @@ def _summary(links: pd.DataFrame, outcome: pd.DataFrame, missing: pd.DataFrame, 
     }
 
 
+def dialect_substitutes(entry_ids, gb_lang_ids: set, glotto, values: pd.DataFrame, fs: dict, valid: dict,
+                        mode: str) -> Dict[str, str]:
+    """{language-level Glottocode: Grambank entry} for languages coded in Grambank only below
+    language level (mode ``substitute``; ``ignore`` returns {}). Candidates are Grambank
+    entries that are not language-level in Glottolog and roll up to a language without its
+    own entry (dialect entries, and Grambank "languages" that Glottolog treats as dialects).
+    With several candidates, the one with most coded main-set features is used (ties: lowest
+    ID). Entries are never merged."""
+    if mode == "ignore":
+        return {}
+    if mode != "substitute":
+        raise ValueError(f"typology.dialect_entries must be 'ignore' or 'substitute', got {mode!r}")
+    cand: Dict[str, List[str]] = {}
+    for i in entry_ids:
+        if i in gb_lang_ids:
+            continue
+        lg = glotto.language_of(i)
+        if lg and lg not in gb_lang_ids:
+            cand.setdefault(lg, []).append(i)
+    if not cand:
+        return {}
+    ids = sorted(i for v in cand.values() for i in v)
+    coded = gb.count_set(gb.category_matrix(values, fs, valid, ids), fs["features"],
+                         fs["present_codes"], valid)["n_coded"]
+    return {lg: sorted(v, key=lambda i: (-int(coded.get(i, 0)), i))[0] for lg, v in sorted(cand.items())}
+
+
 def stage_typology(cfg: dict, units=None, folds=None, policies=None) -> None:
     tcfg = _tcfg(cfg)
     fs = gb.parse_feature_set(tcfg)      # refuses ill-formed declarations before any read
@@ -489,9 +516,14 @@ def stage_typology(cfg: dict, units=None, folds=None, policies=None) -> None:
         reviews = load_reviews(cfg, log)
         # 1. declared + used feature set first; nothing else is written if this fails
         write_json(_feature_set_record(tcfg, fs, used, cfg), out / "feature_set.json", cfg)
-        # 2. counts
-        matrix = gb.feature_matrix(G["values"], fs["features"], {g: used[g]["codes"] for g in fs["features"]},
-                                   gb_lang_ids)
+        # 2. counts (with typology.dialect_entries: substitute, a language without a
+        #    language-level entry is represented by one of its Grambank dialect entries)
+        valid = {g: used[g]["codes"] for g in fs["features"]}
+        subst = dialect_substitutes(langs["ID"], gb_lang_ids, inp["glotto"], G["values"], fs, valid,
+                                    tcfg.get("dialect_entries", "ignore"))
+        matrix = gb.category_matrix(G["values"], fs, valid, gb_lang_ids | set(subst.values()))
+        matrix = matrix.rename(index={e: lg for lg, e in subst.items()}).sort_index()
+        gb_lang_ids = gb_lang_ids | set(subst)
         counts, doms = _set_counts(matrix, fs, used)
         # 3. links and outcome
         links = build_links(inp["main"], inp["s1"], inp["glotto"], gb_lang_ids, reviews,
@@ -502,6 +534,10 @@ def stage_typology(cfg: dict, units=None, folds=None, policies=None) -> None:
             d["language_glottocode"] = ldl_units[u]
         set_sizes = {"main": len(fs["features"]), **{k: len(v) for k, v in fs["sensitivity"].items()}}
         outcome = build_outcome(links, counts, doms, inp["glotto"], gb_lang_ids, tcfg, ldl_units, set_sizes)
+        outcome["grambank_entry"] = [subst.get(g, g) if ok else "" for g, ok in zip(outcome["glottocode"],
+                                                                                   outcome["in_grambank"])]
+        outcome["grambank_entry_level"] = ["dialect" if g in subst else ("language" if ok else "")
+                                           for g, ok in zip(outcome["glottocode"], outcome["in_grambank"])]
         dialect_gb = langs[[inp["glotto"].level(i) != "language" for i in langs["ID"]]]
         dial_map: Dict[str, List[str]] = {}
         for i in dialect_gb["ID"]:
@@ -523,8 +559,14 @@ def stage_typology(cfg: dict, units=None, folds=None, policies=None) -> None:
             "missing_from_grambank.csv": write_csv(miss, out / "missing_from_grambank.csv", cfg),
             "ldl_overlap.csv": write_csv(overlap, out / "ldl_overlap.csv", cfg),
         }
-        paths["coverage_summary.json"] = write_json(_summary(links, outcome, miss, overlap, tcfg, ldl_raw, note),
-                                                    out / "coverage_summary.json", cfg)
+        summ = _summary(links, outcome, miss, overlap, tcfg, ldl_raw, note)
+        summ["dialect_entries"] = tcfg.get("dialect_entries", "ignore")
+        summ["dialect_substitutes"] = [
+            {"glottocode": lg, "name": inp["glotto"].name(lg), "grambank_entry": e,
+             "grambank_entry_name": inp["glotto"].name(e),
+             "gelato_linked": bool(outcome.set_index("glottocode")["gelato_linked"].get(lg, False))}
+            for lg, e in sorted(subst.items())]
+        paths["coverage_summary.json"] = write_json(summ, out / "coverage_summary.json", cfg)
         rec.inputs = [Path(p) for p in sorted(log.opened)]
         files_by_source = {}
         for name, d in inp["pins"].items():
@@ -571,6 +613,10 @@ def audit_typology(cfg: dict) -> Tuple[list, list]:
         problems.append("typology: declared present codes differ from those used")
     if dec["sensitivity"] != used["sensitivity_sets"]:
         problems.append("typology: declared sensitivity sets differ from those used")
+    if dec["categories"] and {c: list(d.get("sources", {})) for c, d in used["feature_details"].items()} != dec["categories"]:
+        problems.append("typology: declared category sources differ from those used")
+    if fs["categories"] != dec["categories"]:
+        problems.append("typology: categories in the current config differ from feature_set.json (re-run the stage)")
     if fs["features"] != used["features"] or fs["present_codes"] != dec["present_codes"] or fs["sensitivity"] != dec["sensitivity"]:
         problems.append("typology: feature set in the current config differs from feature_set.json (re-run the stage)")
     checks.append("typology: feature set declared == used")

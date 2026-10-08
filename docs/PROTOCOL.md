@@ -15,7 +15,7 @@ reorganisation commit `db9156f`).
 | | Primary (high power) | Secondary (finer) |
 |---|---|---|
 | Outcome | Grambank inflectional extent (`typology` stage) | LDL predictability under paradigm cell filling (this protocol, §1–§7) |
-| Languages | every GeLaTo-linked language in Grambank with ≥ 60% of the 35 core features coded, including isolating languages | inflecting languages with paradigm data; here the two pilot units |
+| Languages | every GeLaTo-linked language in Grambank with ≥ 60% of the 12 inflectional categories coded (pcfp_v2; each category merges its dependent Grambank features by OR, TYPOLOGY.md §3; pcfp_v1: 35 raw features), including isolating languages | inflecting languages with paradigm data; here the two pilot units |
 | Unit | one row per language-level Glottocode | one row per unit × item set × policy × pool cap × budget |
 | Key | `glottocode` | `glottocode` (same key; many LDL design cells per language, so filter to one design cell before joining) |
 

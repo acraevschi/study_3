@@ -8,21 +8,71 @@ import pytest
 from morph_ldl.typology import grambank as gb
 from test_typology_helpers import FIX, default_block, fixture_typology
 
-CORE = ("GB079 GB080 GB082 GB083 GB084 GB086 GB312 GB089 GB090 GB091 GB092 GB093 GB094 GB107 GB286 "
-        "GB042 GB043 GB044 GB165 GB166 GB070 GB071 GB072 GB073 GB430 GB431 GB432 GB433 "
-        "GB170 GB171 GB172 GB184 GB185 GB186 GB198").split()
-EXCLUDED = "GB047 GB048 GB049 GB187 GB188 GB119 GB120 GB121 GB298 GB103 GB104 GB113 GB147 GB148 GB155 GB275".split()
+CATEGORIES = {
+    "tense": ["GB082", "GB083", "GB084"], "aspect": ["GB086"], "mood": ["GB312"],
+    "person_indexing": ["GB089", "GB090", "GB091", "GB092", "GB093", "GB094"], "negation": ["GB107"],
+    "polar_interrogation": ["GB285", "GB286"], "nominal_number": ["GB042", "GB043", "GB044", "GB165", "GB166"],
+    "case": ["GB070", "GB071", "GB072", "GB073"], "possessor_affix": ["GB430", "GB432"],
+    "possessed_affix": ["GB431", "GB433"], "gender_agreement": ["GB170", "GB171", "GB172", "GB198"],
+    "number_agreement": ["GB184", "GB185", "GB186"]}
+EXCLUDED = ("GB079 GB080 GB047 GB048 GB049 GB187 GB188 GB119 GB120 GB121 GB298 GB103 GB104 GB113 GB147 GB148 "
+            "GB155 GB275").split()
 
 
-def test_default_block_declares_the_35_core_features():
+def test_default_block_declares_the_12_inflection_categories():
     fs = gb.parse_feature_set(default_block())
-    assert fs["features"] == CORE and len(fs["features"]) == 35
+    assert fs["features"] == list(CATEGORIES) and fs["categories"] == CATEGORIES
     assert sorted(fs["excluded"]) == sorted(EXCLUDED)
-    assert {g: c for g, c in fs["present_codes"].items()} == {g: ["1"] for g in CORE}
-    assert len(fs["sensitivity"]["verbal"]) == 15
-    assert len(fs["sensitivity"]["nominal"]) == 13
-    assert len(fs["sensitivity"]["no_agreement"]) == 28
-    assert not set(fs["sensitivity"]["no_agreement"]) & {"GB170", "GB171", "GB172", "GB184", "GB185", "GB186", "GB198"}
+    assert fs["present_codes"] == {c: ["1"] for c in CATEGORIES}
+    assert len(fs["sensitivity"]["verbal"]) == 6 and len(fs["sensitivity"]["nominal"]) == 4
+    assert fs["sensitivity"]["no_agreement"] == list(CATEGORIES)[:10]
+
+
+def _cat_block(cats, domains):
+    t = fixture_typology()
+    t["feature_set"] = {"id": "fixture_cats", "n_features": len(cats), "categories": cats, "domains": domains,
+                        "excluded": {"other": ["GB020"]}, "present_codes": {"default": ["1"], "per_feature": {}}}
+    t["sensitivity_sets"] = {"verbal": [next(iter(domains))]}
+    return t
+
+
+def test_category_or_merge_rule():
+    G = _gb()
+    t = _cat_block({"verb": ["GB080", "GB082"], "noun": ["GB044"], "mixed": ["GB070", "GB170"]},
+                   {"verbal_tam": ["verb"], "nominal_number": ["noun"], "agreement": ["mixed"]})
+    fs = gb.parse_feature_set(t)
+    used = gb.check_against_grambank(fs, G["parameters"], G["codes"])
+    assert used["verb"]["sources"].keys() == {"GB080", "GB082"} and used["verb"]["codes"] == ["0", "1"]
+    valid = {c: used[c]["codes"] for c in fs["features"]}
+    m = gb.category_matrix(G["values"], fs, valid)
+    assert m.loc["lang1"].tolist() == ["1", "1", "?"]       # 1|1, 1, ?|0
+    assert m.loc["iso1"].tolist() == ["1", "0", "0"]        # 1|?, 0, 0|0
+    assert m.loc["lang2"].tolist() == ["0", "", ""]         # 0|0, no rows, no rows
+    c = gb.count_set(m, fs["features"], fs["present_codes"], valid)
+    assert (c.loc["lang1", "n_coded"], c.loc["lang1", "n_present"]) == (2, 2)
+    assert (c.loc["iso1", "n_coded"], c.loc["iso1", "n_present"]) == (3, 1)
+
+
+@pytest.mark.parametrize("cats, domains, extra, msg", [
+    ({"a": ["GB080"]}, {"verbal_tam": ["b"]}, {}, "not a declared category"),
+    ({"a": ["GB080"], "b": ["GB080"]}, {"verbal_tam": ["a", "b"]}, {}, "source of two categories"),
+    ({"a": ["GB080"], "b": ["GB082"]}, {"verbal_tam": ["a"]}, {"n_features": 1}, "not placed in any domain"),
+    ({"a": ["GB020"]}, {"verbal_tam": ["a"]}, {}, "both included and excluded"),
+    ({"a": ["GB080"]}, {"verbal_tam": ["a"]}, {"present_codes": {"default": ["1", "2"]}}, "binary sources only"),
+    ({"A": ["GB080"]}, {"verbal_tam": ["A"]}, {}, "invalid category name"),
+])
+def test_ill_formed_category_set_is_refused(cats, domains, extra, msg):
+    t = _cat_block(cats, domains)
+    t["feature_set"].update(extra)
+    with pytest.raises(gb.FeatureSetError, match=msg):
+        gb.parse_feature_set(t)
+
+
+def test_category_sources_must_be_binary():
+    G = _gb()
+    t = _cat_block({"a": ["GB080", "GB999"]}, {"verbal_tam": ["a"]})
+    with pytest.raises(gb.FeatureSetError, match="not binary"):
+        gb.check_against_grambank(gb.parse_feature_set(t), G["parameters"], G["codes"])
 
 
 @pytest.mark.parametrize("mutate, msg", [

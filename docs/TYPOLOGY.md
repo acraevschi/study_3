@@ -79,6 +79,13 @@ Edge cases:
   dialects in Glottolog 5.3 (lito1235, tamb1254, temp1235) and the one that is a family
   there (nuuu1241, N||ng-Danster !Ui) are not used; they are listed in
   `missing_from_grambank.csv` (`grambank_dialect_entries`) when they would fill a gap.
+  **pcfp_v2 changes this rule** (`typology.dialect_entries: substitute`, user decision
+  2026-10-08; pcfp_v1 used `ignore`, the default). A language with no language-level
+  Grambank entry is represented by one of the non-language-level Grambank entries that
+  roll up to it: the one with most coded main-set features (ties: lowest ID). Entries are
+  never merged. `grambank_inflection.csv` records the entry used (`grambank_entry`,
+  `grambank_entry_level`), and `coverage_summary.json` lists all substitutes. Group
+  map-down counts substituted languages as Grambank-coded.
 * Group map-down counts only descendants with a language-level Grambank entry. It is
   therefore a Grambank-conditional rule: it selects the only codable language, and it is
   reported as such.
@@ -98,7 +105,83 @@ ISO code. The manifest records which source was used per unit. The code is rolle
 language level with Glottolog. A unit whose Glottocode cannot be found is reported in the
 manifest and in `coverage_summary.json`; the stage does not fail.
 
-## 3. Feature set (declared: `typology.feature_set`, id `grambank_core_inflection_35_v1`)
+## 3. Feature set (declared: `typology.feature_set`, id `grambank_inflection_categories_12_v1`; pcfp_v2 and the default block)
+
+**Why categories, not features.** Grambank splits one inflectional category into several
+binary features: by argument role (S/A/P), affix position (prefix/suffix), value
+(singular/dual/plural/…) or host (adjective/demonstrative/article). Many of these features
+depend logically on each other:
+* a language without person-indexing affixes is coded 0 six times (GB089–GB094);
+* one without case is coded 0 four times (GB070–GB073);
+* every gender-agreement feature presupposes a gender system.
+
+A share of such features therefore weights a category by how finely Grambank splits it
+(person indexing was 6/35 of the old score, mood 1/35). It also overstates the number of
+independent observations behind each language's count.
+
+The GBI curation (Graff et al. 2025, *Sci. Data* 12:106) removes these logical
+dependencies:
+* it merges such features into "X at all" features by logical OR;
+* it codes sub-features NA unless the parent is present.
+
+Graff et al. 2025 (*Sci. Adv.*) use GBI rather than raw Grambank for the same reason. The
+GBI rules were read from the curation table `input/GBI/parameters.csv` in that paper's
+archive.
+
+**The measure.** The outcome counts 12 inflectional categories. Each category is the
+logical OR of its binary Grambank sources (GBI merge rule), computed by the stage from the
+pinned Grambank v1.0.3 values (`category_matrix`):
+* `1` if any source is `1`;
+* `0` if every source is `0`;
+* empty if no source has a row;
+* otherwise `?` (not coded).
+
+| category | domain | Grambank sources | GBI equivalent |
+|---|---|---|---|
+| tense | verbal_tam | GB082, GB083, GB084 (present / past / future marking on the verb) | "overt morphological tense" (GB580mcc; GBI's GB557drm also counts non-morphological tense) |
+| aspect | verbal_tam | GB086 (perfective/imperfective on the verb) | morphological part of GB559drm |
+| mood | verbal_tam | GB312 (mood marking on the verb) | morphological part of GB558drm |
+| person_indexing | person_indexing | GB089–GB094 (S/A/P by suffix or prefix) | GB625m |
+| negation | neg_interrog | GB107 (negation by affix/clitic/verb modification) | GB107 (unchanged in GBI) |
+| polar_interrogation | neg_interrog | GB285, GB286 (polar question by verbal morphology, with or without a particle) | GB947m |
+| nominal_number | nominal_number | GB042, GB043, GB044, GB165, GB166 (sg/du/pl/trial/paucal on nouns) | GB991drm |
+| case | case | GB070–GB073 (core/oblique × pronominal/non-pronominal) | GB480m |
+| possessor_affix | possession | GB430, GB432 (prefix/suffix on the possessor) | GB590m |
+| possessed_affix | possession | GB431, GB433 (prefix/suffix on the possessed noun) | GB591m |
+| gender_agreement | agreement | GB170, GB171, GB172, GB198 (adjective/demonstrative/article/numeral) | GB560drm |
+| number_agreement | agreement | GB184, GB185, GB186 (adjective/demonstrative/article) | GB561drm |
+
+The merged categories are used unconditioned (GBI's `c`/`C` variants set NA where a
+parent is absent). For a breadth count, "no gender, hence no gender agreement" must stay a
+`0`, not become NA.
+
+**Changes from the 35-feature set:**
+* GB079 and GB080 are excluded (`catch_all_verbal_affixes`). These "verbal
+  prefixes/suffixes other than pure S/A/P markers" overlap the TAM features and are not in
+  GBI.
+* GB285 joins GB286 as a source of `polar_interrogation`.
+* The other exclusions are unchanged (see the table below).
+* Sources must be binary in Grambank; the stage checks this.
+
+**Domains and sensitivity sets.** The domain names are kept, now holding categories:
+`verbal` has 6 categories, `nominal` 4, `no_agreement` 10.
+
+The clitic heuristic's thresholds are rescaled from 5 of 35 to 2 of 12. So is
+`minimal_inflection`, which stays at `n_present <= 1`. That cut is now relatively looser,
+1 of 12 instead of 1 of 35 (§12).
+
+**Remaining dependencies (documented, not removed).** Merging removes the logical
+dependencies *within* a category. Statistical dependencies *between* categories remain,
+for example those that GBI's "statistical" curation handles by extra conditioning:
+* possessed-noun affixes with person indexing;
+* number agreement with nominal number;
+* gender agreement with number agreement;
+* negation affixes with TAM morphology.
+
+The beta-binomial model (§9) absorbs these as overdispersion.
+
+### 3a. pcfp_v1 feature set (archived: id `grambank_core_inflection_35_v1`, `configs/pcfp_v1.yaml`)
+
 
 35 binary Grambank features (codes `0`/`1` in v1.0.3). One line each, checked against
 the parameter text in `parameters.csv`.
@@ -339,3 +422,92 @@ problems; 10 files opened, none forbidden. Two runs gave byte-identical outputs.
   41 proxy-only languages (the prototype ignored GBI/TLI proxies). Individual totals
   differ for 3 languages (Iron Ossetian, Kabardian, Western Farsi) because map-down adds
   populations (e.g. Circassian -> Kabardian); proxy populations are counted separately.
+
+## 11. Real run (2026-10-08, experiment `pcfp_v1`, `outputs/pcfp_v1/typology/`)
+
+Config `configs/pcfp_v1.yaml` (hash 8b088277dfaa1e26), code `9c4ee53`. Every count in §10
+was reproduced exactly:
+
+* 558 populations and 619 link rows;
+* 350 languages (309 non-proxy, 41 proxy-only);
+* 193 non-proxy languages in Grambank, 183 / 173 / 168 at 50 / 60 / 75% coverage;
+* the same no-inflection, minimal-inflection and clitic-flag lists;
+* 116 non-proxy languages missing from Grambank;
+* the same LDL overlap.
+
+The typology audit inside the final `audit` stage passed (0 problems across 102 artifact
+sets). The results are in [REPORT_pcfp_v1.md](REPORT_pcfp_v1.md) §5.
+
+**Are the missing languages really absent?** (checked 2026-10-08,
+`analyses/pcfp_v1_2026_10_08/grambank_missing_check.py` → `grambank_missing_check.csv`)
+
+Each of the 127 languages in `missing_from_grambank.csv` (116 non-proxy, 11 proxy-only)
+was searched in Grambank v1.0.3 in four ways:
+
+* by ISO 639-3 code;
+* for Grambank entries below the language in Glottolog (dialects);
+* for Grambank entries above it (groups or families);
+* by name.
+
+Result:
+
+* **No language is coded under a different language-level Glottocode or ISO code.**
+  Spanish (stan1288), German (stan1295), Scottish Gaelic (scot1245), Romanian (roma1327),
+  Bulgarian (bulg1262), Yoruba (yoru1245), Tajik, Nogai, Sindhi and the rest have no
+  Grambank entry at any level. Grambank v1.0.3 does not cover them.
+* **Three languages are coded only through dialect entries,** which §2 declares unused:
+  * Selkup (selk1253, 24 individuals): Southern Selkup (sout3262);
+  * Karelian (kare1335, 15): Northern Karelian (nort2673) and Tver (tver1240);
+  * Terena-Kinikinao-Chane (tere1279, 1): Terena (tere1281) and Kinikinao (guan1270).
+
+  Letting a dialect entry stand for its language would add them. That is a rule change
+  to be declared before any outcome analysis, not a correction.
+* **The other hits are not matches:**
+  * Oceanic (ocea1241) is a family-level Grambank entry (a reconstruction), not a code
+    for the Oceanic languages Mamusi, Duke, Sowa and others.
+  * Aromanian ≠ Romanian, Shuar ≠ Shua, Narom ≠ Naro, Basay ≠ Basa (Cameroon).
+* **The GeLaTo side may be off.** The Scottish population samples (43 individuals) are
+  linked to Scottish Gaelic (scot1245) through GeLaTo's own code, which may not reflect
+  what they speak (§10). Whether they should link to English (stan1293, in Grambank) is
+  a GeLaTo-link review decision; it must not be decided by looking at either outcome.
+
+**Dialect substitution in pcfp_v2** (`outputs/pcfp_v2/typology/`; audit: no problems).
+
+* Karelian (via Northern Karelian, 14/35), Selkup (via Southern Selkup, 15/35) and
+  Terena-Kinikinao-Chane (via Kinikinao, 11/34) enter the main set.
+* For Terena, the coverage rule picked Kinikinao over Terena, which has fewer coded
+  features. The GeLaTo population (1 individual) is probably Terena, so this needs review.
+* Murut's group map-down (to Timugon Murut) becomes ambiguous, because a second Murutic
+  language is now Grambank-coded through a dialect entry.
+* Main set: 173 → 175 languages (≥ 50%: 185, ≥ 75%: 170); 203 including proxy-only.
+* Other languages also gain substitutes (Hopi, Eastern Mari and more). They are not
+  GeLaTo-linked, so they do not affect the outcome set.
+
+## 12. pcfp_v2 run with the 12 categories (2026-10-08, `outputs/pcfp_v2/typology/`)
+
+The run used `dialect_entries: substitute` (§2) and the 12-category set (§3). The typology
+audit passes; the full audit reports 56 artifact sets and 0 problems. Comparisons are with
+the same run under the 35-feature set.
+
+* **Entering the main analysis** (non-proxy, coverage ≥ 60%): **175** languages, the same
+  175 as with the 35-feature set. Mean coverage is 0.88 (0.90 before).
+* **Agreement with the old score:** Pearson 0.92 and Spearman 0.89 with the 35-feature
+  share across the 175. Mean share is 0.62 (SD 0.23).
+* **Distribution of n_present** (0–12):
+
+  | n_present | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+  |---|---|---|---|---|---|---|---|---|---|---|---|---|
+  | languages | 4 | 4 | 5 | 8 | 15 | 11 | 9 | 23 | 42 | 33 | 16 | 5 |
+* **No inflection** (0 categories): Central Khmer 0/11, Naxi 0/12, She 0/10 and
+  Vietnamese 0/11; Thai 0/5 is below coverage. The list is unchanged.
+* **Minimal (≤ 1).** Mandarin and Northern Tujia stay; Central Maewo, Mussau-Emira, Tagalog
+  and Tonga are added. ≤ 1 of 12 is a looser cut than ≤ 1 of 35. Tagalog's voice/focus
+  morphology falls under the declared `valency_voice` exclusion. The flag is descriptive.
+* **Ceiling and compression.** No language reaches 12/12. A few reach share 1 through
+  missing codes (Ingush 10/10, North-Central Dargwa 9/9).
+  * The scale measures breadth, so it compresses elaborate systems: Italian 8/12 (19/35
+    before), Finnish 8/12 (14/35), English 7/12 (10/35).
+  * The largest upward shifts are in languages whose many 35-feature zeros were sub-values
+    of present categories (Ingush, Cocama-Cocamilla, Dargwa: +0.38 to +0.42 in share).
+* **Clitic flags:** 16 non-proxy languages, with Lahu and Nakanai new at the rescaled
+  threshold.

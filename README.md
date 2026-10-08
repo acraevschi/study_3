@@ -16,9 +16,13 @@ commit `24390cf`.
 The pipeline produces two morphology outcomes for a later admixture–morphology analysis
 (not fitted here):
 
-* **Grambank inflectional extent** (primary). The share of 35 core inflectional features
-  coded present, for every GeLaTo-linked language in Grambank, including isolating
-  languages.
+* **Grambank inflectional extent** (primary). The number of 12 inflectional categories
+  present out of those coded, for every GeLaTo-linked language in Grambank, including
+  isolating languages. Examples of categories: tense, person indexing, case, gender
+  agreement.
+  * Each category merges its logically dependent Grambank features by OR, following the
+    GBI curation of Graff et al. 2025.
+  * pcfp_v1 used the share of 35 raw features.
 * **LDL predictability** (secondary; inflecting languages only). Every verb is known
   through k randomly drawn forms (k ~ U{1..7}, the same cap in every language). A native
   LDL model (JudiLing.jl, end-state, simulated semantics) fills the hidden cells.
@@ -42,7 +46,7 @@ in separate tables.
 | [docs/REPORT.md](docs/REPORT.md) | pilot_v1 results (archived task) |
 | [docs/PIPELINE_OVERVIEW.md](docs/PIPELINE_OVERVIEW.md) | one-page diagram of the stages and fitted models |
 | [docs/gelato_feasibility_2026-10-01.md](docs/gelato_feasibility_2026-10-01.md) | GeLaTo feasibility review (what the genetic data can and cannot measure) |
-| [docs/TYPOLOGY.md](docs/TYPOLOGY.md) | Grambank inflection-extent outcome: sources, feature set, mapping rules, planned analysis |
+| [docs/TYPOLOGY.md](docs/TYPOLOGY.md) | Grambank inflection-extent outcome: sources, 12-category feature set, mapping rules, planned analysis |
 | [docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md) | pcfp_v1 results (current) |
 
 ## Setup
@@ -128,7 +132,7 @@ Nothing here is our own primary data. Cite every source below in any write-up.
 | ALmorphinfl (Muradoğlu & Hulden 2022) | reference implementation for the active-learning scores | 3caf0d0 | `external/` |
 | GeLaTo | population metadata, Glottocodes, sample sizes | gelato-data c625fdc | `analyses/gelato_feasibility_2026_10_01/sources/` |
 | Graff et al. 2025 archive | ADMIXTURE Q-matrix identifiers and population–language table (no ancestry values are used yet) | Zenodo 15263706 | `analyses/gelato_feasibility_2026_10_01/sources/` |
-| Grambank (Skirgård et al. 2023) | inflection-extent outcome (35 core features) | v1.0.3 (7ae000c) | `external/grambank` |
+| Grambank (Skirgård et al. 2023) | inflection-extent outcome (12 inflectional categories; pcfp_v1: 35 features) | v1.0.3 (7ae000c) | `external/grambank` |
 | Glottolog CLDF | dialect → language roll-up, family, macroarea | v5.3 (072ca0d) | `external/glottolog-cldf` |
 
 The exact input hashes of each run are in its `outputs/<experiment>/<stage>/stage_manifest.json`

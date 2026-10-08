@@ -12,6 +12,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
+import numpy as np
 import pandas as pd
 
 from morph_ldl.data.util import read_text_csv, sha256_file
@@ -78,13 +79,19 @@ class FeatureSetError(ValueError):
 
 
 _GB_ID = re.compile(r"^GB\d{3}$")
+_CAT_ID = re.compile(r"^[a-z][a-z0-9_]*$")
 
 
 def parse_feature_set(tcfg: dict) -> dict:
     """Validate cfg['typology'] feature declarations (shape only, no data).
 
     Returns {"id", "features" (ordered), "domain_of", "domains", "excluded",
-    "present_codes" (per feature), "sensitivity" (name -> ordered ids)}.
+    "present_codes" (per feature), "sensitivity" (name -> ordered ids), "categories"}.
+
+    With ``feature_set.categories`` (category -> Grambank IDs), the counted features are
+    categories: domains list category names, and each category is the logical OR of its
+    binary Grambank sources (``category_matrix``; the merge rule of the GBI curation,
+    Graff et al. 2025, Sci. Data 12:106). Without it, domains list Grambank IDs directly.
     """
     if not isinstance(tcfg, dict):
         raise FeatureSetError("cfg['typology'] must be a mapping")
@@ -97,13 +104,34 @@ def parse_feature_set(tcfg: dict) -> dict:
     domains = fs.get("domains")
     if not isinstance(domains, dict) or not domains:
         raise FeatureSetError("typology.feature_set.domains must be a non-empty mapping")
+    cats_cfg = fs.get("categories")
+    categories: Dict[str, List[str]] = {}
+    if cats_cfg is not None:
+        if not isinstance(cats_cfg, dict) or not cats_cfg:
+            raise FeatureSetError("typology.feature_set.categories must be a non-empty mapping")
+        source_of: Dict[str, str] = {}
+        for cname, ids in cats_cfg.items():
+            if not isinstance(cname, str) or not _CAT_ID.match(cname):
+                raise FeatureSetError(f"invalid category name {cname!r}")
+            if not isinstance(ids, list) or not ids:
+                raise FeatureSetError(f"category {cname!r} must list Grambank IDs")
+            for g in ids:
+                if not isinstance(g, str) or not _GB_ID.match(g):
+                    raise FeatureSetError(f"invalid Grambank ID {g!r} in category {cname!r}")
+                if g in source_of:
+                    raise FeatureSetError(f"{g} is a source of two categories ({source_of[g]}, {cname})")
+                source_of[g] = cname
+            categories[cname] = list(ids)
     features: List[str] = []
     domain_of: Dict[str, str] = {}
     for dname, ids in domains.items():
         if not isinstance(ids, list) or not ids:
             raise FeatureSetError(f"domain {dname!r} must be a non-empty list")
         for g in ids:
-            if not isinstance(g, str) or not _GB_ID.match(g):
+            if categories:
+                if g not in categories:
+                    raise FeatureSetError(f"domain {dname!r} lists {g!r}, which is not a declared category")
+            elif not isinstance(g, str) or not _GB_ID.match(g):
                 raise FeatureSetError(f"invalid Grambank ID {g!r} in domain {dname!r}")
             if g in domain_of:
                 raise FeatureSetError(f"{g} listed twice ({domain_of[g]}, {dname})")
@@ -112,6 +140,9 @@ def parse_feature_set(tcfg: dict) -> dict:
     n = fs.get("n_features")
     if not isinstance(n, int) or n != len(features):
         raise FeatureSetError(f"n_features={n!r} but {len(features)} features declared")
+    if categories and set(categories) != set(features):
+        raise FeatureSetError(f"categories not placed in any domain: {sorted(set(categories) - set(features))}")
+    sources = [g for c in features for g in categories.get(c, [])]
     excl = fs.get("excluded", {}) or {}
     if not isinstance(excl, dict):
         raise FeatureSetError("typology.feature_set.excluded must be a mapping")
@@ -120,7 +151,7 @@ def parse_feature_set(tcfg: dict) -> dict:
         for g in ids or []:
             if not isinstance(g, str) or not _GB_ID.match(g):
                 raise FeatureSetError(f"invalid excluded ID {g!r}")
-            if g in domain_of:
+            if g in domain_of or g in sources:
                 raise FeatureSetError(f"{g} is both included and excluded")
             excluded[g] = reason
     pc = fs.get("present_codes")
@@ -128,6 +159,9 @@ def parse_feature_set(tcfg: dict) -> dict:
         raise FeatureSetError("typology.feature_set.present_codes.default is missing")
     default = [str(x) for x in pc["default"]]
     per = {str(k): [str(x) for x in v] for k, v in (pc.get("per_feature") or {}).items()}
+    if categories and (per or default != ["1"]):
+        raise FeatureSetError("a category set counts 'present' as '1' (binary sources only); "
+                              "present_codes must be {default: ['1']}")
     for g in per:
         if g not in domain_of:
             raise FeatureSetError(f"present_codes.per_feature has undeclared feature {g}")
@@ -150,7 +184,8 @@ def parse_feature_set(tcfg: dict) -> dict:
         sensitivity[name] = [g for g in features if domain_of[g] in set(doms)]
     return {"id": fid, "features": features, "domain_of": domain_of,
             "domains": {d: list(v) for d, v in domains.items()}, "excluded": excluded,
-            "present_codes": present, "explicit_present": sorted(per), "sensitivity": sensitivity}
+            "present_codes": present, "explicit_present": sorted(per), "sensitivity": sensitivity,
+            "categories": categories}
 
 
 def check_against_grambank(fs: dict, parameters: pd.DataFrame, codes: pd.DataFrame) -> Dict[str, dict]:
@@ -160,6 +195,23 @@ def check_against_grambank(fs: dict, parameters: pd.DataFrame, codes: pd.DataFra
     """
     pnames = dict(zip(parameters["ID"], parameters["Name"]))
     code_lists = codes.groupby("Parameter_ID")["Name"].apply(lambda s: sorted(set(s))).to_dict()
+    if fs.get("categories"):
+        used = {}
+        for c in fs["features"]:
+            src = {}
+            for g in fs["categories"][c]:
+                if g not in pnames:
+                    raise FeatureSetError(f"{g} (category {c}) not in Grambank parameters.csv")
+                if set(code_lists.get(g, [])) != {"0", "1"}:
+                    raise FeatureSetError(f"{g} (category {c}) is not binary {code_lists.get(g, [])}")
+                src[g] = pnames[g]
+            used[c] = {"name": c, "domain": fs["domain_of"][c], "codes": ["0", "1"], "present_codes": ["1"],
+                       "rule": "OR: 1 if any source is 1; 0 if every source is 0; otherwise '?'",
+                       "sources": src}
+        for g in sorted(fs["excluded"]):
+            if g not in pnames:
+                raise FeatureSetError(f"{g} not in Grambank parameters.csv")
+        return used
     used = {}
     for g in fs["features"] + sorted(fs["excluded"]):
         if g not in pnames:
@@ -202,6 +254,27 @@ def feature_matrix(values: pd.DataFrame, features: Sequence[str], valid_codes: D
     m = v.pivot(index="Language_ID", columns="Parameter_ID", values="Value")
     m = m.reindex(columns=list(features)).fillna("")
     return m.sort_index()
+
+
+def category_matrix(values: pd.DataFrame, fs: dict, valid_codes: Dict[str, List[str]],
+                    language_ids: Optional[Iterable[str]] = None) -> pd.DataFrame:
+    """Language x counted-feature table. For a category set, each category is the logical
+    OR of its binary sources (GBI merge rule): '1' if any source is '1', '0' if every source
+    is '0', '' if no source has a row, otherwise '?'. Without categories this is
+    ``feature_matrix``."""
+    cats = fs.get("categories") or {}
+    if not cats:
+        return feature_matrix(values, fs["features"], valid_codes, language_ids)
+    srcs = [g for c in fs["features"] for g in cats[c]]
+    raw = feature_matrix(values, srcs, {g: ["0", "1"] for g in srcs}, language_ids)
+    out = pd.DataFrame(index=raw.index)
+    for c in fs["features"]:
+        sub = raw[cats[c]]
+        any1 = sub.eq("1").any(axis=1)
+        all0 = sub.eq("0").all(axis=1)
+        none = sub.eq("").all(axis=1)
+        out[c] = np.select([any1, all0, none], ["1", "0", ""], default="?")
+    return out
 
 
 def count_set(matrix: pd.DataFrame, features: Sequence[str], present_codes: Dict[str, List[str]],
