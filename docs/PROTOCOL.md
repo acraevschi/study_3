@@ -1,6 +1,9 @@
 # Experimental protocol (declared before selection and outer-test evaluation)
 
-Owner: main agent. Status: **declared for pcfp_v1** (`configs/pcfp_v1.yaml`, 2026-10-08).
+Owner: main agent. Status: **declared for pcfp_v1** (`configs/pcfp_v1.yaml`, 2026-10-08;
+completed, [REPORT_pcfp_v1.md](REPORT_pcfp_v1.md)) and **pcfp_v2** (`configs/pcfp_v2.yaml`,
+2026-10-08: the repeated-random design of §4b, now the default; everything else as for
+pcfp_v1).
 Component details: [DATA.md](DATA.md), [SELECTION.md](SELECTION.md),
 [LDL_PROTOCOL.md](LDL_PROTOCOL.md), [TYPOLOGY.md](TYPOLOGY.md); interfaces:
 [CONTRACT.md](CONTRACT.md).
@@ -95,6 +98,45 @@ one repetition, K = 3 outer folds.
 * Each training sample contains 100 core + 100 selected verbs: about 800 shown forms
   (k̄ ≈ 4). The number of forms is reported for every sample
   (`eval/sample_composition.csv`).
+
+## 4b. Repeated-random design (pcfp_v2; default `cv.design: repeated_random`)
+
+pcfp_v1 found no gain from LDL-uncertainty selection over random selection at B = 100
+(active − random about −1 point in both languages). pcfp_v2 therefore drops active
+selection from the outcome pipeline (the selector code stays, under
+`cv.design: core_selected`) and asks instead how much the LDL outcome depends on *which*
+random verbs complete the training sample.
+
+Per unit, with the same inventory, exposure draws, auxiliary verbs and LDL tuning as
+pcfp_v1 (same master seed):
+
+* **Core folds.** The 1,200 inventory groups are shuffled with the `core_split` seed
+  (independent of the draw) and K = 5 disjoint core sets of C = 100 verbs (whole groups)
+  are taken. Every draw has identical core sets, so every draw is scored on identical
+  items: the hidden non-citation cells of the 500 core verbs.
+* **Random draws.** R = 5 independent draws (`random_draw` seed per draw; manifest
+  `rep{r}` = draw r). Each draw takes 100 verbs (whole groups) from the 700 inventory
+  verbs outside every core group. **One draw is shared by all five folds**, so a draw's
+  effect is the same 100 extra verbs throughout. Draws may share verbs (expected overlap
+  about 100 · 100 / 700 ≈ 14).
+* **Fits.** Fold k of draw r trains on the shown forms of core_k + draw_r (200 verbs,
+  about 800 forms) and predicts the hidden cells of core_k: 5 × 5 = 25 LDL fits per
+  language. The random verbs are training-only (no `selected` item set).
+* **Semantics.** `cv.semantic_seed_scope: fold`: a fold's simulated semantics are the
+  same in every draw. Differences between draws therefore come only from the training
+  verbs; fold differences combine core verbs and semantic seed.
+* **Outputs.** As pcfp_v1, under the run tag `random@700`. In addition,
+  `outcomes/draw_variability.csv` (accuracy per draw, pooled over folds) and
+  `draw_variability_summary.csv` (spread of draw and fold means, and a two-way
+  decomposition of the 25 fit accuracies into draw, fold and residual SDs).
+* **Uncertainty.** The outcome row pools all 25 fits. The cluster bootstrap resamples
+  core-verb groups with all their predictions across draws, so the interval reflects the
+  sampling of core verbs and is conditional on the fitted models. The between-draw spread
+  is the robustness check and is reported next to it, not folded into it.
+* **Capacity.** Needs K·C + random_size ≤ inventory_size and enough auxiliary verbs; the
+  splits stage raises an error rather than shrinking any size (for future languages:
+  at least 1,000 eligible verbs for the inventory plus 200 auxiliary verbs at these
+  sizes).
 
 ## 5. Selection (LDL selector)
 

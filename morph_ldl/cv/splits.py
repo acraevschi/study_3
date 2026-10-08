@@ -226,7 +226,7 @@ def roles(man: pd.DataFrame, repetition: int, fold: int, pool_cap: int | None = 
     lemmas (nested sensitivity pools)."""
     fm = man[(man["repetition"] == repetition) & (man["outer_fold"] == fold)]
     out: Dict[str, List[str]] = {}
-    for role in ("test", "core", "dev", "seed", "pool", "pool_overflow"):
+    for role in ("test", "core", "dev", "seed", "pool", "pool_overflow", "random", "unused"):
         sub = fm[fm["role"] == role].sort_values(["role_rank", "lemma_id"])
         out[role] = sub["lemma_id"].tolist()
     if pool_cap is not None:
@@ -245,7 +245,9 @@ def write_manifest(man: pd.DataFrame, out_dir: Path) -> Path:
 
 def load_manifest(path: Path) -> pd.DataFrame:
     man = pd.read_csv(path, dtype={"lemma_id": str, "group_id": str, "role": str})
-    if (man["role"] == "core").any():
+    if (man["role"] == "random").any():
+        validate_random_manifest(man)
+    elif (man["role"] == "core").any():
         validate_pcfp_manifest(man)
     else:
         validate_manifest(man)
@@ -417,3 +419,128 @@ def validate_pcfp_manifest(man: pd.DataFrame, spec: "PcfpSplitSpec | None" = Non
         inv_sets = {k: frozenset(fm["lemma_id"]) for k, fm in rm.groupby("outer_fold")}
         if len(set(inv_sets.values())) != 1:
             raise SplitError(f"rep {rep}: folds list different inventories")
+
+
+# ----------------------------------------------------------------------------- repeated random design
+
+@dataclass(frozen=True)
+class RandomSplitSpec:
+    inventory_size: int
+    n_folds: int
+    core_size: int
+    random_size: int
+
+    @classmethod
+    def from_cfg(cls, cfg: dict) -> "RandomSplitSpec":
+        cv = cfg["cv"]
+        return cls(inventory_size=int(cv["inventory_size"]), n_folds=int(cv["n_folds"]),
+                   core_size=int(cv["core_size"]), random_size=int(cv["random_size"]))
+
+    @property
+    def random_pool_size(self) -> int:
+        """Inventory verbs outside every core set: the population each draw samples from."""
+        return self.inventory_size - self.n_folds * self.core_size
+
+
+def check_random_capacity(spec: RandomSplitSpec, unit_id: str) -> None:
+    if spec.n_folds * spec.core_size >= spec.inventory_size:
+        raise SplitError(f"{unit_id}: {spec.n_folds} disjoint core sets of {spec.core_size} leave no inventory "
+                         f"verbs for random draws (inventory {spec.inventory_size})")
+    if spec.random_size > spec.random_pool_size:
+        raise SplitError(f"{unit_id}: random_size {spec.random_size} > non-core inventory {spec.random_pool_size}")
+
+
+def build_random_manifest(lemmas: pd.DataFrame, cfg: dict, unit_id: str, draw: int) -> pd.DataFrame:
+    """Repeated-random PCFP manifest for one unit and draw (``repetition`` = draw index).
+
+    1. Inventory as in ``build_inventory`` (``inventory`` seed).
+    2. Core sets: inventory groups shuffled with the ``core_split`` seed, which does not
+       depend on the draw; K disjoint core sets of exactly ``core_size`` lemmas (whole
+       groups). Every draw therefore has identical core sets and test items.
+    3. Random draw: the non-core inventory groups shuffled with the ``random_draw`` seed of
+       this draw; the first ``random_size`` lemmas (whole groups) are role ``random`` in
+       every fold of the draw. Draws are independent and may share verbs.
+    4. Everything else in a fold (other folds' core verbs, undrawn verbs) is ``unused``.
+    ``fold_seed`` holds the draw seed and ``split_seed`` the core_split seed.
+    """
+    spec = RandomSplitSpec.from_cfg(cfg)
+    master = int(cfg["experiment"]["master_seed"])
+    check_random_capacity(spec, unit_id)
+    inv, inv_seed = build_inventory(lemmas, SplitSpec(spec.inventory_size, spec.n_folds, 0, 0, 0, 0), master, unit_id)
+    core_seed = seedlib.derive(master, "core_split", unit_id)
+    inv = _shuffled(inv.sort_values("group_id").reset_index(drop=True), core_seed)
+    avail = np.ones(len(inv), dtype=bool)
+    core_of = np.full(len(inv), -1, dtype=int)
+    for k in range(spec.n_folds):
+        try:
+            taken = _take(inv, avail, spec.core_size)
+        except SplitError as err:
+            raise SplitError(f"{unit_id} core set {k}: {err}") from None
+        core_of[taken] = k
+        avail &= ~taken
+    inv["core_fold"] = core_of
+    draw_seed = seedlib.derive(master, "random_draw", unit_id, draw)
+    rest = _shuffled(inv[inv["core_fold"] < 0].sort_values("group_id").reset_index(drop=True), draw_seed)
+    try:
+        drawn = _take(rest, np.ones(len(rest), dtype=bool), spec.random_size)
+    except SplitError as err:
+        raise SplitError(f"{unit_id} draw {draw}: {err}") from None
+    random_rank = {}
+    for _, g in rest[drawn].iterrows():
+        for lid in g["lemma_id"]:
+            random_rank[lid] = len(random_rank)
+    rows: List[dict] = []
+    for k in range(spec.n_folds):
+        rank_core, rank_unused = 0, 0
+        for _, g in inv.sort_values("group_id").iterrows():
+            for lid in g["lemma_id"]:
+                if g["core_fold"] == k:
+                    role, rk = "core", rank_core; rank_core += 1
+                elif lid in random_rank:
+                    role, rk = "random", random_rank[lid]
+                else:
+                    role, rk = "unused", rank_unused; rank_unused += 1
+                rows.append(dict(lemma_id=lid, group_id=g["group_id"], role=role, role_rank=rk,
+                                 outer_fold=k, fold_seed=draw_seed))
+    man = pd.DataFrame(rows)
+    man["unit_id"] = unit_id
+    man["repetition"] = draw
+    man["inventory_seed"] = inv_seed
+    man["split_seed"] = core_seed
+    man = man[SPLIT_COLUMNS_EXT].sort_values(["outer_fold", "role", "role_rank", "lemma_id"]).reset_index(drop=True)
+    validate_random_manifest(man, spec)
+    return man
+
+
+def validate_random_manifest(man: pd.DataFrame, spec: "RandomSplitSpec | None" = None) -> None:
+    """One role per lemma per fold; groups never straddle roles; exact sizes; core sets
+    disjoint across folds and identical across draws; one random set per draw, shared by
+    its folds and outside every core group; every fold lists the same inventory."""
+    for (rep, k), fm in man.groupby(["repetition", "outer_fold"]):
+        if fm["lemma_id"].duplicated().any():
+            raise SplitError(f"draw {rep} fold {k}: lemma listed twice")
+        rpg = fm.groupby("group_id")["role"].nunique()
+        if (rpg > 1).any():
+            raise SplitError(f"draw {rep} fold {k}: group straddles roles: {rpg[rpg > 1].index[:5].tolist()}")
+        if spec is not None:
+            counts = fm["role"].value_counts()
+            for role, target in (("core", spec.core_size), ("random", spec.random_size)):
+                if counts.get(role, 0) != target:
+                    raise SplitError(f"draw {rep} fold {k}: {role} has {counts.get(role, 0)} != {target}")
+    core_by_draw = {}
+    for rep, rm in man.groupby("repetition"):
+        core = rm[rm["role"] == "core"]
+        if core["lemma_id"].duplicated().any() or core.groupby("group_id")["outer_fold"].nunique().gt(1).any():
+            raise SplitError(f"draw {rep}: core sets overlap across folds")
+        inv_sets = {k: frozenset(fm["lemma_id"]) for k, fm in rm.groupby("outer_fold")}
+        if len(set(inv_sets.values())) != 1:
+            raise SplitError(f"draw {rep}: folds list different inventories")
+        rnd = {k: frozenset(fm.loc[fm["role"] == "random", "lemma_id"]) for k, fm in rm.groupby("outer_fold")}
+        if len(set(rnd.values())) != 1:
+            raise SplitError(f"draw {rep}: folds have different random sets")
+        rnd_groups = set(rm.loc[rm["role"] == "random", "group_id"])
+        if rnd_groups & set(core["group_id"]):
+            raise SplitError(f"draw {rep}: a random verb shares a group with a core verb")
+        core_by_draw[rep] = frozenset(zip(core["lemma_id"], core["outer_fold"]))
+    if len(set(core_by_draw.values())) > 1:
+        raise SplitError("core sets differ across draws")

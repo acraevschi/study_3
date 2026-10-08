@@ -2,6 +2,11 @@
 earlier stages wrote. The pilot_v1 (source-known new-verb) orchestration is preserved at
 commit 24390cf.
 
+Two training-sample designs (``cv.design``, see ``config.cv_design``):
+  repeated_random (default)  fixed core folds x independent random draws; rep{r} = draw r,
+                             run tag random@<non-core inventory size>
+  core_selected (pcfp_v1)    per-fold seed + active (LDL selector) or random acquisition
+
 Layout under outputs/<experiment_id>/:
   data/ eligibility/ registry/ gelato/            data stage (morph_ldl.data)
   splits/<unit>/cell_inventory.csv, eligible_lemmas.csv, exposure_manifest.csv,
@@ -27,7 +32,7 @@ import numpy as np
 import pandas as pd
 
 from morph_ldl import seeds as seedlib
-from morph_ldl.config import PIPELINE_ROOT, is_pcfp, output_dir, unit_cells
+from morph_ldl.config import PIPELINE_ROOT, cv_design, is_pcfp, output_dir, unit_cells
 from morph_ldl.cv import pcfp, splits
 from morph_ldl.provenance import StageRecorder
 
@@ -52,14 +57,22 @@ def _folds(cfg: dict, folds: Optional[Iterable[int]] = None) -> List[int]:
     return [k for k in ks if not folds or k in set(folds)]
 
 
+def _random_design(cfg: dict) -> bool:
+    return cv_design(cfg) == "repeated_random"
+
+
 def _policies(cfg: dict, policies: Optional[Iterable[str]] = None) -> List[str]:
-    ps = list(cfg["selection"]["policies"])
+    ps = ["random"] if _random_design(cfg) else list(cfg["selection"]["policies"])
     return [p for p in ps if not policies or p in set(policies)]
 
 
 def run_specs(cfg: dict, policies: Optional[Iterable[str]] = None) -> List[tuple]:
     """(policy, pool_cap, budgets): every policy at the primary pool cap, plus the
-    pool-size sensitivity runs (declared policies, smallest budget only)."""
+    pool-size sensitivity runs (declared policies, smallest budget only). Repeated-random
+    design: one run, random@<non-core inventory size> with budget ``cv.random_size``."""
+    if _random_design(cfg):
+        spec = splits.RandomSplitSpec.from_cfg(cfg)
+        return [("random", spec.random_pool_size, [spec.random_size])] if _policies(cfg, policies) else []
     primary = int(cfg["cv"]["pool_cap"])
     budgets = sorted(int(b) for b in cfg["selection"]["budgets"])
     specs = [(p, primary, budgets) for p in _policies(cfg, policies)]
@@ -245,7 +258,8 @@ def stage_splits(cfg: dict, units=None, folds=None, policies=None) -> None:
                                                         uc["citation"], master, uid, int(t["exposure"]["max_shown"]))
             rec.inputs += [exposure_path(cfg, uid), udir / "cell_inventory.csv"]
             for rep in cfg["cv"]["repetitions"]:
-                man = splits.build_pcfp_manifest(lem, cfg, uid, int(rep))
+                man = (splits.build_random_manifest(lem, cfg, uid, int(rep)) if _random_design(cfg)
+                       else splits.build_pcfp_manifest(lem, cfg, uid, int(rep)))
                 path = splits.write_manifest(man, split_path(cfg, uid, int(rep)).parent)
                 rec.inputs.append(path)
                 if rep == cfg["cv"]["repetitions"][0]:
@@ -437,9 +451,69 @@ def _selection_job(cfg: dict, unit_id: str, rep: int, fold: int, policy: str, ca
     return {"out": str(out), "skipped": False}
 
 
+def _random_draw_job(cfg: dict, unit_id: str, rep: int, fold: int, policy: str, cap: int, budgets: List[int]) -> dict:
+    """Repeated-random design: write the training sample of (draw ``rep``, fold) = shown
+    forms of the fold's core verbs + the draw's random verbs (no selector, no rounds)."""
+    from morph_ldl.data.stage import forms_path
+    from morph_ldl.schemas import ORDER_COLUMNS
+    from morph_ldl.selection.ldl_acquisition import _ordered_rows
+    out = selection_dir(cfg, unit_id, rep, fold, policy, cap)
+    h = _relevant_hash(cfg, ["cv", "task"], [unit_id, rep, fold, policy, cap, budgets, unit_cfg(cfg, unit_id),
+                                             file_sha(split_path(cfg, unit_id, rep)),
+                                             file_sha(exposure_path(cfg, unit_id)), file_sha(forms_path(cfg, unit_id)),
+                                             code_hash(["morph_ldl/cv/pcfp.py", "morph_ldl/cv/splits.py"])])
+    done = out / "_done.json"
+    if done.exists() and json.load(open(done)).get("hash") == h:
+        return {"out": str(out), "skipped": True}
+    (out / "samples").mkdir(parents=True, exist_ok=True)
+    forms = _cached_forms(cfg, unit_id)
+    expo = load_exposure(cfg, unit_id)
+    r = splits.roles(splits.load_manifest(split_path(cfg, unit_id, rep)), rep, fold)
+    core_sorted, rnd = sorted(r["core"]), r["random"]          # random in role_rank (draw) order
+    (b,) = budgets
+    if len(rnd) != b:
+        raise RuntimeError(f"{unit_id} draw {rep} fold {fold}: {len(rnd)} random verbs != {b}")
+    order = pd.DataFrame([{"lemma_id": l, "acquisition_rank": i + 1, "round": 0, "lemma_score": None,
+                           "score_name": "random_draw"} for i, l in enumerate(rnd)], columns=ORDER_COLUMNS)
+    order.to_csv(out / "order.csv", index=False)
+    rk = {**{l: -len(core_sorted) + i for i, l in enumerate(core_sorted)}, **{l: i + 1 for i, l in enumerate(rnd)}}
+    rows = _ordered_rows(pcfp.shown_rows(forms, expo, core_sorted + rnd), rk)
+    rows.to_csv(out / "samples" / f"budget_{b}.csv", index=False)
+    pd.DataFrame([{"lemma_id": l, "role": "core", "acquisition_rank": -1, "round": -1, "k": expo[l].k, "weight": 1.0}
+                  for l in core_sorted]
+                 + [{"lemma_id": l, "role": "random", "acquisition_rank": i + 1, "round": 0, "k": expo[l].k,
+                     "weight": 1.0} for i, l in enumerate(rnd)]).to_csv(out / "samples" / f"budget_{b}_lemmas.csv",
+                                                                         index=False)
+    v0 = rows[(rows["variant_idx"] == 0) & (~rows["is_missing"].astype(bool))]
+    n_core = int(v0["lemma_id"].isin(set(core_sorted)).sum())
+    summary = {"policy": policy, "design": "repeated_random", "selector": "none (random draw)",
+               "draw": rep, "draw_seed": int(splits.load_manifest(split_path(cfg, unit_id, rep))["fold_seed"].iloc[0]),
+               "n_core": len(core_sorted), "n_random": len(rnd), "random_pool_size": cap,
+               "budgets": {str(b): {"n_selected_verbs": len(rnd), "n_core_verbs": len(core_sorted), "shortfall": 0,
+                                    "n_forms_total": int(len(v0)), "n_forms_core": n_core,
+                                    "n_forms_selected": int(len(v0)) - n_core, "n_rows": int(len(rows)),
+                                    "k_mean_selected": float(np.mean([expo[l].k for l in rnd])),
+                                    "weights": "all 1.0 (frequency-free)", "rounds_used": 0}},
+               "core_forms_in_every_training_sample": True, "ldl_settings": None}
+    with open(out / "selection_summary.json", "w") as fh:
+        json.dump(summary, fh, indent=1)
+    with open(done, "w") as fh:
+        json.dump({"hash": h, "summary": summary}, fh, default=str)
+    return {"out": str(out), "skipped": False}
+
+
 def stage_select(cfg: dict, units=None, folds=None, policies=None) -> None:
+    """core_selected: acquisition (LDL selector or random) per fold. repeated_random: write
+    each (draw, fold) training sample from the manifest."""
     _require_pcfp(cfg)
     frozen_ldl_settings(cfg)                      # ldl_tune must have run (the selector uses its settings)
+    if _random_design(cfg):
+        argsets = [(cfg, u["unit_id"], int(rep), k, p, cap, b) for u in _units(cfg, units)
+                   for rep in cfg["cv"]["repetitions"] for k in _folds(cfg, folds)
+                   for p, cap, b in run_specs(cfg, policies)]
+        with StageRecorder("select", cfg, output_dir(cfg) / "selection") as rec:
+            rec.extra["jobs"] = [_random_draw_job(*a) for a in argsets]
+        return
     argsets = []
     for unit in _units(cfg, units):
         for rep in cfg["cv"]["repetitions"]:
@@ -463,6 +537,8 @@ def _job_queries(cfg: dict, unit: dict, expo: Dict[str, pcfp.Exposure], core_ids
         raise RuntimeError(f"{lemmas_csv}: core verbs differ from the split manifest")
     cit = _citation(cfg, unit)
     qc = pcfp.hidden_queries(expo, sorted(core_ids), cit).assign(item_set="core")
+    if _random_design(cfg):
+        return qc                                # the random verbs are training-only
     qs = pcfp.hidden_queries(expo, selected, cit).assign(item_set="selected")
     return pd.concat([qc, qs], ignore_index=True)
 
@@ -517,6 +593,8 @@ def stage_ldl(cfg: dict, units=None, folds=None, policies=None) -> None:
 # ----------------------------------------------------------------------------- evaluation
 
 def comparisons(cfg: dict) -> List[tuple]:
+    if _random_design(cfg):
+        return []                                   # one policy; draws are summarised separately
     primary = int(cfg["cv"]["pool_cap"])
     out = [(p, primary, "random", primary) for p in cfg["selection"]["policies"] if p != "random"]
     for cap in cfg["cv"].get("pool_cap_sensitivity", []):
@@ -537,7 +615,7 @@ def _composition(cfg: dict, uid: str, rep: int, k: int, policy: str, cap: int, b
     summ = json.load(open(sdir / "selection_summary.json"))
     b = summ["budgets"][str(budget)]
     lem = pd.read_csv(sdir / "samples" / f"budget_{budget}_lemmas.csv")
-    acq = lem[lem["role"] == "acquired"]["lemma_id"]
+    acq = lem[lem["role"].isin(["acquired", "random"])]["lemma_id"]
     sel = lem[lem["role"] != "core"]["lemma_id"]
     labels = pcfp.lemma_labels(forms, sel)
     cls = pd.Series([pcfp.inflection_class(uid, labels[l]) for l in acq], dtype=str)
@@ -713,9 +791,13 @@ def stage_outcomes(cfg: dict, units=None, folds=None, policies=None) -> None:
             m = {k: f[k] for k in ("variety_id", "iso639_3", "glottocode", "pos", "representation", "resource_version")}
             em = pd.read_csv(exposure_path(cfg, uid))
             m.update({f"ldl_{k}": v for k, v in frozen.items()})
-            m.update({"ldl_decoder": cfg["ldl"]["decoder"], "selector": cfg["selection"]["selector"],
-                      "selector_candidate_scoring": cfg["selection"]["candidate_scoring"],
-                      "selector_semantic_seeds": int(cfg["selection"]["semantic_seeds"]),
+            sel = {} if _random_design(cfg) else cfg["selection"]
+            m.update({"ldl_decoder": cfg["ldl"]["decoder"], "design": cv_design(cfg),
+                      "selector": sel.get("selector", "none (random draws)"),
+                      "selector_candidate_scoring": sel.get("candidate_scoring", ""),
+                      "selector_semantic_seeds": int(sel.get("semantic_seeds", 0)),
+                      "n_random_draws": len(cfg["cv"]["repetitions"]) if _random_design(cfg) else 0,
+                      "semantic_seed_scope": cfg["cv"].get("semantic_seed_scope", "repetition_fold"),
                       "core_size": int(cfg["cv"]["core_size"]),
                       "eligible_cells": "|".join(unit_cells(unit, cfg)["eligible"]),
                       "k_distribution_observed": json.dumps({int(k): int(v) for k, v in
@@ -725,6 +807,11 @@ def stage_outcomes(cfg: dict, units=None, folds=None, policies=None) -> None:
         tab.to_csv(out / "ldl_outcomes.csv", index=False)
         pt = outcomes.paired_table(items, cfg, comparisons(cfg))
         pt.to_csv(out / "paired_differences.csv", index=False)
+        if _random_design(cfg):
+            per_draw, dv = outcomes.draw_variability(items)
+            per_draw.to_csv(out / "draw_variability.csv", index=False)
+            dv.to_csv(out / "draw_variability_summary.csv", index=False)
+            print(dv.drop(columns=["note"]).to_string(index=False))
         links = build_population_links([u["unit_id"] for u in _units(cfg, units)], cfg)
         links.to_csv(out / "population_links.csv", index=False)
         rec.extra.update({"n_outcome_rows": len(tab), "n_links": len(links)})
@@ -767,6 +854,7 @@ def audit_unit(cfg: dict, unit: dict, folds=None, policies=None) -> tuple:
     frozen = frozen_ldl_settings(cfg) if chosen.exists() else None
     shown_pairs = {(l, c) for l, e in expo.items() for c in e.shown}
     forms = None
+    core_by_rep: Dict[int, Dict[int, frozenset]] = {}
     for rep in cfg["cv"]["repetitions"]:
         rep = int(rep)
         man = splits.load_manifest(split_path(cfg, uid, rep))
@@ -777,6 +865,11 @@ def audit_unit(cfg: dict, unit: dict, folds=None, policies=None) -> tuple:
             fm = man[(man["repetition"] == rep) & (man["outer_fold"] == k)]
             group_of = dict(zip(fm["lemma_id"], fm["group_id"]))
             core_groups = {group_of[l] for l in core}
+            if _random_design(cfg):
+                core_by_rep.setdefault(rep, {})[k] = frozenset(core)
+                checks_, probs_ = _audit_random_fold(cfg, uid, rep, k, man, full, expo, shown_pairs, cit)
+                checks += checks_; problems += probs_
+                continue
             seeds_seen = {}
             for policy, cap, budgets in run_specs(cfg, policies):
                 sdir = selection_dir(cfg, uid, rep, k, policy, cap)
@@ -863,6 +956,8 @@ def audit_unit(cfg: dict, unit: dict, folds=None, policies=None) -> tuple:
                     checks.append((uid, rep, k, policy, cap, b))
             if len(set(seeds_seen.values())) > 1:
                 problems.append(f"{uid} r{rep} f{k}: seed sets differ across policies")
+    if core_by_rep and len({tuple(sorted(v.items())) for v in core_by_rep.values()}) > 1:
+        problems.append(f"{uid}: core sets differ across random draws")
     # auxiliary (tuning) verbs: outside every inventory group; tuning files shown-only
     inv_groups = set()
     for rep in cfg["cv"]["repetitions"]:
@@ -880,6 +975,57 @@ def audit_unit(cfg: dict, unit: dict, folds=None, policies=None) -> tuple:
         if set(zip(tq["lemma_id"], tq["target_cell"])) & shown_pairs:
             problems.append(f"{uid}: tuning queries ask for shown cells")
         checks.append((uid, "tune"))
+    return checks, problems
+
+
+def _audit_random_fold(cfg: dict, uid: str, rep: int, k: int, man: pd.DataFrame, full: Dict[str, List[str]],
+                       expo: Dict[str, pcfp.Exposure], shown_pairs: set, cit: str) -> tuple:
+    """Repeated-random design: one (draw, fold) training sample and its queries."""
+    checks, problems = [], []
+    core, rnd = set(full["core"]), full["random"]
+    core_hidden = {(l, c) for l in core for c in expo[l].hidden}
+    rm = man[man["repetition"] == rep]
+    all_core_groups = set(rm.loc[rm["role"] == "core", "group_id"])
+    for policy, cap, budgets in run_specs(cfg):
+        sdir = selection_dir(cfg, uid, rep, k, policy, cap)
+        tag = f"{uid} draw{rep} f{k} {run_tag(policy, cap)}"
+        if not (sdir / "order.csv").exists():
+            checks.append((uid, rep, k, policy, cap, "not_run"))
+            continue
+        order = pd.read_csv(sdir / "order.csv")
+        if order["lemma_id"].tolist() != rnd:
+            problems.append(f"{tag}: training verbs differ from the manifest's random draw")
+        fm = rm[rm["outer_fold"] == k]
+        if set(fm.loc[fm["lemma_id"].isin(rnd), "group_id"]) & all_core_groups:
+            problems.append(f"{tag}: a random verb shares a group with a core verb")
+        summ = json.load(open(sdir / "selection_summary.json"))
+        for b in budgets:
+            smp = pd.read_csv(sdir / "samples" / f"budget_{b}.csv", usecols=["lemma_id", "cell_norm", "variant_idx"])
+            lem = pd.read_csv(sdir / "samples" / f"budget_{b}_lemmas.csv")
+            if set(lem.loc[lem["role"] == "core", "lemma_id"]) != core or \
+                    set(lem.loc[lem["role"] == "random", "lemma_id"]) != set(rnd) or len(rnd) != b:
+                problems.append(f"{tag} budget {b}: sample roles differ from the manifest")
+            pairs = _pairs(smp)
+            if set(smp["lemma_id"]) != core | set(rnd):
+                problems.append(f"{tag} budget {b}: sample verbs != core + random draw")
+            if pairs & core_hidden:
+                problems.append(f"{tag} budget {b}: a hidden cell of a core verb is in the training sample")
+            if pairs != {(l, c) for l in core | set(rnd) for c in expo[l].shown}:
+                problems.append(f"{tag} budget {b}: sample cells differ from the exposure draw")
+            if summ["budgets"][str(b)]["n_forms_total"] != len(pairs):
+                problems.append(f"{tag} budget {b}: form count != selection summary")
+            qp = queries_path(cfg, uid, rep, k, policy, cap, b)
+            if not qp.exists() and (ldl_dir(cfg, uid, rep, k, policy, cap, b) / "predictions.csv").exists():
+                problems.append(f"{tag} budget {b}: LDL predictions exist without a query file")
+            if qp.exists():
+                q = pd.read_csv(qp)
+                if not set(q.columns) <= {"lemma_id", "target_cell", "item_set"} or set(q["item_set"]) != {"core"}:
+                    problems.append(f"{tag} budget {b}: query columns or item sets {list(q.columns)}")
+                if set(zip(q["lemma_id"], q["target_cell"])) != {p for p in core_hidden if p[1] != cit}:
+                    problems.append(f"{tag} budget {b}: queries != hidden non-citation cells of core verbs")
+                if set(zip(q["lemma_id"], q["target_cell"])) & shown_pairs:
+                    problems.append(f"{tag} budget {b}: a query asks for a shown cell")
+            checks.append((uid, rep, k, policy, cap, b))
     return checks, problems
 
 

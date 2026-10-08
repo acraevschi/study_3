@@ -1,0 +1,7 @@
+# End-to-end smoke test of the repeated-random PCFP design on real data at tiny sizes.
+# Results are interface checks, not estimates.
+_inherit: pcfp_v2.yaml
+experiment: {id: pcfp_v2_smoke}
+cv: {inventory_size: 300, n_folds: 3, core_size: 20, random_size: 20, repetitions: [0, 1]}
+ldl: {tune: {core_size: 20, extra_size: 20}}
+evaluation: {bootstrap_reps: 200}

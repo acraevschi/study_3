@@ -60,6 +60,20 @@ def is_pcfp(cfg: Dict[str, Any]) -> bool:
     return cfg.get("task", {}).get("name") == "pcfp"
 
 
+DESIGNS = ("repeated_random", "core_selected")
+
+
+def cv_design(cfg: Dict[str, Any]) -> str:
+    """PCFP training-sample design (``cv.design``). ``repeated_random`` (the default): fixed
+    disjoint core folds plus several independent random draws of extra training verbs, each
+    shared by all folds. ``core_selected`` (pcfp_v1): per-fold seed + active or random
+    acquisition from a pool."""
+    d = cfg.get("cv", {}).get("design", "repeated_random")
+    if d not in DESIGNS:
+        raise ValueError(f"cv.design must be one of {DESIGNS}, got {d!r}")
+    return d
+
+
 def unit_cells(unit: Dict[str, Any], cfg: Dict[str, Any]) -> Dict[str, Any]:
     """Return {'source': cell_norm, 'panel': [(slot, cell_norm), ...]} for a unit.
 

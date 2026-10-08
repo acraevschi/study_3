@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from typing import Dict, List, Sequence
 
+import numpy as np
 import pandas as pd
 
 from morph_ldl import seeds as seedlib
@@ -91,3 +92,42 @@ def paired_table(items: pd.DataFrame, cfg: dict, comparisons: Sequence[tuple]) -
                 d.insert(0, k, v)
             rows.append(d)
     return pd.concat(rows, ignore_index=True) if rows else pd.DataFrame()
+
+
+def draw_variability(items: pd.DataFrame) -> tuple:
+    """Repeated-random design (descriptive, not a standard error). Every draw is scored on
+    the same core items, so draw means differ only through the draw's training verbs (and,
+    unless ``cv.semantic_seed_scope`` is ``fold``, its semantic seeds).
+
+    Returns (per_draw, summary): accuracy per draw pooled over folds, and per unit/item set
+    the spread of draw means and fold means plus a two-way decomposition of the fit-level
+    (draw x fold) accuracies: SD of draw effects, SD of fold effects, residual SD."""
+    keys = ["unit_id", "item_set", "policy", "pool_cap", "budget", "model"]
+    per_draw = (items.groupby(keys + ["repetition"])
+                .agg(acc_micro=("correct", "mean"), edit_distance=("edit_distance", "mean"),
+                     n_items=("correct", "size"), n_folds=("outer_fold", "nunique")).reset_index()
+                .rename(columns={"repetition": "draw"}))
+    rows = []
+    for key, sub in items.groupby(keys):
+        fit = sub.groupby(["repetition", "outer_fold"])["correct"].mean().unstack()
+        if fit.isna().any().any():
+            raise ValueError(f"{key}: not every draw x fold fit is present")
+        grand = fit.values.mean()
+        d_eff, f_eff = fit.mean(axis=1) - grand, fit.mean(axis=0) - grand
+        resid = fit.values - grand - d_eff.values[:, None] - f_eff.values[None, :]
+        R, K = fit.shape
+        draw_acc = sub.groupby("repetition")["correct"].mean()
+        fold_acc = sub.groupby("outer_fold")["correct"].mean()
+        rows.append({**dict(zip(keys, key)), "n_draws": R, "n_folds": K,
+                     "acc_pooled": float(sub["correct"].mean()),
+                     "acc_draw_min": float(draw_acc.min()), "acc_draw_max": float(draw_acc.max()),
+                     "acc_draw_sd": float(draw_acc.std(ddof=1)) if R > 1 else float("nan"),
+                     "acc_fold_min": float(fold_acc.min()), "acc_fold_max": float(fold_acc.max()),
+                     "acc_fold_sd": float(fold_acc.std(ddof=1)) if K > 1 else float("nan"),
+                     "fit_draw_effect_sd": float(d_eff.std(ddof=1)) if R > 1 else float("nan"),
+                     "fit_fold_effect_sd": float(f_eff.std(ddof=1)) if K > 1 else float("nan"),
+                     "fit_residual_sd": float(np.sqrt((resid ** 2).sum() / ((R - 1) * (K - 1))))
+                     if R > 1 and K > 1 else float("nan"),
+                     "note": "descriptive spread over draws (same core items) and folds (different core "
+                             "verbs); not a standard error"})
+    return per_draw, pd.DataFrame(rows)

@@ -5,10 +5,14 @@ current pipeline at its root. Earlier exploratory tracks (the MGN-accuracy Bayes
 with demographic and phylogenetic covariates, and the Germanic historical track) were
 archived on 2026-10-08; see [Archive](#archive).
 
-**Status.** The current experiment is `pcfp_v1`: paradigm cell filling for Italian and
-Finnish verbs (MGN), with LDL as its own active-selection model, plus a Grambank
-inflection-extent outcome for all GeLaTo-linked languages. See
-[docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md). The earlier `pilot_v1` (a source-known
+**Status.** The current experiment is `pcfp_v2`: paradigm cell filling for Italian and
+Finnish verbs (MGN) under the default **repeated-random design**, plus a Grambank
+inflection-extent outcome for all GeLaTo-linked languages
+([docs/REPORT_pcfp_v2.md](docs/REPORT_pcfp_v2.md)). The design has 5 fixed folds of 100
+core verbs and 5 random draws of 100 extra training verbs, which gives 25 LDL fits per
+language. `pcfp_v1` compared LDL active selection with random selection and found no
+gain from active selection ([docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md)). Its design
+remains available as `cv.design: core_selected`. The earlier `pilot_v1` (a source-known
 new-verb task with a Transformer selector) is archived: its outputs are in
 `outputs/pilot_v1/`, its report is [docs/REPORT.md](docs/REPORT.md), and its code state is
 commit `24390cf`.
@@ -26,12 +30,14 @@ The pipeline produces two morphology outcomes for a later admixture–morphology
 * **LDL predictability** (secondary; inflecting languages only). Every verb is known
   through k randomly drawn forms (k ~ U{1..7}, the same cap in every language). A native
   LDL model (JudiLing.jl, end-state, simulated semantics) fills the hidden cells.
-  * Training samples are 100 fixed **core** verbs per outer fold plus 100 verbs chosen by
-    **active selection** or by matched **random selection**. The LDL model itself is the
-    selector (low-confidence or high-entropy scores over its candidate supports).
-  * The primary test items are the hidden cells of the core verbs, identical for every
-    policy.
-  * Uncertainty comes from lemma-cluster bootstrap intervals.
+  * Training samples are 100 fixed **core** verbs per outer fold plus 100 **randomly
+    drawn** verbs. There are 5 independent draws, each shared by all 5 folds.
+  * The test items are the hidden cells of the core verbs, identical in every draw.
+  * Uncertainty comes from lemma-cluster bootstrap intervals. The spread over draws is
+    reported separately as a robustness check.
+  * Option `cv.design: core_selected` (pcfp_v1) instead adds 100 verbs chosen by **active
+    selection**, with the LDL model itself as the selector, or by matched random
+    selection.
 
 Both outcomes are keyed by the language-level Glottocode. GeLaTo populations are linked
 in separate tables.
@@ -47,7 +53,8 @@ in separate tables.
 | [docs/PIPELINE_OVERVIEW.md](docs/PIPELINE_OVERVIEW.md) | one-page diagram of the stages and fitted models |
 | [docs/gelato_feasibility_2026-10-01.md](docs/gelato_feasibility_2026-10-01.md) | GeLaTo feasibility review (what the genetic data can and cannot measure) |
 | [docs/TYPOLOGY.md](docs/TYPOLOGY.md) | Grambank inflection-extent outcome: sources, 12-category feature set, mapping rules, planned analysis |
-| [docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md) | pcfp_v1 results (current) |
+| [docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md) | pcfp_v1 results: LDL active selection vs random |
+| [docs/REPORT_pcfp_v2.md](docs/REPORT_pcfp_v2.md) | pcfp_v2 results: repeated random draws (current) |
 
 ## Setup
 
@@ -69,7 +76,7 @@ Use one entry point. Every stage is independently runnable and writes a `stage_m
 (config hash, input hashes, git state, external revisions, package versions, seeds).
 
 ```bash
-.venv/bin/python -m morph_ldl.cli <stage> --config configs/pcfp_v1.yaml [--units ...] [--folds ...] [--policies ...] [--set key=json ...]
+.venv/bin/python -m morph_ldl.cli <stage> --config configs/pcfp_v2.yaml [--units ...] [--folds ...] [--policies ...] [--set key=json ...]
 ```
 
 | Stage | Output under `outputs/<experiment_id>/` |
@@ -77,26 +84,27 @@ Use one entry point. Every stage is independently runnable and writes a `stage_m
 | `data` | `data/forms/<unit>.csv`, `registry/`, `eligibility/`, `gelato/crosswalk.csv` |
 | `splits` | `splits/<unit>/cell_inventory.csv`, `eligible_lemmas.csv`, `exposure_manifest.csv`, `auxiliary_manifest.csv`, `rep{r}/split_manifest.csv` |
 | `ldl_tune` | `ldl_tune/chosen_settings.json` (cue n-gram and inflection SD, chosen on auxiliary verbs; runs before `select`) |
-| `select` | `selection/<unit>/rep{r}/fold{k}/<policy>@<pool>/`: order, logs, selector rounds, cell scores, comprehension check, `samples/budget_{B}*.csv` |
+| `select` | `selection/<unit>/rep{r}/fold{k}/<policy>@<pool>/`: `samples/budget_{B}*.csv` and order. In the repeated-random design, rep{r} is draw r and nothing is fitted; with `core_selected`, also logs, selector rounds, cell scores and comprehension check |
 | `ldl` | `queries/…/queries.csv` (gold-free), `ldl/…/budget_{B}/predictions.csv`, `mapping_quality.csv` |
 | `evaluate` | `eval/item_predictions.csv`, summaries (by cell, by k), copy rates, sample composition, selector checks |
-| `outcomes` | `outcomes/ldl_outcomes.csv`, `paired_differences.csv`, `population_links.csv` |
+| `outcomes` | `outcomes/ldl_outcomes.csv`, `population_links.csv`, and either `draw_variability*.csv` (repeated-random) or `paired_differences.csv` (core_selected) |
 | `typology` | `typology/grambank_inflection.csv`, `grambank_population_links.csv`, `feature_set.json`, coverage summary |
 | `audit` | `eval/artifact_audit.json` (samples, selector rounds, queries and typology checked against the manifests) |
 
-`scripts/run_pcfp.sh configs/pcfp_v1.yaml` runs every stage from `splits` through `audit`.
-`configs/pcfp_smoke.yaml` inherits from it and runs the full chain at tiny sizes.
+`scripts/run_pcfp.sh [config]` runs every stage from `splits` through `audit`. The default
+config is `configs/pcfp_v2.yaml`. `configs/pcfp_v2_smoke.yaml` runs the full chain at tiny
+sizes, and so does `configs/pcfp_smoke.yaml` for the pcfp_v1 design.
 
 Tests: `.venv/bin/python -m pytest` runs all tests. Add `-m "not slow"` to skip the real-Julia tests.
 
 ## Key outputs for the next analysis stage
 
-* `outputs/pcfp_v1/typology/grambank_inflection.csv` has one row per language-level
+* `outputs/pcfp_v2/typology/grambank_inflection.csv` has one row per language-level
   Glottocode. It carries counts (`n_present`, `n_coded`, `n_features`) for the main set
   and the sensitivity sets, coverage, the no/minimal-inflection flags, clitic flags,
   family and macroarea.
-* `outputs/pcfp_v1/outcomes/ldl_outcomes.csv` has one row per unit × item set × policy ×
-  pool cap × budget. It carries accuracy (micro and verb-macro), edit distance, 95%
+* `outputs/pcfp_v2/outcomes/ldl_outcomes.csv` has one row per unit (pooled over 5 draws ×
+  5 folds); `draw_variability_summary.csv` gives the spread over draws. It carries accuracy (micro and verb-macro), edit distance, 95%
   lemma-cluster bootstrap intervals, exposure metadata and the language-level `glottocode`.
 * The population link tables (`outcomes/population_links.csv`,
   `typology/grambank_population_links.csv`) carry match statuses, sample sizes and
@@ -109,7 +117,7 @@ morph_ldl/        Python package: data, cv, selection, ldl, typology stages; cli
   data/vendor/    modules vendored from the earlier code (MGN↔ISO map, cell-label parsers)
   data/resources/ cells_to_unimorph.json (curated MGN cell label → UniMorph features)
 julia/            JudiLing runner (Project.toml pins JudiLing =1.0.1; Manifest.toml committed)
-configs/          pcfp_v1.yaml, pcfp_smoke.yaml (current); pilot.yaml, smoke.yaml (archived pilot_v1)
+configs/          pcfp_v2.yaml, pcfp_v2_smoke.yaml (current); pcfp_v1.yaml, pcfp_smoke.yaml (core_selected design); pilot.yaml, smoke.yaml (archived pilot_v1)
 tests/            pytest suite
 scripts/          fetch_external.sh (pinned external sources), run_pcfp.sh, run_pilot.sh (archived)
 docs/             protocol, contract, component docs, report, next-task brief

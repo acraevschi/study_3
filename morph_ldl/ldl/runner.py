@@ -60,8 +60,11 @@ def resolve_ldl_config(cfg: Mapping, unit_id: str, repetition: int, fold: int,
         if k in ("semantic_seed",):
             raise ValueError("semantic_seed is derived from the master seed, not overridable")
         base[k] = copy.deepcopy(v)
+    # cv.semantic_seed_scope "fold": the same simulated semantics for a fold in every
+    # repetition (repeated-random design: draws then differ only in their training verbs)
+    rep_key = 0 if cfg.get("cv", {}).get("semantic_seed_scope") == "fold" else int(repetition)
     base["semantic_seed"] = seeds.derive(cfg["experiment"]["master_seed"], "semantic",
-                                         unit_id, int(repetition), int(fold))
+                                         unit_id, rep_key, int(fold))
     return base
 
 

@@ -1,7 +1,7 @@
 # Shared contract: morphology sampling, LDL outcomes and GeLaTo linkage
 
 Owner: main agent. Components may propose changes; only the main agent edits this file.
-Version 5 (2026-10-08): paradigm cell filling (PCFP) replaces source-known completion (§4–§7), LDL selector, exposure manifest, core/seed/pool roles, Grambank typology outcome (§11). Version 4 (2026-10-06): auxiliary manifest, pool_cap item column, GeLaTo human confirmation; version 3: LDL output columns, semantic seed; version 2: eligibility exclusions, collection names, variant order, epitran segmentation. Versions ≤ 4 describe pilot_v1 (commit 24390cf).
+Version 6 (2026-10-08): repeated-random design (pcfp_v2, default `cv.design`), roles `random`/`unused`, seeds `core_split`/`random_draw`, `cv.semantic_seed_scope`. Version 5 (2026-10-08): paradigm cell filling (PCFP) replaces source-known completion (§4–§7), LDL selector, exposure manifest, core/seed/pool roles, Grambank typology outcome (§11). Version 4 (2026-10-06): auxiliary manifest, pool_cap item column, GeLaTo human confirmation; version 3: LDL output columns, semantic seed; version 2: eligibility exclusions, collection names, variant order, epitran segmentation. Versions ≤ 4 describe pilot_v1 (commit 24390cf).
 
 ## 0. Scope and non-negotiables
 
@@ -98,6 +98,22 @@ group_id, role, inventory_seed, split_seed, role_rank, fold_seed`, role in {`cor
 orders lemmas within a role (a smaller pool cap is a prefix). Read roles with
 `splits.roles(manifest, repetition, fold, pool_cap)`.
 
+### Repeated-random design (`cv.design: repeated_random`, default; `build_random_manifest`)
+1. Inventory as above.
+2. Core sets: inventory groups shuffled with the `core_split` seed (independent of the
+   draw); K disjoint sets of exactly `core_size` lemmas. Identical in every draw.
+3. Draw r (`repetition` = r): non-core inventory groups shuffled with the `random_draw`
+   seed of r; the first `random_size` lemmas are role `random` in every fold of the draw;
+   everything else is `unused`. `fold_seed` holds the draw seed, `split_seed` the
+   core_split seed. `validate_random_manifest` checks exact sizes, disjoint cores, one
+   random set per draw outside every core group; the audit also checks that core sets
+   are identical across draws.
+
+Training sample of (draw r, fold k) = shown forms of core_k + random_r, written by the
+`select` stage under the run tag `random@<inventory − K·core>` (`order.csv`,
+`samples/budget_<random_size>.csv`, `budget_<random_size>_lemmas.csv` with roles
+`core`/`random`, `selection_summary.json`). Queries are the core items only.
+
 `splits/<unit_id>/auxiliary_manifest.csv` (`unit_id, lemma_id, group_id, aux_role,
 aux_rank, auxiliary_seed`): eligible lemmas outside every inventory group with roles
 `tune_core`, `tune_extra` (LDL setting choice) and `aux_unused`.
@@ -156,9 +172,11 @@ items are policy-dependent.
 `morph_ldl.seeds.derive(master, purpose, *keys)` = first 8 bytes of
 `sha256("master|purpose|key1|key2…")` as an unsigned int (mod 2**31-1). Purposes:
 `inventory`, `split`, `fold`, `random_policy`, `tie`, `semantic`, `selector_semantic`,
-`exposure`, `bootstrap`, `auxiliary` (`selector_init` only for the archived Transformer).
-Semantic seeds are shared by all policies and budgets within a fold/repetition; exposure
-seeds depend only on (unit, lemma).
+`exposure`, `bootstrap`, `auxiliary`, `core_split`, `random_draw` (`selector_init` only
+for the archived Transformer). Semantic seeds are `derive(master, "semantic", unit,
+repetition, fold)`, shared by all policies and budgets within a fold/repetition; with
+`cv.semantic_seed_scope: fold` the repetition key is 0, so a fold keeps its semantics in
+every draw. Exposure seeds depend only on (unit, lemma).
 
 ## 9. GeLaTo match status
 
