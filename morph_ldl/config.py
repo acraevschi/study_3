@@ -56,10 +56,25 @@ def output_dir(cfg: Dict[str, Any]) -> Path:
     return d
 
 
+def is_pcfp(cfg: Dict[str, Any]) -> bool:
+    return cfg.get("task", {}).get("name") == "pcfp"
+
+
 def unit_cells(unit: Dict[str, Any], cfg: Dict[str, Any]) -> Dict[str, Any]:
-    """Return {'source': cell_norm, 'panel': [(slot, cell_norm), ...]} for a unit."""
+    """Return {'source': cell_norm, 'panel': [(slot, cell_norm), ...]} for a unit.
+
+    PCFP configs (``task.name: pcfp``) list the declared eligible cells instead of a panel:
+    ``source`` and ``citation`` are the citation cell (also the data stage's grouping
+    cell), ``eligible`` is the sorted declared cell list and ``panel`` the other cells."""
     cells = unit["cells"]
     task = cfg["task"]
+    if is_pcfp(cfg):
+        eligible = sorted(cells)
+        cit = unit["citation_cell"]
+        if cit not in eligible or len(set(eligible)) != len(eligible):
+            raise ValueError(f"{unit['unit_id']}: citation cell must be one of the declared, distinct cells")
+        return {"source": cit, "citation": cit, "eligible": eligible,
+                "panel": [(c, c) for c in eligible if c != cit]}
     return {
         "source": cells[task["source_slot"]],
         "panel": [(slot, cells[slot]) for slot in task["panel_slots"]],

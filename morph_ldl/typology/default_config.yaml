@@ -1,0 +1,69 @@
+# Proposed `typology:` block (Grambank inflection-extent outcome). The main agent pastes
+# the block under `typology:` into configs/<experiment>.yaml. The stage reads
+# cfg["typology"] and fails if it is absent; this file is NOT read implicitly by the stage.
+# Justifications of every feature (one line each) are in docs/TYPOLOGY.md §3.
+# Paths are relative to the repository root (absolute paths also work).
+typology:
+  sources:
+    grambank:
+      path: external/grambank            # scripts/fetch_external.sh
+      repo: https://github.com/grambank/grambank
+      tag: v1.0.3
+      commit: 7ae000cf740f93cdb3e4ec67010668d6795337a9
+      doi: 10.5281/zenodo.7844558
+    glottolog:
+      path: external/glottolog-cldf      # scripts/fetch_external.sh
+      repo: https://github.com/glottolog/glottolog-cldf
+      tag: v5.3
+      commit: 072ca0d0410039fb8b779be8fc165bac575d2cda
+    gelato_main_populations:            # main_397 panel (population metadata only)
+      path: analyses/gelato_feasibility_2026_10_01/sources/gelato_c625fdc/cldf/populations.csv
+      origin: https://github.com/gelato-org/gelato-data
+      version: c625fdcf0225142cc03ae3a1635edf322e9c7778
+    gelato_tableS1:                     # expanded_558 panel (population metadata only)
+      path: analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/tables/tableS1.csv
+      origin: https://zenodo.org/records/15263706
+      version: zenodo:15263706
+  review_file: morph_ldl/data/gelato_review.yaml   # same reviews as the data-stage crosswalk
+  manual_links: []        # [{population, glottocode, reason, by}] -> link_basis "manual" (initial match only)
+  # Read-only list of MGN resources for the LDL-eligibility overlap report. null = use
+  # outputs/<experiment>/eligibility/broad_audit.csv if present.
+  ldl_eligibility_audit: outputs/pilot_v1/eligibility/broad_audit.csv
+  ldl_eligibility_levels: [suitable, suitable_with_caveats, limited]
+  feature_set:
+    id: grambank_core_inflection_35_v1
+    n_features: 35
+    domains:                             # domain -> Grambank parameter IDs
+      verbal_tam: [GB079, GB080, GB082, GB083, GB084, GB086, GB312]
+      person_indexing: [GB089, GB090, GB091, GB092, GB093, GB094]
+      neg_interrog: [GB107, GB286]
+      nominal_number: [GB042, GB043, GB044, GB165, GB166]
+      case: [GB070, GB071, GB072, GB073]
+      possession: [GB430, GB431, GB432, GB433]
+      agreement: [GB170, GB171, GB172, GB184, GB185, GB186, GB198]
+    excluded:                            # declared exclusions (must not overlap the domains)
+      derivation: [GB047, GB048, GB049]
+      diminutive_augmentative: [GB187, GB188]
+      auxiliary_verbs: [GB119, GB120, GB121, GB298]
+      valency_voice: [GB103, GB104, GB113, GB147, GB148, GB155]
+      bound_comparative: [GB275]
+    # Codes (codes.csv `Name`) counted as "present". All 35 features are binary {0,1} in
+    # v1.0.3; a multistate feature must get an explicit entry under `per_feature`, otherwise
+    # the stage refuses to run. '?' and absent rows are "not coded".
+    present_codes:
+      default: ["1"]
+      per_feature: {}
+  sensitivity_sets:                      # name -> domains (each a subset of the main set)
+    verbal: [verbal_tam, person_indexing, neg_interrog]
+    nominal: [nominal_number, case, possession]
+    no_agreement: [verbal_tam, person_indexing, neg_interrog, nominal_number, case, possession]
+  coverage_threshold: 0.6                # main analysis: coverage = n_coded / n_features
+  report_coverage_thresholds: [0.5, 0.75]
+  minimal_inflection_max: 1              # minimal_inflection: n_present <= 1 (main set)
+  clitic_heuristic:
+    # Flag only; Grambank values are never recoded. See docs/TYPOLOGY.md §5.
+    analytic_families: [sino1245, taik1256, hmon1336, aust1305]   # Sino-Tibetan, Tai-Kadai, Hmong-Mien, Austroasiatic
+    analytic_family_min_present: 5       # family flag needs n_present >= this (main set)
+    profile_min_present: 5               # profile flag: n_present >= this ...
+    profile_zero_domains: [nominal_number, agreement]   # ... and none of these domains present ...
+    profile_min_domain_coverage: 0.5     # ... each coded on >= 50% of its features

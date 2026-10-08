@@ -1,0 +1,13 @@
+ID,Language_ID,Parameter_ID,Value,Code_ID,Comment,Source,codeReference
+grp1-classification,grp1,classification,fam1,,,,
+grp2-classification,grp2,classification,fam1,,,,
+grp3-classification,grp3,classification,fam1,,,,
+lang1-classification,lang1,classification,fam1/grp1,,,,
+lang2-classification,lang2,classification,fam1/grp1,,,,
+lang3-classification,lang3,classification,fam1/grp2,,,,
+lang5-classification,lang5,classification,fam1/grp2,,,,
+lang7-classification,lang7,classification,fam1/grp3,,,,
+lang6-classification,lang6,classification,fam1,,,,
+dia1-classification,dia1,classification,fam1/grp1/lang1,,,,
+dia6-classification,dia6,classification,fam1/lang6,,,,
+lang1-level,lang1,level,language,,"a comment, with a comma",,

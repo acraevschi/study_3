@@ -1,0 +1,6 @@
+ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,provenance,Family_name,Family_level_ID,Language_level_ID,level,lineage
+lang1,Lang One,Eurasia,0,0,lang1,lon,x,Fam One,fam1,lang1,language,fam1/grp1
+lang2,Lang Two,Eurasia,0,0,lang2,ltw,x,Fam One,fam1,lang2,language,fam1/grp1
+lang3,Lang Three,Eurasia,0,0,lang3,lth,x,Fam One,fam1,lang3,language,fam1/grp2
+iso1,Isolate One,Africa,0,0,iso1,iso,x,,,iso1,language,
+dia6,Dialect Six,Africa,0,0,dia6,,x,Fam One,fam1,lang6,dialect,fam1/lang6

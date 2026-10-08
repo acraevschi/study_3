@@ -1,3 +1,4 @@
+# ARCHIVED (pilot_v1): runs only with the code at commit 24390cf; the current pipeline runs configs/pcfp_v1.yaml.
 # Bounded real-data pilot: two GeLaTo-linked languages, verbs, orthographic forms.
 # Every value here is fixed before outer-test evaluation. Change by copying the file.
 

@@ -1,3 +1,4 @@
+# ARCHIVED (pilot_v1): runs only with the code at commit 24390cf; the current pipeline runs configs/pcfp_v1.yaml.
 # End-to-end integration smoke test on real data with tiny sizes. Results are interface
 # checks, not substantive estimates. Reuses the pilot's data-stage outputs (symlinked).
 _inherit: pilot.yaml

@@ -1,4 +1,81 @@
-# LDL protocol: held-out-lemma paradigm completion with JudiLing
+# LDL protocol: paradigm cell filling with JudiLing (pcfp_v1)
+
+Owner: main agent (`julia/`, `morph_ldl/ldl/`). Decisions are in `configs/pcfp_v1.yaml`
+(`ldl:`) and `CONTRACT.md` v5. Part A describes the current protocol. Part B is the
+pilot_v1 record (source binding of new verbs; code state 24390cf), kept for reference.
+Its audit table (B §2) still applies to every JudiLing entry point used here.
+
+## Part A. Known-lexeme PCFP (runner `ldl-runner-3-pcfp`)
+
+### A.1 Model
+* Training rows: the **shown** forms (variant 0) of the training verbs: core + seed +
+  acquired (`samples/budget_{B}.csv`), or `tune_core` + `tune_extra` in `ldl_tune`.
+* Semantics as in B §3.2: s(v, c) = L(v) + Σ V(f ∈ features(c)) + N(v, c), with
+  identifier-keyed SplitMix64/Box–Muller vectors, `sem_dim` 1000, lexeme SD 4, noise SD 1,
+  inflection SD tuned. Deep mode off.
+* End-state mappings F = (CᵀC + λI)⁻¹CᵀS and G = (SᵀS + λI)⁻¹SᵀC (JudiLing
+  `make_transform_*`, λ = 0.02).
+* **Hidden cell of a known verb:** target meaning ŝ = L(v) + Σ V(features(c)) (no noise
+  term: the noise belongs to an observed form). Ĉ = ŝG, decoded by `learn_paths`
+  (threshold 0.05, `max_can` 10) with `data_train` = training rows, C, F, the full
+  adjacency of the training cue inventory, and `max_t` = longest training form + 4.
+* No per-lemma refit is needed: every queried verb is in the training sample. Items are
+  decoded in chunks of `predict_chunk` rows. `learn_paths` treats rows independently, so
+  predictions do not depend on chunking or order (tested: chunk 7 vs 400, reversed
+  order, one lemma alone).
+* A query for a verb with no training row fails the job ("not known lexemes").
+* `unseen_target_features`: features of the target cell that occur in no training cell.
+  Their vectors exist, but G never saw them. They are reported per item and listed in
+  `diagnostics.json`.
+
+### A.2 Leakage audit (what can and cannot see gold)
+* The cue inventory, adjacency, decoder training rows and `max_t` are built from the
+  training file only, and that file holds only shown cells (audited: no (verb, cell) pair
+  of any sample, selector round or tuning file is a hidden cell).
+* The query table has no form column (`lemma_id, target_cell, item_set`); `read_queries`
+  keeps two columns. Predictions are identical with gold withheld, present or permuted
+  in extra columns (tested).
+* `make_combined_cue_matrix`, `make_combined_S_matrix`, `cal_max_timestep` and
+  `check_gold_path` are not used (B §2). Gold is read only by `score_mapping` after
+  `predictions.csv` exists (`mapping_quality.csv`). It never feeds back.
+
+### A.3 Exact rank-one extension by one row (`add_row`, `row_chat`)
+Used only by the selector (SELECTION.md A.2). It was kept from the pilot's binding code and
+generalised:
+* production: P = (SᵀS + λI)⁻¹, α = sPsᵀ, G_ext = [G 0];
+  Ĉ = ŝG_ext + (ŝPsᵀ)/(1+α) · (c − sG_ext);
+* comprehension: F_h = [F; 0] + P_c (s − c[F; 0])ᵀ/(1 + cP_c), with
+  P_c = [(CᵀC+λI)⁻¹c_known; c_novel/λ];
+* the decoder's training rows, C and adjacency are extended by the row and its novel cues.
+
+Tested against a full JudiLing refit on the augmented matrices: max |ΔĈ|, max |ΔF| <
+1e-8 for bigram and trigram cues with novel cues (`test_rank_one_update_matches_full_refit`).
+
+### A.4 Toy check and the inflection-SD grid
+On the synthetic 3-class toy language (150 verbs, k ≤ 4 shown of 9 cells, 40 core verbs),
+known-lexeme accuracy and the rate of copying one of the verb's shown forms were:
+
+| cue n-gram | SD 0.4 | 1.0 | 2.0 | 4.0 | 8.0 |
+|---|---|---|---|---|---|
+| 2: accuracy / copy | 0.12 / 0.82 | 0.34 / 0.42 | 0.35 / 0.18 | 0.33 / 0.08 | 0.27 / 0.08 |
+| 3: accuracy / copy | 0.08 / 0.92 | 0.12 / 0.81 | 0.11 / 0.79 | 0.12 / 0.79 | 0.12 / 0.80 |
+
+With a small inflection SD the hidden cell's meaning is dominated by the lexeme vector,
+so Ĉ reproduces the verb's own shown forms. This is the PCFP counterpart of the pilot's
+source copying. The pilot grid {0.4, 4.0} was therefore widened to {0.4, 1, 2, 4} before
+any real-data tuning. The choice is made by `ldl_tune` on auxiliary verbs only
+(PROTOCOL §6). The toy numbers did not choose the setting.
+
+### A.5 Batch runner and outputs
+Unchanged from B §10, except:
+* the query columns are `lemma_id, target_cell` (+ ignored extras);
+* the prediction columns are `lemma_id, target_cell, prediction, prediction_segments,
+  status, n_candidates, top_candidates, support, unseen_target_features,
+  n_train_forms_lemma, max_t`;
+* the `source_binding` and `build_paths` options were removed, and a config containing
+  `source_binding` is rejected.
+
+## Part B. pilot_v1 record: held-out-lemma paradigm completion (source binding)
 
 Owner: LDL component (`julia/`, `morph_ldl/ldl/`). Status: Phase 1 accepted by the
 main agent (2026-10-06). Phase 2 runner implemented (§10). Decisions taken by the main

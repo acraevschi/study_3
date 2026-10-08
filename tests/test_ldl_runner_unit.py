@@ -14,15 +14,13 @@ from morph_ldl.ldl import runner, semantics, toy
 
 @pytest.fixture()
 def cfg():
-    return load_config(PIPELINE_ROOT / "configs" / "pilot.yaml")
+    return load_config(PIPELINE_ROOT / "configs" / "pcfp_v1.yaml")
 
 
 @pytest.fixture()
 def toy_job(tmp_path):
     forms = toy.lexicon(12, seed=3)
-    ids = list(dict.fromkeys(forms.lemma_id))
-    train = forms[forms.lemma_id.isin(ids[:9])]
-    q = toy.queries_for(forms, ids[9:])
+    train, q, _, _ = toy.pcfp_tables(forms, 4, seed=1)
     train.to_csv(tmp_path / "train.csv", index=False)
     q.to_csv(tmp_path / "q.csv", index=False)
     return {"train_csv": tmp_path / "train.csv", "queries_csv": tmp_path / "q.csv",
@@ -35,7 +33,7 @@ def test_resolve_config_seed_and_overrides(cfg):
     assert c["semantic_seed"] == seeds.derive(cfg["experiment"]["master_seed"], "semantic",
                                               "ita.V.orth.mgn", 0, 2)
     assert c["cue_ngram"] == 2 and "tune" not in c and "n_procs" not in c
-    assert c["ridge_shift"] == 0.02 and c["source_binding"] == "wug_refit"
+    assert c["ridge_shift"] == 0.02 and "source_binding" not in c
     # same seed for every policy/budget of a fold; different across folds
     c2 = runner.resolve_ldl_config(cfg, "ita.V.orth.mgn", 0, 2, {"sem_sd_inflection": 4.0})
     c3 = runner.resolve_ldl_config(cfg, "ita.V.orth.mgn", 0, 1)
@@ -91,7 +89,7 @@ def test_write_gold_csv(tmp_path):
     forms = toy.lexicon(3, seed=1)
     extra = forms.iloc[[1]].copy(); extra["variant_idx"] = 1; extra["segments"] = "x y"
     forms = pd.concat([forms, extra])
-    q = toy.queries_for(forms, [forms.lemma_id.iloc[0]])
+    q = pd.DataFrame({"lemma_id": forms.lemma_id.iloc[0], "target_cell": toy.CELLS[1:]})
     g = pd.read_csv(runner.write_gold_csv(forms, q, tmp_path / "g.csv"))
     assert len(g) == 8 and " || x y" in g.gold_variants.iloc[0]
 

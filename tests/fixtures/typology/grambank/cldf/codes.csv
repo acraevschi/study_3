@@ -1,0 +1,16 @@
+ID,Parameter_ID,Name,Description
+GB020-0,GB020,0,absent
+GB020-1,GB020,1,present
+GB044-0,GB044,0,absent
+GB044-1,GB044,1,present
+GB070-0,GB070,0,absent
+GB070-1,GB070,1,present
+GB080-0,GB080,0,absent
+GB080-1,GB080,1,present
+GB082-0,GB082,0,absent
+GB082-1,GB082,1,present
+GB170-0,GB170,0,absent
+GB170-1,GB170,1,present
+GB999-0,GB999,0,none
+GB999-1,GB999,1,some
+GB999-2,GB999,2,many

@@ -39,3 +39,9 @@ ITEM_COLUMNS = [
 
 POLICIES_ACTIVE = ("low_confidence", "high_entropy")
 POLICY_RANDOM = "random"
+
+# PCFP (paradigm cell filling, configs/pcfp_v1.yaml)
+PCFP_QUERY_COLUMNS = ["lemma_id", "target_cell"]          # + optional item_set (core | selected); no forms
+PCFP_ITEM_EXTRA = ["item_set", "k_shown", "citation_shown", "n_test_cells", "pred_equals_shown_form",
+                   "pred_equals_citation"]
+PCFP_ITEM_COLUMNS = ITEM_COLUMNS + PCFP_ITEM_EXTRA

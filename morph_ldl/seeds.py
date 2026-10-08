@@ -6,7 +6,7 @@ import hashlib
 
 PURPOSES = {
     "inventory", "split", "fold", "selector_init", "random_policy", "tie",
-    "semantic", "bootstrap", "pool_size", "auxiliary",
+    "semantic", "bootstrap", "pool_size", "auxiliary", "exposure", "selector_semantic",
 }
 
 

@@ -5,6 +5,10 @@ A job is a dict::
     {"train_csv": path, "queries_csv": path, "out_dir": path,
      "unit_id": str, "repetition": int, "fold": int, "overrides": {...}}
 
+PCFP (known lexemes): ``train_csv`` holds the shown forms of the training verbs and
+``queries_csv`` (lemma_id, target_cell[, item_set]) names hidden cells of verbs that are in
+the training sample. No form of a queried cell is passed.
+
 ``run_ldl_jobs`` resolves each job's LDL config (``cfg["ldl"]`` + overrides + the
 contract semantic seed), skips jobs whose outputs exist with a matching job-config hash,
 shards the rest over ``n_procs`` Julia processes and returns the jobs' out_dirs.
@@ -34,7 +38,7 @@ from morph_ldl.config import PIPELINE_ROOT
 
 JULIA_PROJECT = PIPELINE_ROOT / "julia"
 JULIA_ENTRY = JULIA_PROJECT / "bin" / "run_jobs.jl"
-RUNNER_VERSION = "ldl-runner-2"          # keep in sync with LDLRunner.RUNNER_VERSION
+RUNNER_VERSION = "ldl-runner-3-pcfp"     # keep in sync with LDLRunner.RUNNER_VERSION
 VARIANT_SEP = " || "                     # = morph_ldl.cv.evaluate.VARIANT_SEP
 
 # keys of cfg["ldl"] that are orchestration settings, not model settings

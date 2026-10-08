@@ -5,23 +5,32 @@ current pipeline at its root. Earlier exploratory tracks (the MGN-accuracy Bayes
 with demographic and phylogenetic covariates, and the Germanic historical track) were
 archived on 2026-10-08; see [Archive](#archive).
 
-**Status.** `pilot_v1` (Italian and Finnish verbs, MGN) is complete; see
-[docs/REPORT.md](docs/REPORT.md). The next task replaces the new-verb task below with
-paradigm cell filling, uses LDL as its own selector and adds a Grambank outcome
-([brief](docs/next_task_pcfp_prompt.md)).
+**Status.** The current experiment is `pcfp_v1`: paradigm cell filling for Italian and
+Finnish verbs (MGN), with LDL as its own active-selection model, plus a Grambank
+inflection-extent outcome for all GeLaTo-linked languages. See
+[docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md). The earlier `pilot_v1` (a source-known
+new-verb task with a Transformer selector) is archived: its outputs are in
+`outputs/pilot_v1/`, its report is [docs/REPORT.md](docs/REPORT.md), and its code state is
+commit `24390cf`.
 
-A reproducible pipeline that turns inflectional paradigms into **LDL-based difficulty
-outcomes** and links them to **GeLaTo genetic populations** for a later
-admixture–morphology analysis (not fitted here).
+The pipeline produces two morphology outcomes for a later admixture–morphology analysis
+(not fitted here):
 
-The task is **source-known paradigm completion for held-out lemmas**. For each held-out
-lemma, the model sees one supplied source form (the infinitive) and must produce a fixed
-panel of 8 target cells. Training samples of 100, 200 or N lemmas are chosen by
-**active selection** (low-confidence or high-entropy scores from a character Transformer
-selector, after Muradoğlu & Hulden 2022) or by **matched random selection**. Selection
-runs inside every grouped outer cross-validation fold. Each sample gets a freshly
-fitted **native LDL model** (JudiLing.jl, end-state, simulated semantics, wug-style
-source binding). Uncertainty comes from lemma-cluster bootstrap intervals.
+* **Grambank inflectional extent** (primary). The share of 35 core inflectional features
+  coded present, for every GeLaTo-linked language in Grambank, including isolating
+  languages.
+* **LDL predictability** (secondary; inflecting languages only). Every verb is known
+  through k randomly drawn forms (k ~ U{1..7}, the same cap in every language). A native
+  LDL model (JudiLing.jl, end-state, simulated semantics) fills the hidden cells.
+  * Training samples are 100 fixed **core** verbs per outer fold plus 100 verbs chosen by
+    **active selection** or by matched **random selection**. The LDL model itself is the
+    selector (low-confidence or high-entropy scores over its candidate supports).
+  * The primary test items are the hidden cells of the core verbs, identical for every
+    policy.
+  * Uncertainty comes from lemma-cluster bootstrap intervals.
+
+Both outcomes are keyed by the language-level Glottocode. GeLaTo populations are linked
+in separate tables.
 
 | Document | Content |
 |---|---|
@@ -30,15 +39,16 @@ source binding). Uncertainty comes from lemma-cluster bootstrap intervals.
 | [docs/DATA.md](docs/DATA.md) | adapters, provenance, identifiers, eligibility, GeLaTo matching and reviews |
 | [docs/SELECTION.md](docs/SELECTION.md) | selector, scores, acquisition, ALmorphinfl audit |
 | [docs/LDL_PROTOCOL.md](docs/LDL_PROTOCOL.md) | JudiLing audit, held-out-lemma protocol, runner |
-| [docs/REPORT.md](docs/REPORT.md) | pilot results, adaptations, failures, limitations, next steps |
+| [docs/REPORT.md](docs/REPORT.md) | pilot_v1 results (archived task) |
 | [docs/PIPELINE_OVERVIEW.md](docs/PIPELINE_OVERVIEW.md) | one-page diagram of the stages and fitted models |
 | [docs/gelato_feasibility_2026-10-01.md](docs/gelato_feasibility_2026-10-01.md) | GeLaTo feasibility review (what the genetic data can and cannot measure) |
-| [docs/next_task_pcfp_prompt.md](docs/next_task_pcfp_prompt.md) | brief for the next task: PCFP task, LDL selector, Grambank inflection-extent outcome |
+| [docs/TYPOLOGY.md](docs/TYPOLOGY.md) | Grambank inflection-extent outcome: sources, feature set, mapping rules, planned analysis |
+| [docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md) | pcfp_v1 results (current) |
 
 ## Setup
 
 ```bash
-scripts/fetch_external.sh                       # pinned external sources
+scripts/fetch_external.sh                       # pinned external sources (incl. Grambank, Glottolog CLDF)
 python3 -m venv .venv                           # any Python ≥ 3.12
 .venv/bin/pip install -r requirements.lock      # exact versions used (torch 2.14.1 CPU)
 .venv/bin/pip install ./external/languages-of-the-world
@@ -55,44 +65,49 @@ Use one entry point. Every stage is independently runnable and writes a `stage_m
 (config hash, input hashes, git state, external revisions, package versions, seeds).
 
 ```bash
-.venv/bin/python -m morph_ldl.cli <stage> --config configs/pilot.yaml [--units ...] [--folds ...] [--policies ...] [--set key=json ...]
+.venv/bin/python -m morph_ldl.cli <stage> --config configs/pcfp_v1.yaml [--units ...] [--folds ...] [--policies ...] [--set key=json ...]
 ```
 
 | Stage | Output under `outputs/<experiment_id>/` |
 |---|---|
 | `data` | `data/forms/<unit>.csv`, `registry/`, `eligibility/`, `gelato/crosswalk.csv` |
-| `splits` | `splits/<unit>/rep{r}/split_manifest.csv` |
-| `ldl_tune` | `ldl_tune/chosen_settings.json` (dev-only choice of cue n-gram and inflection SD) |
-| `select` | `selection/<unit>/rep{r}/fold{k}/<policy>@<pool>/`: order, logs, per-cell scores, `samples/budget_{B}*.csv` |
-| `ldl` | `queries/…/test_queries.csv` (gold-free), `ldl/…/budget_{B}/predictions.csv`, `mapping_quality.csv` |
-| `selector` | `selector_eval/…/predictions.csv` (selector accuracy on the same test items) |
-| `evaluate` | `eval/item_predictions.csv`, summaries, per-cell, fold variability, sample composition |
+| `splits` | `splits/<unit>/cell_inventory.csv`, `eligible_lemmas.csv`, `exposure_manifest.csv`, `auxiliary_manifest.csv`, `rep{r}/split_manifest.csv` |
+| `ldl_tune` | `ldl_tune/chosen_settings.json` (cue n-gram and inflection SD, chosen on auxiliary verbs; runs before `select`) |
+| `select` | `selection/<unit>/rep{r}/fold{k}/<policy>@<pool>/`: order, logs, selector rounds, cell scores, comprehension check, `samples/budget_{B}*.csv` |
+| `ldl` | `queries/…/queries.csv` (gold-free), `ldl/…/budget_{B}/predictions.csv`, `mapping_quality.csv` |
+| `evaluate` | `eval/item_predictions.csv`, summaries (by cell, by k), copy rates, sample composition, selector checks |
 | `outcomes` | `outcomes/ldl_outcomes.csv`, `paired_differences.csv`, `population_links.csv` |
-| `audit` | `eval/artifact_audit.json` (samples, anchors and queries checked against the manifests) |
+| `typology` | `typology/grambank_inflection.csv`, `grambank_population_links.csv`, `feature_set.json`, coverage summary |
+| `audit` | `eval/artifact_audit.json` (samples, selector rounds, queries and typology checked against the manifests) |
 
-`scripts/run_pilot.sh configs/pilot.yaml` runs every stage from `select` through `outcomes`.
-`configs/smoke.yaml` inherits from the pilot config and runs the full chain at tiny sizes.
-Budget 200 and more repetitions only need config changes, for example
-`--set 'selection.budgets=[100,200]' 'cv.repetitions=[0,1,2]'`. The trajectories are nested,
-so budget 100 is a prefix of budget 200.
+`scripts/run_pcfp.sh configs/pcfp_v1.yaml` runs every stage from `splits` through `audit`.
+`configs/pcfp_smoke.yaml` inherits from it and runs the full chain at tiny sizes.
 
 Tests: `.venv/bin/python -m pytest` runs all tests. Add `-m "not slow"` to skip the real-Julia tests.
 
 ## Key outputs for the next analysis stage
 
-* `outputs/pilot_v1/outcomes/ldl_outcomes.csv` has one row per unit × policy × pool cap × budget × model. It holds accuracy (micro and lemma-macro), edit distance and normalized edit distance. Each estimate has 95% lemma-cluster bootstrap intervals, counts and provenance.
-* `outputs/pilot_v1/outcomes/population_links.csv` has one row per unit × GeLaTo population. It carries the match status, sample sizes and ancestry-source identifiers, but no ancestry values. It applies no aggregation and does not duplicate morphology rows.
+* `outputs/pcfp_v1/typology/grambank_inflection.csv` has one row per language-level
+  Glottocode. It carries counts (`n_present`, `n_coded`, `n_features`) for the main set
+  and the sensitivity sets, coverage, the no/minimal-inflection flags, clitic flags,
+  family and macroarea.
+* `outputs/pcfp_v1/outcomes/ldl_outcomes.csv` has one row per unit × item set × policy ×
+  pool cap × budget. It carries accuracy (micro and verb-macro), edit distance, 95%
+  lemma-cluster bootstrap intervals, exposure metadata and the language-level `glottocode`.
+* The population link tables (`outcomes/population_links.csv`,
+  `typology/grambank_population_links.csv`) carry match statuses, sample sizes and
+  identifiers, but no ancestry values.
 
 ## Repository layout
 
 ```
-morph_ldl/        Python package: data, cv, selection, ldl stages; cli.py is the entry point
+morph_ldl/        Python package: data, cv, selection, ldl, typology stages; cli.py is the entry point
   data/vendor/    modules vendored from the earlier code (MGN↔ISO map, cell-label parsers)
   data/resources/ cells_to_unimorph.json (curated MGN cell label → UniMorph features)
 julia/            JudiLing runner (Project.toml pins JudiLing =1.0.1; Manifest.toml committed)
-configs/          pilot.yaml (pilot_v1), smoke.yaml
-tests/            pytest suite (97 tests)
-scripts/          fetch_external.sh (pinned external sources), run_pilot.sh
+configs/          pcfp_v1.yaml, pcfp_smoke.yaml (current); pilot.yaml, smoke.yaml (archived pilot_v1)
+tests/            pytest suite
+scripts/          fetch_external.sh (pinned external sources), run_pcfp.sh, run_pilot.sh (archived)
 docs/             protocol, contract, component docs, report, next-task brief
 analyses/         GeLaTo feasibility audit (2026-10-01) and coverage estimates (2026-10-08)
 mgn_data/         third-party MGN paradigm inputs (not committed; MANIFEST.sha256 is)
@@ -113,7 +128,8 @@ Nothing here is our own primary data. Cite every source below in any write-up.
 | ALmorphinfl (Muradoğlu & Hulden 2022) | reference implementation for the active-learning scores | 3caf0d0 | `external/` |
 | GeLaTo | population metadata, Glottocodes, sample sizes | gelato-data c625fdc | `analyses/gelato_feasibility_2026_10_01/sources/` |
 | Graff et al. 2025 archive | ADMIXTURE Q-matrix identifiers and population–language table (no ancestry values are used yet) | Zenodo 15263706 | `analyses/gelato_feasibility_2026_10_01/sources/` |
-| Grambank, Glottolog CLDF | planned Grambank inflection-extent outcome | Grambank v1.0.3, Glottolog CLDF v5.3 | to be pinned by the next task |
+| Grambank (Skirgård et al. 2023) | inflection-extent outcome (35 core features) | v1.0.3 (7ae000c) | `external/grambank` |
+| Glottolog CLDF | dialect → language roll-up, family, macroarea | v5.3 (072ca0d) | `external/glottolog-cldf` |
 
 The exact input hashes of each run are in its `outputs/<experiment>/<stage>/stage_manifest.json`
 (written locally by every stage; not committed, because they record absolute paths).

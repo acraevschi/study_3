@@ -1,0 +1,14 @@
+ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Level,Countries,Family_ID,Language_ID,Closest_ISO369P3code,First_Year_Of_Documentation,Last_Year_Of_Documentation,Is_Isolate
+fam1,Fam One,Eurasia,0,0,fam1,,family,,,,,,,
+grp1,Group One,Eurasia,0,0,grp1,,family,,fam1,,,,,
+grp2,Group Two,Eurasia,0,0,grp2,,family,,fam1,,,,,
+grp3,Group Three,Eurasia,0,0,grp3,,family,,fam1,,,,,
+lang1,Lang One,Eurasia,0,0,lang1,lon,language,,fam1,,,,,
+lang2,Lang Two,Eurasia,0,0,lang2,ltw,language,,fam1,,,,,
+lang3,Lang Three,Eurasia,0,0,lang3,lth,language,,fam1,,,,,
+lang5,Lang Five,Eurasia,0,0,lang5,lfi,language,,fam1,,,,,
+lang6,Lang Six,Africa,0,0,lang6,lsi,language,,fam1,,,,,
+lang7,Lang Seven,Eurasia,0,0,lang7,lse,language,,fam1,,,,,
+iso1,Isolate One,Africa,0,0,iso1,iso,language,,,,,,,True
+dia1,Dialect One,Eurasia,0,0,dia1,,dialect,,fam1,lang1,,,,
+dia6,Dialect Six,Africa,0,0,dia6,,dialect,,fam1,lang6,,,,

@@ -1,0 +1,8 @@
+# End-to-end smoke test of the PCFP pipeline on real data at tiny sizes. Results are
+# interface checks, not estimates.
+_inherit: pcfp_v1.yaml
+experiment: {id: pcfp_smoke}
+cv: {inventory_size: 300, core_size: 20, seed_size: 10, pool_cap: 60, pool_cap_sensitivity: [40]}
+selection: {batch_size: 10, budgets: [30], semantic_seeds: 2, n_procs: 6}
+ldl: {tune: {core_size: 20, extra_size: 20}, n_procs: 4}
+evaluation: {bootstrap_reps: 200}

@@ -1,0 +1,15 @@
+# Fixture reviews (typology tests).
+reviews:
+  - id: lang1-popa
+    glottocode: lang1
+    population: PopA
+    resources: all
+    status: accepted
+    variety_review: v
+    community_review: c
+    locality_review: l
+    source_period_review: s
+    evidence: e
+    reviewer_note: proposed by an agent
+    reviewer: fixture agent
+    date: 2026-10-08

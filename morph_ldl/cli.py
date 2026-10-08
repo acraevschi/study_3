@@ -1,16 +1,18 @@
-"""Single entry point: ``python -m morph_ldl.cli <stage> --config configs/pilot.yaml``.
+"""Single entry point: ``python -m morph_ldl.cli <stage> --config configs/pcfp_v1.yaml``.
 
-Stages (each independently runnable; ``all`` runs them in order):
+Stages (each independently runnable; ``all`` runs them in order). The pipeline runs the
+paradigm-cell-filling task (configs/pcfp_v1.yaml); pilot_v1 is preserved at commit 24390cf.
 
   data       ingest resources, registry, identifier crosswalk, eligibility, GeLaTo crosswalk
-  splits     inventory, grouped outer folds and inner roles -> split manifests
-  ldl_tune   choose LDL cue n-gram and inflection SD on inner-dev lemmas, then freeze
-  select     active / random acquisition inside every outer fold -> samples and logs
-  ldl        fit JudiLing on every exported sample; predict outer-test queries
-  selector   (optional) selector accuracy on the same outer-test queries
-  evaluate   score items, bootstrap intervals, paired differences
-  outcomes   analysis-ready outcome table and population linkage table
-  audit      check written samples, anchors and queries against the split manifests
+  splits     cell inventory, eligible verbs, exposure draw, core/seed/pool manifests
+  ldl_tune   choose LDL cue n-gram and inflection SD on auxiliary verbs, then freeze
+             (must run before select: the LDL selector uses the frozen settings)
+  select     random or LDL-selector acquisition inside every outer fold -> samples and logs
+  ldl        fit JudiLing on every exported sample; predict hidden cells (known lexemes)
+  evaluate   score items, per-cell / per-k breakdowns, copy rates, selector checks
+  outcomes   analysis-ready outcome table, paired differences and population linkage table
+  typology   Grambank inflection-extent outcome for GeLaTo-linked languages (independent)
+  audit      check written samples, selector rounds and queries against the manifests
   all        every stage above, in order
 """
 
@@ -23,7 +25,7 @@ from pathlib import Path
 
 from morph_ldl.config import load_config
 
-STAGES = ["data", "splits", "ldl_tune", "select", "ldl", "selector", "evaluate", "outcomes", "audit"]
+STAGES = ["data", "splits", "ldl_tune", "select", "ldl", "evaluate", "outcomes", "typology", "audit"]
 
 
 def main(argv: list[str] | None = None) -> int:

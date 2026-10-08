@@ -15,17 +15,23 @@ import pandas as pd
 from morph_ldl import seeds as seedlib
 from morph_ldl.cv import bootstrap
 
-DESIGN = ["unit_id", "policy", "pool_cap", "budget", "model"]
+DESIGN = ["unit_id", "item_set", "policy", "pool_cap", "budget", "model"]
+ITEM_SET_NOTE = {"core": "primary: hidden cells of the fixed core verbs (identical items for every policy)",
+                 "selected": "secondary, policy-dependent: hidden cells of the selected verbs (seed + acquired)"}
 
 
 def _unit_meta(cfg: dict, forms_meta: Dict[str, dict]) -> Dict[str, dict]:
+    t = cfg["task"]
     out = {}
     for u in cfg["units"]:
         m = dict(forms_meta.get(u["unit_id"], {}))
         m.update({"unit_role": u.get("role", "substantive"), "resource_id": u["resource_id"],
-                  "task": cfg["task"]["name"], "source_slot": cfg["task"]["source_slot"],
-                  "panel_slots": "|".join(cfg["task"]["panel_slots"]),
-                  "training_mode": cfg["task"].get("training_mode", "panel")})
+                  "task": t["name"], "citation_cell": u.get("citation_cell", ""),
+                  "n_eligible_cells": len(u["cells"]),
+                  "cell_rule": f"max_multiword_share<={t['cell_rule']['max_multiword_share']}; complete single-word paradigm",
+                  "exposure_max_shown": int(t["exposure"]["max_shown"]),
+                  "k_distribution": f"uniform{{1..min({t['exposure']['max_shown']}, n_cells-1)}}",
+                  "citation_cell_rule": t["citation_cell_rule"]})
         out[u["unit_id"]] = m
     return out
 
@@ -40,13 +46,16 @@ def outcome_table(items: pd.DataFrame, cfg: dict, forms_meta: Dict[str, dict]) -
         d = dict(zip(DESIGN, key))
         seed = seedlib.derive(master, "bootstrap", *key)
         b = bootstrap.cluster_bootstrap(sub, int(ev["bootstrap_reps"]), seed, float(ev["ci_level"]))
-        row = {**d, **meta.get(d["unit_id"], {})}
+        row = {**d, **meta.get(d["unit_id"], {}), "item_set_note": ITEM_SET_NOTE.get(d.get("item_set"), "")}
         for r in b.itertuples(index=False):
             row[f"{r.statistic}"] = r.estimate
             row[f"{r.statistic}_ci_low"] = r.ci_low
             row[f"{r.statistic}_ci_high"] = r.ci_high
         row.update({
             "n_test_lemmas": sub["lemma_id"].nunique(), "n_items": len(sub),
+            "k_shown_mean": float(sub.drop_duplicates("lemma_id")["k_shown"].mean()) if "k_shown" in sub else None,
+            "n_test_cells_per_verb_mean": float(sub.groupby("lemma_id").size().mean()),
+            "copy_shown_form_rate": float(sub["pred_equals_shown_form"].mean()) if "pred_equals_shown_form" in sub else None,
             "n_missing": int((sub["status"] == "missing").sum()),
             "n_failed": int((~sub["status"].isin(["ok", "missing"])).sum()),
             "n_folds": sub["outer_fold"].nunique(), "n_repetitions": sub["repetition"].nunique(),
@@ -67,6 +76,8 @@ def paired_table(items: pd.DataFrame, cfg: dict, comparisons: Sequence[tuple]) -
     ev = cfg["evaluation"]
     master = int(cfg["experiment"]["master_seed"])
     rows = []
+    if "item_set" in items:
+        items = items[items["item_set"] == "core"]       # paired only on identical (core) items
     for (unit, budget, model), sub in items.groupby(["unit_id", "budget", "model"]):
         for pa, ca, pb, cb in comparisons:
             a = sub[(sub["policy"] == pa) & (sub["pool_cap"] == ca)]

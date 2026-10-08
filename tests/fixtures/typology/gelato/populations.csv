@@ -1,0 +1,6 @@
+ID,Name,Macroarea,Latitude,Longitude,Glottocode,ISO639P3code,Language_Name,geographicRegion,country,samplesize,Average_SNP_count,LanguageFamily_Glottocode,LanguageFamily,curation_notes_linguistics,curation_notes_genetics,Source,Panel_ID
+HO-1,PopA,,0,0,lang1,,Lang One,EURASIA,X,10,1,fam1,Fam One,,,S1,HO
+HO-2,PopB,,0,0,dia1,,Dialect One,EURASIA,X,3,1,fam1,Fam One,,,S1,HO
+HO-3,PopC,,0,0,grp2,,Group Two,EURASIA,X,7,1,fam1,Fam One,,,S1,HO
+HO-4,PopD,,0,0,grp1,,Group One,EURASIA,X,5,1,fam1,Fam One,,,S1,HO
+HO-5,PopG,,0,0,grp3,,Group Three,EURASIA,X,6,1,fam1,Fam One,,,S1,HO

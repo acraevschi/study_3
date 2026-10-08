@@ -1,6 +1,6 @@
 # Batch entry point: one Julia process handles a shard of LDL jobs (amortises compilation).
 #   julia --project=julia -t <threads> run_jobs.jl <manifest.json>
-# manifest = {"mode": "predict" | "score", "blas_threads": int, "jobs": [job, ...]}
+# manifest = {"mode": "predict" | "score", "blas_threads": int, "jobs": [job, ...]}; predict = known-lexeme PCFP
 # Each job failure is recorded in <out_dir>/error.json and does not stop the shard.
 include(joinpath(@__DIR__, "..", "src", "LDLRunner.jl"))
 using .LDLRunner
