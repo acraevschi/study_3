@@ -1,0 +1,180 @@
+{
+  "GeLaTo_commit": "c625fdcf0225142cc03ae3a1635edf322e9c7778",
+  "GeLaTo_url": "https://github.com/gelato-org/gelato-data",
+  "Zenodo_record": "https://zenodo.org/records/15263706",
+  "tree_release_url": "https://github.com/rbouckaert/global-language-tree-pipeline/releases",
+  "inputs": [
+    {
+      "path": "mgn_modeling_dataset.csv",
+      "sha256": "8c7794a9c5d4c8ca06c64c2ae5ca04ce9e927d4398f3328f0929d20d8007891d"
+    },
+    {
+      "path": "mgn_language_map.json",
+      "sha256": "877eaa2dd0c28fa0593b494bb0cf62484094c1e85fd26bdf7ecdfce9c14e28d6"
+    },
+    {
+      "path": "data_sources/Glottolog_lookup_table_Heti_edition.tsv",
+      "sha256": "d3d4e989b484e092508dc40aec021b8ac041b53863f4ca2fe356029741af0b63"
+    },
+    {
+      "path": "mgn_data/results-final/all-accuracies.csv",
+      "sha256": "924f4c2fae2cfedddbe1216a13e11b0ad5206f5ad0573109760a2b6841a7f93f"
+    },
+    {
+      "path": "mgn_data/functions.R",
+      "sha256": "04427fea257da45c087b5f550730959096ee97cb30798222cd8359ff5ce5cf9f"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/gelato_c625fdc/GeneticVariable.md",
+      "sha256": "62bde869cc3f94ec31da73cfff243f3e5d933e34108f6bab90c47f8b9dff5d9a"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/gelato_c625fdc/README.md",
+      "sha256": "b558db02dfae2e4ba83585125367c5dcfc6ed90968647836451378913ac20af6"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/gelato_c625fdc/cldf/panels.csv",
+      "sha256": "859be3b1fb3f3c45226c932c02df31293dc3db264bdadc723fb184e0307a7095"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/gelato_c625fdc/cldf/populations.csv",
+      "sha256": "d269b2a24182d969f0ae7c38162d7ae0f438cacc9b4d60c334275fa22ccf556d"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/gelato_c625fdc/cldf/variables.csv",
+      "sha256": "3419e0ad95765fce88665bca870baa17db9e49bf4c107f5b6491d6db03ed1665"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/gelato_c625fdc/datasets/HumanOrigins_AutosomalSNP/data.csv",
+      "sha256": "40630df0c5020d235a6e0428487fe771d6954e79a0ecac772c6d9f0caff64685"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/gelato_c625fdc/datasets/HumanOrigins_AutosomalSNP/samples.csv",
+      "sha256": "f2c077556f7c93403c07b808a3d2cf31eb8619fb2ef4366a38af213964a810ea"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/trees/v1.0.0_global-language-tree-MCC-labelled.tree.gz",
+      "sha256": "e6851901740eaa87b2b5d9f81a29954cb8c53a9891a602b2e7b26db15e0db8a3"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/trees/v2.0.0_global-language-summary-tree-relabelled_cartoonised.tree.gz",
+      "sha256": "35578af18d987e58172c88793b33e8ba60626404bdad246610cd94e73146cb46"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/archive_inventory.json",
+      "sha256": "4cffcd813956072fae00edebed491b22b9241d1257e9021c7d20810fec6352b1"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/README.md",
+      "sha256": "1989e5c77f99c6d6da4cc32697dead183b69c76841bc6e9a815d410770b32805"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/GeLaTo-population-glottocode-mapping.csv",
+      "sha256": "c50ded4e70efb3008523e0ef89e7879b16f2d899b451a7c93c1dab2015ec3049"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/GeneticInfoID.csv",
+      "sha256": "6808f5e77a82a1f03a34cb267fdd17ebbb7e650ae88a022606370034e28dfe90"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K12.Q",
+      "sha256": "db8bff4d87111f696b8da8e4a28689f79b69db7de74143d473d003a45b144b62"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K13.Q",
+      "sha256": "22d247ba4ae35c9ac55a21997e76efa109fcc600f965f29e9ea6075b1de1a296"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K14.Q",
+      "sha256": "f94aa3d70a2cdc67159fb5724ee9b800378f20d690c3b4e71d04e07a68fb4367"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K15.Q",
+      "sha256": "b241ebf993117b16beb04bbccc5464fc4674e5897a87ba90b8e04a7446fcc67b"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K16.Q",
+      "sha256": "36f836cb6429236eeebaf52cab8281dfb635e47b1a64c1e181bd8c9a14f205ca"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K17.Q",
+      "sha256": "446ee83b7b2fa73e0e13e1cb177aa4e130d0af33e5f9af8bffe3a89ca7017219"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K18.Q",
+      "sha256": "a0735acea62a427572fbc757101fc28cfcde30ac9f13fb2b3a2f9d0b0be0f95a"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K19.Q",
+      "sha256": "359b165dc6d1f00d79331587a2a3a305ff4611c12f73b5a0aa5379503b6de159"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K20.Q",
+      "sha256": "15150738a930802ac2860004e84054a4ba87b8cd611c69f19888bef4bcf48906"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K21.Q",
+      "sha256": "72b13d951cfd9bf6120abc199a6e7507950955031819fc23cb192b6bc5869b60"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K22.Q",
+      "sha256": "8f38789df4f281ae6bded8a04f2f070d1651406b6f76b9603d7973466985edd9"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K23.Q",
+      "sha256": "9f8c4d7e1a063f88ae0dc5a60e642b775622fc81dbc410fb1aa07cda8ae123d3"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K24.Q",
+      "sha256": "e2d5f371eb3ce2017c95fbd60b0994b4545f9002bac29b0bc979e8e5fbaddc80"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K25.Q",
+      "sha256": "d14931782d5fea908fe1de37bf5680f5319bf5ba4029f908ff8e2ae7fdf29f3f"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K26.Q",
+      "sha256": "abd0518fed9da9c7a8ef08f7ae6158173ad6b57119e84828b1bcd0598134c633"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K27.Q",
+      "sha256": "f6f9a204832dd05234bafe8245e56d7c66d1aedca57a3f55959bc6ff008c8a56"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K28.Q",
+      "sha256": "8b2ecbeb8f9eebe4113c51324cc1d3458fb9c1008ce2801afab6fede94d17559"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K29.Q",
+      "sha256": "8ba9a8b36d8bb7e07bdf2721a94b7beebfb1a495062bb5524e6b96c2ba701011"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/MegaAdmixtureCatalogue/ADMIXTURE/best_runs/GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K30.Q",
+      "sha256": "2be8a7f0ea76d1a84e7642f5ef8203354daa337b082bb731c87b7d270ff008cb"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/gelatoLanguageMapping.R",
+      "sha256": "7354c5437ee59cc59a19676297c021e8676190c3ed7477e96e7e92c9814c6ad9"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/output/longlists/longlist_for_manual_curation.csv",
+      "sha256": "2d4647c8411a6fbb49f43a5017dab0e4193c2a3e5045a2ba4a2f224bb5bfac1a"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/scripts/1-admixtureTripletsFST.R",
+      "sha256": "876cc2842cb438f83ec7dcc801600b568af2e4a00874fb25911ddae8b141c38f"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/scripts/2-admixtureTripletsLongListForManualCuration.R",
+      "sha256": "ef2de52cf9cb972ef12c1e61a7776e0c0b670cea94620d511a304c1485421ae2"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/tables/tableS1.csv",
+      "sha256": "02b38caec27d21911c453ef5ea424d2df3a070dcfe15814b1ed084ca89a4483c"
+    },
+    {
+      "path": "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/tables/tableS2.csv",
+      "sha256": "2ed7dab27022c1c3dc96f32dbe06ff1c237edd3ae5232d489874dd95e955cb0b"
+    }
+  ]
+}

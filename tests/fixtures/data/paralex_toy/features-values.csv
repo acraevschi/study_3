@@ -1,0 +1,4 @@
+value_id,feature,label,unimorph
+inf,verbform,infinitive,NFIN
+prs,tense,present,PRS
+1sg,person-number,first singular,1;SG

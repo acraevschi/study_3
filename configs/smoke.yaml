@@ -1,0 +1,9 @@
+# End-to-end integration smoke test on real data with tiny sizes. Results are interface
+# checks, not substantive estimates. Reuses the pilot's data-stage outputs (symlinked).
+_inherit: pilot.yaml
+experiment: {id: smoke_v1}
+cv: {inventory_size: 300, dev_size: 20, seed_size: 10, pool_cap: 60, pool_cap_sensitivity: [40]}
+selection: {batch_size: 10, budgets: [30], aux_copy_anchor_size: 50, n_procs: 6}
+selector: {max_steps: 150, eval_every: 50, warmup_steps: 50}
+ldl: {tune: {background_size: 30, heldout_size: 20}, n_procs: 4}
+evaluation: {bootstrap_reps: 200}

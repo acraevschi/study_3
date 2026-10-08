@@ -1,0 +1,5 @@
+setting,cue_ngram,sem_sd_inflection,mean_dev_accuracy,mean_dev_edit_distance
+cue_ngram-2_sem_sd_inflection-0.4,2,0.4,0.30937499999999996,1.5171875
+cue_ngram-2_sem_sd_inflection-4.0,2,4.0,0.24765625,2.43515625
+cue_ngram-3_sem_sd_inflection-0.4,3,0.4,0.1046875,2.18359375
+cue_ngram-3_sem_sd_inflection-4.0,3,4.0,0.084375,3.99453125

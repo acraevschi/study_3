@@ -1,0 +1,79 @@
+collection,file_language,original_id,canonical_iso639_3,variety_id,low_glottocode_for_original,low_glottocode_for_canonical,project_override,override_reason,final_glottocode,language_label_low,in_mgn_living_64,extinct,unresolved_flags
+mgn_data,ady,ady,ady,ady,adyg1241,adyg1241,no,,adyg1241,Adyghe,True,False,
+mgn_data,ang,ang,ang,ang,olde1238,olde1238,no,,olde1238,Old English (ca. 450-1100),False,True,extinct_or_historical
+mgn_data,ast,ast,ast,ast,astu1245,astu1245,no,,astu1245,Asturian,False,False,
+mgn_data,aze,aze,azj,azj,,nort2697,yes,macrolanguage -> North Azerbaijani (azj),nort2697,North Azerbaijani,True,False,original_code_not_in_low
+mgn_data,bak,bak,bak,bak,bash1264,bash1264,no,,bash1264,Bashkir,True,False,
+mgn_data,bel,bel,bel,bel,bela1254,bela1254,no,,bela1254,Belarusian,True,False,
+mgn_data,bod,bod,bod,bod,tibe1272,tibe1272,no,,tibe1272,Tibetan,False,False,
+mgn_data,bul,bul,bul,bul,bulg1262,bulg1262,no,,bulg1262,Bulgarian,True,False,
+mgn_data,cat,cat,cat,cat,stan1289,stan1289,no,,stan1289,Catalan,True,False,
+mgn_data,ces,ces,ces,ces,czec1258,czec1258,no,,czec1258,Czech,True,False,
+mgn_data,chu,chu,chu,chu,chur1257,chur1257,no,,chur1257,Church Slavic,False,True,extinct_or_historical
+mgn_data,ckb,ckb,ckb,ckb,cent1972,cent1972,no,,cent1972,Central Kurdish,True,False,
+mgn_data,crh,crh,crh,crh,crim1257,crim1257,no,,crim1257,Crimean Tatar,True,False,
+mgn_data,cym,cym,cym,cym,wels1247,wels1247,no,,wels1247,Welsh,True,False,
+mgn_data,dan,dan,dan,dan,dani1285,dani1285,no,,dani1285,Danish,True,False,
+mgn_data,deu,deu,deu,deu,stan1295,stan1295,no,,stan1295,German,True,False,
+mgn_data,dsb,dsb,dsb,dsb,lowe1385,lowe1385,no,,lowe1385,Lower Sorbian,True,False,
+mgn_data,ell,ell,ell,ell,mode1248,mode1248,no,,mode1248,Modern Greek (1453-),True,False,
+mgn_data,est,est,ekk,ekk,,esto1258,yes,macrolanguage -> Standard Estonian (ekk),esto1258,Standard Estonian,True,False,original_code_not_in_low
+mgn_data,fao,fao,fao,fao,faro1244,faro1244,no,,faro1244,Faroese,True,False,
+mgn_data,fas,fas,pes,pes,,west2369,yes,macrolanguage -> Western Persian (pes),west2369,Iranian Persian,True,False,original_code_not_in_low
+mgn_data,fin,fin,fin,fin,finn1318,finn1318,no,,finn1318,Finnish,True,False,
+mgn_data,frm,frm,frm,frm,,,no,,,Middle French (ca. 1400-1600),False,True,canonical_iso_not_in_low;extinct_or_historical
+mgn_data,fro,fro,fro,fro,oldf1239,oldf1239,no,,oldf1239,Old French (842-ca. 1400),False,True,extinct_or_historical
+mgn_data,fur,fur,fur,fur,friu1240,friu1240,no,,friu1240,Friulian,True,False,
+mgn_data,gal,gal,glg,glg,galo1243,gali1258,yes,ISO 639-2/legacy alias: 'gal' is Galoli in ISO 639-3; MGN 'gal' is Galician (glg),gali1258,Galician,True,False,original_code_is_false_friend_in_low
+mgn_data,gle,gle,gle,gle,iris1253,iris1253,no,,iris1253,Irish,True,False,
+mgn_data,grc,grc,grc,grc,anci1242,anci1242,no,,anci1242,Ancient Greek (to 1453),False,True,extinct_or_historical
+mgn_data,hbs,hbs,hbs,hbs,sout1528,sout1528,no,,sout1528,Serbo-Croatian,True,False,
+mgn_data,heb,heb,heb,heb,hebr1245,hebr1245,no,,hebr1245,Hebrew,True,False,
+mgn_data,hin,hin,hin,hin,hind1269,hind1269,no,,hind1269,Hindi,True,False,
+mgn_data,hye,hye,hye,hye,nucl1235,nucl1235,no,,nucl1235,Armenian,True,False,
+mgn_data,isl,isl,isl,isl,icel1247,icel1247,no,,icel1247,Icelandic,True,False,
+mgn_data,ita,ita,ita,ita,ital1282,ital1282,no,,ital1282,Italian,True,False,
+mgn_data,kan,kan,kan,kan,nucl1305,nucl1305,no,,nucl1305,Kannada,True,False,
+mgn_data,kat,kat,kat,kat,nucl1302,nucl1302,no,,nucl1302,Georgian,True,False,
+mgn_data,kbd,kbd,kbd,kbd,kaba1278,kaba1278,no,,kaba1278,Kabardian,True,False,
+mgn_data,klr,klr,klr,klr,khal1275,khal1275,no,,khal1275,Khaling,True,False,
+mgn_data,kmr,kmr,kmr,kmr,nort2641,nort2641,no,,nort2641,Northern Kurdish,True,False,
+mgn_data,lit,lit,lit,lit,lith1251,lith1251,no,,lith1251,Lithuanian,True,False,
+mgn_data,liv,liv,liv,liv,livv1244,livv1244,no,,livv1244,Liv,False,True,extinct_or_historical
+mgn_data,lld,lld,lld,lld,ladi1250,ladi1250,no,,ladi1250,Ladin,True,False,
+mgn_data,mkd,mkd,mkd,mkd,mace1250,mace1250,no,,mace1250,Macedonian,True,False,
+mgn_data,mlt,mlt,mlt,mlt,malt1254,malt1254,no,,malt1254,Maltese,False,False,
+mgn_data,nld,nld,nld,nld,dutc1256,dutc1256,no,,dutc1256,Dutch,True,False,
+mgn_data,nob,nob,nor,nor-bokmal,,norw1258,yes,Norwegian Bokmal mapped to Norwegian (nor/norw1258); nob is a dialect-level code in Glottolog,norw1258,Norwegian,True,False,original_code_not_in_low
+mgn_data,oci,oci,oci,oci,occi1239,occi1239,no,,occi1239,Occitan (post 1500),True,False,
+mgn_data,osx,osx,osx,osx,olds1250,olds1250,no,,olds1250,Old Saxon,False,True,extinct_or_historical
+mgn_data,pol,pol,pol,pol,poli1260,poli1260,no,,poli1260,Polish,True,False,
+mgn_data,pus,pus,pbt,pbt,,sout2649,yes,macrolanguage -> Southern Pashto (pbt),sout2649,Southern Pashto,True,False,original_code_not_in_low
+mgn_data,ron,ron,ron,ron,roma1327,roma1327,no,,roma1327,Romanian,True,False,
+mgn_data,san,san,san,san,sans1269,sans1269,no,,sans1269,Sanskrit,False,True,extinct_or_historical
+mgn_data,slv,slv,slv,slv,slov1268,slov1268,no,,slov1268,Slovenian,True,False,
+mgn_data,sme,sme,sme,sme,nort2671,nort2671,no,,nort2671,Northern Sami,True,False,
+mgn_data,spa,spa,spa,spa,stan1288,stan1288,no,,stan1288,Spanish,True,False,
+mgn_data,sqi,sqi,als,als,,tosk1239,yes,"macrolanguage -> Tosk Albanian (als), the basis of the standard",tosk1239,Tosk Albanian,True,False,original_code_not_in_low
+mgn_data,swe,swe,swe,swe,swed1254,swed1254,no,,swed1254,Swedish,True,False,
+mgn_data,syc,syc,syc,syc,clas1252,clas1252,no,,clas1252,Classical Syriac,False,True,extinct_or_historical
+mgn_data,tat,tat,tat,tat,tata1255,tata1255,no,,tata1255,Tatar,True,False,
+mgn_data,tel,tel,tel,tel,telu1262,telu1262,no,,telu1262,Telugu,True,False,
+mgn_data,tur,tur,tur,tur,nucl1301,nucl1301,no,,nucl1301,Turkish,True,False,
+mgn_data,ukr,ukr,ukr,ukr,ukra1253,ukra1253,no,,ukra1253,Ukrainian,True,False,
+mgn_data,urd,urd,urd,urd,urdu1245,urdu1245,no,,urdu1245,Urdu,True,False,
+mgn_data,vec,vec,vec,vec,vene1258,vene1258,no,,vene1258,Venetian,True,False,
+mgn_data,xcl,xcl,xcl,xcl,clas1249,clas1249,no,,clas1249,Classical Armenian,False,True,extinct_or_historical
+mgn_data,yid,yid,ydd,ydd,,east2295,yes,macrolanguage -> Eastern Yiddish (ydd),east2295,Eastern Yiddish,True,False,original_code_not_in_low
+mgn_data,zul,zul,zul,zul,zulu1248,zulu1248,no,,zulu1248,Zulu,True,False,
+mgn_data-custom,arabic,ara,arb,arb,,stan1318,yes,macrolanguage -> Standard Arabic (arb),stan1318,Standard Arabic,True,False,original_code_not_in_low
+mgn_data-custom,english,eng,eng,eng,stan1293,stan1293,no,,stan1293,English,True,False,
+mgn_data-custom,french,fre,fra,fra,,stan1290,yes,ISO 639-2/B alias for French (fra),stan1290,French,True,False,original_code_not_in_low
+mgn_data-custom,hungarian,hun,hun,hun,hung1274,hung1274,no,,hung1274,Hungarian,True,False,
+mgn_data-custom,latin,lat,lat,lat,lati1261,lati1261,no,,lati1261,Latin,False,True,extinct_or_historical
+mgn_data-custom,latvian,lav,lav,lav,latv1249,latv1249,no,,latv1249,Latvian,True,False,
+mgn_data-custom,navajo,nav,nav,nav,nava1243,nava1243,no,,nava1243,Navajo,True,False,
+mgn_data-custom,portuguese,por,por,por,port1283,port1283,no,,port1283,Portuguese,True,False,
+mgn_data-custom,russian,rus,rus,rus,russ1263,russ1263,no,,russ1263,Russian,True,False,
+mgn_data-custom,yaitepec-chatino,yai,ctp,ctp,yagn1238,west2644,yes,"Chatino false friend: ISO yai is Yaghnobi; MGN 'yai' is Yaitepec Chatino, a dialect of Western Highland Chatino (ctp)",west2644,Western Highland Chatino,True,False,original_code_is_false_friend_in_low
+mgn_data-custom,zenzontepec-chatino,zen,czn,czn,zena1248,zenz1235,yes,Chatino false friend: ISO zen is Zenaga; MGN 'zen' is Zenzontepec Chatino (czn),zenz1235,Zenzontepec Chatino,True,False,original_code_is_false_friend_in_low

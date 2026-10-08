@@ -1,218 +1,141 @@
-# PhD Study 3 — Morphological complexity and speaker demography
+# Morphology sampling → LDL outcomes → GeLaTo linkage
 
-Does the **size and ecology of a speech community** predict the **inflectional
-predictability** of its language?
+PhD Study 3: inflectional complexity and genetic admixture. The repository holds the
+current pipeline at its root. Earlier exploratory tracks (the MGN-accuracy Bayesian models
+with demographic and phylogenetic covariates, and the Germanic historical track) were
+archived on 2026-10-08; see [Archive](#archive).
 
-Complexity is *I-complexity* in the sense of Ackerman & Malouf (2013), measured as in
-Guzmán Naranjo (2024): the accuracy of predicting one paradigm cell from another. One
-observation is one directed cell pair in one language, `correct` successes out of
-`total` cross-validation trials.
+**Status.** `pilot_v1` (Italian and Finnish verbs, MGN) is complete; see
+[docs/REPORT.md](docs/REPORT.md). The next task replaces the new-verb task below with
+paradigm cell filling, uses LDL as its own selector and adds a Grambank outcome
+([brief](docs/next_task_pcfp_prompt.md)).
 
-**The question, the design decisions, the model results and the caveats are all in
-[docs/METHODS.md](docs/METHODS.md).** Read that before changing anything in the
-pipeline. This file covers layout, how to run it, and where the data comes from.
+A reproducible pipeline that turns inflectional paradigms into **LDL-based difficulty
+outcomes** and links them to **GeLaTo genetic populations** for a later
+admixture–morphology analysis (not fitted here).
 
----
+The task is **source-known paradigm completion for held-out lemmas**. For each held-out
+lemma, the model sees one supplied source form (the infinitive) and must produce a fixed
+panel of 8 target cells. Training samples of 100, 200 or N lemmas are chosen by
+**active selection** (low-confidence or high-entropy scores from a character Transformer
+selector, after Muradoğlu & Hulden 2022) or by **matched random selection**. Selection
+runs inside every grouped outer cross-validation fold. Each sample gets a freshly
+fitted **native LDL model** (JudiLing.jl, end-state, simulated semantics, wug-style
+source binding). Uncertainty comes from lemma-cluster bootstrap intervals.
 
-## Status
+| Document | Content |
+|---|---|
+| [docs/PROTOCOL.md](docs/PROTOCOL.md) | experimental specification (estimand, task, CV, metrics, uncertainty) |
+| [docs/CONTRACT.md](docs/CONTRACT.md) | schemas, identifiers, permitted held-out information, interfaces |
+| [docs/DATA.md](docs/DATA.md) | adapters, provenance, identifiers, eligibility, GeLaTo matching and reviews |
+| [docs/SELECTION.md](docs/SELECTION.md) | selector, scores, acquisition, ALmorphinfl audit |
+| [docs/LDL_PROTOCOL.md](docs/LDL_PROTOCOL.md) | JudiLing audit, held-out-lemma protocol, runner |
+| [docs/REPORT.md](docs/REPORT.md) | pilot results, adaptations, failures, limitations, next steps |
+| [docs/PIPELINE_OVERVIEW.md](docs/PIPELINE_OVERVIEW.md) | one-page diagram of the stages and fitted models |
+| [docs/gelato_feasibility_2026-10-01.md](docs/gelato_feasibility_2026-10-01.md) | GeLaTo feasibility review (what the genetic data can and cannot measure) |
+| [docs/next_task_pcfp_prompt.md](docs/next_task_pcfp_prompt.md) | brief for the next task: PCFP task, LDL selector, Grambank inflection-extent outcome |
 
-The models have been fitted once, on 2026-09-04. **Neither meets the R̂ < 1.01 /
-ESS > 400 convergence target** — the spatial GP length-scale and the phylogenetic SD are
-weakly identified, and three terms compete for the same between-language variance across
-only 64 languages. The population-level coefficients are well behaved and usable; the
-variance decomposition is not. See [docs/METHODS.md §5](docs/METHODS.md).
-
----
-
-## Two tracks
-
-| Track | What it is | Where |
-|---|---|---|
-| **A — Global** | 64 languages × demographic, ecological, phylogenetic and spatial covariates → Bayesian beta-binomial models | `src/`, the three root `.R` scripts, `mgn_data/`, `data_sources/` |
-| **B — Germanic historical** | Low and High German diachrony: Middle Low German verbs from CorA-ReN, plus historical Germanic UniMorph paradigms | `germanic/`, `src/low_german_extraction.py` |
-
-Track B inherits the demographic registry Track A builds; it is otherwise independent
-and has no model yet.
-
----
-
-## Repository map
-
-```
-study_3/
-├── README.md                        ← you are here
-├── docs/METHODS.md                  ← the study: question, decisions, results, caveats
-│
-├── src/                             ← Python pipeline (5 modules, all live)
-│   ├── mgn_language_map.py          · single source of truth: MGN ↔ ISO ↔ Glottolog
-│   ├── cell_normalization.py        · parsers for the six MGN cell-label conventions
-│   ├── build_demographic_registry.py· multi-source demographic fusion
-│   ├── merge_mgn_features.py        · distance computation + demographic merge
-│   └── low_german_extraction.py     · TRACK B: CorA-ReN XML → verb tokens
-│
-├── build_phylo_matrix.R             ← Glottolog lineages → 64×64 correlation matrix
-├── fit_bayesian_models.R            ← the models
-├── plot_language_map.R              ← coverage map of the modelled sample
-├── scripts/fetch_cora_ren.sh        ← retrieve the Middle Low German corpus
-│
-├── data_sources/                    ← INPUTS (see §Data)
-├── mgn_data/results-final/          ← the four MGN files the pipeline reads
-├── germanic/                        ← TRACK B data
-│
-├── global_demographic_registry.csv  ← GENERATED: 7,872 languages × 17 cols
-├── mgn_modeling_dataset.csv.gz      ← GENERATED: 111,315 trials × 38 cols, 64/64 langs
-├── mgn_language_map.json            ← GENERATED, read by the R scripts
-├── phylo_cov_matrix.rds             ← GENERATED: 64×64 phylogenetic correlation matrix
-│
-├── results/  plots/  fits/          ← model output (fits/ is not committed, 163 MB each)
-└── tests/                           ← 5 tiers, 96 tests
-```
-
----
-
-## Run order
+## Setup
 
 ```bash
-PYTHONPATH=src python3 src/build_demographic_registry.py   # → global_demographic_registry.csv
-PYTHONPATH=src python3 src/merge_mgn_features.py           # → mgn_modeling_dataset.csv
-Rscript build_phylo_matrix.R                               # → phylo_cov_matrix.rds
-Rscript plot_language_map.R                                # → plots/map_mgn64.png
-python3 -m pytest tests/ -q                                # 92 passed, 4 skipped*
+scripts/fetch_external.sh                       # pinned external sources
+python3 -m venv .venv                           # any Python ≥ 3.12
+.venv/bin/pip install -r requirements.lock      # exact versions used (torch 2.14.1 CPU)
+.venv/bin/pip install ./external/languages-of-the-world
+julia --project=julia -e 'using Pkg; Pkg.instantiate(); Pkg.precompile()'   # Julia 1.12, JudiLing =1.0.1
 ```
 
-\* The four skips are the model-fit checks: `fits/*.rds` is not committed, so they skip
-on a fresh clone and pass (96) once you have fitted the models.
+Inputs that are read but never modified: `mgn_data/` (see [Data provenance](#data-provenance))
+and `analyses/gelato_feasibility_2026_10_01/` (GeLaTo commit c625fdc, Zenodo 15263706).
+Paths in the configs are relative to the repository root.
 
-The modelling dataset is committed gzipped; `gunzip -k mgn_modeling_dataset.csv.gz`
-restores it, or just re-run step 2.
+## Run
 
-Fitting the models — the run reported in `docs/METHODS.md`:
+Use one entry point. Every stage is independently runnable and writes a `stage_manifest.json`
+(config hash, input hashes, git state, external revisions, package versions, seeds).
 
 ```bash
-MGN_UNIT=source_cell MGN_CHAINS=4 MGN_THREADS=4 MGN_ITER=3000 MGN_WARMUP=1500 \
-  Rscript fit_bayesian_models.R
+.venv/bin/python -m morph_ldl.cli <stage> --config configs/pilot.yaml [--units ...] [--folds ...] [--policies ...] [--set key=json ...]
 ```
 
-Knobs: `MGN_UNIT` (`pair` = 111,315 cell pairs, `source_cell` = 3,175 aggregated source
-cells), `MGN_MODELS` (`minimal`/`comprehensive`/`both`), `MGN_CHAINS`, `MGN_THREADS`
-(cores *within* each chain), `MGN_ITER`, `MGN_WARMUP`, `MGN_ADAPT_DELTA`,
-`MGN_MAX_TREEDEPTH`, `MGN_SUBSAMPLE` (rows per language × POS; unset = full data),
-`MGN_DROP_ECO_IMPUTED=1` (refit Model 2 on the 53 languages with measured covariates).
+| Stage | Output under `outputs/<experiment_id>/` |
+|---|---|
+| `data` | `data/forms/<unit>.csv`, `registry/`, `eligibility/`, `gelato/crosswalk.csv` |
+| `splits` | `splits/<unit>/rep{r}/split_manifest.csv` |
+| `ldl_tune` | `ldl_tune/chosen_settings.json` (dev-only choice of cue n-gram and inflection SD) |
+| `select` | `selection/<unit>/rep{r}/fold{k}/<policy>@<pool>/`: order, logs, per-cell scores, `samples/budget_{B}*.csv` |
+| `ldl` | `queries/…/test_queries.csv` (gold-free), `ldl/…/budget_{B}/predictions.csv`, `mapping_quality.csv` |
+| `selector` | `selector_eval/…/predictions.csv` (selector accuracy on the same test items) |
+| `evaluate` | `eval/item_predictions.csv`, summaries, per-cell, fold variability, sample composition |
+| `outcomes` | `outcomes/ldl_outcomes.csv`, `paired_differences.csv`, `population_links.csv` |
+| `audit` | `eval/artifact_audit.json` (samples, anchors and queries checked against the manifests) |
 
-Track B, independently:
+`scripts/run_pilot.sh configs/pilot.yaml` runs every stage from `select` through `outcomes`.
+`configs/smoke.yaml` inherits from the pilot config and runs the full chain at tiny sizes.
+Budget 200 and more repetitions only need config changes, for example
+`--set 'selection.budgets=[100,200]' 'cv.repetitions=[0,1,2]'`. The trajectories are nested,
+so budget 100 is a prefix of budget 200.
 
-```bash
-bash scripts/fetch_cora_ren.sh          # only if you need the corpus itself
-python3 src/low_german_extraction.py    # → germanic/extracted_verbs.csv
+Tests: `.venv/bin/python -m pytest` runs all tests. Add `-m "not slow"` to skip the real-Julia tests.
+
+## Key outputs for the next analysis stage
+
+* `outputs/pilot_v1/outcomes/ldl_outcomes.csv` has one row per unit × policy × pool cap × budget × model. It holds accuracy (micro and lemma-macro), edit distance and normalized edit distance. Each estimate has 95% lemma-cluster bootstrap intervals, counts and provenance.
+* `outputs/pilot_v1/outcomes/population_links.csv` has one row per unit × GeLaTo population. It carries the match status, sample sizes and ancestry-source identifiers, but no ancestry values. It applies no aggregation and does not duplicate morphology rows.
+
+## Repository layout
+
+```
+morph_ldl/        Python package: data, cv, selection, ldl stages; cli.py is the entry point
+  data/vendor/    modules vendored from the earlier code (MGN↔ISO map, cell-label parsers)
+  data/resources/ cells_to_unimorph.json (curated MGN cell label → UniMorph features)
+julia/            JudiLing runner (Project.toml pins JudiLing =1.0.1; Manifest.toml committed)
+configs/          pilot.yaml (pilot_v1), smoke.yaml
+tests/            pytest suite (97 tests)
+scripts/          fetch_external.sh (pinned external sources), run_pilot.sh
+docs/             protocol, contract, component docs, report, next-task brief
+analyses/         GeLaTo feasibility audit (2026-10-01) and coverage estimates (2026-10-08)
+mgn_data/         third-party MGN paradigm inputs (not committed; MANIFEST.sha256 is)
+external/         pinned external clones (not committed; scripts/fetch_external.sh)
+outputs/          stage outputs; only small pilot_v1 result tables are committed
 ```
 
----
+## Data provenance
 
-## Data
+Nothing here is our own primary data. Cite every source below in any write-up.
 
-Nothing in this repository is our own primary data. Everything below is third-party and
-should be cited as such in any write-up.
+| Source | What we use | Version | Where |
+|---|---|---|---|
+| MGN data (Guzmán Naranjo 2024, *J. Language Modelling* 12(2)) | per-language paradigm tables `data/`, `data-custom/`, build scripts `build-data/` | upstream URL/commit not yet recorded; file hashes in `mgn_data/MANIFEST.sha256` | `mgn_data/` ([README](mgn_data/README.md)) |
+| UniMorph (Italian, Finnish) | verification of the MGN tables against UniMorph | unimorph/ita fa2cc6c, unimorph/fin fe0a270 | `external/` |
+| languages-of-the-world | ISO 639-3 → Glottocode layer, with project corrections | d319631 (0.2.0) | `external/`, `morph_ldl/data/vendor/mgn_language_map.py` |
+| JudiLing.jl | LDL implementation | 1.0.1 (= ca77304) | `julia/Manifest.toml`, `external/` |
+| ALmorphinfl (Muradoğlu & Hulden 2022) | reference implementation for the active-learning scores | 3caf0d0 | `external/` |
+| GeLaTo | population metadata, Glottocodes, sample sizes | gelato-data c625fdc | `analyses/gelato_feasibility_2026_10_01/sources/` |
+| Graff et al. 2025 archive | ADMIXTURE Q-matrix identifiers and population–language table (no ancestry values are used yet) | Zenodo 15263706 | `analyses/gelato_feasibility_2026_10_01/sources/` |
+| Grambank, Glottolog CLDF | planned Grambank inflection-extent outcome | Grambank v1.0.3, Glottolog CLDF v5.3 | to be pinned by the next task |
 
-### Morphological complexity
+The exact input hashes of each run are in its `outputs/<experiment>/<stage>/stage_manifest.json`
+(written locally by every stage; not committed, because they record absolute paths).
 
-**MGN — inflectional prediction accuracy.**
-Guzmán Naranjo, Matías (2024). *An analogical approach to the typology of inflectional
-complexity.* Journal of Language Modelling 12(2). ⟨https://jlm.ipipan.waw.pl/⟩
+Licences of the third-party files redistributed in `analyses/gelato_feasibility_2026_10_01/sources/`:
+GeLaTo data (gelato-org/gelato-data) CC BY-NC 4.0; Graff et al. 2025 archive (Zenodo 15263706)
+CC BY 4.0; global language trees (rbouckaert/global-language-tree-pipeline) MIT. MGN, UniMorph
+and the other external sources are not redistributed here.
 
-The upstream repository is ~8.7 GB. **Four files are committed**, the only ones the
-pipeline reads, under `mgn_data/results-final/`:
+## Archive
 
-| File | Size | Role |
-|---|---|---|
-| `compressed-lang-pairs-v.csv.gz` | 5.0 MB | verb cell pairs |
-| `compressed-lang-pairs-n.csv` | 2.4 MB | noun cell pairs |
-| `compressed-lang-pairs-adj.csv.gz` | 0.1 MB | adjective cell pairs |
-| `all-accuracies.csv` | 33 KB | per-language aggregate accuracies |
+Material from earlier implementation paths was moved, unchanged, out of the repository
+on 2026-10-08 and is kept privately (a local, gitignored `ARCHIVE_NOTE.md` says where).
+Everything that was committed is also in git history before the
+archive commit. Archived: the global MGN-accuracy track (`src/`, root R scripts, `fits/`,
+`results/`, `plots/`, `global_demographic_registry.csv`, `mgn_modeling_dataset.csv*`,
+`phylo_cov_matrix.rds`, `data_sources/`, `docs/METHODS.md`, its tests), the Germanic track
+(`germanic/`, `scripts/fetch_cora_ren.sh`), MGN's own results and analysis scripts
+(about 8.4 GB of `mgn_data/`), agent scratch folders, and the previous README.
 
-The verb file is committed as its gzip: the plain 48 MB `.csv` has byte-identical
-contents (verified by md5). The noun file is committed plain, because the shipped
-`.csv` and `.csv.gz` differ in float precision and the `.csv` is what the pipeline used.
-Everything else in `mgn_data/` — including the 5.3 GB uncompressed verb pair file and
-the per-language paradigm data — is gitignored; get it from the author's repository.
+The GeLaTo feasibility audit script (`analyses/gelato_feasibility_2026_10_01/audit.py`)
+read `mgn_modeling_dataset.csv`, `mgn_language_map.json` and
+`data_sources/Glottolog_lookup_table_Heti_edition.tsv`; these are now in the archive. Its
+outputs, which the pipeline reads, are unchanged.
 
-### Demography, ecology and taxonomy
-
-**Bromham et al. — L1 population and macro-ecological covariates.**
-Bromham, L., Dinnage, R., Skirgård, H., Ritchie, A., Cardillo, M., Meakins, F.,
-Greenhill, S. & Hua, X. (2022). *Global predictors of language endangerment and the
-future of linguistic diversity.* Nature Ecology & Evolution 6:163–173.
-Data: ⟨https://github.com/huaxia1985/LanguageEndangerment⟩ (`data.Rdata`).
-The 11 MB `data.Rdata` is gitignored and auto-downloads; the 388 KB extract the
-pipeline actually uses, `data_sources/bromham_extracted.csv`, **is committed**.
-*Sole source of contact richness, range area, altitude range and roughness.*
-
-**Ethnologue multi-ISO table — population for the major world languages.**
-Distributed with Dinnager's replication materials for the above:
-⟨https://github.com/rdinnager/language_endangerment⟩ →
-`data/all_multi_ISO_languages.csv` (564 KB, **committed**). The `LMP_POP1` field is the
-same L1 variable as Bromham's, and covers English, Spanish, Russian, French,
-Portuguese, Hindi, Urdu and Croatian, which Bromham omits.
-
-**Koplenig — L2 proportion, vehicularity, fallback population.**
-Koplenig, Alexander (2019). *Language structure is influenced by the number of speakers
-but seemingly not by the proportion of non-native speakers.* Royal Society Open Science
-6:181274. ⟨https://doi.org/10.1098/rsos.181274⟩
-As `data_sources/ethnologue_population_data.csv` (2,143 languages, **committed**).
-
-**Glottolog v5.3 — glottocodes, families, macro-areas, coordinates, lineages.**
-Hammarström, H., Forkel, R., Haspelmath, M. & Bank, S. *Glottolog.* Max Planck
-Institute for Evolutionary Anthropology. ⟨https://glottolog.org⟩
-Two files, both **committed**:
-- `data_sources/glottolog_extracted.csv` (7.3 MB) — exported from the `lingtypology` R
-  package (Moroz 2017). **Not re-downloadable**: it is generated by R and
-  `build_phylo_matrix.R` fails without it, which is why it is in the repository.
-- `data_sources/Glottolog_lookup_table_Heti_edition.tsv` (5.7 MB) — the ISO↔Glottocode
-  lookup, from the `rdinnager` repository above.
-
-### Germanic historical (Track B)
-
-**CorA-ReN — Reference Corpus Middle Low German / Low Rhenish (1200–1650).**
-ReN-Team (2021). Version 1.1, CorA-XML release. Universität Hamburg / ZFDM.
-⟨https://doi.org/10.25592/uhhfdm.9195⟩ — **CC BY 4.0.**
-694 MB, **not committed**. `bash scripts/fetch_cora_ren.sh` walks you through getting it.
-The derived verb table, `germanic/extracted_verbs.csv` (183,450 tokens, 19 MB), **is
-committed**, so you only need the corpus if you want to change the extraction.
-
-**UniMorph — historical Germanic verb paradigms.**
-⟨https://unimorph.github.io/⟩, per-language repositories at
-`https://github.com/unimorph/<iso>`. Committed under `germanic/unimorph/raw/`, filtered
-to verbs and reshaped to `lemma,form,paradigm_slot`:
-
-| ISO | Language | Role |
-|---|---|---|
-| `goh` | Old High German | High German diachrony |
-| `gmh` | Middle High German | High German diachrony |
-| `deu` | Modern Standard German | High German diachrony, endpoint |
-| `osx` | Old Saxon | Low German diachrony |
-| `nds` | Low German | Low German diachrony, endpoint |
-| `ang` | Old English | nearest West Germanic comparandum |
-| `got` | Gothic | East Germanic outgroup |
-| `non` | Old Norse | North Germanic outgroup |
-
-The Middle Low German stage comes from CorA-ReN, not UniMorph.
-
-### Hand-curated in this repository
-
-`data_sources/cells_to_unimorph.json` (303 entries) maps MGN's dotted cell labels onto
-UniMorph feature bundles. It is the only human input to the normalisation step.
-
----
-
-## What is not committed, and why
-
-| Path | Size | Why |
-|---|---|---|
-| `fits/*.rds` | 163 MB each | over GitHub's 100 MB per-file limit; re-fit with the command above |
-| `mgn_data/` except the four files above | 8.7 GB | third-party; the committed subset is everything the pipeline reads |
-| `germanic/cora_ren_xml_1.1/` | 694 MB | third-party, CC BY 4.0, available by DOI; `scripts/fetch_cora_ren.sh` |
-| `data_sources/data.Rdata` | 11 MB | auto-downloads; the extract we use is committed |
-| `mgn_modeling_dataset.csv` | 46 MB | the 3 MB `.gz` is committed instead |
-
-Everything else — the registry, the phylogenetic matrix, the language map, the model
-results and the plots — **is committed**, so the analysis can be inspected
-and the models re-fitted without regenerating anything upstream.

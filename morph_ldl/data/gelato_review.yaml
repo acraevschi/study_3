@@ -1,0 +1,234 @@
+# Curated GeLaTo population <-> morphology-resource reviews (data stage).
+#
+# Exact Glottocode matches are `candidate` by default. A row becomes `accepted` (or is
+# moved to ambiguous/excluded) ONLY through an entry here. `accepted` needs every field
+# in REQUIRED_REVIEW_FIELDS of morph_ldl/data/gelato.py; incomplete entries are ignored
+# and reported in `unresolved_issues`.
+#
+# Reviews use only population metadata (sample label, curation notes, coordinates,
+# source publication, curated Glottocodes) and knowledge about the varieties. No
+# ancestry proportions, heterogeneity or other genetic values were consulted.
+#
+# Keys: glottocode + population (+ optional `resources`, default all resources of that
+# Glottocode).
+
+reviews:
+
+  # ------------------------------------------------------------------ Italian
+  - id: ita-tuscan
+    glottocode: ital1282
+    population: Tuscan
+    resources: all
+    status: accepted
+    variety_review: >
+      Morphology resource: MGN ita-v = untouched UniMorph `ita` orthography (Wiktionary-derived
+      conjugation tables of contemporary Standard Italian). Standard Italian is historically
+      the Florentine/Tuscan literary language; in Tuscany the local vernacular is Tuscan
+      Italian itself rather than a separate Romance language, so the sampled community's
+      everyday variety is the closest regional match to the standard paradigm.
+    community_review: >
+      Tuscan sample of Patterson et al. 2012 (Human Origins; HGDP-derived per the literature,
+      not verified locally), n=8 in both the
+      GeLaTo main panel and Zenodo Table S1; Table S1 GeLaTo/GBI/TLI Glottocodes all ital1282;
+      GeneticInfoID glottocodeBase ital1282. Main-panel curation note: "general check ok".
+      Individual language use is not recorded; assumed Italian-speaking residents of Tuscany.
+    locality_review: >
+      Main-panel coordinates 43.0 N, 11.0 E (central Tuscany, a regional centroid rather than
+      a recorded village); country Italy.
+    source_period_review: >
+      Present-day individuals (HGDP collection, published 2012) vs contemporary standard
+      paradigms: same synchronic period. No historical layer is implied.
+    evidence: >
+      GeLaTo c625fdc populations.csv HumanOrigins_AutosomalSNP-368; Zenodo 15263706 Table S1
+      row "Tuscan"; mapping file comments glottocodeBase/glottocodeBase.
+    reviewer_note: >
+      Accepted as the primary population linked to Standard Italian verb morphology. Small
+      sample (8) and a generic locality; treat as one population observation, not as
+      representative of all Italian speakers.
+    unresolved:
+      - "n=8 individuals"
+      - "speaker language not recorded per individual"
+    reviewer: data-subagent (Claude), to be confirmed by the main agent / PI
+    date: 2026-10-06
+
+  - id: ita-bergamo
+    glottocode: ital1282
+    population: Bergamo
+    resources: all
+    status: ambiguous
+    evidence: >
+      GeLaTo main panel HumanOrigins_AutosomalSNP-41 (n=13, PattersonGenetics2012, curation
+      "checked by Chiara", coordinates 45.70 N 9.68 E = Bergamo); Table S1 assigns ital1282 in
+      GeLaTo/GBI/TLI; GeneticInfoID.csv carries glottocodeBase NA and longitude NA for these
+      13 rows (assignment comes from Table S1 only).
+    reviewer_note: >
+      Bergamo's traditional vernacular is Bergamasque, an Eastern Lombard (Gallo-Italic)
+      variety, not Tuscan-based Italian. Present-day residents are Italian-dominant, but the
+      community's language history (Lombard -> Italian shift after national standardisation)
+      differs from the Tuscan basis of the standard paradigm. Kept as a separate row; not for
+      the primary language-level link; usable only in a declared sensitivity analysis.
+    unresolved:
+      - "community variety Lombard vs Italian unresolved"
+
+  - id: ita-italian-south
+    glottocode: ital1282
+    population: Italian_South
+    resources: all
+    status: excluded
+    evidence: >
+      Table S1 only (n=3, Lazaridis 2016): GeLaTo_Glottocode napo1241 (Napoletano-Calabrese
+      dialect level), GBI/TLI proxy ital1282; mapping location "Naples, Salerno, Crispiano".
+    reviewer_note: >
+      Base language is Neapolitan; ital1282 is only a typological-database proxy. Not a
+      sample of the Standard Italian speech community; n=3. Excluded from the Italian link.
+
+  - id: ita-italian-calabria
+    glottocode: ital1282
+    population: Italian_Calabria
+    resources: all
+    status: excluded
+    evidence: >
+      Table S1 only (n=1, Lazaridis 2014): GeLaTo_Glottocode neap1235 (Neapolitan), GBI/TLI
+      proxy ital1282; mapping location Belvedere (Cosenza).
+    reviewer_note: >
+      Single individual; base language Neapolitan/Calabrian. Excluded from the Italian link.
+
+  - id: ita-sicilian-east
+    glottocode: ital1282
+    population: Sicilian_East
+    resources: all
+    status: excluded
+    evidence: >
+      Main panel + Table S1 (n=5): GeLaTo/GBI Glottocode sici1248 (Sicilian); only TLI proxies
+      ital1282.
+    reviewer_note: >
+      Sicilian is a separate language-level unit; the TLI proxy is a database convenience.
+      Excluded from the Italian link (would belong to a Sicilian resource).
+
+  - id: ita-sicilian-west
+    glottocode: ital1282
+    population: Sicilian_West
+    resources: all
+    status: excluded
+    evidence: >
+      Main panel + Table S1 (n=6): GeLaTo/GBI Glottocode sici1248 (Sicilian); only TLI proxies
+      ital1282.
+    reviewer_note: >
+      As Sicilian_East. Excluded from the Italian link.
+
+  # ------------------------------------------------------------------ Finnish
+  - id: fin-finnish
+    glottocode: finn1318
+    population: Finnish
+    resources: all
+    status: accepted
+    variety_review: >
+      Morphology resource: MGN fin-v / fin-n = untouched UniMorph `fin` orthography
+      (Wiktionary-derived inflection tables of Standard Finnish). Standard written Finnish is
+      the national standard used throughout Finland; the paradigm does not encode a regional
+      dialect.
+    community_review: >
+      "Finnish" population, n=8, Lazaridis et al. 2014 (Human Origins), identical in the GeLaTo
+      main panel (HumanOrigins_AutosomalSNP-92) and Zenodo Table S1; Glottocode finn1318 in
+      all sources including GeneticInfoID. Curation note "automatically assigned by Robert F"
+      (not manually curated). Individuals' first language is not recorded; Finland has a
+      Swedish-speaking minority (~5%), so membership of the Finnish speech community is
+      assumed from the population label.
+    locality_review: >
+      Coordinates 60.2 N, 24.9 E (Helsinki); single locality; country Finland.
+    source_period_review: >
+      Present-day individuals (published 2014) vs contemporary standard paradigms: same
+      synchronic period.
+    evidence: >
+      GeLaTo c625fdc populations.csv HumanOrigins_AutosomalSNP-92; Zenodo 15263706 Table S1 row
+      "Finnish"; mapping file glottocodeBase/glottocodeBase; GeneticInfoID 8 rows finn1318.
+    reviewer_note: >
+      Accepted as the single population linked to Standard Finnish morphology, with the
+      caveats of a small single-locality sample and automatic (uncurated) language assignment.
+    unresolved:
+      - "n=8 individuals; single locality (Helsinki)"
+      - "language assignment automatic, individual L1 not recorded"
+    reviewer: data-subagent (Claude), to be confirmed by the main agent / PI
+    date: 2026-10-06
+
+  # ------------------------------------------------------------------ French
+  # Reviewed because French verbs (mgn_custom:french-v) are the recommended alternative /
+  # additional pilot unit. The resource is the MGN data-custom phonemic French verb table
+  # (labels and archiphonemes E/O match Flexique, i.e. contemporary Standard (Parisian)
+  # French; attribution unverified because data-custom has no build script).
+  - id: fra-french-central
+    glottocode: stan1290
+    population: French_Central
+    resources: all
+    status: accepted
+    variety_review: >
+      Resource represents contemporary Standard French (phonemic, Flexique-style
+      transcription). The standard is Oil-based (Ile-de-France); Central France is within
+      the Oil area where the vernacular has been replaced by regional Standard French.
+    community_review: >
+      "French_Central", n=26, Patterson et al. 2012 (Human Origins; presumably the HGDP French
+      sample, not verified locally); Table S1 GeLaTo/GBI/TLI stan1290.
+      Curation "automatically assigned by Robert F". Individual L1 not recorded.
+    locality_review: >
+      Coordinates 46 N, 2 E: the geographic centre of France, i.e. a country-level centroid,
+      not a recorded sampling site (mapping file location '..').
+    source_period_review: >
+      Present-day individuals vs contemporary standard paradigms: same synchronic period.
+    evidence: >
+      GeLaTo c625fdc populations.csv row French_Central; Zenodo 15263706 Table S1 row
+      French_Central; GeneticInfoID rows (26) with glottocodeBase stan1290.
+    reviewer_note: >
+      Accepted as the primary population for Standard French, with the caveat that the
+      sampling locality is only a national centroid.
+    unresolved:
+      - "locality is a national centroid"
+      - "language assignment automatic"
+    reviewer: data-subagent (Claude), to be confirmed by the main agent / PI
+    date: 2026-10-06
+
+  - id: fra-french-northwest
+    glottocode: stan1290
+    population: French_Northwest
+    resources: all
+    status: ambiguous
+    evidence: >
+      n=10, Lazaridis 2014, location Pas-de-Calais (50.46 N, 2.33 E), curation "checked by
+      Chiara"; GeLaTo/GBI/TLI stan1290.
+    reviewer_note: >
+      Pas-de-Calais is in the Picard area (Picard is a separate Oil language in Glottolog).
+      Present-day speakers are French-dominant; the community's language history includes
+      shift from Picard. Separate row; sensitivity analyses only.
+
+  - id: fra-french-east
+    glottocode: stan1290
+    population: French_East
+    resources: all
+    status: ambiguous
+    evidence: >
+      n=10, Lazaridis 2014, location Moselle (49.05 N, 6.62 E), curation "checked by Chiara".
+    reviewer_note: >
+      The coordinates fall in north-eastern Moselle, the historical Lorraine Franconian
+      (Germanic) area next to Romance Lorrain; community language history differs from the
+      Standard French base. Separate row; sensitivity analyses only.
+
+  - id: fra-french-south
+    glottocode: stan1290
+    population: French_South
+    resources: all
+    status: ambiguous
+    evidence: >
+      n=7, Lazaridis 2014, location Lourdes (43.09 N, 0.05 W), curation "checked by Chiara".
+    reviewer_note: >
+      Lourdes (Bigorre) is in the Gascon Occitan area; French-dominant today after shift.
+      Separate row; sensitivity analyses only.
+
+  - id: fra-french-west
+    glottocode: stan1290
+    population: French_West
+    resources: all
+    status: ambiguous
+    evidence: >
+      n=10, Lazaridis 2014, location Finistere (48.30 N, 4.12 W), curation "checked by Chiara".
+    reviewer_note: >
+      Finistere is Lower Brittany, the Breton-speaking (Celtic) area; French-dominant today
+      after shift. Separate row; sensitivity analyses only.

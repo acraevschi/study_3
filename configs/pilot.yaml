@@ -1,0 +1,144 @@
+# Bounded real-data pilot: two GeLaTo-linked languages, verbs, orthographic forms.
+# Every value here is fixed before outer-test evaluation. Change by copying the file.
+
+experiment:
+  id: pilot_v1
+  master_seed: 20261006
+  description: >
+    Source-known paradigm completion (NFIN -> 8-cell panel) for Italian and Finnish
+    verbs; active (low-confidence, high-entropy) vs matched random lemma selection;
+    downstream end-state LDL (JudiLing) with source-binding wug protocol.
+
+paths:
+  repo_root: .                        # paths are relative to the repository root
+  mgn_data: mgn_data/data
+  mgn_custom: mgn_data/data-custom
+  gelato_audit: analyses/gelato_feasibility_2026_10_01
+  outputs: outputs
+  external: external
+
+resources:
+  # Resources ingested by the data stage. Units below select from these.
+  ingest:
+    - {adapter: mgn_wide, file: ita-v.csv, iso: ita, pos: V, representation: orth}
+    - {adapter: mgn_wide, file: fin-v.csv, iso: fin, pos: V, representation: orth}
+
+task:
+  name: source_known_completion
+  source_slot: NFIN
+  panel_slots: [PRS.1SG, PRS.3SG, PRS.3PL, PST.1SG, PST.3SG, PST.3PL, COND.3SG, IMP.2SG]
+  training_mode: panel              # panel | all_cells
+  variant_policy: first_for_training_any_for_eval
+  eligibility:
+    # Declared before any acquisition; applied identically to every unit.
+    exclude_derived_paradigms: true   # lemmas in eligibility/<unit>_derived_paradigms.csv
+                                      # (Italian pronominal/clitic verbs, Finnish idioms)
+    exclude_multiword_task_forms: true
+
+units:
+  - unit_id: ita.V.orth.mgn
+    resource_id: "mgn_data:ita-v"
+    role: substantive               # substantive | smoke_only
+    cells:
+      NFIN: NFIN
+      PRS.1SG: "1;IND;PRS;SG"
+      PRS.3SG: "3;IND;PRS;SG"
+      PRS.3PL: "3;IND;PL;PRS"
+      PST.1SG: "1;IND;PFV;PST;SG"     # passato remoto (synthetic past); see docs/PROTOCOL.md
+      PST.3SG: "3;IND;PFV;PST;SG"
+      PST.3PL: "3;IND;PFV;PL;PST"
+      COND.3SG: "3;COND;SG"
+      IMP.2SG: "2;IMP;POS;SG"
+  - unit_id: fin.V.orth.mgn
+    resource_id: "mgn_data:fin-v"
+    role: substantive
+    cells:
+      NFIN: NFIN
+      PRS.1SG: "1;ACT;IND;POS;PRS;SG"
+      PRS.3SG: "3;ACT;IND;POS;PRS;SG"
+      PRS.3PL: "3;ACT;IND;PL;POS;PRS"
+      PST.1SG: "1;ACT;IND;POS;PST;SG"
+      PST.3SG: "3;ACT;IND;POS;PST;SG"
+      PST.3PL: "3;ACT;IND;PL;POS;PST"
+      COND.3SG: "3;ACT;COND;POS;PRS;SG"
+      IMP.2SG: "2;ACT;IMP;POS;PRS;SG"
+
+cv:
+  inventory_size: 1200              # lemmas drawn (by group) from the eligible inventory
+  n_folds: 3
+  repetitions: [0]
+  dev_size: 80
+  seed_size: 20
+  pool_cap: 500
+  pool_cap_sensitivity: [250]       # extra caps (same seed/dev/test; nested pools), smallest budget only
+  pool_cap_sensitivity_policies: [low_confidence]
+
+selection:
+  policies: [random, low_confidence, high_entropy]
+  batch_size: 20
+  budgets: [100]                    # nested prefixes; [100, 200] supported
+  aggregation: mean_cell            # lemma score = mean over panel target cells
+  entropy_min_prob: 0.05
+  random_trains_selector: false
+  aux_copy_anchor_size: 270         # copy anchors = auxiliary NON-inventory lemmas (source forms only),
+                                    # identical for every fold, policy and pool cap
+  n_procs: 6                        # parallel acquisition processes
+
+selector:                           # held constant across policies, folds and budgets
+  arch: char_transformer
+  d_model: 128
+  n_heads: 4
+  n_enc_layers: 2
+  n_dec_layers: 2
+  d_ff: 512
+  dropout: 0.3
+  label_smoothing: 0.1
+  lr: 0.001
+  warmup_steps: 400
+  batch_size: 64
+  max_steps: 3000
+  eval_every: 250
+  early_stop_patience: 4            # evaluations without dev improvement
+  beam_size: 5
+  max_decode_len_factor: 2.0        # max output len = factor * source len + 10 (no gold)
+  device: auto                      # auto | cpu | mps (auto = cpu: deterministic, faster here)
+  share_embeddings: true            # fairseq --share-all-embeddings analogue
+  aux_copy: pool                    # source->source copy items from source anchors only
+  num_threads: 1                    # per process; parallelism across (unit, fold, policy)
+
+ldl:
+  # cue_ngram and sem_sd_inflection are chosen once on auxiliary lemmas outside the
+  # inventory (stage `ldl_tune`, grid below) and frozen before any outer-test fit;
+  # the values below are placeholders overridden by ldl_tune/chosen_settings.json.
+  cue_ngram: 3
+  sem_sd_inflection: 0.4
+  tune:
+    grid: {cue_ngram: [2, 3], sem_sd_inflection: [0.4, 4.0]}
+    fold: 0                           # only labels the semantic seed of the tuning fits
+    repetition: 0
+    background: auxiliary             # non-inventory eligible lemmas (never tested)
+    background_size: 100
+    heldout_size: 80
+    criterion: mean_dev_accuracy_over_units   # tie-break: lower mean edit distance
+  boundary: "#"
+  sem_dim: 1000
+  sem_sd_lexeme: 4.0
+  sem_sd_noise: 1.0
+  sem_isdeep: false
+  ridge_shift: 0.02                 # JudiLing default additive ridge shift
+  adjacency: full
+  decoder: learn_paths
+  threshold: 0.05
+  tolerance: false
+  max_can: 10
+  max_t_margin: 4                   # max_t = max(train form len, source len) + margin
+  source_binding: wug_refit         # primary; lexeme_refit = labelled sensitivity only
+  n_procs: 4                        # parallel Julia processes
+
+evaluation:
+  bootstrap_reps: 2000
+  ci_level: 0.95
+
+limits:
+  max_threads: 8
+  julia_threads: 4

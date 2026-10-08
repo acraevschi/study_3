@@ -1,0 +1,37 @@
+group_id,group_size,lemma_id,lemma_label,resource_id,join_reasons
+fin.V::g000077,2,mgn_data:fin-v::ajaa,ajaa,mgn_data:fin-v,source_form
+fin.V::g000077,2,mgn_data:fin-v::ajaa partansa,ajaa partansa,mgn_data:fin-v,source_form
+fin.V::g000169,2,mgn_data:fin-v::antaa kaikkensa,antaa kaikkensa,mgn_data:fin-v,source_form
+fin.V::g000169,2,mgn_data:fin-v::antaa opetus,antaa opetus,mgn_data:fin-v,source_form
+fin.V::g000245,2,mgn_data:fin-v::aukoa,aukoa,mgn_data:fin-v,source_form
+fin.V::g000245,2,mgn_data:fin-v::aukoa päätään,aukoa päätään,mgn_data:fin-v,source_form
+fin.V::g000853,2,mgn_data:fin-v::haukkoa,haukkoa,mgn_data:fin-v,source_form
+fin.V::g000853,2,mgn_data:fin-v::haukkoa henkeään,haukkoa henkeään,mgn_data:fin-v,source_form
+fin.V::g001924,2,mgn_data:fin-v::jättää,jättää,mgn_data:fin-v,source_form
+fin.V::g001924,2,mgn_data:fin-v::jättää arpi,jättää arpi,mgn_data:fin-v,source_form
+fin.V::g003166,2,mgn_data:fin-v::kävellä,kävellä,mgn_data:fin-v,source_form
+fin.V::g003166,2,mgn_data:fin-v::kävellä unissaan,kävellä unissaan,mgn_data:fin-v,source_form
+fin.V::g003169,2,mgn_data:fin-v::käydä,käydä,mgn_data:fin-v,source_form
+fin.V::g003169,2,mgn_data:fin-v::käydä pitkäkseen,käydä pitkäkseen,mgn_data:fin-v,source_form
+fin.V::g003186,2,mgn_data:fin-v::kääntyä,kääntyä,mgn_data:fin-v,source_form
+fin.V::g003186,2,mgn_data:fin-v::kääntyä jonkun puoleen,kääntyä jonkun puoleen,mgn_data:fin-v,source_form
+fin.V::g003927,3,mgn_data:fin-v::menettää,menettää,mgn_data:fin-v,source_form
+fin.V::g003927,3,mgn_data:fin-v::menettää kasvonsa,menettää kasvonsa,mgn_data:fin-v,source_form
+fin.V::g003927,3,mgn_data:fin-v::menettää tajuntansa,menettää tajuntansa,mgn_data:fin-v,source_form
+fin.V::g003970,2,mgn_data:fin-v::miettiä,miettiä,mgn_data:fin-v,source_form
+fin.V::g003970,2,mgn_data:fin-v::miettiä päänsä puhki,miettiä päänsä puhki,mgn_data:fin-v,source_form
+fin.V::g004645,2,mgn_data:fin-v::osoittaa,osoittaa,mgn_data:fin-v,source_form
+fin.V::g004645,2,mgn_data:fin-v::osoittaa mieltään,osoittaa mieltään,mgn_data:fin-v,source_form
+fin.V::g004769,2,mgn_data:fin-v::palauttaa,palauttaa,mgn_data:fin-v,source_form
+fin.V::g004769,2,mgn_data:fin-v::palauttaa mieleensä,palauttaa mieleensä,mgn_data:fin-v,source_form
+fin.V::g005102,2,mgn_data:fin-v::polttaa,polttaa,mgn_data:fin-v,source_form
+fin.V::g005102,2,mgn_data:fin-v::polttaa siltansa,polttaa siltansa,mgn_data:fin-v,source_form
+fin.V::g005843,5,mgn_data:fin-v::saada,saada,mgn_data:fin-v,source_form
+fin.V::g005843,5,mgn_data:fin-v::saada alkunsa,saada alkunsa,mgn_data:fin-v,source_form
+fin.V::g005843,5,mgn_data:fin-v::saada selkäänsä,saada selkäänsä,mgn_data:fin-v,source_form
+fin.V::g005843,5,mgn_data:fin-v::saada surmansa,saada surmansa,mgn_data:fin-v,source_form
+fin.V::g005843,5,mgn_data:fin-v::saada turpaansa,saada turpaansa,mgn_data:fin-v,source_form
+fin.V::g006576,2,mgn_data:fin-v::tehdä,tehdä,mgn_data:fin-v,source_form
+fin.V::g006576,2,mgn_data:fin-v::tehdä tenä,tehdä tenä,mgn_data:fin-v,source_form
+fin.V::g007084,2,mgn_data:fin-v::vaatia,vaatia,mgn_data:fin-v,source_form
+fin.V::g007084,2,mgn_data:fin-v::vaatia itselleen,vaatia itselleen,mgn_data:fin-v,source_form
