@@ -108,3 +108,16 @@ def test_semantics_identifier_keyed():
     assert np.allclose(s, manual)
     # known value guards against accidental generator changes (also checked against Julia)
     assert semantics.seed_of(1, "lexeme", "a") == semantics.seed_of("1", "lexeme", "a")
+
+
+def test_cell_vector_is_optional_and_cell_keyed():
+    c = {"semantic_seed": 42, "sem_dim": 300, "sem_sd_lexeme": 4.0, "sem_sd_inflection": 2.0,
+         "sem_sd_noise": 1.0}
+    off = semantics.form_semantics(c, "x::a", "1;IND;PRS;SG")
+    assert np.array_equal(off, semantics.form_semantics({**c, "sem_sd_cell": 0.0}, "x::a", "1;IND;PRS;SG"))
+    on = semantics.form_semantics({**c, "sem_sd_cell": 2.0}, "x::a", "1;IND;PRS;SG")
+    cc = {**c, "sem_sd_cell": 2.0}
+    assert np.allclose(on - off, semantics.cell_vec(cc, "1;IND;PRS;SG"))
+    # one vector per full cell, shared by lexemes; different cells sharing features differ
+    assert np.array_equal(semantics.cell_vec(cc, "1;IND;PRS;SG"), semantics.cell_vec(cc, "1;IND;PRS;SG"))
+    assert not np.allclose(semantics.cell_vec(cc, "1;IND;PRS;SG"), semantics.cell_vec(cc, "3;IND;PRS;SG"))

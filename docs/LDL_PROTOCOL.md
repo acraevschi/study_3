@@ -19,6 +19,13 @@ Its audit table (B §2) still applies to every JudiLing entry point used here.
   term: the noise belongs to an observed form). Ĉ = ŝG, decoded by `learn_paths`
   (threshold 0.05, `max_can` 10) with `data_train` = training rows, C, F, the full
   adjacency of the training cue inventory, and `max_t` = longest training form + 4.
+* **Decoder options (2026-10-09).** Two decoder options are available:
+  * `tolerance: true` uses `learn_paths`' tolerant mode. A path may then include up to
+    `max_tolerance` n-grams whose support lies in (`tolerance_floor`, `threshold`].
+  * `threshold` is configurable as before.
+
+  `decoder: build_paths` is refused. With bigram cues its paths loop (*ssubisasubise*),
+  and one Italian item took 129 s with 3 neighbours.
 * No per-lemma refit is needed: every queried verb is in the training sample. Items are
   decoded in chunks of `predict_chunk` rows. `learn_paths` treats rows independently, so
   predictions do not depend on chunking or order (tested: chunk 7 vs 400, reversed
@@ -154,6 +161,15 @@ call that takes gold explicitly.
 * `sem_dim` is fixed (config, 1000), independent of the sample size.
 * `semantic_seed` must come from `seeds.derive(master, "semantic", unit_id, repetition,
   outer_fold)`, so that it is shared by all policies and budgets of a fold (CONTRACT §8).
+
+**Cell vector (option, 2026-10-09; off by default).** With `sem_sd_cell > 0`,
+`s(lemma, cell) = L(lemma) + Σ_f V(f) + V(cell) + N(lemma, cell)`, where
+`V(cell) ~ N(0, sem_sd_cell²)^d` is keyed by `(semantic_seed, "cell", cell_norm)`. It is
+one vector per full feature combination, shared by all lexemes, and it sits next to the
+feature vectors. It carries meaning specific to the combination, so an exponent tied to
+one cell (Italian 1SG present *-o*) can be learned. The target meaning of a hidden cell
+includes it. `sem_sd_cell = 0` reproduces the additive semantics exactly (no vector is
+generated). The Python mirror is `morph_ldl.ldl.semantics.cell_vec`.
 
 ### 3.3 Mappings (end-state, type-based, frequency-free)
 `F = (CᵀC + λI)⁻¹CᵀS` and `G = (SᵀS + λI)⁻¹SᵀC`, computed with JudiLing's

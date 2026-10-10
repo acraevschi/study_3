@@ -48,12 +48,16 @@ Base.@kwdef struct LDLConfig
     sem_sd_lexeme::Float64 = 4.0
     sem_sd_inflection::Float64 = 0.4
     sem_sd_noise::Float64 = 1.0
+    sem_sd_cell::Float64 = 0.0           # cell-specific vector V(cell); 0 = additive features only
     semantic_seed::Int = 0
     ridge_shift::Float64 = 0.02          # JudiLing make_transform_fac default (:additive)
     threshold::Float64 = 0.05
     max_can::Int = 10
     max_t_margin::Int = 4
     adjacency::Symbol = :full            # :full (all overlapping n-gram pairs) | :attested
+    is_tolerant::Bool = false            # learn_paths tolerant mode: up to max_tolerance n-grams per
+    tolerance::Float64 = -1000.0         #   path may have support in (tolerance, threshold]
+    max_tolerance::Int = 1
     predict_chunk::Int = 400             # items per learn_paths call (results do not depend on it)
     train_diagnostics::Bool = true       # seen-item comprehension/production accuracy
 end
@@ -67,9 +71,9 @@ function LDLConfig(d::AbstractDict)
     ridge = Float64(g("ridge_shift", 0.02))
     ridge > 0 || error("ridge_shift must be > 0")
     Bool(g("sem_isdeep", false)) && error("sem_isdeep=true is not implemented (LDL_PROTOCOL §3.2)")
-    Bool(g("tolerance", false)) && error("tolerance mode is not implemented")
+    String(g("decoder", "learn_paths")) == "learn_paths" ||
+        error("only decoder=learn_paths is supported (build_paths: looping paths and >100 s per item with bigram cues)")
     haskey(d, "source_binding") && error("source_binding was removed with the pilot_v1 task (PCFP uses known lexemes)")
-    String(g("decoder", "learn_paths")) == "learn_paths" || error("only decoder=learn_paths is supported")
     haskey(d, "semantic_seed") || error("config lacks semantic_seed")
     c = LDLConfig(
         grams = Int(g("cue_ngram", 2)),
@@ -78,12 +82,16 @@ function LDLConfig(d::AbstractDict)
         sem_sd_lexeme = Float64(g("sem_sd_lexeme", 4.0)),
         sem_sd_inflection = Float64(g("sem_sd_inflection", 0.4)),
         sem_sd_noise = Float64(g("sem_sd_noise", 1.0)),
+        sem_sd_cell = Float64(g("sem_sd_cell", 0.0)),
         semantic_seed = Int(d["semantic_seed"]),
         ridge_shift = ridge,
         threshold = Float64(g("threshold", 0.05)),
         max_can = Int(g("max_can", 10)),
         max_t_margin = Int(g("max_t_margin", 4)),
         adjacency = Symbol(g("adjacency", "full")),
+        is_tolerant = Bool(g("tolerance", false)),
+        tolerance = Float64(g("tolerance_floor", -1000.0)),
+        max_tolerance = Int(g("max_tolerance", 1)),
         predict_chunk = Int(g("predict_chunk", 400)),
         train_diagnostics = Bool(g("train_diagnostics", true)),
     )
@@ -92,6 +100,9 @@ function LDLConfig(d::AbstractDict)
     end
     c.grams >= 2 || error("cue_ngram must be >= 2")
     c.predict_chunk >= 1 || error("predict_chunk must be >= 1")
+    c.max_tolerance >= 0 || error("max_tolerance must be >= 0")
+    c.tolerance < c.threshold || error("tolerance_floor must be below threshold")
+    c.sem_sd_cell >= 0 || error("sem_sd_cell must be >= 0")
     c
 end
 
@@ -146,16 +157,24 @@ feature_vec(c::LDLConfig, f) =
 noise_vec(c::LDLConfig, lemma, cell) =
     gaussian_vector(seed_of(c.semantic_seed, "noise", lemma, cell), c.sem_dim, c.sem_sd_noise)
 
-feature_sum(c::LDLConfig, cell) = sum(feature_vec(c, f) for f in cell_features(cell))
+cell_vec(c::LDLConfig, cell) =
+    gaussian_vector(seed_of(c.semantic_seed, "cell", cell), c.sem_dim, c.sem_sd_cell)
 
-"""Simulated meaning of an observed (lemma, cell) form: lexeme + features + noise."""
+"""Inflectional meaning of a cell: its feature vectors, plus the cell's own vector when
+`sem_sd_cell > 0` (meaning specific to the feature combination, not shared with other cells)."""
+function feature_sum(c::LDLConfig, cell)
+    v = sum(feature_vec(c, f) for f in cell_features(cell))
+    c.sem_sd_cell > 0 ? v .+ cell_vec(c, cell) : v
+end
+
+"""Simulated meaning of an observed (lemma, cell) form: lexeme + inflection + noise."""
 function form_semantics(c::LDLConfig, lemma, cell)
     s = lexeme_vec(c, lemma) .+ feature_sum(c, cell)
     c.sem_sd_noise > 0 && (s .+= noise_vec(c, lemma, cell))
     s
 end
 
-"""Target meaning of an unseen cell of a known lexeme: lexeme + features (no noise)."""
+"""Target meaning of an unseen cell of a known lexeme: lexeme + inflection (no noise)."""
 target_semantics(c::LDLConfig, lemma, cell) = lexeme_vec(c, lemma) .+ feature_sum(c, cell)
 
 # ----------------------------------------------------------------------------------------
@@ -270,7 +289,11 @@ end
 segments_to_form(segs::Vector{String}) = replace(join(segs, ""), "_" => " ")
 
 """Run learn_paths for target semantics `S_tgt` (T x d) with predicted cues `Chat` on the
-given decoder training state. Only `size(data_val, 1)` of data_val is read (no forms)."""
+given decoder training state. Only `size(data_val, 1)` of data_val is read (no forms).
+learn_paths maps Ĉ to the n-gram at each position t (positional mappings trained on the
+training forms), chains n-grams with support above `threshold` (in tolerant mode, also up
+to `max_tolerance` n-grams per path with support in (`tolerance`, `threshold`]), and ranks
+complete paths by synthesis-by-analysis (cor(c F, s)), keeping `max_can`."""
 function decode(c::LDLConfig, data_train::DataFrame, C_train, S_tgt::Matrix{Float64},
                 F::Matrix{Float64}, Chat::Matrix{Float64}, A, i2f, f2i, max_t::Int)
     T = size(S_tgt, 1)
@@ -279,7 +302,8 @@ function decode(c::LDLConfig, data_train::DataFrame, C_train, S_tgt::Matrix{Floa
         C_train, S_tgt, F, Chat, A, i2f, f2i;
         check_gold_path = false, gold_ind = nothing, Shat_val = nothing,
         max_t = max_t, max_can = c.max_can, threshold = c.threshold,
-        is_tolerant = false, grams = c.grams, tokenized = true, sep_token = SEP,
+        is_tolerant = c.is_tolerant, tolerance = c.tolerance, max_tolerance = c.max_tolerance,
+        grams = c.grams, tokenized = true, sep_token = SEP,
         keep_sep = true, target_col = :segments, start_end_token = c.boundary,
         issparse = :auto, verbose = false)
 end
@@ -554,10 +578,8 @@ function train_diagnostics(bg::Background)
     c = bg.cfg
     Shat = Matrix(bg.C) * bg.F
     comp = JudiLing.eval_SC(Shat, bg.S, bg.train, :segments)
-    res = JudiLing.learn_paths(bg.train, bg.train, bg.C, bg.S, bg.F, bg.S * bg.G, bg.A,
-        bg.i2f, bg.f2i; max_t = bg.max_len + c.max_t_margin, max_can = c.max_can,
-        threshold = c.threshold, grams = c.grams, tokenized = true, sep_token = SEP,
-        keep_sep = true, target_col = :segments, start_end_token = c.boundary, verbose = false)
+    res = decode(c, bg.train[:, [:segments]], bg.C, bg.S, bg.F, bg.S * bg.G, bg.A, bg.i2f, bg.f2i,
+                 bg.max_len + c.max_t_margin)
     prod = mean(!isempty(r) && join(path_segments(r[1].ngrams_ind, bg.i2f, c.boundary), SEP) ==
                 strip(bg.train.segments[i]) for (i, r) in enumerate(res))
     Dict("train_comprehension_accuracy" => comp, "train_production_accuracy" => prod,
@@ -596,7 +618,9 @@ function run_job(job::AbstractDict)
         "n_cues_background" => length(bg.f2i), "sem_dim" => cfg.sem_dim, "cue_ngram" => cfg.grams,
         "sem_sd_inflection" => cfg.sem_sd_inflection, "semantic_seed" => cfg.semantic_seed,
         "ridge_shift" => cfg.ridge_shift, "adjacency" => string(cfg.adjacency),
-        "decoder" => "learn_paths", "threshold" => cfg.threshold, "max_train_len" => bg.max_len,
+        "decoder" => "learn_paths", "threshold" => cfg.threshold, "tolerant" => cfg.is_tolerant,
+        "tolerance_floor" => cfg.tolerance, "max_tolerance" => cfg.max_tolerance,
+        "sem_sd_noise" => cfg.sem_sd_noise, "sem_sd_cell" => cfg.sem_sd_cell, "sem_sd_lexeme" => cfg.sem_sd_lexeme, "max_train_len" => bg.max_len,
         "max_t" => bg.max_len + cfg.max_t_margin,
         "n_query_lemmas" => length(unique(q.lemma_id)), "n_query_items" => nrow(pred),
         "status_counts" => Dict(s => count(==(s), pred.status) for s in unique(pred.status)),

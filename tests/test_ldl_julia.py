@@ -305,3 +305,24 @@ def test_selector_scores_are_usable(selector_round, cfg):
         assert len(lem) == len(selector_round["cands"]) and lem.lemma_score.notna().all()
         assert lem.n_seeds.eq(2).all()
     assert comp.share_citation_cues_unseen.between(0, 1).all()
+
+
+def test_cell_vector_and_tolerant_decoding(tmp_path, cfg):
+    """sem_sd_cell adds V(cell) identically in Julia and Python; tolerant learn_paths runs
+    end to end on known-lexeme queries."""
+    forms = toy.lexicon(60, seed=3)
+    train, q, _, _ = toy.pcfp_tables(forms, 30, seed=2, max_shown=6)
+    q = q[q.lemma_id.isin(set(train.lemma_id))].head(40)
+    train.to_csv(tmp_path / "train.csv", index=False); q.to_csv(tmp_path / "q.csv", index=False)
+    ovr = {**OVR, "sem_sd_cell": 1.5, "tolerance": True, "tolerance_floor": 0.0, "max_tolerance": 1}
+    job = dict(train_csv=str(tmp_path / "train.csv"), queries_csv=str(tmp_path / "q.csv"),
+               out_dir=str(tmp_path / "tol"), unit_id="toy", repetition=0, fold=0, overrides=ovr)
+    out = runner.run_ldl_jobs([job], cfg, n_procs=1)[0]
+    pred = pd.read_csv(out / "predictions.csv", keep_default_na=False)
+    assert len(pred) == len(q) and (pred.status == "ok").mean() > 0.9
+    diag = json.loads((out / "diagnostics.json").read_text())
+    assert diag["tolerant"] is True and diag["max_tolerance"] == 1 and diag["sem_sd_cell"] == 1.5
+    c = runner.job_config(job, cfg)["ldl_config"]
+    for k, v in diag["semantic_probe"].items():
+        lid, cell = k.split("|")
+        assert np.allclose(semantics.form_semantics(c, lid, cell)[:5], v, rtol=1e-12, atol=1e-12)

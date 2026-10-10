@@ -1,6 +1,6 @@
 """Python port of the identifier-keyed simulated semantics of julia/src/LDLRunner.jl.
 
-s(lemma, cell) = L(lemma) + sum_f V(f) + N(lemma, cell), each a Gaussian vector generated
+s(lemma, cell) = L(lemma) + sum_f V(f) [+ V(cell)] + N(lemma, cell), each a Gaussian vector generated
 from SplitMix64 seeded by the first 8 bytes of sha256("|".join(parts)), Box-Muller.
 Used for parity tests and for inspecting vectors without Julia (LDL_PROTOCOL.md §3.2).
 """
@@ -67,8 +67,14 @@ def noise_vec(c: Dict, lemma_id: str, cell: str) -> np.ndarray:
     return gaussian_vector(seed_of(c["semantic_seed"], "noise", lemma_id, cell), c["sem_dim"], c["sem_sd_noise"])
 
 
+def cell_vec(c: Dict, cell: str) -> np.ndarray:
+    return gaussian_vector(seed_of(c["semantic_seed"], "cell", cell), c["sem_dim"], c["sem_sd_cell"])
+
+
 def form_semantics(c: Dict, lemma_id: str, cell: str) -> np.ndarray:
     s = lexeme_vec(c, lemma_id) + sum(feature_vec(c, f) for f in cell_features(cell))
+    if c.get("sem_sd_cell", 0) > 0:
+        s = s + cell_vec(c, cell)
     if c["sem_sd_noise"] > 0:
         s = s + noise_vec(c, lemma_id, cell)
     return s

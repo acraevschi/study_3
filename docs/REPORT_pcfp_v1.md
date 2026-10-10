@@ -270,8 +270,9 @@ Three measures, defined as follows:
 
 * **cor(Ĉ, C):** the correlation between the predicted cue vector and the gold form's
   cue vector.
-* **Gold reachable:** the gold form can be built from the training cue inventory and
-  adjacency.
+* **Gold reachable:** every cue of the gold form is in the training cue inventory *and*
+  has predicted support Ĉ above the decoder threshold (0.05). (Correction, 2026-10-09: the
+  decoder does not threshold Ĉ itself but its per-position predictions; see below.)
 * **Gold in top:** the gold form is among the decoder's candidates.
 
 | Unit | cor(Ĉ, C) | Gold reachable | Gold in top |
@@ -279,8 +280,14 @@ Three measures, defined as follows:
 | Italian | 0.75–0.77 | 0.65–0.67 | 0.19–0.21 |
 | Finnish | 0.71–0.72 | 0.59–0.60 | 0.14–0.16 |
 
-About a third of Italian and two fifths of Finnish gold forms cannot be built from the
-training cues of a 200-verb sample at all, and accuracy is bounded by that.
+**Correction (2026-10-09).** An earlier version read this column as "a third of Italian
+and two fifths of Finnish gold forms cannot be built from the training cues at all". That
+is wrong. In pcfp_v2, only 1.1% (Italian) and 0.4% (Finnish) of gold forms contain a cue
+absent from training. The other unreachable items fail because one or two of their cues
+have Ĉ ≤ 0.05. Accuracy is therefore not bounded by the cue inventory. It is limited by
+the mapping and the decoder: the gold form is among the 10 candidates for only about a
+fifth of items, and when it is, it is ranked first about 80% of the time. The ablation in
+`analyses/ldl_ablation_2026_10_09/` traces most of this to the additive semantics.
 
 Training fit is high:
 
@@ -528,9 +535,11 @@ GeLaTo correspondence and uncertainty.
   present *-o*, are learned poorly (§3.5). LDL predictability therefore partly reflects
   how linearly the cell features map to exponents, not only how predictable the
   paradigm is.
-* **Low absolute accuracy.** Accuracy is 11–17%, and 33–41% of gold forms are
-  unreachable from a 200-verb sample's cues. Differences between languages in LDL
-  accuracy will mix inflectional predictability with cue-inventory coverage.
+* **Low absolute accuracy.** Accuracy is 11–17%. (An earlier version attributed this to
+  33–41% of gold forms being unbuildable from the training cues; that was a
+  misreading, see the §3.6 correction. Only about 1% of gold forms contain an unseen
+  cue.) The 2026-10-09 ablation (`analyses/ldl_ablation_2026_10_09/`) shows that most
+  of the shortfall comes from the additive semantics and the decoder threshold.
 * **One repetition, two languages, budget 100.** The intervals are conditional on the
   fitted fold models and the single selection run. Finnish fold variability is larger
   than the policy effect.
