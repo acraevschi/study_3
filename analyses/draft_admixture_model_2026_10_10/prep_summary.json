@@ -1,0 +1,87 @@
+{
+  "n_languages": 175,
+  "n_outcome_languages": 175,
+  "n_without_admixture": 0,
+  "tree_source": {
+    "low": 164,
+    "glottolog_5.3": 11
+  },
+  "n_families": 49,
+  "n_graff_targets": 59,
+  "n_with_neigh_flow": 124,
+  "individuals_per_language": {
+    "count": 175.0,
+    "mean": 14.85,
+    "std": 14.87,
+    "min": 1.0,
+    "25%": 7.0,
+    "50%": 10.0,
+    "75%": 19.0,
+    "max": 121.0
+  },
+  "corr_measures_spearman": {
+    "ent": {
+      "ent": 1.0,
+      "nonmax": 0.947,
+      "pop_ent": 0.994,
+      "graff_target": 0.065,
+      "neigh_flow": 0.034,
+      "support": -0.52,
+      "amount": -0.178
+    },
+    "nonmax": {
+      "ent": 0.947,
+      "nonmax": 1.0,
+      "pop_ent": 0.942,
+      "graff_target": 0.063,
+      "neigh_flow": 0.01,
+      "support": -0.473,
+      "amount": -0.041
+    },
+    "pop_ent": {
+      "ent": 0.994,
+      "nonmax": 0.942,
+      "pop_ent": 1.0,
+      "graff_target": 0.053,
+      "neigh_flow": 0.05,
+      "support": -0.522,
+      "amount": -0.18
+    },
+    "graff_target": {
+      "ent": 0.065,
+      "nonmax": 0.063,
+      "pop_ent": 0.053,
+      "graff_target": 1.0,
+      "neigh_flow": -0.319,
+      "support": -0.016,
+      "amount": -0.083
+    },
+    "neigh_flow": {
+      "ent": 0.034,
+      "nonmax": 0.01,
+      "pop_ent": 0.05,
+      "graff_target": -0.319,
+      "neigh_flow": 1.0,
+      "support": 0.118,
+      "amount": 0.147
+    },
+    "support": {
+      "ent": -0.52,
+      "nonmax": -0.473,
+      "pop_ent": -0.522,
+      "graff_target": -0.016,
+      "neigh_flow": 0.118,
+      "support": 1.0,
+      "amount": 0.785
+    },
+    "amount": {
+      "ent": -0.178,
+      "nonmax": -0.041,
+      "pop_ent": -0.18,
+      "graff_target": -0.083,
+      "neigh_flow": 0.147,
+      "support": 0.785,
+      "amount": 1.0
+    }
+  }
+}
