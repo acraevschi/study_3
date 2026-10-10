@@ -442,3 +442,30 @@ are the strongest; neither is reviewed.
 * **Group ids depend on the ingest set.** Adding another resource for the same variety
   renumbers groups and therefore reshuffles inventories and folds. Freeze the ingest set
   for a given experiment id.
+
+## PCFP integration (2026-10-08, pcfp_v1)
+
+* **Same ingest set, same group ids.** `configs/pcfp_v1.yaml` ingests the same two MGN
+  files as pilot_v1, and the grouping cell is still NFIN (the citation cell), so group ids
+  are identical. The data stage now accepts a unit's `cells` as a list of declared
+  eligible cells (`config.unit_cells`). Its 8-slot panel checks then run over all
+  declared cells.
+* **Single-word cell rule** (`splits/<unit>/cell_inventory.csv`). Italian: all 48 cells
+  are single-word. 45 of them contain one stray multiword form (≤ 0.14%), which makes 12
+  verbs (1 of them only through it) ineligible under the completeness rule. Finnish: 35 of 137 cells are single-word.
+  The other 102 are ≥ 99% multiword (negative forms *en aakkosta*, perfect/pluperfect
+  *olen aakkostanut*, and so on). They exist by resource construction (UniMorph
+  periphrastic cells), and Italian MGN has no compound tenses.
+* **Eligibility.** Derived paradigms are excluded as before, and a complete single-word
+  paradigm is required. This leaves 7,767 Italian verbs (7,797 non-derived, 30 lost: 29
+  with a missing cell, 11 of which also have a multiword form, and 1 with only a stray
+  multiword form) and 7,597 Finnish verbs (none lost).
+* **Citation label.** The selector reads the lemma label (`lemma_label`) and segments it
+  with the orth rule (`pcfp.citation_segments`). The label equals the NFIN form for
+  99.9% of eligible Italian verbs and 100% of Finnish verbs. The exceptions are the
+  UniMorph NFIN errors noted in §4.4.
+* **Grambank typology outcome.** The new `typology` stage reads Grambank v1.0.3 and
+  Glottolog CLDF v5.3 (pinned in `scripts/fetch_external.sh`) and the GeLaTo population
+  metadata only: `populations.csv` and Table S1, never `GeneticInfoID.csv`, the Q
+  matrices or the audit's derived files. See [TYPOLOGY.md](TYPOLOGY.md). Its population
+  links reuse the §10 statuses and the human-confirmation rule.

@@ -1,8 +1,8 @@
 """Synthetic Italian-like verb paradigms for LDL runner tests (no real-data lemmas).
 
-Three regular conjugation classes over the pilot NFIN + 8 panel cells. Output tables use
-the CONTRACT column names needed by the LDL runner (forms-like training rows, §6 queries,
-and a gold table in the ``write_gold_csv`` format).
+Three regular conjugation classes over NFIN + 8 cells. Output tables use the CONTRACT
+column names needed by the LDL runner (forms-like training rows, PCFP queries, and a gold
+table in the ``write_gold_csv`` format).
 """
 
 from __future__ import annotations
@@ -54,11 +54,21 @@ def lexicon(n: int, seed: int = 0) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def queries_for(forms: pd.DataFrame, lemma_ids: List[str]) -> pd.DataFrame:
-    rows = []
-    for lid in lemma_ids:
-        src = forms[(forms.lemma_id == lid) & (forms.cell_norm == "NFIN")].iloc[0]
-        for cell in CELLS[1:]:
-            rows.append({"lemma_id": lid, "source_cell": "NFIN", "source_form": src.form,
-                         "source_segments": src.segments, "target_cell": cell})
-    return pd.DataFrame(rows)
+def pcfp_tables(forms: pd.DataFrame, n_core: int, seed: int = 0, max_shown: int = 4):
+    """PCFP toy split: every lemma shows k ~ U{1..max_shown} random cells (training rows);
+    the first ``n_core`` lemmas' hidden cells (minus NFIN) are the queries.
+    Returns (train_rows, queries, gold, exposure) with gold in the ``write_gold_csv`` format."""
+    rng = random.Random(seed)
+    lemmas = list(dict.fromkeys(forms["lemma_id"]))
+    exposure = {}
+    for lid in lemmas:
+        k = rng.randint(1, max_shown)
+        exposure[lid] = sorted(rng.sample(CELLS, k))
+    keep = [(l, c) in {(l, c) for l in lemmas for c in exposure[l]} for l, c in zip(forms.lemma_id, forms.cell_norm)]
+    train = forms[keep].reset_index(drop=True)
+    q = [{"lemma_id": l, "target_cell": c} for l in lemmas[:n_core] for c in CELLS
+         if c not in exposure[l] and c != "NFIN"]
+    queries = pd.DataFrame(q)
+    g = forms.set_index(["lemma_id", "cell_norm"])["segments"]
+    gold = queries.assign(gold_variants=[g[(r.lemma_id, r.target_cell)] for r in queries.itertuples()])
+    return train, queries, gold, exposure

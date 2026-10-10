@@ -1,14 +1,22 @@
 """
-LDLRunner: end-state Linear Discriminative Learning (JudiLing) for source-known
-paradigm completion of held-out lemmas, with a wug-style source-binding protocol.
+LDLRunner: end-state Linear Discriminative Learning (JudiLing 1.0.1) for paradigm cell
+filling (PCFP) with known lexemes, and the LDL selector's candidate scoring.
 
 See docs/LDL_PROTOCOL.md for the protocol and the leakage audit.
 
 Information flow (enforced by function signatures):
-  fit_background(train rows, cfg)                -> Background   (training forms only)
-  predict_lemma(bg, lemma_id, src_cell, src_segments, target_cells)
-                                                 -> predictions  (no gold argument exists)
-  score_mapping(bg, query, gold)                 -> gold diagnostics, run only after predictions
+  fit_background(train rows, cfg)          -> Background (shown forms of training verbs only)
+  predict_known(bg, queries)               -> predictions for (lemma_id, target_cell) of verbs
+                                              that are in the training sample; no gold argument
+  add_row(bg, lemma_id, cell, segments)    -> exact rank-one extension of a fitted background
+                                              by one (form, simulated meaning) row
+  score_candidate(bg, lemma_id, cit_cell, cit_segments, shown_cells)
+                                           -> selector: decode a pool candidate's pre-drawn
+                                              shown cells after adding its citation row
+  score_mapping(bg, queries, gold)         -> gold diagnostics, run only after predictions
+
+The pilot_v1 source-binding (`wug_refit`) protocol was removed on 2026-10-08; it is
+preserved at commit 24390cf.
 """
 module LDLRunner
 
@@ -16,80 +24,85 @@ using JudiLing
 using CSV, DataFrames, JSON, SHA
 using LinearAlgebra, SparseArrays, Statistics
 
-export LDLConfig, Background, fit_background, predict_lemma, run_queries, score_mapping,
-       gaussian_vector, seed_of, form_semantics, read_queries, read_training, run_job, score_job
+export LDLConfig, Background, fit_background, predict_known, add_row, score_candidate,
+       target_semantics, gaussian_vector, seed_of, form_semantics, read_queries, read_training,
+       read_candidates, run_job, score_job, score_round, full_refit_with_row, row_chat
 
 const SEP = " "                    # segments are space-separated (CONTRACT §2)
-const QUERY_COLUMNS = ["lemma_id", "source_cell", "source_form", "source_segments", "target_cell"]
+const QUERY_COLUMNS = ["lemma_id", "target_cell"]
+const CANDIDATE_COLUMNS = ["lemma_id", "citation_cell", "citation_segments", "shown_cells"]
 const PREDICTION_COLUMNS = ["lemma_id", "target_cell", "prediction", "prediction_segments",
-    "status", "n_candidates", "top_candidates", "support", "n_source_cues",
-    "n_source_cues_unseen", "unseen_target_features", "binding_fit", "max_t"]
-const RUNNER_VERSION = "ldl-runner-2"
+    "status", "n_candidates", "top_candidates", "support", "unseen_target_features",
+    "n_train_forms_lemma", "max_t"]
+const RUNNER_VERSION = "ldl-runner-3-pcfp"
+const CELL_LIST_SEP = "|"
 
 # ----------------------------------------------------------------------------------------
 # Configuration
 # ----------------------------------------------------------------------------------------
 
 Base.@kwdef struct LDLConfig
-    grams::Int = 3
+    grams::Int = 2
     boundary::String = "#"
     sem_dim::Int = 1000
     sem_sd_lexeme::Float64 = 4.0
     sem_sd_inflection::Float64 = 0.4
     sem_sd_noise::Float64 = 1.0
+    sem_sd_cell::Float64 = 0.0           # cell-specific vector V(cell); 0 = additive features only
     semantic_seed::Int = 0
     ridge_shift::Float64 = 0.02          # JudiLing make_transform_fac default (:additive)
     threshold::Float64 = 0.05
     max_can::Int = 10
     max_t_margin::Int = 4
-    source_binding::Symbol = :wug_refit  # :wug_refit | :lexeme_refit | :none
     adjacency::Symbol = :full            # :full (all overlapping n-gram pairs) | :attested
-    decoder::Symbol = :learn_paths       # :learn_paths | :build_paths (not recommended)
-    n_neighbors::Int = 10                # build_paths only
+    is_tolerant::Bool = false            # learn_paths tolerant mode: up to max_tolerance n-grams per
+    tolerance::Float64 = -1000.0         #   path may have support in (tolerance, threshold]
+    max_tolerance::Int = 1
+    predict_chunk::Int = 400             # items per learn_paths call (results do not depend on it)
     train_diagnostics::Bool = true       # seen-item comprehension/production accuracy
 end
 
-const ALLOWED = Dict(
-    :source_binding => (:wug_refit, :lexeme_refit, :none),
-    :adjacency => (:full, :attested),
-    :decoder => (:learn_paths, :build_paths),
-)
+const ALLOWED = Dict(:adjacency => (:full, :attested))
 
 """Build an LDLConfig from a (JSON/YAML-derived) Dict, e.g. the resolved `ldl:` section
-plus `semantic_seed`. Unsupported options fail loudly instead of being ignored."""
+plus `semantic_seed`. Unsupported or removed options fail loudly instead of being ignored."""
 function LDLConfig(d::AbstractDict)
     g(k, default) = haskey(d, k) && d[k] !== nothing ? d[k] : default
-    if haskey(d, "ridge_shift")
-        ridge = Float64(d["ridge_shift"])
-    else                                 # legacy key: 0 meant "JudiLing default"
-        ridge = Float64(g("ridge_lambda", 0.0)); ridge = ridge > 0 ? ridge : 0.02
-    end
+    ridge = Float64(g("ridge_shift", 0.02))
     ridge > 0 || error("ridge_shift must be > 0")
     Bool(g("sem_isdeep", false)) && error("sem_isdeep=true is not implemented (LDL_PROTOCOL §3.2)")
-    Bool(g("tolerance", false)) && error("tolerance mode is not implemented")
+    String(g("decoder", "learn_paths")) == "learn_paths" ||
+        error("only decoder=learn_paths is supported (build_paths: looping paths and >100 s per item with bigram cues)")
+    haskey(d, "source_binding") && error("source_binding was removed with the pilot_v1 task (PCFP uses known lexemes)")
     haskey(d, "semantic_seed") || error("config lacks semantic_seed")
     c = LDLConfig(
-        grams = Int(g("cue_ngram", 3)),
+        grams = Int(g("cue_ngram", 2)),
         boundary = String(g("boundary", "#")),
         sem_dim = Int(g("sem_dim", 1000)),
         sem_sd_lexeme = Float64(g("sem_sd_lexeme", 4.0)),
         sem_sd_inflection = Float64(g("sem_sd_inflection", 0.4)),
         sem_sd_noise = Float64(g("sem_sd_noise", 1.0)),
+        sem_sd_cell = Float64(g("sem_sd_cell", 0.0)),
         semantic_seed = Int(d["semantic_seed"]),
         ridge_shift = ridge,
         threshold = Float64(g("threshold", 0.05)),
         max_can = Int(g("max_can", 10)),
         max_t_margin = Int(g("max_t_margin", 4)),
-        source_binding = Symbol(g("source_binding", "wug_refit")),
         adjacency = Symbol(g("adjacency", "full")),
-        decoder = Symbol(g("decoder", "learn_paths")),
-        n_neighbors = Int(g("n_neighbors", 10)),
+        is_tolerant = Bool(g("tolerance", false)),
+        tolerance = Float64(g("tolerance_floor", -1000.0)),
+        max_tolerance = Int(g("max_tolerance", 1)),
+        predict_chunk = Int(g("predict_chunk", 400)),
         train_diagnostics = Bool(g("train_diagnostics", true)),
     )
     for (k, ok) in ALLOWED
         getfield(c, k) in ok || error("unsupported $k = $(getfield(c, k)); allowed $(ok)")
     end
     c.grams >= 2 || error("cue_ngram must be >= 2")
+    c.predict_chunk >= 1 || error("predict_chunk must be >= 1")
+    c.max_tolerance >= 0 || error("max_tolerance must be >= 0")
+    c.tolerance < c.threshold || error("tolerance_floor must be below threshold")
+    c.sem_sd_cell >= 0 || error("sem_sd_cell must be >= 0")
     c
 end
 
@@ -144,14 +157,25 @@ feature_vec(c::LDLConfig, f) =
 noise_vec(c::LDLConfig, lemma, cell) =
     gaussian_vector(seed_of(c.semantic_seed, "noise", lemma, cell), c.sem_dim, c.sem_sd_noise)
 
-feature_sum(c::LDLConfig, cell) = sum(feature_vec(c, f) for f in cell_features(cell))
+cell_vec(c::LDLConfig, cell) =
+    gaussian_vector(seed_of(c.semantic_seed, "cell", cell), c.sem_dim, c.sem_sd_cell)
 
-"""Simulated meaning of (lemma, cell): lexeme + sum of inflectional features + noise."""
+"""Inflectional meaning of a cell: its feature vectors, plus the cell's own vector when
+`sem_sd_cell > 0` (meaning specific to the feature combination, not shared with other cells)."""
+function feature_sum(c::LDLConfig, cell)
+    v = sum(feature_vec(c, f) for f in cell_features(cell))
+    c.sem_sd_cell > 0 ? v .+ cell_vec(c, cell) : v
+end
+
+"""Simulated meaning of an observed (lemma, cell) form: lexeme + inflection + noise."""
 function form_semantics(c::LDLConfig, lemma, cell)
     s = lexeme_vec(c, lemma) .+ feature_sum(c, cell)
     c.sem_sd_noise > 0 && (s .+= noise_vec(c, lemma, cell))
     s
 end
+
+"""Target meaning of an unseen cell of a known lexeme: lexeme + inflection (no noise)."""
+target_semantics(c::LDLConfig, lemma, cell) = lexeme_vec(c, lemma) .+ feature_sum(c, cell)
 
 # ----------------------------------------------------------------------------------------
 # Cues and adjacency
@@ -164,7 +188,7 @@ cue_ngrams(c::LDLConfig, segs::AbstractString) =
 ngram_prefix(ng) = join(split(ng, SEP)[1:end-1], SEP)
 ngram_suffix(ng) = join(split(ng, SEP)[2:end], SEP)
 
-"""Full overlap adjacency (paper §3; same relation as JudiLing.make_full_adjacency_matrix)."""
+"""Full overlap adjacency (same relation as JudiLing.make_full_adjacency_matrix)."""
 function full_adjacency(i2f::Dict{Int,String}, k::Int)
     by_prefix = Dict{String,Vector{Int}}()
     for i in 1:k
@@ -196,7 +220,7 @@ end
 
 struct Background
     cfg::LDLConfig
-    train::DataFrame               # lemma_id, cell_norm, segments (training forms only)
+    train::DataFrame               # lemma_id, cell_norm, segments (shown forms only)
     paths::Vector{Vector{Int}}     # cue-index path per training row
     f2i::Dict{String,Int}
     i2f::Dict{Int,String}
@@ -209,6 +233,7 @@ struct Background
     A::SparseMatrixCSC{Int,Int}
     max_len::Int                   # longest training form, in segments
     features_seen::Set{String}
+    forms_per_lemma::Dict{String,Int}
     fit_seconds::Float64
 end
 
@@ -220,6 +245,7 @@ function fit_background(train::DataFrame, c::LDLConfig)
     end
     tr = DataFrame(lemma_id = String.(train.lemma_id), cell_norm = String.(train.cell_norm),
                    segments = String.(train.segments))
+    nrow(tr) > 0 || error("empty training table")
     any(occursin(c.boundary, s) for s in tr.segments) &&
         error("boundary symbol $(c.boundary) occurs in training segments")
     ngs = [cue_ngrams(c, s) for s in tr.segments]
@@ -247,109 +273,11 @@ function fit_background(train::DataFrame, c::LDLConfig)
     A = c.adjacency == :full ? full_adjacency(i2f, k) : attested_adjacency(paths, k)
     max_len = maximum(length(tokens_of(s)) for s in tr.segments)
     feats = Set{String}(f for cell in unique(tr.cell_norm) for f in cell_features(cell))
-    Background(c, tr, paths, f2i, i2f, C, S, F, G, facS, facC, A, max_len, feats, time() - t0)
-end
-
-# ----------------------------------------------------------------------------------------
-# Per-held-out-lemma state (the background is never mutated)
-# ----------------------------------------------------------------------------------------
-
-struct LemmaState
-    f2i::Dict{String,Int}
-    i2f::Dict{Int,String}
-    novel::Vector{String}          # source cues absent from the background inventory
-    c_src::Vector{Float64}         # extended cue vector of the source form
-    s_src::Vector{Float64}         # source semantics used for the binding row
-    S_tgt::Matrix{Float64}         # target semantics (T x d)
-    Chat::Matrix{Float64}          # predicted target cue vectors (T x k_ext)
-    F_h::Matrix{Float64}           # comprehension used for synthesis-by-analysis
-    C_h::SparseMatrixCSC{Float64,Int}
-    data_h::DataFrame              # decoder training forms (background [+ source])
-    paths_h::Vector{Vector{Int}}   # cue paths of the decoder training forms
-    A_h::SparseMatrixCSC{Int,Int}
-    max_t::Int
-    binding_fit::Float64           # cor(predicted c for the source semantics, c_src)
-    unseen_features::Vector{Vector{String}}
-end
-
-"""Extend the background with one held-out lemma's source anchor and map to target cues.
-
-Only (lemma_id, source cell, source segments, target cells) are inputs. The production
-refit with the binding row (s_src -> c_src) is the exact ridge solution computed by a
-rank-one (recursive least squares) update of the background G; see LDL_PROTOCOL.md §4."""
-function lemma_state(bg::Background, lemma_id::AbstractString, src_cell::AbstractString,
-                     src_segs::AbstractString, tgt_cells::Vector{String})
-    c = bg.cfg
-    occursin(c.boundary, src_segs) && error("boundary symbol in source segments")
-    ng = cue_ngrams(c, src_segs)
-    k = length(bg.f2i); d = c.sem_dim
-    novel = String[]
-    for x in ng
-        (!haskey(bg.f2i, x) && !(x in novel)) && push!(novel, x)
+    fpl = Dict{String,Int}()
+    for l in tr.lemma_id
+        fpl[l] = get(fpl, l, 0) + 1
     end
-    kx = k + length(novel)
-    f2i = copy(bg.f2i); i2f = copy(bg.i2f)
-    for (j, x) in enumerate(novel)
-        f2i[x] = k + j; i2f[k + j] = x
-    end
-    csrc = zeros(kx)
-    for x in ng
-        csrc[f2i[x]] = 1.0
-    end
-    ck = csrc[1:k]
-
-    # source semantics
-    s_src = if c.source_binding == :lexeme_refit
-        form_semantics(c, lemma_id, src_cell)
-    else                      # :wug_refit and :none -> comprehension estimate (paper §4.3.2)
-        vec(ck' * bg.F)
-    end
-    fsrc = feature_sum(c, src_cell)
-    T = length(tgt_cells)
-    S_tgt = Matrix{Float64}(undef, T, d)
-    for (t, cell) in enumerate(tgt_cells)
-        S_tgt[t, :] = s_src .- fsrc .+ feature_sum(c, cell)
-    end
-
-    # production: G_ext = [G 0]; exact refit with binding row via RLS update
-    Chat0 = hcat(S_tgt * bg.G, zeros(T, length(novel)))
-    F_h = vcat(bg.F, zeros(length(novel), d))
-    if c.source_binding == :none
-        Chat = Chat0
-        binding_fit = NaN
-        data_h = bg.train[:, [:segments]]
-        C_h = hcat(bg.C, spzeros(nrow(bg.train), length(novel)))
-        paths_h = bg.paths
-    else
-        chat_src0 = vcat(vec(s_src' * bg.G), zeros(length(novel)))
-        resid = csrc .- chat_src0
-        Ps = bg.facS \ s_src
-        alpha = dot(s_src, Ps)
-        Chat = Chat0 .+ ((S_tgt * Ps) ./ (1 + alpha)) * resid'
-        chat_src = chat_src0 .+ (alpha / (1 + alpha)) .* resid
-        binding_fit = cor(chat_src, csrc)
-        # comprehension: exact refit with binding row (c_src -> s_src); a no-op for
-        # :wug_refit because s_src = c_src F already (LDL_PROTOCOL.md §4.3)
-        r = s_src .- vec(csrc' * F_h)
-        if norm(r) > 1e-9 * max(1.0, norm(s_src))
-            Pc = vcat(bg.facC \ ck, csrc[k+1:end] ./ c.ridge_shift)
-            beta = dot(csrc, Pc)
-            F_h = F_h .+ (Pc ./ (1 + beta)) * r'
-        end
-        data_h = vcat(bg.train[:, [:segments]], DataFrame(segments = [String(src_segs)]))
-        C_h = vcat(hcat(bg.C, spzeros(nrow(bg.train), length(novel))), sparse(csrc'))
-        paths_h = vcat(bg.paths, [[f2i[x] for x in ng]])
-    end
-
-    A_h = if c.adjacency == :full
-        isempty(novel) ? bg.A : full_adjacency(i2f, kx)
-    else
-        attested_adjacency(paths_h, kx)
-    end
-    max_t = max(bg.max_len, length(tokens_of(src_segs))) + c.max_t_margin
-    unseen = [filter(f -> !(f in bg.features_seen), cell_features(cell)) for cell in tgt_cells]
-    LemmaState(f2i, i2f, novel, csrc, s_src, S_tgt, Chat, F_h, C_h, data_h, paths_h, A_h, max_t,
-               binding_fit, unseen)
+    Background(c, tr, paths, f2i, i2f, C, S, F, G, facS, facC, A, max_len, feats, fpl, time() - t0)
 end
 
 """Translate a cue path into segments (boundary removed)."""
@@ -360,59 +288,254 @@ function path_segments(path::Vector{Int}, i2f::Dict{Int,String}, bnd::String)
 end
 segments_to_form(segs::Vector{String}) = replace(join(segs, ""), "_" => " ")
 
-"""Predict all target cells of one held-out lemma from its source anchor. No gold input."""
-function predict_lemma(bg::Background, lemma_id::AbstractString, src_cell::AbstractString,
-                       src_segs::AbstractString, tgt_cells::Vector{String})
+"""Run learn_paths for target semantics `S_tgt` (T x d) with predicted cues `Chat` on the
+given decoder training state. Only `size(data_val, 1)` of data_val is read (no forms).
+learn_paths maps Ĉ to the n-gram at each position t (positional mappings trained on the
+training forms), chains n-grams with support above `threshold` (in tolerant mode, also up
+to `max_tolerance` n-grams per path with support in (`tolerance`, `threshold`]), and ranks
+complete paths by synthesis-by-analysis (cor(c F, s)), keeping `max_can`."""
+function decode(c::LDLConfig, data_train::DataFrame, C_train, S_tgt::Matrix{Float64},
+                F::Matrix{Float64}, Chat::Matrix{Float64}, A, i2f, f2i, max_t::Int)
+    T = size(S_tgt, 1)
+    JudiLing.learn_paths(
+        data_train, DataFrame(query_index = 1:T),
+        C_train, S_tgt, F, Chat, A, i2f, f2i;
+        check_gold_path = false, gold_ind = nothing, Shat_val = nothing,
+        max_t = max_t, max_can = c.max_can, threshold = c.threshold,
+        is_tolerant = c.is_tolerant, tolerance = c.tolerance, max_tolerance = c.max_tolerance,
+        grams = c.grams, tokenized = true, sep_token = SEP,
+        keep_sep = true, target_col = :segments, start_end_token = c.boundary,
+        issparse = :auto, verbose = false)
+end
+
+# ----------------------------------------------------------------------------------------
+# Known-lexeme prediction (the evaluated LDL)
+# ----------------------------------------------------------------------------------------
+
+error_row(lid, cell, max_t) = (lemma_id = String(lid), target_cell = String(cell), prediction = "",
+    prediction_segments = "", status = "error", n_candidates = 0, top_candidates = "[]",
+    support = NaN, unseen_target_features = "", n_train_forms_lemma = -1, max_t = max_t)
+
+"""Predict the queried cells of verbs that are in the training sample.
+
+Target meaning = lexeme vector + the cell's feature vectors; Ĉ = Ŝ G. Decoding uses the
+training forms only: cue inventory, adjacency, decoder training rows and max_t
+(= longest training form + margin) never see a gold form. Items are decoded in chunks;
+learn_paths treats rows independently, so results do not depend on chunking or order."""
+function predict_known(bg::Background, q::DataFrame)
     c = bg.cfg
-    st = lemma_state(bg, lemma_id, src_cell, src_segs, tgt_cells)
-    T = length(tgt_cells)
+    lids = String.(q.lemma_id); cells = String.(q.target_cell)
+    unknown = unique(filter(l -> !haskey(bg.forms_per_lemma, l), lids))
+    isempty(unknown) || error("query lemmas without training forms (not known lexemes): $(first(unknown, 3))")
+    max_t = bg.max_len + c.max_t_margin
+    rows = Vector{NamedTuple}(undef, length(lids))
+    for start in 1:c.predict_chunk:length(lids)
+        idx = start:min(start + c.predict_chunk - 1, length(lids))
+        S_tgt = Matrix{Float64}(undef, length(idx), c.sem_dim)
+        for (t, i) in enumerate(idx)
+            S_tgt[t, :] = target_semantics(c, lids[i], cells[i])
+        end
+        Chat = S_tgt * bg.G
+        res = try
+            decode(c, bg.train[:, [:segments]], bg.C, S_tgt, bg.F, Chat, bg.A, bg.i2f, bg.f2i, max_t)
+        catch err
+            @warn "learn_paths failed for a chunk" exception = (err, catch_backtrace())
+            nothing
+        end
+        for (t, i) in enumerate(idx)
+            if res === nothing
+                rows[i] = error_row(lids[i], cells[i], max_t)
+                continue
+            end
+            cands = res[t]
+            preds = [path_segments(r.ngrams_ind, bg.i2f, c.boundary) for r in cands]
+            top = [Dict("prediction" => segments_to_form(p), "support" => round(r.support, digits = 6))
+                   for (p, r) in zip(preds, cands)]
+            unseen = filter(f -> !(f in bg.features_seen), cell_features(cells[i]))
+            rows[i] = (lemma_id = lids[i], target_cell = cells[i],
+                prediction = isempty(preds) ? "" : segments_to_form(preds[1]),
+                prediction_segments = isempty(preds) ? "" : join(preds[1], SEP),
+                status = isempty(cands) ? "no_candidate" : "ok", n_candidates = length(cands),
+                top_candidates = JSON.json(top), support = isempty(cands) ? NaN : cands[1].support,
+                unseen_target_features = join(unseen, ";"),
+                n_train_forms_lemma = bg.forms_per_lemma[lids[i]], max_t = max_t)
+        end
+    end
+    df = isempty(rows) ? DataFrame([k => [] for k in PREDICTION_COLUMNS]) : DataFrame(rows)
+    df[:, PREDICTION_COLUMNS]
+end
+
+# ----------------------------------------------------------------------------------------
+# Exact rank-one extension by one row (selector citation row)
+# ----------------------------------------------------------------------------------------
+
+"""A fitted background extended by one (form, meaning) row; the background is not mutated.
+
+Production: G_h = argmin ‖[S; s]G − [C 0; c]‖² + λ‖G‖² via Sherman–Morrison on
+P = (SᵀS + λI)⁻¹; only Ĉ for requested targets is materialised (`row_chat`).
+Comprehension: F_h = argmin ‖[C 0; c]F − [S; s]‖² + λ‖F‖², exact rank-one update of
+[F; 0] (novel cues have no background weights)."""
+struct RowState
+    f2i::Dict{String,Int}
+    i2f::Dict{Int,String}
+    novel::Vector{String}
+    c_row::Vector{Float64}         # extended cue vector of the added form
+    s_row::Vector{Float64}         # its simulated meaning
+    Ps::Vector{Float64}            # (SᵀS + λI)⁻¹ s
+    alpha::Float64                 # s P sᵀ
+    resid::Vector{Float64}         # c − s G_ext
+    F_h::Matrix{Float64}
+    C_h::SparseMatrixCSC{Float64,Int}
+    data_h::DataFrame
+    paths_h::Vector{Vector{Int}}
+    A_h::SparseMatrixCSC{Int,Int}
+    max_t::Int
+end
+
+function add_row(bg::Background, lemma_id::AbstractString, cell::AbstractString, segs::AbstractString)
+    c = bg.cfg
+    occursin(c.boundary, segs) && error("boundary symbol in added form")
+    ng = cue_ngrams(c, segs)
+    k = length(bg.f2i); d = c.sem_dim
+    novel = String[]
+    for x in ng
+        (!haskey(bg.f2i, x) && !(x in novel)) && push!(novel, x)
+    end
+    kx = k + length(novel)
+    f2i = copy(bg.f2i); i2f = copy(bg.i2f)
+    for (j, x) in enumerate(novel)
+        f2i[x] = k + j; i2f[k + j] = x
+    end
+    crow = zeros(kx)
+    for x in ng
+        crow[f2i[x]] = 1.0
+    end
+    ck = crow[1:k]
+    s = form_semantics(c, lemma_id, cell)
+    # production (rank-one on G_ext = [G 0])
+    Ps = bg.facS \ s
+    alpha = dot(s, Ps)
+    resid = crow .- vcat(vec(s' * bg.G), zeros(length(novel)))
+    # comprehension (rank-one on F_ext = [F; 0])
+    F_h = vcat(bg.F, zeros(length(novel), d))
+    r = s .- vec(crow' * F_h)
+    Pc = vcat(bg.facC \ ck, crow[k+1:end] ./ c.ridge_shift)
+    beta = dot(crow, Pc)
+    F_h = F_h .+ (Pc ./ (1 + beta)) * r'
+    data_h = vcat(bg.train[:, [:segments]], DataFrame(segments = [String(segs)]))
+    C_h = vcat(hcat(bg.C, spzeros(nrow(bg.train), length(novel))), sparse(crow'))
+    paths_h = vcat(bg.paths, [[f2i[x] for x in ng]])
+    A_h = if c.adjacency == :full
+        isempty(novel) ? bg.A : full_adjacency(i2f, kx)
+    else
+        attested_adjacency(paths_h, kx)
+    end
+    max_t = max(bg.max_len, length(tokens_of(segs))) + c.max_t_margin
+    RowState(f2i, i2f, novel, crow, s, Ps, alpha, resid, F_h, C_h, data_h, paths_h, A_h, max_t)
+end
+
+"""Ĉ = S_tgt G_h for target meanings, from the rank-one state (exact ridge solution)."""
+function row_chat(bg::Background, st::RowState, S_tgt::Matrix{Float64})
+    Chat0 = hcat(S_tgt * bg.G, zeros(size(S_tgt, 1), length(st.novel)))
+    Chat0 .+ ((S_tgt * st.Ps) ./ (1 + st.alpha)) * st.resid'
+end
+
+"""Reference implementation for tests: refit F and G with JudiLing on the augmented
+matrices (same inventory order as `add_row`). Returns (Chat, F_full)."""
+function full_refit_with_row(bg::Background, lemma_id, cell, segs, S_tgt::Matrix{Float64})
+    c = bg.cfg
+    st = add_row(bg, lemma_id, cell, segs)
+    C2 = st.C_h
+    S2 = vcat(bg.S, st.s_row')
+    facC2 = JudiLing.make_transform_fac(C2; method = :additive, shift = c.ridge_shift)
+    F2 = Matrix(JudiLing.make_transform_matrix(facC2, C2, S2; output_format = :dense))
+    facS2 = JudiLing.make_transform_fac(S2; method = :additive, shift = c.ridge_shift)
+    G2 = Matrix(JudiLing.make_transform_matrix(facS2, S2, Matrix(C2); output_format = :dense))
+    (S_tgt * G2, F2, row_chat(bg, st, S_tgt), st.F_h)
+end
+
+# ----------------------------------------------------------------------------------------
+# Selector: score one pool candidate from its citation row
+# ----------------------------------------------------------------------------------------
+
+"""Decode a candidate's pre-drawn shown cells after adding its citation row.
+
+Inputs are only the candidate's lemma id (for its simulated lexeme vector), its citation
+cell and the segments of its citation label, and the *names* of its shown cells. No other
+form of the candidate exists here. Returns per-cell rows and one comprehension-check row
+(how far c·F of the citation cues is from the simulated citation meaning, and the share of
+citation cues unseen in training), computed on the round's background."""
+function score_candidate(bg::Background, lemma_id::AbstractString, cit_cell::AbstractString,
+                         cit_segs::AbstractString, shown::Vector{String})
+    c = bg.cfg
+    st = add_row(bg, lemma_id, cit_cell, cit_segs)
+    T = length(shown)
+    S_tgt = Matrix{Float64}(undef, T, c.sem_dim)
+    for (t, cell) in enumerate(shown)
+        S_tgt[t, :] = target_semantics(c, lemma_id, cell)
+    end
+    Chat = row_chat(bg, st, S_tgt)
     status = fill("ok", T)
     res = try
-        c.decoder == :build_paths ? JudiLing.build_paths(
-            DataFrame(query_index = 1:T),                  # data_val: only its row count is read
-            st.C_h, st.S_tgt, st.F_h, st.Chat, st.A_h, st.i2f, st.paths_h;
-            max_t = st.max_t, max_can = c.max_can, n_neighbors = c.n_neighbors,
-            grams = c.grams, tokenized = true, sep_token = SEP, target_col = :segments,
-            start_end_token = c.boundary, verbose = false) :
-        JudiLing.learn_paths(
-            st.data_h, DataFrame(query_index = 1:T),      # data_val: only its row count is read
-            st.C_h, st.S_tgt, st.F_h, st.Chat, st.A_h, st.i2f, st.f2i;
-            check_gold_path = false, gold_ind = nothing, Shat_val = nothing,
-            max_t = st.max_t, max_can = c.max_can, threshold = c.threshold,
-            is_tolerant = false, grams = c.grams, tokenized = true, sep_token = SEP,
-            keep_sep = true, target_col = :segments, start_end_token = c.boundary,
-            issparse = :auto, verbose = false)
+        decode(c, st.data_h, st.C_h, S_tgt, st.F_h, Chat, st.A_h, st.i2f, st.f2i, st.max_t)
     catch err
         @warn "learn_paths failed" lemma_id exception = (err, catch_backtrace())
         status .= "error"
         [JudiLing.Result_Path_Info_Struct[] for _ in 1:T]
     end
-    n_src = length(unique(cue_ngrams(c, src_segs)))
+    cit_toks = tokens_of(cit_segs)
     rows = NamedTuple[]
     for t in 1:T
         cands = res[t]
+        status[t] == "ok" && isempty(cands) && (status[t] = "no_candidate")
         preds = [path_segments(r.ngrams_ind, st.i2f, c.boundary) for r in cands]
-        if status[t] == "ok" && isempty(cands)
-            status[t] = "no_candidate"
-        end
-        top = [Dict("prediction" => segments_to_form(p), "support" => round(r.support, digits = 6))
-               for (p, r) in zip(preds, cands)]
-        push!(rows, (
-            lemma_id = String(lemma_id), target_cell = tgt_cells[t],
-            prediction = isempty(preds) ? "" : segments_to_form(preds[1]),
-            prediction_segments = isempty(preds) ? "" : join(preds[1], SEP),
-            status = status[t], n_candidates = length(cands),
-            top_candidates = JSON.json(top),
-            support = isempty(cands) ? NaN : cands[1].support,
-            n_source_cues = n_src, n_source_cues_unseen = length(st.novel),
-            unseen_target_features = join(st.unseen_features[t], ";"),
-            binding_fit = st.binding_fit, max_t = st.max_t,
-        ))
+        sup = [r.support for r in cands]
+        push!(rows, (lemma_id = String(lemma_id), target_cell = shown[t], status = status[t],
+            n_candidates = length(cands), supports = JSON.json(round.(sup, digits = 8)),
+            top_support = isempty(sup) ? NaN : sup[1],
+            top_prediction_segments = isempty(preds) ? "" : join(preds[1], SEP),
+            top_equals_citation = !isempty(preds) && preds[1] == cit_toks))
     end
-    rows
+    # comprehension-side check (not used for selection)
+    k = length(bg.f2i)
+    s_hat = vec(st.c_row[1:k]' * bg.F)
+    s_true = st.s_row
+    n_cues = length(unique(cue_ngrams(c, cit_segs)))
+    comp = (lemma_id = String(lemma_id), comp_cor = cor(s_hat, s_true),
+            comp_rel_dist = norm(s_hat .- s_true) / norm(s_true),
+            n_citation_cues = n_cues, n_citation_cues_unseen = length(st.novel),
+            share_citation_cues_unseen = length(st.novel) / n_cues,
+            citation_len = length(cit_toks))
+    rows, comp
 end
 
-"""Read a CONTRACT §6 query table, keeping only the contract columns (others are ignored)."""
+"""Score every candidate of one acquisition round on one fitted background. Each
+candidate starts from the same immutable background, so scores do not depend on the
+order in which candidates are scored."""
+function score_round(bg::Background, cands::DataFrame)
+    cell_rows = NamedTuple[]; comp_rows = NamedTuple[]
+    for r in eachrow(cands)
+        shown = String.(split(r.shown_cells, CELL_LIST_SEP))
+        cr, comp = try
+            score_candidate(bg, r.lemma_id, r.citation_cell, r.citation_segments, shown)
+        catch err
+            @warn "candidate failed" r.lemma_id exception = (err, catch_backtrace())
+            ([(lemma_id = String(r.lemma_id), target_cell = cell, status = "error", n_candidates = 0,
+               supports = "[]", top_support = NaN, top_prediction_segments = "",
+               top_equals_citation = false) for cell in shown],
+             (lemma_id = String(r.lemma_id), comp_cor = NaN, comp_rel_dist = NaN, n_citation_cues = -1,
+              n_citation_cues_unseen = -1, share_citation_cues_unseen = NaN, citation_len = -1))
+        end
+        append!(cell_rows, cr); push!(comp_rows, comp)
+    end
+    DataFrame(cell_rows), DataFrame(comp_rows)
+end
+
+# ----------------------------------------------------------------------------------------
+# Readers
+# ----------------------------------------------------------------------------------------
+
+"""Read a query table, keeping only (lemma_id, target_cell); other columns are ignored."""
 function read_queries(path::AbstractString)
     q = CSV.read(path, DataFrame; types = String, stringtype = String)
     for col in QUERY_COLUMNS
@@ -421,77 +544,14 @@ function read_queries(path::AbstractString)
     q[:, QUERY_COLUMNS]
 end
 
-error_row(lid, cell) = (lemma_id = String(lid), target_cell = cell, prediction = "",
-    prediction_segments = "", status = "error", n_candidates = 0, top_candidates = "[]",
-    support = NaN, n_source_cues = -1, n_source_cues_unseen = -1, unseen_target_features = "",
-    binding_fit = NaN, max_t = -1)
-
-"""Run all queries lemma by lemma (each lemma independently on the same background)."""
-function run_queries(bg::Background, q::DataFrame)
-    out = NamedTuple[]
-    times = Float64[]
-    order = unique(q.lemma_id)
-    for lid in order
-        sub = q[q.lemma_id .== lid, :]
-        length(unique(sub.source_segments)) == 1 || error("several source anchors for $lid")
-        length(unique(sub.source_cell)) == 1 || error("several source cells for $lid")
-        t0 = time()
-        tc = String.(sub.target_cell)
-        rows = try
-            predict_lemma(bg, lid, sub.source_cell[1], sub.source_segments[1], tc)
-        catch err
-            @warn "lemma failed" lid exception = (err, catch_backtrace())
-            [error_row(lid, cell) for cell in tc]
-        end
-        append!(out, rows)
-        push!(times, time() - t0)
+"""Read a candidate table, keeping only the four permitted columns."""
+function read_candidates(path::AbstractString)
+    q = CSV.read(path, DataFrame; types = String, stringtype = String)
+    for col in CANDIDATE_COLUMNS
+        col in names(q) || error("candidate table lacks column $col")
     end
-    df = isempty(out) ? DataFrame([k => [] for k in PREDICTION_COLUMNS]) : DataFrame(out)
-    df[:, PREDICTION_COLUMNS], times
+    q[:, CANDIDATE_COLUMNS]
 end
-
-# ----------------------------------------------------------------------------------------
-# Gold-isolated diagnostics (call only after predictions are written)
-# ----------------------------------------------------------------------------------------
-
-"""Gold-side mapping diagnostics for one lemma. `gold` maps target_cell => list of gold
-variant segment strings. The variant whose cue vector correlates best with Ĉ is reported.
-Recomputes the same lemma state as prediction (deterministic); never feeds back into it."""
-function score_mapping(bg::Background, lemma_id, src_cell, src_segs, tgt_cells::Vector{String},
-                       gold::Dict{String,Vector{String}})
-    c = bg.cfg
-    st = lemma_state(bg, lemma_id, src_cell, src_segs, tgt_cells)
-    rows = NamedTuple[]
-    for (t, cell) in enumerate(tgt_cells)
-        best = nothing
-        for (vi, gsegs) in enumerate(gold[cell])
-            gpath = cue_ngrams(c, gsegs)
-            gng = unique(gpath)
-            cg = zeros(length(st.f2i))
-            n_out = 0
-            for x in gng
-                haskey(st.f2i, x) ? (cg[st.f2i[x]] = 1.0) : (n_out += 1)
-            end
-            r = cor(st.Chat[t, :], cg)
-            n_below = count(x -> haskey(st.f2i, x) && st.Chat[t, st.f2i[x]] <= c.threshold, gng)
-            row = (lemma_id = String(lemma_id), target_cell = cell,
-                   chat_gold_cor = r, gold_variant_idx = vi - 1, n_gold_variants = length(gold[cell]),
-                   n_gold_cues = length(gng), n_gold_cues_outside_inventory = n_out,
-                   n_gold_cues_below_threshold = n_below,
-                   gold_reachable = n_out == 0 && n_below == 0,
-                   gold_path_longer_than_max_t = length(gpath) > st.max_t)
-            if best === nothing || (isnan(best.chat_gold_cor) && !isnan(r)) || r > best.chat_gold_cor
-                best = row
-            end
-        end
-        push!(rows, best)
-    end
-    rows
-end
-
-# ----------------------------------------------------------------------------------------
-# Batch job layer (one background per job; many jobs per Julia process)
-# ----------------------------------------------------------------------------------------
 
 """Read training rows: variant 0 of non-missing cells (CONTRACT §4)."""
 function read_training(path::AbstractString)
@@ -509,15 +569,17 @@ function read_training(path::AbstractString)
     t[:, ["lemma_id", "cell_norm", "segments"]], n0
 end
 
+# ----------------------------------------------------------------------------------------
+# Diagnostics and batch jobs
+# ----------------------------------------------------------------------------------------
+
 """Seen-item diagnostics on the training sample (training forms are not held-out gold)."""
 function train_diagnostics(bg::Background)
     c = bg.cfg
     Shat = Matrix(bg.C) * bg.F
     comp = JudiLing.eval_SC(Shat, bg.S, bg.train, :segments)
-    res = JudiLing.learn_paths(bg.train, bg.train, bg.C, bg.S, bg.F, bg.S * bg.G, bg.A,
-        bg.i2f, bg.f2i; max_t = bg.max_len + c.max_t_margin, max_can = c.max_can,
-        threshold = c.threshold, grams = c.grams, tokenized = true, sep_token = SEP,
-        keep_sep = true, target_col = :segments, start_end_token = c.boundary, verbose = false)
+    res = decode(c, bg.train[:, [:segments]], bg.C, bg.S, bg.F, bg.S * bg.G, bg.A, bg.i2f, bg.f2i,
+                 bg.max_len + c.max_t_margin)
     prod = mean(!isempty(r) && join(path_segments(r[1].ngrams_ind, bg.i2f, c.boundary), SEP) ==
                 strip(bg.train.segments[i]) for (i, r) in enumerate(res))
     Dict("train_comprehension_accuracy" => comp, "train_production_accuracy" => prod,
@@ -530,9 +592,9 @@ function atomic_write(f::Function, path::AbstractString)
     mv(tmp, path; force = true)
 end
 
-"""Fit one background and predict its queries. `job` keys: train_csv, queries_csv,
-out_dir, config (resolved ldl config incl. semantic_seed), job_config (written last as the
-completion marker)."""
+"""Fit one background and predict its known-lexeme queries. `job` keys: train_csv,
+queries_csv, out_dir, config (resolved ldl config incl. semantic_seed), job_config
+(written last as the completion marker)."""
 function run_job(job::AbstractDict)
     t0 = time()
     out = job["out_dir"]; mkpath(out)
@@ -540,7 +602,9 @@ function run_job(job::AbstractDict)
     train, n_raw = read_training(job["train_csv"])
     q = read_queries(job["queries_csv"])
     bg = fit_background(train, cfg)
-    pred, times = run_queries(bg, q)
+    t1 = time()
+    pred = predict_known(bg, q)
+    tpred = time() - t1
     atomic_write(tmp -> CSV.write(tmp, pred), joinpath(out, "predictions.csv"))
     td = cfg.train_diagnostics ? train_diagnostics(bg) : Dict{String,Any}()
     probe = Dict(string(bg.train.lemma_id[i], "|", bg.train.cell_norm[i]) => bg.S[i, 1:5]
@@ -550,27 +614,63 @@ function run_job(job::AbstractDict)
         "judiling_version" => string(pkgversion(JudiLing)), "julia_version" => string(VERSION),
         "threads" => Threads.nthreads(), "blas_threads" => LinearAlgebra.BLAS.get_num_threads(),
         "n_train_rows_raw" => n_raw, "n_train_rows" => nrow(bg.train),
-        "n_train_lemmas" => length(unique(bg.train.lemma_id)),
+        "n_train_lemmas" => length(bg.forms_per_lemma),
         "n_cues_background" => length(bg.f2i), "sem_dim" => cfg.sem_dim, "cue_ngram" => cfg.grams,
-        "semantic_seed" => cfg.semantic_seed, "ridge_shift" => cfg.ridge_shift,
-        "source_binding" => string(cfg.source_binding), "adjacency" => string(cfg.adjacency),
-        "decoder" => string(cfg.decoder), "threshold" => cfg.threshold,
-        "max_train_len" => bg.max_len,
-        "n_query_lemmas" => length(times), "n_query_items" => nrow(pred),
+        "sem_sd_inflection" => cfg.sem_sd_inflection, "semantic_seed" => cfg.semantic_seed,
+        "ridge_shift" => cfg.ridge_shift, "adjacency" => string(cfg.adjacency),
+        "decoder" => "learn_paths", "threshold" => cfg.threshold, "tolerant" => cfg.is_tolerant,
+        "tolerance_floor" => cfg.tolerance, "max_tolerance" => cfg.max_tolerance,
+        "sem_sd_noise" => cfg.sem_sd_noise, "sem_sd_cell" => cfg.sem_sd_cell, "sem_sd_lexeme" => cfg.sem_sd_lexeme, "max_train_len" => bg.max_len,
+        "max_t" => bg.max_len + cfg.max_t_margin,
+        "n_query_lemmas" => length(unique(q.lemma_id)), "n_query_items" => nrow(pred),
         "status_counts" => Dict(s => count(==(s), pred.status) for s in unique(pred.status)),
-        "n_items_with_unseen_source_cues" => count(>(0), pred.n_source_cues_unseen),
-        "n_unseen_source_cues_total" => sum(unique(pred[:, [:lemma_id, :n_source_cues_unseen]]).n_source_cues_unseen; init = 0),
         "n_items_with_unseen_target_features" => count(!isempty, pred.unseen_target_features),
-        "background_fit_seconds" => bg.fit_seconds,
-        "per_lemma_seconds" => isempty(times) ? Dict() : Dict("median" => median(times),
-            "mean" => mean(times), "max" => maximum(times), "first" => times[1], "total" => sum(times)),
-        "job_seconds" => time() - t0,
-        "semantic_probe" => probe,
+        "unseen_target_features" => sort(unique(filter(!isempty, vcat(split.(pred.unseen_target_features, ";")...)))),
+        "features_seen" => sort(collect(bg.features_seen)),
+        "background_fit_seconds" => bg.fit_seconds, "predict_seconds" => tpred,
+        "job_seconds" => time() - t0, "semantic_probe" => probe,
     )
     merge!(diag, td)
     atomic_write(tmp -> open(io -> JSON.print(io, diag, 2), tmp, "w"), joinpath(out, "diagnostics.json"))
     atomic_write(tmp -> open(io -> JSON.print(io, job["job_config"], 2), tmp, "w"), joinpath(out, "job_config.json"))
     out
+end
+
+"""Gold-side mapping diagnostics for known-lexeme items. `gold` maps (lemma_id,
+target_cell) => gold variant segment strings. Recomputes Ĉ deterministically; never
+feeds back into prediction."""
+function score_mapping(bg::Background, q::DataFrame, gold::Dict)
+    c = bg.cfg
+    max_t = bg.max_len + c.max_t_margin
+    rows = NamedTuple[]
+    for r in eachrow(q)
+        s = target_semantics(c, r.lemma_id, r.target_cell)
+        chat = vec(s' * bg.G)
+        best = nothing
+        gv = gold[(r.lemma_id, r.target_cell)]
+        for (vi, gsegs) in enumerate(gv)
+            gpath = cue_ngrams(c, gsegs)
+            gng = unique(gpath)
+            cg = zeros(length(bg.f2i))
+            n_out = 0
+            for x in gng
+                haskey(bg.f2i, x) ? (cg[bg.f2i[x]] = 1.0) : (n_out += 1)
+            end
+            cr = cor(chat, cg)
+            n_below = count(x -> haskey(bg.f2i, x) && chat[bg.f2i[x]] <= c.threshold, gng)
+            row = (lemma_id = String(r.lemma_id), target_cell = String(r.target_cell),
+                   chat_gold_cor = cr, gold_variant_idx = vi - 1, n_gold_variants = length(gv),
+                   n_gold_cues = length(gng), n_gold_cues_outside_inventory = n_out,
+                   n_gold_cues_below_threshold = n_below,
+                   gold_reachable = n_out == 0 && n_below == 0,
+                   gold_path_longer_than_max_t = length(gpath) > max_t)
+            if best === nothing || (isnan(best.chat_gold_cor) && !isnan(cr)) || cr > best.chat_gold_cor
+                best = row
+            end
+        end
+        push!(rows, best)
+    end
+    rows
 end
 
 """Gold-side mapping quality for a finished job; `job` adds gold_csv (lemma_id,
@@ -588,18 +688,13 @@ function score_job(job::AbstractDict)
                     :prediction_segments => String, :prediction => String), stringtype = String)
     pmap = Dict((r.lemma_id, r.target_cell) => r for r in eachrow(pred))
     rows = NamedTuple[]
-    for lid in unique(q.lemma_id)
-        sub = q[q.lemma_id .== lid, :]
-        tc = String.(sub.target_cell)
-        for r in score_mapping(bg, lid, sub.source_cell[1], sub.source_segments[1], tc,
-                               Dict(cell => gmap[(lid, cell)] for cell in tc))
-            p = pmap[(lid, r.target_cell)]
-            gforms = [segments_to_form(String.(split(g, SEP))) for g in gmap[(lid, r.target_cell)]]
-            cands = ismissing(p.top_candidates) ? [] : JSON.parse(p.top_candidates)
-            rank = findfirst(x -> x["prediction"] in gforms, cands)
-            push!(rows, merge(r, (gold_in_top_candidates = rank !== nothing,
-                                  gold_rank_in_candidates = rank === nothing ? 0 : rank)))
-        end
+    for r in score_mapping(bg, q, gmap)
+        p = pmap[(r.lemma_id, r.target_cell)]
+        gforms = [segments_to_form(String.(split(g, SEP))) for g in gmap[(r.lemma_id, r.target_cell)]]
+        cands = ismissing(p.top_candidates) ? [] : JSON.parse(p.top_candidates)
+        rank = findfirst(x -> x["prediction"] in gforms, cands)
+        push!(rows, merge(r, (gold_in_top_candidates = rank !== nothing,
+                              gold_rank_in_candidates = rank === nothing ? 0 : rank)))
     end
     atomic_write(tmp -> CSV.write(tmp, DataFrame(rows)), joinpath(out, "mapping_quality.csv"))
     open(io -> JSON.print(io, job["score_config"], 2), joinpath(out, "mapping_quality.json"), "w")

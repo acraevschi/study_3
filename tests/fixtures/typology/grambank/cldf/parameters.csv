@@ -1,0 +1,8 @@
+ID,Name,Description,Boundness
+GB020,Are there definite or specific articles?,x,
+GB044,Is there productive morphological plural marking on nouns?,x,1
+GB070,Are there morphological cases for non-pronominal core arguments (i.e. S/A/P)?,x,1
+GB080,"Do verbs have suffixes/enclitics, other than those that only mark A, S or P?",x,1
+GB082,Is there overt morphological marking of present tense on verbs?,x,1
+GB170,Can an adnominal property word agree with the noun in gender/noun class?,x,1
+GB999,Fixture multistate feature,x,

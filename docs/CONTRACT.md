@@ -1,7 +1,7 @@
 # Shared contract: morphology sampling, LDL outcomes and GeLaTo linkage
 
 Owner: main agent. Components may propose changes; only the main agent edits this file.
-Version 4 (2026-10-06): auxiliary manifest, pool_cap item column, GeLaTo human confirmation; version 3: LDL output columns, semantic seed; version 2: eligibility exclusions, collection names, variant order, epitran segmentation.
+Version 6 (2026-10-08): repeated-random design (pcfp_v2, default `cv.design`), roles `random`/`unused`, seeds `core_split`/`random_draw`, `cv.semantic_seed_scope`. Version 5 (2026-10-08): paradigm cell filling (PCFP) replaces source-known completion (§4–§7), LDL selector, exposure manifest, core/seed/pool roles, Grambank typology outcome (§11). Version 4 (2026-10-06): auxiliary manifest, pool_cap item column, GeLaTo human confirmation; version 3: LDL output columns, semantic seed; version 2: eligibility exclusions, collection names, variant order, epitran segmentation. Versions ≤ 4 describe pilot_v1 (commit 24390cf).
 
 ## 0. Scope and non-negotiables
 
@@ -11,9 +11,10 @@ Version 4 (2026-10-06): auxiliary manifest, pool_cap item column, GeLaTo human c
 * Raw data (`mgn_data/`, `analyses/gelato_feasibility_2026_10_01/`, `data_sources/`)
   is read-only. All new outputs go under `outputs/<experiment_id>/`.
 * Components never create or alter splits. They read split manifests (§4).
-* Only the declared source anchor of a held-out lemma (one form + its cell) may reach
-  prediction code. Gold targets of test, dev-for-scoring, and candidate-pool lemmas are
-  read only by (a) the oracle reveal after selection (§5) and (b) evaluation (§7).
+* Only shown forms (§4) of training verbs reach LDL fitting. A pool candidate reaches
+  the selector only as (lemma id, citation label, names of its shown cells) until it is
+  acquired. Hidden-cell gold forms are read only by evaluation (§7) and by the
+  gold-side mapping diagnostics after prediction.
 
 ## 1. Identifiers
 
@@ -61,101 +62,121 @@ Alternative resources for the same variety are measurement variants: one variety
 contributes one independent morphology observation per POS/task, and a group may never
 straddle train/dev/pool/test.
 
-## 4. Task, eligibility, inventory and split manifests
+## 4. Task, cells, exposure, eligibility and split manifests
 
-### Task (primary): `source_known_completion`
-* One predefined source cell per unit (`task.source_cell`), and a bounded target panel
-  (`task.panel`, abstract slot -> `cell_norm` per unit; default 8 targets).
-* Prediction of a held-out lemma's target cell may use only: the lemma's source `form`
-  (variant 0), the source cell, the target cell, and the fitted background state.
-* Eligible lemma: non-missing source cell and all panel cells non-missing; not a
-  derived paradigm listed by the data stage (`eligibility/<unit>_derived_paradigms.csv`:
-  e.g. Italian pronominal/clitic verbs whose forms are clitic + base-verb forms, Finnish
-  multiword idioms) when `task.eligibility.exclude_derived_paradigms`; and no task form
-  containing a word space when `task.eligibility.exclude_multiword_task_forms`.
-* Variants: training and source anchors use `variant_idx == 0`; evaluation accepts any
-  variant of the gold cell. Variant rates are reported.
-* `all_cells` training mode (optional) adds every eligible non-missing cell of the
-  selected lemmas to training. Its different exposure must be reported.
+### Task: `pcfp` (paradigm cell filling with known lexemes)
+* **Cells.** Per unit, the declared single-word cells (`units[].cells`, citation cell
+  `units[].citation_cell`). Rule: a cell is eligible if ≤ `task.cell_rule.max_multiword_share`
+  of its variant-0 forms over non-derived lemmas are multiword; remaining multiword forms
+  are unavailable. `splits/<unit>/cell_inventory.csv` records the counts and the decision;
+  the splits stage refuses a config whose list differs from the rule's output.
+* **Eligible verb.** Not in `eligibility/<unit>_derived_paradigms.csv` and, with
+  `require_complete_paradigm`, every eligible cell available (variant 0, non-missing,
+  single-word). `splits/<unit>/eligible_lemmas.csv`.
+* **Exposure.** `splits/<unit>/exposure_manifest.csv`: `unit_id, lemma_id, group_id,
+  n_cells, k_max, k, shown_cells, hidden_cells, citation_shown, n_test_cells,
+  exposure_seed`. Cell lists are `|`-joined `cell_norm`s. k ~ U{1..min(max_shown,
+  n_cells − 1)}; shown cells uniform without replacement; seed
+  `derive(master, "exposure", unit_id, lemma_id)`. Use `morph_ldl.cv.pcfp.load_exposure`.
+  The draw is identical for every policy, fold, budget, pool cap and repetition.
+* **Test items.** Hidden cells minus the citation cell (`citation_cell_rule:
+  exclude_from_test`). The citation cell may be shown (counted in k).
+* Prediction of a test item may use only: the shown forms of all training verbs (which
+  include the queried verb), identifier-keyed simulated semantics, and the target cell.
 
-### Inventory and splits (main agent only, `morph_ldl/cv/splits.py`)
-1. Inventory: from eligible lemmas, sample `inventory_size` groups' lemmas at random
-   (`inventory` seed). Declared before any acquisition; recorded.
-2. Outer folds: inventory groups are shuffled (`split` seed, per repetition) and dealt
-   into K folds.
-3. Per outer fold: test = fold k. From the rest (`fold` seed): `dev_size` dev lemmas,
-   `seed_size` seed lemmas, then `pool_cap` pool lemmas; leftovers are `pool_overflow`
-   (unused). All by group.
+### Inventory and splits (main agent only, `morph_ldl/cv/splits.py`, `build_pcfp_manifest`)
+1. Inventory: `inventory_size` eligible lemmas by whole group (`inventory` seed).
+2. Core sets: inventory groups shuffled with the `split` seed (per repetition); K disjoint
+   sets of exactly `core_size` lemmas taken in order.
+3. Per fold k: all other inventory lemmas (other folds' core verbs included) shuffled with
+   the `fold` seed and filled into `dev` (`dev_size`, 0 in pcfp_v1), `seed`, `pool`; the
+   rest is `pool_overflow`.
 
-`splits/<unit_id>/rep{r}/split_manifest.csv`:
-`unit_id, repetition, outer_fold, lemma_id, group_id, role, inventory_seed, split_seed,
-role_rank, fold_seed` with role in {`test`, `dev`, `seed`, `pool`, `pool_overflow`}; one
-row per lemma per fold. `role_rank` orders lemmas within a role; a smaller pool cap
-uses the first lemmas of the pool (nested pools for the pool-size sensitivity).
-Use `morph_ldl.cv.splits.roles(manifest, repetition, fold, pool_cap)` to read roles.
+`splits/<unit_id>/rep{r}/split_manifest.csv`: `unit_id, repetition, outer_fold, lemma_id,
+group_id, role, inventory_seed, split_seed, role_rank, fold_seed`, role in {`core`, `dev`,
+`seed`, `pool`, `pool_overflow`}; one row per inventory lemma per fold. `role_rank`
+orders lemmas within a role (a smaller pool cap is a prefix). Read roles with
+`splits.roles(manifest, repetition, fold, pool_cap)`.
+
+### Repeated-random design (`cv.design: repeated_random`, default; `build_random_manifest`)
+1. Inventory as above.
+2. Core sets: inventory groups shuffled with the `core_split` seed (independent of the
+   draw); K disjoint sets of exactly `core_size` lemmas. Identical in every draw.
+3. Draw r (`repetition` = r): non-core inventory groups shuffled with the `random_draw`
+   seed of r; the first `random_size` lemmas are role `random` in every fold of the draw;
+   everything else is `unused`. `fold_seed` holds the draw seed, `split_seed` the
+   core_split seed. `validate_random_manifest` checks exact sizes, disjoint cores, one
+   random set per draw outside every core group; the audit also checks that core sets
+   are identical across draws.
+
+Training sample of (draw r, fold k) = shown forms of core_k + random_r, written by the
+`select` stage under the run tag `random@<inventory − K·core>` (`order.csv`,
+`samples/budget_<random_size>.csv`, `budget_<random_size>_lemmas.csv` with roles
+`core`/`random`, `selection_summary.json`). Queries are the core items only.
 
 `splits/<unit_id>/auxiliary_manifest.csv` (`unit_id, lemma_id, group_id, aux_role,
-aux_rank, auxiliary_seed`): eligible lemmas outside every inventory group, with roles
-`tune_background`, `tune_heldout` (LDL setting choice) and `copy_anchor` (selector
-auxiliary copy items; source forms only). Auxiliary lemmas never enter any fold.
+aux_rank, auxiliary_seed`): eligible lemmas outside every inventory group with roles
+`tune_core`, `tune_extra` (LDL setting choice) and `aux_unused`.
 
-## 5. Active selection interface (`morph_ldl/selection`)
+## 5. Active selection interface (`morph_ldl/selection/ldl_acquisition.py`)
 
-* `budget` = total training lemmas including the seed. Acquisition proceeds from the seed
-  in batches of `batch_size` until `max(budgets)`; smaller budgets are prefixes of the
-  same trajectory. If `budget - seed_size` is not a multiple of `batch_size`, the last
-  round acquires the remainder (logged).
-* The scorer sees only `CandidateQuery(lemma_id, source_form, source_cell,
-  target_cells)`. Gold candidate targets live in an `Oracle` that reveals full panel
-  forms only for lemmas already selected; every reveal is logged.
-* Policies: `random` (seeded, matched seed/pool/dev/budget), `low_confidence`
-  (highest lemma mean length-normalized surprisal of the top beam hypothesis),
-  `high_entropy` (mean per-cell entropy over renormalized beam hypotheses with
-  p_i >= 0.05, as in the paper), optional `oracle_*` (labelled separately, never pooled).
+* `budget` = selected verbs including the seed (core verbs are extra and shared).
+  Acquisition proceeds in batches of `batch_size` until `max(budgets)`; smaller budgets
+  are prefixes. A remainder round is logged.
+* The selector (LDL, `morph_ldl/ldl/selector.py` + `julia/bin/selector_server.jl`) sees
+  per round: the shown forms of core + seed + acquired verbs (`rounds/r{n}/train.csv`)
+  and a candidate table `rounds/r{n}/candidates.csv` with exactly `lemma_id,
+  citation_cell, citation_segments, shown_cells` (citation segments = the segmented lemma
+  label). `ShownOracle` holds only shown-cell rows and reveals a verb only once it is
+  core, seed or acquired; every reveal is logged.
+* Policies: `random` (seeded uniform draw over sorted pool ids), `low_confidence`
+  (mean over shown cells of 1 − top support), `high_entropy` (mean entropy of
+  softmax(supports / T)); scores averaged over `selection.semantic_seeds` seeds.
 * Deterministic tie-break: score descending, then `sha256(f"{tie_seed}:{lemma_id}")`.
-* Outputs under `selection/<unit_id>/rep{r}/fold{k}/<policy>/`:
-  `order.csv` (`lemma_id, acquisition_rank, round, lemma_score, score_name`),
-  `acquisition_log.csv` (every scored candidate per round: `round, lemma_id,
-  lemma_score, n_cells_scored, n_nonfinite, rank_in_round, selected`),
-  `cell_scores.csv` (`round, lemma_id, target_cell, hyp_rank, hyp, logprob_sum,
-  hyp_len, surprisal_norm, prob_renorm`),
-  `rounds.json` (per round: n_train_lemmas, n_train_examples, dev accuracy, runtime,
-  model hash), `oracle_reveals.csv`,
-  `samples/budget_{B}.csv` (forms.csv rows for source + panel cells of the first B
-  lemmas) and `samples/budget_{B}_allforms.csv` (all eligible original rows of them).
+* Outputs under `selection/<unit_id>/rep{r}/fold{k}/<policy>@<pool_cap>/`: `order.csv`,
+  `acquisition_log.csv` (+ `score_seed_sd, n_seeds`), `cell_scores.csv` (per seed,
+  candidate and shown cell: supports, top prediction, `top_equals_citation`, u-scores),
+  `comprehension_check.csv`, `rounds.json`, `oracle_reveals.csv`, `rounds/r{n}/`,
+  `samples/budget_{B}.csv` (forms rows of the shown cells of core + first B selected
+  verbs) and `samples/budget_{B}_lemmas.csv` (`lemma_id, role (core|seed|acquired),
+  acquisition_rank, round, k, weight`), `selection_summary.json` (form counts per budget).
 
 ## 6. LDL interface (`morph_ldl/ldl` + `julia/`)
 
-* Input per fitted model: training rows (`samples/budget_{B}.csv`), test queries
-  `test_queries.csv` (`lemma_id, source_cell, source_form, source_segments,
-  target_cell`) with NO gold target column, and a JSON config.
+* Input per fitted model: training rows (`samples/budget_{B}.csv`), a query table
+  `queries/…/budget_{B}/queries.csv` with `lemma_id, target_cell, item_set` and no form
+  column, and a JSON config. Every queried verb must have training rows (known lexeme);
+  otherwise the job fails.
 * Output `predictions.csv`: `lemma_id, target_cell, prediction, prediction_segments,
   status (ok|no_candidate|error), n_candidates, top_candidates, support,
-  n_source_cues, n_source_cues_unseen, unseen_target_features`.
-* Gold-dependent diagnostics (cue-vector correlation of Ĉ with the gold target) are
-  computed by a separate call after `predictions.csv` is written.
-* Extra prediction columns: `binding_fit`, `max_t`. `top_candidates` is a JSON list of
-  `{prediction, support}` (top `max_can`); `n_candidates` counts after that cut.
-  `prediction` = segments joined, `_` -> space; scoring always uses `prediction_segments`.
-* `semantic_seed = seeds.derive(master, "semantic", unit_id, repetition, fold)`.
-* Per-held-out-lemma state is reset to the same fitted background.
-* Simulated semantics must give each lemma/feature the same vector in every sample
-  (derive from `semantic_seed` and the identifier, not from row order).
+  unseen_target_features, n_train_forms_lemma, max_t`, rows in query order.
+* Gold-dependent diagnostics (`mapping_quality.csv`) are computed by a separate call
+  after `predictions.csv` is written.
+* `semantic_seed = seeds.derive(master, "semantic", unit_id, repetition, fold)`, shared by
+  all policies and budgets of a fold. The selector's seed 0 equals it; its further seeds
+  are `derive(master, "selector_semantic", unit_id, repetition, fold, j)`.
+* Simulated semantics give each lemma/feature the same vector in every sample.
 
 ## 7. Evaluation (main agent)
 
-`item_predictions.csv`: `unit_id, repetition, outer_fold, policy, pool_cap, budget, model
-(ldl|selector), lemma_id, group_id, target_cell, gold_variants, prediction, status,
-correct, edit_distance, norm_edit_distance`. Missing/failed predictions are scored
-incorrect, with edit distance = gold length; they are also counted separately.
+`item_predictions.csv`: `unit_id, repetition, outer_fold, policy, pool_cap, budget, model,
+lemma_id, group_id, target_cell, gold_variants, prediction, status, correct,
+edit_distance, norm_edit_distance, item_set (core|selected), k_shown, citation_shown,
+n_test_cells, pred_equals_shown_form, pred_equals_citation`. Missing/failed predictions
+are scored incorrect, with edit distance = gold length, and are counted separately.
+`core` items are identical across policies and carry the primary outcome; `selected`
+items are policy-dependent.
 
 ## 8. Seeds
 
 `morph_ldl.seeds.derive(master, purpose, *keys)` = first 8 bytes of
 `sha256("master|purpose|key1|key2…")` as an unsigned int (mod 2**31-1). Purposes:
-`inventory`, `split`, `fold`, `selector_init`, `random_policy`, `tie`,
-`semantic`, `bootstrap`. Selector init and semantic seeds are shared by all policies and
-budgets within a fold/repetition.
+`inventory`, `split`, `fold`, `random_policy`, `tie`, `semantic`, `selector_semantic`,
+`exposure`, `bootstrap`, `auxiliary`, `core_split`, `random_draw` (`selector_init` only
+for the archived Transformer). Semantic seeds are `derive(master, "semantic", unit,
+repetition, fold)`, shared by all policies and budgets within a fold/repetition; with
+`cv.semantic_seed_scope: fold` the repetition key is 0, so a fold keeps its semantics in
+every draw. Exposure seeds depend only on (unit, lemma).
 
 ## 9. GeLaTo match status
 
@@ -166,3 +187,19 @@ budgets within a fold/repetition.
 
 Every stage writes `stage_manifest.json`: stage, config hash, inputs with sha256,
 external revisions, package versions, seeds, start/end time, git commit and dirty flag.
+
+## 11. Typology outcome (`morph_ldl/typology`, docs/TYPOLOGY.md)
+
+* `outputs/<exp>/typology/grambank_inflection.csv`: one row per language-level Glottocode
+  (`glottocode`), with `n_present`, `n_coded`, `n_features`, `coverage`, `share` for the
+  main feature set and each sensitivity set, `no_inflection`, `minimal_inflection`,
+  family, macroarea, clitic flags, `has_ldl_unit`. It joins the LDL outcome on
+  `glottocode` many-to-one (the LDL table has one row per design cell; filter to one
+  design cell first).
+* Populations appear only in `grambank_population_links.csv` (`link_basis` in exact,
+  dialect_rollup, group_map_down, group_ambiguous, …, manual; §9 statuses apply).
+* `feature_set.json` records the declared and the used feature set; the audit requires
+  them to be equal.
+* The stage opens no ancestry, Q-matrix or genetic-summary file; `stage_manifest.json`
+  lists `files_opened` and the pinned source revisions (Grambank v1.0.3, Glottolog CLDF
+  v5.3).

@@ -1,0 +1,8 @@
+"Population","N_Individuals","Language_Family","GeLaTo_Glottocode","GBI_Glottocode","TLI_Glottocode","Reference"
+"PopA",10,"fam1","lang1","lang1","lang1","ref"
+"PopB",3,"fam1","dia1",NA,"lang1","ref"
+"PopC",7,"fam1","grp2",NA,NA,"ref"
+"PopD",5,"fam1","grp1",NA,NA,"ref"
+"PopG",6,"fam1","grp3",NA,NA,"ref"
+"PopE",4,"iso1",NA,"iso1",NA,"ref"
+"PopF",20,"fam1","lang6",NA,"lang2","ref"

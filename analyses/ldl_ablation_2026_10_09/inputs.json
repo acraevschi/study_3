@@ -1,0 +1,22 @@
+{
+  "ita.V.orth.mgn": {
+    "train_csv": [
+      "outputs/pcfp_v2/ldl_tune/ita.V.orth.mgn/train.csv",
+      "4fdfe7c2e2f743945bf91d2f8c1a6b47d812409f7d4276b35abd00f1d14eb010"
+    ],
+    "queries_csv": [
+      "outputs/pcfp_v2/ldl_tune/ita.V.orth.mgn/tune_queries.csv",
+      "5a36141237d20366e4c5e17d1fc66a91fe2dd287ec1a64b71d45694e90a6b0fa"
+    ]
+  },
+  "fin.V.orth.mgn": {
+    "train_csv": [
+      "outputs/pcfp_v2/ldl_tune/fin.V.orth.mgn/train.csv",
+      "a8a70a2394c825f2e76236bc5638c08e5d14d98cec7568e58c32fc76e007d26e"
+    ],
+    "queries_csv": [
+      "outputs/pcfp_v2/ldl_tune/fin.V.orth.mgn/tune_queries.csv",
+      "06e07bf0539afb820ad641be31bfe52b63984d946812d80c3947b92aee96a6fc"
+    ]
+  }
+}

@@ -1,8 +1,118 @@
-# Active lemma selection (`morph_ldl/selection`)
+# Active verb selection (`morph_ldl/selection`)
 
-Owner: selection subagent. Interface: docs/CONTRACT.md §5. This file records what the
-component does, which choices it makes, and how they differ from the source paper and its
-scripts.
+Owner: main agent (pcfp_v1 LDL selector); the Transformer sections below are the
+selection subagent's pilot_v1 record. Interface: docs/CONTRACT.md §5.
+
+## Part A. pcfp_v1: LDL selects its own training verbs
+
+In Muradoğlu & Hulden (2022) the model that chooses the data is the model that is
+evaluated. In pilot_v1 it was not: a character Transformer chose verbs that LDL was then
+trained on, and the choices helped the Transformer (Italian +0.039) but hurt LDL (Italian
+−0.137 against random). In pcfp_v1 the selector **is** the evaluated learner: a JudiLing
+LDL model with the frozen `ldl_tune` settings and the evaluated semantics.
+
+### A.1 Files
+
+| file | content |
+|---|---|
+| `selection/ldl_acquisition.py` | `ShownOracle`, `CitationPoolView`, `run_ldl_acquisition` (rounds, logs, samples) |
+| `ldl/selector.py` | `SelectorServer` (persistent Julia process), `selector_configs`, score definitions |
+| `julia/bin/selector_server.jl` | JSON-line server: fit per semantic seed, score every candidate |
+| `julia/src/LDLRunner.jl` | `add_row` / `row_chat` (exact rank-one update), `score_candidate`, `score_round` |
+| `selection/acquisition.py`, `model.py`, `scoring.py` | reused helpers (`round_plan`, `rank_lemmas`, seeds); the Transformer itself is kept only so pilot_v1 stays reproducible and is not used in pcfp_v1 |
+
+### A.2 One acquisition round
+
+1. Training rows = the shown forms of core + seed + acquired verbs (`ShownOracle.reveal`;
+   the oracle never holds a hidden cell). Written to `rounds/r{n}/train.csv`.
+2. For each semantic seed j ∈ {0, 1, 2} (seed 0 = the evaluated LDL's `semantic` seed,
+   others `selector_semantic`), the server fits one background (C, S, F, G).
+3. Each remaining pool candidate is scored **from that same immutable background**:
+   * Its citation row is added: cues of the segmented lemma label (the only form the
+     selector knows), and the simulated meaning L(v) + Σ V(NFIN features) + N(v, NFIN).
+     Production and comprehension are updated by exact rank-one (Sherman–Morrison)
+     updates (`add_row`). The citation's novel cues extend the inventory and the
+     adjacency for this candidate only.
+   * The candidate's pre-drawn shown cells (exposure manifest) are decoded with
+     `learn_paths` from L(v) + Σ V(cell features). This is the k = 1 case of the
+     evaluated task.
+   * The row is discarded. No candidate affects another candidate's score, and the
+     candidate order does not matter (tested).
+   * The citation cell itself may be among the shown cells. It is decoded like any
+     other cell, and the candidate is then (rightly) less uncertain.
+4. Scores per cell from the top `max_can` = 10 supports s₁ ≥ s₂ ≥ … (synthesis-by-analysis
+   correlations):
+   `low_confidence` u = 1 − s₁; `high_entropy` H(softmax(s / 0.02)). T was 0.1 when first
+   declared and was lowered before the real run; see A.5. A cell with no
+   candidate or a decoder error counts as s₁ = −1 (u = 2) and H = log 10 (logged as
+   `n_nonfinite`). Lemma score = mean over shown cells, then over the 3 seeds; the seed SD
+   is logged (`score_seed_sd`).
+5. Rank by score (descending), ties by `sha256(tie_seed:lemma_id)`; acquire `batch_size`;
+   reveal their shown forms.
+
+`random` draws one uniform number per pool verb (`random_policy` seed) and never runs the
+selector. The seed verbs are identical for every policy.
+
+### A.3 What the selector may know, and why
+
+LDL cannot know the meaning of a verb it has never seen: the simulated lexeme vector
+carries no information about the forms. The user chose the **citation form as one known
+form** as the primary method. The lemma label is treated as a known lexical label for
+the selector only, and the citation cell is therefore never a test item
+(PROTOCOL §2). The alternative of estimating the meaning by comprehension and binding it
+to the citation form (`wug_refit`, pilot_v1) is not used. Candidate forms other than the
+label never reach the selector: the candidate table has exactly `lemma_id,
+citation_cell, citation_segments, shown_cells`, and the audit re-derives every
+citation segment from the label.
+
+### A.4 Comprehension-side check (not used for selection)
+
+Per candidate and round, from the same background: cor(c·F, s) and ‖c·F − s‖/‖s‖ between
+the meaning read from the citation cues and the candidate's simulated citation meaning,
+and the share of citation cues unseen in training (`comprehension_check.csv`).
+`eval/selector_checks.csv` reports per round:
+* their Spearman correlations with the selector score and with citation length;
+* η² of the score by final 2/3 letters and by the inflection-class proxy (Italian
+  -are/-ere/-ire/-rre; Finnish infinitive-ending proxy for the Kotus types);
+* R² and adjusted R² of the score on citation length + final letters;
+* the rate of top candidates that copy the citation form.
+
+### A.5 Degeneracy stop condition (smoke run, before the real run)
+
+Declared criteria: scores near-constant (round CV < 0.01), dominated by citation copying
+(> 90% of scored cells), or explained by length and final letters alone (adjusted
+R² > 0.9). In `pcfp_smoke` (40–60 candidates, 2 seeds) the round CV was 0.10–0.43, the
+copy rate 7–29%, and the adjusted R² at most 0.54. All Italian infinitives end in *-re*,
+so the final-2 model is empty there and the final-3 model is used. None of the criteria
+was met, so the primary method was kept. The between-seed SD of a candidate's score is
+about 1/3 (low_confidence) to 1/2 (high_entropy) of the between-candidate SD. That noise is
+why scores are averaged over 3 seeds.
+
+**Review finding and pre-run change (user decision).** The independent review found that
+`high_entropy` at the declared T = 0.1 mostly counted decoded candidates. Its correlation
+with log(n candidates) was 0.94, 60% of cells sat at the `max_can` cap, and its
+correlation with 1 − s₁ was −0.12. The supports of competing candidates are close: the
+top-two gap has quartiles 0.016 / 0.040 / 0.085. With T = 0.1 the softmax is therefore
+nearly flat and H ≈ log n. The user chose T = 0.02 (r with log n = 0.54) before any real
+selection. Only the smoke score distributions informed this; no accuracy was looked at.
+The declared degeneracy criteria were not met either way.
+
+**Known property, kept as declared.** A candidate whose citation cell (NFIN) is among its
+shown cells looks almost certain on that cell: the citation row makes NFIN a training
+item for the selector. Its mean score is therefore lower (low_confidence 0.219 vs 0.250
+in the smoke run), and NFIN-only k = 1 verbs are rarely selected. This follows from the
+selector's knowledge model (the label is known) and is reported, not corrected.
+
+### A.6 Runtime
+
+One Julia process per acquisition job (unit × fold × policy × pool cap), started once.
+In the smoke run each round's scoring took 2–13 s for 30–60 candidates and 2 seeds.
+Real-run timings are in the run's `rounds.json` and the report.
+
+## Part B. pilot_v1: character-Transformer selector (archived record)
+
+The text below describes the selector of pilot_v1 (code state 24390cf). It is kept
+unchanged.
 
 Source: Muradoğlu & Hulden (2022), *Eeny, meeny, miny, moe. How to choose data for
 morphological inflection*, EMNLP. Upstream scripts: `external/ALmorphinfl`
