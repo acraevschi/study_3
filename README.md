@@ -1,5 +1,16 @@
 # Morphology sampling → LDL outcomes → GeLaTo linkage
 
+> **Work in progress.** Everything in this repository is preliminary: the pipeline, both
+> morphology outcomes, the reports and the analyses. None of the results is a finding.
+> * **Grambank outcome.** The GeLaTo population–language links are unconfirmed
+>   candidates.
+> * **LDL outcome.** It is under revision: the 2026-10-09 ablation changed the model
+>   settings, and the absolute accuracy is still too low to treat the score as a measure
+>   of predictability.
+> * **Admixture model.** The only admixture–morphology model so far is an exploratory
+>   draft (`analyses/draft_admixture_model_2026_10_10/`). The ancestry values have been
+>   looked at, so later analyses are not blind to them.
+
 PhD Study 3: inflectional complexity and genetic admixture. The repository holds the
 current pipeline at its root. Earlier exploratory tracks (the MGN-accuracy Bayesian models
 with demographic and phylogenetic covariates, and the Germanic historical track) were
@@ -17,8 +28,10 @@ new-verb task with a Transformer selector) is archived: its outputs are in
 `outputs/pilot_v1/`, its report is [docs/REPORT.md](docs/REPORT.md), and its code state is
 commit `24390cf`.
 
-The pipeline produces two morphology outcomes for a later admixture–morphology analysis
-(not fitted here):
+The pipeline produces two morphology outcomes for a later admixture–morphology analysis.
+The pipeline itself fits no such model and never reads ancestry values. The exploratory
+draft model in `analyses/draft_admixture_model_2026_10_10/` is outside the pipeline. The
+two outcomes are:
 
 * **Grambank inflectional extent** (primary). The number of 12 inflectional categories
   present out of those coded, for every GeLaTo-linked language in Grambank, including
@@ -55,6 +68,8 @@ in separate tables.
 | [docs/TYPOLOGY.md](docs/TYPOLOGY.md) | Grambank inflection-extent outcome: sources, 12-category feature set, mapping rules, planned analysis |
 | [docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md) | pcfp_v1 results: LDL active selection vs random |
 | [docs/REPORT_pcfp_v2.md](docs/REPORT_pcfp_v2.md) | pcfp_v2 results: repeated random draws (current) |
+| [analyses/ldl_ablation_2026_10_09/README.md](analyses/ldl_ablation_2026_10_09/README.md) | LDL ablation (preliminary): the cell-specific meaning vector and the decoder setting raise PCFP accuracy from 0.16 to 0.38 on the tuning items |
+| [analyses/draft_admixture_model_2026_10_10/README.md](analyses/draft_admixture_model_2026_10_10/README.md) | exploratory draft admixture → Grambank model (not confirmatory) |
 
 ## Setup
 

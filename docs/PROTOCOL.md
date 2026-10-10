@@ -228,6 +228,14 @@ looking at ancestry values. GeLaTo populations are linked, not aggregated, and a
 links need a human `confirmed_by` + `confirmed_date`. The admixture exposure variable is
 undefined and was not looked at.
 
+**Update 2026-10-10.** This section describes the pipeline, which still fits no
+admixture model and reads no ancestry value. Outside the pipeline, the user asked for an
+exploratory draft model (`analyses/draft_admixture_model_2026_10_10/`). It defines
+several candidate admixture measures and fits them against the Grambank outcome.
+* The ancestry values have therefore been seen, so later analyses are not blind to them.
+* The final exposure definition is still open.
+* The choices declared above (pcfp_v1, pcfp_v2) were made before 2026-10-10.
+
 ## 9. Planned analysis (documented, not fitted)
 
 * **Grambank extent:** beta-binomial on (`n_present`, `n_coded`) per language (main set,
@@ -239,4 +247,6 @@ undefined and was not looked at.
   Mandarin, Northern Tujia) are almost all in Mainland Southeast Asia and China and share
   East Asian ancestry. Any no-inflection part is weakly identified once area is
   controlled. It is descriptive, not a main test.
-* The admixture exposure variable is still undefined; nothing is fitted with it.
+* The admixture exposure variable is still undefined for the final analysis. The
+  2026-10-10 exploratory draft (§8) tried several candidate measures; it is not this
+  plan.

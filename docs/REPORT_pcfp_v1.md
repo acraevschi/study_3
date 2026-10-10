@@ -1,5 +1,8 @@
 # Report: paradigm cell filling with an LDL selector, and a Grambank inflection outcome (pcfp_v1)
 
+> **Preliminary** (work in progress; see the README banner). The LDL settings used here
+> were revised by the 2026-10-09 ablation (`analyses/ldl_ablation_2026_10_09/`).
+
 Date: 2026-10-08. Config: `configs/pcfp_v1.yaml` (hash 8b088277dfaa1e26). Code: commit
 `9c4ee53` on branch `pcfp-v1`; every stage manifest records `pipeline_dirty: false`. The
 outputs are in `outputs/pcfp_v1/`, and the report tables are in

@@ -1,5 +1,8 @@
 # Report: LDL predictability under repeated random draws (pcfp_v2)
 
+> **Preliminary** (work in progress; see the README banner). The LDL settings used here
+> were revised by the 2026-10-09 ablation (`analyses/ldl_ablation_2026_10_09/`).
+
 Date: 2026-10-08. Config: `configs/pcfp_v2.yaml`. Outputs: `outputs/pcfp_v2/`.
 
 The design is declared in [PROTOCOL.md](PROTOCOL.md) §4b. Everything except the

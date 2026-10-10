@@ -347,6 +347,12 @@ genetic-value patterns (`*.Q`, `GeneticInfoID`, `best_runs/`, `*ancestry*`,
 `audit_typology` re-checks that list. No ancestry value, Q matrix or genetic summary is
 read, and no choice in this document was made after looking at one.
 
+**Update 2026-10-10.** The firewall still holds for this stage. Outside it, an
+exploratory draft admixture model (`analyses/draft_admixture_model_2026_10_10/`) has read
+the ancestry values. The choices in this document (feature sets, mapping rules, coverage
+threshold, 12 categories) predate that. Later changes to them are no longer blind to the
+ancestry values.
+
 ## 8. Audit (`audit_typology(cfg) -> (checks, problems)`)
 
 1. `feature_set.json` declared == used, and both equal the current `cfg["typology"]`
@@ -377,7 +383,8 @@ read, and no choice in this document was made after looking at one.
   hardly any within-area variation left. The no-inflection part is therefore reported
   descriptively, not as a main test.
 * **Exposure.** The admixture exposure variable is not defined here. Nothing in this
-  stage looks at, defines or fits it.
+  stage looks at, defines or fits it. (The 2026-10-10 exploratory draft model outside the
+  stage is described in `analyses/draft_admixture_model_2026_10_10/`.)
 
 ## 10. Development run (2026-10-08, experiment `typology_dev`, outputs in a scratch directory)
 
