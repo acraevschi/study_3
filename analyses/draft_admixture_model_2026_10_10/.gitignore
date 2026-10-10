@@ -1,0 +1,5 @@
+fits/
+fits_hier/
+fit_log*.txt
+fit_hier_log.txt
+rebuild_cmdstan.log
