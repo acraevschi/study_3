@@ -128,33 +128,78 @@ Tests: `.venv/bin/python -m pytest` runs all tests. Add `-m "not slow"` to skip 
 ## Repository layout
 
 ```
-morph_ldl/        Python package: data, cv, selection, ldl, typology stages; cli.py is the entry point
-  data/vendor/    modules vendored from the earlier code (MGN↔ISO map, cell-label parsers)
-  data/resources/ cells_to_unimorph.json (curated MGN cell label → UniMorph features)
-julia/            JudiLing runner (Project.toml pins JudiLing =1.0.1; Manifest.toml committed)
-configs/          pcfp_v2.yaml, pcfp_v2_smoke.yaml (current); pcfp_v1.yaml, pcfp_smoke.yaml (core_selected design); pilot.yaml, smoke.yaml (archived pilot_v1)
-tests/            pytest suite
-scripts/          fetch_external.sh (pinned external sources), run_pcfp.sh, run_pilot.sh (archived)
-docs/             protocol, contract, component docs, report, next-task brief
-analyses/         GeLaTo feasibility audit (2026-10-01) and coverage estimates (2026-10-08)
-mgn_data/         third-party MGN paradigm inputs (not committed; MANIFEST.sha256 is)
-external/         pinned external clones (not committed; scripts/fetch_external.sh)
-outputs/          stage outputs; only small pilot_v1 result tables are committed
+study_3/
+├── README.md                                 <- Project overview, setup, run instructions
+├── requirements.lock                         <- Exact Python package versions
+├── pytest.ini                                <- Test settings (`slow` marker for real-Julia tests)
+│
+├── morph_ldl/                                <- Python package with all pipeline stages
+│   ├── cli.py                                <- Single entry point: `python -m morph_ldl.cli <stage>`
+│   ├── config.py / seeds.py / schemas.py     <- Config loading, derived seeds, table schemas
+│   ├── provenance.py                         <- Stage manifests (hashes, git state, versions)
+│   ├── data/                                 <- `data` stage: MGN adapters, cells, eligibility, registry
+│   │   ├── gelato.py                         <- GeLaTo population ↔ language crosswalk
+│   │   ├── gelato_review.yaml                <- Manual link reviews (acceptance needs confirmed_by + date)
+│   │   ├── resources/                        <- cells_to_unimorph.json (MGN cell label → UniMorph features)
+│   │   └── vendor/                           <- Modules taken over from earlier code (MGN↔ISO map, parsers)
+│   ├── cv/                                   <- `splits`, `select`, `evaluate`, `outcomes`, `audit` stages
+│   │   ├── pcfp.py                           <- Paradigm cell filling task: cells, exposure draws
+│   │   ├── splits.py                         <- Core folds and random-draw manifests
+│   │   ├── pipeline.py                       <- Stage orchestration and artifact audit
+│   │   └── outcomes.py / bootstrap.py        <- LDL outcome table, cluster bootstrap, draw variability
+│   ├── ldl/                                  <- LDL runner (calls Julia), semantics, LDL selector
+│   ├── selection/                            <- Active-selection scores and acquisition loop
+│   └── typology/                             <- `typology` stage: Grambank inflection-extent outcome
+│       ├── grambank.py                       <- Feature-set parsing, 12-category OR merge
+│       ├── stage.py                          <- Glottocode mapping, coverage, links, audit
+│       └── default_config.yaml               <- Declared feature set and mapping rules
+│
+├── julia/                                    <- JudiLing runner (JudiLing pinned to 1.0.1)
+│   ├── Project.toml / Manifest.toml
+│   ├── src/LDLRunner.jl                      <- End-state LDL fit and decoding
+│   └── bin/                                  <- run_jobs.jl (batch fits), selector_server.jl (LDL selector)
+│
+├── configs/
+│   ├── pcfp_v2.yaml / pcfp_v2_smoke.yaml     <- Current experiment (repeated-random design)
+│   ├── pcfp_v1.yaml / pcfp_smoke.yaml        <- core_selected design (active vs random selection)
+│   └── pilot.yaml / smoke.yaml               <- Archived pilot_v1
+│
+├── scripts/
+│   ├── fetch_external.sh                     <- Clones the pinned external sources into external/
+│   ├── run_pcfp.sh                           <- Runs every stage from `splits` to `audit`
+│   └── run_pilot.sh                          <- Archived pilot_v1 run
+│
+├── docs/                                     <- Protocol, contract, component docs and reports (table above)
+│
+├── analyses/                                 <- One-off analyses, each with its own README
+│   ├── gelato_feasibility_2026_10_01/        <- GeLaTo feasibility audit; sources/ holds the cached
+│   │                                            GeLaTo, Zenodo 15263706 and language-tree files
+│   ├── pcfp_v1_2026_10_08/                   <- pcfp_v1 report tables, Grambank "missing languages" check
+│   ├── unimorph_gelato_estimate_2026_10_08/  <- How many UniMorph languages overlap GeLaTo
+│   ├── ldl_ablation_2026_10_09/              <- Why PCFP accuracy is low (preliminary)
+│   ├── gelato_review_2026_10_09/             <- Fill-in sheet for unresolved GeLaTo population links
+│   └── draft_admixture_model_2026_10_10/     <- Exploratory admixture → Grambank models (brms)
+│
+├── tests/                                    <- pytest suite (fixtures in tests/fixtures/)
+│
+├── mgn_data/                                 <- MGN paradigm inputs (not committed; MANIFEST.sha256 and README are)
+├── external/                                 <- Pinned external clones (not committed; see fetch_external.sh)
+└── outputs/                                  <- Stage outputs (not committed, except small pilot_v1 tables)
 ```
 
 ## Data provenance
 
-Nothing here is our own primary data. Cite every source below in any write-up.
+All data used here come from third-party sources, listed below with the versions used.
 
 | Source | What we use | Version | Where |
 |---|---|---|---|
 | MGN data (Guzmán Naranjo 2024, *J. Language Modelling* 12(2)) | per-language paradigm tables `data/`, `data-custom/`, build scripts `build-data/` | upstream URL/commit not yet recorded; file hashes in `mgn_data/MANIFEST.sha256` | `mgn_data/` ([README](mgn_data/README.md)) |
 | UniMorph (Italian, Finnish) | verification of the MGN tables against UniMorph | unimorph/ita fa2cc6c, unimorph/fin fe0a270 | `external/` |
-| languages-of-the-world | ISO 639-3 → Glottocode layer, with project corrections | d319631 (0.2.0) | `external/`, `morph_ldl/data/vendor/mgn_language_map.py` |
+| languages-of-the-world | ISO 639-3 → Glottocode layer, with project corrections; Glottolog tree for the draft admixture model | d319631 (0.2.0) | `external/`, `morph_ldl/data/vendor/mgn_language_map.py` |
 | JudiLing.jl | LDL implementation | 1.0.1 (= ca77304) | `julia/Manifest.toml`, `external/` |
 | ALmorphinfl (Muradoğlu & Hulden 2022) | reference implementation for the active-learning scores | 3caf0d0 | `external/` |
-| GeLaTo | population metadata, Glottocodes, sample sizes | gelato-data c625fdc | `analyses/gelato_feasibility_2026_10_01/sources/` |
-| Graff et al. 2025 archive | ADMIXTURE Q-matrix identifiers and population–language table (no ancestry values are used yet) | Zenodo 15263706 | `analyses/gelato_feasibility_2026_10_01/sources/` |
+| GeLaTo | population metadata, Glottocodes, sample sizes; neighbour FST in the draft admixture model | gelato-data c625fdc | `analyses/gelato_feasibility_2026_10_01/sources/` |
+| Graff et al. 2025 archive | population–language table; ADMIXTURE runs (K = 12–30), used only in the exploratory draft model | Zenodo 15263706 | `analyses/gelato_feasibility_2026_10_01/sources/` |
 | Grambank (Skirgård et al. 2023) | inflection-extent outcome (12 inflectional categories; pcfp_v1: 35 features) | v1.0.3 (7ae000c) | `external/grambank` |
 | Glottolog CLDF | dialect → language roll-up, family, macroarea | v5.3 (072ca0d) | `external/glottolog-cldf` |
 
