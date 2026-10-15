@@ -1,0 +1,234 @@
+# Cell-grid mapping: Eastern Armenian (hye), G14_v1. Written by the mapping agent (Claude Sonnet 5.5);
+# fix round 2026-10-14 by a second Sonnet 5.5 agent (D23, D30, P4, scope lists, aux).
+# Sources were opened in the session that wrote them; see hye_notes.md ("Sources seen").
+# Anchors below are only a YAML shorthand for repeated references.
+
+schema_version: 2
+grid_version: G14_v1
+
+language:
+  name: "Eastern Armenian"
+  glottocode: "nucl1235"
+  iso639_3: "hye"
+  variety: "Standard (literary) Eastern Armenian, as used in the Republic of Armenia, in reformed (Soviet) orthography as in the data. Fix round: 6 classical-orthography lemmas (e.g. խօսել) and 42 colloquial-, dialectal- or Western-only lemmas (e.g. երթալ, էթալ, տենալ) are out of scope under R8; see notes section 'Fix round 2026-10-14'"
+
+dataset:
+  resource: "mgn_data:hye-v"
+  representation: orth
+  lemma_scope_rules:
+    exclude_multiword_lemmas: true
+    exclude_lemma_files:
+      - analyses/cell_grid_pilot_2026_10_14/mappings/classes/hye_classical_orthography_excluded.csv
+      - analyses/cell_grid_pilot_2026_10_14/mappings/classes/hye_nonstandard_register_excluded.csv
+
+provenance:
+  mapped_by: "Claude Sonnet 5.5 (mapping agent, cell-grid pilot)"
+  date: "2026-10-14"
+  status: reviewed
+  reviewed_by: "Opus reviewer + fix round 2026-10-14"
+
+options:
+  aux_option: C
+  word_boundary: clitic_aux_separate
+  aspect_option: S-b
+  missing_forms: keep_with_reason
+
+defaults:
+  subject_gender: "not_marked"
+  second_person_sg: "informal դու (du); the plural/formal form is դուք (duk')"
+  first_person_pl: "not_distinguished"
+  plural_reading: "plural"
+  object: "not_indexed"
+  reference:
+    - {author: "Sakayan", year: 2007, locus: "Unit 1, 'Armenian equivalents of the English personal pronoun you' (printed p. 15); Unit 3, 'Gender in Armenian' (printed p. 57)", locus_verified: true}
+    - {author: "Kozintseva (via WALS 39A, Cysouw)", year: 1995, locus: "WALS feature 39A, Armenian (Eastern): no inclusive/exclusive distinction", locus_verified: true}
+
+grambank_check:
+  GB082: {value: "1", source: "g_Dum-Tragut_Modern-Eastern-Armenian[217-219]"}
+  GB083: {value: "1", source: "g_Dum-Tragut_Modern-Eastern-Armenian[219-223]"}
+  GB084: {value: "1", source: "g_Dum-Tragut_Modern-Eastern-Armenian[233-235]"}
+  GB086: {value: "1", source: "g_Dum-Tragut_Modern-Eastern-Armenian[196-197]"}
+  GB089: {value: "0", source: "g_Dum-Tragut_Modern-Eastern-Armenian[316]"}
+  GB091: {value: "1", source: "g_Dum-Tragut_Modern-Eastern-Armenian[313-314]"}
+  GB121: {value: "1", source: "g_Dum-Tragut_Modern-Eastern-Armenian[1];gt_Zorc_Armenian[306-308]"}
+  GB120: {value: "?", source: "g_Dum-Tragut_Modern-Eastern-Armenian[196-199]"}
+  conflicts:
+    - "GB089 (S argument indexed on the verb) is coded 0 for hye, with an empty comment. The grammars opened here show subject person suffixes on the intransitive aorist too (Sakayan 2007 p. 74: aorist forms -եցի, -եցիր, -եց, ...). The mapping therefore treats the PST cells as person-inflected and does not follow GB089. GB091 (A indexed) = 1 agrees. The two codings contradict each other for a language where A and S take the same suffixes; probably a coding slip in Grambank. Not resolved, reported to the owner."
+    - "GB082 = 1 (overt present marking) agrees with the mapping: the present is the converb in -ում plus the present auxiliary. Under D1 the grid form keeps only the converb; the person distinction is carried by the auxiliary, so it is counted through distinct_class with aux_carried true."
+
+lexical_classes: []
+
+transforms:
+  - id: strip_present_aux
+    type: drop_tokens
+    tokens: ["եմ", "ես", "է", "ենք", "եք", "են"]
+    reference:
+      - {author: "Sakayan", year: 2007, locus: "Unit 1, 'The present tense of regular verbs' (printed pp. 11-12): present = infinitive stem + -ում + auxiliary եմ/ես/է/ենք/եք/են", locus_verified: true}
+      - {author: "Fairbanks & Stevick", year: 1958, locus: "Lesson 2, Grammatical Note 2.2 (present = verb in /um/ + present of 'to be')", locus_verified: true}
+
+defective: []
+
+cells:
+  PRS.1SG:
+    rule: main_verb
+    source_cell: "1;SG;PRS;IND"
+    transform: strip_present_aux
+    construction: "imperfective converb in -ում + auxiliary եմ (e.g. աբսորբում եմ); grid form = converb"
+    distinct_class: PRS.1SG
+    aux_carried: true
+    aux: "եմ"
+    reference: &ref_present
+      - {author: "Sakayan", year: 2007, locus: "Unit 1, 'The present tense of regular verbs' and 'Uses of the present tense' (printed pp. 11-13): one present, habitual and progressive", locus_verified: true}
+      - {author: "Fairbanks & Stevick", year: 1958, locus: "Lesson 2, Grammatical Note 2.2", locus_verified: true}
+      - {author: "Dum-Tragut", year: 2009, locus: "pp. 217-219 (cited by Grambank GB082; not opened)", locus_verified: false}
+    confidence: high
+    notes: "Habitual reading uses the same present construction as the progressive (Sakayan p. 13). Verbs with the converb in -ալիս (տալ, գալ, լալ) are not in the data (see notes)."
+  PRS.2SG:
+    rule: main_verb
+    source_cell: "2;SG;PRS;IND"
+    transform: strip_present_aux
+    construction: "converb + auxiliary ես"
+    distinct_class: PRS.2SG
+    aux_carried: true
+    aux: "ես"
+    reference: *ref_present
+    confidence: high
+  PRS.3SG:
+    rule: main_verb
+    source_cell: "3;SG;PRS;IND"
+    transform: strip_present_aux
+    construction: "converb + auxiliary է"
+    distinct_class: PRS.3SG
+    aux_carried: true
+    aux: "է"
+    reference: *ref_present
+    confidence: high
+  PRS.1PL:
+    rule: main_verb
+    source_cell: "1;PL;PRS;IND"
+    transform: strip_present_aux
+    construction: "converb + auxiliary ենք"
+    distinct_class: PRS.1PL
+    aux_carried: true
+    aux: "ենք"
+    reference: *ref_present
+    confidence: high
+    notes: "No inclusive/exclusive distinction in 1PL (WALS 39A), so the exclusive default of SPEC §3 has no effect."
+  PRS.2PL:
+    rule: main_verb
+    source_cell: "2;PL;PRS;IND"
+    transform: strip_present_aux
+    construction: "converb + auxiliary եք"
+    distinct_class: PRS.2PL
+    aux_carried: true
+    aux: "եք"
+    reference: *ref_present
+    confidence: high
+    notes: "դուք is both the plural and the formal singular pronoun (Sakayan p. 15); the grid reads 'a large group', so plural. The form is the same as for polite singular."
+  PRS.3PL:
+    rule: main_verb
+    source_cell: "3;PL;PRS;IND"
+    transform: strip_present_aux
+    construction: "converb + auxiliary են"
+    distinct_class: PRS.3PL
+    aux_carried: true
+    aux: "են"
+    reference: *ref_present
+    confidence: high
+
+  PST.1SG:
+    rule: source
+    source_cell: "1;SG;PST;IND"
+    construction: "synthetic aorist (-եցի / -ացա ...)"
+    distinct_class: PST.1SG
+    aux_carried: false
+    reference: &ref_aorist
+      - {author: "Sakayan", year: 2007, locus: "Unit 4, 'Uses of the aorist tense' (printed p. 76): 'the witness' tense. It is used only if the speaker has either witnessed the activity' (D23: the frame fixes 'the speaker witnessed the event', so the aorist follows from the frame)", locus_verified: true}
+      - {author: "Sakayan", year: 2007, locus: "Unit 5, 'Uses of the perfect tense' (printed p. 99), points b-d: 'yesterday' is more likely with the aorist; the perfect is not necessarily experienced by the speaker and can be reportative", locus_verified: true}
+      - {author: "Sakayan", year: 2007, locus: "Unit 4, 'The aorist (simple past) tense' (printed pp. 74-75): the only simple tense of the indicative; paradigm -եցի, -եցիր, -եց, -եցինք, -եցիք, -եցին", locus_verified: true}
+      - {author: "Fairbanks & Stevick", year: 1958, locus: "Lesson 14, Grammatical Note 14.1: preterite refers to 'an event which happened once in the past and is completed' (OCR text, re-read in the fix round)", locus_verified: true}
+      - {author: "Dum-Tragut", year: 2009, locus: "pp. 196-197 (Grambank GB086: perfective = aorist; not opened)", locus_verified: false}
+    competing_forms:
+      - source_cell: "1;SG;PRS;PRF;IND"
+        reason: "R3 and D23: the perfect (-ել + auxiliary) refers to a general or distant past, indicates knowledge of an activity rather than experience, and can be reportative (hearsay). The frame is one completed event yesterday that the speaker witnessed, so the witness aorist is the form. Sakayan p. 99: perfect for 'years ago' / 'ever', aorist for 'yesterday'; the perfect with a hearsay reading is excluded by the witnessed-event frame."
+        reference: {author: "Sakayan", year: 2007, locus: "Unit 5, 'Uses of the perfect tense' (printed p. 99), point d: perfect has a 'reportative or mediative meaning' in colloquial speech", locus_verified: true}
+      - source_cell: "1;SG;IPFV;IND"
+        reason: "imperfect (converb + auxiliary in the past): progressive or habitual past, not a single completed event"
+        reference: {author: "Sakayan", year: 2007, locus: "Unit 4, 'Uses of the aorist tense' (printed p. 76): aorist is completed action, unlike the imperfect", locus_verified: true}
+    alternatives:
+      - choice: "perfect (1;SG;PRS;PRF;IND, grid form = past participle in -ել/-ած after auxiliary removal)"
+        effect: "the 6 PST cells would all show one identical participle (equal to the infinitive for -ել verbs) and differ only by the removed auxiliary: 6 classes, all aux_carried true; the grid forms change for every lemma"
+    confidence: high
+  PST.2SG:
+    rule: source
+    source_cell: "2;SG;PST;IND"
+    construction: "aorist -եցիր"
+    distinct_class: PST.2SG
+    aux_carried: false
+    reference: *ref_aorist
+    confidence: high
+  PST.3SG:
+    rule: source
+    source_cell: "3;SG;PST;IND"
+    construction: "aorist -եց"
+    distinct_class: PST.3SG
+    aux_carried: false
+    reference: *ref_aorist
+    confidence: high
+  PST.1PL:
+    rule: source
+    source_cell: "1;PL;PST;IND"
+    construction: "aorist -եցինք"
+    distinct_class: PST.1PL
+    aux_carried: false
+    reference: *ref_aorist
+    confidence: high
+  PST.2PL:
+    rule: source
+    source_cell: "2;PL;PST;IND"
+    construction: "aorist -եցիք"
+    distinct_class: PST.2PL
+    aux_carried: false
+    reference: *ref_aorist
+    confidence: high
+  PST.3PL:
+    rule: source
+    source_cell: "3;PL;PST;IND"
+    construction: "aorist -եցին"
+    distinct_class: PST.3PL
+    aux_carried: false
+    reference: *ref_aorist
+    confidence: high
+
+  IMP.2SG:
+    rule: source
+    source_cell: "2;SG;IMP"
+    construction: "singular imperative with the data's stress mark (-ի՛ր, -ա՛ ...)"
+    distinct_class: IMP.2SG
+    aux_carried: false
+    reference: &ref_imp
+      - {author: "Sakayan", year: 2007, locus: "Unit 6, 'The imperative mood' (printed pp. 126-127): singular -ել -> -ի՛ր, -ալ -> -ա՛; plural aorist stem + -ե՛ք", locus_verified: true}
+      - {author: "Fairbanks & Stevick", year: 1958, locus: "Lesson 16, Grammatical Note 16.1: two imperative forms, 2SG irregular, 2PL regular", locus_verified: true}
+    confidence: high
+    notes: "The data has one form per cell, including the emphasis mark ՛; kept as is (R7)."
+  IMP.2PL:
+    rule: source
+    source_cell: "2;PL;IMP"
+    construction: "plural imperative with the data's stress mark (-ե՛ք for most -ել verbs; -ացե՛ք, -ցրե՛ք ... for -ալ verbs and the other classes)"
+    distinct_class: IMP.2PL
+    aux_carried: false
+    reference: *ref_imp
+    competing_forms:
+      - form: "aorist-stem plural imperative (e.g. սիրեցե՛ք, աբսորբեցե՛ք) for -ել verbs"
+        reason: "Sakayan p. 127 gives the aorist-stem form as the regular derivation and says in a footnote that infinitive-stem plural imperatives are also common in everyday speech (e.g. վախե՛ք, խմե՛ք). D30 (2026-10-14): the data form (infinitive stem) is kept. In the scope after the fix round the data has the infinitive-stem form for 650 plain -ել verbs, and the aorist-stem form for 148 -ալ verbs, 51 -ցնել causatives and 6 other -նել verbs."
+        reference: {author: "Sakayan", year: 2007, locus: "Unit 6, 'Imperative Plural' and its footnote (printed p. 127): 'plural imperative forms derived from the infinitive stem are also common'", locus_verified: true}
+    alternatives:
+      - choice: "aorist-stem plural imperative -եցե՛ք for the -ել verbs (Sakayan 2007 p. 127 point 2a; also the Wikipedia Eastern Armenian verb table: սիրեցե՛ք). Not in the data: it would need a derivation from the PST.2PL stem (R7)"
+        effect: "the class structure stays the same (IMP.2PL is its own class); the grid form changes for the 650 plain -ել lemmas in scope (-ե՛ք becomes -եցե՛ք)"
+    confidence: medium
+    notes: "D30: the data form is kept. Sakayan calls the short form common in everyday speech. His regular (first-listed) form is the aorist-stem one; recorded under alternatives."
+
+open_issues:
+  - "IMP 2PL: decided by the owner side (D30): the data form (infinitive stem, -ե՛ք) is kept; Sakayan's aorist-stem -եցե՛ք is recorded under alternatives of IMP.2PL."
+  - "Data coverage: many of the most frequent verbs (լինել, գնալ, գալ, տալ, անել, ասել, տեսնել, գրել, սիրել, խոսել, լսել) are absent from the data (903 lemmas). The grid is complete for every lemma present, but the sample is lexically skewed (rare and derived verbs)."
+  - "GB089 = 0 in Grambank contradicts GB091 = 1 and the person suffixes on intransitive aorist forms; see grambank_check.conflicts."

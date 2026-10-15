@@ -68,6 +68,8 @@ def _ingest_entry(entry: Dict[str, Any], cfg: Dict[str, Any], prov) -> tuple[ada
         raw = adapters.read_unimorph(path, pos=pos)
     elif ad == "paralex":
         raw = adapters.read_paralex(path, representation=declared)
+    elif ad == "grid":
+        raw = adapters.read_grid(path, form=entry.get("form", "b"), drop_cells=entry.get("drop_cells", ()))
     else:
         raise ValueError(f"unknown adapter {ad!r}")
     version = resource_version(path) if path.is_file() else resource_version(path / "forms.csv")
@@ -164,6 +166,24 @@ def _unit_resource_table(cfg: Dict[str, Any], reg: pd.DataFrame | None = None) -
     return pd.DataFrame(rows)
 
 
+def _write_manifest_minimal(cfg, out, root, written, t0, summary) -> Dict[str, Any]:
+    """Stage manifest of a run without registry and GeLaTo tables (``data.registry_and_gelato:
+    false``, used by the cell-grid runs: they read no population or ancestry file)."""
+    inputs = [{"path": str((PIPELINE_ROOT / e["file"]).resolve().relative_to(root)),
+               "sha256": sha256_file((PIPELINE_ROOT / e["file"]).resolve())}
+              for e in cfg["resources"]["ingest"] if e["adapter"] == "grid"]
+    manifest = {
+        "stage": STAGE, "experiment_id": cfg["experiment"]["id"], "config_hash": cfg.get("_config_hash"),
+        "config_path": cfg.get("_config_path"), "inputs": inputs,
+        "package_versions": {"python": platform.python_version()}, "seeds": {},
+        "start_time": t0.isoformat(), "end_time": _dt.datetime.now(_dt.timezone.utc).isoformat(),
+        "git": git_state(root), "outputs": sorted(written), "with_registry": False, "gelato": False,
+    }
+    write_json(manifest, out / "data" / "stage_manifest.json", cfg)
+    return {"output_dir": str(out), "units": [u["unit_id"] for u in cfg.get("units", [])],
+            "summary": summary, "outputs": sorted(written)}
+
+
 def run_data_stage(cfg: Dict[str, Any], with_registry: bool = True) -> Dict[str, Any]:
     t0 = _dt.datetime.now(_dt.timezone.utc)
     out = output_dir(cfg)
@@ -238,6 +258,10 @@ def run_data_stage(cfg: Dict[str, Any], with_registry: bool = True) -> Dict[str,
         })
     w(pd.DataFrame(summary), "eligibility/summary.csv")
     w(pd.DataFrame(cfg_check), "eligibility/config_cell_check.csv")
+
+    # grid runs (cell-grid pilot) stop here: no registry and no GeLaTo population tables
+    if not cfg.get("data", {}).get("registry_and_gelato", True):
+        return _write_manifest_minimal(cfg, out, root, written, t0, summary)
 
     # 3. identifier crosswalk, registry, broad audit
     mgn_root = resolve(cfg, "mgn_data").parent

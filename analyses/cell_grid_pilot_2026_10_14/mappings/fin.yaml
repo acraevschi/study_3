@@ -1,0 +1,251 @@
+# Finnish (fin) cell-grid mapping, G14. Mapped by Claude Sonnet 5.5 (subagent), 2026-10-14; fix round 2026-10-14.
+# Every cell is a direct source cell: Finnish has single-word synthetic present, imperfekti and
+# imperative forms. No auxiliaries are involved (perfekti, which uses 'olla', is NOT used).
+# Fix round: VISK was read via the Internet Archive copy (the original is behind a Cloudflare 403).
+schema_version: 2
+grid_version: G14_v1
+
+language:
+  name: "Finnish"
+  glottocode: "finn1318"
+  iso639_3: "fin"
+  variety: "Standard written Finnish (yleiskieli); colloquial 3PL = 3SG and similar spoken forms not used"
+
+dataset:
+  resource: "mgn_data:fin-v"
+  representation: "orth"
+  lemma_scope_rules:
+    exclude_multiword_lemmas: true
+    exclude_lemma_files: []
+
+provenance:
+  mapped_by: "Claude Sonnet 5.5 (mapping subagent, fin)"
+  date: "2026-10-14"
+  status: reviewed
+  reviewed_by: "Opus reviewer + fix round 2026-10-14"
+
+options:
+  aux_option: C
+  word_boundary: clitic_aux_separate
+  aspect_option: S-b
+  missing_forms: keep_with_reason
+
+defaults:
+  subject_gender: "not_marked"
+  second_person_sg: "sinä (informal 2SG); polite address uses te + 2PL forms, not mapped"
+  first_person_pl: "not_distinguished"
+  plural_reading: "plural"
+  object: "not_indexed"
+  reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta (asetelma 54, personal endings); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"kerro-n, hyppää-t, kerro-mme, kerro-tte, kerto-vat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}]
+
+grambank_check:
+  GB082: {value: "0", source: "Mervi de Heer, p.c. (Source_comment; Source field empty)"}
+  GB083: {value: "1", source: "Mervi de Heer, p.c. (Source_comment; Source field empty)"}
+  GB084: {value: "0", source: "Mervi de Heer, p.c. (Source_comment; Source field empty)"}
+  GB086: {value: "0", source: "Mervi de Heer, p.c. (Source_comment; Source field empty)"}
+  GB089: {value: "1", source: "Mervi de Heer, p.c. (Source_comment; Source field empty)"}
+  GB091: {value: "1", source: "Mervi de Heer, p.c. (Source_comment; Source field empty)"}
+  GB121: {value: "1", source: "Mervi de Heer, p.c. (Source_comment; Source field empty)"}
+  GB120: {value: "0", source: "Mervi de Heer, p.c. (Source_comment; Source field empty)"}
+  conflicts: []
+
+lexical_classes: []
+transforms: []
+
+# P5/D31: defective only where VISK says the person forms do not exist. Weather verbs other than
+# tuulla have 'rajoittunut subjektin valinta' (VISK 457), so their data forms are kept.
+defective:
+  - cells: [PRS.1SG, PRS.2SG, PRS.1PL, PRS.2PL, PRS.3PL, PST.1SG, PST.2SG, PST.1PL, PST.2PL, PST.3PL, IMP.2SG, IMP.2PL]
+    lemmas: [tuulla]
+    reason: "tuulla is always subjectless, so its only person form is the 3SG (VISK 457)"
+    reference: {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§457 Milloin verbi taipuu vain 3. persoonassa?; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=457; \"vain pieni osa niistä on aina subjektittomia ja sikäli yksipersoonaisia, esim. tuulla\"", "locus_verified": true}
+  - cells: [PRS.1SG, PRS.2SG, PRS.1PL, PRS.2PL, PST.1SG, PST.2SG, PST.1PL, PST.2PL, IMP.2SG, IMP.2PL]
+    lemmas: [tapahtua, halveta, raikua, virrata, janottaa]
+    reason: "VISK 457 names these as verbs whose person inflection is restricted to the 3rd person (inanimate subject); 1st and 2nd person (and so the imperative) are impossible for semantic reasons"
+    reference: {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§457 Milloin verbi taipuu vain 3. persoonassa?; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=457; \"Persoonataivutus voi rajoittua kolmanteen persoonaan\"", "locus_verified": true}
+
+  - cells: [IMP.2SG, IMP.2PL]
+    lemmas: [voida, taitaa]
+    reason: "VISK 1590: modal verbs cannot form an imperative; it names taida (taitaa) and täydy (täytyä, not in the data), and VISK 1352 lists voida as a central modal verb (D31 follows the grammar)"
+    reference: {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1590 Modukset ja niiden suhde modaalisuuden lajeihin; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1590; \"Kaikista verbeistä ei voi muodostaa imperatiivia. Tällaisia ovat ensinnäkin modaaliverbit\" (examples *taida mennä, *täydy osata); §1352 lists voida among the central modal verbs", "locus_verified": true}
+
+data_gaps:
+  - cells: [PST.1SG, PST.2SG, PST.3SG]
+    lemmas: [hyytää, häätää, joutaa, kiitää, kyntää, liitää, noutaa, sortaa, soutaa, vuotaa]
+    reason: "glued doublet in the MGN data (two past forms run together, e.g. lähdinläksin); the standard form cannot be separated by the tool"
+  - cells: [PST.1SG, PST.2SG, PST.3SG, PST.1PL, PST.2PL, PST.3PL]
+    lemmas: [lähteä, entää, yltää]
+    reason: "glued doublet in the MGN data (two past forms run together, e.g. lähdinläksin); the standard form cannot be separated by the tool"
+  - cells: [PRS.1PL]
+    lemmas: [ammentaa, lemmiskellä, ummehtua]
+    reason: "truncated form in the MGN data (ammenn, lemmiske, ummehd: the ending -mme is missing)"
+  - cells: [PST.3PL]
+    lemmas: [sivaltaa]
+    reason: "truncated form in the MGN data (sival: the endings -si-vat are missing)"
+  - cells: [IMP.2PL]
+    lemmas: [tukahtua, takaisinmallintaa]
+    reason: "truncated form in the MGN data (tukah, takaisinmallin: the ending -kaa is missing)"
+
+class_exceptions: []
+variant_overrides: null
+
+cells:
+  PRS.1SG:
+    rule: source
+    source_cell: "ACT;PRS;POS;IND;1;SG"
+    construction: "preesens, positive, indicative, active"
+    distinct_class: "PRS.1SG"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta (asetelma 54, personal endings); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"kerro-n, hyppää-t, kerro-mme, kerro-tte, kerto-vat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}]
+    confidence: high
+
+  PRS.2SG:
+    rule: source
+    source_cell: "ACT;PRS;POS;IND;2;SG"
+    construction: "preesens, positive, indicative, active"
+    distinct_class: "PRS.2SG"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta (asetelma 54, personal endings); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"kerro-n, hyppää-t, kerro-mme, kerro-tte, kerto-vat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}]
+    confidence: high
+
+  PRS.3SG:
+    rule: source
+    source_cell: "ACT;PRS;POS;IND;3;SG"
+    construction: "preesens, positive, indicative, active"
+    distinct_class: "PRS.3SG"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta (asetelma 54, personal endings); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"kerro-n, hyppää-t, kerro-mme, kerro-tte, kerto-vat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}]
+    confidence: high
+
+  PRS.1PL:
+    rule: source
+    source_cell: "ACT;PRS;POS;IND;1;PL"
+    construction: "preesens, positive, indicative, active"
+    distinct_class: "PRS.1PL"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta (asetelma 54, personal endings); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"kerro-n, hyppää-t, kerro-mme, kerro-tte, kerto-vat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}]
+    confidence: high
+
+  PRS.2PL:
+    rule: source
+    source_cell: "ACT;PRS;POS;IND;2;PL"
+    construction: "preesens, positive, indicative, active"
+    distinct_class: "PRS.2PL"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta (asetelma 54, personal endings); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"kerro-n, hyppää-t, kerro-mme, kerro-tte, kerto-vat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}]
+    confidence: high
+
+  PRS.3PL:
+    rule: source
+    source_cell: "ACT;PRS;POS;IND;3;PL"
+    construction: "preesens, positive, indicative, active"
+    distinct_class: "PRS.3PL"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta (asetelma 54, personal endings); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"kerro-n, hyppää-t, kerro-mme, kerro-tte, kerto-vat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"pojat tulee pro tulevat (colloquial 3SG form with plural subject)\"", "locus_verified": true}]
+    confidence: high
+    alternatives:
+      - {choice: "colloquial 3PL = 3SG form (ne menee); not in the data's active paradigm", effect: "PRS.3PL would be syncretic with PRS.3SG (13 classes)"}
+
+  PST.1SG:
+    rule: source
+    source_cell: "ACT;PST;POS;IND;1;SG"
+    construction: "imperfekti (synthetic past), e.g. 'eilen minä ostin sen'"
+    distinct_class: "PST.1SG"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1530 Imperfektin perusmerkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1530; \"Imperfekti viittaa nimenomaan tiettyyn ajankohtaan menneisyydessä ja on tässä mielessä definiittinen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Uusi kielemme (learner grammar)", "year": "n.d.", "locus": "https://uusikielemme.fi/finnish-grammar/verbs/verb-tenses-and-moods/the-relation-between-the-imperfect-perfect-and-plusquamperfect ; \"You will use the imperfect tense when you’re saying exactly when something is happening\"; Ostimme eilen auton", "locus_verified": true}, {"author": "Yle (Finnish broadcaster), Supisuomea osa 6", "year": "n.d.", "locus": "https://yle.fi/a/20-156316 section Imperfekti; paradigm seisoa/seison/seisoin; marker -i or -si", "locus_verified": true}]
+    confidence: high
+    competing_forms:
+      - {source_cell: "ACT;PST;PRF;POS;IND;1;SG", reason: "R3: multiword pluperfect (olla + participle); the grammar assigns the dated past (eilen) to the imperfekti, and perfekti is marked there", reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1534 Perfektin merkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1534; \"Perfekti on osittain menneen ja osittain menemättömän ajan tempus\"", "locus_verified": true}]}
+    alternatives:
+      - {choice: "perfekti (olen ostanut) for PST; grid form = past participle (aux carried)", effect: "PST collapses to 2 classes (SG/PL participle, aux carried); not chosen"}
+
+  PST.2SG:
+    rule: source
+    source_cell: "ACT;PST;POS;IND;2;SG"
+    construction: "imperfekti (synthetic past), e.g. 'eilen minä ostin sen'"
+    distinct_class: "PST.2SG"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1530 Imperfektin perusmerkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1530; \"Imperfekti viittaa nimenomaan tiettyyn ajankohtaan menneisyydessä ja on tässä mielessä definiittinen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Uusi kielemme (learner grammar)", "year": "n.d.", "locus": "https://uusikielemme.fi/finnish-grammar/verbs/verb-tenses-and-moods/the-relation-between-the-imperfect-perfect-and-plusquamperfect ; \"You will use the imperfect tense when you’re saying exactly when something is happening\"; Ostimme eilen auton", "locus_verified": true}, {"author": "Yle (Finnish broadcaster), Supisuomea osa 6", "year": "n.d.", "locus": "https://yle.fi/a/20-156316 section Imperfekti; paradigm seisoa/seison/seisoin; marker -i or -si", "locus_verified": true}]
+    confidence: high
+    competing_forms:
+      - {source_cell: "ACT;PST;PRF;POS;IND;2;SG", reason: "R3: multiword pluperfect (olla + participle); the grammar assigns the dated past (eilen) to the imperfekti, and perfekti is marked there", reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1534 Perfektin merkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1534; \"Perfekti on osittain menneen ja osittain menemättömän ajan tempus\"", "locus_verified": true}]}
+    alternatives:
+      - {choice: "perfekti (olen ostanut) for PST; grid form = past participle (aux carried)", effect: "PST collapses to 2 classes (SG/PL participle, aux carried); not chosen"}
+
+  PST.3SG:
+    rule: source
+    source_cell: "ACT;PST;POS;IND;3;SG"
+    construction: "imperfekti (synthetic past), e.g. 'eilen minä ostin sen'"
+    distinct_class: "PST.3SG"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1530 Imperfektin perusmerkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1530; \"Imperfekti viittaa nimenomaan tiettyyn ajankohtaan menneisyydessä ja on tässä mielessä definiittinen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Uusi kielemme (learner grammar)", "year": "n.d.", "locus": "https://uusikielemme.fi/finnish-grammar/verbs/verb-tenses-and-moods/the-relation-between-the-imperfect-perfect-and-plusquamperfect ; \"You will use the imperfect tense when you’re saying exactly when something is happening\"; Ostimme eilen auton", "locus_verified": true}, {"author": "Yle (Finnish broadcaster), Supisuomea osa 6", "year": "n.d.", "locus": "https://yle.fi/a/20-156316 section Imperfekti; paradigm seisoa/seison/seisoin; marker -i or -si", "locus_verified": true}]
+    confidence: high
+    competing_forms:
+      - {source_cell: "ACT;PST;PRF;POS;IND;3;SG", reason: "R3: multiword pluperfect (olla + participle); the grammar assigns the dated past (eilen) to the imperfekti, and perfekti is marked there", reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1534 Perfektin merkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1534; \"Perfekti on osittain menneen ja osittain menemättömän ajan tempus\"", "locus_verified": true}]}
+    alternatives:
+      - {choice: "perfekti (olen ostanut) for PST; grid form = past participle (aux carried)", effect: "PST collapses to 2 classes (SG/PL participle, aux carried); not chosen"}
+
+  PST.1PL:
+    rule: source
+    source_cell: "ACT;PST;POS;IND;1;PL"
+    construction: "imperfekti (synthetic past), e.g. 'eilen minä ostin sen'"
+    distinct_class: "PST.1PL"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1530 Imperfektin perusmerkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1530; \"Imperfekti viittaa nimenomaan tiettyyn ajankohtaan menneisyydessä ja on tässä mielessä definiittinen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Uusi kielemme (learner grammar)", "year": "n.d.", "locus": "https://uusikielemme.fi/finnish-grammar/verbs/verb-tenses-and-moods/the-relation-between-the-imperfect-perfect-and-plusquamperfect ; \"You will use the imperfect tense when you’re saying exactly when something is happening\"; Ostimme eilen auton", "locus_verified": true}, {"author": "Yle (Finnish broadcaster), Supisuomea osa 6", "year": "n.d.", "locus": "https://yle.fi/a/20-156316 section Imperfekti; paradigm seisoa/seison/seisoin; marker -i or -si", "locus_verified": true}]
+    confidence: high
+    competing_forms:
+      - {source_cell: "ACT;PST;PRF;POS;IND;1;PL", reason: "R3: multiword pluperfect (olla + participle); the grammar assigns the dated past (eilen) to the imperfekti, and perfekti is marked there", reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1534 Perfektin merkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1534; \"Perfekti on osittain menneen ja osittain menemättömän ajan tempus\"", "locus_verified": true}]}
+    alternatives:
+      - {choice: "perfekti (olen ostanut) for PST; grid form = past participle (aux carried)", effect: "PST collapses to 2 classes (SG/PL participle, aux carried); not chosen"}
+
+  PST.2PL:
+    rule: source
+    source_cell: "ACT;PST;POS;IND;2;PL"
+    construction: "imperfekti (synthetic past), e.g. 'eilen minä ostin sen'"
+    distinct_class: "PST.2PL"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1530 Imperfektin perusmerkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1530; \"Imperfekti viittaa nimenomaan tiettyyn ajankohtaan menneisyydessä ja on tässä mielessä definiittinen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Uusi kielemme (learner grammar)", "year": "n.d.", "locus": "https://uusikielemme.fi/finnish-grammar/verbs/verb-tenses-and-moods/the-relation-between-the-imperfect-perfect-and-plusquamperfect ; \"You will use the imperfect tense when you’re saying exactly when something is happening\"; Ostimme eilen auton", "locus_verified": true}, {"author": "Yle (Finnish broadcaster), Supisuomea osa 6", "year": "n.d.", "locus": "https://yle.fi/a/20-156316 section Imperfekti; paradigm seisoa/seison/seisoin; marker -i or -si", "locus_verified": true}]
+    confidence: high
+    competing_forms:
+      - {source_cell: "ACT;PST;PRF;POS;IND;2;PL", reason: "R3: multiword pluperfect (olla + participle); the grammar assigns the dated past (eilen) to the imperfekti, and perfekti is marked there", reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1534 Perfektin merkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1534; \"Perfekti on osittain menneen ja osittain menemättömän ajan tempus\"", "locus_verified": true}]}
+    alternatives:
+      - {choice: "perfekti (olen ostanut) for PST; grid form = past participle (aux carried)", effect: "PST collapses to 2 classes (SG/PL participle, aux carried); not chosen"}
+
+  PST.3PL:
+    rule: source
+    source_cell: "ACT;PST;POS;IND;3;PL"
+    construction: "imperfekti (synthetic past), e.g. 'eilen minä ostin sen'"
+    distinct_class: "PST.3PL"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§112 Tempustaivutus (asetelma 58); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=112; \"Preesens on tunnukseton ja imperfektin tunnus on i\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§124 Verbit nousta ja kertoa mallitaivutuksina (asetelma 65); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=124; \"nousen nouset nousee nousemme nousette nousevat; nousin nousit nousi nousimme nousitte nousivat\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1530 Imperfektin perusmerkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1530; \"Imperfekti viittaa nimenomaan tiettyyn ajankohtaan menneisyydessä ja on tässä mielessä definiittinen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Uusi kielemme (learner grammar)", "year": "n.d.", "locus": "https://uusikielemme.fi/finnish-grammar/verbs/verb-tenses-and-moods/the-relation-between-the-imperfect-perfect-and-plusquamperfect ; \"You will use the imperfect tense when you’re saying exactly when something is happening\"; Ostimme eilen auton", "locus_verified": true}, {"author": "Yle (Finnish broadcaster), Supisuomea osa 6", "year": "n.d.", "locus": "https://yle.fi/a/20-156316 section Imperfekti; paradigm seisoa/seison/seisoin; marker -i or -si", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"pojat tulee pro tulevat (colloquial 3SG form with plural subject)\"", "locus_verified": true}]
+    confidence: high
+    notes: "Standard 3PL = -vat/-vät (data). Colloquial speech uses the 3SG form (ne meni) (VISK 107); recorded as an alternative, not mapped."
+    competing_forms:
+      - {source_cell: "ACT;PST;PRF;POS;IND;3;PL", reason: "R3: multiword pluperfect (olla + participle); the grammar assigns the dated past (eilen) to the imperfekti, and perfekti is marked there", reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1539 Ajan adverbiaalit imperfekti- ja perfektilauseissa; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1539; \"Imperfektin yhteydessä käytetään tyypillisesti johonkin ajankohtaan tai -jaksoon kiinnittäviä määritteitä (eilen\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§1534 Perfektin merkitys; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=1534; \"Perfekti on osittain menneen ja osittain menemättömän ajan tempus\"", "locus_verified": true}]}
+    alternatives:
+      - {choice: "perfekti (olen ostanut) for PST; grid form = past participle (aux carried)", effect: "PST collapses to 2 classes (SG/PL participle, aux carried); not chosen"}
+
+  IMP.2SG:
+    rule: source
+    source_cell: "ACT;PRS;POS;IMP;2;SG"
+    construction: "imperatiivi, positive, 2nd person"
+    distinct_class: "IMP.2SG"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§118 Imperatiivin muodostus ja rajageminaatio; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=118; \"Yksikön 2. persoonan imperatiivimuotona toimii rajageminaation aiheuttava vokaalivartalo\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§118 Imperatiivin muodostus ja rajageminaatio; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=118; \"Monikon 2. persoonassa imperatiivin tunnuksena on -kAA\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta (asetelma 54, personal endings); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"kerro-n, hyppää-t, kerro-mme, kerro-tte, kerto-vat\"", "locus_verified": true}, {"author": "Uusi kielemme (learner grammar)", "year": "n.d.", "locus": "https://uusikielemme.fi/finnish-grammar/verbs/verb-tenses-and-moods/the-imperative ; plural marker -kaa/-kää added to the infinitive stem (antakaa!, nukkukaa!)", "locus_verified": true}]
+    confidence: high
+    alternatives:
+      - {choice: "keep the data forms of the modal verbs voida (voi, voikaa) and taitaa (taida, taitakaa) as imperatives", effect: "4 more filled cells; VISK 1590 says modal verbs lack an imperative, so they are defective"}
+
+  IMP.2PL:
+    rule: source
+    source_cell: "ACT;PRS;POS;IMP;2;PL"
+    construction: "imperatiivi, positive, 2nd person"
+    distinct_class: "IMP.2PL"
+    aux_carried: false
+    reference: [{"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§118 Imperatiivin muodostus ja rajageminaatio; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=118; \"Yksikön 2. persoonan imperatiivimuotona toimii rajageminaation aiheuttava vokaalivartalo\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§118 Imperatiivin muodostus ja rajageminaatio; read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=118; \"Monikon 2. persoonassa imperatiivin tunnuksena on -kAA\"", "locus_verified": true}, {"author": "Hakulinen et al. (VISK; online edition, Kotus)", "year": 2004, "locus": "§107 Persoonamuotoisen verbin taivutuksesta (asetelma 54, personal endings); read in the Internet Archive copy https://web.archive.org/web/2023/https://kaino.kotus.fi/visk/sisallys.php?p=107; \"kerro-n, hyppää-t, kerro-mme, kerro-tte, kerto-vat\"", "locus_verified": true}, {"author": "Uusi kielemme (learner grammar)", "year": "n.d.", "locus": "https://uusikielemme.fi/finnish-grammar/verbs/verb-tenses-and-moods/the-imperative ; plural marker -kaa/-kää added to the infinitive stem (antakaa!, nukkukaa!)", "locus_verified": true}]
+    confidence: high
+
+
+open_issues:
+  - "VISK reading: the original kaino.kotus.fi / scripta.kotus.fi pages still answer HTTP 403 (Cloudflare). The pages were read in the Internet Archive copy (web.archive.org/web/2023/...), which has the full text."
+  - "Missing frequent verbs (olla, tulla, mennä, antaa, ...) are a known limitation of MGN fin-v (D24); no action."

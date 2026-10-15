@@ -1,0 +1,57 @@
+source_cell,n_lemmas,share_multiword,examples
+LEMMA,6077,0.0,abbacchiare: abbacchiare || abbacinare: abbacinare || abbagliare: abbagliare
+NFIN,6076,0.0,abbacchiare: abbacchiar | abbacchiare || abbacinare: abbacinar | abbacinare || abbagliare: abbagliar | abbagliare
+IND;PST;IPFV;3;PL,6075,0.0,abbacchiare: abbacchiavan | abbacchiavano || abbacinare: abbacinavan | abbacinavano || abbagliare: abbagliavan | abbagliavano
+IND;PST;IPFV;3;SG,6075,0.0,abbacchiare: abbacchiava || abbacinare: abbacinava || abbagliare: abbagliava
+SBJV;PST;IPFV;3;PL,6075,0.0,abbacchiare: abbacchiasser | abbacchiassero || abbacinare: abbacinasser | abbacinassero || abbagliare: abbagliasser | abbagliassero
+SBJV;PST;IPFV;3;SG,6075,0.0,abbacchiare: abbacchiasse || abbacinare: abbacinasse || abbagliare: abbagliasse
+COND;PRS;3;PL,6074,0.0,abbacchiare: abbacchierebber | abbacchierebbero || abbacinare: abbacinerebber | abbacinerebbero || abbagliare: abbaglierebber | abbaglierebbero
+COND;PRS;3;SG,6074,0.0,abbacchiare: abbacchierebbe || abbacinare: abbacinerebbe || abbagliare: abbaglierebbe
+IND;PRS;3;SG,6074,0.0,abbacchiare: abbacchia || abbacinare: abbacina || abbagliare: abbaglia
+IND;PST;IPFV;1;PL,6074,0.0,abbacchiare: abbacchiavamo || abbacinare: abbacinavamo || abbagliare: abbagliavamo
+IND;PST;IPFV;1;SG,6074,0.0,abbacchiare: abbacchiavo || abbacinare: abbacinavo || abbagliare: abbagliavo
+IND;PST;IPFV;2;PL,6074,0.0,abbacchiare: abbacchiavate || abbacinare: abbacinavate || abbagliare: abbagliavate
+IND;PST;IPFV;2;SG,6074,0.0,abbacchiare: abbacchiavi || abbacinare: abbacinavi || abbagliare: abbagliavi
+SBJV;PST;IPFV;1;PL,6074,0.0,abbacchiare: abbacchiassimo || abbacinare: abbacinassimo || abbagliare: abbagliassimo
+SBJV;PST;IPFV;1;SG,6074,0.0,abbacchiare: abbacchiassi || abbacinare: abbacinassi || abbagliare: abbagliassi
+SBJV;PST;IPFV;2;PL,6074,0.0,abbacchiare: abbacchiaste || abbacinare: abbacinaste || abbagliare: abbagliaste
+SBJV;PST;IPFV;2;SG,6074,0.0,abbacchiare: abbacchiassi || abbacinare: abbacinassi || abbagliare: abbagliassi
+COND;PRS;1;PL,6073,0.0,abbacchiare: abbacchieremmo || abbacinare: abbacineremmo || abbagliare: abbaglieremmo
+COND;PRS;1;SG,6073,0.0,abbacchiare: abbacchierei || abbacinare: abbacinerei || abbagliare: abbaglierei
+COND;PRS;2;PL,6073,0.0,abbacchiare: abbacchiereste || abbacinare: abbacinereste || abbagliare: abbagliereste
+COND;PRS;2;SG,6073,0.0,abbacchiare: abbacchieresti || abbacinare: abbacineresti || abbagliare: abbaglieresti
+IND;PRS;2;PL,6073,0.0,abbacchiare: abbacchiate || abbacinare: abbacinate || abbagliare: abbagliate
+IND;PST;PFV;2;PL,6073,0.0,abbacchiare: abbacchiaste || abbacinare: abbacinaste || abbagliare: abbagliaste
+IND;PST;PFV;2;SG,6073,0.0,abbacchiare: abbacchiasti || abbacinare: abbacinasti || abbagliare: abbagliasti
+IND;FUT;1;PL,6072,0.0,abbacchiare: abbacchieremo || abbacinare: abbacineremo || abbagliare: abbaglieremo
+IND;FUT;2;PL,6072,0.0,abbacchiare: abbacchierete || abbacinare: abbacinerete || abbagliare: abbaglierete
+IND;FUT;2;SG,6072,0.0,abbacchiare: abbacchierai || abbacinare: abbacinerai || abbagliare: abbaglierai
+IND;FUT;3;PL,6072,0.0,abbacchiare: abbacchieran | abbacchieranno || abbacinare: abbacineran | abbacineranno || abbagliare: abbaglieran | abbaglieranno
+IND;FUT;3;SG,6072,0.0,abbacchiare: abbacchierà || abbacinare: abbacinerà || abbagliare: abbaglierà
+IND;PST;PFV;1;PL,6072,0.0,abbacchiare: abbacchiammo || abbacinare: abbacinammo || abbagliare: abbagliammo
+IND;PST;PFV;3;PL,6072,0.0,abbacchiare: abbacchiaron | abbacchiarono || abbacinare: abbacinaron | abbacinarono || abbagliare: abbagliaron | abbagliarono
+IND;PST;PFV;3;SG,6072,0.0,abbacchiare: abbacchiò || abbacinare: abbacinò || abbagliare: abbagliò
+V.CVB,6072,0.0,abbacchiare: abbacchiando || abbacinare: abbacinando || abbagliare: abbagliando
+IND;PRS;2;SG,6071,0.0,abbacchiare: abbacchi || abbacinare: abbacini || abbagliare: abbagli
+IND;PRS;3;PL,6071,0.0,abbacchiare: abbacchian | abbacchiano || abbacinare: abbacinan | abbacinano || abbagliare: abbaglian | abbagliano
+IND;PST;PFV;1;SG,6071,0.0,abbacchiare: abbacchiai || abbacinare: abbacinai || abbagliare: abbagliai
+IND;FUT;1;SG,6070,0.0,abbacchiare: abbacchierò || abbacinare: abbacinerò || abbagliare: abbaglierò
+IND;PRS;1;PL,6069,0.0,abbacchiare: abbacchiamo || abbacinare: abbaciniamo || abbagliare: abbagliamo
+SBJV;PRS;1;PL,6069,0.0,abbacchiare: abbacchiamo || abbacinare: abbaciniamo || abbagliare: abbagliamo
+SBJV;PRS;1;SG,6069,0.0,abbacchiare: abbacchi || abbacinare: abbacini || abbagliare: abbagli
+SBJV;PRS;2;PL,6069,0.0,abbacchiare: abbacchiate || abbacinare: abbaciniate || abbagliare: abbagliate
+SBJV;PRS;2;SG,6069,0.0,abbacchiare: abbacchi || abbacinare: abbacini || abbagliare: abbagli
+SBJV;PRS;3;PL,6069,0.0,abbacchiare: abbacchin | abbacchino || abbacinare: abbacinin | abbacinino || abbagliare: abbaglin | abbaglino
+SBJV;PRS;3;SG,6069,0.0,abbacchiare: abbacchi || abbacinare: abbacini || abbagliare: abbagli
+IND;PRS;1;SG,6067,0.0,abbacchiare: abbacchio || abbacinare: abbacino || abbagliare: abbaglio
+V.PTCP;PST;PL;MASC,6065,0.0,abbacchiare: abbacchiati || abbacinare: abbacinati || abbagliare: abbagliati
+V.PTCP;PST;SG;FEM,6065,0.0,abbacchiare: abbacchiata || abbacinare: abbacinata || abbagliare: abbagliata
+V.PTCP;PST;SG;MASC,6065,0.0,abbacchiare: abbacchiato || abbacinare: abbacinato || abbagliare: abbagliato
+V.PTCP;PST;PL;FEM,6064,0.0,abbacchiare: abbacchiate || abbacinare: abbacinate || abbagliare: abbagliate
+IMP;PRS;2;PL,5989,0.0,abbacchiare: abbacchiate || abbacinare: abbacinate || abbagliare: abbagliate
+V.PTCP;PRS;PL;FEM,5989,0.0,abbacchiare: abbacchianti || abbacinare: abbacinanti || abbagliare: abbaglianti
+V.PTCP;PRS;PL;MASC,5989,0.0,abbacchiare: abbacchianti || abbacinare: abbacinanti || abbagliare: abbaglianti
+V.PTCP;PRS;SG;FEM,5989,0.0,abbacchiare: abbacchiante || abbacinare: abbacinante || abbagliare: abbagliante
+V.PTCP;PRS;SG;MASC,5989,0.0,abbacchiare: abbacchiante || abbacinare: abbacinante || abbagliare: abbagliante
+IMP;PRS;2;SG,5987,0.0,abbacchiare: abbacchia || abbacinare: abbacina || abbagliare: abbaglia
+IMP;PRS;1;PL,5985,0.0,abbacchiare: abbacchiamo || abbacinare: abbaciniamo || abbagliare: abbagliamo

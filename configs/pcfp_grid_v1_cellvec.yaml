@@ -1,0 +1,11 @@
+# Sensitivity run of pcfp_grid_v1: the cell vector V(cell) is added to the simulated
+# semantics (docs/LDL_PROTOCOL.md §3.2, "Cell vector"; analyses/ldl_ablation_2026_10_09),
+# and sem_sd_cell is tuned with the other settings on the same auxiliary verbs.
+# Everything else (data, cells, splits, exposure, seeds) is identical to pcfp_grid_v1.
+_inherit: pcfp_grid_v1.yaml
+experiment:
+  id: pcfp_grid_v1_cellvec
+ldl:
+  sem_sd_cell: 2.0                    # placeholder; chosen by ldl_tune
+  tune:
+    grid: {cue_ngram: [2, 3], sem_sd_inflection: [0.4, 1.0, 2.0, 4.0], sem_sd_cell: [1.0, 2.0, 4.0]}

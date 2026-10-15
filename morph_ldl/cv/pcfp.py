@@ -69,17 +69,21 @@ def eligible_cells(forms: pd.DataFrame, exclude_ids: Iterable[str] = (),
 
 
 def eligible_lemmas(forms: pd.DataFrame, cells: Sequence[str], citation_cell: str,
-                    exclude_ids: Iterable[str] = (), require_complete: bool = True) -> pd.DataFrame:
+                    exclude_ids: Iterable[str] = (), require_complete: bool = True,
+                    allow_multiword: bool = False) -> pd.DataFrame:
     """One row per eligible lemma (lemma_id, group_id, n_cells_available).
 
     A cell is available for a lemma when its variant-0 form exists, is non-missing and is
-    single-word. With ``require_complete`` every declared cell must be available; otherwise
-    the citation cell plus at least one other cell are required."""
+    single-word (multiword too with ``allow_multiword``: the cell-grid runs, whose
+    auxiliary cells are "aux + verb", DECISIONS D35). With ``require_complete`` every declared
+    cell must be available; otherwise the citation cell plus at least one other cell are
+    required."""
     cells = sorted(cells)
     if citation_cell not in cells:
         raise ValueError("the citation cell must be an eligible cell")
     v0 = _v0(forms[forms["cell_norm"].isin(cells)])
-    v0 = v0[~is_multiword_segments(v0["segments"])]
+    if not allow_multiword:
+        v0 = v0[~is_multiword_segments(v0["segments"])]
     have = v0.groupby("lemma_id")["cell_norm"].nunique()
     has_cit = set(v0.loc[v0["cell_norm"] == citation_cell, "lemma_id"])
     if require_complete:
@@ -104,7 +108,9 @@ class Exposure:
     shown: Tuple[str, ...]
     hidden: Tuple[str, ...]
 
-    def test_cells(self, citation_cell: str) -> Tuple[str, ...]:
+    def test_cells(self, citation_cell: Optional[str]) -> Tuple[str, ...]:
+        """Hidden cells that are test items. ``citation_cell=None`` (rule
+        ``include_in_test``): every hidden cell, the citation cell included."""
         return tuple(c for c in self.hidden if c != citation_cell)
 
 
@@ -128,7 +134,10 @@ def draw_exposure(master_seed: int, unit_id: str, lemma_id: str, cells: Sequence
 
 
 def build_exposure_manifest(lemmas: pd.DataFrame, cells: Sequence[str], citation_cell: str,
-                            master_seed: int, unit_id: str, max_shown: int) -> pd.DataFrame:
+                            master_seed: int, unit_id: str, max_shown: int,
+                            test_exclude: object = "citation") -> pd.DataFrame:
+    """``test_exclude``: the cell never tested ("citation" = the citation cell; None = none)."""
+    excl = citation_cell if test_exclude == "citation" else test_exclude
     rows = []
     for r in lemmas.sort_values("lemma_id").itertuples(index=False):
         e = draw_exposure(master_seed, unit_id, r.lemma_id, cells, max_shown)
@@ -136,14 +145,16 @@ def build_exposure_manifest(lemmas: pd.DataFrame, cells: Sequence[str], citation
                      "n_cells": len(cells), "k_max": k_max(len(cells), max_shown), "k": e.k,
                      "shown_cells": SEP.join(e.shown), "hidden_cells": SEP.join(e.hidden),
                      "citation_shown": citation_cell in e.shown,
-                     "n_test_cells": len(e.test_cells(citation_cell)),
+                     "n_test_cells": len(e.test_cells(excl)),
                      "exposure_seed": seedlib.derive(master_seed, "exposure", unit_id, r.lemma_id)})
     return pd.DataFrame(rows, columns=EXPOSURE_COLUMNS)
 
 
 def validate_exposure_manifest(man: pd.DataFrame, cells: Sequence[str], citation_cell: str,
-                               master_seed: int, unit_id: str, max_shown: int) -> Dict[str, object]:
+                               master_seed: int, unit_id: str, max_shown: int,
+                               test_exclude: object = "citation") -> Dict[str, object]:
     """Re-derive every draw and check the partition; returns summary counts."""
+    excl = citation_cell if test_exclude == "citation" else test_exclude
     cells = sorted(cells)
     if man["lemma_id"].duplicated().any():
         raise ExposureError("lemma listed twice in the exposure manifest")
@@ -157,7 +168,7 @@ def validate_exposure_manifest(man: pd.DataFrame, cells: Sequence[str], citation
         e = draw_exposure(master_seed, unit_id, r.lemma_id, cells, max_shown)
         if e.shown != shown or e.k != int(r.k):
             raise ExposureError(f"{r.lemma_id}: exposure draw does not re-derive from its seed")
-        if int(r.n_test_cells) != len(e.test_cells(citation_cell)):
+        if int(r.n_test_cells) != len(e.test_cells(excl)):
             raise ExposureError(f"{r.lemma_id}: n_test_cells inconsistent")
     return {"n_lemmas": len(man), "n_cells": len(cells), "k_max": km,
             "k_counts": {int(k): int(v) for k, v in man["k"].value_counts().sort_index().items()},

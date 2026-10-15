@@ -1,0 +1,220 @@
+schema_version: 2
+grid_version: G14_v1
+
+language:
+  name: "English"
+  glottocode: "stan1293"
+  iso639_3: "eng"
+  variety: "Standard English (CELEX phonemic transcription, British RP-like)"
+
+dataset:
+  resource: "mgn_custom:english-v (CELEX, phonemic, space-separated segments)"
+  representation: phon_custom
+  lemma_scope_rules:
+    exclude_multiword_lemmas: true     # phrasal/prepositional verbs such as 'abut on', 'beaver away'
+    exclude_lemma_files:
+      - analyses/cell_grid_pilot_2026_10_14/mappings/classes/eng_excluded.csv   # M7: would = preterite of will, not a lemma
+
+provenance:
+  mapped_by: "Claude Sonnet 5.5 (mapping agent, eng)"
+  date: "2026-10-14"
+  status: reviewed
+  reviewed_by: "Opus reviewer + fix round 2026-10-14"
+
+options:
+  aux_option: C
+  word_boundary: clitic_aux_separate
+  aspect_option: S-b
+  missing_forms: keep_with_reason
+
+defaults:
+  subject_gender: not_marked
+  second_person_sg: "you (one form for singular and plural, no T/V distinction)"
+  first_person_pl: not_distinguished
+  plural_reading: not_distinguished
+  object: not_indexed
+  reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slides 'English verb inflection' (paradigm of be; regular lexical verb)", locus_verified: true}
+
+grambank_check:
+  GB082: {value: "0", source: "g_HuddlestonPullum_English[127, 1596]"}
+  GB083: {value: "1", source: "g_HuddlestonPullum_English[28, 31, 137-139, 1596]"}
+  GB084: {value: "0", source: "g_HuddlestonPullum_English[127-136, 208-210, 1596]"}
+  GB086: {value: "0", source: "g_HuddlestonPullum_English[92, 124, 139-145, 162]"}
+  GB089: {value: "1", source: "g_HuddlestonPullum_English[85, 1463-1464, 1579]"}
+  GB091: {value: "1", source: "g_HuddlestonPullum_English[85, 1463-1464, 1579]"}
+  GB121: {value: "1", source: "g_HuddlestonPullum_English[116]"}
+  GB120: {value: "1", source: "g_HuddlestonPullum_English[117]"}
+  conflicts: []
+
+lexical_classes:
+  - id: modal_aux
+    membership_file: analyses/cell_grid_pilot_2026_10_14/mappings/classes/eng_modal_aux.csv
+    description: "modal auxiliaries present in the data and in scope (may, shall, must, ought); used only to label them and to declare defective cells. would is excluded (eng_excluded.csv)"
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slides on modal auxiliaries will, may, must (primary forms only; no plain form)", locus_verified: true}
+
+transforms: []
+
+defective:
+  - cells: [IMP.2SG, IMP.2PL]
+    lemmas_file: analyses/cell_grid_pilot_2026_10_14/mappings/classes/eng_modal_aux.csv
+    reason: "modal auxiliaries have no plain form, and the imperative is the plain form"
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slides on modal will/may/must (secondary forms starred) and slide with IMPERATIVE 'Be kind' under plain form", locus_verified: true}
+  - cells: [PST.1SG, PST.2SG, PST.3SG, PST.1PL, PST.2PL, PST.3PL]
+    lemmas: [must]
+    reason: "must has no preterite"
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide on modal must: 'Must is even more defective: it has no preterite'", locus_verified: true}
+  - cells: [PST.1SG, PST.2SG, PST.3SG, PST.1PL, PST.2PL, PST.3PL]
+    lemmas: [ought]
+    reason: "ought lacks a preterite (fix round: Wikipedia, English modal verbs, section Ought, reading H&P 2002)"
+    reference: {author: "Wikipedia contributors, citing Huddleston & Pullum 2002 (CGEL, pp. 108-115)", year: "2026", locus: "English modal verbs, section 'Ought': 'in lacking a preterite'; also 'As they lack preterite forms, must, ought and need'", locus_verified: true}
+  - cells: [PRS.3SG, PST.1SG, PST.2SG, PST.3SG, PST.1PL, PST.2PL, PST.3PL]
+    lemmas: [beware]
+    reason: "beware has only the plain form: no 3rd singular present and no preterite (starred in the paradigm)"
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'The defective verb beware' (3rd sing pres, gerund-participle, preterite, past participle starred)", locus_verified: true}
+  - cells: [PRS.1SG, PRS.2SG, PRS.1PL, PRS.2PL, PRS.3PL]
+    lemmas: [beware]
+    reason: "M6: Pullum's slide says beware 'seems to lack' the plain present too; Georgia Green's suggestion (warning-only use, 'I always beware of their dog') is a pragmatic hedge. IMP is kept (plain form)"
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'The defective verb beware': it 'seems to lack' the plain present; Green's hedge (I always beware of their dog)", locus_verified: true}
+
+class_exceptions:
+  - lemmas: [be]
+    cells: [PRS.1SG, PST.1SG, PST.2SG, PST.3SG, PST.1PL, PST.2PL, PST.3PL, IMP.2SG, IMP.2PL]
+    reason: "suppletive be: am (PRS.1SG) vs are; was vs were in the preterite person split; be (IMP) vs are (PRS). Every regular lexical verb has one plain form for all of these (D25/P2)"
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (paradigm of be: am/is/are, was/were, plain form be; 'Be kind' imperative)", locus_verified: true}
+
+variant_overrides: analyses/cell_grid_pilot_2026_10_14/mappings/classes/eng_variant_overrides.csv
+
+cells:
+  PRS.1SG:
+    rule: source
+    source_cell: pres1s
+    construction: "I walk (it)"
+    distinct_class: PRS.NON3SG
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (be: 1st sg am); regular verb: plain present fill", locus_verified: true}
+    confidence: high
+    competing_forms:
+      - {source_cell: presothers, reason: "identical for every verb except be (am vs are)"}
+    alternatives:
+      - {choice: "PRS.1SG its own class (am is a 1sg-specific form of be)", effect: "PRS has 3 classes, PRS.1SG formally distinct; but identical to presothers in 6063 of 6064 lemmas"}
+    notes: "Grammar-level class follows lexical verbs: only be has a dedicated 1sg present."
+  PRS.2SG:
+    rule: source
+    source_cell: presothers
+    construction: "you walk (it)"
+    distinct_class: PRS.NON3SG
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection': present am / is / are (other = are)", locus_verified: true}
+    confidence: high
+  PRS.3SG:
+    rule: source
+    source_cell: pres3s
+    construction: "he walks (it)"
+    distinct_class: PRS.3SG
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection: LEXICAL VERBS' (fills = 3rd singular present)", locus_verified: true}
+    confidence: high
+    notes: "Modals (may, shall, would, must, ought) have no -s: their pres3s equals the bare form (slide on will: no distinct 3rd singular present)."
+  PRS.1PL:
+    rule: syncretism
+    same_as: PRS.2SG
+    distinct_class: PRS.NON3SG
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (1st sg / 3rd sg / other columns)", locus_verified: true}
+    confidence: high
+  PRS.2PL:
+    rule: syncretism
+    same_as: PRS.2SG
+    distinct_class: PRS.NON3SG
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (other persons share one form)", locus_verified: true}
+    confidence: high
+  PRS.3PL:
+    rule: syncretism
+    same_as: PRS.2SG
+    distinct_class: PRS.NON3SG
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (3rd plural falls under 'other')", locus_verified: true}
+    confidence: high
+    competing_forms:
+      - {source_cell: pres3s, reason: "pres3s is the singular -s form; plural 'they' takes the plain present"}
+  PST.1SG:
+    rule: source
+    source_cell: past13
+    construction: "Yesterday I walked (it), once"
+    distinct_class: PST.ALL
+    aux_carried: false
+    reference:
+      - {author: "Purdue OWL", year: "n.d.", locus: "Active Verb Tenses, simple past 'Completed Action'", locus_verified: true}
+      - {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (preterite of be: was ~ were)", locus_verified: true}
+    confidence: high
+    competing_forms:
+      - {form: "present perfect have + ppart", reason: "R3 / grammar: perfect not used with a finished time word such as yesterday (UVic Study Zone: simple past with definite times); ppart not mapped"}
+    alternatives:
+      - {choice: "present perfect (aux have + ppart) under D1", effect: "form = ppart; auxiliary distinctions (have/has) would be aux_carried; differs from preterite for ~200 irregular verbs"}
+      - {choice: "PST.1SG/3SG and the other PST cells in separate classes (was vs were)", effect: "only be differs; PST would have 2 classes"}
+    notes: "past13 = preterite for 1st and 3rd person (differs only for be: was)."
+  PST.2SG:
+    rule: source
+    source_cell: pastnot13
+    construction: "Yesterday you walked (it), once"
+    distinct_class: PST.ALL
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (preterite: was for 1st/3rd sg, were for other)", locus_verified: true}
+    confidence: high
+  PST.3SG:
+    rule: syncretism
+    same_as: PST.1SG
+    distinct_class: PST.ALL
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (preterite: was for 1st/3rd sg, were for other)", locus_verified: true}
+    confidence: high
+  PST.1PL:
+    rule: syncretism
+    same_as: PST.2SG
+    distinct_class: PST.ALL
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (preterite: were for plural)", locus_verified: true}
+    confidence: high
+  PST.2PL:
+    rule: syncretism
+    same_as: PST.2SG
+    distinct_class: PST.ALL
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (preterite: were for plural)", locus_verified: true}
+    confidence: high
+  PST.3PL:
+    rule: syncretism
+    same_as: PST.2SG
+    distinct_class: PST.ALL
+    aux_carried: false
+    reference: {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection' (preterite: were for plural)", locus_verified: true}
+    confidence: high
+  IMP.2SG:
+    rule: source
+    source_cell: inf
+    construction: "Walk (it)!"
+    distinct_class: PRS.NON3SG
+    aux_carried: false
+    reference:
+      - {author: "Pullum (Edinburgh course slides based on Huddleston & Pullum 2002)", year: "n.d.", locus: "slide 'English verb inflection: LEXICAL VERBS' (IMPERATIVE: Be kind, plain form)", locus_verified: true}
+      - {author: "Wikipedia contributors", year: "2026", locus: "Imperative mood, Formation (bare form, matches 2nd person present except be)", locus_verified: true}
+    confidence: high
+    competing_forms:
+      - {source_cell: presothers, reason: "identical for all verbs except be (are vs be); imperative is the plain form, not the present"}
+      - {source_cell: LEMMA, reason: "LEMMA is orthographic; the dataset is phonemic; inf is the phonemic plain form"}
+    alternatives:
+      - {choice: "IMP in its own class IMP.2 (fix round: D25 moved it into PRS.NON3SG, be is a class_exception)", effect: "IMP would be formally distinct from PRS but identical in all lemmas but be; the 10 identity warnings return"}
+  IMP.2PL:
+    rule: syncretism
+    same_as: IMP.2SG
+    distinct_class: PRS.NON3SG
+    aux_carried: false
+    reference:
+      - {author: "UVic English Language Centre Study Zone", year: "n.d.", locus: "Imperatives: 'same for singular and plural subjects'", locus_verified: true}
+      - {author: "Wikipedia contributors", year: "2026", locus: "Imperative mood, Formation (no indication of singular or plural)", locus_verified: true}
+    confidence: high
+
+open_issues:
+  - "CELEX lemma list lacks can, will, could, might, should, need and used, and also the frequent lexical verbs need, seem, show, wait, die, raise (known limitation of the dataset, D24; no action). Present modals in scope: may, shall, must, ought. would is excluded (preterite of will)."
+  - "Variant order: set per lemma in classes/eng_variant_overrides.csv (see notes J7); ties between regional pairs (burned/burnt) and abide, betide, stavein now follow Wiktionary / the Wikipedia irregular-verb table; grit PST is overridden to gritted (M8)."

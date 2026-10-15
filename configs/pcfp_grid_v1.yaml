@@ -1,0 +1,116 @@
+# Paradigm cell filling (PCFP) on the universal verb-cell grid G14 (cell-grid pilot,
+# analyses/cell_grid_pilot_2026_10_14). Five languages, 15 cells each: the 14 active grid
+# cells plus the citation form (NFIN).
+#
+# Same task, exposure rule, LDL protocol, tuning and repeated-random design as
+# configs/pcfp_v2.yaml (100 core + 100 extra verbs per fit; 5 folds x 5 draws), except:
+#   * input: the filled grids written by `gridtools.py check` (adapter `grid`), option-B forms:
+#     auxiliary-carried cells are "auxiliary + lexical verb" (DECISIONS D35);
+#   * the citation cell is an ordinary cell: shown or hidden, and tested when hidden (D36);
+#   * multiword forms are allowed (option B), so the cell rule admits every grid cell;
+#   * inventory 650 per language (Armenian has 855 complete grids, and the 200 tuning verbs
+#     must lie outside the inventory), so every language is sampled from the same-size pool;
+#   * no registry, GeLaTo, outcomes or typology stages: this run reads no population or
+#     ancestry file (pilot rule).
+# Status: exploratory (D33). The grid mappings are `reviewed`, not approved, and were not
+# frozen by a commit before this run.
+
+experiment:
+  id: pcfp_grid_v1
+  master_seed: 20261015
+  description: >
+    Paradigm cell filling on a fixed cross-linguistic grid of 14 verb cells plus the citation
+    form: every verb is known from k shown forms (k ~ U{1..7}, drawn once per verb) and LDL
+    fills its hidden cells. Fixed core verbs per fold carry the test items; each of several
+    independent random draws of extra verbs completes the training sample of every fold.
+
+paths:
+  repo_root: .
+  mgn_data: mgn_data/data
+  mgn_custom: mgn_data/data-custom
+  gelato_audit: analyses/gelato_feasibility_2026_10_01
+  outputs: outputs
+  external: external
+
+data:
+  registry_and_gelato: false          # the grid run writes forms, lemmas and eligibility only
+
+resources:
+  ingest:                             # outputs of `gridtools.py check <iso>` (run it first)
+    - {adapter: grid, file: outputs/cell_grid_pilot/ita_grid.csv, iso: ita, pos: V, representation: orth, form: b}
+    - {adapter: grid, file: outputs/cell_grid_pilot/fin_grid.csv, iso: fin, pos: V, representation: orth, form: b}
+    - {adapter: grid, file: outputs/cell_grid_pilot/eng_grid.csv, iso: eng, pos: V, representation: phon_custom, form: b}
+    - {adapter: grid, file: outputs/cell_grid_pilot/hye_grid.csv, iso: hye, pos: V, representation: orth, form: b}
+    - {adapter: grid, file: outputs/cell_grid_pilot/hbs_grid.csv, iso: hbs, pos: V, representation: orth, form: b}
+
+task:
+  name: pcfp
+  cell_rule:
+    max_multiword_share: 1.0          # option B: auxiliary cells are multiword by design
+  eligibility:
+    exclude_derived_paradigms: false  # lemma scope is set by the grid mappings (R8, D29)
+    require_complete_paradigm: true   # all 15 cells non-missing at variant 0
+    allow_multiword: true
+  exposure:
+    max_shown: 7
+    k_distribution: uniform
+    shown_cells: uniform_without_replacement
+  citation_cell_rule: include_in_test # D36: the citation form is a cell like any other
+  variant_policy: first_for_training_any_for_eval
+
+units:
+  - {unit_id: ita.V.orth.grid, resource_id: "grid:ita_grid", role: substantive, citation_cell: NFIN, cells: &grid15
+      ['1;IND;PL;PRS', '1;IND;PL;PST', '1;IND;PRS;SG', '1;IND;PST;SG', '2;IMP;PL', '2;IMP;SG',
+       '2;IND;PL;PRS', '2;IND;PL;PST', '2;IND;PRS;SG', '2;IND;PST;SG', '3;IND;PL;PRS', '3;IND;PL;PST',
+       '3;IND;PRS;SG', '3;IND;PST;SG', 'NFIN']}
+  - {unit_id: fin.V.orth.grid, resource_id: "grid:fin_grid", role: substantive, citation_cell: NFIN, cells: *grid15}
+  - {unit_id: eng.V.phon_custom.grid, resource_id: "grid:eng_grid", role: substantive, citation_cell: NFIN, cells: *grid15}
+  - {unit_id: hye.V.orth.grid, resource_id: "grid:hye_grid", role: substantive, citation_cell: NFIN, cells: *grid15}
+  - {unit_id: hbs.V.orth.grid, resource_id: "grid:hbs_grid", role: substantive, citation_cell: NFIN, cells: *grid15}
+
+cv:
+  design: repeated_random
+  inventory_size: 650                 # 5 x 100 core + 150 non-core (random draws of 100 overlap)
+  n_folds: 5
+  core_size: 100
+  random_size: 100
+  repetitions: [0, 1, 2, 3, 4]
+  semantic_seed_scope: fold
+  dev_size: 0
+  seed_size: 0
+
+ldl:                                  # as pcfp_v2
+  cue_ngram: 2
+  sem_sd_inflection: 0.4
+  tune:
+    grid: {cue_ngram: [2, 3], sem_sd_inflection: [0.4, 1.0, 2.0, 4.0]}
+    boundary_rule: >
+      if the chosen sem_sd_inflection is at an edge of the grid, the grid is extended one step
+      outward (0.1 below, 10.0 above) and the stage is re-run before any outer-test fit
+    fold: -1
+    repetition: 0
+    core_size: 100
+    extra_size: 100
+    criterion: mean_heldout_accuracy_over_units
+  boundary: "#"
+  sem_dim: 1000
+  sem_sd_lexeme: 4.0
+  sem_sd_noise: 1.0
+  sem_isdeep: false
+  ridge_shift: 0.02
+  adjacency: full
+  decoder: learn_paths
+  threshold: 0.05
+  tolerance: false
+  max_can: 10
+  max_t_margin: 4
+  predict_chunk: 400
+  n_procs: 8
+
+evaluation:
+  bootstrap_reps: 2000
+  ci_level: 0.95
+
+limits:
+  max_threads: 8
+  julia_threads: 1

@@ -1,0 +1,10 @@
+source_cell,n_lemmas,share_multiword,examples
+LEMMA,6064,0.0,French-polish: French-polish || abandon: abandon || abase: abase
+inf,6064,0.0,French-polish: f r ɛ n t ʃ p ɒ l ɪ ʃ || abandon: ɛ b æ n d ɛ n || abase: ɛ b eˑɪ s
+pres1s,6064,0.0,French-polish: f r ɛ n t ʃ p ɒ l ɪ ʃ || abandon: ɛ b æ n d ɛ n || abase: ɛ b eˑɪ s
+presothers,6064,0.0,French-polish: f r ɛ n t ʃ p ɒ l ɪ ʃ || abandon: ɛ b æ n d ɛ n || abase: ɛ b eˑɪ s
+pres3s,6062,0.0,French-polish: f r ɛ n t ʃ p ɒ l ɪ ʃ ɪ z || abandon: ɛ b æ n d ɛ n z || abase: ɛ b eˑɪ s ɪ z
+past13,6059,0.0,French-polish: f r ɛ n t ʃ p ɒ l ɪ ʃ t || abandon: ɛ b æ n d ɛ n d || abase: ɛ b eˑɪ s t
+pastnot13,6059,0.0,French-polish: f r ɛ n t ʃ p ɒ l ɪ ʃ t || abandon: ɛ b æ n d ɛ n d || abase: ɛ b eˑɪ s t
+prespart,6057,0.0,French-polish: f r ɛ n t ʃ p ɒ l ɪ ʃ ɪ ŋ || abandon: ɛ b æ n d ɛ n ɪ ŋ || abase: ɛ b eˑɪ s ɪ ŋ
+ppart,6055,0.0,French-polish: f r ɛ n t ʃ p ɒ l ɪ ʃ t || abandon: ɛ b æ n d ɛ n d || abase: ɛ b eˑɪ s t

@@ -191,8 +191,44 @@ def paralex_cell_map(dataset_dir: Path, cells_file="cells.csv",
     return cmap
 
 
+# --------------------------------------------------------------------------
+# grid: filled cell grids of the cell-grid pilot (analyses/cell_grid_pilot_2026_10_14)
+# --------------------------------------------------------------------------
+
+GRID_FILE = Path(__file__).resolve().parents[2] / "analyses" / "cell_grid_pilot_2026_10_14" / "grid.csv"
+
+
+def read_grid(path: Path, form: str = "b", drop_cells=()) -> pd.DataFrame:
+    """`gridtools.py check` output: one row per lemma x grid cell (plus the NFIN citation row).
+
+    `form` picks the representation of auxiliary-carried cells: "b" = auxiliary + lexical
+    verb (`form_b`, DECISIONS D35), "c" = the lexical verb alone (`form`). `drop_cells` (grid
+    cell ids) leaves cells out entirely (the "gaps" sensitivity run). Grid cell ids are
+    replaced by their UniMorph features from grid.csv, so the simulated semantics share
+    features across cells. Empty cells (data_gap, defective) are missing."""
+    if form not in ("b", "c"):
+        raise ValueError(f"grid form must be 'b' or 'c', got {form!r}")
+    feats = {r["cell_id"]: r["unimorph_features"] for r in read_text_csv(GRID_FILE).to_dict("records")}
+    feats["NFIN"] = "NFIN"
+    df = read_text_csv(path)
+    df = df[~df["grid_cell"].isin(set(drop_cells))]
+    fcol, vcol = ("form_b", "variants_b") if form == "b" else ("form", "variants")
+    unknown = set(df["grid_cell"]) - set(feats)
+    if unknown:
+        raise ValueError(f"{path}: grid cells not in grid.csv: {sorted(unknown)}")
+    rows = []
+    for i, r in enumerate(df.to_dict("records"), start=2):
+        vs = [r[fcol]] + [v for v in str(r[vcol]).split("|") if v] if r[fcol] else []
+        miss = not vs
+        for j, v in enumerate(vs or [""]):
+            rows.append({"lemma_label": r["lemma"], "lemma_occurrence": 1, "cell_orig": feats[r["grid_cell"]],
+                         "form_orig": r[fcol], "variant_idx": j, "n_variants": len(vs), "variant_raw": v,
+                         "is_missing": miss, "source_file": str(path), "source_row": i, "pos_hint": "V"})
+    return _finish(pd.DataFrame(rows))
+
+
 ADAPTERS = {"mgn_wide": read_mgn_wide, "mgn_long": read_mgn_long, "unimorph": read_unimorph,
-            "paralex": read_paralex}
+            "paralex": read_paralex, "grid": read_grid}
 
 
 # --------------------------------------------------------------------------

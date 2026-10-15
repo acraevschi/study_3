@@ -208,8 +208,26 @@ def frozen_ldl_settings(cfg: dict) -> dict:
     return {k: v for k, v in d.items() if k in cfg["ldl"]["tune"]["grid"]}
 
 
-def _citation(cfg: dict, unit: dict) -> str:
-    return unit_cells(unit, cfg)["citation"]
+def _citation(cfg: dict, unit: dict) -> Optional[str]:
+    """The cell excluded from the test items: the citation cell under ``citation_cell_rule:
+    exclude_from_test`` (default), none under ``include_in_test`` (the cell-grid runs, D36:
+    the citation form is shown or hidden like every other cell)."""
+    rule = cfg["task"].get("citation_cell_rule", "exclude_from_test")
+    if rule not in ("exclude_from_test", "include_in_test"):
+        raise ValueError(f"task.citation_cell_rule must be exclude_from_test or include_in_test, got {rule!r}")
+    return unit_cells(unit, cfg)["citation"] if rule == "exclude_from_test" else None
+
+
+def _citation_segments(forms: pd.DataFrame, citation_cell: str, labels: Dict[str, str],
+                       lids) -> Dict[str, str]:
+    """Segments of each verb's citation form, for the copy-rate report. Orthographic units
+    use the lemma label (as before); others (phonemic) use the citation cell's variant 0."""
+    rep = str(forms["representation"].iloc[0])
+    if rep == "orth":
+        return {l: pcfp.citation_segments(labels[l], rep) for l in lids}
+    v0 = forms[(forms["cell_norm"] == citation_cell) & (forms["variant_idx"] == 0) & ~forms["is_missing"]]
+    seg = dict(zip(v0["lemma_id"], v0["segments"]))
+    return {l: seg.get(l, "") for l in lids}
 
 
 def _write_gold(forms: pd.DataFrame, queries: pd.DataFrame, path: Path) -> Path:
@@ -249,13 +267,15 @@ def stage_splits(cfg: dict, units=None, folds=None, policies=None) -> None:
                                    f"missing {sorted(set(data_cells) - set(uc['eligible']))}, "
                                    f"extra {sorted(set(uc['eligible']) - set(data_cells))}")
             lem = pcfp.eligible_lemmas(forms, uc["eligible"], uc["citation"], excl,
-                                       bool(t["eligibility"].get("require_complete_paradigm", True)))
+                                       bool(t["eligibility"].get("require_complete_paradigm", True)),
+                                       bool(t["eligibility"].get("allow_multiword", False)))
             lem.to_csv(udir / "eligible_lemmas.csv", index=False)
             em = pcfp.build_exposure_manifest(lem, uc["eligible"], uc["citation"], master, uid,
-                                              int(t["exposure"]["max_shown"]))
+                                              int(t["exposure"]["max_shown"]), _citation(cfg, unit))
             em.to_csv(exposure_path(cfg, uid), index=False)
             expo[uid] = pcfp.validate_exposure_manifest(pd.read_csv(exposure_path(cfg, uid)), uc["eligible"],
-                                                        uc["citation"], master, uid, int(t["exposure"]["max_shown"]))
+                                                        uc["citation"], master, uid, int(t["exposure"]["max_shown"]),
+                                                        _citation(cfg, unit))
             rec.inputs += [exposure_path(cfg, uid), udir / "cell_inventory.csv"]
             for rep in cfg["cv"]["repetitions"]:
                 man = (splits.build_random_manifest(lem, cfg, uid, int(rep)) if _random_design(cfg)
@@ -726,8 +746,7 @@ def stage_evaluate(cfg: dict, units=None, folds=None, policies=None) -> None:
                             items["n_test_cells"] = items["lemma_id"].map(em["n_test_cells"]).astype(int)
                             shown = _shown_segments(forms, expo, lids)
                             labs = pcfp.lemma_labels(forms, lids)
-                            cit_seg = {l: pcfp.citation_segments(labs[l], str(forms["representation"].iloc[0]))
-                                       for l in lids}
+                            cit_seg = _citation_segments(forms, unit_cells(unit, cfg)["citation"], labs, lids)
                             items["pred_equals_shown_form"] = [p != "" and p in shown.get(l, set())
                                                                for l, p in zip(items["lemma_id"], items["prediction"])]
                             items["pred_equals_citation"] = [p != "" and p == cit_seg[l]
@@ -845,7 +864,8 @@ def audit_unit(cfg: dict, unit: dict, folds=None, policies=None) -> tuple:
     master = int(cfg["experiment"]["master_seed"])
     em = pd.read_csv(exposure_path(cfg, uid))
     try:
-        pcfp.validate_exposure_manifest(em, uc["eligible"], cit, master, uid, int(cfg["task"]["exposure"]["max_shown"]))
+        pcfp.validate_exposure_manifest(em, uc["eligible"], cit, master, uid, int(cfg["task"]["exposure"]["max_shown"]),
+                                        _citation(cfg, unit))
     except pcfp.ExposureError as err:
         problems.append(f"{uid}: exposure manifest: {err}")
     expo = pcfp.exposure_from_frame(em)
@@ -867,7 +887,8 @@ def audit_unit(cfg: dict, unit: dict, folds=None, policies=None) -> tuple:
             core_groups = {group_of[l] for l in core}
             if _random_design(cfg):
                 core_by_rep.setdefault(rep, {})[k] = frozenset(core)
-                checks_, probs_ = _audit_random_fold(cfg, uid, rep, k, man, full, expo, shown_pairs, cit)
+                checks_, probs_ = _audit_random_fold(cfg, uid, rep, k, man, full, expo, shown_pairs,
+                                                     _citation(cfg, unit))
                 checks += checks_; problems += probs_
                 continue
             seeds_seen = {}
@@ -979,7 +1000,7 @@ def audit_unit(cfg: dict, unit: dict, folds=None, policies=None) -> tuple:
 
 
 def _audit_random_fold(cfg: dict, uid: str, rep: int, k: int, man: pd.DataFrame, full: Dict[str, List[str]],
-                       expo: Dict[str, pcfp.Exposure], shown_pairs: set, cit: str) -> tuple:
+                       expo: Dict[str, pcfp.Exposure], shown_pairs: set, cit: Optional[str]) -> tuple:
     """Repeated-random design: one (draw, fold) training sample and its queries."""
     checks, problems = [], []
     core, rnd = set(full["core"]), full["random"]
@@ -1022,7 +1043,7 @@ def _audit_random_fold(cfg: dict, uid: str, rep: int, k: int, man: pd.DataFrame,
                 if not set(q.columns) <= {"lemma_id", "target_cell", "item_set"} or set(q["item_set"]) != {"core"}:
                     problems.append(f"{tag} budget {b}: query columns or item sets {list(q.columns)}")
                 if set(zip(q["lemma_id"], q["target_cell"])) != {p for p in core_hidden if p[1] != cit}:
-                    problems.append(f"{tag} budget {b}: queries != hidden non-citation cells of core verbs")
+                    problems.append(f"{tag} budget {b}: queries != hidden test cells of core verbs")
                 if set(zip(q["lemma_id"], q["target_cell"])) & shown_pairs:
                     problems.append(f"{tag} budget {b}: a query asks for a shown cell")
             checks.append((uid, rep, k, policy, cap, b))

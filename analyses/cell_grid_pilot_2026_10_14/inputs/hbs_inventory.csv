@@ -1,0 +1,56 @@
+source_cell,n_lemmas,share_multiword,examples
+LEMMA,3999,0.0,gravitirati: gravitirati || grditi: grditi || grebati: grebati
+COND;PST;1;PL,3996,1.0,gravitirati: bili bismo gravitirali || grditi: bili bismo grdili || grebati: bili bismo grebali
+COND;PST;2;PL,3996,1.0,gravitirati: bili biste gravitirali || grditi: bili biste grdili || grebati: bili biste grebali
+COND;PST;3;PL,3996,1.0,gravitirati: bili bi gravitirali || grditi: bili bi grdili || grebati: bili bi grebali
+COND;PST;1;SG,3995,1.0,gravitirati: bio bih gravitirao || grditi: bio bih grdio || grebati: bio bih grebao
+COND;PST;3;SG,3995,1.0,gravitirati: bio bi gravitirao || grditi: bio bi grdio || grebati: bio bi grebao
+FUT;1;PL;LGSPEC1,3995,1.0,gravitirati: budemo gravitirali || grditi: budemo grdili || grebati: budemo grebali
+FUT;1;SG;LGSPEC1,3995,1.0,gravitirati: budem gravitirao || grditi: budem grdio || grebati: budem grebao
+FUT;2;PL;LGSPEC1,3995,1.0,gravitirati: budete gravitirali || grditi: budete grdili || grebati: budete grebali
+FUT;2;SG;LGSPEC1,3995,1.0,gravitirati: budeš gravitirao || grditi: budeš grdio || grebati: budeš grebao
+FUT;3;PL;LGSPEC1,3995,1.0,gravitirati: budu gravitirali || grditi: budu grdili || grebati: budu grebali
+FUT;3;SG;LGSPEC1,3995,1.0,gravitirati: bude gravitirao || grditi: bude grdio || grebati: bude grebao
+PRF;PST;1;PL,3995,1.0,gravitirati: bili smo gravitirali || grditi: bili smo grdili || grebati: bili smo grebali
+PRF;PST;1;SG,3995,1.0,gravitirati: bio sam gravitirao || grditi: bio sam grdio || grebati: bio sam grebao
+PRF;PST;2;PL,3995,1.0,gravitirati: bili ste gravitirali || grditi: bili ste grdili || grebati: bili ste grebali
+PRF;PST;2;SG,3995,1.0,gravitirati: bio si gravitirao || grditi: bio si grdio || grebati: bio si grebao
+PRF;PST;3;PL,3995,1.0,gravitirati: bili su gravitirali || grditi: bili su grdili || grebati: bili su grebali
+PRF;PST;3;SG,3995,1.0,gravitirati: bio je gravitirao || grditi: bio je grdio || grebati: bio je grebao
+COND;1;PL,3993,0.925,gravitirati: gravitirali bismo || grditi: grdili bismo || grebati: grebali bismo
+PST;1;PL,3993,0.992,gravitirati: gravitirali smo || grditi: grdili smo || grebati: grebali smo
+PST;2;PL,3993,0.992,gravitirati: gravitirali ste || grditi: grdili ste || grebati: grebali ste
+PST;3;PL,3993,0.992,gravitirati: gravitirali su || grditi: grdili su || grebati: grebali su
+COND;1;SG,3992,0.924,gravitirati: gravitirao bih || grditi: grdio bih || grebati: grebao bih
+COND;2;PL,3992,0.925,gravitirati: gravitirali biste || grditi: grdili biste || grebati: grebali biste
+COND;2;SG,3992,0.924,gravitirati: gravitirao bi || grditi: grdio bi || grebati: grebao bi
+COND;3;PL,3992,0.925,gravitirati: gravitirali bi || grditi: grdili bi || grebati: grebali bi
+PST;1;SG,3992,0.991,gravitirati: gravitirao sam || grditi: grdio sam || grebati: grebao sam
+PST;2;SG,3992,0.991,gravitirati: gravitirao si || grditi: grdio si || grebati: grebao si
+PST;3;SG,3992,0.991,gravitirati: gravitirao je || grditi: grdio je || grebati: grebao je
+FUT;1;PL,3987,0.999,gravitirati: gravitirat ćemo || grditi: grdit ćemo || grebati: grebat ćemo
+FUT;1;SG,3987,0.999,gravitirati: gravitirat ću || grditi: grdit ću || grebati: grebat ću
+FUT;2;PL,3987,0.999,gravitirati: gravitirat ćete || grditi: grdit ćete || grebati: grebat ćete
+FUT;2;SG,3987,0.999,gravitirati: gravitirat ćeš || grditi: grdit ćeš || grebati: grebat ćeš
+FUT;3;SG,3987,0.999,gravitirati: gravitirat će || grditi: grdit će || grebati: grebat će
+PRS;2;PL,3984,0.0,gravitirati: gravitirate || grditi: grdite || grebati: grebete
+IMP;2;PL,3983,0.067,gravitirati: gravitirajte || grditi: grdite || grebati: grebite
+PRS;1;PL,3983,0.0,gravitirati: gravitiramo || grditi: grdimo || grebati: grebemo
+PRS;2;SG,3983,0.0,gravitirati: gravitiraš || grditi: grdiš || grebati: grebeš
+PRS;3;PL,3983,0.0,gravitirati: gravitiraju || grditi: grde || grebati: grebeu
+PRS;3;SG,3983,0.0,gravitirati: gravitira || grditi: grdi || grebati: grebe
+IMP;1;PL,3982,0.067,gravitirati: gravitirajmo || grditi: grdimo || grebati: grebimo
+IMP;2;SG,3982,0.067,gravitirati: gravitiraj || grditi: grdi || grebati: grebi
+PRS;1;SG,3982,0.0,gravitirati: gravitiram || grditi: grdim || grebati: grebem
+PROG;PST;1;SG,3022,0.0,grditi: grđah || grebati: grebah || grejati: grejah
+PROG;PST;2;SG,3018,0.0,grditi: grđaše || grebati: grebaše || grejati: grejaše
+PROG;PST;1;PL,3017,0.0,grditi: grđasmo || grebati: grebasmo || grejati: grejasmo
+PROG;PST;2;PL,3017,0.0,grditi: grđaste || grebati: grebaste || grejati: grejaste
+PROG;PST;3;PL,3017,0.0,grditi: grđahu || grebati: grebahu || grejati: grejahu
+PROG;PST;3;SG,3017,0.0,grditi: grđaše || grebati: grebaše || grejati: grejaše
+PST;1;PL;LGSPEC2,956,0.0,gravitirati: gravitirasmo || grmjeti: grmljasmo || grnuti: grnusmo
+PST;1;SG;LGSPEC2,956,0.0,gravitirati: gravitirah || grmjeti: grmljah || grnuti: grnuh
+PST;2;SG;LGSPEC2,956,0.0,gravitirati: gravitiraše || grmjeti: grmljaše || grnuti: grnu
+PST;3;SG;LGSPEC2,956,0.0,gravitirati: gravitiraše || grmjeti: grmljaše || grnuti: grnu
+PST;2;PL;LGSPEC2,955,0.0,gravitirati: gravitiraste || grmjeti: grmljaste || grnuti: grnuste
+PST;3;PL;LGSPEC2,954,0.0,gravitirati: gravitirahu || grmjeti: grmljahu || grnuti: grnuše

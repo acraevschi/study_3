@@ -1,0 +1,11 @@
+dataset,lemmas,complete,complete_single_word_lemma,multiword_share_of_needed_forms,absent_source_cells,n_needed_cells
+ita (MGN ita-v),10009,9975,9975,0.2,,20
+"ita (UniMorph ita, + past participle)",10009,9964,9964,0.18,,15
+fin (MGN fin-v),7724,7724,7597,0.01,,14
+eng (MGN data-custom english-v),6064,6059,5935,0.0,,6
+hin (MGN hin-v),258,258,173,0.6,,10
+hye (MGN hye-v),903,903,903,0.55,,22
+hbs (MGN hbs-v),4348,4324,4324,0.58,,19
+bul (MGN bul-v; 1SG PRS = lexeme),699,698,669,0.04,,12
+ces (MGN ces-v),500,0,0,0.0,,16
+slv (MGN slv-v),104,103,101,0.2,,10

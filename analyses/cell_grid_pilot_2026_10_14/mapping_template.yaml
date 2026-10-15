@@ -1,0 +1,162 @@
+# Cell-grid mapping file: TEMPLATE (version 2, 2026-10-14; G14 after DECISIONS.md D1-D8)
+#
+# One file per language: analyses/cell_grid_pilot_2026_10_14/mappings/<iso>.yaml.
+# It maps the 14 active grid cells (grid.csv, status "active") to source cells of the
+# language's dataset, following SPEC.md §4 as amended by DECISIONS.md. Mappings are made
+# at paradigm level, from grammars, never from corpora.
+# Validate and apply:  .venv/bin/python analyses/cell_grid_pilot_2026_10_14/gridtools.py check <iso>
+#
+# Values in "<angle brackets>" are placeholders. Lines starting with "# e.g." show a shape;
+# they are not mappings of any language.
+
+schema_version: 2
+grid_version: G14_v1            # required value; the checker refuses anything else
+
+language:
+  name: "<name>"
+  glottocode: "<glottocode>"
+  iso639_3: "<iso>"
+  variety: "<standard variety mapped>"
+
+dataset:
+  resource: "<as in gridtools.LANGS[iso]['resource']>"
+  representation: "<orth | phon_custom>"
+  lemma_scope_rules:            # applied by the checker (R8)
+    exclude_multiword_lemmas: true
+    exclude_lemma_files: []     # repo-relative CSVs with a "lemma" column, each explained in notes
+
+provenance:
+  mapped_by: "<agent id / model, or name>"
+  date: "<YYYY-MM-DD>"
+  status: draft                 # draft | reviewed | approved
+  reviewed_by: null
+
+options:                        # fixed by DECISIONS.md; copy as is
+  aux_option: C                 # D1
+  word_boundary: clitic_aux_separate   # D2
+  aspect_option: S-b            # all lemmas, each with its own forms (Slavic)
+  missing_forms: keep_with_reason      # D8
+
+defaults:                       # how the language realises SPEC §3 conventions
+  subject_gender: "<value or not_marked>"
+  second_person_sg: "<form/register used>"
+  first_person_pl: "<exclusive | inclusive | not_distinguished>"
+  plural_reading: "<plural | not_distinguished>"
+  object: "<not_indexed | ...>"
+  reference: {author: "<author>", year: "<year>", locus: "<section or pages>", locus_verified: false}
+
+grambank_check:                 # copy value and Source from external/grambank/cldf/values.csv
+  GB082: {value: "<0|1|?>", source: "<...>"}
+  GB083: {value: "<0|1|?>", source: "<...>"}
+  GB084: {value: "<0|1|?>", source: "<...>"}
+  GB086: {value: "<0|1|?>", source: "<...>"}
+  GB089: {value: "<0|1|?>", source: "<...>"}
+  GB091: {value: "<0|1|?>", source: "<...>"}
+  GB121: {value: "<0|1|?>", source: "<...>"}
+  GB120: {value: "<0|1|?>", source: "<...>"}
+  conflicts: []                 # each mapping that contradicts a coding, with the reason
+
+lexical_classes: []             # classes whose mapping differs (R1); first matching class wins
+# e.g.
+#  - id: aux_essere
+#    membership_file: outputs/cell_grid_pilot/inputs/ita_aux_essere.csv   # CSV, column "lemma"
+#    description: "verbs selecting essere"
+#    reference: {author: "<author>", year: "<year>", locus: "<section>", locus_verified: false}
+
+transforms: []                  # declared rules removing material that is not the grid form (R7, D1, D2)
+# types:  drop_tokens {tokens: [...]}  removes listed space-separated tokens
+#         keep_token  {index: 0}       keeps one token (0 = first, -1 = last)
+#         regex       {pattern, repl}  Python re.sub on the whole form
+#         strip_marks {codepoints: ["0300", ...], protect: ["ć", ...]}  removes combining
+#                     marks (NFD), keeping the protected letters (D32)
+# e.g.
+#  - id: strip_present_aux
+#    type: drop_tokens
+#    tokens: ["<aux form 1>", "<aux form 2>"]
+#    reference: {author: "<author>", year: "<year>", locus: "<section>", locus_verified: false}
+
+defective: []                   # D8/P5: cells a cited grammar says do not exist (reference required)
+# e.g.
+#  - cells: [PRS.1SG, PRS.2SG]
+#    lemmas_file: "<repo-relative CSV, column lemma>"    # or  lemmas: [..]
+#    reason: "impersonal verbs"
+#    reference: {author: "<author>", year: "<year>", locus: "<section>", locus_verified: false}
+
+data_gaps: []                   # forms present in the data but known to be wrong (mislabelled):
+# e.g.                            the cells become empty with na_reason data_gap
+#  - cells: [IMP.2SG, IMP.2PL]
+#    lemmas_file: "<repo-relative CSV, column lemma>"
+#    reason: "IMP columns hold past conditionals"
+
+class_exceptions: []            # P2/D25: at most 10 irregular lemmas that do not break a grammar
+# e.g.                            identity; the identity checks ignore them
+#  - lemmas: [be]
+#    cells: [IMP.2SG, PRS.1SG]
+#    reason: "suppletive be"
+#    reference: {author: "<author>", year: "<year>", locus: "<section>", locus_verified: false}
+
+variant_overrides: null         # optional CSV with columns lemma, grid_cell, form: that variant
+                                # is put first (must be one of the data's variants)
+
+cells:
+  # One entry for each of the 14 active grid cells. Required fields:
+  #   rule:            source | syncretism | main_verb | restored
+  #                    source     = a source cell's form, used as is (optionally with a transform)
+  #                    syncretism = same form as another grid cell (same_as), by grammar (R4)
+  #                    main_verb  = periphrastic meaning: the lexical verb's form in the
+  #                                 construction (R2, D1); usually with a transform
+  #                    restored   = a cell the dataset dropped as a lexicon-wide duplicate (R4)
+  #   source_cell:     label exactly as in inputs/<iso>_inventory.csv (source / main_verb)
+  #   same_as:         another active grid cell (syncretism / restored)
+  #   distinct_class:  syncretism-class id (R6). Cells with the same id share their form;
+  #                    under D1 cells differing only in the auxiliary get different ids
+  #   aux_carried:     true if an auxiliary (dropped by D1) carries a distinction of this cell
+  #   reference:       {author, year, locus, locus_verified: true|false}, or a list of them.
+  #                    locus_verified is true only if the page/section was actually seen
+  #   confidence:      high | medium | low
+  # Optional:
+  #   construction:    the verb phrase used in the context sentence, in the language
+  #   transform:       id from `transforms`, or a list of ids applied in order (D32)
+  #   aux:             the auxiliary of the construction (D1, P1/D26), e.g. "ho"; also allowed
+  #                    inside by_class. Without it an aux-carried cell counts as having its own
+  #   by_class:        {class_id: {source_cell: .., transform: ..}} overrides
+  #   competing_forms: [{form or source_cell, reason, reference}]  forms rejected under R3
+  #   variant_rule:    {prefer: <regex>, avoid: <regex>}  orders a cell's variants (R3);
+  #                    data order is kept within ties; the first variant becomes the grid form
+  #   alternatives:    [{choice, effect}]  rejected judgement calls kept for sensitivity
+  #   notes:           free text
+  PRS.1SG:
+    rule: "<rule>"
+    source_cell: "<label>"
+    construction: "<...>"
+    distinct_class: "<id>"
+    aux_carried: false
+    reference: {author: "<author>", year: "<year>", locus: "<section or pages>", locus_verified: false}
+    confidence: "<high|medium|low>"
+  # e.g. a main-verb cell with a class override:
+  # PST.1PL:
+  #   rule: main_verb
+  #   source_cell: "<singular participle label>"
+  #   by_class: {aux_essere: {source_cell: "<plural participle label>"}}
+  #   construction: "<aux> <participle>"
+  #   distinct_class: PST.1PL
+  #   aux_carried: true
+  #   competing_forms: [{source_cell: "<synthetic past>", reason: "R3: ...", reference: {...}}]
+  #   alternatives: [{choice: "synthetic past", effect: "PST becomes 6 classes"}]
+  # e.g. a syncretism cell:
+  # PRS.2PL: {rule: syncretism, same_as: PRS.1PL, distinct_class: PRS.PL, aux_carried: false, ...}
+  PRS.2SG: {}
+  PRS.3SG: {}
+  PRS.1PL: {}
+  PRS.2PL: {}
+  PRS.3PL: {}
+  PST.1SG: {}
+  PST.2SG: {}
+  PST.3SG: {}
+  PST.1PL: {}
+  PST.2PL: {}
+  PST.3PL: {}
+  IMP.2SG: {}
+  IMP.2PL: {}
+
+open_issues: []                 # anything that needs the owner's decision

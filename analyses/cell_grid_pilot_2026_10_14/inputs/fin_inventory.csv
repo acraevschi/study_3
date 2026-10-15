@@ -1,0 +1,139 @@
+source_cell,n_lemmas,share_multiword,examples
+ACT;PRS;NEG;COND;1;PL,7724,1.0,aakkostaa: emme aakkostaisi || ääkköstää: emme ääkköstäisi || aallota: emme aaltoaisi
+ACT;PRS;NEG;COND;1;SG,7724,1.0,aakkostaa: en aakkostaisi || ääkköstää: en ääkköstäisi || aallota: en aaltoaisi
+ACT;PRS;NEG;COND;2;PL,7724,1.0,aakkostaa: ette aakkostaisi || ääkköstää: ette ääkköstäisi || aallota: ette aaltoaisi
+ACT;PRS;NEG;COND;2;SG,7724,1.0,aakkostaa: et aakkostaisi || ääkköstää: et ääkköstäisi || aallota: et aaltoaisi
+ACT;PRS;NEG;COND;3;PL,7724,1.0,aakkostaa: eivät aakkostaisi || ääkköstää: eivät ääkköstäisi || aallota: eivät aaltoaisi
+ACT;PRS;NEG;COND;3;SG,7724,1.0,aakkostaa: ei aakkostaisi || ääkköstää: ei ääkköstäisi || aallota: ei aaltoaisi
+ACT;PRS;NEG;IMP;1;PL,7724,1.0,aakkostaa: älkäämme aakkostako || ääkköstää: älkäämme ääkköstäkö || aallota: älkäämme aallotko
+ACT;PRS;NEG;IMP;2;PL,7724,1.0,aakkostaa: älkää aakkostako || ääkköstää: älkää ääkköstäkö || aallota: älkää aallotko
+ACT;PRS;NEG;IMP;2;SG,7724,1.0,aakkostaa: älä aakkosta || ääkköstää: älä ääkköstä || aallota: älä aaltoa
+ACT;PRS;NEG;IMP;3;PL,7724,1.0,aakkostaa: älkööt aakkostako || ääkköstää: älkööt ääkköstäkö || aallota: älkööt aallotko
+ACT;PRS;NEG;IMP;3;SG,7724,1.0,aakkostaa: älköön aakkostako || ääkköstää: älköön ääkköstäkö || aallota: älköön aallotko
+ACT;PRS;NEG;IND;1;PL,7724,1.0,aakkostaa: emme aakkosta || ääkköstää: emme ääkköstä || aallota: emme aaltoa
+ACT;PRS;NEG;IND;1;SG,7724,1.0,aakkostaa: en aakkosta || ääkköstää: en ääkköstä || aallota: en aaltoa
+ACT;PRS;NEG;IND;2;PL,7724,1.0,aakkostaa: ette aakkosta || ääkköstää: ette ääkköstä || aallota: ette aaltoa
+ACT;PRS;NEG;IND;2;SG,7724,1.0,aakkostaa: et aakkosta || ääkköstää: et ääkköstä || aallota: et aaltoa
+ACT;PRS;NEG;IND;3;PL,7724,1.0,aakkostaa: eivät aakkosta || ääkköstää: eivät ääkköstä || aallota: eivät aaltoa
+ACT;PRS;NEG;IND;3;SG,7724,1.0,aakkostaa: ei aakkosta || ääkköstää: ei ääkköstä || aallota: ei aaltoa
+ACT;PRS;NEG;POT;1;PL,7724,1.0,aakkostaa: emme aakkostane || ääkköstää: emme ääkköstäne || aallota: emme aallonne
+ACT;PRS;NEG;POT;1;SG,7724,1.0,aakkostaa: en aakkostane || ääkköstää: en ääkköstäne || aallota: en aallonne
+ACT;PRS;NEG;POT;2;PL,7724,1.0,aakkostaa: ette aakkostane || ääkköstää: ette ääkköstäne || aallota: ette aallonne
+ACT;PRS;NEG;POT;2;SG,7724,1.0,aakkostaa: et aakkostane || ääkköstää: et ääkköstäne || aallota: et aallonne
+ACT;PRS;NEG;POT;3;PL,7724,1.0,aakkostaa: eivät aakkostane || ääkköstää: eivät ääkköstäne || aallota: eivät aallonne
+ACT;PRS;NEG;POT;3;SG,7724,1.0,aakkostaa: ei aakkostane || ääkköstää: ei ääkköstäne || aallota: ei aallonne
+ACT;PRS;POS;COND;1;PL,7724,0.013,aakkostaa: aakkostaisimme || ääkköstää: ääkköstäisimme || aallota: aaltoaisimme
+ACT;PRS;POS;COND;1;SG,7724,0.013,aakkostaa: aakkostaisin || ääkköstää: ääkköstäisin || aallota: aaltoaisin
+ACT;PRS;POS;COND;2;PL,7724,0.013,aakkostaa: aakkostaisitte || ääkköstää: ääkköstäisitte || aallota: aaltoaisitte
+ACT;PRS;POS;COND;2;SG,7724,0.013,aakkostaa: aakkostaisit || ääkköstää: ääkköstäisit || aallota: aaltoaisit
+ACT;PRS;POS;COND;3;PL,7724,0.013,aakkostaa: aakkostaisivat || ääkköstää: ääkköstäisivät || aallota: aaltoaisivat
+ACT;PRS;POS;COND;3;SG,7724,0.013,aakkostaa: aakkostaisi || ääkköstää: ääkköstäisi || aallota: aaltoaisi
+ACT;PRS;POS;IMP;1;PL,7724,0.013,aakkostaa: aakkostakaamme || ääkköstää: ääkköstäkäämme || aallota: aallotkaamme
+ACT;PRS;POS;IMP;2;PL,7724,0.013,aakkostaa: aakkostakaa || ääkköstää: ääkköstäkää || aallota: aallotkaa
+ACT;PRS;POS;IMP;2;SG,7724,0.013,aakkostaa: aakkosta || ääkköstää: ääkköstä || aallota: aaltoa
+ACT;PRS;POS;IMP;3;PL,7724,0.013,aakkostaa: aakkostakoot || ääkköstää: ääkköstäkööt || aallota: aallotkoot
+ACT;PRS;POS;IMP;3;SG,7724,0.013,aakkostaa: aakkostakoon || ääkköstää: ääkköstäköön || aallota: aallotkoon
+ACT;PRS;POS;IND;1;PL,7724,0.013,aakkostaa: aakkostamme || ääkköstää: ääkköstämme || aallota: aaltoamme
+ACT;PRS;POS;IND;1;SG,7724,0.013,aakkostaa: aakkostan || ääkköstää: ääkköstän || aallota: aaltoan
+ACT;PRS;POS;IND;2;PL,7724,0.013,aakkostaa: aakkostatte || ääkköstää: ääkköstätte || aallota: aaltoatte
+ACT;PRS;POS;IND;2;SG,7724,0.013,aakkostaa: aakkostat || ääkköstää: ääkköstät || aallota: aaltoat
+ACT;PRS;POS;IND;3;PL,7724,0.013,aakkostaa: aakkostavat || ääkköstää: ääkköstävät || aallota: aaltoavat
+ACT;PRS;POS;IND;3;SG,7724,0.013,aakkostaa: aakkostaa || ääkköstää: ääkköstää || aallota: aaltoaa
+ACT;PRS;POS;POT;1;PL,7724,0.013,aakkostaa: aakkostanemme || ääkköstää: ääkköstänemme || aallota: aallonnemme
+ACT;PRS;POS;POT;1;SG,7724,0.013,aakkostaa: aakkostanen || ääkköstää: ääkköstänen || aallota: aallonnen
+ACT;PRS;POS;POT;2;PL,7724,0.013,aakkostaa: aakkostanette || ääkköstää: ääkköstänette || aallota: aallonnette
+ACT;PRS;POS;POT;2;SG,7724,0.013,aakkostaa: aakkostanet || ääkköstää: ääkköstänet || aallota: aallonnet
+ACT;PRS;POS;POT;3;PL,7724,0.013,aakkostaa: aakkostanevat || ääkköstää: ääkköstänevät || aallota: aallonnevat
+ACT;PRS;POS;POT;3;SG,7724,0.013,aakkostaa: aakkostanee || ääkköstää: ääkköstänee || aallota: aallonnee
+ACT;PRS;PRF;NEG;COND;1;PL,7724,1.0,aakkostaa: emme olisi aakkostaneet || ääkköstää: emme olisi ääkköstäneet || aallota: emme olisi aallonneet
+ACT;PRS;PRF;NEG;COND;1;SG,7724,1.0,aakkostaa: en olisi aakkostanut || ääkköstää: en olisi ääkköstänyt || aallota: en olisi aallonnut
+ACT;PRS;PRF;NEG;COND;2;PL,7724,1.0,aakkostaa: ette olisi aakkostaneet || ääkköstää: ette olisi ääkköstäneet || aallota: ette olisi aallonneet
+ACT;PRS;PRF;NEG;COND;2;SG,7724,1.0,aakkostaa: et olisi aakkostanut || ääkköstää: et olisi ääkköstänyt || aallota: et olisi aallonnut
+ACT;PRS;PRF;NEG;COND;3;PL,7724,1.0,aakkostaa: eivät olisi aakkostaneet || ääkköstää: eivät olisi ääkköstäneet || aallota: eivät olisi aallonneet
+ACT;PRS;PRF;NEG;COND;3;SG,7724,1.0,aakkostaa: ei olisi aakkostanut || ääkköstää: ei olisi ääkköstänyt || aallota: ei olisi aallonnut
+ACT;PRS;PRF;NEG;IMP;1;PL,7724,1.0,aakkostaa: älkäämme olko aakkostaneet || ääkköstää: älkäämme olko ääkköstäneet || aallota: älkäämme olko aallonneet
+ACT;PRS;PRF;NEG;IMP;2;PL,7724,1.0,aakkostaa: älkää olko aakkostaneet || ääkköstää: älkää olko ääkköstäneet || aallota: älkää olko aallonneet
+ACT;PRS;PRF;NEG;IMP;2;SG,7724,1.0,aakkostaa: älä ole aakkostanut || ääkköstää: älä ole ääkköstänyt || aallota: älä ole aallonnut
+ACT;PRS;PRF;NEG;IMP;3;PL,7724,1.0,aakkostaa: älkööt olko aakkostaneet || ääkköstää: älkööt olko ääkköstäneet || aallota: älkööt olko aallonneet
+ACT;PRS;PRF;NEG;IMP;3;SG,7724,1.0,aakkostaa: älköön olko aakkostanut || ääkköstää: älköön olko ääkköstänyt || aallota: älköön olko aallonnut
+ACT;PRS;PRF;NEG;IND;1;PL,7724,1.0,aakkostaa: emme ole aakkostaneet || ääkköstää: emme ole ääkköstäneet || aallota: emme ole aallonneet
+ACT;PRS;PRF;NEG;IND;1;SG,7724,1.0,aakkostaa: en ole aakkostanut || ääkköstää: en ole ääkköstänyt || aallota: en ole aallonnut
+ACT;PRS;PRF;NEG;IND;2;PL,7724,1.0,aakkostaa: ette ole aakkostaneet || ääkköstää: ette ole ääkköstäneet || aallota: ette ole aallonneet
+ACT;PRS;PRF;NEG;IND;2;SG,7724,1.0,aakkostaa: et ole aakkostanut || ääkköstää: et ole ääkköstänyt || aallota: et ole aallonnut
+ACT;PRS;PRF;NEG;IND;3;PL,7724,1.0,aakkostaa: eivät ole aakkostaneet || ääkköstää: eivät ole ääkköstäneet || aallota: eivät ole aallonneet
+ACT;PRS;PRF;NEG;IND;3;SG,7724,1.0,aakkostaa: ei ole aakkostanut || ääkköstää: ei ole ääkköstänyt || aallota: ei ole aallonnut
+ACT;PRS;PRF;NEG;POT;1;PL,7724,1.0,aakkostaa: emme liene aakkostaneet || ääkköstää: emme liene ääkköstäneet || aallota: emme liene aallonneet
+ACT;PRS;PRF;NEG;POT;1;SG,7724,1.0,aakkostaa: en liene aakkostanut || ääkköstää: en liene ääkköstänyt || aallota: en liene aallonnut
+ACT;PRS;PRF;NEG;POT;2;PL,7724,1.0,aakkostaa: ette liene aakkostaneet || ääkköstää: ette liene ääkköstäneet || aallota: ette liene aallonneet
+ACT;PRS;PRF;NEG;POT;2;SG,7724,1.0,aakkostaa: et liene aakkostanut || ääkköstää: et liene ääkköstänyt || aallota: et liene aallonnut
+ACT;PRS;PRF;NEG;POT;3;PL,7724,1.0,aakkostaa: eivät liene aakkostaneet || ääkköstää: eivät liene ääkköstäneet || aallota: eivät liene aallonneet
+ACT;PRS;PRF;NEG;POT;3;SG,7724,1.0,aakkostaa: ei liene aakkostanut || ääkköstää: ei liene ääkköstänyt || aallota: ei liene aallonnut
+ACT;PRS;PRF;POS;COND;1;PL,7724,1.0,aakkostaa: olisimme aakkostaneet || ääkköstää: olisimme ääkköstäneet || aallota: olisimme aallonneet
+ACT;PRS;PRF;POS;COND;1;SG,7724,1.0,aakkostaa: olisin aakkostanut || ääkköstää: olisin ääkköstänyt || aallota: olisin aallonnut
+ACT;PRS;PRF;POS;COND;2;PL,7724,1.0,aakkostaa: olisitte aakkostaneet || ääkköstää: olisitte ääkköstäneet || aallota: olisitte aallonneet
+ACT;PRS;PRF;POS;COND;2;SG,7724,1.0,aakkostaa: olisit aakkostanut || ääkköstää: olisit ääkköstänyt || aallota: olisit aallonnut
+ACT;PRS;PRF;POS;COND;3;PL,7724,1.0,aakkostaa: olisivat aakkostaneet || ääkköstää: olisivat ääkköstäneet || aallota: olisivat aallonneet
+ACT;PRS;PRF;POS;COND;3;SG,7724,1.0,aakkostaa: olisi aakkostanut || ääkköstää: olisi ääkköstänyt || aallota: olisi aallonnut
+ACT;PRS;PRF;POS;IMP;1;PL,7724,1.0,aakkostaa: olkaamme aakkostaneet || ääkköstää: olkaamme ääkköstäneet || aallota: olkaamme aallonneet
+ACT;PRS;PRF;POS;IMP;2;PL,7724,1.0,aakkostaa: olkaa aakkostaneet || ääkköstää: olkaa ääkköstäneet || aallota: olkaa aallonneet
+ACT;PRS;PRF;POS;IMP;2;SG,7724,1.0,aakkostaa: ole aakkostanut || ääkköstää: ole ääkköstänyt || aallota: ole aallonnut
+ACT;PRS;PRF;POS;IMP;3;PL,7724,1.0,aakkostaa: olkoot aakkostaneet || ääkköstää: olkoot ääkköstäneet || aallota: olkoot aallonneet
+ACT;PRS;PRF;POS;IMP;3;SG,7724,1.0,aakkostaa: olkoon aakkostanut || ääkköstää: olkoon ääkköstänyt || aallota: olkoon aallonnut
+ACT;PRS;PRF;POS;IND;1;PL,7724,1.0,aakkostaa: olemme aakkostaneet || ääkköstää: olemme ääkköstäneet || aallota: olemme aallonneet
+ACT;PRS;PRF;POS;IND;1;SG,7724,1.0,aakkostaa: olen aakkostanut || ääkköstää: olen ääkköstänyt || aallota: olen aallonnut
+ACT;PRS;PRF;POS;IND;2;PL,7724,1.0,aakkostaa: olette aakkostaneet || ääkköstää: olette ääkköstäneet || aallota: olette aallonneet
+ACT;PRS;PRF;POS;IND;2;SG,7724,1.0,aakkostaa: olet aakkostanut || ääkköstää: olet ääkköstänyt || aallota: olet aallonnut
+ACT;PRS;PRF;POS;IND;3;PL,7724,1.0,aakkostaa: ovat aakkostaneet || ääkköstää: ovat ääkköstäneet || aallota: ovat aallonneet
+ACT;PRS;PRF;POS;IND;3;SG,7724,1.0,aakkostaa: on aakkostanut || ääkköstää: on ääkköstänyt || aallota: on aallonnut
+ACT;PRS;PRF;POS;POT;1;PL,7724,1.0,aakkostaa: lienemme aakkostaneet || ääkköstää: lienemme ääkköstäneet || aallota: lienemme aallonneet
+ACT;PRS;PRF;POS;POT;1;SG,7724,1.0,aakkostaa: lienen aakkostanut || ääkköstää: lienen ääkköstänyt || aallota: lienen aallonnut
+ACT;PRS;PRF;POS;POT;2;PL,7724,1.0,aakkostaa: lienette aakkostaneet || ääkköstää: lienette ääkköstäneet || aallota: lienette aallonneet
+ACT;PRS;PRF;POS;POT;2;SG,7724,1.0,aakkostaa: lienet aakkostanut || ääkköstää: lienet ääkköstänyt || aallota: lienet aallonnut
+ACT;PRS;PRF;POS;POT;3;PL,7724,1.0,aakkostaa: lienevät aakkostaneet || ääkköstää: lienevät ääkköstäneet || aallota: lienevät aallonneet
+ACT;PRS;PRF;POS;POT;3;SG,7724,1.0,aakkostaa: lienee aakkostanut || ääkköstää: lienee ääkköstänyt || aallota: lienee aallonnut
+ACT;PST;NEG;IND;1;PL,7724,1.0,aakkostaa: emme aakkostaneet || ääkköstää: emme ääkköstäneet || aallota: emme aallonneet
+ACT;PST;NEG;IND;1;SG,7724,1.0,aakkostaa: en aakkostanut || ääkköstää: en ääkköstänyt || aallota: en aallonnut
+ACT;PST;NEG;IND;2;PL,7724,1.0,aakkostaa: ette aakkostaneet || ääkköstää: ette ääkköstäneet || aallota: ette aallonneet
+ACT;PST;NEG;IND;2;SG,7724,1.0,aakkostaa: et aakkostanut || ääkköstää: et ääkköstänyt || aallota: et aallonnut
+ACT;PST;NEG;IND;3;PL,7724,1.0,aakkostaa: eivät aakkostaneet || ääkköstää: eivät ääkköstäneet || aallota: eivät aallonneet
+ACT;PST;NEG;IND;3;SG,7724,1.0,aakkostaa: ei aakkostanut || ääkköstää: ei ääkköstänyt || aallota: ei aallonnut
+ACT;PST;POS;IND;1;PL,7724,0.013,aakkostaa: aakkostimme || ääkköstää: ääkköstimme || aallota: aaltosimme
+ACT;PST;POS;IND;1;SG,7724,0.013,aakkostaa: aakkostin || ääkköstää: ääkköstin || aallota: aaltosin
+ACT;PST;POS;IND;2;PL,7724,0.013,aakkostaa: aakkostitte || ääkköstää: ääkköstitte || aallota: aaltositte
+ACT;PST;POS;IND;2;SG,7724,0.013,aakkostaa: aakkostit || ääkköstää: ääkköstit || aallota: aaltosit
+ACT;PST;POS;IND;3;PL,7724,0.013,aakkostaa: aakkostivat || ääkköstää: ääkköstivät || aallota: aaltosivat
+ACT;PST;POS;IND;3;SG,7724,0.013,aakkostaa: aakkosti || ääkköstää: ääkkösti || aallota: aaltosi
+ACT;PST;PRF;NEG;IND;1;PL,7724,1.0,aakkostaa: emme olleet aakkostaneet || ääkköstää: emme olleet ääkköstäneet || aallota: emme olleet aallonneet
+ACT;PST;PRF;NEG;IND;1;SG,7724,1.0,aakkostaa: en ollut aakkostanut || ääkköstää: en ollut ääkköstänyt || aallota: en ollut aallonnut
+ACT;PST;PRF;NEG;IND;2;PL,7724,1.0,aakkostaa: ette olleet aakkostaneet || ääkköstää: ette olleet ääkköstäneet || aallota: ette olleet aallonneet
+ACT;PST;PRF;NEG;IND;2;SG,7724,1.0,aakkostaa: et ollut aakkostanut || ääkköstää: et ollut ääkköstänyt || aallota: et ollut aallonnut
+ACT;PST;PRF;NEG;IND;3;PL,7724,1.0,aakkostaa: eivät olleet aakkostaneet || ääkköstää: eivät olleet ääkköstäneet || aallota: eivät olleet aallonneet
+ACT;PST;PRF;NEG;IND;3;SG,7724,1.0,aakkostaa: ei ollut aakkostanut || ääkköstää: ei ollut ääkköstänyt || aallota: ei ollut aallonnut
+ACT;PST;PRF;POS;IND;1;PL,7724,1.0,aakkostaa: olimme aakkostaneet || ääkköstää: olimme ääkköstäneet || aallota: olimme aallonneet
+ACT;PST;PRF;POS;IND;1;SG,7724,1.0,aakkostaa: olin aakkostanut || ääkköstää: olin ääkköstänyt || aallota: olin aallonnut
+ACT;PST;PRF;POS;IND;2;PL,7724,1.0,aakkostaa: olitte aakkostaneet || ääkköstää: olitte ääkköstäneet || aallota: olitte aallonneet
+ACT;PST;PRF;POS;IND;2;SG,7724,1.0,aakkostaa: olit aakkostanut || ääkköstää: olit ääkköstänyt || aallota: olit aallonnut
+ACT;PST;PRF;POS;IND;3;PL,7724,1.0,aakkostaa: olivat aakkostaneet || ääkköstää: olivat ääkköstäneet || aallota: olivat aallonneet
+ACT;PST;PRF;POS;IND;3;SG,7724,1.0,aakkostaa: oli aakkostanut || ääkköstää: oli ääkköstänyt || aallota: oli aallonnut
+LEMMA,7724,0.016,aakkostaa: aakkostaa || ääkköstää: ääkköstää || aallota: aallota
+NFIN,7724,0.013,aakkostaa: aakkostaa || ääkköstää: ääkköstää || aallota: aallota
+PASS;PRS;NEG;COND,7724,1.0,aakkostaa: ei aakkostettaisi || ääkköstää: ei ääkköstettäisi || aallota: ei aallottaisi
+PASS;PRS;NEG;IMP,7724,1.0,aakkostaa: älköön aakkostettako || ääkköstää: älköön ääkköstettäkö || aallota: älköön aallottako
+PASS;PRS;NEG;IND,7724,1.0,aakkostaa: ei aakkosteta || ääkköstää: ei ääkköstetä || aallota: ei aallota
+PASS;PRS;NEG;POT,7724,1.0,aakkostaa: ei aakkostettane || ääkköstää: ei ääkköstettäne || aallota: ei aallottane
+PASS;PRS;POS;COND,7724,0.013,aakkostaa: aakkostettaisiin || ääkköstää: ääkköstettäisiin || aallota: aallottaisiin
+PASS;PRS;POS;IMP,7724,0.013,aakkostaa: aakkostettakoon || ääkköstää: ääkköstettäköön || aallota: aallottakoon
+PASS;PRS;POS;IND,7724,0.013,aakkostaa: aakkostetaan || ääkköstää: ääkköstetään || aallota: aallotaan
+PASS;PRS;POS;POT,7724,0.013,aakkostaa: aakkostettaneen || ääkköstää: ääkköstettäneen || aallota: aallottaneen
+PASS;PRS;PRF;NEG;COND,7724,1.0,aakkostaa: ei olisi aakkostettu || ääkköstää: ei olisi ääkköstetty || aallota: ei olisi aallottu
+PASS;PRS;PRF;NEG;IMP,7724,1.0,aakkostaa: älköön olko aakkostettu || ääkköstää: älköön olko ääkköstetty || aallota: älköön olko aallottu
+PASS;PRS;PRF;NEG;IND,7724,1.0,aakkostaa: ei ole aakkostettu || ääkköstää: ei ole ääkköstetty || aallota: ei ole aallottu
+PASS;PRS;PRF;NEG;POT,7724,1.0,aakkostaa: ei liene aakkostettu || ääkköstää: ei liene ääkköstetty || aallota: ei liene aallottu
+PASS;PRS;PRF;POS;COND,7724,1.0,aakkostaa: olisi aakkostettu || ääkköstää: olisi ääkköstetty || aallota: olisi aallottu
+PASS;PRS;PRF;POS;IMP,7724,1.0,aakkostaa: olkoon aakkostettu || ääkköstää: olkoon ääkköstetty || aallota: olkoon aallottu
+PASS;PRS;PRF;POS;IND,7724,1.0,aakkostaa: on aakkostettu || ääkköstää: on ääkköstetty || aallota: on aallottu
+PASS;PRS;PRF;POS;POT,7724,1.0,aakkostaa: lienee aakkostettu || ääkköstää: lienee ääkköstetty || aallota: lienee aallottu
+PASS;PST;NEG;IND,7724,1.0,aakkostaa: ei aakkostettu || ääkköstää: ei ääkköstetty || aallota: ei aallottu
+PASS;PST;POS;IND,7724,0.013,aakkostaa: aakkostettiin || ääkköstää: ääkköstettiin || aallota: aallottiin
+PASS;PST;PRF;NEG;IND,7724,1.0,aakkostaa: ei ollut aakkostettu || ääkköstää: ei ollut ääkköstetty || aallota: ei ollut aallottu
+PASS;PST;PRF;POS;IND,7724,1.0,aakkostaa: oli aakkostettu || ääkköstää: oli ääkköstetty || aallota: oli aallottu

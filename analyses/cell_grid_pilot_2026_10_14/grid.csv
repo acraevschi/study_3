@@ -1,0 +1,17 @@
+cell_id,unimorph_features,person,number,tense,mood,subject,context_frame,context_conditions,status
+PRS.1SG,IND;PRS;1;SG,1,SG,PRS,IND,"I (the speaker, male)",[Asked what they usually do in the morning:] Every morning I V (it).,habitual present; affirmative; declarative main clause; a verb with a transitive use takes a definite 3SG object 'it' (D29),active
+PRS.2SG,IND;PRS;2;SG,2,SG,PRS,IND,"you (one addressee, a friend; informal; male)","[Speaker to a friend, about the friend's routine:] Every morning you V (it).",as PRS.1SG,active
+PRS.3SG,IND;PRS;3;SG,3,SG,PRS,IND,"he (one man known to both; pronoun, not a full NP)",Every morning he V-s (it).,as PRS.1SG,active
+PRS.1PL,IND;PRS;1;PL,1,PL,PRS,IND,"we (the speaker and all the other villagers, not the addressee: exclusive, large group)",Every morning we V (it).,"as PRS.1SG; plural = a large group, so no dual or paucal",active
+PRS.2PL,IND;PRS;2;PL,2,PL,PRS,IND,you (all of a large group of friends; not polite singular),Every morning you all V (it).,as PRS.1PL,active
+PRS.3PL,IND;PRS;3;PL,3,PL,PRS,IND,they (all the villagers; pronoun),Every morning they V (it).,as PRS.1PL,active
+PST.1SG,IND;PST;1;SG,1,SG,PST,IND,as PRS.1SG,"[Asked what happened yesterday:] Yesterday I V-ed (it), once.","one completed event yesterday, reported as news; the speaker witnessed the event (direct evidence, D23); perfective reading; not a narrative chain; affirmative declarative main clause",active
+PST.2SG,IND;PST;2;SG,2,SG,PST,IND,as PRS.2SG,"[Speaker reminds a friend:] Yesterday you V-ed (it), once.",as PST.1SG,active
+PST.3SG,IND;PST;3;SG,3,SG,PST,IND,as PRS.3SG,"Yesterday he V-ed (it), once.",as PST.1SG,active
+PST.1PL,IND;PST;1;PL,1,PL,PST,IND,as PRS.1PL,"Yesterday we V-ed (it), once.",as PST.1SG,active
+PST.2PL,IND;PST;2;PL,2,PL,PST,IND,as PRS.2PL,"Yesterday you all V-ed (it), once.",as PST.1SG,active
+PST.3PL,IND;PST;3;PL,3,PL,PST,IND,as PRS.3PL,"Yesterday they V-ed (it), once.",as PST.1SG,active
+FUT.1SG,IND;FUT;1;SG,1,SG,FUT,IND,as PRS.1SG,[I have decided:] Tomorrow I will V (it).,intention; one planned event tomorrow; not a fixed schedule,deferred (D3)
+FUT.3SG,IND;FUT;3;SG,3,SG,FUT,IND,as PRS.3SG,[I am sure of it:] Tomorrow he will V (it).,prediction about one event tomorrow; not a fixed schedule,deferred (D3)
+IMP.2SG,IMP;2;SG,2,SG,,IMP,"one addressee, informal, male","[Speaker to one friend, now:] V (it)!",positive command; single action now; no softening,active
+IMP.2PL,IMP;2;PL,2,PL,,IMP,a large group of addressees,"[Speaker to a large group of friends, now:] V (it)!",as IMP.2SG,active

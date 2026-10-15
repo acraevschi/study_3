@@ -1,0 +1,306 @@
+schema_version: 2
+grid_version: G14_v1
+
+language:
+  name: "Italian"
+  glottocode: "ital1282"
+  iso639_3: "ita"
+  variety: "standard Italian (neo-standard, spoken register of northern/central Italy; see PST judgement call)"
+
+dataset:
+  resource: "morph-it 0.48 (Zanchetta & Baroni 2005), VER tags, clitic-suffixed forms dropped"
+  representation: "orth"
+  lemma_scope_rules:
+    exclude_multiword_lemmas: true
+    # M3: inherently pronominal lemmas (110); M4: pseudo-verbs without any Wiktionary verb entry (227). Rules in the notes.
+    exclude_lemma_files:
+      - analyses/cell_grid_pilot_2026_10_14/mappings/classes/ita_pronominal_excluded.csv
+      - analyses/cell_grid_pilot_2026_10_14/mappings/classes/ita_pseudoverbs_excluded.csv
+
+provenance:
+  mapped_by: "Claude Sonnet 5.5 (mapping agent, ita; fix round by a new Sonnet 5.5 agent)"
+  date: "2026-10-14"
+  status: reviewed
+  reviewed_by: "Opus reviewer + fix round 2026-10-14"
+
+options:
+  aux_option: C
+  word_boundary: clitic_aux_separate
+  aspect_option: S-b
+  missing_forms: keep_with_reason
+
+defaults:
+  subject_gender: "masculine; shows only in the participle of essere-verbs (sono arrivato) and is the default of the participle in all PST cells (singular and plural persons both masculine)"
+  second_person_sg: "tu (informal); no polite-singular Lei is used"
+  first_person_pl: "not_distinguished (noi has no inclusive/exclusive split)"
+  plural_reading: "plural (a large group); Italian has no dual or paucal"
+  object: "definite 3SG object 'it' is the proclitic lo (masc.) before the auxiliary: l'ho mangiato. Participle agrees with a preceding third-person clitic, so with masculine 'it' the participle is masculine singular and thus the same as the invariant default. A feminine 'it' would give -ata (alternative, not mapped). A verb takes the object 'it' if it has a transitive use (D29)."
+  reference:
+    - {author: "Treccani, Enciclopedia dell'Italiano (E. De Roberto)", year: 2011, locus: "s.v. oggetto, section 3.1.3 'Accordo del participio': l'ho vista, le ho viste", locus_verified: true}
+    - {author: "Treccani, Enciclopedia dell'Italiano (L. Gaeta)", year: 2010, locus: "s.v. accordo: with avere the unmarked masculine singular is selected; with essere the participle agrees with the subject", locus_verified: true}
+grambank_check:
+  GB082: {value: "1", source: "g_MaidenRobustelli_Italian_2007[220]"}
+  GB083: {value: "1", source: "g_MaidenRobustelli_Italian_2007[220]"}
+  GB084: {value: "1", source: "g_MaidenRobustelli_Italian_2007[220]"}
+  GB086: {value: "1", source: "g_MaidenRobustelli_Italian_2007[220] (via imperfetto vs passato remoto)"}
+  GB089: {value: "1", source: "g_MaidenRobustelli_Italian_2007[220]"}
+  GB091: {value: "1", source: "g_MaidenRobustelli_Italian_2007[220]"}
+  GB121: {value: "0", source: "g_MaidenRobustelli_Italian_2007 (no page)"}
+  GB120: {value: "1", source: "g_MaidenRobustelli_Italian_2007[260, 304-305]"}
+  conflicts:
+    - cell: "PST.* (all six)"
+      coding: "GB121 = 0 (tense not marked by an auxiliary); GB083 = 1 (dedicated past tense on the verb)"
+      reason: >-
+        The mapping chooses the passato prossimo (auxiliary + participle) for PST. Grambank codes
+        the perfect as ASPECT by an auxiliary (GB120 = 1, p. 260 per its Source) and the past TENSE as
+        synthetic (passato remoto, imperfetto: GB083 = 1, GB086 = 1). So the coding is not
+        contradicted, but the grid treats the aspectual perfect as the past of the context frame.
+        The coding of GB121 = 0 could not be checked against the grammar (Maiden & Robustelli
+        not readable in this session). If the owner prefers the synthetic passato remoto the
+        conflict disappears (see alternatives of PST cells).
+
+lexical_classes:
+  - id: aux_essere
+    membership_file: outputs/cell_grid_pilot/inputs/ita_aux_essere.csv
+    description: "verbs whose Wiktionary entry gives only auxiliary essere (153 lemmas before the scope exclusions): participle agrees with the subject, so plural persons take the masculine plural participle. D27: every aux_both verb is an avere verb and is NOT in this class (the retired class aux_both_intransitive_first is no longer used)"
+    reference:
+      - {author: "Treccani, Enciclopedia dell'Italiano (V. Egerland)", year: 2011, locus: "s.v. participio: the participle of an essere verb is accordato col soggetto (siamo tornati)", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (L. Gaeta)", year: 2010, locus: "s.v. accordo: with auxiliary essere the agreement is obligatory; participle agrees in gender and number with the subject", locus_verified: true}
+
+transforms: []
+
+defective:
+  - cells: [IMP.2SG, IMP.2PL]
+    lemmas: [potere, dovere]
+    reason: "stative modal verbs without an imperative (Morph-it fills the cells with indicative puoi/potete, which are not imperatives)"
+    reference:
+      - {author: "Treccani, Enciclopedia dell'Italiano (R. Cimaglia)", year: 2010, locus: "s.v. imperativo, 'Definizione e peculiarità morfologiche': stative verbs (dovere, parere, potere) have no imperative", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (A. Viviani)", year: 2011, locus: "s.v. imperativo, forme di [prontuario], 'Funzioni': 'Non hanno imperativo i verbi modali potere, dovere e volere'", locus_verified: true}
+      - {author: "Treccani, Vocabolario on line", year: 2026, locus: "s.v. potere (https://www.treccani.it/vocabolario/potere2/) and s.v. dovere (/dovere2/): 'manca l'imperativo'", locus_verified: true}
+  - cells: [PST.1SG, PST.2SG, PST.3SG, PST.1PL, PST.2PL, PST.3PL]
+    lemmas: [esimere, concernere, dirimere, incombere, procombere, soccombere]
+    reason: "no past participle, so no compound tenses (passato prossimo)"
+    reference:
+      - {author: "Treccani, Vocabolario on line", year: 2026, locus: "s.v. esimere (/esimere/): 'difett. del part. pass. e quindi dei tempi comp.'; s.v. concernere: 'manca del part. pass.'; s.v. dirimere: 'manca del part. pass.'; s.v. incombere: 'manca il part. pass.'; s.v. procombere: 'manca del part. pass.'; s.v. soccombere: 'non usati il part. pass.'", locus_verified: true}
+  - cells: [PRS.1SG, PRS.2SG, PRS.1PL, PRS.2PL, PRS.3PL, PST.1SG, PST.2SG, PST.3SG, PST.1PL, PST.2PL, PST.3PL, IMP.2SG, IMP.2PL]
+    lemmas: [molcere]
+    reason: "molcere is used only in the 3SG present and in the imperfect (rarely in the passato remoto); no participle, no imperative, no other persons"
+    reference:
+      - {author: "Treccani, Vocabolario on line", year: 2026, locus: "s.v. molcere (/molcere/): 'usato solo nella 3a pers. sing. dell'indic. pres.'", locus_verified: true}
+
+data_gaps:
+  - cells: [IMP.2SG, IMP.2PL]
+    lemmas: [volere]
+    reason: "Morph-it fills the imperative with the indicative (vuoi, volete). Treccani's Vocabolario gives imperat. vogli (and the Enciclopedia gives vogliate), but the Enciclopedia prontuario says volere has no imperative. The sources disagree, so the cell is not defective (P5); the data form is not an imperative, so it is emptied"
+  - cells: [PST.1PL, PST.2PL, PST.3PL]
+    lemmas: [succedere, trasparire]
+    reason: "plural participle mislabelled in Morph-it (V.PTCP;PST;PL;MASC holds the singular: succeduto/successo, trasparito); M1"
+
+class_exceptions:
+  - lemmas: [essere, avere, sapere, volere]
+    cells: [PRS.2PL, IMP.2PL]
+    reason: "IMP.2PL = PRS.2PL for every regular verb; these four take the present subjunctive (siate, abbiate, sappiate, vogliate)"
+    reference: {author: "Treccani, Enciclopedia dell'Italiano (R. Cimaglia)", year: 2010, locus: "s.v. imperativo: 'avere → abbiate; essere → siate; sapere → sappiate; volere → vogliate'", locus_verified: true}
+
+variant_overrides: analyses/cell_grid_pilot_2026_10_14/mappings/classes/ita_variant_overrides.csv
+
+cells:
+  PRS.1SG:
+    rule: source
+    source_cell: "IND;PRS;1;SG"
+    construction: "ogni mattina lo faccio (present indicative 1SG)"
+    distinct_class: PRS.1SG
+    aux_carried: false
+    reference:
+      - {author: "Wikibooks contributors (Italian/Grammar/Verbs)", year: 2026, locus: "'Indicative present' endings table (-o -i -a/-e -iamo -ate/-ete/-ite -ano/-ono); page last edited 28 Aug 2026; confirmation only", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (R. Cimaglia)", year: 2010, locus: "s.v. coniugazione verbale, 'Classi di coniugazione': 'finire: finisco, finisci, finisce, finiscono ... ma finiamo, finite'", locus_verified: true}
+    confidence: high
+  PRS.2SG:
+    rule: source
+    source_cell: "IND;PRS;2;SG"
+    construction: "ogni mattina tu lo fai"
+    distinct_class: PRS.2SG
+    aux_carried: false
+    reference:
+      - {author: "Wikibooks contributors (Italian/Grammar/Verbs)", year: 2026, locus: "'Indicative present' endings table; page last edited 28 Aug 2026; confirmation only", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (R. Cimaglia)", year: 2010, locus: "s.v. coniugazione verbale, 'Classi di coniugazione': finire: finisci (-isc- verbs)", locus_verified: true}
+    confidence: high
+  PRS.3SG:
+    rule: source
+    source_cell: "IND;PRS;3;SG"
+    variant_rule: {avoid: "^vuol$"}
+    construction: "ogni mattina lui lo fa"
+    distinct_class: PRS.3SG
+    aux_carried: false
+    reference:
+      - {author: "Wikibooks contributors (Italian/Grammar/Verbs)", year: 2026, locus: "'Indicative present' endings table; page last edited 28 Aug 2026; confirmation only", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (R. Cimaglia)", year: 2010, locus: "s.v. coniugazione verbale: 'finisce'; partire: parto, parti, parte, partono", locus_verified: true}
+    confidence: high
+  PRS.1PL:
+    rule: source
+    source_cell: "IND;PRS;1;PL"
+    construction: "ogni mattina lo facciamo"
+    distinct_class: PRS.1PL
+    aux_carried: false
+    reference:
+      - {author: "Wikibooks contributors (Italian/Grammar/Verbs)", year: 2026, locus: "'Indicative present' endings table; page last edited 28 Aug 2026; confirmation only", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (R. Cimaglia)", year: 2010, locus: "s.v. coniugazione verbale: -isc- verbs have 'finiamo, finite'", locus_verified: true}
+    confidence: high
+  PRS.2PL:
+    rule: source
+    source_cell: "IND;PRS;2;PL"
+    construction: "ogni mattina voi lo fate"
+    distinct_class: PRS.2PL
+    aux_carried: false
+    reference:
+      - {author: "Wikibooks contributors (Italian/Grammar/Verbs)", year: 2026, locus: "'Indicative present' endings table; page last edited 28 Aug 2026; confirmation only", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (R. Cimaglia)", year: 2010, locus: "s.v. imperativo: 'amate, temete, sentite = voi amate, voi temete, voi sentite'", locus_verified: true}
+    confidence: high
+    notes: "Shares its class with IMP.2PL (see IMP.2PL)."
+  PRS.3PL:
+    rule: source
+    source_cell: "IND;PRS;3;PL"
+    variant_rule: {avoid: "n$"}
+    construction: "ogni mattina loro lo fanno"
+    distinct_class: PRS.3PL
+    aux_carried: false
+    reference:
+      - {author: "Wikibooks contributors (Italian/Grammar/Verbs)", year: 2026, locus: "'Indicative present' endings table: 3pl -ano / -ono; page last edited 28 Aug 2026; confirmation only", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (L. Bafile)", year: 2011, locus: "s.v. troncamento, 'Classi di parole': truncated verb forms (andaron tutti, venivan tutti) only inside an intonation group", locus_verified: true}
+    confidence: medium
+    competing_forms:
+      - {form: "apocopated -n forms (parlan, vedon, fan, van, stan, dan, han)", reason: "R3/P4: Morph-it lists them FIRST in 5,758 of 6,071 lemmas; they are truncations that occur before another word in the same intonation group (Treccani s.v. troncamento), so they are conditioned by context and not the citation/unrestricted form; the full form (parlano) is the second variant. The checker keeps Morph-it order, so variant_rule moves the -n forms last", reference: {author: "Treccani, Enciclopedia dell'Italiano (L. Bafile)", year: 2011, locus: "s.v. troncamento", locus_verified: true}}
+    alternatives:
+      - {choice: "take the apocopated form as grid form", effect: "no change in class structure; forms in the grid for PRS.3PL would be truncated"}
+    notes: >-
+      Mapping decision is the unmarked 3PL form (parlano). Morph-it lists the truncated form first in ~95
+      percent of lemmas; `variant_rule: {avoid: "n$"}` moves forms ending in -n behind the full forms
+      (stable sort, data order kept otherwise). Other first variants are corrected through the
+      variant_overrides CSV (P4), see the notes.
+
+  PST.1SG:
+    rule: main_verb
+    source_cell: "V.PTCP;PST;SG;MASC"
+    aux: "ho"
+    by_class:
+      aux_essere: {source_cell: "V.PTCP;PST;SG;MASC", aux: "sono"}
+    construction: "ieri l'ho fatto (una volta): ho + participle (passato prossimo); essere-verbs: sono + participle"
+    distinct_class: PST.1SG
+    aux_carried: true
+    reference:
+      - {author: "Accademia della Crusca, consulenza linguistica (B. Mortara Garavelli, G. Nencioni; La Crusca per voi 2 and 6)", year: 2004, locus: "'Sull'uso del passato remoto' (https://accademiadellacrusca.it/it/consulenza/sulluso-del-passato-remoto/126): 'ieri' + passato prossimo, 'è morto il mio vicino di casa'", locus_verified: true}
+      - {author: "Accademia della Crusca, consulenza linguistica (E. Mauroni)", year: 2009, locus: "'Ancora sull'uso del passato remoto' (/ancora-sulluso-del-passato-remoto/241): informal use, northern regions replace the remoto 'perlopiù dal passato prossimo'", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (E. Wiberg)", year: 2011, locus: "s.v. passato prossimo: the prossimo is 'aoristic' in the neostandard and typical of the North, spreading to the rest of the country except Tuscany", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (E. Wiberg)", year: 2011, locus: "s.v. passato remoto, 'Differenze regionali': 'si nota al Nord una netta preferenza per il passato remoto' (personal narration, Gazzetta di Modena example); impersonal narration: equal split in the North", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (L. Gaeta)", year: 2010, locus: "s.v. accordo: with avere, 'prevede la selezione del valore non marcato di maschile singolare'", locus_verified: true}
+    confidence: medium
+    competing_forms:
+      - {source_cell: "IND;PST;PFV;1;SG", reason: "R3 / R1: passato remoto (feci). Treccani s.v. passato remoto reports a clear northern preference for the remoto in PERSONAL narration, while Crusca (Mortara Garavelli, Nencioni, Mauroni) and Treccani s.v. passato prossimo report the opposite for informal northern speech and for events felt as current (the frame: 'reported as news yesterday'). The evidence conflicts; the remoto is the planned sensitivity alternative (D28). R3(1) (the form the grammar gives for the context) is taken to favour the prossimo over the single-word preference of R3(2)", reference: {author: "Accademia della Crusca (Mortara Garavelli; Mauroni)", year: 2009, locus: "Sull'uso del passato remoto; Ancora sull'uso del passato remoto", locus_verified: true}}
+    alternatives:
+      - {choice: "PST = passato remoto (IND;PST;PFV;x;y), 6 synthetic cells (D28: planned sensitivity alternative)", effect: "PST becomes 6 formally distinct, non-periphrastic cells with aux_carried false; no participle-agreement issue; the aux_essere class becomes unnecessary"}
+      - {choice: "aux_both verbs (598 lemmas) take essere (D27 alternative, for sensitivity)", effect: "the PL participle of PST.1PL/2PL/3PL changes for those aux_both lemmas that are not in aux_essere (masc. pl. instead of masc. sg.); list: outputs/cell_grid_pilot/inputs/ita_aux_both.csv"}
+    notes: "Avere-verbs: participle invariant masculine singular in all six cells (the 'it' object is masculine lo, which would agree as masc. sg. anyway). The auxiliary (ho) is dropped by D1; aux_carried and the aux field record its person distinction."
+  PST.2SG:
+    rule: main_verb
+    source_cell: "V.PTCP;PST;SG;MASC"
+    aux: "hai"
+    by_class:
+      aux_essere: {source_cell: "V.PTCP;PST;SG;MASC", aux: "sei"}
+    construction: "ieri tu l'hai fatto / sei + participle"
+    distinct_class: PST.2SG
+    aux_carried: true
+    reference: {author: "Treccani, Enciclopedia dell'Italiano (L. Gaeta)", year: 2010, locus: "s.v. accordo: with essere the participle agrees with the subject; masculine singular is the unmarked value", locus_verified: true}
+    confidence: medium
+  PST.3SG:
+    rule: main_verb
+    source_cell: "V.PTCP;PST;SG;MASC"
+    aux: "ha"
+    by_class:
+      aux_essere: {source_cell: "V.PTCP;PST;SG;MASC", aux: "è"}
+    construction: "ieri lui l'ha fatto / è + participle"
+    distinct_class: PST.3SG
+    aux_carried: true
+    reference: {author: "Treccani, Enciclopedia dell'Italiano (L. Gaeta)", year: 2010, locus: "s.v. accordo: with essere the participle agrees with the subject", locus_verified: true}
+    confidence: medium
+  PST.1PL:
+    rule: main_verb
+    source_cell: "V.PTCP;PST;SG;MASC"
+    aux: "abbiamo"
+    by_class:
+      aux_essere: {source_cell: "V.PTCP;PST;PL;MASC", aux: "siamo"}
+    construction: "ieri l'abbiamo fatto (avere-verbs, invariant) / siamo arrivati (essere-verbs, masc. pl.)"
+    distinct_class: PST.1PL
+    aux_carried: true
+    reference:
+      - {author: "Treccani, Enciclopedia dell'Italiano (V. Egerland)", year: 2011, locus: "s.v. participio: 'il participio passato del verbo intransitivo che seleziona l'ausiliare essere è accordato col soggetto (siamo tornati)'", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (L. Gaeta)", year: 2010, locus: "s.v. accordo: with avere and a postposed object, no agreement (i bambini hanno mangiato la torta)", locus_verified: true}
+    confidence: medium
+    notes: "Plural persons are all-masculine plural (large group of men, masculine default). The avere vs essere split is the main R1 lexical class of Italian. D27: aux_both and unclassified lemmas are avere verbs."
+  PST.2PL:
+    rule: main_verb
+    source_cell: "V.PTCP;PST;SG;MASC"
+    aux: "avete"
+    by_class:
+      aux_essere: {source_cell: "V.PTCP;PST;PL;MASC", aux: "siete"}
+    construction: "ieri l'avete fatto / siete arrivati"
+    distinct_class: PST.2PL
+    aux_carried: true
+    reference: {author: "Treccani, Enciclopedia dell'Italiano (V. Egerland)", year: 2011, locus: "s.v. participio: essere + agreeing participle (siamo tornati)", locus_verified: true}
+    confidence: medium
+  PST.3PL:
+    rule: main_verb
+    source_cell: "V.PTCP;PST;SG;MASC"
+    aux: "hanno"
+    by_class:
+      aux_essere: {source_cell: "V.PTCP;PST;PL;MASC", aux: "sono"}
+    construction: "ieri l'hanno fatto / sono arrivati"
+    distinct_class: PST.3PL
+    aux_carried: true
+    reference: {author: "Treccani, Enciclopedia dell'Italiano (L. Gaeta)", year: 2010, locus: "s.v. accordo: (18a) 'Mario e Giovanna sono arrivati ieri' (essere, plural subject, plural participle)", locus_verified: true}
+    confidence: medium
+
+  IMP.2SG:
+    rule: source
+    source_cell: "IMP;PRS;2;SG"
+    construction: "parla! (-are) / vedi!, senti! (-ere, -ire); irregular: va'/vai, fa'/fai, da'/dai, sta'/stai, di', sii, abbi, sappi"
+    distinct_class: IMP.2SG
+    aux_carried: false
+    reference:
+      - {author: "Treccani, Enciclopedia dell'Italiano (R. Cimaglia)", year: 2010, locus: "s.v. imperativo, 'Definizione e peculiarità morfologiche': tu of -are is the only imperative-specific form; 'temi, senti = tu temi, tu senti'; dire di', fa', sta', da', va', also fai, stai, dai, vai", locus_verified: true}
+      - {author: "Treccani, La grammatica italiana", year: 2012, locus: "s.v. imperativo: for essere, avere, sapere, volere the subjunctive replaces the imperative (the 2SG uses the old forms sii, abbi, sappi, vogli)", locus_verified: true}
+      - {author: "Treccani, Enciclopedia dell'Italiano (A. Viviani)", year: 2011, locus: "s.v. imperativo, forme di [prontuario]: essere and avere have dedicated 2SG forms, sii and abbi; fa', va', sta', da' by convention", locus_verified: true}
+      - {author: "Treccani, Vocabolario on line", year: 2026, locus: "s.v. fare: 'imperat. fai o fa’'; s.v. dare: 'imperat. dai o da’'; s.v. dire: 'imperat. di’ o dì'", locus_verified: true}
+    confidence: medium
+    competing_forms:
+      - {form: "vai / fai / dai / stai (full indicative forms; variant 2 in Morph-it)", reason: "R3/P4: the Enciclopedia gives both sets as standard (the full forms derive from an extension of the 2SG indicative); the Vocabolario lists the full form first for fare and dare, the Enciclopedia prontuario the apostrophe forms as the conventional spelling. The two sources do not rank them, so the Morph-it order (apostrophe form first) is kept and flagged as unranked (P4 rule 3)", reference: {author: "Treccani, Vocabolario on line", year: 2026, locus: "s.v. fare, dare", locus_verified: true}}
+    alternatives:
+      - {choice: "IMP.2SG = PRS.3SG for -are verbs and = PRS.2SG for -ere/-ire verbs, declared as class-specific syncretism (two classes)", effect: "not expressible as a single partition; identity with PRS.3SG holds in ~79 percent and with PRS.2SG in ~21 percent of lemmas (check report); the empirical class (emp_class) reports it per lemma, so IMP.2SG stays a class of its own at language level"}
+    notes: >-
+      Identity with another grid cell is class-specific: -are verbs (parla = PRS.3SG), other conjugations
+      (vedi = PRS.2SG). The partner differs by class, so no single class id fits (D26: emp_class reports it per lemma).
+      Irregulars from the data: essere sii, avere abbi, sapere sappi. potere, dovere: no imperative (defective).
+      volere: the data gives vuoi, the sources disagree (see data_gaps).
+  IMP.2PL:
+    rule: source
+    source_cell: "IMP;PRS;2;PL"
+    construction: "parlate! vedete! sentite!; essere siate, avere abbiate, sapere sappiate"
+    distinct_class: PRS.2PL
+    aux_carried: false
+    reference:
+      - {author: "Treccani, Enciclopedia dell'Italiano (R. Cimaglia)", year: 2010, locus: "s.v. imperativo: 'La II persona plur. dell'imperativo ... coincide sempre con la II persona plur. del presente indicativo'; exceptions avere, essere, sapere, volere", locus_verified: true}
+    confidence: medium
+    notes: >-
+      The grammar states the identity IMP.2PL = PRS.2PL for all conjugation classes, so the cell shares the
+      class id PRS.2PL (D25, P2) and is not formally distinct. Four verbs (essere siate, avere abbiate, sapere
+      sappiate, volere vogliate) deviate; they are listed under class_exceptions. The cell is mapped as `source`
+      from the imperative cell (not `syncretism`) because `syncretism` would fill siete/avete for these verbs.
+    alternatives:
+      - {choice: "own class IMP.2PL", effect: "14 classes; PRS.2PL and IMP.2PL both formally distinct (13 formally distinct cells)"}
+
+open_issues:
+  - "PST context: passato prossimo (chosen, medium confidence, regionally conditioned; Treccani's northern remoto preference for personal narration is real) vs passato remoto (D28: planned sensitivity alternative)."
+  - "aux_both lemmas (598) and the remaining lemmas without auxiliary information are avere verbs (D27). essere for aux_both is the recorded sensitivity alternative."
+  - "Variant order (P4): first variants corrected for ~30 lemmas through classes/ita_variant_overrides.csv; remaining doublets (inferito|inferto, dissepolto|disseppellito, do|dò, dai|dài, da'|dai, ripartisco) are sense-dependent or unranked and keep the Morph-it order (unsourced where stated in the notes)."
+  - "Missing frequent verbs: a known limitation of the dataset (D24); none of the 48 checked frequent verbs is missing in Italian."
+  - "volere IMP: sources disagree (vogli/vogliate vs none); emptied as data_gap."
+  - "Grambank GB121 = 0 vs mapping of PST as an auxiliary construction: unverified (Maiden & Robustelli not readable)."

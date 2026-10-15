@@ -1,0 +1,248 @@
+# Cell-grid mapping: Serbo-Croatian (hbs), G14. Mapped from sources opened in this session
+# (see hbs_notes.md "Sources seen"). Alexander 2006 and Browne 1993 were NOT seen.
+# Fix round 2026-10-14 (M9, M10/D32, M11, D31, P4, aux): see hbs_notes.md section 9.
+schema_version: 2
+grid_version: G14_v1
+
+language:
+  name: "Serbo-Croatian"
+  glottocode: "sout1528"
+  iso639_3: "hbs"
+  variety: "ijekavian standard (D21); the data's vocabulary leans Croatian; the grid forms mapped here are common to the Croatian, Bosnian and Serbian ijekavian standards"
+
+dataset:
+  resource: "mgn_data:hbs-v"
+  representation: "orth"
+  lemma_scope_rules:
+    exclude_multiword_lemmas: true
+    exclude_lemma_files: ["analyses/cell_grid_pilot_2026_10_14/mappings/classes/hbs_cyrillic_excluded.csv"]
+
+provenance:
+  mapped_by: "Claude Sonnet 5.5 (mapping agent, hbs)"
+  date: "2026-10-14"
+  status: reviewed
+  reviewed_by: "Opus reviewer + fix round 2026-10-14"
+
+options:
+  aux_option: C
+  word_boundary: clitic_aux_separate
+  aspect_option: S-b
+  missing_forms: keep_with_reason
+
+defaults:
+  subject_gender: "masculine: l-participle -o (sg) / -li (pl); the auxiliary does not vary by gender"
+  second_person_sg: "informal ti (2SG); vi (2PL) read as a plural group, so 2PL participle is plural -li"
+  first_person_pl: "not_distinguished (mi; no clusivity)"
+  plural_reading: "plural (no dual/paucal in the verb)"
+  object: "not_indexed"
+  reference: {author: "Hrvatska školska gramatika (Institut za hrvatski jezik i jezikoslovlje)", year: "n.d. (online)", locus: "gramatika.hr, rules 'Perfekt' (50) and 'Glagolski pridjev radni' (40)", locus_verified: true}
+
+grambank_check:
+  GB082: {value: "1", source: "Alexander 2006: 16"}
+  GB083: {value: "1", source: "Alexander 2006: 195"}
+  GB084: {value: "1", source: "Alexander 2006: 147"}
+  GB086: {value: "1", source: "Alexander 2006: 31ff."}
+  GB089: {value: "1", source: "Alexander 2006: 1ff."}
+  GB091: {value: "1", source: "Alexander 2006: 1ff."}
+  GB121: {value: "1", source: "Alexander 2006: 92"}
+  GB120: {value: "0", source: "Alexander 2006: 31ff."}
+  conflicts: []   # GB083=1 (dedicated past marking: l-participle) and GB121=1 (tense auxiliary: perfect 'sam' etc.) agree with PST = auxiliary + l-participle; the mapping removes the auxiliary by D1/D2
+
+lexical_classes: []
+
+transforms:
+  - id: strip_perfect_aux
+    type: drop_tokens
+    tokens: ["sam", "si", "je", "smo", "ste", "su"]
+    reference:
+      - {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Perfekt': unstressed present of biti sam/si/je/smo/ste/su + l-participle", locus_verified: true}
+      - {author: "Browne & Alt", year: 2004, locus: "section 2.2.1.3.2 Perfect (copy at vdoc.pub)", locus_verified: true}
+    note: "the six Latin tokens are the clitic present of biti; the Cyrillic-script lemmas (with Cyrillic auxiliaries in garantovati) are excluded, see lemma_scope_rules"
+
+  - id: strip_accents
+    type: strip_marks
+    codepoints: ["0300", "0301", "0302", "0304", "030F", "0311"]
+    protect: ["ć", "Ć", "ś", "Ś"]
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Naglasak i naglasne cjeline': accents (grave, acute, circumflex, macron length) are a notation for pitch accent and length", locus_verified: true}
+    note: "M10/D32. Pitch-accent and length marks (dȃm, pȉjēm, nȇmām) are not part of the standard spelling. The marks U+0300/0301/0302/0304/030F/0311 are removed; the caron U+030C (č š ž) is not in the list, and đ and Cyrillic ћ have no decomposition. Protected: ć/Ć (acute is part of the letter) and ś/Ś (occur in the data in pośetiti, śeđeti)."
+
+defective: []
+
+data_gaps:
+  - cells: [IMP.2SG, IMP.2PL]
+    lemmas_file: "analyses/cell_grid_pilot_2026_10_14/mappings/classes/hbs_imp_mislabelled.csv"
+    reason: "IMP;2;SG and IMP;2;PL columns hold past conditionals (bio bi X, bili biste X) in 268 lemmas; the imperative exists in the language (HŠG 'Imperativ') but is not in the data"
+  - cells: [PRS.1SG, PRS.2SG, PRS.3SG, PRS.1PL, PRS.2PL, PRS.3PL, IMP.2SG, IMP.2PL]
+    lemmas: [reći, izreći, odreći, poreći, proreći, zareći, oporeći]
+    reason: "archaic form only (reknem/rekni); standard rečem/reci (M9; same -knem/-kni forms in the prefixed derivatives izreći, odreći, poreći, proreći, zareći, oporeći). Gall: reknem, rečem are archaic, not standard (a present of reći is given as '-'); imperative reci is the regular one"
+    reference:
+      - {author: "Gall, J. (Slavisches Seminar, University of Zurich)", year: 2022, locus: "BKMS G2 Perfekt (ijekavisch) handout: reći prezent '(reknem, rečem – archaische Formen, nicht mehr im Standard)'", locus_verified: true}
+      - {author: "Gall, J. (Slavisches Seminar, University of Zurich)", year: 2022, locus: "BKMS G2 Imperativ handout: 'reći (unreg. reknu) reci, recimo, recite'; 'Imperativ von reći wird regelmässig gebraucht'", locus_verified: true}
+  - cells: [PST.1SG, PST.2SG, PST.3SG]
+    lemmas: [bdjeti]
+    reason: "wrong l-participle in the data (M11): bdjeti has the present form bdije; the standard l-participle is bdio"
+
+cells:
+  PRS.1SG:
+    rule: source
+    source_cell: "PRS;1;SG"
+    transform: strip_accents
+    construction: "(ja) pišem"
+    distinct_class: PRS.1SG
+    aux_carried: false
+    reference:
+      - {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Sadašnje vrijeme (prezent)': endings -am/-aš/-a/-amo/-ate/-aju etc.", locus_verified: true}
+      - {author: "Browne & Alt", year: 2004, locus: "section 2.2.2.2 (present in -a-): čitam, čitaš, čita, čitamo, čitate, čitaju", locus_verified: true}
+    confidence: high
+    notes: "Habitual reading. For perfective lemmas the present is a perfective non-past, see notes (S-b departure)."
+  PRS.2SG:
+    rule: source
+    source_cell: "PRS;2;SG"
+    transform: strip_accents
+    construction: "(ti) pišeš"
+    distinct_class: PRS.2SG
+    aux_carried: false
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Sadašnje vrijeme (prezent)'", locus_verified: true}
+    confidence: high
+  PRS.3SG:
+    rule: source
+    source_cell: "PRS;3;SG"
+    transform: strip_accents
+    construction: "(on) piše"
+    distinct_class: PRS.3SG
+    aux_carried: false
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Sadašnje vrijeme (prezent)'", locus_verified: true}
+    confidence: high
+  PRS.1PL:
+    rule: source
+    source_cell: "PRS;1;PL"
+    transform: strip_accents
+    construction: "(mi) pišemo"
+    distinct_class: PRS.1PL
+    aux_carried: false
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Sadašnje vrijeme (prezent)'", locus_verified: true}
+    confidence: high
+  PRS.2PL:
+    rule: source
+    source_cell: "PRS;2;PL"
+    transform: strip_accents
+    construction: "(vi) pišete"
+    distinct_class: PRS.2PL
+    aux_carried: false
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Sadašnje vrijeme (prezent)'", locus_verified: true}
+    confidence: high
+  PRS.3PL:
+    rule: source
+    source_cell: "PRS;3;PL"
+    transform: strip_accents
+    construction: "(oni) pišu"
+    distinct_class: PRS.3PL
+    aux_carried: false
+    reference:
+      - {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Sadašnje vrijeme (prezent)': 3PL -aju, -e, -u, -ju", locus_verified: true}
+      - {author: "Browne & Alt", year: 2004, locus: "sections 2.2.2.1.9.3, 2.2.2.2, 2.2.2.3: 3PL kažu, čitaju, mole", locus_verified: true}
+    confidence: high
+    notes: "Data error: two lemmas (grebati, sevdisati) have 3PL ending -eu."
+
+  PST.1SG:
+    rule: main_verb
+    source_cell: "PST;1;SG"
+    transform: [strip_perfect_aux, strip_accents]
+    aux: "sam"
+    construction: "(ja) sam pisao: perfect, l-participle masculine singular"
+    distinct_class: PST.1SG
+    aux_carried: true
+    reference:
+      - {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Perfekt': general past tense, 'opće prošlo glagolsko vrijeme'", locus_verified: true}
+      - {author: "Browne & Alt", year: 2004, locus: "section 2.2.1.3.2 Perfect: 'the all-purpose past tense'; 2.2.1.2: safe to use perfect instead of aorist", locus_verified: true}
+    competing_forms:
+      - {source_cell: "PST;1;SG;LGSPEC2", reason: "R3: aorist (pisah/dođoh): literary/optional, mainly perfective verbs, present in only 956 lemmas; grammar names the perfect as the general past", reference: {author: "Browne & Alt", year: 2004, locus: "section 2.2.1.2", locus_verified: true}}
+      - {source_cell: "PRF;PST;1;SG", reason: "this is the pluperfect (bio sam pisao), not the perfect", reference: {author: "Browne & Alt", year: 2004, locus: "section 2.2.1.3.3 Pluperfect", locus_verified: true}}
+    alternatives:
+      - {choice: "aorist (PST;1;SG;LGSPEC2) as a synthetic form", effect: "single-word and person-marked (6 classes, no aux_carried) but present in only ~24% of lemmas, so most cells would be data_gap"}
+    confidence: high
+  PST.2SG:
+    rule: main_verb
+    source_cell: "PST;2;SG"
+    transform: [strip_perfect_aux, strip_accents]
+    aux: "si"
+    construction: "(ti) si pisao"
+    distinct_class: PST.2SG
+    aux_carried: true
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Perfekt'", locus_verified: true}
+    confidence: high
+  PST.3SG:
+    rule: main_verb
+    source_cell: "PST;3;SG"
+    transform: [strip_perfect_aux, strip_accents]
+    aux: "je"
+    construction: "(on) je pisao"
+    distinct_class: PST.3SG
+    aux_carried: true
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Perfekt': 3SG je (dropped with reflexive verbs: krnji perfekt)", locus_verified: true}
+    confidence: high
+    notes: "The grid form is identical to PST.1SG and PST.2SG; the auxiliary (sam/si/je) carries the person (D1). 3SG je is dropped in headlines (krnji perfekt), which would make PST.3SG identical to the bare participle even in the surface form; the data keeps je."
+  PST.1PL:
+    rule: main_verb
+    source_cell: "PST;1;PL"
+    transform: [strip_perfect_aux, strip_accents]
+    aux: "smo"
+    construction: "(mi) smo pisali: masculine plural (large group, defaults SPEC §3)"
+    distinct_class: PST.1PL
+    aux_carried: true
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Glagolski pridjev radni': pl m -li, f -le, n -la; perfekt pjevali smo", locus_verified: true}
+    confidence: medium
+    notes: "Masculine plural for a mixed large group is the SPEC §3 convention; no source seen stating the masculine default for mixed groups (listed under Unsourced decisions)."
+  PST.2PL:
+    rule: main_verb
+    source_cell: "PST;2;PL"
+    transform: [strip_perfect_aux, strip_accents]
+    aux: "ste"
+    construction: "(vi) ste pisali"
+    distinct_class: PST.2PL
+    aux_carried: true
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Perfekt'", locus_verified: true}
+    confidence: medium
+    notes: "Masculine plural for a mixed large group is the SPEC §3 convention; no source seen stating the masculine default for mixed groups (listed under Unsourced decisions)."
+  PST.3PL:
+    rule: main_verb
+    source_cell: "PST;3;PL"
+    transform: [strip_perfect_aux, strip_accents]
+    aux: "su"
+    construction: "(oni) su pisali"
+    distinct_class: PST.3PL
+    aux_carried: true
+    reference: {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Perfekt'", locus_verified: true}
+    confidence: medium
+    notes: "Masculine plural for a mixed large group is the SPEC §3 convention; no source seen stating the masculine default for mixed groups (listed under Unsourced decisions)."
+
+  IMP.2SG:
+    rule: source
+    source_cell: "IMP;2;SG"
+    transform: strip_accents
+    construction: "piši!"
+    distinct_class: IMP.2SG
+    aux_carried: false
+    reference:
+      - {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Imperativ': 2SG sets -ø/-j/-i/-ji", locus_verified: true}
+      - {author: "Gall (Slavisches Seminar, University of Zurich)", year: 2022, locus: "BKMS G2 Imperativ handout: -ju/-je verbs take -j, all others -i", locus_verified: true}
+    confidence: high
+    notes: "268 lemmas hold a conditional instead of the imperative in the data (see defective). Zero-ending (-ø) 2SG forms exist in the data."
+  IMP.2PL:
+    rule: source
+    source_cell: "IMP;2;PL"
+    transform: strip_accents
+    construction: "pišite!"
+    distinct_class: IMP.2PL
+    aux_carried: false
+    reference:
+      - {author: "Hrvatska školska gramatika", year: "n.d. (online)", locus: "gramatika.hr, rule 'Imperativ': 2PL -te/-jte/-ite", locus_verified: true}
+      - {author: "Gall (Slavisches Seminar, University of Zurich)", year: 2022, locus: "BKMS G2 Imperativ handout", locus_verified: true}
+    confidence: high
+
+open_issues:
+  - "Fix round 2026-10-14: reći PRS/IMP (M9) and bdjeti/bosti PST.1SG-3SG (M11) are data_gaps. Follow-up: the bosti gap was lifted (HJP gives prid. rad. bȏ/bȍla); the six prefixed derivatives of reći (izreći, odreći, poreći, proreći, zareći, oporeći) got the same gap as reći; 8 Cyrillic-script lemmas are excluded (classes/hbs_cyrillic_excluded.csv)."
+  - "268 lemmas (6.7%) have a mislabelled imperative in the data; recorded under `data_gaps` (na_reason data_gap). Owner decision needed: re-source the imperative or keep as data_gap."
+  - "Frequent verbs absent from the data: biti, moći, ići, znati, imati, vidjeti, jesti, stati, pasti, živjeti, voljeti."
+  - "No reflexive lemma and no 'se' token occurs in the data, so no reflexive transform is needed."
+  - "Aspect (S-b): perfective lemmas get the habitual PRS context with a perfective present; see notes."

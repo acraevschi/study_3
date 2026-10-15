@@ -1,0 +1,32 @@
+# Sensitivity run of pcfp_grid_v1 ("gaps", DECISIONS D35): the auxiliary-carried cells are
+# left out of the grid (Italian and Serbo-Croatian PST, Armenian PRS), so these languages
+# have 9 cells and the others 15. Additive semantics, as in pcfp_grid_v1. Everything else
+# is identical; the exposure cap max_shown 7 now leaves fewer hidden cells for 9-cell units.
+_inherit: pcfp_grid_v1.yaml
+experiment:
+  id: pcfp_grid_v1_gaps
+resources:
+  ingest:
+    - {adapter: grid, file: outputs/cell_grid_pilot/ita_grid.csv, iso: ita, pos: V, representation: orth, form: b,
+       drop_cells: [PST.1SG, PST.2SG, PST.3SG, PST.1PL, PST.2PL, PST.3PL]}
+    - {adapter: grid, file: outputs/cell_grid_pilot/fin_grid.csv, iso: fin, pos: V, representation: orth, form: b}
+    - {adapter: grid, file: outputs/cell_grid_pilot/eng_grid.csv, iso: eng, pos: V, representation: phon_custom, form: b}
+    - {adapter: grid, file: outputs/cell_grid_pilot/hye_grid.csv, iso: hye, pos: V, representation: orth, form: b,
+       drop_cells: [PRS.1SG, PRS.2SG, PRS.3SG, PRS.1PL, PRS.2PL, PRS.3PL]}
+    - {adapter: grid, file: outputs/cell_grid_pilot/hbs_grid.csv, iso: hbs, pos: V, representation: orth, form: b,
+       drop_cells: [PST.1SG, PST.2SG, PST.3SG, PST.1PL, PST.2PL, PST.3PL]}
+units:
+  - {unit_id: ita.V.orth.grid, resource_id: "grid:ita_grid", role: substantive, citation_cell: NFIN,
+     cells: ['1;IND;PL;PRS', '1;IND;PRS;SG', '2;IMP;PL', '2;IMP;SG', '2;IND;PL;PRS', '2;IND;PRS;SG',
+             '3;IND;PL;PRS', '3;IND;PRS;SG', 'NFIN']}
+  - {unit_id: fin.V.orth.grid, resource_id: "grid:fin_grid", role: substantive, citation_cell: NFIN, cells: &grid15
+      ['1;IND;PL;PRS', '1;IND;PL;PST', '1;IND;PRS;SG', '1;IND;PST;SG', '2;IMP;PL', '2;IMP;SG',
+       '2;IND;PL;PRS', '2;IND;PL;PST', '2;IND;PRS;SG', '2;IND;PST;SG', '3;IND;PL;PRS', '3;IND;PL;PST',
+       '3;IND;PRS;SG', '3;IND;PST;SG', 'NFIN']}
+  - {unit_id: eng.V.phon_custom.grid, resource_id: "grid:eng_grid", role: substantive, citation_cell: NFIN, cells: *grid15}
+  - {unit_id: hye.V.orth.grid, resource_id: "grid:hye_grid", role: substantive, citation_cell: NFIN,
+     cells: ['1;IND;PL;PST', '1;IND;PST;SG', '2;IMP;PL', '2;IMP;SG', '2;IND;PL;PST', '2;IND;PST;SG',
+             '3;IND;PL;PST', '3;IND;PST;SG', 'NFIN']}
+  - {unit_id: hbs.V.orth.grid, resource_id: "grid:hbs_grid", role: substantive, citation_cell: NFIN,
+     cells: ['1;IND;PL;PRS', '1;IND;PRS;SG', '2;IMP;PL', '2;IMP;SG', '2;IND;PL;PRS', '2;IND;PRS;SG',
+             '3;IND;PL;PRS', '3;IND;PRS;SG', 'NFIN']}

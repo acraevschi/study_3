@@ -1,0 +1,22 @@
+feature,label,n_coded,n_families,share_present,family_weighted_share
+GB082,present tense marked on verb,2253,299,0.342,0.42
+GB083,past tense marked on verb,2269,298,0.524,0.623
+GB084,future tense marked on verb,2273,299,0.453,0.621
+GB086,perfective/imperfective on verb,2128,286,0.669,0.719
+GB312,mood marked on verb,1928,260,0.697,0.807
+GB089,S indexed by suffix/enclitic,2315,306,0.404,0.508
+GB090,S indexed by prefix/proclitic,2324,312,0.418,0.52
+GB091,A indexed by suffix/enclitic,2312,307,0.367,0.477
+GB092,A indexed by prefix/proclitic,2327,310,0.385,0.482
+GB093,P indexed by suffix/enclitic,2308,309,0.341,0.418
+GB094,P indexed by prefix/proclitic,2305,306,0.223,0.364
+GB028,inclusive/exclusive (pronouns or indexing),2357,304,0.527,0.451
+GB031,dual for all persons (pronouns or indexing),2334,304,0.264,0.3
+GB121,tense by inflecting auxiliary,1947,267,0.218,0.195
+GB120,aspect by inflecting auxiliary,1922,262,0.323,0.295
+GB119,mood by inflecting auxiliary,1885,270,0.281,0.276
+GB521,tense by non-inflecting particle,1696,231,0.244,0.205
+GB400,person neutralised in some TAM/negation,1507,207,0.071,0.087
+S_index_any,OR of GB089+GB090,2338,312,0.68,0.82
+P_index_any,OR of GB093+GB094,2308,308,0.505,0.66
+tense_any,OR of GB082+GB083+GB084,2295,302,0.626,0.756
