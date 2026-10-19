@@ -143,6 +143,60 @@ Reading:
   * Rules: hye > eng > hbs > ita > fin.
   * They differ only in English vs Armenian. LDL compresses the differences.
 
+## Gaps + cell vector (`pcfp_grid_v1_cellvec_gaps`, 2026-10-19)
+
+This run completes the 2×2 {full grid, gaps} × {additive, cell vector}.
+
+* **Config.** `configs/pcfp_grid_v1_cellvec_gaps.yaml`: the gaps grid of
+  `pcfp_grid_v1_gaps` with the cell-vector tuning grid of `pcfp_grid_v1_cellvec`.
+* **Same items.** The exposure manifests are byte-identical to `pcfp_grid_v1_gaps`, so
+  the two gaps runs are paired item for item.
+* **Tuning.** Bigram cues, inflection SD 1.0, and `sem_sd_cell` **1.0** (2.0 on the
+  full grid). Tuning is pooled over languages, so English and Finnish move slightly
+  although their data are unchanged.
+* **Audit and runtime.** The audit found 0 problems. Tuning took 7 min, the 125 fits
+  4 min.
+
+LDL accuracy, all test items (core; 95% CI from the cluster bootstrap):
+
+| | full, additive | full + cell vector | gaps, additive | **gaps + cell vector** | rules (gaps) |
+|---|---|---|---|---|---|
+| English | 0.737 | 0.755 | 0.737 | **0.758** [0.737, 0.778] | 0.919 |
+| Armenian | 0.303 | 0.547 | 0.443 | **0.602** [0.574, 0.632] | 0.989 |
+| Serbo-Croatian | 0.246 | 0.487 | 0.351 | **0.459** [0.435, 0.484] | 0.920 |
+| Italian | 0.218 | 0.316 | 0.416 | **0.520** [0.492, 0.547] | 0.768 |
+| Finnish | 0.222 | 0.324 | 0.222 | **0.329** [0.310, 0.348] | 0.739 |
+
+The cells shared by all four runs in ita, hye and hbs (everything except the auxiliary
+block). The full-grid columns are the "rest of the grid" figures above:
+
+| | full, additive | full + cell vector | gaps, additive | gaps + cell vector |
+|---|---|---|---|---|
+| Italian | 0.27 | 0.41 | 0.42 | 0.52 |
+| Serbo-Croatian | 0.25 | 0.43 | 0.35 | 0.46 |
+| Armenian | 0.30 | 0.50 | 0.44 | 0.60 |
+
+Reading:
+
+* **Without the auxiliary cells, the cell vector adds about 10–16 points.**
+  * Italian +10, Serbo-Croatian +11, Armenian +16, against Finnish +11 and English +2.
+  * On the full grid it added +24 overall in Serbo-Croatian and Armenian: +34 and +31
+    in the auxiliary block, and +18 and +20 in the rest of the grid.
+  * So the cell vector is a general improvement, not only an auxiliary fix. Its larger
+    effect in hbs and hye on the full grid is partly a property of option B.
+* **The two changes add up roughly; they do not substitute for each other.** The best
+  LDL condition is gaps + cell vector in all three auxiliary languages.
+* **Even with the cell vector, removing the auxiliary cells helps the other cells**
+  (Italian +11, Serbo-Croatian +3, Armenian +10 against the full-grid rest). The comparison is confounded: with 9 cells and at most 7
+  shown, a larger share of each verb is visible.
+* **LDL is still far below the rule baseline** (by 16–39 points outside English, and
+  below the copy baseline's 0.77 in English).
+* **Rankings.**
+  * LDL: eng > hye > ita > hbs > fin.
+  * Rules (gaps): hye > hbs ≈ eng > ita > fin.
+  * Compared with the full-grid cell-vector run, Italian and Serbo-Croatian swap places
+    under LDL; the rule baseline keeps hbs above ita in both grids.
+
 ## Open (owner decision)
 
 * **Which outcome measure to use:**

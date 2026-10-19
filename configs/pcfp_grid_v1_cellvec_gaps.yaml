@@ -1,0 +1,11 @@
+# Sensitivity run completing the 2x2 {full grid, gaps} x {additive, cell vector}: the gaps
+# grid of pcfp_grid_v1_gaps (auxiliary-carried cells left out; DECISIONS D35) with the cell
+# vector V(cell) of pcfp_grid_v1_cellvec, sem_sd_cell re-tuned on the same auxiliary verbs.
+# Everything else (data, splits, exposure, seeds) is identical to pcfp_grid_v1_gaps.
+_inherit: pcfp_grid_v1_gaps.yaml
+experiment:
+  id: pcfp_grid_v1_cellvec_gaps
+ldl:
+  sem_sd_cell: 2.0                    # placeholder; chosen by ldl_tune
+  tune:
+    grid: {cue_ngram: [2, 3], sem_sd_inflection: [0.4, 1.0, 2.0, 4.0], sem_sd_cell: [1.0, 2.0, 4.0]}
