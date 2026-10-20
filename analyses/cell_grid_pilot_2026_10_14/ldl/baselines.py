@@ -99,7 +99,7 @@ def run_unit(unit):
                             best = (key, apply(ru, x))
                         break
             rule_pred = best[1] if best else copy_pred
-            gold = set(str(r.gold_variants).split("|"))
+            gold = set(str(r.gold_variants).split(" || "))      # morph_ldl.cv.evaluate.VARIANT_SEP
             rows.append({"unit_id": unit, "repetition": rep, "outer_fold": fold, "lemma_id": l,
                          "target_cell": t, "ldl_correct": str(r.correct) == "True",
                          "copy_correct": " ".join(copy_pred) in gold, "rules_correct": " ".join(rule_pred) in gold})

@@ -88,17 +88,24 @@ training verbs.
 
 The whole baseline script runs in 9 seconds.
 
+**Correction (2026-10-20).** The first version of `baselines.py` split `gold_variants` on
+"|" instead of the pipeline's " || ", so items with more than one gold variant could never
+be scored correct for copy or rules. This affected Italian (apocopated variants such as
+*cantan*, *cantar* in 3PL PRS and NFIN) and, slightly, English. All baseline figures below
+are from the fixed script. Italian rules rose from 0.784 to 0.908 (gaps 0.768 to 0.952),
+English from 0.919 to 0.927 (copy 0.768 to 0.774). LDL figures were not affected.
+
 | | LDL | copy | rules |
 |---|---|---|---|
-| English | 0.737 [0.717, 0.757] | 0.768 [0.746, 0.791] | **0.919** [0.906, 0.934] |
+| English | 0.737 [0.717, 0.757] | 0.774 [0.751, 0.796] | **0.927** [0.913, 0.940] |
 | Armenian | 0.303 [0.285, 0.320] | 0.000 | **0.946** [0.932, 0.958] |
 | Serbo-Croatian | 0.246 [0.233, 0.259] | 0.022 | **0.872** [0.853, 0.890] |
-| Italian | 0.218 [0.205, 0.231] | 0.064 | **0.784** [0.768, 0.798] |
+| Italian | 0.218 [0.205, 0.231] | 0.064 | **0.908** [0.890, 0.924] |
 | Finnish | 0.222 [0.207, 0.238] | 0.049 | **0.739** [0.720, 0.759] |
 
-The analogy baseline beats LDL by 18–64 points in every language, and the copy baseline
-beats it in English. The two give a similar ranking. Under the rule baseline it is
-hye > eng > hbs > ita > fin, which is linguistically plausible. LDL compresses the
+The analogy baseline beats LDL by 19–69 points in every language, and the copy baseline
+beats it in English. Under the rule baseline the ranking is
+hye > eng > ita > hbs > fin, which is linguistically plausible. LDL compresses the
 differences and puts English first. As set up here, the LDL accuracy is dominated by model
 limitations, not by the languages.
 
@@ -112,17 +119,17 @@ limitations, not by the languages.
 
 | | LDL additive | LDL + cell vector | LDL, gaps | rules (15 cells) | rules (gaps) |
 |---|---|---|---|---|---|
-| English | 0.737 | 0.755 | 0.737 | 0.919 | 0.919 |
+| English | 0.737 | 0.755 | 0.737 | 0.927 | 0.927 |
 | Armenian | 0.303 | 0.547 | 0.443 | 0.946 | 0.989 |
 | Serbo-Croatian | 0.246 | 0.487 | 0.351 | 0.872 | 0.920 |
-| Italian | 0.218 | 0.316 | 0.416 | 0.784 | 0.768 |
+| Italian | 0.218 | 0.316 | 0.416 | 0.908 | 0.952 |
 | Finnish | 0.222 | 0.324 | 0.222 | 0.739 | 0.739 |
 
 Accuracy in the auxiliary block (with the rest of the grid in brackets):
 
 | | LDL additive | LDL + cell vector | rules |
 |---|---|---|---|
-| Italian (aux first) | 0.14 (0.27) | **0.17** (0.41) | 0.89 (0.71) |
+| Italian (aux first) | 0.14 (0.27) | **0.17** (0.41) | 0.89 (0.92) |
 | Serbo-Croatian (aux after) | 0.25 (0.25) | 0.58 (0.43) | 0.91 (0.85) |
 | Armenian (aux after) | 0.31 (0.30) | 0.62 (0.50) | 0.99 (0.92) |
 
@@ -132,16 +139,17 @@ Reading:
   Serbo-Croatian and Armenian, the auxiliary block rises from about 0.3 to about 0.6.
 * **It does not fix the Italian auxiliary, which comes first** (0.14 → 0.17). The
   sequence decoder seems unable to pick the cell-specific start of a form.
-* **For the rule baseline, the auxiliary blocks are the easiest cells** (0.89–0.99),
-  as a speaker would expect.
+* **For the rule baseline, the auxiliary blocks are easy** (0.89–0.99): above the rest of
+  the grid in Serbo-Croatian and Armenian, and on a par with it in Italian (0.89 vs 0.92).
 * **The LDL scores depend strongly on model choices.** The cell vector, the auxiliary's
   position, and the number of cells (the gaps run shows more of each verb) each move
   LDL by 10–25 points.
 * **The rule baseline is stable** across all three variants.
 * **Rankings largely agree.**
   * LDL + cell vector: eng > hye > hbs > ita ≈ fin.
-  * Rules: hye > eng > hbs > ita > fin.
-  * They differ only in English vs Armenian. LDL compresses the differences.
+  * Rules: hye > eng > ita > hbs > fin.
+  * They differ in English vs Armenian and in Italian vs Serbo-Croatian. LDL compresses
+    the differences.
 
 ## Gaps + cell vector (`pcfp_grid_v1_cellvec_gaps`, 2026-10-19)
 
@@ -161,10 +169,10 @@ LDL accuracy, all test items (core; 95% CI from the cluster bootstrap):
 
 | | full, additive | full + cell vector | gaps, additive | **gaps + cell vector** | rules (gaps) |
 |---|---|---|---|---|---|
-| English | 0.737 | 0.755 | 0.737 | **0.758** [0.737, 0.778] | 0.919 |
+| English | 0.737 | 0.755 | 0.737 | **0.758** [0.737, 0.778] | 0.927 |
 | Armenian | 0.303 | 0.547 | 0.443 | **0.602** [0.574, 0.632] | 0.989 |
 | Serbo-Croatian | 0.246 | 0.487 | 0.351 | **0.459** [0.435, 0.484] | 0.920 |
-| Italian | 0.218 | 0.316 | 0.416 | **0.520** [0.492, 0.547] | 0.768 |
+| Italian | 0.218 | 0.316 | 0.416 | **0.520** [0.492, 0.547] | 0.952 |
 | Finnish | 0.222 | 0.324 | 0.222 | **0.329** [0.310, 0.348] | 0.739 |
 
 The cells shared by all four runs in ita, hye and hbs (everything except the auxiliary
@@ -189,13 +197,38 @@ Reading:
 * **Even with the cell vector, removing the auxiliary cells helps the other cells**
   (Italian +11, Serbo-Croatian +3, Armenian +10 against the full-grid rest). The comparison is confounded: with 9 cells and at most 7
   shown, a larger share of each verb is visible.
-* **LDL is still far below the rule baseline** (by 16–39 points outside English, and
+* **LDL is still far below the rule baseline** (by 39–46 points outside English, and
   below the copy baseline's 0.77 in English).
 * **Rankings.**
   * LDL: eng > hye > ita > hbs > fin.
-  * Rules (gaps): hye > hbs ≈ eng > ita > fin.
-  * Compared with the full-grid cell-vector run, Italian and Serbo-Croatian swap places
-    under LDL; the rule baseline keeps hbs above ita in both grids.
+  * Rules (gaps): hye > ita > eng ≈ hbs > fin.
+  * With the gaps grid, LDL and the rule baseline agree on Italian above Serbo-Croatian;
+    they still differ on English vs Armenian.
+
+## Rule baseline on native paradigms (`pcfp_v2`, 2026-10-20)
+
+To see what the shared grid does to the baseline, the same (fixed) `baselines.py` was run on
+the LDL items of `pcfp_v2`. That run uses each language's own paradigm: Italian 48
+synthetic MGN cells, Finnish 35 single-word cells. The exposure is the same (at most 7 shown
+cells, 100 + 100 training verbs). Only Italian and Finnish exist in that run.
+
+| | cells | LDL | copy | rules | rules, grid (15 cells) |
+|---|---|---|---|---|---|
+| Italian | 48 | 0.171 [0.163, 0.180] | 0.038 | 0.712 [0.693, 0.731] | 0.908 |
+| Finnish | 35 | 0.135 [0.126, 0.144] | 0.006 | 0.462 [0.447, 0.476] | 0.739 |
+
+With a fixed number of shown cells per verb, a larger paradigm gives less evidence for
+each source → target cell pair. These are the training verbs per fit that have both cells
+of a pair shown, averaged over pairs:
+
+| | Italian native (48) | Finnish native (35) | grid (15) | gaps grid (9) |
+|---|---|---|---|---|
+| verbs per cell pair | 1.4 | 2.6 | 14–15 | 42 |
+| pairs with no evidence | 26% | 9% | 0% | 0% |
+
+So on native paradigms, the baseline's score depends on paradigm size through the
+amount of evidence, not only through the language. The grid fixes this by giving every
+language the same number of cells.
 
 ## Open (owner decision)
 
