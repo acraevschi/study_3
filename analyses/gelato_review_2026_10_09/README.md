@@ -39,3 +39,8 @@ Rows are sorted by issue, then by number of individuals.
 A filled row is used only after it is read back into the pipeline as a manual link (not
 wired yet). Re-running the script refuses to overwrite a sheet that has any `FILL_*` cell
 filled.
+
+**Update 2026-10-16.** Only the 29 `group_ambiguous` rows are reviewed (user decision). They
+are copied, unchanged, to `analyses/gelato_review_2026_10_16/group_populations_to_review.csv`;
+fill in that copy. The other 40 rows add nothing to the Grambank outcome and are not
+reviewed (see that folder's README).
