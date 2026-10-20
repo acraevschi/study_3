@@ -188,11 +188,16 @@ def review_link_problems(links: pd.DataFrame, label: str) -> List[str]:
         return [f"{label}: no confirmed_date column (written before the 2026-10-16 review rule; re-run)"]
     s = lambda c: links[c].fillna("").astype(str).str.strip()
     by, date, ref, prop, st = s("confirmed_by"), s("confirmed_date"), s("review_ref"), s("proposed_status"), s("match_status")
+    # typology links accepted by a configured rule (2026-10-20) need no person
+    rule = s("accepted_by_rule") if "accepted_by_rule" in links.columns else pd.Series("", index=links.index)
     unconfirmed = (by == "") | (date == "")
     probs = []
-    n = int(((st == "accepted") & unconfirmed).sum())
+    n = int(((st == "accepted") & unconfirmed & (rule == "")).sum())
     if n:
-        probs.append(f"{label}: {n} accepted link(s) without confirmed_by + confirmed_date")
+        probs.append(f"{label}: {n} accepted link(s) without confirmed_by + confirmed_date or a rule")
+    n = int(((rule != "") & (st != "accepted")).sum())
+    if n:
+        probs.append(f"{label}: {n} link(s) with accepted_by_rule that are not accepted")
     n = int(((ref != "") & (prop == "") & st.isin(["ambiguous", "excluded"]) & unconfirmed).sum())
     if n:
         probs.append(f"{label}: {n} ambiguous/excluded-by-review link(s) without confirmed_by + confirmed_date")

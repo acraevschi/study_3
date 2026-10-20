@@ -13,9 +13,10 @@ from a GeLaTo population. It never reads ancestry values (§7).
 | source | pin | files read |
 |---|---|---|
 | Grambank CLDF (`grambank/grambank`) | tag `v1.0.3`, commit `7ae000cf740f93cdb3e4ec67010668d6795337a9` | `cldf/values.csv`, `cldf/parameters.csv`, `cldf/codes.csv`, `cldf/languages.csv` |
-| Glottolog CLDF (`glottolog/glottolog-cldf`) | tag `v5.3`, commit `072ca0d0410039fb8b779be8fc165bac575d2cda` | `cldf/languages.csv` (Level, Language_ID, Family_ID, Macroarea); `cldf/values.csv`, only the `classification` rows (for group map-down) |
+| Glottolog CLDF (`glottolog/glottolog-cldf`) | tag `v5.3`, commit `072ca0d0410039fb8b779be8fc165bac575d2cda` | `cldf/languages.csv` (Level, Language_ID, Family_ID, Macroarea); `cldf/values.csv`, the `classification` rows (for group map-down) and, since 2026-10-20, the `aes` rows (endangerment, for the `endangered` flag) |
 | GeLaTo main_397 | gelato-data commit `c625fdc…` | `cldf/populations.csv` |
 | GeLaTo expanded_558 | Zenodo 15263706 | `tables/tableS1.csv` |
+| decision sheet (configs with `typology.decision_sheet`, since 2026-10-20) | in the repository | `morph_ldl/data/gelato_link_review.csv` |
 
 `scripts/fetch_external.sh` clones Grambank and Glottolog at the tags into
 `external/grambank` and `external/glottolog-cldf` (shallow clones; `external/` is
@@ -28,7 +29,9 @@ The GeLaTo files are the same cached files as the data-stage crosswalk
 metadata tables. It does not use `gelato.load_sources`, because that function also opens
 `GeneticInfoID.csv` and the derived K23/diagnostic tables (with key-only `usecols`). It
 also does not read the audit's `population_crosswalk.csv` (it carries FST/Ne values) or
-the Zenodo population mapping (not needed).
+the Zenodo population mapping (not needed). Only the sheet regeneration
+(`python -m morph_ldl.cli link_review`) reads that mapping, for the place and Graff
+comment of each sheet row.
 
 ## 2. Unit of observation and mapping rules
 
@@ -74,6 +77,48 @@ for the four Italian proxy links (Italian_South, Italian_Calabria, Sicilian_East
 Sicilian_West). In the rerun `outputs/pcfp_v2_review_2026_10_16/` these 9 links change
 status; no outcome count changes (the Italian row only lists the 4 proxy populations).
 
+**Link rules and one decision sheet (2026-10-20, user decisions; `configs/pcfp_v2_links.yaml`).**
+Checking each link by hand is too slow, and a check of an exact link adds nothing. So:
+
+* **Accepted by rule** (`typology.link_rules.accept_by_rule`, column `accepted_by_rule`):
+  `exact`, `dialect_rollup`, `group_map_down`, and `graff_gbi_stand_in`. The last is
+  Graff et al.'s Grambank-side (GBI) stand-in, used only when the population has no own
+  link to a Grambank language. Their WALS-side (TLI) stand-ins are never accepted by rule:
+  they replace languages missing from WALS/AUTOTYP, not from Grambank. Every case where a
+  stand-in disagrees with an own main-set link is a TLI stand-in (Kove → Lusi, Sicilian →
+  Italian), so the order of the rules does not matter.
+* **The decision sheet** `morph_ldl/data/gelato_link_review.csv` is the only place where
+  a person decides; `gelato_review.yaml` is an archive. One row per link, keyed by
+  (`population`, `link_glottocode`). `decision` is `accept`, `relink` (a manual link to
+  `decision_glottocode` replaces the link), `exclude` or `ambiguous`; it takes effect with
+  `confirmed_by` + `confirmed_date` (rule of 2026-10-16), otherwise it is a proposal.
+  Malformed rows are reported and not applied. A confirmed YAML decision missing from the
+  sheet stops the stage. The sheet holds only what the rules cannot settle: group codes
+  without a Graff choice, the 12 decisions of 2026-10-16, the Yukaghir swap (relink
+  proposals), and doubt labels.
+* **Main analysis** = links with `in_main` (accepted, or a non-proxy candidate) to a
+  Grambank language at the coverage threshold (`in_main_analysis` in the outcome table).
+* **Sensitivity analyses** (`typology.sensitivity_analyses`) drop the main-analysis links
+  that carry a flag (`sensitivity_flags`); they never add a link:
+  * `endangered`: the linked language's Glottolog AES is at least
+    `link_rules.endangered_min_aes` (4, moribund; 3 would add "shifting"). The sampled
+    community may have shifted to another language.
+  * `diaspora`, `wrong_code`: doubt labels from the sheet. They apply to every link of the
+    population and need no confirmation, because they never change the main analysis.
+    Diaspora = Graff et al. mapping location `migrants_collected_in_…`; wrong code = the
+    source check of 2026-10-16.
+  * `stand_in_other_language` (a Graff stand-in replaces the population's own language,
+    for example Saudi → Gulf Arabic) and `stand_in_no_own_language` (the population's own
+    code is a group, for example Greek → Modern Greek).
+
+  pcfp_v2_links declares `no_doubtful_language` (endangered, diaspora, wrong_code),
+  `no_other_language_stand_ins`, and `strict` (both). Sample size is not a flag: the
+  exposure model carries it as uncertainty (user decision 2026-10-20).
+* `python -m morph_ldl.cli link_review --config …` rebuilds the sheet from the typology
+  outputs: rows are merged by key, filled cells are kept, new cases are added, and a filled
+  row whose link no longer exists is kept and marked `STALE (no such link)`. It refuses to
+  write if a filled row would be lost or changed.
+
 Edge cases:
 
 * Several populations of one language stay separate link rows; nothing is averaged. The
@@ -102,7 +147,8 @@ Edge cases:
 link (exact, roll-up, map-down, manual or proxy), plus the language of every configured
 LDL unit (`in_scope_reason` says which). Languages reached only through proxies are
 kept, with `link_basis_proxy_only = True`; the main typology analysis uses
-`link_basis_proxy_only == False`.
+`link_basis_proxy_only == False`. With the link rules of 2026-10-20 it uses
+`in_main_analysis` instead (accepted stand-ins count).
 
 **`has_ldl_unit`.** For each configured unit (`cfg["units"]`, or the `units` argument),
 the Glottocode comes from `outputs/<exp>/data/forms/<unit>.csv` (`glottocode`, first
@@ -321,12 +367,20 @@ Use: sensitivity analysis that drops `clitic_flag` languages; never a recode.
   population metadata (panels, sample sizes, own and proxy Glottocodes and their
   Glottolog levels), `glottocode` (language level, empty for unresolved/ambiguous
   groups), `candidate_glottocodes`, `link_basis`, `is_proxy`, `match_status`,
-  `proposed_status`, `confirmed_by`, `confirmed_date`, `decision_reason`, `unresolved_issues`,
-  `review_ref`. No ancestry columns.
+  `proposed_status`, `accepted_by_rule`, `confirmed_by`, `confirmed_date`,
+  `decision_reason`, `unresolved_issues`, `review_ref`, `aes`, `sensitivity_flags`,
+  `in_main`. No ancestry columns.
+* `analysis_links.csv` (since 2026-10-20): the links of the main analysis and of each
+  sensitivity analysis (`analysis`, population, language, basis, `accepted_by` = rule or
+  person, flags, `n_individuals`, `in_grambank`, `meets_coverage_main`).
+  `coverage_summary.json` gives the counts per analysis (`analyses`), the rules, and the
+  decision sheet (rows by reason, confirmed and proposed decisions, malformed rows, rows
+  without a link).
 * `grambank_inflection.csv`: one row per language (§2, §4) with `gelato_linked`,
   `link_bases`, `link_basis_proxy_only`, `best_link_status` (accepted > candidate >
   ambiguous over non-proxy links, else over proxy links), `has_accepted_link`,
-  `n_populations`, `n_populations_nonproxy`, `populations`, `n_individuals_total`,
+  `n_populations`, `n_populations_nonproxy`, `n_populations_main`, `in_main_analysis`,
+  `populations`, `n_individuals_total`,
   `n_individuals_proxy_links`, `has_ldl_unit`, `ldl_units`, `clitic_flag*`.
 * `feature_set.json`: the declared set (copied from the config) and the set actually used
   (IDs with Grambank parameter names, code lists and present codes; config hash).
@@ -373,6 +427,11 @@ ancestry values.
    `accepted` link, and no link ambiguous or excluded by a review, without
    `confirmed_by` + `confirmed_date` (`gelato.review_link_problems`; since 2026-10-16). The
    final `audit` stage applies the same check to the data-stage `gelato/` link tables.
+   Since 2026-10-20 a link accepted by a configured rule (`accepted_by_rule`) needs no
+   person; a rule not in the config is a problem.
+5. `analysis_links.csv`: the main analysis equals the `in_main` links, each sensitivity
+   analysis is a subset of it, the analyses equal the config, and every link has an
+   outcome row.
 
 ## 9. Proposed analysis PROTOCOL (not fitted)
 
@@ -527,3 +586,31 @@ the same run under the 35-feature set.
     of present categories (Ingush, Cocama-Cocamilla, Dargwa: +0.38 to +0.42 in share).
 * **Clitic flags:** 16 non-proxy languages, with Lahu and Nakanai new at the rescaled
   threshold.
+
+## 13. Link rules run (2026-10-20, `configs/pcfp_v2_links.yaml`, `outputs/pcfp_v2_links_2026_10_20/typology/`)
+
+Typology stage only; the outcome counts of every language are the same as in
+`outputs/pcfp_v2_review_2026_10_16/`. The typology audit passes.
+
+* **Main set: 198 languages** (was 175; none lost). 331 populations, 2,920 individuals.
+  The 23 new languages come from Graff stand-ins: 14 resolve a group code (Modern Greek,
+  Halh Mongolian, Kuanua, …), 9 replace a language missing from Grambank (Gulf Arabic,
+  Chaldean Neo-Aramaic, East Taa, Central Mansi, …).
+* **Who accepted the 331 main-set links:** rule exact 242, dialect roll-up 33, group
+  map-down 11, Graff stand-in 35, person 10 (the confirmations of 2026-10-16).
+* **Sensitivity analyses** (main-set languages / populations):
+
+  | analysis | drops | languages | populations |
+  |---|---|---|---|
+  | main | – | 198 | 331 |
+  | no_doubtful_language | endangered (AES ≥ 4), diaspora, wrong_code | 174 | 293 |
+  | no_other_language_stand_ins | the 16 stand-ins for another language | 189 | 315 |
+  | strict | both | 169 | 281 |
+
+  Flags on main-set links: endangered 25, diaspora 8, wrong_code 7,
+  stand_in_other_language 16, stand_in_no_own_language 21.
+* **Decision sheet:** 33 rows. 12 decisions of 2026-10-16 (10 confirmed; the 2 Sicilian
+  rows propose to exclude the TLI stand-in Italian), 5 group codes without a Graff
+  choice (Buka, Yi, Vanuatu Ambrym, Banks, Malekula), 2 Yukaghir relink proposals, 8
+  diaspora and 7 wrong-code labels (only populations in the main set). No malformed row.
+

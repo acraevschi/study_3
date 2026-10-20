@@ -1,8 +1,8 @@
 """`typology` stage: Grambank inflection extent for GeLaTo-linked languages.
 
 Independent of select/ldl/evaluate. Reads only Grambank/Glottolog CLDF, the two GeLaTo
-population-metadata tables, the GeLaTo review YAML, and (optionally) the data stage's
-unit Glottocodes. See docs/TYPOLOGY.md.
+population-metadata tables, the link decision sheet (or, without one, the GeLaTo review
+YAML), and (optionally) the data stage's unit Glottocodes. See docs/TYPOLOGY.md.
 """
 
 from __future__ import annotations
@@ -19,11 +19,16 @@ from morph_ldl.data import gelato
 from morph_ldl.data.util import sha256_file, write_csv, write_json
 from morph_ldl.provenance import StageRecorder
 from morph_ldl.typology import grambank as gb
+from morph_ldl.typology import link_review as lr
 
 STAGE = "typology"
 GRAMBANK_FILES = ("values.csv", "parameters.csv", "codes.csv", "languages.csv")
 STATUS_RANK = {"accepted": 0, "candidate": 1, "ambiguous": 2, "unmatched": 3, "excluded": 4}
 NONPROXY_MATCH = ("exact", "dialect_rollup", "group_map_down", "manual")
+# Link rules that typology.link_rules.accept_by_rule may name (user decision 2026-10-20).
+# graff_gbi_stand_in: Graff et al.'s Grambank-side (GBI) stand-in, only for a population
+# without an own link to a Grambank language.
+RULES = ("exact", "dialect_rollup", "group_map_down", "graff_gbi_stand_in")
 
 LINK_COLUMNS = [
     "population", "panels", "in_main_397", "in_expanded_558", "main_population_id",
@@ -31,8 +36,8 @@ LINK_COLUMNS = [
     "main_glottocode", "tableS1_gelato_glottocode", "tableS1_gbi_glottocode", "tableS1_tli_glottocode",
     "source_glottocode", "source_glottocode_field", "source_glottocode_level",
     "glottocode", "language_name", "link_basis", "is_proxy", "candidate_glottocodes",
-    "match_status", "proposed_status", "confirmed_by", "confirmed_date", "decision_reason", "unresolved_issues",
-    "review_ref",
+    "match_status", "proposed_status", "accepted_by_rule", "confirmed_by", "confirmed_date", "decision_reason",
+    "unresolved_issues", "review_ref", "aes", "sensitivity_flags", "in_main",
 ]
 
 SET_METRICS = ("n_features", "n_coded", "n_present", "coverage", "share")
@@ -118,6 +123,48 @@ def load_reviews(cfg: dict, log: gb.FileLog) -> List[dict]:
     return gelato.load_review(path)
 
 
+def load_sheet(cfg: dict, log: gb.FileLog) -> Optional[pd.DataFrame]:
+    """The decision sheet, or None when typology.decision_sheet is not configured."""
+    path = _tcfg(cfg).get("decision_sheet")
+    if not path:
+        return None
+    path = _p(path)
+    if not path.exists():
+        raise FileNotFoundError(f"typology.decision_sheet {path} does not exist")
+    log.record(path)
+    return lr.read_sheet(path)
+
+
+def link_rules(tcfg: dict) -> dict:
+    r = dict(tcfg.get("link_rules") or {})
+    acc = list(r.get("accept_by_rule") or [])
+    bad = [x for x in acc if x not in RULES]
+    if bad:
+        raise ValueError(f"typology.link_rules.accept_by_rule: unknown rules {bad} (allowed: {RULES})")
+    aes = r.get("endangered_min_aes", 4)
+    if not isinstance(aes, int) or not 1 <= aes <= 6:
+        raise ValueError(f"typology.link_rules.endangered_min_aes must be an integer 1-6, got {aes!r}")
+    return {"accept_by_rule": acc, "endangered_min_aes": aes}
+
+
+def yaml_conflicts(reviews: List[dict], sheet: pd.DataFrame) -> List[str]:
+    """A confirmed YAML decision must be in the sheet with the same decision (the YAML is an
+    archive since 2026-10-20; the sheet is the only source)."""
+    st2dec = {"accepted": "accept", "excluded": "exclude", "ambiguous": "ambiguous"}
+    rows = {(r["population"], r["link_glottocode"]): r for r in sheet.to_dict("records")}
+    out = []
+    for rv in reviews:
+        if not gelato.review_is_confirmed(rv) or gelato.review_problems(rv):
+            continue
+        k = (rv.get("population", ""), rv.get("glottocode", ""))
+        r = rows.get(k)
+        want = st2dec.get(rv.get("status"))
+        if r is None or r["decision"] != want or not lr.is_confirmed(r):
+            got = "no row" if r is None else f"{r['decision'] or 'no decision'}{'' if lr.is_confirmed(r) else ' (unconfirmed)'}"
+            out.append(f"{rv.get('id', '')} {k}: YAML {want} (confirmed), sheet {got}")
+    return out
+
+
 # --------------------------------------------------------------------------
 # Population links
 # --------------------------------------------------------------------------
@@ -135,11 +182,63 @@ def apply_review(link: dict, reviews: List[dict]) -> dict:
     o = gelato.review_outcome(rv, link["match_status"], link["decision_reason"])
     issues = [i for i in link["unresolved_issues"].split("; ") if i] + o.pop("issues")
     o.pop("evidence")
+    if o["match_status"] != link["match_status"] or o["confirmed_by"]:
+        o["accepted_by_rule"] = ""
     return {**link, **o, "unresolved_issues": "; ".join(dict.fromkeys(issues))}
 
 
+def _issues(link: dict, *extra: str) -> str:
+    return "; ".join(dict.fromkeys([i for i in link["unresolved_issues"].split("; ") if i] + [e for e in extra if e]))
+
+
+def apply_sheet_row(link: dict, row: Optional[dict], problems: List[str]) -> dict:
+    """Effect of one decision-sheet row on one link (rule of 2026-10-16 for the confirmation)."""
+    if row is None:
+        return link
+    ref = f"gelato_link_review.csv:{row['population']}|{row['link_glottocode']}"
+    if problems:
+        return {**link, "unresolved_issues": _issues(
+            link, "decision sheet row malformed (" + "; ".join(problems) + "); not applied")}
+    dec = row["decision"]
+    if not dec:
+        return link
+    status = lr.DECISION_STATUS[dec]
+    target = f" to {row['decision_glottocode']}" if dec == "relink" else ""
+    reason = row["reason"] or f"decision sheet: {dec}{target}"
+    if not lr.is_confirmed(row):
+        return {**link, "proposed_status": status, "review_ref": ref,
+                "unresolved_issues": _issues(link, f"decision sheet proposes {dec}{target}; awaiting human "
+                                                   "confirmation (confirmed_by + confirmed_date)")}
+    return {**link, "match_status": status, "proposed_status": "", "accepted_by_rule": "",
+            "confirmed_by": row["confirmed_by"], "confirmed_date": row["confirmed_date"],
+            "decision_reason": (f"relinked{target}: " if dec == "relink" else "") + reason, "review_ref": ref}
+
+
 def build_links(main: pd.DataFrame, s1: pd.DataFrame, glotto: gb.Glottolog, grambank_lang_ids: set,
-                reviews: List[dict], manual_links: Iterable[dict] = ()) -> pd.DataFrame:
+                reviews: List[dict], manual_links: Iterable[dict] = (), sheet: Optional[pd.DataFrame] = None,
+                rules: Optional[dict] = None) -> pd.DataFrame:
+    """Population -> language links. With a decision `sheet`, its rows are the only human
+    decisions (the YAML `reviews` are then not applied); `rules` (link_rules) accepts links by
+    rule and sets the sensitivity flags (docs/TYPOLOGY.md §2)."""
+    rules = rules or {"accept_by_rule": [], "endangered_min_aes": 4}
+    acc = set(rules["accept_by_rule"])
+    sheet_rows: Dict[Tuple[str, str], dict] = {}
+    sprobs: Dict[Tuple[str, str], List[str]] = {}
+    doubts: Dict[str, List[str]] = {}
+    if sheet is not None:
+        for r in sheet.to_dict("records"):
+            k = (r["population"], r["link_glottocode"])
+            sheet_rows[k] = r
+            sprobs[k] = lr.row_problems(r, glotto.language_of)
+            if not [p for p in sprobs[k] if p.startswith("doubt")]:
+                doubts.setdefault(r["population"], []).extend(lr.doubt_labels(r))
+
+    def decide(link: dict) -> dict:
+        if sheet is None:
+            return apply_review(link, reviews)
+        k = (link["population"], link["glottocode"])
+        return apply_sheet_row(link, sheet_rows.get(k), sprobs.get(k, []))
+
     mrows = {r["Name"]: r for r in main.to_dict("records")}
     srows = {r["Population"]: r for r in s1.to_dict("records")}
     rows = []
@@ -231,15 +330,62 @@ def build_links(main: pd.DataFrame, s1: pd.DataFrame, glotto: gb.Glottolog, gram
                              "match_status": "candidate",
                              "decision_reason": f"manual link: {ml.get('reason', '')} ({ml.get('by', '')})",
                              "unresolved_issues": "; ".join(base_issues)})
+        # rule acceptance and human decisions: own links first (a relink adds a manual link),
+        # then stand-ins, which a rule accepts only without an own link to a Grambank language
+        done = []
         for r in pop_rows:
-            for c in ("proposed_status", "confirmed_by", "confirmed_date", "review_ref"):
+            for c in ("proposed_status", "accepted_by_rule", "confirmed_by", "confirmed_date", "review_ref"):
                 r.setdefault(c, "")
             r["language_name"] = glotto.name(r["glottocode"])
-            rows.append(apply_review(r, reviews))
+        for r in [x for x in pop_rows if not x["is_proxy"]]:
+            if r["link_basis"] in acc and r["glottocode"] and r["match_status"] == "candidate":
+                r.update(match_status="accepted", accepted_by_rule=r["link_basis"],
+                         decision_reason=f"accepted by rule ({r['link_basis']}); " + r["decision_reason"])
+            r = decide(r)
+            done.append(r)
+            row = sheet_rows.get((pop, r["glottocode"]))
+            if (row is not None and row["decision"] == "relink" and lr.is_confirmed(row)
+                    and not sprobs[(pop, r["glottocode"])]):
+                tgt = glotto.language_of(row["decision_glottocode"])
+                done.append({**meta, "source_glottocode": row["decision_glottocode"],
+                             "source_glottocode_field": "decision_sheet",
+                             "source_glottocode_level": glotto.level(row["decision_glottocode"]),
+                             "glottocode": tgt, "language_name": glotto.name(tgt), "link_basis": "manual",
+                             "is_proxy": False, "candidate_glottocodes": "", "match_status": "accepted",
+                             "proposed_status": "", "accepted_by_rule": "", "confirmed_by": row["confirmed_by"],
+                             "confirmed_date": row["confirmed_date"],
+                             "decision_reason": f"manual link (relink of {r['glottocode'] or r['source_glottocode']}): "
+                                                + (row["reason"] or "decision sheet"),
+                             "unresolved_issues": "; ".join(base_issues), "review_ref": r["review_ref"]})
+        own_gb = any(x["glottocode"] in grambank_lang_ids and x["match_status"] in ("accepted", "candidate")
+                     for x in done)
+        own_lang = any(x["glottocode"] and x["match_status"] != "excluded" for x in done)
+        for r in [x for x in pop_rows if x["is_proxy"]]:
+            if ("graff_gbi_stand_in" in acc and "gbi" in r["link_basis"].split("_") and not own_gb):
+                r.update(match_status="accepted", accepted_by_rule="graff_gbi_stand_in",
+                         decision_reason="accepted by rule (graff_gbi_stand_in): Graff et al. 2025 Grambank-side "
+                                         "stand-in; the population has no own link to a Grambank language")
+            r = decide(r)
+            if r["match_status"] in ("accepted", "candidate"):
+                r["stand_in"] = "stand_in_other_language" if own_lang else "stand_in_no_own_language"
+            done.append(r)
+        for r in done:
+            aes = glotto.endangerment(r["glottocode"])
+            r["aes"] = aes if aes is not None else ""
+            r["in_main"] = bool(r["glottocode"]) and (r["match_status"] == "accepted" or
+                                                      (r["match_status"] == "candidate" and not r["is_proxy"]))
+            flags = (["endangered"] if aes is not None and aes >= rules["endangered_min_aes"] else []) \
+                + doubts.get(pop, []) + ([r.pop("stand_in")] if "stand_in" in r else [])
+            r["sensitivity_flags"] = ";".join(dict.fromkeys(flags)) if r["glottocode"] else ""
+            rows.append(r)
     out = pd.DataFrame(rows, columns=LINK_COLUMNS)
     unknown = set(m.get("population") for m in manual_links) - set(out["population"])
     if unknown:
         raise ValueError(f"manual links for unknown populations: {sorted(unknown)}")
+    keys = set(zip(out["population"], out["glottocode"]))
+    stray = sorted(k for k in sheet_rows if k not in keys)
+    if stray:
+        print(f"typology: {len(stray)} decision sheet row(s) match no link and are not applied: {stray[:10]}")
     return out.sort_values(["population", "is_proxy", "glottocode", "link_basis"], kind="mergesort").reset_index(drop=True)
 
 
@@ -328,6 +474,7 @@ def build_outcome(links: pd.DataFrame, counts: Dict[str, pd.DataFrame], domain_c
             "has_accepted_link": bool((nonproxy["match_status"] == "accepted").any()),
             "n_populations": int(lk["population"].nunique()),
             "n_populations_nonproxy": int(nonproxy["population"].nunique()),
+            "n_populations_main": int(lk[lk["in_main"].astype(bool)]["population"].nunique()),
             "populations": ";".join(sorted(set(lk["population"]))),
             "n_individuals_total": n_ind(nonproxy),
             "n_individuals_proxy_links": n_ind(proxy_only_pops),
@@ -342,6 +489,7 @@ def build_outcome(links: pd.DataFrame, counts: Dict[str, pd.DataFrame], domain_c
             row[pre + "n_features"] = set_sizes[sname]
         cov = row["coverage"]
         row["meets_coverage_main"] = bool(cov is not None and not pd.isna(cov) and cov >= thr)
+        row["in_main_analysis"] = bool(row["n_populations_main"] > 0 and row["in_grambank"] and row["meets_coverage_main"])
         for t in rep:
             row[f"meets_coverage_{int(round(t * 100))}"] = bool(cov is not None and not pd.isna(cov) and cov >= t)
         npres = row["n_present"]
@@ -463,6 +611,40 @@ def _summary(links: pd.DataFrame, outcome: pd.DataFrame, missing: pd.DataFrame, 
     }
 
 
+def analysis_links(links: pd.DataFrame, outcome: pd.DataFrame, analyses: Dict[str, List[str]]) -> pd.DataFrame:
+    """Links of the main analysis and of each sensitivity analysis. A sensitivity analysis
+    drops the main-analysis links that carry any of its flags; it never adds a link."""
+    oc = outcome.set_index("glottocode")
+    main = links[links["in_main"].astype(bool)].copy()
+    main["n_individuals"] = [max([int(n) for n in (a, b) if n != ""] or [0])
+                             for a, b in zip(main["n_individuals_main"], main["n_individuals_expanded"])]
+    main["accepted_by"] = [f"rule:{r}" if r else (f"person:{c}" if c else s)
+                           for r, c, s in zip(main["accepted_by_rule"], main["confirmed_by"], main["match_status"])]
+    main["in_grambank"] = [bool(oc.at[g, "in_grambank"]) if g in oc.index else False for g in main["glottocode"]]
+    main["meets_coverage_main"] = [bool(oc.at[g, "meets_coverage_main"]) if g in oc.index else False
+                                   for g in main["glottocode"]]
+    cols = ["population", "glottocode", "language_name", "link_basis", "is_proxy", "accepted_by", "sensitivity_flags",
+            "n_individuals", "in_grambank", "meets_coverage_main"]
+    parts = []
+    for name, drop in [("main", [])] + sorted(analyses.items()):
+        flags = main["sensitivity_flags"].fillna("").str.split(";")
+        keep = ~flags.apply(lambda fs: bool(set(fs) & set(drop)))
+        parts.append(main[keep][cols].assign(analysis=name))
+    out = pd.concat(parts, ignore_index=True)[["analysis"] + cols]
+    return out.sort_values(["analysis", "population", "glottocode"], kind="mergesort").reset_index(drop=True)
+
+
+def analysis_counts(al: pd.DataFrame) -> Dict[str, dict]:
+    out = {}
+    for name, d in al.groupby("analysis", sort=True):
+        use = d[d["in_grambank"] & d["meets_coverage_main"]]
+        out[name] = {"n_links": int(len(d)), "n_links_main_set": int(len(use)),
+                     "n_populations_main_set": int(use["population"].nunique()),
+                     "n_individuals_main_set": int(use.drop_duplicates("population")["n_individuals"].sum()),
+                     "n_languages_main_set": int(use["glottocode"].nunique())}
+    return out
+
+
 def dialect_substitutes(entry_ids, gb_lang_ids: set, glotto, values: pd.DataFrame, fs: dict, valid: dict,
                         mode: str) -> Dict[str, str]:
     """{language-level Glottocode: Grambank entry} for languages coded in Grambank only below
@@ -502,6 +684,12 @@ def stage_typology(cfg: dict, units=None, folds=None, policies=None) -> None:
         langs = G["languages"]
         gb_lang_ids = {i for i in langs["ID"] if inp["glotto"].level(i) == "language"}
         reviews = load_reviews(cfg, log)
+        sheet = load_sheet(cfg, log)
+        rules = link_rules(tcfg)
+        if sheet is not None:
+            conflicts = yaml_conflicts(reviews, sheet)
+            if conflicts:
+                raise ValueError("decision sheet and gelato_review.yaml disagree: " + "; ".join(conflicts))
         # 1. declared + used feature set first; nothing else is written if this fails
         write_json(_feature_set_record(tcfg, fs, used, cfg), out / "feature_set.json", cfg)
         # 2. counts (with typology.dialect_entries: substitute, a language without a
@@ -515,7 +703,7 @@ def stage_typology(cfg: dict, units=None, folds=None, policies=None) -> None:
         counts, doms = _set_counts(matrix, fs, used)
         # 3. links and outcome
         links = build_links(inp["main"], inp["s1"], inp["glotto"], gb_lang_ids, reviews,
-                            tcfg.get("manual_links") or [])
+                            tcfg.get("manual_links") or [], sheet, rules)
         ldl_raw = ldl_unit_glottocodes(cfg, units, log)
         ldl_units = {u: inp["glotto"].language_of(d["glottocode"]) for u, d in ldl_raw.items()}
         for u, d in ldl_raw.items():
@@ -541,14 +729,35 @@ def stage_typology(cfg: dict, units=None, folds=None, policies=None) -> None:
         miss = miss.sort_values(["link_basis_proxy_only", "n_individuals_total", "n_individuals_proxy_links", "glottocode"],
                                 ascending=[True, False, False, True], kind="mergesort")
         overlap, note = _ldl_overlap(cfg, tcfg, outcome, inp["glotto"], ldl_units, log)
+        al = analysis_links(links, outcome, tcfg.get("sensitivity_analyses") or {})
         paths = {
             "grambank_population_links.csv": write_csv(links, out / "grambank_population_links.csv", cfg),
+            "analysis_links.csv": write_csv(al, out / "analysis_links.csv", cfg),
             "grambank_inflection.csv": write_csv(outcome, out / "grambank_inflection.csv", cfg),
             "missing_from_grambank.csv": write_csv(miss, out / "missing_from_grambank.csv", cfg),
             "ldl_overlap.csv": write_csv(overlap, out / "ldl_overlap.csv", cfg),
         }
         summ = _summary(links, outcome, miss, overlap, tcfg, ldl_raw, note)
         summ["dialect_entries"] = tcfg.get("dialect_entries", "ignore")
+        summ["link_rules"] = rules
+        summ["sensitivity_analyses"] = tcfg.get("sensitivity_analyses") or {}
+        summ["analyses"] = analysis_counts(al)
+        summ["links_accepted_by"] = {k: int(v) for k, v in al[al["analysis"] == "main"]["accepted_by"]
+                                     .value_counts().sort_index().items()}
+        if sheet is not None:
+            keys = set(zip(links["population"], links["glottocode"]))
+            probs = {f"{r['population']}|{r['link_glottocode']}": lr.row_problems(r, inp["glotto"].language_of)
+                     for r in sheet.to_dict("records")}
+            summ["decision_sheet"] = {
+                "path": str(_p(tcfg["decision_sheet"])), "n_rows": int(len(sheet)),
+                "rows_by_why": {k: int(v) for k, v in sheet["why_in_sheet"].str.split("; ").explode()
+                                .value_counts().sort_index().items()},
+                "n_decisions_confirmed": int(sum(bool(r["decision"]) and lr.is_confirmed(r) for r in sheet.to_dict("records"))),
+                "n_decisions_proposed": int(sum(bool(r["decision"]) and not lr.is_confirmed(r) for r in sheet.to_dict("records"))),
+                "malformed_rows": {k: v for k, v in probs.items() if v},
+                "rows_without_link": sorted(f"{a}|{b}" for a, b in zip(sheet["population"], sheet["link_glottocode"])
+                                            if (a, b) not in keys),
+            }
         summ["dialect_substitutes"] = [
             {"glottocode": lg, "name": inp["glotto"].name(lg), "grambank_entry": e,
              "grambank_entry_name": inp["glotto"].name(e),
@@ -663,5 +872,29 @@ def audit_typology(cfg: dict) -> Tuple[list, list]:
     if orphan:
         problems.append(f"typology: link glottocodes without outcome row: {orphan[:10]}")
     problems += gelato.review_link_problems(lk, "typology")
+    rules = link_rules(tcfg)
+    if "accepted_by_rule" in lk.columns:
+        bad = sorted(set(lk["accepted_by_rule"]) - set(rules["accept_by_rule"]) - {""})
+        if bad:
+            problems.append(f"typology: links accepted by rules not in the config: {bad}")
     checks.append(f"typology: {len(lk)} link rows consistent")
+    # 5. analysis sets: main = in_main links; a sensitivity analysis only drops links
+    if (out / "analysis_links.csv").exists():
+        al = pd.read_csv(out / "analysis_links.csv", dtype=str, keep_default_na=False)
+        mk = lambda d: set(zip(d["population"], d["glottocode"]))
+        main = mk(al[al["analysis"] == "main"])
+        if main != mk(lk[lk["in_main"] == "True"]):
+            problems.append("typology: analysis_links main set differs from the in_main links")
+        for name, d in al.groupby("analysis"):
+            if not mk(d) <= main:
+                problems.append(f"typology: sensitivity analysis {name} adds links")
+        want = {"main", *(tcfg.get("sensitivity_analyses") or {})}
+        if set(al["analysis"]) != want and len(main):
+            problems.append(f"typology: analyses {sorted(set(al['analysis']))} differ from the config {sorted(want)}")
+        missing = sorted(set(al["glottocode"]) - set(oc["glottocode"]))
+        if missing:
+            problems.append(f"typology: analysis links without outcome row: {missing[:10]}")
+        checks.append(f"typology: analysis sets {sorted(set(al['analysis']))} consistent")
+    else:
+        problems.append("typology: analysis_links.csv missing (re-run the stage)")
     return checks, problems

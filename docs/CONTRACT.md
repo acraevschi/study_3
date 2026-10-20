@@ -192,6 +192,14 @@ Changed 2026-10-16 (user decision): before, only `accepted` needed the confirmat
 also needed four written review fields. A full four-part review for each of about 300
 links is too heavy.
 
+Changed 2026-10-20 (user decision), typology stage with `typology.link_rules`: exact
+links, dialect roll-ups, group map-downs and Graff et al.'s Grambank-side stand-ins (for
+populations without an own Grambank link) are `accepted` by rule (`accepted_by_rule`);
+they need no person, because a check of an exact link adds nothing. Human decisions come
+only from `morph_ldl/data/gelato_link_review.csv` (decision + `confirmed_by` +
+`confirmed_date`); `gelato_review.yaml` is an archive there, and the data-stage crosswalk
+still reads it. The audit accepts an unconfirmed `accepted` link only with a configured rule.
+
 ## 10. Provenance
 
 Every stage writes `stage_manifest.json`: stage, config hash, inputs with sha256,

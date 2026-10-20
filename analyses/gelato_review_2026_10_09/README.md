@@ -1,5 +1,10 @@
 # GeLaTo link review sheets (2026-10-09)
 
+**Superseded on 2026-10-20.** Decisions now go into one sheet,
+`morph_ldl/data/gelato_link_review.csv` (`docs/TYPOLOGY.md` §2). Of the 29 group cases
+here, Graff et al.'s Grambank-side stand-in settles 24 by rule; the other 5 are in the new
+sheet.
+
 ## `unresolved_populations.csv`
 
 One row per GeLaTo population link that the typology stage (pcfp_v2) could not attach to a

@@ -387,6 +387,25 @@ exact matches.
     Lorraine-Franconian area), `French_South` (Lourdes, Gascon) and `French_West`
     (Finistère, Breton area) are **ambiguous**, on the same shift logic as Bergamo.
 
+The statuses above are those of the reviews before 2026-10-16. On 2026-10-16 the user
+confirmed all 12 entries as `accepted`. On 2026-10-20 the user reversed the two Sicilian
+entries (Sicilian is its own language in Grambank and GeLaTo; Italian is only Graff et
+al.'s WALS-side stand-in): they are now unconfirmed proposals to exclude.
+
+**Since 2026-10-20 the typology stage** takes its decisions from the decision sheet
+`morph_ldl/data/gelato_link_review.csv` and accepts exact links by rule (TYPOLOGY §2). The
+data-stage crosswalk (LDL units) still reads `gelato_review.yaml`; it is not changed yet.
+
+**Known errors in GeLaTo** (c625fdc, copied into Table S1 of Graff et al. 2025):
+
+* **Yukaghir codes swapped** (found 2026-10-16, checked 2026-10-20). `Yukagir_Forest`
+  (n=5, 65.5 N 151 E, Nelemnoye on the upper Kolyma) carries nort2745 Northern (Tundra)
+  Yukaghir; `Yukagir_Tundra` (n=19, 70.6 N 148 E) carries sout2750 Southern
+  (Forest/Kolyma) Yukaghir. The coordinates fit the labels, not the codes. Both rows say
+  "correct by Harald". The decision sheet proposes the two relinks; after them Northern
+  Yukaghir is represented by the 19 Tundra people, and Yukagir_Forest drops out
+  (Southern Yukaghir has no Grambank data).
+
 ## 11. Recommendation, unresolved issues and proposals
 
 **Pilot recommendation.** Keep **Italian + Finnish verbs, orthographic**. Both are

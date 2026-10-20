@@ -1,5 +1,10 @@
 # Curated GeLaTo population <-> morphology-resource reviews (data stage).
 #
+# Since 2026-10-20 the typology stage (configs/pcfp_v2_links.yaml) takes its decisions from
+# morph_ldl/data/gelato_link_review.csv; these entries are copied there, and this file is an
+# archive for it (a confirmed entry missing from the sheet stops the stage). The data-stage
+# crosswalk still reads this file.
+#
 # Exact Glottocode matches are `candidate` by default. A row becomes `accepted` (or is
 # moved to ambiguous/excluded) ONLY through an entry here.
 #
