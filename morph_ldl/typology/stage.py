@@ -35,7 +35,7 @@ LINK_COLUMNS = [
     "n_individuals_main", "n_individuals_expanded",
     "main_glottocode", "tableS1_gelato_glottocode", "tableS1_gbi_glottocode", "tableS1_tli_glottocode",
     "source_glottocode", "source_glottocode_field", "source_glottocode_level",
-    "glottocode", "language_name", "link_basis", "is_proxy", "candidate_glottocodes",
+    "glottocode", "language_name", "link_basis", "is_proxy", "candidate_glottocodes", "candidate_coverage",
     "match_status", "proposed_status", "accepted_by_rule", "confirmed_by", "confirmed_date", "decision_reason",
     "unresolved_issues", "review_ref", "aes", "sensitivity_flags", "in_main",
 ]
@@ -334,7 +334,8 @@ def build_links(main: pd.DataFrame, s1: pd.DataFrame, glotto: gb.Glottolog, gram
         # then stand-ins, which a rule accepts only without an own link to a Grambank language
         done = []
         for r in pop_rows:
-            for c in ("proposed_status", "accepted_by_rule", "confirmed_by", "confirmed_date", "review_ref"):
+            for c in ("candidate_coverage", "proposed_status", "accepted_by_rule", "confirmed_by", "confirmed_date",
+                      "review_ref"):
                 r.setdefault(c, "")
             r["language_name"] = glotto.name(r["glottocode"])
         for r in [x for x in pop_rows if not x["is_proxy"]]:
@@ -351,7 +352,8 @@ def build_links(main: pd.DataFrame, s1: pd.DataFrame, glotto: gb.Glottolog, gram
                              "source_glottocode_field": "decision_sheet",
                              "source_glottocode_level": glotto.level(row["decision_glottocode"]),
                              "glottocode": tgt, "language_name": glotto.name(tgt), "link_basis": "manual",
-                             "is_proxy": False, "candidate_glottocodes": "", "match_status": "accepted",
+                             "is_proxy": False, "candidate_glottocodes": "", "candidate_coverage": "",
+                             "match_status": "accepted",
                              "proposed_status": "", "accepted_by_rule": "", "confirmed_by": row["confirmed_by"],
                              "confirmed_date": row["confirmed_date"],
                              "decision_reason": f"manual link (relink of {r['glottocode'] or r['source_glottocode']}): "
@@ -704,6 +706,11 @@ def stage_typology(cfg: dict, units=None, folds=None, policies=None) -> None:
         # 3. links and outcome
         links = build_links(inp["main"], inp["s1"], inp["glotto"], gb_lang_ids, reviews,
                             tcfg.get("manual_links") or [], sheet, rules)
+        # Grambank counts of each group candidate (candidates are not outcome rows unless linked)
+        cm = counts["main"]
+        links["candidate_coverage"] = [
+            ";".join(f"{g}:{int(cm.at[g, 'n_present'])}/{int(cm.at[g, 'n_coded'])}/{float(cm.at[g, 'coverage']):.2f}"
+                     for g in c.split(";") if g in cm.index) for c in links["candidate_glottocodes"]]
         ldl_raw = ldl_unit_glottocodes(cfg, units, log)
         ldl_units = {u: inp["glotto"].language_of(d["glottocode"]) for u, d in ldl_raw.items()}
         for u, d in ldl_raw.items():

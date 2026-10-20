@@ -238,6 +238,8 @@ def test_regeneration_never_loses_a_decision(tmp_path):
     assert new.loc[("PopX", "lang9"), "why_in_sheet"].startswith(lr.STALE)     # kept, marked stale
     assert ("PopY", "lang9") not in new.index                                  # empty and vanished: dropped
     assert new.loc[("PopD", ""), "why_in_sheet"] == lr.WHY_GROUP               # new case added
+    # group candidates are in Grambank even without an outcome row: the sheet gives their counts
+    assert "Lang One (lang1): Grambank 3 present of 4 coded, coverage 0.80" in new.loc[("PopD", ""), "options"]
     # a person fills the new row; regenerating again keeps it and changes nothing
     df = lr.read_sheet(sheet)
     df.loc[df["population"] == "PopD", ["decision", "decision_glottocode"]] = ["relink", "lang1"]

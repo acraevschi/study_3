@@ -152,7 +152,11 @@ def evidence(links: pd.DataFrame, outcome: pd.DataFrame, meta: Dict[str, dict], 
         src = sorted({c for c in own["source_glottocode"] if c})
         m = meta.get(pop, {})
         if r["link_basis"] == "group_ambiguous":
-            opts = "; ".join(f"{lang(c)}: {grambank_note(c)}" for c in r["candidate_glottocodes"].split(";") if c)
+            # candidate_coverage: glottocode:n_present/n_coded/coverage over the main feature set
+            cov = {x.split(":")[0]: x.split(":")[1].split("/") for x in r.get("candidate_coverage", "").split(";") if x}
+            opts = "; ".join(f"{lang(c)}: " + (f"Grambank {cov[c][0]} present of {cov[c][1]} coded, coverage {cov[c][2]}"
+                                                 if c in cov else "no Grambank counts")
+                             for c in r["candidate_glottocodes"].split(";") if c)
         else:
             aes = f", AES {r['aes']}" if r.get("aes") else ""
             opts = f"linked: {lang(r['glottocode'])}, {r['link_basis']}, {r['match_status']}{aes}; {grambank_note(r['glottocode'])}"

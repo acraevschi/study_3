@@ -106,12 +106,15 @@ Checking each link by hand is too slow, and a check of an exact link adds nothin
   * `diaspora`, `wrong_code`: doubt labels from the sheet. They apply to every link of the
     population and need no confirmation, because they never change the main analysis.
     Diaspora = Graff et al. mapping location `migrants_collected_in_…`; wrong code = the
-    source check of 2026-10-16.
+    source check of 2026-10-16. `group_choice` (added 2026-10-20, user decision): a person
+    chose one language of a group code; the choice is a judgement, unlike an exact code.
+    For a sample labelled only by island, the proposal follows the rule Graff et al. used
+    for Tanna: the group's language with most speakers; if two are about equal, no choice.
   * `stand_in_other_language` (a Graff stand-in replaces the population's own language,
     for example Saudi → Gulf Arabic) and `stand_in_no_own_language` (the population's own
     code is a group, for example Greek → Modern Greek).
 
-  pcfp_v2_links declares `no_doubtful_language` (endangered, diaspora, wrong_code),
+  pcfp_v2_links declares `no_doubtful_language` (endangered, diaspora, wrong_code, group_choice),
   `no_other_language_stand_ins`, and `strict` (both). Sample size is not a flag: the
   exposure model carries it as uncertainty (user decision 2026-10-20).
 * `python -m morph_ldl.cli link_review --config …` rebuilds the sheet from the typology
@@ -614,3 +617,14 @@ Typology stage only; the outcome counts of every language are the same as in
   choice (Buka, Yi, Vanuatu Ambrym, Banks, Malekula), 2 Yukaghir relink proposals, 8
   diaspora and 7 wrong-code labels (only populations in the main set). No malformed row.
 
+**Update 2026-10-20 (evening): review finished.** All 33 rows of the decision sheet are
+decided and confirmed by the user; no row is malformed or only proposed.
+
+* Yukaghir swap corrected: Northern Yukaghir is now represented by Yukagir_Tundra (n=19)
+  instead of Yukagir_Forest (n=5), which drops out (Southern Yukaghir has no Grambank data).
+* Group codes (label `group_choice`): Buka → Halia, Yi → Sichuan Yi, Vanuatu_Ambrym → North
+  Ambrym, Vanuatu_Banks → Mwotlap; Vanuatu_Malekula `ambiguous` (not in the main analysis).
+* Sicilian_East/West: the WALS-side stand-in Italian is excluded; they stay linked to Sicilian.
+* Main set: **202 languages** (175 on 2026-10-16, none lost), 335 populations, 2,962
+  individuals. Sensitivity analyses: no_doubtful_language 174 languages / 293 populations,
+  no_other_language_stand_ins 193 / 319, strict 169 / 281.

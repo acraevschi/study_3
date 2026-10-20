@@ -24,8 +24,9 @@ typology:
     endangered_min_aes: 4
   # Each sensitivity analysis drops the main-analysis links that carry any of these flags.
   # Flags: endangered; stand_in_other_language (a Graff stand-in replaces the population's
-  # own language); stand_in_no_own_language; doubt labels from the sheet (diaspora, wrong_code).
+  # own language); stand_in_no_own_language; doubt labels from the sheet (diaspora, wrong_code,
+  # group_choice: a person chose one language of a group code, added 2026-10-20).
   sensitivity_analyses:
-    no_doubtful_language: [endangered, diaspora, wrong_code]
+    no_doubtful_language: [endangered, diaspora, wrong_code, group_choice]
     no_other_language_stand_ins: [stand_in_other_language]
-    strict: [endangered, diaspora, wrong_code, stand_in_other_language]
+    strict: [endangered, diaspora, wrong_code, group_choice, stand_in_other_language]
