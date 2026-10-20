@@ -19,14 +19,16 @@ Status rules
   only Table S1 GBI/TLI proxy, or audit descendant/Greek candidate      -> ambiguous
   no population                                                        -> unmatched
   extinct/historical resource                                          -> excluded
-  `accepted` (or any other override) only via a complete review entry in
-  morph_ldl/data/gelato_review.yaml. Nothing is accepted automatically, and an
-  `accepted` review takes effect only with a human `confirmed_by` + `confirmed_date`;
-  otherwise the row stays `candidate` with `proposed_status: accepted`.
+  `accepted` (or any other override) only via a review entry in
+  morph_ldl/data/gelato_review.yaml. Nothing is accepted automatically. Since 2026-10-16
+  an entry (status accepted / ambiguous / excluded) takes effect only with a human
+  `confirmed_by` + `confirmed_date`; otherwise the row keeps its automatic status and
+  `proposed_status` shows the entry's status (review_outcome).
 """
 
 from __future__ import annotations
 
+import re
 from functools import lru_cache
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -43,8 +45,14 @@ ZENODO_RECORD = "https://zenodo.org/records/15263706"
 Q_PATTERN = "GelatoHO_mergedSetMarchBEDnorelatives_pruned_autosomes_K{K}.Q"
 K_VALUES = list(range(12, 31))
 REVIEW_FILE = Path(__file__).with_name("gelato_review.yaml")
-REQUIRED_REVIEW_FIELDS = ("variety_review", "community_review", "locality_review",
-                          "source_period_review", "evidence", "reviewer_note", "reviewer", "date")
+# Review rule of 2026-10-16 (user decision): an entry needs only `status` and a human
+# confirmation (confirmed_by + confirmed_date) to take effect; without the confirmation it
+# is a proposal. The fields below are optional and kept when present.
+REVIEW_STATUSES = ("accepted", "ambiguous", "excluded")
+REQUIRED_REVIEW_FIELDS = ("status",)
+OPTIONAL_REVIEW_FIELDS = ("variety_review", "community_review", "locality_review", "source_period_review",
+                          "evidence", "reviewer_note", "reviewer", "date", "unresolved")
+DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 STATUSES = ("accepted", "candidate", "ambiguous", "unmatched", "excluded")
 
 CROSSWALK_COLUMNS = [
@@ -58,7 +66,7 @@ CROSSWALK_COLUMNS = [
     "curation_notes_linguistics", "curation_notes_genetics", "mapping_comment_gbi", "mapping_comment_tli",
     "ancestry_record", "ancestry_K_available", "ancestry_q_files", "ancestry_row_key",
     "derived_K23_file", "derived_K23_row_key", "derived_diagnostics_file", "derived_diagnostics_row_key",
-    "match_basis", "match_status", "proposed_status", "confirmed_by", "evidence", "unresolved_issues", "decision_reason", "review_ref",
+    "match_basis", "match_status", "proposed_status", "confirmed_by", "confirmed_date", "evidence", "unresolved_issues", "decision_reason", "review_ref",
 ]
 
 
@@ -114,19 +122,89 @@ def load_review(path: Path = REVIEW_FILE) -> List[dict]:
     return doc.get("reviews", [])
 
 
+def _field(entry: dict, f: str) -> str:
+    # YAML reads an unquoted 2026-10-16 as a date; str() gives the ISO form back
+    return str(entry.get(f, "") or "").strip()
+
+
 def review_problems(entry: dict) -> List[str]:
+    """Reasons why a review entry cannot be used (rule of 2026-10-16): a status in
+    REVIEW_STATUSES, and either both or neither of confirmed_by / confirmed_date."""
     probs = []
     st = entry.get("status")
-    if st not in STATUSES:
-        probs.append(f"invalid status {st!r}")
-    if st == "accepted":
-        for f in REQUIRED_REVIEW_FIELDS:
-            if not str(entry.get(f, "") or "").strip():
-                probs.append(f"missing {f}")
+    if st not in REVIEW_STATUSES:
+        probs.append(f"invalid status {st!r} (allowed: {', '.join(REVIEW_STATUSES)})")
+    by, date = _field(entry, "confirmed_by"), _field(entry, "confirmed_date")
+    if bool(by) != bool(date):
+        probs.append("only one of confirmed_by / confirmed_date is filled")
+    if date and not DATE_RE.fullmatch(date):
+        probs.append(f"confirmed_date {date!r} is not YYYY-MM-DD")
+    return probs
+
+
+def review_is_confirmed(entry: dict) -> bool:
+    return bool(_field(entry, "confirmed_by") and _field(entry, "confirmed_date"))
+
+
+def review_outcome(rv: Optional[dict], status: str, reason: str) -> Dict[str, Any]:
+    """Effect of a review entry on one link (shared by the data-stage crosswalk and the
+    typology stage). `status`, `reason`: the link's automatic status and reason.
+
+    * no entry: the automatic values;
+    * malformed entry: not applied, reported in `issues`;
+    * confirmed entry (confirmed_by + confirmed_date): its status takes effect;
+    * unconfirmed entry: a proposal only; the automatic status stays and
+      `proposed_status` shows the entry's status.
+    `reviewer_note`, when present, becomes the decision reason; `unresolved` items go to issues.
+    """
+    out = {"match_status": status, "proposed_status": "", "confirmed_by": "", "confirmed_date": "",
+           "decision_reason": reason, "evidence": "", "review_ref": "", "issues": []}
+    if rv is None:
+        return out
+    probs = review_problems(rv)
+    if probs:
+        out["issues"].append(f"review entry {rv.get('id', '')} malformed (" + "; ".join(probs) + "); not applied")
+        return out
+    if review_is_confirmed(rv):
+        out.update(match_status=rv["status"], confirmed_by=_field(rv, "confirmed_by"),
+                   confirmed_date=_field(rv, "confirmed_date"))
     else:
-        for f in ("evidence", "reviewer_note"):
-            if not str(entry.get(f, "") or "").strip():
-                probs.append(f"missing {f}")
+        out["proposed_status"] = rv["status"]
+        out["issues"].append(f"review proposes {rv['status']}; awaiting human confirmation "
+                             "(confirmed_by + confirmed_date in gelato_review.yaml)")
+    if _field(rv, "reviewer_note"):
+        out["decision_reason"] = _field(rv, "reviewer_note")
+    out["evidence"] = " ".join(_field(rv, f) for f in ("evidence", "variety_review", "community_review",
+                                                       "locality_review", "source_period_review") if _field(rv, f))
+    out["review_ref"] = f"gelato_review.yaml:{rv.get('id', '')}"
+    out["issues"] += [str(x) for x in rv.get("unresolved", []) or []]
+    return out
+
+
+def review_link_problems(links: pd.DataFrame, label: str) -> List[str]:
+    """Audit of a written link table (strings): every status that only a review can set
+    (accepted; ambiguous/excluded by a review) carries confirmed_by + confirmed_date."""
+    if "confirmed_date" not in links.columns:
+        return [f"{label}: no confirmed_date column (written before the 2026-10-16 review rule; re-run)"]
+    s = lambda c: links[c].fillna("").astype(str).str.strip()
+    by, date, ref, prop, st = s("confirmed_by"), s("confirmed_date"), s("review_ref"), s("proposed_status"), s("match_status")
+    unconfirmed = (by == "") | (date == "")
+    probs = []
+    n = int(((st == "accepted") & unconfirmed).sum())
+    if n:
+        probs.append(f"{label}: {n} accepted link(s) without confirmed_by + confirmed_date")
+    n = int(((ref != "") & (prop == "") & st.isin(["ambiguous", "excluded"]) & unconfirmed).sum())
+    if n:
+        probs.append(f"{label}: {n} ambiguous/excluded-by-review link(s) without confirmed_by + confirmed_date")
+    n = int(((by == "") != (date == "")).sum())
+    if n:
+        probs.append(f"{label}: {n} link(s) with only one of confirmed_by / confirmed_date")
+    n = int(((date != "") & ~date.str.fullmatch(DATE_RE.pattern)).sum())
+    if n:
+        probs.append(f"{label}: {n} link(s) with confirmed_date not YYYY-MM-DD")
+    n = int(((prop != "") & ~unconfirmed).sum())
+    if n:
+        probs.append(f"{label}: {n} confirmed link(s) that still carry a proposed_status")
     return probs
 
 
@@ -272,33 +350,10 @@ def build_crosswalk(resources: pd.DataFrame, cfg, reviews: Optional[List[dict]] 
             status = "candidate" if exact else "ambiguous"
             reason = ("exact Glottocode; variety/community/locality/period not yet reviewed" if exact
                       else "linked only through a proxy or descendant mapping; not the same language-level unit")
-            issues = _issues(c)
-            evidence, ref, proposed, confirmed = "", "", "", ""
             rv = _find_review(reviews, res.get("glottocode", ""), c["population"], res["resource_id"])
-            if rv is not None:
-                probs = review_problems(rv)
-                if probs:
-                    issues.append("review entry incomplete (" + "; ".join(probs) + "); not applied")
-                else:
-                    status = rv["status"]
-                    reason = rv["reviewer_note"].strip()
-                    proposed = ""
-                    confirmed = str(rv.get("confirmed_by", "") or "").strip()
-                    if status == "accepted" and not (confirmed and str(rv.get("confirmed_date", "") or "").strip()):
-                        # Main-agent rule after review: an agent-written review can only
-                        # PROPOSE acceptance; a named human must confirm it.
-                        status, proposed = "candidate", "accepted"
-                        issues.append("acceptance proposed by an agent review; awaiting human "
-                                      "confirmation (confirmed_by + confirmed_date in gelato_review.yaml)")
-                    evidence = " ".join(str(rv.get(f, "")).strip() for f in
-                                        ("evidence", "variety_review", "community_review",
-                                         "locality_review", "source_period_review") if rv.get(f))
-                    ref = f"gelato_review.yaml:{rv.get('id', '')}"
-                    issues += [str(x) for x in rv.get("unresolved", []) or []]
-            rows.append({**base, **c, "match_status": status, "proposed_status": proposed,
-                         "confirmed_by": confirmed, "evidence": evidence,
-                         "unresolved_issues": "; ".join(dict.fromkeys(issues)), "decision_reason": reason,
-                         "review_ref": ref})
+            o = review_outcome(rv, status, reason)
+            issues = _issues(c) + o.pop("issues")
+            rows.append({**base, **c, **o, "unresolved_issues": "; ".join(dict.fromkeys(issues))})
     out = pd.DataFrame(rows)
     for c in CROSSWALK_COLUMNS:
         if c not in out.columns:
@@ -359,7 +414,7 @@ def links_from_crosswalk(xw: pd.DataFrame, outcome_units: List[str]) -> pd.DataF
             "main_population_id", "expanded_population_key", "n_individuals_main", "n_individuals_expanded",
             "geneticinfo_population_label", "geneticinfo_n_rows", "ancestry_record", "ancestry_K_available",
             "ancestry_q_files", "ancestry_row_key", "derived_K23_file", "derived_K23_row_key",
-            "proposed_status", "confirmed_by", "decision_reason", "unresolved_issues", "review_ref"]
+            "proposed_status", "confirmed_by", "confirmed_date", "decision_reason", "unresolved_issues", "review_ref"]
     sub = xw[xw["unit_id"].isin(outcome_units)]
     missing = sorted(set(outcome_units) - set(sub["unit_id"]))
     if missing:

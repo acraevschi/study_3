@@ -63,17 +63,36 @@ def test_population_links():
 
 
 def test_review_needs_human_confirmation():
-    full = {"id": "t", "glottocode": "lang1", "population": "PopA", "status": "accepted",
-            "variety_review": "v", "community_review": "c", "locality_review": "l",
-            "source_period_review": "s", "evidence": "e", "reviewer_note": "n", "reviewer": "agent",
-            "date": "2026-10-08"}
-    row = _links([full]).query("population == 'PopA'").iloc[0]
-    assert row.match_status == "candidate" and row.proposed_status == "accepted"
-    row = _links([{**full, "confirmed_by": "PI", "confirmed_date": "2026-10-09"}]).query("population == 'PopA'").iloc[0]
-    assert row.match_status == "accepted" and row.confirmed_by == "PI"
-    partial = {k: v for k, v in full.items() if k != "locality_review"}
-    row = _links([partial]).query("population == 'PopA'").iloc[0]
-    assert row.match_status == "candidate" and "not applied" in row.unresolved_issues
+    minimal = {"id": "t", "glottocode": "lang1", "population": "PopA", "status": "excluded",
+               "confirmed_by": "PI", "confirmed_date": "2026-10-16"}
+    row = _links([minimal]).query("population == 'PopA'").iloc[0]
+    assert row.match_status == "excluded" and row.confirmed_date == "2026-10-16" and row.proposed_status == ""
+    prop = {k: v for k, v in minimal.items() if not k.startswith("confirmed")} | {"reviewer_note": "n"}
+    row = _links([prop]).query("population == 'PopA'").iloc[0]
+    assert row.match_status == "candidate" and row.proposed_status == "excluded" and row.decision_reason == "n"
+    row = _links([{**minimal, "confirmed_by": ""}]).query("population == 'PopA'").iloc[0]
+    assert row.match_status == "candidate" and "malformed" in row.unresolved_issues
+
+
+def test_review_rule_same_in_both_stages():
+    """The data-stage crosswalk and the typology links give the same result for one entry."""
+    from morph_ldl.data import gelato
+    base = {"match_status": "candidate", "decision_reason": "auto", "unresolved_issues": "",
+            "glottocode": "lang1", "population": "PopA"}
+    from morph_ldl.typology.stage import apply_review
+    cases = [None,
+             {"id": "a", "glottocode": "lang1", "population": "PopA", "status": "accepted",
+              "confirmed_by": "PI", "confirmed_date": "2026-10-16"},
+             {"id": "b", "glottocode": "lang1", "population": "PopA", "status": "ambiguous", "reviewer_note": "r"},
+             {"id": "c", "glottocode": "lang1", "population": "PopA", "status": "nope"}]
+    for rv in cases:
+        o = gelato.review_outcome(rv, "candidate", "auto")
+        t = apply_review(dict(base), [rv] if rv else [])
+        for c in ("match_status", "proposed_status", "decision_reason", "review_ref"):
+            assert t.get(c, "") == o[c], (rv, c)
+        for c in ("confirmed_by", "confirmed_date"):
+            assert t.get(c, "") == o[c]
+        assert all(i in t["unresolved_issues"] for i in o["issues"])
 
 
 def test_manual_link():

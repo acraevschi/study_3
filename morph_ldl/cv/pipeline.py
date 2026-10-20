@@ -1041,6 +1041,13 @@ def stage_audit(cfg: dict, units=None, folds=None, policies=None) -> None:
         from morph_ldl.typology.stage import audit_typology
         c, p = audit_typology(cfg)
         checks += [("typology", x) for x in c]; problems += [f"typology: {x}" for x in p]
+    # GeLaTo link tables of the data and outcomes stages: review rule of 2026-10-16
+    from morph_ldl.data.gelato import review_link_problems
+    for rel in ("gelato/crosswalk.csv", "gelato/population_links.csv", "outcomes/population_links.csv"):
+        path = output_dir(cfg) / rel
+        if path.exists():
+            p = review_link_problems(pd.read_csv(path, dtype=str, keep_default_na=False), rel)
+            checks.append(("gelato_links", rel)); problems += p
     out = output_dir(cfg) / "eval"
     out.mkdir(parents=True, exist_ok=True)
     with open(out / "artifact_audit.json", "w") as fh:

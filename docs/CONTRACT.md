@@ -180,8 +180,17 @@ every draw. Exposure seeds depend only on (unit, lemma).
 
 ## 9. GeLaTo match status
 
-`accepted` requires a complete review entry **and** a human `confirmed_by` +
-`confirmed_date`. Agent-written reviews yield `candidate` with `proposed_status`.
+A review entry in `morph_ldl/data/gelato_review.yaml` takes effect only when it has a
+`status` (`accepted`, `ambiguous` = under review, sensitivity analyses only, or `excluded`)
+and a human `confirmed_by` + `confirmed_date` (YYYY-MM-DD). Without the confirmation it is
+a proposal: the link keeps its automatic status and `proposed_status` shows the entry's
+status. Other review fields are optional. Both link tables carry `confirmed_by` and
+`confirmed_date`; the audit rejects any `accepted` link, and any link that is ambiguous or
+excluded by a review, without both.
+
+Changed 2026-10-16 (user decision): before, only `accepted` needed the confirmation, and it
+also needed four written review fields. A full four-part review for each of about 300
+links is too heavy.
 
 ## 10. Provenance
 

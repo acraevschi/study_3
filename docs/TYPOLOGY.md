@@ -60,12 +60,19 @@ nothing.
 
 Roll-up and map-down are initial matches, never acceptance. Statuses follow contract §9
 and the data-stage crosswalk: overrides only come from `gelato_review.yaml` (keys
-`glottocode` = language-level code, `population`; `resources: all` entries apply). An
-`accepted` review takes effect only with a human `confirmed_by` + `confirmed_date`;
-otherwise the link stays `candidate` with `proposed_status = accepted`. The current
-reviews therefore give `proposed_status = accepted` for Tuscan (ital1282), Finnish
-(finn1318) and French_Central (stan1290), and `excluded`/`ambiguous` for the other
-reviewed Italian/French populations.
+`glottocode` = language-level code, `population`; `resources: all` entries apply).
+
+**Review rule (changed 2026-10-16, user decision).** A review entry takes effect only with
+a `status` (`accepted`, `ambiguous` or `excluded`) and a human `confirmed_by` +
+`confirmed_date`. Without them it is a proposal: the link keeps its automatic status and
+`proposed_status` shows the entry's status. Before, this held only for `accepted`, which
+also needed four written review fields; a full four-part review for each of about 300
+links is too heavy. The current entries are all unconfirmed, so they give
+`proposed_status = accepted` for Tuscan (ital1282), Finnish (finn1318) and French_Central
+(stan1290), `ambiguous` for Bergamo and the four regional French samples, and `excluded`
+for the four Italian proxy links (Italian_South, Italian_Calabria, Sicilian_East,
+Sicilian_West). In the rerun `outputs/pcfp_v2_review_2026_10_16/` these 9 links change
+status; no outcome count changes (the Italian row only lists the 4 proxy populations).
 
 Edge cases:
 
@@ -314,7 +321,7 @@ Use: sensitivity analysis that drops `clitic_flag` languages; never a recode.
   population metadata (panels, sample sizes, own and proxy Glottocodes and their
   Glottolog levels), `glottocode` (language level, empty for unresolved/ambiguous
   groups), `candidate_glottocodes`, `link_basis`, `is_proxy`, `match_status`,
-  `proposed_status`, `confirmed_by`, `decision_reason`, `unresolved_issues`,
+  `proposed_status`, `confirmed_by`, `confirmed_date`, `decision_reason`, `unresolved_issues`,
   `review_ref`. No ancestry columns.
 * `grambank_inflection.csv`: one row per language (§2, §4) with `gelato_linked`,
   `link_bases`, `link_basis_proxy_only`, `best_link_status` (accepted > candidate >
@@ -363,7 +370,9 @@ ancestry values.
    5.3 (re-read from the pinned `languages.csv`); `0 <= n_present <= n_coded <= n_features`
    for every set.
 4. Link rows with a `glottocode` point to an outcome row (unless status `excluded`); no
-   `accepted` status without `confirmed_by`.
+   `accepted` link, and no link ambiguous or excluded by a review, without
+   `confirmed_by` + `confirmed_date` (`gelato.review_link_problems`; since 2026-10-16). The
+   final `audit` stage applies the same check to the data-stage `gelato/` link tables.
 
 ## 9. Proposed analysis PROTOCOL (not fitted)
 

@@ -46,22 +46,44 @@ def test_no_automatic_acceptance():
 
 
 def test_review_rules():
-    full = {"id": "t", "glottocode": "finn1318", "population": "Finnish", "status": "accepted",
-            **{f: "x" for f in gelato.REQUIRED_REVIEW_FIELDS}}
-    xw = gelato.build_crosswalk(RES, CFG, reviews=[full])
-    row = xw.loc[xw.population == "Finnish"].iloc[0]
-    # An agent review only proposes acceptance; a named human must confirm it.
-    assert row["match_status"] == "candidate" and row["proposed_status"] == "accepted"
-    confirmed = {**full, "confirmed_by": "PI name", "confirmed_date": "2026-10-07"}
-    xw = gelato.build_crosswalk(RES, CFG, reviews=[confirmed])
-    assert xw.loc[xw.population == "Finnish", "match_status"].item() == "accepted"
-    partial = {k: v for k, v in full.items() if k != "locality_review"}
-    xw = gelato.build_crosswalk(RES, CFG, reviews=[partial])
-    row = xw.loc[xw.population == "Finnish"].iloc[0]
-    assert row["match_status"] == "candidate" and "review entry incomplete" in row["unresolved_issues"]
-    # every accepted entry in the curated review file is complete
+    # rule of 2026-10-16: status + confirmed_by + confirmed_date are enough
+    minimal = {"id": "t", "glottocode": "finn1318", "population": "Finnish", "status": "accepted",
+               "confirmed_by": "PI name", "confirmed_date": "2026-10-16"}
+    row = gelato.build_crosswalk(RES, CFG, reviews=[minimal]).query("population == 'Finnish'").iloc[0]
+    assert row["match_status"] == "accepted" and row["proposed_status"] == ""
+    assert (row["confirmed_by"], row["confirmed_date"]) == ("PI name", "2026-10-16")
+    # without the confirmation an entry is a proposal only, for every status
+    for st in ("accepted", "ambiguous", "excluded"):
+        prop = {k: v for k, v in minimal.items() if not k.startswith("confirmed")} | {"status": st}
+        row = gelato.build_crosswalk(RES, CFG, reviews=[prop]).query("population == 'Finnish'").iloc[0]
+        assert row["match_status"] == "candidate" and row["proposed_status"] == st
+        assert row["confirmed_date"] == "" and "awaiting human confirmation" in row["unresolved_issues"]
+    # malformed entries are not applied
+    for bad in ({**minimal, "status": "candidate"}, {**minimal, "confirmed_date": ""},
+                {**minimal, "confirmed_date": "16.10.2026"}):
+        row = gelato.build_crosswalk(RES, CFG, reviews=[bad]).query("population == 'Finnish'").iloc[0]
+        assert row["match_status"] == "candidate" and row["proposed_status"] == ""
+        assert "malformed" in row["unresolved_issues"] and row["review_ref"] == ""
+    # an unquoted YAML date is read as a date object; it is kept as YYYY-MM-DD
+    import datetime
+    row = gelato.build_crosswalk(RES, CFG, reviews=[{**minimal, "confirmed_date": datetime.date(2026, 10, 16)}])
+    assert row.query("population == 'Finnish'").iloc[0]["confirmed_date"] == "2026-10-16"
+    # every entry in the curated review file is well-formed
     for r in gelato.load_review():
         assert not gelato.review_problems(r), r.get("id")
+
+
+def test_review_link_audit():
+    xw = gelato.build_crosswalk(RES, CFG, reviews=[]).astype(str)
+    assert gelato.review_link_problems(xw, "x") == []
+    bad = xw.copy()
+    i = bad.index[bad.population == "Finnish"][0]
+    bad.loc[i, ["match_status", "review_ref"]] = ["excluded", "gelato_review.yaml:t"]
+    assert any("ambiguous/excluded-by-review" in p for p in gelato.review_link_problems(bad, "x"))
+    bad.loc[i, ["match_status", "confirmed_by"]] = ["accepted", "PI"]
+    probs = gelato.review_link_problems(bad, "x")
+    assert any("accepted link" in p for p in probs) and any("only one of" in p for p in probs)
+    assert gelato.review_link_problems(xw.drop(columns="confirmed_date"), "x")
 
 
 def test_crosswalk_carries_identifiers_not_ancestry_values():

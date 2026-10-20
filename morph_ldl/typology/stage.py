@@ -31,7 +31,8 @@ LINK_COLUMNS = [
     "main_glottocode", "tableS1_gelato_glottocode", "tableS1_gbi_glottocode", "tableS1_tli_glottocode",
     "source_glottocode", "source_glottocode_field", "source_glottocode_level",
     "glottocode", "language_name", "link_basis", "is_proxy", "candidate_glottocodes",
-    "match_status", "proposed_status", "confirmed_by", "decision_reason", "unresolved_issues", "review_ref",
+    "match_status", "proposed_status", "confirmed_by", "confirmed_date", "decision_reason", "unresolved_issues",
+    "review_ref",
 ]
 
 SET_METRICS = ("n_features", "n_coded", "n_present", "coverage", "share")
@@ -127,28 +128,14 @@ def _int(x) -> object:
 
 
 def apply_review(link: dict, reviews: List[dict]) -> dict:
-    """Same rules as morph_ldl.data.gelato.build_crosswalk (contract §9)."""
-    issues = [i for i in link["unresolved_issues"].split("; ") if i]
+    """Same rule as morph_ldl.data.gelato.build_crosswalk (gelato.review_outcome; contract §9)."""
     rv = gelato._find_review(reviews, link["glottocode"], link["population"], "grambank")
     if rv is None or not link["glottocode"]:
         return link
-    probs = gelato.review_problems(rv)
-    if probs:
-        issues.append("review entry incomplete (" + "; ".join(probs) + "); not applied")
-    else:
-        status = rv["status"]
-        proposed = ""
-        confirmed = str(rv.get("confirmed_by", "") or "").strip()
-        if status == "accepted" and not (confirmed and str(rv.get("confirmed_date", "") or "").strip()):
-            status, proposed = "candidate", "accepted"
-            issues.append("acceptance proposed by an agent review; awaiting human confirmation "
-                          "(confirmed_by + confirmed_date in gelato_review.yaml)")
-        issues += [str(x) for x in rv.get("unresolved", []) or []]
-        link = {**link, "match_status": status, "proposed_status": proposed, "confirmed_by": confirmed,
-                "decision_reason": str(rv["reviewer_note"]).strip(),
-                "review_ref": f"gelato_review.yaml:{rv.get('id', '')}"}
-    link["unresolved_issues"] = "; ".join(dict.fromkeys(issues))
-    return link
+    o = gelato.review_outcome(rv, link["match_status"], link["decision_reason"])
+    issues = [i for i in link["unresolved_issues"].split("; ") if i] + o.pop("issues")
+    o.pop("evidence")
+    return {**link, **o, "unresolved_issues": "; ".join(dict.fromkeys(issues))}
 
 
 def build_links(main: pd.DataFrame, s1: pd.DataFrame, glotto: gb.Glottolog, grambank_lang_ids: set,
@@ -245,7 +232,8 @@ def build_links(main: pd.DataFrame, s1: pd.DataFrame, glotto: gb.Glottolog, gram
                              "decision_reason": f"manual link: {ml.get('reason', '')} ({ml.get('by', '')})",
                              "unresolved_issues": "; ".join(base_issues)})
         for r in pop_rows:
-            r.setdefault("proposed_status", ""); r.setdefault("confirmed_by", ""); r.setdefault("review_ref", "")
+            for c in ("proposed_status", "confirmed_by", "confirmed_date", "review_ref"):
+                r.setdefault(c, "")
             r["language_name"] = glotto.name(r["glottocode"])
             rows.append(apply_review(r, reviews))
     out = pd.DataFrame(rows, columns=LINK_COLUMNS)
@@ -674,7 +662,6 @@ def audit_typology(cfg: dict) -> Tuple[list, list]:
     orphan = sorted(set(live["glottocode"]) - set(oc["glottocode"]))
     if orphan:
         problems.append(f"typology: link glottocodes without outcome row: {orphan[:10]}")
-    if ((lk["match_status"] == "accepted") & (lk["confirmed_by"].str.strip() == "")).any():
-        problems.append("typology: accepted link without human confirmed_by")
+    problems += gelato.review_link_problems(lk, "typology")
     checks.append(f"typology: {len(lk)} link rows consistent")
     return checks, problems
