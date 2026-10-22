@@ -363,4 +363,8 @@ to how many of the 12 features are coded (Spearman 0.01).
   component.
 
 Possible next checks (not run): leave out Turkic + Mongolic, and each macroarea; the slope per
-category; Grambank's Fusion and Flexivity scores (Shcherbakova et al. 2023) as outcomes.
+category; Grambank's Flexivity score (Skirgård et al. 2023) as an outcome. Checked 2026-10-22
+against `external/grambank/cldf/parameters.csv`: Flexivity has 30 features (gender/noun class,
+classifiers, suppletion, non-phonological allomorphy, conjugation classes), 4 of them ours
+(GB170–172, GB198). Fusion (column `Boundness`) contains all 34 of our features, so it is
+not an independent outcome. Informativity (73 features, bound or free marking) shares 10.
