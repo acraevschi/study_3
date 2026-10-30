@@ -1,0 +1,10 @@
+set,name,baseline,delta_elpd_x,se_delta
+main,flex_all__main__ent_N_plain,flex_all__main__base_N_all,0.734680714944602,1.65367507291541
+main,flex_all__main__ent_P_plain,flex_all__main__base_P_all,0.283321016688433,0.579019691372773
+main,flex_all__main__het_N_plain,flex_all__main__base_N_het,1.4374802015019,1.64182115228528
+main,flex_all__main__het_P_plain,flex_all__main__base_P_het,-1.74436885501092,1.03395197103695
+main,flex_all__main__f3k_est_N_plain,flex_all__main__base_N_f3,0.0751801419000913,1.03804445413475
+main,flex_all__main__f3k_est_P_plain,flex_all__main__base_P_f3,-0.700409963348022,0.812312749257464
+main,flex_all__main__ent_F_plain,flex_all__main__base_F_all,-0.45447280138734,0.62940054794454
+main,flex_all__main__het_F_plain,flex_all__main__base_F_het,-1.18846462420726,1.23115210212655
+main,flex_all__main__f3k_est_F_plain,flex_all__main__base_F_f3,-0.0080647325701193,0.865271594131461

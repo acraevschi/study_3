@@ -182,10 +182,34 @@ ADM_XMODE=both Rscript analyses/admixture_links_2026_10_21/fit.R > .../fit.log 2
 Rscript analyses/admixture_links_2026_10_21/f3.R <path to F2results> 3000 5
 ADM_XMODE=both ADM_MEASURES=f3k_z,f3k_est,f3b3_z,f3b3_est ADM_TAG=f3check \
   Rscript analyses/admixture_links_2026_10_21/fit.R main > .../fit_f3check.log 2>&1
+# Flexivity outcomes and tail-checked exposures (sqrt_het, f3k_est_pos):
+# 1) All available languages for each outcome (ADM_SAMPLE=own, default: N=193 for flex, N=202 for cat12):
+ADM_OUTCOME=flex ADM_MIN_COV=0.6 ADM_SAMPLE=own ADM_XMODE=plain \
+  ADM_MEASURES=ent,het,f3k_est,sqrt_het,f3k_est_pos \
+  Rscript analyses/admixture_links_2026_10_21/fit.R main
+# 2) Intersection sensitivity (languages meeting >=60% on BOTH cat12 and flex, N=189):
+ADM_OUTCOME=cat12 ADM_MIN_COV=0.6 ADM_SAMPLE=intersect ADM_XMODE=plain \
+  ADM_MEASURES=ent,het,f3k_est,sqrt_het,f3k_est_pos \
+  Rscript analyses/admixture_links_2026_10_21/fit.R main
+ADM_OUTCOME=flex ADM_MIN_COV=0.6 ADM_SAMPLE=intersect ADM_XMODE=plain ADM_REUSE_STAGE1=1 \
+  ADM_MEASURES=ent,het,f3k_est,sqrt_het,f3k_est_pos \
+  Rscript analyses/admixture_links_2026_10_21/fit.R main
 ```
 
-`ADM_MEASURES` picks measures (default: the 12 of the main run); `ADM_TAG` adds a suffix to
-the result files (`model_results_main_f3check.csv`, …) so they do not overwrite others.
+`ADM_MEASURES` picks measures (default: the 12 of the main run; also supports `sqrt_het` and
+`f3k_est_pos`); `ADM_OUTCOME` selects the outcome (`cat12` default, `flex` for all 30 Grambank
+Flexivity features, `flex26` dropping the 4 shared gender-agreement features GB170–172/GB198, or
+`irreg13` for the 13 core allomorphy/suppletion/inflection-class features); `ADM_MIN_COV` filters
+to languages with at least that share of outcome features coded (default `0.6` for all outcomes);
+`ADM_SAMPLE` selects the language sample (`own` default: all Grambank-linked languages meeting
+`ADM_OUTCOME`'s coverage threshold, e.g. 202 for `cat12` and 193 for `flex` in `main`; `intersect`:
+only languages meeting both `cat12` and Flexivity coverage, e.g. 189 in `main`, sharing stage 1 and
+the phylogenetic correlation matrix across both outcomes; `ADM_INTERSECT_WITH` selects the partner
+outcome when `ADM_OUTCOME=cat12`, default `flex`); `ADM_CTRLS` overrides the control sets (e.g.
+`N,P,F`); `ADM_PAR_FITS` sets the number of parallel fits (default `4`, × 4 chains = 16 cores);
+`ADM_REUSE_STAGE1=1` reuses saved stage-1 exposure tables in `results/` when they match the active
+language sample; `ADM_TAG` adds a suffix to the result files (`model_results_main_f3check.csv`, …;
+defaults to `<outcome>_cov<pct>[_intersect]`) so they do not overwrite others.
 
 The tables were built on the `gelato-link-rules` branch; they need its
 `analysis_links.csv`.
@@ -368,3 +392,67 @@ against `external/grambank/cldf/parameters.csv`: Flexivity has 30 features (gend
 classifiers, suppletion, non-phonological allomorphy, conjugation classes), 4 of them ours
 (GB170–172, GB198). Fusion (column `Boundness`) contains all 34 of our features, so it is
 not an independent outcome. Informativity (73 features, bound or free marking) shares 10.
+
+## 12. Flexivity outcomes and exposure tail checks (2026-10-29)
+
+Follow-up on the main set (`plain` mode) contrasting the 12-category inflectional-breadth outcome
+(`cat12`) against Grambank's Flexivity features (`external/grambank/cldf/parameters.csv`, tag
+`v1.0.3`, column `Flexivity == "1"`, 30 binary `0`/`1` features) across three non-redundant
+exposure mechanisms (`ent`, `het`, `f3k_est`) and their tail-checked counterparts:
+* `sqrt_het`: square root of population `het` (with 400-resample bootstrap SE), pulling in the
+  right skew (Sie $+6.3\text{ SD} \to +2.9\text{ SD}$).
+* `f3k_est_pos`: `max(0, f3k_est)`, clamping positive raw $f_3$ values (45% of populations, where
+  $f_3 > 0$ reflects population-specific genetic drift rather than admixture, e.g. Rennell-Bellona
+  at $-5.6\text{ SD}$) at zero.
+
+**Outcome sets (`prepare.py` → `language_data.csv`, all 225 Grambank-linked languages / 364 populations in `main`):**
+* `flex` (30 features): 11 gender/noun-class features (`GB030, GB051–054, GB170–172, GB192, GB198, GB321`),
+  4 classifier features (`GB038, GB057, GB058, GB116`), 2 evaluative features (`GB187, GB188`),
+  1 verbal animacy marker (`GB177`), and 12 suppletion/allomorphy/split/conjugation-class features.
+  Because the 11 gender questions are coded in 94–100% of languages while lexical suppletion is
+  coded in 63–82%, languages with $< 18/30$ ($< 60\%$) coded features have almost only gender coded.
+  Setting `ADM_MIN_COV=0.6` ($\ge 18/30$, matching the 60% rule of `cat12`) retains **193** of the
+  225 Grambank-linked languages under `ADM_SAMPLE=own` (adding Bilua `bilu1245`, Esan `esan1238`,
+  Mali `mali1284`, and Thai `thai1261` to the **189** languages in the `cat12 ∩ flex` intersection
+  under `ADM_SAMPLE=intersect`) and guarantees at least 7 non-gender flexivity features per language.
+* `flex26` (26 features): drops the 4 adnominal gender-agreement features (`GB170–172, GB198`)
+  shared with `cat12` ($\ge 16/26 = 60\%$ retains 192 languages in `own`, 186 in `intersect`).
+* `irreg13` (13 features): core paradigmatic irregularity, allomorphy, suppletion and inflection
+  classes (`GB039, GB041, GB095, GB096, GB098, GB099, GB109, GB110, GB111, GB300, GB321, GB402, GB403`;
+  $\ge 8/13 = 60\%$ retains 182 languages in `own`, 175 in `intersect`).
+
+**1. Tail checks on 12-category inflectional breadth (`cat12`, `main`, `plain` mode):**
+
+| Measure | Phylogeny (`P`) | Phylogeny + Space (`F`) | Δelpd (`F`) |
+|---|---|---|---|
+| `het` (raw, $n=198$) | +0.14 [+0.01, +0.27] | +0.13 [−0.00, +0.26] | 0.0 ± 2.2 |
+| `sqrt_het` ($n=198$) | +0.14 [−0.00, +0.27] | +0.12 [−0.02, +0.26] | −0.0 ± 1.8 |
+| `f3k_est` (raw, $n=183$) | +0.20 [+0.06, +0.34] | +0.18 [+0.04, +0.33] | +2.4 ± 2.7 |
+| `f3k_est_pos` (clamped at 0, $n=183$) | +0.19 [+0.04, +0.35] | +0.18 [+0.03, +0.35] | +0.7 ± 3.5 |
+
+**2. Flexivity slopes across coverage thresholds and subsets (`main`, `plain` mode, initial run on the 202-language `cat12` denominator / `cat12 ∩ flex` intersection):**
+
+*(Diagnostics: R-hat $\le 1.008$, bulk ESS $\ge 575$; as in §11, divergent transitions occurred only in phylogeny + space `F` models, at most 19 of 6,000 draws in `flex_cov60__main__f3k_est_F_plain` and $\le 8$ elsewhere.)*
+
+| Outcome set ($N$ langs) | Control | `ent` | `het` | `f3k_est` | `sqrt_het` | `f3k_est_pos` |
+|---|---|---|---|---|---|---|
+| `flex_cov60` ($\ge 18/30$, $N=189$) | `none` (`N`) | −0.12 [−0.24, +0.00] | −0.13 [−0.26, −0.00] | +0.06 [−0.07, +0.20] | −0.09 [−0.21, +0.04] | −0.01 [−0.16, +0.13] |
+| `flex_cov60` ($\ge 18/30$, $N=189$) | `phylogeny` (`P`) | −0.00 [−0.14, +0.14] | −0.04 [−0.17, +0.09] | −0.08 [−0.21, +0.05] | −0.02 [−0.14, +0.11] | −0.02 [−0.12, +0.09] |
+| `flex_cov60` ($\ge 18/30$, $N=189$) | `phylogeny+space` (`F`) | −0.00 [−0.14, +0.14] | −0.03 [−0.16, +0.09] | −0.08 [−0.20, +0.05] | −0.02 [−0.14, +0.11] | −0.02 [−0.12, +0.09] |
+| `flex_all` (no filter, $N=202$) | `phylogeny` (`P`) | +0.01 [−0.13, +0.15] | −0.06 [−0.19, +0.07] | −0.06 [−0.18, +0.07] | | |
+| `flex_all` (no filter, $N=202$) | `phylogeny+space` (`F`) | +0.01 [−0.14, +0.15] | −0.06 [−0.19, +0.07] | −0.06 [−0.19, +0.07] | | |
+| `flex_cov50` ($\ge 15/30$, $N=193$) | `phylogeny` (`P`) | −0.02 [−0.16, +0.12] | −0.04 [−0.17, +0.09] | −0.08 [−0.21, +0.04] | | |
+| `flex_cov75` ($\ge 23/30$, $N=176$) | `phylogeny` (`P`) | −0.01 [−0.15, +0.13] | −0.04 [−0.17, +0.09] | −0.12 [−0.24, +0.01] | | |
+| `flex26_cov60` ($\ge 16/26$, $N=186$) | `phylogeny` (`P`) | −0.01 [−0.15, +0.13] | −0.03 [−0.16, +0.09] | −0.09 [−0.21, +0.04] | | |
+| `flex26_cov60` ($\ge 16/26$, $N=186$) | `phylogeny+space` (`F`) | −0.01 [−0.14, +0.14] | −0.03 [−0.17, +0.09] | −0.08 [−0.21, +0.05] | | |
+| `irreg13_cov60` ($\ge 8/13$, $N=175$) | `phylogeny` (`P`) | −0.05 [−0.27, +0.18] | −0.03 [−0.23, +0.16] | −0.15 [−0.35, +0.05] | | |
+
+**Reading.** Unlike the 12-category inflectional-breadth outcome (where all three admixture
+mechanisms have positive slopes of $+0.13$ to $+0.20$), Flexivity shows **no positive association**
+with any admixture measure under any coverage threshold ($0\%, 50\%, 60\%, 75\%$) or subset
+(`flex`, `flex26`, `irreg13`). Point estimates after phylogenetic control are zero for `ent` and
+slightly negative for `het` ($-0.03$ to $-0.06$) and `f3k_est` ($-0.06$ to $-0.15$, with
+$P(\text{slope} < 0) = 0.89$ on `flex_cov60` and $0.93$ on `irreg13_cov60`), with $\Delta\text{elpd}$
+within $\pm 1.7$ of zero. This supports the distinction between **transparent categorial breadth**
+(high in admixed agglutinating families such as Turkic, mean share $0.71$) and **paradigmatic
+opacity / flexivity** (near zero in Turkic, mean share $0.04$, vs. Indo-European $0.37$).

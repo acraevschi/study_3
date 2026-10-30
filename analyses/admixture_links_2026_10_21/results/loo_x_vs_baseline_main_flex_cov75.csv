@@ -1,0 +1,4 @@
+set,name,baseline,delta_elpd_x,se_delta
+main,flex_cov75__main__ent_P_plain,flex_cov75__main__base_P_all,-1.36568590787249,0.62215167216736
+main,flex_cov75__main__het_P_plain,flex_cov75__main__base_P_het,-0.473514072977821,0.765555631368186
+main,flex_cov75__main__f3k_est_P_plain,flex_cov75__main__base_P_f3,1.31688680527793,1.32745017974844

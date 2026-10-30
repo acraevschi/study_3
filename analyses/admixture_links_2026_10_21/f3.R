@@ -1,6 +1,6 @@
 # f3 admixture score per GeLaTo population (EXPLORATORY; README.md section 2).
 #
-# For each target population A that links to a main-set language:
+# For each target population A that links to a Grambank-coded language in the main set:
 #   f3(A; B, C)   B = every other population of A's Glottolog family (a proxy for A's own
 #                     ancestry), C = every population of a *different* family within
 #                     MAX_KM of A (a proxy for contact partners).
@@ -31,7 +31,7 @@ names(meta) <- c("pop", "lat", "lon", "family")
 meta$family[is.na(meta$family)] <- ""
 
 al <- read.csv("outputs/pcfp_v2_links_2026_10_20/typology/analysis_links.csv", stringsAsFactors = FALSE)
-al <- al[al$analysis == "main" & al$in_grambank == "True" & al$meets_coverage_main == "True", ]
+al <- al[al$analysis == "main" & al$in_grambank == "True", ]
 targets <- sort(unique(al$population))
 stopifnot(all(targets %in% meta$pop))
 

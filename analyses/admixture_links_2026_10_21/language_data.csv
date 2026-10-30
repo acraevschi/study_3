@@ -1,203 +1,203 @@
-glottocode,name,family,macroarea,n_present,n_coded,lat,lon,n_populations,n_individuals,in_main,n_individuals_main,in_no_doubtful_language,n_individuals_no_doubtful_language,in_no_other_language_stand_ins,n_individuals_no_other_language_stand_ins,in_strict,n_individuals_strict,ent,nonmax,tree_source
-abkh1244,Abkhaz,Abkhaz-Adyge,Eurasia,11,12,43.056218,41.159115,1,9,1,9,1,9,1,9,1,9,0.928878,0.340747,low
-afar1241,Afar,Afro-Asiatic,Africa,8,12,12.2281,41.8083,1,5,1,5,1,5,1,5,1,5,1.207579,0.499335,low
-aghe1239,Aghem,Atlantic-Congo,Africa,6,12,6.38956,10.0807,1,28,1,28,1,28,1,28,1,28,0.116365,0.025689,low
-akei1237,Akei,Austronesian,Papunesia,3,8,-15.6377,166.767,1,2,1,2,1,2,1,2,1,2,1.252448,0.516145,low
-aleu1260,Aleut,Eskimo-Aleut,North America,10,12,52.1228,-174.29,2,10,1,10,1,10,1,10,1,10,1.461141,0.521726,low
-amha1245,Amharic,Afro-Asiatic,Africa,8,8,11.708182,39.543456,1,7,1,7,0,0,1,7,0,0,1.183599,0.496265,low
-amis1246,Amis,Austronesian,Papunesia,3,10,23.0917,121.348,1,10,1,10,1,10,1,10,1,10,0.432734,0.137351,low
-anei1239,Aneityum,Austronesian,Papunesia,5,12,-20.1864,169.825,1,6,1,6,1,6,1,6,1,6,1.39891,0.605736,low
-apma1240,Apma,Austronesian,Papunesia,4,12,-15.8559,168.189,2,10,1,10,1,10,1,10,1,10,1.216665,0.479771,low
-atay1247,Atayal,Austronesian,Papunesia,3,10,24.5209,121.388,1,10,1,10,1,10,1,10,1,10,0.300422,0.098376,low
-bafu1246,Bafut,Atlantic-Congo,Africa,5,12,6.14153,10.1194,1,11,1,11,1,11,1,11,1,11,0.160884,0.035656,low
-bash1264,Bashkir,Turkic,Eurasia,8,12,53.59671,56.55937,8,53,1,53,1,53,1,53,1,53,1.610914,0.558798,low
-basq1248,Basque,Basque,Eurasia,4,12,43.2787,-1.31622,3,36,1,36,1,36,1,36,1,36,0.65448,0.330289,glottolog_5.3
-bela1254,Belarusian,Indo-European,Eurasia,8,12,53.2307,25.6038,1,10,1,10,1,10,1,10,1,10,0.67787,0.195681,low
-brah1256,Brahui,Dravidian,Eurasia,7,10,29.04,66.56,1,23,1,23,1,23,1,23,1,23,1.13405,0.429592,low
-bund1253,Bundeli,Indo-European,Eurasia,7,11,24.8982,78.9542,1,13,1,13,1,13,1,13,1,13,0.887684,0.327107,low
-buru1296,Burushaski,Burushaski,Eurasia,10,10,36.2161,74.8236,1,24,1,24,1,24,1,24,1,24,1.443242,0.571746,glottolog_5.3
-cabe1245,Cabécar,Chibchan,North America,8,11,9.67031,-83.4102,1,4,1,4,1,4,1,4,1,4,0.388454,0.115114,low
-camp1261,Campidanese Sardinian,Indo-European,Eurasia,8,12,39.0566,9.03935,1,28,1,28,1,28,1,28,1,28,0.756921,0.351018,low
-cams1241,Camsá,Camsá,South America,6,10,1.14537,-76.8931,1,4,1,4,1,4,1,4,1,4,0.590049,0.15645,glottolog_5.3
-cent1989,Central Khmer,Austroasiatic,Eurasia,0,11,12.0515,105.015,1,10,1,10,1,10,1,10,1,10,1.111635,0.407931,low
-cent2058,Central Maewo,Austronesian,Papunesia,1,9,-15.0784,168.135,1,10,1,10,1,10,1,10,1,10,1.315059,0.527873,low
-cent2322,Central Mansi,Uralic,Eurasia,6,12,61.1432,62.4023,1,9,1,9,0,0,0,0,0,0,1.316975,0.562113,glottolog_5.3
-chal1275,Chaldean Neo-Aramaic,Afro-Asiatic,Eurasia,10,11,37.0972,43.5027,2,16,1,16,1,16,0,0,0,0,1.049928,0.460355,low
-chec1245,Chechen,Nakh-Daghestanian,Eurasia,9,10,43.5,45.5,1,9,1,9,1,9,1,9,1,9,1.174482,0.429289,low
-chip1261,Chipewyan,Athabaskan-Eyak-Tlingit,North America,8,12,58.98,-104.44,1,26,1,26,1,26,1,26,1,26,0.551726,0.231371,low
-chuk1273,Chukchi,Chukotko-Kamchatkan,Eurasia,9,12,68.6436,170.045,2,25,1,25,1,25,1,25,1,25,0.40826,0.127515,low
-chuv1255,Chuvash,Turkic,Eurasia,8,12,55.48701,47.16298,2,16,1,16,1,16,1,16,1,16,1.293055,0.405401,low
-coca1259,Cocama-Cocamilla,Tupian,South America,9,12,-4.5,-74.0,1,7,1,7,0,0,1,7,0,0,0.535129,0.150775,low
-cofa1242,Cofán,Cofán,South America,9,12,0.276675,-77.0643,1,4,1,4,1,4,1,4,1,4,0.595051,0.169969,glottolog_5.3
-cusc1236,Cusco Quechua,Quechuan,South America,11,12,-14.0853,-71.7663,4,22,1,22,1,22,1,15,1,15,0.469224,0.124034,low
-cypr1248,Cypriot Arabic,Afro-Asiatic,Eurasia,7,9,35.1674,33.0943,1,8,1,8,0,0,1,8,0,0,1.143417,0.564704,low
-czec1258,Czech,Indo-European,Eurasia,10,12,49.873398,15.10437,1,10,1,10,1,10,1,10,1,10,0.803076,0.267614,low
-darg1241,North-Central Dargwa,Nakh-Daghestanian,Eurasia,9,9,42.4257,47.4388,2,16,1,16,1,8,1,16,1,8,1.018411,0.401636,low
-daur1238,Dagur,Mongolic-Khitan,Eurasia,6,9,48.0,124.0,1,9,1,9,1,9,1,9,1,9,1.126177,0.420774,low
-east2443,East Ambae,Austronesian,Papunesia,5,12,-15.3523,167.89,1,5,1,5,1,5,1,5,1,5,1.366275,0.542354,low
-east2690,Eastern Egyptian Bedawi Arabic,Afro-Asiatic,Africa;Eurasia,4,9,29.6742,33.6113,2,44,1,44,1,44,1,44,1,44,1.035027,0.390696,low
-egyp1253,Egyptian Arabic,Afro-Asiatic,Africa;Eurasia,8,10,31.0,31.0,3,22,1,22,1,15,1,22,1,15,1.397107,0.549035,low
-emae1237,Emae,Austronesian,Papunesia,4,11,-17.052,168.399,1,8,1,8,1,8,1,8,1,8,1.346188,0.53955,low
-erzy1239,Erzya,Uralic,Eurasia,7,12,52.8548,45.3901,2,22,1,22,1,22,1,22,1,22,0.918233,0.25465,low
-esto1258,Estonian,Uralic,Eurasia,6,12,58.55,25.82,1,10,1,10,1,10,1,10,1,10,0.480056,0.136223,low
-even1259,Evenki,Tungusic,Eurasia,8,10,61.972,94.689,2,16,1,16,1,16,1,16,1,16,1.083781,0.41889,low
-even1260,Even,Tungusic,Eurasia,8,9,70.6687,130.914,1,9,1,9,0,0,1,9,0,0,1.281732,0.511771,low
-fefe1239,Fe'fe',Atlantic-Congo,Africa,7,11,5.18158,10.1442,1,2,1,2,1,2,0,0,0,0,0.162981,0.036646,low
-finn1318,Finnish,Uralic,Eurasia,8,12,64.7628,25.5577,1,8,1,8,1,8,1,8,1,8,0.687637,0.197587,low
-fore1265,Forest Enets,Uralic,Eurasia,7,11,68.6,86.5,1,3,1,3,0,0,0,0,0,0,1.078699,0.363998,low
-futu1245,Futuna-Aniwa,Austronesian,Papunesia,5,12,-19.5303,170.215,1,3,1,3,1,3,1,3,1,3,1.471668,0.617,low
-gaga1249,Gagauz,Turkic,Eurasia,8,12,44.59876,28.02769,1,9,1,9,1,9,1,9,1,9,1.237229,0.516363,low
-gali1258,Galician,Indo-European,Eurasia,8,12,42.2446,-7.5343,1,5,1,5,1,5,1,5,1,5,1.037951,0.434532,low
-gela1263,Gela,Austronesian,Papunesia,3,12,-9.04587,160.186,1,6,1,6,1,6,1,6,1,6,1.193164,0.473258,low
-ghan1242,Ghanongga,Austronesian,Papunesia,4,11,-8.02035,156.552,1,6,1,6,1,6,1,6,1,6,0.5635,0.22494,low
-gheg1238,Gheg Albanian,Indo-European,Eurasia,10,12,42.317,21.3837,1,6,1,6,1,6,1,6,1,6,1.15861,0.536294,low
-gily1242,Amur Nivkh,Nivkh,Eurasia,9,12,52.59,140.681,1,8,1,8,0,0,1,8,0,0,0.836671,0.327506,low
-gulf1241,Gulf Arabic,Afro-Asiatic,Eurasia,7,9,30.17,47.5,1,10,1,10,0,0,0,0,0,0,1.073379,0.406294,low
-hadz1240,Hadza,Hadza,Africa,5,12,-3.83115,35.0458,2,25,1,25,1,25,1,25,1,25,0.43985,0.162418,glottolog_5.3
-hakk1236,Hakka Chinese,Sino-Tibetan,Eurasia,4,11,25.0,116.0,1,8,1,8,1,8,1,8,1,8,0.706495,0.383161,low
-halh1238,Halh Mongolian,Mongolic-Khitan,Eurasia,8,12,48.32397,106.28874,4,34,1,34,1,34,1,34,1,34,1.468405,0.513569,low
-hali1244,Halia,Austronesian,Papunesia,7,12,-5.26603,154.662,1,5,1,5,0,0,1,5,0,0,0.973872,0.336408,low
-hano1246,Hano,Austronesian,Papunesia,3,12,-15.5432,168.167,1,3,1,3,1,3,1,3,1,3,1.144855,0.468048,low
-hass1238,Hassaniyya,Afro-Asiatic,Africa,7,9,18.29,-14.11,1,9,1,9,1,9,1,9,1,9,1.153654,0.482655,low
-here1253,Herero,Atlantic-Congo,Africa,10,12,-21.0231,20.5655,2,7,1,7,1,7,1,7,1,7,0.428936,0.105521,low
-hoaa1235,Amkoe,Kxa,Africa,3,12,-23.93447,24.69828,1,6,1,6,0,0,1,6,0,0,0.480918,0.188299,low
-huaa1248,East Taa,Tuu,Africa,5,12,-24.20022,20.79583,3,34,1,34,1,34,1,8,1,8,0.3073,0.112152,low
-hung1274,Hungarian,Uralic,Eurasia,9,12,46.906859,19.655527,2,20,1,20,1,20,1,20,1,20,0.929893,0.322326,low
-icel1247,Icelandic,Indo-European,Eurasia,9,12,63.4837,-19.0212,1,12,1,12,1,12,1,12,1,12,0.698059,0.233205,low
-ingu1240,Ingush,Nakh-Daghestanian,Eurasia,10,10,43.11,45.03,1,10,1,10,1,10,1,10,1,10,1.213533,0.437467,low
-iris1253,Irish,Indo-European,Eurasia,11,12,53.2186,-7.61509,5,30,1,30,1,30,1,30,1,30,0.748956,0.262591,low
-iron1242,Iron Ossetian,Indo-European,Eurasia,8,12,42.98,44.61,2,16,1,16,1,16,1,16,1,16,1.240712,0.439891,low
-ital1282,Italian,Indo-European,Eurasia,8,12,43.0464,12.6489,4,25,1,25,1,25,1,21,1,21,1.096627,0.50351,low
-kaba1278,Kabardian,Abkhaz-Adyge,Eurasia,10,12,43.5082,43.3918,2,19,1,19,1,19,1,19,1,19,1.299935,0.471064,low
-kalm1243,Oirad-Kalmyk-Darkhat,Mongolic-Khitan,Eurasia,7,12,46.566667,45.316667,1,10,1,10,1,10,1,10,1,10,1.528527,0.526281,low
-kank1243,Kankanaey,Austronesian,Papunesia,5,11,16.8548,120.689,1,10,1,10,1,10,1,10,1,10,0.361376,0.113426,low
-kaqc1270,Kaqchikel,Mayan,North America,9,12,14.4662,-90.9881,1,5,1,5,1,5,1,5,1,5,0.570731,0.160803,low
-kare1335,Karelian,Uralic,Eurasia,8,12,65.1691,30.8655,2,15,1,15,1,15,1,15,1,15,0.610791,0.176368,low
-kari1311,Karitiâna,Tupian,South America,8,12,-9.37937,-64.1522,2,17,1,17,1,17,1,17,1,17,0.009707,0.00177,low
-kett1243,Ket,Yeniseian,Eurasia,8,11,63.7551,87.5466,2,19,1,19,1,19,1,19,1,19,0.746127,0.263827,low
-kgal1244,Kgalagadi,Atlantic-Congo,Africa,9,11,-24.9208,22.72016,1,5,1,5,1,5,1,5,1,5,0.729771,0.391544,low
-khak1248,Khakas,Turkic,Eurasia,9,12,52.66002,89.67409,4,23,1,23,1,23,1,23,1,23,1.637093,0.625066,low
-khar1287,Kharia,Austroasiatic,Eurasia,5,10,22.3571,84.3922,1,12,1,12,1,12,1,12,1,12,0.997303,0.350268,low
-kiku1240,Kikuyu,Atlantic-Congo,Africa,8,11,-0.29005,36.719,1,4,1,4,1,4,1,4,1,4,1.068086,0.415218,low
-kore1280,Korean,Koreanic,Eurasia,8,12,37.54,126.98,1,6,1,6,1,6,1,6,1,6,0.778758,0.341408,low
-kove1237,Kove,Austronesian,Papunesia,5,12,-5.58623,149.63,2,17,1,17,1,17,1,17,1,17,1.316723,0.630383,low
-kuan1248,Kuanua,Austronesian,Papunesia,4,12,-4.30986,152.114,4,23,1,23,1,23,1,23,1,23,1.18469,0.520513,low
-kuot1243,Kuot,Kuot,Papunesia,6,12,-3.06952,151.537,2,18,1,18,1,18,1,18,1,18,1.113702,0.529628,glottolog_5.3
-kusu1250,Kusunda,Kusunda,Eurasia,7,11,28.33,82.6,1,5,1,5,0,0,1,5,0,0,1.4537,0.5589,glottolog_5.3
-kxoe1243,Kxoe,Khoe-Kwadi,Africa,8,12,-16.59051,22.599835,1,10,1,10,1,10,1,10,1,10,1.110348,0.497352,low
-lahu1253,Lahu,Sino-Tibetan,Eurasia,2,12,21.2701,100.214,1,8,1,8,1,8,1,8,1,8,0.853672,0.386416,low
-lakk1252,Lak,Nakh-Daghestanian,Eurasia,10,10,42.1328,47.0809,1,10,1,10,1,10,1,10,1,10,1.056529,0.408837,low
-lavu1241,Lavukaleve,Lavukaleve,Papunesia,9,12,-9.05569,159.119,1,4,1,4,1,4,1,4,1,4,1.030859,0.36085,glottolog_5.3
-lazz1240,Laz,Kartvelian,Eurasia,7,10,41.5004,41.9096,1,6,1,6,1,6,1,6,1,6,0.912252,0.366231,low
-lena1238,Lenakel,Austronesian,Papunesia,7,12,-19.4763,169.261,1,9,1,9,1,9,1,9,1,9,1.176062,0.488023,low
-lese1243,Lese,Central Sudanic,Africa,10,12,1.3,29.3,1,11,1,11,1,11,1,11,1,11,0.323335,0.159903,low
-lezg1247,Lezgian,Nakh-Daghestanian,Eurasia,8,12,41.5157,47.8951,1,10,1,10,1,10,1,10,1,10,1.156176,0.420143,low
-liby1240,Libyan Arabic,Afro-Asiatic,Africa,8,10,22.0032,15.0014,1,5,1,5,1,5,1,5,1,5,1.358281,0.482747,low
-lith1251,Lithuanian,Indo-European,Eurasia,9,12,55.1429,23.9601,1,10,1,10,1,10,1,10,1,10,0.386551,0.116073,low
-loni1238,Loniu,Austronesian,Papunesia,4,12,-2.06124,147.35,1,2,1,2,1,2,1,2,1,2,1.19248,0.452102,low
-luok1236,Luo (Kenya and Tanzania),Nilotic,Africa,9,12,-0.93296,34.4896,1,8,1,8,1,8,1,8,1,8,0.642259,0.200134,low
-mada1285,Madak,Austronesian,Papunesia,9,12,-3.34342,151.967,1,10,1,10,1,10,1,10,1,10,1.164421,0.553352,low
-mala1464,Malayalam,Dravidian,Eurasia,8,12,9.59208,76.7651,1,5,1,5,0,0,1,5,0,0,1.36383,0.551194,low
-mala1479,Central Malay,Austronesian,Eurasia,1,10,1.85856,103.0,1,9,1,9,1,9,1,9,1,9,1.1981,0.367314,low
-malt1254,Maltese,Afro-Asiatic,Eurasia,9,10,35.8884,14.4508,1,8,1,8,1,8,1,8,1,8,1.33405,0.601223,low
-mama1275,Minamanwa,Austronesian,Papunesia,4,11,9.44744,125.548,2,18,1,18,1,18,1,18,1,18,1.151454,0.323481,low
-mand1415,Mandarin Chinese,Sino-Tibetan,Eurasia,1,12,40.0209,116.228,3,53,1,53,1,53,1,53,1,53,0.729024,0.369895,low
-mand1436,Mandinka,Mande,Africa,2,9,12.816523,-15.653947,2,24,1,24,1,24,1,24,1,24,0.223213,0.048758,low
-mang1403,Mangseng,Austronesian,Papunesia,4,12,-5.89752,150.68,1,5,1,5,1,5,1,5,1,5,1.3775,0.557725,low
-mapu1245,Mapudungun,Araucanian,South America,6,12,-38.7392,-71.277,1,4,1,4,1,4,0,0,0,0,1.253576,0.420171,low
-masa1300,Masai,Nilotic,Africa,9,9,-3.1419,36.4573,2,12,1,12,1,12,1,12,1,12,1.14756,0.431561,low
-mbal1255,Central Wambo,Atlantic-Congo,Africa,9,10,-17.578884,16.027517,2,6,1,6,1,6,0,0,0,0,0.318878,0.077638,low
-mboc1235,Mbo (Cameroon),Atlantic-Congo,Africa,10,12,5.13981,9.92766,1,20,1,20,1,20,1,20,1,20,0.184359,0.041654,low
-mbya1239,Mbyá Guaraní,Tupian,South America,8,11,-26.0188,-52.711,3,21,1,21,1,5,1,21,1,5,0.57771,0.209504,low
-mele1250,Mele-Fila,Austronesian,Papunesia,7,11,-17.6841,168.275,2,10,1,10,1,10,1,10,1,10,1.232279,0.509994,low
-mend1266,Mende (Sierra Leone),Mande,Africa,4,8,7.90935,-10.9926,1,8,1,8,1,8,1,8,1,8,0.19224,0.039413,low
-minh1238,Mangghuer,Mongolic-Khitan,Eurasia,8,11,36.33736,102.80434,1,10,1,10,1,10,1,10,1,10,1.183777,0.402969,glottolog_5.3
-mlah1239,Mlahsô,Afro-Asiatic,Eurasia,9,10,37.0311,41.2209,1,8,1,8,0,0,0,0,0,0,1.340015,0.561853,low
-mode1248,Modern Greek,Indo-European,Eurasia,9,12,38.36,23.13,3,40,1,40,1,40,1,40,1,40,1.218087,0.579949,low
-moks1248,Moksha,Uralic,Eurasia,8,12,54.1855,42.6728,1,10,1,10,1,10,1,10,1,10,0.931794,0.259948,low
-motl1237,Mwotlap,Austronesian,Papunesia,6,12,-13.655015,167.706277,1,7,1,7,0,0,1,7,0,0,1.353174,0.566187,low
-naka1262,Nakanai,Austronesian,Papunesia,2,11,-5.59931,150.888,2,16,1,16,1,16,1,16,1,16,0.97202,0.367612,low
-nama1268,Namakura,Austronesian,Papunesia,6,10,-16.8979,168.569,2,9,1,9,1,9,1,9,1,9,1.260115,0.518374,low
-nana1257,Nanai,Tungusic,Eurasia,7,12,48.43426,134.79726,2,19,1,19,0,0,1,19,0,0,1.008485,0.402397,low
-natu1246,Natügu,Austronesian,Papunesia,6,8,-10.6771,165.835,1,8,1,8,1,8,1,8,1,8,1.2124,0.523146,low
-naxi1245,Naxi,Sino-Tibetan,Eurasia,0,12,27.5,100.0,1,8,1,8,1,8,1,8,1,8,0.897864,0.359435,low
-negi1245,Negidal,Tungusic,Eurasia,7,11,52.96584,139.20575,1,4,1,4,0,0,1,4,0,0,1.079746,0.470315,low
-ngan1291,Nganasan,Uralic,Eurasia,8,12,73.1354,86.2106,4,31,1,31,0,0,1,31,0,0,0.109701,0.027756,low
-nort2671,North Saami,Uralic,Eurasia,7,10,68.725,22.1113,1,3,1,3,1,3,1,3,1,3,0.903472,0.307972,low
-nort2690,Northern Uzbek,Turkic,Eurasia,9,12,40.886,69.211,3,27,1,27,1,27,1,27,1,27,1.90206,0.703095,low
-nort2697,North Azerbaijani,Turkic,Eurasia,8,12,40.97768,46.4737,3,18,1,18,1,18,1,18,1,18,1.360043,0.474792,low
-nort2732,Northern Tujia,Sino-Tibetan,Eurasia,1,12,29.3016,109.759,1,10,1,10,0,0,1,10,0,0,0.716199,0.388896,low
-nort2745,Northern Yukaghir,Yukaghir,Eurasia,9,12,70.498,157.853,1,19,1,19,0,0,1,19,0,0,1.037328,0.433386,low
-nort2836,North Efate,Austronesian,Papunesia,4,10,-17.5774,168.375,1,3,1,3,1,3,1,3,1,3,1.165581,0.464261,low
-nort2839,North Ambrym,Austronesian,Papunesia,2,11,-16.1741,168.14,1,6,1,6,0,0,1,6,0,0,1.193595,0.476177,low
-nort2961,Northwestern Ojibwa,Algic,North America,10,12,51.6192,-87.7862,1,16,1,16,1,16,1,16,1,16,1.405333,0.572773,low
-nort3139,Levantine Arabic,Afro-Asiatic,Eurasia,8,10,34.1709,36.0468,6,121,1,121,1,103,1,121,1,103,1.244341,0.552671,low
-nots1237,Notsi,Austronesian,Papunesia,6,10,-3.0557,151.661,1,9,1,9,1,9,1,9,1,9,1.164314,0.536429,low
-nucl1235,Eastern Armenian,Indo-European,Eurasia,10,12,40.0,45.0,2,14,1,14,1,14,1,14,1,14,1.047759,0.445459,low
-nucl1301,Turkish,Turkic,Eurasia,9,12,39.8667,32.8667,6,62,1,62,1,62,1,62,1,62,1.398403,0.55667,low
-nucl1302,Georgian,Kartvelian,Eurasia,7,12,41.850397,43.78613,3,27,1,27,1,18,1,27,1,18,0.94572,0.3836,low
-nucl1310,Burmese,Sino-Tibetan,Eurasia,8,12,20.7926,93.9665,1,10,1,10,1,10,1,10,1,10,1.364045,0.547189,low
-nucl1643,Japanese,Japonic,Eurasia,7,12,35.0,135.0,1,30,1,30,1,30,1,30,1,30,0.852219,0.348204,low
-olut1240,Oluta Popoluca,Mixe-Zoque,North America,7,11,17.8937,-94.8863,1,10,1,10,0,0,1,10,0,0,0.483415,0.178026,low
-onto1237,Luangiua,Austronesian,Papunesia,4,10,-5.49029,159.701,1,8,1,8,1,8,1,8,1,8,0.93216,0.346129,low
-paam1238,Paama,Austronesian,Papunesia,4,11,-16.47548,168.23693,1,7,1,7,1,7,1,7,1,7,1.158082,0.459499,low
-panj1256,Eastern Panjabi,Indo-European,Eurasia,9,12,30.0368,75.6702,1,8,1,8,1,8,1,8,1,8,1.008583,0.38401,low
-peri1253,Peripheral Mongolian,Mongolic-Khitan,Eurasia,5,9,42.4208,110.157,1,10,1,10,1,10,1,10,1,10,1.210335,0.434908,low
-pima1248,Pima Bajo,Uto-Aztecan,North America,7,12,28.654,-108.326,1,14,1,14,1,14,1,14,1,14,0.4468,0.166321,low
-plai1258,Plains Cree,Algic,North America,9,12,51.2437,-110.463,1,12,1,12,0,0,1,12,0,0,1.430943,0.556569,low
-poli1260,Polish,Indo-European,Eurasia,9,12,51.8439,18.6255,2,23,1,23,1,23,1,23,1,23,0.703951,0.221912,low
-renn1242,Rennell-Bellona,Austronesian,Papunesia,2,9,-11.6237,160.265,1,7,1,7,1,7,1,7,1,7,0.339415,0.184231,low
-russ1263,Russian,Indo-European,Eurasia,11,12,59.0,50.0,15,90,1,90,1,90,1,90,1,90,0.771448,0.217922,low
-russ1264,Russia Buriat,Mongolic-Khitan,Eurasia,10,12,50.85331,105.5637,5,39,1,39,1,39,1,39,1,39,1.38701,0.514983,low
-saaa1241,Sa,Austronesian,Papunesia,4,11,-15.9534,168.228,1,9,1,9,1,9,1,9,1,9,1.177345,0.457099,low
-saba1267,Sabah Bisaya,Austronesian,Papunesia,0,10,5.30433,115.512,1,10,1,10,1,10,0,0,0,0,0.669174,0.191477,low
-saka1289,Wanohe,Austronesian,Papunesia,8,12,-15.0757,167.051,1,5,1,5,1,5,1,5,1,5,1.182715,0.470139,low
-sana1295,Sanaani Arabic,Afro-Asiatic,Eurasia,7,8,15.6552,44.8412,8,56,1,56,1,49,1,56,1,49,1.014926,0.344125,low
-sand1273,Sandawe,Sandawe,Africa,7,8,-5.26918,35.4808,1,23,1,23,1,23,1,23,1,23,1.386195,0.511057,glottolog_5.3
-sanj1284,Western Tlacolula Valley Zapotec,Otomanguean,North America,5,11,17.0332,-96.5967,1,12,1,12,1,12,1,12,1,12,0.747987,0.229214,low
-sanm1289,San Martín Quechua,Quechuan,South America,9,11,-6.9582,-76.6608,1,10,1,10,0,0,1,10,0,0,0.401846,0.110531,low
-sant1436,Santa María Zacatepec Mixtec,Otomanguean,North America,7,11,16.7003,-97.9484,1,12,1,12,1,12,1,12,1,12,0.769147,0.240493,low
-sapo1253,Saposa,Austronesian,Papunesia,6,12,-5.64103,154.732,1,10,1,10,1,10,1,10,1,10,0.930363,0.318244,low
-savo1255,Savosavo,Savosavo,Papunesia,7,11,-9.12853,159.814,1,7,1,7,1,7,1,7,1,7,1.21406,0.471678,glottolog_5.3
-selk1253,Selkup,Uralic,Eurasia,8,12,59.9409,82.3004,3,24,1,24,1,24,1,24,1,24,0.863281,0.319396,low
-shee1238,She,Hmong-Mien,Eurasia,0,10,23.0399,114.814,1,9,1,9,0,0,1,9,0,0,0.668212,0.375129,low
-shor1247,Mrassu Shor-Tutal,Turkic,Eurasia,9,12,53.70953,87.84468,2,12,1,12,0,0,1,12,0,0,1.446496,0.535835,low
-sich1238,Sichuan Yi,Sino-Tibetan,Eurasia,4,11,28.1947,102.121,1,10,1,10,0,0,1,10,0,0,0.912187,0.377341,low
-sici1248,Sicilian,Indo-European,Eurasia,8,12,37.5735,14.0414,2,11,1,11,1,11,1,11,1,11,1.280742,0.589636,low
-siee1239,Sie,Austronesian,Papunesia,9,11,-18.8181,169.166,1,2,1,2,1,2,1,2,1,2,1.290211,0.584323,low
-soma1255,Somali,Afro-Asiatic,Africa,8,8,4.778704,45.152856,1,13,1,13,1,13,1,13,1,13,1.044422,0.500163,low
-sout1528,Serbian-Croatian-Bosnian,Indo-European,Eurasia,9,12,44.15,18.81,1,10,1,10,1,10,1,10,1,10,0.968929,0.355657,low
-sout2649,Southern Pashto,Indo-European,Eurasia,10,12,31.5,65.7,1,24,1,24,1,24,1,24,1,24,1.270171,0.52123,low
-sout2807,Southern Sotho,Atlantic-Congo,Africa,11,12,-28.78,27.89,1,1,1,1,1,1,1,1,1,1,0.708795,0.252035,low
-sout2856,Nafsan,Austronesian,Papunesia,4,12,-17.7006,168.377,1,6,1,6,1,6,1,6,1,6,1.28585,0.520173,low
-sout2996,Southern Aymara,Aymaran,South America,10,12,-17.1417,-70.3442,1,5,1,5,1,5,1,5,1,5,0.273335,0.061353,low
-stan1289,Catalan,Indo-European,Eurasia,8,12,41.453,1.569,2,10,1,10,1,10,1,10,1,10,0.956966,0.408925,low
-stan1290,French,Indo-European,Eurasia,10,12,48.0,2.0,5,63,1,63,1,63,1,63,1,63,0.868401,0.340128,low
-stan1293,English,Indo-European,Africa;Eurasia;South America,7,12,53.0,-1.0,2,10,1,10,1,10,1,10,1,10,0.784883,0.290291,low
-tahi1242,Tahitian,Austronesian,Papunesia,2,12,-17.6485,-149.45,1,4,1,4,1,4,1,4,1,4,0.837677,0.303128,low
-tanz1241,Tanzanian Ngoni,Atlantic-Congo,Africa,10,12,-11.779,35.459,1,4,1,4,1,4,1,4,1,4,0.356903,0.08215,low
-tata1255,Tatar,Turkic,Eurasia,8,12,55.79592,49.11577,2,22,1,22,1,22,1,22,1,22,1.383759,0.422855,low
-telu1262,Telugu,Dravidian,Eurasia,10,11,16.4529,78.7024,1,16,1,16,1,16,1,16,1,16,0.774458,0.247281,low
-teop1238,Teop,Austronesian,Papunesia,4,11,-5.67474,154.971,1,9,1,9,1,9,1,9,1,9,0.703811,0.213038,low
-tere1279,Terena-Kinikinao-Chane,Arawakan,South America,7,12,-20.6614,-56.0329,1,1,1,1,1,1,1,1,1,1,0.424544,0.133002,low
-ticu1245,Ticuna,Ticuna-Yuri,South America,9,11,-3.66289,-69.8723,1,1,1,1,1,1,1,1,1,1,0.320091,0.094788,low
-tiga1245,Tigak,Austronesian,Papunesia,3,12,-2.70951,150.893,1,9,1,9,1,9,1,9,1,9,1.260628,0.544768,low
-tiko1237,Tikopia,Austronesian,Papunesia,5,11,-12.2766,168.822,1,6,1,6,1,6,1,6,1,6,0.612439,0.248188,low
-timu1262,Timugon Murut,Austronesian,Papunesia,5,12,5.1796,115.826,1,10,1,10,1,10,1,10,1,10,0.536719,0.15172,low
-tong1325,Tonga (Tonga Islands),Austronesian,Papunesia,1,12,-21.17,-175.25,1,10,1,10,1,10,1,10,1,10,0.702158,0.269776,low
-tswa1253,Tswana,Atlantic-Congo,Africa,9,12,-24.368,24.7587,2,7,1,7,1,7,1,7,1,7,0.677146,0.271227,low
-turk1304,Turkmen,Turkic,Eurasia,9,12,37.08719,59.17574,1,7,1,7,1,7,1,7,1,7,1.896637,0.67353,low
-tutu1241,Tutuba,Austronesian,Papunesia,5,12,-15.580667,167.268889,1,5,1,5,1,5,1,5,1,5,1.318003,0.584966,low
-tuvi1240,Tuvinian,Turkic,Eurasia,9,11,51.7,94.36667,3,24,1,24,1,24,1,24,1,24,1.436769,0.569118,low
-ukra1253,Ukrainian,Indo-European,Eurasia,8,10,49.796,29.945,5,20,1,20,1,20,1,20,1,20,0.763217,0.232576,low
-ulch1241,Ulch,Tungusic,Eurasia,9,12,51.85209,140.29045,1,32,1,32,0,0,1,32,0,0,1.005053,0.412937,low
-veps1250,Veps,Uralic,Eurasia,9,12,60.3353,34.7865,1,10,1,10,0,0,1,10,0,0,0.63125,0.18514,low
-viet1252,Vietnamese,Austroasiatic,Eurasia,0,11,20.681188,105.774071,3,18,1,18,1,18,1,18,1,18,0.800886,0.362856,low
-wayu1243,Wayuu,Arawakan,South America,6,8,11.395566,-72.199791,1,1,1,1,1,1,1,1,1,1,0.405715,0.127178,low
-west2369,Western Farsi,Indo-European,Eurasia,8,11,32.9,53.3,3,35,1,35,1,35,1,35,1,35,1.327131,0.449596,low
-xava1240,Xavánte,Nuclear-Macro-Je,South America,3,11,-14.3017,-52.4367,1,9,1,9,1,9,1,9,1,9,0.464095,0.180757,low
-yaka1272,Yaka (Central African Republic),Atlantic-Congo,Africa,7,9,3.6515,17.2713,1,23,1,23,1,23,1,23,1,23,0.617371,0.257792,low
-yaku1245,Sakha,Turkic,Eurasia,7,12,61.69744,133.98031,1,25,1,25,1,25,1,25,1,25,1.260306,0.527948,low
-yaoo1241,Yao,Atlantic-Congo,Africa,8,10,-13.6119,35.2387,1,9,1,9,1,9,1,9,1,9,0.357027,0.081803,low
-yaqu1251,Yaqui,Uto-Aztecan,North America,9,12,29.9446,-110.681,1,8,1,8,1,8,1,8,1,8,1.278471,0.422973,low
-yuca1254,Yucatec Maya,Mayan,North America,8,12,18.7757,-88.9567,1,21,1,21,1,21,1,21,1,21,0.932353,0.255486,low
+glottocode,name,family,macroarea,n_present,n_coded,flex_present,flex_coded,flex26_present,flex26_coded,irreg13_present,irreg13_coded,lat,lon,n_populations,n_individuals,in_main,n_individuals_main,in_no_doubtful_language,n_individuals_no_doubtful_language,in_no_other_language_stand_ins,n_individuals_no_other_language_stand_ins,in_strict,n_individuals_strict,ent,nonmax,tree_source
+abkh1244,Abkhaz,Abkhaz-Adyge,Eurasia,11,12,8,30,7,26,3,13,43.056218,41.159115,1,9,1,9,1,9,1,9,1,9,0.928878,0.340747,low
+afar1241,Afar,Afro-Asiatic,Africa,8,12,5,27,5,23,3,10,12.2281,41.8083,1,5,1,5,1,5,1,5,1,5,1.207579,0.499335,low
+aghe1239,Aghem,Atlantic-Congo,Africa,6,12,9,30,6,26,3,13,6.38956,10.0807,1,28,1,28,1,28,1,28,1,28,0.116365,0.025689,low
+akei1237,Akei,Austronesian,Papunesia,3,8,3,21,3,17,1,6,-15.6377,166.767,1,2,1,2,1,2,1,2,1,2,1.252448,0.516145,low
+aleu1260,Aleut,Eskimo-Aleut,North America,10,12,4,30,4,26,2,13,52.1228,-174.29,2,10,1,10,1,10,1,10,1,10,1.461141,0.521726,low
+amha1245,Amharic,Afro-Asiatic,Africa,8,8,9,19,6,16,2,5,11.708182,39.543456,1,7,1,7,0,0,1,7,0,0,1.183599,0.496265,low
+amis1246,Amis,Austronesian,Papunesia,3,10,1,24,1,20,1,10,23.0917,121.348,1,10,1,10,1,10,1,10,1,10,0.432734,0.137351,low
+anei1239,Aneityum,Austronesian,Papunesia,5,12,3,28,3,24,1,11,-20.1864,169.825,1,6,1,6,1,6,1,6,1,6,1.39891,0.605736,low
+apma1240,Apma,Austronesian,Papunesia,4,12,2,30,2,26,1,13,-15.8559,168.189,2,10,1,10,1,10,1,10,1,10,1.216665,0.479771,low
+atay1247,Atayal,Austronesian,Papunesia,3,10,0,12,0,10,0,2,24.5209,121.388,1,10,1,10,1,10,1,10,1,10,0.300422,0.098376,low
+bafu1246,Bafut,Atlantic-Congo,Africa,5,12,7,30,3,26,2,13,6.14153,10.1194,1,11,1,11,1,11,1,11,1,11,0.160884,0.035656,low
+bash1264,Bashkir,Turkic,Eurasia,8,12,1,19,1,15,0,3,53.59671,56.55937,8,53,1,53,1,53,1,53,1,53,1.610914,0.558798,low
+basq1248,Basque,Basque,Eurasia,4,12,4,30,4,26,3,13,43.2787,-1.31622,3,36,1,36,1,36,1,36,1,36,0.65448,0.330289,glottolog_5.3
+bela1254,Belarusian,Indo-European,Eurasia,8,12,15,28,12,24,6,12,53.2307,25.6038,1,10,1,10,1,10,1,10,1,10,0.67787,0.195681,low
+brah1256,Brahui,Dravidian,Eurasia,7,10,4,27,4,23,4,11,29.04,66.56,1,23,1,23,1,23,1,23,1,23,1.13405,0.429592,low
+bund1253,Bundeli,Indo-European,Eurasia,7,11,7,29,4,25,1,12,24.8982,78.9542,1,13,1,13,1,13,1,13,1,13,0.887684,0.327107,low
+buru1296,Burushaski,Burushaski,Eurasia,10,10,16,24,13,20,7,10,36.2161,74.8236,1,24,1,24,1,24,1,24,1,24,1.443242,0.571746,glottolog_5.3
+cabe1245,Cabécar,Chibchan,North America,8,11,4,21,4,17,3,8,9.67031,-83.4102,1,4,1,4,1,4,1,4,1,4,0.388454,0.115114,low
+camp1261,Campidanese Sardinian,Indo-European,Eurasia,8,12,13,29,10,25,6,13,39.0566,9.03935,1,28,1,28,1,28,1,28,1,28,0.756921,0.351018,low
+cams1241,Camsá,Camsá,South America,6,10,4,24,4,20,0,8,1.14537,-76.8931,1,4,1,4,1,4,1,4,1,4,0.590049,0.15645,glottolog_5.3
+cent1989,Central Khmer,Austroasiatic,Eurasia,0,11,0,30,0,26,0,13,12.0515,105.015,1,10,1,10,1,10,1,10,1,10,1.111635,0.407931,low
+cent2058,Central Maewo,Austronesian,Papunesia,1,9,1,14,1,11,0,2,-15.0784,168.135,1,10,1,10,1,10,1,10,1,10,1.315059,0.527873,low
+cent2322,Central Mansi,Uralic,Eurasia,6,12,0,29,0,25,0,13,61.1432,62.4023,1,9,1,9,0,0,0,0,0,0,1.316975,0.562113,glottolog_5.3
+chal1275,Chaldean Neo-Aramaic,Afro-Asiatic,Eurasia,10,11,13,30,9,26,6,13,37.0972,43.5027,2,16,1,16,1,16,0,0,0,0,1.049928,0.460355,low
+chec1245,Chechen,Nakh-Daghestanian,Eurasia,9,10,10,27,8,23,7,11,43.5,45.5,1,9,1,9,1,9,1,9,1,9,1.174482,0.429289,low
+chip1261,Chipewyan,Athabaskan-Eyak-Tlingit,North America,8,12,6,28,6,24,2,11,58.98,-104.44,1,26,1,26,1,26,1,26,1,26,0.551726,0.231371,low
+chuk1273,Chukchi,Chukotko-Kamchatkan,Eurasia,9,12,4,30,4,26,2,13,68.6436,170.045,2,25,1,25,1,25,1,25,1,25,0.40826,0.127515,low
+chuv1255,Chuvash,Turkic,Eurasia,8,12,1,30,1,26,1,13,55.48701,47.16298,2,16,1,16,1,16,1,16,1,16,1.293055,0.405401,low
+coca1259,Cocama-Cocamilla,Tupian,South America,9,12,4,30,4,26,2,13,-4.5,-74.0,1,7,1,7,0,0,1,7,0,0,0.535129,0.150775,low
+cofa1242,Cofán,Cofán,South America,9,12,2,23,2,19,0,6,0.276675,-77.0643,1,4,1,4,1,4,1,4,1,4,0.595051,0.169969,glottolog_5.3
+cusc1236,Cusco Quechua,Quechuan,South America,11,12,2,29,2,25,0,12,-14.0853,-71.7663,4,22,1,22,1,22,1,15,1,15,0.469224,0.124034,low
+cypr1248,Cypriot Arabic,Afro-Asiatic,Eurasia,7,9,8,23,5,19,2,10,35.1674,33.0943,1,8,1,8,0,0,1,8,0,0,1.143417,0.564704,low
+czec1258,Czech,Indo-European,Eurasia,10,12,14,30,11,26,6,13,49.873398,15.10437,1,10,1,10,1,10,1,10,1,10,0.803076,0.267614,low
+darg1241,North-Central Dargwa,Nakh-Daghestanian,Eurasia,9,9,7,26,6,22,2,9,42.4257,47.4388,2,16,1,16,1,8,1,16,1,8,1.018411,0.401636,low
+daur1238,Dagur,Mongolic-Khitan,Eurasia,6,9,0,25,0,21,0,8,48.0,124.0,1,9,1,9,1,9,1,9,1,9,1.126177,0.420774,low
+east2443,East Ambae,Austronesian,Papunesia,5,12,1,28,1,24,0,13,-15.3523,167.89,1,5,1,5,1,5,1,5,1,5,1.366275,0.542354,low
+east2690,Eastern Egyptian Bedawi Arabic,Afro-Asiatic,Africa;Eurasia,4,9,5,24,5,22,3,10,29.6742,33.6113,2,44,1,44,1,44,1,44,1,44,1.035027,0.390696,low
+egyp1253,Egyptian Arabic,Afro-Asiatic,Africa;Eurasia,8,10,8,26,5,22,2,11,31.0,31.0,3,22,1,22,1,15,1,22,1,15,1.397107,0.549035,low
+emae1237,Emae,Austronesian,Papunesia,4,11,0,30,0,26,0,13,-17.052,168.399,1,8,1,8,1,8,1,8,1,8,1.346188,0.53955,low
+erzy1239,Erzya,Uralic,Eurasia,7,12,3,30,3,26,2,13,52.8548,45.3901,2,22,1,22,1,22,1,22,1,22,0.918233,0.25465,low
+esto1258,Estonian,Uralic,Eurasia,6,12,2,30,2,26,1,13,58.55,25.82,1,10,1,10,1,10,1,10,1,10,0.480056,0.136223,low
+even1259,Evenki,Tungusic,Eurasia,8,10,2,27,2,23,0,11,61.972,94.689,2,16,1,16,1,16,1,16,1,16,1.083781,0.41889,low
+even1260,Even,Tungusic,Eurasia,8,9,3,20,3,16,1,6,70.6687,130.914,1,9,1,9,0,0,1,9,0,0,1.281732,0.511771,low
+fefe1239,Fe'fe',Atlantic-Congo,Africa,7,11,4,25,3,21,2,10,5.18158,10.1442,1,2,1,2,1,2,0,0,0,0,0.162981,0.036646,low
+finn1318,Finnish,Uralic,Eurasia,8,12,2,30,2,26,1,13,64.7628,25.5577,1,8,1,8,1,8,1,8,1,8,0.687637,0.197587,low
+fore1265,Forest Enets,Uralic,Eurasia,7,11,3,30,3,26,1,13,68.6,86.5,1,3,1,3,0,0,0,0,0,0,1.078699,0.363998,low
+futu1245,Futuna-Aniwa,Austronesian,Papunesia,5,12,3,30,3,26,1,13,-19.5303,170.215,1,3,1,3,1,3,1,3,1,3,1.471668,0.617,low
+gaga1249,Gagauz,Turkic,Eurasia,8,12,1,30,1,26,0,13,44.59876,28.02769,1,9,1,9,1,9,1,9,1,9,1.237229,0.516363,low
+gali1258,Galician,Indo-European,Eurasia,8,12,15,30,12,26,7,13,42.2446,-7.5343,1,5,1,5,1,5,1,5,1,5,1.037951,0.434532,low
+gela1263,Gela,Austronesian,Papunesia,3,12,1,30,1,26,0,13,-9.04587,160.186,1,6,1,6,1,6,1,6,1,6,1.193164,0.473258,low
+ghan1242,Ghanongga,Austronesian,Papunesia,4,11,2,27,2,23,1,12,-8.02035,156.552,1,6,1,6,1,6,1,6,1,6,0.5635,0.22494,low
+gheg1238,Gheg Albanian,Indo-European,Eurasia,10,12,14,30,11,26,8,13,42.317,21.3837,1,6,1,6,1,6,1,6,1,6,1.15861,0.536294,low
+gily1242,Amur Nivkh,Nivkh,Eurasia,9,12,2,29,2,25,1,12,52.59,140.681,1,8,1,8,0,0,1,8,0,0,0.836671,0.327506,low
+gulf1241,Gulf Arabic,Afro-Asiatic,Eurasia,7,9,9,27,6,23,2,11,30.17,47.5,1,10,1,10,0,0,0,0,0,0,1.073379,0.406294,low
+hadz1240,Hadza,Hadza,Africa,5,12,8,30,5,26,2,13,-3.83115,35.0458,2,25,1,25,1,25,1,25,1,25,0.43985,0.162418,glottolog_5.3
+hakk1236,Hakka Chinese,Sino-Tibetan,Eurasia,4,11,2,23,2,19,0,6,25.0,116.0,1,8,1,8,1,8,1,8,1,8,0.706495,0.383161,low
+halh1238,Halh Mongolian,Mongolic-Khitan,Eurasia,8,12,1,30,1,26,1,13,48.32397,106.28874,4,34,1,34,1,34,1,34,1,34,1.468405,0.513569,low
+hali1244,Halia,Austronesian,Papunesia,7,12,6,28,3,24,2,13,-5.26603,154.662,1,5,1,5,0,0,1,5,0,0,0.973872,0.336408,low
+hano1246,Hano,Austronesian,Papunesia,3,12,2,30,2,26,0,13,-15.5432,168.167,1,3,1,3,1,3,1,3,1,3,1.144855,0.468048,low
+hass1238,Hassaniyya,Afro-Asiatic,Africa,7,9,11,27,8,23,4,11,18.29,-14.11,1,9,1,9,1,9,1,9,1,9,1.153654,0.482655,low
+here1253,Herero,Atlantic-Congo,Africa,10,12,9,30,6,26,3,13,-21.0231,20.5655,2,7,1,7,1,7,1,7,1,7,0.428936,0.105521,low
+hoaa1235,Amkoe,Kxa,Africa,3,12,5,30,5,26,3,13,-23.93447,24.69828,1,6,1,6,0,0,1,6,0,0,0.480918,0.188299,low
+huaa1248,East Taa,Tuu,Africa,5,12,9,26,6,22,3,12,-24.20022,20.79583,3,34,1,34,1,34,1,8,1,8,0.3073,0.112152,low
+hung1274,Hungarian,Uralic,Eurasia,9,12,3,28,3,24,1,11,46.906859,19.655527,2,20,1,20,1,20,1,20,1,20,0.929893,0.322326,low
+icel1247,Icelandic,Indo-European,Eurasia,9,12,8,29,4,25,1,12,63.4837,-19.0212,1,12,1,12,1,12,1,12,1,12,0.698059,0.233205,low
+ingu1240,Ingush,Nakh-Daghestanian,Eurasia,10,10,12,27,10,23,7,11,43.11,45.03,1,10,1,10,1,10,1,10,1,10,1.213533,0.437467,low
+iris1253,Irish,Indo-European,Eurasia,11,12,14,29,11,25,8,13,53.2186,-7.61509,5,30,1,30,1,30,1,30,1,30,0.748956,0.262591,low
+iron1242,Iron Ossetian,Indo-European,Eurasia,8,12,3,23,3,19,2,8,42.98,44.61,2,16,1,16,1,16,1,16,1,16,1.240712,0.439891,low
+ital1282,Italian,Indo-European,Eurasia,8,12,16,30,13,26,8,13,43.0464,12.6489,4,25,1,25,1,25,1,21,1,21,1.096627,0.50351,low
+kaba1278,Kabardian,Abkhaz-Adyge,Eurasia,10,12,2,24,2,20,1,7,43.5082,43.3918,2,19,1,19,1,19,1,19,1,19,1.299935,0.471064,low
+kalm1243,Oirad-Kalmyk-Darkhat,Mongolic-Khitan,Eurasia,7,12,2,23,2,19,1,7,46.566667,45.316667,1,10,1,10,1,10,1,10,1,10,1.528527,0.526281,low
+kank1243,Kankanaey,Austronesian,Papunesia,5,11,0,26,0,22,0,10,16.8548,120.689,1,10,1,10,1,10,1,10,1,10,0.361376,0.113426,low
+kaqc1270,Kaqchikel,Mayan,North America,9,12,2,28,2,24,1,13,14.4662,-90.9881,1,5,1,5,1,5,1,5,1,5,0.570731,0.160803,low
+kare1335,Karelian,Uralic,Eurasia,8,12,2,30,2,26,1,13,65.1691,30.8655,2,15,1,15,1,15,1,15,1,15,0.610791,0.176368,low
+kari1311,Karitiâna,Tupian,South America,8,12,1,26,1,22,1,9,-9.37937,-64.1522,2,17,1,17,1,17,1,17,1,17,0.009707,0.00177,low
+kett1243,Ket,Yeniseian,Eurasia,8,11,12,27,11,23,8,10,63.7551,87.5466,2,19,1,19,1,19,1,19,1,19,0.746127,0.263827,low
+kgal1244,Kgalagadi,Atlantic-Congo,Africa,9,11,8,28,5,24,2,12,-24.9208,22.72016,1,5,1,5,1,5,1,5,1,5,0.729771,0.391544,low
+khak1248,Khakas,Turkic,Eurasia,9,12,1,25,1,21,0,8,52.66002,89.67409,4,23,1,23,1,23,1,23,1,23,1.637093,0.625066,low
+khar1287,Kharia,Austroasiatic,Eurasia,5,10,1,29,1,25,0,13,22.3571,84.3922,1,12,1,12,1,12,1,12,1,12,0.997303,0.350268,low
+kiku1240,Kikuyu,Atlantic-Congo,Africa,8,11,6,23,3,19,1,6,-0.29005,36.719,1,4,1,4,1,4,1,4,1,4,1.068086,0.415218,low
+kore1280,Korean,Koreanic,Eurasia,8,12,3,24,3,20,1,7,37.54,126.98,1,6,1,6,1,6,1,6,1,6,0.778758,0.341408,low
+kove1237,Kove,Austronesian,Papunesia,5,12,2,27,2,23,0,13,-5.58623,149.63,2,17,1,17,1,17,1,17,1,17,1.316723,0.630383,low
+kuan1248,Kuanua,Austronesian,Papunesia,4,12,1,30,1,26,0,13,-4.30986,152.114,4,23,1,23,1,23,1,23,1,23,1.18469,0.520513,low
+kuot1243,Kuot,Kuot,Papunesia,6,12,8,25,6,21,4,9,-3.06952,151.537,2,18,1,18,1,18,1,18,1,18,1.113702,0.529628,glottolog_5.3
+kusu1250,Kusunda,Kusunda,Eurasia,7,11,1,28,1,24,1,13,28.33,82.6,1,5,1,5,0,0,1,5,0,0,1.4537,0.5589,glottolog_5.3
+kxoe1243,Kxoe,Khoe-Kwadi,Africa,8,12,6,30,4,26,0,13,-16.59051,22.599835,1,10,1,10,1,10,1,10,1,10,1.110348,0.497352,low
+lahu1253,Lahu,Sino-Tibetan,Eurasia,2,12,3,30,3,26,1,13,21.2701,100.214,1,8,1,8,1,8,1,8,1,8,0.853672,0.386416,low
+lakk1252,Lak,Nakh-Daghestanian,Eurasia,10,10,6,25,4,21,2,9,42.1328,47.0809,1,10,1,10,1,10,1,10,1,10,1.056529,0.408837,low
+lavu1241,Lavukaleve,Lavukaleve,Papunesia,9,12,14,30,10,26,4,13,-9.05569,159.119,1,4,1,4,1,4,1,4,1,4,1.030859,0.36085,glottolog_5.3
+lazz1240,Laz,Kartvelian,Eurasia,7,10,4,28,4,24,3,11,41.5004,41.9096,1,6,1,6,1,6,1,6,1,6,0.912252,0.366231,low
+lena1238,Lenakel,Austronesian,Papunesia,7,12,1,30,1,26,1,13,-19.4763,169.261,1,9,1,9,1,9,1,9,1,9,1.176062,0.488023,low
+lese1243,Lese,Central Sudanic,Africa,10,12,2,25,2,21,1,8,1.3,29.3,1,11,1,11,1,11,1,11,1,11,0.323335,0.159903,low
+lezg1247,Lezgian,Nakh-Daghestanian,Eurasia,8,12,6,30,6,26,6,13,41.5157,47.8951,1,10,1,10,1,10,1,10,1,10,1.156176,0.420143,low
+liby1240,Libyan Arabic,Afro-Asiatic,Africa,8,10,10,28,7,24,3,11,22.0032,15.0014,1,5,1,5,1,5,1,5,1,5,1.358281,0.482747,low
+lith1251,Lithuanian,Indo-European,Eurasia,9,12,12,28,9,24,5,11,55.1429,23.9601,1,10,1,10,1,10,1,10,1,10,0.386551,0.116073,low
+loni1238,Loniu,Austronesian,Papunesia,4,12,4,28,4,24,1,12,-2.06124,147.35,1,2,1,2,1,2,1,2,1,2,1.19248,0.452102,low
+luok1236,Luo (Kenya and Tanzania),Nilotic,Africa,9,12,6,30,5,26,4,13,-0.93296,34.4896,1,8,1,8,1,8,1,8,1,8,0.642259,0.200134,low
+mada1285,Madak,Austronesian,Papunesia,9,12,3,30,3,26,1,13,-3.34342,151.967,1,10,1,10,1,10,1,10,1,10,1.164421,0.553352,low
+mala1464,Malayalam,Dravidian,Eurasia,8,12,6,30,6,26,3,13,9.59208,76.7651,1,5,1,5,0,0,1,5,0,0,1.36383,0.551194,low
+mala1479,Central Malay,Austronesian,Eurasia,1,10,2,25,2,21,0,9,1.85856,103.0,1,9,1,9,1,9,1,9,1,9,1.1981,0.367314,low
+malt1254,Maltese,Afro-Asiatic,Eurasia,9,10,11,28,8,24,3,11,35.8884,14.4508,1,8,1,8,1,8,1,8,1,8,1.33405,0.601223,low
+mama1275,Minamanwa,Austronesian,Papunesia,4,11,2,22,2,18,1,10,9.44744,125.548,2,18,1,18,1,18,1,18,1,18,1.151454,0.323481,low
+mand1415,Mandarin Chinese,Sino-Tibetan,Eurasia,1,12,4,30,4,26,0,13,40.0209,116.228,3,53,1,53,1,53,1,53,1,53,0.729024,0.369895,low
+mand1436,Mandinka,Mande,Africa,2,9,2,26,2,22,0,9,12.816523,-15.653947,2,24,1,24,1,24,1,24,1,24,0.223213,0.048758,low
+mang1403,Mangseng,Austronesian,Papunesia,4,12,3,28,3,24,1,13,-5.89752,150.68,1,5,1,5,1,5,1,5,1,5,1.3775,0.557725,low
+mapu1245,Mapudungun,Araucanian,South America,6,12,3,29,3,25,0,13,-38.7392,-71.277,1,4,1,4,1,4,0,0,0,0,1.253576,0.420171,low
+masa1300,Masai,Nilotic,Africa,9,9,7,12,5,9,3,3,-3.1419,36.4573,2,12,1,12,1,12,1,12,1,12,1.14756,0.431561,low
+mbal1255,Central Wambo,Atlantic-Congo,Africa,9,10,7,16,3,12,0,1,-17.578884,16.027517,2,6,1,6,1,6,0,0,0,0,0.318878,0.077638,low
+mboc1235,Mbo (Cameroon),Atlantic-Congo,Africa,10,12,6,27,3,23,0,10,5.13981,9.92766,1,20,1,20,1,20,1,20,1,20,0.184359,0.041654,low
+mbya1239,Mbyá Guaraní,Tupian,South America,8,11,4,29,4,25,3,13,-26.0188,-52.711,3,21,1,21,1,5,1,21,1,5,0.57771,0.209504,low
+mele1250,Mele-Fila,Austronesian,Papunesia,7,11,0,10,0,7,0,3,-17.6841,168.275,2,10,1,10,1,10,1,10,1,10,1.232279,0.509994,low
+mend1266,Mende (Sierra Leone),Mande,Africa,4,8,1,17,1,13,1,4,7.90935,-10.9926,1,8,1,8,1,8,1,8,1,8,0.19224,0.039413,low
+minh1238,Mangghuer,Mongolic-Khitan,Eurasia,8,11,0,28,0,24,0,13,36.33736,102.80434,1,10,1,10,1,10,1,10,1,10,1.183777,0.402969,glottolog_5.3
+mlah1239,Mlahsô,Afro-Asiatic,Eurasia,9,10,5,25,3,22,1,13,37.0311,41.2209,1,8,1,8,0,0,0,0,0,0,1.340015,0.561853,low
+mode1248,Modern Greek,Indo-European,Eurasia,9,12,14,30,10,26,5,13,38.36,23.13,3,40,1,40,1,40,1,40,1,40,1.218087,0.579949,low
+moks1248,Moksha,Uralic,Eurasia,8,12,3,30,3,26,2,13,54.1855,42.6728,1,10,1,10,1,10,1,10,1,10,0.931794,0.259948,low
+motl1237,Mwotlap,Austronesian,Papunesia,6,12,4,30,4,26,2,13,-13.655015,167.706277,1,7,1,7,0,0,1,7,0,0,1.353174,0.566187,low
+naka1262,Nakanai,Austronesian,Papunesia,2,11,2,26,2,23,1,11,-5.59931,150.888,2,16,1,16,1,16,1,16,1,16,0.97202,0.367612,low
+nama1268,Namakura,Austronesian,Papunesia,6,10,2,5,2,4,2,2,-16.8979,168.569,2,9,1,9,1,9,1,9,1,9,1.260115,0.518374,low
+nana1257,Nanai,Tungusic,Eurasia,7,12,3,30,3,26,1,13,48.43426,134.79726,2,19,1,19,0,0,1,19,0,0,1.008485,0.402397,low
+natu1246,Natügu,Austronesian,Papunesia,6,8,4,20,4,16,2,6,-10.6771,165.835,1,8,1,8,1,8,1,8,1,8,1.2124,0.523146,low
+naxi1245,Naxi,Sino-Tibetan,Eurasia,0,12,2,18,2,14,0,6,27.5,100.0,1,8,1,8,1,8,1,8,1,8,0.897864,0.359435,low
+negi1245,Negidal,Tungusic,Eurasia,7,11,3,28,3,24,0,11,52.96584,139.20575,1,4,1,4,0,0,1,4,0,0,1.079746,0.470315,low
+ngan1291,Nganasan,Uralic,Eurasia,8,12,3,30,3,26,1,13,73.1354,86.2106,4,31,1,31,0,0,1,31,0,0,0.109701,0.027756,low
+nort2671,North Saami,Uralic,Eurasia,7,10,3,28,3,24,2,11,68.725,22.1113,1,3,1,3,1,3,1,3,1,3,0.903472,0.307972,low
+nort2690,Northern Uzbek,Turkic,Eurasia,9,12,1,30,1,26,0,13,40.886,69.211,3,27,1,27,1,27,1,27,1,27,1.90206,0.703095,low
+nort2697,North Azerbaijani,Turkic,Eurasia,8,12,1,30,1,26,0,13,40.97768,46.4737,3,18,1,18,1,18,1,18,1,18,1.360043,0.474792,low
+nort2732,Northern Tujia,Sino-Tibetan,Eurasia,1,12,3,29,3,25,0,12,29.3016,109.759,1,10,1,10,0,0,1,10,0,0,0.716199,0.388896,low
+nort2745,Northern Yukaghir,Yukaghir,Eurasia,9,12,5,29,5,25,2,12,70.498,157.853,1,19,1,19,0,0,1,19,0,0,1.037328,0.433386,low
+nort2836,North Efate,Austronesian,Papunesia,4,10,0,4,0,2,0,0,-17.5774,168.375,1,3,1,3,1,3,1,3,1,3,1.165581,0.464261,low
+nort2839,North Ambrym,Austronesian,Papunesia,2,11,1,25,1,21,0,12,-16.1741,168.14,1,6,1,6,0,0,1,6,0,0,1.193595,0.476177,low
+nort2961,Northwestern Ojibwa,Algic,North America,10,12,6,27,5,23,2,10,51.6192,-87.7862,1,16,1,16,1,16,1,16,1,16,1.405333,0.572773,low
+nort3139,Levantine Arabic,Afro-Asiatic,Eurasia,8,10,8,27,5,23,2,11,34.1709,36.0468,6,121,1,121,1,103,1,121,1,103,1.244341,0.552671,low
+nots1237,Notsi,Austronesian,Papunesia,6,10,1,23,1,19,1,9,-3.0557,151.661,1,9,1,9,1,9,1,9,1,9,1.164314,0.536429,low
+nucl1235,Eastern Armenian,Indo-European,Eurasia,10,12,5,29,5,25,3,13,40.0,45.0,2,14,1,14,1,14,1,14,1,14,1.047759,0.445459,low
+nucl1301,Turkish,Turkic,Eurasia,9,12,1,30,1,26,0,13,39.8667,32.8667,6,62,1,62,1,62,1,62,1,62,1.398403,0.55667,low
+nucl1302,Georgian,Kartvelian,Eurasia,7,12,11,30,11,26,10,13,41.850397,43.78613,3,27,1,27,1,18,1,27,1,18,0.94572,0.3836,low
+nucl1310,Burmese,Sino-Tibetan,Eurasia,8,12,5,30,4,26,1,13,20.7926,93.9665,1,10,1,10,1,10,1,10,1,10,1.364045,0.547189,low
+nucl1643,Japanese,Japonic,Eurasia,7,12,6,30,6,26,3,13,35.0,135.0,1,30,1,30,1,30,1,30,1,30,0.852219,0.348204,low
+olut1240,Oluta Popoluca,Mixe-Zoque,North America,7,11,6,30,6,26,2,13,17.8937,-94.8863,1,10,1,10,0,0,1,10,0,0,0.483415,0.178026,low
+onto1237,Luangiua,Austronesian,Papunesia,4,10,2,24,2,20,0,9,-5.49029,159.701,1,8,1,8,1,8,1,8,1,8,0.93216,0.346129,low
+paam1238,Paama,Austronesian,Papunesia,4,11,0,7,0,3,0,1,-16.47548,168.23693,1,7,1,7,1,7,1,7,1,7,1.158082,0.459499,low
+panj1256,Eastern Panjabi,Indo-European,Eurasia,9,12,10,30,9,26,5,13,30.0368,75.6702,1,8,1,8,1,8,1,8,1,8,1.008583,0.38401,low
+peri1253,Peripheral Mongolian,Mongolic-Khitan,Eurasia,5,9,0,23,0,19,0,11,42.4208,110.157,1,10,1,10,1,10,1,10,1,10,1.210335,0.434908,low
+pima1248,Pima Bajo,Uto-Aztecan,North America,7,12,2,28,2,24,2,11,28.654,-108.326,1,14,1,14,1,14,1,14,1,14,0.4468,0.166321,low
+plai1258,Plains Cree,Algic,North America,9,12,7,30,4,26,1,13,51.2437,-110.463,1,12,1,12,0,0,1,12,0,0,1.430943,0.556569,low
+poli1260,Polish,Indo-European,Eurasia,9,12,17,30,14,26,7,13,51.8439,18.6255,2,23,1,23,1,23,1,23,1,23,0.703951,0.221912,low
+renn1242,Rennell-Bellona,Austronesian,Papunesia,2,9,4,24,4,21,1,9,-11.6237,160.265,1,7,1,7,1,7,1,7,1,7,0.339415,0.184231,low
+russ1263,Russian,Indo-European,Eurasia,11,12,18,30,15,26,10,13,59.0,50.0,15,90,1,90,1,90,1,90,1,90,0.771448,0.217922,low
+russ1264,Russia Buriat,Mongolic-Khitan,Eurasia,10,12,1,28,1,24,0,12,50.85331,105.5637,5,39,1,39,1,39,1,39,1,39,1.38701,0.514983,low
+saaa1241,Sa,Austronesian,Papunesia,4,11,0,28,0,24,0,12,-15.9534,168.228,1,9,1,9,1,9,1,9,1,9,1.177345,0.457099,low
+saba1267,Sabah Bisaya,Austronesian,Papunesia,0,10,1,22,1,18,0,8,5.30433,115.512,1,10,1,10,1,10,0,0,0,0,0.669174,0.191477,low
+saka1289,Wanohe,Austronesian,Papunesia,8,12,2,30,2,26,0,13,-15.0757,167.051,1,5,1,5,1,5,1,5,1,5,1.182715,0.470139,low
+sana1295,Sanaani Arabic,Afro-Asiatic,Eurasia,7,8,8,27,5,23,2,10,15.6552,44.8412,8,56,1,56,1,49,1,56,1,49,1.014926,0.344125,low
+sand1273,Sandawe,Sandawe,Africa,7,8,5,11,2,8,0,0,-5.26918,35.4808,1,23,1,23,1,23,1,23,1,23,1.386195,0.511057,glottolog_5.3
+sanj1284,Western Tlacolula Valley Zapotec,Otomanguean,North America,5,11,2,23,2,19,1,7,17.0332,-96.5967,1,12,1,12,1,12,1,12,1,12,0.747987,0.229214,low
+sanm1289,San Martín Quechua,Quechuan,South America,9,11,3,29,3,25,1,12,-6.9582,-76.6608,1,10,1,10,0,0,1,10,0,0,0.401846,0.110531,low
+sant1436,Santa María Zacatepec Mixtec,Otomanguean,North America,7,11,9,24,9,20,6,9,16.7003,-97.9484,1,12,1,12,1,12,1,12,1,12,0.769147,0.240493,low
+sapo1253,Saposa,Austronesian,Papunesia,6,12,3,18,2,14,1,4,-5.64103,154.732,1,10,1,10,1,10,1,10,1,10,0.930363,0.318244,low
+savo1255,Savosavo,Savosavo,Papunesia,7,11,6,30,5,26,2,13,-9.12853,159.814,1,7,1,7,1,7,1,7,1,7,1.21406,0.471678,glottolog_5.3
+selk1253,Selkup,Uralic,Eurasia,8,12,2,30,2,26,1,13,59.9409,82.3004,3,24,1,24,1,24,1,24,1,24,0.863281,0.319396,low
+shee1238,She,Hmong-Mien,Eurasia,0,10,2,29,2,25,0,13,23.0399,114.814,1,9,1,9,0,0,1,9,0,0,0.668212,0.375129,low
+shor1247,Mrassu Shor-Tutal,Turkic,Eurasia,9,12,1,28,1,24,0,11,53.70953,87.84468,2,12,1,12,0,0,1,12,0,0,1.446496,0.535835,low
+sich1238,Sichuan Yi,Sino-Tibetan,Eurasia,4,11,7,29,6,25,1,12,28.1947,102.121,1,10,1,10,0,0,1,10,0,0,0.912187,0.377341,low
+sici1248,Sicilian,Indo-European,Eurasia,8,12,15,30,12,26,7,13,37.5735,14.0414,2,11,1,11,1,11,1,11,1,11,1.280742,0.589636,low
+siee1239,Sie,Austronesian,Papunesia,9,11,2,25,2,21,2,13,-18.8181,169.166,1,2,1,2,1,2,1,2,1,2,1.290211,0.584323,low
+soma1255,Somali,Afro-Asiatic,Africa,8,8,9,14,7,11,4,4,4.778704,45.152856,1,13,1,13,1,13,1,13,1,13,1.044422,0.500163,low
+sout1528,Serbian-Croatian-Bosnian,Indo-European,Eurasia,9,12,12,29,9,25,4,13,44.15,18.81,1,10,1,10,1,10,1,10,1,10,0.968929,0.355657,low
+sout2649,Southern Pashto,Indo-European,Eurasia,10,12,14,27,10,23,6,12,31.5,65.7,1,24,1,24,1,24,1,24,1,24,1.270171,0.52123,low
+sout2807,Southern Sotho,Atlantic-Congo,Africa,11,12,7,29,4,25,2,13,-28.78,27.89,1,1,1,1,1,1,1,1,1,1,0.708795,0.252035,low
+sout2856,Nafsan,Austronesian,Papunesia,4,12,5,30,5,26,4,13,-17.7006,168.377,1,6,1,6,1,6,1,6,1,6,1.28585,0.520173,low
+sout2996,Southern Aymara,Aymaran,South America,10,12,2,29,2,25,1,12,-17.1417,-70.3442,1,5,1,5,1,5,1,5,1,5,0.273335,0.061353,low
+stan1289,Catalan,Indo-European,Eurasia,8,12,14,30,10,26,5,13,41.453,1.569,2,10,1,10,1,10,1,10,1,10,0.956966,0.408925,low
+stan1290,French,Indo-European,Eurasia,10,12,12,30,8,26,4,13,48.0,2.0,5,63,1,63,1,63,1,63,1,63,0.868401,0.340128,low
+stan1293,English,Indo-European,Africa;Eurasia;South America,7,12,8,30,8,26,5,13,53.0,-1.0,2,10,1,10,1,10,1,10,1,10,0.784883,0.290291,low
+tahi1242,Tahitian,Austronesian,Papunesia,2,12,4,30,4,26,2,13,-17.6485,-149.45,1,4,1,4,1,4,1,4,1,4,0.837677,0.303128,low
+tanz1241,Tanzanian Ngoni,Atlantic-Congo,Africa,10,12,6,30,3,26,1,13,-11.779,35.459,1,4,1,4,1,4,1,4,1,4,0.356903,0.08215,low
+tata1255,Tatar,Turkic,Eurasia,8,12,1,30,1,26,0,13,55.79592,49.11577,2,22,1,22,1,22,1,22,1,22,1.383759,0.422855,low
+telu1262,Telugu,Dravidian,Eurasia,10,11,5,15,4,12,2,3,16.4529,78.7024,1,16,1,16,1,16,1,16,1,16,0.774458,0.247281,low
+teop1238,Teop,Austronesian,Papunesia,4,11,3,19,1,16,0,4,-5.67474,154.971,1,9,1,9,1,9,1,9,1,9,0.703811,0.213038,low
+tere1279,Terena-Kinikinao-Chane,Arawakan,South America,7,12,0,18,0,14,0,8,-20.6614,-56.0329,1,1,1,1,1,1,1,1,1,1,0.424544,0.133002,low
+ticu1245,Ticuna,Ticuna-Yuri,South America,9,11,5,24,3,20,1,10,-3.66289,-69.8723,1,1,1,1,1,1,1,1,1,1,0.320091,0.094788,low
+tiga1245,Tigak,Austronesian,Papunesia,3,12,1,28,1,24,0,12,-2.70951,150.893,1,9,1,9,1,9,1,9,1,9,1.260628,0.544768,low
+tiko1237,Tikopia,Austronesian,Papunesia,5,11,5,28,4,24,2,12,-12.2766,168.822,1,6,1,6,1,6,1,6,1,6,0.612439,0.248188,low
+timu1262,Timugon Murut,Austronesian,Papunesia,5,12,5,27,5,23,3,11,5.1796,115.826,1,10,1,10,1,10,1,10,1,10,0.536719,0.15172,low
+tong1325,Tonga (Tonga Islands),Austronesian,Papunesia,1,12,4,25,4,21,3,11,-21.17,-175.25,1,10,1,10,1,10,1,10,1,10,0.702158,0.269776,low
+tswa1253,Tswana,Atlantic-Congo,Africa,9,12,6,29,3,25,1,13,-24.368,24.7587,2,7,1,7,1,7,1,7,1,7,0.677146,0.271227,low
+turk1304,Turkmen,Turkic,Eurasia,9,12,1,30,1,26,0,13,37.08719,59.17574,1,7,1,7,1,7,1,7,1,7,1.896637,0.67353,low
+tutu1241,Tutuba,Austronesian,Papunesia,5,12,5,28,5,24,4,13,-15.580667,167.268889,1,5,1,5,1,5,1,5,1,5,1.318003,0.584966,low
+tuvi1240,Tuvinian,Turkic,Eurasia,9,11,1,28,1,24,0,11,51.7,94.36667,3,24,1,24,1,24,1,24,1,24,1.436769,0.569118,low
+ukra1253,Ukrainian,Indo-European,Eurasia,8,10,10,28,7,24,2,11,49.796,29.945,5,20,1,20,1,20,1,20,1,20,0.763217,0.232576,low
+ulch1241,Ulch,Tungusic,Eurasia,9,12,3,28,3,24,1,11,51.85209,140.29045,1,32,1,32,0,0,1,32,0,0,1.005053,0.412937,low
+veps1250,Veps,Uralic,Eurasia,9,12,2,30,2,26,1,13,60.3353,34.7865,1,10,1,10,0,0,1,10,0,0,0.63125,0.18514,low
+viet1252,Vietnamese,Austroasiatic,Eurasia,0,11,1,22,1,18,0,10,20.681188,105.774071,3,18,1,18,1,18,1,18,1,18,0.800886,0.362856,low
+wayu1243,Wayuu,Arawakan,South America,6,8,6,17,6,16,2,8,11.395566,-72.199791,1,1,1,1,1,1,1,1,1,1,0.405715,0.127178,low
+west2369,Western Farsi,Indo-European,Eurasia,8,11,5,29,5,25,4,13,32.9,53.3,3,35,1,35,1,35,1,35,1,35,1.327131,0.449596,low
+xava1240,Xavánte,Nuclear-Macro-Je,South America,3,11,7,25,7,21,5,9,-14.3017,-52.4367,1,9,1,9,1,9,1,9,1,9,0.464095,0.180757,low
+yaka1272,Yaka (Central African Republic),Atlantic-Congo,Africa,7,9,10,28,7,24,2,11,3.6515,17.2713,1,23,1,23,1,23,1,23,1,23,0.617371,0.257792,low
+yaku1245,Sakha,Turkic,Eurasia,7,12,1,30,1,26,0,13,61.69744,133.98031,1,25,1,25,1,25,1,25,1,25,1.260306,0.527948,low
+yaoo1241,Yao,Atlantic-Congo,Africa,8,10,6,25,3,21,2,10,-13.6119,35.2387,1,9,1,9,1,9,1,9,1,9,0.357027,0.081803,low
+yaqu1251,Yaqui,Uto-Aztecan,North America,9,12,3,27,3,23,2,12,29.9446,-110.681,1,8,1,8,1,8,1,8,1,8,1.278471,0.422973,low
+yuca1254,Yucatec Maya,Mayan,North America,8,12,3,28,3,24,2,12,18.7757,-88.9567,1,21,1,21,1,21,1,21,1,21,0.932353,0.255486,low
