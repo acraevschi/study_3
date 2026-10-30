@@ -301,15 +301,24 @@ def count_set(matrix: pd.DataFrame, features: Sequence[str], present_codes: Dict
 class Glottolog:
     languages: pd.DataFrame                      # indexed by ID
     classification: Dict[str, List[str]]          # ID -> ancestor glottocodes (top first)
+    aes: Dict[str, int] = field(default_factory=dict)   # ID -> agglomerated endangerment status 1-6
 
     @classmethod
     def from_frames(cls, languages: pd.DataFrame, values: Optional[pd.DataFrame]) -> "Glottolog":
         langs = languages.set_index("ID", drop=False)
         cls_map: Dict[str, List[str]] = {}
+        aes: Dict[str, int] = {}
         if values is not None:
             c = values[values["Parameter_ID"] == "classification"]
             cls_map = {k: [x for x in str(v).split("/") if x] for k, v in zip(c["Language_ID"], c["Value"])}
-        return cls(langs, cls_map)
+            a = values[values["Parameter_ID"] == "aes"]
+            aes = {k: int(v) for k, v in zip(a["Language_ID"], a["Value"]) if str(v).strip().isdigit()}
+        return cls(langs, cls_map, aes)
+
+    def endangerment(self, gc: str) -> Optional[int]:
+        """Glottolog AES: 1 not endangered, 2 threatened, 3 shifting, 4 moribund, 5 nearly
+        extinct, 6 extinct; None if Glottolog gives none."""
+        return self.aes.get(gc) if gc else None
 
     def level(self, gc: str) -> str:
         return self.languages["Level"].get(gc, "") if gc else ""

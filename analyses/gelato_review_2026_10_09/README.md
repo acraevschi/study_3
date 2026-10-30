@@ -1,5 +1,10 @@
 # GeLaTo link review sheets (2026-10-09)
 
+**Superseded on 2026-10-20.** Decisions now go into one sheet,
+`morph_ldl/data/gelato_link_review.csv` (`docs/TYPOLOGY.md` §2). Of the 29 group cases
+here, Graff et al.'s Grambank-side stand-in settles 24 by rule; the other 5 are in the new
+sheet.
+
 ## `unresolved_populations.csv`
 
 One row per GeLaTo population link that the typology stage (pcfp_v2) could not attach to a
@@ -39,3 +44,8 @@ Rows are sorted by issue, then by number of individuals.
 A filled row is used only after it is read back into the pipeline as a manual link (not
 wired yet). Re-running the script refuses to overwrite a sheet that has any `FILL_*` cell
 filled.
+
+**Update 2026-10-16.** Only the 29 `group_ambiguous` rows are reviewed (user decision). They
+are copied, unchanged, to `analyses/gelato_review_2026_10_16/group_populations_to_review.csv`;
+fill in that copy. The other 40 rows add nothing to the Grambank outcome and are not
+reviewed (see that folder's README).

@@ -180,8 +180,25 @@ every draw. Exposure seeds depend only on (unit, lemma).
 
 ## 9. GeLaTo match status
 
-`accepted` requires a complete review entry **and** a human `confirmed_by` +
-`confirmed_date`. Agent-written reviews yield `candidate` with `proposed_status`.
+A review entry in `morph_ldl/data/gelato_review.yaml` takes effect only when it has a
+`status` (`accepted`, `ambiguous` = under review, sensitivity analyses only, or `excluded`)
+and a human `confirmed_by` + `confirmed_date` (YYYY-MM-DD). Without the confirmation it is
+a proposal: the link keeps its automatic status and `proposed_status` shows the entry's
+status. Other review fields are optional. Both link tables carry `confirmed_by` and
+`confirmed_date`; the audit rejects any `accepted` link, and any link that is ambiguous or
+excluded by a review, without both.
+
+Changed 2026-10-16 (user decision): before, only `accepted` needed the confirmation, and it
+also needed four written review fields. A full four-part review for each of about 300
+links is too heavy.
+
+Changed 2026-10-20 (user decision), typology stage with `typology.link_rules`: exact
+links, dialect roll-ups, group map-downs and Graff et al.'s Grambank-side stand-ins (for
+populations without an own Grambank link) are `accepted` by rule (`accepted_by_rule`);
+they need no person, because a check of an exact link adds nothing. Human decisions come
+only from `morph_ldl/data/gelato_link_review.csv` (decision + `confirmed_by` +
+`confirmed_date`); `gelato_review.yaml` is an archive there, and the data-stage crosswalk
+still reads it. The audit accepts an unconfirmed `accepted` link only with a configured rule.
 
 ## 10. Provenance
 

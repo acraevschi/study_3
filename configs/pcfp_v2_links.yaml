@@ -1,0 +1,32 @@
+# pcfp_v2 with the GeLaTo link rules of 2026-10-20 (user decisions; docs/TYPOLOGY.md §2).
+# Only the typology block changes: links accepted by rule, one decision sheet, and the
+# sensitivity analyses of the link. pcfp_v2 and its outputs stay as they were.
+_inherit: pcfp_v2.yaml
+experiment: {id: pcfp_v2_links_2026_10_20}
+typology:
+  sources:
+    graff_mapping:                      # place and Graff comments for the decision sheet only;
+                                        # the stage does not read it
+      path: analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion/input/GeLaTo-population-glottocode-mapping.csv
+      origin: https://zenodo.org/records/15263706
+      version: zenodo:15263706
+  # The only source of human link decisions; gelato_review.yaml (review_file) is an archive.
+  # A confirmed YAML decision missing from the sheet stops the stage.
+  decision_sheet: morph_ldl/data/gelato_link_review.csv
+  link_rules:
+    # Accepted without a person: the population's own Glottocode is a language (exact),
+    # a dialect of it (dialect_rollup), or a group with exactly one Grambank language
+    # (group_map_down); and Graff et al.'s Grambank-side stand-in where the population has
+    # no own link to a Grambank language (graff_gbi_stand_in).
+    accept_by_rule: [exact, dialect_rollup, group_map_down, graff_gbi_stand_in]
+    # Flag `endangered`: the linked language's Glottolog AES is at least this (4 = moribund;
+    # 3 would add "shifting").
+    endangered_min_aes: 4
+  # Each sensitivity analysis drops the main-analysis links that carry any of these flags.
+  # Flags: endangered; stand_in_other_language (a Graff stand-in replaces the population's
+  # own language); stand_in_no_own_language; doubt labels from the sheet (diaspora, wrong_code,
+  # group_choice: a person chose one language of a group code, added 2026-10-20).
+  sensitivity_analyses:
+    no_doubtful_language: [endangered, diaspora, wrong_code, group_choice]
+    no_other_language_stand_ins: [stand_in_other_language]
+    strict: [endangered, diaspora, wrong_code, group_choice, stand_in_other_language]

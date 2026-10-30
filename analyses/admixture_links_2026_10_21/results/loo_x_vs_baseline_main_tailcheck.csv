@@ -1,0 +1,5 @@
+set,name,baseline,delta_elpd_x,se_delta
+main,main__sqrt_het_P_plain,main__base_P_het,0.159209737811864,2.02849276780553
+main,main__f3k_est_pos_P_plain,main__base_P_f3,1.82797925444464,3.80906122546319
+main,main__sqrt_het_F_plain,main__base_F_het,-0.0396040879067527,1.81844940702201
+main,main__f3k_est_pos_F_plain,main__base_F_f3,0.696012747923135,3.54242902701284

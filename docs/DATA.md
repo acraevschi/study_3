@@ -355,9 +355,13 @@ averaged.
 * No population: `unmatched`.
 * Extinct language: `excluded`.
 * `accepted` (and reviewed ambiguous/excluded) come **only** from
-  `morph_ldl/data/gelato_review.yaml`. An `accepted` entry must have variety, community,
-  locality and source-period reviews, plus evidence, reviewer note, reviewer and date.
-  Incomplete entries are ignored and reported.
+  `morph_ldl/data/gelato_review.yaml`. Since 2026-10-16 an entry takes effect when it has
+  a `status` (`accepted`, `ambiguous` or `excluded`) and a human `confirmed_by` +
+  `confirmed_date`; without them it is a proposal (`proposed_status`). Malformed entries
+  (another status, or only one confirmation field) are not applied and are reported. See
+  the integration decision of 2026-10-16 below. Until then an `accepted` entry needed
+  variety, community, locality and source-period reviews, evidence, reviewer note,
+  reviewer and date.
 
 Counts over 236 rows and 135 resources: candidate 114, ambiguous 53, unmatched 40,
 excluded 24, accepted 5. Of the living languages, 37 have at least one exact-Glottocode
@@ -382,6 +386,25 @@ exact matches.
   * `French_Northwest` (Pas-de-Calais, Picard area), `French_East` (Moselle,
     Lorraine-Franconian area), `French_South` (Lourdes, Gascon) and `French_West`
     (Finistère, Breton area) are **ambiguous**, on the same shift logic as Bergamo.
+
+The statuses above are those of the reviews before 2026-10-16. On 2026-10-16 the user
+confirmed all 12 entries as `accepted`. On 2026-10-20 the user reversed the two Sicilian
+entries (Sicilian is its own language in Grambank and GeLaTo; Italian is only Graff et
+al.'s WALS-side stand-in): they are now unconfirmed proposals to exclude.
+
+**Since 2026-10-20 the typology stage** takes its decisions from the decision sheet
+`morph_ldl/data/gelato_link_review.csv` and accepts exact links by rule (TYPOLOGY §2). The
+data-stage crosswalk (LDL units) still reads `gelato_review.yaml`; it is not changed yet.
+
+**Known errors in GeLaTo** (c625fdc, copied into Table S1 of Graff et al. 2025):
+
+* **Yukaghir codes swapped** (found 2026-10-16, checked 2026-10-20). `Yukagir_Forest`
+  (n=5, 65.5 N 151 E, Nelemnoye on the upper Kolyma) carries nort2745 Northern (Tundra)
+  Yukaghir; `Yukagir_Tundra` (n=19, 70.6 N 148 E) carries sout2750 Southern
+  (Forest/Kolyma) Yukaghir. The coordinates fit the labels, not the codes. Both rows say
+  "correct by Harald". The decision sheet proposes the two relinks; after them Northern
+  Yukaghir is represented by the 19 Tundra people, and Yukagir_Forest drops out
+  (Southern Yukaghir has no Grambank data).
 
 ## 11. Recommendation, unresolved issues and proposals
 
@@ -431,6 +454,19 @@ are the strongest; neither is reviewed.
   Finnish and French_Central, and for the two other proposed rows. The crosswalk counts
   are now: candidate 119, ambiguous 53, unmatched 40, excluded 24, accepted 0. Where the
   sections above say **accepted**, read "proposed accepted, pending confirmation".
+* **Review rule changed (2026-10-16, user decision).** A full four-part review for each of
+  about 300 links is too heavy. A review entry now needs only `status` (`accepted`,
+  `ambiguous` = under review, sensitivity analyses only, or `excluded`) and `confirmed_by`
+  + `confirmed_date`. The other fields are optional; `reviewer_note` becomes
+  `decision_reason`. The confirmation rule now covers every status, not only `accepted`.
+  So the agent-written entries for Bergamo, the four regional French samples and the four
+  excluded Italian stand-in (proxy) links are now proposals: those links keep their
+  automatic status (`candidate`, or `ambiguous` for the proxies) with `proposed_status`
+  set. Both stages apply the rule through one function (`gelato.review_outcome`). Both
+  link tables gain `confirmed_date`, and the audit checks every link set by a review. In
+  a rerun (`outputs/pcfp_v2_review_2026_10_16/`, `outputs/pcfp_v2` unchanged) these 9
+  links change status and nothing else changes. The crosswalk counts are candidate 124,
+  ambiguous 52, unmatched 40, excluded 20.
 * **Eligibility exclusions.** These are declared in `task.eligibility`, before any
   acquisition, and apply to every unit. Lemmas listed in
   `eligibility/<unit>_derived_paradigms.csv` are excluded: Italian pronominal and clitic

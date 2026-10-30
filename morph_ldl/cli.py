@@ -14,6 +14,9 @@ paradigm-cell-filling task (configs/pcfp_v1.yaml); pilot_v1 is preserved at comm
   typology   Grambank inflection-extent outcome for GeLaTo-linked languages (independent)
   audit      check written samples, selector rounds and queries against the manifests
   all        every stage above, in order
+
+  link_review  not a stage: regenerate the GeLaTo link decision sheet from the typology
+               outputs (keeps every decision; morph_ldl/typology/link_review.py)
 """
 
 from __future__ import annotations
@@ -30,7 +33,7 @@ STAGES = ["data", "splits", "ldl_tune", "select", "ldl", "evaluate", "outcomes",
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("stage", choices=STAGES + ["all"])
+    ap.add_argument("stage", choices=STAGES + ["all", "link_review"])
     ap.add_argument("--config", required=True)
     ap.add_argument("--units", nargs="*", help="restrict to these unit_ids")
     ap.add_argument("--folds", nargs="*", type=int, help="restrict to these outer folds")
@@ -49,6 +52,10 @@ def main(argv: list[str] | None = None) -> int:
         cur[parts[-1]] = json.loads(val)
     cfg = load_config(args.config, overrides)
 
+    if args.stage == "link_review":
+        from morph_ldl.typology import link_review
+        link_review.regenerate(cfg)
+        return 0
     from morph_ldl.cv import pipeline  # imported late: heavy deps
     sel = dict(units=args.units, folds=args.folds, policies=args.policies)
     stages = STAGES if args.stage == "all" else [args.stage]

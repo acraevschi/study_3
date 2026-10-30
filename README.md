@@ -2,14 +2,17 @@
 
 > **Work in progress.** Everything in this repository is preliminary: the pipeline, both
 > morphology outcomes, the reports and the analyses. None of the results is a finding.
-> * **Grambank outcome.** The GeLaTo population–language links are unconfirmed
->   candidates.
+> * **Grambank outcome.** Since 2026-10-20 exact and rule-based GeLaTo links are accepted
+>   by rule (`configs/pcfp_v2_links.yaml`), and all 33 doubtful cases are decided in
+>   `morph_ldl/data/gelato_link_review.csv` ([docs/TYPOLOGY.md](docs/TYPOLOGY.md) §13).
 > * **LDL outcome.** It is under revision: the 2026-10-09 ablation changed the model
 >   settings, and the absolute accuracy is still too low to treat the score as a measure
 >   of predictability.
-> * **Admixture model.** The only admixture–morphology model so far is an exploratory
->   draft (`analyses/draft_admixture_model_2026_10_10/`). The ancestry values have been
->   looked at, so later analyses are not blind to them.
+> * **Admixture model.** Exploratory admixture–Grambank models are in
+>   `analyses/draft_admixture_model_2026_10_10/` (175 languages) and
+>   `analyses/admixture_links_2026_10_21/` (202 languages, link sensitivity sets, $f_3$,
+>   `het`, and Grambank Flexivity outcomes). The ancestry values have been looked at, so
+>   later analyses are not blind to them.
 
 PhD Study 3: inflectional complexity and genetic admixture. The repository holds the
 current pipeline at its root. Earlier exploratory tracks (the MGN-accuracy Bayesian models
@@ -69,7 +72,8 @@ in separate tables.
 | [docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md) | pcfp_v1 results: LDL active selection vs random |
 | [docs/REPORT_pcfp_v2.md](docs/REPORT_pcfp_v2.md) | pcfp_v2 results: repeated random draws (current) |
 | [analyses/ldl_ablation_2026_10_09/README.md](analyses/ldl_ablation_2026_10_09/README.md) | LDL ablation (preliminary): the cell-specific meaning vector and the decoder setting raise PCFP accuracy from 0.16 to 0.38 on the tuning items |
-| [analyses/draft_admixture_model_2026_10_10/README.md](analyses/draft_admixture_model_2026_10_10/README.md) | exploratory draft admixture → Grambank model (not confirmatory) |
+| [analyses/draft_admixture_model_2026_10_10/README.md](analyses/draft_admixture_model_2026_10_10/README.md) | exploratory draft admixture → Grambank model (175 languages, not confirmatory) |
+| [analyses/admixture_links_2026_10_21/README.md](analyses/admixture_links_2026_10_21/README.md) | exploratory admixture → Grambank inflection & Flexivity models on the 2026-10-20 links (202 languages, sensitivity sets, $f_3$, `het`) |
 
 ## Setup
 
@@ -123,7 +127,9 @@ Tests: `.venv/bin/python -m pytest` runs all tests. Add `-m "not slow"` to skip 
   lemma-cluster bootstrap intervals, exposure metadata and the language-level `glottocode`.
 * The population link tables (`outcomes/population_links.csv`,
   `typology/grambank_population_links.csv`) carry match statuses, sample sizes and
-  identifiers, but no ancestry values.
+  identifiers, but no ancestry values. With `configs/pcfp_v2_links.yaml`,
+  `typology/analysis_links.csv` lists the links of the main analysis and of each link
+  sensitivity analysis (TYPOLOGY §2).
 
 ## Repository layout
 
@@ -139,7 +145,8 @@ study_3/
 │   ├── provenance.py                         <- Stage manifests (hashes, git state, versions)
 │   ├── data/                                 <- `data` stage: MGN adapters, cells, eligibility, registry
 │   │   ├── gelato.py                         <- GeLaTo population ↔ language crosswalk
-│   │   ├── gelato_review.yaml                <- Manual link reviews (acceptance needs confirmed_by + date)
+│   │   ├── gelato_review.yaml                <- Link reviews to 2026-10-16 (archive for the typology stage)
+│   │   ├── gelato_link_review.csv            <- GeLaTo link decision sheet (decision + confirmed_by + date)
 │   │   ├── resources/                        <- cells_to_unimorph.json (MGN cell label → UniMorph features)
 │   │   └── vendor/                           <- Modules taken over from earlier code (MGN↔ISO map, parsers)
 │   ├── cv/                                   <- `splits`, `select`, `evaluate`, `outcomes`, `audit` stages
@@ -151,7 +158,8 @@ study_3/
 │   ├── selection/                            <- Active-selection scores and acquisition loop
 │   └── typology/                             <- `typology` stage: Grambank inflection-extent outcome
 │       ├── grambank.py                       <- Feature-set parsing, 12-category OR merge
-│       ├── stage.py                          <- Glottocode mapping, coverage, links, audit
+│       ├── stage.py                          <- Glottocode mapping, link rules, coverage, links, audit
+│       ├── link_review.py                    <- Decision sheet: checks and merge-safe regeneration
 │       └── default_config.yaml               <- Declared feature set and mapping rules
 │
 ├── julia/                                    <- JudiLing runner (JudiLing pinned to 1.0.1)
@@ -161,6 +169,7 @@ study_3/
 │
 ├── configs/
 │   ├── pcfp_v2.yaml / pcfp_v2_smoke.yaml     <- Current experiment (repeated-random design)
+│   ├── pcfp_v2_links.yaml                    <- pcfp_v2 with the GeLaTo link rules of 2026-10-20
 │   ├── pcfp_v1.yaml / pcfp_smoke.yaml        <- core_selected design (active vs random selection)
 │   └── pilot.yaml / smoke.yaml               <- Archived pilot_v1
 │
@@ -178,7 +187,10 @@ study_3/
 │   ├── unimorph_gelato_estimate_2026_10_08/  <- How many UniMorph languages overlap GeLaTo
 │   ├── ldl_ablation_2026_10_09/              <- Why PCFP accuracy is low (preliminary)
 │   ├── gelato_review_2026_10_09/             <- Fill-in sheet for unresolved GeLaTo population links
-│   └── draft_admixture_model_2026_10_10/     <- Exploratory admixture → Grambank models (brms)
+│   ├── gelato_review_2026_10_16/             <- Link review sheets and source check (evidence)
+│   ├── gelato_review_2026_10_20/             <- First version of the link decision sheet
+│   ├── draft_admixture_model_2026_10_10/     <- Exploratory admixture → Grambank models (brms, 175 languages)
+│   └── admixture_links_2026_10_21/           <- Admixture → Grambank inflection & Flexivity on 2026-10-20 links
 │
 ├── tests/                                    <- pytest suite (fixtures in tests/fixtures/)
 │

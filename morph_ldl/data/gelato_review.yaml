@@ -1,9 +1,25 @@
 # Curated GeLaTo population <-> morphology-resource reviews (data stage).
 #
+# Since 2026-10-20 the typology stage (configs/pcfp_v2_links.yaml) takes its decisions from
+# morph_ldl/data/gelato_link_review.csv; these entries are copied there, and this file is an
+# archive for it (a confirmed entry missing from the sheet stops the stage). The data-stage
+# crosswalk still reads this file.
+#
 # Exact Glottocode matches are `candidate` by default. A row becomes `accepted` (or is
-# moved to ambiguous/excluded) ONLY through an entry here. `accepted` needs every field
-# in REQUIRED_REVIEW_FIELDS of morph_ldl/data/gelato.py; incomplete entries are ignored
-# and reported in `unresolved_issues`.
+# moved to ambiguous/excluded) ONLY through an entry here.
+#
+# Rule since 2026-10-16 (user decision; a full four-part review for each of about 300
+# links is too heavy). An entry takes effect when it has:
+#   status:          accepted | ambiguous (under review: sensitivity analyses only) | excluded
+#   confirmed_by:    the person who confirmed it
+#   confirmed_date:  YYYY-MM-DD
+# Without confirmed_by + confirmed_date the entry is a proposal only: the link keeps its
+# automatic status and `proposed_status` shows this status. An entry with another status,
+# or with only one of the two confirmation fields, is not applied (see unresolved_issues).
+# All other fields (variety_review, community_review, locality_review, source_period_review,
+# evidence, reviewer_note, reviewer, date, unresolved) are optional; reviewer_note becomes
+# the link's decision_reason. Until 2026-10-16, `accepted` needed all four review fields,
+# evidence, reviewer_note, reviewer and date, and only `accepted` needed a confirmation.
 #
 # Reviews use only population metadata (sample label, curation notes, coordinates,
 # source publication, curated Glottocodes) and knowledge about the varieties. No
@@ -50,12 +66,14 @@ reviews:
       - "speaker language not recorded per individual"
     reviewer: data-subagent (Claude), to be confirmed by the main agent / PI
     date: 2026-10-06
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
 
   - id: ita-bergamo
     glottocode: ital1282
     population: Bergamo
     resources: all
-    status: ambiguous
+    status: accepted
     evidence: >
       GeLaTo main panel HumanOrigins_AutosomalSNP-41 (n=13, PattersonGenetics2012, curation
       "checked by Chiara", coordinates 45.70 N 9.68 E = Bergamo); Table S1 assigns ital1282 in
@@ -69,29 +87,30 @@ reviews:
       the primary language-level link; usable only in a declared sensitivity analysis.
     unresolved:
       - "community variety Lombard vs Italian unresolved"
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
 
   - id: ita-italian-south
     glottocode: ital1282
     population: Italian_South
     resources: all
-    status: excluded
+    status: accepted
     evidence: >
       Table S1 only (n=3, Lazaridis 2016): GeLaTo_Glottocode napo1241 (Napoletano-Calabrese
       dialect level), GBI/TLI proxy ital1282; mapping location "Naples, Salerno, Crispiano".
-    reviewer_note: >
-      Base language is Neapolitan; ital1282 is only a typological-database proxy. Not a
-      sample of the Standard Italian speech community; n=3. Excluded from the Italian link.
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
 
   - id: ita-italian-calabria
     glottocode: ital1282
     population: Italian_Calabria
     resources: all
-    status: excluded
+    status: accepted
     evidence: >
       Table S1 only (n=1, Lazaridis 2014): GeLaTo_Glottocode neap1235 (Neapolitan), GBI/TLI
       proxy ital1282; mapping location Belvedere (Cosenza).
-    reviewer_note: >
-      Single individual; base language Neapolitan/Calabrian. Excluded from the Italian link.
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
 
   - id: ita-sicilian-east
     glottocode: ital1282
@@ -99,11 +118,13 @@ reviews:
     resources: all
     status: excluded
     evidence: >
-      Main panel + Table S1 (n=5): GeLaTo/GBI Glottocode sici1248 (Sicilian); only TLI proxies
+      Main panel + Table S1 (n=5): GeLaTo/GBI Glottocode sici1248 (Sicilian); TLI proxies
       ital1282.
     reviewer_note: >
-      Sicilian is a separate language-level unit; the TLI proxy is a database convenience.
-      Excluded from the Italian link (would belong to a Sicilian resource).
+      Sicilian is in Grambank and GeLaTo as its own language (sici1248); Graff et al. use
+      Italian only as the WALS-side (TLI) stand-in. User decision 2026-10-20 (chat): link
+      the Sicilian samples to Sicilian, not Italian (reverses the 2026-10-16 acceptance).
+      Takes effect once confirmed_by and confirmed_date are filled.
 
   - id: ita-sicilian-west
     glottocode: ital1282
@@ -111,10 +132,13 @@ reviews:
     resources: all
     status: excluded
     evidence: >
-      Main panel + Table S1 (n=6): GeLaTo/GBI Glottocode sici1248 (Sicilian); only TLI proxies
+      Main panel + Table S1 (n=6): GeLaTo/GBI Glottocode sici1248 (Sicilian); TLI proxies
       ital1282.
     reviewer_note: >
-      As Sicilian_East. Excluded from the Italian link.
+      Sicilian is in Grambank and GeLaTo as its own language (sici1248); Graff et al. use
+      Italian only as the WALS-side (TLI) stand-in. User decision 2026-10-20 (chat): link
+      the Sicilian samples to Sicilian, not Italian (reverses the 2026-10-16 acceptance).
+      Takes effect once confirmed_by and confirmed_date are filled.
 
   # ------------------------------------------------------------------ Finnish
   - id: fin-finnish
@@ -150,6 +174,9 @@ reviews:
       - "language assignment automatic, individual L1 not recorded"
     reviewer: data-subagent (Claude), to be confirmed by the main agent / PI
     date: 2026-10-06
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
+    
 
   # ------------------------------------------------------------------ French
   # Reviewed because French verbs (mgn_custom:french-v) are the recommended alternative /
@@ -185,12 +212,14 @@ reviews:
       - "language assignment automatic"
     reviewer: data-subagent (Claude), to be confirmed by the main agent / PI
     date: 2026-10-06
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
 
   - id: fra-french-northwest
     glottocode: stan1290
     population: French_Northwest
     resources: all
-    status: ambiguous
+    status: accepted
     evidence: >
       n=10, Lazaridis 2014, location Pas-de-Calais (50.46 N, 2.33 E), curation "checked by
       Chiara"; GeLaTo/GBI/TLI stan1290.
@@ -198,37 +227,45 @@ reviews:
       Pas-de-Calais is in the Picard area (Picard is a separate Oil language in Glottolog).
       Present-day speakers are French-dominant; the community's language history includes
       shift from Picard. Separate row; sensitivity analyses only.
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
 
   - id: fra-french-east
     glottocode: stan1290
     population: French_East
     resources: all
-    status: ambiguous
+    status: accepted
     evidence: >
       n=10, Lazaridis 2014, location Moselle (49.05 N, 6.62 E), curation "checked by Chiara".
     reviewer_note: >
       The coordinates fall in north-eastern Moselle, the historical Lorraine Franconian
       (Germanic) area next to Romance Lorrain; community language history differs from the
       Standard French base. Separate row; sensitivity analyses only.
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
 
   - id: fra-french-south
     glottocode: stan1290
     population: French_South
     resources: all
-    status: ambiguous
+    status: accepted
     evidence: >
       n=7, Lazaridis 2014, location Lourdes (43.09 N, 0.05 W), curation "checked by Chiara".
     reviewer_note: >
       Lourdes (Bigorre) is in the Gascon Occitan area; French-dominant today after shift.
       Separate row; sensitivity analyses only.
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
 
   - id: fra-french-west
     glottocode: stan1290
     population: French_West
     resources: all
-    status: ambiguous
+    status: accepted
     evidence: >
       n=10, Lazaridis 2014, location Finistere (48.30 N, 4.12 W), curation "checked by Chiara".
     reviewer_note: >
       Finistere is Lower Brittany, the Breton-speaking (Celtic) area; French-dominant today
       after shift. Separate row; sensitivity analyses only.
+    confirmed_by: Alexandru Craevschi
+    confirmed_date: 2026-10-16
