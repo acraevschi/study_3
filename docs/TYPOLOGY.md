@@ -1,8 +1,9 @@
 # Grambank inflection-extent outcome (`typology` stage)
 
-Owner: typology component (`morph_ldl/typology/`). Status: declared 2026-10-08, before
-any linkage output of the stage was written. §1–§8 are the declaration; §9 is the
-proposed analysis protocol (not fitted); §10 records the first development run.
+Owner: typology component (`morph_ldl/typology/`). §1–§8 specify the sources, mapping
+rules, 12-category feature set, outputs, ancestry firewall and audit; §9 summarises the
+outcome modeling design; §10–§12 record the missing-language audit, the 12-category
+`pcfp_v2` run, and the 2026-10-20 link-rules run (202 main-set languages).
 
 The stage gives a second, language-level outcome next to the LDL predictability outcome:
 the extent of bound inflectional morphology from Grambank, for every language reached
@@ -61,23 +62,7 @@ language-level code becomes a separate link row with `link_basis` `proxy_gbi`,
 data-stage crosswalk. A proxy that resolves to the population's own language adds
 nothing.
 
-Roll-up and map-down are initial matches, never acceptance. Statuses follow contract §9
-and the data-stage crosswalk: overrides only come from `gelato_review.yaml` (keys
-`glottocode` = language-level code, `population`; `resources: all` entries apply).
-
-**Review rule (changed 2026-10-16, user decision).** A review entry takes effect only with
-a `status` (`accepted`, `ambiguous` or `excluded`) and a human `confirmed_by` +
-`confirmed_date`. Without them it is a proposal: the link keeps its automatic status and
-`proposed_status` shows the entry's status. Before, this held only for `accepted`, which
-also needed four written review fields; a full four-part review for each of about 300
-links is too heavy. The current entries are all unconfirmed, so they give
-`proposed_status = accepted` for Tuscan (ital1282), Finnish (finn1318) and French_Central
-(stan1290), `ambiguous` for Bergamo and the four regional French samples, and `excluded`
-for the four Italian proxy links (Italian_South, Italian_Calabria, Sicilian_East,
-Sicilian_West). In the rerun `outputs/pcfp_v2_review_2026_10_16/` these 9 links change
-status; no outcome count changes (the Italian row only lists the 4 proxy populations).
-
-**Link rules and one decision sheet (2026-10-20, user decisions; `configs/pcfp_v2_links.yaml`).**
+Roll-up and map-down are initial matches. **Link rules and one decision sheet (2026-10-20, user decisions; `configs/pcfp_v2_links.yaml`).**
 Checking each link by hand is too slow, and a check of an exact link adds nothing. So:
 
 * **Accepted by rule** (`typology.link_rules.accept_by_rule`, column `accepted_by_rule`):
@@ -236,56 +221,6 @@ for example those that GBI's "statistical" curation handles by extra conditionin
 
 The beta-binomial model (§9) absorbs these as overdispersion.
 
-### 3a. pcfp_v1 feature set (archived: id `grambank_core_inflection_35_v1`, `configs/pcfp_v1.yaml`)
-
-
-35 binary Grambank features (codes `0`/`1` in v1.0.3). One line each, checked against
-the parameter text in `parameters.csv`.
-
-| ID | domain | Grambank question (short) | why included |
-|---|---|---|---|
-| GB079 | verbal_tam | verb prefixes/proclitics other than pure A/S/P markers | prefixal verbal inflection (TAM and other categories) |
-| GB080 | verbal_tam | verb suffixes/enclitics other than pure A/S/P markers | suffixal verbal inflection (TAM and other categories) |
-| GB082 | verbal_tam | overt morphological present tense on verbs | tense inflection |
-| GB083 | verbal_tam | overt morphological past tense on verbs | tense inflection |
-| GB084 | verbal_tam | overt morphological future tense on verbs | tense inflection |
-| GB086 | verbal_tam | morphological perfective/imperfective distinction | aspect inflection |
-| GB312 | verbal_tam | overt morphological mood marking on verbs | mood inflection |
-| GB089 | person_indexing | S indexed by suffix/enclitic | person/argument indexing on the verb |
-| GB090 | person_indexing | S indexed by prefix/proclitic | person/argument indexing on the verb |
-| GB091 | person_indexing | A indexed by suffix/enclitic | person/argument indexing on the verb |
-| GB092 | person_indexing | A indexed by prefix/proclitic | person/argument indexing on the verb |
-| GB093 | person_indexing | P indexed by suffix/enclitic | person/argument indexing on the verb |
-| GB094 | person_indexing | P indexed by prefix/proclitic | person/argument indexing on the verb |
-| GB107 | neg_interrog | standard negation by affix, clitic or verb modification | polarity inflection of the verb |
-| GB286 | neg_interrog | polar question by verbal morphology only | sentence-type (interrogative mood) inflection |
-| GB042 | nominal_number | productive overt singular marking on nouns | number inflection (incl. singulatives) |
-| GB043 | nominal_number | productive dual marking on nouns | number inflection |
-| GB044 | nominal_number | productive plural marking on nouns | number inflection |
-| GB165 | nominal_number | productive trial marking on nouns | number inflection |
-| GB166 | nominal_number | productive paucal marking on nouns | number inflection |
-| GB070 | case | morphological case for non-pronominal core arguments | case inflection |
-| GB071 | case | morphological case for pronominal core arguments | case inflection of pronouns (Grambank Boundness 0.5: suppletive pronoun forms count) |
-| GB072 | case | morphological case for oblique non-pronominal NPs | case inflection |
-| GB073 | case | morphological case for oblique pronominal arguments | case inflection of pronouns (Boundness 0.5, as GB071) |
-| GB430 | possession | possession prefix on the possessor | possessive inflection |
-| GB431 | possession | possession prefix on the possessed noun | possessive inflection |
-| GB432 | possession | possession suffix on the possessor | possessive inflection (genitive-type) |
-| GB433 | possession | possession suffix on the possessed noun | possessive inflection |
-| GB170 | agreement | adnominal property word agrees in gender | agreement inflection on modifiers |
-| GB171 | agreement | adnominal demonstrative agrees in gender | agreement inflection on modifiers |
-| GB172 | agreement | article agrees in gender | agreement inflection on modifiers |
-| GB184 | agreement | adnominal property word agrees in number | agreement inflection on modifiers |
-| GB185 | agreement | adnominal demonstrative agrees in number | agreement inflection on modifiers |
-| GB186 | agreement | article agrees in number | agreement inflection on modifiers |
-| GB198 | agreement | adnominal numeral agrees in gender | agreement inflection on modifiers |
-
-**Present rule.** For every one of the 35 features, `Value == "1"` is present, `"0"` is
-coded absent, `"?"`, an empty value or a missing row is *not coded*. The stage checks
-`codes.csv`: if a declared feature has more than the codes `0`/`1` and no explicit
-`present_codes.per_feature` entry, it refuses to run. Any value that is neither a code
-in `codes.csv` nor `?`/empty stops the stage.
-
 **Exclusions (declared in `feature_set.excluded`).**
 
 | IDs | why excluded |
@@ -298,23 +233,15 @@ in `codes.csv` nor `?`/empty stops the stage.
 | GB147, GB148 | morphological passive and antipassive: voice/valency morphology, usually classed as derivational and highly lexically restricted |
 | GB155 | causative affixes/clitics: valency-changing derivation |
 | GB275 | bound comparative on property words: degree morphology restricted to one word class; not part of the noun/verb paradigms modelled by LDL |
+| GB079, GB080 | catch-all verbal prefixes/suffixes other than pure A/S/P markers: overlap the TAM features and are not in GBI |
 
-**Notes on the set.** (a) The features are not independent: one TAM suffix can make
-GB080 and GB082–GB084 present together; agreement and indexing features co-vary within
-gender systems. The beta-binomial model (§9) treats this as overdispersion; it is not a
-count of morphemes. (b) GB071 and GB073 have Grambank Boundness 0.5, because pronoun
-case can be suppletive rather than affixal. They are kept: suppletive case forms are
-still inflectional paradigms. (c) The agreement questions do not say how the agreement is
-expressed; in practice it is bound marking on the modifier (Grambank Boundness 1).
-(d) The count is 35, unique, no overlap with the exclusions; the stage checks this.
+**Sensitivity sets** (`typology.sensitivity_sets`, each a union of category domains):
 
-**Sensitivity sets** (`typology.sensitivity_sets`, each a union of domains):
-
-| set | domains | n features |
+| set | domains | n categories |
 |---|---|---|
-| `verbal` | verbal_tam, person_indexing, neg_interrog | 15 |
-| `nominal` | nominal_number, case, possession | 13 |
-| `no_agreement` | all domains except agreement | 28 |
+| `verbal` | verbal_tam, person_indexing, neg_interrog | 6 |
+| `nominal` | nominal_number, case, possession | 4 |
+| `no_agreement` | all domains except agreement | 10 |
 
 `nominal` is inflection of nouns and pronouns themselves; agreement (inflection of
 modifiers controlled by the noun) is its own domain and is left out of `nominal`, so that
@@ -411,11 +338,10 @@ genetic-value patterns (`*.Q`, `GeneticInfoID`, `best_runs/`, `*ancestry*`,
 `audit_typology` re-checks that list. No ancestry value, Q matrix or genetic summary is
 read, and no choice in this document was made after looking at one.
 
-**Update 2026-10-10.** The firewall still holds for this stage. Outside it, an
-exploratory draft admixture model (`analyses/draft_admixture_model_2026_10_10/`) has read
-the ancestry values. The choices in this document (feature sets, mapping rules, coverage
-threshold, 12 categories) predate that. Later changes to them are no longer blind to the
-ancestry values.
+**Update 2026-10-21.** The firewall still holds for this stage. Outside it, the exploratory
+admixture models (`analyses/draft_admixture_model_2026_10_10/` and
+`analyses/admixture_links_2026_10_21/`) read the ancestry values. The choices in this
+document (12-category feature set, mapping rules, coverage threshold) predate those runs.
 
 ## 8. Audit (`audit_typology(cfg) -> (checks, problems)`)
 
@@ -453,68 +379,11 @@ ancestry values.
   family) is controlled, any no-inflection component is weakly identified: there is
   hardly any within-area variation left. The no-inflection part is therefore reported
   descriptively, not as a main test.
-* **Exposure.** The admixture exposure variable is not defined here. Nothing in this
-  stage looks at, defines or fits it. (The 2026-10-10 exploratory draft model outside the
-  stage is described in `analyses/draft_admixture_model_2026_10_10/`.)
+* **Exposure.** The admixture exposure variable is not defined inside this stage; the
+  two-stage hierarchical admixture → Grambank inflection and Flexivity models are
+  implemented in [`analyses/admixture_links_2026_10_21/`](../analyses/admixture_links_2026_10_21/README.md).
 
-## 10. Development run (2026-10-08, experiment `typology_dev`, outputs in a scratch directory)
-
-Config: `configs/pilot.yaml` + the block of `morph_ldl/typology/default_config.yaml`.
-Grambank v1.0.3 @ `7ae000c`, Glottolog v5.3 @ `072ca0d` (both verified). Audit: no
-problems; 10 files opened, none forbidden. Two runs gave byte-identical outputs.
-
-* **Links.** 558 populations, 619 link rows: exact 421 (416 candidate, 5 ambiguous by
-  review), dialect roll-up 57, group map-down 12, group ambiguous 28, group without
-  Grambank descendant 5, unresolved (own code `NA`) 35, proxy 61 (57 ambiguous, 4 excluded
-  by review). 42 populations reach no language at all (e.g. Yi = Loloish, 22
-  Grambank-coded candidates; Vanuatu and Papuan regional samples; Dinka).
-* **Languages.** 350 language-level Glottocodes: 309 with a non-proxy link, 41
-  proxy-only. In Grambank: 193 non-proxy (+30 proxy-only).
-* **Coverage** (non-proxy, in Grambank): >= 50%: 183; >= 60% (main): 173; >= 75%: 168.
-  Including proxy-only languages: 211 / 200 / 194.
-* **No inflection** (main `n_present == 0`): Central Khmer (Austroasiatic, 0/35),
-  Naxi (Sino-Tibetan, 0/35), She (Hmong-Mien, 0/29), Vietnamese (Austroasiatic, 0/30),
-  Thai (Tai-Kadai, 0/20, below the 60% threshold). **Minimal** (<= 1) adds Mandarin
-  Chinese (1/35) and Northern Tujia (1/35). All Eurasia, Mainland Southeast Asia / China.
-* **Clitic flags** (15 non-proxy): family rule: Burmese 15/35, Hakka 6/34, Kharia 13/32;
-  profile rule: Basque, Kusunda, Xavante and nine Austronesian languages (Amis,
-  Kankanaey, Minamanwa, Notsi, Tutuba, Paama, Akei, Apma, Tigak). Basque and Kharia are
-  known false positives of the heuristics.
-* **Missing from Grambank** (116 non-proxy), top by individuals: Yoruba 75, Scottish
-  Gaelic 43 (the GeLaTo "Scottish" samples carry scot1245; see unresolved issues), Taiga
-  Sayan Turkic 40, West Circassian 33, Chachapoyas Quechua 31, Tajik 31, Zoroastrian Yazdi
-  28, Mamusi 26, West !Xoon 26, Spanish 25. East Asian gaps: Hmong Daw (Miao, 10), Lü (Dai,
-  10); Yi is unlinked (ambiguous group); Tujia maps down to Northern Tujia (in Grambank).
-* **LDL overlap.** Italian (ital1282, 19/35) and Finnish (finn1318, 14/35): GeLaTo-linked
-  (best status `candidate`, acceptance proposed, not confirmed), in Grambank, full
-  coverage. Of 16 broad-audit verb resources (suitable / with caveats / limited), 13
-  languages are GeLaTo-linked, 12 non-proxy, 8 also in Grambank above 60% (English,
-  French, Catalan, Finnish, Serbo-Croatian, Armenian, Italian, Northern Sami); Bulgarian,
-  German, Romanian and Spanish are not in Grambank; Modern Greek is proxy-only.
-* **Against the prototype** (`analyses/unimorph_gelato_estimate_2026_10_08`): 301 shared
-  languages, identical `n_present`/`n_coded` and Grambank membership. The prototype kept
-  36 group-level codes as rows; here 11 map down (12 population links; e.g. Japanesic ->
-  Japanese, Tujia -> Northern Tujia, Pashto -> Southern Pashto), 24 give no automatic
-  match (ambiguous or no Grambank-coded descendant), and nuuu1241 (a Grambank entry that
-  is a family in Glottolog 5.3) is not used. New here: 8 map-down target languages and the
-  41 proxy-only languages (the prototype ignored GBI/TLI proxies). Individual totals
-  differ for 3 languages (Iron Ossetian, Kabardian, Western Farsi) because map-down adds
-  populations (e.g. Circassian -> Kabardian); proxy populations are counted separately.
-
-## 11. Real run (2026-10-08, experiment `pcfp_v1`, `outputs/pcfp_v1/typology/`)
-
-Config `configs/pcfp_v1.yaml` (hash 8b088277dfaa1e26), code `9c4ee53`. Every count in §10
-was reproduced exactly:
-
-* 558 populations and 619 link rows;
-* 350 languages (309 non-proxy, 41 proxy-only);
-* 193 non-proxy languages in Grambank, 183 / 173 / 168 at 50 / 60 / 75% coverage;
-* the same no-inflection, minimal-inflection and clitic-flag lists;
-* 116 non-proxy languages missing from Grambank;
-* the same LDL overlap.
-
-The typology audit inside the final `audit` stage passed (0 problems across 102 artifact
-sets). The results are in [REPORT_pcfp_v1.md](REPORT_pcfp_v1.md) §5.
+## 10. Missing-language audit and dialect substitution (2026-10-08)
 
 **Are the missing languages really absent?** (checked 2026-10-08,
 `analyses/pcfp_v1_2026_10_08/grambank_missing_check.py` → `grambank_missing_check.csv`)
@@ -533,39 +402,32 @@ Result:
   Spanish (stan1288), German (stan1295), Scottish Gaelic (scot1245), Romanian (roma1327),
   Bulgarian (bulg1262), Yoruba (yoru1245), Tajik, Nogai, Sindhi and the rest have no
   Grambank entry at any level. Grambank v1.0.3 does not cover them.
-* **Three languages are coded only through dialect entries,** which §2 declares unused:
+* **Three languages are coded only through dialect entries,** which §2 declares unused
+  unless `dialect_entries: substitute` is enabled:
   * Selkup (selk1253, 24 individuals): Southern Selkup (sout3262);
   * Karelian (kare1335, 15): Northern Karelian (nort2673) and Tver (tver1240);
   * Terena-Kinikinao-Chane (tere1279, 1): Terena (tere1281) and Kinikinao (guan1270).
-
-  Letting a dialect entry stand for its language would add them. That is a rule change
-  to be declared before any outcome analysis, not a correction.
 * **The other hits are not matches:**
   * Oceanic (ocea1241) is a family-level Grambank entry (a reconstruction), not a code
     for the Oceanic languages Mamusi, Duke, Sowa and others.
   * Aromanian ≠ Romanian, Shuar ≠ Shua, Narom ≠ Naro, Basay ≠ Basa (Cameroon).
 * **The GeLaTo side may be off.** The Scottish population samples (43 individuals) are
   linked to Scottish Gaelic (scot1245) through GeLaTo's own code, which may not reflect
-  what they speak (§10). Whether they should link to English (stan1293, in Grambank) is
-  a GeLaTo-link review decision; it must not be decided by looking at either outcome.
+  what they speak.
 
-**Dialect substitution in pcfp_v2** (`outputs/pcfp_v2/typology/`; audit: no problems).
+**Dialect substitution in `pcfp_v2`** (`outputs/pcfp_v2/typology/`; audit: no problems):
 
-* Karelian (via Northern Karelian, 14/35), Selkup (via Southern Selkup, 15/35) and
-  Terena-Kinikinao-Chane (via Kinikinao, 11/34) enter the main set.
-* For Terena, the coverage rule picked Kinikinao over Terena, which has fewer coded
-  features. The GeLaTo population (1 individual) is probably Terena, so this needs review.
+* Karelian (via Northern Karelian), Selkup (via Southern Selkup) and
+  Terena-Kinikinao-Chane (via Kinikinao) enter the main set.
 * Murut's group map-down (to Timugon Murut) becomes ambiguous, because a second Murutic
   language is now Grambank-coded through a dialect entry.
-* Main set: 173 → 175 languages (≥ 50%: 185, ≥ 75%: 170); 203 including proxy-only.
-* Other languages also gain substitutes (Hopi, Eastern Mari and more). They are not
-  GeLaTo-linked, so they do not affect the outcome set.
+* Non-proxy main set (before link rules): 173 → 175 languages (≥ 50%: 185, ≥ 75%: 170);
+  203 including proxy-only.
 
-## 12. pcfp_v2 run with the 12 categories (2026-10-08, `outputs/pcfp_v2/typology/`)
+## 11. `pcfp_v2` run with the 12 categories (2026-10-08, `outputs/pcfp_v2/typology/`)
 
 The run used `dialect_entries: substitute` (§2) and the 12-category set (§3). The typology
-audit passes; the full audit reports 56 artifact sets and 0 problems. Comparisons are with
-the same run under the 35-feature set.
+audit passes; the full audit reports 56 artifact sets and 0 problems.
 
 * **Entering the main analysis** (non-proxy, coverage ≥ 60%): **175** languages, the same
   175 as with the 35-feature set. Mean coverage is 0.88 (0.90 before).
@@ -590,41 +452,27 @@ the same run under the 35-feature set.
 * **Clitic flags:** 16 non-proxy languages, with Lahu and Nakanai new at the rescaled
   threshold.
 
-## 13. Link rules run (2026-10-20, `configs/pcfp_v2_links.yaml`, `outputs/pcfp_v2_links_2026_10_20/typology/`)
+## 12. Link rules run (2026-10-20, `configs/pcfp_v2_links.yaml`, `outputs/pcfp_v2_links_2026_10_20/typology/`)
 
-Typology stage only; the outcome counts of every language are the same as in
-`outputs/pcfp_v2_review_2026_10_16/`. The typology audit passes.
+Typology stage with rule-based link acceptance and all 33 rows of the decision sheet
+(`morph_ldl/data/gelato_link_review.csv`) confirmed by the user. The typology audit passes.
 
-* **Main set: 198 languages** (was 175; none lost). 331 populations, 2,920 individuals.
-  The 23 new languages come from Graff stand-ins: 14 resolve a group code (Modern Greek,
-  Halh Mongolian, Kuanua, …), 9 replace a language missing from Grambank (Gulf Arabic,
-  Chaldean Neo-Aramaic, East Taa, Central Mansi, …).
-* **Who accepted the 331 main-set links:** rule exact 242, dialect roll-up 33, group
-  map-down 11, Graff stand-in 35, person 10 (the confirmations of 2026-10-16).
+* **Main set: 202 languages** (175 before link rules; none lost). 335 populations, 2,962
+  individuals (2,943 in the ADMIXTURE files).
+  * Graff et al.'s Grambank-side (`GBI`) stand-ins add 23 languages (14 resolving a group
+    code such as Modern Greek, Halh Mongolian, Kuanua; 9 replacing a language missing from
+    Grambank such as Gulf Arabic, Chaldean Neo-Aramaic, East Taa, Central Mansi).
+  * Group codes confirmed in the decision sheet (label `group_choice`): Buka → Halia,
+    Yi → Sichuan Yi, Vanuatu_Ambrym → North Ambrym, Vanuatu_Banks → Mwotlap;
+    Vanuatu_Malekula `ambiguous` (not in the main analysis).
+  * Yukaghir swap corrected: Northern Yukaghir is represented by Yukagir_Tundra (n=19)
+    instead of Yukagir_Forest (n=5), which drops out (Southern Yukaghir has no Grambank data).
+  * Sicilian_East/West: the WALS-side stand-in Italian is excluded; they stay linked to Sicilian.
 * **Sensitivity analyses** (main-set languages / populations):
 
   | analysis | drops | languages | populations |
   |---|---|---|---|
-  | main | – | 198 | 331 |
-  | no_doubtful_language | endangered (AES ≥ 4), diaspora, wrong_code | 174 | 293 |
-  | no_other_language_stand_ins | the 16 stand-ins for another language | 189 | 315 |
-  | strict | both | 169 | 281 |
-
-  Flags on main-set links: endangered 25, diaspora 8, wrong_code 7,
-  stand_in_other_language 16, stand_in_no_own_language 21.
-* **Decision sheet:** 33 rows. 12 decisions of 2026-10-16 (10 confirmed; the 2 Sicilian
-  rows propose to exclude the TLI stand-in Italian), 5 group codes without a Graff
-  choice (Buka, Yi, Vanuatu Ambrym, Banks, Malekula), 2 Yukaghir relink proposals, 8
-  diaspora and 7 wrong-code labels (only populations in the main set). No malformed row.
-
-**Update 2026-10-20 (evening): review finished.** All 33 rows of the decision sheet are
-decided and confirmed by the user; no row is malformed or only proposed.
-
-* Yukaghir swap corrected: Northern Yukaghir is now represented by Yukagir_Tundra (n=19)
-  instead of Yukagir_Forest (n=5), which drops out (Southern Yukaghir has no Grambank data).
-* Group codes (label `group_choice`): Buka → Halia, Yi → Sichuan Yi, Vanuatu_Ambrym → North
-  Ambrym, Vanuatu_Banks → Mwotlap; Vanuatu_Malekula `ambiguous` (not in the main analysis).
-* Sicilian_East/West: the WALS-side stand-in Italian is excluded; they stay linked to Sicilian.
-* Main set: **202 languages** (175 on 2026-10-16, none lost), 335 populations, 2,962
-  individuals. Sensitivity analyses: no_doubtful_language 174 languages / 293 populations,
-  no_other_language_stand_ins 193 / 319, strict 169 / 281.
+  | `main` | – | 202 | 335 |
+  | `no_doubtful_language` | endangered (AES ≥ 4), diaspora, wrong_code, group_choice | 174 | 293 |
+  | `no_other_language_stand_ins` | the 16 stand-ins for another language | 193 | 319 |
+  | `strict` | all of the above | 169 | 281 |

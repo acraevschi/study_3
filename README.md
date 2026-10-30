@@ -2,39 +2,22 @@
 
 > **Work in progress.** Everything in this repository is preliminary: the pipeline, both
 > morphology outcomes, the reports and the analyses. None of the results is a finding.
-> * **Grambank outcome.** Since 2026-10-20 exact and rule-based GeLaTo links are accepted
+> * **Grambank outcome.** Exact and rule-based GeLaTo population–language links are accepted
 >   by rule (`configs/pcfp_v2_links.yaml`), and all 33 doubtful cases are decided in
 >   `morph_ldl/data/gelato_link_review.csv` ([docs/TYPOLOGY.md](docs/TYPOLOGY.md) §13).
-> * **LDL outcome.** It is under revision: the 2026-10-09 ablation changed the model
+> * **LDL outcome.** Under revision: the 2026-10-09 ablation changed the model
 >   settings, and the absolute accuracy is still too low to treat the score as a measure
 >   of predictability.
-> * **Admixture model.** Exploratory admixture–Grambank models are in
->   `analyses/draft_admixture_model_2026_10_10/` (175 languages) and
->   `analyses/admixture_links_2026_10_21/` (202 languages, link sensitivity sets, $f_3$,
->   `het`, and Grambank Flexivity outcomes). The ancestry values have been looked at, so
->   later analyses are not blind to them.
+> * **Admixture models.** Exploratory two-stage admixture–Grambank models (12 inflectional
+>   categories and Grambank Flexivity across 202 languages, link sensitivity sets, $f_3$,
+>   and `het`) are in [`analyses/admixture_links_2026_10_21/`](analyses/admixture_links_2026_10_21/README.md).
+>   The ancestry values have been looked at, so later analyses are not blind to them.
 
-PhD Study 3: inflectional complexity and genetic admixture. The repository holds the
-current pipeline at its root. Earlier exploratory tracks (the MGN-accuracy Bayesian models
-with demographic and phylogenetic covariates, and the Germanic historical track) were
-archived on 2026-10-08; see [Archive](#archive).
+PhD Study 3: inflectional complexity and genetic admixture.
 
-**Status.** The current experiment is `pcfp_v2`: paradigm cell filling for Italian and
-Finnish verbs (MGN) under the default **repeated-random design**, plus a Grambank
-inflection-extent outcome for all GeLaTo-linked languages
-([docs/REPORT_pcfp_v2.md](docs/REPORT_pcfp_v2.md)). The design has 5 fixed folds of 100
-core verbs and 5 random draws of 100 extra training verbs, which gives 25 LDL fits per
-language. `pcfp_v1` compared LDL active selection with random selection and found no
-gain from active selection ([docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md)). Its design
-remains available as `cv.design: core_selected`. The earlier `pilot_v1` (a source-known
-new-verb task with a Transformer selector) is archived: its outputs are in
-`outputs/pilot_v1/`, its report is [docs/REPORT.md](docs/REPORT.md), and its code state is
-commit `24390cf`.
-
-The pipeline produces two morphology outcomes for a later admixture–morphology analysis.
-The pipeline itself fits no such model and never reads ancestry values. The exploratory
-draft model in `analyses/draft_admixture_model_2026_10_10/` is outside the pipeline. The
-two outcomes are:
+The pipeline produces two morphology outcomes (keyed by language-level Glottocode, with
+GeLaTo populations linked in separate tables) for the admixture–morphology analysis; the
+pipeline itself never reads ancestry values:
 
 * **Grambank inflectional extent** (primary). The number of 12 inflectional categories
   present out of those coded, for every GeLaTo-linked language in Grambank, including
@@ -42,7 +25,6 @@ two outcomes are:
   agreement.
   * Each category merges its logically dependent Grambank features by OR, following the
     GBI curation of Graff et al. 2025.
-  * pcfp_v1 used the share of 35 raw features.
 * **LDL predictability** (secondary; inflecting languages only). Every verb is known
   through k randomly drawn forms (k ~ U{1..7}, the same cap in every language). A native
   LDL model (JudiLing.jl, end-state, simulated semantics) fills the hidden cells.
@@ -55,9 +37,6 @@ two outcomes are:
     selection**, with the LDL model itself as the selector, or by matched random
     selection.
 
-Both outcomes are keyed by the language-level Glottocode. GeLaTo populations are linked
-in separate tables.
-
 | Document | Content |
 |---|---|
 | [docs/PROTOCOL.md](docs/PROTOCOL.md) | experimental specification (estimand, task, CV, metrics, uncertainty) |
@@ -65,77 +44,39 @@ in separate tables.
 | [docs/DATA.md](docs/DATA.md) | adapters, provenance, identifiers, eligibility, GeLaTo matching and reviews |
 | [docs/SELECTION.md](docs/SELECTION.md) | selector, scores, acquisition, ALmorphinfl audit |
 | [docs/LDL_PROTOCOL.md](docs/LDL_PROTOCOL.md) | JudiLing audit, held-out-lemma protocol, runner |
-| [docs/REPORT.md](docs/REPORT.md) | pilot_v1 results (archived task) |
 | [docs/PIPELINE_OVERVIEW.md](docs/PIPELINE_OVERVIEW.md) | one-page diagram of the stages and fitted models |
-| [docs/gelato_feasibility_2026-10-01.md](docs/gelato_feasibility_2026-10-01.md) | GeLaTo feasibility review (what the genetic data can and cannot measure) |
-| [docs/TYPOLOGY.md](docs/TYPOLOGY.md) | Grambank inflection-extent outcome: sources, 12-category feature set, mapping rules, planned analysis |
-| [docs/REPORT_pcfp_v1.md](docs/REPORT_pcfp_v1.md) | pcfp_v1 results: LDL active selection vs random |
-| [docs/REPORT_pcfp_v2.md](docs/REPORT_pcfp_v2.md) | pcfp_v2 results: repeated random draws (current) |
-| [analyses/ldl_ablation_2026_10_09/README.md](analyses/ldl_ablation_2026_10_09/README.md) | LDL ablation (preliminary): the cell-specific meaning vector and the decoder setting raise PCFP accuracy from 0.16 to 0.38 on the tuning items |
-| [analyses/draft_admixture_model_2026_10_10/README.md](analyses/draft_admixture_model_2026_10_10/README.md) | exploratory draft admixture → Grambank model (175 languages, not confirmatory) |
-| [analyses/admixture_links_2026_10_21/README.md](analyses/admixture_links_2026_10_21/README.md) | exploratory admixture → Grambank inflection & Flexivity models on the 2026-10-20 links (202 languages, sensitivity sets, $f_3$, `het`) |
+| [docs/TYPOLOGY.md](docs/TYPOLOGY.md) | Grambank inflection-extent outcome: sources, 12-category feature set, mapping rules, link review |
+| [docs/REPORT_pcfp_v2.md](docs/REPORT_pcfp_v2.md) | `pcfp_v2` results: repeated random draws |
+| [analyses/ldl_ablation_2026_10_09/README.md](analyses/ldl_ablation_2026_10_09/README.md) | LDL ablation (preliminary): cell-specific meaning vector and decoder settings |
+| [analyses/admixture_links_2026_10_21/README.md](analyses/admixture_links_2026_10_21/README.md) | exploratory admixture → Grambank inflection & Flexivity models on the 2026-10-20 links |
 
-## Setup
+## Setup & Run
 
 ```bash
+# Setup
 scripts/fetch_external.sh                       # pinned external sources (incl. Grambank, Glottolog CLDF)
 python3 -m venv .venv                           # any Python ≥ 3.12
-.venv/bin/pip install -r requirements.lock      # exact versions used (torch 2.14.1 CPU)
+.venv/bin/pip install -r requirements.lock      # exact versions used
 .venv/bin/pip install ./external/languages-of-the-world
 julia --project=julia -e 'using Pkg; Pkg.instantiate(); Pkg.precompile()'   # Julia 1.12, JudiLing =1.0.1
+
+# Run a single stage (data | splits | ldl_tune | select | ldl | evaluate | outcomes | typology | audit)
+.venv/bin/python -m morph_ldl.cli <stage> --config configs/pcfp_v2_links.yaml
+
+# Run splits -> audit end-to-end, or run the test suite
+scripts/run_pcfp.sh configs/pcfp_v2.yaml
+.venv/bin/python -m pytest                      # add -m "not slow" to skip real-Julia tests
 ```
 
-Inputs that are read but never modified: `mgn_data/` (see [Data provenance](#data-provenance))
-and `analyses/gelato_feasibility_2026_10_01/` (GeLaTo commit c625fdc, Zenodo 15263706).
-Paths in the configs are relative to the repository root.
-
-## Run
-
-Use one entry point. Every stage is independently runnable and writes a `stage_manifest.json`
-(config hash, input hashes, git state, external revisions, package versions, seeds).
-
-```bash
-.venv/bin/python -m morph_ldl.cli <stage> --config configs/pcfp_v2.yaml [--units ...] [--folds ...] [--policies ...] [--set key=json ...]
-```
-
-| Stage | Output under `outputs/<experiment_id>/` |
-|---|---|
-| `data` | `data/forms/<unit>.csv`, `registry/`, `eligibility/`, `gelato/crosswalk.csv` |
-| `splits` | `splits/<unit>/cell_inventory.csv`, `eligible_lemmas.csv`, `exposure_manifest.csv`, `auxiliary_manifest.csv`, `rep{r}/split_manifest.csv` |
-| `ldl_tune` | `ldl_tune/chosen_settings.json` (cue n-gram and inflection SD, chosen on auxiliary verbs; runs before `select`) |
-| `select` | `selection/<unit>/rep{r}/fold{k}/<policy>@<pool>/`: `samples/budget_{B}*.csv` and order. In the repeated-random design, rep{r} is draw r and nothing is fitted; with `core_selected`, also logs, selector rounds, cell scores and comprehension check |
-| `ldl` | `queries/…/queries.csv` (gold-free), `ldl/…/budget_{B}/predictions.csv`, `mapping_quality.csv` |
-| `evaluate` | `eval/item_predictions.csv`, summaries (by cell, by k), copy rates, sample composition, selector checks |
-| `outcomes` | `outcomes/ldl_outcomes.csv`, `population_links.csv`, and either `draw_variability*.csv` (repeated-random) or `paired_differences.csv` (core_selected) |
-| `typology` | `typology/grambank_inflection.csv`, `grambank_population_links.csv`, `feature_set.json`, coverage summary |
-| `audit` | `eval/artifact_audit.json` (samples, selector rounds, queries and typology checked against the manifests) |
-
-`scripts/run_pcfp.sh [config]` runs every stage from `splits` through `audit`. The default
-config is `configs/pcfp_v2.yaml`. `configs/pcfp_v2_smoke.yaml` runs the full chain at tiny
-sizes, and so does `configs/pcfp_smoke.yaml` for the pcfp_v1 design.
-
-Tests: `.venv/bin/python -m pytest` runs all tests. Add `-m "not slow"` to skip the real-Julia tests.
-
-## Key outputs for the next analysis stage
-
-* `outputs/pcfp_v2/typology/grambank_inflection.csv` has one row per language-level
-  Glottocode. It carries counts (`n_present`, `n_coded`, `n_features`) for the main set
-  and the sensitivity sets, coverage, the no/minimal-inflection flags, clitic flags,
-  family and macroarea.
-* `outputs/pcfp_v2/outcomes/ldl_outcomes.csv` has one row per unit (pooled over 5 draws ×
-  5 folds); `draw_variability_summary.csv` gives the spread over draws. It carries accuracy (micro and verb-macro), edit distance, 95%
-  lemma-cluster bootstrap intervals, exposure metadata and the language-level `glottocode`.
-* The population link tables (`outcomes/population_links.csv`,
-  `typology/grambank_population_links.csv`) carry match statuses, sample sizes and
-  identifiers, but no ancestry values. With `configs/pcfp_v2_links.yaml`,
-  `typology/analysis_links.csv` lists the links of the main analysis and of each link
-  sensitivity analysis (TYPOLOGY §2).
+Every stage is independently runnable and writes a `stage_manifest.json` under
+`outputs/<experiment_id>/` (see [docs/PIPELINE_OVERVIEW.md](docs/PIPELINE_OVERVIEW.md) and
+[docs/CONTRACT.md](docs/CONTRACT.md) for stage outputs and schemas).
 
 ## Repository layout
 
 ```
 study_3/
-├── README.md                                 <- Project overview, setup, run instructions
+├── README.md                                 <- Project overview, setup, repository layout, data provenance
 ├── requirements.lock                         <- Exact Python package versions
 ├── pytest.ini                                <- Test settings (`slow` marker for real-Julia tests)
 │
@@ -145,10 +86,10 @@ study_3/
 │   ├── provenance.py                         <- Stage manifests (hashes, git state, versions)
 │   ├── data/                                 <- `data` stage: MGN adapters, cells, eligibility, registry
 │   │   ├── gelato.py                         <- GeLaTo population ↔ language crosswalk
-│   │   ├── gelato_review.yaml                <- Link reviews to 2026-10-16 (archive for the typology stage)
 │   │   ├── gelato_link_review.csv            <- GeLaTo link decision sheet (decision + confirmed_by + date)
+│   │   ├── gelato_review.yaml                <- Earlier link reviews (archive for the typology stage)
 │   │   ├── resources/                        <- cells_to_unimorph.json (MGN cell label → UniMorph features)
-│   │   └── vendor/                           <- Modules taken over from earlier code (MGN↔ISO map, parsers)
+│   │   └── vendor/                           <- MGN↔ISO map and parsers
 │   ├── cv/                                   <- `splits`, `select`, `evaluate`, `outcomes`, `audit` stages
 │   │   ├── pcfp.py                           <- Paradigm cell filling task: cells, exposure draws
 │   │   ├── splits.py                         <- Core folds and random-draw manifests
@@ -168,35 +109,28 @@ study_3/
 │   └── bin/                                  <- run_jobs.jl (batch fits), selector_server.jl (LDL selector)
 │
 ├── configs/
-│   ├── pcfp_v2.yaml / pcfp_v2_smoke.yaml     <- Current experiment (repeated-random design)
-│   ├── pcfp_v2_links.yaml                    <- pcfp_v2 with the GeLaTo link rules of 2026-10-20
-│   ├── pcfp_v1.yaml / pcfp_smoke.yaml        <- core_selected design (active vs random selection)
-│   └── pilot.yaml / smoke.yaml               <- Archived pilot_v1
+│   ├── pcfp_v2_links.yaml                    <- Current experiment with the GeLaTo link rules of 2026-10-20
+│   ├── pcfp_v2.yaml / pcfp_v2_smoke.yaml     <- Repeated-random design
+│   └── pcfp_v1.yaml / pcfp_smoke.yaml        <- core_selected design (active vs random selection)
 │
 ├── scripts/
 │   ├── fetch_external.sh                     <- Clones the pinned external sources into external/
-│   ├── run_pcfp.sh                           <- Runs every stage from `splits` to `audit`
-│   └── run_pilot.sh                          <- Archived pilot_v1 run
+│   └── run_pcfp.sh                           <- Runs every stage from `splits` to `audit`
 │
 ├── docs/                                     <- Protocol, contract, component docs and reports (table above)
 │
 ├── analyses/                                 <- One-off analyses, each with its own README
 │   ├── gelato_feasibility_2026_10_01/        <- GeLaTo feasibility audit; sources/ holds the cached
 │   │                                            GeLaTo, Zenodo 15263706 and language-tree files
-│   ├── pcfp_v1_2026_10_08/                   <- pcfp_v1 report tables, Grambank "missing languages" check
-│   ├── unimorph_gelato_estimate_2026_10_08/  <- How many UniMorph languages overlap GeLaTo
 │   ├── ldl_ablation_2026_10_09/              <- Why PCFP accuracy is low (preliminary)
-│   ├── gelato_review_2026_10_09/             <- Fill-in sheet for unresolved GeLaTo population links
-│   ├── gelato_review_2026_10_16/             <- Link review sheets and source check (evidence)
-│   ├── gelato_review_2026_10_20/             <- First version of the link decision sheet
-│   ├── draft_admixture_model_2026_10_10/     <- Exploratory admixture → Grambank models (brms, 175 languages)
+│   ├── draft_admixture_model_2026_10_10/     <- Initial exploratory admixture → Grambank draft (175 languages)
 │   └── admixture_links_2026_10_21/           <- Admixture → Grambank inflection & Flexivity on 2026-10-20 links
 │
 ├── tests/                                    <- pytest suite (fixtures in tests/fixtures/)
 │
 ├── mgn_data/                                 <- MGN paradigm inputs (not committed; MANIFEST.sha256 and README are)
 ├── external/                                 <- Pinned external clones (not committed; see fetch_external.sh)
-└── outputs/                                  <- Stage outputs (not committed, except small pilot_v1 tables)
+└── outputs/                                  <- Stage outputs (not committed)
 ```
 
 ## Data provenance
@@ -205,15 +139,15 @@ All data used here come from third-party sources, listed below with the versions
 
 | Source | What we use | Version | Where |
 |---|---|---|---|
-| MGN data (Guzmán Naranjo 2024, *J. Language Modelling* 12(2)) | per-language paradigm tables `data/`, `data-custom/`, build scripts `build-data/` | upstream URL/commit not yet recorded; file hashes in `mgn_data/MANIFEST.sha256` | `mgn_data/` ([README](mgn_data/README.md)) |
+| MGN data (Guzmán Naranjo 2024, *J. Language Modelling* 12(2)) | per-language paradigm tables `data/`, `data-custom/`, build scripts `build-data/` | file hashes in `mgn_data/MANIFEST.sha256` | `mgn_data/` ([README](mgn_data/README.md)) |
 | UniMorph (Italian, Finnish) | verification of the MGN tables against UniMorph | unimorph/ita fa2cc6c, unimorph/fin fe0a270 | `external/` |
-| languages-of-the-world | ISO 639-3 → Glottocode layer, with project corrections; Glottolog tree for the draft admixture model | d319631 (0.2.0) | `external/`, `morph_ldl/data/vendor/mgn_language_map.py` |
+| languages-of-the-world | ISO 639-3 → Glottocode layer, with project corrections; Glottolog tree for the admixture models | d319631 (0.2.0) | `external/`, `morph_ldl/data/vendor/mgn_language_map.py` |
 | JudiLing.jl | LDL implementation | 1.0.1 (= ca77304) | `julia/Manifest.toml`, `external/` |
 | ALmorphinfl (Muradoğlu & Hulden 2022) | reference implementation for the active-learning scores | 3caf0d0 | `external/` |
-| GeLaTo | population metadata, Glottocodes, sample sizes; neighbour FST in the draft admixture model | gelato-data c625fdc | `analyses/gelato_feasibility_2026_10_01/sources/` |
-| Graff et al. 2025 archive | population–language table; ADMIXTURE runs (K = 12–30), used only in the exploratory draft model | Zenodo 15263706 | `analyses/gelato_feasibility_2026_10_01/sources/` |
-| Grambank (Skirgård et al. 2023) | inflection-extent outcome (12 inflectional categories; pcfp_v1: 35 features) | v1.0.3 (7ae000c) | `external/grambank` |
-| Glottolog CLDF | dialect → language roll-up, family, macroarea | v5.3 (072ca0d) | `external/glottolog-cldf` |
+| GeLaTo | population metadata, Glottocodes, sample sizes; neighbour FST in the admixture models | gelato-data c625fdc | `analyses/gelato_feasibility_2026_10_01/sources/` |
+| Graff et al. 2025 archive | population–language table; ADMIXTURE runs (K = 12–30) and F2 blocks, used in the exploratory admixture models | Zenodo 15263706 | `analyses/gelato_feasibility_2026_10_01/sources/` |
+| Grambank (Skirgård et al. 2023) | inflection-extent (12 categories) and Flexivity (30 features) outcomes | v1.0.3 (7ae000c) | `external/grambank` |
+| Glottolog CLDF | dialect → language roll-up, family, macroarea, endangerment (AES) | v5.3 (072ca0d) | `external/glottolog-cldf` |
 
 The exact input hashes of each run are in its `outputs/<experiment>/<stage>/stage_manifest.json`
 (written locally by every stage; not committed, because they record absolute paths).
@@ -222,20 +156,3 @@ Licences of the third-party files redistributed in `analyses/gelato_feasibility_
 GeLaTo data (gelato-org/gelato-data) CC BY-NC 4.0; Graff et al. 2025 archive (Zenodo 15263706)
 CC BY 4.0; global language trees (rbouckaert/global-language-tree-pipeline) MIT. MGN, UniMorph
 and the other external sources are not redistributed here.
-
-## Archive
-
-Material from earlier implementation paths was moved, unchanged, out of the repository
-on 2026-10-08 and is kept privately (a local, gitignored `ARCHIVE_NOTE.md` says where).
-Everything that was committed is also in git history before the
-archive commit. Archived: the global MGN-accuracy track (`src/`, root R scripts, `fits/`,
-`results/`, `plots/`, `global_demographic_registry.csv`, `mgn_modeling_dataset.csv*`,
-`phylo_cov_matrix.rds`, `data_sources/`, `docs/METHODS.md`, its tests), the Germanic track
-(`germanic/`, `scripts/fetch_cora_ren.sh`), MGN's own results and analysis scripts
-(about 8.4 GB of `mgn_data/`), agent scratch folders, and the previous README.
-
-The GeLaTo feasibility audit script (`analyses/gelato_feasibility_2026_10_01/audit.py`)
-read `mgn_modeling_dataset.csv`, `mgn_language_map.json` and
-`data_sources/Glottolog_lookup_table_Heti_edition.tsv`; these are now in the archive. Its
-outputs, which the pipeline reads, are unchanged.
-

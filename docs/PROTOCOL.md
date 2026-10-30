@@ -1,17 +1,11 @@
 # Experimental protocol (declared before selection and outer-test evaluation)
 
-Owner: main agent. Status: **declared for pcfp_v1** (`configs/pcfp_v1.yaml`, 2026-10-08;
-completed, [REPORT_pcfp_v1.md](REPORT_pcfp_v1.md)) and **pcfp_v2** (`configs/pcfp_v2.yaml`,
-2026-10-08: the repeated-random design of §4b, now the default; everything else as for
-pcfp_v1).
+Owner: main agent. Status: **pcfp_v2** (`configs/pcfp_v2.yaml` and
+`configs/pcfp_v2_links.yaml`: the repeated-random design of §4b, [REPORT_pcfp_v2.md](REPORT_pcfp_v2.md);
+active selection from `pcfp_v1` remains available under `cv.design: core_selected`).
 Component details: [DATA.md](DATA.md), [SELECTION.md](SELECTION.md),
 [LDL_PROTOCOL.md](LDL_PROTOCOL.md), [TYPOLOGY.md](TYPOLOGY.md); interfaces:
 [CONTRACT.md](CONTRACT.md).
-
-The earlier source-known new-verb task (`pilot_v1`, [REPORT.md](REPORT.md)) is replaced and
-is not run again. Its outputs in `outputs/pilot_v1/` are kept unchanged as the archived
-record. The code that produced them is commit `24390cf` (merge of the 2026-10-08
-reorganisation commit `db9156f`).
 
 ## 0. Two outcomes
 
@@ -221,32 +215,28 @@ so `ldl_tune` runs before `select`.
   core items. These intervals are **conditional on the fitted fold models**. Fold
   variability is descriptive; fold SD/√K is not used.
 
-## 8. What is not done here
+## 8. What is not done inside the pipeline
 
-No admixture–morphology association is fitted. No setting or language is chosen by
-looking at ancestry values. GeLaTo populations are linked, not aggregated, and accepted
-links need a human `confirmed_by` + `confirmed_date`. The admixture exposure variable is
-undefined and was not looked at.
+The pipeline itself fits no admixture–morphology association and reads no ancestry values.
+GeLaTo populations are linked to language-level Glottocodes via rule-based acceptance and
+the confirmed decision sheet `morph_ldl/data/gelato_link_review.csv` ([TYPOLOGY.md](TYPOLOGY.md) §2).
 
-**Update 2026-10-10.** This section describes the pipeline, which still fits no
-admixture model and reads no ancestry value. Outside the pipeline, the user asked for an
-exploratory draft model (`analyses/draft_admixture_model_2026_10_10/`). It defines
-several candidate admixture measures and fits them against the Grambank outcome.
-* The ancestry values have therefore been seen, so later analyses are not blind to them.
-* The final exposure definition is still open.
-* The choices declared above (pcfp_v1, pcfp_v2) were made before 2026-10-10.
+Outside the pipeline, the two-stage hierarchical admixture → Grambank models (12
+inflectional categories and Grambank Flexivity across 202 languages and three
+link-sensitivity sets) are implemented and documented in
+[`analyses/admixture_links_2026_10_21/README.md`](../analyses/admixture_links_2026_10_21/README.md)
+(superseding the initial 175-language draft in `analyses/draft_admixture_model_2026_10_10/`).
+Because the ancestry values have been examined in those exploratory runs, subsequent
+analyses are not blind to them.
 
-## 9. Planned analysis (documented, not fitted)
+## 9. Outcome modeling design
 
-* **Grambank extent:** beta-binomial on (`n_present`, `n_coded`) per language (main set,
-  ≥ 60% coverage, non-proxy links). Add a hurdle or zero-inflation part only if
-  posterior predictive checks show excess zeros (4–6 languages are at or near zero).
+* **Grambank extent & Flexivity:** two-stage hierarchical exposure + beta-binomial outcome
+  on (`n_present`, `n_coded`) per language across phylogenetic and spatial controls; see
+  [`analyses/admixture_links_2026_10_21/README.md`](../analyses/admixture_links_2026_10_21/README.md).
 * **LDL predictability:** binomial at the item level with language random effects, or
   beta-binomial per language, inflecting languages only.
 * **Confounding:** the zero or near-zero languages (Khmer, Vietnamese, Naxi, She, Thai,
   Mandarin, Northern Tujia) are almost all in Mainland Southeast Asia and China and share
   East Asian ancestry. Any no-inflection part is weakly identified once area is
   controlled. It is descriptive, not a main test.
-* The admixture exposure variable is still undefined for the final analysis. The
-  2026-10-10 exploratory draft (§8) tried several candidate measures; it is not this
-  plan.

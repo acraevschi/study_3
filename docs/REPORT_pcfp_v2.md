@@ -5,28 +5,15 @@
 
 Date: 2026-10-08. Config: `configs/pcfp_v2.yaml`. Outputs: `outputs/pcfp_v2/`.
 
-The design is declared in [PROTOCOL.md](PROTOCOL.md) §4b. Everything except the
-training-sample design is as in pcfp_v1 ([REPORT_pcfp_v1.md](REPORT_pcfp_v1.md)): the
-task, cells, exposure draws, LDL protocol, tuning procedure and typology feature set.
+The design is declared in [PROTOCOL.md](PROTOCOL.md) §4b (the task, cells, exposure
+draws, LDL protocol, tuning procedure, and 12-category typology feature set).
 
 **Status.** The full chain ran: splits → ldl_tune → select → audit → ldl → evaluate →
 outcomes → typology → audit.
 
 * Both audits report **0 problems**: 52 artifact sets before the LDL fits, 56 at the end.
 * 163 tests pass, including 11 new tests for this design.
-* No admixture–morphology association was fitted, and no ancestry values were read.
-
-**Provenance caveats.**
-
-* **Uncommitted code.** The run used code not yet committed: the manifests record branch
-  `pcfp-v1` at `9c4ee53` with `pipeline_dirty: true`; the source hash is
-  `ee4ca9ae…`.
-* **Config edited mid-run.** `configs/pcfp_v2.yaml` was edited during the `ldl` stage by
-  a parallel session, which added `typology.dialect_entries: substitute` (see §5):
-  * splits through ldl recorded config hash `3b9a260e3164ef7b`;
-  * evaluate through the final audit recorded `39844bc4fe8d8c0f`.
-
-  The edit touches only the `typology` block, which no LDL stage reads.
+* No admixture–morphology association was fitted inside the pipeline, and no ancestry values were read.
 
 ## 1. Design
 
@@ -198,12 +185,14 @@ features therefore counts one property several times.
   problems.
 
 The check of whether "missing" languages are coded under another code or level is in
-TYPOLOGY.md §11. None are, apart from these three dialect-coded languages.
+[TYPOLOGY.md](TYPOLOGY.md) §10. None are, apart from these three dialect-coded languages.
+*(Note: the 2026-10-20 link rules in `configs/pcfp_v2_links.yaml` subsequently expanded
+the main Grambank set from 175 to 202 languages; see [TYPOLOGY.md](TYPOLOGY.md) §11.)*
 
 ## 6. Limitations
 
-As in REPORT_pcfp_v1 §9 (random exposure, single-word cells, citation-form reliance,
-additive semantics, low absolute accuracy), plus:
+Random exposure, single-word cells, citation-form reliance, additive semantics, and low
+absolute accuracy (see `analyses/ldl_ablation_2026_10_09/`), plus:
 
 * **Repeated cores, not resampled.** The core sets are fixed across draws. The
   draw-to-draw spread therefore isolates the training-verb sample, but does not cover a

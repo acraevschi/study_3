@@ -1,7 +1,9 @@
 # Shared contract: morphology sampling, LDL outcomes and GeLaTo linkage
 
 Owner: main agent. Components may propose changes; only the main agent edits this file.
-Version 6 (2026-10-08): repeated-random design (pcfp_v2, default `cv.design`), roles `random`/`unused`, seeds `core_split`/`random_draw`, `cv.semantic_seed_scope`. Version 5 (2026-10-08): paradigm cell filling (PCFP) replaces source-known completion (§4–§7), LDL selector, exposure manifest, core/seed/pool roles, Grambank typology outcome (§11). Version 4 (2026-10-06): auxiliary manifest, pool_cap item column, GeLaTo human confirmation; version 3: LDL output columns, semantic seed; version 2: eligibility exclusions, collection names, variant order, epitran segmentation. Versions ≤ 4 describe pilot_v1 (commit 24390cf).
+Current contract covers the repeated-random PCFP design (`pcfp_v2`, default `cv.design`),
+the optional `core_selected` active-selection design, and the Grambank typology & GeLaTo
+linkage stage (§11).
 
 ## 0. Scope and non-negotiables
 
