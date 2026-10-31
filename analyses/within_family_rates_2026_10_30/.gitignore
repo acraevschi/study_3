@@ -1,0 +1,10 @@
+fits/
+data/*.rds
+*.rds
+gen_rrw
+morph_rrw
+*.o
+*.so
+*.dylib
+*.dll
+*.log

@@ -1,0 +1,7 @@
+"cutoff","min_langs","outcome","n_families","n_languages","n_branches","n_contrasts"
+"min5",5,"cat12",10,144,268,134
+"min5",5,"flex",10,136,252,126
+"min5",5,"irreg13",10,125,230,115
+"min3",3,"cat12",13,153,280,140
+"min3",3,"flex",12,142,260,130
+"min3",3,"irreg13",12,131,238,119
