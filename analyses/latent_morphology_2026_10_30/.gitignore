@@ -1,0 +1,12 @@
+fits/
+fits_smoke/
+results_smoke/
+*.rds
+*.o
+*.so
+*.d
+*.hpp
+*.log
+stan/item_1factor
+stan/item_2factor
+stan/*.exe
