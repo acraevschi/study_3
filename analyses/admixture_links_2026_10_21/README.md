@@ -456,3 +456,71 @@ $P(\text{slope} < 0) = 0.89$ on `flex_cov60` and $0.93$ on `irreg13_cov60`), wit
 within $\pm 1.7$ of zero. This supports the distinction between **transparent categorial breadth**
 (high in admixed agglutinating families such as Turkic, mean share $0.71$) and **paradigmatic
 opacity / flexivity** (near zero in Turkic, mean share $0.04$, vs. Indo-European $0.37$).
+
+## 13. Demographic and range-area extension (`ADM_DEMOG`, 2026-10-30)
+
+Adds language-level L1 speaker population ($\log\text{population\_l1}$, `z_pop`) and geographic range
+area in $\text{km}^2$ ($\log\text{area\_km2}$, `z_area`) from the Study 3 demographic registry
+(`735e8ca`, extracted in `demography_sources/`), testing whether demography adds predictive power or
+interacts with the three core admixture mechanisms (`ent`, `het`, `f3k_est`) across `cat12`,
+`flex_cov60`, and `irreg13_cov60` (`main` link set, `plain` mode).
+
+**Linkage and invariants (`prepare.py --demog-only` → `language_data.csv`):**
+* **Population (`has_pop = 195 / 202` in `main`, `167 / 169` in `strict`):** 193 match
+  `global_demographic_registry.csv` directly by Glottocode (`179` Bromham `lang_L1.POP_lang`,
+  `10` Ethnologue multi-ISO `LMP_POP1`, `3` Koplenig `Population`, `1` pluricentric aggregate
+  `sout1528` `hbs` = `bos+hrv+srp`), and 2 `group_map_down` languages resolve via their parent
+  group ISO in Bromham/Multi-ISO/Koplenig (`minh1238` Mangghuer $\leftarrow$ `mjg` Tu, $152{,}000$;
+  `tanz1241` Tanzanian Ngoni $\leftarrow$ retired ISO `ngo` Ngoni, $223{,}000$). No proxy
+  population is ever substituted for the 4 other-language stand-ins (`cent2322`, `mbal1255`,
+  `mlah1239`, `saba1267`), the wrong-code link (`cypr1248`), or the 2 languages absent from all
+  Ethnologue/Bromham/Koplenig tables (`natu1246`, `naxi1245`).
+* **Measured range area (`has_area = 192 / 202` in `main`, `164 / 169` in `strict`):** Only measured
+  polygon areas enter `area_km2` (`182` Bromham `lang_polygon.area_lang` including `onto1237` `ojv`,
+  `2` Bromham group ISOs `mjg`/`ngo`, `9` Koplenig `Rangesize` on major languages omitted by Bromham
+  such as `eng`, `cmn`, `rus`, `fra`, `hak`, `arz`, `afb`, `apc`, `ayn`, and `1` Koplenig member sum
+  `hrv + srp` $= 151{,}882\text{ km}^2$ for `sout1528` `hbs`). The 3 `Ethnologue_multiISO` varieties
+  without a polygon in Bromham or Koplenig (`east2690` `avl`, `liby1240` `ayl`, `mala1479` `zlm`)
+  are set to `NA` rather than family-median imputed.
+* Across the 192 `main` languages with both predictors, $\log\text{pop}$ and $\log\text{area}$ correlate
+  at $r = 0.70$ ($\text{VIF} = 1.96$). All continuous predictors (`x`, `z_pop`, `z_area`) are
+  z-standardized on the exact Stage-2 language sample of each subset (`all`, `het`, `f3`) with
+  $\text{Normal}(0, 0.5)$ priors on all fixed slopes `b`.
+* **216 models fitted (`N` and `P` controls, 4 CPU cores = 1 fit $\times$ 4 chains):** 72 models per
+  outcome (`cat12` $N=192/188/173$, `flex_cov60` $N=180/177/162$, `irreg13_cov60` $N=168/164/152$):
+  4 no-$x$ baselines (`base`, `pop`, `area`, `pop_area`) per subset and 8 with-$x$ specifications
+  (`x`, `x_pop`, `x_int_pop`, `x_area`, `x_int_area`, `x_pop_area`, `x_int_pop_area`, `x_int_both`)
+  per exposure. Diagnostics: $\hat{R} \le 1.006$, bulk ESS $\ge 1{,}297$, **0 divergences** across
+  all 216 models.
+
+**1. Demography-only baselines (`subset = all`):**
+
+| Outcome ($N$) | Control | `pop` (`z_pop`) | `area` (`z_area`) | `pop_area` (`z_pop`, `z_area`) | $\Delta\text{elpd}$ vs `base` (`pop` / `area` / `pop_area`) |
+|---|---|---|---|---|---|
+| `cat12` ($192$) | `none` (`N`) | $+0.23\;[+0.10, +0.35]$ | $+0.34\;[+0.22, +0.47]$ | $-0.00, +0.35$ | $+4.8 \pm 3.8$ / $+12.5 \pm 5.6$ / $+11.7 \pm 5.6$ |
+| `cat12` ($192$) | `phylogeny` (`P`) | $-0.00\;[-0.17, +0.16]$ | $+0.00\;[-0.18, +0.17]$ | $-0.00, -0.00$ | $+0.7 \pm 0.7$ / $+0.5 \pm 0.6$ / $-0.4 \pm 0.6$ |
+| `flex_cov60` ($180$) | `none` (`N`) | $+0.25\;[+0.12, +0.38]$ | $+0.17\;[+0.04, +0.31]$ | $+0.26, -0.01$ | $+5.9 \pm 3.7$ / $+2.1 \pm 2.5$ / $+5.0 \pm 3.7$ |
+| `flex_cov60` ($180$) | `phylogeny` (`P`) | $-0.02\;[-0.17, +0.14]$ | $-0.02\;[-0.16, +0.12]$ | $-0.01, -0.02$ | $-0.7 \pm 0.4$ / $-0.1 \pm 0.5$ / $-1.0 \pm 0.9$ |
+| `irreg13_cov60` ($168$) | `none` (`N`) | $+0.24\;[+0.07, +0.41]$ | $+0.15\;[-0.03, +0.31]$ | $+0.26, -0.02$ | $+2.6 \pm 3.0$ / $+0.3 \pm 1.7$ / $+1.6 \pm 3.0$ |
+| `irreg13_cov60` ($168$) | `phylogeny` (`P`) | $+0.06\;[-0.17, +0.29]$ | $-0.01\;[-0.24, +0.22]$ | $+0.10, -0.07$ | $-0.8 \pm 0.7$ / $-0.4 \pm 0.5$ / $-1.2 \pm 1.1$ |
+
+**2. Admixture slopes and interactions under phylogenetic control (`P`, `plain` mode):**
+
+| Outcome | Exposure ($N$) | `x` only ($\beta_x$, $\Delta\text{elpd}_{\text{vs base}}$) | `x + pop + area` ($\beta_x$) | `x * pop` ($\beta_x$, $\beta_{x:\text{pop}}$, $\Delta\text{elpd}_{\text{int vs add}}$) | `x * area` ($\beta_x$, $\beta_{x:\text{area}}$, $\Delta\text{elpd}_{\text{int vs add}}$) |
+|---|---|---|---|---|---|
+| `cat12` | `ent` ($192$) | $+0.21\;[+0.06, +0.37]$ ($+4.5 \pm 2.3$) | $+0.21\;[+0.07, +0.37]$ | $+0.21$, $-0.01\;[-0.15, +0.12]$ ($-1.4 \pm 0.5$) | $+0.20$, $-0.10\;[-0.24, +0.05]$ ($-0.2 \pm 1.2$) |
+| `cat12` | `het` ($188$) | $+0.16\;[+0.03, +0.29]$ ($+1.0 \pm 2.7$) | $+0.17\;[+0.04, +0.31]$ | $+0.15$, $-0.04\;[-0.17, +0.10]$ ($-1.1 \pm 0.9$) | $+0.16$, $-0.03\;[-0.15, +0.10]$ ($-0.9 \pm 0.6$) |
+| `cat12` | `f3k_est` ($173$) | $+0.21\;[+0.07, +0.35]$ ($+3.8 \pm 2.8$) | $+0.21\;[+0.07, +0.35]$ | $+0.24$, $+0.07\;[-0.10, +0.24]$ ($-0.2 \pm 0.9$) | $+0.25$, $+0.06\;[-0.07, +0.18]$ ($-0.6 \pm 0.9$) |
+| `flex_cov60` | `ent` ($180$) | $+0.01\;[-0.14, +0.15]$ ($-0.4 \pm 0.6$) | $+0.01\;[-0.14, +0.16]$ | $+0.02$, $+0.03\;[-0.10, +0.16]$ ($-1.2 \pm 0.7$) | $+0.01$, $-0.00\;[-0.13, +0.14]$ ($-1.5 \pm 0.6$) |
+| `flex_cov60` | `het` ($177$) | $-0.02\;[-0.15, +0.10]$ ($-1.9 \pm 0.5$) | $-0.02\;[-0.16, +0.11]$ | $-0.03$, $-0.02\;[-0.14, +0.11]$ ($-0.3 \pm 0.7$) | $-0.03$, $-0.05\;[-0.17, +0.08]$ ($-1.7 \pm 0.9$) |
+| `flex_cov60` | `f3k_est` ($162$) | $-0.10\;[-0.23, +0.03]$ ($+0.8 \pm 1.2$) | $-0.10\;[-0.23, +0.03]$ | $-0.08$, $+0.06\;[-0.08, +0.21]$ ($-0.3 \pm 0.8$) | $-0.08$, $+0.04\;[-0.07, +0.14]$ ($-0.6 \pm 0.6$) |
+| `irreg13_cov60` | `ent` ($168$) | $-0.02\;[-0.24, +0.21]$ ($-0.8 \pm 0.5$) | $-0.03\;[-0.25, +0.20]$ | $-0.02$, $+0.05\;[-0.15, +0.24]$ ($-0.3 \pm 0.7$) | $-0.02$, $-0.02\;[-0.24, +0.18]$ ($-0.6 \pm 0.7$) |
+| `irreg13_cov60` | `het` ($164$) | $+0.00\;[-0.20, +0.19]$ ($-1.6 \pm 0.9$) | $+0.01\;[-0.21, +0.20]$ | $-0.04$, $-0.09\;[-0.29, +0.11]$ ($-0.4 \pm 0.6$) | $-0.04$, $-0.15\;[-0.35, +0.05]$ ($-0.5 \pm 1.3$) |
+| `irreg13_cov60` | `f3k_est` ($152$) | $-0.14\;[-0.34, +0.06]$ ($+0.5 \pm 1.0$) | $-0.15\;[-0.35, +0.06]$ | $-0.16$, $-0.00\;[-0.26, +0.26]$ ($-1.9 \pm 0.9$) | $-0.16$, $-0.02\;[-0.21, +0.15]$ ($-0.6 \pm 0.6$) |
+
+*(Note: without phylogenetic control `N`, `het` shows a strong negative interaction with both
+`z_pop` and `z_area` on `flex_cov60` ($\beta_{x:\text{pop}} = -0.20\;[-0.33, -0.06]$,
+$\Delta\text{elpd}_{\text{int vs add}} = +3.3 \pm 2.6$; $\beta_{x:\text{area}} = -0.21\;[-0.36, -0.08]$,
+$\Delta\text{elpd} = +3.7 \pm 2.4$) and `irreg13_cov60` ($\beta_{x:\text{pop}} = -0.26\;[-0.44, -0.08]$,
+$\Delta\text{elpd} = +3.3 \pm 2.4$; $\beta_{x:\text{area}} = -0.31\;[-0.50, -0.12]$,
+$\Delta\text{elpd} = +4.6 \pm 2.7$), driven by between-family differences.)*

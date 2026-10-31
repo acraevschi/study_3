@@ -21,16 +21,188 @@ Run: .venv/bin/python analyses/admixture_links_2026_10_21/prepare.py
 
 from __future__ import annotations
 
+import csv
 import json
+import math
 import re
 import sys
 from pathlib import Path
 
-import numpy as np
-import pandas as pd
+try:
+    import numpy as np
+    import pandas as pd
+except ImportError:
+    np = None  # type: ignore[assignment]
+    pd = None  # type: ignore[assignment]
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = Path(__file__).resolve().parent
+DEMOG_DIR = OUT / "demography_sources"
+
+# Group-level / retired-ISO mappings for the two group_map_down languages whose
+# parent group ISO carries measured L1 population and polygon area in Bromham/Koplenig.
+GROUP_ISO_MAP = {
+    "minh1238": "mjg",  # Mangghuer <- Tu (tuuu1240, ISO mjg)
+    "tanz1241": "ngo",  # Tanzanian Ngoni <- Ngoni (ngon1269, retired ISO ngo)
+}
+PLURICENTRIC_AREA_MEMBERS = {
+    "hbs": ["hrv", "srp"],  # Serbian-Croatian-Bosnian: Koplenig Rangesize on hrv + srp
+}
+
+
+def resolve_demography_rows(glottocodes: list[str]) -> list[dict[str, object]]:
+    """Resolve audited L1 speaker population and measured range area (km^2) per Glottocode.
+
+    Invariants:
+      1. No population is ever invented or proxy-substituted from another Grambank language.
+         Only direct Glottocode matches in global_demographic_registry.csv and the two
+         group_map_down parent ISOs (minh1238 -> mjg, tanz1241 -> ngo) are accepted.
+      2. No family/macroarea-imputed range area ever enters area_km2. Only measured polygon
+         areas from Bromham (lang_polygon.area_lang) or Koplenig (Rangesize, including the
+         hrv + srp sum for pluricentric hbs) are accepted; the 3 Ethnologue-multiISO rows
+         without a polygon in Bromham or Koplenig (avl, ayl, zlm) get area_km2 = None.
+    """
+    with open(DEMOG_DIR / "global_demographic_registry.csv", encoding="utf-8-sig") as f:
+        reg_by_gc = {r["glottocode"]: r for r in csv.DictReader(f) if r.get("glottocode")}
+    with open(DEMOG_DIR / "bromham_extracted.csv", encoding="utf-8-sig") as f:
+        brom_by_iso = {r["iso_639_3"]: r for r in csv.DictReader(f) if r.get("iso_639_3")}
+    with open(DEMOG_DIR / "ethnologue_population_data.csv", encoding="utf-8-sig") as f:
+        kop_by_iso = {r["ISO"]: r for r in csv.DictReader(f) if r.get("ISO")}
+
+    out: list[dict[str, object]] = []
+    for gc in glottocodes:
+        iso = ""
+        pop_l1: float | None = None
+        pop_src = ""
+        area_km2: float | None = None
+        area_src = ""
+
+        if gc in GROUP_ISO_MAP:
+            iso = GROUP_ISO_MAP[gc]
+            b = brom_by_iso[iso]
+            pop_l1 = float(b["population_l1"])
+            pop_src = "Bromham_group_ISO"
+            area_km2 = float(b["area_km2"])
+            area_src = "Bromham_group_ISO"
+        elif gc in reg_by_gc:
+            rr = reg_by_gc[gc]
+            iso = rr["iso_639_3"]
+            if rr.get("population_l1") not in (None, "", "nan", "NaN"):
+                pop_l1 = float(rr["population_l1"])
+                pop_src = rr["population_source"]
+            b_area = brom_by_iso.get(iso, {}).get("area_km2")
+            k_area = kop_by_iso.get(iso, {}).get("Rangesize")
+            if b_area not in (None, "", "NA", "0"):
+                area_km2 = float(b_area)
+                area_src = "Bromham"
+            elif k_area not in (None, "", "NA", "0"):
+                area_km2 = float(k_area)
+                area_src = "Koplenig"
+            elif iso in PLURICENTRIC_AREA_MEMBERS:
+                members = PLURICENTRIC_AREA_MEMBERS[iso]
+                area_km2 = sum(float(kop_by_iso[m]["Rangesize"]) for m in members)
+                area_src = "Aggregate_Koplenig"
+
+        has_pop = 1 if (pop_l1 is not None and pop_l1 > 0) else 0
+        has_area = 1 if (has_pop == 1 and area_km2 is not None and area_km2 > 0) else 0
+        out.append({
+            "glottocode": gc,
+            "iso_639_3": iso,
+            "population_l1": round(pop_l1, 6) if pop_l1 is not None else "",
+            "population_source": pop_src,
+            "area_km2": round(area_km2, 6) if area_km2 is not None else "",
+            "area_source": area_src,
+            "log_pop": round(math.log(pop_l1), 6) if pop_l1 is not None and pop_l1 > 0 else "",
+            "log_area": round(math.log(area_km2), 6) if area_km2 is not None and area_km2 > 0 else "",
+            "has_pop": has_pop,
+            "has_area": has_area,
+        })
+    return out
+
+
+def update_existing_language_data() -> None:
+    """Attach audited demographic columns to existing language_data.csv and prep_summary.json."""
+    ld_path = OUT / "language_data.csv"
+    with open(ld_path, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    demog_by_gc = {str(r["glottocode"]): r for r in resolve_demography_rows([r["glottocode"] for r in rows])}
+    demog_cols = ["iso_639_3", "population_l1", "population_source", "area_km2", "area_source",
+                  "log_pop", "log_area", "has_pop", "has_area"]
+    base_cols = [c for c in rows[0].keys() if c not in demog_cols]
+    fieldnames = base_cols + demog_cols
+    merged_rows = []
+    for r in rows:
+        dm = demog_by_gc[r["glottocode"]]
+        merged = {c: r[c] for c in base_cols}
+        for c in demog_cols:
+            merged[c] = dm[c]
+        merged_rows.append(merged)
+
+    with open(ld_path, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        w.writerows(merged_rows)
+
+    c12 = [r for r in merged_rows if int(r["n_coded"]) >= 8]
+    assert sum(int(r["has_pop"]) for r in c12 if int(r["in_main"]) == 1) == 195
+    assert sum(int(r["has_area"]) for r in c12 if int(r["in_main"]) == 1) == 192
+
+    # Compute correlation between log_pop and log_area on the 192 main cat12 languages
+    both_c12 = [r for r in c12 if int(r["in_main"]) == 1 and int(r["has_area"]) == 1]
+    lp = [float(r["log_pop"]) for r in both_c12]
+    la = [float(r["log_area"]) for r in both_c12]
+    mp, ma = sum(lp) / len(lp), sum(la) / len(la)
+    cov = sum((x - mp) * (y - ma) for x, y in zip(lp, la)) / (len(lp) - 1)
+    sp = (sum((x - mp) ** 2 for x in lp) / (len(lp) - 1)) ** 0.5
+    sa = (sum((y - ma) ** 2 for y in la) / (len(la) - 1)) ** 0.5
+    r_pa = cov / (sp * sa)
+
+    from collections import Counter
+    pop_src_cnt = dict(Counter(r["population_source"] or "MISSING" for r in c12 if int(r["in_main"]) == 1))
+    area_src_cnt = dict(Counter(r["area_source"] or "MISSING" for r in c12 if int(r["in_main"]) == 1))
+    missing_pop_gcs = [r["glottocode"] for r in c12 if int(r["in_main"]) == 1 and int(r["has_pop"]) == 0]
+    missing_area_only_gcs = [r["glottocode"] for r in c12 if int(r["in_main"]) == 1 and int(r["has_pop"]) == 1 and int(r["has_area"]) == 0]
+
+    summ_path = OUT / "prep_summary.json"
+    summ = json.loads(summ_path.read_text(encoding="utf-8"))
+    summ["demography"] = {
+        "sets_cat12": {
+            s: {
+                "languages_total": sum(1 for r in c12 if int(r[f"in_{s}"]) == 1),
+                "languages_has_pop": sum(int(r["has_pop"]) for r in c12 if int(r[f"in_{s}"]) == 1),
+                "languages_has_pop_and_area": sum(int(r["has_area"]) for r in c12 if int(r[f"in_{s}"]) == 1),
+            }
+            for s in ("main", "no_doubtful_language", "no_other_language_stand_ins", "strict")
+        },
+        "outcomes_main_cat12_denom": {
+            "cat12_cov60": {
+                "full": len(c12),
+                "has_pop": sum(int(r["has_pop"]) for r in c12),
+                "has_pop_and_area": sum(int(r["has_area"]) for r in c12),
+            },
+            "flex_cov60": {
+                "full": sum(1 for r in c12 if int(r["flex_coded"]) >= 18),
+                "has_pop": sum(int(r["has_pop"]) for r in c12 if int(r["flex_coded"]) >= 18),
+                "has_pop_and_area": sum(int(r["has_area"]) for r in c12 if int(r["flex_coded"]) >= 18),
+            },
+            "irreg13_cov60": {
+                "full": sum(1 for r in c12 if int(r["irreg13_coded"]) >= 8),
+                "has_pop": sum(int(r["has_pop"]) for r in c12 if int(r["irreg13_coded"]) >= 8),
+                "has_pop_and_area": sum(int(r["has_area"]) for r in c12 if int(r["irreg13_coded"]) >= 8),
+            },
+        },
+        "population_source_main": pop_src_cnt,
+        "area_source_main": area_src_cnt,
+        "group_iso_mappings": GROUP_ISO_MAP,
+        "pluricentric_area_members": PLURICENTRIC_AREA_MEMBERS,
+        "missing_pop_glottocodes_main": missing_pop_gcs,
+        "missing_area_only_glottocodes_main": missing_area_only_gcs,
+        "pearson_r_log_pop_log_area_main": round(r_pa, 4),
+        "vif_log_pop_log_area_main": round(1.0 / (1.0 - r_pa ** 2), 4),
+    }
+    summ_path.write_text(json.dumps(summ, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps(summ["demography"], indent=2))
+
 ARCH = ROOT / "analyses/gelato_feasibility_2026_10_01/sources/zenodo_15263706/geneticAdmixture-linguisticDiffusion"
 ADM = ARCH / "input/MegaAdmixtureCatalogue/ADMIXTURE"
 TYP = ROOT / "outputs/pcfp_v2_links_2026_10_20/typology"
@@ -40,7 +212,6 @@ N_BOOT = 400
 SEED = 20261021
 
 sys.path.insert(0, str(ROOT / "external/languages-of-the-world/src"))
-import low  # noqa: E402
 
 
 def entropy(q: np.ndarray) -> np.ndarray:
@@ -215,6 +386,7 @@ def main() -> None:
     li = ind.groupby("glottocode")[["ent", "nonmax"]].mean()
     d = d.join(li)
 
+    import low  # noqa: E402
     by_code = {l.glottocode: l for l in low.LanguagesOfTheWorld().languages if l.glottocode}
     vals = pd.read_csv(ROOT / "external/glottolog-cldf/cldf/values.csv", keep_default_na=False, dtype=str)
     lineage_gl = vals[vals.Parameter_ID == "classification"].set_index("Language_ID").Value.to_dict()
@@ -272,7 +444,8 @@ def main() -> None:
                                    "f3_z", "f3_est", "n_individuals", "n_triples"]].astype(float).rank().corr().round(2).to_dict(),
     }
     (OUT / "prep_summary.json").write_text(json.dumps(summ, indent=2))
-    print(json.dumps({k: v for k, v in summ.items() if k != "population_spearman"}, indent=2))
+    update_existing_language_data()
+    print(json.dumps({k: v for k, v in json.loads((OUT / "prep_summary.json").read_text()).items() if k != "population_spearman"}, indent=2))
 
 
 def newick(paths: dict[str, list[str]]) -> str:
@@ -295,4 +468,7 @@ def newick(paths: dict[str, list[str]]) -> str:
 
 
 if __name__ == "__main__":
-    main()
+    if "--demog-only" in sys.argv or np is None:
+        update_existing_language_data()
+    else:
+        main()
