@@ -27,9 +27,12 @@
 #                own:       all languages in the set meeting ADM_OUTCOME's coverage threshold (e.g. 202 for cat12, 193 for flex)
 #                intersect: only languages meeting both cat12 (>=60%) and Flexivity coverage (e.g. 189 for cat12 x flex)
 #              ADM_INTERSECT_WITH=flex (default) | flex26 | irreg13: partner outcome when ADM_OUTCOME=cat12 and ADM_SAMPLE=intersect.
-#              ADM_CTRLS=N,P,S,F: override control sets (default: N,P,S,F on main, F on sensitivity sets).
-#              ADM_PAR_FITS=k: parallel fits (default: 4 x 4 chains = 16 cores; 2 in smoke mode).
+#              ADM_CTRLS=N,P,S,F (or ADM_FAMILIES=N,P,S,F): override control sets (default: N,P,S,F on main, F on sensitivity sets).
+#              ADM_SETS=main,...: override analysis sets when no command-line set arguments are given.
+#              ADM_PAR_FITS=k: parallel fits (default: 1 x 4 chains = 4 cores; 2 x 2 chains = 4 cores in smoke mode).
 #              ADM_REUSE_STAGE1=1: reuse saved stage-1 exposure tables in results/ when available.
+#              ADM_DEMOG=none (default) | run (or both, 1) | pop: fit the demographic extension models (log_pop, log_area, and interactions with x).
+#              ADM_DEMOG_SPECS=a,b,...: optional subset of demographic stage-2 specifications to fit.
 #              ADM_TAG=x: result files get the suffix _x, so other runs' result files are kept.
 #   f3 sensitivity check (2026-10-21, README section 4):
 #     ADM_XMODE=both ADM_MEASURES=f3k_z,f3k_est,f3b3_z,f3b3_est ADM_TAG=f3check Rscript .../fit.R main
@@ -38,18 +41,26 @@ suppressPackageStartupMessages({
   library(brms); library(ape); library(loo); library(posterior); library(parallel)
 })
 options(brms.backend = "cmdstanr")
-here <- "analyses/admixture_links_2026_10_21"
+file_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+here <- if (length(file_arg)) dirname(normalizePath(sub("^--file=", "", file_arg[1]))) else "analyses/admixture_links_2026_10_21"
 smoke <- nzchar(Sys.getenv("ADM_SMOKE"))
 dry <- nzchar(Sys.getenv("ADM_DRY"))
-reuse_s1 <- nzchar(Sys.getenv("ADM_REUSE_STAGE1"))
+demog_raw <- Sys.getenv("ADM_DEMOG", "none")
+demog_mode <- if (!nzchar(demog_raw) || demog_raw %in% c("0", "none")) "" else if (demog_raw %in% c("1", "both", "run")) "both" else if (demog_raw == "pop") "pop" else stop("ADM_DEMOG must be none, 0, run, 1, both, or pop")
+reuse_s1 <- nzchar(Sys.getenv("ADM_REUSE_STAGE1")) || nzchar(demog_mode)
+s1_res_dir <- file.path(here, if (smoke) "results_smoke" else "results")
 fits_dir <- if (dry) tempdir() else file.path(here, if (smoke) "fits_smoke" else "fits")
 res_dir <- if (dry) tempdir() else file.path(here, if (smoke) "results_smoke" else "results")
+stan_cache_dir <- file.path(here, "stan_cache")
 dir.create(fits_dir, showWarnings = FALSE); dir.create(res_dir, showWarnings = FALSE)
+if (!dry) { dir.create(stan_cache_dir, showWarnings = FALSE); options(cmdstanr_write_stan_file_dir = stan_cache_dir) }
 if (smoke) {
   ITER <- 400; WARMUP <- 200; CHAINS <- 2; THREADS <- 1; PAR_FITS <- as.integer(Sys.getenv("ADM_PAR_FITS", "2"))
 } else {
-  ITER <- 3000; WARMUP <- 1500; CHAINS <- 4; THREADS <- 1; PAR_FITS <- as.integer(Sys.getenv("ADM_PAR_FITS", "4"))
+  ITER <- 3000; WARMUP <- 1500; CHAINS <- 4; THREADS <- 1; PAR_FITS <- as.integer(Sys.getenv("ADM_PAR_FITS", "1"))
 }
+max_cores <- as.integer(Sys.getenv("ADM_MAX_CORES", "4"))
+stopifnot(PAR_FITS * CHAINS * THREADS <= max_cores)
 SEED <- 20261021
 ALL_SETS <- c("main", "no_doubtful_language", "no_other_language_stand_ins", "strict")
 xmodes <- switch(Sys.getenv("ADM_XMODE", "me"), me = "me", plain = "plain", both = c("me", "plain"),
@@ -78,9 +89,12 @@ ix_partner_sfx <- if (ix_pair != "flex") paste0("_", ix_pair) else ""
 ix_extra <- if (sample_mode == "intersect" && outcome == "cat12" && other_outcome != "flex") paste0("_", other_outcome) else ""
 out_prefix <- if (is_default_cat12) "" else if (sample_mode == "intersect") paste0(outcome, cov_tag, "_ix", ix_extra, "__") else paste0(outcome, cov_tag, "__")
 s1_prefix <- if (is_default_cat12) "" else if (sample_mode == "intersect") paste0("ix_", ix_pair, cov_tag, "_") else paste0(outcome, cov_tag, "_")
-default_tag <- if (is_default_cat12) "" else if (sample_mode == "intersect") paste0(outcome, cov_tag, "_intersect", ix_extra) else paste0(outcome, cov_tag)
+demog_tag_sfx <- if (!nzchar(demog_mode)) "" else if (demog_mode == "pop") "demog_pop" else "demog"
+default_tag_base <- if (is_default_cat12) "" else if (sample_mode == "intersect") paste0(outcome, cov_tag, "_intersect", ix_extra) else paste0(outcome, cov_tag)
+default_tag <- if (!nzchar(demog_tag_sfx)) default_tag_base else if (nzchar(default_tag_base)) paste0(default_tag_base, "_", demog_tag_sfx) else demog_tag_sfx
 args <- commandArgs(trailingOnly = TRUE)
-sets <- if (length(args)) args else ALL_SETS
+sets_env <- if (nzchar(Sys.getenv("ADM_SETS"))) strsplit(Sys.getenv("ADM_SETS"), ",")[[1]] else NULL
+sets <- if (length(args)) args else if (!is.null(sets_env)) sets_env else ALL_SETS
 stopifnot(all(sets %in% ALL_SETS))
 
 d0 <- read.csv(file.path(here, "language_data.csv"), stringsAsFactors = FALSE)
@@ -194,19 +208,21 @@ stage1 <- function(set, m) {
   dat <- dat[!is.na(dat[[s$col]]), ]
   req_langs <- sort(unique(dat$glottocode))
   diag_cols <- c("set", "measure", "level", "n_obs", "n_lang", "max_rhat", "min_ess_bulk", "divergences", "sd_lang", "sd_pop", "sd_resid")
-  if (reuse_s1 && !dry) {
+  if (reuse_s1) {
     cand_sfx <- unique(c(tag, if (sample_mode == "intersect") c(paste0("_cat12", cov_tag, "_intersect", ix_partner_sfx), paste0("_", ix_pair, cov_tag, "_intersect")) else NULL, "", "_f3check", "_tailcheck"))
     for (sfx in cand_sfx) {
-      ef <- file.path(res_dir, paste0("exposure_", set, sfx, ".csv"))
-      df <- file.path(res_dir, paste0("stage1_diagnostics_", set, sfx, ".csv"))
+      ef <- file.path(s1_res_dir, paste0("exposure_", set, sfx, ".csv"))
+      df <- file.path(s1_res_dir, paste0("stage1_diagnostics_", set, sfx, ".csv"))
       if (file.exists(ef) && file.exists(df)) {
         e0 <- read.csv(ef, stringsAsFactors = FALSE); d0_s1 <- read.csv(df, stringsAsFactors = FALSE)
         e_sub <- e0[e0$measure == m, , drop = FALSE]
         d_sub <- d0_s1[d0_s1$measure == m, , drop = FALSE]
-        if (nrow(e_sub) && nrow(d_sub) && d_sub$n_obs[1] == nrow(dat) && setequal(e_sub$glottocode, req_langs)) {
+        if (nrow(e_sub) && nrow(d_sub) && ((d_sub$n_obs[1] == nrow(dat) && setequal(e_sub$glottocode, req_langs)) || all(req_langs %in% e_sub$glottocode))) {
+          e_sub <- e_sub[match(req_langs, e_sub$glottocode), , drop = FALSE]
           if (!"sd_pop" %in% names(d_sub)) d_sub$sd_pop <- NA_real_
+          d_sub$n_lang <- nrow(e_sub)
           d_sub <- d_sub[, diag_cols, drop = FALSE]
-          message(format(Sys.time(), "%H:%M"), " [", set, "] exposure ", m, " reused from ", basename(ef))
+          message(format(Sys.time(), "%H:%M"), " [", set, "] exposure ", m, " reused from ", basename(ef), " (", nrow(e_sub), " langs)")
           return(list(e = e_sub, diag = d_sub))
         }
       }
@@ -243,7 +259,8 @@ stage1 <- function(set, m) {
 
 rhs <- list(N = "", P = " + (1 | gr(lang, cov = A))", S = " + gp(sx, sy, sz)",
             F = " + (1 | gr(lang, cov = A)) + gp(sx, sy, sz)")
-ctrls_env <- if (nzchar(Sys.getenv("ADM_CTRLS"))) strsplit(Sys.getenv("ADM_CTRLS"), ",")[[1]] else NULL
+ctrls_raw <- if (nzchar(Sys.getenv("ADM_CTRLS"))) Sys.getenv("ADM_CTRLS") else Sys.getenv("ADM_FAMILIES")
+ctrls_env <- if (nzchar(ctrls_raw)) strsplit(ctrls_raw, ",")[[1]] else NULL
 if (!is.null(ctrls_env)) stopifnot(all(ctrls_env %in% names(rhs)))
 make_prior <- function(ctrl, with_x) {
   p <- c(prior(normal(0, 1.5), class = Intercept), prior(gamma(2, 0.1), class = phi))
@@ -258,6 +275,36 @@ err_text <- function(r) if (is.list(r)) paste(r$name, r$error) else as.character
 run_spec <- function(s) {
   tryCatch(run_spec_inner(s), error = function(e) list(name = s$name, error = conditionMessage(e)))
 }
+summ_term <- function(dr, col, pfx) {
+  if (!length(col) || is.na(col) || !col %in% names(dr)) return(list())
+  v <- dr[[col]]
+  setNames(list(mean(v), unname(quantile(v, .025)), unname(quantile(v, .05)),
+                unname(quantile(v, .95)), unname(quantile(v, .975)), mean(v < 0)),
+           c(paste0(pfx, "_mean"), paste0(pfx, "_q025"), paste0(pfx, "_q05"),
+             paste0(pfx, "_q95"), paste0(pfx, "_q975"), paste0("p_", sub("^b_", "", pfx), "_neg")))
+}
+extract_terms_df <- function(dr, s) {
+  cand <- c(x = if (identical(s$xmode, "me")) grep("^bsp_me", names(dr), value = TRUE)[1] else "b_x",
+            z_pop = "b_z_pop", z_area = "b_z_area",
+            `x:z_pop` = if (identical(s$xmode, "me")) grep("^bsp_me.*z_pop", names(dr), value = TRUE)[1] else "b_x:z_pop",
+            `x:z_area` = if (identical(s$xmode, "me")) grep("^bsp_me.*z_area", names(dr), value = TRUE)[1] else "b_x:z_area")
+  rows <- list()
+  for (tn in names(cand)) {
+    cn <- cand[[tn]]
+    if (!is.na(cn) && nzchar(cn) && cn %in% names(dr)) {
+      v <- dr[[cn]]
+      rows[[length(rows) + 1]] <- data.frame(
+        name = s$name, set = s$set, outcome = outcome, measure = s$measure,
+        dspec = if (!is.null(s$dspec)) s$dspec else if (s$with_x) "x" else "base",
+        xmode = s$xmode, ctrl = s$ctrl, subset = s$subset, n = nrow(s$data), term = tn,
+        mean = mean(v), sd = sd(v), q025 = unname(quantile(v, .025)), q05 = unname(quantile(v, .05)),
+        q95 = unname(quantile(v, .95)), q975 = unname(quantile(v, .975)),
+        p_neg = mean(v < 0), p_pos = mean(v > 0), stringsAsFactors = FALSE
+      )
+    }
+  }
+  if (length(rows)) do.call(rbind, rows) else NULL
+}
 run_spec_inner <- function(s) {
   t0 <- Sys.time()
   fit <- tryCatch(fit_brm(s$name, bf(as.formula(s$formula)), s$data, beta_binomial(),
@@ -265,33 +312,49 @@ run_spec_inner <- function(s) {
                           adapt = if (s$ctrl == "F") 0.995 else 0.99),
                   error = function(e) e)
   if (inherits(fit, "error")) return(list(name = s$name, error = conditionMessage(fit)))
-  if (dry) return(list(name = s$name, set = s$set, measure = s$measure, xmode = s$xmode, ctrl = s$ctrl, subset = s$subset, n = nrow(s$data)))
+  dspec_val <- if (!is.null(s$dspec)) s$dspec else if (s$with_x) "x" else "base"
+  if (dry) return(Filter(Negate(is.null), list(name = s$name, set = s$set, measure = s$measure, dspec = if (nzchar(demog_mode)) dspec_val else NULL, xmode = s$xmode, ctrl = s$ctrl, subset = s$subset, n = nrow(s$data))))
   fit <- add_criterion(fit, "loo", file = file.path(fits_dir, s$name))
   dr <- as_draws_df(fit); sm <- summarise_draws(dr)
-  out <- list(name = s$name, set = s$set, measure = s$measure, xmode = s$xmode, ctrl = s$ctrl, subset = s$subset, n = nrow(s$data),
+  out <- list(name = s$name, set = s$set, measure = s$measure,
+              dspec = if (nzchar(demog_mode)) dspec_val else NULL,
+              xmode = s$xmode, ctrl = s$ctrl, subset = s$subset, n = nrow(s$data),
               max_rhat = max(sm$rhat, na.rm = TRUE), min_ess_bulk = min(sm$ess_bulk, na.rm = TRUE),
               divergences = sum(subset(nuts_params(fit), Parameter == "divergent__")$Value),
               elpd_loo = fit$criteria$loo$estimates["elpd_loo", "Estimate"],
               pareto_k_gt_07 = sum(fit$criteria$loo$diagnostics$pareto_k > 0.7),
               minutes = as.numeric(difftime(Sys.time(), t0, units = "mins")))
+  out <- Filter(Negate(is.null), out)
   if (s$with_x) {
-    b <- dr[[grep(if (identical(s$xmode, "plain")) "^b_x$" else "^bsp_me", names(dr), value = TRUE)[1]]]
-    out <- c(out, list(b_mean = mean(b), b_q025 = unname(quantile(b, .025)), b_q05 = unname(quantile(b, .05)),
-                       b_q95 = unname(quantile(b, .95)), b_q975 = unname(quantile(b, .975)), p_b_neg = mean(b < 0)),
-             s$scale_info)
+    bx_col <- grep(if (identical(s$xmode, "plain")) "^b_x$" else "^bsp_me", names(dr), value = TRUE)[1]
+    if (!is.na(bx_col)) {
+      b <- dr[[bx_col]]
+      out <- c(out, list(b_mean = mean(b), b_q025 = unname(quantile(b, .025)), b_q05 = unname(quantile(b, .05)),
+                         b_q95 = unname(quantile(b, .95)), b_q975 = unname(quantile(b, .975)), p_b_neg = mean(b < 0)))
+    }
+    if (nzchar(demog_mode)) {
+      out <- c(out,
+               summ_term(dr, "b_z_pop", "b_pop"),
+               summ_term(dr, "b_z_area", "b_area"),
+               summ_term(dr, if (identical(s$xmode, "plain")) "b_x:z_pop" else grep("^bsp_me.*z_pop", names(dr), value = TRUE)[1], "b_x_pop"),
+               summ_term(dr, if (identical(s$xmode, "plain")) "b_x:z_area" else grep("^bsp_me.*z_area", names(dr), value = TRUE)[1], "b_x_area"))
+    }
+    if (!is.null(s$scale_info)) out <- c(out, s$scale_info)
   }
+  if (nzchar(demog_mode)) out$terms_df <- extract_terms_df(dr, s)
   message(format(Sys.time(), "%H:%M"), " done ", s$name, sprintf(" (%.1f min)", out$minutes))
   out
 }
 
 run_set <- function(set) {
-  message(format(Sys.time(), "%H:%M"), " ===== set ", set, " (outcome=", outcome, ", min_cov=", min_cov, ", sample=", sample_mode, ") =====")
+  message(format(Sys.time(), "%H:%M"), " ===== set ", set, " (outcome=", outcome, ", min_cov=", min_cov, ", sample=", sample_mode,
+          if (nzchar(demog_mode)) paste0(", demog=", demog_mode) else "", ") =====")
   ctrls <- if (!is.null(ctrls_env)) ctrls_env else if (set == "main") names(rhs) else "F"
   spref <- paste0(out_prefix, set)
   d <- keep_lang(d0[d0[[paste0("in_", set)]] == 1, ])
   d$n_present <- d[[ospec$pres]]; d$n_coded <- d[[ospec$coded]]
 
-  # stage 1 (fitted on the active language sample for this set)
+  # stage 1 (fitted on the active language sample for this set, or reused from saved tables)
   s1 <- par_run(as.list(names(exposure_specs)),
                 function(m) tryCatch(stage1(set, m), error = function(e) list(error = paste(m, conditionMessage(e)))))
   for (r in Filter(is_err, s1)) message("ERROR stage 1 ", err_text(r))
@@ -300,8 +363,14 @@ run_set <- function(set) {
   write.csv(expo, file.path(res_dir, paste0("exposure_", set, tag, ".csv")), row.names = FALSE)
   write.csv(do.call(rbind, lapply(s1, `[[`, "diag")), file.path(res_dir, paste0("stage1_diagnostics_", set, tag, ".csv")), row.names = FALSE)
 
-  # stage 2: baselines per (control set, language subset), then one model per measure and control set
-  # a language is in a subset when it has at least one population with that measure in this set
+  # stage 2: in demographic mode, restrict to languages with non-missing demographic predictors
+  if (nzchar(demog_mode)) {
+    demog_col <- if (demog_mode == "pop") "has_pop" else "has_area"
+    if (!all(c(demog_col, "log_pop", "log_area") %in% names(d)))
+      stop("language_data.csv is missing demographic columns; run 'prepare.py --demog-only' first")
+    d <- d[!is.na(d[[demog_col]]) & d[[demog_col]] == 1L, , drop = FALSE]
+    expo <- expo[expo$glottocode %in% d$glottocode, , drop = FALSE]
+  }
   inset <- pop0[pop0[[paste0("in_", set)]] == 1 & pop0$glottocode %in% d$glottocode, ]
   if (any(names(exposure_specs) %in% c("f3_z", "f3_est", "f3k_z", "f3k_est", "f3k_est_pos", "f3b3_z", "f3b3_est"))) {
     if (any(is.na(inset$n_triples)))
@@ -316,28 +385,107 @@ run_set <- function(set) {
     stopifnot(setequal(has("f3_z"), has("f3k_est")), setequal(has("f3_z"), has("f3k_est_pos")))
   subs <- subs[intersect(names(subs), vapply(names(exposure_specs), subset_of, ""))]   # baselines only where needed
   specs <- list()
-  for (sb in names(subs)) for (ctrl in ctrls) {
-    specs[[length(specs) + 1]] <- list(name = paste0(spref, "__base_", ctrl, "_", sb), set = set, measure = "none", xmode = "none", ctrl = ctrl,
-      subset = sb, data = d[d$glottocode %in% subs[[sb]], ],
-      formula = paste0("n_present | trials(n_coded) ~ 1", rhs[[ctrl]]), with_x = FALSE)
-  }
-  for (m in names(exposure_specs)) {
-    if (!m %in% expo$measure) next
-    e <- expo[expo$measure == m, ]
-    dd <- merge(d, e[, c("glottocode", "eta_mean", "eta_sd")], by = "glottocode")
-    if (!setequal(dd$glottocode, subs[[subset_of(m)]])) {    # with-x and baseline must see the same languages
-      message("ERROR ", set, " ", m, ": exposure languages differ from the ", subset_of(m), " subset; measure skipped"); next
+
+  if (!nzchar(demog_mode)) {
+    for (sb in names(subs)) for (ctrl in ctrls) {
+      specs[[length(specs) + 1]] <- list(name = paste0(spref, "__base_", ctrl, "_", sb), set = set, measure = "none", xmode = "none", ctrl = ctrl,
+        subset = sb, data = d[d$glottocode %in% subs[[sb]], ],
+        formula = paste0("n_present | trials(n_coded) ~ 1", rhs[[ctrl]]), with_x = FALSE)
     }
-    mu <- mean(dd$eta_mean); s <- sd(dd$eta_mean)
-    # the slope is per SD of eta over this set's languages; with y_sd it converts to raw units
-    # (b / (s * y_sd)), so slopes of different sets can be put on one scale
-    scale_info <- list(x_center = mu, x_scale = s, y_mean = e$y_mean[1], y_sd = e$y_sd[1])
-    dd$x <- (dd$eta_mean - mu) / s
-    dd$x_sd <- dd$eta_sd / s
-    for (xm in xmodes) for (ctrl in ctrls) {
-      specs[[length(specs) + 1]] <- list(name = paste0(spref, "__", m, "_", ctrl, if (xm == "plain") "_plain" else ""),
-        set = set, measure = m, xmode = xm, ctrl = ctrl, subset = subset_of(m), data = dd, with_x = TRUE, scale_info = scale_info,
-        formula = paste0("n_present | trials(n_coded) ~ 1 + ", if (xm == "me") "me(x, x_sd)" else "x", rhs[[ctrl]]))
+    for (m in names(exposure_specs)) {
+      if (!m %in% expo$measure) next
+      e <- expo[expo$measure == m, ]
+      dd <- merge(d, e[, c("glottocode", "eta_mean", "eta_sd")], by = "glottocode")
+      if (!setequal(dd$glottocode, subs[[subset_of(m)]])) {    # with-x and baseline must see the same languages
+        message("ERROR ", set, " ", m, ": exposure languages differ from the ", subset_of(m), " subset; measure skipped"); next
+      }
+      mu <- mean(dd$eta_mean); s <- sd(dd$eta_mean)
+      scale_info <- list(x_center = mu, x_scale = s, y_mean = e$y_mean[1], y_sd = e$y_sd[1])
+      dd$x <- (dd$eta_mean - mu) / s
+      dd$x_sd <- dd$eta_sd / s
+      for (xm in xmodes) for (ctrl in ctrls) {
+        specs[[length(specs) + 1]] <- list(name = paste0(spref, "__", m, "_", ctrl, if (xm == "plain") "_plain" else ""),
+          set = set, measure = m, xmode = xm, ctrl = ctrl, subset = subset_of(m), data = dd, with_x = TRUE, scale_info = scale_info,
+          formula = paste0("n_present | trials(n_coded) ~ 1 + ", if (xm == "me") "me(x, x_sd)" else "x", rhs[[ctrl]]))
+      }
+    }
+  } else {
+    dspref <- paste0(spref, "_", demog_tag_sfx)
+    base_dspecs <- list(
+      base     = list(rhs_d = "1",                with_x = FALSE),
+      pop      = list(rhs_d = "1 + z_pop",        with_x = TRUE),
+      area     = list(rhs_d = "1 + z_area",       with_x = TRUE),
+      pop_area = list(rhs_d = "1 + z_pop + z_area", with_x = TRUE)
+    )
+    x_dspecs <- list(
+      x              = "1 + <x>",
+      x_pop          = "1 + <x> + z_pop",
+      x_int_pop      = "1 + <x> * z_pop",
+      x_area         = "1 + <x> + z_area",
+      x_int_area     = "1 + <x> * z_area",
+      x_pop_area     = "1 + <x> + z_pop + z_area",
+      x_int_pop_area = "1 + <x> * z_pop + z_area",
+      x_int_both     = "1 + <x> * z_pop + <x> * z_area"
+    )
+    if (demog_mode == "pop") {
+      base_dspecs <- base_dspecs[c("base", "pop")]
+      x_dspecs <- x_dspecs[c("x", "x_pop", "x_int_pop")]
+    }
+    if (nzchar(Sys.getenv("ADM_DEMOG_SPECS"))) {
+      keep_ds <- strsplit(Sys.getenv("ADM_DEMOG_SPECS"), ",")[[1]]
+      stopifnot(all(keep_ds %in% c(names(base_dspecs), names(x_dspecs))))
+      base_dspecs <- base_dspecs[intersect(names(base_dspecs), keep_ds)]
+      x_dspecs <- x_dspecs[intersect(names(x_dspecs), keep_ds)]
+    }
+    # Precompute per-subset standardized z_pop and z_area so baselines and with-x models share identical scaling
+    sub_data <- list(); sub_scale <- list()
+    for (sb in names(subs)) {
+      dsb <- d[d$glottocode %in% subs[[sb]], , drop = FALSE]
+      dsb$log_pop <- as.numeric(dsb$log_pop)
+      pmu <- mean(dsb$log_pop); psd <- sd(dsb$log_pop)
+      dsb$z_pop <- (dsb$log_pop - pmu) / psd
+      amu <- NA_real_; asd <- NA_real_
+      if (demog_mode == "both") {
+        dsb$log_area <- as.numeric(dsb$log_area)
+        amu <- mean(dsb$log_area); asd <- sd(dsb$log_area)
+        dsb$z_area <- (dsb$log_area - amu) / asd
+      }
+      sub_data[[sb]] <- dsb
+      sub_scale[[sb]] <- list(pop_center = pmu, pop_scale = psd, area_center = amu, area_scale = asd)
+    }
+    for (sb in names(subs)) for (dsn in names(base_dspecs)) for (ctrl in ctrls) {
+      bds <- base_dspecs[[dsn]]
+      specs[[length(specs) + 1]] <- list(
+        name = paste0(dspref, "__", dsn, "_", ctrl, "_", sb),
+        set = set, measure = "none", dspec = dsn, xmode = "none", ctrl = ctrl,
+        subset = sb, data = sub_data[[sb]], with_x = bds$with_x, scale_info = sub_scale[[sb]],
+        formula = paste0("n_present | trials(n_coded) ~ ", bds$rhs_d, rhs[[ctrl]])
+      )
+    }
+    for (m in names(exposure_specs)) {
+      if (!m %in% expo$measure) next
+      sb <- subset_of(m)
+      e <- expo[expo$measure == m, ]
+      dd <- merge(sub_data[[sb]], e[, c("glottocode", "eta_mean", "eta_sd")], by = "glottocode")
+      if (!setequal(dd$glottocode, subs[[sb]])) {
+        message("ERROR ", set, " ", m, ": exposure languages differ from the ", sb, " subset; measure skipped"); next
+      }
+      mu <- mean(dd$eta_mean); s <- sd(dd$eta_mean)
+      scale_info <- c(list(x_center = mu, x_scale = s, y_mean = e$y_mean[1], y_sd = e$y_sd[1]), sub_scale[[sb]])
+      dd$x <- (dd$eta_mean - mu) / s
+      dd$x_sd <- dd$eta_sd / s
+      for (xm in xmodes) {
+        xterm <- if (xm == "me") "me(x, x_sd)" else "x"
+        for (dsn in names(x_dspecs)) for (ctrl in ctrls) {
+          rhs_x <- gsub("<x>", xterm, x_dspecs[[dsn]], fixed = TRUE)
+          specs[[length(specs) + 1]] <- list(
+            name = paste0(dspref, "__", m, "__", dsn, "_", ctrl, if (xm == "plain") "_plain" else ""),
+            set = set, measure = m, dspec = dsn, xmode = xm, ctrl = ctrl, subset = sb,
+            data = dd, with_x = TRUE, scale_info = scale_info,
+            formula = paste0("n_present | trials(n_coded) ~ ", rhs_x, rhs[[ctrl]])
+          )
+        }
+      }
     }
   }
   results <- par_run(specs, run_spec)
@@ -349,12 +497,19 @@ run_set <- function(set) {
     print(do.call(rbind, lapply(ok, as.data.frame)), row.names = FALSE)
     return(invisible(NULL))
   }
-  cols <- unique(unlist(lapply(ok, names)))
-  tab <- do.call(rbind, lapply(ok, function(r)
+  terms_list <- Filter(Negate(is.null), lapply(ok, `[[`, "terms_df"))
+  ok_clean <- lapply(ok, function(r) { r$terms_df <- NULL; r })
+  cols <- unique(unlist(lapply(ok_clean, names)))
+  tab <- do.call(rbind, lapply(ok_clean, function(r)
     as.data.frame(lapply(setNames(cols, cols), function(k) if (length(r[[k]])) r[[k]] else NA))))
   ctrl_label <- c(N = "none", P = "phylogeny", S = "space", F = "phylogeny+space")   # "F" alone is read back as FALSE
   tab_out <- tab; tab_out$ctrl <- unname(ctrl_label[as.character(tab$ctrl)])
   write.csv(tab_out, file.path(res_dir, paste0("model_results_", set, tag, ".csv")), row.names = FALSE)
+  if (nzchar(demog_mode) && length(terms_list)) {
+    terms_all <- do.call(rbind, terms_list)
+    terms_all$ctrl <- unname(ctrl_label[as.character(terms_all$ctrl)])
+    write.csv(terms_all, file.path(res_dir, paste0("demog_terms_", set, tag, ".csv")), row.names = FALSE)
+  }
 
   loo_of <- function(nm) {
     f <- file.path(fits_dir, paste0(nm, ".rds"))
@@ -362,8 +517,9 @@ run_set <- function(set) {
     readRDS(f)$criteria$loo
   }
   safe <- function(expr_fn, what) tryCatch(expr_fn(), error = function(e) { message("SKIPPED ", what, ": ", conditionMessage(e)); NULL })
+  base_prefix <- if (nzchar(demog_mode)) paste0(spref, "_", demog_tag_sfx) else spref
   cmp <- do.call(rbind, lapply(which(tab$measure != "none"), function(i) {
-    r <- tab[i, ]; base <- paste0(spref, "__base_", r$ctrl, "_", r$subset)
+    r <- tab[i, ]; base <- paste0(base_prefix, "__base_", r$ctrl, "_", r$subset)
     safe(function() {
       if (!all(c(r$name, base) %in% tab$name)) stop("model or baseline was not fitted in this run")
       l1 <- loo_of(r$name); l0 <- loo_of(base)
@@ -373,10 +529,67 @@ run_set <- function(set) {
     }, paste("LOO comparison", r$name))
   }))
   if (!is.null(cmp)) write.csv(cmp, file.path(res_dir, paste0("loo_x_vs_baseline_", set, tag, ".csv")), row.names = FALSE)
+  if (nzchar(demog_mode)) {
+    # Structured paired LOO comparisons across demographic and interaction specifications
+    demog_pairs <- list()
+    add_pair <- function(comp_label, m1_row, m0_name) {
+      if (!all(c(m1_row$name, m0_name) %in% tab$name)) return(NULL)
+      safe(function() {
+        l1 <- loo_of(m1_row$name); l0 <- loo_of(m0_name)
+        data.frame(set = set, outcome = outcome, measure = m1_row$measure, dspec = m1_row$dspec,
+                   ctrl = unname(ctrl_label[as.character(m1_row$ctrl)]), subset = m1_row$subset, n = m1_row$n,
+                   comparison = comp_label, model = m1_row$name, ref_model = m0_name,
+                   delta_elpd = l1$estimates["elpd_loo", "Estimate"] - l0$estimates["elpd_loo", "Estimate"],
+                   se_delta = loo_compare(l1, l0)[2, "se_diff"], stringsAsFactors = FALSE)
+      }, paste("demog LOO", comp_label, m1_row$name))
+    }
+    for (i in seq_len(nrow(tab))) {
+      r <- tab[i, ]
+      b_nm <- function(ds) paste0(base_prefix, "__", ds, "_", r$ctrl, "_", r$subset)
+      x_nm <- function(ds) paste0(base_prefix, "__", r$measure, "__", ds, "_", r$ctrl, if (r$xmode == "plain") "_plain" else "")
+      if (r$measure == "none") {
+        if (r$dspec %in% c("pop", "area", "pop_area"))
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair(paste0(r$dspec, "_vs_base"), r, b_nm("base"))
+        if (r$dspec == "pop_area") {
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("pop_area_vs_pop", r, b_nm("pop"))
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("pop_area_vs_area", r, b_nm("area"))
+        }
+      } else {
+        # 1) vs null baseline (base)
+        demog_pairs[[length(demog_pairs) + 1]] <- add_pair("vs_base", r, b_nm("base"))
+        # 2) vs matched demography-only baseline (does x / x*demog improve over demog alone?)
+        matched_b <- switch(r$dspec, x = "base", x_pop = "pop", x_int_pop = "pop",
+                            x_area = "area", x_int_area = "area",
+                            x_pop_area = "pop_area", x_int_pop_area = "pop_area", x_int_both = "pop_area", NULL)
+        if (!is.null(matched_b) && matched_b != "base")
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair(paste0("vs_", matched_b), r, b_nm(matched_b))
+        # 3) vs admixture-only model x (does adding demography / interaction improve over x alone?)
+        if (r$dspec != "x")
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("vs_x", r, x_nm("x"))
+        # 4) interaction vs additive (does the interaction term itself improve ELPD?)
+        if (r$dspec == "x_int_pop")
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("int_vs_add_pop", r, x_nm("x_pop"))
+        if (r$dspec == "x_int_area")
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("int_vs_add_area", r, x_nm("x_area"))
+        if (r$dspec == "x_pop_area")
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("add_area_vs_x_pop", r, x_nm("x_pop"))
+        if (r$dspec == "x_int_pop_area") {
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("int_pop_vs_add_pop_area", r, x_nm("x_pop_area"))
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("add_area_vs_x_int_pop", r, x_nm("x_int_pop"))
+        }
+        if (r$dspec == "x_int_both") {
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("int_both_vs_add_pop_area", r, x_nm("x_pop_area"))
+          demog_pairs[[length(demog_pairs) + 1]] <- add_pair("int_both_vs_int_pop_area", r, x_nm("x_int_pop_area"))
+        }
+      }
+    }
+    demog_cmp <- do.call(rbind, Filter(Negate(is.null), demog_pairs))
+    if (!is.null(demog_cmp)) write.csv(demog_cmp, file.path(res_dir, paste0("loo_demog_", set, tag, ".csv")), row.names = FALSE)
+  }
   if (length(ctrls) > 1) {
     ctrl_cmp <- do.call(rbind, lapply(names(subs), function(sb) safe(function() {
-      if (!all(paste0(spref, "__base_", ctrls, "_", sb) %in% tab$name)) stop("a baseline was not fitted in this run")
-      ls <- lapply(ctrls, function(c) loo_of(paste0(spref, "__base_", c, "_", sb))); names(ls) <- paste0("base_", ctrls, "_", sb)
+      if (!all(paste0(base_prefix, "__base_", ctrls, "_", sb) %in% tab$name)) stop("a baseline was not fitted in this run")
+      ls <- lapply(ctrls, function(c) loo_of(paste0(base_prefix, "__base_", c, "_", sb))); names(ls) <- paste0("base_", ctrls, "_", sb)
       lc <- loo_compare(ls)
       data.frame(set = set, subset = sb, model = rownames(lc), elpd_diff = lc[, "elpd_diff"], se_diff = lc[, "se_diff"])
     }, paste("control comparison", sb))))

@@ -289,5 +289,87 @@
       "n_individuals": -0.04,
       "n_triples": 1.0
     }
+  },
+  "demography": {
+    "sets_cat12": {
+      "main": {
+        "languages_total": 202,
+        "languages_has_pop": 195,
+        "languages_has_pop_and_area": 192
+      },
+      "no_doubtful_language": {
+        "languages_total": 174,
+        "languages_has_pop": 170,
+        "languages_has_pop_and_area": 167
+      },
+      "no_other_language_stand_ins": {
+        "languages_total": 193,
+        "languages_has_pop": 190,
+        "languages_has_pop_and_area": 187
+      },
+      "strict": {
+        "languages_total": 169,
+        "languages_has_pop": 167,
+        "languages_has_pop_and_area": 164
+      }
+    },
+    "outcomes_main_cat12_denom": {
+      "cat12_cov60": {
+        "full": 202,
+        "has_pop": 195,
+        "has_pop_and_area": 192
+      },
+      "flex_cov60": {
+        "full": 189,
+        "has_pop": 183,
+        "has_pop_and_area": 180
+      },
+      "irreg13_cov60": {
+        "full": 175,
+        "has_pop": 171,
+        "has_pop_and_area": 168
+      }
+    },
+    "population_source_main": {
+      "Bromham": 179,
+      "MISSING": 7,
+      "Ethnologue_multiISO": 10,
+      "Koplenig": 3,
+      "Bromham_group_ISO": 2,
+      "Aggregate": 1
+    },
+    "area_source_main": {
+      "Bromham": 182,
+      "MISSING": 8,
+      "Koplenig": 9,
+      "Bromham_group_ISO": 2,
+      "Aggregate_Koplenig": 1
+    },
+    "group_iso_mappings": {
+      "minh1238": "mjg",
+      "tanz1241": "ngo"
+    },
+    "pluricentric_area_members": {
+      "hbs": [
+        "hrv",
+        "srp"
+      ]
+    },
+    "missing_pop_glottocodes_main": [
+      "cent2322",
+      "cypr1248",
+      "mbal1255",
+      "mlah1239",
+      "natu1246",
+      "naxi1245",
+      "saba1267"
+    ],
+    "missing_area_only_glottocodes_main": [
+      "east2690",
+      "liby1240",
+      "mala1479"
+    ],
+    "pearson_r_log_pop_log_area_main": 0.6989,
+    "vif_log_pop_log_area_main": 1.9551
   }
 }

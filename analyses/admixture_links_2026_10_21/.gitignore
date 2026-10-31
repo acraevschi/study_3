@@ -2,4 +2,6 @@ fits/
 fits_hier/
 fits_smoke/
 results_smoke/
+stan_cache/
+*.rds
 *.log
