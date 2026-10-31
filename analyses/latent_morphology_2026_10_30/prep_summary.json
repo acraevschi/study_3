@@ -1,0 +1,96 @@
+{
+  "n_languages_total": 202,
+  "n_languages_main_cat12_cov60": 202,
+  "n_languages_main_cat12_irreg13_cov60": 175,
+  "n_languages_main_cat12_flex26_cov60": 186,
+  "n_items_cat12": 12,
+  "n_items_irreg13": 13,
+  "n_items_flex26": 26,
+  "n_total_observations": 6821,
+  "cat12_item_stats_main": {
+    "tense": {
+      "domain": "verbal_tam",
+      "n_coded": 197,
+      "n_present": 148,
+      "prop_present": 0.7513,
+      "r_item_rest": 0.6216
+    },
+    "aspect": {
+      "domain": "verbal_tam",
+      "n_coded": 193,
+      "n_present": 132,
+      "prop_present": 0.6839,
+      "r_item_rest": 0.3749
+    },
+    "mood": {
+      "domain": "verbal_tam",
+      "n_coded": 188,
+      "n_present": 137,
+      "prop_present": 0.7287,
+      "r_item_rest": 0.5551
+    },
+    "person_indexing": {
+      "domain": "person_indexing",
+      "n_coded": 198,
+      "n_present": 158,
+      "prop_present": 0.798,
+      "r_item_rest": 0.4384
+    },
+    "negation": {
+      "domain": "neg_interrog",
+      "n_coded": 197,
+      "n_present": 103,
+      "prop_present": 0.5228,
+      "r_item_rest": 0.3593
+    },
+    "polar_interrogation": {
+      "domain": "neg_interrog",
+      "n_coded": 170,
+      "n_present": 25,
+      "prop_present": 0.1471,
+      "r_item_rest": 0.1747
+    },
+    "nominal_number": {
+      "domain": "nominal_number",
+      "n_coded": 199,
+      "n_present": 146,
+      "prop_present": 0.7337,
+      "r_item_rest": 0.5777
+    },
+    "case": {
+      "domain": "case",
+      "n_coded": 199,
+      "n_present": 158,
+      "prop_present": 0.794,
+      "r_item_rest": 0.4337
+    },
+    "possessor_affix": {
+      "domain": "possession",
+      "n_coded": 171,
+      "n_present": 81,
+      "prop_present": 0.4737,
+      "r_item_rest": 0.2513
+    },
+    "possessed_affix": {
+      "domain": "possession",
+      "n_coded": 171,
+      "n_present": 100,
+      "prop_present": 0.5848,
+      "r_item_rest": 0.0221
+    },
+    "gender_agreement": {
+      "domain": "agreement",
+      "n_coded": 193,
+      "n_present": 71,
+      "prop_present": 0.3679,
+      "r_item_rest": 0.2836
+    },
+    "number_agreement": {
+      "domain": "agreement",
+      "n_coded": 185,
+      "n_present": 127,
+      "prop_present": 0.6865,
+      "r_item_rest": 0.2678
+    }
+  }
+}

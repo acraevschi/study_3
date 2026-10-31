@@ -1,0 +1,39 @@
+item_order,item_id,item_group,in_cat12,in_irreg13,in_flex26,domain,testlet,is_agreement,sources,description
+1,tense,cat12,1,0,0,verbal_tam,verbal_tam,0,GB082;GB083;GB084,"GBI category: tense (GB082, GB083, GB084)"
+2,aspect,cat12,1,0,0,verbal_tam,verbal_tam,0,GB086,GBI category: aspect (GB086)
+3,mood,cat12,1,0,0,verbal_tam,verbal_tam,0,GB312,GBI category: mood (GB312)
+4,person_indexing,cat12,1,0,0,person_indexing,none,0,GB089;GB090;GB091;GB092;GB093;GB094,"GBI category: person_indexing (GB089, GB090, GB091, GB092, GB093, GB094)"
+5,negation,cat12,1,0,0,neg_interrog,neg_interrog,0,GB107,GBI category: negation (GB107)
+6,polar_interrogation,cat12,1,0,0,neg_interrog,neg_interrog,0,GB285;GB286,"GBI category: polar_interrogation (GB285, GB286)"
+7,nominal_number,cat12,1,0,0,nominal_number,none,0,GB042;GB043;GB044;GB165;GB166,"GBI category: nominal_number (GB042, GB043, GB044, GB165, GB166)"
+8,case,cat12,1,0,0,case,none,0,GB070;GB071;GB072;GB073,"GBI category: case (GB070, GB071, GB072, GB073)"
+9,possessor_affix,cat12,1,0,0,possession,possession,0,GB430;GB432,"GBI category: possessor_affix (GB430, GB432)"
+10,possessed_affix,cat12,1,0,0,possession,possession,0,GB431;GB433,"GBI category: possessed_affix (GB431, GB433)"
+11,gender_agreement,cat12,1,0,0,agreement,agreement,1,GB170;GB171;GB172;GB198,"GBI category: gender_agreement (GB170, GB171, GB172, GB198)"
+12,number_agreement,cat12,1,0,0,agreement,agreement,1,GB184;GB185;GB186,"GBI category: number_agreement (GB184, GB185, GB186)"
+13,GB030,flex26,0,0,1,gender_nc,gender_nc,0,GB030,Is there a gender distinction in independent 3rd person pronouns?
+14,GB038,flex26,0,0,1,classifiers,classifiers,0,GB038,Are there demonstrative classifiers?
+15,GB039,flex26,0,1,1,noun_irreg,noun_irreg,0,GB039,Is there nonphonological allomorphy of noun number markers?
+16,GB041,flex26,0,1,1,noun_irreg,noun_irreg,0,GB041,Are there several nouns (more than three) which are suppletive for number?
+17,GB051,flex26,0,0,1,gender_nc,gender_nc,0,GB051,Is there a gender/noun class system where sex is a factor in class assignment?
+18,GB052,flex26,0,0,1,gender_nc,gender_nc,0,GB052,Is there a gender/noun class system where shape is a factor in class assignment?
+19,GB053,flex26,0,0,1,gender_nc,gender_nc,0,GB053,Is there a gender/noun class system where animacy is a factor in class assignment?
+20,GB054,flex26,0,0,1,gender_nc,gender_nc,0,GB054,Is there a gender/noun class system where plant status is a factor in class assignment?
+21,GB057,flex26,0,0,1,classifiers,classifiers,0,GB057,Are there numeral classifiers?
+22,GB058,flex26,0,0,1,classifiers,classifiers,0,GB058,Are there possessive classifiers?
+23,GB095,flex26,0,1,1,arg_split_classes,arg_split_classes,0,GB095,Are variations in marking strategies of core participants based on TAM distinctions?
+24,GB096,flex26,0,1,1,arg_split_classes,arg_split_classes,0,GB096,Are variations in marking strategies of core participants based on verb classes?
+25,GB098,flex26,0,1,1,arg_split_classes,arg_split_classes,0,GB098,Are variations in marking strategies of core participants based on person distinctions?
+26,GB099,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB099,Can verb stems alter according to the person of a core participant?
+27,GB109,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB109,Is there verb suppletion for participant number?
+28,GB110,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB110,Is there verb suppletion for tense or aspect?
+29,GB111,flex26,0,1,1,arg_split_classes,arg_split_classes,0,GB111,Are there conjugation classes?
+30,GB116,flex26,0,0,1,classifiers,classifiers,0,GB116,"Do verbs classify the shape, size or consistency of absolutive arguments by means of incorporated nouns, verbal affixes or suppletive verb stems?"
+31,GB177,flex26,0,0,1,evaluative_anim,evaluative_anim,0,GB177,"Can the verb carry a marker of animacy of argument, unrelated to any gender/noun class of the argument visible in the NP domain?"
+32,GB187,flex26,0,0,1,evaluative_anim,evaluative_anim,0,GB187,Is there any productive diminutive marking on the noun (exclude marking by system of nominal classification only)?
+33,GB188,flex26,0,0,1,evaluative_anim,evaluative_anim,0,GB188,Is there any productive augmentative marking on the noun (exclude marking by system of nominal classification only)?
+34,GB192,flex26,0,0,1,gender_nc,gender_nc,0,GB192,Is there a gender system where a noun's phonological properties are a factor in class assignment?
+35,GB300,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB300,Does the verb for 'give' have suppletive verb forms?
+36,GB321,flex26,0,1,1,noun_irreg,noun_irreg,0,GB321,Is there a large class of nouns whose gender/noun class is not phonologically or semantically predictable?
+37,GB402,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB402,Does the verb for 'see' have suppletive verb forms?
+38,GB403,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB403,Does the verb for 'come' have suppletive verb forms?
