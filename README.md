@@ -10,7 +10,10 @@
 >   of predictability.
 > * **Admixture models.** Exploratory two-stage admixture–Grambank models (12 inflectional
 >   categories and Grambank Flexivity across 202 languages, link sensitivity sets, $f_3$,
->   and `het`) are in [`analyses/admixture_links_2026_10_21/`](analyses/admixture_links_2026_10_21/README.md).
+>   `het`, demographic/areal extensions, within-family phylogenetic branch rates, and
+>   item-level 1PL/2PL/2-factor SEMs) are in [`analyses/grambank/`](analyses/grambank/README.md),
+>   sharing genetic, demographic, and phylogenetic utilities in [`analyses/common/`](analyses/README.md)
+>   with the LDL/Wug track in [`analyses/ldl/`](analyses/ldl/README.md).
 >   The ancestry values have been looked at, so later analyses are not blind to them.
 
 PhD Study 3: inflectional complexity and genetic admixture.
@@ -47,8 +50,9 @@ pipeline itself never reads ancestry values:
 | [docs/PIPELINE_OVERVIEW.md](docs/PIPELINE_OVERVIEW.md) | one-page diagram of the stages and fitted models |
 | [docs/TYPOLOGY.md](docs/TYPOLOGY.md) | Grambank inflection-extent outcome: sources, 12-category feature set, mapping rules, link review |
 | [docs/REPORT_pcfp_v2.md](docs/REPORT_pcfp_v2.md) | `pcfp_v2` results: repeated random draws |
-| [analyses/ldl_ablation_2026_10_09/README.md](analyses/ldl_ablation_2026_10_09/README.md) | LDL ablation (preliminary): cell-specific meaning vector and decoder settings |
-| [analyses/admixture_links_2026_10_21/README.md](analyses/admixture_links_2026_10_21/README.md) | exploratory admixture → Grambank inflection & Flexivity models on the 2026-10-20 links |
+| [analyses/README.md](analyses/README.md) | master navigation guide to `analyses/common/`, `analyses/grambank/`, and `analyses/ldl/` |
+| [analyses/grambank/README.md](analyses/grambank/README.md) | Track 1 (`grambank/`): `baseline/` (Beta-Binomial & demography), `phylo_rates/` (Bouckaert RRW & PICs), `latent_sem/` (1PL/2PL IRT & 2-factor SEM) |
+| [analyses/ldl/README.md](analyses/ldl/README.md) | Track 2 (`ldl/`): LDL/Wug paradigm outcomes linked to `analyses/common/`, plus [`analyses/ldl/ablation/README.md`](analyses/ldl/ablation/README.md) |
 
 ## Setup & Run
 
@@ -119,12 +123,12 @@ study_3/
 │
 ├── docs/                                     <- Protocol, contract, component docs and reports (table above)
 │
-├── analyses/                                 <- One-off analyses, each with its own README
-│   ├── gelato_feasibility_2026_10_01/        <- GeLaTo feasibility audit; sources/ holds the cached
-│   │                                            GeLaTo, Zenodo 15263706 and language-tree files
-│   ├── ldl_ablation_2026_10_09/              <- Why PCFP accuracy is low (preliminary)
-│   ├── draft_admixture_model_2026_10_10/     <- Initial exploratory admixture → Grambank draft (175 languages)
-│   └── admixture_links_2026_10_21/           <- Admixture → Grambank inflection & Flexivity on 2026-10-20 links
+├── analyses/                                 <- Modular analysis tracks & shared utilities (see analyses/README.md)
+│   ├── common/                               <- Shared genetics, f3, demography, phylogeny & Stage-1 exposure modules
+│   ├── grambank/                             <- Track 1: Admixture → Grambank (baseline/, phylo_rates/, latent_sem/)
+│   ├── ldl/                                  <- Track 2: Admixture → LDL/Wug predictability (incl. ablation/)
+│   └── gelato_feasibility_2026_10_01/        <- GeLaTo feasibility audit; sources/ holds the cached
+│                                                GeLaTo, Zenodo 15263706 and language-tree files
 │
 ├── tests/                                    <- pytest suite (fixtures in tests/fixtures/)
 │

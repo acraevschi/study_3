@@ -59,6 +59,7 @@ venv/
 # --- Agent scratch ------------------------------------------------------------
 .agents/
 prompts_for_agents/
+.prompts/
 # --- Claude Code project settings and agents (local only) ----------------------
 .claude/
 
