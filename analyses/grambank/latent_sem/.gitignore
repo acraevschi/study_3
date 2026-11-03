@@ -9,4 +9,6 @@ results_smoke/
 *.log
 stan/item_1factor
 stan/item_2factor
+stan/item_1factor_synthesis
+stan/item_2factor_synthesis
 stan/*.exe

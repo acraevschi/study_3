@@ -7,8 +7,11 @@
 #   - load_bouckaert_tree(nwk_path, gz_path, apply_split_map): loads the time-calibrated
 #     Bouckaert v2.0.0 global language tree (extracting STATE_1 from the Nexus .tree.gz
 #     archive if needed) and applies the 4 verified Glottolog 5.3 split mappings.
-#   - build_bouckaert_corr(glottocodes, tree, nwk_path): prunes the Bouckaert v2.0.0 tree
-#     to `glottocodes`, collapses singles, and returns `ape::vcv(pruned, corr = TRUE)`.
+#   - build_bouckaert_corr(glottocodes, families, tree, nwk_path, within_family, crown_only):
+#     prunes the Bouckaert v2.0.0 tree to `glottocodes` and returns the time-calibrated
+#     correlation matrix (global, block-diagonal crown-MRCA per family when
+#     `within_family = TRUE, crown_only = TRUE`, or block-diagonal global-stem per family
+#     when `within_family = TRUE, crown_only = FALSE`).
 
 suppressPackageStartupMessages(library(ape))
 
@@ -90,12 +93,83 @@ load_bouckaert_tree <- function(nwk_path = NULL, gz_path = NULL, apply_split_map
   tr
 }
 
-build_bouckaert_corr <- function(glottocodes, tree = NULL, nwk_path = NULL) {
+build_bouckaert_corr <- function(glottocodes, families = NULL, tree = NULL,
+                                 nwk_path = NULL, within_family = FALSE,
+                                 crown_only = TRUE, scale_by_age = FALSE) {
   if (is.null(tree)) {
     tree <- load_bouckaert_tree(nwk_path = nwk_path, apply_split_map = TRUE)
   }
-  pruned <- collapse.singles(keep.tip(tree, glottocodes))
-  A <- vcv(pruned, corr = TRUE)
-  stopifnot(all(glottocodes %in% rownames(A)))
+  glottocodes <- as.character(glottocodes)
+  stopifnot(all(glottocodes %in% tree$tip.label))
+
+  if (!isTRUE(within_family)) {
+    pruned <- collapse.singles(keep.tip(tree, glottocodes))
+    pruned$edge.length <- pmax(pruned$edge.length, 1e-4)
+    A <- vcv(pruned, corr = !isTRUE(scale_by_age))
+    if (isTRUE(scale_by_age)) {
+      A <- A / mean(diag(A))
+    }
+    stopifnot(all(glottocodes %in% rownames(A)))
+    return(A[glottocodes, glottocodes, drop = FALSE])
+  }
+
+  if (is.null(families)) {
+    stop("`families` must be provided when `within_family = TRUE`")
+  }
+  stopifnot(length(families) == length(glottocodes))
+  fam_chr <- as.character(families)
+  fam_eff <- ifelse(is.na(fam_chr) | !nzchar(fam_chr) | fam_chr == "isolate",
+                    paste0("isolate__", glottocodes), fam_chr)
+
+  if (!isTRUE(crown_only)) {
+    # Block-diagonal global-stem Bouckaert correlation matrix:
+    # zeroes out cross-family correlations while retaining each family's root-to-crown stem + kyr crown topology
+    pruned <- collapse.singles(keep.tip(tree, glottocodes))
+    pruned$edge.length <- pmax(pruned$edge.length, 1e-4)
+    A_glob <- vcv(pruned, corr = TRUE)[glottocodes, glottocodes, drop = FALSE]
+    same_fam <- outer(fam_eff, fam_eff, "==")
+    A_stem <- A_glob * same_fam
+    dimnames(A_stem) <- list(glottocodes, glottocodes)
+    return(A_stem)
+  }
+
+  # Block-diagonal crown-MRCA Bouckaert matrix per multi-language family (1.0 diagonal for singletons)
+  N <- length(glottocodes)
+  A <- diag(1.0, nrow = N, ncol = N)
+  dimnames(A) <- list(glottocodes, glottocodes)
+
+  # Precompute mean crown age (in kyr) across multi-language families when `scale_by_age = TRUE`
+  mean_crown_kyr <- 1.0
+  if (isTRUE(scale_by_age)) {
+    crown_ages <- numeric(0)
+    for (f in unique(fam_eff)) {
+      idx <- which(fam_eff == f)
+      if (length(idx) >= 2L) {
+        tr_f <- collapse.singles(keep.tip(tree, glottocodes[idx]))
+        tr_f$edge.length <- pmax(tr_f$edge.length, 1e-4)
+        crown_ages <- c(crown_ages, max(node.depth.edgelength(tr_f)))
+      }
+    }
+    if (length(crown_ages)) mean_crown_kyr <- mean(crown_ages)
+  }
+
+  for (f in unique(fam_eff)) {
+    idx <- which(fam_eff == f)
+    if (length(idx) >= 2L) {
+      gf <- glottocodes[idx]
+      tr_f <- collapse.singles(keep.tip(tree, gf))
+      tr_f$edge.length <- pmax(tr_f$edge.length, 1e-4)
+      if (isTRUE(scale_by_age)) {
+        A_f <- (vcv(tr_f, corr = FALSE) / mean_crown_kyr)[gf, gf, drop = FALSE]
+      } else {
+        A_f <- vcv(tr_f, corr = TRUE)[gf, gf, drop = FALSE]
+      }
+      eig_min <- min(eigen(A_f, symmetric = TRUE, only.values = TRUE)$values)
+      if (eig_min < 1e-6) {
+        A_f <- A_f + diag(1e-5, nrow = length(gf))
+      }
+      A[gf, gf] <- A_f
+    }
+  }
   A
 }

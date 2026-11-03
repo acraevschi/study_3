@@ -34,6 +34,7 @@
 #   LAT_TAG=x:            optional suffix for result CSVs
 
 Sys.setenv(OBJC_DISABLE_INITIALIZE_FORK_SAFETY = "YES")
+invisible(suppressWarnings(Sys.setlocale("LC_ALL", "en_US.UTF-8")))
 suppressPackageStartupMessages({
   library(brms); library(ape); library(loo); library(posterior); library(parallel); library(tools)
 })
@@ -69,7 +70,8 @@ if (smoke) {
 } else {
   ITER <- 2000L; WARMUP <- 1000L; CHAINS <- 4L; PAR_FITS <- as.integer(Sys.getenv("LAT_PAR_FITS", "1"))
 }
-stopifnot(PAR_FITS * CHAINS <= 4L)
+max_cores <- as.integer(Sys.getenv("LAT_MAX_CORES", "4"))
+stopifnot(PAR_FITS * CHAINS <= max_cores)
 SEED <- 20261030L
 
 ALL_SETS <- c("main", "no_doubtful_language", "no_other_language_stand_ins", "strict")
