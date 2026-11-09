@@ -49,6 +49,7 @@ venv/
 .Rhistory
 .RData
 .Rproj.user/
+Rplots.pdf
 
 # --- Editor / OS ------------------------------------------------------------
 .DS_Store

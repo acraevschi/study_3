@@ -74,7 +74,7 @@ Both the analytical PIC branch-rate reconstruction (`contrasts_diagnostic.R` $\t
 
 Across the $134$ internal node contrasts in `min5` ($10$ families) and $140$ contrasts in `min3` ($13$ families):
 
-| Outcome | Genetic Measure | `min5` Contrasts | Rate Test: Spearman $\rho(|c^{\text{morph}}|, \|c^{\text{gen}}\|)$ ($p$) | Directional Test: Standardized Slope $\Delta M \sim 0 + \Delta G$ ($\pm$ SE, $p$) |
+| Outcome | Genetic Measure | `min5` Contrasts | Rate Test: Spearman $\rho(\lvert c^{\text{morph}} \rvert, \lVert c^{\text{gen}} \rVert)$ ($p$) | Directional Test: Standardized Slope $\Delta M \sim 0 + \Delta G$ ($\pm$ SE, $p$) |
 | :--- | :--- | :---: | :---: | :---: |
 | **`cat12`** | `ent` | 134 | **$-0.285$** ($p = 0.00085$) | **$+0.182 \pm 0.085$** ($p = 0.035$) |
 | | `sqrt_het` | 133 | $+0.151$ ($p = 0.084$) | $+0.092 \pm 0.087$ ($p = 0.289$) |
