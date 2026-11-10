@@ -65,7 +65,7 @@ if (smoke) {
 } else {
   ITER <- 3000; WARMUP <- 1500; CHAINS <- 4; THREADS <- 1; PAR_FITS <- as.integer(Sys.getenv("ADM_PAR_FITS", "1"))
 }
-max_cores <- as.integer(Sys.getenv("ADM_MAX_CORES", "4"))
+max_cores <- as.integer(Sys.getenv("ADM_MAX_CORES", as.character(max(4L, parallel::detectCores(logical = TRUE), na.rm = TRUE))))
 stopifnot(PAR_FITS * CHAINS * THREADS <= max_cores)
 SEED <- 20261021
 ALL_SETS <- c("main", "no_doubtful_language", "no_other_language_stand_ins", "strict")

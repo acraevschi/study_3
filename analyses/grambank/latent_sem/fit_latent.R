@@ -70,7 +70,7 @@ if (smoke) {
 } else {
   ITER <- 2000L; WARMUP <- 1000L; CHAINS <- 4L; PAR_FITS <- as.integer(Sys.getenv("LAT_PAR_FITS", "1"))
 }
-max_cores <- as.integer(Sys.getenv("LAT_MAX_CORES", "4"))
+max_cores <- as.integer(Sys.getenv("LAT_MAX_CORES", as.character(max(4L, parallel::detectCores(logical = TRUE), na.rm = TRUE))))
 stopifnot(PAR_FITS * CHAINS <= max_cores)
 SEED <- 20261030L
 

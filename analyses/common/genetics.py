@@ -599,7 +599,7 @@ def write_rows_csv(rows: list[dict[str, object]], path: Path, fieldnames: list[s
 def build_gelato_populations_summary(
     out_path: Path | None = DATA_DIR / "gelato_populations_summary.csv",
 ):
-    """Compute and optionally save summary genetic measures for all 413 ADMIXTURE populations."""
+    """Compute and optionally save summary genetic measures for all 558 ADMIXTURE populations."""
     info, Q = load_admixture_q()
     if pd is not None and isinstance(info, pd.DataFrame):
         ind = compute_individual_measures(info, Q)

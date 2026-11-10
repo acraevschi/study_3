@@ -52,16 +52,16 @@ To test whether the choice of genetic statistic and coordinate embedding affects
 
 Both the analytical PIC branch-rate reconstruction (`contrasts_diagnostic.R` $\to$ `results/jump_demographic_audit.csv`) and the Stage-1 Bayesian RRW model (`gen_rrw.stan` $\to$ `results/stage1_branch_jumps.csv`) confirm the central population-genetic critique from the statistical review:
 
-### 3.1 Correlation of Terminal Branch Jump Rates with GeLaTo Effective Population Size ($N_e$) and Sample Size ($n_i$)
+### 3.1 Correlation of Terminal Branch Jump Rates with GeLaTo Effective Population Size ($N_e$) and Admixture Benchmarks (`results/jump_demographic_audit.csv` & `results/stage1_branch_jumps.csv`)
 
-| Genetic Representation | PIC Rate $\rho(N_e)$ (`min5`) | PIC Rate $\rho(N_e)$ (`min3`) | Stan $\hat{J}_b$ $\rho(N_e)$ (`min5`) | Stan $\hat{J}_b$ $\rho(\text{ent})$ | Stan $\hat{J}_b$ $\rho(f_3)$ | Diagnostic Reading |
-| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **`fst_within_d3`** | **$-0.404$** ($p = 1.0 \times 10^{-5}$) | **$-0.430$** ($p = 8.7 \times 10^{-7}$) | **$-0.334$** ($p = 3.5 \times 10^{-4}$) | $+0.282$ | $+0.007$ | **Heavily confounded by low-$N_e$ isolation bottlenecks** |
-| **`fst_global_d3`** | $-0.121$ ($p = 0.20$) | $-0.136$ ($p = 0.14$) | $-0.096$ ($p = 0.31$) | $+0.280$ | $+0.066$ | **Dominated by $n=1\text{--}2$ small-sample noise & intercontinental axes** |
-| **`q_within_d3`** | $-0.066$ ($p = 0.49$) | $-0.100$ ($p = 0.27$) | **$-0.010$** ($p = 0.91$) | **$+0.329$** | $+0.098$ | **Unconfounded by $N_e$; captures within-family ancestry shifts** |
-| **`ent`** | $-0.043$ ($p = 0.65$) | $-0.011$ ($p = 0.91$) | $-0.123$ ($p = 0.20$) | $+0.081$ | $-0.006$ | Unconfounded by $N_e$ |
-| **`sqrt_het`** | $-0.197$ ($p = 0.038$) | $-0.189$ ($p = 0.038$) | $-0.146$ ($p = 0.13$) | $+0.080$ | $+0.143$ | Mild negative $N_e$ correlation |
-| **`f3k_est_pos`** | $+0.172$ ($p = 0.070$) | $+0.193$ ($p = 0.034$) | $+0.024$ ($p = 0.80$) | **$+0.338$** | **$+0.415$** | Unconfounded by $N_e$; tracks positive admixture evidence |
+| Genetic Representation | PIC Rate $\rho(N_e)$ (`min5`) | PIC Rate $\rho(N_e)$ (`min3`) | PIC Rate $\rho(\text{ent})$ (`min5`) | PIC Rate $\rho(f_3)$ (`min5`) | PIC Rate $\rho(\text{graff})$ (`min5`) | Stan $\hat{J}_b$ $\rho(N_e)$ (`min5`) | Stan $\hat{J}_b$ $\rho(\text{ent})$ (`min5`) | Stan $\hat{J}_b$ $\rho(f_3)$ (`min5`) | Diagnostic Reading |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **`fst_within_d3`** | **$-0.404$** ($p = 9.9 \times 10^{-6}$) | **$-0.430$** ($p = 8.5 \times 10^{-7}$) | $+0.239$ ($p = 0.0039$) | $-0.063$ ($p = 0.45$) | **$+0.300$** ($p = 2.6 \times 10^{-4}$) | **$-0.334$** ($p = 3.3 \times 10^{-4}$) | $+0.282$ | $+0.007$ | **Heavily confounded by low-$N_e$ isolation bottlenecks** |
+| **`fst_global_d3`** | $-0.121$ ($p = 0.20$) | $-0.136$ ($p = 0.14$) | $+0.175$ ($p = 0.036$) | $-0.029$ ($p = 0.73$) | $+0.112$ ($p = 0.18$) | $-0.096$ ($p = 0.31$) | $+0.280$ | $+0.066$ | **Dominated by $n=1\text{--}2$ small-sample noise & intercontinental axes** |
+| **`q_within_d3`** | $-0.066$ ($p = 0.49$) | $-0.100$ ($p = 0.27$) | **$+0.306$** ($p = 1.9 \times 10^{-4}$) | $+0.067$ ($p = 0.43$) | $+0.065$ ($p = 0.44$) | **$-0.010$** ($p = 0.91$) | **$+0.329$** | $+0.098$ | **Unconfounded by $N_e$; captures within-family ancestry shifts** |
+| **`ent`** | $-0.043$ ($p = 0.65$) | $-0.011$ ($p = 0.91$) | $+0.063$ ($p = 0.45$) | $-0.036$ ($p = 0.67$) | $-0.063$ ($p = 0.45$) | $-0.123$ ($p = 0.20$) | $+0.081$ | $-0.006$ | Unconfounded by $N_e$ |
+| **`sqrt_het`** | $-0.197$ ($p = 0.038$) | $-0.189$ ($p = 0.038$) | $+0.082$ ($p = 0.33$) | $+0.026$ ($p = 0.76$) | $+0.183$ ($p = 0.029$) | $-0.146$ ($p = 0.12$) | $+0.080$ | $+0.143$ | Mild negative $N_e$ correlation |
+| **`f3k_est_pos`** | $+0.172$ ($p = 0.070$) | $+0.193$ ($p = 0.034$) | **$+0.284$** ($p = 5.8 \times 10^{-4}$) | **$+0.425$** ($p = 1.3 \times 10^{-7}$) | $+0.068$ ($p = 0.42$) | $+0.024$ ($p = 0.80$) | **$+0.338$** | **$+0.415$** | Unconfounded by $N_e$; tracks positive admixture evidence |
 
 ### 3.2 Concrete Examples from the Top Stage-1 Stan Branch Jumps (`results/stage1_branch_jumps.csv`)
 - **Under `fst_within_d3`:** The #1 largest branch jump in the entire Stan RRW model is **Rennell-Bellona (`renn1242`, $\hat{J}_b = +3.12$, rate multiplier $25.7\times$)**—an isolated Polynesian outlier island with an effective population size of just **$N_e = 267.9$**, strongly *low* admixture entropy (`-1.42 SD`), and clamped $f_3 = 0$. Other top `fst_within_d3` jumps include **Nganasan (`ngan1291`, $\hat{J}_b = +2.00$, $N_e = 772$, `ent` $= -2.04$ SD)** and **Mrassu Shor-Tutal (`shor1247`, $\hat{J}_b = +2.36$, $N_e = 811$)**. Because $F_{ST}$ has within-population heterozygosity in its denominator, isolated populations with strong genetic drift produce massive $F_{ST}$ branch jumps that mimic contact.
@@ -102,15 +102,15 @@ Across the $134$ internal node contrasts in `min5` ($10$ families) and $140$ con
 
 ## 5. Finding 3: Two-Stage Stan RRW & Directional Drift Models (`results/stage2_morph_rrw_results.csv`)
 
-### 5.1 MCMC Diagnostics
-- **Stage 1 (`gen_rrw.stan`, 12 fits):** All 12 models converged cleanly describing substantial within-family genetic rate heterogeneity ($\hat{\tau}_J \in [0.68, 1.95]$ across representations).
-- **Stage 2 (`morph_rrw.stan`, 150 fits):** $\max \hat{R} = 1.013$, minimum bulk $\text{ESS} = 591$, and only 22 divergent transitions across all $150 \times 4,000 = 600,000$ post-warmup draws (140 of 150 models had 0 divergences).
+### 5.1 MCMC Diagnostics (`results/stage1_genetic_rrw_diagnostics.csv` & `results/stage2_morph_rrw_results.csv`)
+- **Stage 1 (`gen_rrw.stan`, 12 fits):** All 12 models estimate substantial within-family genetic rate heterogeneity ($\hat{\tau}_J \in [0.68, 1.95]$ across representations). Because `gen_rrw.stan` places a heavy-tailed $\text{Student-}t(3, 0, \tau_J)$ prior on $268\text{--}280$ branch rate multipliers given only $144\text{--}153$ tips, internal branches are weakly identified: 4 of 12 fits (`min5` and `min3` for `ent` and `sqrt_het`) converged with $0$ divergences and $\max \hat{R} \le 1.014$ ($\text{ESS}_{\text{bulk}} \ge 595$), 5 fits (`min5` and `min3` for `fst_within_d3` and `fst_global_d3`, plus `min3` `f3k_est_pos`) had $0$ divergences with slightly elevated $\max \hat{R} \in [1.015, 1.056]$ ($\min \text{ESS}_{\text{bulk}} \in [66, 181]$) on internal branches, and 3 fits (`min5` `f3k_est_pos` [40 divergences, $\max \hat{R} = 1.063$, $\min \text{ESS}_{\text{bulk}} = 43$], `min5` `q_within_d3` [40 divergences, $\max \hat{R} = 1.030$, $\min \text{ESS}_{\text{bulk}} = 199$], and `min3` `q_within_d3` [50 divergences, $\max \hat{R} = 1.078$, $\min \text{ESS}_{\text{bulk}} = 41$]) exhibited funnel divergences on internal branches.
+- **Stage 2 (`morph_rrw.stan`, 150 fits = 6 `clock` baselines + 144 predictor models):** $\max \hat{R} = 1.013$, minimum bulk $\text{ESS} = 591$, and only 22 divergent transitions across all $150 \times 4,000 = 600,000$ post-warmup draws (138 of 150 models had 0 divergences).
 
 ### 5.2 Primary Set Results (`min5`: 10 families, $\ge 5$ languages/family)
 
-Each cell reports the posterior mean and 95% credible interval (with $\Delta\text{elpd}_{\text{LOO}}$ against the strict-clock within-family phylogenetic baseline in parentheses):
+Each cell reports the posterior mean and 95% credible interval (with $\Delta\text{elpd}_{\text{LOO}}$ against the strict-clock within-family phylogenetic baseline in parentheses). Note that in `fit_rrw.R` (`lines 217–224`), `dir_signed` is the **signed root-to-tip shift** $x_i - \hat{\mu}_f$ for the three 1D scalar representations (`ent`, `sqrt_het`, `f3k_est_pos`) and the **unsigned Euclidean distance** $\|\mathbf{x}_i - \hat{\boldsymbol{\mu}}_f\|_2 \ge 0$ from the reconstructed 3D family root for the three 3D coordinate embeddings (`q_within_d3`, `fst_within_d3`, `fst_global_d3`):
 
-| Outcome ($N$) | Genetic Measure | `rate`: Volatility $\gamma_{\text{rate}}$ ($\Delta\text{elpd}$) | `dir_jump`: Cumul. Rate Jump $\beta_{\text{dir}}$ ($\Delta\text{elpd}$) | `dir_signed`: Signed Root Shift $\beta_{\text{dir}}$ ($\Delta\text{elpd}$) |
+| Outcome ($N$) | Genetic Measure | `rate`: Volatility $\gamma_{\text{rate}}$ ($\Delta\text{elpd}$) | `dir_jump`: Cumul. Rate Jump $\beta_{\text{dir}}$ ($\Delta\text{elpd}$) | `dir_signed`: Signed Root Shift (1D) / Root Distance (3D) $\beta_{\text{dir}}$ ($\Delta\text{elpd}$) |
 | :--- | :--- | :---: | :---: | :---: |
 | **`cat12`** ($N=144$) | `ent` | $-0.18\;[-1.02, +0.45]$ ($-0.6$) | $-0.05\;[-0.25, +0.15]$ ($-1.3$) | **$+0.16\;[-0.00, +0.32]$** ($+1.2$) |
 | | `sqrt_het` | $+0.00\;[-0.85, +0.49]$ ($+0.1$) | $+0.08\;[-0.05, +0.20]$ ($-1.4$) | $+0.09\;[-0.03, +0.22]$ ($-0.6$) |
@@ -141,8 +141,8 @@ Each cell reports the posterior mean and 95% credible interval (with $\Delta\tex
    Across all 36 `rate` and `both` models (2 family cutoffs $\times$ 3 outcomes $\times$ 6 genetic measures), the rate-coupling exponent $\gamma_{\text{rate}}$ has wide 95% credible intervals spanning zero (typically $[-1.0, +0.6]$), most point estimates are slightly negative ($-0.32$ to $+0.22$), and $\Delta\text{elpd}_{\text{LOO}}$ against the strict clock is indistinguishable from zero ($-1.7$ to $+1.1$). A single morphological summary count per tip simply cannot support branch-specific variance stretching, and genetic branch jumps do not accelerate undirected morphological volatility.
 2. **Unsigned branch rate jumps (`dir_jump`) lose the directional information of admixture:**
    Because an unsigned branch jump $\hat{J}_b > 0$ treats a branch that rapidly *lost* genetic diversity (via bottleneck drift, e.g. Nganasan or Rennell-Bellona) identically to a branch that rapidly *gained* outside ancestry (via admixture, e.g. Northern Uzbek or Maltese), accumulating $\hat{J}_b$ along branches (`dir_jump`) washes out the `cat12` slope ($\beta_{\text{dir}} = -0.05$ for `ent`, $+0.11$ for `f3k_est_pos`).
-3. **Signed within-family genetic divergence (`dir_signed`) on the time-calibrated Bouckaert tree reproduces the main `fit.R` findings:**
-   When we use the signed divergence from each family's reconstructed root (`dir_signed`) while controlling for the time-calibrated Bouckaert `v2.0.0` within-family phylogeny:
+3. **Signed within-family genetic shift (1D) / root distance (3D) (`dir_signed`) on the time-calibrated Bouckaert tree reproduces the main `fit.R` findings:**
+   When we use the signed shift $x_i - \hat{\mu}_f$ (for 1D scalar measures) or Euclidean root distance $\|\mathbf{x}_i - \hat{\boldsymbol{\mu}}_f\|_2$ (for 3D embeddings) from each family's reconstructed root (`dir_signed`) while controlling for the time-calibrated Bouckaert `v2.0.0` within-family phylogeny:
    - **`cat12` (categorial breadth):** Positive association with admixture (`ent` $+0.16$, `f3k_est_pos` $+0.21$, `q_within_d3` $+0.17$ in `min5`, $+0.21$ in `min3`), matching `analyses/grambank/baseline/` ($+0.18$ to $+0.19$).
    - **`flex` and `irreg13` (paradigmatic opacity / irregularity):** Null to slightly negative slopes ($-0.03$ to $-0.16$, with $P(\beta < 0) = 0.80\text{--}0.91$ on `irreg13` for the 3D divergence measures).
 
@@ -156,7 +156,7 @@ Each cell reports the posterior mean and 95% credible interval (with $\Delta\tex
 | `contrasts_diagnostic.R` | Runs the $N_e$ / bottleneck audit of branch jumps and within-family Phylogenetic Independent Contrasts (`ape::pic`) |
 | `gen_rrw.stan` | Stage 1 Stan model: within-family block-diagonal Relaxed Random Walk on genetic coordinates |
 | `morph_rrw.stan` | Stage 2 Stan model: within-family Beta-Binomial morphological model with `clock`, `rate`, `dir_jump`, `both`, and `dir_signed` |
-| `fit_rrw.R` | Compiles and runs all 12 Stage-1 and 150 Stage-2 Stan models sequentially on $\le 4$ CPU cores |
+| `fit_rrw.R` | Compiles and runs all 12 Stage-1 and 150 Stage-2 Stan models |
 | `results/*.csv` | All summary tables (`jump_demographic_audit.csv`, `pic_contrasts_summary.csv`, `stage1_genetic_rrw_diagnostics.csv`, `stage1_branch_jumps.csv`, `stage2_morph_rrw_results.csv`, `top15_jumps_*.csv`) |
 
 ```bash

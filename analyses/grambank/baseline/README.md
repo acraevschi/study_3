@@ -127,7 +127,7 @@ as measurement error (`me(x, x_sd)`); whether that is the right treatment is an 
 |---|---|
 | `ent`, `nonmax`, `ent_K12`, `ent_K30` | individuals are the data: `value_i ~ 1 + (1 | lang) + (1 | lang:population)`. More individuals, narrower SD |
 | `pop_ent`, `het`, `support`, `amount` | one value per population with its bootstrap SE over the individuals (400 resamples): `value_p | se(se_p, sigma = TRUE) ~ 1 + (1 | lang)`. In the draft these had no SE |
-| `graff_target`, `neigh_flow`, `f3_z`, `f3_est` | one number per population, **no SE**: the number of individuals does not enter. For FST and f3 there is no simple bootstrap |
+| `graff_target`, `neigh_flow`, `f3_z`, `f3_est` | one number per population (`value_p ~ 1 + (1 | lang)`, equal population weights): while `admixtools::f3` computes SNP block-jackknife SEs (`min_se` in `f3_scores.csv`), Stage 1 weights populations within multi-population languages equally rather than by SNP-jackknife precision |
 
 A bootstrap from fewer than 3 individuals is unreliable. There the SE is the pooled
 per-individual SD (median over populations with ≥ 3) divided by √n, as in the draft.
@@ -183,11 +183,11 @@ Rscript analyses/common/f3.R <path to F2results> 3000 5
 ADM_XMODE=both ADM_MEASURES=f3k_z,f3k_est,f3b3_z,f3b3_est ADM_TAG=f3check \
   Rscript analyses/grambank/baseline/fit.R main > .../fit_f3check.log 2>&1
 # Flexivity outcomes and tail-checked exposures (sqrt_het, f3k_est_pos):
-# 1) All available languages for each outcome (ADM_SAMPLE=own, default: N=193 for flex, N=202 for cat12):
+# 1) All available languages in language_data.csv (pre-filtered to cat12_coded >= 8, N=202) meeting each outcome's >=60% threshold (ADM_SAMPLE=own, default: N=189 for flex, N=188 for flex26, N=181 for irreg13; or N=193/192/182 across all 225 Grambank-linked languages before the cat12_coded >= 8 filter):
 ADM_OUTCOME=flex ADM_MIN_COV=0.6 ADM_SAMPLE=own ADM_XMODE=plain \
   ADM_MEASURES=ent,het,f3k_est,sqrt_het,f3k_est_pos \
   Rscript analyses/grambank/baseline/fit.R main
-# 2) Intersection sensitivity (languages meeting >=60% on BOTH cat12 and flex, N=189):
+# 2) Intersection sensitivity (languages meeting >=60% on BOTH cat12 and the partner outcome, N=189 for flex, N=186 for flex26, N=175 for irreg13; used for the saved *_cov60.csv tables):
 ADM_OUTCOME=cat12 ADM_MIN_COV=0.6 ADM_SAMPLE=intersect ADM_XMODE=plain \
   ADM_MEASURES=ent,het,f3k_est,sqrt_het,f3k_est_pos \
   Rscript analyses/grambank/baseline/fit.R main
@@ -201,9 +201,12 @@ ADM_OUTCOME=flex ADM_MIN_COV=0.6 ADM_SAMPLE=intersect ADM_XMODE=plain ADM_REUSE_
 Flexivity features, `flex26` dropping the 4 shared gender-agreement features GB170–172/GB198, or
 `irreg13` for the 13 core allomorphy/suppletion/inflection-class features); `ADM_MIN_COV` filters
 to languages with at least that share of outcome features coded (default `0.6` for all outcomes);
-`ADM_SAMPLE` selects the language sample (`own` default: all Grambank-linked languages meeting
-`ADM_OUTCOME`'s coverage threshold, e.g. 202 for `cat12` and 193 for `flex` in `main`; `intersect`:
-only languages meeting both `cat12` and Flexivity coverage, e.g. 189 in `main`, sharing stage 1 and
+`ADM_SAMPLE` selects the language sample (`own` default: all languages in `language_data.csv` meeting
+`ADM_OUTCOME`'s coverage threshold, i.e. 202 for `cat12`, 189 for `flex`, 188 for `flex26`, and 181
+for `irreg13` within the 202-language `cat12_coded >= 8` table, corresponding to 193/192/182 across
+all 225 Grambank-linked languages prior to the `cat12_coded >= 8` filter in `prepare.py`; `intersect`:
+only languages meeting both `cat12` and Flexivity/Irregularity coverage—189 for `flex`, 186 for
+`flex26`, and 175 for `irreg13` in the saved `model_results_main_*_cov60.csv` tables—sharing stage 1 and
 the phylogenetic correlation matrix across both outcomes; `ADM_INTERSECT_WITH` selects the partner
 outcome when `ADM_OUTCOME=cat12`, default `flex`); `ADM_CTRLS` overrides the control sets (e.g.
 `N,P,F`); `ADM_PAR_FITS` sets the number of parallel fits (default `4`, × 4 chains = 16 cores);
@@ -411,15 +414,18 @@ exposure mechanisms (`ent`, `het`, `f3k_est`) and their tail-checked counterpart
   1 verbal animacy marker (`GB177`), and 12 suppletion/allomorphy/split/conjugation-class features.
   Because the 11 gender questions are coded in 94–100% of languages while lexical suppletion is
   coded in 63–82%, languages with $< 18/30$ ($< 60\%$) coded features have almost only gender coded.
-  Setting `ADM_MIN_COV=0.6` ($\ge 18/30$, matching the 60% rule of `cat12`) retains **193** of the
-  225 Grambank-linked languages under `ADM_SAMPLE=own` (adding Bilua `bilu1245`, Esan `esan1238`,
-  Mali `mali1284`, and Thai `thai1261` to the **189** languages in the `cat12 ∩ flex` intersection
-  under `ADM_SAMPLE=intersect`) and guarantees at least 7 non-gender flexivity features per language.
+  Setting `ADM_MIN_COV=0.6` ($\ge 18/30$, matching the 60% rule of `cat12`) retains **193** of all
+  225 Grambank-linked languages prior to the `cat12_coded >= 8` filter in `prepare.py` (adding Bilua `bilu1245`, Esan `esan1238`,
+  Mali `mali1284`, and Thai `thai1261` to the **189** languages in `language_data.csv` / the `cat12 ∩ flex` intersection)
+  and guarantees at least 7 non-gender flexivity features per language. Because `prepare.py` pre-filters
+  `language_data.csv` to the 202 `main` languages with `cat12_coded >= 8`, running `fit.R` on `language_data.csv`
+  retains $N = 189 / 188 / 181$ under `ADM_SAMPLE=own` and $N = 189 / 186 / 175$ under `ADM_SAMPLE=intersect`
+  (the saved `model_results_main_flex_cov60.csv`, `flex26_cov60.csv`, and `irreg13_cov60.csv` files were run with `ADM_SAMPLE=intersect`).
 * `flex26` (26 features): drops the 4 adnominal gender-agreement features (`GB170–172, GB198`)
-  shared with `cat12` ($\ge 16/26 = 60\%$ retains 192 languages in `own`, 186 in `intersect`).
+  shared with `cat12` ($\ge 16/26 = 60\%$ retains 192 of 225 Grambank-linked languages, 188 of 202 in `language_data.csv` under `own`, and 186 in `intersect` where `flex_coded >= 18` is also required).
 * `irreg13` (13 features): core paradigmatic irregularity, allomorphy, suppletion and inflection
   classes (`GB039, GB041, GB095, GB096, GB098, GB099, GB109, GB110, GB111, GB300, GB321, GB402, GB403`;
-  $\ge 8/13 = 60\%$ retains 182 languages in `own`, 175 in `intersect`).
+  $\ge 8/13 = 60\%$ retains 182 of 225 Grambank-linked languages, 181 of 202 in `language_data.csv` under `own`, and 175 in `intersect`).
 
 **1. Tail checks on 12-category inflectional breadth (`cat12`, `main`, `plain` mode):**
 

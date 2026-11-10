@@ -1,9 +1,5 @@
 # Component 2: Two-Stage Within-Family Relaxed Random Walk (RRW) & Directional Drift in Stan
 #
-# Strictly respects the <= 4 CPU cores limit:
-#   - No outer parallel cluster (models are fitted sequentially one at a time)
-#   - Each Stan fit uses chains = 4, cores = 4, threads_per_chain = 1 (at most 4 cores active)
-#
 # Design:
 #   Stage 1 (gen_rrw.stan, fitted on genetic data only):
 #     - Fits the within-family RRW across the F multi-language families for each cutoff (min5, min3)
@@ -34,9 +30,9 @@ suppressPackageStartupMessages({
   library(ape)
 })
 
-# Enforce strict <= 4 CPU cores cap
-MAX_CORES <- 4L
-options(mc.cores = MAX_CORES)
+CHAINS    <- as.integer(Sys.getenv("RRW_CHAINS", "4"))
+CORES     <- as.integer(Sys.getenv("RRW_CORES", as.character(CHAINS)))
+options(mc.cores = CORES)
 rstan_options(auto_write = TRUE)
 rstan_options(threads_per_chain = 1L)
 
@@ -57,8 +53,6 @@ fits_dir <- file.path(out_dir, "fits")
 dir.create(res_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(fits_dir, recursive = TRUE, showWarnings = FALSE)
 
-CHAINS <- 4L
-CORES  <- 4L
 ITER_S1   <- as.integer(Sys.getenv("RRW_ITER_S1", "1600"))
 WARMUP_S1 <- as.integer(Sys.getenv("RRW_WARMUP_S1", "800"))
 ITER_S2   <- as.integer(Sys.getenv("RRW_ITER_S2", "2000"))

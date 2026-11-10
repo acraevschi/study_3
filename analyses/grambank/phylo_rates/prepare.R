@@ -191,7 +191,7 @@ for (g in lang_df$glottocode) {
   }
 }
 # Fill n=1 language SE with median per-individual SD across multi-individual languages
-med_col_sd <- apply(q_lang_se, 2, median, na.rm = TRUE) * sqrt(median(lang_df$n_individuals[lang_df$n_individuals >= 2]))
+med_col_sd <- apply(sweep(q_lang_se, 1, sqrt(lang_df$n_individuals), "*"), 2, median, na.rm = TRUE)
 for (g in lang_df$glottocode) {
   if (any(is.na(q_lang_se[g, ]))) {
     q_lang_se[g, ] <- med_col_sd / sqrt(max(1, lang_df$n_individuals[lang_df$glottocode == g]))

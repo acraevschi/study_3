@@ -2,7 +2,7 @@
 
 **Exploratory.** Extends [`analyses/grambank/baseline/`](../baseline/README.md) by replacing the equal-weight sum-score Beta-Binomial outcome (`n_present | trials(n_coded)`) with item-level latent-variable and hierarchical varying-slope models over the binary language $\times$ feature observation matrix $Y_{ik} \in \{0, 1\}$.
 
-**Status 2026-10-31: fitted (`main`, Phylogeny `P`, 42 core models in §4 + 333 unifying synthesis models in §5).** All 42 core models converged with $\max \hat{R} \le 1.007$, minimum bulk ESS $\ge 554$, and $0$ divergent transitions; all 333 synthesis models (`261` SEM specs + `72` Beta-Binomial `brms` specs) converged with $\max \hat{R} \le 1.011$, minimum bulk ESS $\ge 228$, and only $3$ divergent transitions across $1.044 \times 10^6$ post-warmup SEM draws.
+**Status 2026-10-31: fitted (`main`, Phylogeny `P`, 42 core models in §4 + 309 unique unifying synthesis models in §5).** All 42 core models converged with $\max \hat{R} \le 1.007$, minimum bulk ESS $\ge 554$, and $0$ divergent transitions; all 309 unique synthesis models (`237` SEM specs + `72` Beta-Binomial `brms` specs; `333` rows before deduplicating the 24 reused legacy `P` reference rows) converged with $\max \hat{R} \le 1.011$, minimum bulk ESS $\ge 228$, and only $3$ divergent transitions across $9.48 \times 10^5$ post-warmup SEM draws.
 
 ## 1. Motivation
 
@@ -51,7 +51,7 @@ LAT_SMOKE=1 Rscript analyses/grambank/latent_sem/fit_latent.R
 # 4. Core run (ent, sqrt_het, f3k_est_pos under P control on main; 42 models; default LAT_CTRLS=P,F runs 84)
 LAT_CTRLS=P Rscript analyses/grambank/latent_sem/fit_latent.R main
 
-# 5. Unifying synthesis checks (Checks 1–3; 261 SEM specs + 72 Beta-Binomial brms specs = 333 models)
+# 5. Unifying synthesis checks (Checks 1–3; 237 unique SEM specs + 72 Beta-Binomial brms specs = 309 models)
 SYN_DRY=1 Rscript analyses/grambank/latent_sem/fit_synthesis.R
 Rscript analyses/grambank/latent_sem/fit_synthesis.R
 ```
@@ -123,8 +123,8 @@ Diagnostics across all 42 models: $\max \hat{R} = 1.007$, $\min \text{ESS}_{\tex
 
 ## 5. Unifying Synthesis Checks (`fit_synthesis.R`, `stan/item_*_synthesis.stan`)
 
-To unify the item-level SEM findings with the within-family branch-rate and demographic analyses, `fit_synthesis.R` executes **333 synthesis models** (`261` item-level SEM specifications using `stan/item_1factor_synthesis.stan` and `stan/item_2factor_synthesis.stan`, plus `72` two-stage Beta-Binomial `brms` specifications) and writes three canonical CSV tables:
-- `results/synthesis_checks_main.csv` ($333$ rows: all posterior slope, contrast, raw-unit slope, variance-component, and LOO summaries)
+To unify the item-level SEM findings with the within-family branch-rate and demographic analyses, `fit_synthesis.R` executes **309 unique synthesis models** (`237` item-level SEM specifications using `stan/item_1factor_synthesis.stan`, `stan/item_2factor_synthesis.stan`, and cached spatial `F` models, plus `72` two-stage Beta-Binomial `brms` specifications) and writes three canonical CSV tables:
+- `results/synthesis_checks_main.csv` ($309$ rows: all posterior slope, contrast, raw-unit slope, variance-component, and LOO summaries)
 - `results/family_slopes_main.csv` ($852$ rows: family-specific posterior slopes $\beta_f = \beta_0 + u_{\text{fam}, f}$ across all $23$ multi-language families)
 - `results/loo_synthesis_main.csv` ($258$ rows: paired observation-level, language-marginal, and tip-marginalized LOO comparisons with both language-level SEs and family-clustered SEs)
 
@@ -144,16 +144,16 @@ Allowing the admixture slope to vary across Glottolog families ($\beta_{f} = \be
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **`cat12` (`MA_2pl`)** | `ent` | `fixed` | $+0.35 \; [+0.15, +0.57]$ ($0.999$) | — | — | — | — | — |
 | | `ent` | `famslope` | **$+0.36 \; [+0.11, +0.62]$** ($0.997$) | $0.34 \; [0.01, 0.88]$ | — | — | — | $+0.4 \pm 1.1$ |
-| | `sqrt_het` | `famslope` | **$+0.25 \; [+0.03, +0.49]$** ($0.986$) | $0.25 \; [0.01, 0.67]$ | — | — | — | $-0.7 \pm 0.9$ |
-| | `f3k_est_pos` | `famslope` | **$+0.36 \; [+0.02, +0.69]$** ($0.981$) | $0.30 \; [0.01, 0.80]$ | — | — | — | $+0.1 \pm 0.8$ |
+| | `sqrt_het` | `famslope` | **$+0.25 \; [+0.03, +0.49]$** ($0.986$) | $0.25 \; [0.01, 0.67]$ | — | — | — | $-0.2 \pm 1.1$ |
+| | `f3k_est_pos` | `famslope` | **$+0.36 \; [+0.02, +0.69]$** ($0.981$) | $0.30 \; [0.01, 0.80]$ | — | — | — | $-1.0 \pm 1.5$ |
 | **`cat12` (`MB_2pl`)** | `ent` | `famslope` | **$+0.29 \; [+0.06, +0.52]$** ($0.992$) | $0.24 \; [0.01, 0.72]$ | $\bar{\beta}_{\text{agr}} = -0.32$ | — | **$+0.73 \; [+0.38, +1.10]$** ($1.000$) | $-0.6 \pm 0.7$ |
-| | `sqrt_het` | `famslope` | **$+0.25 \; [+0.06, +0.48]$** ($0.993$) | $0.22 \; [0.01, 0.61]$ | $\bar{\beta}_{\text{agr}} = -0.39$ | — | **$+0.77 \; [+0.39, +1.16]$** ($1.000$) | $-0.4 \pm 0.7$ |
-| | `f3k_est_pos` | `famslope` | **$+0.32 \; [+0.06, +0.58]$** ($0.991$) | $0.16 \; [0.01, 0.51]$ | $\bar{\beta}_{\text{agr}} = +0.04$ | — | $+0.34 \; [+0.01, +0.72]$ ($0.976$) | $+0.3 \pm 0.5$ |
+| | `sqrt_het` | `famslope` | **$+0.25 \; [+0.06, +0.48]$** ($0.993$) | $0.22 \; [0.01, 0.61]$ | $\bar{\beta}_{\text{agr}} = -0.39$ | — | **$+0.77 \; [+0.39, +1.16]$** ($1.000$) | $-0.6 \pm 1.2$ |
+| | `f3k_est_pos` | `famslope` | **$+0.32 \; [+0.06, +0.58]$** ($0.991$) | $0.16 \; [0.01, 0.51]$ | $\bar{\beta}_{\text{agr}} = +0.04$ | — | $+0.34 \; [+0.01, +0.72]$ ($0.976$) | $-0.7 \pm 0.7$ |
 | **`cat12_irreg13` (`MC_cross`)** | `ent` | `fixed` | $+0.44 \; [+0.22, +0.66]$ ($1.000$) | — | $-0.13 \; [-0.41, +0.14]$ | — | $+0.57 \; [+0.22, +0.92]$ ($0.999$) | — |
-| | `ent` | `famslope` | **$+0.46 \; [+0.18, +0.75]$** ($0.999$) | $0.40 \; [0.02, 1.02]$ | $-0.11 \; [-0.41, +0.21]$ | $0.22 \; [0.01, 0.67]$ | **$+0.57 \; [+0.15, +0.99]$** ($0.996$) | $+0.8 \pm 1.2$ |
-| | `sqrt_het` | `famslope` | **$+0.34 \; [+0.10, +0.59]$** ($0.996$) | $0.23 \; [0.01, 0.65]$ | $-0.12 \; [-0.39, +0.14]$ | $0.16 \; [0.01, 0.49]$ | **$+0.46 \; [+0.10, +0.83]$** ($0.991$) | $+1.2 \pm 1.3$ |
-| | `f3k_est_pos` | `famslope` | **$+0.37 \; [+0.05, +0.69]$** ($0.988$) | $0.25 \; [0.01, 0.71]$ | $-0.12 \; [-0.39, +0.16]$ | $0.16 \; [0.01, 0.52]$ | **$+0.49 \; [+0.07, +0.91]$** ($0.987$) | $-0.5 \pm 1.4$ |
-| **`cat12_flex26` (`MC_cross`)** | `ent` | `famslope` | **$+0.44 \; [+0.18, +0.71]$** ($0.999$) | $0.35 \; [0.02, 0.89]$ | $-0.02 \; [-0.26, +0.24]$ | $0.22 \; [0.01, 0.56]$ | **$+0.46 \; [+0.09, +0.82]$** ($0.992$) | $-1.1 \pm 1.4$ |
+| | `ent` | `famslope` | **$+0.46 \; [+0.18, +0.75]$** ($0.999$) | $0.40 \; [0.02, 1.02]$ | $-0.11 \; [-0.41, +0.21]$ | $0.22 \; [0.01, 0.67]$ | **$+0.57 \; [+0.15, +0.99]$** ($0.996$) | $+1.2 \pm 1.6$ |
+| | `sqrt_het` | `famslope` | **$+0.34 \; [+0.10, +0.59]$** ($0.996$) | $0.23 \; [0.01, 0.65]$ | $-0.12 \; [-0.39, +0.14]$ | $0.16 \; [0.01, 0.49]$ | **$+0.46 \; [+0.10, +0.83]$** ($0.991$) | $-1.3 \pm 1.3$ |
+| | `f3k_est_pos` | `famslope` | **$+0.37 \; [+0.05, +0.69]$** ($0.988$) | $0.25 \; [0.01, 0.71]$ | $-0.12 \; [-0.39, +0.16]$ | $0.16 \; [0.01, 0.52]$ | **$+0.49 \; [+0.07, +0.91]$** ($0.987$) | $-0.7 \pm 1.2$ |
+| **`cat12_flex26` (`MC_cross`)** | `ent` | `famslope` | **$+0.44 \; [+0.18, +0.71]$** ($0.999$) | $0.35 \; [0.02, 0.89]$ | $-0.02 \; [-0.26, +0.24]$ | $0.22 \; [0.01, 0.56]$ | **$+0.46 \; [+0.09, +0.82]$** ($0.992$) | $-1.0 \pm 1.0$ |
 | | `sqrt_het` | `famslope` | **$+0.32 \; [+0.09, +0.58]$** ($0.995$) | $0.25 \; [0.01, 0.66]$ | $+0.00 \; [-0.22, +0.24]$ | $0.20 \; [0.01, 0.51]$ | $+0.32 \; [-0.00, +0.66]$ ($0.975$) | $-1.7 \pm 1.3$ |
 | | `f3k_est_pos` | `famslope` | **$+0.38 \; [+0.03, +0.72]$** ($0.984$) | $0.28 \; [0.01, 0.78]$ | $-0.02 \; [-0.20, +0.17]$ | $0.13 \; [0.00, 0.39]$ | $+0.40 \; [-0.01, +0.80]$ ($0.972$) | $-1.4 \pm 1.6$ |
 
@@ -166,7 +166,7 @@ Allowing the admixture slope to vary across Glottolog families ($\beta_{f} = \be
 
 Decomposing $x_i$ into a pure within-family deviation $(x_i - \bar{x}_f)$ for multi-language families ($\beta_{\text{within}}$) and a family-mean / singleton component $\bar{x}_f$ ($\beta_{\text{between}}$) confirms that the positive Enumerative Breadth slope and the Breadth-vs-Irregularity dissociation operate **strictly within language families**:
 - In `MC_cross` (`cat12_irreg13`), $\beta_{\text{within, breadth}}$ is **$+0.47 \; [+0.21, +0.74]$** ($P>0 = 1.000$) for `ent`, **$+0.38 \; [+0.13, +0.65]$** ($P>0 = 0.998$) for `f3k_est_pos`, and **$+0.24 \; [+0.01, +0.47]$** ($P>0 = 0.980$) for `sqrt_het`, with within-family dissociation $\Delta\beta_{\text{within}} = +0.64 \; [+0.22, +1.07]$ (`ent`, $P>0 = 0.999$), $+0.50 \; [+0.17, +0.86]$ (`f3k_est_pos`, $P>0 = 0.998$), and $+0.33 \; [-0.03, +0.70]$ (`sqrt_het`, $P>0 = 0.963$).
-- Splitting $\beta$ into $\beta_{\text{within}}$ and $\beta_{\text{between}}$ provides no out-of-sample gain over a single pooled slope ($\Delta\text{elpd}_{\text{tip}} \in [-1.8, -0.5]$), showing that within- and between-family slopes are statistically indistinguishable.
+- Splitting $\beta$ into $\beta_{\text{within}}$ and $\beta_{\text{between}}$ provides no out-of-sample gain over a single pooled slope ($\Delta\text{elpd}_{\text{tip}} \in [-1.9, -0.6]$ across `MA_2pl` and `MC_cross`), showing that within- and between-family slopes are statistically indistinguishable.
 
 #### 5.1.3 Leave-Out-Inner-Asia Sensitivity (`no_turk_mong` [$N = 184$] & `no_inner_asia` [$N = 179$])
 
@@ -199,21 +199,21 @@ Replaces the global topological Grafen correlation matrix (`P`) across all $N = 
 
 | Item Set & Arch | Exposure | Grafen `P` | Bouckaert `P_b_stem` | Bouckaert `P_b_crown` | Bouckaert `P_b_kyr` | $\Delta\text{elpd}_{\text{tip}}$ (`P_b_kyr` vs `P`) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **`cat12` (`MA_2pl`) $\beta$** | `ent` | $+0.35 \; [+0.15, +0.57]$ | $+0.34 \; [+0.15, +0.54]$ | $+0.34 \; [+0.14, +0.55]$ | **$+0.34 \; [+0.14, +0.55]$** | **$+6.1 \pm 2.3$** (fam: $2.5$) |
-| | `sqrt_het` | $+0.22 \; [+0.04, +0.40]$ | $+0.23 \; [+0.06, +0.41]$ | $+0.22 \; [+0.04, +0.40]$ | **$+0.22 \; [+0.04, +0.41]$** | **$+7.0 \pm 2.5$** (fam: $2.6$) |
-| | `f3k_est_pos` | $+0.35 \; [+0.13, +0.59]$ | $+0.31 \; [+0.11, +0.53]$ | $+0.31 \; [+0.11, +0.54]$ | **$+0.31 \; [+0.10, +0.54]$** | $+3.9 \pm 2.5$ (fam: $2.6$) |
-| **`cat12` (`MB_2pl`) $\Delta\beta_{\text{inh}-\text{agr}}$** | `ent` | $+0.73 \; [+0.38, +1.10]$ | $+0.73 \; [+0.38, +1.11]$ | $+0.73 \; [+0.37, +1.09]$ | **$+0.72 \; [+0.36, +1.09]$** | **$+5.5 \pm 2.4$** (fam: $2.5$) |
-| | `sqrt_het` | $+0.77 \; [+0.39, +1.16]$ | $+0.79 \; [+0.42, +1.17]$ | $+0.78 \; [+0.39, +1.17]$ | **$+0.77 \; [+0.39, +1.16]$** | **$+7.2 \pm 2.5$** (fam: $2.4$) |
-| | `f3k_est_pos` | $+0.34 \; [-0.00, +0.73]$ | $+0.33 \; [+0.00, +0.71]$ | $+0.33 \; [+0.00, +0.71]$ | $+0.33 \; [-0.00, +0.70]$ | **$+4.5 \pm 2.3$** (fam: $2.4$) |
-| **`cat12_irreg13` (`MC_cross`) $\Delta\beta_{\text{br}-\text{ir}}$** | `ent` | $+0.57 \; [+0.22, +0.92]$ | $+0.59 \; [+0.25, +0.94]$ | $+0.59 \; [+0.23, +0.94]$ | **$+0.58 \; [+0.23, +0.93]$** | $+3.5 \pm 3.0$ (fam: $3.2$) |
-| | `sqrt_het` | $+0.41 \; [+0.10, +0.74]$ | $+0.39 \; [+0.10, +0.69]$ | $+0.39 \; [+0.08, +0.70]$ | **$+0.39 \; [+0.09, +0.69]$** | $+3.2 \pm 2.9$ (fam: $2.5$) |
-| | `f3k_est_pos` | $+0.50 \; [+0.18, +0.85]$ | $+0.47 \; [+0.17, +0.79]$ | $+0.49 \; [+0.17, +0.82]$ | **$+0.48 \; [+0.17, +0.80]$** | $+2.9 \pm 3.0$ (fam: $3.0$) |
-| **`cat12_flex26` (`MC_cross`) $\Delta\beta_{\text{br}-\text{ir}}$** | `ent` | $+0.47 \; [+0.16, +0.78]$ | $+0.46 \; [+0.17, +0.76]$ | $+0.46 \; [+0.16, +0.77]$ | **$+0.46 \; [+0.15, +0.76]$** | $-0.0 \pm 3.3$ (fam: $3.0$) |
-| | `sqrt_het` | $+0.28 \; [+0.00, +0.56]$ | $+0.27 \; [+0.01, +0.55]$ | $+0.26 \; [-0.01, +0.54]$ | $+0.26 \; [-0.01, +0.53]$ | $-0.8 \pm 3.3$ (fam: $3.2$) |
-| | `f3k_est_pos` | $+0.42 \; [+0.15, +0.73]$ | $+0.40 \; [+0.14, +0.68]$ | $+0.41 \; [+0.14, +0.70]$ | **$+0.40 \; [+0.13, +0.69]$** | $+1.6 \pm 3.2$ (fam: $3.2$) |
+| **`cat12` (`MA_2pl`) $\beta$** | `ent` | $+0.35 \; [+0.15, +0.57]$ | $+0.34 \; [+0.15, +0.54]$ | $+0.34 \; [+0.14, +0.55]$ | **$+0.34 \; [+0.14, +0.55]$** | **$+5.1 \pm 2.2$** (fam: $3.0$) |
+| | `sqrt_het` | $+0.22 \; [+0.04, +0.40]$ | $+0.23 \; [+0.06, +0.41]$ | $+0.22 \; [+0.04, +0.40]$ | **$+0.22 \; [+0.04, +0.41]$** | **$+4.9 \pm 2.1$** (fam: $2.9$) |
+| | `f3k_est_pos` | $+0.35 \; [+0.13, +0.59]$ | $+0.31 \; [+0.11, +0.53]$ | $+0.31 \; [+0.11, +0.54]$ | **$+0.31 \; [+0.10, +0.54]$** | **$+6.2 \pm 2.4$** (fam: $3.4$) |
+| **`cat12` (`MB_2pl`) $\Delta\beta_{\text{inh}-\text{agr}}$** | `ent` | $+0.73 \; [+0.38, +1.10]$ | $+0.73 \; [+0.38, +1.11]$ | $+0.73 \; [+0.37, +1.09]$ | **$+0.72 \; [+0.36, +1.09]$** | **$+3.8 \pm 1.9$** (fam: $2.5$) |
+| | `sqrt_het` | $+0.77 \; [+0.39, +1.16]$ | $+0.79 \; [+0.42, +1.17]$ | $+0.78 \; [+0.39, +1.17]$ | **$+0.77 \; [+0.39, +1.16]$** | **$+4.7 \pm 2.0$** (fam: $2.7$) |
+| | `f3k_est_pos` | $+0.34 \; [-0.00, +0.73]$ | $+0.33 \; [+0.00, +0.71]$ | $+0.33 \; [+0.00, +0.71]$ | $+0.33 \; [-0.00, +0.70]$ | **$+7.1 \pm 2.4$** (fam: $3.3$) |
+| **`cat12_irreg13` (`MC_cross`) $\Delta\beta_{\text{br}-\text{ir}}$** | `ent` | $+0.57 \; [+0.22, +0.92]$ | $+0.59 \; [+0.25, +0.94]$ | $+0.59 \; [+0.23, +0.94]$ | **$+0.58 \; [+0.23, +0.93]$** | $+2.9 \pm 2.7$ (fam: $3.7$) |
+| | `sqrt_het` | $+0.41 \; [+0.10, +0.74]$ | $+0.39 \; [+0.10, +0.69]$ | $+0.39 \; [+0.08, +0.70]$ | **$+0.39 \; [+0.09, +0.69]$** | $+3.5 \pm 3.0$ (fam: $3.5$) |
+| | `f3k_est_pos` | $+0.50 \; [+0.18, +0.85]$ | $+0.47 \; [+0.17, +0.79]$ | $+0.49 \; [+0.17, +0.82]$ | **$+0.48 \; [+0.17, +0.80]$** | $+4.0 \pm 3.2$ (fam: $4.1$) |
+| **`cat12_flex26` (`MC_cross`) $\Delta\beta_{\text{br}-\text{ir}}$** | `ent` | $+0.47 \; [+0.16, +0.78]$ | $+0.46 \; [+0.17, +0.76]$ | $+0.46 \; [+0.16, +0.77]$ | **$+0.46 \; [+0.15, +0.76]$** | $-0.8 \pm 3.0$ (fam: $3.4$) |
+| | `sqrt_het` | $+0.28 \; [+0.00, +0.56]$ | $+0.27 \; [+0.01, +0.55]$ | $+0.26 \; [-0.01, +0.54]$ | $+0.26 \; [-0.01, +0.53]$ | $+0.9 \pm 3.1$ (fam: $3.6$) |
+| | `f3k_est_pos` | $+0.42 \; [+0.15, +0.73]$ | $+0.40 \; [+0.14, +0.68]$ | $+0.41 \; [+0.14, +0.70]$ | **$+0.40 \; [+0.13, +0.69]$** | $+2.2 \pm 3.5$ (fam: $4.2$) |
 
 * **Invariance of admixture slopes to phylogenetic time calibration:** Every posterior slope and contrast across `P_b_stem`, `P_b_crown`, and `P_b_kyr` lies within $\le 0.04$ of Grafen `P`.
-* **Between- vs. within-family phylogenetic variance partitioning (`P_b_crown` & `P_b_kyr`):** Explicitly separating family intercepts ($\sigma_{\text{fam}}$) from within-family crown-MRCA phylogenetic drift ($\sigma_{\text{phylo}}$) shows that between-family differences account for the bulk of phylogenetic variance ($\sigma_{\text{fam}} = 1.14\text{--}1.17$ on Factor 1 Breadth and $1.66\text{--}1.69$ on Factor 2 Irregularity/Flexivity), while within-family phylogenetic drift accounts for $\sigma_{\text{phylo}} = 0.38\text{--}0.50$ on Factor 1 and $0.32\text{--}0.43$ on Factor 2. Preserving absolute crown ages in kyr (`P_b_kyr`) shifts variance on `cat12` from i.i.d. language noise ($\sigma_{\text{lang}}: 0.23 \to 0.18$) into time-calibrated within-family drift ($\sigma_{\text{phylo}}: 0.38 \to 0.50$), yielding a modest tip-marginalized LOO gain over Grafen `P` ($\Delta\text{elpd}_{\text{tip}} = +3.9\text{ to }+7.2 \pm 2.5$ on `cat12`, $+2.9\text{ to }+4.0 \pm 3.0$ on `cat12_irreg13`).
+* **Between- vs. within-family phylogenetic variance partitioning (`P_b_crown` & `P_b_kyr`):** Explicitly separating family intercepts ($\sigma_{\text{fam}}$) from within-family crown-MRCA phylogenetic drift ($\sigma_{\text{phylo}}$) shows that between-family differences account for the bulk of phylogenetic variance ($\sigma_{\text{fam}} = 1.14\text{--}1.17$ on Factor 1 Breadth and $1.66\text{--}1.69$ on Factor 2 Irregularity/Flexivity), while within-family phylogenetic drift accounts for $\sigma_{\text{phylo}} = 0.38\text{--}0.50$ on Factor 1 and $0.32\text{--}0.43$ on Factor 2. Preserving absolute crown ages in kyr (`P_b_kyr`) shifts variance on `cat12` from i.i.d. language noise ($\sigma_{\text{lang}}: 0.23 \to 0.18$) into time-calibrated within-family drift ($\sigma_{\text{phylo}}: 0.38 \to 0.50$), yielding a modest tip-marginalized LOO gain over Grafen `P` ($\Delta\text{elpd}_{\text{tip}} = +3.8\text{ to }+7.1 \pm 2.4$ on `cat12`, $+2.9\text{ to }+4.0 \pm 3.2$ on `cat12_irreg13`).
 
 ---
 
@@ -225,21 +225,21 @@ Tested on the exact subset of languages with non-missing L1 speaker population (
 
 | Item Set & Arch | Exposure ($N$) | Spec | Breadth / Mean Slope $\beta_x$ [95% CI] | Irreg / Agr Slope [95% CI] | Contrast $\Delta\beta$ [95% CI] ($P>0$) | Population Slope $\beta_{\text{pop}}$ (F1 / F2) | Interaction $\beta_{x \times \text{pop}}$ (F1 / F2) | $\Delta\text{elpd}_{\text{tip}}$ vs. Nested |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **`cat12` (`MB_2pl`)** | `ent` ($195$) | `x` | $+0.31 \; [+0.11, +0.51]$ | $\bar{\beta}_{\text{agr}} = -0.32$ | **$+0.75 \; [+0.38, +1.12]$** ($1.000$) | — | — | $+16.6 \pm 6.4$ (vs `base`) |
-| | `ent` ($195$) | `x_pop` | $+0.31 \; [+0.11, +0.52]$ | $\bar{\beta}_{\text{agr}} = -0.31$ | **$+0.75 \; [+0.38, +1.13]$** ($1.000$) | $-0.04 \; [-0.26, +0.19]$ | — | $-1.1 \pm 0.5$ (vs `x`) |
-| | `ent` ($195$) | `x_int_pop` | $+0.31 \; [+0.10, +0.52]$ | $\bar{\beta}_{\text{agr}} = -0.32$ | **$+0.75 \; [+0.38, +1.13]$** ($1.000$) | $-0.04 \; [-0.26, +0.19]$ | $-0.03 \; [-0.21, +0.15]$ | $-1.3 \pm 0.6$ (vs `x_pop`) |
-| | `sqrt_het` ($191$) | `x_int_pop` | $+0.24 \; [+0.05, +0.43]$ | $\bar{\beta}_{\text{agr}} = -0.41$ | **$+0.77 \; [+0.39, +1.16]$** ($1.000$) | $-0.06 \; [-0.28, +0.15]$ | $-0.08 \; [-0.26, +0.09]$ | $-1.2 \pm 1.2$ (vs `x_pop`) |
-| | `f3k_est_pos` ($176$) | `x_int_pop` | $+0.33 \; [+0.12, +0.56]$ | $\bar{\beta}_{\text{agr}} = +0.03$ | **$+0.36 \; [+0.01, +0.76]$** ($0.979$) | $-0.06 \; [-0.30, +0.19]$ | $+0.08 \; [-0.15, +0.32]$ | $-1.2 \pm 1.1$ (vs `x_pop`) |
-| **`cat12_irreg13` (`MC_cross`)** | `ent` ($171$) | `x` | $+0.43 \; [+0.20, +0.65]$ | $-0.13 \; [-0.41, +0.15]$ | **$+0.56 \; [+0.20, +0.92]$** ($0.999$) | — | — | $+6.8 \pm 3.5$ (vs `base`) |
-| | `ent` ($171$) | `x_pop` | $+0.45 \; [+0.22, +0.68]$ | $-0.12 \; [-0.41, +0.16]$ | **$+0.57 \; [+0.21, +0.94]$** ($0.999$) | $-0.15$ / $+0.05$ | — | $-1.0 \pm 1.4$ (vs `x`) |
-| | `ent` ($171$) | `x_int_pop` | $+0.45 \; [+0.21, +0.68]$ | $-0.10 \; [-0.38, +0.18]$ | **$+0.55 \; [+0.19, +0.91]$** ($0.999$) | $-0.16$ / $+0.06$ | $+0.00$ / $+0.09$ | $-2.0 \pm 1.6$ (vs `x_pop`) |
-| | `sqrt_het` ($167$) | `x_int_pop` | $+0.31 \; [+0.11, +0.52]$ | $-0.11 \; [-0.38, +0.15]$ | **$+0.42 \; [+0.09, +0.76]$** ($0.994$) | $-0.17$ / $+0.05$ | $-0.03$ / $-0.03$ | $-2.1 \pm 0.9$ (vs `x_pop`) |
-| | `f3k_est_pos` ($155$) | `x_int_pop` | $+0.42 \; [+0.18, +0.69]$ | $-0.13 \; [-0.36, +0.08]$ | **$+0.55 \; [+0.21, +0.90]$** ($0.999$) | $-0.13$ / $+0.07$ | $+0.07$ / $-0.02$ | $-3.1 \pm 1.7$ (vs `x_pop`) |
-| **`cat12_flex26` (`MC_cross`)** | `ent` ($181$) | `x_int_pop` | $+0.43 \; [+0.21, +0.66]$ | $-0.04 \; [-0.25, +0.18]$ | **$+0.47 \; [+0.16, +0.78]$** ($0.999$) | $-0.06$ / $+0.07$ | $+0.02$ / $+0.02$ | $-2.2 \pm 0.9$ (vs `x_pop`) |
+| **`cat12` (`MB_2pl`)** | `ent` ($195$) | `x` | $+0.31 \; [+0.11, +0.51]$ | $\bar{\beta}_{\text{agr}} = -0.32$ | **$+0.75 \; [+0.38, +1.12]$** ($1.000$) | — | — | $+18.4 \pm 7.2$ (vs `base`) |
+| | `ent` ($195$) | `x_pop` | $+0.31 \; [+0.11, +0.52]$ | $\bar{\beta}_{\text{agr}} = -0.31$ | **$+0.75 \; [+0.38, +1.13]$** ($1.000$) | $-0.04 \; [-0.26, +0.19]$ | — | $-0.5 \pm 0.4$ (vs `x`) |
+| | `ent` ($195$) | `x_int_pop` | $+0.31 \; [+0.10, +0.52]$ | $\bar{\beta}_{\text{agr}} = -0.32$ | **$+0.75 \; [+0.38, +1.13]$** ($1.000$) | $-0.04 \; [-0.26, +0.19]$ | $-0.03 \; [-0.21, +0.15]$ | $-1.9 \pm 0.8$ (vs `x_pop`) |
+| | `sqrt_het` ($191$) | `x_int_pop` | $+0.24 \; [+0.05, +0.43]$ | $\bar{\beta}_{\text{agr}} = -0.41$ | **$+0.77 \; [+0.39, +1.16]$** ($1.000$) | $-0.06 \; [-0.28, +0.15]$ | $-0.08 \; [-0.26, +0.09]$ | $-1.5 \pm 1.3$ (vs `x_pop`) |
+| | `f3k_est_pos` ($176$) | `x_int_pop` | $+0.33 \; [+0.12, +0.56]$ | $\bar{\beta}_{\text{agr}} = +0.03$ | **$+0.36 \; [+0.01, +0.76]$** ($0.979$) | $-0.06 \; [-0.30, +0.19]$ | $+0.08 \; [-0.15, +0.32]$ | $-0.6 \pm 1.3$ (vs `x_pop`) |
+| **`cat12_irreg13` (`MC_cross`)** | `ent` ($171$) | `x` | $+0.43 \; [+0.20, +0.65]$ | $-0.13 \; [-0.41, +0.15]$ | **$+0.56 \; [+0.20, +0.92]$** ($0.999$) | — | — | $+8.6 \pm 3.4$ (vs `base`) |
+| | `ent` ($171$) | `x_pop` | $+0.45 \; [+0.22, +0.68]$ | $-0.12 \; [-0.41, +0.16]$ | **$+0.57 \; [+0.21, +0.94]$** ($0.999$) | $-0.15$ / $+0.05$ | — | $-1.8 \pm 1.0$ (vs `x`) |
+| | `ent` ($171$) | `x_int_pop` | $+0.45 \; [+0.21, +0.68]$ | $-0.10 \; [-0.38, +0.18]$ | **$+0.55 \; [+0.19, +0.91]$** ($0.999$) | $-0.16$ / $+0.06$ | $+0.00$ / $+0.09$ | $-1.2 \pm 0.8$ (vs `x_pop`) |
+| | `sqrt_het` ($167$) | `x_int_pop` | $+0.31 \; [+0.11, +0.52]$ | $-0.11 \; [-0.38, +0.15]$ | **$+0.42 \; [+0.09, +0.76]$** ($0.994$) | $-0.17$ / $+0.05$ | $-0.03$ / $-0.03$ | $-2.4 \pm 1.0$ (vs `x_pop`) |
+| | `f3k_est_pos` ($155$) | `x_int_pop` | $+0.42 \; [+0.18, +0.69]$ | $-0.13 \; [-0.36, +0.08]$ | **$+0.55 \; [+0.21, +0.90]$** ($0.999$) | $-0.13$ / $+0.07$ | $+0.07$ / $-0.02$ | $-3.1 \pm 1.5$ (vs `x_pop`) |
+| **`cat12_flex26` (`MC_cross`)** | `ent` ($181$) | `x_int_pop` | $+0.43 \; [+0.21, +0.66]$ | $-0.04 \; [-0.25, +0.18]$ | **$+0.47 \; [+0.16, +0.78]$** ($0.999$) | $-0.06$ / $+0.07$ | $+0.02$ / $+0.02$ | $-0.3 \pm 1.6$ (vs `x_pop`) |
 | | `sqrt_het` ($178$) | `x_int_pop` | $+0.30 \; [+0.10, +0.50]$ | $-0.00 \; [-0.20, +0.19]$ | **$+0.30 \; [+0.02, +0.59]$** ($0.982$) | $-0.08$ / $+0.07$ | $-0.03$ / $-0.02$ | $-1.6 \pm 1.5$ (vs `x_pop`) |
 | | `f3k_est_pos` ($163$) | `x_int_pop` | $+0.40 \; [+0.16, +0.66]$ | $-0.04 \; [-0.19, +0.10]$ | **$+0.44 \; [+0.16, +0.75]$** ($0.999$) | $-0.07$ / $+0.07$ | $+0.06$ / $-0.04$ | $-1.4 \pm 1.7$ (vs `x_pop`) |
 
-* Under phylogenetic control (`P`), speaker population size `z_pop` and its interaction `x * z_pop` have null slopes across both latent factors (every 95% CI straddles zero) and consistently penalize out-of-sample LOO ($\Delta\text{elpd}_{\text{tip}} = -0.0\text{ to }-1.8$ for `x_pop` vs. `x`, and $-1.2\text{ to }-3.1$ for `x_int_pop` vs. `x_pop`), while leaving every admixture slope and contrast intact.
+* Under phylogenetic control (`P`), speaker population size `z_pop` and its interaction `x * z_pop` have null slopes across both latent factors (every 95% CI straddles zero) and consistently penalize out-of-sample LOO ($\Delta\text{elpd}_{\text{tip}} = -0.0\text{ to }-1.8$ for `x_pop` vs. `x`, and $-0.3\text{ to }-3.1$ for `x_int_pop` vs. `x_pop`), while leaving every admixture slope and contrast intact.
 
 #### 5.3.2 Exact Spatial Gaussian Process (`F`: Phylogeny + Space vs. `P`: Phylogeny)
 

@@ -978,13 +978,13 @@ if ("c3_demog" %in% checks_active) {
   )
 }
 
-# Check 3.2: Spatial GP (`F`: Phylogeny + Exact Spatial GP) + matched cached legacy `P` specs
+# Check 3.2: Spatial GP (`F`: Phylogeny + Exact Spatial GP; Grafen `P` is already in `ref_grafen_P`)
 if ("c3_space_F" %in% checks_active) {
   add_sem_group(
     check_name = "check3_space_F", set_label = "main",
     base_archs_1f = c("M0_1pl", "MA0_2pl"), x_archs_1f = c("MA_2pl", "MB_2pl"),
     base_archs_2f = c("MC0_cross"), x_archs_2f = c("MC_cross"),
-    ctrl_list = c("P", "F"), use_fam_slopes = 0L, use_mundlak = 0L, dspec_mode = "standard",
+    ctrl_list = "F", use_fam_slopes = 0L, use_mundlak = 0L, dspec_mode = "standard",
     legacy_stan = TRUE, name_prefix = ""
   )
 }
