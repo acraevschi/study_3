@@ -48,8 +48,8 @@ analyses/
 │   ├── phylo_rates/              <- Stage B: Time-calibrated within-family RRW branch rates & PICs
 │   │                                (prepare.R, contrasts_diagnostic.R, fit_rrw.R, gen_rrw.stan, morph_rrw.stan,
 │   │                                 README.md, .gitignore, data/, results/, fits/)
-│   └── latent_sem/               <- Stage C: Item-level 1PL/2PL IRT, Varying-Slope & 2-Factor SEM
-│                                    (fit_latent.R, stan/item_1factor.stan, stan/item_2factor.stan,
+│   └── latent_sem/               <- Stage C: Item-level 1PL/2PL IRT, Varying-Slope, 2-Factor SEM & Synthesis
+│                                    (fit_latent.R, fit_irreg13_mb2pl.R, fit_synthesis.R, stan/item_*.stan,
 │                                     README.md, .gitignore, results/, fits/)
 │
 ├── ldl/                          <- Track 2: GeLaTo Admixture -> LDL / Wug Paradigm Predictability & Confidence
@@ -78,8 +78,10 @@ ADM_DRY=1 Rscript analyses/grambank/baseline/fit.R
 # 4. Run Track 1 Stage B (Within-family PIC & branch-jump demographic audit)
 Rscript analyses/grambank/phylo_rates/contrasts_diagnostic.R
 
-# 5. Validate Track 1 Stage C (Item-level 1PL/2PL IRT, Varying-Slope & 2-Factor SEM; 43 cached fits)
+# 5. Validate Track 1 Stage C (Item-level 1PL/2PL IRT, Varying-Slope, 2-Factor SEM & Synthesis)
 LAT_DRY=1 Rscript analyses/grambank/latent_sem/fit_latent.R
+LAT_DRY=1 Rscript analyses/grambank/latent_sem/fit_irreg13_mb2pl.R
+SYN_DRY=1 Rscript analyses/grambank/latent_sem/fit_synthesis.R
 ```
 
 ---
@@ -89,5 +91,4 @@ LAT_DRY=1 Rscript analyses/grambank/latent_sem/fit_latent.R
 Six superseded October 2026 exploratory directories (`draft_admixture_model_2026_10_10`,
 `gelato_review_2026_10_09`, `gelato_review_2026_10_16`, `gelato_review_2026_10_20`,
 `pcfp_v1_2026_10_08`, `unimorph_gelato_estimate_2026_10_08`) are archived outside the repository
-at `/Users/acraev/Work/study_3_archive_2026-10-08/analyses_archive_2026_10_31/` (see
-[`../ARCHIVE_NOTE.md`](../ARCHIVE_NOTE.md)).
+(see the local `ARCHIVE_NOTE.md`).

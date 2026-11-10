@@ -1,6 +1,6 @@
 # GeLaTo/MGN feasibility audit, 1 October 2026
 
-The substantive assessment is [the review](../../docs/gelato_feasibility_2026-10-01.md).
+Initial GeLaTo/MGN feasibility audit and pinned upstream source archives (see [`../../docs/TYPOLOGY.md`](../../docs/TYPOLOGY.md) and [`../README.md`](../README.md) for the subsequent Grambank and MGN pipelines).
 These files do not modify the study's modelling pipeline.
 
 Run the offline audit from the repository root:

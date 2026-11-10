@@ -125,9 +125,9 @@ as measurement error (`me(x, x_sd)`); whether that is the right treatment is an 
 
 | Measures | How the number of individuals counts |
 |---|---|
-| `ent`, `nonmax`, `ent_K12`, `ent_K30` | individuals are the data: `value_i ~ 1 + (1 | lang) + (1 | lang:population)`. More individuals, narrower SD |
-| `pop_ent`, `het`, `support`, `amount` | one value per population with its bootstrap SE over the individuals (400 resamples): `value_p | se(se_p, sigma = TRUE) ~ 1 + (1 | lang)`. In the draft these had no SE |
-| `graff_target`, `neigh_flow`, `f3_z`, `f3_est` | one number per population (`value_p ~ 1 + (1 | lang)`, equal population weights): while `admixtools::f3` computes SNP block-jackknife SEs (`min_se` in `f3_scores.csv`), Stage 1 weights populations within multi-population languages equally rather than by SNP-jackknife precision |
+| `ent`, `nonmax`, `ent_K12`, `ent_K30` | individuals are the data: `value_i ~ 1 + (1 \| lang) + (1 \| lang:population)`. More individuals, narrower SD |
+| `pop_ent`, `het`, `support`, `amount` | one value per population with its bootstrap SE over the individuals (400 resamples): `value_p \| se(se_p, sigma = TRUE) ~ 1 + (1 \| lang)`. In the draft these had no SE |
+| `graff_target`, `neigh_flow`, `f3_z`, `f3_est` | one number per population (`value_p ~ 1 + (1 \| lang)`, equal population weights): while `admixtools::f3` computes SNP block-jackknife SEs (`min_se` in `f3_scores.csv`), Stage 1 weights populations within multi-population languages equally rather than by SNP-jackknife precision |
 
 A bootstrap from fewer than 3 individuals is unreliable. There the SE is the pooled
 per-individual SD (median over populations with ≥ 3) divided by √n, as in the draft.
@@ -183,11 +183,11 @@ Rscript analyses/common/f3.R <path to F2results> 3000 5
 ADM_XMODE=both ADM_MEASURES=f3k_z,f3k_est,f3b3_z,f3b3_est ADM_TAG=f3check \
   Rscript analyses/grambank/baseline/fit.R main > .../fit_f3check.log 2>&1
 # Flexivity outcomes and tail-checked exposures (sqrt_het, f3k_est_pos):
-# 1) All available languages in language_data.csv (pre-filtered to cat12_coded >= 8, N=202) meeting each outcome's >=60% threshold (ADM_SAMPLE=own, default: N=189 for flex, N=188 for flex26, N=181 for irreg13; or N=193/192/182 across all 225 Grambank-linked languages before the cat12_coded >= 8 filter):
+# 1) Default sample (ADM_SAMPLE=own, used for the saved *_cov60.csv tables): all languages in language_data.csv (pre-filtered to cat12_coded >= 8, N=202) meeting each outcome's >=60% threshold (N=202 for cat12, N=189 for flex, N=186 for flex26, N=175 for irreg13; across all 225 Grambank-linked main languages prior to prepare.py's cat12_coded >= 8 filter, standalone >=60% retains 202/193/192/182):
 ADM_OUTCOME=flex ADM_MIN_COV=0.6 ADM_SAMPLE=own ADM_XMODE=plain \
   ADM_MEASURES=ent,het,f3k_est,sqrt_het,f3k_est_pos \
   Rscript analyses/grambank/baseline/fit.R main
-# 2) Intersection sensitivity (languages meeting >=60% on BOTH cat12 and the partner outcome, N=189 for flex, N=186 for flex26, N=175 for irreg13; used for the saved *_cov60.csv tables):
+# 2) Intersection mode (ADM_SAMPLE=intersect: restricts cat12 from 202 to the partner outcome's >=60% subset—N=189 with ADM_INTERSECT_WITH=flex, N=186 with flex26, N=175 with irreg13—and yields the same N=189/186/175 on flex/flex26/irreg13 because language_data.csv already has cat12_coded >= 8):
 ADM_OUTCOME=cat12 ADM_MIN_COV=0.6 ADM_SAMPLE=intersect ADM_XMODE=plain \
   ADM_MEASURES=ent,het,f3k_est,sqrt_het,f3k_est_pos \
   Rscript analyses/grambank/baseline/fit.R main
@@ -201,18 +201,20 @@ ADM_OUTCOME=flex ADM_MIN_COV=0.6 ADM_SAMPLE=intersect ADM_XMODE=plain ADM_REUSE_
 Flexivity features, `flex26` dropping the 4 shared gender-agreement features GB170–172/GB198, or
 `irreg13` for the 13 core allomorphy/suppletion/inflection-class features); `ADM_MIN_COV` filters
 to languages with at least that share of outcome features coded (default `0.6` for all outcomes);
-`ADM_SAMPLE` selects the language sample (`own` default: all languages in `language_data.csv` meeting
-`ADM_OUTCOME`'s coverage threshold, i.e. 202 for `cat12`, 189 for `flex`, 188 for `flex26`, and 181
-for `irreg13` within the 202-language `cat12_coded >= 8` table, corresponding to 193/192/182 across
-all 225 Grambank-linked languages prior to the `cat12_coded >= 8` filter in `prepare.py`; `intersect`:
-only languages meeting both `cat12` and Flexivity/Irregularity coverage—189 for `flex`, 186 for
-`flex26`, and 175 for `irreg13` in the saved `model_results_main_*_cov60.csv` tables—sharing stage 1 and
-the phylogenetic correlation matrix across both outcomes; `ADM_INTERSECT_WITH` selects the partner
-outcome when `ADM_OUTCOME=cat12`, default `flex`); `ADM_CTRLS` overrides the control sets (e.g.
-`N,P,F`); `ADM_PAR_FITS` sets the number of parallel fits (default `4`, × 4 chains = 16 cores);
-`ADM_REUSE_STAGE1=1` reuses saved stage-1 exposure tables in `results/` when they match the active
-language sample; `ADM_TAG` adds a suffix to the result files (`model_results_main_f3check.csv`, …;
-defaults to `<outcome>_cov<pct>[_intersect]`) so they do not overwrite others.
+`ADM_SAMPLE` selects the language sample (`own` default, used for the saved `model_results_main_*_cov60.csv`
+tables without `_intersect` suffixes: all languages in `language_data.csv` meeting `ADM_OUTCOME`'s
+`>= 60%` coverage threshold, i.e. 202 for `cat12`, 189 for `flex`, 186 for `flex26`, and 175 for `irreg13`
+within the 202-language `cat12_coded >= 8` table—whereas across all 225 Grambank-linked `main` languages
+prior to `prepare.py`'s `cat12_coded >= 8` filter, standalone `>= 60%` retains 202/193/192/182; `intersect`:
+languages meeting `>= 60%` on both `cat12` and the Flexivity/Irregularity partner—189 for `flex`, 186 for
+`flex26`, and 175 for `irreg13`, identical to `own` on `flex`/`flex26`/`irreg13` within `language_data.csv`
+while restricting `ADM_OUTCOME=cat12` from 202 to 189/186/175 so both outcomes share stage 1 and the
+phylogenetic correlation matrix; `ADM_INTERSECT_WITH` selects the partner outcome when `ADM_OUTCOME=cat12`,
+default `flex`); `ADM_CTRLS` overrides the control sets (e.g. `N,P,F`); `ADM_PAR_FITS` sets the number of
+parallel fits (default `1`, × 4 chains = 4 cores; `2` × 2 chains = 4 cores in smoke mode); `ADM_REUSE_STAGE1=1`
+reuses saved stage-1 exposure tables in `results/` when they match the active language sample; `ADM_TAG` adds a
+suffix to the result files (`model_results_main_f3check.csv`, …; defaults to `<outcome>_cov<pct>[_intersect]`)
+so they do not overwrite others.
 
 The tables were built on the `gelato-link-rules` branch; they need its
 `analysis_links.csv`.
@@ -267,19 +269,20 @@ stage-1 **posterior mean** and passes its SD to `me(x, x_sd)`, which treats the 
 true value plus noise ("classical" error). A posterior mean is the other way round: the true
 value scatters around it ("Berkson" error), and a plain regression on it is roughly unbiased.
 `me()` therefore makes up for attenuation that is not there, and the slope comes out too large
-by about 1 / (1 − mean(x_sd²)). With the draft's stage-1 values (`hier_exposure.csv`, 175
-languages; this run's values will differ):
+by about 1 / (1 − mean(x_sd²)). On the 202-language `main` set (`results/exposure_main.csv`):
 
-| Measure | mean(x_sd²) | slope too large by |
+| Measure | mean(x_sd²) | 1 / (1 − mean(x_sd²)) (slope inflation) |
 |---|---|---|
-| `ent_K12` | 0.05 | about 5% |
-| `ent`, `nonmax`, `pop_ent` | 0.09 | about 9–10% |
-| `neigh` | 0.12 | about 13% |
-| `amount`, `ent_K30` | 0.15 | about 18% |
-| `support` | 0.26 | about 36% |
-| `graff` | 1.02 | undefined: the claimed noise exceeds the variance of x, so x is treated as pure noise |
+| `ent_K12` | 0.058 | about +6% |
+| `nonmax`, `pop_ent`, `ent` | 0.084–0.089 | about +9–10% |
+| `neigh`, `amount` | 0.119–0.124 | about +13–14% |
+| `ent_K30` | 0.151 | about +18% |
+| `support` | 0.198 | about +25% |
+| `f3_z`, `f3_est` | 0.315–0.317 | about +46–47% |
+| `het` | 0.536 | about +116% |
+| `graff` | 0.961 | ~26× (practically unidentified: claimed noise is 96.1% of var(x); 1.02 in the 175-language draft `hier_exposure.csv`) |
 
-The draft's `graff` slope (−0.01, wide interval) therefore reflected the prior, not the data.
+The `me`-mode `graff` slope (−0.02 [−0.49, +0.45]; draft −0.01) therefore reflects the prior, not the data.
 
 Options:
 * `ADM_XMODE=me` (default, as in the draft): comparable with the draft; slopes inflated as
@@ -340,8 +343,8 @@ the baseline on the same languages and controls (± SE).
   entropy slopes a little larger. On the raw scale (`b / (x_scale × y_sd)`), `ent` is 0.55
   (main) to 0.63 per unit of entropy.
 * `het`, the closest sign of L2 speakers present now, is weakly positive, not negative.
-* `neigh` is +0.19 [+0.02, +0.37] without controls and about 0 with phylogeny or space:
-  gene flow with neighbours is explained by relatedness and place.
+* `neigh` is +0.17 [+0.02, +0.33] without controls (`plain`; +0.20 [+0.02, +0.37] in `me` mode) and
+  about 0 with phylogeny or space: gene flow with neighbours is explained by relatedness and place.
 
 **Controls (main, baselines on all 202 languages).** Against phylogeny + space: phylogeny alone
 −1.2 ± 2.8, space alone −10.0 ± 5.6, none −73.2 ± 9.1. Phylogeny does most of the work. The
@@ -363,13 +366,14 @@ The f3 slope is not an effect of how densely the panel samples a family: it stay
 when every population gets the same number of tests and when poorly sampled families are left
 out. It does not cover the 19 populations (19 languages) without any f3 score.
 
-**`me` against `plain`.** Slopes in `me` mode are larger, as expected (§10): by 5–10% for the
-entropy measures, about 30% for `f3`, about 80% for `het`; `graff` is unidentified (−0.02
-[−0.49, +0.45]). In `me` mode PSIS-LOO breaks down where the exposure is uncertain, because
-every language gets its own latent exposure: `graff` has Pareto k > 0.7 for 179 of 202
-languages, `het` for 38, and the Δelpd values (`graff` −138, `het` −54, `f3` −9 to −12) are
-artefacts, not losses. Model comparison uses `plain` mode only; in `plain` mode at most 11
-languages per model have k > 0.7.
+**`me` against `plain`.** Slopes in `me` mode are larger, as expected (§10): by 4–10% for the
+entropy/`nonmax` measures, 20–34% for `f3`, and 81% for `het` under `phylogeny + space` (`F`);
+`graff` is unidentified (−0.02 [−0.49, +0.45]). In `me` mode PSIS-LOO breaks down where the
+exposure is uncertain, because every language gets its own latent exposure: under `F`
+(`model_results_main.csv`), `graff` has Pareto k > 0.7 for 188 of 202 languages (189/202 in `P`,
+180/202 in `S`, 175/202 in `N`), `het` for 38 of 198 (33–54/198 across `S`/`F`/`P`/`N`), and the
+`F`-model Δelpd values (`graff` −138, `het` −54, `f3` −9 to −12) are artefacts, not losses. Model
+comparison uses `plain` mode only; in `plain` mode at most 11 languages per model have k > 0.7.
 
 **Where the pattern comes from (descriptive, `ent`, main, stage-1 means; not a model).**
 Spearman between exposure and share of categories present: 0.08 over all 202 languages;
@@ -403,7 +407,8 @@ Follow-up on the main set (`plain` mode) contrasting the 12-category inflectiona
 `v1.0.3`, column `Flexivity == "1"`, 30 binary `0`/`1` features) across three non-redundant
 exposure mechanisms (`ent`, `het`, `f3k_est`) and their tail-checked counterparts:
 * `sqrt_het`: square root of population `het` (with 400-resample bootstrap SE), pulling in the
-  right skew (Sie $+6.3\text{ SD} \to +2.9\text{ SD}$).
+  right skew (Stage-1 Sie $+6.3\text{ SD} \to +3.5\text{ SD}$, max $+3.6\text{ SD}$ on Northern Yukaghir;
+  population-level Vanuatu\_Erromango $+3.5\text{ SD} \to +3.0\text{ SD}$).
 * `f3k_est_pos`: `max(0, f3k_est)`, clamping positive raw $f_3$ values (45% of populations, where
   $f_3 > 0$ reflects population-specific genetic drift rather than admixture, e.g. Rennell-Bellona
   at $-5.6\text{ SD}$) at zero.
@@ -412,20 +417,26 @@ exposure mechanisms (`ent`, `het`, `f3k_est`) and their tail-checked counterpart
 * `flex` (30 features): 11 gender/noun-class features (`GB030, GB051–054, GB170–172, GB192, GB198, GB321`),
   4 classifier features (`GB038, GB057, GB058, GB116`), 2 evaluative features (`GB187, GB188`),
   1 verbal animacy marker (`GB177`), and 12 suppletion/allomorphy/split/conjugation-class features.
-  Because the 11 gender questions are coded in 94–100% of languages while lexical suppletion is
-  coded in 63–82%, languages with $< 18/30$ ($< 60\%$) coded features have almost only gender coded.
-  Setting `ADM_MIN_COV=0.6` ($\ge 18/30$, matching the 60% rule of `cat12`) retains **193** of all
-  225 Grambank-linked languages prior to the `cat12_coded >= 8` filter in `prepare.py` (adding Bilua `bilu1245`, Esan `esan1238`,
-  Mali `mali1284`, and Thai `thai1261` to the **189** languages in `language_data.csv` / the `cat12 ∩ flex` intersection)
-  and guarantees at least 7 non-gender flexivity features per language. Because `prepare.py` pre-filters
-  `language_data.csv` to the 202 `main` languages with `cat12_coded >= 8`, running `fit.R` on `language_data.csv`
-  retains $N = 189 / 188 / 181$ under `ADM_SAMPLE=own` and $N = 189 / 186 / 175$ under `ADM_SAMPLE=intersect`
-  (the saved `model_results_main_flex_cov60.csv`, `flex26_cov60.csv`, and `irreg13_cov60.csv` files were run with `ADM_SAMPLE=intersect`).
+  Because the 11 gender questions are coded in 89–100% of the 202 `main` languages (80–99% across all 225)
+  while lexical suppletion is coded in 63–82% (57–80% across all 225), languages with $< 18/30$ ($< 60\%$)
+  coded features have almost only gender coded. Setting `ADM_MIN_COV=0.6` ($\ge 18/30$, matching the 60%
+  rule of `cat12`) retains **193** of all 225 Grambank-linked `main` languages prior to `prepare.py`'s
+  `cat12_coded >= 8` filter (adding Bilua `bilu1245`, Esan `esan1238`, Mali `mali1284`, and Thai `thai1261`
+  to the **189** languages in `language_data.csv`) and guarantees at least 7 non-gender flexivity features
+  per language. Because `prepare.py` pre-filters `language_data.csv` to `cat12_coded >= 8` ($N = 202$),
+  running `fit.R` on `language_data.csv` retains $N = 189$ (`flex`), $186$ (`flex26`), and $175$ (`irreg13`)
+  under **both** `ADM_SAMPLE=own` and `ADM_SAMPLE=intersect` (and the saved `model_results_main_flex_cov60.csv`,
+  `flex26_cov60.csv`, and `irreg13_cov60.csv` files without `_intersect` suffixes were produced by the default
+  `ADM_SAMPLE=own`).
 * `flex26` (26 features): drops the 4 adnominal gender-agreement features (`GB170–172, GB198`)
-  shared with `cat12` ($\ge 16/26 = 60\%$ retains 192 of 225 Grambank-linked languages, 188 of 202 in `language_data.csv` under `own`, and 186 in `intersect` where `flex_coded >= 18` is also required).
+  shared with `cat12` ($\ge 16/26 = 60\%$ retains **192** of all 225 Grambank-linked `main` languages prior
+  to `prepare.py`'s `cat12_coded >= 8` filter, and **186** of 202 in `language_data.csv` under both
+  `ADM_SAMPLE=own` and `ADM_SAMPLE=intersect`).
 * `irreg13` (13 features): core paradigmatic irregularity, allomorphy, suppletion and inflection
   classes (`GB039, GB041, GB095, GB096, GB098, GB099, GB109, GB110, GB111, GB300, GB321, GB402, GB403`;
-  $\ge 8/13 = 60\%$ retains 182 of 225 Grambank-linked languages, 181 of 202 in `language_data.csv` under `own`, and 175 in `intersect`).
+  $\ge 8/13 = 60\%$ retains **182** of all 225 Grambank-linked `main` languages prior to `prepare.py`'s
+  `cat12_coded >= 8` filter, and **175** of 202 in `language_data.csv` under both `ADM_SAMPLE=own` and
+  `ADM_SAMPLE=intersect`).
 
 **1. Tail checks on 12-category inflectional breadth (`cat12`, `main`, `plain` mode):**
 
@@ -436,9 +447,9 @@ exposure mechanisms (`ent`, `het`, `f3k_est`) and their tail-checked counterpart
 | `f3k_est` (raw, $n=183$) | +0.20 [+0.06, +0.34] | +0.18 [+0.04, +0.33] | +2.4 ± 2.7 |
 | `f3k_est_pos` (clamped at 0, $n=183$) | +0.19 [+0.04, +0.35] | +0.18 [+0.03, +0.35] | +0.7 ± 3.5 |
 
-**2. Flexivity slopes across coverage thresholds and subsets (`main`, `plain` mode, initial run on the 202-language `cat12` denominator / `cat12 ∩ flex` intersection):**
+**2. Flexivity slopes across coverage thresholds and subsets (`main`, `plain` mode, `ADM_SAMPLE=own` on the 202-language `language_data.csv` table):**
 
-*(Diagnostics: R-hat $\le 1.008$, bulk ESS $\ge 575$; as in §11, divergent transitions occurred only in phylogeny + space `F` models, at most 19 of 6,000 draws in `flex_cov60__main__f3k_est_F_plain` and $\le 8$ elsewhere.)*
+*(Diagnostics: R-hat $\le 1.009$ across Stage-1 tailcheck and all 6 Stage-2 tables, $\le 1.007$ on `flex_cov60`; bulk ESS $\ge 576$ in Stage 1 and $\ge 623$ in Stage 2; as in §11, divergent transitions occurred only in phylogeny + space `F` models—at most 19 of 6,000 draws in `flex_cov60__main__f3k_est_F_plain` and $\le 8$ elsewhere on `flex_cov60`, $\le 27$ on `flex_all`, and $\le 58$ on `flex26_cov60`, with 0 divergences in all `N` and `P` models.)*
 
 | Outcome set ($N$ langs) | Control | `ent` | `het` | `f3k_est` | `sqrt_het` | `f3k_est_pos` |
 |---|---|---|---|---|---|---|
@@ -459,9 +470,9 @@ with any admixture measure under any coverage threshold ($0\%, 50\%, 60\%, 75\%$
 (`flex`, `flex26`, `irreg13`). Point estimates after phylogenetic control are zero for `ent` and
 slightly negative for `het` ($-0.03$ to $-0.06$) and `f3k_est` ($-0.06$ to $-0.15$, with
 $P(\text{slope} < 0) = 0.89$ on `flex_cov60` and $0.93$ on `irreg13_cov60`), with $\Delta\text{elpd}$
-within $\pm 1.7$ of zero. This supports the distinction between **transparent categorial breadth**
+in $[-1.8, +1.4]$ on `cov60`/`all`/`cov75` ($-2.0$ on `flex_cov50` `het`). This supports the distinction between **transparent categorial breadth**
 (high in admixed agglutinating families such as Turkic, mean share $0.71$) and **paradigmatic
-opacity / flexivity** (near zero in Turkic, mean share $0.04$, vs. Indo-European $0.37$).
+opacity / flexivity** (near zero in Turkic, mean share $0.04$, vs. Indo-European $0.41$ on `flex` and $0.37$ on `flex26`).
 
 ## 13. Demographic and range-area extension (`ADM_DEMOG`, 2026-10-30)
 
@@ -504,7 +515,7 @@ interacts with the three core admixture mechanisms (`ent`, `het`, `f3k_est`) acr
 | Outcome ($N$) | Control | `pop` (`z_pop`) | `area` (`z_area`) | `pop_area` (`z_pop`, `z_area`) | $\Delta\text{elpd}$ vs `base` (`pop` / `area` / `pop_area`) |
 |---|---|---|---|---|---|
 | `cat12` ($192$) | `none` (`N`) | $+0.23\;[+0.10, +0.35]$ | $+0.34\;[+0.22, +0.47]$ | $-0.00, +0.35$ | $+4.8 \pm 3.8$ / $+12.5 \pm 5.6$ / $+11.7 \pm 5.6$ |
-| `cat12` ($192$) | `phylogeny` (`P`) | $-0.00\;[-0.17, +0.16]$ | $+0.00\;[-0.18, +0.17]$ | $-0.00, -0.00$ | $+0.7 \pm 0.7$ / $+0.5 \pm 0.6$ / $-0.4 \pm 0.6$ |
+| `cat12` ($192$) | `phylogeny` (`P`) | $-0.00\;[-0.17, +0.16]$ | $+0.00\;[-0.18, +0.17]$ | $-0.00, -0.00$ | $+0.7 \pm 0.7$ / $+0.4 \pm 0.6$ / $-0.4 \pm 0.6$ |
 | `flex_cov60` ($180$) | `none` (`N`) | $+0.25\;[+0.12, +0.38]$ | $+0.17\;[+0.04, +0.31]$ | $+0.26, -0.01$ | $+5.9 \pm 3.7$ / $+2.1 \pm 2.5$ / $+5.0 \pm 3.7$ |
 | `flex_cov60` ($180$) | `phylogeny` (`P`) | $-0.02\;[-0.17, +0.14]$ | $-0.02\;[-0.16, +0.12]$ | $-0.01, -0.02$ | $-0.7 \pm 0.4$ / $-0.1 \pm 0.5$ / $-1.0 \pm 0.9$ |
 | `irreg13_cov60` ($168$) | `none` (`N`) | $+0.24\;[+0.07, +0.41]$ | $+0.15\;[-0.03, +0.31]$ | $+0.26, -0.02$ | $+2.6 \pm 3.0$ / $+0.3 \pm 1.7$ / $+1.6 \pm 3.0$ |

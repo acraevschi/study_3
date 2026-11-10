@@ -12,11 +12,11 @@ writes canonical tables into [`data/`](data/).
 
 ## The Three Modeling Stages
 
-| Stage | Directory | Models & Purpose |Detailed Report |
+| Stage | Directory | Models & Purpose | Detailed Report |
 |---|---|---|---|
-| **Stage A: Baseline & Demography** | [`baseline/`](baseline/) | Two-stage Bayesian Beta-Binomial models (`brms`) across 4 outcomes (`cat12`, `flex`, `flex26`, `irreg13`), 16 admixture measures, 4 link-sensitivity sets, 4 control sets (`N`, `P`, `S`, `F`), and audited L1 speaker population & range area extensions ($N = 192$). Includes 590 cached `.rds` fits. | [`baseline/README.md`](baseline/README.md) |
+| **Stage A: Baseline & Demography** | [`baseline/`](baseline/) | Two-stage Bayesian Beta-Binomial models (`brms`) across 4 outcomes (`cat12`, `flex`, `flex26`, `irreg13`), 18 admixture measures, 4 link-sensitivity sets, 4 control sets (`N`, `P`, `S`, `F`), and audited L1 speaker population & range area extensions ($N = 192$). Includes 590 cached `.rds` fits. | [`baseline/README.md`](baseline/README.md) |
 | **Stage B: Within-Family Phylo Rates & PICs** | [`phylo_rates/`](phylo_rates/) | Time-calibrated within-family Bouckaert v2.0.0 trees ($F = 10$ families with $\ge 5$ languages; $F = 13$ with $\ge 3$), Phylogenetic Independent Contrasts (PICs), terminal branch-jump $N_e$ bottleneck audits, and custom 2-stage Relaxed Random Walk (RRW) Stan models (`gen_rrw.stan`, `morph_rrw.stan`). Includes 162 cached `.rds` fits. | [`phylo_rates/README.md`](phylo_rates/README.md) |
-| **Stage C: Item-Level Latent IRT, 2-Factor SEM & Unifying Synthesis** | [`latent_sem/`](latent_sem/) | Item-level logistic models (`stan/item_1factor*.stan`, `stan/item_2factor*.stan`) over the 6,821 binary language $\times$ item cells: 1PL vs. 2PL IRT/MIMIC, hierarchical varying admixture slopes across items/domains (testing agreement vs. inherent inflection), joint 2-factor SEMs of Enumerative Breadth ($\theta_{1l}$, `cat12`) + Irregularity/Flexivity ($\theta_{2l}$, `irreg13` / `flex26`), and 333 unifying synthesis checks (`fit_synthesis.R`: family-varying slopes `(1 + x \| family)` & Mundlak within/between decomposition, Inner-Asia sensitivity, time-calibrated Bouckaert v2.0.0 covariance `P_b_stem`/`P_b_crown`/`P_b_kyr`, speaker population `z_pop` & `x * z_pop`, and Spatial GP `F`). Includes 351 cached `.rds` fits (`42` core `P` + `23` `F` + `214` `syn_*` SEM fits + `72` `bb_syn__*` Beta-Binomial fits). | [`latent_sem/README.md`](latent_sem/README.md) |
+| **Stage C: Item-Level Latent IRT, 2-Factor SEM & Unifying Synthesis** | [`latent_sem/`](latent_sem/) | Item-level logistic models (`stan/item_1factor*.stan`, `stan/item_2factor*.stan`) over the 6,821 binary language $\times$ item cells: 1PL vs. 2PL IRT/MIMIC, hierarchical varying admixture slopes across items/domains (testing NP agreement vs. head/clausal inflection, plus `fit_irreg13_mb2pl.R` for `irreg13` item slopes), joint 2-factor SEMs of Enumerative Breadth ($\theta_{1l}$, `cat12`) + Irregularity/Flexivity ($\theta_{2l}$, `irreg13` / `flex26`), and 309 unique unifying synthesis checks (`fit_synthesis.R`: family-varying slopes `(1 + x \| family)` & Mundlak within/between decomposition, Inner-Asia sensitivity, time-calibrated Bouckaert v2.0.0 covariance `P_b_stem`/`P_b_crown`/`P_b_kyr`, speaker population `z_pop` & `x * z_pop`, and Spatial GP `F`). Includes 351 cached `.rds` fits (`42` core `P` + `24` `F` + `213` `syn_*` SEM fits + `72` `bb_syn__*` Beta-Binomial fits). | [`latent_sem/README.md`](latent_sem/README.md) |
 
 ---
 
@@ -54,6 +54,7 @@ Rscript analyses/grambank/phylo_rates/fit_rrw.R
 # Stage C: Item-Level 1PL/2PL IRT, Varying-Slope, 2-Factor SEM & Unifying Synthesis
 LAT_DRY=1 Rscript analyses/grambank/latent_sem/fit_latent.R
 LAT_CTRLS=P Rscript analyses/grambank/latent_sem/fit_latent.R main
+Rscript analyses/grambank/latent_sem/fit_irreg13_mb2pl.R
 SYN_DRY=1 Rscript analyses/grambank/latent_sem/fit_synthesis.R
 Rscript analyses/grambank/latent_sem/fit_synthesis.R
 ```

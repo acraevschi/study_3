@@ -224,8 +224,8 @@ the confirmed decision sheet `morph_ldl/data/gelato_link_review.csv` ([TYPOLOGY.
 Outside the pipeline, the two-stage hierarchical admixture → Grambank models (12
 inflectional categories and Grambank Flexivity across 202 languages and three
 link-sensitivity sets) are implemented and documented in
-[`analyses/admixture_links_2026_10_21/README.md`](../analyses/admixture_links_2026_10_21/README.md)
-(superseding the initial 175-language draft in `analyses/draft_admixture_model_2026_10_10/`).
+[`analyses/grambank/baseline/README.md`](../analyses/grambank/baseline/README.md)
+(with branch-rate and item-level SEM stages in [`analyses/grambank/README.md`](../analyses/grambank/README.md)).
 Because the ancestry values have been examined in those exploratory runs, subsequent
 analyses are not blind to them.
 
@@ -233,7 +233,7 @@ analyses are not blind to them.
 
 * **Grambank extent & Flexivity:** two-stage hierarchical exposure + beta-binomial outcome
   on (`n_present`, `n_coded`) per language across phylogenetic and spatial controls; see
-  [`analyses/admixture_links_2026_10_21/README.md`](../analyses/admixture_links_2026_10_21/README.md).
+  [`analyses/grambank/baseline/README.md`](../analyses/grambank/baseline/README.md).
 * **LDL predictability:** binomial at the item level with language random effects, or
   beta-binomial per language, inflecting languages only.
 * **Confounding:** the zero or near-zero languages (Khmer, Vietnamese, Naxi, She, Thai,

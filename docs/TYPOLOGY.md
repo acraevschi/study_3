@@ -209,7 +209,7 @@ parent is absent). For a breadth count, "no gender, hence no gender agreement" m
 
 The clitic heuristic's thresholds are rescaled from 5 of 35 to 2 of 12. So is
 `minimal_inflection`, which stays at `n_present <= 1`. That cut is now relatively looser,
-1 of 12 instead of 1 of 35 (§12).
+1 of 12 instead of 1 of 35 (§11).
 
 **Remaining dependencies (documented, not removed).** Merging removes the logical
 dependencies *within* a category. Statistical dependencies *between* categories remain,
@@ -340,8 +340,9 @@ read, and no choice in this document was made after looking at one.
 
 **Update 2026-10-21.** The firewall still holds for this stage. Outside it, the exploratory
 admixture models (`analyses/draft_admixture_model_2026_10_10/` and
-`analyses/admixture_links_2026_10_21/`) read the ancestry values. The choices in this
-document (12-category feature set, mapping rules, coverage threshold) predate those runs.
+`analyses/admixture_links_2026_10_21/`, now `analyses/grambank/baseline/`) read the ancestry
+values. The choices in this document (12-category feature set, mapping rules, coverage
+threshold) predate those runs.
 
 ## 8. Audit (`audit_typology(cfg) -> (checks, problems)`)
 
@@ -381,7 +382,7 @@ document (12-category feature set, mapping rules, coverage threshold) predate th
   descriptively, not as a main test.
 * **Exposure.** The admixture exposure variable is not defined inside this stage; the
   two-stage hierarchical admixture → Grambank inflection and Flexivity models are
-  implemented in [`analyses/admixture_links_2026_10_21/`](../analyses/admixture_links_2026_10_21/README.md).
+  implemented in [`analyses/grambank/baseline/`](../analyses/grambank/baseline/README.md).
 
 ## 10. Missing-language audit and dialect substitution (2026-10-08)
 
@@ -460,8 +461,8 @@ Typology stage with rule-based link acceptance and all 33 rows of the decision s
 * **Main set: 202 languages** (175 before link rules; none lost). 335 populations, 2,962
   individuals (2,943 in the ADMIXTURE files).
   * Graff et al.'s Grambank-side (`GBI`) stand-ins add 23 languages (14 resolving a group
-    code such as Modern Greek, Halh Mongolian, Kuanua; 9 replacing a language missing from
-    Grambank such as Gulf Arabic, Chaldean Neo-Aramaic, East Taa, Central Mansi).
+    code such as Modern Greek, Halh Mongolian, Lenakel; 9 replacing a language missing from
+    Grambank such as Gulf Arabic, Chaldean Neo-Aramaic, Forest Enets, Central Mansi).
   * Group codes confirmed in the decision sheet (label `group_choice`): Buka → Halia,
     Yi → Sichuan Yi, Vanuatu_Ambrym → North Ambrym, Vanuatu_Banks → Mwotlap;
     Vanuatu_Malekula `ambiguous` (not in the main analysis).

@@ -4,7 +4,7 @@
 > morphology outcomes, the reports and the analyses. None of the results is a finding.
 > * **Grambank outcome.** Exact and rule-based GeLaTo population–language links are accepted
 >   by rule (`configs/pcfp_v2_links.yaml`), and all 33 doubtful cases are decided in
->   `morph_ldl/data/gelato_link_review.csv` ([docs/TYPOLOGY.md](docs/TYPOLOGY.md) §13).
+>   `morph_ldl/data/gelato_link_review.csv` ([docs/TYPOLOGY.md](docs/TYPOLOGY.md) §2, §12).
 > * **LDL outcome.** Under revision: the 2026-10-09 ablation changed the model
 >   settings, and the absolute accuracy is still too low to treat the score as a measure
 >   of predictability.

@@ -1,7 +1,7 @@
 # Report: LDL predictability under repeated random draws (pcfp_v2)
 
 > **Preliminary** (work in progress; see the README banner). The LDL settings used here
-> were revised by the 2026-10-09 ablation (`analyses/ldl_ablation_2026_10_09/`).
+> were revised by the 2026-10-09 ablation (`analyses/ldl/ablation/`).
 
 Date: 2026-10-08. Config: `configs/pcfp_v2.yaml`. Outputs: `outputs/pcfp_v2/`.
 
@@ -161,10 +161,10 @@ language-level Grambank entry is represented by its best-covered Grambank dialec
   * 113 are missing, against 116.
 * **Linked-language split.** It moved by one, from 309 non-proxy / 41 proxy-only to
   308 / 42. Murut's group map-down became ambiguous once a second Murutic language was
-  coded through a dialect entry (TYPOLOGY.md §11).
+  coded through a dialect entry (TYPOLOGY.md §10).
 
 **Feature set: 12 inflectional categories** (user decision, 2026-10-08, after this report
-was first written; TYPOLOGY.md §3 and §12). Grambank splits one category into several
+was first written; TYPOLOGY.md §3 and §11). Grambank splits one category into several
 logically dependent features: by role, affix position, value or host. A share of 35 raw
 features therefore counts one property several times.
 
@@ -187,12 +187,12 @@ features therefore counts one property several times.
 The check of whether "missing" languages are coded under another code or level is in
 [TYPOLOGY.md](TYPOLOGY.md) §10. None are, apart from these three dialect-coded languages.
 *(Note: the 2026-10-20 link rules in `configs/pcfp_v2_links.yaml` subsequently expanded
-the main Grambank set from 175 to 202 languages; see [TYPOLOGY.md](TYPOLOGY.md) §11.)*
+the main Grambank set from 175 to 202 languages; see [TYPOLOGY.md](TYPOLOGY.md) §12.)*
 
 ## 6. Limitations
 
 Random exposure, single-word cells, citation-form reliance, additive semantics, and low
-absolute accuracy (see `analyses/ldl_ablation_2026_10_09/`), plus:
+absolute accuracy (see `analyses/ldl/ablation/`), plus:
 
 * **Repeated cores, not resampled.** The core sets are fixed across draws. The
   draw-to-draw spread therefore isolates the training-verb sample, but does not cover a
