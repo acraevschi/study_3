@@ -1,0 +1,8 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+halh1238_N_orth,ABL;SG,ABL;SG,retained_canonical,2085,0.0
+halh1238_N_orth,ACC;SG,ACC;SG,retained_canonical,2085,0.0
+halh1238_N_orth,COM;SG,COM;SG,retained_canonical,2085,0.0
+halh1238_N_orth,DAT;SG,DAT;SG,retained_canonical,2085,0.0
+halh1238_N_orth,GEN;SG,GEN;SG,retained_canonical,2085,0.0
+halh1238_N_orth,INS;SG,INS;SG,retained_canonical,2085,0.0
+halh1238_N_orth,SG;VOC,SG;VOC,retained_canonical,2082,0.0

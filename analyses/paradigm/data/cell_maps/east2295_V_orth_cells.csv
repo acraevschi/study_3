@@ -1,0 +1,12 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+east2295_V_orth,1;FIN;PL;PRES,1;FIN;PL;PRES,retained_canonical,292,0.0
+east2295_V_orth,1;FIN;PRES;SG,2;FIN;IMP;SG,merged_100pct_syncretic,292,0.0
+east2295_V_orth,2;FIN;IMP;PL,2;FIN;IMP;PL,retained_canonical,288,0.0
+east2295_V_orth,2;FIN;IMP;SG,2;FIN;IMP;SG,retained_canonical,288,0.0
+east2295_V_orth,2;FIN;PL;PRES,2;FIN;IMP;PL,merged_100pct_syncretic,292,0.0
+east2295_V_orth,2;FIN;PRES;SG,,dropped_sparse_coverage,2,0.0
+east2295_V_orth,3;FIN;PL;PRES,1;FIN;PL;PRES,merged_100pct_syncretic,293,0.0
+east2295_V_orth,3;FIN;PRES;SG,,dropped_sparse_coverage,2,0.0
+east2295_V_orth,NFIN,NFIN,retained_canonical,291,0.0
+east2295_V_orth,PRES;V.PTCP,PRES;V.PTCP,retained_canonical,291,0.0
+east2295_V_orth,PST;V.PTCP,PST;V.PTCP,retained_canonical,291,0.0

@@ -1,0 +1,8 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+taga1270_V_orth,AGFOC;IPFV,AGFOC;IPFV,retained_canonical,339,0.023599
+taga1270_V_orth,AGFOC;LGSPEC1,AGFOC;LGSPEC1,retained_canonical,339,0.023599
+taga1270_V_orth,AGFOC;PFV,AGFOC;PFV,retained_canonical,339,0.020649
+taga1270_V_orth,IPFV;PFOC,IPFV;PFOC,retained_canonical,327,0.024465
+taga1270_V_orth,LGSPEC1;PFOC,LGSPEC1;PFOC,retained_canonical,327,0.024465
+taga1270_V_orth,NFIN,NFIN,retained_canonical,343,0.0
+taga1270_V_orth,PFOC;PFV,PFOC;PFV,retained_canonical,327,0.024465

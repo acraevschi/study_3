@@ -1,0 +1,86 @@
+{
+  "pos": {
+    "V": {
+      "n_languages_main": 45,
+      "n_families_main": 9,
+      "sets": {
+        "main": {
+          "languages": 45,
+          "populations": 105,
+          "individuals": 808
+        },
+        "no_doubtful_language": {
+          "languages": 42,
+          "populations": 101,
+          "individuals": 774
+        },
+        "no_other_language_stand_ins": {
+          "languages": 44,
+          "populations": 101,
+          "individuals": 787
+        },
+        "strict": {
+          "languages": 42,
+          "populations": 98,
+          "individuals": 763
+        }
+      },
+      "n_has_pop": 45,
+      "n_has_area": 44,
+      "n_uniform480": 24,
+      "n_topfreq120": 32,
+      "n_neural": 9,
+      "n_track1_overlap": 34,
+      "n_languages_entrenchment": 44,
+      "n_lemmas_entrenchment": 21078,
+      "pooled_per_individual_sd": {
+        "pop_ent": 0.06376870649526808,
+        "het": 0.01427480386246844,
+        "support": 0.10220528800616867,
+        "amount": 0.01694574798929534,
+        "sqrt_het": 0.04170998485688673
+      }
+    },
+    "N": {
+      "n_languages_main": 49,
+      "n_families_main": 10,
+      "sets": {
+        "main": {
+          "languages": 49,
+          "populations": 136,
+          "individuals": 1025
+        },
+        "no_doubtful_language": {
+          "languages": 46,
+          "populations": 131,
+          "individuals": 982
+        },
+        "no_other_language_stand_ins": {
+          "languages": 48,
+          "populations": 132,
+          "individuals": 1004
+        },
+        "strict": {
+          "languages": 46,
+          "populations": 128,
+          "individuals": 971
+        }
+      },
+      "n_has_pop": 49,
+      "n_has_area": 49,
+      "n_uniform480": 37,
+      "n_topfreq120": 42,
+      "n_neural": 3,
+      "n_track1_overlap": 38,
+      "n_languages_entrenchment": 46,
+      "n_lemmas_entrenchment": 26956,
+      "pooled_per_individual_sd": {
+        "pop_ent": 0.06424824109558554,
+        "het": 0.014280582689638468,
+        "support": 0.0895684057448388,
+        "amount": 0.016206994875132687,
+        "sqrt_het": 0.04295773830395216
+      }
+    }
+  }
+}

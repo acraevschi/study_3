@@ -1,0 +1,4 @@
+"set","measure","level","n_obs","n_lang","max_rhat","min_ess_bulk","divergences","sd_lang","sd_pop","sd_resid"
+"no_other_language_stand_ins","ent","ind",1004,48,1.0069902066004,1041.87715276474,0,0.987707433931667,0.253434186985,0.270844339345
+"no_other_language_stand_ins","sqrt_het","pop",129,47,1.0034246492908,1031.8771717414,0,0.49298311978,NA,0.301684643965
+"no_other_language_stand_ins","f3k_est_pos","pop",98,36,1.01242137122886,246.60241788001,0,1.54976428156,NA,0.337975285951667

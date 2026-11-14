@@ -1,0 +1,64 @@
+sound_id,CLTS_id,label,syllabic,long,consonantal,sonorant,continuant,delayed release,approximant,trill,nasal,voice,spread gl,constr gl,LABIAL,round,labiodental,CORONAL,anterior,distributed,strident,lateral,DORSAL,high,low,front,tense,diphthong,diph_front,diph_high,diph_low,diph_round
+æ,æ,unrounded near-open front vowel,1,0,0,1,,,,,,,,,0,0,,,,,,,,0,1,1,,0,,,,
+æː,æː,long unrounded near-open front vowel,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,1,1,,0,,,,
+æ͜i,æi,from unrounded near-open front to unrounded close front diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,1,1,,1,1,1,0,0
+æ͜y,æy,from unrounded near-open front to rounded close front diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,1,1,,1,1,1,0,1
+ɑ,ɑ,unrounded open back vowel,1,0,0,1,,,,,,,,,0,0,,,,,,,,0,1,0,,0,,,,
+ɑː,ɑː,long unrounded open back vowel,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,1,0,,0,,,,
+ɑ͜i,ɑi,from unrounded open back to unrounded close front diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,1,0,,1,1,1,0,0
+ɑ͜u,ɑu,from unrounded open back to rounded close back diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,1,0,,1,0,1,0,1
+b,b,voiced bilabial stop consonant,0,0,1,0,0,0,0,0,0,1,0,0,1,,0,0,,,,0,0,,,,,,,,,
+d,d,voiced alveolar stop consonant,0,0,1,0,0,0,0,0,0,1,0,0,0,,0,1,1,0,0,0,0,,,,,,,,,
+e,e,unrounded close-mid front vowel,1,0,0,1,,,,,,,,,0,0,,,,,,,,0,0,1,1,0,,,,
+eː,eː,long unrounded close-mid front vowel,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,0,1,1,0,,,,
+e͜i,ei,from unrounded close-mid front to unrounded close front diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,0,1,1,1,1,1,0,0
+e͜u,eu,from unrounded close-mid front to rounded close back diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,0,1,1,1,0,1,0,1
+e͜y,ey,from unrounded close-mid front to rounded close front diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,0,0,1,1,1,1,1,0,1
+f,f,voiceless labio-dental fricative consonant,0,0,1,0,1,1,0,0,0,0,0,0,1,,1,0,,,,0,0,,,,,,,,,
+fː,fː,long voiceless labio-dental fricative consonant,0,1,1,0,1,1,0,0,0,0,0,0,1,,1,0,,,,0,0,,,,,,,,,
+g,g,voiced velar stop consonant,0,0,1,0,0,0,0,0,0,1,0,0,0,,0,0,,,,0,1,,,,,,,,,
+h,h,voiceless glottal fricative consonant,0,0,0,0,1,1,0,0,0,0,1,0,0,,0,0,,,,0,0,,,,,,,,,
+i,i,unrounded close front vowel,1,0,0,1,,,,,,,,,0,0,,,,,,,,1,0,1,1,0,,,,
+iː,iː,long unrounded close front vowel,1,1,0,1,,,,,,,,,0,0,,,,,,,,1,0,1,1,0,,,,
+i͜e,ie,from unrounded close front to unrounded close-mid front diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,1,0,1,1,1,1,0,0,0
+i͜u,iu,from unrounded close front to rounded close back diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,1,0,1,1,1,0,1,0,1
+i͜y,iy,from unrounded close front to rounded close front diphthong,1,1,0,1,,,,,,,,,0,0,,,,,,,,1,0,1,1,1,1,1,0,1
+j,j,voiced palatal approximant consonant,0,0,0,1,1,,1,0,0,1,0,0,0,,0,0,,,,0,1,,,,1,,,,,
+k,k,voiceless velar stop consonant,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,0,,,,0,1,,,,,,,,,
+kː,kː,long voiceless velar stop consonant,0,1,1,0,0,0,0,0,0,0,0,0,0,,0,0,,,,0,1,,,,,,,,,
+l,l,voiced alveolar lateral approximant consonant,0,0,1,1,1,,1,0,0,1,0,0,0,,0,1,1,0,0,1,0,,,,,,,,,
+lː,lː,long voiced alveolar lateral approximant consonant,0,1,1,1,1,,1,0,0,1,0,0,0,,0,1,1,0,0,1,0,,,,,,,,,
+m,m,voiced bilabial nasal consonant,0,0,1,1,0,,0,0,1,1,0,0,1,,0,0,,,,0,0,,,,,,,,,
+mː,mː,long voiced bilabial nasal consonant,0,1,1,1,0,,0,0,1,1,0,0,1,,0,0,,,,0,0,,,,,,,,,
+n,n,voiced alveolar nasal consonant,0,0,1,1,0,,0,0,1,1,0,0,0,,0,1,1,0,0,0,0,,,,,,,,,
+nː,nː,long voiced alveolar nasal consonant,0,1,1,1,0,,0,0,1,1,0,0,0,,0,1,1,0,0,0,0,,,,,,,,,
+ŋ,ŋ,voiced velar nasal consonant,0,0,1,1,0,,0,0,1,1,0,0,0,,0,0,,,,0,1,,,,,,,,,
+ŋː,ŋː,long voiced velar nasal consonant,0,1,1,1,0,,0,0,1,1,0,0,0,,0,0,,,,0,1,,,,,,,,,
+o,o,rounded close-mid back vowel,1,0,0,1,,,,,,,,,1,1,,,,,,,,0,0,0,1,0,,,,
+ø,ø,rounded close-mid front vowel,1,0,0,1,,,,,,,,,1,1,,,,,,,,0,0,1,1,0,,,,
+oː,oː,long rounded close-mid back vowel,1,1,0,1,,,,,,,,,1,1,,,,,,,,0,0,0,1,0,,,,
+øː,øː,long rounded close-mid front vowel,1,1,0,1,,,,,,,,,1,1,,,,,,,,0,0,1,1,0,,,,
+ø͜i,øi,from rounded close-mid front to unrounded close front diphthong,1,1,0,1,,,,,,,,,1,1,,,,,,,,0,0,1,1,1,1,1,0,0
+o͜i,oi,from rounded close-mid back to unrounded close front diphthong,1,1,0,1,,,,,,,,,1,1,,,,,,,,0,0,0,1,1,1,1,0,0
+o͜u,ou,from rounded close-mid back to rounded close back diphthong,1,1,0,1,,,,,,,,,1,1,,,,,,,,0,0,0,1,1,0,1,0,1
+ø͜y,øy,from rounded close-mid front to rounded close front diphthong,1,1,0,1,,,,,,,,,1,1,,,,,,,,0,0,1,1,1,1,1,0,1
+p,p,voiceless bilabial stop consonant,0,0,1,0,0,0,0,0,0,0,0,0,1,,0,0,,,,0,0,,,,,,,,,
+pː,pː,long voiceless bilabial stop consonant,0,1,1,0,0,0,0,0,0,0,0,0,1,,0,0,,,,0,0,,,,,,,,,
+r,r,voiced alveolar trill consonant,0,0,1,1,1,,1,1,0,1,0,0,0,,0,1,1,0,0,0,0,,,,,,,,,
+rː,rː,long voiced alveolar trill consonant,0,1,1,1,1,,1,1,0,1,0,0,0,,0,1,1,0,0,0,0,,,,,,,,,
+s,s,voiceless alveolar sibilant fricative consonant,0,0,1,0,1,1,0,0,0,0,0,0,0,,0,1,1,0,1,0,0,,,,,,,,,
+sː,sː,long voiceless alveolar sibilant fricative consonant,0,1,1,0,1,1,0,0,0,0,0,0,0,,0,1,1,0,1,0,0,,,,,,,,,
+ʃ,ʃ,voiceless post-alveolar sibilant fricative consonant,0,0,1,0,1,1,0,0,0,0,0,0,0,,0,1,0,1,1,0,0,,,,,,,,,
+t,t,voiceless alveolar stop consonant,0,0,1,0,0,0,0,0,0,0,0,0,0,,0,1,1,0,0,0,0,,,,,,,,,
+tː,tː,long voiceless alveolar stop consonant,0,1,1,0,0,0,0,0,0,0,0,0,0,,0,1,1,0,0,0,0,,,,,,,,,
+u,u,rounded close back vowel,1,0,0,1,,,,,,,,,1,1,,,,,,,,1,0,0,1,0,,,,
+uː,uː,long rounded close back vowel,1,1,0,1,,,,,,,,,1,1,,,,,,,,1,0,0,1,0,,,,
+u͜i,ui,from rounded close back to unrounded close front diphthong,1,1,0,1,,,,,,,,,1,1,,,,,,,,1,0,0,1,1,1,1,0,0
+u͜o,uo,from rounded close back to rounded close-mid back diphthong,1,1,0,1,,,,,,,,,1,1,,,,,,,,1,0,0,1,1,0,0,0,1
+ʋ,ʋ,voiced labio-dental approximant consonant,0,0,0,1,1,,1,0,0,1,0,0,1,,1,0,,,,0,0,,,,,,,,,
+y,y,rounded close front vowel,1,0,0,1,,,,,,,,,1,1,,,,,,,,1,0,1,1,0,,,,
+yː,yː,long rounded close front vowel,1,1,0,1,,,,,,,,,1,1,,,,,,,,1,0,1,1,0,,,,
+y͜i,yi,from rounded close front to unrounded close front diphthong,1,1,0,1,,,,,,,,,1,1,,,,,,,,1,0,1,1,1,1,1,0,0
+y͜ø,yø,from rounded close front to rounded close-mid front diphthong,1,1,0,1,,,,,,,,,1,1,,,,,,,,1,0,1,1,1,1,0,0,1
+z,z,voiced alveolar sibilant fricative consonant,0,0,1,0,1,1,1,0,0,1,0,0,0,,0,1,1,0,1,0,0,,,,,,,,,
+ˀ,ʔ,voiceless glottal stop consonant,0,0,1,0,0,0,0,0,0,0,0,1,0,,0,0,,,,0,0,,,,,,,,,

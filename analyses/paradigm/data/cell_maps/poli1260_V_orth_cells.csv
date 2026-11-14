@@ -1,0 +1,16 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+poli1260_V_orth,FEM;PST;SG,FEM;PST;SG,retained_canonical,29414,0.0
+poli1260_V_orth,HUM;PL;PST,HUM;PL;PST,retained_canonical,29414,0.0
+poli1260_V_orth,IMP;1;PL,IMP;1;PL,retained_canonical,29414,0.0
+poli1260_V_orth,IMP;2;PL,IMP;2;PL,retained_canonical,29414,0.0
+poli1260_V_orth,IMP;2;SG,IMP;2;SG,retained_canonical,29414,0.0
+poli1260_V_orth,IND;NPST;1;PL,IND;NPST;1;PL,retained_canonical,29414,0.0
+poli1260_V_orth,IND;NPST;1;SG,IND;NPST;1;SG,retained_canonical,29414,0.0
+poli1260_V_orth,IND;NPST;2;PL,IND;NPST;2;PL,retained_canonical,29414,0.0
+poli1260_V_orth,IND;NPST;2;SG,IND;NPST;2;SG,retained_canonical,29414,0.0
+poli1260_V_orth,IND;NPST;3;PL,IND;NPST;3;PL,retained_canonical,29414,0.0
+poli1260_V_orth,IND;NPST;3;SG,IND;NPST;3;SG,retained_canonical,29442,0.0
+poli1260_V_orth,MASC;PST;SG,MASC;PST;SG,retained_canonical,29414,0.0
+poli1260_V_orth,NEUT;PST;SG,NEUT;PST;SG,retained_canonical,29442,0.0
+poli1260_V_orth,NFIN,NFIN,retained_canonical,29442,0.0
+poli1260_V_orth,NHUM;PL;PST,NHUM;PL;PST,retained_canonical,29414,0.0

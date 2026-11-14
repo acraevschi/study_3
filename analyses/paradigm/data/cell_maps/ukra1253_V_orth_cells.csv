@@ -1,0 +1,15 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+ukra1253_V_orth,FEM;PST;SG,FEM;PST;SG,retained_canonical,43690,0.0
+ukra1253_V_orth,IMP;1;PL,IMP;1;PL,retained_canonical,40473,0.0
+ukra1253_V_orth,IMP;2;PL,IMP;2;PL,retained_canonical,40600,0.0
+ukra1253_V_orth,IMP;2;SG,IMP;2;SG,retained_canonical,40388,0.0
+ukra1253_V_orth,IND;NPST;1;PL,IND;NPST;1;PL,retained_canonical,43517,0.0
+ukra1253_V_orth,IND;NPST;1;SG,IND;NPST;1;SG,retained_canonical,43317,0.0
+ukra1253_V_orth,IND;NPST;2;PL,IND;NPST;2;PL,retained_canonical,43517,0.0
+ukra1253_V_orth,IND;NPST;2;SG,IND;NPST;2;SG,retained_canonical,43317,0.0
+ukra1253_V_orth,IND;NPST;3;PL,IND;NPST;3;PL,retained_canonical,43687,0.0
+ukra1253_V_orth,IND;NPST;3;SG,IND;NPST;3;SG,retained_canonical,43937,0.0
+ukra1253_V_orth,MASC;PST;SG,MASC;PST;SG,retained_canonical,43690,0.0
+ukra1253_V_orth,NEUT;PST;SG,NEUT;PST;SG,retained_canonical,43942,0.0
+ukra1253_V_orth,NFIN,NFIN,retained_canonical,43964,0.0
+ukra1253_V_orth,PL;PST,PL;PST,retained_canonical,43690,0.0

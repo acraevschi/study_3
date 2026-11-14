@@ -1,0 +1,14 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+iris1253_N_orth,DAT;DEF;PL,,dropped_periphrastic,4457,0.99641
+iris1253_N_orth,DAT;DEF;SG,,dropped_periphrastic,6753,0.997631
+iris1253_N_orth,DAT;PL,DAT;PL,retained_canonical,4457,0.00359
+iris1253_N_orth,DAT;SG,DAT;SG,retained_canonical,6723,0.00238
+iris1253_N_orth,DEF;GEN;SG,,dropped_periphrastic,6746,1.0
+iris1253_N_orth,DEF;NOM;PL,,dropped_periphrastic,4447,1.0
+iris1253_N_orth,DEF;NOM;SG,,dropped_periphrastic,6742,0.997627
+iris1253_N_orth,GEN;PL,GEN;PL,retained_canonical,4455,0.002245
+iris1253_N_orth,GEN;SG,GEN;SG,retained_canonical,6743,0.001631
+iris1253_N_orth,NOM;PL,DAT;PL,merged_100pct_syncretic,4447,0.0
+iris1253_N_orth,NOM;SG,NOM;SG,retained_canonical,6742,0.0
+iris1253_N_orth,PL;VOC,,dropped_periphrastic,4457,0.997756
+iris1253_N_orth,SG;VOC,,dropped_periphrastic,6753,0.998371
