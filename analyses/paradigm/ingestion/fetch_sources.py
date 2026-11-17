@@ -5,10 +5,10 @@ Downloads and verifies morphological paradigm datasets across three priority tie
   - Priority 1: Paralex v1 Zenodo releases (LeFFI, Vlexique, VeLeSpa, VeLeCa, VeLeRo,
     Eesthetic, ParaFin, FinCog, Zalilex, Parahungarian, NasLex) + documented CELEX English V.
   - Priority 2: Curated open national morphological lexicons (Morph-it! v0.48, PoliMorf 0.6.7,
-    VESUM v6.8.6), with documented fallbacks where a login wall or multi-GB archive blocks fetch.
+    VESUM v6.8.6).
   - Priority 3: Official raw orthographic UniMorph repositories (github.com/unimorph/{code}.git)
     and SIGMORPHON 2020 Task 0 Uralic paradigm tables (mdf, myv, udm) for accepted GeLaTo
-    Glottocodes in outputs/pcfp_v2_links_2026_10_20/typology/analysis_links.csv.
+    Glottocodes in analyses/common/data/analysis_links.csv.
 
 Writes exact URLs, versions / 40-char git commit SHAs, DOIs, licenses, academic citations,
 and file SHA-256 checksums to `analyses/paradigm/data/provenance_manifest.csv`.
@@ -20,12 +20,15 @@ import argparse
 import concurrent.futures
 import csv
 import hashlib
+import io
 import json
 import os
 import re
 import shutil
 import subprocess
 import sys
+import time
+import urllib.error
 import urllib.request
 import zipfile
 from dataclasses import dataclass
@@ -38,6 +41,17 @@ DATA_OUT_DIR = PROJECT_ROOT / "analyses" / "paradigm" / "data"
 MANIFEST_PATH = DATA_OUT_DIR / "provenance_manifest.csv"
 
 USER_AGENT = "Study3-Track2-DataIngest/1.0 (Academic Morphological Predictability Research)"
+
+CELEX_ZENODO_RECORD_ID = 11147171
+CELEX_ENG_V_SHA256 = "a17ac27a620a500f051420d5a24dffd0c9c1d66db170c1a07738d27be5532ad6"
+
+MORPHIT_UTF8_SHA256 = "7375216351ee59cee4326b455503f3a6c4e9542cd63ecb86ff5cd58ca5c8e800"
+MORPHIT_ARCHIVE_URL = (
+    "https://kielipankki.fi/download/hfst-morphologies/test/it/morph-it/hfst-it-morph-morph-it.zip"
+)
+MORPHIT_FALLBACK_UTF8_URL = (
+    "https://raw.githubusercontent.com/TraMOOC-Impleval/lemmatize_italian_data/master/morph-it_048_utf8.txt"
+)
 
 MANIFEST_COLUMNS = [
     "source_id",
@@ -327,17 +341,201 @@ def md5_file(path: Path) -> str:
     return h.hexdigest()
 
 
-def rel_path(path: Path) -> str:
-    return str(path.resolve().relative_to(PROJECT_ROOT.resolve()))
+def rel_path(path: Path, root: Path = PROJECT_ROOT) -> str:
+    resolved = path.resolve()
+    root_resolved = root.resolve()
+    try:
+        return str(resolved.relative_to(root_resolved))
+    except ValueError:
+        return str(resolved)
 
 
-def download_url(url: str, dest: Path, timeout: int = 120) -> None:
+def download_url(url: str, dest: Path, timeout: int = 120, retries: int = 3) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_suffix(dest.suffix + ".part")
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=timeout) as resp, open(tmp, "wb") as out:
-        shutil.copyfileobj(resp, out, length=1024 * 256)
-    tmp.replace(dest)
+    last_err: Optional[BaseException] = None
+    for attempt in range(max(1, retries)):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=timeout) as resp, open(tmp, "wb") as out:
+                shutil.copyfileobj(resp, out, length=1024 * 256)
+            tmp.replace(dest)
+            return
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            last_err = exc
+            if attempt + 1 < retries:
+                time.sleep(1.5 * (attempt + 1))
+    assert last_err is not None
+    raise last_err
+
+
+class _HttpRangeReader(io.RawIOBase):
+    """Seekable read-only stream backed by HTTP Range requests (206 Partial Content)."""
+
+    def __init__(self, url: str, size: int, timeout: int = 60, retries: int = 3) -> None:
+        self.url = url
+        self.size = int(size)
+        self.pos = 0
+        self.timeout = timeout
+        self.retries = max(1, retries)
+
+    def readable(self) -> bool:
+        return True
+
+    def seekable(self) -> bool:
+        return True
+
+    def tell(self) -> int:
+        return self.pos
+
+    def seek(self, offset: int, whence: int = io.SEEK_SET) -> int:
+        if whence == io.SEEK_SET:
+            self.pos = offset
+        elif whence == io.SEEK_CUR:
+            self.pos += offset
+        elif whence == io.SEEK_END:
+            self.pos = self.size + offset
+        self.pos = max(0, min(self.size, self.pos))
+        return self.pos
+
+    def readinto(self, b: bytearray | memoryview) -> int:  # type: ignore[override]
+        if self.pos >= self.size or len(b) == 0:
+            return 0
+        end = min(self.size - 1, self.pos + len(b) - 1)
+        last_err: Optional[BaseException] = None
+        for attempt in range(self.retries):
+            try:
+                req = urllib.request.Request(
+                    self.url,
+                    headers={"User-Agent": USER_AGENT, "Range": f"bytes={self.pos}-{end}"},
+                )
+                with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                    if resp.status != 206:
+                        raise RuntimeError(f"Expected HTTP 206 Partial Content, got {resp.status}")
+                    data = resp.read()
+                n = len(data)
+                b[:n] = data
+                self.pos += n
+                return n
+            except (urllib.error.URLError, TimeoutError, OSError) as exc:
+                last_err = exc
+                if attempt + 1 < self.retries:
+                    time.sleep(1.5 * (attempt + 1))
+        assert last_err is not None
+        raise last_err
+
+
+def _extract_zip_member_from_url(
+    url: str,
+    total_size: int,
+    member_suffix: str,
+    dest: Path,
+    timeout: int = 120,
+) -> None:
+    """Extract a single file ending with `member_suffix` from a remote ZIP archive."""
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    tmp_out = dest.with_suffix(dest.suffix + ".part")
+    try:
+        buffered = io.BufferedReader(_HttpRangeReader(url, total_size, timeout=timeout), buffer_size=256 * 1024)
+        with zipfile.ZipFile(buffered, "r") as zf:
+            matches = [n for n in zf.namelist() if n.endswith(member_suffix)]
+            if not matches:
+                raise KeyError(f"No member ending with {member_suffix!r} in remote archive {url}")
+            with zf.open(matches[0], "r") as src, open(tmp_out, "wb") as out:
+                shutil.copyfileobj(src, out, length=1024 * 256)
+        tmp_out.replace(dest)
+        return
+    except RuntimeError:
+        # Fallback if an intermediate HTTP proxy strips Range headers
+        tmp_zip = dest.with_suffix(".archive.zip.part")
+        try:
+            download_url(url, tmp_zip, timeout=max(timeout, 600))
+            with zipfile.ZipFile(tmp_zip, "r") as zf:
+                matches = [n for n in zf.namelist() if n.endswith(member_suffix)]
+                if not matches:
+                    raise KeyError(f"No member ending with {member_suffix!r} in {url}")
+                with zf.open(matches[0], "r") as src, open(tmp_out, "wb") as out:
+                    shutil.copyfileobj(src, out, length=1024 * 256)
+            tmp_out.replace(dest)
+        finally:
+            if tmp_zip.exists():
+                tmp_zip.unlink()
+
+
+def resolve_analysis_links_csv(project_root: Path = PROJECT_ROOT) -> Path:
+    """Resolve tracked `analyses/common/data/analysis_links.csv` (with legacy outputs/ fallback)."""
+    candidates = (
+        project_root / "analyses" / "common" / "data" / "analysis_links.csv",
+        project_root / "outputs" / "pcfp_v2_links_2026_10_20" / "typology" / "analysis_links.csv",
+    )
+    for cand in candidates:
+        if cand.is_file():
+            return cand
+    raise FileNotFoundError(
+        f"Expected GeLaTo language-link table at {candidates[0]} (or {candidates[1]})"
+    )
+
+
+def _manifest_target_for_source(
+    source_id: str,
+    project_root: Path = PROJECT_ROOT,
+    manifest_path: Optional[Path] = None,
+) -> Optional[Path]:
+    mpath = manifest_path or (project_root / "analyses" / "paradigm" / "data" / "provenance_manifest.csv")
+    if not mpath.is_file():
+        return None
+    with open(mpath, encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            if row.get("source_id") == source_id and row.get("sha256_target"):
+                t = Path(row["sha256_target"])
+                cand = t if t.is_absolute() else (project_root / t)
+                if cand.is_file():
+                    return cand
+    return None
+
+
+def resolve_celex_english_path(
+    project_root: Path = PROJECT_ROOT,
+    external_root: Optional[Path] = None,
+    manifest_path: Optional[Path] = None,
+) -> Path:
+    """Resolve local or downloaded CELEX English verbal phonemic lexicon (`english-v.csv`)."""
+    ext_root = external_root or (project_root / "external" / "paradigm_sources")
+    candidates = [
+        project_root / "mgn_data" / "data-custom" / "english-v.csv",
+        ext_root / "celex" / "english-v.csv",
+    ]
+    m_cand = _manifest_target_for_source("celex_eng_v", project_root=project_root, manifest_path=manifest_path)
+    if m_cand is not None:
+        candidates.append(m_cand)
+    for cand in candidates:
+        if cand.is_file():
+            return cand
+    raise FileNotFoundError(
+        f"Could not find CELEX english-v.csv at {candidates[0]} or {candidates[1]}; run fetch_sources.py first."
+    )
+
+
+def resolve_morphit_path(
+    project_root: Path = PROJECT_ROOT,
+    external_root: Optional[Path] = None,
+    manifest_path: Optional[Path] = None,
+) -> Path:
+    """Resolve local or downloaded Morph-it! v0.48 UTF-8 lexicon (`morph-it_048.utf8.txt`)."""
+    ext_root = external_root or (project_root / "external" / "paradigm_sources")
+    candidates = [
+        project_root / "external" / "morph-it" / "morph-it_048.utf8.txt",
+        ext_root / "national" / "morphit" / "morph-it_048.utf8.txt",
+    ]
+    m_cand = _manifest_target_for_source("national_morphit", project_root=project_root, manifest_path=manifest_path)
+    if m_cand is not None:
+        candidates.append(m_cand)
+    for cand in candidates:
+        if cand.is_file():
+            return cand
+    raise FileNotFoundError(
+        f"Could not find Morph-it! v0.48 at {candidates[0]} or {candidates[1]}; run fetch_sources.py first."
+    )
 
 
 def fetch_json(url: str, timeout: int = 45) -> dict:
@@ -466,56 +664,155 @@ def fetch_paralex_dataset(spec: ZenodoParalexSpec, force: bool = False) -> dict:
     }
 
 
-def fetch_celex_english() -> dict:
-    celex_path = PROJECT_ROOT / "mgn_data" / "data-custom" / "english-v.csv"
-    if not celex_path.exists():
-        raise FileNotFoundError(f"Expected documented CELEX table at {celex_path}")
+def fetch_celex_english(
+    force: bool = False,
+    *,
+    project_root: Path = PROJECT_ROOT,
+    external_root: Path = EXTERNAL_ROOT,
+) -> dict:
+    local_celex = project_root / "mgn_data" / "data-custom" / "english-v.csv"
+    if not force and local_celex.is_file():
+        got_sha = sha256_file(local_celex)
+        if got_sha != CELEX_ENG_V_SHA256:
+            raise RuntimeError(
+                f"celex_eng_v ({local_celex}): SHA-256 mismatch got {got_sha}, expected {CELEX_ENG_V_SHA256}"
+            )
+        celex_path = local_celex
+        status = "reused_local"
+    else:
+        celex_dir = external_root / "celex"
+        celex_path = celex_dir / "english-v.csv"
+        celex_dir.mkdir(parents=True, exist_ok=True)
+        need_dl = force or not celex_path.is_file() or sha256_file(celex_path) != CELEX_ENG_V_SHA256
+        if need_dl:
+            api_url = f"https://zenodo.org/api/records/{CELEX_ZENODO_RECORD_ID}"
+            meta_cache = celex_dir / "zenodo_record.json"
+            if force or not meta_cache.is_file():
+                rec = fetch_json(api_url)
+                with open(meta_cache, "w", encoding="utf-8") as f:
+                    json.dump(rec, f, indent=2, ensure_ascii=False)
+            else:
+                with open(meta_cache, encoding="utf-8") as f:
+                    rec = json.load(f)
+            files = rec.get("files", [])
+            zip_obj = next((fo for fo in files if str(fo.get("key", "")).endswith(".zip")), None)
+            if zip_obj is None:
+                raise RuntimeError(f"celex_eng_v: Zenodo record {CELEX_ZENODO_RECORD_ID} contains no .zip archive")
+            f_url = (
+                zip_obj.get("links", {}).get("self")
+                or zip_obj.get("links", {}).get("content")
+                or f"https://zenodo.org/api/records/{CELEX_ZENODO_RECORD_ID}/files/{zip_obj['key']}/content"
+            )
+            f_size = int(zip_obj["size"])
+            _extract_zip_member_from_url(
+                f_url,
+                total_size=f_size,
+                member_suffix="data-custom/english-v.csv",
+                dest=celex_path,
+                timeout=180,
+            )
+        got_sha = sha256_file(celex_path)
+        if got_sha != CELEX_ENG_V_SHA256:
+            raise RuntimeError(
+                f"celex_eng_v ({celex_path}): SHA-256 mismatch got {got_sha}, expected {CELEX_ENG_V_SHA256}"
+            )
+        status = "downloaded"
+
     return {
         "source_id": "celex_eng_v",
         "priority_tier": "1_celex",
         "dataset_name": "CELEX2 English Verbal Phonemic Lexicon (via MGN data-custom)",
         "glottocodes": "stan1293",
         "iso_codes": "eng",
-        "url": "https://doi.org/10.5281/zenodo.10889598",
+        "url": f"https://doi.org/10.5281/zenodo.{CELEX_ZENODO_RECORD_ID}",
         "version_or_commit": "CELEX2-MGN2024",
-        "doi": "10.5281/zenodo.10889598",
+        "doi": f"10.5281/zenodo.{CELEX_ZENODO_RECORD_ID}",
         "license": "LDC-CELEX2 / CC-BY-4.0 (Guzman Naranjo 2024)",
-        "citation": "Baayen, R. Harald, Piepenbrock, Richard, & Gulikers, Leon (1995). The CELEX Lexical Database (Release 2), LDC96L14; packaged in Guzman Naranjo, Matias (2024), Zenodo 10.5281/zenodo.10889598.",
-        "local_path": rel_path(celex_path),
-        "sha256_target": rel_path(celex_path),
-        "sha256": sha256_file(celex_path),
-        "status": "reused_local",
+        "citation": (
+            "Baayen, R. Harald, Piepenbrock, Richard, & Gulikers, Leon (1995). The CELEX Lexical Database "
+            f"(Release 2), LDC96L14; packaged in Guzman Naranjo, Matias (2024), Zenodo 10.5281/zenodo.{CELEX_ZENODO_RECORD_ID}."
+        ),
+        "local_path": rel_path(celex_path, project_root),
+        "sha256_target": rel_path(celex_path, project_root),
+        "sha256": got_sha,
+        "status": status,
         "notes": "Phonemic English verb paradigms (8 cells) for paired Orth-vs-IPA evaluation alongside unimorph_eng.",
     }
 
 
-def fetch_national_lexicons(force: bool = False) -> List[dict]:
-    rows: List[dict] = []
+def fetch_morphit(
+    force: bool = False,
+    *,
+    project_root: Path = PROJECT_ROOT,
+    external_root: Path = EXTERNAL_ROOT,
+) -> dict:
+    local_morphit = project_root / "external" / "morph-it" / "morph-it_048.utf8.txt"
+    if not force and local_morphit.is_file():
+        got_sha = sha256_file(local_morphit)
+        if got_sha != MORPHIT_UTF8_SHA256:
+            raise RuntimeError(
+                f"national_morphit ({local_morphit}): SHA-256 mismatch got {got_sha}, expected {MORPHIT_UTF8_SHA256}"
+            )
+        morphit_txt = local_morphit
+        status = "reused_local"
+    else:
+        morphit_dir = external_root / "national" / "morphit"
+        morphit_txt = morphit_dir / "morph-it_048.utf8.txt"
+        morphit_dir.mkdir(parents=True, exist_ok=True)
+        need_dl = force or not morphit_txt.is_file() or sha256_file(morphit_txt) != MORPHIT_UTF8_SHA256
+        if need_dl:
+            zip_dest = morphit_dir / "hfst-it-morph-morph-it.zip"
+            tmp_txt = morphit_txt.with_suffix(".txt.part")
+            try:
+                download_url(MORPHIT_ARCHIVE_URL, zip_dest, timeout=180)
+                with zipfile.ZipFile(zip_dest, "r") as zf:
+                    members = [n for n in zf.namelist() if n.endswith("morph-it_048.txt")]
+                    if not members:
+                        raise KeyError("morph-it_048.txt not found inside hfst-it-morph-morph-it.zip")
+                    raw_latin1 = zf.read(members[0])
+                tmp_txt.write_bytes(raw_latin1.decode("iso-8859-1").encode("utf-8"))
+                tmp_txt.replace(morphit_txt)
+            except (urllib.error.URLError, TimeoutError, OSError, zipfile.BadZipFile, KeyError):
+                download_url(MORPHIT_FALLBACK_UTF8_URL, morphit_txt, timeout=180)
+        got_sha = sha256_file(morphit_txt)
+        if got_sha != MORPHIT_UTF8_SHA256:
+            raise RuntimeError(
+                f"national_morphit ({morphit_txt}): SHA-256 mismatch got {got_sha}, expected {MORPHIT_UTF8_SHA256}"
+            )
+        status = "downloaded"
 
-    # 1. Morph-it! v0.48 (already present in external/morph-it/)
-    morphit_txt = PROJECT_ROOT / "external" / "morph-it" / "morph-it_048.utf8.txt"
-    if not morphit_txt.exists():
-        raise FileNotFoundError(f"Expected Morph-it! v0.48 at {morphit_txt}")
-    rows.append({
+    return {
         "source_id": "national_morphit",
         "priority_tier": "2_national",
         "dataset_name": "Morph-it! v0.48 Italian Morphological Lexicon",
         "glottocodes": "ital1282",
         "iso_codes": "ita",
-        "url": "https://sslmitdev-online.sslmit.unibo.it/linguistics/morph-it.php",
+        "url": MORPHIT_ARCHIVE_URL,
         "version_or_commit": "0.48",
         "doi": "",
         "license": "CC-BY-SA-2.5-IT / LGPL-2.1 (Morph-it! v0.48)",
         "citation": "Zanchetta, Eros & Baroni, Marco (2005). Morph-it! A free corpus-based morphological resource for the Italian language. Proceedings of Corpus Linguistics 2005, University of Birmingham.",
-        "local_path": rel_path(morphit_txt.parent),
-        "sha256_target": rel_path(morphit_txt),
-        "sha256": sha256_file(morphit_txt),
-        "status": "reused_local",
+        "local_path": rel_path(morphit_txt.parent, project_root),
+        "sha256_target": rel_path(morphit_txt, project_root),
+        "sha256": got_sha,
+        "status": status,
         "notes": "Canonical Italian nominal (N) and verbal (V) orthographic lexicon (retaining essere/avere; parent lexicon of LeFFI).",
-    })
+    }
+
+
+def fetch_national_lexicons(
+    force: bool = False,
+    *,
+    project_root: Path = PROJECT_ROOT,
+    external_root: Path = EXTERNAL_ROOT,
+) -> List[dict]:
+    rows: List[dict] = []
+
+    # 1. Morph-it! v0.48 (reuses external/morph-it/ when present, else auto-downloads & verifies SHA-256)
+    rows.append(fetch_morphit(force=force, project_root=project_root, external_root=external_root))
 
     # 2. PoliMorf 0.6.7 (IPI PAN open download, clean orthographic Polish V and N)
-    polimorf_dir = EXTERNAL_ROOT / "national" / "polimorf"
+    polimorf_dir = external_root / "national" / "polimorf"
     polimorf_gz = polimorf_dir / "PoliMorf-0.6.7.tab.gz"
     polimorf_url = "http://zil.ipipan.waw.pl/PoliMorf?action=AttachFile&do=get&target=PoliMorf-0.6.7.tab.gz"
     if force or not polimorf_gz.exists() or polimorf_gz.stat().st_size < 1_000_000:
@@ -531,15 +828,15 @@ def fetch_national_lexicons(force: bool = False) -> List[dict]:
         "doi": "",
         "license": "BSD-2-Clause",
         "citation": "Wolinski, Marcin, Milkowski, Marcin, & Ogrodniczuk, Maciej (2012). PoliMorf: a (not so) new open morphological dictionary for Polish. Proceedings of LREC 2012, pp. 860-864.",
-        "local_path": rel_path(polimorf_dir),
-        "sha256_target": rel_path(polimorf_gz),
+        "local_path": rel_path(polimorf_dir, project_root),
+        "sha256_target": rel_path(polimorf_gz, project_root),
         "sha256": sha256_file(polimorf_gz),
         "status": "downloaded",
         "notes": "Clean orthographic Polish verbs and nouns directly from IPI PAN (eliminating MGN epitran noise).",
     })
 
     # 3. VESUM v6.8.6 (brown-uk/dict_uk official release, clean orthographic Ukrainian V and N)
-    vesum_dir = EXTERNAL_ROOT / "national" / "vesum"
+    vesum_dir = external_root / "national" / "vesum"
     vesum_bz2 = vesum_dir / "dict_corp_vis.txt.bz2"
     vesum_url = "https://github.com/brown-uk/dict_uk/releases/download/v6.8.6/dict_corp_vis.txt.bz2"
     if force or not vesum_bz2.exists() or vesum_bz2.stat().st_size < 1_000_000:
@@ -555,8 +852,8 @@ def fetch_national_lexicons(force: bool = False) -> List[dict]:
         "doi": "",
         "license": "GPL-3.0 / LGPL-2.1 (brown-uk/dict_uk)",
         "citation": "Rysin, Andriy & Starko, Vasyl (2024). VESUM: Large Electronic Morphological Dictionary of Ukrainian (v6.8.6). https://github.com/brown-uk/dict_uk",
-        "local_path": rel_path(vesum_dir),
-        "sha256_target": rel_path(vesum_bz2),
+        "local_path": rel_path(vesum_dir, project_root),
+        "sha256_target": rel_path(vesum_bz2, project_root),
         "sha256": sha256_file(vesum_bz2),
         "status": "downloaded",
         "notes": "Clean orthographic Ukrainian verbs and nouns (replacing MGN epitran ukr-n/v).",
@@ -699,8 +996,9 @@ def run_all(max_workers: int = 4, force: bool = False) -> List[dict]:
             print(f"  [ok] {sid} -> sha256={row['sha256'][:12]}...")
             manifest_rows.append(row)
 
-    manifest_rows.append(fetch_celex_english())
-    print("  [ok] celex_eng_v verified.")
+    celex_row = fetch_celex_english(force=force)
+    manifest_rows.append(celex_row)
+    print(f"  [ok] celex_eng_v ({celex_row['status']}) -> sha256={celex_row['sha256'][:12]}...")
 
     print("[fetch_sources] Fetching Priority-2 Curated National Lexicons...")
     nat_rows = fetch_national_lexicons(force=force)

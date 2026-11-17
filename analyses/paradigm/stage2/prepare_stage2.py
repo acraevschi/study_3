@@ -14,6 +14,7 @@ import argparse
 import csv
 import json
 import math
+import statistics
 import sys
 from collections import defaultdict
 from collections.abc import Sequence
@@ -25,10 +26,15 @@ ROOT = Path(__file__).resolve().parents[3]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+import analyses.common.genetics as _genetics_mod  # noqa: E402
 from analyses.common.demography import DEMOG_COLS, resolve_demography_rows  # noqa: E402
 from analyses.common.genetics import (  # noqa: E402
+    ADM_DIR,
+    ARCH_DIR,
+    GELATO_DATA_CSV,
     KS,
     N_BOOT,
+    POP_BOOT_MEASURES,
     SEED,
     compute_individual_measures,
     compute_population_measures,
@@ -43,10 +49,42 @@ DEFAULT_PARADIGM_DATA_DIR = ROOT / "analyses/paradigm/data"
 DEFAULT_MGL_RESULTS_DIR = ROOT / "analyses/paradigm/results/mgl"
 DEFAULT_NEURAL_RESULTS_DIR = ROOT / "analyses/paradigm/results/neural"
 DEFAULT_OUT_DIR = ROOT / "analyses/paradigm/results/stage2/prepared"
-DEFAULT_LINKS_CSV = ROOT / "outputs/pcfp_v2_links_2026_10_20/typology/analysis_links.csv"
 COMMON_DATA_DIR = ROOT / "analyses/common/data"
+TRACKED_LINKS_CSV = COMMON_DATA_DIR / "analysis_links.csv"
+LEGACY_LINKS_CSV = ROOT / "outputs/pcfp_v2_links_2026_10_20/typology/analysis_links.csv"
+DEFAULT_LINKS_CSV = TRACKED_LINKS_CSV if TRACKED_LINKS_CSV.is_file() else LEGACY_LINKS_CSV
 GRAMBANK_DATA_DIR = ROOT / "analyses/grambank/data"
 GRAMBANK_SEM_RESULTS_DIR = ROOT / "analyses/grambank/latent_sem/results"
+
+_IND_COLS: list[str] = ["population", "ind", "ent", "nonmax", "ent_K12", "ent_K30", "glottocode"]
+_POP_COLS: list[str] = [
+    "population", "n_individuals", "pop_ent", "het", "support", "amount", "sqrt_het",
+    "pop_ent_se", "het_se", "support_se", "amount_se", "sqrt_het_se",
+    "graff_target", "neigh_flow", "n_B", "n_C", "n_triples", "n_z_lt_m3",
+    "min_pop2", "min_pop3", "f3_z", "f3_est", "f3b3_z", "f3b3_est",
+    "f3k_z", "f3k_est", "f3k_est_pos",
+    "glottocode", "link_basis", "accepted_by", "sensitivity_flags",
+    "in_main", "in_no_doubtful_language", "in_no_other_language_stand_ins", "in_strict",
+]
+_POP_INT_RAW_COLS: tuple[str, ...] = (
+    "n_individuals", "graff_target", "n_B", "n_C", "n_triples", "n_z_lt_m3",
+)
+_POP_FLT_RAW_COLS: tuple[str, ...] = (
+    "pop_ent", "het", "support", "amount", "sqrt_het",
+    "pop_ent_se", "het_se", "support_se", "amount_se", "sqrt_het_se",
+    "neigh_flow", "f3_z", "f3_est", "f3b3_z", "f3b3_est",
+    "f3k_z", "f3k_est", "f3k_est_pos",
+)
+
+
+def _resolve_links_csv(links_csv: Path) -> Path:
+    if links_csv.is_file():
+        return links_csv
+    if links_csv == TRACKED_LINKS_CSV and LEGACY_LINKS_CSV.is_file():
+        return LEGACY_LINKS_CSV
+    if links_csv == LEGACY_LINKS_CSV and TRACKED_LINKS_CSV.is_file():
+        return TRACKED_LINKS_CSV
+    raise FileNotFoundError(f"GeLaTo links CSV not found: {links_csv}")
 
 
 def classify_source_provenance(source_id: str, priority_tier: str = "") -> str:
@@ -201,7 +239,8 @@ def resolve_links_for_glottocodes(
     and `individuals_{pos}.csv`.
     """
     by_set_raw: dict[str, list[dict[str, str]]] = defaultdict(list)
-    with open(links_csv, encoding="utf-8") as f:
+    resolved_links_csv = _resolve_links_csv(links_csv)
+    with open(resolved_links_csv, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             if r["analysis"] in SETS and r["glottocode"] in target_glottocodes:
                 by_set_raw[r["analysis"]].append(r)
@@ -268,6 +307,128 @@ def _to_int_or_none(val: object) -> int | None:
         return None
 
 
+def _load_cached_genetics_for_pos(
+    *,
+    pos: str,
+    main_link_by_pop: dict[str, dict[str, str]],
+    in_set: dict[str, set[str]],
+    ref_cat12_pops: set[str],
+    out_dir: Path,
+    fallback_prepared_dir: Path | None,
+) -> tuple[list[dict[str, object]], list[dict[str, object]], dict[str, float], dict[str, tuple[int, float, float]]]:
+    """Load precomputed tracked `individuals_{pos}.csv` & `populations_{pos}.csv` when raw ADMIXTURE is absent."""
+    search_dirs: list[Path] = [out_dir]
+    if fallback_prepared_dir is not None and fallback_prepared_dir.resolve() != out_dir.resolve():
+        search_dirs.append(fallback_prepared_dir)
+
+    cached_dir: Path | None = None
+    for cand_dir in search_dirs:
+        if (cand_dir / f"individuals_{pos}.csv").is_file() and (cand_dir / f"populations_{pos}.csv").is_file():
+            cached_dir = cand_dir
+            break
+    if cached_dir is None:
+        raise FileNotFoundError(
+            f"Raw ADMIXTURE files are unavailable and precomputed individuals_{pos}.csv / populations_{pos}.csv "
+            f"were not found in {[str(d) for d in search_dirs]}"
+        )
+
+    cached_ind_raw = _read_csv_optional(cached_dir / f"individuals_{pos}.csv")
+    cached_pop_raw = _read_csv_optional(cached_dir / f"populations_{pos}.csv")
+
+    expected_pops = set(main_link_by_pop.keys())
+    ind_pops = {r["population"] for r in cached_ind_raw}
+    pop_pops = {r["population"] for r in cached_pop_raw}
+    missing_pops = sorted(expected_pops - (ind_pops & pop_pops))
+    if missing_pops:
+        raise ValueError(
+            f"Cached Stage-2 genetics in {cached_dir} for POS={pos} missing {len(missing_pops)} "
+            f"resolved population(s): {missing_pops}"
+        )
+
+    ind_rows: list[dict[str, object]] = []
+    for r in cached_ind_raw:
+        pname = r["population"]
+        if pname not in main_link_by_pop:
+            continue
+        ind_rows.append({
+            "population": pname,
+            "ind": int(r["ind"]),
+            "ent": float(r["ent"]),
+            "nonmax": float(r["nonmax"]),
+            "ent_K12": float(r["ent_K12"]),
+            "ent_K30": float(r["ent_K30"]),
+            "glottocode": main_link_by_pop[pname]["glottocode"],
+        })
+    ind_rows.sort(key=lambda x: int(x["ind"]))  # type: ignore[arg-type]
+    write_rows_csv(ind_rows, out_dir / f"individuals_{pos}.csv", _IND_COLS, ndigits=6)
+
+    pop_by_name = {r["population"]: r for r in cached_pop_raw if r["population"] in main_link_by_pop}
+    pop_rows: list[dict[str, object]] = []
+    for pname in sorted(main_link_by_pop.keys()):
+        pr = pop_by_name[pname]
+        ml = main_link_by_pop[pname]
+        parsed_p: dict[str, object] = {
+            "population": pname,
+            "min_pop2": pr.get("min_pop2", ""),
+            "min_pop3": pr.get("min_pop3", ""),
+            "glottocode": ml["glottocode"],
+            "link_basis": ml["link_basis"],
+            "accepted_by": ml["accepted_by"],
+            "sensitivity_flags": ml.get("sensitivity_flags", ""),
+        }
+        for ic in _POP_INT_RAW_COLS:
+            parsed_p[ic] = _to_int_or_none(pr.get(ic))
+        for fc in _POP_FLT_RAW_COLS:
+            parsed_p[fc] = _to_float_or_nan(pr.get(fc))
+        for s_name in SETS:
+            parsed_p[f"in_{s_name}"] = 1 if pname in in_set[s_name] else 0
+        pop_rows.append(parsed_p)
+    write_rows_csv(pop_rows, out_dir / f"populations_{pos}.csv", _POP_COLS, ndigits=7)
+
+    # Preserve exact pre-rounding 6-digit language `ent`/`nonmax` when population membership is unchanged
+    cached_lang_ent: dict[str, tuple[int, float, float]] = {}
+    cached_ld_path = cached_dir / f"language_data_{pos}.csv"
+    if cached_ld_path.is_file():
+        for lr in _read_csv_optional(cached_ld_path):
+            gc_k = lr.get("glottocode", "")
+            n_ind_k = _to_int_or_none(lr.get("n_individuals"))
+            ent_k = _to_float_or_nan(lr.get("ent"))
+            nmx_k = _to_float_or_nan(lr.get("nonmax"))
+            if gc_k and n_ind_k is not None and not (math.isnan(ent_k) or math.isnan(nmx_k)):
+                cached_lang_ent[gc_k] = (n_ind_k, ent_k, nmx_k)
+
+    pooled_sd: dict[str, float] = {}
+    summary_json_path = cached_dir / "stage2_prep_summary.json"
+    if summary_json_path.is_file() and expected_pops == pop_pops:
+        try:
+            cached_sum = json.loads(summary_json_path.read_text(encoding="utf-8"))
+            psd = cached_sum.get("pos", {}).get(pos, {}).get("pooled_per_individual_sd", {})
+            if isinstance(psd, dict) and all(m in psd for m in POP_BOOT_MEASURES):
+                pooled_sd = {m: float(psd[m]) for m in POP_BOOT_MEASURES}
+        except (OSError, ValueError, TypeError):
+            pooled_sd = {}
+    if not pooled_sd:
+        ref_active = ref_cat12_pops & expected_pops if ref_cat12_pops else expected_pops
+        for m in POP_BOOT_MEASURES:
+            big_vals = [
+                float(p[f"{m}_se"]) * math.sqrt(int(p["n_individuals"]))  # type: ignore[arg-type]
+                for p in pop_rows
+                if str(p["population"]) in ref_active
+                and int(p["n_individuals"]) >= 3  # type: ignore[arg-type]
+                and not math.isnan(float(p[f"{m}_se"]))  # type: ignore[arg-type]
+            ]
+            if not big_vals:
+                big_vals = [
+                    float(p[f"{m}_se"]) * math.sqrt(int(p["n_individuals"]))  # type: ignore[arg-type]
+                    for p in pop_rows
+                    if int(p["n_individuals"]) >= 3  # type: ignore[arg-type]
+                    and not math.isnan(float(p[f"{m}_se"]))  # type: ignore[arg-type]
+                ]
+            pooled_sd[m] = float(statistics.median(big_vals)) if big_vals else float("nan")
+
+    return ind_rows, pop_rows, pooled_sd, cached_lang_ent
+
+
 def prepare_stage2_inputs(
     *,
     paradigm_data_dir: Path = DEFAULT_PARADIGM_DATA_DIR,
@@ -276,9 +437,14 @@ def prepare_stage2_inputs(
     links_csv: Path = DEFAULT_LINKS_CSV,
     out_dir: Path = DEFAULT_OUT_DIR,
     pos_list: Sequence[str] = ("V", "N"),
+    adm_dir: Path | None = None,
+    gelato_data_csv: Path | None = None,
+    arch_dir: Path | None = None,
+    fallback_prepared_dir: Path | None = DEFAULT_OUT_DIR,
 ) -> dict[str, object]:
     """Build separate `V` and `N` 1-row-per-`glottocode` Stage-2 and entrenchment CSV/NWK files."""
     out_dir.mkdir(parents=True, exist_ok=True)
+    resolved_links_csv = _resolve_links_csv(links_csv)
 
     # 1. Load provenance & unit_summary metadata
     prov_rows = _read_csv_optional(paradigm_data_dir / "provenance_manifest.csv")
@@ -331,10 +497,25 @@ def prepare_stage2_inputs(
 
     glotto_meta = load_glottolog_metadata(ROOT)
     track1_map = load_track1_overlap()
-    info_adm, q_adm = load_admixture_q(ks=KS)
+
+    eff_adm_dir = adm_dir if adm_dir is not None else (
+        ADM_DIR if ADM_DIR != _genetics_mod.ADM_DIR else _genetics_mod.ADM_DIR
+    )
+    eff_gelato_csv = gelato_data_csv if gelato_data_csv is not None else (
+        GELATO_DATA_CSV if GELATO_DATA_CSV != _genetics_mod.GELATO_DATA_CSV else _genetics_mod.GELATO_DATA_CSV
+    )
+    eff_arch_dir = arch_dir if arch_dir is not None else (
+        ARCH_DIR if ARCH_DIR != _genetics_mod.ARCH_DIR else _genetics_mod.ARCH_DIR
+    )
+    has_raw_admixture = (
+        (eff_adm_dir / "GeneticInfoID.csv").is_file()
+        and eff_gelato_csv.is_file()
+        and (eff_arch_dir / "tables/tableS2.csv").is_file()
+    )
+    info_adm, q_adm = load_admixture_q(adm_dir=eff_adm_dir, ks=KS) if has_raw_admixture else (None, None)
 
     # Reference populations from Track 1 cat12 for identical small-sample pooled bootstrap SE scaling
-    all_al_rows = _read_csv_optional(links_csv)
+    all_al_rows = _read_csv_optional(resolved_links_csv)
     ref_cat12_pops = {
         r["population"]
         for r in all_al_rows
@@ -366,65 +547,66 @@ def prepare_stage2_inputs(
             prep_summary["pos"][pos] = {"n_languages_main": 0}
             continue
 
-        main_links, in_set = resolve_links_for_glottocodes(links_csv, set(chosen_by_gc.keys()))
+        main_links, in_set = resolve_links_for_glottocodes(resolved_links_csv, set(chosen_by_gc.keys()))
         linked_gcs = sorted({r["glottocode"] for r in main_links})
         if not linked_gcs:
             prep_summary["pos"][pos] = {"n_languages_main": 0}
             continue
 
-        # Compute individual & population genetic measures via `analyses.common.genetics`
-        ind_df = compute_individual_measures(info_adm, q_adm, links_df=main_links, ks=KS)
-        ind_cols = ["population", "ind", "ent", "nonmax", "ent_K12", "ent_K30", "glottocode"]
-        if hasattr(ind_df, "to_dict"):
-            ind_df.round(6).to_csv(out_dir / f"individuals_{pos}.csv", index=False)
-            ind_rows = ind_df.to_dict("records")
-        else:
-            ind_rows = ind_df
-            write_rows_csv(ind_rows, out_dir / f"individuals_{pos}.csv", ind_cols, ndigits=6)
-
         main_link_by_pop = {r["population"]: r for r in main_links}
         assert len(main_link_by_pop) == len(main_links)
 
-        pop_res, pooled_sd = compute_population_measures(
-            info_adm,
-            q_adm,
-            sorted(main_link_by_pop.keys()),
-            priority_populations=ref_cat12_pops,
-            pooled_ref_populations=ref_cat12_pops if ref_cat12_pops else None,
-            n_boot=N_BOOT,
-            seed=SEED,
-            ks=KS,
-            f3_path=COMMON_DATA_DIR / "f3_scores.csv",
-            k5_path=COMMON_DATA_DIR / "f3_scores_k5.csv",
-            include_extended_metadata=True,
-            warn_missing_f3=True,
-        )
-        pop_raw_rows = pop_res.to_dict("records") if hasattr(pop_res, "to_dict") else list(pop_res)
+        cached_lang_ent: dict[str, tuple[int, float, float]] = {}
+        if has_raw_admixture:
+            # Compute individual & population genetic measures via `analyses.common.genetics`
+            ind_df = compute_individual_measures(info_adm, q_adm, links_df=main_links, ks=KS)
+            if hasattr(ind_df, "to_dict"):
+                ind_df.round(6).to_csv(out_dir / f"individuals_{pos}.csv", index=False)
+                ind_rows = ind_df.to_dict("records")
+            else:
+                ind_rows = ind_df
+                write_rows_csv(ind_rows, out_dir / f"individuals_{pos}.csv", _IND_COLS, ndigits=6)
 
-        pop_cols = [
-            "population", "n_individuals", "pop_ent", "het", "support", "amount", "sqrt_het",
-            "pop_ent_se", "het_se", "support_se", "amount_se", "sqrt_het_se",
-            "graff_target", "neigh_flow", "n_B", "n_C", "n_triples", "n_z_lt_m3",
-            "min_pop2", "min_pop3", "f3_z", "f3_est", "f3b3_z", "f3b3_est",
-            "f3k_z", "f3k_est", "f3k_est_pos",
-            "glottocode", "link_basis", "accepted_by", "sensitivity_flags",
-            "in_main", "in_no_doubtful_language", "in_no_other_language_stand_ins", "in_strict",
-        ]
-        pop_rows: list[dict[str, object]] = []
-        for pr in pop_raw_rows:
-            pname = str(pr["population"])
-            ml = main_link_by_pop[pname]
-            merged_p: dict[str, object] = {
-                **pr,
-                "glottocode": ml["glottocode"],
-                "link_basis": ml["link_basis"],
-                "accepted_by": ml["accepted_by"],
-                "sensitivity_flags": ml.get("sensitivity_flags", ""),
-            }
-            for s_name in SETS:
-                merged_p[f"in_{s_name}"] = 1 if pname in in_set[s_name] else 0
-            pop_rows.append(merged_p)
-        write_rows_csv(pop_rows, out_dir / f"populations_{pos}.csv", pop_cols, ndigits=7)
+            pop_res, pooled_sd = compute_population_measures(
+                info_adm,
+                q_adm,
+                sorted(main_link_by_pop.keys()),
+                priority_populations=ref_cat12_pops,
+                pooled_ref_populations=ref_cat12_pops if ref_cat12_pops else None,
+                n_boot=N_BOOT,
+                seed=SEED,
+                ks=KS,
+                f3_path=COMMON_DATA_DIR / "f3_scores.csv",
+                k5_path=COMMON_DATA_DIR / "f3_scores_k5.csv",
+                include_extended_metadata=True,
+                warn_missing_f3=True,
+            )
+            pop_raw_rows = pop_res.to_dict("records") if hasattr(pop_res, "to_dict") else list(pop_res)
+
+            pop_rows = []
+            for pr in pop_raw_rows:
+                pname = str(pr["population"])
+                ml = main_link_by_pop[pname]
+                merged_p: dict[str, object] = {
+                    **pr,
+                    "glottocode": ml["glottocode"],
+                    "link_basis": ml["link_basis"],
+                    "accepted_by": ml["accepted_by"],
+                    "sensitivity_flags": ml.get("sensitivity_flags", ""),
+                }
+                for s_name in SETS:
+                    merged_p[f"in_{s_name}"] = 1 if pname in in_set[s_name] else 0
+                pop_rows.append(merged_p)
+            write_rows_csv(pop_rows, out_dir / f"populations_{pos}.csv", _POP_COLS, ndigits=7)
+        else:
+            ind_rows, pop_rows, pooled_sd, cached_lang_ent = _load_cached_genetics_for_pos(
+                pos=pos,
+                main_link_by_pop=main_link_by_pop,
+                in_set=in_set,
+                ref_cat12_pops=ref_cat12_pops,
+                out_dir=out_dir,
+                fallback_prepared_dir=fallback_prepared_dir,
+            )
 
         # Build Glottolog topology Newick tree
         paths_gl, tree_src = resolve_glottolog_paths(linked_gcs, root_dir=ROOT)
@@ -525,8 +707,14 @@ def prepare_stage2_inputs(
                 row_l[f"in_{s_name}"] = 1 if sub_p else 0
                 row_l[f"n_individuals_{s_name}"] = sum(int(p["n_individuals"]) for p in sub_p)
 
-            row_l["ent"] = sum(float(x["ent"]) for x in i_list) / len(i_list)
-            row_l["nonmax"] = sum(float(x["nonmax"]) for x in i_list) / len(i_list)
+            mean_ent = sum(float(x["ent"]) for x in i_list) / len(i_list)
+            mean_nmx = sum(float(x["nonmax"]) for x in i_list) / len(i_list)
+            if gc in cached_lang_ent:
+                c_n, c_ent, c_nmx = cached_lang_ent[gc]
+                if c_n == len(i_list) and abs(c_ent - mean_ent) <= 2e-6 and abs(c_nmx - mean_nmx) <= 2e-6:
+                    mean_ent, mean_nmx = c_ent, c_nmx
+            row_l["ent"] = mean_ent
+            row_l["nonmax"] = mean_nmx
             row_l["tree_source"] = tree_src[gc]
             for dc in DEMOG_COLS:
                 row_l[dc] = dm[dc]
@@ -837,6 +1025,7 @@ def main(argv: Sequence[str] | None = None) -> None:
     parser.add_argument("--neural-results-dir", type=Path, default=DEFAULT_NEURAL_RESULTS_DIR)
     parser.add_argument("--links-csv", type=Path, default=DEFAULT_LINKS_CSV)
     parser.add_argument("--out-dir", type=Path, default=DEFAULT_OUT_DIR)
+    parser.add_argument("--adm-dir", type=Path, default=None, help="Optional ADMIXTURE directory override.")
     parser.add_argument("--pos", nargs="+", default=["V", "N"], choices=["V", "N"])
     parser.add_argument(
         "--build-smoke-fixture",
@@ -858,6 +1047,7 @@ def main(argv: Sequence[str] | None = None) -> None:
         links_csv=args.links_csv,
         out_dir=args.out_dir,
         pos_list=args.pos,
+        adm_dir=args.adm_dir,
     )
     print("Prepared Track 2 Stage-2 inputs in:", args.out_dir)
     for p_key, p_info in summ.get("pos", {}).items():  # type: ignore[union-attr]

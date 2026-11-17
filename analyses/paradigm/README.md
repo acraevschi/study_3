@@ -26,6 +26,9 @@ All Python scripts run via `.venv/bin/python` with explicit single-thread BLAS/O
 ```bash
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
 
+# 0. Clone pinned external repositories (external/glottolog-cldf, external/grambank, external/languages-of-the-world)
+bash scripts/fetch_external.sh
+
 # 1. Fetch & SHA-256-verify paradigm sources + build lexicons, Malouf tables, and CV splits
 .venv/bin/python analyses/paradigm/ingestion/fetch_sources.py --workers 4
 .venv/bin/python analyses/paradigm/ingestion/build_lexicons.py
@@ -50,7 +53,7 @@ TORCH_NUM_THREADS=2 .venv/bin/python -m analyses.paradigm.neural.train_eval \
 PARA_CORES=4 Rscript analyses/paradigm/stage2/fit_stage2.R --pos BOTH
 PARA_CORES=4 Rscript analyses/paradigm/stage2/fit_entrenchment.R --pos BOTH
 
-# 6. Run full automated test suite (43 Track-2 tests + repository regression suite)
+# 6. Run full automated test suite (45 Track-2 tests + repository regression suite)
 .venv/bin/python -m pytest -m "not slow"
 ```
 

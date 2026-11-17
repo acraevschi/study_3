@@ -1,0 +1,1995 @@
+analysis,population,glottocode,language_name,link_basis,is_proxy,accepted_by,sensitivity_flags,n_individuals,in_grambank,meets_coverage_main
+main,Abazin,abaz1241,Abaza,exact,False,rule:exact,,10,False,False
+main,Abkhasian,abkh1244,Abkhaz,exact,False,rule:exact,,9,True,True
+main,Adygei,adyg1241,West Circassian,exact,False,rule:exact,,18,False,False
+main,Adygei_Abadzhekh,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+main,Adygei_Bzhedug,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+main,Adygei_Mamkheg,adyg1241,West Circassian,exact,False,rule:exact,,4,False,False
+main,Adygei_Shapsug_Black_Sea,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+main,Adygei_Shapsug_Kuban,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,1,False,False
+main,Afar_WGA,afar1241,Afar,exact,False,rule:exact,,5,True,True
+main,Ain_Touta_WGA,tach1249,Chaouia of the Aures,exact,False,rule:exact,,3,False,False
+main,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+main,Aleut,aleu1260,Aleut,exact,False,rule:exact,,6,True,True
+main,Aleut_Tlingit,aleu1260,Aleut,exact,False,rule:exact,,4,True,True
+main,Algerian,alge1239,Algerian Arabic,exact,False,rule:exact,,5,False,False
+main,Algonquin,algo1255,Algonquin,exact,False,rule:exact,,9,False,False
+main,Altaian,sout2694,Southern Altai,exact,False,rule:exact,,7,False,False
+main,Altaian_Chelkans,nort2686,Northern Altai,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+main,Altaian_Kizhi,nort2686,Northern Altai,dialect_rollup,False,rule:dialect_rollup,,12,False,False
+main,Altaian_Telengit,sout2694,Southern Altai,dialect_rollup,False,rule:dialect_rollup,,6,False,False
+main,Ami,amis1246,Amis,exact,False,rule:exact,,10,True,True
+main,Apalai,apal1257,Apalaí,exact,False,rule:exact,,4,False,False
+main,Arara,para1310,Pará Arára,exact,False,rule:exact,,4,False,False
+main,Armenian,nucl1235,Eastern Armenian,exact,False,rule:exact,,11,True,True
+main,Armenian_Hemsheni,homs1234,Western Armenian,dialect_rollup,False,rule:dialect_rollup,,8,False,False
+main,Armenian_WGA,nucl1235,Eastern Armenian,exact,False,rule:exact,,3,True,True
+main,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,,8,False,False
+main,Assyrian,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,11,False,False
+main,Assyrian,chal1275,Chaldean Neo-Aramaic,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,11,True,True
+main,Assyrian_WGA,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,5,False,False
+main,Assyrian_WGA,chal1275,Chaldean Neo-Aramaic,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,5,True,True
+main,Ata_Bili,pele1245,Pele-Ata,exact,False,rule:exact,,1,True,False
+main,Ata_Luge,pele1245,Pele-Ata,exact,False,rule:exact,,2,True,False
+main,Ata_Uassilau,pele1245,Pele-Ata,exact,False,rule:exact,,5,True,False
+main,Atayal,atay1247,Atayal,exact,False,rule:exact,,10,True,True
+main,Avar_Gunibsky,avar1256,Avar,exact,False,rule:exact,,5,False,False
+main,Avar_Unchukulsky,avar1256,Avar,exact,False,rule:exact,,5,False,False
+main,Aymara,sout2996,Southern Aymara,exact,False,rule:exact,,5,True,True
+main,Azeri_Azerbajan,nort2697,North Azerbaijani,exact,False,rule:exact,,9,True,True
+main,Azeri_Dagestan,nort2697,North Azerbaijani,exact,False,rule:exact,,7,True,True
+main,Azeri_WGA,nort2697,North Azerbaijani,exact,False,rule:exact,,2,True,True
+main,Baining_Malasait,qaqe1238,Qaqet,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,4,True,False
+main,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+main,Bajo,indo1317,Indonesian Bajau,exact,False,rule:exact,,10,False,False
+main,Balkar,kara1465,Karachay-Balkar,exact,False,rule:exact,,10,False,False
+main,Balochi,east2304,Eastern Balochi,exact,False,rule:exact,,24,False,False
+main,BantuSA_Herero,here1253,Herero,exact,False,rule:exact,,2,True,True
+main,BantuSA_Ovambo,mbal1255,Central Wambo,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,1,True,True
+main,BantuSA_Ovambo,ndon1254,Ndonga,exact,False,rule:exact,,1,False,False
+main,BantuSA_Pedi,pedi1238,Pedi,exact,False,rule:exact,,1,False,False
+main,BantuSA_S_Sotho,sout2807,Southern Sotho,exact,False,rule:exact,,1,True,True
+main,BantuSA_Tswana,tswa1253,Tswana,exact,False,rule:exact,,2,True,True
+main,BantuSA_Zulu,zulu1248,Zulu,exact,False,rule:exact,,1,True,False
+main,Bashkir_Burzjan_Baimaksky,bash1264,Bashkir,dialect_rollup,False,rule:dialect_rollup,,8,True,True
+main,Bashkir_IkskoBelsky_Kyrgyz,bash1264,Bashkir,exact,False,rule:exact,,6,True,True
+main,Bashkir_IkskoBelsky_Uran,bash1264,Bashkir,exact,False,rule:exact,,8,True,True
+main,Bashkir_Ming_Miyakinsky,bash1264,Bashkir,exact,False,rule:exact,,9,True,True
+main,Bashkir_North_Tabyn_Balysky,bash1264,Bashkir,exact,False,rule:exact,,7,True,True
+main,Bashkir_North_Unlar,bash1264,Bashkir,exact,False,rule:exact,,4,True,True
+main,Bashkir_Tamyan_Kypcak,bash1264,Bashkir,exact,False,rule:exact,,7,True,True
+main,Bashkir_Yurmaty,bash1264,Bashkir,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+main,Basque,basq1248,Basque,exact,False,rule:exact,,22,True,True
+main,BedouinA,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,24,True,True
+main,BedouinB,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,20,True,True
+main,Belarusian,bela1254,Belarusian,exact,False,rule:exact,,10,True,True
+main,Bengali,beng1280,Bengali,exact,False,rule:exact,,7,False,False
+main,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,,13,True,True
+main,Besermyan,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,6,False,False
+main,BiakaPygmy,yaka1272,Yaka (Central African Republic),exact,False,rule:exact,,23,True,True
+main,Bolivia_Quechua,sout2991,South Bolivian Quechua,exact,False,rule:exact,,2,False,False
+main,Brahmin_Tiwari,chha1249,Chhattisgarhi,exact,False,rule:exact,,15,False,False
+main,Brahui,brah1256,Brahui,exact,False,rule:exact,,23,True,True
+main,Buka,hali1244,Halia,manual,False,person:Alexandru Craevschi,group_choice,5,True,True
+main,Buka_Petats,peta1245,Petats,exact,False,rule:exact,,3,False,False
+main,Bulgarian,bulg1262,Bulgarian,exact,False,rule:exact,,10,False,False
+main,Burbur_WGA,taga1278,Ouargli,exact,False,rule:exact,,5,False,False
+main,Burmese,nucl1310,Burmese,exact,False,rule:exact,,10,True,True
+main,Burusho,buru1296,Burushaski,exact,False,rule:exact,,24,True,True
+main,Buryat_Buryatya_Horinsky_Selenginsky,russ1264,Russia Buriat,exact,False,rule:exact,,5,True,True
+main,Buryat_Buryatya_Zakamensky,russ1264,Russia Buriat,exact,False,rule:exact,,6,True,True
+main,Buryat_Irkutskaya,russ1264,Russia Buriat,exact,False,rule:exact,,12,True,True
+main,Buryat_Zabaikalsky_Aginsky,russ1264,Russia Buriat,exact,False,rule:exact,,12,True,True
+main,Buryat_Zabaikalsky_Duldurginsky,russ1264,Russia Buriat,exact,False,rule:exact,,4,True,True
+main,Cabecar,cabe1245,Cabécar,exact,False,rule:exact,,4,True,True
+main,Cambodian,cent1989,Central Khmer,exact,False,rule:exact,,10,True,True
+main,Cameroon_Aghem,aghe1239,Aghem,exact,False,rule:exact,,28,True,True
+main,Cameroon_Bafut,bafu1246,Bafut,exact,False,rule:exact,,11,True,True
+main,Cameroon_Bakoko,bako1249,Bakoko,exact,False,rule:exact,,1,False,False
+main,Cameroon_Bangwa,fefe1239,Fe'fe',proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_other_language,2,True,True
+main,Cameroon_Bangwa,ndan1241,Nda'nda',exact,False,rule:exact,,2,False,False
+main,Cameroon_Mbo,mboc1235,Mbo (Cameroon),exact,False,rule:exact,,20,True,True
+main,Canary_Islander,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,2,False,False
+main,Chane,tere1279,Terena-Kinikinao-Chane,dialect_rollup,False,rule:dialect_rollup,,1,True,True
+main,Chechen,chec1245,Chechen,exact,False,rule:exact,,9,True,True
+main,Chilote,huil1244,Huilliche,exact,False,rule:exact,endangered,4,False,False
+main,Chilote,mapu1245,Mapudungun,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_other_language,4,True,True
+main,Chipewyan,chip1261,Chipewyan,exact,False,rule:exact,,26,True,True
+main,Chukchi,chuk1273,Chukchi,exact,False,rule:exact,,15,True,True
+main,Chukchi_Ayon,chuk1273,Chukchi,exact,False,rule:exact,,10,True,True
+main,Chuvash,chuv1255,Chuvash,exact,False,rule:exact,,10,True,True
+main,Chuvash_Tatarstan,chuv1255,Chuvash,exact,False,rule:exact,,6,True,True
+main,Circassian,kaba1278,Kabardian,group_map_down,False,rule:group_map_down,,9,True,True
+main,Cocama,coca1259,Cocama-Cocamilla,dialect_rollup,False,rule:dialect_rollup,endangered,7,True,True
+main,Cofan,cofa1242,Cofán,exact,False,rule:exact,,4,True,True
+main,Cree,plai1258,Plains Cree,proxy_gbi_tli,True,rule:graff_gbi_stand_in,endangered;stand_in_no_own_language,12,True,True
+main,Croatian,sout1528,Serbian-Croatian-Bosnian,dialect_rollup,False,rule:dialect_rollup,,10,True,True
+main,Cusco,cusc1236,Cusco Quechua,exact,False,rule:exact,,3,True,True
+main,Cusco2,cusc1236,Cusco Quechua,exact,False,rule:exact,,7,True,True
+main,Cypriot,cypr1248,Cypriot Arabic,exact,False,person:Alexandru Craevschi,wrong_code,8,True,True
+main,Czech,czec1258,Czech,exact,False,rule:exact,,10,True,True
+main,Dai,luuu1242,Lü,exact,False,rule:exact,,10,False,False
+main,Damara,nama1264,Nama (Namibia),exact,False,rule:exact,,13,True,False
+main,Darginian,darg1241,North-Central Dargwa,exact,False,rule:exact,,8,True,True
+main,Datog,dato1239,Barabayiiga-Gisamjanga,exact,False,rule:exact,,3,False,False
+main,Daur,daur1238,Dagur,exact,False,rule:exact,,9,True,True
+main,Dolgan,dolg1241,Dolgan,exact,False,rule:exact,,4,False,False
+main,Druze,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,42,True,True
+main,Dungan,dung1253,Dungan,exact,False,rule:exact,,13,False,False
+main,Dusun,brun1245,Brunei Bisaya-Dusun,exact,False,rule:exact,,10,False,False
+main,Dusun,saba1267,Sabah Bisaya,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,10,True,True
+main,Egyptian,egyp1253,Egyptian Arabic,exact,False,rule:exact,,4,True,True
+main,Egyptian1,egyp1253,Egyptian Arabic,exact,False,rule:exact,,11,True,True
+main,Egyptian2,egyp1253,Egyptian Arabic,exact,False,person:Alexandru Craevschi,diaspora,7,True,True
+main,Enets,fore1265,Forest Enets,proxy_gbi_tli,True,rule:graff_gbi_stand_in,endangered;stand_in_other_language,3,True,True
+main,Enets,tund1254,Tundra Enets,exact,False,rule:exact,endangered,3,False,False
+main,English_Cornwall,stan1293,English,exact,False,rule:exact,,5,True,True
+main,English_Kent,stan1293,English,exact,False,rule:exact,,5,True,True
+main,Esan,esan1238,Esan,exact,False,rule:exact,,2,True,False
+main,Eskimo_ChaplinSireniki,cent2128,Central Siberian Yupik,exact,False,rule:exact,,5,False,False
+main,Eskimo_Naukan,nauk1242,Naukan Yupik,exact,False,rule:exact,,15,False,False
+main,Eskimo_Sireniki,sire1246,Old Sirenik,exact,False,rule:exact,endangered,6,False,False
+main,Estonian,esto1258,Estonian,exact,False,rule:exact,,10,True,True
+main,Even,even1260,Even,exact,False,rule:exact,endangered,9,True,True
+main,Evenk_FarEast,even1259,Evenki,exact,False,rule:exact,,5,True,True
+main,Evenk_Transbaikal,even1259,Evenki,exact,False,rule:exact,,11,True,True
+main,Ezid,nort2641,Northern Kurdish,exact,False,rule:exact,,7,False,False
+main,Finnish,finn1318,Finnish,exact,False,person:Alexandru Craevschi,,8,True,True
+main,French_Central,stan1290,French,exact,False,person:Alexandru Craevschi,,26,True,True
+main,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+main,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+main,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,,7,True,True
+main,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+main,Gagauz,gaga1249,Gagauz,exact,False,rule:exact,,9,True,True
+main,Gambian,mand1436,Mandinka,exact,False,rule:exact,,6,True,True
+main,Gana,gana1274,//Gana,exact,False,rule:exact,,8,False,False
+main,Georgian,nucl1302,Georgian,exact,False,rule:exact,,12,True,True
+main,Georgian_Imeretins,nucl1302,Georgian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+main,Georgian_Laz,lazz1240,Laz,exact,False,rule:exact,,6,True,True
+main,German_Lipsian,stan1295,German,exact,False,rule:exact,,10,False,False
+main,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+main,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,14,True,True
+main,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,18,True,True
+main,Guarani,mbya1239,Mbyá Guaraní,exact,False,rule:exact,,5,True,True
+main,Guarani_GN,mbya1239,Mbyá Guaraní,exact,False,person:Alexandru Craevschi,wrong_code,7,True,True
+main,Guarani_KW,mbya1239,Mbyá Guaraní,exact,False,person:Alexandru Craevschi,wrong_code,9,True,True
+main,Gui,gwii1239,/Gwi,exact,False,rule:exact,,11,False,False
+main,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+main,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+main,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+main,GujaratiD,guja1252,Gujarati,exact,False,rule:exact,,4,False,False
+main,Hadza,hadz1240,Hadza,exact,False,rule:exact,,20,True,True
+main,Hadza1,hadz1240,Hadza,exact,False,rule:exact,,5,True,True
+main,Haiom,haio1238,Hai//om-Akhoe,exact,False,rule:exact,,9,True,False
+main,Hakka_Taiwan,hakk1236,Hakka Chinese,dialect_rollup,False,rule:dialect_rollup,,8,True,True
+main,Han-NChina,mand1415,Mandarin Chinese,exact,False,rule:exact,,10,True,True
+main,Han_HGDP,mand1415,Mandarin Chinese,exact,False,rule:exact,,33,True,True
+main,Hazara,haza1239,Hazaragi,exact,False,rule:exact,,22,False,False
+main,Hezhen,nana1257,Nanai,exact,False,rule:exact,endangered,9,True,True
+main,Himba,here1253,Herero,exact,False,rule:exact,,5,True,True
+main,Hoan,hoaa1235,Amkoe,exact,False,rule:exact,endangered,6,True,True
+main,Huancas,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,5,False,False
+main,Hungarian1,hung1274,Hungarian,exact,False,rule:exact,,10,True,True
+main,Hungarian2,hung1274,Hungarian,exact,False,rule:exact,,10,True,True
+main,Icelandic,icel1247,Icelandic,exact,False,rule:exact,,12,True,True
+main,Ilocano,ilok1237,Iloko,exact,False,rule:exact,,2,True,False
+main,Inga,inga1252,Colombian Inga,exact,False,rule:exact,,15,True,False
+main,Ingushian,ingu1240,Ingush,exact,False,rule:exact,,10,True,True
+main,Iran_Non-Zoroastrian_Fars,west2369,Western Farsi,exact,False,rule:exact,,17,True,True
+main,Iran_Zoroastrian,zoro1242,Zoroastrian Yazdi,exact,False,rule:exact,,28,False,False
+main,Iranian_Bandari,west2369,Western Farsi,group_map_down,False,rule:group_map_down,,8,True,True
+main,Iranian_Mazandarani,maza1291,Mazanderani,exact,False,rule:exact,,10,False,False
+main,Iranian_Persian,west2369,Western Farsi,group_map_down,False,rule:group_map_down,,10,True,True
+main,Irish_Connacht,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+main,Irish_Cork_Kerry,iris1253,Irish,exact,False,rule:exact,,6,True,True
+main,Irish_Leinster,iris1253,Irish,exact,False,rule:exact,,6,True,True
+main,Irish_Munster,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+main,Irish_Ulster,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+main,Italian_Calabria,ital1282,Italian,proxy_gbi_tli,True,person:Alexandru Craevschi,stand_in_other_language,1,True,True
+main,Italian_Calabria,neap1235,Continental Southern Italian,exact,False,rule:exact,,1,False,False
+main,Italian_South,ital1282,Italian,proxy_gbi_tli,True,person:Alexandru Craevschi,stand_in_other_language,3,True,True
+main,Italian_South,neap1235,Continental Southern Italian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+main,Itelmen,itel1242,West Itelmen,exact,False,rule:exact,endangered,7,False,False
+main,Japanese,nucl1643,Japanese,group_map_down,False,rule:group_map_down,,30,True,True
+main,Jew_Cochin,mala1464,Malayalam,dialect_rollup,False,person:Alexandru Craevschi,diaspora,5,True,True
+main,Jew_Ethiopian,amha1245,Amharic,exact,False,person:Alexandru Craevschi,diaspora,7,True,True
+main,Jew_Georgian,nucl1302,Georgian,dialect_rollup,False,person:Alexandru Craevschi,diaspora,9,True,True
+main,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,,9,False,False
+main,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,,9,False,False
+main,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,,7,False,False
+main,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+main,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,,9,False,False
+main,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,8,False,False
+main,Jordanian,nort3139,Levantine Arabic,dialect_rollup,False,person:Alexandru Craevschi,diaspora,10,True,True
+main,Ju_hoan_North,juho1239,South-Eastern Ju,exact,False,rule:exact,,16,True,False
+main,Ju_hoan_South,juho1239,South-Eastern Ju,exact,False,rule:exact,,9,True,False
+main,Kabardinian,kaba1278,Kabardian,exact,False,rule:exact,,10,True,True
+main,Kaitag,darg1241,North-Central Dargwa,exact,False,person:Alexandru Craevschi,wrong_code,8,True,True
+main,Kalash,kala1372,Chitral Kalasha,exact,False,rule:exact,,19,False,False
+main,Kalmyk,kalm1243,Oirad-Kalmyk-Darkhat,exact,False,rule:exact,,10,True,True
+main,Kamentsa,cams1241,Camsá,exact,False,rule:exact,,4,True,True
+main,Kankanaey,kank1243,Kankanaey,exact,False,rule:exact,,10,True,True
+main,Kaqchikel,kaqc1270,Kaqchikel,exact,False,rule:exact,,5,True,True
+main,Karachai,kara1465,Karachay-Balkar,dialect_rollup,False,rule:dialect_rollup,,11,False,False
+main,Karakalpak,kara1467,Kara-Kalpak,exact,False,rule:exact,,14,False,False
+main,Karelian_Northern,kare1335,Karelian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+main,Karelian_Southern,kare1335,Karelian,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+main,Karitiana,kari1311,Karitiâna,exact,False,rule:exact,,13,True,True
+main,Karitiana_Rondonia,kari1311,Karitiâna,exact,False,rule:exact,,4,True,True
+main,Kazakhs_Akmola_Argyn,kaza1248,Kazakh,exact,False,rule:exact,,3,False,False
+main,Kazakhs_Aktyubinsk,kaza1248,Kazakh,exact,False,rule:exact,,2,False,False
+main,Kazakhs_East_Kazakhstan_Naiman,kaza1248,Kazakh,exact,False,rule:exact,,6,False,False
+main,Kazakhs_Omsk_Kypchak,kaza1248,Kazakh,exact,False,rule:exact,,5,False,False
+main,Kazakhs_West_Kazakhstan_Bayuli,kaza1248,Kazakh,exact,False,rule:exact,,1,False,False
+main,Ket,kett1243,Ket,exact,False,rule:exact,,9,True,True
+main,Ket_Southeast,kett1243,Ket,exact,False,rule:exact,,10,True,True
+main,Kgalagadi,kgal1244,Kgalagadi,exact,False,rule:exact,,5,True,True
+main,Khakass_Kachins,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+main,Khakass_Koibals,khak1248,Khakas,exact,False,rule:exact,,6,True,True
+main,Khakass_Kyzils,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+main,Khakass_Sagai,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+main,Khamnegan,kham1281,Khamnigan Mongol,exact,False,rule:exact,endangered,10,False,False
+main,Kharia,khar1287,Kharia,exact,False,rule:exact,,12,True,True
+main,Khwe,kxoe1243,Kxoe,exact,False,rule:exact,,10,True,True
+main,KichwaOrellana,tena1240,Tena Lowland Quichua,exact,False,rule:exact,,17,False,False
+main,Kikuyu,kiku1240,Kikuyu,exact,False,rule:exact,,4,True,True
+main,Kinh,viet1252,Vietnamese,exact,False,rule:exact,,8,True,True
+main,Kirghiz_Pamir,kirg1245,Kirghiz,exact,False,rule:exact,,4,False,False
+main,Kol_New_Britain,kolp1236,Kol (Papua New Guinea),exact,False,rule:exact,,2,True,False
+main,Kolombangara,duke1237,Duke,exact,False,rule:exact,,5,False,False
+main,Korean,kore1280,Korean,exact,False,rule:exact,,6,True,True
+main,Koryak,kory1246,Koryak,exact,False,rule:exact,,9,False,False
+main,Kove,kove1237,Kove,exact,False,rule:exact,,7,True,True
+main,Kove_Tamuniai,kove1237,Kove,exact,False,rule:exact,,10,True,True
+main,Kubachinian,kuba1248,Kubachi,exact,False,rule:exact,,6,False,False
+main,Kumyk,kumy1244,Kumyk,exact,False,rule:exact,,8,False,False
+main,Kuot_Kabil,kuot1243,Kuot,exact,False,rule:exact,,10,True,True
+main,Kuot_Lamalaua,kuot1243,Kuot,exact,False,rule:exact,,8,True,True
+main,Kurd,nort2641,Northern Kurdish,exact,False,rule:exact,,9,False,False
+main,Kurd_WGA,nort2641,Northern Kurdish,exact,False,rule:exact,,2,False,False
+main,Kusunda,kusu1250,Kusunda,exact,False,rule:exact,endangered,5,True,True
+main,Kyrgyz,kirg1245,Kirghiz,exact,False,rule:exact,,10,False,False
+main,LaJalca,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
+main,Lahu,lahu1253,Lahu,exact,False,rule:exact,,27,True,True
+main,Lak,lakk1252,Lak,exact,False,rule:exact,,10,True,True
+main,Lebanese,nort3139,Levantine Arabic,exact,False,person:Alexandru Craevschi,diaspora,8,True,True
+main,Lebanese_Christian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+main,Lebanese_Muslim,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,11,True,True
+main,Lebbo,waha1238,Eastern Lowland Kenyah,exact,False,rule:exact,,8,False,False
+main,Lezgin,lezg1247,Lezgian,exact,False,rule:exact,,10,True,True
+main,Libyan,liby1240,Libyan Arabic,exact,False,rule:exact,,5,True,True
+main,Lithuanian,lith1251,Lithuanian,exact,False,rule:exact,,10,True,True
+main,Lodhi,bund1253,Bundeli,exact,False,rule:exact,,13,True,True
+main,Luo,luok1236,Luo (Kenya and Tanzania),exact,False,rule:exact,,8,True,True
+main,Luya,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
+main,Madak,mada1285,Madak,exact,False,rule:exact,,10,True,True
+main,Makrani,sout2642,Southern Balochi,dialect_rollup,False,rule:dialect_rollup,,25,False,False
+main,Mala,telu1262,Telugu,exact,False,rule:exact,,16,True,True
+main,Malawi_Chewa,nyan1308,Nyanja,exact,False,rule:exact,,11,False,False
+main,Malawi_Ngoni,tanz1241,Tanzanian Ngoni,group_map_down,False,rule:group_map_down,,4,True,True
+main,Malawi_Tumbuka,tumb1250,Tumbuka,exact,False,rule:exact,,10,False,False
+main,Malawi_Yao,yaoo1241,Yao,exact,False,rule:exact,,9,True,True
+main,Malay,mala1479,Central Malay,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+main,Maltese,malt1254,Maltese,exact,False,rule:exact,,8,True,True
+main,Mamanwa,mama1275,Minamanwa,exact,False,rule:exact,,13,True,True
+main,Mamanwa1,mama1275,Minamanwa,exact,False,rule:exact,,5,True,True
+main,Mamusi_Kisiluvi,mamu1254,Mamusi,exact,False,rule:exact,,10,False,False
+main,Mamusi_Lingite,mamu1254,Mamusi,exact,False,rule:exact,,10,False,False
+main,Mamusi_Paleabu,mamu1254,Mamusi,exact,False,rule:exact,,6,False,False
+main,Mandenka,mand1436,Mandinka,exact,False,rule:exact,,18,True,True
+main,Mangseng,mang1403,Mangseng,exact,False,rule:exact,,5,True,True
+main,Mansi,cent2322,Central Mansi,proxy_gbi,True,rule:graff_gbi_stand_in,endangered;stand_in_other_language,9,True,True
+main,Mansi,sout3253,Southern Mansi,exact,False,rule:exact,endangered,9,False,False
+main,Manus,loni1238,Loniu,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,2,True,True
+main,Masai1,masa1300,Masai,exact,False,rule:exact,,2,True,True
+main,Masai_Kinyawa_MKK,masa1300,Masai,exact,False,rule:exact,,10,True,True
+main,Maya,yuca1254,Yucatec Maya,exact,False,rule:exact,,21,True,True
+main,Mbukushu,mbuk1240,Mbukushu,exact,False,rule:exact,,5,False,False
+main,MbutiPygmy,lese1243,Lese,exact,False,rule:exact,,11,True,True
+main,Melamela,mera1242,Meramera,exact,False,rule:exact,,10,True,False
+main,Mende,mend1266,Mende (Sierra Leone),exact,False,rule:exact,,8,True,True
+main,Mengen,meng1267,Mengen,exact,False,rule:exact,,10,True,False
+main,Miao,hmon1333,Hmong Daw,exact,False,rule:exact,,10,False,False
+main,Mixe,olut1240,Oluta Popoluca,group_map_down,False,rule:group_map_down,endangered,10,True,True
+main,Mixtec,sant1436,Santa María Zacatepec Mixtec,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,12,True,True
+main,Moldavian,roma1327,Romanian,dialect_rollup,False,rule:dialect_rollup,,10,False,False
+main,Mongol_Khalkh_Sainnoyon,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+main,Mongol_Khalkh_Zasagt,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,7,True,True
+main,Mongol_Minorities,halh1238,Halh Mongolian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+main,Mongol_Uuld,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+main,Mongola,peri1253,Peripheral Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+main,Mordovian,erzy1239,Erzya,exact,False,rule:exact,,10,True,True
+main,Mordovian_Erzya,erzy1239,Erzya,exact,False,rule:exact,,12,True,True
+main,Mordovian_Moksha,moks1248,Moksha,exact,False,rule:exact,,10,True,True
+main,Moroccan,moro1292,Moroccan Arabic,exact,False,rule:exact,,10,False,False
+main,Mozabite,tumz1238,Tumzabt,exact,False,rule:exact,,25,False,False
+main,Murut,timu1262,Timugon Murut,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+main,Mussau,muss1246,Mussau-Emira,exact,False,rule:exact,,10,True,False
+main,Nakanai_Bileki,naka1262,Nakanai,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+main,Nakanai_Loso,naka1262,Nakanai,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+main,Nama,nama1264,Nama (Namibia),exact,False,rule:exact,,18,True,False
+main,Nanai,nana1257,Nanai,exact,False,rule:exact,endangered,10,True,True
+main,Naro,naro1249,Naro,exact,False,rule:exact,,9,False,False
+main,Nasioi,naas1242,Naasioi,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+main,Naxi,naxi1245,Naxi,exact,False,rule:exact,,8,True,True
+main,Negidal_Orochi,negi1245,Negidal,exact,False,rule:exact,endangered,4,True,True
+main,Nganasan,ngan1291,Nganasan,exact,False,rule:exact,endangered,12,True,True
+main,Nganasan_Dudinka,ngan1291,Nganasan,exact,False,rule:exact,endangered,2,True,True
+main,Nganasan_UstAvam,ngan1291,Nganasan,exact,False,rule:exact,endangered,6,True,True
+main,Nganasan_Volochanka,ngan1291,Nganasan,exact,False,rule:exact,endangered,11,True,True
+main,Nggela,gela1263,Gela,exact,False,rule:exact,,6,True,True
+main,Nivh,gily1242,Amur Nivkh,exact,False,rule:exact,endangered,8,True,True
+main,Nogai,noga1249,Nogai,exact,False,rule:exact,,9,False,False
+main,Nogai_Astrakhan,noga1249,Nogai,exact,False,rule:exact,,6,False,False
+main,Nogai_Stavropol,noga1249,Nogai,exact,False,rule:exact,,10,False,False
+main,Norwegian,norw1258,Norwegian,exact,False,rule:exact,,11,False,False
+main,Notsi,nots1237,Notsi,exact,False,rule:exact,,9,True,True
+main,Ojibwa,nort2961,Northwestern Ojibwa,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,16,True,True
+main,Onge,onge1236,Önge,exact,False,rule:exact,,10,True,False
+main,Ontong_Java,onto1237,Luangiua,exact,False,rule:exact,,8,True,True
+main,Orcadian,scot1243,Scots,exact,False,rule:exact,,13,False,False
+main,Oromo,west2721,West Central Oromo,exact,False,rule:exact,,5,False,False
+main,Oroqen,oroq1238,Oroqen,exact,False,rule:exact,endangered,9,False,False
+main,Ossetian,iron1242,Iron Ossetian,group_map_down,False,rule:group_map_down,,10,True,True
+main,Ossetian_Southern,iron1242,Iron Ossetian,exact,False,rule:exact,,6,True,True
+main,Palestinian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,41,True,True
+main,Pathan,sout2649,Southern Pashto,group_map_down,False,rule:group_map_down,,24,True,True
+main,Peru_Quechua,cusc1236,Cusco Quechua,exact,False,rule:exact,,5,True,True
+main,Piapoco,piap1246,Piapoco,exact,False,rule:exact,,5,True,False
+main,Pima,pima1248,Pima Bajo,exact,False,rule:exact,,14,True,True
+main,Polish_Lublin,poli1260,Polish,exact,False,rule:exact,,8,True,True
+main,Polish_Poznan,poli1260,Polish,exact,False,rule:exact,,15,True,True
+main,Punjabi,panj1256,Eastern Panjabi,exact,False,rule:exact,,8,True,True
+main,Puno,cusc1236,Cusco Quechua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_other_language,7,True,True
+main,Puno,puno1238,Puno Quechua,exact,False,rule:exact,,7,False,False
+main,Ranongga,ghan1242,Ghanongga,exact,False,rule:exact,,6,True,True
+main,Rennell_and_Bellona,renn1242,Rennell-Bellona,exact,False,rule:exact,,7,True,True
+main,Romanian,roma1327,Romanian,exact,False,rule:exact,,10,False,False
+main,Russell,lavu1241,Lavukaleve,exact,False,rule:exact,,4,True,True
+main,Russian,russ1263,Russian,exact,False,rule:exact,,23,True,True
+main,Russian_Archangelsk_Krasnoborsky,russ1263,Russian,exact,False,rule:exact,,6,True,True
+main,Russian_Archangelsk_Leshukonsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+main,Russian_Archangelsk_Pinezhsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+main,Russian_Belgorod,russ1263,Russian,exact,False,rule:exact,,4,True,True
+main,Russian_Kaluga,russ1263,Russian,exact,False,rule:exact,,5,True,True
+main,Russian_Kursk,russ1263,Russian,exact,False,rule:exact,,4,True,True
+main,Russian_Oryol,russ1263,Russian,exact,False,rule:exact,,4,True,True
+main,Russian_Pskov_Ostrov,russ1263,Russian,exact,False,rule:exact,,4,True,True
+main,Russian_Pskov_Porkhov,russ1263,Russian,exact,False,rule:exact,,3,True,True
+main,Russian_Ryazan_Mihailovsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+main,Russian_Ryazan_Spassk_Ryazansky,russ1263,Russian,exact,False,rule:exact,,8,True,True
+main,Russian_Smolensk,russ1263,Russian,exact,False,rule:exact,,7,True,True
+main,Russian_Tver,russ1263,Russian,exact,False,rule:exact,,4,True,True
+main,Russian_Yaroslavl,russ1263,Russian,exact,False,rule:exact,,3,True,True
+main,Saami,nort2671,North Saami,exact,False,rule:exact,,3,True,True
+main,Saharawi,hass1238,Hassaniyya,exact,False,rule:exact,,9,True,True
+main,San,juho1239,South-Eastern Ju,exact,False,rule:exact,,5,True,False
+main,Sandawe,sand1273,Sandawe,exact,False,rule:exact,,23,True,True
+main,Santa_Cruz,natu1246,Natügu,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+main,Saposa,sapo1253,Saposa,exact,False,rule:exact,,10,True,True
+main,Sardinian,camp1261,Campidanese Sardinian,group_map_down,False,rule:group_map_down,,28,True,True
+main,Saudi,gulf1241,Gulf Arabic,proxy_gbi_tli,True,rule:graff_gbi_stand_in,diaspora;stand_in_other_language,10,True,True
+main,Saudi,hija1235,Hijazi Arabic,exact,False,person:Alexandru Craevschi,diaspora,10,False,False
+main,Savo,savo1255,Savosavo,exact,False,rule:exact,,7,True,True
+main,Scottish,scot1245,Scottish Gaelic,exact,False,rule:exact,,4,False,False
+main,Scottish_Borders,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+main,Scottish_Dumfries_Galloway,scot1245,Scottish Gaelic,exact,False,rule:exact,,5,False,False
+main,Scottish_Fife,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+main,Scottish_Grampian,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+main,Scottish_Highlands,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+main,Scottish_Shetlandic,scot1245,Scottish Gaelic,exact,False,rule:exact,,10,False,False
+main,Selkup,selk1253,Selkup,exact,False,rule:exact,,10,True,True
+main,Selkup_Farkovo,selk1253,Selkup,exact,False,rule:exact,,8,True,True
+main,Selkup_Turukhansk,selk1253,Selkup,exact,False,rule:exact,,6,True,True
+main,Semende,cent2053,South Barisan Malay,exact,False,rule:exact,,10,False,False
+main,Shaigi_WGA,suda1236,Sudanese Arabic,exact,False,rule:exact,,3,False,False
+main,She,shee1238,She,exact,False,rule:exact,endangered,9,True,True
+main,Shor_Khakassia,shor1247,Mrassu Shor-Tutal,exact,False,rule:exact,endangered,5,True,True
+main,Shor_Mountain,shor1247,Mrassu Shor-Tutal,exact,False,rule:exact,endangered,7,True,True
+main,Shua,shua1254,Shua,exact,False,rule:exact,,10,False,False
+main,Sicilian_East,sici1248,Sicilian,exact,False,rule:exact,,5,True,True
+main,Sicilian_West,sici1248,Sicilian,exact,False,rule:exact,,6,True,True
+main,Sindhi,sind1272,Sindhi,exact,False,rule:exact,,24,False,False
+main,Somali,soma1255,Somali,exact,False,rule:exact,,13,True,True
+main,Spanish_Andalucia,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+main,Spanish_Aragon,arag1245,Aragonese,exact,False,rule:exact,,6,False,False
+main,Spanish_Balearic,stan1288,Spanish,exact,False,rule:exact,,4,False,False
+main,Spanish_Basque,basq1248,Basque,exact,False,rule:exact,,9,True,True
+main,Spanish_Cantabria,astu1245,Asturian-Leonese-Cantabrian,exact,False,rule:exact,,5,False,False
+main,Spanish_CastillaLaMancha,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+main,Spanish_CastillaLeon,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+main,Spanish_Cataluna,stan1289,Catalan,exact,False,rule:exact,,5,True,True
+main,Spanish_Extremadura,extr1243,Extremaduran,exact,False,rule:exact,,5,False,False
+main,Spanish_Galicia,gali1258,Galician,exact,False,rule:exact,,5,True,True
+main,Spanish_Murcia,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+main,Spanish_PaisVasco,basq1248,Basque,exact,False,rule:exact,,5,True,True
+main,Spanish_Valencia,stan1289,Catalan,exact,False,rule:exact,,5,True,True
+main,Sulka_Ganai,sulk1246,Sulka,exact,False,rule:exact,,10,True,False
+main,Sulka_Watwat,sulk1246,Sulka,exact,False,rule:exact,,9,True,False
+main,Surui,suru1262,Suruí,exact,False,rule:exact,,12,True,False
+main,Syrian,mlah1239,Mlahsô,proxy_gbi,True,rule:graff_gbi_stand_in,endangered;diaspora;stand_in_other_language,8,True,True
+main,Syrian,turo1239,Turoyo,exact,False,person:Alexandru Craevschi,diaspora,8,False,False
+main,Taa_East,huaa1248,East Taa,exact,False,rule:exact,,8,True,True
+main,Taa_North,huaa1248,East Taa,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,11,True,True
+main,Taa_North,xooo1239,West !Xoon,exact,False,rule:exact,,11,False,False
+main,Taa_West,huaa1248,East Taa,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,15,True,True
+main,Taa_West,xooo1239,West !Xoon,exact,False,rule:exact,,15,False,False
+main,Tabasaran,taba1259,Tabasaran,exact,False,rule:exact,,10,False,False
+main,Tagalog,taga1270,Tagalog,exact,False,rule:exact,,5,True,False
+main,Tahiti,tahi1242,Tahitian,exact,False,rule:exact,,4,True,True
+main,TaiwanHan,mand1415,Mandarin Chinese,dialect_rollup,False,rule:dialect_rollup,,10,True,True
+main,Tajik,taji1245,Tajik,exact,False,rule:exact,,8,False,False
+main,Tajik_Lowland_Gissar,taji1245,Tajik,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+main,Tajik_Lowland_Kulyab,taji1245,Tajik,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+main,Tajik_Mountain,taji1245,Tajik,exact,False,rule:exact,,12,False,False
+main,Tatar_Kazan,tata1255,Tatar,exact,False,rule:exact,,13,True,True
+main,Tatar_Mishar,tata1255,Tatar,exact,False,rule:exact,,9,True,True
+main,Tatar_Siberian_Buhar,sibe1250,Siberian Tatar,exact,False,rule:exact,,4,False,False
+main,Tatar_Siberian_Ishtyak_Toguz,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+main,Tatar_Siberian_Iskero_Tobolsk,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+main,Tatar_Siberian_Yalutorovsky,sibe1250,Siberian Tatar,exact,False,rule:exact,,6,False,False
+main,Tatar_Siberian_Zabolotniye,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+main,Teop,teop1238,Teop,exact,False,rule:exact,,9,True,True
+main,Thai,thai1261,Thai,exact,False,rule:exact,,8,True,False
+main,Ticuna,ticu1245,Ticuna,exact,False,rule:exact,,1,True,True
+main,Tigak,tiga1245,Tigak,exact,False,rule:exact,,9,True,True
+main,Tikopia,tiko1237,Tikopia,exact,False,rule:exact,,6,True,True
+main,Todzin,tuvi1240,Tuvinian,exact,False,rule:exact,,4,True,True
+main,Tofalar,kara1462,Taiga Sayan Turkic,exact,False,rule:exact,endangered,10,False,False
+main,Tolai,kuan1248,Kuanua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+main,Tolai_Kabakada,kuan1248,Kuanua,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+main,Tolai_Matupit,kuan1248,Kuanua,dialect_rollup,False,rule:dialect_rollup,,2,True,True
+main,Tolai_Vunairoto,kuan1248,Kuanua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,2,True,True
+main,Tongan,tong1325,Tonga (Tonga Islands),exact,False,rule:exact,,10,True,True
+main,Tshwa,tsoa1238,Northern Tshwa,exact,False,rule:exact,,8,False,False
+main,Tswana,tswa1253,Tswana,exact,False,rule:exact,,5,True,True
+main,Tu,minh1238,Mangghuer,group_map_down,False,rule:group_map_down,,10,True,True
+main,Tubalar,kara1462,Taiga Sayan Turkic,exact,False,rule:exact,endangered,30,False,False
+main,Tubalar_2,nort2686,Northern Altai,exact,False,rule:exact,,5,False,False
+main,Tujia,nort2732,Northern Tujia,group_map_down,False,rule:group_map_down,endangered,10,True,True
+main,Tunisian,tuni1259,Tunisian Arabic,exact,False,rule:exact,,8,False,False
+main,Turkish_Adana,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+main,Turkish_Aydin,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+main,Turkish_Balikesir,nucl1301,Turkish,exact,False,rule:exact,,11,True,True
+main,Turkish_Istanbul,nucl1301,Turkish,exact,False,rule:exact,,11,True,True
+main,Turkish_Kayseri,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+main,Turkish_Trabzon,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+main,Turkmen,turk1304,Turkmen,exact,False,rule:exact,,7,True,True
+main,Tuscan,ital1282,Italian,exact,False,person:Alexandru Craevschi,,8,True,True
+main,Tuvinian,tuvi1240,Tuvinian,exact,False,rule:exact,,10,True,True
+main,Tuvinian_2,tuvi1240,Tuvinian,exact,False,rule:exact,,10,True,True
+main,Udmurt_Northern,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+main,Udmurt_Southern,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+main,Ukrainian_East,ukra1253,Ukrainian,exact,False,rule:exact,,6,True,True
+main,Ukrainian_Rovenskaya,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+main,Ukrainian_Sumskaya,ukra1253,Ukrainian,exact,False,rule:exact,,5,True,True
+main,Ukrainian_West,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+main,Ukrainian_Zhitomirskaya,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+main,Ulchi,ulch1241,Ulch,exact,False,rule:exact,endangered,32,True,True
+main,UrubuKaapor,urub1250,Urubú-Kaapor,exact,False,rule:exact,,3,False,False
+main,UtcubambaSouth,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,4,False,False
+main,Uygur,uigh1240,Uighur,exact,False,rule:exact,,10,False,False
+main,Uzbek,nort2690,Northern Uzbek,exact,False,rule:exact,,10,True,True
+main,Uzbek_Khorezm,nort2690,Northern Uzbek,exact,False,rule:exact,,8,True,True
+main,Uzbek_Tashkent,nort2690,Northern Uzbek,exact,False,rule:exact,,9,True,True
+main,Vanuatu_Ambrym,nort2839,North Ambrym,manual,False,person:Alexandru Craevschi,group_choice,6,True,True
+main,Vanuatu_Aneityum,anei1239,Aneityum,exact,False,rule:exact,,6,True,True
+main,Vanuatu_Aoba,east2443,East Ambae,exact,False,rule:exact,,5,True,True
+main,Vanuatu_Banks,motl1237,Mwotlap,manual,False,person:Alexandru Craevschi,group_choice,7,True,True
+main,Vanuatu_Efate,sout2856,Nafsan,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+main,Vanuatu_Efate_Mele,mele1250,Mele-Fila,exact,False,rule:exact,,9,True,True
+main,Vanuatu_Emae,emae1237,Emae,exact,False,rule:exact,,8,True,True
+main,Vanuatu_Erromango,siee1239,Sie,exact,False,rule:exact,,2,True,True
+main,Vanuatu_Futuna,futu1245,Futuna-Aniwa,exact,False,rule:exact,,3,True,True
+main,Vanuatu_Ifira,mele1250,Mele-Fila,dialect_rollup,False,rule:dialect_rollup,,1,True,True
+main,Vanuatu_Maewo,cent2058,Central Maewo,exact,False,rule:exact,,10,True,True
+main,Vanuatu_Makura,nama1268,Namakura,dialect_rollup,False,rule:dialect_rollup,,5,True,True
+main,Vanuatu_Nguna,nort2836,North Efate,dialect_rollup,False,rule:dialect_rollup,,3,True,True
+main,Vanuatu_Paama,paam1238,Paama,exact,False,rule:exact,,7,True,True
+main,Vanuatu_Pentecost_Baie,saaa1241,Sa,exact,False,rule:exact,,9,True,True
+main,Vanuatu_Pentecost_Bwatnapni,apma1240,Apma,dialect_rollup,False,rule:dialect_rollup,,3,True,True
+main,Vanuatu_Pentecost_Maram,apma1240,Apma,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+main,Vanuatu_Pentecost_Ranmawat,sowa1244,Sowa,exact,False,rule:exact,endangered,5,False,False
+main,Vanuatu_Santo_Mbauk,polo1242,Polonombauk,exact,False,rule:exact,,5,False,False
+main,Vanuatu_Santo_Morou,moro1286,Ande,exact,False,rule:exact,,3,False,False
+main,Vanuatu_Santo_Port,saka1289,Wanohe,exact,False,rule:exact,,5,True,True
+main,Vanuatu_Santo_Rango,nara1263,Narango,exact,False,rule:exact,,4,False,False
+main,Vanuatu_Santo_Sara,hano1246,Hano,exact,False,rule:exact,,3,True,True
+main,Vanuatu_Santo_Tasiriki,akei1237,Akei,exact,False,rule:exact,,2,True,True
+main,Vanuatu_Santo_Tutuba,tutu1241,Tutuba,exact,False,rule:exact,,5,True,True
+main,Vanuatu_Tanna,lena1238,Lenakel,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+main,Vanuatu_Tongoa,nama1268,Namakura,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+main,Vella_Lavella,bilu1245,Bilua,exact,False,rule:exact,,6,True,False
+main,Veps,veps1250,Veps,exact,False,rule:exact,endangered,10,True,True
+main,Vietnamese_North,viet1252,Vietnamese,exact,False,rule:exact,,5,True,True
+main,Vietnamese_South,viet1252,Vietnamese,exact,False,rule:exact,,5,True,True
+main,Visayan,cebu1242,Cebuano,dialect_rollup,False,rule:dialect_rollup,,4,True,False
+main,Vishwabrahmin,vish1243,Vishavan,exact,False,rule:exact,,14,False,False
+main,Wambo,mbal1255,Central Wambo,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,5,True,True
+main,Wambo,ndon1254,Ndonga,exact,False,rule:exact,,5,False,False
+main,Wayku,sanm1289,San Martín Quechua,exact,False,rule:exact,endangered,10,True,True
+main,Wayuu,wayu1243,Wayuu,exact,False,rule:exact,,1,True,True
+main,Xavante,xava1240,Xavánte,exact,False,rule:exact,,9,True,True
+main,Xibo,xibe1242,Xibe,exact,False,rule:exact,,9,False,False
+main,Xuun,kung1261,North-Central Ju,exact,False,rule:exact,,15,False,False
+main,Yakut,yaku1245,Sakha,exact,False,rule:exact,,25,True,True
+main,Yaquis,yaqu1251,Yaqui,exact,False,rule:exact,,8,True,True
+main,Yemen_Ad_Dali,sana1295,Sanaani Arabic,exact,False,person:Alexandru Craevschi,wrong_code,5,True,True
+main,Yemen_Al_Bayda,sana1295,Sanaani Arabic,exact,False,rule:exact,,7,True,True
+main,Yemen_Al_Jawf,sana1295,Sanaani Arabic,exact,False,rule:exact,,4,True,True
+main,Yemen_Amanat_Al_Asimah,sana1295,Sanaani Arabic,exact,False,rule:exact,,4,True,True
+main,Yemen_Amran,sana1295,Sanaani Arabic,exact,False,rule:exact,,17,True,True
+main,Yemen_Dhamar,sana1295,Sanaani Arabic,exact,False,rule:exact,,10,True,True
+main,Yemen_Hadramout,hadr1236,Hadrami Arabic,exact,False,rule:exact,,13,False,False
+main,Yemen_Ibb,sana1295,Sanaani Arabic,exact,False,person:Alexandru Craevschi,wrong_code,2,True,True
+main,Yemen_Mahra,mehr1241,Mehri,exact,False,rule:exact,,14,False,False
+main,Yemen_Marib,sana1295,Sanaani Arabic,exact,False,rule:exact,,7,True,True
+main,Yemen_Shabwah,hadr1236,Hadrami Arabic,exact,False,rule:exact,,3,False,False
+main,Yemeni,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,6,False,False
+main,Yi,sich1238,Sichuan Yi,manual,False,person:Alexandru Craevschi,group_choice,10,True,True
+main,Yoruba,yoru1245,Yoruba,exact,False,rule:exact,,75,False,False
+main,Yukagir_Forest,sout2750,Southern Yukaghir,manual,False,person:Alexandru Craevschi,endangered;wrong_code,5,False,False
+main,Yukagir_Tundra,nort2745,Northern Yukaghir,manual,False,person:Alexandru Craevschi,endangered;wrong_code,19,True,True
+main,Zapotec,sanj1284,Western Tlacolula Valley Zapotec,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,12,True,True
+main,Zoro,gavi1246,Gavião Do Jiparaná,exact,False,rule:exact,,1,False,False
+no_doubtful_language,Abazin,abaz1241,Abaza,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Abkhasian,abkh1244,Abkhaz,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Adygei,adyg1241,West Circassian,exact,False,rule:exact,,18,False,False
+no_doubtful_language,Adygei_Abadzhekh,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+no_doubtful_language,Adygei_Bzhedug,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+no_doubtful_language,Adygei_Mamkheg,adyg1241,West Circassian,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Adygei_Shapsug_Black_Sea,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+no_doubtful_language,Adygei_Shapsug_Kuban,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,1,False,False
+no_doubtful_language,Afar_WGA,afar1241,Afar,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Ain_Touta_WGA,tach1249,Chaouia of the Aures,exact,False,rule:exact,,3,False,False
+no_doubtful_language,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+no_doubtful_language,Aleut,aleu1260,Aleut,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Aleut_Tlingit,aleu1260,Aleut,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Algerian,alge1239,Algerian Arabic,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Algonquin,algo1255,Algonquin,exact,False,rule:exact,,9,False,False
+no_doubtful_language,Altaian,sout2694,Southern Altai,exact,False,rule:exact,,7,False,False
+no_doubtful_language,Altaian_Chelkans,nort2686,Northern Altai,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+no_doubtful_language,Altaian_Kizhi,nort2686,Northern Altai,dialect_rollup,False,rule:dialect_rollup,,12,False,False
+no_doubtful_language,Altaian_Telengit,sout2694,Southern Altai,dialect_rollup,False,rule:dialect_rollup,,6,False,False
+no_doubtful_language,Ami,amis1246,Amis,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Apalai,apal1257,Apalaí,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Arara,para1310,Pará Arára,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Armenian,nucl1235,Eastern Armenian,exact,False,rule:exact,,11,True,True
+no_doubtful_language,Armenian_Hemsheni,homs1234,Western Armenian,dialect_rollup,False,rule:dialect_rollup,,8,False,False
+no_doubtful_language,Armenian_WGA,nucl1235,Eastern Armenian,exact,False,rule:exact,,3,True,True
+no_doubtful_language,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,,8,False,False
+no_doubtful_language,Assyrian,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,11,False,False
+no_doubtful_language,Assyrian,chal1275,Chaldean Neo-Aramaic,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,11,True,True
+no_doubtful_language,Assyrian_WGA,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Assyrian_WGA,chal1275,Chaldean Neo-Aramaic,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,5,True,True
+no_doubtful_language,Ata_Bili,pele1245,Pele-Ata,exact,False,rule:exact,,1,True,False
+no_doubtful_language,Ata_Luge,pele1245,Pele-Ata,exact,False,rule:exact,,2,True,False
+no_doubtful_language,Ata_Uassilau,pele1245,Pele-Ata,exact,False,rule:exact,,5,True,False
+no_doubtful_language,Atayal,atay1247,Atayal,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Avar_Gunibsky,avar1256,Avar,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Avar_Unchukulsky,avar1256,Avar,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Aymara,sout2996,Southern Aymara,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Azeri_Azerbajan,nort2697,North Azerbaijani,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Azeri_Dagestan,nort2697,North Azerbaijani,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Azeri_WGA,nort2697,North Azerbaijani,exact,False,rule:exact,,2,True,True
+no_doubtful_language,Baining_Malasait,qaqe1238,Qaqet,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,4,True,False
+no_doubtful_language,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+no_doubtful_language,Bajo,indo1317,Indonesian Bajau,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Balkar,kara1465,Karachay-Balkar,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Balochi,east2304,Eastern Balochi,exact,False,rule:exact,,24,False,False
+no_doubtful_language,BantuSA_Herero,here1253,Herero,exact,False,rule:exact,,2,True,True
+no_doubtful_language,BantuSA_Ovambo,mbal1255,Central Wambo,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,1,True,True
+no_doubtful_language,BantuSA_Ovambo,ndon1254,Ndonga,exact,False,rule:exact,,1,False,False
+no_doubtful_language,BantuSA_Pedi,pedi1238,Pedi,exact,False,rule:exact,,1,False,False
+no_doubtful_language,BantuSA_S_Sotho,sout2807,Southern Sotho,exact,False,rule:exact,,1,True,True
+no_doubtful_language,BantuSA_Tswana,tswa1253,Tswana,exact,False,rule:exact,,2,True,True
+no_doubtful_language,BantuSA_Zulu,zulu1248,Zulu,exact,False,rule:exact,,1,True,False
+no_doubtful_language,Bashkir_Burzjan_Baimaksky,bash1264,Bashkir,dialect_rollup,False,rule:dialect_rollup,,8,True,True
+no_doubtful_language,Bashkir_IkskoBelsky_Kyrgyz,bash1264,Bashkir,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Bashkir_IkskoBelsky_Uran,bash1264,Bashkir,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Bashkir_Ming_Miyakinsky,bash1264,Bashkir,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Bashkir_North_Tabyn_Balysky,bash1264,Bashkir,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Bashkir_North_Unlar,bash1264,Bashkir,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Bashkir_Tamyan_Kypcak,bash1264,Bashkir,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Bashkir_Yurmaty,bash1264,Bashkir,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+no_doubtful_language,Basque,basq1248,Basque,exact,False,rule:exact,,22,True,True
+no_doubtful_language,BedouinA,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,24,True,True
+no_doubtful_language,BedouinB,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,20,True,True
+no_doubtful_language,Belarusian,bela1254,Belarusian,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Bengali,beng1280,Bengali,exact,False,rule:exact,,7,False,False
+no_doubtful_language,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,,13,True,True
+no_doubtful_language,Besermyan,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,6,False,False
+no_doubtful_language,BiakaPygmy,yaka1272,Yaka (Central African Republic),exact,False,rule:exact,,23,True,True
+no_doubtful_language,Bolivia_Quechua,sout2991,South Bolivian Quechua,exact,False,rule:exact,,2,False,False
+no_doubtful_language,Brahmin_Tiwari,chha1249,Chhattisgarhi,exact,False,rule:exact,,15,False,False
+no_doubtful_language,Brahui,brah1256,Brahui,exact,False,rule:exact,,23,True,True
+no_doubtful_language,Buka_Petats,peta1245,Petats,exact,False,rule:exact,,3,False,False
+no_doubtful_language,Bulgarian,bulg1262,Bulgarian,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Burbur_WGA,taga1278,Ouargli,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Burmese,nucl1310,Burmese,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Burusho,buru1296,Burushaski,exact,False,rule:exact,,24,True,True
+no_doubtful_language,Buryat_Buryatya_Horinsky_Selenginsky,russ1264,Russia Buriat,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Buryat_Buryatya_Zakamensky,russ1264,Russia Buriat,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Buryat_Irkutskaya,russ1264,Russia Buriat,exact,False,rule:exact,,12,True,True
+no_doubtful_language,Buryat_Zabaikalsky_Aginsky,russ1264,Russia Buriat,exact,False,rule:exact,,12,True,True
+no_doubtful_language,Buryat_Zabaikalsky_Duldurginsky,russ1264,Russia Buriat,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Cabecar,cabe1245,Cabécar,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Cambodian,cent1989,Central Khmer,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Cameroon_Aghem,aghe1239,Aghem,exact,False,rule:exact,,28,True,True
+no_doubtful_language,Cameroon_Bafut,bafu1246,Bafut,exact,False,rule:exact,,11,True,True
+no_doubtful_language,Cameroon_Bakoko,bako1249,Bakoko,exact,False,rule:exact,,1,False,False
+no_doubtful_language,Cameroon_Bangwa,fefe1239,Fe'fe',proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_other_language,2,True,True
+no_doubtful_language,Cameroon_Bangwa,ndan1241,Nda'nda',exact,False,rule:exact,,2,False,False
+no_doubtful_language,Cameroon_Mbo,mboc1235,Mbo (Cameroon),exact,False,rule:exact,,20,True,True
+no_doubtful_language,Canary_Islander,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,2,False,False
+no_doubtful_language,Chane,tere1279,Terena-Kinikinao-Chane,dialect_rollup,False,rule:dialect_rollup,,1,True,True
+no_doubtful_language,Chechen,chec1245,Chechen,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Chilote,mapu1245,Mapudungun,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_other_language,4,True,True
+no_doubtful_language,Chipewyan,chip1261,Chipewyan,exact,False,rule:exact,,26,True,True
+no_doubtful_language,Chukchi,chuk1273,Chukchi,exact,False,rule:exact,,15,True,True
+no_doubtful_language,Chukchi_Ayon,chuk1273,Chukchi,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Chuvash,chuv1255,Chuvash,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Chuvash_Tatarstan,chuv1255,Chuvash,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Circassian,kaba1278,Kabardian,group_map_down,False,rule:group_map_down,,9,True,True
+no_doubtful_language,Cofan,cofa1242,Cofán,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Croatian,sout1528,Serbian-Croatian-Bosnian,dialect_rollup,False,rule:dialect_rollup,,10,True,True
+no_doubtful_language,Cusco,cusc1236,Cusco Quechua,exact,False,rule:exact,,3,True,True
+no_doubtful_language,Cusco2,cusc1236,Cusco Quechua,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Czech,czec1258,Czech,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Dai,luuu1242,Lü,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Damara,nama1264,Nama (Namibia),exact,False,rule:exact,,13,True,False
+no_doubtful_language,Darginian,darg1241,North-Central Dargwa,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Datog,dato1239,Barabayiiga-Gisamjanga,exact,False,rule:exact,,3,False,False
+no_doubtful_language,Daur,daur1238,Dagur,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Dolgan,dolg1241,Dolgan,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Druze,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,42,True,True
+no_doubtful_language,Dungan,dung1253,Dungan,exact,False,rule:exact,,13,False,False
+no_doubtful_language,Dusun,brun1245,Brunei Bisaya-Dusun,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Dusun,saba1267,Sabah Bisaya,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,10,True,True
+no_doubtful_language,Egyptian,egyp1253,Egyptian Arabic,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Egyptian1,egyp1253,Egyptian Arabic,exact,False,rule:exact,,11,True,True
+no_doubtful_language,English_Cornwall,stan1293,English,exact,False,rule:exact,,5,True,True
+no_doubtful_language,English_Kent,stan1293,English,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Esan,esan1238,Esan,exact,False,rule:exact,,2,True,False
+no_doubtful_language,Eskimo_ChaplinSireniki,cent2128,Central Siberian Yupik,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Eskimo_Naukan,nauk1242,Naukan Yupik,exact,False,rule:exact,,15,False,False
+no_doubtful_language,Estonian,esto1258,Estonian,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Evenk_FarEast,even1259,Evenki,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Evenk_Transbaikal,even1259,Evenki,exact,False,rule:exact,,11,True,True
+no_doubtful_language,Ezid,nort2641,Northern Kurdish,exact,False,rule:exact,,7,False,False
+no_doubtful_language,Finnish,finn1318,Finnish,exact,False,person:Alexandru Craevschi,,8,True,True
+no_doubtful_language,French_Central,stan1290,French,exact,False,person:Alexandru Craevschi,,26,True,True
+no_doubtful_language,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+no_doubtful_language,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+no_doubtful_language,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,,7,True,True
+no_doubtful_language,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+no_doubtful_language,Gagauz,gaga1249,Gagauz,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Gambian,mand1436,Mandinka,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Gana,gana1274,//Gana,exact,False,rule:exact,,8,False,False
+no_doubtful_language,Georgian,nucl1302,Georgian,exact,False,rule:exact,,12,True,True
+no_doubtful_language,Georgian_Imeretins,nucl1302,Georgian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_doubtful_language,Georgian_Laz,lazz1240,Laz,exact,False,rule:exact,,6,True,True
+no_doubtful_language,German_Lipsian,stan1295,German,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+no_doubtful_language,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,14,True,True
+no_doubtful_language,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,18,True,True
+no_doubtful_language,Guarani,mbya1239,Mbyá Guaraní,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Gui,gwii1239,/Gwi,exact,False,rule:exact,,11,False,False
+no_doubtful_language,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+no_doubtful_language,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+no_doubtful_language,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+no_doubtful_language,GujaratiD,guja1252,Gujarati,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Hadza,hadz1240,Hadza,exact,False,rule:exact,,20,True,True
+no_doubtful_language,Hadza1,hadz1240,Hadza,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Haiom,haio1238,Hai//om-Akhoe,exact,False,rule:exact,,9,True,False
+no_doubtful_language,Hakka_Taiwan,hakk1236,Hakka Chinese,dialect_rollup,False,rule:dialect_rollup,,8,True,True
+no_doubtful_language,Han-NChina,mand1415,Mandarin Chinese,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Han_HGDP,mand1415,Mandarin Chinese,exact,False,rule:exact,,33,True,True
+no_doubtful_language,Hazara,haza1239,Hazaragi,exact,False,rule:exact,,22,False,False
+no_doubtful_language,Himba,here1253,Herero,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Huancas,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Hungarian1,hung1274,Hungarian,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Hungarian2,hung1274,Hungarian,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Icelandic,icel1247,Icelandic,exact,False,rule:exact,,12,True,True
+no_doubtful_language,Ilocano,ilok1237,Iloko,exact,False,rule:exact,,2,True,False
+no_doubtful_language,Inga,inga1252,Colombian Inga,exact,False,rule:exact,,15,True,False
+no_doubtful_language,Ingushian,ingu1240,Ingush,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Iran_Non-Zoroastrian_Fars,west2369,Western Farsi,exact,False,rule:exact,,17,True,True
+no_doubtful_language,Iran_Zoroastrian,zoro1242,Zoroastrian Yazdi,exact,False,rule:exact,,28,False,False
+no_doubtful_language,Iranian_Bandari,west2369,Western Farsi,group_map_down,False,rule:group_map_down,,8,True,True
+no_doubtful_language,Iranian_Mazandarani,maza1291,Mazanderani,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Iranian_Persian,west2369,Western Farsi,group_map_down,False,rule:group_map_down,,10,True,True
+no_doubtful_language,Irish_Connacht,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_doubtful_language,Irish_Cork_Kerry,iris1253,Irish,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Irish_Leinster,iris1253,Irish,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Irish_Munster,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_doubtful_language,Irish_Ulster,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_doubtful_language,Italian_Calabria,ital1282,Italian,proxy_gbi_tli,True,person:Alexandru Craevschi,stand_in_other_language,1,True,True
+no_doubtful_language,Italian_Calabria,neap1235,Continental Southern Italian,exact,False,rule:exact,,1,False,False
+no_doubtful_language,Italian_South,ital1282,Italian,proxy_gbi_tli,True,person:Alexandru Craevschi,stand_in_other_language,3,True,True
+no_doubtful_language,Italian_South,neap1235,Continental Southern Italian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+no_doubtful_language,Japanese,nucl1643,Japanese,group_map_down,False,rule:group_map_down,,30,True,True
+no_doubtful_language,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,,9,False,False
+no_doubtful_language,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,,9,False,False
+no_doubtful_language,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,,7,False,False
+no_doubtful_language,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+no_doubtful_language,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,,9,False,False
+no_doubtful_language,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,8,False,False
+no_doubtful_language,Ju_hoan_North,juho1239,South-Eastern Ju,exact,False,rule:exact,,16,True,False
+no_doubtful_language,Ju_hoan_South,juho1239,South-Eastern Ju,exact,False,rule:exact,,9,True,False
+no_doubtful_language,Kabardinian,kaba1278,Kabardian,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Kalash,kala1372,Chitral Kalasha,exact,False,rule:exact,,19,False,False
+no_doubtful_language,Kalmyk,kalm1243,Oirad-Kalmyk-Darkhat,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Kamentsa,cams1241,Camsá,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Kankanaey,kank1243,Kankanaey,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Kaqchikel,kaqc1270,Kaqchikel,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Karachai,kara1465,Karachay-Balkar,dialect_rollup,False,rule:dialect_rollup,,11,False,False
+no_doubtful_language,Karakalpak,kara1467,Kara-Kalpak,exact,False,rule:exact,,14,False,False
+no_doubtful_language,Karelian_Northern,kare1335,Karelian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_doubtful_language,Karelian_Southern,kare1335,Karelian,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+no_doubtful_language,Karitiana,kari1311,Karitiâna,exact,False,rule:exact,,13,True,True
+no_doubtful_language,Karitiana_Rondonia,kari1311,Karitiâna,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Kazakhs_Akmola_Argyn,kaza1248,Kazakh,exact,False,rule:exact,,3,False,False
+no_doubtful_language,Kazakhs_Aktyubinsk,kaza1248,Kazakh,exact,False,rule:exact,,2,False,False
+no_doubtful_language,Kazakhs_East_Kazakhstan_Naiman,kaza1248,Kazakh,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Kazakhs_Omsk_Kypchak,kaza1248,Kazakh,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Kazakhs_West_Kazakhstan_Bayuli,kaza1248,Kazakh,exact,False,rule:exact,,1,False,False
+no_doubtful_language,Ket,kett1243,Ket,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Ket_Southeast,kett1243,Ket,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Kgalagadi,kgal1244,Kgalagadi,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Khakass_Kachins,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+no_doubtful_language,Khakass_Koibals,khak1248,Khakas,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Khakass_Kyzils,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+no_doubtful_language,Khakass_Sagai,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_doubtful_language,Kharia,khar1287,Kharia,exact,False,rule:exact,,12,True,True
+no_doubtful_language,Khwe,kxoe1243,Kxoe,exact,False,rule:exact,,10,True,True
+no_doubtful_language,KichwaOrellana,tena1240,Tena Lowland Quichua,exact,False,rule:exact,,17,False,False
+no_doubtful_language,Kikuyu,kiku1240,Kikuyu,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Kinh,viet1252,Vietnamese,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Kirghiz_Pamir,kirg1245,Kirghiz,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Kol_New_Britain,kolp1236,Kol (Papua New Guinea),exact,False,rule:exact,,2,True,False
+no_doubtful_language,Kolombangara,duke1237,Duke,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Korean,kore1280,Korean,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Koryak,kory1246,Koryak,exact,False,rule:exact,,9,False,False
+no_doubtful_language,Kove,kove1237,Kove,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Kove_Tamuniai,kove1237,Kove,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Kubachinian,kuba1248,Kubachi,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Kumyk,kumy1244,Kumyk,exact,False,rule:exact,,8,False,False
+no_doubtful_language,Kuot_Kabil,kuot1243,Kuot,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Kuot_Lamalaua,kuot1243,Kuot,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Kurd,nort2641,Northern Kurdish,exact,False,rule:exact,,9,False,False
+no_doubtful_language,Kurd_WGA,nort2641,Northern Kurdish,exact,False,rule:exact,,2,False,False
+no_doubtful_language,Kyrgyz,kirg1245,Kirghiz,exact,False,rule:exact,,10,False,False
+no_doubtful_language,LaJalca,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
+no_doubtful_language,Lahu,lahu1253,Lahu,exact,False,rule:exact,,27,True,True
+no_doubtful_language,Lak,lakk1252,Lak,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Lebanese_Christian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+no_doubtful_language,Lebanese_Muslim,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,11,True,True
+no_doubtful_language,Lebbo,waha1238,Eastern Lowland Kenyah,exact,False,rule:exact,,8,False,False
+no_doubtful_language,Lezgin,lezg1247,Lezgian,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Libyan,liby1240,Libyan Arabic,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Lithuanian,lith1251,Lithuanian,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Lodhi,bund1253,Bundeli,exact,False,rule:exact,,13,True,True
+no_doubtful_language,Luo,luok1236,Luo (Kenya and Tanzania),exact,False,rule:exact,,8,True,True
+no_doubtful_language,Luya,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
+no_doubtful_language,Madak,mada1285,Madak,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Makrani,sout2642,Southern Balochi,dialect_rollup,False,rule:dialect_rollup,,25,False,False
+no_doubtful_language,Mala,telu1262,Telugu,exact,False,rule:exact,,16,True,True
+no_doubtful_language,Malawi_Chewa,nyan1308,Nyanja,exact,False,rule:exact,,11,False,False
+no_doubtful_language,Malawi_Ngoni,tanz1241,Tanzanian Ngoni,group_map_down,False,rule:group_map_down,,4,True,True
+no_doubtful_language,Malawi_Tumbuka,tumb1250,Tumbuka,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Malawi_Yao,yaoo1241,Yao,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Malay,mala1479,Central Malay,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+no_doubtful_language,Maltese,malt1254,Maltese,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Mamanwa,mama1275,Minamanwa,exact,False,rule:exact,,13,True,True
+no_doubtful_language,Mamanwa1,mama1275,Minamanwa,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Mamusi_Kisiluvi,mamu1254,Mamusi,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Mamusi_Lingite,mamu1254,Mamusi,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Mamusi_Paleabu,mamu1254,Mamusi,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Mandenka,mand1436,Mandinka,exact,False,rule:exact,,18,True,True
+no_doubtful_language,Mangseng,mang1403,Mangseng,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Manus,loni1238,Loniu,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,2,True,True
+no_doubtful_language,Masai1,masa1300,Masai,exact,False,rule:exact,,2,True,True
+no_doubtful_language,Masai_Kinyawa_MKK,masa1300,Masai,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Maya,yuca1254,Yucatec Maya,exact,False,rule:exact,,21,True,True
+no_doubtful_language,Mbukushu,mbuk1240,Mbukushu,exact,False,rule:exact,,5,False,False
+no_doubtful_language,MbutiPygmy,lese1243,Lese,exact,False,rule:exact,,11,True,True
+no_doubtful_language,Melamela,mera1242,Meramera,exact,False,rule:exact,,10,True,False
+no_doubtful_language,Mende,mend1266,Mende (Sierra Leone),exact,False,rule:exact,,8,True,True
+no_doubtful_language,Mengen,meng1267,Mengen,exact,False,rule:exact,,10,True,False
+no_doubtful_language,Miao,hmon1333,Hmong Daw,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Mixtec,sant1436,Santa María Zacatepec Mixtec,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,12,True,True
+no_doubtful_language,Moldavian,roma1327,Romanian,dialect_rollup,False,rule:dialect_rollup,,10,False,False
+no_doubtful_language,Mongol_Khalkh_Sainnoyon,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+no_doubtful_language,Mongol_Khalkh_Zasagt,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,7,True,True
+no_doubtful_language,Mongol_Minorities,halh1238,Halh Mongolian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+no_doubtful_language,Mongol_Uuld,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+no_doubtful_language,Mongola,peri1253,Peripheral Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+no_doubtful_language,Mordovian,erzy1239,Erzya,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Mordovian_Erzya,erzy1239,Erzya,exact,False,rule:exact,,12,True,True
+no_doubtful_language,Mordovian_Moksha,moks1248,Moksha,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Moroccan,moro1292,Moroccan Arabic,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Mozabite,tumz1238,Tumzabt,exact,False,rule:exact,,25,False,False
+no_doubtful_language,Murut,timu1262,Timugon Murut,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+no_doubtful_language,Mussau,muss1246,Mussau-Emira,exact,False,rule:exact,,10,True,False
+no_doubtful_language,Nakanai_Bileki,naka1262,Nakanai,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+no_doubtful_language,Nakanai_Loso,naka1262,Nakanai,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+no_doubtful_language,Nama,nama1264,Nama (Namibia),exact,False,rule:exact,,18,True,False
+no_doubtful_language,Naro,naro1249,Naro,exact,False,rule:exact,,9,False,False
+no_doubtful_language,Nasioi,naas1242,Naasioi,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+no_doubtful_language,Naxi,naxi1245,Naxi,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Nggela,gela1263,Gela,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Nogai,noga1249,Nogai,exact,False,rule:exact,,9,False,False
+no_doubtful_language,Nogai_Astrakhan,noga1249,Nogai,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Nogai_Stavropol,noga1249,Nogai,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Norwegian,norw1258,Norwegian,exact,False,rule:exact,,11,False,False
+no_doubtful_language,Notsi,nots1237,Notsi,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Ojibwa,nort2961,Northwestern Ojibwa,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,16,True,True
+no_doubtful_language,Onge,onge1236,Önge,exact,False,rule:exact,,10,True,False
+no_doubtful_language,Ontong_Java,onto1237,Luangiua,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Orcadian,scot1243,Scots,exact,False,rule:exact,,13,False,False
+no_doubtful_language,Oromo,west2721,West Central Oromo,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Ossetian,iron1242,Iron Ossetian,group_map_down,False,rule:group_map_down,,10,True,True
+no_doubtful_language,Ossetian_Southern,iron1242,Iron Ossetian,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Palestinian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,41,True,True
+no_doubtful_language,Pathan,sout2649,Southern Pashto,group_map_down,False,rule:group_map_down,,24,True,True
+no_doubtful_language,Peru_Quechua,cusc1236,Cusco Quechua,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Piapoco,piap1246,Piapoco,exact,False,rule:exact,,5,True,False
+no_doubtful_language,Pima,pima1248,Pima Bajo,exact,False,rule:exact,,14,True,True
+no_doubtful_language,Polish_Lublin,poli1260,Polish,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Polish_Poznan,poli1260,Polish,exact,False,rule:exact,,15,True,True
+no_doubtful_language,Punjabi,panj1256,Eastern Panjabi,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Puno,cusc1236,Cusco Quechua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_other_language,7,True,True
+no_doubtful_language,Puno,puno1238,Puno Quechua,exact,False,rule:exact,,7,False,False
+no_doubtful_language,Ranongga,ghan1242,Ghanongga,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Rennell_and_Bellona,renn1242,Rennell-Bellona,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Romanian,roma1327,Romanian,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Russell,lavu1241,Lavukaleve,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Russian,russ1263,Russian,exact,False,rule:exact,,23,True,True
+no_doubtful_language,Russian_Archangelsk_Krasnoborsky,russ1263,Russian,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Russian_Archangelsk_Leshukonsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Russian_Archangelsk_Pinezhsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Russian_Belgorod,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Russian_Kaluga,russ1263,Russian,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Russian_Kursk,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Russian_Oryol,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Russian_Pskov_Ostrov,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Russian_Pskov_Porkhov,russ1263,Russian,exact,False,rule:exact,,3,True,True
+no_doubtful_language,Russian_Ryazan_Mihailovsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Russian_Ryazan_Spassk_Ryazansky,russ1263,Russian,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Russian_Smolensk,russ1263,Russian,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Russian_Tver,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Russian_Yaroslavl,russ1263,Russian,exact,False,rule:exact,,3,True,True
+no_doubtful_language,Saami,nort2671,North Saami,exact,False,rule:exact,,3,True,True
+no_doubtful_language,Saharawi,hass1238,Hassaniyya,exact,False,rule:exact,,9,True,True
+no_doubtful_language,San,juho1239,South-Eastern Ju,exact,False,rule:exact,,5,True,False
+no_doubtful_language,Sandawe,sand1273,Sandawe,exact,False,rule:exact,,23,True,True
+no_doubtful_language,Santa_Cruz,natu1246,Natügu,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+no_doubtful_language,Saposa,sapo1253,Saposa,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Sardinian,camp1261,Campidanese Sardinian,group_map_down,False,rule:group_map_down,,28,True,True
+no_doubtful_language,Savo,savo1255,Savosavo,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Scottish,scot1245,Scottish Gaelic,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Scottish_Borders,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Scottish_Dumfries_Galloway,scot1245,Scottish Gaelic,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Scottish_Fife,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Scottish_Grampian,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Scottish_Highlands,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Scottish_Shetlandic,scot1245,Scottish Gaelic,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Selkup,selk1253,Selkup,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Selkup_Farkovo,selk1253,Selkup,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Selkup_Turukhansk,selk1253,Selkup,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Semende,cent2053,South Barisan Malay,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Shaigi_WGA,suda1236,Sudanese Arabic,exact,False,rule:exact,,3,False,False
+no_doubtful_language,Shua,shua1254,Shua,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Sicilian_East,sici1248,Sicilian,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Sicilian_West,sici1248,Sicilian,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Sindhi,sind1272,Sindhi,exact,False,rule:exact,,24,False,False
+no_doubtful_language,Somali,soma1255,Somali,exact,False,rule:exact,,13,True,True
+no_doubtful_language,Spanish_Andalucia,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+no_doubtful_language,Spanish_Aragon,arag1245,Aragonese,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Spanish_Balearic,stan1288,Spanish,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Spanish_Basque,basq1248,Basque,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Spanish_Cantabria,astu1245,Asturian-Leonese-Cantabrian,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Spanish_CastillaLaMancha,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_doubtful_language,Spanish_CastillaLeon,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_doubtful_language,Spanish_Cataluna,stan1289,Catalan,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Spanish_Extremadura,extr1243,Extremaduran,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Spanish_Galicia,gali1258,Galician,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Spanish_Murcia,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_doubtful_language,Spanish_PaisVasco,basq1248,Basque,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Spanish_Valencia,stan1289,Catalan,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Sulka_Ganai,sulk1246,Sulka,exact,False,rule:exact,,10,True,False
+no_doubtful_language,Sulka_Watwat,sulk1246,Sulka,exact,False,rule:exact,,9,True,False
+no_doubtful_language,Surui,suru1262,Suruí,exact,False,rule:exact,,12,True,False
+no_doubtful_language,Taa_East,huaa1248,East Taa,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Taa_North,huaa1248,East Taa,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,11,True,True
+no_doubtful_language,Taa_North,xooo1239,West !Xoon,exact,False,rule:exact,,11,False,False
+no_doubtful_language,Taa_West,huaa1248,East Taa,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,15,True,True
+no_doubtful_language,Taa_West,xooo1239,West !Xoon,exact,False,rule:exact,,15,False,False
+no_doubtful_language,Tabasaran,taba1259,Tabasaran,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Tagalog,taga1270,Tagalog,exact,False,rule:exact,,5,True,False
+no_doubtful_language,Tahiti,tahi1242,Tahitian,exact,False,rule:exact,,4,True,True
+no_doubtful_language,TaiwanHan,mand1415,Mandarin Chinese,dialect_rollup,False,rule:dialect_rollup,,10,True,True
+no_doubtful_language,Tajik,taji1245,Tajik,exact,False,rule:exact,,8,False,False
+no_doubtful_language,Tajik_Lowland_Gissar,taji1245,Tajik,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+no_doubtful_language,Tajik_Lowland_Kulyab,taji1245,Tajik,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+no_doubtful_language,Tajik_Mountain,taji1245,Tajik,exact,False,rule:exact,,12,False,False
+no_doubtful_language,Tatar_Kazan,tata1255,Tatar,exact,False,rule:exact,,13,True,True
+no_doubtful_language,Tatar_Mishar,tata1255,Tatar,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Tatar_Siberian_Buhar,sibe1250,Siberian Tatar,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Tatar_Siberian_Ishtyak_Toguz,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Tatar_Siberian_Iskero_Tobolsk,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Tatar_Siberian_Yalutorovsky,sibe1250,Siberian Tatar,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Tatar_Siberian_Zabolotniye,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Teop,teop1238,Teop,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Thai,thai1261,Thai,exact,False,rule:exact,,8,True,False
+no_doubtful_language,Ticuna,ticu1245,Ticuna,exact,False,rule:exact,,1,True,True
+no_doubtful_language,Tigak,tiga1245,Tigak,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Tikopia,tiko1237,Tikopia,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Todzin,tuvi1240,Tuvinian,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Tolai,kuan1248,Kuanua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+no_doubtful_language,Tolai_Kabakada,kuan1248,Kuanua,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+no_doubtful_language,Tolai_Matupit,kuan1248,Kuanua,dialect_rollup,False,rule:dialect_rollup,,2,True,True
+no_doubtful_language,Tolai_Vunairoto,kuan1248,Kuanua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,2,True,True
+no_doubtful_language,Tongan,tong1325,Tonga (Tonga Islands),exact,False,rule:exact,,10,True,True
+no_doubtful_language,Tshwa,tsoa1238,Northern Tshwa,exact,False,rule:exact,,8,False,False
+no_doubtful_language,Tswana,tswa1253,Tswana,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Tu,minh1238,Mangghuer,group_map_down,False,rule:group_map_down,,10,True,True
+no_doubtful_language,Tubalar_2,nort2686,Northern Altai,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Tunisian,tuni1259,Tunisian Arabic,exact,False,rule:exact,,8,False,False
+no_doubtful_language,Turkish_Adana,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Turkish_Aydin,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Turkish_Balikesir,nucl1301,Turkish,exact,False,rule:exact,,11,True,True
+no_doubtful_language,Turkish_Istanbul,nucl1301,Turkish,exact,False,rule:exact,,11,True,True
+no_doubtful_language,Turkish_Kayseri,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Turkish_Trabzon,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Turkmen,turk1304,Turkmen,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Tuscan,ital1282,Italian,exact,False,person:Alexandru Craevschi,,8,True,True
+no_doubtful_language,Tuvinian,tuvi1240,Tuvinian,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Tuvinian_2,tuvi1240,Tuvinian,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Udmurt_Northern,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_doubtful_language,Udmurt_Southern,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_doubtful_language,Ukrainian_East,ukra1253,Ukrainian,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Ukrainian_Rovenskaya,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+no_doubtful_language,Ukrainian_Sumskaya,ukra1253,Ukrainian,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Ukrainian_West,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+no_doubtful_language,Ukrainian_Zhitomirskaya,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+no_doubtful_language,UrubuKaapor,urub1250,Urubú-Kaapor,exact,False,rule:exact,,3,False,False
+no_doubtful_language,UtcubambaSouth,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Uygur,uigh1240,Uighur,exact,False,rule:exact,,10,False,False
+no_doubtful_language,Uzbek,nort2690,Northern Uzbek,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Uzbek_Khorezm,nort2690,Northern Uzbek,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Uzbek_Tashkent,nort2690,Northern Uzbek,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Vanuatu_Aneityum,anei1239,Aneityum,exact,False,rule:exact,,6,True,True
+no_doubtful_language,Vanuatu_Aoba,east2443,East Ambae,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Vanuatu_Efate,sout2856,Nafsan,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+no_doubtful_language,Vanuatu_Efate_Mele,mele1250,Mele-Fila,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Vanuatu_Emae,emae1237,Emae,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Vanuatu_Erromango,siee1239,Sie,exact,False,rule:exact,,2,True,True
+no_doubtful_language,Vanuatu_Futuna,futu1245,Futuna-Aniwa,exact,False,rule:exact,,3,True,True
+no_doubtful_language,Vanuatu_Ifira,mele1250,Mele-Fila,dialect_rollup,False,rule:dialect_rollup,,1,True,True
+no_doubtful_language,Vanuatu_Maewo,cent2058,Central Maewo,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Vanuatu_Makura,nama1268,Namakura,dialect_rollup,False,rule:dialect_rollup,,5,True,True
+no_doubtful_language,Vanuatu_Nguna,nort2836,North Efate,dialect_rollup,False,rule:dialect_rollup,,3,True,True
+no_doubtful_language,Vanuatu_Paama,paam1238,Paama,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Vanuatu_Pentecost_Baie,saaa1241,Sa,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Vanuatu_Pentecost_Bwatnapni,apma1240,Apma,dialect_rollup,False,rule:dialect_rollup,,3,True,True
+no_doubtful_language,Vanuatu_Pentecost_Maram,apma1240,Apma,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+no_doubtful_language,Vanuatu_Santo_Mbauk,polo1242,Polonombauk,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Vanuatu_Santo_Morou,moro1286,Ande,exact,False,rule:exact,,3,False,False
+no_doubtful_language,Vanuatu_Santo_Port,saka1289,Wanohe,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Vanuatu_Santo_Rango,nara1263,Narango,exact,False,rule:exact,,4,False,False
+no_doubtful_language,Vanuatu_Santo_Sara,hano1246,Hano,exact,False,rule:exact,,3,True,True
+no_doubtful_language,Vanuatu_Santo_Tasiriki,akei1237,Akei,exact,False,rule:exact,,2,True,True
+no_doubtful_language,Vanuatu_Santo_Tutuba,tutu1241,Tutuba,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Vanuatu_Tanna,lena1238,Lenakel,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+no_doubtful_language,Vanuatu_Tongoa,nama1268,Namakura,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+no_doubtful_language,Vella_Lavella,bilu1245,Bilua,exact,False,rule:exact,,6,True,False
+no_doubtful_language,Vietnamese_North,viet1252,Vietnamese,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Vietnamese_South,viet1252,Vietnamese,exact,False,rule:exact,,5,True,True
+no_doubtful_language,Visayan,cebu1242,Cebuano,dialect_rollup,False,rule:dialect_rollup,,4,True,False
+no_doubtful_language,Vishwabrahmin,vish1243,Vishavan,exact,False,rule:exact,,14,False,False
+no_doubtful_language,Wambo,mbal1255,Central Wambo,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,5,True,True
+no_doubtful_language,Wambo,ndon1254,Ndonga,exact,False,rule:exact,,5,False,False
+no_doubtful_language,Wayuu,wayu1243,Wayuu,exact,False,rule:exact,,1,True,True
+no_doubtful_language,Xavante,xava1240,Xavánte,exact,False,rule:exact,,9,True,True
+no_doubtful_language,Xibo,xibe1242,Xibe,exact,False,rule:exact,,9,False,False
+no_doubtful_language,Xuun,kung1261,North-Central Ju,exact,False,rule:exact,,15,False,False
+no_doubtful_language,Yakut,yaku1245,Sakha,exact,False,rule:exact,,25,True,True
+no_doubtful_language,Yaquis,yaqu1251,Yaqui,exact,False,rule:exact,,8,True,True
+no_doubtful_language,Yemen_Al_Bayda,sana1295,Sanaani Arabic,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Yemen_Al_Jawf,sana1295,Sanaani Arabic,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Yemen_Amanat_Al_Asimah,sana1295,Sanaani Arabic,exact,False,rule:exact,,4,True,True
+no_doubtful_language,Yemen_Amran,sana1295,Sanaani Arabic,exact,False,rule:exact,,17,True,True
+no_doubtful_language,Yemen_Dhamar,sana1295,Sanaani Arabic,exact,False,rule:exact,,10,True,True
+no_doubtful_language,Yemen_Hadramout,hadr1236,Hadrami Arabic,exact,False,rule:exact,,13,False,False
+no_doubtful_language,Yemen_Mahra,mehr1241,Mehri,exact,False,rule:exact,,14,False,False
+no_doubtful_language,Yemen_Marib,sana1295,Sanaani Arabic,exact,False,rule:exact,,7,True,True
+no_doubtful_language,Yemen_Shabwah,hadr1236,Hadrami Arabic,exact,False,rule:exact,,3,False,False
+no_doubtful_language,Yemeni,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,6,False,False
+no_doubtful_language,Yoruba,yoru1245,Yoruba,exact,False,rule:exact,,75,False,False
+no_doubtful_language,Zapotec,sanj1284,Western Tlacolula Valley Zapotec,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,12,True,True
+no_doubtful_language,Zoro,gavi1246,Gavião Do Jiparaná,exact,False,rule:exact,,1,False,False
+no_other_language_stand_ins,Abazin,abaz1241,Abaza,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Abkhasian,abkh1244,Abkhaz,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Adygei,adyg1241,West Circassian,exact,False,rule:exact,,18,False,False
+no_other_language_stand_ins,Adygei_Abadzhekh,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+no_other_language_stand_ins,Adygei_Bzhedug,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+no_other_language_stand_ins,Adygei_Mamkheg,adyg1241,West Circassian,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Adygei_Shapsug_Black_Sea,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+no_other_language_stand_ins,Adygei_Shapsug_Kuban,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,1,False,False
+no_other_language_stand_ins,Afar_WGA,afar1241,Afar,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Ain_Touta_WGA,tach1249,Chaouia of the Aures,exact,False,rule:exact,,3,False,False
+no_other_language_stand_ins,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+no_other_language_stand_ins,Aleut,aleu1260,Aleut,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Aleut_Tlingit,aleu1260,Aleut,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Algerian,alge1239,Algerian Arabic,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Algonquin,algo1255,Algonquin,exact,False,rule:exact,,9,False,False
+no_other_language_stand_ins,Altaian,sout2694,Southern Altai,exact,False,rule:exact,,7,False,False
+no_other_language_stand_ins,Altaian_Chelkans,nort2686,Northern Altai,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+no_other_language_stand_ins,Altaian_Kizhi,nort2686,Northern Altai,dialect_rollup,False,rule:dialect_rollup,,12,False,False
+no_other_language_stand_ins,Altaian_Telengit,sout2694,Southern Altai,dialect_rollup,False,rule:dialect_rollup,,6,False,False
+no_other_language_stand_ins,Ami,amis1246,Amis,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Apalai,apal1257,Apalaí,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Arara,para1310,Pará Arára,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Armenian,nucl1235,Eastern Armenian,exact,False,rule:exact,,11,True,True
+no_other_language_stand_ins,Armenian_Hemsheni,homs1234,Western Armenian,dialect_rollup,False,rule:dialect_rollup,,8,False,False
+no_other_language_stand_ins,Armenian_WGA,nucl1235,Eastern Armenian,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Assyrian,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,11,False,False
+no_other_language_stand_ins,Assyrian_WGA,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Ata_Bili,pele1245,Pele-Ata,exact,False,rule:exact,,1,True,False
+no_other_language_stand_ins,Ata_Luge,pele1245,Pele-Ata,exact,False,rule:exact,,2,True,False
+no_other_language_stand_ins,Ata_Uassilau,pele1245,Pele-Ata,exact,False,rule:exact,,5,True,False
+no_other_language_stand_ins,Atayal,atay1247,Atayal,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Avar_Gunibsky,avar1256,Avar,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Avar_Unchukulsky,avar1256,Avar,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Aymara,sout2996,Southern Aymara,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Azeri_Azerbajan,nort2697,North Azerbaijani,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Azeri_Dagestan,nort2697,North Azerbaijani,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Azeri_WGA,nort2697,North Azerbaijani,exact,False,rule:exact,,2,True,True
+no_other_language_stand_ins,Baining_Malasait,qaqe1238,Qaqet,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,4,True,False
+no_other_language_stand_ins,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+no_other_language_stand_ins,Bajo,indo1317,Indonesian Bajau,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Balkar,kara1465,Karachay-Balkar,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Balochi,east2304,Eastern Balochi,exact,False,rule:exact,,24,False,False
+no_other_language_stand_ins,BantuSA_Herero,here1253,Herero,exact,False,rule:exact,,2,True,True
+no_other_language_stand_ins,BantuSA_Ovambo,ndon1254,Ndonga,exact,False,rule:exact,,1,False,False
+no_other_language_stand_ins,BantuSA_Pedi,pedi1238,Pedi,exact,False,rule:exact,,1,False,False
+no_other_language_stand_ins,BantuSA_S_Sotho,sout2807,Southern Sotho,exact,False,rule:exact,,1,True,True
+no_other_language_stand_ins,BantuSA_Tswana,tswa1253,Tswana,exact,False,rule:exact,,2,True,True
+no_other_language_stand_ins,BantuSA_Zulu,zulu1248,Zulu,exact,False,rule:exact,,1,True,False
+no_other_language_stand_ins,Bashkir_Burzjan_Baimaksky,bash1264,Bashkir,dialect_rollup,False,rule:dialect_rollup,,8,True,True
+no_other_language_stand_ins,Bashkir_IkskoBelsky_Kyrgyz,bash1264,Bashkir,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Bashkir_IkskoBelsky_Uran,bash1264,Bashkir,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Bashkir_Ming_Miyakinsky,bash1264,Bashkir,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Bashkir_North_Tabyn_Balysky,bash1264,Bashkir,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Bashkir_North_Unlar,bash1264,Bashkir,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Bashkir_Tamyan_Kypcak,bash1264,Bashkir,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Bashkir_Yurmaty,bash1264,Bashkir,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+no_other_language_stand_ins,Basque,basq1248,Basque,exact,False,rule:exact,,22,True,True
+no_other_language_stand_ins,BedouinA,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,24,True,True
+no_other_language_stand_ins,BedouinB,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,20,True,True
+no_other_language_stand_ins,Belarusian,bela1254,Belarusian,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Bengali,beng1280,Bengali,exact,False,rule:exact,,7,False,False
+no_other_language_stand_ins,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,,13,True,True
+no_other_language_stand_ins,Besermyan,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,6,False,False
+no_other_language_stand_ins,BiakaPygmy,yaka1272,Yaka (Central African Republic),exact,False,rule:exact,,23,True,True
+no_other_language_stand_ins,Bolivia_Quechua,sout2991,South Bolivian Quechua,exact,False,rule:exact,,2,False,False
+no_other_language_stand_ins,Brahmin_Tiwari,chha1249,Chhattisgarhi,exact,False,rule:exact,,15,False,False
+no_other_language_stand_ins,Brahui,brah1256,Brahui,exact,False,rule:exact,,23,True,True
+no_other_language_stand_ins,Buka,hali1244,Halia,manual,False,person:Alexandru Craevschi,group_choice,5,True,True
+no_other_language_stand_ins,Buka_Petats,peta1245,Petats,exact,False,rule:exact,,3,False,False
+no_other_language_stand_ins,Bulgarian,bulg1262,Bulgarian,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Burbur_WGA,taga1278,Ouargli,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Burmese,nucl1310,Burmese,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Burusho,buru1296,Burushaski,exact,False,rule:exact,,24,True,True
+no_other_language_stand_ins,Buryat_Buryatya_Horinsky_Selenginsky,russ1264,Russia Buriat,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Buryat_Buryatya_Zakamensky,russ1264,Russia Buriat,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Buryat_Irkutskaya,russ1264,Russia Buriat,exact,False,rule:exact,,12,True,True
+no_other_language_stand_ins,Buryat_Zabaikalsky_Aginsky,russ1264,Russia Buriat,exact,False,rule:exact,,12,True,True
+no_other_language_stand_ins,Buryat_Zabaikalsky_Duldurginsky,russ1264,Russia Buriat,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Cabecar,cabe1245,Cabécar,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Cambodian,cent1989,Central Khmer,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Cameroon_Aghem,aghe1239,Aghem,exact,False,rule:exact,,28,True,True
+no_other_language_stand_ins,Cameroon_Bafut,bafu1246,Bafut,exact,False,rule:exact,,11,True,True
+no_other_language_stand_ins,Cameroon_Bakoko,bako1249,Bakoko,exact,False,rule:exact,,1,False,False
+no_other_language_stand_ins,Cameroon_Bangwa,ndan1241,Nda'nda',exact,False,rule:exact,,2,False,False
+no_other_language_stand_ins,Cameroon_Mbo,mboc1235,Mbo (Cameroon),exact,False,rule:exact,,20,True,True
+no_other_language_stand_ins,Canary_Islander,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,2,False,False
+no_other_language_stand_ins,Chane,tere1279,Terena-Kinikinao-Chane,dialect_rollup,False,rule:dialect_rollup,,1,True,True
+no_other_language_stand_ins,Chechen,chec1245,Chechen,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Chilote,huil1244,Huilliche,exact,False,rule:exact,endangered,4,False,False
+no_other_language_stand_ins,Chipewyan,chip1261,Chipewyan,exact,False,rule:exact,,26,True,True
+no_other_language_stand_ins,Chukchi,chuk1273,Chukchi,exact,False,rule:exact,,15,True,True
+no_other_language_stand_ins,Chukchi_Ayon,chuk1273,Chukchi,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Chuvash,chuv1255,Chuvash,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Chuvash_Tatarstan,chuv1255,Chuvash,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Circassian,kaba1278,Kabardian,group_map_down,False,rule:group_map_down,,9,True,True
+no_other_language_stand_ins,Cocama,coca1259,Cocama-Cocamilla,dialect_rollup,False,rule:dialect_rollup,endangered,7,True,True
+no_other_language_stand_ins,Cofan,cofa1242,Cofán,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Cree,plai1258,Plains Cree,proxy_gbi_tli,True,rule:graff_gbi_stand_in,endangered;stand_in_no_own_language,12,True,True
+no_other_language_stand_ins,Croatian,sout1528,Serbian-Croatian-Bosnian,dialect_rollup,False,rule:dialect_rollup,,10,True,True
+no_other_language_stand_ins,Cusco,cusc1236,Cusco Quechua,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Cusco2,cusc1236,Cusco Quechua,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Cypriot,cypr1248,Cypriot Arabic,exact,False,person:Alexandru Craevschi,wrong_code,8,True,True
+no_other_language_stand_ins,Czech,czec1258,Czech,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Dai,luuu1242,Lü,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Damara,nama1264,Nama (Namibia),exact,False,rule:exact,,13,True,False
+no_other_language_stand_ins,Darginian,darg1241,North-Central Dargwa,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Datog,dato1239,Barabayiiga-Gisamjanga,exact,False,rule:exact,,3,False,False
+no_other_language_stand_ins,Daur,daur1238,Dagur,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Dolgan,dolg1241,Dolgan,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Druze,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,42,True,True
+no_other_language_stand_ins,Dungan,dung1253,Dungan,exact,False,rule:exact,,13,False,False
+no_other_language_stand_ins,Dusun,brun1245,Brunei Bisaya-Dusun,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Egyptian,egyp1253,Egyptian Arabic,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Egyptian1,egyp1253,Egyptian Arabic,exact,False,rule:exact,,11,True,True
+no_other_language_stand_ins,Egyptian2,egyp1253,Egyptian Arabic,exact,False,person:Alexandru Craevschi,diaspora,7,True,True
+no_other_language_stand_ins,Enets,tund1254,Tundra Enets,exact,False,rule:exact,endangered,3,False,False
+no_other_language_stand_ins,English_Cornwall,stan1293,English,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,English_Kent,stan1293,English,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Esan,esan1238,Esan,exact,False,rule:exact,,2,True,False
+no_other_language_stand_ins,Eskimo_ChaplinSireniki,cent2128,Central Siberian Yupik,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Eskimo_Naukan,nauk1242,Naukan Yupik,exact,False,rule:exact,,15,False,False
+no_other_language_stand_ins,Eskimo_Sireniki,sire1246,Old Sirenik,exact,False,rule:exact,endangered,6,False,False
+no_other_language_stand_ins,Estonian,esto1258,Estonian,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Even,even1260,Even,exact,False,rule:exact,endangered,9,True,True
+no_other_language_stand_ins,Evenk_FarEast,even1259,Evenki,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Evenk_Transbaikal,even1259,Evenki,exact,False,rule:exact,,11,True,True
+no_other_language_stand_ins,Ezid,nort2641,Northern Kurdish,exact,False,rule:exact,,7,False,False
+no_other_language_stand_ins,Finnish,finn1318,Finnish,exact,False,person:Alexandru Craevschi,,8,True,True
+no_other_language_stand_ins,French_Central,stan1290,French,exact,False,person:Alexandru Craevschi,,26,True,True
+no_other_language_stand_ins,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+no_other_language_stand_ins,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+no_other_language_stand_ins,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,,7,True,True
+no_other_language_stand_ins,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+no_other_language_stand_ins,Gagauz,gaga1249,Gagauz,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Gambian,mand1436,Mandinka,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Gana,gana1274,//Gana,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Georgian,nucl1302,Georgian,exact,False,rule:exact,,12,True,True
+no_other_language_stand_ins,Georgian_Imeretins,nucl1302,Georgian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_other_language_stand_ins,Georgian_Laz,lazz1240,Laz,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,German_Lipsian,stan1295,German,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+no_other_language_stand_ins,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,14,True,True
+no_other_language_stand_ins,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,18,True,True
+no_other_language_stand_ins,Guarani,mbya1239,Mbyá Guaraní,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Guarani_GN,mbya1239,Mbyá Guaraní,exact,False,person:Alexandru Craevschi,wrong_code,7,True,True
+no_other_language_stand_ins,Guarani_KW,mbya1239,Mbyá Guaraní,exact,False,person:Alexandru Craevschi,wrong_code,9,True,True
+no_other_language_stand_ins,Gui,gwii1239,/Gwi,exact,False,rule:exact,,11,False,False
+no_other_language_stand_ins,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,GujaratiD,guja1252,Gujarati,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Hadza,hadz1240,Hadza,exact,False,rule:exact,,20,True,True
+no_other_language_stand_ins,Hadza1,hadz1240,Hadza,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Haiom,haio1238,Hai//om-Akhoe,exact,False,rule:exact,,9,True,False
+no_other_language_stand_ins,Hakka_Taiwan,hakk1236,Hakka Chinese,dialect_rollup,False,rule:dialect_rollup,,8,True,True
+no_other_language_stand_ins,Han-NChina,mand1415,Mandarin Chinese,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Han_HGDP,mand1415,Mandarin Chinese,exact,False,rule:exact,,33,True,True
+no_other_language_stand_ins,Hazara,haza1239,Hazaragi,exact,False,rule:exact,,22,False,False
+no_other_language_stand_ins,Hezhen,nana1257,Nanai,exact,False,rule:exact,endangered,9,True,True
+no_other_language_stand_ins,Himba,here1253,Herero,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Hoan,hoaa1235,Amkoe,exact,False,rule:exact,endangered,6,True,True
+no_other_language_stand_ins,Huancas,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Hungarian1,hung1274,Hungarian,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Hungarian2,hung1274,Hungarian,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Icelandic,icel1247,Icelandic,exact,False,rule:exact,,12,True,True
+no_other_language_stand_ins,Ilocano,ilok1237,Iloko,exact,False,rule:exact,,2,True,False
+no_other_language_stand_ins,Inga,inga1252,Colombian Inga,exact,False,rule:exact,,15,True,False
+no_other_language_stand_ins,Ingushian,ingu1240,Ingush,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Iran_Non-Zoroastrian_Fars,west2369,Western Farsi,exact,False,rule:exact,,17,True,True
+no_other_language_stand_ins,Iran_Zoroastrian,zoro1242,Zoroastrian Yazdi,exact,False,rule:exact,,28,False,False
+no_other_language_stand_ins,Iranian_Bandari,west2369,Western Farsi,group_map_down,False,rule:group_map_down,,8,True,True
+no_other_language_stand_ins,Iranian_Mazandarani,maza1291,Mazanderani,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Iranian_Persian,west2369,Western Farsi,group_map_down,False,rule:group_map_down,,10,True,True
+no_other_language_stand_ins,Irish_Connacht,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_other_language_stand_ins,Irish_Cork_Kerry,iris1253,Irish,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Irish_Leinster,iris1253,Irish,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Irish_Munster,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_other_language_stand_ins,Irish_Ulster,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_other_language_stand_ins,Italian_Calabria,neap1235,Continental Southern Italian,exact,False,rule:exact,,1,False,False
+no_other_language_stand_ins,Italian_South,neap1235,Continental Southern Italian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+no_other_language_stand_ins,Itelmen,itel1242,West Itelmen,exact,False,rule:exact,endangered,7,False,False
+no_other_language_stand_ins,Japanese,nucl1643,Japanese,group_map_down,False,rule:group_map_down,,30,True,True
+no_other_language_stand_ins,Jew_Cochin,mala1464,Malayalam,dialect_rollup,False,person:Alexandru Craevschi,diaspora,5,True,True
+no_other_language_stand_ins,Jew_Ethiopian,amha1245,Amharic,exact,False,person:Alexandru Craevschi,diaspora,7,True,True
+no_other_language_stand_ins,Jew_Georgian,nucl1302,Georgian,dialect_rollup,False,person:Alexandru Craevschi,diaspora,9,True,True
+no_other_language_stand_ins,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,,9,False,False
+no_other_language_stand_ins,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,,9,False,False
+no_other_language_stand_ins,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,,7,False,False
+no_other_language_stand_ins,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+no_other_language_stand_ins,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,,9,False,False
+no_other_language_stand_ins,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Jordanian,nort3139,Levantine Arabic,dialect_rollup,False,person:Alexandru Craevschi,diaspora,10,True,True
+no_other_language_stand_ins,Ju_hoan_North,juho1239,South-Eastern Ju,exact,False,rule:exact,,16,True,False
+no_other_language_stand_ins,Ju_hoan_South,juho1239,South-Eastern Ju,exact,False,rule:exact,,9,True,False
+no_other_language_stand_ins,Kabardinian,kaba1278,Kabardian,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Kaitag,darg1241,North-Central Dargwa,exact,False,person:Alexandru Craevschi,wrong_code,8,True,True
+no_other_language_stand_ins,Kalash,kala1372,Chitral Kalasha,exact,False,rule:exact,,19,False,False
+no_other_language_stand_ins,Kalmyk,kalm1243,Oirad-Kalmyk-Darkhat,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Kamentsa,cams1241,Camsá,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Kankanaey,kank1243,Kankanaey,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Kaqchikel,kaqc1270,Kaqchikel,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Karachai,kara1465,Karachay-Balkar,dialect_rollup,False,rule:dialect_rollup,,11,False,False
+no_other_language_stand_ins,Karakalpak,kara1467,Kara-Kalpak,exact,False,rule:exact,,14,False,False
+no_other_language_stand_ins,Karelian_Northern,kare1335,Karelian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_other_language_stand_ins,Karelian_Southern,kare1335,Karelian,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+no_other_language_stand_ins,Karitiana,kari1311,Karitiâna,exact,False,rule:exact,,13,True,True
+no_other_language_stand_ins,Karitiana_Rondonia,kari1311,Karitiâna,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Kazakhs_Akmola_Argyn,kaza1248,Kazakh,exact,False,rule:exact,,3,False,False
+no_other_language_stand_ins,Kazakhs_Aktyubinsk,kaza1248,Kazakh,exact,False,rule:exact,,2,False,False
+no_other_language_stand_ins,Kazakhs_East_Kazakhstan_Naiman,kaza1248,Kazakh,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Kazakhs_Omsk_Kypchak,kaza1248,Kazakh,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Kazakhs_West_Kazakhstan_Bayuli,kaza1248,Kazakh,exact,False,rule:exact,,1,False,False
+no_other_language_stand_ins,Ket,kett1243,Ket,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Ket_Southeast,kett1243,Ket,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Kgalagadi,kgal1244,Kgalagadi,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Khakass_Kachins,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+no_other_language_stand_ins,Khakass_Koibals,khak1248,Khakas,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Khakass_Kyzils,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+no_other_language_stand_ins,Khakass_Sagai,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+no_other_language_stand_ins,Khamnegan,kham1281,Khamnigan Mongol,exact,False,rule:exact,endangered,10,False,False
+no_other_language_stand_ins,Kharia,khar1287,Kharia,exact,False,rule:exact,,12,True,True
+no_other_language_stand_ins,Khwe,kxoe1243,Kxoe,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,KichwaOrellana,tena1240,Tena Lowland Quichua,exact,False,rule:exact,,17,False,False
+no_other_language_stand_ins,Kikuyu,kiku1240,Kikuyu,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Kinh,viet1252,Vietnamese,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Kirghiz_Pamir,kirg1245,Kirghiz,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Kol_New_Britain,kolp1236,Kol (Papua New Guinea),exact,False,rule:exact,,2,True,False
+no_other_language_stand_ins,Kolombangara,duke1237,Duke,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Korean,kore1280,Korean,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Koryak,kory1246,Koryak,exact,False,rule:exact,,9,False,False
+no_other_language_stand_ins,Kove,kove1237,Kove,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Kove_Tamuniai,kove1237,Kove,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Kubachinian,kuba1248,Kubachi,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Kumyk,kumy1244,Kumyk,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Kuot_Kabil,kuot1243,Kuot,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Kuot_Lamalaua,kuot1243,Kuot,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Kurd,nort2641,Northern Kurdish,exact,False,rule:exact,,9,False,False
+no_other_language_stand_ins,Kurd_WGA,nort2641,Northern Kurdish,exact,False,rule:exact,,2,False,False
+no_other_language_stand_ins,Kusunda,kusu1250,Kusunda,exact,False,rule:exact,endangered,5,True,True
+no_other_language_stand_ins,Kyrgyz,kirg1245,Kirghiz,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,LaJalca,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
+no_other_language_stand_ins,Lahu,lahu1253,Lahu,exact,False,rule:exact,,27,True,True
+no_other_language_stand_ins,Lak,lakk1252,Lak,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Lebanese,nort3139,Levantine Arabic,exact,False,person:Alexandru Craevschi,diaspora,8,True,True
+no_other_language_stand_ins,Lebanese_Christian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+no_other_language_stand_ins,Lebanese_Muslim,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,11,True,True
+no_other_language_stand_ins,Lebbo,waha1238,Eastern Lowland Kenyah,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Lezgin,lezg1247,Lezgian,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Libyan,liby1240,Libyan Arabic,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Lithuanian,lith1251,Lithuanian,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Lodhi,bund1253,Bundeli,exact,False,rule:exact,,13,True,True
+no_other_language_stand_ins,Luo,luok1236,Luo (Kenya and Tanzania),exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Luya,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
+no_other_language_stand_ins,Madak,mada1285,Madak,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Makrani,sout2642,Southern Balochi,dialect_rollup,False,rule:dialect_rollup,,25,False,False
+no_other_language_stand_ins,Mala,telu1262,Telugu,exact,False,rule:exact,,16,True,True
+no_other_language_stand_ins,Malawi_Chewa,nyan1308,Nyanja,exact,False,rule:exact,,11,False,False
+no_other_language_stand_ins,Malawi_Ngoni,tanz1241,Tanzanian Ngoni,group_map_down,False,rule:group_map_down,,4,True,True
+no_other_language_stand_ins,Malawi_Tumbuka,tumb1250,Tumbuka,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Malawi_Yao,yaoo1241,Yao,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Malay,mala1479,Central Malay,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+no_other_language_stand_ins,Maltese,malt1254,Maltese,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Mamanwa,mama1275,Minamanwa,exact,False,rule:exact,,13,True,True
+no_other_language_stand_ins,Mamanwa1,mama1275,Minamanwa,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Mamusi_Kisiluvi,mamu1254,Mamusi,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Mamusi_Lingite,mamu1254,Mamusi,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Mamusi_Paleabu,mamu1254,Mamusi,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Mandenka,mand1436,Mandinka,exact,False,rule:exact,,18,True,True
+no_other_language_stand_ins,Mangseng,mang1403,Mangseng,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Mansi,sout3253,Southern Mansi,exact,False,rule:exact,endangered,9,False,False
+no_other_language_stand_ins,Manus,loni1238,Loniu,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,2,True,True
+no_other_language_stand_ins,Masai1,masa1300,Masai,exact,False,rule:exact,,2,True,True
+no_other_language_stand_ins,Masai_Kinyawa_MKK,masa1300,Masai,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Maya,yuca1254,Yucatec Maya,exact,False,rule:exact,,21,True,True
+no_other_language_stand_ins,Mbukushu,mbuk1240,Mbukushu,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,MbutiPygmy,lese1243,Lese,exact,False,rule:exact,,11,True,True
+no_other_language_stand_ins,Melamela,mera1242,Meramera,exact,False,rule:exact,,10,True,False
+no_other_language_stand_ins,Mende,mend1266,Mende (Sierra Leone),exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Mengen,meng1267,Mengen,exact,False,rule:exact,,10,True,False
+no_other_language_stand_ins,Miao,hmon1333,Hmong Daw,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Mixe,olut1240,Oluta Popoluca,group_map_down,False,rule:group_map_down,endangered,10,True,True
+no_other_language_stand_ins,Mixtec,sant1436,Santa María Zacatepec Mixtec,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,12,True,True
+no_other_language_stand_ins,Moldavian,roma1327,Romanian,dialect_rollup,False,rule:dialect_rollup,,10,False,False
+no_other_language_stand_ins,Mongol_Khalkh_Sainnoyon,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+no_other_language_stand_ins,Mongol_Khalkh_Zasagt,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,7,True,True
+no_other_language_stand_ins,Mongol_Minorities,halh1238,Halh Mongolian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+no_other_language_stand_ins,Mongol_Uuld,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+no_other_language_stand_ins,Mongola,peri1253,Peripheral Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+no_other_language_stand_ins,Mordovian,erzy1239,Erzya,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Mordovian_Erzya,erzy1239,Erzya,exact,False,rule:exact,,12,True,True
+no_other_language_stand_ins,Mordovian_Moksha,moks1248,Moksha,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Moroccan,moro1292,Moroccan Arabic,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Mozabite,tumz1238,Tumzabt,exact,False,rule:exact,,25,False,False
+no_other_language_stand_ins,Murut,timu1262,Timugon Murut,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+no_other_language_stand_ins,Mussau,muss1246,Mussau-Emira,exact,False,rule:exact,,10,True,False
+no_other_language_stand_ins,Nakanai_Bileki,naka1262,Nakanai,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+no_other_language_stand_ins,Nakanai_Loso,naka1262,Nakanai,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+no_other_language_stand_ins,Nama,nama1264,Nama (Namibia),exact,False,rule:exact,,18,True,False
+no_other_language_stand_ins,Nanai,nana1257,Nanai,exact,False,rule:exact,endangered,10,True,True
+no_other_language_stand_ins,Naro,naro1249,Naro,exact,False,rule:exact,,9,False,False
+no_other_language_stand_ins,Nasioi,naas1242,Naasioi,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+no_other_language_stand_ins,Naxi,naxi1245,Naxi,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Negidal_Orochi,negi1245,Negidal,exact,False,rule:exact,endangered,4,True,True
+no_other_language_stand_ins,Nganasan,ngan1291,Nganasan,exact,False,rule:exact,endangered,12,True,True
+no_other_language_stand_ins,Nganasan_Dudinka,ngan1291,Nganasan,exact,False,rule:exact,endangered,2,True,True
+no_other_language_stand_ins,Nganasan_UstAvam,ngan1291,Nganasan,exact,False,rule:exact,endangered,6,True,True
+no_other_language_stand_ins,Nganasan_Volochanka,ngan1291,Nganasan,exact,False,rule:exact,endangered,11,True,True
+no_other_language_stand_ins,Nggela,gela1263,Gela,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Nivh,gily1242,Amur Nivkh,exact,False,rule:exact,endangered,8,True,True
+no_other_language_stand_ins,Nogai,noga1249,Nogai,exact,False,rule:exact,,9,False,False
+no_other_language_stand_ins,Nogai_Astrakhan,noga1249,Nogai,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Nogai_Stavropol,noga1249,Nogai,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Norwegian,norw1258,Norwegian,exact,False,rule:exact,,11,False,False
+no_other_language_stand_ins,Notsi,nots1237,Notsi,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Ojibwa,nort2961,Northwestern Ojibwa,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,16,True,True
+no_other_language_stand_ins,Onge,onge1236,Önge,exact,False,rule:exact,,10,True,False
+no_other_language_stand_ins,Ontong_Java,onto1237,Luangiua,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Orcadian,scot1243,Scots,exact,False,rule:exact,,13,False,False
+no_other_language_stand_ins,Oromo,west2721,West Central Oromo,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Oroqen,oroq1238,Oroqen,exact,False,rule:exact,endangered,9,False,False
+no_other_language_stand_ins,Ossetian,iron1242,Iron Ossetian,group_map_down,False,rule:group_map_down,,10,True,True
+no_other_language_stand_ins,Ossetian_Southern,iron1242,Iron Ossetian,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Palestinian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,41,True,True
+no_other_language_stand_ins,Pathan,sout2649,Southern Pashto,group_map_down,False,rule:group_map_down,,24,True,True
+no_other_language_stand_ins,Peru_Quechua,cusc1236,Cusco Quechua,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Piapoco,piap1246,Piapoco,exact,False,rule:exact,,5,True,False
+no_other_language_stand_ins,Pima,pima1248,Pima Bajo,exact,False,rule:exact,,14,True,True
+no_other_language_stand_ins,Polish_Lublin,poli1260,Polish,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Polish_Poznan,poli1260,Polish,exact,False,rule:exact,,15,True,True
+no_other_language_stand_ins,Punjabi,panj1256,Eastern Panjabi,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Puno,puno1238,Puno Quechua,exact,False,rule:exact,,7,False,False
+no_other_language_stand_ins,Ranongga,ghan1242,Ghanongga,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Rennell_and_Bellona,renn1242,Rennell-Bellona,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Romanian,roma1327,Romanian,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Russell,lavu1241,Lavukaleve,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Russian,russ1263,Russian,exact,False,rule:exact,,23,True,True
+no_other_language_stand_ins,Russian_Archangelsk_Krasnoborsky,russ1263,Russian,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Russian_Archangelsk_Leshukonsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Russian_Archangelsk_Pinezhsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Russian_Belgorod,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Russian_Kaluga,russ1263,Russian,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Russian_Kursk,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Russian_Oryol,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Russian_Pskov_Ostrov,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Russian_Pskov_Porkhov,russ1263,Russian,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Russian_Ryazan_Mihailovsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Russian_Ryazan_Spassk_Ryazansky,russ1263,Russian,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Russian_Smolensk,russ1263,Russian,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Russian_Tver,russ1263,Russian,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Russian_Yaroslavl,russ1263,Russian,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Saami,nort2671,North Saami,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Saharawi,hass1238,Hassaniyya,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,San,juho1239,South-Eastern Ju,exact,False,rule:exact,,5,True,False
+no_other_language_stand_ins,Sandawe,sand1273,Sandawe,exact,False,rule:exact,,23,True,True
+no_other_language_stand_ins,Santa_Cruz,natu1246,Natügu,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+no_other_language_stand_ins,Saposa,sapo1253,Saposa,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Sardinian,camp1261,Campidanese Sardinian,group_map_down,False,rule:group_map_down,,28,True,True
+no_other_language_stand_ins,Saudi,hija1235,Hijazi Arabic,exact,False,person:Alexandru Craevschi,diaspora,10,False,False
+no_other_language_stand_ins,Savo,savo1255,Savosavo,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Scottish,scot1245,Scottish Gaelic,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Scottish_Borders,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Scottish_Dumfries_Galloway,scot1245,Scottish Gaelic,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Scottish_Fife,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Scottish_Grampian,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Scottish_Highlands,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Scottish_Shetlandic,scot1245,Scottish Gaelic,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Selkup,selk1253,Selkup,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Selkup_Farkovo,selk1253,Selkup,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Selkup_Turukhansk,selk1253,Selkup,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Semende,cent2053,South Barisan Malay,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Shaigi_WGA,suda1236,Sudanese Arabic,exact,False,rule:exact,,3,False,False
+no_other_language_stand_ins,She,shee1238,She,exact,False,rule:exact,endangered,9,True,True
+no_other_language_stand_ins,Shor_Khakassia,shor1247,Mrassu Shor-Tutal,exact,False,rule:exact,endangered,5,True,True
+no_other_language_stand_ins,Shor_Mountain,shor1247,Mrassu Shor-Tutal,exact,False,rule:exact,endangered,7,True,True
+no_other_language_stand_ins,Shua,shua1254,Shua,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Sicilian_East,sici1248,Sicilian,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Sicilian_West,sici1248,Sicilian,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Sindhi,sind1272,Sindhi,exact,False,rule:exact,,24,False,False
+no_other_language_stand_ins,Somali,soma1255,Somali,exact,False,rule:exact,,13,True,True
+no_other_language_stand_ins,Spanish_Andalucia,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+no_other_language_stand_ins,Spanish_Aragon,arag1245,Aragonese,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Spanish_Balearic,stan1288,Spanish,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Spanish_Basque,basq1248,Basque,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Spanish_Cantabria,astu1245,Asturian-Leonese-Cantabrian,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Spanish_CastillaLaMancha,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_other_language_stand_ins,Spanish_CastillaLeon,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_other_language_stand_ins,Spanish_Cataluna,stan1289,Catalan,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Spanish_Extremadura,extr1243,Extremaduran,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Spanish_Galicia,gali1258,Galician,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Spanish_Murcia,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_other_language_stand_ins,Spanish_PaisVasco,basq1248,Basque,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Spanish_Valencia,stan1289,Catalan,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Sulka_Ganai,sulk1246,Sulka,exact,False,rule:exact,,10,True,False
+no_other_language_stand_ins,Sulka_Watwat,sulk1246,Sulka,exact,False,rule:exact,,9,True,False
+no_other_language_stand_ins,Surui,suru1262,Suruí,exact,False,rule:exact,,12,True,False
+no_other_language_stand_ins,Syrian,turo1239,Turoyo,exact,False,person:Alexandru Craevschi,diaspora,8,False,False
+no_other_language_stand_ins,Taa_East,huaa1248,East Taa,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Taa_North,xooo1239,West !Xoon,exact,False,rule:exact,,11,False,False
+no_other_language_stand_ins,Taa_West,xooo1239,West !Xoon,exact,False,rule:exact,,15,False,False
+no_other_language_stand_ins,Tabasaran,taba1259,Tabasaran,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Tagalog,taga1270,Tagalog,exact,False,rule:exact,,5,True,False
+no_other_language_stand_ins,Tahiti,tahi1242,Tahitian,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,TaiwanHan,mand1415,Mandarin Chinese,dialect_rollup,False,rule:dialect_rollup,,10,True,True
+no_other_language_stand_ins,Tajik,taji1245,Tajik,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Tajik_Lowland_Gissar,taji1245,Tajik,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+no_other_language_stand_ins,Tajik_Lowland_Kulyab,taji1245,Tajik,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+no_other_language_stand_ins,Tajik_Mountain,taji1245,Tajik,exact,False,rule:exact,,12,False,False
+no_other_language_stand_ins,Tatar_Kazan,tata1255,Tatar,exact,False,rule:exact,,13,True,True
+no_other_language_stand_ins,Tatar_Mishar,tata1255,Tatar,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Tatar_Siberian_Buhar,sibe1250,Siberian Tatar,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Tatar_Siberian_Ishtyak_Toguz,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Tatar_Siberian_Iskero_Tobolsk,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Tatar_Siberian_Yalutorovsky,sibe1250,Siberian Tatar,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Tatar_Siberian_Zabolotniye,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Teop,teop1238,Teop,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Thai,thai1261,Thai,exact,False,rule:exact,,8,True,False
+no_other_language_stand_ins,Ticuna,ticu1245,Ticuna,exact,False,rule:exact,,1,True,True
+no_other_language_stand_ins,Tigak,tiga1245,Tigak,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Tikopia,tiko1237,Tikopia,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Todzin,tuvi1240,Tuvinian,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Tofalar,kara1462,Taiga Sayan Turkic,exact,False,rule:exact,endangered,10,False,False
+no_other_language_stand_ins,Tolai,kuan1248,Kuanua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+no_other_language_stand_ins,Tolai_Kabakada,kuan1248,Kuanua,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+no_other_language_stand_ins,Tolai_Matupit,kuan1248,Kuanua,dialect_rollup,False,rule:dialect_rollup,,2,True,True
+no_other_language_stand_ins,Tolai_Vunairoto,kuan1248,Kuanua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,2,True,True
+no_other_language_stand_ins,Tongan,tong1325,Tonga (Tonga Islands),exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Tshwa,tsoa1238,Northern Tshwa,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Tswana,tswa1253,Tswana,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Tu,minh1238,Mangghuer,group_map_down,False,rule:group_map_down,,10,True,True
+no_other_language_stand_ins,Tubalar,kara1462,Taiga Sayan Turkic,exact,False,rule:exact,endangered,30,False,False
+no_other_language_stand_ins,Tubalar_2,nort2686,Northern Altai,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Tujia,nort2732,Northern Tujia,group_map_down,False,rule:group_map_down,endangered,10,True,True
+no_other_language_stand_ins,Tunisian,tuni1259,Tunisian Arabic,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Turkish_Adana,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Turkish_Aydin,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Turkish_Balikesir,nucl1301,Turkish,exact,False,rule:exact,,11,True,True
+no_other_language_stand_ins,Turkish_Istanbul,nucl1301,Turkish,exact,False,rule:exact,,11,True,True
+no_other_language_stand_ins,Turkish_Kayseri,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Turkish_Trabzon,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Turkmen,turk1304,Turkmen,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Tuscan,ital1282,Italian,exact,False,person:Alexandru Craevschi,,8,True,True
+no_other_language_stand_ins,Tuvinian,tuvi1240,Tuvinian,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Tuvinian_2,tuvi1240,Tuvinian,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Udmurt_Northern,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_other_language_stand_ins,Udmurt_Southern,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+no_other_language_stand_ins,Ukrainian_East,ukra1253,Ukrainian,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Ukrainian_Rovenskaya,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Ukrainian_Sumskaya,ukra1253,Ukrainian,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Ukrainian_West,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Ukrainian_Zhitomirskaya,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Ulchi,ulch1241,Ulch,exact,False,rule:exact,endangered,32,True,True
+no_other_language_stand_ins,UrubuKaapor,urub1250,Urubú-Kaapor,exact,False,rule:exact,,3,False,False
+no_other_language_stand_ins,UtcubambaSouth,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Uygur,uigh1240,Uighur,exact,False,rule:exact,,10,False,False
+no_other_language_stand_ins,Uzbek,nort2690,Northern Uzbek,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Uzbek_Khorezm,nort2690,Northern Uzbek,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Uzbek_Tashkent,nort2690,Northern Uzbek,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Vanuatu_Ambrym,nort2839,North Ambrym,manual,False,person:Alexandru Craevschi,group_choice,6,True,True
+no_other_language_stand_ins,Vanuatu_Aneityum,anei1239,Aneityum,exact,False,rule:exact,,6,True,True
+no_other_language_stand_ins,Vanuatu_Aoba,east2443,East Ambae,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Vanuatu_Banks,motl1237,Mwotlap,manual,False,person:Alexandru Craevschi,group_choice,7,True,True
+no_other_language_stand_ins,Vanuatu_Efate,sout2856,Nafsan,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+no_other_language_stand_ins,Vanuatu_Efate_Mele,mele1250,Mele-Fila,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Vanuatu_Emae,emae1237,Emae,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Vanuatu_Erromango,siee1239,Sie,exact,False,rule:exact,,2,True,True
+no_other_language_stand_ins,Vanuatu_Futuna,futu1245,Futuna-Aniwa,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Vanuatu_Ifira,mele1250,Mele-Fila,dialect_rollup,False,rule:dialect_rollup,,1,True,True
+no_other_language_stand_ins,Vanuatu_Maewo,cent2058,Central Maewo,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Vanuatu_Makura,nama1268,Namakura,dialect_rollup,False,rule:dialect_rollup,,5,True,True
+no_other_language_stand_ins,Vanuatu_Nguna,nort2836,North Efate,dialect_rollup,False,rule:dialect_rollup,,3,True,True
+no_other_language_stand_ins,Vanuatu_Paama,paam1238,Paama,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Vanuatu_Pentecost_Baie,saaa1241,Sa,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Vanuatu_Pentecost_Bwatnapni,apma1240,Apma,dialect_rollup,False,rule:dialect_rollup,,3,True,True
+no_other_language_stand_ins,Vanuatu_Pentecost_Maram,apma1240,Apma,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+no_other_language_stand_ins,Vanuatu_Pentecost_Ranmawat,sowa1244,Sowa,exact,False,rule:exact,endangered,5,False,False
+no_other_language_stand_ins,Vanuatu_Santo_Mbauk,polo1242,Polonombauk,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Vanuatu_Santo_Morou,moro1286,Ande,exact,False,rule:exact,,3,False,False
+no_other_language_stand_ins,Vanuatu_Santo_Port,saka1289,Wanohe,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Vanuatu_Santo_Rango,nara1263,Narango,exact,False,rule:exact,,4,False,False
+no_other_language_stand_ins,Vanuatu_Santo_Sara,hano1246,Hano,exact,False,rule:exact,,3,True,True
+no_other_language_stand_ins,Vanuatu_Santo_Tasiriki,akei1237,Akei,exact,False,rule:exact,,2,True,True
+no_other_language_stand_ins,Vanuatu_Santo_Tutuba,tutu1241,Tutuba,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Vanuatu_Tanna,lena1238,Lenakel,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+no_other_language_stand_ins,Vanuatu_Tongoa,nama1268,Namakura,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+no_other_language_stand_ins,Vella_Lavella,bilu1245,Bilua,exact,False,rule:exact,,6,True,False
+no_other_language_stand_ins,Veps,veps1250,Veps,exact,False,rule:exact,endangered,10,True,True
+no_other_language_stand_ins,Vietnamese_North,viet1252,Vietnamese,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Vietnamese_South,viet1252,Vietnamese,exact,False,rule:exact,,5,True,True
+no_other_language_stand_ins,Visayan,cebu1242,Cebuano,dialect_rollup,False,rule:dialect_rollup,,4,True,False
+no_other_language_stand_ins,Vishwabrahmin,vish1243,Vishavan,exact,False,rule:exact,,14,False,False
+no_other_language_stand_ins,Wambo,ndon1254,Ndonga,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,Wayku,sanm1289,San Martín Quechua,exact,False,rule:exact,endangered,10,True,True
+no_other_language_stand_ins,Wayuu,wayu1243,Wayuu,exact,False,rule:exact,,1,True,True
+no_other_language_stand_ins,Xavante,xava1240,Xavánte,exact,False,rule:exact,,9,True,True
+no_other_language_stand_ins,Xibo,xibe1242,Xibe,exact,False,rule:exact,,9,False,False
+no_other_language_stand_ins,Xuun,kung1261,North-Central Ju,exact,False,rule:exact,,15,False,False
+no_other_language_stand_ins,Yakut,yaku1245,Sakha,exact,False,rule:exact,,25,True,True
+no_other_language_stand_ins,Yaquis,yaqu1251,Yaqui,exact,False,rule:exact,,8,True,True
+no_other_language_stand_ins,Yemen_Ad_Dali,sana1295,Sanaani Arabic,exact,False,person:Alexandru Craevschi,wrong_code,5,True,True
+no_other_language_stand_ins,Yemen_Al_Bayda,sana1295,Sanaani Arabic,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Yemen_Al_Jawf,sana1295,Sanaani Arabic,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Yemen_Amanat_Al_Asimah,sana1295,Sanaani Arabic,exact,False,rule:exact,,4,True,True
+no_other_language_stand_ins,Yemen_Amran,sana1295,Sanaani Arabic,exact,False,rule:exact,,17,True,True
+no_other_language_stand_ins,Yemen_Dhamar,sana1295,Sanaani Arabic,exact,False,rule:exact,,10,True,True
+no_other_language_stand_ins,Yemen_Hadramout,hadr1236,Hadrami Arabic,exact,False,rule:exact,,13,False,False
+no_other_language_stand_ins,Yemen_Ibb,sana1295,Sanaani Arabic,exact,False,person:Alexandru Craevschi,wrong_code,2,True,True
+no_other_language_stand_ins,Yemen_Mahra,mehr1241,Mehri,exact,False,rule:exact,,14,False,False
+no_other_language_stand_ins,Yemen_Marib,sana1295,Sanaani Arabic,exact,False,rule:exact,,7,True,True
+no_other_language_stand_ins,Yemen_Shabwah,hadr1236,Hadrami Arabic,exact,False,rule:exact,,3,False,False
+no_other_language_stand_ins,Yemeni,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,6,False,False
+no_other_language_stand_ins,Yi,sich1238,Sichuan Yi,manual,False,person:Alexandru Craevschi,group_choice,10,True,True
+no_other_language_stand_ins,Yoruba,yoru1245,Yoruba,exact,False,rule:exact,,75,False,False
+no_other_language_stand_ins,Yukagir_Forest,sout2750,Southern Yukaghir,manual,False,person:Alexandru Craevschi,endangered;wrong_code,5,False,False
+no_other_language_stand_ins,Yukagir_Tundra,nort2745,Northern Yukaghir,manual,False,person:Alexandru Craevschi,endangered;wrong_code,19,True,True
+no_other_language_stand_ins,Zapotec,sanj1284,Western Tlacolula Valley Zapotec,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,12,True,True
+no_other_language_stand_ins,Zoro,gavi1246,Gavião Do Jiparaná,exact,False,rule:exact,,1,False,False
+strict,Abazin,abaz1241,Abaza,exact,False,rule:exact,,10,False,False
+strict,Abkhasian,abkh1244,Abkhaz,exact,False,rule:exact,,9,True,True
+strict,Adygei,adyg1241,West Circassian,exact,False,rule:exact,,18,False,False
+strict,Adygei_Abadzhekh,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+strict,Adygei_Bzhedug,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+strict,Adygei_Mamkheg,adyg1241,West Circassian,exact,False,rule:exact,,4,False,False
+strict,Adygei_Shapsug_Black_Sea,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+strict,Adygei_Shapsug_Kuban,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,1,False,False
+strict,Afar_WGA,afar1241,Afar,exact,False,rule:exact,,5,True,True
+strict,Ain_Touta_WGA,tach1249,Chaouia of the Aures,exact,False,rule:exact,,3,False,False
+strict,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+strict,Aleut,aleu1260,Aleut,exact,False,rule:exact,,6,True,True
+strict,Aleut_Tlingit,aleu1260,Aleut,exact,False,rule:exact,,4,True,True
+strict,Algerian,alge1239,Algerian Arabic,exact,False,rule:exact,,5,False,False
+strict,Algonquin,algo1255,Algonquin,exact,False,rule:exact,,9,False,False
+strict,Altaian,sout2694,Southern Altai,exact,False,rule:exact,,7,False,False
+strict,Altaian_Chelkans,nort2686,Northern Altai,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+strict,Altaian_Kizhi,nort2686,Northern Altai,dialect_rollup,False,rule:dialect_rollup,,12,False,False
+strict,Altaian_Telengit,sout2694,Southern Altai,dialect_rollup,False,rule:dialect_rollup,,6,False,False
+strict,Ami,amis1246,Amis,exact,False,rule:exact,,10,True,True
+strict,Apalai,apal1257,Apalaí,exact,False,rule:exact,,4,False,False
+strict,Arara,para1310,Pará Arára,exact,False,rule:exact,,4,False,False
+strict,Armenian,nucl1235,Eastern Armenian,exact,False,rule:exact,,11,True,True
+strict,Armenian_Hemsheni,homs1234,Western Armenian,dialect_rollup,False,rule:dialect_rollup,,8,False,False
+strict,Armenian_WGA,nucl1235,Eastern Armenian,exact,False,rule:exact,,3,True,True
+strict,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,,8,False,False
+strict,Assyrian,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,11,False,False
+strict,Assyrian_WGA,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,5,False,False
+strict,Ata_Bili,pele1245,Pele-Ata,exact,False,rule:exact,,1,True,False
+strict,Ata_Luge,pele1245,Pele-Ata,exact,False,rule:exact,,2,True,False
+strict,Ata_Uassilau,pele1245,Pele-Ata,exact,False,rule:exact,,5,True,False
+strict,Atayal,atay1247,Atayal,exact,False,rule:exact,,10,True,True
+strict,Avar_Gunibsky,avar1256,Avar,exact,False,rule:exact,,5,False,False
+strict,Avar_Unchukulsky,avar1256,Avar,exact,False,rule:exact,,5,False,False
+strict,Aymara,sout2996,Southern Aymara,exact,False,rule:exact,,5,True,True
+strict,Azeri_Azerbajan,nort2697,North Azerbaijani,exact,False,rule:exact,,9,True,True
+strict,Azeri_Dagestan,nort2697,North Azerbaijani,exact,False,rule:exact,,7,True,True
+strict,Azeri_WGA,nort2697,North Azerbaijani,exact,False,rule:exact,,2,True,True
+strict,Baining_Malasait,qaqe1238,Qaqet,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,4,True,False
+strict,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+strict,Bajo,indo1317,Indonesian Bajau,exact,False,rule:exact,,10,False,False
+strict,Balkar,kara1465,Karachay-Balkar,exact,False,rule:exact,,10,False,False
+strict,Balochi,east2304,Eastern Balochi,exact,False,rule:exact,,24,False,False
+strict,BantuSA_Herero,here1253,Herero,exact,False,rule:exact,,2,True,True
+strict,BantuSA_Ovambo,ndon1254,Ndonga,exact,False,rule:exact,,1,False,False
+strict,BantuSA_Pedi,pedi1238,Pedi,exact,False,rule:exact,,1,False,False
+strict,BantuSA_S_Sotho,sout2807,Southern Sotho,exact,False,rule:exact,,1,True,True
+strict,BantuSA_Tswana,tswa1253,Tswana,exact,False,rule:exact,,2,True,True
+strict,BantuSA_Zulu,zulu1248,Zulu,exact,False,rule:exact,,1,True,False
+strict,Bashkir_Burzjan_Baimaksky,bash1264,Bashkir,dialect_rollup,False,rule:dialect_rollup,,8,True,True
+strict,Bashkir_IkskoBelsky_Kyrgyz,bash1264,Bashkir,exact,False,rule:exact,,6,True,True
+strict,Bashkir_IkskoBelsky_Uran,bash1264,Bashkir,exact,False,rule:exact,,8,True,True
+strict,Bashkir_Ming_Miyakinsky,bash1264,Bashkir,exact,False,rule:exact,,9,True,True
+strict,Bashkir_North_Tabyn_Balysky,bash1264,Bashkir,exact,False,rule:exact,,7,True,True
+strict,Bashkir_North_Unlar,bash1264,Bashkir,exact,False,rule:exact,,4,True,True
+strict,Bashkir_Tamyan_Kypcak,bash1264,Bashkir,exact,False,rule:exact,,7,True,True
+strict,Bashkir_Yurmaty,bash1264,Bashkir,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+strict,Basque,basq1248,Basque,exact,False,rule:exact,,22,True,True
+strict,BedouinA,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,24,True,True
+strict,BedouinB,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,20,True,True
+strict,Belarusian,bela1254,Belarusian,exact,False,rule:exact,,10,True,True
+strict,Bengali,beng1280,Bengali,exact,False,rule:exact,,7,False,False
+strict,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,,13,True,True
+strict,Besermyan,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,6,False,False
+strict,BiakaPygmy,yaka1272,Yaka (Central African Republic),exact,False,rule:exact,,23,True,True
+strict,Bolivia_Quechua,sout2991,South Bolivian Quechua,exact,False,rule:exact,,2,False,False
+strict,Brahmin_Tiwari,chha1249,Chhattisgarhi,exact,False,rule:exact,,15,False,False
+strict,Brahui,brah1256,Brahui,exact,False,rule:exact,,23,True,True
+strict,Buka_Petats,peta1245,Petats,exact,False,rule:exact,,3,False,False
+strict,Bulgarian,bulg1262,Bulgarian,exact,False,rule:exact,,10,False,False
+strict,Burbur_WGA,taga1278,Ouargli,exact,False,rule:exact,,5,False,False
+strict,Burmese,nucl1310,Burmese,exact,False,rule:exact,,10,True,True
+strict,Burusho,buru1296,Burushaski,exact,False,rule:exact,,24,True,True
+strict,Buryat_Buryatya_Horinsky_Selenginsky,russ1264,Russia Buriat,exact,False,rule:exact,,5,True,True
+strict,Buryat_Buryatya_Zakamensky,russ1264,Russia Buriat,exact,False,rule:exact,,6,True,True
+strict,Buryat_Irkutskaya,russ1264,Russia Buriat,exact,False,rule:exact,,12,True,True
+strict,Buryat_Zabaikalsky_Aginsky,russ1264,Russia Buriat,exact,False,rule:exact,,12,True,True
+strict,Buryat_Zabaikalsky_Duldurginsky,russ1264,Russia Buriat,exact,False,rule:exact,,4,True,True
+strict,Cabecar,cabe1245,Cabécar,exact,False,rule:exact,,4,True,True
+strict,Cambodian,cent1989,Central Khmer,exact,False,rule:exact,,10,True,True
+strict,Cameroon_Aghem,aghe1239,Aghem,exact,False,rule:exact,,28,True,True
+strict,Cameroon_Bafut,bafu1246,Bafut,exact,False,rule:exact,,11,True,True
+strict,Cameroon_Bakoko,bako1249,Bakoko,exact,False,rule:exact,,1,False,False
+strict,Cameroon_Bangwa,ndan1241,Nda'nda',exact,False,rule:exact,,2,False,False
+strict,Cameroon_Mbo,mboc1235,Mbo (Cameroon),exact,False,rule:exact,,20,True,True
+strict,Canary_Islander,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,2,False,False
+strict,Chane,tere1279,Terena-Kinikinao-Chane,dialect_rollup,False,rule:dialect_rollup,,1,True,True
+strict,Chechen,chec1245,Chechen,exact,False,rule:exact,,9,True,True
+strict,Chipewyan,chip1261,Chipewyan,exact,False,rule:exact,,26,True,True
+strict,Chukchi,chuk1273,Chukchi,exact,False,rule:exact,,15,True,True
+strict,Chukchi_Ayon,chuk1273,Chukchi,exact,False,rule:exact,,10,True,True
+strict,Chuvash,chuv1255,Chuvash,exact,False,rule:exact,,10,True,True
+strict,Chuvash_Tatarstan,chuv1255,Chuvash,exact,False,rule:exact,,6,True,True
+strict,Circassian,kaba1278,Kabardian,group_map_down,False,rule:group_map_down,,9,True,True
+strict,Cofan,cofa1242,Cofán,exact,False,rule:exact,,4,True,True
+strict,Croatian,sout1528,Serbian-Croatian-Bosnian,dialect_rollup,False,rule:dialect_rollup,,10,True,True
+strict,Cusco,cusc1236,Cusco Quechua,exact,False,rule:exact,,3,True,True
+strict,Cusco2,cusc1236,Cusco Quechua,exact,False,rule:exact,,7,True,True
+strict,Czech,czec1258,Czech,exact,False,rule:exact,,10,True,True
+strict,Dai,luuu1242,Lü,exact,False,rule:exact,,10,False,False
+strict,Damara,nama1264,Nama (Namibia),exact,False,rule:exact,,13,True,False
+strict,Darginian,darg1241,North-Central Dargwa,exact,False,rule:exact,,8,True,True
+strict,Datog,dato1239,Barabayiiga-Gisamjanga,exact,False,rule:exact,,3,False,False
+strict,Daur,daur1238,Dagur,exact,False,rule:exact,,9,True,True
+strict,Dolgan,dolg1241,Dolgan,exact,False,rule:exact,,4,False,False
+strict,Druze,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,42,True,True
+strict,Dungan,dung1253,Dungan,exact,False,rule:exact,,13,False,False
+strict,Dusun,brun1245,Brunei Bisaya-Dusun,exact,False,rule:exact,,10,False,False
+strict,Egyptian,egyp1253,Egyptian Arabic,exact,False,rule:exact,,4,True,True
+strict,Egyptian1,egyp1253,Egyptian Arabic,exact,False,rule:exact,,11,True,True
+strict,English_Cornwall,stan1293,English,exact,False,rule:exact,,5,True,True
+strict,English_Kent,stan1293,English,exact,False,rule:exact,,5,True,True
+strict,Esan,esan1238,Esan,exact,False,rule:exact,,2,True,False
+strict,Eskimo_ChaplinSireniki,cent2128,Central Siberian Yupik,exact,False,rule:exact,,5,False,False
+strict,Eskimo_Naukan,nauk1242,Naukan Yupik,exact,False,rule:exact,,15,False,False
+strict,Estonian,esto1258,Estonian,exact,False,rule:exact,,10,True,True
+strict,Evenk_FarEast,even1259,Evenki,exact,False,rule:exact,,5,True,True
+strict,Evenk_Transbaikal,even1259,Evenki,exact,False,rule:exact,,11,True,True
+strict,Ezid,nort2641,Northern Kurdish,exact,False,rule:exact,,7,False,False
+strict,Finnish,finn1318,Finnish,exact,False,person:Alexandru Craevschi,,8,True,True
+strict,French_Central,stan1290,French,exact,False,person:Alexandru Craevschi,,26,True,True
+strict,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+strict,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+strict,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,,7,True,True
+strict,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+strict,Gagauz,gaga1249,Gagauz,exact,False,rule:exact,,9,True,True
+strict,Gambian,mand1436,Mandinka,exact,False,rule:exact,,6,True,True
+strict,Gana,gana1274,//Gana,exact,False,rule:exact,,8,False,False
+strict,Georgian,nucl1302,Georgian,exact,False,rule:exact,,12,True,True
+strict,Georgian_Imeretins,nucl1302,Georgian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+strict,Georgian_Laz,lazz1240,Laz,exact,False,rule:exact,,6,True,True
+strict,German_Lipsian,stan1295,German,exact,False,rule:exact,,10,False,False
+strict,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+strict,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,14,True,True
+strict,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,18,True,True
+strict,Guarani,mbya1239,Mbyá Guaraní,exact,False,rule:exact,,5,True,True
+strict,Gui,gwii1239,/Gwi,exact,False,rule:exact,,11,False,False
+strict,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+strict,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+strict,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+strict,GujaratiD,guja1252,Gujarati,exact,False,rule:exact,,4,False,False
+strict,Hadza,hadz1240,Hadza,exact,False,rule:exact,,20,True,True
+strict,Hadza1,hadz1240,Hadza,exact,False,rule:exact,,5,True,True
+strict,Haiom,haio1238,Hai//om-Akhoe,exact,False,rule:exact,,9,True,False
+strict,Hakka_Taiwan,hakk1236,Hakka Chinese,dialect_rollup,False,rule:dialect_rollup,,8,True,True
+strict,Han-NChina,mand1415,Mandarin Chinese,exact,False,rule:exact,,10,True,True
+strict,Han_HGDP,mand1415,Mandarin Chinese,exact,False,rule:exact,,33,True,True
+strict,Hazara,haza1239,Hazaragi,exact,False,rule:exact,,22,False,False
+strict,Himba,here1253,Herero,exact,False,rule:exact,,5,True,True
+strict,Huancas,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,5,False,False
+strict,Hungarian1,hung1274,Hungarian,exact,False,rule:exact,,10,True,True
+strict,Hungarian2,hung1274,Hungarian,exact,False,rule:exact,,10,True,True
+strict,Icelandic,icel1247,Icelandic,exact,False,rule:exact,,12,True,True
+strict,Ilocano,ilok1237,Iloko,exact,False,rule:exact,,2,True,False
+strict,Inga,inga1252,Colombian Inga,exact,False,rule:exact,,15,True,False
+strict,Ingushian,ingu1240,Ingush,exact,False,rule:exact,,10,True,True
+strict,Iran_Non-Zoroastrian_Fars,west2369,Western Farsi,exact,False,rule:exact,,17,True,True
+strict,Iran_Zoroastrian,zoro1242,Zoroastrian Yazdi,exact,False,rule:exact,,28,False,False
+strict,Iranian_Bandari,west2369,Western Farsi,group_map_down,False,rule:group_map_down,,8,True,True
+strict,Iranian_Mazandarani,maza1291,Mazanderani,exact,False,rule:exact,,10,False,False
+strict,Iranian_Persian,west2369,Western Farsi,group_map_down,False,rule:group_map_down,,10,True,True
+strict,Irish_Connacht,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+strict,Irish_Cork_Kerry,iris1253,Irish,exact,False,rule:exact,,6,True,True
+strict,Irish_Leinster,iris1253,Irish,exact,False,rule:exact,,6,True,True
+strict,Irish_Munster,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+strict,Irish_Ulster,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+strict,Italian_Calabria,neap1235,Continental Southern Italian,exact,False,rule:exact,,1,False,False
+strict,Italian_South,neap1235,Continental Southern Italian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
+strict,Japanese,nucl1643,Japanese,group_map_down,False,rule:group_map_down,,30,True,True
+strict,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,,9,False,False
+strict,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,,9,False,False
+strict,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,,7,False,False
+strict,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+strict,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,,9,False,False
+strict,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,8,False,False
+strict,Ju_hoan_North,juho1239,South-Eastern Ju,exact,False,rule:exact,,16,True,False
+strict,Ju_hoan_South,juho1239,South-Eastern Ju,exact,False,rule:exact,,9,True,False
+strict,Kabardinian,kaba1278,Kabardian,exact,False,rule:exact,,10,True,True
+strict,Kalash,kala1372,Chitral Kalasha,exact,False,rule:exact,,19,False,False
+strict,Kalmyk,kalm1243,Oirad-Kalmyk-Darkhat,exact,False,rule:exact,,10,True,True
+strict,Kamentsa,cams1241,Camsá,exact,False,rule:exact,,4,True,True
+strict,Kankanaey,kank1243,Kankanaey,exact,False,rule:exact,,10,True,True
+strict,Kaqchikel,kaqc1270,Kaqchikel,exact,False,rule:exact,,5,True,True
+strict,Karachai,kara1465,Karachay-Balkar,dialect_rollup,False,rule:dialect_rollup,,11,False,False
+strict,Karakalpak,kara1467,Kara-Kalpak,exact,False,rule:exact,,14,False,False
+strict,Karelian_Northern,kare1335,Karelian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+strict,Karelian_Southern,kare1335,Karelian,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+strict,Karitiana,kari1311,Karitiâna,exact,False,rule:exact,,13,True,True
+strict,Karitiana_Rondonia,kari1311,Karitiâna,exact,False,rule:exact,,4,True,True
+strict,Kazakhs_Akmola_Argyn,kaza1248,Kazakh,exact,False,rule:exact,,3,False,False
+strict,Kazakhs_Aktyubinsk,kaza1248,Kazakh,exact,False,rule:exact,,2,False,False
+strict,Kazakhs_East_Kazakhstan_Naiman,kaza1248,Kazakh,exact,False,rule:exact,,6,False,False
+strict,Kazakhs_Omsk_Kypchak,kaza1248,Kazakh,exact,False,rule:exact,,5,False,False
+strict,Kazakhs_West_Kazakhstan_Bayuli,kaza1248,Kazakh,exact,False,rule:exact,,1,False,False
+strict,Ket,kett1243,Ket,exact,False,rule:exact,,9,True,True
+strict,Ket_Southeast,kett1243,Ket,exact,False,rule:exact,,10,True,True
+strict,Kgalagadi,kgal1244,Kgalagadi,exact,False,rule:exact,,5,True,True
+strict,Khakass_Kachins,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+strict,Khakass_Koibals,khak1248,Khakas,exact,False,rule:exact,,6,True,True
+strict,Khakass_Kyzils,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+strict,Khakass_Sagai,khak1248,Khakas,dialect_rollup,False,rule:dialect_rollup,,6,True,True
+strict,Kharia,khar1287,Kharia,exact,False,rule:exact,,12,True,True
+strict,Khwe,kxoe1243,Kxoe,exact,False,rule:exact,,10,True,True
+strict,KichwaOrellana,tena1240,Tena Lowland Quichua,exact,False,rule:exact,,17,False,False
+strict,Kikuyu,kiku1240,Kikuyu,exact,False,rule:exact,,4,True,True
+strict,Kinh,viet1252,Vietnamese,exact,False,rule:exact,,8,True,True
+strict,Kirghiz_Pamir,kirg1245,Kirghiz,exact,False,rule:exact,,4,False,False
+strict,Kol_New_Britain,kolp1236,Kol (Papua New Guinea),exact,False,rule:exact,,2,True,False
+strict,Kolombangara,duke1237,Duke,exact,False,rule:exact,,5,False,False
+strict,Korean,kore1280,Korean,exact,False,rule:exact,,6,True,True
+strict,Koryak,kory1246,Koryak,exact,False,rule:exact,,9,False,False
+strict,Kove,kove1237,Kove,exact,False,rule:exact,,7,True,True
+strict,Kove_Tamuniai,kove1237,Kove,exact,False,rule:exact,,10,True,True
+strict,Kubachinian,kuba1248,Kubachi,exact,False,rule:exact,,6,False,False
+strict,Kumyk,kumy1244,Kumyk,exact,False,rule:exact,,8,False,False
+strict,Kuot_Kabil,kuot1243,Kuot,exact,False,rule:exact,,10,True,True
+strict,Kuot_Lamalaua,kuot1243,Kuot,exact,False,rule:exact,,8,True,True
+strict,Kurd,nort2641,Northern Kurdish,exact,False,rule:exact,,9,False,False
+strict,Kurd_WGA,nort2641,Northern Kurdish,exact,False,rule:exact,,2,False,False
+strict,Kyrgyz,kirg1245,Kirghiz,exact,False,rule:exact,,10,False,False
+strict,LaJalca,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
+strict,Lahu,lahu1253,Lahu,exact,False,rule:exact,,27,True,True
+strict,Lak,lakk1252,Lak,exact,False,rule:exact,,10,True,True
+strict,Lebanese_Christian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+strict,Lebanese_Muslim,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,11,True,True
+strict,Lebbo,waha1238,Eastern Lowland Kenyah,exact,False,rule:exact,,8,False,False
+strict,Lezgin,lezg1247,Lezgian,exact,False,rule:exact,,10,True,True
+strict,Libyan,liby1240,Libyan Arabic,exact,False,rule:exact,,5,True,True
+strict,Lithuanian,lith1251,Lithuanian,exact,False,rule:exact,,10,True,True
+strict,Lodhi,bund1253,Bundeli,exact,False,rule:exact,,13,True,True
+strict,Luo,luok1236,Luo (Kenya and Tanzania),exact,False,rule:exact,,8,True,True
+strict,Luya,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
+strict,Madak,mada1285,Madak,exact,False,rule:exact,,10,True,True
+strict,Makrani,sout2642,Southern Balochi,dialect_rollup,False,rule:dialect_rollup,,25,False,False
+strict,Mala,telu1262,Telugu,exact,False,rule:exact,,16,True,True
+strict,Malawi_Chewa,nyan1308,Nyanja,exact,False,rule:exact,,11,False,False
+strict,Malawi_Ngoni,tanz1241,Tanzanian Ngoni,group_map_down,False,rule:group_map_down,,4,True,True
+strict,Malawi_Tumbuka,tumb1250,Tumbuka,exact,False,rule:exact,,10,False,False
+strict,Malawi_Yao,yaoo1241,Yao,exact,False,rule:exact,,9,True,True
+strict,Malay,mala1479,Central Malay,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+strict,Maltese,malt1254,Maltese,exact,False,rule:exact,,8,True,True
+strict,Mamanwa,mama1275,Minamanwa,exact,False,rule:exact,,13,True,True
+strict,Mamanwa1,mama1275,Minamanwa,exact,False,rule:exact,,5,True,True
+strict,Mamusi_Kisiluvi,mamu1254,Mamusi,exact,False,rule:exact,,10,False,False
+strict,Mamusi_Lingite,mamu1254,Mamusi,exact,False,rule:exact,,10,False,False
+strict,Mamusi_Paleabu,mamu1254,Mamusi,exact,False,rule:exact,,6,False,False
+strict,Mandenka,mand1436,Mandinka,exact,False,rule:exact,,18,True,True
+strict,Mangseng,mang1403,Mangseng,exact,False,rule:exact,,5,True,True
+strict,Manus,loni1238,Loniu,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,2,True,True
+strict,Masai1,masa1300,Masai,exact,False,rule:exact,,2,True,True
+strict,Masai_Kinyawa_MKK,masa1300,Masai,exact,False,rule:exact,,10,True,True
+strict,Maya,yuca1254,Yucatec Maya,exact,False,rule:exact,,21,True,True
+strict,Mbukushu,mbuk1240,Mbukushu,exact,False,rule:exact,,5,False,False
+strict,MbutiPygmy,lese1243,Lese,exact,False,rule:exact,,11,True,True
+strict,Melamela,mera1242,Meramera,exact,False,rule:exact,,10,True,False
+strict,Mende,mend1266,Mende (Sierra Leone),exact,False,rule:exact,,8,True,True
+strict,Mengen,meng1267,Mengen,exact,False,rule:exact,,10,True,False
+strict,Miao,hmon1333,Hmong Daw,exact,False,rule:exact,,10,False,False
+strict,Mixtec,sant1436,Santa María Zacatepec Mixtec,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,12,True,True
+strict,Moldavian,roma1327,Romanian,dialect_rollup,False,rule:dialect_rollup,,10,False,False
+strict,Mongol_Khalkh_Sainnoyon,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+strict,Mongol_Khalkh_Zasagt,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,7,True,True
+strict,Mongol_Minorities,halh1238,Halh Mongolian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+strict,Mongol_Uuld,halh1238,Halh Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+strict,Mongola,peri1253,Peripheral Mongolian,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+strict,Mordovian,erzy1239,Erzya,exact,False,rule:exact,,10,True,True
+strict,Mordovian_Erzya,erzy1239,Erzya,exact,False,rule:exact,,12,True,True
+strict,Mordovian_Moksha,moks1248,Moksha,exact,False,rule:exact,,10,True,True
+strict,Moroccan,moro1292,Moroccan Arabic,exact,False,rule:exact,,10,False,False
+strict,Mozabite,tumz1238,Tumzabt,exact,False,rule:exact,,25,False,False
+strict,Murut,timu1262,Timugon Murut,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+strict,Mussau,muss1246,Mussau-Emira,exact,False,rule:exact,,10,True,False
+strict,Nakanai_Bileki,naka1262,Nakanai,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+strict,Nakanai_Loso,naka1262,Nakanai,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+strict,Nama,nama1264,Nama (Namibia),exact,False,rule:exact,,18,True,False
+strict,Naro,naro1249,Naro,exact,False,rule:exact,,9,False,False
+strict,Nasioi,naas1242,Naasioi,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+strict,Naxi,naxi1245,Naxi,exact,False,rule:exact,,8,True,True
+strict,Nggela,gela1263,Gela,exact,False,rule:exact,,6,True,True
+strict,Nogai,noga1249,Nogai,exact,False,rule:exact,,9,False,False
+strict,Nogai_Astrakhan,noga1249,Nogai,exact,False,rule:exact,,6,False,False
+strict,Nogai_Stavropol,noga1249,Nogai,exact,False,rule:exact,,10,False,False
+strict,Norwegian,norw1258,Norwegian,exact,False,rule:exact,,11,False,False
+strict,Notsi,nots1237,Notsi,exact,False,rule:exact,,9,True,True
+strict,Ojibwa,nort2961,Northwestern Ojibwa,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,16,True,True
+strict,Onge,onge1236,Önge,exact,False,rule:exact,,10,True,False
+strict,Ontong_Java,onto1237,Luangiua,exact,False,rule:exact,,8,True,True
+strict,Orcadian,scot1243,Scots,exact,False,rule:exact,,13,False,False
+strict,Oromo,west2721,West Central Oromo,exact,False,rule:exact,,5,False,False
+strict,Ossetian,iron1242,Iron Ossetian,group_map_down,False,rule:group_map_down,,10,True,True
+strict,Ossetian_Southern,iron1242,Iron Ossetian,exact,False,rule:exact,,6,True,True
+strict,Palestinian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,41,True,True
+strict,Pathan,sout2649,Southern Pashto,group_map_down,False,rule:group_map_down,,24,True,True
+strict,Peru_Quechua,cusc1236,Cusco Quechua,exact,False,rule:exact,,5,True,True
+strict,Piapoco,piap1246,Piapoco,exact,False,rule:exact,,5,True,False
+strict,Pima,pima1248,Pima Bajo,exact,False,rule:exact,,14,True,True
+strict,Polish_Lublin,poli1260,Polish,exact,False,rule:exact,,8,True,True
+strict,Polish_Poznan,poli1260,Polish,exact,False,rule:exact,,15,True,True
+strict,Punjabi,panj1256,Eastern Panjabi,exact,False,rule:exact,,8,True,True
+strict,Puno,puno1238,Puno Quechua,exact,False,rule:exact,,7,False,False
+strict,Ranongga,ghan1242,Ghanongga,exact,False,rule:exact,,6,True,True
+strict,Rennell_and_Bellona,renn1242,Rennell-Bellona,exact,False,rule:exact,,7,True,True
+strict,Romanian,roma1327,Romanian,exact,False,rule:exact,,10,False,False
+strict,Russell,lavu1241,Lavukaleve,exact,False,rule:exact,,4,True,True
+strict,Russian,russ1263,Russian,exact,False,rule:exact,,23,True,True
+strict,Russian_Archangelsk_Krasnoborsky,russ1263,Russian,exact,False,rule:exact,,6,True,True
+strict,Russian_Archangelsk_Leshukonsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+strict,Russian_Archangelsk_Pinezhsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+strict,Russian_Belgorod,russ1263,Russian,exact,False,rule:exact,,4,True,True
+strict,Russian_Kaluga,russ1263,Russian,exact,False,rule:exact,,5,True,True
+strict,Russian_Kursk,russ1263,Russian,exact,False,rule:exact,,4,True,True
+strict,Russian_Oryol,russ1263,Russian,exact,False,rule:exact,,4,True,True
+strict,Russian_Pskov_Ostrov,russ1263,Russian,exact,False,rule:exact,,4,True,True
+strict,Russian_Pskov_Porkhov,russ1263,Russian,exact,False,rule:exact,,3,True,True
+strict,Russian_Ryazan_Mihailovsky,russ1263,Russian,exact,False,rule:exact,,5,True,True
+strict,Russian_Ryazan_Spassk_Ryazansky,russ1263,Russian,exact,False,rule:exact,,8,True,True
+strict,Russian_Smolensk,russ1263,Russian,exact,False,rule:exact,,7,True,True
+strict,Russian_Tver,russ1263,Russian,exact,False,rule:exact,,4,True,True
+strict,Russian_Yaroslavl,russ1263,Russian,exact,False,rule:exact,,3,True,True
+strict,Saami,nort2671,North Saami,exact,False,rule:exact,,3,True,True
+strict,Saharawi,hass1238,Hassaniyya,exact,False,rule:exact,,9,True,True
+strict,San,juho1239,South-Eastern Ju,exact,False,rule:exact,,5,True,False
+strict,Sandawe,sand1273,Sandawe,exact,False,rule:exact,,23,True,True
+strict,Santa_Cruz,natu1246,Natügu,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
+strict,Saposa,sapo1253,Saposa,exact,False,rule:exact,,10,True,True
+strict,Sardinian,camp1261,Campidanese Sardinian,group_map_down,False,rule:group_map_down,,28,True,True
+strict,Savo,savo1255,Savosavo,exact,False,rule:exact,,7,True,True
+strict,Scottish,scot1245,Scottish Gaelic,exact,False,rule:exact,,4,False,False
+strict,Scottish_Borders,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+strict,Scottish_Dumfries_Galloway,scot1245,Scottish Gaelic,exact,False,rule:exact,,5,False,False
+strict,Scottish_Fife,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+strict,Scottish_Grampian,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+strict,Scottish_Highlands,scot1245,Scottish Gaelic,exact,False,rule:exact,,6,False,False
+strict,Scottish_Shetlandic,scot1245,Scottish Gaelic,exact,False,rule:exact,,10,False,False
+strict,Selkup,selk1253,Selkup,exact,False,rule:exact,,10,True,True
+strict,Selkup_Farkovo,selk1253,Selkup,exact,False,rule:exact,,8,True,True
+strict,Selkup_Turukhansk,selk1253,Selkup,exact,False,rule:exact,,6,True,True
+strict,Semende,cent2053,South Barisan Malay,exact,False,rule:exact,,10,False,False
+strict,Shaigi_WGA,suda1236,Sudanese Arabic,exact,False,rule:exact,,3,False,False
+strict,Shua,shua1254,Shua,exact,False,rule:exact,,10,False,False
+strict,Sicilian_East,sici1248,Sicilian,exact,False,rule:exact,,5,True,True
+strict,Sicilian_West,sici1248,Sicilian,exact,False,rule:exact,,6,True,True
+strict,Sindhi,sind1272,Sindhi,exact,False,rule:exact,,24,False,False
+strict,Somali,soma1255,Somali,exact,False,rule:exact,,13,True,True
+strict,Spanish_Andalucia,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+strict,Spanish_Aragon,arag1245,Aragonese,exact,False,rule:exact,,6,False,False
+strict,Spanish_Balearic,stan1288,Spanish,exact,False,rule:exact,,4,False,False
+strict,Spanish_Basque,basq1248,Basque,exact,False,rule:exact,,9,True,True
+strict,Spanish_Cantabria,astu1245,Asturian-Leonese-Cantabrian,exact,False,rule:exact,,5,False,False
+strict,Spanish_CastillaLaMancha,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+strict,Spanish_CastillaLeon,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+strict,Spanish_Cataluna,stan1289,Catalan,exact,False,rule:exact,,5,True,True
+strict,Spanish_Extremadura,extr1243,Extremaduran,exact,False,rule:exact,,5,False,False
+strict,Spanish_Galicia,gali1258,Galician,exact,False,rule:exact,,5,True,True
+strict,Spanish_Murcia,stan1288,Spanish,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+strict,Spanish_PaisVasco,basq1248,Basque,exact,False,rule:exact,,5,True,True
+strict,Spanish_Valencia,stan1289,Catalan,exact,False,rule:exact,,5,True,True
+strict,Sulka_Ganai,sulk1246,Sulka,exact,False,rule:exact,,10,True,False
+strict,Sulka_Watwat,sulk1246,Sulka,exact,False,rule:exact,,9,True,False
+strict,Surui,suru1262,Suruí,exact,False,rule:exact,,12,True,False
+strict,Taa_East,huaa1248,East Taa,exact,False,rule:exact,,8,True,True
+strict,Taa_North,xooo1239,West !Xoon,exact,False,rule:exact,,11,False,False
+strict,Taa_West,xooo1239,West !Xoon,exact,False,rule:exact,,15,False,False
+strict,Tabasaran,taba1259,Tabasaran,exact,False,rule:exact,,10,False,False
+strict,Tagalog,taga1270,Tagalog,exact,False,rule:exact,,5,True,False
+strict,Tahiti,tahi1242,Tahitian,exact,False,rule:exact,,4,True,True
+strict,TaiwanHan,mand1415,Mandarin Chinese,dialect_rollup,False,rule:dialect_rollup,,10,True,True
+strict,Tajik,taji1245,Tajik,exact,False,rule:exact,,8,False,False
+strict,Tajik_Lowland_Gissar,taji1245,Tajik,dialect_rollup,False,rule:dialect_rollup,,4,False,False
+strict,Tajik_Lowland_Kulyab,taji1245,Tajik,dialect_rollup,False,rule:dialect_rollup,,7,False,False
+strict,Tajik_Mountain,taji1245,Tajik,exact,False,rule:exact,,12,False,False
+strict,Tatar_Kazan,tata1255,Tatar,exact,False,rule:exact,,13,True,True
+strict,Tatar_Mishar,tata1255,Tatar,exact,False,rule:exact,,9,True,True
+strict,Tatar_Siberian_Buhar,sibe1250,Siberian Tatar,exact,False,rule:exact,,4,False,False
+strict,Tatar_Siberian_Ishtyak_Toguz,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+strict,Tatar_Siberian_Iskero_Tobolsk,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+strict,Tatar_Siberian_Yalutorovsky,sibe1250,Siberian Tatar,exact,False,rule:exact,,6,False,False
+strict,Tatar_Siberian_Zabolotniye,sibe1250,Siberian Tatar,exact,False,rule:exact,,5,False,False
+strict,Teop,teop1238,Teop,exact,False,rule:exact,,9,True,True
+strict,Thai,thai1261,Thai,exact,False,rule:exact,,8,True,False
+strict,Ticuna,ticu1245,Ticuna,exact,False,rule:exact,,1,True,True
+strict,Tigak,tiga1245,Tigak,exact,False,rule:exact,,9,True,True
+strict,Tikopia,tiko1237,Tikopia,exact,False,rule:exact,,6,True,True
+strict,Todzin,tuvi1240,Tuvinian,exact,False,rule:exact,,4,True,True
+strict,Tolai,kuan1248,Kuanua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,True
+strict,Tolai_Kabakada,kuan1248,Kuanua,dialect_rollup,False,rule:dialect_rollup,,9,True,True
+strict,Tolai_Matupit,kuan1248,Kuanua,dialect_rollup,False,rule:dialect_rollup,,2,True,True
+strict,Tolai_Vunairoto,kuan1248,Kuanua,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,2,True,True
+strict,Tongan,tong1325,Tonga (Tonga Islands),exact,False,rule:exact,,10,True,True
+strict,Tshwa,tsoa1238,Northern Tshwa,exact,False,rule:exact,,8,False,False
+strict,Tswana,tswa1253,Tswana,exact,False,rule:exact,,5,True,True
+strict,Tu,minh1238,Mangghuer,group_map_down,False,rule:group_map_down,,10,True,True
+strict,Tubalar_2,nort2686,Northern Altai,exact,False,rule:exact,,5,False,False
+strict,Tunisian,tuni1259,Tunisian Arabic,exact,False,rule:exact,,8,False,False
+strict,Turkish_Adana,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+strict,Turkish_Aydin,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+strict,Turkish_Balikesir,nucl1301,Turkish,exact,False,rule:exact,,11,True,True
+strict,Turkish_Istanbul,nucl1301,Turkish,exact,False,rule:exact,,11,True,True
+strict,Turkish_Kayseri,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+strict,Turkish_Trabzon,nucl1301,Turkish,exact,False,rule:exact,,10,True,True
+strict,Turkmen,turk1304,Turkmen,exact,False,rule:exact,,7,True,True
+strict,Tuscan,ital1282,Italian,exact,False,person:Alexandru Craevschi,,8,True,True
+strict,Tuvinian,tuvi1240,Tuvinian,exact,False,rule:exact,,10,True,True
+strict,Tuvinian_2,tuvi1240,Tuvinian,exact,False,rule:exact,,10,True,True
+strict,Udmurt_Northern,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+strict,Udmurt_Southern,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,5,False,False
+strict,Ukrainian_East,ukra1253,Ukrainian,exact,False,rule:exact,,6,True,True
+strict,Ukrainian_Rovenskaya,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+strict,Ukrainian_Sumskaya,ukra1253,Ukrainian,exact,False,rule:exact,,5,True,True
+strict,Ukrainian_West,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+strict,Ukrainian_Zhitomirskaya,ukra1253,Ukrainian,exact,False,rule:exact,,3,True,True
+strict,UrubuKaapor,urub1250,Urubú-Kaapor,exact,False,rule:exact,,3,False,False
+strict,UtcubambaSouth,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,4,False,False
+strict,Uygur,uigh1240,Uighur,exact,False,rule:exact,,10,False,False
+strict,Uzbek,nort2690,Northern Uzbek,exact,False,rule:exact,,10,True,True
+strict,Uzbek_Khorezm,nort2690,Northern Uzbek,exact,False,rule:exact,,8,True,True
+strict,Uzbek_Tashkent,nort2690,Northern Uzbek,exact,False,rule:exact,,9,True,True
+strict,Vanuatu_Aneityum,anei1239,Aneityum,exact,False,rule:exact,,6,True,True
+strict,Vanuatu_Aoba,east2443,East Ambae,exact,False,rule:exact,,5,True,True
+strict,Vanuatu_Efate,sout2856,Nafsan,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+strict,Vanuatu_Efate_Mele,mele1250,Mele-Fila,exact,False,rule:exact,,9,True,True
+strict,Vanuatu_Emae,emae1237,Emae,exact,False,rule:exact,,8,True,True
+strict,Vanuatu_Erromango,siee1239,Sie,exact,False,rule:exact,,2,True,True
+strict,Vanuatu_Futuna,futu1245,Futuna-Aniwa,exact,False,rule:exact,,3,True,True
+strict,Vanuatu_Ifira,mele1250,Mele-Fila,dialect_rollup,False,rule:dialect_rollup,,1,True,True
+strict,Vanuatu_Maewo,cent2058,Central Maewo,exact,False,rule:exact,,10,True,True
+strict,Vanuatu_Makura,nama1268,Namakura,dialect_rollup,False,rule:dialect_rollup,,5,True,True
+strict,Vanuatu_Nguna,nort2836,North Efate,dialect_rollup,False,rule:dialect_rollup,,3,True,True
+strict,Vanuatu_Paama,paam1238,Paama,exact,False,rule:exact,,7,True,True
+strict,Vanuatu_Pentecost_Baie,saaa1241,Sa,exact,False,rule:exact,,9,True,True
+strict,Vanuatu_Pentecost_Bwatnapni,apma1240,Apma,dialect_rollup,False,rule:dialect_rollup,,3,True,True
+strict,Vanuatu_Pentecost_Maram,apma1240,Apma,dialect_rollup,False,rule:dialect_rollup,,7,True,True
+strict,Vanuatu_Santo_Mbauk,polo1242,Polonombauk,exact,False,rule:exact,,5,False,False
+strict,Vanuatu_Santo_Morou,moro1286,Ande,exact,False,rule:exact,,3,False,False
+strict,Vanuatu_Santo_Port,saka1289,Wanohe,exact,False,rule:exact,,5,True,True
+strict,Vanuatu_Santo_Rango,nara1263,Narango,exact,False,rule:exact,,4,False,False
+strict,Vanuatu_Santo_Sara,hano1246,Hano,exact,False,rule:exact,,3,True,True
+strict,Vanuatu_Santo_Tasiriki,akei1237,Akei,exact,False,rule:exact,,2,True,True
+strict,Vanuatu_Santo_Tutuba,tutu1241,Tutuba,exact,False,rule:exact,,5,True,True
+strict,Vanuatu_Tanna,lena1238,Lenakel,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,9,True,True
+strict,Vanuatu_Tongoa,nama1268,Namakura,dialect_rollup,False,rule:dialect_rollup,,4,True,True
+strict,Vella_Lavella,bilu1245,Bilua,exact,False,rule:exact,,6,True,False
+strict,Vietnamese_North,viet1252,Vietnamese,exact,False,rule:exact,,5,True,True
+strict,Vietnamese_South,viet1252,Vietnamese,exact,False,rule:exact,,5,True,True
+strict,Visayan,cebu1242,Cebuano,dialect_rollup,False,rule:dialect_rollup,,4,True,False
+strict,Vishwabrahmin,vish1243,Vishavan,exact,False,rule:exact,,14,False,False
+strict,Wambo,ndon1254,Ndonga,exact,False,rule:exact,,5,False,False
+strict,Wayuu,wayu1243,Wayuu,exact,False,rule:exact,,1,True,True
+strict,Xavante,xava1240,Xavánte,exact,False,rule:exact,,9,True,True
+strict,Xibo,xibe1242,Xibe,exact,False,rule:exact,,9,False,False
+strict,Xuun,kung1261,North-Central Ju,exact,False,rule:exact,,15,False,False
+strict,Yakut,yaku1245,Sakha,exact,False,rule:exact,,25,True,True
+strict,Yaquis,yaqu1251,Yaqui,exact,False,rule:exact,,8,True,True
+strict,Yemen_Al_Bayda,sana1295,Sanaani Arabic,exact,False,rule:exact,,7,True,True
+strict,Yemen_Al_Jawf,sana1295,Sanaani Arabic,exact,False,rule:exact,,4,True,True
+strict,Yemen_Amanat_Al_Asimah,sana1295,Sanaani Arabic,exact,False,rule:exact,,4,True,True
+strict,Yemen_Amran,sana1295,Sanaani Arabic,exact,False,rule:exact,,17,True,True
+strict,Yemen_Dhamar,sana1295,Sanaani Arabic,exact,False,rule:exact,,10,True,True
+strict,Yemen_Hadramout,hadr1236,Hadrami Arabic,exact,False,rule:exact,,13,False,False
+strict,Yemen_Mahra,mehr1241,Mehri,exact,False,rule:exact,,14,False,False
+strict,Yemen_Marib,sana1295,Sanaani Arabic,exact,False,rule:exact,,7,True,True
+strict,Yemen_Shabwah,hadr1236,Hadrami Arabic,exact,False,rule:exact,,3,False,False
+strict,Yemeni,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,6,False,False
+strict,Yoruba,yoru1245,Yoruba,exact,False,rule:exact,,75,False,False
+strict,Zapotec,sanj1284,Western Tlacolula Valley Zapotec,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,12,True,True
+strict,Zoro,gavi1246,Gavião Do Jiparaná,exact,False,rule:exact,,1,False,False

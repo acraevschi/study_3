@@ -8,15 +8,24 @@ from __future__ import annotations
 import csv
 import math
 import os
+import shutil
 import subprocess
 from collections import defaultdict
 from pathlib import Path
 
 import numpy as np
+import pytest
 
+import analyses.common.genetics as genetics_mod
+import analyses.paradigm.stage2.prepare_stage2 as prepare_stage2_mod
 from analyses.paradigm.stage2.prepare_stage2 import (
     DEFAULT_LINKS_CSV,
+    DEFAULT_MGL_RESULTS_DIR,
+    DEFAULT_NEURAL_RESULTS_DIR,
+    DEFAULT_OUT_DIR,
+    DEFAULT_PARADIGM_DATA_DIR,
     SETS,
+    TRACKED_LINKS_CSV,
     build_smoke_test_inputs,
     classify_source_provenance,
     prepare_stage2_inputs,
@@ -253,3 +262,143 @@ def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
     assert len(fc_ent) == 4 and all(int(r["n_lang"]) == 18 for r in fc_ent)
     assert len(fc_het) == 4 and all(int(r["n_lang"]) == 17 for r in fc_het)
     assert len(fc_f3) == 4 and all(int(r["n_lang"]) == expected_n_f3 for r in fc_f3)
+
+
+def test_prepare_stage2_cold_start_fallback_matches_primary_and_updates_neural(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """Verify cold-start `prepare_stage2_inputs` without raw ADMIXTURE matches primary outputs
+    identically and updates Neural outcome columns when new Neural runs arrive.
+    """
+    assert TRACKED_LINKS_CSV.is_file()
+    assert DEFAULT_LINKS_CSV == TRACKED_LINKS_CSV
+
+    if (genetics_mod.ADM_DIR / "GeneticInfoID.csv").is_file() and genetics_mod.GELATO_DATA_CSV.is_file():
+        primary_dir = tmp_path / "primary_prepared"
+        prepare_stage2_inputs(
+            paradigm_data_dir=DEFAULT_PARADIGM_DATA_DIR,
+            mgl_results_dir=DEFAULT_MGL_RESULTS_DIR,
+            neural_results_dir=DEFAULT_NEURAL_RESULTS_DIR,
+            links_csv=TRACKED_LINKS_CSV,
+            out_dir=primary_dir,
+        )
+    else:
+        primary_dir = DEFAULT_OUT_DIR
+
+    missing_root = tmp_path / "missing_gelato_sources"
+    missing_adm = missing_root / "ADMIXTURE"
+    missing_gelato_csv = missing_root / "data.csv"
+    missing_arch = missing_root / "arch"
+    for mod in (genetics_mod, prepare_stage2_mod):
+        monkeypatch.setattr(mod, "ADM_DIR", missing_adm)
+        monkeypatch.setattr(mod, "GELATO_DATA_CSV", missing_gelato_csv)
+        monkeypatch.setattr(mod, "ARCH_DIR", missing_arch)
+
+    # 1. Cold-start into a fresh directory using tracked `analysis_links.csv` + tracked genetics
+    cold_dir = tmp_path / "cold_prepared"
+    prepare_stage2_inputs(
+        paradigm_data_dir=DEFAULT_PARADIGM_DATA_DIR,
+        mgl_results_dir=DEFAULT_MGL_RESULTS_DIR,
+        neural_results_dir=DEFAULT_NEURAL_RESULTS_DIR,
+        links_csv=TRACKED_LINKS_CSV,
+        out_dir=cold_dir,
+        adm_dir=missing_adm,
+        fallback_prepared_dir=primary_dir,
+    )
+
+    for pos in ("V", "N"):
+        for stem in ("language_data", "individuals", "populations", "phylo_tree"):
+            ext = "nwk" if stem == "phylo_tree" else "csv"
+            p_file = primary_dir / f"{stem}_{pos}.{ext}"
+            c_file = cold_dir / f"{stem}_{pos}.{ext}"
+            assert c_file.is_file()
+            assert c_file.read_text(encoding="utf-8") == p_file.read_text(encoding="utf-8"), (
+                f"Cold-start {c_file.name} differed from primary output"
+            )
+
+    # 2. Simulate full Neural re-run arriving on a fresh clone (only `individuals_*` & `populations_*` pre-existing)
+    inplace_dir = tmp_path / "inplace_prepared"
+    inplace_dir.mkdir(parents=True)
+    for pos in ("V", "N"):
+        shutil.copy2(primary_dir / f"individuals_{pos}.csv", inplace_dir / f"individuals_{pos}.csv")
+        shutil.copy2(primary_dir / f"populations_{pos}.csv", inplace_dir / f"populations_{pos}.csv")
+
+    neu_sim_dir = tmp_path / "neural_updated"
+    neu_sim_dir.mkdir(parents=True)
+    with open(DEFAULT_NEURAL_RESULTS_DIR / "unit_outcomes_uniform120.csv", encoding="utf-8") as f:
+        neu_rows = list(csv.DictReader(f))
+        neu_cols = list(f.seek(0) or csv.reader(f).__next__())
+    existing_uids = {r["unit_id"] for r in neu_rows}
+    template = dict(neu_rows[0])
+
+    for new_uid, new_gc, new_pos, new_h, new_se in (
+        ("amha1245_V_orth", "amha1245", "V", "1.4321", "0.0654"),
+        ("bela1254_N_orth", "bela1254", "N", "0.8765", "0.0432"),
+    ):
+        assert new_uid not in existing_uids
+        neu_rows.append({
+            **template,
+            "unit_id": new_uid,
+            "glottocode": new_gc,
+            "pos": new_pos,
+            "representation": "orth",
+            "h_tree_bits": new_h,
+            "h_tree_se": new_se,
+        })
+    with open(neu_sim_dir / "unit_outcomes_uniform120.csv", "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=neu_cols, lineterminator="\n")
+        w.writeheader()
+        w.writerows(neu_rows)
+
+    neu_480_rows = [
+        {
+            **template,
+            "unit_id": "cusc1236_V_orth",
+            "glottocode": "cusc1236",
+            "pos": "V",
+            "representation": "orth",
+            "regime": "uniform480",
+            "h_tree_bits": "0.1234",
+            "h_tree_se": "0.0198",
+        }
+    ]
+    with open(neu_sim_dir / "unit_outcomes_uniform480.csv", "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=neu_cols, lineterminator="\n")
+        w.writeheader()
+        w.writerows(neu_480_rows)
+
+    summ_upd = prepare_stage2_inputs(
+        paradigm_data_dir=DEFAULT_PARADIGM_DATA_DIR,
+        mgl_results_dir=DEFAULT_MGL_RESULTS_DIR,
+        neural_results_dir=neu_sim_dir,
+        links_csv=TRACKED_LINKS_CSV,
+        out_dir=inplace_dir,
+        adm_dir=missing_adm,
+        fallback_prepared_dir=None,
+    )
+
+    for pos in ("V", "N"):
+        assert (inplace_dir / f"individuals_{pos}.csv").read_text(encoding="utf-8") == (
+            primary_dir / f"individuals_{pos}.csv"
+        ).read_text(encoding="utf-8")
+        assert (inplace_dir / f"populations_{pos}.csv").read_text(encoding="utf-8") == (
+            primary_dir / f"populations_{pos}.csv"
+        ).read_text(encoding="utf-8")
+
+    with open(inplace_dir / "language_data_V.csv", encoding="utf-8") as f:
+        ld_v = {r["glottocode"]: r for r in csv.DictReader(f)}
+    with open(inplace_dir / "language_data_N.csv", encoding="utf-8") as f:
+        ld_n = {r["glottocode"]: r for r in csv.DictReader(f)}
+
+    assert ld_v["amha1245"]["has_neural"] == "1"
+    assert abs(float(ld_v["amha1245"]["h_tree_neural_bits"]) - 1.4321) < 1e-6
+    assert abs(float(ld_v["amha1245"]["h_tree_neural_se"]) - 0.0654) < 1e-6
+    assert abs(float(ld_v["cusc1236"]["h_tree_neural_480_bits"]) - 0.1234) < 1e-6
+    assert abs(float(ld_v["cusc1236"]["h_tree_neural_480_se"]) - 0.0198) < 1e-6
+
+    assert ld_n["bela1254"]["has_neural"] == "1"
+    assert abs(float(ld_n["bela1254"]["h_tree_neural_bits"]) - 0.8765) < 1e-6
+    assert abs(float(ld_n["bela1254"]["h_tree_neural_se"]) - 0.0432) < 1e-6
+    assert summ_upd["pos"]["V"]["n_neural"] == 10  # type: ignore[index]
+    assert summ_upd["pos"]["N"]["n_neural"] == 4  # type: ignore[index]

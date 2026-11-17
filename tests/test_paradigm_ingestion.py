@@ -3,18 +3,33 @@
 from __future__ import annotations
 
 import hashlib
+import http.server
+import io
+import shutil
+import threading
 import unicodedata
+import zipfile
 from pathlib import Path
 
 import pandas as pd
 import pytest
 
+import analyses.paradigm.ingestion.fetch_sources as fetch_sources_mod
 from analyses.paradigm.ingestion.build_lexicons import (
     _repair_romanian_noun_triples,
     is_polluted_entry,
     normalize_orth_surface,
+    read_celex_english_v,
+    read_morphit_records,
 )
-from analyses.paradigm.ingestion.fetch_sources import find_unimorph_data_files
+from analyses.paradigm.ingestion.fetch_sources import (
+    fetch_celex_english,
+    fetch_morphit,
+    find_unimorph_data_files,
+    resolve_analysis_links_csv,
+    resolve_celex_english_path,
+    resolve_morphit_path,
+)
 from analyses.paradigm.ingestion.grouping import (
     assign_leakage_groups,
     find_constant_affix_cognate_pairs,
@@ -436,3 +451,114 @@ def test_extracted_lexicons_provenance_and_zero_leakage_audit():
         df_en = pd.read_csv(lex_dir / f"{en_uid}.csv", keep_default_na=False)
         lbl_g = dict(zip(df_en["lemma_label"], df_en["leakage_group_id"]))
         assert lbl_g["stand"] == lbl_g["understand"], f"stand/understand unmerged in {en_uid}"
+
+
+def test_cold_start_source_resolvers_and_archive_fallbacks(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    # 1. Tracked analysis_links.csv resolution without outputs/ directory
+    tracked_links = resolve_analysis_links_csv(PROJECT_ROOT)
+    assert tracked_links == PROJECT_ROOT / "analyses" / "common" / "data" / "analysis_links.csv"
+    assert tracked_links.is_file()
+
+    fake_root = tmp_path / "fresh_clone"
+    fake_ext = fake_root / "external" / "paradigm_sources"
+    fake_links = fake_root / "analyses" / "common" / "data" / "analysis_links.csv"
+    fake_links.parent.mkdir(parents=True)
+    shutil.copy2(tracked_links, fake_links)
+    assert resolve_analysis_links_csv(fake_root) == fake_links
+
+    # 2. CELEX English verbs (`celex_eng_v`): HTTP 206 Range ZIP extraction when mgn_data/ is absent
+    celex_csv_bytes = (
+        "lexeme,cell,form,language_ID,POS\n"
+        "sing,inf,sIN,eng,V\n"
+        "sing,past13,s{N,eng,V\n"
+        "sing,ppart,sVN,eng,V\n"
+    ).encode("utf-8")
+    celex_sha = hashlib.sha256(celex_csv_bytes).hexdigest()
+
+    zip_buf = io.BytesIO()
+    with zipfile.ZipFile(zip_buf, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+        zf.writestr("code/README.txt", b"padding " * 512)
+        zf.writestr("code/data-custom/english-v.csv", celex_csv_bytes)
+    zip_payload = zip_buf.getvalue()
+
+    class _RangeHandler(http.server.BaseHTTPRequestHandler):
+        def do_GET(self) -> None:  # noqa: N802
+            rng = self.headers.get("Range", "")
+            if rng.startswith("bytes="):
+                s_str, e_str = rng[6:].split("-", 1)
+                start = int(s_str)
+                end = min(len(zip_payload) - 1, int(e_str))
+                chunk = zip_payload[start : end + 1]
+                self.send_response(206)
+                self.send_header("Content-Range", f"bytes {start}-{end}/{len(zip_payload)}")
+                self.send_header("Content-Length", str(len(chunk)))
+                self.end_headers()
+                self.wfile.write(chunk)
+            else:
+                self.send_response(200)
+                self.send_header("Content-Length", str(len(zip_payload)))
+                self.end_headers()
+                self.wfile.write(zip_payload)
+
+        def log_message(self, format: str, *args: object) -> None:  # noqa: A002
+            return
+
+    server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), _RangeHandler)
+    port = server.server_address[1]
+    srv_thread = threading.Thread(target=server.serve_forever, daemon=True)
+    srv_thread.start()
+    try:
+        monkeypatch.setattr(fetch_sources_mod, "CELEX_ENG_V_SHA256", celex_sha)
+        monkeypatch.setattr(
+            fetch_sources_mod,
+            "fetch_json",
+            lambda _url, timeout=45: {
+                "files": [
+                    {
+                        "key": "code.zip",
+                        "size": len(zip_payload),
+                        "links": {"self": f"http://127.0.0.1:{port}/code.zip"},
+                    }
+                ]
+            },
+        )
+        celex_row = fetch_celex_english(force=False, project_root=fake_root, external_root=fake_ext)
+    finally:
+        server.shutdown()
+        server.server_close()
+
+    assert celex_row["status"] == "downloaded"
+    assert celex_row["sha256"] == celex_sha
+    resolved_celex = resolve_celex_english_path(project_root=fake_root, external_root=fake_ext)
+    assert resolved_celex == fake_ext / "celex" / "english-v.csv"
+    celex_recs = read_celex_english_v(resolved_celex)
+    assert len(celex_recs) == 3
+    assert ("sing", "sing", "LGSPEC1;PST", "s{N", "", 0) in celex_recs
+
+    # 3. Morph-it! v0.48 (`national_morphit`): ISO-8859-1 archive -> UTF-8 transcoding & resolver fallback
+    morphit_text = (
+        "città\tcittà\tNOUN-F:s\n"
+        "città\tcittà\tNOUN-F:p\n"
+        "parlò\tparlare\tVER:ind+past+3+s\n"
+        "parlare\tparlare\tVER:inf+pres\n"
+    )
+    morphit_latin1 = morphit_text.encode("iso-8859-1")
+    morphit_utf8_sha = hashlib.sha256(morphit_text.encode("utf-8")).hexdigest()
+
+    morphit_zip = tmp_path / "hfst-it-morph-morph-it.zip"
+    with zipfile.ZipFile(morphit_zip, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+        zf.writestr("hfst-it-morph-morph-it/morph-it/morph-it_048.txt", morphit_latin1)
+
+    monkeypatch.setattr(fetch_sources_mod, "MORPHIT_ARCHIVE_URL", morphit_zip.as_uri())
+    monkeypatch.setattr(fetch_sources_mod, "MORPHIT_UTF8_SHA256", morphit_utf8_sha)
+
+    morph_row = fetch_morphit(force=False, project_root=fake_root, external_root=fake_ext)
+    assert morph_row["status"] == "downloaded"
+    assert morph_row["sha256"] == morphit_utf8_sha
+    resolved_morph = resolve_morphit_path(project_root=fake_root, external_root=fake_ext)
+    assert resolved_morph == fake_ext / "national" / "morphit" / "morph-it_048.utf8.txt"
+    assert len(read_morphit_records("N", resolved_morph)) == 2
+    assert len(read_morphit_records("V", resolved_morph)) == 2

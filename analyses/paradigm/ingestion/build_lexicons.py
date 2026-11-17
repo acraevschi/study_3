@@ -49,6 +49,9 @@ if __package__ in (None, ""):
         PROJECT_ROOT,
         UNIMORPH_SPECS,
         find_unimorph_data_files,
+        resolve_analysis_links_csv,
+        resolve_celex_english_path,
+        resolve_morphit_path,
     )
     from analyses.paradigm.ingestion.grouping import IPA_MODIFIERS, assign_leakage_groups, nfc_clean
     from analyses.paradigm.ingestion.harmony_malouf import HARMONY_FAMILIES, apply_malouf_abstraction
@@ -60,6 +63,9 @@ else:
         PROJECT_ROOT,
         UNIMORPH_SPECS,
         find_unimorph_data_files,
+        resolve_analysis_links_csv,
+        resolve_celex_english_path,
+        resolve_morphit_path,
     )
     from .grouping import IPA_MODIFIERS, assign_leakage_groups, nfc_clean
     from .harmony_malouf import HARMONY_FAMILIES, apply_malouf_abstraction
@@ -144,7 +150,7 @@ _WS = re.compile(r"\s+")
 # ---------------------------------------------------------------------------
 
 def load_glottolog_and_gelato() -> Tuple[Set[str], Dict[str, dict], Dict[str, str]]:
-    links_path = PROJECT_ROOT / "outputs" / "pcfp_v2_links_2026_10_20" / "typology" / "analysis_links.csv"
+    links_path = resolve_analysis_links_csv(PROJECT_ROOT)
     links_df = pd.read_csv(links_path, keep_default_na=False)
     accepted_gcs = set(links_df["glottocode"].unique()) - {""}
 
@@ -418,8 +424,8 @@ def read_paralex_records(
     return records, (sounds_files[0] if sounds_files else None)
 
 
-def read_celex_english_v() -> List[Tuple[str, str, str, str, str, int]]:
-    path = PROJECT_ROOT / "mgn_data" / "data-custom" / "english-v.csv"
+def read_celex_english_v(path: Optional[Path] = None) -> List[Tuple[str, str, str, str, str, int]]:
+    celex_path = path or resolve_celex_english_path(PROJECT_ROOT, EXTERNAL_ROOT)
     eng_cell_map = {
         "inf": "NFIN",
         "pres1s": "1;PRS;SG",
@@ -430,7 +436,7 @@ def read_celex_english_v() -> List[Tuple[str, str, str, str, str, int]]:
         "ppart": "PST;V.PTCP",
         "prespart": "PRS;V.PTCP",
     }
-    df = pd.read_csv(path, keep_default_na=False)
+    df = pd.read_csv(celex_path, keep_default_na=False)
     records: List[Tuple[str, str, str, str, str, int]] = []
     for row in df.to_dict("records"):
         lem = nfc_clean(row["lexeme"])
@@ -480,10 +486,10 @@ def _parse_morphit_ver_tag(tag_body: str) -> Optional[str]:
     return normalize_cell_tag(f"{mood_m};{tense_m};{pers_m};{num_m}")
 
 
-def read_morphit_records(pos_target: str) -> List[Tuple[str, str, str, str, str, int]]:
-    path = PROJECT_ROOT / "external" / "morph-it" / "morph-it_048.utf8.txt"
+def read_morphit_records(pos_target: str, path: Optional[Path] = None) -> List[Tuple[str, str, str, str, str, int]]:
+    morphit_path = path or resolve_morphit_path(PROJECT_ROOT, EXTERNAL_ROOT)
     records: List[Tuple[str, str, str, str, str, int]] = []
-    with open(path, encoding="utf-8") as f:
+    with open(morphit_path, encoding="utf-8") as f:
         for line in f:
             parts = line.rstrip("\r\n").split("\t")
             if len(parts) != 3:
@@ -1180,7 +1186,8 @@ def collect_candidates(accepted_gcs: Set[str]) -> Dict[Tuple[str, str, str], Lis
     for code, gc, iso in UNIMORPH_SPECS:
         if gc not in accepted_gcs:
             continue
-        rdir = (PROJECT_ROOT / "external" / f"unimorph-{code}") if code in ("ita", "fin") else (EXTERNAL_ROOT / "unimorph" / code)
+        pinned = PROJECT_ROOT / "external" / f"unimorph-{code}"
+        rdir = pinned if (code in ("ita", "fin") and pinned.exists()) else (EXTERNAL_ROOT / "unimorph" / code)
         if not rdir.exists():
             continue
         files = find_unimorph_data_files(rdir, code)

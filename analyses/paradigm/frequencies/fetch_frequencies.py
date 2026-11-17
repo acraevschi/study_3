@@ -347,7 +347,9 @@ def discover_target_isos(
     """Discover all GeLaTo-linked living ISO-639-3 codes plus any unit_summary.csv ISOs."""
     from morph_ldl.data.vendor.mgn_language_map import EXTINCT_BLACKLIST, MGN_LIVING_LANGS_64, canonical_iso
 
-    links_path = repo_root / "outputs" / "pcfp_v2_links_2026_10_20" / "typology" / "analysis_links.csv"
+    links_path = repo_root / "analyses" / "common" / "data" / "analysis_links.csv"
+    if not links_path.is_file():
+        links_path = repo_root / "outputs" / "pcfp_v2_links_2026_10_20" / "typology" / "analysis_links.csv"
     glot_path = repo_root / "external" / "glottolog-cldf" / "cldf" / "languages.csv"
 
     links_df = pd.read_csv(links_path)

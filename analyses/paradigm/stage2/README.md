@@ -4,7 +4,7 @@ Two-stage Bayesian phylogenetic, spatial, equivalence (`BF_01` / ROPE), and toke
 
 ## Scripts
 1. **`prepare_stage2.py`:**
-   - Merges MGL and Neural outcomes (`uniform120`, `uniform480`, `topfreq120`, `phon`, `malouf`), `unit_summary.csv`, `frequencies/{unit_id}_freq.csv`, `outputs/pcfp_v2_links_2026_10_20/typology/analysis_links.csv` (all 4 link sets), `analyses.common` (`genetics`, `demography`, `phylogeny`), and Track 1 `irreg13` overlap into `analyses/paradigm/results/stage2/prepared/`.
+   - Merges MGL and Neural outcomes (`uniform120`, `uniform480`, `topfreq120`, `phon`, `malouf`), `unit_summary.csv`, `frequencies/{unit_id}_freq.csv`, `analyses/common/data/analysis_links.csv` (all 4 link sets), `analyses.common` (`genetics`, `demography`, `phylogeny`), and Track 1 `irreg13` overlap into `analyses/paradigm/results/stage2/prepared/`.
 2. **`fit_stage2.R`:**
    - Runs `fit_stage1_exposure` (`ent`, `sqrt_het`, `f3k_est_pos`) per `(POS, link_set)`, standardizes `eta_mean` on the exact Stage-2 language set (**Berkson `plain` mode**, plus a 20-draw posterior-imputation Berkson propagation check), and fits precision-weighted `y | se(se_y, sigma = TRUE)` models across Glottolog Grafen + 3D spherical GP, Bouckaert v2.0.0 VCVs, Mundlak within-/between-family splits, paradigm-size/subsampling/Inner Asian sensitivities, and all 4 link sets.
    - Computes Savage–Dickey `BF_01` (Gaussian & KDE), ROPE `[-0.15, +0.15]` SD, `P(beta < 0.44)` against Track 1's breadth slope, and empirical + PGLS correlations with Track 1 `irreg13`.
