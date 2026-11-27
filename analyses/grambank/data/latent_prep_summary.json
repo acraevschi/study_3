@@ -1,96 +1,248 @@
 {
-  "n_languages_total": 202,
-  "n_languages_main_cat12_cov60": 202,
-  "n_languages_main_cat12_irreg13_cov60": 175,
-  "n_languages_main_cat12_flex26_cov60": 186,
-  "n_items_cat12": 12,
-  "n_items_irreg13": 13,
-  "n_items_flex26": 26,
-  "n_total_observations": 6821,
-  "cat12_item_stats_main": {
-    "tense": {
-      "domain": "verbal_tam",
-      "n_coded": 197,
-      "n_present": 148,
-      "prop_present": 0.7513,
-      "r_item_rest": 0.6216
+  "n_languages_total": 225,
+  "n_items_total": 29,
+  "n_nonmorph_features_total": 151,
+  "n_total_observations": 5411,
+  "domains": {
+    "v_breadth": {
+      "k_items": 9,
+      "min_coded": 6,
+      "n_lang_all": 213,
+      "n_lang_f3_n3": 176,
+      "n_lang_f3_n5": 167
+    },
+    "n_breadth": {
+      "k_items": 5,
+      "min_coded": 3,
+      "n_lang_all": 217,
+      "n_lang_f3_n3": 177,
+      "n_lang_f3_n5": 167
+    },
+    "v_irreg": {
+      "k_items": 5,
+      "min_coded": 3,
+      "n_lang_all": 172,
+      "n_lang_f3_n3": 140,
+      "n_lang_f3_n5": 133
+    },
+    "n_irreg": {
+      "k_items": 3,
+      "min_coded": 2,
+      "n_lang_all": 131,
+      "n_lang_f3_n3": 113,
+      "n_lang_f3_n5": 108
+    },
+    "np_agr": {
+      "k_items": 7,
+      "min_coded": 5,
+      "n_lang_all": 198,
+      "n_lang_f3_n3": 167,
+      "n_lang_f3_n5": 160
+    }
+  },
+  "item_stats": {
+    "present_tense": {
+      "item_group": "v_breadth",
+      "n_coded": 210,
+      "n_present": 90,
+      "prop_present": 0.4286,
+      "r_item_rest": 0.5047
+    },
+    "past_tense": {
+      "item_group": "v_breadth",
+      "n_coded": 210,
+      "n_present": 137,
+      "prop_present": 0.6524,
+      "r_item_rest": 0.5977
+    },
+    "future_tense": {
+      "item_group": "v_breadth",
+      "n_coded": 208,
+      "n_present": 104,
+      "prop_present": 0.5,
+      "r_item_rest": 0.5563
     },
     "aspect": {
-      "domain": "verbal_tam",
-      "n_coded": 193,
-      "n_present": 132,
-      "prop_present": 0.6839,
-      "r_item_rest": 0.3749
+      "item_group": "v_breadth",
+      "n_coded": 203,
+      "n_present": 135,
+      "prop_present": 0.665,
+      "r_item_rest": 0.4156
     },
     "mood": {
-      "domain": "verbal_tam",
-      "n_coded": 188,
-      "n_present": 137,
-      "prop_present": 0.7287,
-      "r_item_rest": 0.5551
+      "item_group": "v_breadth",
+      "n_coded": 187,
+      "n_present": 136,
+      "prop_present": 0.7273,
+      "r_item_rest": 0.575
     },
-    "person_indexing": {
-      "domain": "person_indexing",
-      "n_coded": 198,
-      "n_present": 158,
-      "prop_present": 0.798,
-      "r_item_rest": 0.4384
+    "subj_indexing": {
+      "item_group": "v_breadth",
+      "n_coded": 205,
+      "n_present": 151,
+      "prop_present": 0.7366,
+      "r_item_rest": 0.5043
+    },
+    "obj_indexing": {
+      "item_group": "v_breadth",
+      "n_coded": 206,
+      "n_present": 101,
+      "prop_present": 0.4903,
+      "r_item_rest": 0.112
     },
     "negation": {
-      "domain": "neg_interrog",
-      "n_coded": 197,
-      "n_present": 103,
-      "prop_present": 0.5228,
-      "r_item_rest": 0.3593
+      "item_group": "v_breadth",
+      "n_coded": 209,
+      "n_present": 102,
+      "prop_present": 0.488,
+      "r_item_rest": 0.4186
     },
-    "polar_interrogation": {
-      "domain": "neg_interrog",
-      "n_coded": 170,
-      "n_present": 25,
-      "prop_present": 0.1471,
-      "r_item_rest": 0.1747
+    "polar_q_bound": {
+      "item_group": "v_breadth",
+      "n_coded": 174,
+      "n_present": 24,
+      "prop_present": 0.1379,
+      "r_item_rest": 0.218
     },
-    "nominal_number": {
-      "domain": "nominal_number",
-      "n_coded": 199,
-      "n_present": 146,
-      "prop_present": 0.7337,
-      "r_item_rest": 0.5777
+    "noun_plural": {
+      "item_group": "n_breadth",
+      "n_coded": 216,
+      "n_present": 151,
+      "prop_present": 0.6991,
+      "r_item_rest": 0.3925
     },
-    "case": {
-      "domain": "case",
-      "n_coded": 199,
-      "n_present": 158,
-      "prop_present": 0.794,
-      "r_item_rest": 0.4337
+    "noun_dual": {
+      "item_group": "n_breadth",
+      "n_coded": 217,
+      "n_present": 27,
+      "prop_present": 0.1244,
+      "r_item_rest": 0.0283
     },
-    "possessor_affix": {
-      "domain": "possession",
-      "n_coded": 171,
-      "n_present": 81,
-      "prop_present": 0.4737,
-      "r_item_rest": 0.2513
+    "noun_case_core": {
+      "item_group": "n_breadth",
+      "n_coded": 211,
+      "n_present": 94,
+      "prop_present": 0.4455,
+      "r_item_rest": 0.522
+    },
+    "noun_case_oblique": {
+      "item_group": "n_breadth",
+      "n_coded": 214,
+      "n_present": 121,
+      "prop_present": 0.5654,
+      "r_item_rest": 0.5388
     },
     "possessed_affix": {
-      "domain": "possession",
-      "n_coded": 171,
-      "n_present": 100,
-      "prop_present": 0.5848,
-      "r_item_rest": 0.0221
+      "item_group": "n_breadth",
+      "n_coded": 170,
+      "n_present": 99,
+      "prop_present": 0.5824,
+      "r_item_rest": 0.1203
     },
-    "gender_agreement": {
-      "domain": "agreement",
-      "n_coded": 193,
-      "n_present": 71,
-      "prop_present": 0.3679,
-      "r_item_rest": 0.2836
+    "conj_classes": {
+      "item_group": "v_irreg",
+      "n_coded": 165,
+      "n_present": 78,
+      "prop_present": 0.4727,
+      "r_item_rest": 0.377
     },
-    "number_agreement": {
-      "domain": "agreement",
-      "n_coded": 185,
-      "n_present": 127,
-      "prop_present": 0.6865,
-      "r_item_rest": 0.2678
+    "tam_suppletion": {
+      "item_group": "v_irreg",
+      "n_coded": 148,
+      "n_present": 27,
+      "prop_present": 0.1824,
+      "r_item_rest": 0.6376
+    },
+    "pers_stem_alt": {
+      "item_group": "v_irreg",
+      "n_coded": 140,
+      "n_present": 17,
+      "prop_present": 0.1214,
+      "r_item_rest": 0.4537
+    },
+    "part_num_suppl": {
+      "item_group": "v_irreg",
+      "n_coded": 164,
+      "n_present": 24,
+      "prop_present": 0.1463,
+      "r_item_rest": 0.3834
+    },
+    "lex_verb_suppl": {
+      "item_group": "v_irreg",
+      "n_coded": 147,
+      "n_present": 36,
+      "prop_present": 0.2449,
+      "r_item_rest": 0.4548
+    },
+    "noun_num_allom": {
+      "item_group": "n_irreg",
+      "n_coded": 130,
+      "n_present": 53,
+      "prop_present": 0.4077,
+      "r_item_rest": 0.4041
+    },
+    "noun_num_suppl": {
+      "item_group": "n_irreg",
+      "n_coded": 125,
+      "n_present": 17,
+      "prop_present": 0.136,
+      "r_item_rest": 0.3532
+    },
+    "opaque_gender": {
+      "item_group": "n_irreg",
+      "n_coded": 63,
+      "n_present": 25,
+      "prop_present": 0.3968,
+      "r_item_rest": 0.2119
+    },
+    "agr_gender_prop": {
+      "item_group": "np_agr",
+      "n_coded": 194,
+      "n_present": 54,
+      "prop_present": 0.2784,
+      "r_item_rest": 0.7868
+    },
+    "agr_gender_dem": {
+      "item_group": "np_agr",
+      "n_coded": 197,
+      "n_present": 58,
+      "prop_present": 0.2944,
+      "r_item_rest": 0.7834
+    },
+    "agr_gender_art": {
+      "item_group": "np_agr",
+      "n_coded": 195,
+      "n_present": 25,
+      "prop_present": 0.1282,
+      "r_item_rest": 0.466
+    },
+    "agr_gender_num": {
+      "item_group": "np_agr",
+      "n_coded": 194,
+      "n_present": 50,
+      "prop_present": 0.2577,
+      "r_item_rest": 0.6994
+    },
+    "agr_num_prop": {
+      "item_group": "np_agr",
+      "n_coded": 186,
+      "n_present": 94,
+      "prop_present": 0.5054,
+      "r_item_rest": 0.6017
+    },
+    "agr_num_dem": {
+      "item_group": "np_agr",
+      "n_coded": 189,
+      "n_present": 98,
+      "prop_present": 0.5185,
+      "r_item_rest": 0.5913
+    },
+    "agr_num_art": {
+      "item_group": "np_agr",
+      "n_coded": 192,
+      "n_present": 35,
+      "prop_present": 0.1823,
+      "r_item_rest": 0.2712
     }
   }
 }
