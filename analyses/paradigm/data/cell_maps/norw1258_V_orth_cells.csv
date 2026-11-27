@@ -1,0 +1,8 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+norw1258_V_orth,IMP,IMP,retained_canonical,2137,0.0
+norw1258_V_orth,IND;PASS,IND;PASS,retained_canonical,1672,0.000598
+norw1258_V_orth,IND;PRS,IND;PRS,retained_canonical,2211,0.0
+norw1258_V_orth,IND;PST,IND;PST,retained_canonical,2216,0.000451
+norw1258_V_orth,PRS;V.PTCP,PRS;V.PTCP,retained_canonical,1881,0.0
+norw1258_V_orth,PST;V.PTCP,PST;V.PTCP,retained_canonical,2198,0.000455
+norw1258_V_orth,V.MSDR,,dropped_sparse_coverage,28,0.0

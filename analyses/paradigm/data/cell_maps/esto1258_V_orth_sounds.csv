@@ -1,0 +1,144 @@
+sound_id,CLTS_id,label,syllabic,stress,long,extra-long,consonantal,sonorant,continuant,delayed release,approximant,tap,trill,nasal,voice,spread gl,constr gl,LABIAL,round,labiodental,CORONAL,anterior,distributed,strident,lateral,DORSAL,high,low,front,back,tense,diphthong,diph_front,diph_high,diph_low,C_high,C_low,C_front,C_back,palatalised
+f,f,voiceless labio-dental fricative consonant,0,,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,,,,0,0,,,,,,,,,,,,,,0
+fː,fː,long voiceless labio-dental fricative consonant,0,,1,0,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,,,,0,0,,,,,,,,,,1,0,1,0,0
+k,k,voiceless velar stop consonant,0,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0,1,,,,,,,,,,1,0,1,0,0
+kː,kː,long voiceless velar stop consonant,0,,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0,1,,,,,,,,,,,,,,0
+p,p,voiceless bilabial stop consonant,0,,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,0,0,,,,,,,,,,,,,,0
+pː,pː,long voiceless bilabial stop consonant,0,,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,0,0,,,,,,,,,,1,0,1,0,0
+s,s,voiceless alveolar sibilant fricative consonant,0,,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,,,,,,,,,,,,,,0
+sʲ,sʲ,palatalized voiceless alveolar sibilant fricative consonant,0,,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,,,,,,,,,,,,,,1
+sʲː,sʲː,palatalized long voiceless alveolar sibilant fricative consonant,0,,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,,,,,,,,,,,,,,1
+sː,sː,long voiceless alveolar sibilant fricative consonant,0,,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,,,,,,,,,,1,0,1,0,0
+t,t,voiceless alveolar stop consonant,0,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,1,0,1,0,0
+tː,tː,long voiceless alveolar stop consonant,0,,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,1,0,1,0,0
+tʲ,tʲ,palatalized voiceless alveolar stop consonant,0,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,1
+tʲː,tʲː,palatalized long voiceless alveolar stop consonant,0,,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,1
+v,v,voiced labio-dental fricative consonant,0,,0,0,1,0,1,1,0,0,0,0,1,0,0,1,0,1,0,,,,0,0,,,,,,,,,,,,,,0
+vː,vː,long voiced labio-dental fricative consonant,0,,1,0,1,0,1,1,0,0,0,0,1,0,0,1,0,1,0,,,,0,0,,,,,,,,,,,,,,0
+z,z,voiced alveolar sibilant fricative consonant,0,,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,,,,,,,,,,1,0,,,0
+ʃ,ʃ,voiceless post-alveolar sibilant fricative consonant,0,,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,,,,,,,,,,1,0,,,1
+ʃː,ʃː,long voiceless post-alveolar sibilant fricative consonant,0,,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,,,,,,,,,,1,0,1,0,1
+fːː,fːː,ultra-long voiceless labio-dental fricative consonant,0,,1,1,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,,,,0,0,,,,,,,,,,1,0,0,1,0
+kːː,kːː,ultra-long voiceless velar stop consonant,0,,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,0,1,,,,,,,,,,,,,,0
+pːː,pːː,ultra-long voiceless bilabial stop consonant,0,,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,,0,0,,,,,,,,,,,,,,0
+sʲːː,,palatalized ultra-long voiceless alveolar sibilant fricative consonant,0,,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,,,,,,,,,,,,,,1
+sːː,sːː,ultra-long voiceless alveolar sibilant fricative consonant,0,,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,,,,,,,,,,1,0,,,0
+tːː,tːː,ultra-long voiceless alveolar stop consonant,0,,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,1,0,,,0
+tʲːː,,palatalized ultra-long voiceless alveolar stop consonant,0,,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,1,0,,,1
+vːː,vːː,ultra-long voiced labio-dental fricative consonant,0,,1,1,1,0,1,1,0,0,0,0,1,0,0,1,0,1,0,,,,0,0,,,,,,,,,,,,,,0
+ʃːː,ʃːː,ultra-long voiceless post-alveolar sibilant fricative consonant,0,,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,,,,,,,,,,,,,,1
+l,l,voiced alveolar lateral approximant consonant,0,,0,0,1,1,1,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,,,,,,,,,,,,,,0
+lʲ,lʲ,palatalized voiced alveolar lateral approximant consonant,0,,0,0,1,1,1,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,,,,,,,,,,,,,,1
+lʲː,lʲː,palatalized long voiced alveolar lateral approximant consonant,0,,1,0,1,1,1,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,,,,,,,,,,1,0,1,0,1
+lː,lː,long voiced alveolar lateral approximant consonant,0,,1,0,1,1,1,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,,,,,,,,,,1,0,1,0,0
+m,m,voiced bilabial nasal consonant,0,,0,0,1,1,0,,0,0,0,1,1,0,0,1,0,0,0,,,,0,0,,,,,,,,,,1,0,1,0,0
+mː,mː,long voiced bilabial nasal consonant,0,,1,0,1,1,0,,0,0,0,1,1,0,0,1,0,0,0,,,,0,0,,,,,,,,,,,,,,0
+mːː,mːː,ultra-long voiced bilabial nasal consonant,0,,1,1,1,1,0,,0,0,0,1,1,0,0,1,0,0,0,,,,0,0,,,,,,,,,,,,,,0
+n,n,voiced alveolar nasal consonant,0,,0,0,1,1,0,,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,0
+nʲ,nʲ,palatalized voiced alveolar nasal consonant,0,,0,0,1,1,0,,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,1
+nʲː,nʲː,palatalized long voiced alveolar nasal consonant,0,,1,0,1,1,0,,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,1
+nː,nː,long voiced alveolar nasal consonant,0,,1,0,1,1,0,,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,0
+r,r,voiced alveolar trill consonant,0,,0,0,1,1,1,,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,1,0,1,0,0
+rː,rː,long voiced alveolar trill consonant,0,,1,0,1,1,1,,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,1,0,1,0,0
+rːː,rːː,ultra-long voiced alveolar trill consonant,0,,1,1,1,1,1,,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,1,0,1,0,0
+ŋ,ŋ,voiced velar nasal consonant,0,,0,0,1,1,0,,0,0,0,1,1,0,0,0,0,0,0,,,,0,1,,,,,,,,,,1,0,1,0,1
+ŋː,ŋː,long voiced velar nasal consonant,0,,1,0,1,1,0,,0,0,0,1,1,0,0,0,0,0,0,,,,0,1,,,,,,,,,,,,,,0
+lːː,lːː,ultra-long voiced alveolar lateral approximant consonant,0,,1,1,1,1,1,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,,,,,,,,,,,,,,0
+lʲːː,,palatalized ultra-long voiced alveolar lateral approximant consonant,0,,1,1,1,1,1,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,,,,,,,,,,,,,,0
+nʲːː,,palatalized ultra-long voiced alveolar nasal consonant,0,,1,1,1,1,0,,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,0
+nːː,nːː,ultra-long voiced alveolar nasal consonant,0,,1,1,1,1,0,,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,,,,,,,,,,,,,,0
+h,h,voiceless glottal fricative consonant,0,,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,0,0,,,,,,,,,,,,,,0
+hː,hː,long voiceless glottal fricative consonant,0,,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,,,,0,0,,,,,,,,,,,,,,0
+j,j,voiced palatal approximant consonant,0,,0,0,0,1,1,,1,0,0,0,1,0,0,0,0,0,0,,,,0,1,,,,,1,,,,,,,,,0
+w,w,voiced labio-velar approximant consonant,0,,0,0,0,1,1,,1,0,0,0,1,0,0,1,1,0,0,,,,0,1,,,,,1,,,,,,,,,0
+e,e,unrounded close-mid front vowel,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,0,,,,,,,,
+eː,eː,long unrounded close-mid front vowel,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,0,,,,,,,,
+e͜i,ei,from unrounded close-mid front to unrounded close front diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,1,1,1,0,,,,,
+e͜iː,eiː,from unrounded close-mid front to long unrounded close front diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,1,1,1,0,,,,,
+e͜o,eo,from unrounded close-mid front to rounded close-mid back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,1,0,0,0,,,,,
+e͜oː,eoː,from unrounded close-mid front to long rounded close-mid back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,1,0,0,0,,,,,
+e͜u,eu,from unrounded close-mid front to rounded close back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,1,0,1,0,,,,,
+e͜ɑ,eɑ,from unrounded close-mid front to unrounded open back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,1,0,0,1,,,,,
+e͜ɑː,eɑː,from unrounded close-mid front to long unrounded open back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,1,0,0,1,,,,,
+i,i,unrounded close front vowel,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,0,,,,,,,,
+iː,iː,long unrounded close front vowel,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,0,,,,,,,,
+i͜e,ie,from unrounded close front to unrounded close-mid front diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,1,1,0,0,,,,,
+i͜eː,ieː,from unrounded close front to long unrounded close-mid front diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,1,1,0,0,,,,,
+i͜o,io,from unrounded close front to rounded close-mid back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,1,0,0,0,,,,,
+i͜oː,ioː,from unrounded close front to long rounded close-mid back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,1,0,0,0,,,,,
+i͜u,iu,from unrounded close front to rounded close back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,1,0,1,0,,,,,
+i͜uː,iuː,from unrounded close front to long rounded close back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,1,0,1,0,,,,,
+i͜ɑ,iɑ,from unrounded close front to unrounded open back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,1,0,0,1,,,,,
+i͜ɑː,iɑː,from unrounded close front to long unrounded open back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,1,0,0,1,,,,,
+o,o,rounded close-mid back vowel,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,0,,,,,,,,
+oː,oː,long rounded close-mid back vowel,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,0,,,,,,,,
+o͜e,oe,from rounded close-mid back to unrounded close-mid front diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,1,1,0,0,,,,,
+o͜eː,oeː,from rounded close-mid back to long unrounded close-mid front diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,1,1,0,0,,,,,
+o͜i,oi,from rounded close-mid back to unrounded close front diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,1,1,1,0,,,,,
+o͜iː,oiː,from rounded close-mid back to long unrounded close front diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,1,1,1,0,,,,,
+o͜u,ou,from rounded close-mid back to rounded close back diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,1,0,1,0,,,,,
+o͜ɑ,oɑ,from rounded close-mid back to unrounded open back diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,1,0,0,1,,,,,
+o͜ɑː,oɑː,from rounded close-mid back to long unrounded open back diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,1,0,0,1,,,,,
+u,u,rounded close back vowel,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,0,,,,,,,,
+uː,uː,long rounded close back vowel,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,0,,,,,,,,
+u͜e,ue,from rounded close back to unrounded close-mid front diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,1,1,0,0,,,,,
+u͜eː,ueː,from rounded close back to long unrounded close-mid front diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,1,1,0,0,,,,,
+u͜i,ui,from rounded close back to unrounded close front diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,1,1,1,0,,,,,
+u͜iː,uiː,from rounded close back to long unrounded close front diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,1,1,1,0,,,,,
+u͜o,uo,from rounded close back to rounded close-mid back diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,1,0,0,0,,,,,
+u͜oː,uoː,from rounded close back to long rounded close-mid back diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,1,0,0,0,,,,,
+u͜ɑ,uɑ,from rounded close back to unrounded open back diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,1,0,0,1,,,,,
+u͜ɑː,uɑː,from rounded close back to long unrounded open back diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,1,0,0,1,,,,,
+y,y,rounded close front vowel,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,1,0,1,0,,,,,,,,
+yː,yː,long rounded close front vowel,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,1,0,1,0,,,,,,,,
+y͜i,yi,from rounded close front to unrounded close front diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,1,0,1,1,,,,,,,,
+y͜iː,yiː,from rounded close front to long unrounded close front diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,1,0,1,1,,,,,,,,
+y͜ɑ,yɑ,from rounded close front to unrounded open back diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,1,0,1,1,,,,,,,,
+æ,æ,unrounded near-open front vowel,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,0,,,,,,,,
+æː,æː,long unrounded near-open front vowel,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,0,,,,,,,,
+æ͜e,æe,from unrounded near-open front to unrounded close-mid front diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,1,1,0,0,,,,,
+æ͜eː,æeː,from unrounded near-open front to long unrounded close-mid front diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,1,1,0,0,,,,,
+æ͜i,æi,from unrounded near-open front to unrounded close front diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,1,1,1,1,,,,,
+æ͜iː,æiː,from unrounded near-open front to long unrounded close front diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,1,1,1,1,,,,,
+æ͜o,æo,from unrounded near-open front to rounded close-mid back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,1,0,0,0,,,,,
+æ͜oː,æoː,from unrounded near-open front to long rounded close-mid back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,1,0,0,0,,,,,
+æ͜u,æu,from unrounded near-open front to rounded close back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,1,0,1,0,,,,,
+æ͜uː,æuː,from unrounded near-open front to long rounded close back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,1,0,1,0,,,,,
+ø,ø,rounded close-mid front vowel,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,1,0,1,0,,,,,,,,
+øː,øː,long rounded close-mid front vowel,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,1,0,1,0,,,,,,,,
+ø͜e,øe,from rounded close-mid front to unrounded close-mid front diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,1,0,1,1,1,0,0,,,,,
+ø͜eː,øeː,from rounded close-mid front to long unrounded close-mid front diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,1,0,1,1,1,0,0,,,,,
+ø͜i,øi,from rounded close-mid front to unrounded close front diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,1,0,1,1,1,1,0,,,,,
+ø͜iː,øiː,from rounded close-mid front to long unrounded close front diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,1,0,1,1,1,1,0,,,,,
+ø͜ɑ,øɑ,from rounded close-mid front to unrounded open back diphthong,1,,0,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,1,0,1,1,0,0,1,,,,,
+ø͜ɑː,øɑː,from rounded close-mid front to long unrounded open back diphthong,1,,1,0,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,1,0,1,1,0,0,1,,,,,
+ɑ,ɑ,unrounded open back vowel,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,0,,,,,,,,
+ɑː,ɑː,long unrounded open back vowel,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,0,,,,,,,,
+ɑ͜e,ɑe,from unrounded open back to unrounded close-mid front diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,1,1,0,0,,,,,
+ɑ͜eː,ɑeː,from unrounded open back to long unrounded close-mid front diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,1,1,0,0,,,,,
+ɑ͜i,ɑi,from unrounded open back to unrounded close front diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,1,1,1,0,,,,,
+ɑ͜iː,ɑiː,from unrounded open back to long unrounded close front diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,1,1,1,0,,,,,
+ɑ͜o,ɑo,from unrounded open back to rounded close-mid back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,1,0,0,1,,,,,
+ɑ͜oː,ɑoː,from unrounded open back to long rounded close-mid back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,1,0,0,1,,,,,
+ɑ͜u,ɑu,from unrounded open back to rounded close back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,1,0,1,0,,,,,
+ɑ͜uː,ɑuː,from unrounded open back to long rounded close back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,1,0,1,0,,,,,
+ɤ,ɤ,unrounded close-mid back vowel,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,0,,,,,,,,
+ɤː,ɤː,long unrounded close-mid back vowel,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,0,,,,,,,,
+ɤ͜e,ɤe,from unrounded close-mid back to unrounded close-mid front diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,1,1,0,0,,,,,
+ɤ͜eː,ɤeː,from unrounded close-mid back to long unrounded close-mid front diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,1,1,0,0,,,,,
+ɤ͜i,ɤi,from unrounded close-mid back to unrounded close front diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,1,1,1,0,,,,,
+ɤ͜iː,ɤiː,from unrounded close-mid back to long unrounded close front diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,1,1,1,0,,,,,
+ɤ͜o,ɤo,from unrounded close-mid back to rounded close-mid back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,1,0,0,0,,,,,
+ɤ͜oː,ɤoː,from unrounded close-mid back to long rounded close-mid back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,1,0,0,0,,,,,
+ɤ͜u,ɤu,from unrounded close-mid back to rounded close back diphthong,1,,0,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,1,0,1,0,,,,,
+ɤ͜uː,ɤuː,from unrounded close-mid back to long rounded close back diphthong,1,,1,0,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,1,0,1,0,,,,,
+eːː,eːː,ultra-long unrounded close-mid front vowel,1,,1,1,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,1,0,1,1,1,0,0,,,,,
+iːː,iːː,ultra-long unrounded close front vowel,1,,1,1,0,1,,,,,,,,,,0,0,,,,,,0,1,1,0,1,0,1,1,1,1,0,,,,,
+oːː,oːː,ultra-long rounded close-mid back vowel,1,,1,1,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,0,1,1,1,0,0,0,,,,,
+uːː,uːː,ultra-long rounded close back vowel,1,,1,1,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,0,1,1,1,0,1,0,,,,,
+yːː,yːː,ultra-long rounded close front vowel,1,,1,1,0,1,,,,,,,,,,1,1,,,,,,0,1,1,0,1,0,1,1,1,1,0,,,,,
+æːː,æːː,ultra-long unrounded near-open front vowel,1,,1,1,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,1,0,,1,1,0,0,,,,,
+øːː,øːː,ultra-long rounded close-mid front vowel,1,,1,1,0,1,,,,,,,,,,1,1,,,,,,0,1,0,0,1,0,1,1,1,0,0,,,,,
+ɑːː,ɑːː,ultra-long unrounded open back vowel,1,,1,1,0,1,,,,,,,,,,0,0,,,,,,0,1,0,1,0,1,,1,0,0,1,,,,,
+ɤːː,ɤːː,ultra-long unrounded close-mid back vowel,1,,1,1,0,1,,,,,,,,,,0,0,,,,,,0,1,0,0,0,1,1,1,0,0,0,,,,,
+ˈ,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

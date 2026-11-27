@@ -1,0 +1,9 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+guja1252_N_orth,INS;PL,INS;PL,retained_canonical,301,0.0
+guja1252_N_orth,INS;SG,INS;SG,retained_canonical,301,0.0
+guja1252_N_orth,LOC;PL,LOC;PL,retained_canonical,301,0.0
+guja1252_N_orth,LOC;SG,INS;SG,merged_100pct_syncretic,301,0.0
+guja1252_N_orth,NOM;PL,NOM;PL,retained_canonical,301,0.0
+guja1252_N_orth,NOM;SG,NOM;SG,retained_canonical,301,0.0
+guja1252_N_orth,OBL+VOC;PL,OBL+VOC;PL,retained_canonical,301,0.0
+guja1252_N_orth,OBL+VOC;SG,OBL+VOC;SG,retained_canonical,301,0.0

@@ -1,0 +1,10 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+bulg1262_N_orth,ACC;DEF;SG,,dropped_sparse_coverage,590,0.0
+bulg1262_N_orth,DEF;NOM;SG,,dropped_sparse_coverage,590,0.0
+bulg1262_N_orth,DEF;PL,DEF;PL,retained_canonical,1308,0.0
+bulg1262_N_orth,DEF;SG,DEF;SG,retained_canonical,718,0.0
+bulg1262_N_orth,INDF;PL,PL;VOC,merged_100pct_syncretic,1308,0.0
+bulg1262_N_orth,INDF;SG,INDF;SG,retained_canonical,1308,0.0
+bulg1262_N_orth,PL,,dropped_sparse_coverage,589,0.0
+bulg1262_N_orth,PL;VOC,PL;VOC,retained_canonical,1080,0.0
+bulg1262_N_orth,SG;VOC,SG;VOC,retained_canonical,1077,0.0

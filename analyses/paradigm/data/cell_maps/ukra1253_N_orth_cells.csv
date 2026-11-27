@@ -1,0 +1,15 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+ukra1253_N_orth,ACC;PL,ACC;PL,retained_canonical,72486,0.0
+ukra1253_N_orth,ACC;SG,ACC;SG,retained_canonical,113957,0.0
+ukra1253_N_orth,DAT;PL,DAT;PL,retained_canonical,72483,0.0
+ukra1253_N_orth,DAT;SG,DAT;SG,retained_canonical,113953,0.0
+ukra1253_N_orth,GEN;PL,GEN;PL,retained_canonical,72482,0.0
+ukra1253_N_orth,GEN;SG,GEN;SG,retained_canonical,113967,0.0
+ukra1253_N_orth,INS;PL,INS;PL,retained_canonical,72482,0.0
+ukra1253_N_orth,INS;SG,INS;SG,retained_canonical,113955,0.0
+ukra1253_N_orth,LOC;PL,LOC;PL,retained_canonical,72482,0.0
+ukra1253_N_orth,LOC;SG,LOC;SG,retained_canonical,113952,0.0
+ukra1253_N_orth,NOM;PL,NOM;PL,retained_canonical,72486,0.0
+ukra1253_N_orth,NOM;SG,NOM;SG,retained_canonical,113958,0.0
+ukra1253_N_orth,VOC;PL,VOC;PL,retained_canonical,72478,0.0
+ukra1253_N_orth,VOC;SG,VOC;SG,retained_canonical,113903,0.0

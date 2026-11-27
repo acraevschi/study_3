@@ -1,0 +1,12 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+gulf1241_N_orth,DEF;DU,,dropped_sparse_coverage,12,0.0
+gulf1241_N_orth,DEF;PL,,dropped_sparse_coverage,302,0.0
+gulf1241_N_orth,DEF;SG,,dropped_sparse_coverage,1467,0.0
+gulf1241_N_orth,DU;INDF,,dropped_sparse_coverage,58,0.0
+gulf1241_N_orth,DU;PSSD,,dropped_sparse_coverage,58,0.0
+gulf1241_N_orth,INDF,,dropped_sparse_coverage,3,0.0
+gulf1241_N_orth,INDF;PL,,dropped_sparse_coverage,476,0.0
+gulf1241_N_orth,INDF;SG,INDF;SG,retained_canonical,2374,0.0
+gulf1241_N_orth,PL;PSSD,,dropped_sparse_coverage,476,0.0
+gulf1241_N_orth,PSSD,,dropped_sparse_coverage,3,0.0
+gulf1241_N_orth,PSSD;SG,PSSD;SG,retained_canonical,2353,0.0

@@ -1,0 +1,7 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+stan1290_N_orth,FEM+FEM;PL,,dropped_sparse_coverage,1,0.0
+stan1290_N_orth,FEM+MASC+MASC;PL,,dropped_sparse_coverage,1,0.0
+stan1290_N_orth,FEM+MASC;PL,,dropped_sparse_coverage,4,0.0
+stan1290_N_orth,FEM+MASC;SG,,dropped_sparse_coverage,4,0.0
+stan1290_N_orth,PL,PL,retained_canonical,32239,0.0
+stan1290_N_orth,SG,SG,retained_canonical,36815,0.0

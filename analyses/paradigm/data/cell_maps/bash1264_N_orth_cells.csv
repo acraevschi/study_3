@@ -1,0 +1,13 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+bash1264_N_orth,ABL;PL,ABL;PL,retained_canonical,861,0.0
+bash1264_N_orth,ABL;SG,ABL;SG,retained_canonical,1061,0.0
+bash1264_N_orth,ACC;DEF;PL,ACC;DEF;PL,retained_canonical,861,0.0
+bash1264_N_orth,ACC;DEF;SG,ACC;DEF;SG,retained_canonical,1061,0.0
+bash1264_N_orth,DAT;PL,DAT;PL,retained_canonical,861,0.0
+bash1264_N_orth,DAT;SG,DAT;SG,retained_canonical,1061,0.0
+bash1264_N_orth,DEF;GEN;PL,DEF;GEN;PL,retained_canonical,861,0.0
+bash1264_N_orth,DEF;GEN;SG,DEF;GEN;SG,retained_canonical,1061,0.0
+bash1264_N_orth,LOC;PL,LOC;PL,retained_canonical,861,0.0
+bash1264_N_orth,LOC;SG,LOC;SG,retained_canonical,1061,0.0
+bash1264_N_orth,NOM;PL,NOM;PL,retained_canonical,861,0.0
+bash1264_N_orth,NOM;SG,NOM;SG,retained_canonical,1061,0.0

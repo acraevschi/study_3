@@ -1,0 +1,9 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+roma1327_N_orth,DEF;GEN/DAT;PL,PL;VOC,merged_100pct_syncretic,2081,0.0
+roma1327_N_orth,DEF;GEN/DAT;SG,DEF;GEN/DAT;SG,retained_canonical,2295,0.0
+roma1327_N_orth,DEF;NOM/ACC;PL,DEF;NOM/ACC;PL,retained_canonical,2081,0.0
+roma1327_N_orth,DEF;NOM/ACC;SG,DEF;NOM/ACC;SG,retained_canonical,2291,0.0
+roma1327_N_orth,GEN/DAT;INDF;SG,,dropped_periphrastic,2308,0.903813
+roma1327_N_orth,INDF;NOM/ACC;SG,,dropped_periphrastic,2308,0.903813
+roma1327_N_orth,PL;VOC,PL;VOC,retained_canonical,2049,0.0
+roma1327_N_orth,SG;VOC,SG;VOC,retained_canonical,2286,0.0

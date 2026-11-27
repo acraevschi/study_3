@@ -1,0 +1,7 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+tata1255_N_orth,ABL,ABL,retained_canonical,1177,0.0
+tata1255_N_orth,ACC,ACC,retained_canonical,1177,0.0
+tata1255_N_orth,DAT,DAT,retained_canonical,1177,0.0
+tata1255_N_orth,GEN,GEN,retained_canonical,1177,0.0
+tata1255_N_orth,LOC,LOC,retained_canonical,1177,0.0
+tata1255_N_orth,NOM,NOM,retained_canonical,1177,0.0

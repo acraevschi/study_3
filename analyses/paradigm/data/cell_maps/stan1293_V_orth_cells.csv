@@ -1,0 +1,6 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+stan1293_V_orth,3;PRS;SG,3;PRS;SG,retained_canonical,23896,4.2e-05
+stan1293_V_orth,IMP+SBJV;NFIN,IMP+SBJV;NFIN,retained_canonical,31848,0.0
+stan1293_V_orth,PRS;V.PTCP,PRS;V.PTCP,retained_canonical,23898,4.2e-05
+stan1293_V_orth,PST,PST,retained_canonical,23896,8.4e-05
+stan1293_V_orth,PST;V.PTCP,PST;V.PTCP,retained_canonical,23896,8.4e-05

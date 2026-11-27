@@ -1,0 +1,23 @@
+# Ignore large raw/generated paradigm tables, CV split manifests, per-lemma caches,
+# compiled Stan binaries, and MCMC .rds fits while keeping all source code, provenance
+# manifests, unit/summary outcomes, cell_maps/, and Stage-2 summary CSVs tracked.
+
+__pycache__/
+*.py[cod]
+
+# Generated full-paradigm and split CSVs (reproducible via ingestion/ & frequencies/)
+data/lexicons/*.csv
+data/lexicons_malouf/*.csv
+data/splits/*.csv
+data/frequencies/*_freq.csv
+!data/frequencies/freq_summary.csv
+data/splits_freq/*.csv
+
+# Per-lemma outcome tables and per-unit intermediate caches
+results/*/per_unit_cache/
+results/*/lemma_outcomes_*.csv
+
+# Stage-2 brmsfit .rds objects, compiled cmdstanr/rstan caches, and multi-MB lemma tables
+results/stage2/fits*/
+results/stage2/stan_cache*/
+results/stage2/prepared/lemma_freq_data_*.csv

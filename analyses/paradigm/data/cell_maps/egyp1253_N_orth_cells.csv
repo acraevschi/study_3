@@ -1,0 +1,10 @@
+unit_id,raw_cell,canonical_cell,status,n_lemmas_filled,multiword_share
+egyp1253_N_orth,DEF;DU,,dropped_sparse_coverage,50,0.0
+egyp1253_N_orth,DEF;PL,,dropped_sparse_coverage,265,0.0
+egyp1253_N_orth,DEF;SG,DEF;SG,retained_canonical,3129,0.0
+egyp1253_N_orth,DU;INDF,,dropped_sparse_coverage,50,0.0
+egyp1253_N_orth,DU;PSSD,,dropped_sparse_coverage,50,0.0
+egyp1253_N_orth,INDF;PL,,dropped_sparse_coverage,246,0.0
+egyp1253_N_orth,INDF;SG,INDF;SG,retained_canonical,3266,0.0
+egyp1253_N_orth,PL;PSSD,,dropped_sparse_coverage,246,0.0
+egyp1253_N_orth,PSSD;SG,INDF;SG,merged_100pct_syncretic,3246,0.0
