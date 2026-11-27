@@ -9,7 +9,7 @@ main,Adygei_Shapsug_Black_Sea,adyg1241,West Circassian,dialect_rollup,False,rule
 main,Adygei_Shapsug_Kuban,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,1,False,False
 main,Afar_WGA,afar1241,Afar,exact,False,rule:exact,,5,True,True
 main,Ain_Touta_WGA,tach1249,Chaouia of the Aures,exact,False,rule:exact,,3,False,False
-main,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+main,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,6,True,True
 main,Aleut,aleu1260,Aleut,exact,False,rule:exact,,6,True,True
 main,Aleut_Tlingit,aleu1260,Aleut,exact,False,rule:exact,,4,True,True
 main,Algerian,alge1239,Algerian Arabic,exact,False,rule:exact,,5,False,False
@@ -24,7 +24,7 @@ main,Arara,para1310,Pará Arára,exact,False,rule:exact,,4,False,False
 main,Armenian,nucl1235,Eastern Armenian,exact,False,rule:exact,,11,True,True
 main,Armenian_Hemsheni,homs1234,Western Armenian,dialect_rollup,False,rule:dialect_rollup,,8,False,False
 main,Armenian_WGA,nucl1235,Eastern Armenian,exact,False,rule:exact,,3,True,True
-main,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,,8,False,False
+main,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,diaspora,8,False,False
 main,Assyrian,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,11,False,False
 main,Assyrian,chal1275,Chaldean Neo-Aramaic,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,11,True,True
 main,Assyrian_WGA,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,5,False,False
@@ -40,7 +40,7 @@ main,Azeri_Azerbajan,nort2697,North Azerbaijani,exact,False,rule:exact,,9,True,T
 main,Azeri_Dagestan,nort2697,North Azerbaijani,exact,False,rule:exact,,7,True,True
 main,Azeri_WGA,nort2697,North Azerbaijani,exact,False,rule:exact,,2,True,True
 main,Baining_Malasait,qaqe1238,Qaqet,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,4,True,False
-main,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+main,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,10,True,False
 main,Bajo,indo1317,Indonesian Bajau,exact,False,rule:exact,,10,False,False
 main,Balkar,kara1465,Karachay-Balkar,exact,False,rule:exact,,10,False,False
 main,Balochi,east2304,Eastern Balochi,exact,False,rule:exact,,24,False,False
@@ -64,7 +64,7 @@ main,BedouinA,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,24
 main,BedouinB,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,20,True,True
 main,Belarusian,bela1254,Belarusian,exact,False,rule:exact,,10,True,True
 main,Bengali,beng1280,Bengali,exact,False,rule:exact,,7,False,False
-main,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,,13,True,True
+main,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,regional_shift,13,True,True
 main,Besermyan,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,6,False,False
 main,BiakaPygmy,yaka1272,Yaka (Central African Republic),exact,False,rule:exact,,23,True,True
 main,Bolivia_Quechua,sout2991,South Bolivian Quechua,exact,False,rule:exact,,2,False,False
@@ -136,10 +136,10 @@ main,Evenk_Transbaikal,even1259,Evenki,exact,False,rule:exact,,11,True,True
 main,Ezid,nort2641,Northern Kurdish,exact,False,rule:exact,,7,False,False
 main,Finnish,finn1318,Finnish,exact,False,person:Alexandru Craevschi,,8,True,True
 main,French_Central,stan1290,French,exact,False,person:Alexandru Craevschi,,26,True,True
-main,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
-main,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
-main,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,,7,True,True
-main,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+main,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,regional_shift,10,True,True
+main,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,regional_shift,10,True,True
+main,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,regional_shift,7,True,True
+main,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,regional_shift,10,True,True
 main,Gagauz,gaga1249,Gagauz,exact,False,rule:exact,,9,True,True
 main,Gambian,mand1436,Mandinka,exact,False,rule:exact,,6,True,True
 main,Gana,gana1274,//Gana,exact,False,rule:exact,,8,False,False
@@ -147,16 +147,16 @@ main,Georgian,nucl1302,Georgian,exact,False,rule:exact,,12,True,True
 main,Georgian_Imeretins,nucl1302,Georgian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
 main,Georgian_Laz,lazz1240,Laz,exact,False,rule:exact,,6,True,True
 main,German_Lipsian,stan1295,German,exact,False,rule:exact,,10,False,False
-main,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
-main,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,14,True,True
-main,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,18,True,True
+main,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,8,True,True
+main,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,14,True,True
+main,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,18,True,True
 main,Guarani,mbya1239,Mbyá Guaraní,exact,False,rule:exact,,5,True,True
 main,Guarani_GN,mbya1239,Mbyá Guaraní,exact,False,person:Alexandru Craevschi,wrong_code,7,True,True
 main,Guarani_KW,mbya1239,Mbyá Guaraní,exact,False,person:Alexandru Craevschi,wrong_code,9,True,True
 main,Gui,gwii1239,/Gwi,exact,False,rule:exact,,11,False,False
-main,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
-main,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
-main,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+main,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,diaspora,5,False,False
+main,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,diaspora,5,False,False
+main,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,diaspora,5,False,False
 main,GujaratiD,guja1252,Gujarati,exact,False,rule:exact,,4,False,False
 main,Hadza,hadz1240,Hadza,exact,False,rule:exact,,20,True,True
 main,Hadza1,hadz1240,Hadza,exact,False,rule:exact,,5,True,True
@@ -194,12 +194,12 @@ main,Japanese,nucl1643,Japanese,group_map_down,False,rule:group_map_down,,30,Tru
 main,Jew_Cochin,mala1464,Malayalam,dialect_rollup,False,person:Alexandru Craevschi,diaspora,5,True,True
 main,Jew_Ethiopian,amha1245,Amharic,exact,False,person:Alexandru Craevschi,diaspora,7,True,True
 main,Jew_Georgian,nucl1302,Georgian,dialect_rollup,False,person:Alexandru Craevschi,diaspora,9,True,True
-main,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,,9,False,False
-main,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,,9,False,False
-main,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,,7,False,False
-main,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,,7,False,False
-main,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,,9,False,False
-main,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,8,False,False
+main,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,diaspora,9,False,False
+main,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,diaspora,9,False,False
+main,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,diaspora,7,False,False
+main,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,diaspora,7,False,False
+main,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,diaspora,9,False,False
+main,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,diaspora,8,False,False
 main,Jordanian,nort3139,Levantine Arabic,dialect_rollup,False,person:Alexandru Craevschi,diaspora,10,True,True
 main,Ju_hoan_North,juho1239,South-Eastern Ju,exact,False,rule:exact,,16,True,False
 main,Ju_hoan_South,juho1239,South-Eastern Ju,exact,False,rule:exact,,9,True,False
@@ -250,7 +250,7 @@ main,Kurd_WGA,nort2641,Northern Kurdish,exact,False,rule:exact,,2,False,False
 main,Kusunda,kusu1250,Kusunda,exact,False,rule:exact,endangered,5,True,True
 main,Kyrgyz,kirg1245,Kirghiz,exact,False,rule:exact,,10,False,False
 main,LaJalca,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
-main,Lahu,lahu1253,Lahu,exact,False,rule:exact,,27,True,True
+main,Lahu,lahu1253,Lahu,exact,False,rule:exact,,8,True,True
 main,Lak,lakk1252,Lak,exact,False,rule:exact,,10,True,True
 main,Lebanese,nort3139,Levantine Arabic,exact,False,person:Alexandru Craevschi,diaspora,8,True,True
 main,Lebanese_Christian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,9,True,True
@@ -542,7 +542,6 @@ no_doubtful_language,Adygei_Shapsug_Black_Sea,adyg1241,West Circassian,dialect_r
 no_doubtful_language,Adygei_Shapsug_Kuban,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,1,False,False
 no_doubtful_language,Afar_WGA,afar1241,Afar,exact,False,rule:exact,,5,True,True
 no_doubtful_language,Ain_Touta_WGA,tach1249,Chaouia of the Aures,exact,False,rule:exact,,3,False,False
-no_doubtful_language,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
 no_doubtful_language,Aleut,aleu1260,Aleut,exact,False,rule:exact,,6,True,True
 no_doubtful_language,Aleut_Tlingit,aleu1260,Aleut,exact,False,rule:exact,,4,True,True
 no_doubtful_language,Algerian,alge1239,Algerian Arabic,exact,False,rule:exact,,5,False,False
@@ -557,7 +556,6 @@ no_doubtful_language,Arara,para1310,Pará Arára,exact,False,rule:exact,,4,False
 no_doubtful_language,Armenian,nucl1235,Eastern Armenian,exact,False,rule:exact,,11,True,True
 no_doubtful_language,Armenian_Hemsheni,homs1234,Western Armenian,dialect_rollup,False,rule:dialect_rollup,,8,False,False
 no_doubtful_language,Armenian_WGA,nucl1235,Eastern Armenian,exact,False,rule:exact,,3,True,True
-no_doubtful_language,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,,8,False,False
 no_doubtful_language,Assyrian,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,11,False,False
 no_doubtful_language,Assyrian,chal1275,Chaldean Neo-Aramaic,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_other_language,11,True,True
 no_doubtful_language,Assyrian_WGA,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,5,False,False
@@ -573,7 +571,6 @@ no_doubtful_language,Azeri_Azerbajan,nort2697,North Azerbaijani,exact,False,rule
 no_doubtful_language,Azeri_Dagestan,nort2697,North Azerbaijani,exact,False,rule:exact,,7,True,True
 no_doubtful_language,Azeri_WGA,nort2697,North Azerbaijani,exact,False,rule:exact,,2,True,True
 no_doubtful_language,Baining_Malasait,qaqe1238,Qaqet,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,4,True,False
-no_doubtful_language,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
 no_doubtful_language,Bajo,indo1317,Indonesian Bajau,exact,False,rule:exact,,10,False,False
 no_doubtful_language,Balkar,kara1465,Karachay-Balkar,exact,False,rule:exact,,10,False,False
 no_doubtful_language,Balochi,east2304,Eastern Balochi,exact,False,rule:exact,,24,False,False
@@ -597,7 +594,6 @@ no_doubtful_language,BedouinA,east2690,Eastern Egyptian Bedawi Arabic,exact,Fals
 no_doubtful_language,BedouinB,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,20,True,True
 no_doubtful_language,Belarusian,bela1254,Belarusian,exact,False,rule:exact,,10,True,True
 no_doubtful_language,Bengali,beng1280,Bengali,exact,False,rule:exact,,7,False,False
-no_doubtful_language,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,,13,True,True
 no_doubtful_language,Besermyan,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,6,False,False
 no_doubtful_language,BiakaPygmy,yaka1272,Yaka (Central African Republic),exact,False,rule:exact,,23,True,True
 no_doubtful_language,Bolivia_Quechua,sout2991,South Bolivian Quechua,exact,False,rule:exact,,2,False,False
@@ -659,10 +655,6 @@ no_doubtful_language,Evenk_Transbaikal,even1259,Evenki,exact,False,rule:exact,,1
 no_doubtful_language,Ezid,nort2641,Northern Kurdish,exact,False,rule:exact,,7,False,False
 no_doubtful_language,Finnish,finn1318,Finnish,exact,False,person:Alexandru Craevschi,,8,True,True
 no_doubtful_language,French_Central,stan1290,French,exact,False,person:Alexandru Craevschi,,26,True,True
-no_doubtful_language,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
-no_doubtful_language,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
-no_doubtful_language,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,,7,True,True
-no_doubtful_language,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
 no_doubtful_language,Gagauz,gaga1249,Gagauz,exact,False,rule:exact,,9,True,True
 no_doubtful_language,Gambian,mand1436,Mandinka,exact,False,rule:exact,,6,True,True
 no_doubtful_language,Gana,gana1274,//Gana,exact,False,rule:exact,,8,False,False
@@ -670,14 +662,8 @@ no_doubtful_language,Georgian,nucl1302,Georgian,exact,False,rule:exact,,12,True,
 no_doubtful_language,Georgian_Imeretins,nucl1302,Georgian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
 no_doubtful_language,Georgian_Laz,lazz1240,Laz,exact,False,rule:exact,,6,True,True
 no_doubtful_language,German_Lipsian,stan1295,German,exact,False,rule:exact,,10,False,False
-no_doubtful_language,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
-no_doubtful_language,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,14,True,True
-no_doubtful_language,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,18,True,True
 no_doubtful_language,Guarani,mbya1239,Mbyá Guaraní,exact,False,rule:exact,,5,True,True
 no_doubtful_language,Gui,gwii1239,/Gwi,exact,False,rule:exact,,11,False,False
-no_doubtful_language,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
-no_doubtful_language,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
-no_doubtful_language,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
 no_doubtful_language,GujaratiD,guja1252,Gujarati,exact,False,rule:exact,,4,False,False
 no_doubtful_language,Hadza,hadz1240,Hadza,exact,False,rule:exact,,20,True,True
 no_doubtful_language,Hadza1,hadz1240,Hadza,exact,False,rule:exact,,5,True,True
@@ -709,12 +695,6 @@ no_doubtful_language,Italian_Calabria,neap1235,Continental Southern Italian,exac
 no_doubtful_language,Italian_South,ital1282,Italian,proxy_gbi_tli,True,person:Alexandru Craevschi,stand_in_other_language,3,True,True
 no_doubtful_language,Italian_South,neap1235,Continental Southern Italian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
 no_doubtful_language,Japanese,nucl1643,Japanese,group_map_down,False,rule:group_map_down,,30,True,True
-no_doubtful_language,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,,9,False,False
-no_doubtful_language,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,,9,False,False
-no_doubtful_language,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,,7,False,False
-no_doubtful_language,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,,7,False,False
-no_doubtful_language,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,,9,False,False
-no_doubtful_language,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,8,False,False
 no_doubtful_language,Ju_hoan_North,juho1239,South-Eastern Ju,exact,False,rule:exact,,16,True,False
 no_doubtful_language,Ju_hoan_South,juho1239,South-Eastern Ju,exact,False,rule:exact,,9,True,False
 no_doubtful_language,Kabardinian,kaba1278,Kabardian,exact,False,rule:exact,,10,True,True
@@ -761,7 +741,7 @@ no_doubtful_language,Kurd,nort2641,Northern Kurdish,exact,False,rule:exact,,9,Fa
 no_doubtful_language,Kurd_WGA,nort2641,Northern Kurdish,exact,False,rule:exact,,2,False,False
 no_doubtful_language,Kyrgyz,kirg1245,Kirghiz,exact,False,rule:exact,,10,False,False
 no_doubtful_language,LaJalca,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
-no_doubtful_language,Lahu,lahu1253,Lahu,exact,False,rule:exact,,27,True,True
+no_doubtful_language,Lahu,lahu1253,Lahu,exact,False,rule:exact,,8,True,True
 no_doubtful_language,Lak,lakk1252,Lak,exact,False,rule:exact,,10,True,True
 no_doubtful_language,Lebanese_Christian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,9,True,True
 no_doubtful_language,Lebanese_Muslim,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,11,True,True
@@ -1020,7 +1000,7 @@ no_other_language_stand_ins,Adygei_Shapsug_Black_Sea,adyg1241,West Circassian,di
 no_other_language_stand_ins,Adygei_Shapsug_Kuban,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,1,False,False
 no_other_language_stand_ins,Afar_WGA,afar1241,Afar,exact,False,rule:exact,,5,True,True
 no_other_language_stand_ins,Ain_Touta_WGA,tach1249,Chaouia of the Aures,exact,False,rule:exact,,3,False,False
-no_other_language_stand_ins,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
+no_other_language_stand_ins,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,6,True,True
 no_other_language_stand_ins,Aleut,aleu1260,Aleut,exact,False,rule:exact,,6,True,True
 no_other_language_stand_ins,Aleut_Tlingit,aleu1260,Aleut,exact,False,rule:exact,,4,True,True
 no_other_language_stand_ins,Algerian,alge1239,Algerian Arabic,exact,False,rule:exact,,5,False,False
@@ -1035,7 +1015,7 @@ no_other_language_stand_ins,Arara,para1310,Pará Arára,exact,False,rule:exact,,
 no_other_language_stand_ins,Armenian,nucl1235,Eastern Armenian,exact,False,rule:exact,,11,True,True
 no_other_language_stand_ins,Armenian_Hemsheni,homs1234,Western Armenian,dialect_rollup,False,rule:dialect_rollup,,8,False,False
 no_other_language_stand_ins,Armenian_WGA,nucl1235,Eastern Armenian,exact,False,rule:exact,,3,True,True
-no_other_language_stand_ins,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,diaspora,8,False,False
 no_other_language_stand_ins,Assyrian,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,11,False,False
 no_other_language_stand_ins,Assyrian_WGA,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,5,False,False
 no_other_language_stand_ins,Ata_Bili,pele1245,Pele-Ata,exact,False,rule:exact,,1,True,False
@@ -1049,7 +1029,7 @@ no_other_language_stand_ins,Azeri_Azerbajan,nort2697,North Azerbaijani,exact,Fal
 no_other_language_stand_ins,Azeri_Dagestan,nort2697,North Azerbaijani,exact,False,rule:exact,,7,True,True
 no_other_language_stand_ins,Azeri_WGA,nort2697,North Azerbaijani,exact,False,rule:exact,,2,True,True
 no_other_language_stand_ins,Baining_Malasait,qaqe1238,Qaqet,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,4,True,False
-no_other_language_stand_ins,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
+no_other_language_stand_ins,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,10,True,False
 no_other_language_stand_ins,Bajo,indo1317,Indonesian Bajau,exact,False,rule:exact,,10,False,False
 no_other_language_stand_ins,Balkar,kara1465,Karachay-Balkar,exact,False,rule:exact,,10,False,False
 no_other_language_stand_ins,Balochi,east2304,Eastern Balochi,exact,False,rule:exact,,24,False,False
@@ -1072,7 +1052,7 @@ no_other_language_stand_ins,BedouinA,east2690,Eastern Egyptian Bedawi Arabic,exa
 no_other_language_stand_ins,BedouinB,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,20,True,True
 no_other_language_stand_ins,Belarusian,bela1254,Belarusian,exact,False,rule:exact,,10,True,True
 no_other_language_stand_ins,Bengali,beng1280,Bengali,exact,False,rule:exact,,7,False,False
-no_other_language_stand_ins,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,,13,True,True
+no_other_language_stand_ins,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,regional_shift,13,True,True
 no_other_language_stand_ins,Besermyan,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,6,False,False
 no_other_language_stand_ins,BiakaPygmy,yaka1272,Yaka (Central African Republic),exact,False,rule:exact,,23,True,True
 no_other_language_stand_ins,Bolivia_Quechua,sout2991,South Bolivian Quechua,exact,False,rule:exact,,2,False,False
@@ -1140,10 +1120,10 @@ no_other_language_stand_ins,Evenk_Transbaikal,even1259,Evenki,exact,False,rule:e
 no_other_language_stand_ins,Ezid,nort2641,Northern Kurdish,exact,False,rule:exact,,7,False,False
 no_other_language_stand_ins,Finnish,finn1318,Finnish,exact,False,person:Alexandru Craevschi,,8,True,True
 no_other_language_stand_ins,French_Central,stan1290,French,exact,False,person:Alexandru Craevschi,,26,True,True
-no_other_language_stand_ins,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
-no_other_language_stand_ins,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
-no_other_language_stand_ins,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,,7,True,True
-no_other_language_stand_ins,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
+no_other_language_stand_ins,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,regional_shift,10,True,True
+no_other_language_stand_ins,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,regional_shift,10,True,True
+no_other_language_stand_ins,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,regional_shift,7,True,True
+no_other_language_stand_ins,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,regional_shift,10,True,True
 no_other_language_stand_ins,Gagauz,gaga1249,Gagauz,exact,False,rule:exact,,9,True,True
 no_other_language_stand_ins,Gambian,mand1436,Mandinka,exact,False,rule:exact,,6,True,True
 no_other_language_stand_ins,Gana,gana1274,//Gana,exact,False,rule:exact,,8,False,False
@@ -1151,16 +1131,16 @@ no_other_language_stand_ins,Georgian,nucl1302,Georgian,exact,False,rule:exact,,1
 no_other_language_stand_ins,Georgian_Imeretins,nucl1302,Georgian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
 no_other_language_stand_ins,Georgian_Laz,lazz1240,Laz,exact,False,rule:exact,,6,True,True
 no_other_language_stand_ins,German_Lipsian,stan1295,German,exact,False,rule:exact,,10,False,False
-no_other_language_stand_ins,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
-no_other_language_stand_ins,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,14,True,True
-no_other_language_stand_ins,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,18,True,True
+no_other_language_stand_ins,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,8,True,True
+no_other_language_stand_ins,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,14,True,True
+no_other_language_stand_ins,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,group_choice;stand_in_no_own_language,18,True,True
 no_other_language_stand_ins,Guarani,mbya1239,Mbyá Guaraní,exact,False,rule:exact,,5,True,True
 no_other_language_stand_ins,Guarani_GN,mbya1239,Mbyá Guaraní,exact,False,person:Alexandru Craevschi,wrong_code,7,True,True
 no_other_language_stand_ins,Guarani_KW,mbya1239,Mbyá Guaraní,exact,False,person:Alexandru Craevschi,wrong_code,9,True,True
 no_other_language_stand_ins,Gui,gwii1239,/Gwi,exact,False,rule:exact,,11,False,False
-no_other_language_stand_ins,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
-no_other_language_stand_ins,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
-no_other_language_stand_ins,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
+no_other_language_stand_ins,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,diaspora,5,False,False
+no_other_language_stand_ins,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,diaspora,5,False,False
+no_other_language_stand_ins,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,diaspora,5,False,False
 no_other_language_stand_ins,GujaratiD,guja1252,Gujarati,exact,False,rule:exact,,4,False,False
 no_other_language_stand_ins,Hadza,hadz1240,Hadza,exact,False,rule:exact,,20,True,True
 no_other_language_stand_ins,Hadza1,hadz1240,Hadza,exact,False,rule:exact,,5,True,True
@@ -1196,12 +1176,12 @@ no_other_language_stand_ins,Japanese,nucl1643,Japanese,group_map_down,False,rule
 no_other_language_stand_ins,Jew_Cochin,mala1464,Malayalam,dialect_rollup,False,person:Alexandru Craevschi,diaspora,5,True,True
 no_other_language_stand_ins,Jew_Ethiopian,amha1245,Amharic,exact,False,person:Alexandru Craevschi,diaspora,7,True,True
 no_other_language_stand_ins,Jew_Georgian,nucl1302,Georgian,dialect_rollup,False,person:Alexandru Craevschi,diaspora,9,True,True
-no_other_language_stand_ins,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,,9,False,False
-no_other_language_stand_ins,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,,9,False,False
-no_other_language_stand_ins,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,,7,False,False
-no_other_language_stand_ins,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,,7,False,False
-no_other_language_stand_ins,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,,9,False,False
-no_other_language_stand_ins,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,8,False,False
+no_other_language_stand_ins,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,diaspora,9,False,False
+no_other_language_stand_ins,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,diaspora,9,False,False
+no_other_language_stand_ins,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,diaspora,7,False,False
+no_other_language_stand_ins,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,diaspora,7,False,False
+no_other_language_stand_ins,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,diaspora,9,False,False
+no_other_language_stand_ins,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,diaspora,8,False,False
 no_other_language_stand_ins,Jordanian,nort3139,Levantine Arabic,dialect_rollup,False,person:Alexandru Craevschi,diaspora,10,True,True
 no_other_language_stand_ins,Ju_hoan_North,juho1239,South-Eastern Ju,exact,False,rule:exact,,16,True,False
 no_other_language_stand_ins,Ju_hoan_South,juho1239,South-Eastern Ju,exact,False,rule:exact,,9,True,False
@@ -1252,7 +1232,7 @@ no_other_language_stand_ins,Kurd_WGA,nort2641,Northern Kurdish,exact,False,rule:
 no_other_language_stand_ins,Kusunda,kusu1250,Kusunda,exact,False,rule:exact,endangered,5,True,True
 no_other_language_stand_ins,Kyrgyz,kirg1245,Kirghiz,exact,False,rule:exact,,10,False,False
 no_other_language_stand_ins,LaJalca,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
-no_other_language_stand_ins,Lahu,lahu1253,Lahu,exact,False,rule:exact,,27,True,True
+no_other_language_stand_ins,Lahu,lahu1253,Lahu,exact,False,rule:exact,,8,True,True
 no_other_language_stand_ins,Lak,lakk1252,Lak,exact,False,rule:exact,,10,True,True
 no_other_language_stand_ins,Lebanese,nort3139,Levantine Arabic,exact,False,person:Alexandru Craevschi,diaspora,8,True,True
 no_other_language_stand_ins,Lebanese_Christian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,9,True,True
@@ -1537,7 +1517,6 @@ strict,Adygei_Shapsug_Black_Sea,adyg1241,West Circassian,dialect_rollup,False,ru
 strict,Adygei_Shapsug_Kuban,adyg1241,West Circassian,dialect_rollup,False,rule:dialect_rollup,,1,False,False
 strict,Afar_WGA,afar1241,Afar,exact,False,rule:exact,,5,True,True
 strict,Ain_Touta_WGA,tach1249,Chaouia of the Aures,exact,False,rule:exact,,3,False,False
-strict,Albanian,gheg1238,Gheg Albanian,proxy_gbi,True,rule:graff_gbi_stand_in,stand_in_no_own_language,6,True,True
 strict,Aleut,aleu1260,Aleut,exact,False,rule:exact,,6,True,True
 strict,Aleut_Tlingit,aleu1260,Aleut,exact,False,rule:exact,,4,True,True
 strict,Algerian,alge1239,Algerian Arabic,exact,False,rule:exact,,5,False,False
@@ -1552,7 +1531,6 @@ strict,Arara,para1310,Pará Arára,exact,False,rule:exact,,4,False,False
 strict,Armenian,nucl1235,Eastern Armenian,exact,False,rule:exact,,11,True,True
 strict,Armenian_Hemsheni,homs1234,Western Armenian,dialect_rollup,False,rule:dialect_rollup,,8,False,False
 strict,Armenian_WGA,nucl1235,Eastern Armenian,exact,False,rule:exact,,3,True,True
-strict,Ashkenazi_Jew,east2295,Eastern Yiddish,exact,False,rule:exact,,8,False,False
 strict,Assyrian,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,11,False,False
 strict,Assyrian_WGA,assy1241,Assyrian Neo-Aramaic,exact,False,rule:exact,,5,False,False
 strict,Ata_Bili,pele1245,Pele-Ata,exact,False,rule:exact,,1,True,False
@@ -1566,7 +1544,6 @@ strict,Azeri_Azerbajan,nort2697,North Azerbaijani,exact,False,rule:exact,,9,True
 strict,Azeri_Dagestan,nort2697,North Azerbaijani,exact,False,rule:exact,,7,True,True
 strict,Azeri_WGA,nort2697,North Azerbaijani,exact,False,rule:exact,,2,True,True
 strict,Baining_Malasait,qaqe1238,Qaqet,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,4,True,False
-strict,Baining_Marabu,mali1284,Mali,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,10,True,False
 strict,Bajo,indo1317,Indonesian Bajau,exact,False,rule:exact,,10,False,False
 strict,Balkar,kara1465,Karachay-Balkar,exact,False,rule:exact,,10,False,False
 strict,Balochi,east2304,Eastern Balochi,exact,False,rule:exact,,24,False,False
@@ -1589,7 +1566,6 @@ strict,BedouinA,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,
 strict,BedouinB,east2690,Eastern Egyptian Bedawi Arabic,exact,False,rule:exact,,20,True,True
 strict,Belarusian,bela1254,Belarusian,exact,False,rule:exact,,10,True,True
 strict,Bengali,beng1280,Bengali,exact,False,rule:exact,,7,False,False
-strict,Bergamo,ital1282,Italian,exact,False,person:Alexandru Craevschi,,13,True,True
 strict,Besermyan,udmu1245,Udmurt,dialect_rollup,False,rule:dialect_rollup,,6,False,False
 strict,BiakaPygmy,yaka1272,Yaka (Central African Republic),exact,False,rule:exact,,23,True,True
 strict,Bolivia_Quechua,sout2991,South Bolivian Quechua,exact,False,rule:exact,,2,False,False
@@ -1648,10 +1624,6 @@ strict,Evenk_Transbaikal,even1259,Evenki,exact,False,rule:exact,,11,True,True
 strict,Ezid,nort2641,Northern Kurdish,exact,False,rule:exact,,7,False,False
 strict,Finnish,finn1318,Finnish,exact,False,person:Alexandru Craevschi,,8,True,True
 strict,French_Central,stan1290,French,exact,False,person:Alexandru Craevschi,,26,True,True
-strict,French_East,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
-strict,French_Northwest,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
-strict,French_South,stan1290,French,exact,False,person:Alexandru Craevschi,,7,True,True
-strict,French_West,stan1290,French,exact,False,person:Alexandru Craevschi,,10,True,True
 strict,Gagauz,gaga1249,Gagauz,exact,False,rule:exact,,9,True,True
 strict,Gambian,mand1436,Mandinka,exact,False,rule:exact,,6,True,True
 strict,Gana,gana1274,//Gana,exact,False,rule:exact,,8,False,False
@@ -1659,14 +1631,8 @@ strict,Georgian,nucl1302,Georgian,exact,False,rule:exact,,12,True,True
 strict,Georgian_Imeretins,nucl1302,Georgian,dialect_rollup,False,rule:dialect_rollup,,6,True,True
 strict,Georgian_Laz,lazz1240,Laz,exact,False,rule:exact,,6,True,True
 strict,German_Lipsian,stan1295,German,exact,False,rule:exact,,10,False,False
-strict,Greek_Athens,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,8,True,True
-strict,Greek_Thessaloniki,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,14,True,True
-strict,Greek_WGA,mode1248,Modern Greek,proxy_gbi_tli,True,rule:graff_gbi_stand_in,stand_in_no_own_language,18,True,True
 strict,Guarani,mbya1239,Mbyá Guaraní,exact,False,rule:exact,,5,True,True
 strict,Gui,gwii1239,/Gwi,exact,False,rule:exact,,11,False,False
-strict,GujaratiA,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
-strict,GujaratiB,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
-strict,GujaratiC,guja1252,Gujarati,exact,False,rule:exact,,5,False,False
 strict,GujaratiD,guja1252,Gujarati,exact,False,rule:exact,,4,False,False
 strict,Hadza,hadz1240,Hadza,exact,False,rule:exact,,20,True,True
 strict,Hadza1,hadz1240,Hadza,exact,False,rule:exact,,5,True,True
@@ -1696,12 +1662,6 @@ strict,Irish_Ulster,iris1253,Irish,dialect_rollup,False,rule:dialect_rollup,,6,T
 strict,Italian_Calabria,neap1235,Continental Southern Italian,exact,False,rule:exact,,1,False,False
 strict,Italian_South,neap1235,Continental Southern Italian,dialect_rollup,False,rule:dialect_rollup,,3,False,False
 strict,Japanese,nucl1643,Japanese,group_map_down,False,rule:group_map_down,,30,True,True
-strict,Jew_Iraqi,jude1266,Judeo-Iraqi Arabic,exact,False,rule:exact,,9,False,False
-strict,Jew_Libyan,jude1264,Judeo-Tripolitanian Arabic,exact,False,rule:exact,,9,False,False
-strict,Jew_Moroccan,jude1265,Judeo-Moroccan Arabic,exact,False,rule:exact,,7,False,False
-strict,Jew_Tunisian,tuni1259,Tunisian Arabic,dialect_rollup,False,rule:dialect_rollup,,7,False,False
-strict,Jew_Turkish,ladi1251,Ladino,exact,False,rule:exact,,9,False,False
-strict,Jew_Yemenite,jude1267,Judeo-Yemeni Arabic,exact,False,rule:exact,,8,False,False
 strict,Ju_hoan_North,juho1239,South-Eastern Ju,exact,False,rule:exact,,16,True,False
 strict,Ju_hoan_South,juho1239,South-Eastern Ju,exact,False,rule:exact,,9,True,False
 strict,Kabardinian,kaba1278,Kabardian,exact,False,rule:exact,,10,True,True
@@ -1748,7 +1708,7 @@ strict,Kurd,nort2641,Northern Kurdish,exact,False,rule:exact,,9,False,False
 strict,Kurd_WGA,nort2641,Northern Kurdish,exact,False,rule:exact,,2,False,False
 strict,Kyrgyz,kirg1245,Kirghiz,exact,False,rule:exact,,10,False,False
 strict,LaJalca,chac1250,Chachapoyas Quechua,exact,False,rule:exact,,11,False,False
-strict,Lahu,lahu1253,Lahu,exact,False,rule:exact,,27,True,True
+strict,Lahu,lahu1253,Lahu,exact,False,rule:exact,,8,True,True
 strict,Lak,lakk1252,Lak,exact,False,rule:exact,,10,True,True
 strict,Lebanese_Christian,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,9,True,True
 strict,Lebanese_Muslim,nort3139,Levantine Arabic,dialect_rollup,False,rule:dialect_rollup,,11,True,True
