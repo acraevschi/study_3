@@ -10,9 +10,9 @@
           "individuals": 808
         },
         "no_doubtful_language": {
-          "languages": 42,
-          "populations": 101,
-          "individuals": 774
+          "languages": 39,
+          "populations": 91,
+          "individuals": 670
         },
         "no_other_language_stand_ins": {
           "languages": 44,
@@ -20,9 +20,9 @@
           "individuals": 787
         },
         "strict": {
-          "languages": 42,
-          "populations": 98,
-          "individuals": 763
+          "languages": 39,
+          "populations": 88,
+          "individuals": 659
         }
       },
       "n_has_pop": 45,
@@ -30,7 +30,14 @@
       "n_uniform480": 24,
       "n_topfreq120": 32,
       "n_neural": 9,
-      "n_track1_overlap": 34,
+      "n_track1_overlap": 35,
+      "n_track1_domains": {
+        "v_breadth": 35,
+        "n_breadth": 35,
+        "v_irreg": 32,
+        "n_irreg": 30,
+        "np_agr": 34
+      },
       "n_languages_entrenchment": 44,
       "n_lemmas_entrenchment": 21078,
       "pooled_per_individual_sd": {
@@ -51,9 +58,9 @@
           "individuals": 1025
         },
         "no_doubtful_language": {
-          "languages": 46,
-          "populations": 131,
-          "individuals": 982
+          "languages": 44,
+          "populations": 119,
+          "individuals": 871
         },
         "no_other_language_stand_ins": {
           "languages": 48,
@@ -61,9 +68,9 @@
           "individuals": 1004
         },
         "strict": {
-          "languages": 46,
-          "populations": 128,
-          "individuals": 971
+          "languages": 44,
+          "populations": 116,
+          "individuals": 860
         }
       },
       "n_has_pop": 49,
@@ -72,6 +79,13 @@
       "n_topfreq120": 42,
       "n_neural": 3,
       "n_track1_overlap": 38,
+      "n_track1_domains": {
+        "v_breadth": 38,
+        "n_breadth": 38,
+        "v_irreg": 35,
+        "n_irreg": 34,
+        "np_agr": 38
+      },
       "n_languages_entrenchment": 46,
       "n_lemmas_entrenchment": 26956,
       "pooled_per_individual_sd": {
