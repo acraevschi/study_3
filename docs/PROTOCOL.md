@@ -1,8 +1,7 @@
-# Experimental protocol (declared before selection and outer-test evaluation)
+# Experimental protocol (`morph_ldl` / `pcfp_v2` upstream pilot)
 
-Owner: main agent. Status: **pcfp_v2** (`configs/pcfp_v2.yaml` and
-`configs/pcfp_v2_links.yaml`: the repeated-random design of §4b, [REPORT_pcfp_v2.md](REPORT_pcfp_v2.md);
-active selection from `pcfp_v1` remains available under `cv.design: core_selected`).
+> **Scope note:** This document specifies the upstream `morph_ldl` / `pcfp_v2` pilot (`configs/pcfp_v2.yaml` and `configs/pcfp_v2_links.yaml`: the repeated-random `JudiLing.jl` LDL design of §4b and the GeLaTo linkage rules; active selection from `pcfp_v1` remains available under `cv.design: core_selected`). For the full Study 3 cross-linguistic pipelines—**Track 1** (`N = 225` Grambank languages, 5 clean domains, `f3_fixed`) and **Track 2** (`56` languages, `106` paradigm units, Vowel-Tier MGL + 3-seed Neural + Stage-2 `f3_fixed` & entrenchment)—see [`analyses/README.md`](../analyses/README.md).
+
 Component details: [DATA.md](DATA.md), [SELECTION.md](SELECTION.md),
 [LDL_PROTOCOL.md](LDL_PROTOCOL.md), [TYPOLOGY.md](TYPOLOGY.md); interfaces:
 [CONTRACT.md](CONTRACT.md).

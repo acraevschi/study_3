@@ -1,6 +1,6 @@
-"""Unit and end-to-end R `PARA_DRY=1` verification tests for Track 2 Stage-2 Bayesian
-preparation, Berkson regression, equivalence (`BF_01`/ROPE), and token-frequency entrenchment
-(`analyses/paradigm/stage2/`).
+"""Unit and end-to-end R `PARA_DRY=1` / `ENT_DRY=1` verification tests for Track 2 Stage-2
+Bayesian preparation, Berkson regression, equivalence (`BF_01`/ROPE), and token-frequency
+entrenchment (`analyses/paradigm/stage2/`).
 """
 
 from __future__ import annotations
@@ -25,9 +25,11 @@ from analyses.paradigm.stage2.prepare_stage2 import (
     DEFAULT_OUT_DIR,
     DEFAULT_PARADIGM_DATA_DIR,
     SETS,
+    TRACK1_DOMAIN_GATES,
     TRACKED_LINKS_CSV,
     build_smoke_test_inputs,
     classify_source_provenance,
+    load_track1_overlap,
     prepare_stage2_inputs,
     resolve_links_for_glottocodes,
 )
@@ -64,14 +66,85 @@ def test_link_resolution_nonproxy_precedence_and_standin_filtering() -> None:
     assert "Italian_Calabria" in in_set_ita["main"]
     assert "Italian_Calabria" not in in_set_ita["no_other_language_stand_ins"]
     assert "Italian_Calabria" not in in_set_ita["strict"]
-    assert "Bergamo" in in_set_ita["strict"]
+    assert "Bergamo" in in_set_ita["main"]
+    assert "Bergamo" not in in_set_ita["strict"]
+    assert "Tuscan" in in_set_ita["strict"]
+
+
+def test_load_track1_overlap_5domain_gating_and_legacy_fallback(tmp_path: Path) -> None:
+    """Verify >=60% gating for 5-domain Track-1 proportions and graceful legacy fallback."""
+    # 1. New 5-domain schema
+    gb_new = tmp_path / "gb_new"
+    gb_new.mkdir()
+    with open(gb_new / "language_data.csv", "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=[
+                "glottocode", "in_main",
+                "v_breadth_present", "v_breadth_coded",
+                "n_breadth_present", "n_breadth_coded",
+                "v_irreg_present", "v_irreg_coded",
+                "n_irreg_present", "n_irreg_coded",
+                "np_agr_present", "np_agr_coded",
+            ],
+        )
+        w.writeheader()
+        w.writerow({
+            "glottocode": "taga1270", "in_main": "1",
+            "v_breadth_present": "4", "v_breadth_coded": "6",  # >=6/9 passes
+            "n_breadth_present": "1", "n_breadth_coded": "2",  # <3/5 gated to NaN
+            "v_irreg_present": "2", "v_irreg_coded": "3",      # >=3/5 passes
+            "n_irreg_present": "0", "n_irreg_coded": "1",      # <2/3 gated to NaN
+            "np_agr_present": "3", "np_agr_coded": "5",        # >=5/7 passes
+        })
+        w.writerow({
+            "glottocode": "lowc1234", "in_main": "1",
+            "v_breadth_present": "2", "v_breadth_coded": "5",
+            "n_breadth_present": "1", "n_breadth_coded": "2",
+            "v_irreg_present": "0", "v_irreg_coded": "2",
+            "n_irreg_present": "0", "n_irreg_coded": "1",
+            "np_agr_present": "1", "np_agr_coded": "4",
+        })
+    ov_new = load_track1_overlap(gb_data_dir=gb_new, gb_sem_dir=tmp_path / "no_sem")
+    assert ov_new["taga1270"]["in_track1"] == 1
+    assert abs(float(ov_new["taga1270"]["v_breadth_prop"]) - 4.0 / 6.0) < 1e-9
+    assert math.isnan(float(ov_new["taga1270"]["n_breadth_prop"]))
+    assert abs(float(ov_new["taga1270"]["v_irreg_prop"]) - 2.0 / 3.0) < 1e-9
+    assert math.isnan(float(ov_new["taga1270"]["n_irreg_prop"]))
+    assert abs(float(ov_new["taga1270"]["np_agr_prop"]) - 3.0 / 5.0) < 1e-9
+    assert ov_new["lowc1234"]["in_track1"] == 0
+
+    # 2. Legacy schema fallback
+    gb_old = tmp_path / "gb_old"
+    gb_old.mkdir()
+    with open(gb_old / "language_data.csv", "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=["glottocode", "in_main", "n_present", "n_coded", "irreg13_present", "irreg13_coded"],
+        )
+        w.writeheader()
+        w.writerow({
+            "glottocode": "finn1318", "in_main": "1",
+            "n_present": "10", "n_coded": "12",
+            "irreg13_present": "4", "irreg13_coded": "13",
+        })
+    ov_old = load_track1_overlap(gb_data_dir=gb_old, gb_sem_dir=tmp_path / "no_sem")
+    assert ov_old["finn1318"]["in_track1"] == 1
+    assert abs(float(ov_old["finn1318"]["irreg13_prop"]) - 4.0 / 13.0) < 1e-9
+    assert math.isnan(float(ov_old["finn1318"]["v_breadth_prop"]))
 
 
 def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
-    """Build Stage-2 V/N tables on real GeLaTo genetics/trees and validate R Stan models."""
+    """Build Stage-2 V/N tables on real GeLaTo genetics/trees and validate harmonized R Stan models."""
     prep_dir = build_smoke_test_inputs(tmp_path)
     out_dir = tmp_path / "stage2_out"
     out_dir.mkdir(parents=True, exist_ok=True)
+
+    required_pop_cols = {
+        "f3_fixed", "f3_fixed_iso", "f3_fixed_raw", "f3_fixed_se", "f3_all_fixed",
+        "f4_est", "f4_se", "neigh_flow_out", "median_fst_all",
+        "regime_a_enclave", "regime_b_shift", "barbieri_mismatch",
+    }
 
     for pos in ("V", "N"):
         ld_path = prep_dir / f"language_data_{pos}.csv"
@@ -84,18 +157,30 @@ def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
         assert nwk_path.exists() and lf_path.exists()
 
         with open(ld_path, encoding="utf-8") as f:
-            ld_rows = list(csv.DictReader(f))
+            ld_reader = csv.DictReader(f)
+            ld_cols = set(ld_reader.fieldnames or [])
+            ld_rows = list(ld_reader)
         assert len(ld_rows) == 18
-        # Strict 1-row-per-glottocode invariant
+        # Strict 1-row-per-glottocode invariant & absence of cross-language mean_token_freq
         gcs = [r["glottocode"] for r in ld_rows]
         assert len(set(gcs)) == len(gcs)
-        # Track 1 overlap populated (e.g. ital1282, finn1318, russ1263 are in Grambank)
+        assert "mean_token_freq" not in ld_cols
+        for dom, _, _ in TRACK1_DOMAIN_GATES:
+            assert f"{dom}_prop" in ld_cols
+        assert {"f3_fixed_maxp", "median_fst_all", "regime_a_enclave", "regime_b_shift"} <= ld_cols
+
+        # Track 1 overlap populated with 5-domain proportions
         n_t1 = sum(int(r["in_track1"]) for r in ld_rows)
         assert n_t1 >= 10
         assert any(
-            r["theta_irreg13_eap"] != "" and math.isfinite(float(r["theta_irreg13_eap"]))
+            r["v_breadth_prop"] != "" and math.isfinite(float(r["v_breadth_prop"]))
             for r in ld_rows
         )
+
+        # Population table exposes harmonized f3_fixed & FST regime columns
+        with open(pop_path, encoding="utf-8") as f:
+            pop_reader = csv.DictReader(f)
+            assert required_pop_cols <= set(pop_reader.fieldnames or [])
 
         # Within-language z_freq_within must have exact mean 0 and unit SD per glottocode
         with open(lf_path, encoding="utf-8") as f:
@@ -109,19 +194,37 @@ def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
             assert abs(float(np.mean(arr))) < 1e-4, f"{gc} z_freq mean={np.mean(arr)}"
             assert abs(float(np.std(arr, ddof=1)) - 1.0) < 1e-4, f"{gc} z_freq sd={np.std(arr, ddof=1)}"
 
-    # Run `PARA_DRY=1 Rscript analyses/paradigm/stage2/fit_stage2.R`
+    # Mock SEM latent EAP table to verify construct correlations ingest theta_*_eap & theta0_*_eap
+    sem_eap_mock = tmp_path / "sem_latent_eap.csv"
+    with open(prep_dir / "language_data_V.csv", encoding="utf-8") as f:
+        mock_gcs = [r["glottocode"] for r in csv.DictReader(f)]
+    with open(sem_eap_mock, "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=["glottocode", "theta_v_breadth_eap", "theta0_v_breadth_eap", "theta_n_breadth_eap"],
+        )
+        w.writeheader()
+        for idx, gc in enumerate(mock_gcs):
+            w.writerow({
+                "glottocode": gc,
+                "theta_v_breadth_eap": f"{(idx - 8.5) * 0.15:.4f}",
+                "theta0_v_breadth_eap": f"{(idx - 8.5) * 0.12:.4f}",
+                "theta_n_breadth_eap": f"{(idx - 8.5) * 0.10:.4f}",
+            })
+
+    # Run `PARA_DRY=1 Rscript analyses/paradigm/stage2/fit_stage2.R` with harmonized defaults (`f3_fixed`)
     env = {
         **os.environ,
         "PARA_DRY": "1",
-        "PARA_CORES": "2",
         "PARA_POS": "V,N",
-        "PARA_SETS": "main,strict",
-        "PARA_MEASURES": "ent,sqrt_het,f3k_est_pos",
+        "PARA_SETS": "main",
+        "PARA_MEASURES": "f3_fixed",
         "PARA_DATA_DIR": str(prep_dir),
         "PARA_OUT_DIR": str(out_dir),
+        "PARA_SEM_EAP_CSV": str(sem_eap_mock),
     }
     res_s2 = subprocess.run(
-        ["Rscript", str(REPO_ROOT / "analyses/paradigm/stage2/fit_stage2.R")],
+        ["Rscript", str(REPO_ROOT / "analyses/paradigm/stage2/fit_stage2.R"), "--cores=2"],
         cwd=REPO_ROOT,
         env=env,
         capture_output=True,
@@ -130,47 +233,98 @@ def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
     )
     assert res_s2.returncode == 0, f"fit_stage2.R failed:\nSTDOUT:\n{res_s2.stdout}\nSTDERR:\n{res_s2.stderr}"
 
+    block1_groups = {
+        "maximal", "loo_no_space", "loo_no_cdist", "loo_no_demog",
+        "loo_no_lexprov", "mundlak_wb", "null_baseline",
+    }
+    block2_expected = {
+        "full_sample_PS", "cutoff_n5", "strict_links",
+        "bouckaert_stem", "bouckaert_crown", "no_inner_asia",
+        "tier2_uniform480", "topfreq120", "pcfp_k1", "pcfp_k3",
+        "reliability", "neural_monotonic",
+        "f3_all_fixed", "f3_fixed_iso", "f3_fixed_maxp", "f3_fixed_raw",
+        "f4_est", "neigh_flow_out",
+        "drop_regime_a", "drop_regime_b", "plus_regime_b",
+        "me_baseline", "berkson_20draw",
+    }
+
     for pos in ("V", "N"):
         dry_csv = out_dir / f"stage2_results_{pos}_dry.csv"
         assert dry_csv.exists()
         with open(dry_csv, encoding="utf-8") as f:
             s2_rows = list(csv.DictReader(f))
         spec_groups = {r["spec_group"] for r in s2_rows}
-        expected_groups = {
-            "baseline",
-            "full_covs",
-            "full_covs_mundlak",
-            "primary_demog",
-            "primary_demog_mundlak",
-            "bouckaert",
-            "ctrl_C_distinct",
-            "tier2_uniform480",
-            "topfreq120",
-            "pcfp_k1",
-            "pcfp_k3",
-            "reliability",
-            "neural_monotonic",
-            "no_turk_mong",
-            "no_inner_asia",
-            "link_sensitivity",
-            "berkson_20draw",
-        }
-        assert expected_groups <= spec_groups, f"Missing spec groups: {expected_groups - spec_groups}"
+        assert block1_groups <= spec_groups, f"Missing Block-1 specs: {block1_groups - spec_groups}"
+        assert block2_expected <= spec_groups, f"Missing Block-2 specs: {block2_expected - spec_groups}"
 
-    corr_csv = out_dir / "cross_track_correlations.csv"
+        # Block-1 locked complete-case N invariant: all 7 Block-1 specs must share identical n_lang
+        b1_rows = [r for r in s2_rows if r["block"] == "block1"]
+        assert len(b1_rows) == 7
+        assert len({int(r["n_lang"]) for r in b1_rows}) == 1, f"Block-1 n_lang mismatch: {b1_rows}"
+
+        # Verify mean_token_freq is never used in any Stage-2 regression formula
+        assert all("mean_token_freq" not in r["formula"] for r in s2_rows)
+
+        # Verify f3_fixed_raw and neigh_flow_out include z_median_fst_all
+        by_grp = {r["spec_group"]: r for r in s2_rows}
+        assert "z_median_fst_all" in by_grp["f3_fixed_raw"]["formula"]
+        assert "z_median_fst_all" in by_grp["neigh_flow_out"]["formula"]
+        assert "me(x, x_sd)" in by_grp["me_baseline"]["formula"]
+        assert "gp(sx, sy, sz)" in by_grp["maximal"]["formula"]
+        assert "gp(sx, sy, sz)" not in by_grp["loo_no_space"]["formula"]
+        assert "z_log_C_distinct" not in by_grp["loo_no_cdist"]["formula"]
+
+    corr_csv = out_dir / "cross_track_correlations_dry.csv"
     assert corr_csv.exists()
+    assert not (out_dir / "cross_track_correlations.csv").exists()
     with open(corr_csv, encoding="utf-8") as f:
         corr_rows = list(csv.DictReader(f))
     comp_names = {r["comparison"] for r in corr_rows}
-    assert "H_tree_V_vs_Track1_irreg13_prop" in comp_names
-    assert "H_tree_N_vs_Track1_theta_irreg13_EAP" in comp_names
+    assert "H_tree_V_vs_Track1_v_breadth_prop" in comp_names
+    assert "log_C_distinct_N_vs_Track1_n_breadth_prop" in comp_names
+    assert "H_tree_N_vs_Track1_n_irreg_prop" in comp_names
+    assert "H_tree_V_vs_Track1_theta_v_breadth_eap" in comp_names
+    assert "log_C_distinct_V_vs_Track1_theta0_v_breadth_eap" in comp_names
     assert "H_tree_V_vs_H_tree_N" in comp_names
 
-    # Run `PARA_DRY=1 Rscript analyses/paradigm/stage2/fit_entrenchment.R`
+    # Verify spatial GP lscale prior inv_gamma(3, 0.4) is literally emitted in Stan code (0 warnings)
+    res_lscale = subprocess.run(
+        [
+            "Rscript", "-e",
+            "suppressPackageStartupMessages(library(brms)); "
+            "source_lines <- readLines('analyses/paradigm/stage2/fit_stage2.R'); "
+            "i1 <- grep('^make_stage2_prior <-', source_lines)[1]; "
+            "i2 <- grep('^fit_stage2_brm <-', source_lines)[1] - 1; "
+            "eval(parse(text = paste(source_lines[i1:i2], collapse = '\\n'))); "
+            "pr <- make_stage2_prior(TRUE, TRUE, TRUE); "
+            "stopifnot(any(pr$class == 'lscale' & pr$coef == 'gpsxsysz' & pr$prior == 'inv_gamma(3, 0.4)')); "
+            "df <- data.frame(y=rnorm(10), se_y=rep(0.1,10), x=rnorm(10), sx=rnorm(10), sy=rnorm(10), sz=rnorm(10), lang=paste0('l',1:10)); "
+            "sc <- make_stancode(bf(y | se(se_y, sigma = TRUE) ~ 1 + x + gp(sx, sy, sz)), data=df, family=gaussian(), prior=make_stage2_prior(TRUE, FALSE, TRUE)); "
+            "stopifnot(grepl('inv_gamma_lpdf(lscale_1[1][1] | 3, 0.4)', sc, fixed = TRUE)); "
+            "cat('OK_LSCALE\\n')",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    assert res_lscale.returncode == 0 and "OK_LSCALE" in res_lscale.stdout, res_lscale.stderr
+
+    # Run `ENT_DRY=1 Rscript analyses/paradigm/stage2/fit_entrenchment.R`
+    env_ent = {
+        **os.environ,
+        "ENT_DRY": "1",
+        "ENT_CORES": "2",
+        "ENT_POS": "V,N",
+        "ENT_MEASURES": "f3_fixed",
+        "ENT_CUTOFFS": "3,5",
+        "ENT_DATA_DIR": str(prep_dir),
+        "ENT_OUT_DIR": str(out_dir),
+    }
     res_ent = subprocess.run(
         ["Rscript", str(REPO_ROOT / "analyses/paradigm/stage2/fit_entrenchment.R")],
         cwd=REPO_ROOT,
-        env=env,
+        env=env_ent,
         capture_output=True,
         text=True,
         check=False,
@@ -182,15 +336,21 @@ def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
         with open(ent_csv, encoding="utf-8") as f:
             ent_rows = list(csv.DictReader(f))
         assert {r["sample"] for r in ent_rows} == {"all_lemmas", "attested_only"}
+        assert {int(r["min_n_ind"]) for r in ent_rows} == {3, 5}
+        assert {r["measure"] for r in ent_rows} == {"f3_fixed"}
 
     # Verify `unit_outcomes_uniform120_malouf.csv` ingestion + singleton `source_prov` collapse on subset
     mgl_dir = tmp_path / "mgl_results"
     with open(mgl_dir / "unit_outcomes_uniform120.csv", encoding="utf-8") as f:
         u120_orig = list(csv.DictReader(f))
     mal_rows = [
-        {**r, "model": "malouf", "h_tree_bits": "0.4123"}
+        {
+            **r,
+            "model": "malouf",
+            "h_tree_bits": "0.4123" if r["glottocode"] == "finn1318" else str(round(float(r["h_tree_bits"]) * 0.95, 5)),
+        }
         for r in u120_orig
-        if r["glottocode"] in ("finn1318", "nucl1301")
+        if r["glottocode"] in ("finn1318", "nucl1301", "ital1282", "stan1290", "russ1263", "poli1260", "ukra1253")
     ]
     with open(mgl_dir / "unit_outcomes_uniform120_malouf.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(mal_rows[0].keys()))
@@ -211,8 +371,7 @@ def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
     assert by_gc_v2["finn1318"]["has_malouf"] == "1"
     assert abs(float(by_gc_v2["finn1318"]["h_tree_malouf_bits"]) - 0.4123) < 1e-4
 
-    # Make `malt1254` the ONLY `"national"` source_prov row, and set its `het`/`sqrt_het` to NA
-    # so `ent` sees 2 `source_prov` levels (N=18) while `sqrt_het` sees only 1 level (`unimorph`, N=17).
+    # Make `malt1254` the ONLY `"national"` source_prov row (and drop its f3_fixed via n_individuals=1)
     for r in ld_v2:
         r["source_prov"] = "national" if r["glottocode"] == "malt1254" else "unimorph"
     with open(prep_dir_2 / "language_data_V.csv", "w", encoding="utf-8", newline="") as f:
@@ -224,8 +383,7 @@ def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
         pops_v2 = list(csv.DictReader(f))
     for pr in pops_v2:
         if pr["glottocode"] == "malt1254":
-            for col_na in ("het", "het_se", "sqrt_het", "sqrt_het_se", "f3_z", "f3_est", "f3k_z", "f3k_est", "f3k_est_pos"):
-                pr[col_na] = ""
+            pr["n_individuals"] = "1"
     with open(prep_dir_2 / "populations_V.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(pops_v2[0].keys()))
         w.writeheader()
@@ -237,7 +395,7 @@ def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
         **env,
         "PARA_POS": "V",
         "PARA_SETS": "main",
-        "PARA_MEASURES": "ent,sqrt_het,f3k_est_pos",
+        "PARA_MEASURES": "f3_fixed",
         "PARA_DATA_DIR": str(prep_dir_2),
         "PARA_OUT_DIR": str(out_dir_2),
     }
@@ -254,14 +412,10 @@ def test_prepare_stage2_and_r_dry_validation(tmp_path: Path) -> None:
     )
     with open(out_dir_2 / "stage2_results_V_dry.csv", encoding="utf-8") as f:
         edge_rows = list(csv.DictReader(f))
-    expected_n_f3 = len({pr["glottocode"] for pr in pops_v2 if pr["f3_z"] not in ("", "NA")})
-    assert expected_n_f3 <= 17
-    fc_ent = [r for r in edge_rows if r["spec_group"] == "full_covs" and r["measure"] == "ent"]
-    fc_het = [r for r in edge_rows if r["spec_group"] == "full_covs" and r["measure"] == "sqrt_het"]
-    fc_f3 = [r for r in edge_rows if r["spec_group"] == "full_covs" and r["measure"] == "f3k_est_pos"]
-    assert len(fc_ent) == 4 and all(int(r["n_lang"]) == 18 for r in fc_ent)
-    assert len(fc_het) == 4 and all(int(r["n_lang"]) == 17 for r in fc_het)
-    assert len(fc_f3) == 4 and all(int(r["n_lang"]) == expected_n_f3 for r in fc_f3)
+    edge_by_grp = {r["spec_group"]: r for r in edge_rows}
+    assert "malouf_harmony" in edge_by_grp
+    assert "source_prov" not in edge_by_grp["maximal"]["formula"]
+    assert int(edge_by_grp["maximal"]["n_lang"]) == 17
 
 
 def test_prepare_stage2_cold_start_fallback_matches_primary_and_updates_neural(

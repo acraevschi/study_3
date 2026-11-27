@@ -1,5 +1,5 @@
 # Shared visual grammar for Study 3 Track 2 (Morphological Paradigm Predictability)
-# Matched strictly to Track 1 synthesis figures (`outputs/study3_synthesis_2026_11_03/`).
+# Harmonized with Track 1 (`analyses/grambank/figures/_style.R`).
 
 suppressPackageStartupMessages({
   library(ggplot2)
@@ -21,7 +21,7 @@ MAP_LAND <- "#f0efec"
 COL_BREADTH   <- "#1c5cab"  # Deep royal blue (Enumerative breadth, Track 1)
 COL_IRREG     <- "#d95f26"  # Burnt orange (Paradigmatic irregularity, Track 1)
 COL_IRREG_TXT <- "#b4481a"  # Darker burnt orange for >=4.5:1 text contrast on white
-COL_MAG       <- "#8e1f5f"  # Magenta accent (Track 1 contextual agreement)
+COL_MAG       <- "#8e1f5f"  # Magenta accent (Track 1 contextual NP agreement)
 
 # Part-of-Speech Palette (strictly reserved for Verbs vs. Nouns across Track 2 Figures)
 # Always double-encoded with shape (circle 16 / triangle 17) and linetype (solid / dashed).
@@ -37,12 +37,19 @@ COL_ADM_LOW    <- "#76746e" # Muted warm grey (Low-admixture stratum)
 COL_REF        <- "#4d4c48" # Neutral dark grey reference
 
 SEQ_ENTROPY <- c("#cde2fb", "#86b6ef", "#3987e5", "#1c5cab", "#0d366b")
+SEQ_F3      <- SEQ_ENTROPY
 
 ROPE_FILL <- "#e8e7e1"
 
-# Standard 80% / 95% normal multiplier fallback (when exact draws unavailable)
-K80_FROM_95 <- qnorm(0.10) / qnorm(0.025)
-K80_FROM_90 <- qnorm(0.10) / qnorm(0.05)
+# Extract exact exported posterior [q10, q90] bounds (no normal approximation)
+get_exact_q80 <- function(df, pfx = "b") {
+  c10 <- paste0(pfx, "_q10")
+  c90 <- paste0(pfx, "_q90")
+  if (!all(c(c10, c90) %in% names(df))) {
+    stop(sprintf("Required exact 80%% CrI columns '%s' and '%s' missing from results CSV.", c10, c90))
+  }
+  list(lo80 = as.numeric(df[[c10]]), hi80 = as.numeric(df[[c90]]))
+}
 
 theme_track2 <- function(base_size = 8.5) {
   theme_minimal(base_size = base_size, base_family = "Helvetica") +

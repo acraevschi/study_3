@@ -1,17 +1,14 @@
-# Analyses Directory — PhD Study 3 (Inflectional Complexity & Genetic Admixture)
+# Analyses Directory — PhD Study 3 (Morphological Complexity & Genetic Admixture)
 
-This directory contains the shared data/modeling infrastructure and the two empirical
-modeling tracks of PhD Study 3:
+This directory contains the shared language-set-agnostic modeling library and the two primary empirical tracks of PhD Study 3, plus preserved earlier exploratory stages:
 
-1. **Track 1 (`grambank/`)**: GeLaTo genetic admixture $\to$ Grambank inflectional breadth,
-   flexivity, and lexicalized irregularity ($N = 202$ languages, 335 populations, 2,943 individuals).
-2. **Track 2 (`ldl/`)**: GeLaTo genetic admixture $\to$ Linear Discriminative Learning (LDL / Wug)
-   paradigm cell predictability and production confidence across inflecting languages.
+1. **Track 1 ([`grambank/`](grambank/README.md)):** GeLaTo population-genetic admixture (`f3_fixed`) $\to$ Grambank v1.0.3 five clean morphological domains (`v_breadth`, `n_breadth`, `v_irreg`, `n_irreg`, `np_agr`; `29` items, `5,411` observations, `151` non-morphological documentation control features) across **$N = 225$ linked languages** (`60` families, `364` `main` populations, `3,166` individuals; `189` languages under `strict` links), modeled via two-stage Beta-Binomial regressions (`fit_stage2_bb.R`) and focal item-level 2PL IRT-SEM & joint within-POS 2-factor SEMs (`latent_sem/fit_domain_sem.R`).
+2. **Track 2 ([`paradigm/`](paradigm/README.md)):** GeLaTo population-genetic admixture (`f3_fixed`) $\to$ cross-validated morphological paradigm predictability (*i-complexity*, $H_{\text{tree}}$ in bits) across **`56` linked languages** (`106` paradigm units, `12` families), evaluated with a zero-language-tuned Multi-Locus Autosegmental Vowel-Tier MGL and 3-seed Hard-Monotonic Neural Transducer, paired with separate Verb (`V`) and Noun (`N`) Stage-2 Berkson regressions (`stage2/fit_stage2.R`) and two-level token-frequency entrenchment models (`stage2/fit_entrenchment.R`).
+3. **Earlier Pilot & Preserved Stages:**
+   - [`ldl/`](ldl/README.md): Earlier/exploratory `JudiLing.jl` LDL/Wug paradigm predictability pilot & ablation track (`ablation/`), superseded as primary Track 2 by `paradigm/`.
+   - `grambank/{baseline/, phylo_rates/, latent_sem/{fit_latent,fit_irreg13_mb2pl,fit_synthesis}.R}`: Preserved earlier/exploratory Track 1 stages from the $N = 202$ (`38`-item `cat12`/`flex26`/`irreg13`, ADMIXTURE `.Q` / `f3k_est_pos`) phase (commit `e082562`).
 
-Both tracks share a single, language-set-agnostic library in [`common/`](common/) for
-genetic admixture ($Q$-matrices $K = 12\dots30$ and $f_3$), audited speaker demography and
-range area, Glottolog and time-calibrated Bouckaert v2.0.0 phylogenies, and Stage-1
-hierarchical `brms` exposure models.
+Both primary tracks share a single, language-set-agnostic library in [`common/`](common/) for fixed-reference cross-family $f_3$/$f_4$, neighbor $F_{ST}$ regimes, discrete-$K$ ADMIXTURE diagnostics, audited speaker demography and range area, Glottolog v5.3 and time-calibrated Bouckaert v2.0.0 phylogenies, and Stage-1 hierarchical `brms` exposure shrinkage.
 
 ---
 
@@ -20,45 +17,58 @@ hierarchical `brms` exposure models.
 ```text
 analyses/
 ├── README.md                     <- Master navigation guide (this file)
-├── common/                       <- Shared, language-set-agnostic modules for BOTH Grambank & LDL/Wug tracks
+├── common/                       <- Shared, language-set-agnostic library for Track 1 & Track 2
 │   ├── __init__.py
-│   ├── genetics.py               <- Loads ADMIXTURE Q (K=12..30) & f3 scores; computes individual & population
-│   │                                admixture measures (ent, nonmax, pop_ent, het, sqrt_het, support, amount,
-│   │                                graff_target, neigh_flow, f3_z, f3_est, f3k_z, f3k_est, f3k_est_pos) +
-│   │                                400-resample bootstrap SEs and GeLaTo Ne for ANY (population, glottocode) table
-│   ├── f3.R                      <- admixtools f3 computation (all triples and k-nearest triples)
-│   ├── demography.py             <- Audited population_l1 & area_km2 lookup for ANY Glottocode (Grambank or LDL/Wug)
+│   ├── genetics.py               <- Loads f3_fixed, f4, FST neighbor regimes, discrete-K diagnostics,
+│   │                                ADMIXTURE Q (K=12..30), bootstrap SEs & GeLaTo Ne for ANY link table
+│   ├── f3.R                      <- admixtools f3/f4 computation (fixed clade-stratified f3_fixed, f4_est,
+│   │                                plus legacy all-triple & k-nearest f3)
+│   ├── demography.py             <- Audited population_l1 & area_km2 lookup for ANY Glottocode
 │   ├── demography_sources/       <- Bromham, Ethnologue multi-ISO, and Koplenig source tables
-│   ├── phylogeny.py              <- Glottolog tree & Newick builder for any set of Glottocodes
-│   ├── phylogeny.R               <- Builds Grafen (A_Grafen) & time-calibrated Bouckaert v2.0.0 (A_Bouckaert)
-│   │                                phylogenetic correlation matrices for any set of Glottocodes
-│   ├── stage1_exposure.R         <- Reusable Stage-1 hierarchical brms exposure fitter (individual/pop -> language
-│   │                                posterior mean & SD), usable by both Grambank and LDL/Wug Stage-2 models
-│   └── data/                     <- Shared precomputed tables (f3_scores.csv, f3_scores_k5.csv, bouckaert_v2.nwk,
-│                                    and gelato_populations_summary.csv for all 558 GeLaTo ADMIXTURE populations)
+│   ├── phylogeny.py              <- Glottolog v5.3 tree & Newick builder for any set of Glottocodes
+│   ├── phylogeny.R               <- Grafen (A_Grafen) & time-calibrated Bouckaert v2.0.0 (stem/crown/kyr)
+│   │                                phylogenetic correlation matrices
+│   ├── stage1_exposure.R         <- Reusable Stage-1 hierarchical brms exposure fitter (pop/ind -> language
+│   │                                posterior mean & SD; supports f3_fixed, f4_est, neigh_flow_out, etc.)
+│   └── data/                     <- Shared canonical tables:
+│                                    • analysis_links.csv (1,954 rows across main & 3 sensitivity sets)
+│                                    • f3_fixed_scores.csv (517 populations: fixed-reference f3 & f4)
+│                                    • fst_neighbor_regimes.csv (558 populations: FST neighbor regimes)
+│                                    • discrete_k_diagnostics.csv (558 populations: K=12,20,30 diagnostics)
+│                                    • bouckaert_v2.nwk (time-calibrated global phylogeny)
+│                                    • gelato_populations_summary.csv (558 GeLaTo populations)
+│                                    • f3_scores.csv & f3_scores_k5.csv (335 rows; legacy N = 202 tables)
 │
-├── grambank/                     <- Track 1: GeLaTo Admixture -> Grambank Morphology (N = 202)
-│   ├── README.md                 <- Overview of the 3 Grambank modeling stages & how they connect
-│   ├── prepare.py                <- Calls analyses.common to write data/ (language_data.csv, individuals.csv,
-│   │                                populations.csv, item_observations.csv, items_metadata.csv, language_table.csv,
-│   │                                phylo_tree.nwk, prep_summary.json, latent_prep_summary.json)
-│   ├── data/                     <- Canonical prepared Grambank + admixture + demography + item tables
-│   ├── baseline/                 <- Stage A: Two-stage Beta-Binomial (cat12, flex, flex26, irreg13) & Demography/Area
-│   │                                (fit.R, run_demog.R, README.md, .gitignore, results/, fits/, stan_cache/)
-│   ├── phylo_rates/              <- Stage B: Time-calibrated within-family RRW branch rates & PICs
-│   │                                (prepare.R, contrasts_diagnostic.R, fit_rrw.R, gen_rrw.stan, morph_rrw.stan,
-│   │                                 README.md, .gitignore, data/, results/, fits/)
-│   └── latent_sem/               <- Stage C: Item-level 1PL/2PL IRT, Varying-Slope, 2-Factor SEM & Synthesis
-│                                    (fit_latent.R, fit_irreg13_mb2pl.R, fit_synthesis.R, stan/item_*.stan,
-│                                     README.md, .gitignore, results/, fits/)
+├── grambank/                     <- Track 1: Admixture -> Grambank 5 Clean Domains (N = 225)
+│   ├── README.md                 <- Track 1 overview, scientific rationale, headline results & reproduction
+│   ├── prepare.py                <- Standalone 5-domain data builder via analyses.common & pinned CLDFs
+│   ├── data/                     <- Canonical N = 225 / 29-item / 5,411-obs tables & phylo_tree.nwk
+│   ├── fit_stage2_bb.R           <- Primary two-block Beta-Binomial runner (108 models across 5 domains)
+│   ├── results/                  <- Canonical Track 1 Beta-Binomial outputs (stage2_bb_results.csv, etc.)
+│   ├── latent_sem/               <- Focal 2PL IRT-SEM & 2-factor within-POS SEM (fit_domain_sem.R,
+│   │                                stan/item_domain_sem.stan, stan/item_pos_2factor_sem.stan,
+│   │                                results_domain/) + preserved N = 202 scripts (fit_latent.R, etc.)
+│   ├── figures/                  <- Publication figure suite (fig1..6_grambank_*.{png,pdf}, run_qc.R)
+│   ├── baseline/                 <- Preserved earlier N = 202 Beta-Binomial & demography stage (e082562)
+│   └── phylo_rates/              <- Preserved earlier N = 202 within-family RRW & PIC study (e082562)
 │
-├── ldl/                          <- Track 2: GeLaTo Admixture -> LDL / Wug Paradigm Predictability & Confidence
-│   ├── README.md                 <- Guide showing how to link Wug/LDL paradigm outcomes to analyses/common/
-│   │                                (genetics.py, demography.py, phylogeny.R, stage1_exposure.R)
+├── paradigm/                     <- Track 2: Admixture -> Paradigm Predictability (56 langs, 106 units)
+│   ├── README.md                 <- Track 2 overview, reproduction commands & headline summary tables
+│   ├── ingestion/                <- Paradigm fetching, orthographic/NFC hygiene, cognate grouping, Malouf & splits
+│   ├── frequencies/              <- UD v2.15 / Leipzig / wordfreq fetching, EM homograph matching & topfreq120
+│   ├── mgl/                      <- Multi-Locus Autosegmental Vowel-Tier MGL evaluator
+│   ├── neural/                   <- 3-seed Hard-Monotonic Neural Transducer validator
+│   ├── stage2/                   <- Separate V & N prepare_stage2.py, fit_stage2.R, fit_entrenchment.R
+│   ├── data/                     <- SHA-256 manifests, unit_summary.csv, cell_maps/
+│   ├── results/                  <- Tracked MGL, Neural, Stage-2 & entrenchment summary CSVs
+│   └── figures/                  <- Publication figure suite (fig1..6_mgl_*.{png,pdf}, run_qc.R)
+│
+├── ldl/                          <- Earlier/exploratory JudiLing.jl LDL/Wug pilot & ablation track
+│   ├── README.md                 <- Guide to linking LDL/Wug outcomes to analyses/common/
 │   └── ablation/                 <- LDL meaning-space, cell-vector, and decoder ablation
 │
-└── gelato_feasibility_2026_10_01/ <- Initial GeLaTo feasibility audit & cached upstream source archives
-                                      (Zenodo 15263706 ADMIXTURE/F2, GeLaTo c625fdc, Bouckaert v2.0.0 tree)
+└── gelato_feasibility_2026_10_01/ <- Initial GeLaTo feasibility audit & cached third-party archives
+                                      (Zenodo 15263706 ADMIXTURE/FST, GeLaTo c625fdc, Bouckaert v2.0.0 tree)
 ```
 
 ---
@@ -66,29 +76,20 @@ analyses/
 ## Quick Verification Commands
 
 ```bash
-# 1. Regenerate all canonical Grambank & shared GeLaTo tables via analyses.common
-.venv/bin/python analyses/grambank/prepare.py
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
 
-# 2. Run the Python test suite (including tests/test_analyses_common.py)
+# 1. Run the automated Python regression suite (common, Track 1, Track 2, morph_ldl)
 .venv/bin/python -m pytest -m "not slow"
 
-# 3. Validate Track 1 Stage A (Two-stage Beta-Binomial & Demography)
-ADM_DRY=1 Rscript analyses/grambank/baseline/fit.R
+# 2. Track 1 (Grambank 5 domains): regenerate canonical tables & validate BB + 2PL IRT-SEM Stan blocks
+.venv/bin/python analyses/grambank/prepare.py
+BB_DRY=1 Rscript analyses/grambank/fit_stage2_bb.R
+SEM_DRY=1 Rscript analyses/grambank/latent_sem/fit_domain_sem.R
 
-# 4. Run Track 1 Stage B (Within-family PIC & branch-jump demographic audit)
-Rscript analyses/grambank/phylo_rates/contrasts_diagnostic.R
-
-# 5. Validate Track 1 Stage C (Item-level 1PL/2PL IRT, Varying-Slope, 2-Factor SEM & Synthesis)
-LAT_DRY=1 Rscript analyses/grambank/latent_sem/fit_latent.R
-LAT_DRY=1 Rscript analyses/grambank/latent_sem/fit_irreg13_mb2pl.R
-SYN_DRY=1 Rscript analyses/grambank/latent_sem/fit_synthesis.R
+# 3. Track 2 (Paradigm predictability): regenerate Stage-2 tables & validate Stage-2 + entrenchment Stan blocks
+.venv/bin/python analyses/paradigm/stage2/prepare_stage2.py
+PARA_DRY=1 Rscript analyses/paradigm/stage2/fit_stage2.R
+ENT_DRY=1 Rscript analyses/paradigm/stage2/fit_entrenchment.R
 ```
 
----
-
-## Archive Note
-
-Six superseded October 2026 exploratory directories (`draft_admixture_model_2026_10_10`,
-`gelato_review_2026_10_09`, `gelato_review_2026_10_16`, `gelato_review_2026_10_20`,
-`pcfp_v1_2026_10_08`, `unimorph_gelato_estimate_2026_10_08`) are archived outside the repository
-(see the local `ARCHIVE_NOTE.md`).
+*Note: Preserved earlier $N = 202$ Track 1 scripts (`baseline/fit.R`, `phylo_rates/prepare.R`, `latent_sem/{fit_latent,fit_irreg13_mb2pl,fit_synthesis}.R`) targeted the pre-v2 `38`-item (`cat12`/`flex26`/`irreg13`) schema from commit `e082562` and are not part of the active verification commands above; see [`grambank/README.md`](grambank/README.md) for details.*

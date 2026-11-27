@@ -1,4 +1,7 @@
-# Within-Family Phylogenetic Branch-Rate (`cov_rrw`) & Contrasts Analysis (2026-10-30)
+# Within-Family Phylogenetic Branch-Rate (`cov_rrw`) & Contrasts Analysis
+
+> **Status: Archived Earlier / Exploratory Methodological Stage ($N = 202$, `e082562`).**  
+> This directory preserves the within-family Relaxed Random Walk (`cov_rrw`) and Phylogenetic Independent Contrasts (PIC) study conducted during the earlier $N = 202$ (`cat12`/`flex`/`irreg13`) phase. Its key methodological finding—that time-calibrated Bouckaert v2.0.0 covariance matrices (`bouckaert_stem`, `bouckaert_crown`) leave cross-sectional admixture slopes invariant while $F_{ST}$ branch jumps confound low-$N_e$ bottlenecks with contact—is incorporated into the **primary Track 1 five-domain `f3_fixed` pipeline** ([`../README.md`](../README.md), [`../fit_stage2_bb.R`](../fit_stage2_bb.R), and [`../latent_sem/fit_domain_sem.R`](../latent_sem/fit_domain_sem.R)). Because `analyses/grambank/data/` now holds the harmonized $N = 225$ five-domain schema (including `haio1238`, absent from `phylo_rates/data/bouckaert_v2.nwk`), re-running `prepare.R` requires checking out the `e082562` data snapshot; all summary CSVs in `results/` are preserved as-is.
 
 **Exploratory methodological test.** Tests the proposal to model genetic shifts and morphological evolution along the branches of a time-calibrated language phylogeny via a Relaxed Random Walk (`cov_rrw`), restricted to **within-family branches of multi-language families** ($\ge 5$ languages per family as primary, $\ge 3$ as sensitivity) so that deep pre-proto-family macro-population stems and the 29 singleton families do not confound the branch rates.
 

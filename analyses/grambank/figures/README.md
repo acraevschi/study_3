@@ -1,0 +1,68 @@
+# Track 1 Visualization Suite (`analyses/grambank/figures/`)
+
+Publication-grade figure suite for Study 3 Track 1 (**Grambank Five Clean Morphological Domains**), harmonized with Track 2 (`analyses/paradigm/figures/`): `6.5 in` final width, Helvetica typography (`>= 7.0 pt` floor at final size), `300 DPI` PNG + vector PDF masters, consistent double-encoded domain and POS aesthetics (**Enumerative breadth**: `#1c5cab` deep blue; **Paradigmatic irregularity**: `#d95f26` burnt orange; **Contextual NP agreement**: `#8e1f5f` magenta; **Verbs**: filled circles / solid; **Nouns**: triangles / dashed; **NP agreement**: squares / dotdash), exact exported posterior `80%` (`[q10, q90]`) and `95%` (`[q025, q975]`) credible intervals, and greyscale / CVD (Machado et al. 2009) / blur QC verification.
+
+---
+
+## 1. Script & Output Inventory
+
+| Script | Rendered Figures | Primary Empirical Inputs |
+| :--- | :--- | :--- |
+| [`_style.R`](_style.R) | — | Shared palette, typography, ROPE fill, Stage-1 `f3_fixed` loader, exact `[q10, q90]` helper, and `save_track1_fig()` |
+| [`run_qc.R`](run_qc.R) | — | 150-DPI final-width preview, Machado CVD + greyscale + box-blur QC contact sheet, font-size floor check |
+| [`make_fig1_grambank_map_and_domains.R`](make_fig1_grambank_map_and_domains.R) | `fig1_grambank_map_and_domains.{png,pdf}` | `../data/language_data.csv`, `../latent_sem/results_domain/exposure_sem_f3_fixed.csv`, `../latent_sem/results_domain/sem_latent_eap.csv` |
+| [`make_fig2_grambank_forest_and_2factor.R`](make_fig2_grambank_forest_and_2factor.R) | `fig2_grambank_forest_and_2factor.{png,pdf}` | `../latent_sem/results_domain/sem_1factor_results.csv`, `../latent_sem/results_domain/sem_2factor_pos_results.csv`, `../results/stage2_bb_results.csv` |
+| [`make_fig3_grambank_spec_curve.R`](make_fig3_grambank_spec_curve.R) | `fig3_grambank_spec_curve.{png,pdf}` | `../latent_sem/results_domain/sem_1factor_results.csv`, `../results/stage2_bb_results.csv` |
+| [`make_fig4_grambank_item_dif.R`](make_fig4_grambank_item_dif.R) | `fig4_grambank_item_dif.{png,pdf}` | `../data/items_metadata.csv`, `../latent_sem/results_domain/sem_item_dif.csv` |
+| [`make_fig5_grambank_family_trajectories.R`](make_fig5_grambank_family_trajectories.R) | `fig5_grambank_family_trajectories.{png,pdf}` | `../data/language_data.csv`, `../latent_sem/results_domain/exposure_sem_f3_fixed.csv`, `../latent_sem/results_domain/sem_1factor_results.csv` |
+| [`make_fig6_grambank_maximal_effects.R`](make_fig6_grambank_maximal_effects.R) | `fig6_grambank_maximal_effects.{png,pdf}` | Cached maximal `.rds` fits (`sem1f__*__MA_2pl__maximal_main_n3.rds`, `bb__*__maximal__f3_fixed_main_n3.rds`) + `../data/language_data.csv`, or standalone tracked fallback `../latent_sem/results_domain/maximal_anatomy_summary.csv` (also forced via `FORCE_CSV_FALLBACK=1`) |
+
+### Reproduction
+
+```bash
+FIG_DIR=analyses/grambank/figures
+Rscript "$FIG_DIR/make_fig1_grambank_map_and_domains.R"
+Rscript "$FIG_DIR/make_fig2_grambank_forest_and_2factor.R"
+Rscript "$FIG_DIR/make_fig3_grambank_spec_curve.R"
+Rscript "$FIG_DIR/make_fig4_grambank_item_dif.R"
+Rscript "$FIG_DIR/make_fig5_grambank_family_trajectories.R"
+Rscript "$FIG_DIR/make_fig6_grambank_maximal_effects.R"
+# Standalone CSV fallback without cached .rds fits:
+FORCE_CSV_FALLBACK=1 Rscript "$FIG_DIR/make_fig6_grambank_maximal_effects.R"
+# Optional visual QC contact sheet (greyscale, Machado CVD, blur, font floor):
+Rscript "$FIG_DIR/run_qc.R" "$FIG_DIR/fig1_grambank_map_and_domains.png" 6.5 7.0 /tmp/qc_track1
+```
+
+---
+
+## 2. Figure Captions & Alt Text
+
+### Figure 1 (`fig1_grambank_map_and_domains.{png,pdf}`)
+**Global GeLaTo–Grambank coverage spans 225 languages across 60 families with empirically decoupled breadth and irregularity.**  
+**a**, Global geographic distribution of all `225` GeLaTo-linked Grambank languages (`60` Glottolog v5.3 families). Filled markers (`183` languages) encode back-transformed Stage-1 cross-family `f3_fixed` (`x 10^-3`, square-root scale, `n_A >= 3`); open circles (`42` languages) mark linked languages without `f3_fixed` (`n_A < 3` or population isolates). **b**, Observed feature shares (`present / coded`, meeting each domain's `>= 60%` coding floor among the `183` `f3_fixed` languages) with medians and IQRs across `Verb breadth` (`k = 9, n = 176`), `Noun breadth` (`k = 5, n = 177`), `Verb irregularity` (`k = 5, n = 140`), `Noun irregularity` (`k = 3, n = 113`), and `Contextual NP agreement` (`k = 7, n = 167`). **c**, Cross-linguistic decoupling between 2PL IRT-SEM latent enumerative breadth (`theta_breadth`) and NA-masked latent irregularity (`theta_irreg`) within Verbs (`n = 134, r = 0.31, rho = 0.24`) and Nouns (`n = 107, r = -0.23, rho = -0.21`), overlaid with OLS fits and 95% CIs.  
+*Alt text:* Three-panel figure displaying a world map of 225 GeLaTo-linked Grambank languages colored by cross-family f3, empirical dot-and-IQR distributions across five morphological domains, and scatterplots showing weak positive verbal and weak negative nominal correlation between latent breadth and irregularity.
+
+### Figure 2 (`fig2_grambank_forest_and_2factor.{png,pdf}`)
+**Cross-family `f3_fixed` yields opposite directional tendencies for enumerative breadth versus irregularity and NP agreement, with wide credible intervals spanning zero.**  
+**a**, Symmetrical `2 x 2` (`Verb` vs. `Noun` x `Breadth` vs. `Irregularity`) plus `Contextual NP agreement` forest comparing focal 2PL IRT-SEM (`MA_2pl`, filled markers) against simpler Beta-Binomial models (open markers) across `Maximal (n >= 3)`, `Cutoff n >= 5`, `LOO: no spatial GP`, `LOO: no demography`, `LOO: no doc. control`, `Within-family (Mundlak)`, and `Raw unmasked zeros` (Beta-Binomial irregularity domains). Bars show exact posterior `80%` (`[q10, q90]`, thick) and `95%` (`[q025, q975]`, thin) CrIs; shaded band marks the `[-0.15, +0.15]` SD ROPE. Maximal 2PL IRT-SEM slopes (`n >= 3`): `Verb breadth +0.087 [-0.183, +0.349]` (`BF01 = 3.01`, `ROPE = 64%`), `Noun breadth +0.260 [-0.091, +0.636]` (`BF01 = 0.99`, `ROPE = 27%`), `Verb irregularity -0.247 [-0.716, +0.215]` (`BF01 = 1.23`, `ROPE = 31%`), `Noun irregularity -0.229 [-0.734, +0.263]` (`BF01 = 1.31`, `ROPE = 31%`), and `Contextual NP agreement -0.242 [-0.681, +0.198]` (`BF01 = 1.24`, `ROPE = 28%`). **b**, Joint within-POS 2-factor 2PL SEMs (`Verb_2fac` and `Noun_2fac` at `n >= 3` and `n >= 5`) directly estimating `b_breadth`, `b_irreg`, and their contrast `Delta b = b_breadth - b_irreg` (`Verbs n >= 3`: `+0.325 [-0.206, +0.881], P(>0) = 0.882`; `Nouns n >= 3`: `+0.479 [-0.165, +1.140], P(>0) = 0.919`; `Nouns n >= 5`: `+0.587 [-0.152, +1.305], P(>0) = 0.945`). **c**, Residual latent factor correlation `rho_latent` (`Verbs n >= 3`: `-0.004 [-0.495, +0.522]`; `Nouns n >= 3`: `-0.269 [-0.841, +0.415]`).  
+*Alt text:* Three-panel figure comparing 2PL IRT-SEM and Beta-Binomial f3 slopes across five morphological domains, direct within-POS breadth-minus-irregularity contrasts from joint 2-factor SEMs, and residual latent correlations.
+
+### Figure 3 (`fig3_grambank_spec_curve.{png,pdf}`)
+**Across 163 fitted Track 1 specifications, all 95% credible intervals include zero while preserving directional separation across domains.**  
+Specification curves sorting all `55` focal 2PL IRT-SEM (`MA_2pl`, filled markers) and `108` Beta-Binomial (open markers) models (`163` total) by posterior mean within each domain (`Verb breadth 33`, `Noun breadth 32`, `Contextual NP agreement 32`, `Verb irregularity 33`, `Noun irregularity 33`). Bars show exact posterior `80%` (thick) and `95%` (thin) CrIs against the dashed zero reference and shaded `[-0.15, +0.15]` SD ROPE. Every specification's `95%` CrI spans zero (`0` strictly above `0`, `0` strictly below `0`), with `Noun breadth` centered weakly positive and `Verb irregularity`, `Noun irregularity`, and `NP agreement` centered weakly negative.  
+*Alt text:* Five-panel specification curve showing sorted posterior means and 80% and 95% credible intervals across 163 Track 1 models, all spanning zero.
+
+### Figure 4 (`fig4_grambank_item_dif.{png,pdf}`)
+**Item-level varying-slope 2PL estimates confirm homogeneous within-domain responses across all 29 Grambank features.**  
+**a**, Item-specific cross-family `f3_fixed` logit slopes (`beta_mean`, exact `80%` and `95%` CrIs) from Architecture-B (`MB_2pl`, `maximal`) across all `29` Grambank features grouped into the `5` morphological domains and sorted by posterior mean within each domain. Positive point estimates concentrate in `Noun breadth` (e.g., `Oblique noun case +0.43 [+0.02, +0.95]`, `Possessed-noun affix +0.41 [+0.10, +0.75]`, `Core noun case +0.38 [-0.07, +0.86]`) and `Bound verbal negation (+0.49 [+0.08, +0.95])`, while all irregularity items and non-article NP agreement items trend negative (`Suppletive noun plurals -0.47 [-1.42, +0.17]`, `Conjugation classes -0.40 [-1.02, +0.14]`). **b**, Corresponding 2PL item discrimination loadings (`lambda_k`, exact `80%` and `95%` CrIs; vertical dashed line at `1.0` marks Rasch parity).  
+*Alt text:* Two-panel aligned dot-and-interval plot showing item-specific f3 logit slopes and 2PL discrimination loadings for all 29 Grambank morphological features grouped into five domains.
+
+### Figure 5 (`fig5_grambank_family_trajectories.{png,pdf}`)
+**Global and within-family 2PL SEM estimates align across major linguistic lineages.**  
+**a**, Comparison of `Global (Phylo + GP)`, `Within-family (Mundlak)`, `Between-family (Mundlak)`, `Drop Inner Asia`, and `Strict links` cross-family `f3_fixed` slopes (focal 2PL IRT-SEM, exact `80%` and `95%` CrIs, shaded `[-0.15, +0.15]` SD ROPE) across all `5` domains. **b**, Observed feature shares (`Verb breadth`, `Noun breadth`, `Verb irregularity`, `Noun irregularity`) versus back-transformed language-level cross-family `f3_fixed` (`x 10^-3`, square-root scale) across the `8` largest families (`Indo-European n = 24`, `Sino-Tibetan n = 7`, `Atlantic-Congo n = 11`, `Afro-Asiatic n = 14`, `Austronesian n = 47`, `Uralic n = 12`, `Turkic n = 12`, `Mongolic-Khitan n = 6`), overlaid with OLS trend lines.  
+*Alt text:* Two-panel figure displaying five sensitivity and Mundlak decomposition slopes per domain alongside an eight-family small-multiples grid of observed morphological domain shares versus cross-family f3.
+
+### Figure 6 (`fig6_grambank_maximal_effects.{png,pdf}`)
+**In the maximal model, fixed socio-demographic and documentation slopes remain modest while latent structural variance bifurcates between macro-areal diffusion for breadth and phylogenetic inheritance for irregularity and agreement.**  
+**a**, Standardized fixed-effect predictors (`Slope per 1 SD`: `Cross-family f3`, `Speaker pop. (log)`, `Geographic area (log)`, and `Doc. coverage`) in the Block-1 complete-case maximal specification (`main`, `f3_fixed`, `n_A >= 3`, `has_area = 1`), comparing focal 2PL IRT-SEM (`MA_2pl`, filled markers) against Beta-Binomial models (open markers) across `Verb breadth` (`n = 167, k = 9`), `Noun breadth` (`n = 168, k = 5`), `Contextual NP agreement` (`n = 158, k = 7`), `Verb irregularity` (`n = 135, k = 5`), and `Noun irregularity` (`n = 108, k = 3`). Bars show exact posterior `80%` (`[q10, q90]`, thick) and `95%` (`[q025, q975]`, thin) CrIs against the dashed zero line and shaded `[-0.15, +0.15]` SD ROPE. Across all `20` focal 2PL IRT-SEM fixed slopes, every `95%` CrI spans zero; the largest covariate shifts occur in `Noun breadth` (`Speaker pop. -0.485 [-1.028, +0.058]`, `Geographic area +0.443 [-0.089, +0.994]`; Beta-Binomial `-0.369 [-0.689, -0.038]` and `+0.293 [-0.062, +0.639]`), `Verb breadth` (`Geographic area -0.318 [-0.762, +0.126]`), `Verb irregularity` (`Doc. coverage +0.299 [-0.135, +0.778]`, `Geographic area -0.300 [-0.839, +0.262]`), and `Contextual NP agreement` (`Doc. coverage -0.346 [-0.713, +0.035]`; Beta-Binomial `-0.265 [-0.493, -0.041]`). **b**, Posterior mean and `80%`/`95%` CrIs of the share of latent structural variance (`sd_phylo^2 + sd_gp^2 + sd_lang^2`, `0%–100%` scale, 2PL IRT-SEM) attributable to `Phylogeny`, `Spatial GP`, and `Language residual`. Enumerative breadth is dominated by spatial GP variation (`Verb breadth 50.1% [5.4%, 83.9%]` GP vs. `35.8% [5.6%, 84.9%]` phylogeny and `14.1% [1.2%, 34.1%]` residual; `Noun breadth 67.1% [18.2%, 97.9%]` GP vs. `31.1% [0.3%, 80.4%]` phylogeny and `1.9% [0.0%, 9.7%]` residual), whereas paradigmatic irregularity and NP agreement are dominated by phylogenetic inheritance (`Verb irregularity 77.9% [37.2%, 98.9%]`, `Noun irregularity 63.7% [11.0%, 98.9%]`, and `Contextual NP agreement 78.9% [47.1%, 96.7%]` phylogeny, vs. `13.2%`, `19.9%`, and `11.8%` spatial GP). **c**, Exact spherical spatial GP correlation decay `rho(d) = exp(-0.5 * (u / lscale_gp)^2)` (`u = 2 sin(d / (2 R_earth)) / d_max`, `R_earth = 6,371 km`) from `0` to `6,000 km` (`0–6 x 10^3 km`), showing each domain's posterior median curve, `80%` (`[q10, q90]`) CrI ribbon, grey context medians of the other four domains, and half-correlation horizon `d_0.5` (`Verb breadth 3,067 km [80% CrI: 2,007, 4,573]`, `Noun breadth 3,669 km [2,413, 5,550]`, `Verb irregularity 2,770 km [1,387, 8,214]`, `Noun irregularity 3,663 km [1,417, 9,315]`, `Contextual NP agreement 2,480 km [1,238, 5,696]`).  
+*Alt text:* Three-panel figure showing standardized fixed-effect slopes for cross-family f3, population, area, and documentation across five Grambank domains for 2PL IRT-SEM and Beta-Binomial models, latent variance shares contrasting spatial-GP-dominated breadth against phylogeny-dominated irregularity and agreement, and spatial GP correlation decay curves over 0 to 6,000 km.

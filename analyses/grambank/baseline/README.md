@@ -1,15 +1,11 @@
-# Admixture → Grambank inflection on the 2026-10-20 links (prepared 2026-10-21)
+# Earlier / Exploratory Admixture $\to$ Grambank Beta-Binomial Stage ($N = 202$)
 
-**Exploratory, and not blind.** The admixture values were unblinded on 2026-10-10 (see
-`analyses/draft_admixture_model_2026_10_10/README.md`), so nothing here is a blind or
-pre-registered test. This folder lifts the ancestry firewall for itself only.
+> **Status: Archived Earlier / Exploratory Stage ($N = 202$, `38`-item `cat12`/`flex26`/`irreg13` phase, commit `e082562`).**  
+> The primary Track 1 Beta-Binomial pipeline is now [`../fit_stage2_bb.R`](../fit_stage2_bb.R) (`N = 225` languages, 5 clean domains `v_breadth`/`n_breadth`/`v_irreg`/`n_irreg`/`np_agr`, fixed-reference `f3_fixed`, results in [`../results/`](../results/); see [`../README.md`](../README.md)). This directory preserves the earlier $N = 202$ (`cat12`/`flex`/`flex26`/`irreg13`, discrete-$K$ `ent`/`het`/`f3k_est_pos`) scripts and tracked `results/` CSVs for provenance. Because [`../data/`](../data/) now holds the harmonized $N = 225$ five-domain schema, re-running `baseline/fit.R` or `baseline/run_demog.R` requires checking out the `e082562` data snapshot.
 
-**Status 2026-10-22: fitted; results in §11.** The user saw the preparation first and gave
-the go-ahead on 2026-10-21 for `ADM_XMODE=both` (§10). The full run (244 models) ran
-2026-10-21 20:40 to 2026-10-22 03:11, the f3 sampling check (§4) 03:13–04:10. No model failed.
+**Exploratory (not pre-registered / not blind).** Ancestry values were examined during earlier exploratory modeling on 175 languages, so these models are exploratory rather than blind or pre-registered tests. All 244 models in the main + sensitivity runs and the $f_3$ sampling checks completed without model failures (§11).
 
-This is the successor of the draft model, which is left unchanged. It was built for 175
-languages and the old links.
+This stage succeeded an earlier 175-language draft built on unreviewed links.
 
 ## 1. What changed against the draft
 
@@ -68,8 +64,8 @@ and negative with entropy; `f3_z`/`f3_est` correlate 0.6 with entropy.
 
 ## 4. f3 (`f3.R`)
 
-Needs the R package `admixtools` (GitHub tag v2.0.9, installed 2026-10-20) and the
-precomputed F2 blocks of Graff et al. (`F2results`, 3.6 GB, in `~/Downloads`, not in the
+Needs the R package `admixtools` (GitHub tag v2.0.9) and the
+precomputed F2 blocks of Graff et al. (`F2results`, 3.6 GB, stored externally and not committed to the
 repository). No genotypes are used.
 
 For each of the 335 populations A: f3(A; B, C) for every B in A's Glottolog family (not A) and
@@ -93,7 +89,7 @@ Checks and limits:
   than a sampling site; it matters only for the 3,000 km window.
 * Taking the lowest Z over many triples favours populations with many triples
   (Spearman −0.32 between triple count and best Z). `n_triples` is in `populations.csv`.
-* Sampling check (2026-10-21, asked by the user after the main run started): the score
+* Sampling check: the score
   depends on how well the panel samples a population's family. Of the populations with 1–2
   relatives in the panel, 17% have a best Z < −3; with 3–10 relatives 53%; with more than 10,
   78%. A population that looks isolated only because its relatives were not sampled therefore
@@ -132,7 +128,7 @@ as measurement error (`me(x, x_sd)`); whether that is the right treatment is an 
 A bootstrap from fewer than 3 individuals is unreliable. There the SE is the pooled
 per-individual SD (median over populations with ≥ 3) divided by √n, as in the draft.
 Not modelled: ADMIXTURE's own estimation error, and the choice of K (averaged over 12–30).
-No minimum sample size is applied (user decision 2026-10-20).
+No minimum sample size filter was applied in this exploratory stage (later superseded by `min_n_ind = 3` and `5` cutoffs in the canonical `f3_fixed` pipeline).
 
 ## 6. Models (`fit.R`)
 
@@ -147,13 +143,7 @@ against the baseline with the same controls and the same languages.
 | `main` | 12 | N, P, S, F | 202; 198 for `het`, 183 for `f3_z`/`f3_est`, 140 for `neigh_flow` |
 | each sensitivity set | 12 | F only | 169–193; fewer for `het`, `f3`, `neigh` |
 
-160 models in all (48 exposure, 112 outcome including baselines). In the draft the F models
-took 5.5 minutes on average and the S models 3.5 (175 languages, exact GP, 2 fits at a time).
-Here there are 64 F and 16 S models on up to 202 languages, so expect 4.5–5 hours (an
-estimate, not timed). The run uses at most 12 cores: 3 fits at a time × 4 chains × 1 thread
-(2026-10-21; first planned as 2 fits × 4 chains × 2 threads = 16, more than the 12 cores
-allowed). With about 200 languages per model, separate fits side by side gain more than
-threads inside a chain. A failed model is logged and skipped, a failed
+160 models in all (48 exposure, 112 outcome including baselines). Concurrency is configured via `ADM_PAR_FITS` (parallel fits $\times$ 4 chains $\times$ 1 thread per chain); with about 200 languages per model, running fits in parallel gains more than threading inside a chain. A failed model is logged and skipped, a failed
 set does not stop the next one, and fits are cached in `fits/`, so a rerun resumes.
 Results go to `results/` per set; the fits to `fits/` (not for git). In the result files
 `ctrl` reads none / phylogeny / space / phylogeny+space, and `xmode` says how stage 2 used the
@@ -183,7 +173,7 @@ Rscript analyses/common/f3.R <path to F2results> 3000 5
 ADM_XMODE=both ADM_MEASURES=f3k_z,f3k_est,f3b3_z,f3b3_est ADM_TAG=f3check \
   Rscript analyses/grambank/baseline/fit.R main > .../fit_f3check.log 2>&1
 # Flexivity outcomes and tail-checked exposures (sqrt_het, f3k_est_pos):
-# 1) Default sample (ADM_SAMPLE=own, used for the saved *_cov60.csv tables): all languages in language_data.csv (pre-filtered to cat12_coded >= 8, N=202) meeting each outcome's >=60% threshold (N=202 for cat12, N=189 for flex, N=186 for flex26, N=175 for irreg13; across all 225 Grambank-linked main languages prior to prepare.py's cat12_coded >= 8 filter, standalone >=60% retains 202/193/192/182):
+# 1) Default sample (ADM_SAMPLE=own, used for the saved *_cov60.csv tables on the archived e082562 N=202 language_data.csv pre-filtered to cat12_coded >= 8; current prepare.py retains all 225 languages under the 5-domain schema): all languages in archived language_data.csv meeting each outcome's >=60% threshold (N=202 for cat12, N=189 for flex, N=186 for flex26, N=175 for irreg13; across all 225 Grambank-linked main languages prior to the archived cat12_coded >= 8 filter, standalone >=60% retains 202/193/192/182):
 ADM_OUTCOME=flex ADM_MIN_COV=0.6 ADM_SAMPLE=own ADM_XMODE=plain \
   ADM_MEASURES=ent,het,f3k_est,sqrt_het,f3k_est_pos \
   Rscript analyses/grambank/baseline/fit.R main
@@ -202,12 +192,12 @@ Flexivity features, `flex26` dropping the 4 shared gender-agreement features GB1
 `irreg13` for the 13 core allomorphy/suppletion/inflection-class features); `ADM_MIN_COV` filters
 to languages with at least that share of outcome features coded (default `0.6` for all outcomes);
 `ADM_SAMPLE` selects the language sample (`own` default, used for the saved `model_results_main_*_cov60.csv`
-tables without `_intersect` suffixes: all languages in `language_data.csv` meeting `ADM_OUTCOME`'s
+tables without `_intersect` suffixes: all languages in the archived `e082562` `language_data.csv` meeting `ADM_OUTCOME`'s
 `>= 60%` coverage threshold, i.e. 202 for `cat12`, 189 for `flex`, 186 for `flex26`, and 175 for `irreg13`
-within the 202-language `cat12_coded >= 8` table—whereas across all 225 Grambank-linked `main` languages
-prior to `prepare.py`'s `cat12_coded >= 8` filter, standalone `>= 60%` retains 202/193/192/182; `intersect`:
+within that 202-language `cat12_coded >= 8` table—whereas across all 225 Grambank-linked `main` languages
+in the current 5-domain `prepare.py` output, standalone `>= 60%` retains 202/193/192/182; `intersect`:
 languages meeting `>= 60%` on both `cat12` and the Flexivity/Irregularity partner—189 for `flex`, 186 for
-`flex26`, and 175 for `irreg13`, identical to `own` on `flex`/`flex26`/`irreg13` within `language_data.csv`
+`flex26`, and 175 for `irreg13`, identical to `own` on `flex`/`flex26`/`irreg13` within archived `language_data.csv`
 while restricting `ADM_OUTCOME=cat12` from 202 to 189/186/175 so both outcomes share stage 1 and the
 phylogenetic correlation matrix; `ADM_INTERSECT_WITH` selects the partner outcome when `ADM_OUTCOME=cat12`,
 default `flex`); `ADM_CTRLS` overrides the control sets (e.g. `N,P,F`); `ADM_PAR_FITS` sets the number of
@@ -216,8 +206,7 @@ reuses saved stage-1 exposure tables in `results/` when they match the active la
 suffix to the result files (`model_results_main_f3check.csv`, …; defaults to `<outcome>_cov<pct>[_intersect]`)
 so they do not overwrite others.
 
-The tables were built on the `gelato-link-rules` branch; they need its
-`analysis_links.csv`.
+The tables were built from the tracked `analyses/common/data/analysis_links.csv` (and the archived `e082562` `N = 202` data snapshot).
 
 ## 8. Known limits (unchanged from the draft unless noted)
 
@@ -233,38 +222,18 @@ The tables were built on the `gelato-link-rules` branch; they need its
 * Hypothesis check: the draft found positive entropy slopes and a negative `amount` slope. Any
   new result is compared with those, with 27 more languages and changed links.
 
-## 9. Review (2026-10-21)
+## 9. Code & Data Quality Checks
 
-An independent review of the code (Opus subagent, read-only, dry run only) found no blocker.
-Changes made after it:
-* `fit.R`: the code after the fits had no error guard. One failed model or missing baseline
-  would have stopped the run before the sensitivity sets. Now a failed model, LOO comparison
-  or set is logged and skipped. Language subsets (`het`, `f3`, `neigh`) are built from the
-  data, not from which stage-1 fit succeeded, and a measure whose exposure languages differ
-  from its subset is skipped with a message.
-* `prepare.py`: the parser for Table S2 target names split on commas inside a bracketed
-  comment, so `Aleut_Tlingit` was missed. Fixed (one population changes: 80 → 81 targets).
-* `f3.R`: the coordinate fallback (§4). Four more targets now have f3 scores; f3 and
-  `populations.csv` were rebuilt, and every other measure is identical to the first build.
-* `.gitignore`: the smoke-test folders.
-* README: the wrong reason given for populations without triples, and the time estimate.
-* Second round (same day, same reviewer, after the fixes above): the post-fit code was run end
-  to end with the sampling stubbed (clean run, then injected failures, killed workers and
-  cached fits from an earlier run). It found that LOO comparisons could use a cached fit of a
-  model that had failed in the current run, that a killed worker was logged without its name,
-  and that `ctrl` "F" is read back as FALSE in files with a single control set. All three
-  fixed: comparisons need both models fitted in this run, workers are named, controls are
-  written as words. The run was repeated with the same stubs and behaves as intended; what the
-  stubs cannot test is real brms/CmdStan behaviour (compiling in forks, cached refits).
-* Final look before the run (same day): slopes of different sets were on different "per SD"
-  scales; the scaling constants are now saved so they can be compared (§6). Checked with the
-  dry run in all three modes and the stubbed end-to-end run.
+Key safeguards verified prior to the full exploratory fit:
+* `fit.R` guards model fitting, LOO comparisons, and sensitivity-set loops so a single failed fit is logged and skipped rather than aborting the run; language subsets (`het`, `f3`, `neigh`) are constructed directly from the data, control labels are written as full words (avoiding `"F"` $\to$ `FALSE` CSV coercion), and scaling constants (`x_scale`, `y_sd`) are saved for cross-set raw-unit comparisons.
+* `prepare.py` parses bracketed comments cleanly when extracting Graff et al. Table S2 target names (retaining `Aleut_Tlingit`: 81 curated targets).
+* `f3.R` applies the Glottolog coordinate fallback (§4), retaining all four targets without sampling-site coordinates (`Assyrian`, `Cameroon_Bangwa`, `Mongol_Minorities`, `Yemen_Marib`).
 
 ## 10. How stage 2 uses the exposure (`ADM_XMODE`)
 
-Decision 2026-10-21 (user): `both`. What was observed is in §11.
+Both `me` and `plain` modes (`ADM_XMODE=both`) were evaluated in the main run (§11).
 
-The review found a statistical issue that comes from the draft. Stage 2 gets each language's
+A key statistical distinction governs how Stage-1 posterior summaries enter Stage 2: Stage 2 receives each language's
 stage-1 **posterior mean** and passes its SD to `me(x, x_sd)`, which treats the mean as the
 true value plus noise ("classical" error). A posterior mean is the other way round: the true
 value scatters around it ("Berkson" error), and a plain regression on it is roughly unbiased.
@@ -305,9 +274,8 @@ Files: `results/model_results_<set>.csv`, `loo_x_vs_baseline_<set>.csv`,
 `loo_controls_main.csv`, `exposure_<set>.csv`, `stage1_diagnostics_<set>.csv`; the f3 check
 in the same files with the suffix `_f3check`. Logs: `fit.log`, `fit_f3check.log`, `f3_k5.log`; they and the fits (5.7 GB) stay local, not in git.
 
-**Run.** 48 stage-1 and 196 stage-2 models, then 4 and 40 (36 new) for the f3 check, on at most
-12 cores (3 fits × 4 chains). Times: main set 3 h, each sensitivity set 55–90 min, f3 check
-1 h. An F model took 4–11 minutes.
+**Run.** 48 stage-1 and 196 stage-2 models, then 4 and 40 (36 new) for the f3 check.
+An F model typically took 4–11 minutes.
 
 **Diagnostics.** Stage 1: R-hat ≤ 1.014, bulk ESS ≥ 444, no divergences; one model had low
 E-BFMI on 2 of 4 chains (the log does not say which; R-hat and ESS are fine). Stage 2: R-hat ≤
@@ -413,7 +381,7 @@ exposure mechanisms (`ent`, `het`, `f3k_est`) and their tail-checked counterpart
   $f_3 > 0$ reflects population-specific genetic drift rather than admixture, e.g. Rennell-Bellona
   at $-5.6\text{ SD}$) at zero.
 
-**Outcome sets (`prepare.py` → `language_data.csv`, all 225 Grambank-linked languages / 364 populations in `main`):**
+**Outcome sets (archived `e082562` `language_data.csv`, pre-filtered to `cat12_coded >= 8` [$N=202$] from all 225 Grambank-linked languages / 364 populations in `main`):**
 * `flex` (30 features): 11 gender/noun-class features (`GB030, GB051–054, GB170–172, GB192, GB198, GB321`),
   4 classifier features (`GB038, GB057, GB058, GB116`), 2 evaluative features (`GB187, GB188`),
   1 verbal animacy marker (`GB177`), and 12 suppletion/allomorphy/split/conjugation-class features.

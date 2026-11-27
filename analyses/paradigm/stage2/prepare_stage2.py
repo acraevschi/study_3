@@ -31,14 +31,18 @@ from analyses.common.demography import DEMOG_COLS, resolve_demography_rows  # no
 from analyses.common.genetics import (  # noqa: E402
     ADM_DIR,
     ARCH_DIR,
+    DEFAULT_MIN_N_IND,
     GELATO_DATA_CSV,
     KS,
     N_BOOT,
     POP_BOOT_MEASURES,
     SEED,
     compute_individual_measures,
+    compute_language_f3_maxp,
     compute_population_measures,
     load_admixture_q,
+    load_f3_fixed_scores,
+    load_fst_neighbor_regimes,
     write_rows_csv,
 )
 from analyses.common.phylogeny import build_newick, resolve_glottolog_paths  # noqa: E402
@@ -56,24 +60,40 @@ DEFAULT_LINKS_CSV = TRACKED_LINKS_CSV if TRACKED_LINKS_CSV.is_file() else LEGACY
 GRAMBANK_DATA_DIR = ROOT / "analyses/grambank/data"
 GRAMBANK_SEM_RESULTS_DIR = ROOT / "analyses/grambank/latent_sem/results"
 
-_IND_COLS: list[str] = ["population", "ind", "ent", "nonmax", "ent_K12", "ent_K30", "glottocode"]
+TRACK1_DOMAIN_GATES: tuple[tuple[str, int, int], ...] = (
+    ("v_breadth", 6, 9),
+    ("n_breadth", 3, 5),
+    ("v_irreg", 3, 5),
+    ("n_irreg", 2, 3),
+    ("np_agr", 5, 7),
+)
+
+_IND_COLS: list[str] = ["population", "ind", "ent", "nonmax", "ent_K12", "ent_K20", "ent_K30", "glottocode"]
 _POP_COLS: list[str] = [
     "population", "n_individuals", "pop_ent", "het", "support", "amount", "sqrt_het",
     "pop_ent_se", "het_se", "support_se", "amount_se", "sqrt_het_se",
     "graff_target", "neigh_flow", "n_B", "n_C", "n_triples", "n_z_lt_m3",
     "min_pop2", "min_pop3", "f3_z", "f3_est", "f3b3_z", "f3b3_est",
     "f3k_z", "f3k_est", "f3k_est_pos",
+    "f3_fixed", "f3_fixed_iso", "f3_fixed_raw", "f3_fixed_se", "f3_all_fixed",
+    "iso_fallback_used", "f4_est", "f4_se", "f4_z",
+    "neigh_flow_out", "median_fst_all", "fst_mismatch_ratio",
+    "barbieri_mismatch", "regime_a_enclave", "regime_b_shift",
     "glottocode", "link_basis", "accepted_by", "sensitivity_flags",
     "in_main", "in_no_doubtful_language", "in_no_other_language_stand_ins", "in_strict",
 ]
 _POP_INT_RAW_COLS: tuple[str, ...] = (
     "n_individuals", "graff_target", "n_B", "n_C", "n_triples", "n_z_lt_m3",
+    "iso_fallback_used", "barbieri_mismatch", "regime_a_enclave", "regime_b_shift",
 )
 _POP_FLT_RAW_COLS: tuple[str, ...] = (
     "pop_ent", "het", "support", "amount", "sqrt_het",
     "pop_ent_se", "het_se", "support_se", "amount_se", "sqrt_het_se",
     "neigh_flow", "f3_z", "f3_est", "f3b3_z", "f3b3_est",
     "f3k_z", "f3k_est", "f3k_est_pos",
+    "f3_fixed", "f3_fixed_iso", "f3_fixed_raw", "f3_fixed_se", "f3_all_fixed",
+    "f4_est", "f4_se", "f4_z",
+    "neigh_flow_out", "median_fst_all", "fst_mismatch_ratio",
 )
 
 
@@ -138,15 +158,19 @@ def load_track1_overlap(
     gb_data_dir: Path = GRAMBANK_DATA_DIR,
     gb_sem_dir: Path = GRAMBANK_SEM_RESULTS_DIR,
 ) -> dict[str, dict[str, object]]:
-    """Load Track 1 `irreg13`, verbal/nominal irregularity sub-scores, and 2PL IRT EAP scores."""
+    """Load Track 1 5-domain proportions (`>= 60%` gates) plus graceful legacy fallbacks."""
     ld_path = gb_data_dir / "language_data.csv"
     if not ld_path.exists():
         return {}
 
     with open(ld_path, encoding="utf-8") as f:
-        ld_rows = {r["glottocode"]: r for r in csv.DictReader(f)}
+        reader = csv.DictReader(f)
+        ld_cols = set(reader.fieldnames or [])
+        ld_rows = {r["glottocode"]: r for r in reader}
 
-    # Load item-level observations for verbal vs. nominal irregularity sub-proportions & 2PL EAP
+    has_5dom = all(f"{dom}_coded" in ld_cols and f"{dom}_present" in ld_cols for dom, _, _ in TRACK1_DOMAIN_GATES)
+
+    # Legacy item-level fallback (only used if legacy columns/artifacts exist)
     obs_path = gb_data_dir / "item_observations.csv"
     meta_path = gb_data_dir / "items_metadata.csv"
     ipar_path = gb_sem_dir / "item_parameters_irreg13_mb2pl.csv"
@@ -166,7 +190,6 @@ def load_track1_overlap(
                 if iid in irreg_domains:
                     obs_by_gc[r["glottocode"]][iid] = int(r["value"])
 
-    # Load 2PL IRT item parameters (`ent` model on `irreg13`) for outcome-blind EAP factor scoring
     irt_params: dict[str, tuple[float, float]] = {}
     if ipar_path.exists():
         with open(ipar_path, encoding="utf-8") as f:
@@ -179,11 +202,28 @@ def load_track1_overlap(
 
     out: dict[str, dict[str, object]] = {}
     for gc, r in ld_rows.items():
-        c12_pres = int(r["n_present"])
-        c12_cod = int(r["n_coded"])
-        ir_pres = int(r["irreg13_present"])
-        ir_cod = int(r["irreg13_coded"])
-        ir_prop = (ir_pres / ir_cod) if ir_cod >= 8 else float("nan")
+        rec: dict[str, object] = {}
+
+        # Canonical 5-domain proportions gated on >= 60% rule (>=6/9, >=3/5, >=3/5, >=2/3, >=5/7)
+        any_5dom_elig = False
+        for dom, min_cod, _k_tot in TRACK1_DOMAIN_GATES:
+            pres = _to_int_or_none(r.get(f"{dom}_present"))
+            cod = _to_int_or_none(r.get(f"{dom}_coded"))
+            if pres is not None and cod is not None and cod >= min_cod:
+                prop = pres / cod
+                any_5dom_elig = True
+            else:
+                prop = float("nan")
+            rec[f"{dom}_present"] = pres
+            rec[f"{dom}_coded"] = cod
+            rec[f"{dom}_prop"] = prop
+
+        # Legacy columns (gracefully optional)
+        c12_pres = _to_int_or_none(r.get("n_present"))
+        c12_cod = _to_int_or_none(r.get("n_coded"))
+        ir_pres = _to_int_or_none(r.get("irreg13_present"))
+        ir_cod = _to_int_or_none(r.get("irreg13_coded"))
+        ir_prop = (ir_pres / ir_cod) if (ir_pres is not None and ir_cod is not None and ir_cod >= 8) else float("nan")
 
         g_obs = obs_by_gc.get(gc, {})
         v_vals = [
@@ -198,21 +238,26 @@ def load_track1_overlap(
         n_prop = (sum(n_vals) / len(n_vals)) if len(n_vals) >= 2 else float("nan")
 
         theta_eap = float("nan")
-        if ir_cod >= 8 and irt_params and g_obs:
+        if ir_cod is not None and ir_cod >= 8 and irt_params and g_obs:
             ll = log_prior.copy()
             for iid, y_val in g_obs.items():
                 if iid in irt_params:
                     alpha_i, lam_i = irt_params[iid]
                     eta = alpha_i + lam_i * theta_grid
-                    # log_inv_logit(eta) if y=1 else log_inv_logit(-eta)
                     sign_eta = eta if y_val == 1 else -eta
                     ll += -np.logaddexp(0.0, -sign_eta)
             ll -= np.max(ll)
             w = np.exp(ll)
             theta_eap = float(np.sum(w * theta_grid) / np.sum(w))
 
-        out[gc] = {
-            "in_track1": 1 if (r.get("in_main") == "1" and c12_cod >= 8) else 0,
+        in_main_flag = r.get("in_main") == "1"
+        if has_5dom:
+            in_t1 = 1 if (in_main_flag and any_5dom_elig) else 0
+        else:
+            in_t1 = 1 if (in_main_flag and c12_cod is not None and c12_cod >= 8) else 0
+
+        rec.update({
+            "in_track1": in_t1,
             "cat12_present": c12_pres,
             "cat12_coded": c12_cod,
             "irreg13_present": ir_pres,
@@ -221,7 +266,8 @@ def load_track1_overlap(
             "irreg_verb_prop": v_prop,
             "irreg_noun_prop": n_prop,
             "theta_irreg13_eap": theta_eap,
-        }
+        })
+        out[gc] = rec
     return out
 
 
@@ -289,8 +335,18 @@ def _read_csv_optional(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(f))
 
 
+def _is_missing_scalar(val: object) -> bool:
+    if val is None:
+        return True
+    if isinstance(val, str):
+        return val in ("", "NA", "<NA>", "NaN", "nan", "None")
+    if isinstance(val, float):
+        return math.isnan(val)
+    return str(val) in ("", "NA", "<NA>", "NaN", "nan", "None")
+
+
 def _to_float_or_nan(val: object) -> float:
-    if val in (None, "", "NA", "NaN", "nan"):
+    if _is_missing_scalar(val):
         return float("nan")
     try:
         return float(val)  # type: ignore[arg-type]
@@ -299,7 +355,7 @@ def _to_float_or_nan(val: object) -> float:
 
 
 def _to_int_or_none(val: object) -> int | None:
-    if val in (None, "", "NA", "NaN", "nan"):
+    if _is_missing_scalar(val):
         return None
     try:
         return int(float(val))  # type: ignore[arg-type]
@@ -356,17 +412,27 @@ def _load_cached_genetics_for_pos(
             "ent": float(r["ent"]),
             "nonmax": float(r["nonmax"]),
             "ent_K12": float(r["ent_K12"]),
+            "ent_K20": float(r["ent_K20"]) if "ent_K20" in r and r["ent_K20"] not in ("", None) else float("nan"),
             "ent_K30": float(r["ent_K30"]),
             "glottocode": main_link_by_pop[pname]["glottocode"],
         })
     ind_rows.sort(key=lambda x: int(x["ind"]))  # type: ignore[arg-type]
     write_rows_csv(ind_rows, out_dir / f"individuals_{pos}.csv", _IND_COLS, ndigits=6)
 
+    f3f_raw = load_f3_fixed_scores()
+    f3f_list = f3f_raw.to_dict("records") if hasattr(f3f_raw, "to_dict") else list(f3f_raw)
+    f3f_by_pop = {str(r["population"]): r for r in f3f_list}
+    fstr_raw = load_fst_neighbor_regimes()
+    fstr_list = fstr_raw.to_dict("records") if hasattr(fstr_raw, "to_dict") else list(fstr_raw)
+    fstr_by_pop = {str(r["population"]): r for r in fstr_list}
+
     pop_by_name = {r["population"]: r for r in cached_pop_raw if r["population"] in main_link_by_pop}
     pop_rows: list[dict[str, object]] = []
     for pname in sorted(main_link_by_pop.keys()):
         pr = pop_by_name[pname]
         ml = main_link_by_pop[pname]
+        f3f_r = f3f_by_pop.get(pname, {})
+        fstr_r = fstr_by_pop.get(pname, {})
         parsed_p: dict[str, object] = {
             "population": pname,
             "min_pop2": pr.get("min_pop2", ""),
@@ -377,9 +443,11 @@ def _load_cached_genetics_for_pos(
             "sensitivity_flags": ml.get("sensitivity_flags", ""),
         }
         for ic in _POP_INT_RAW_COLS:
-            parsed_p[ic] = _to_int_or_none(pr.get(ic))
+            raw_v = pr.get(ic) if ic in pr else (f3f_r.get(ic) if ic in f3f_r else fstr_r.get(ic))
+            parsed_p[ic] = _to_int_or_none(raw_v)
         for fc in _POP_FLT_RAW_COLS:
-            parsed_p[fc] = _to_float_or_nan(pr.get(fc))
+            raw_v = pr.get(fc) if fc in pr else (f3f_r.get(fc) if fc in f3f_r else fstr_r.get(fc))
+            parsed_p[fc] = _to_float_or_nan(raw_v)
         for s_name in SETS:
             parsed_p[f"in_{s_name}"] = 1 if pname in in_set[s_name] else 0
         pop_rows.append(parsed_p)
@@ -579,6 +647,8 @@ def prepare_stage2_inputs(
                 f3_path=COMMON_DATA_DIR / "f3_scores.csv",
                 k5_path=COMMON_DATA_DIR / "f3_scores_k5.csv",
                 include_extended_metadata=True,
+                include_fixed_f3=True,
+                include_fst_regimes=True,
                 warn_missing_f3=True,
             )
             pop_raw_rows = pop_res.to_dict("records") if hasattr(pop_res, "to_dict") else list(pop_res)
@@ -588,12 +658,19 @@ def prepare_stage2_inputs(
                 pname = str(pr["population"])
                 ml = main_link_by_pop[pname]
                 merged_p: dict[str, object] = {
-                    **pr,
+                    "population": pname,
+                    "min_pop2": "" if _is_missing_scalar(pr.get("min_pop2")) else str(pr.get("min_pop2")),
+                    "min_pop3": "" if _is_missing_scalar(pr.get("min_pop3")) else str(pr.get("min_pop3")),
                     "glottocode": ml["glottocode"],
                     "link_basis": ml["link_basis"],
                     "accepted_by": ml["accepted_by"],
                     "sensitivity_flags": ml.get("sensitivity_flags", ""),
                 }
+                for ic in _POP_INT_RAW_COLS:
+                    merged_p[ic] = _to_int_or_none(pr.get(ic))
+                for fc in _POP_FLT_RAW_COLS:
+                    fv = _to_float_or_nan(pr.get(fc))
+                    merged_p[fc] = fv if math.isnan(fv) else round(fv, 7)
                 for s_name in SETS:
                     merged_p[f"in_{s_name}"] = 1 if pname in in_set[s_name] else 0
                 pop_rows.append(merged_p)
@@ -624,6 +701,14 @@ def prepare_stage2_inputs(
         for ir in ind_rows:
             inds_by_gc[str(ir["glottocode"])].append(ir)
 
+        f3_maxp_raw = compute_language_f3_maxp(
+            [p for p in pop_rows if int(p["in_main"]) == 1],
+            col="f3_fixed",
+            min_n_ind=DEFAULT_MIN_N_IND,
+        )
+        f3_maxp_list = f3_maxp_raw.to_dict("records") if hasattr(f3_maxp_raw, "to_dict") else list(f3_maxp_raw)
+        f3_maxp_by_gc = {str(r["glottocode"]): _to_float_or_nan(r.get("f3_fixed_maxp")) for r in f3_maxp_list}
+
         lang_cols = [
             "glottocode", "unit_id", "pos", "name", "family", "family_id", "macroarea", "lat", "lon",
             "n_populations", "n_individuals",
@@ -631,7 +716,9 @@ def prepare_stage2_inputs(
             "in_no_doubtful_language", "n_individuals_no_doubtful_language",
             "in_no_other_language_stand_ins", "n_individuals_no_other_language_stand_ins",
             "in_strict", "n_individuals_strict",
-            "ent", "nonmax", "tree_source",
+            "ent", "nonmax",
+            "f3_fixed_maxp", "median_fst_all", "barbieri_mismatch", "regime_a_enclave", "regime_b_shift",
+            "tree_source",
             *DEMOG_COLS,
             "source_id", "source_prov", "n_avail", "log_navail",
             "n_cells_distinct", "log_C_distinct", "n_test_lemmas", "base_cell_modal",
@@ -645,7 +732,13 @@ def prepare_stage2_inputs(
             "has_malouf", "h_tree_malouf_bits", "h_tree_malouf_se",
             "has_neural", "h_tree_neural_bits", "h_tree_neural_se",
             "h_tree_neural_480_bits", "h_tree_neural_480_se",
-            "in_track1", "cat12_present", "cat12_coded",
+            "in_track1",
+            "v_breadth_present", "v_breadth_coded", "v_breadth_prop",
+            "n_breadth_present", "n_breadth_coded", "n_breadth_prop",
+            "v_irreg_present", "v_irreg_coded", "v_irreg_prop",
+            "n_irreg_present", "n_irreg_coded", "n_irreg_prop",
+            "np_agr_present", "np_agr_coded", "np_agr_prop",
+            "cat12_present", "cat12_coded",
             "irreg13_present", "irreg13_coded", "irreg13_prop",
             "irreg_verb_prop", "irreg_noun_prop", "theta_irreg13_eap",
         ]
@@ -715,6 +808,21 @@ def prepare_stage2_inputs(
                     mean_ent, mean_nmx = c_ent, c_nmx
             row_l["ent"] = mean_ent
             row_l["nonmax"] = mean_nmx
+            p_n3 = [
+                p for p in p_list
+                if int(p["in_main"]) == 1 and (_to_int_or_none(p.get("n_individuals")) or 0) >= DEFAULT_MIN_N_IND
+            ]
+            med_fst_vals = [
+                _to_float_or_nan(p.get("median_fst_all"))
+                for p in p_n3
+                if not math.isnan(_to_float_or_nan(p.get("median_fst_all")))
+            ]
+            row_l["f3_fixed_maxp"] = f3_maxp_by_gc.get(gc, float("nan"))
+            row_l["median_fst_all"] = (sum(med_fst_vals) / len(med_fst_vals)) if med_fst_vals else float("nan")
+            for flag_col in ("barbieri_mismatch", "regime_a_enclave", "regime_b_shift"):
+                f_vals = [_to_int_or_none(p.get(flag_col)) for p in p_n3]
+                f_valid = [v for v in f_vals if v is not None]
+                row_l[flag_col] = (1 if any(v == 1 for v in f_valid) else 0) if f_valid else None
             row_l["tree_source"] = tree_src[gc]
             for dc in DEMOG_COLS:
                 row_l[dc] = dm[dc]
@@ -758,6 +866,21 @@ def prepare_stage2_inputs(
                 "h_tree_neural_480_bits": float(rneu480["h_tree_bits"]) if rneu480 else float("nan"),
                 "h_tree_neural_480_se": float(rneu480["h_tree_se"]) if rneu480 else float("nan"),
                 "in_track1": t1.get("in_track1", 0),
+                "v_breadth_present": t1.get("v_breadth_present", None),
+                "v_breadth_coded": t1.get("v_breadth_coded", None),
+                "v_breadth_prop": t1.get("v_breadth_prop", float("nan")),
+                "n_breadth_present": t1.get("n_breadth_present", None),
+                "n_breadth_coded": t1.get("n_breadth_coded", None),
+                "n_breadth_prop": t1.get("n_breadth_prop", float("nan")),
+                "v_irreg_present": t1.get("v_irreg_present", None),
+                "v_irreg_coded": t1.get("v_irreg_coded", None),
+                "v_irreg_prop": t1.get("v_irreg_prop", float("nan")),
+                "n_irreg_present": t1.get("n_irreg_present", None),
+                "n_irreg_coded": t1.get("n_irreg_coded", None),
+                "n_irreg_prop": t1.get("n_irreg_prop", float("nan")),
+                "np_agr_present": t1.get("np_agr_present", None),
+                "np_agr_coded": t1.get("np_agr_coded", None),
+                "np_agr_prop": t1.get("np_agr_prop", float("nan")),
                 "cat12_present": t1.get("cat12_present", None),
                 "cat12_coded": t1.get("cat12_coded", None),
                 "irreg13_present": t1.get("irreg13_present", None),
@@ -859,6 +982,14 @@ def prepare_stage2_inputs(
             "n_topfreq120": sum(int(r["has_topfreq120"]) for r in lang_rows),
             "n_neural": sum(int(r["has_neural"]) for r in lang_rows),
             "n_track1_overlap": sum(int(r["in_track1"]) for r in lang_rows),
+            "n_track1_domains": {
+                dom: sum(
+                    1
+                    for r in lang_rows
+                    if not math.isnan(_to_float_or_nan(r.get(f"{dom}_prop")))
+                )
+                for dom, _, _ in TRACK1_DOMAIN_GATES
+            },
             "n_languages_entrenchment": n_langs_with_freq,
             "n_lemmas_entrenchment": len(lf_rows),
             "pooled_per_individual_sd": pooled_sd,

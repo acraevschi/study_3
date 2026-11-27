@@ -1,4 +1,4 @@
-# Figure 1: Sample Geography & Paradigm Complexity Landscape (Track 2 MGL)
+# Figure 1: Sample Geography (Cross-Family f3) & Paradigm Complexity Landscape (Track 2 MGL)
 # Outputs: fig1_mgl_map_and_complexity.{png,pdf}
 
 suppressPackageStartupMessages({
@@ -12,50 +12,93 @@ fig_dir <- if (length(file_arg)) dirname(normalizePath(sub("^--file=", "", file_
 root_dir <- normalizePath(file.path(fig_dir, "../../.."), mustWork = FALSE)
 source(file.path(fig_dir, "_style.R"))
 
-ld_v <- read.csv(file.path(root_dir, "analyses/paradigm/results/stage2/prepared/language_data_V.csv"), stringsAsFactors = FALSE)
-ld_n <- read.csv(file.path(root_dir, "analyses/paradigm/results/stage2/prepared/language_data_N.csv"), stringsAsFactors = FALSE)
+s2_dir   <- file.path(root_dir, "analyses/paradigm/results/stage2")
+prep_dir <- file.path(s2_dir, "prepared")
+
+ld_v <- read.csv(file.path(prep_dir, "language_data_V.csv"), stringsAsFactors = FALSE)
+ld_n <- read.csv(file.path(prep_dir, "language_data_N.csv"), stringsAsFactors = FALSE)
+ex_v <- read.csv(file.path(s2_dir, "exposure_main_V.csv"), stringsAsFactors = FALSE)
+ex_n <- read.csv(file.path(s2_dir, "exposure_main_N.csv"), stringsAsFactors = FALSE)
 us   <- read.csv(file.path(root_dir, "analyses/paradigm/data/unit_summary.csv"), stringsAsFactors = FALSE)
 u120 <- read.csv(file.path(root_dir, "analyses/paradigm/results/mgl/unit_outcomes_uniform120.csv"), stringsAsFactors = FALSE)
 
-# --- Panel A: Map of 56 GeLaTo languages ---
+# --- Panel A: Map of 56 GeLaTo languages colored by language-level f3_fixed ---
 all_meta <- unique(rbind(
-  ld_v[, c("glottocode", "name", "family", "lat", "lon", "ent")],
-  ld_n[, c("glottocode", "name", "family", "lat", "lon", "ent")]
+  ld_v[, c("glottocode", "name", "family", "lat", "lon")],
+  ld_n[, c("glottocode", "name", "family", "lat", "lon")]
 ))
 stopifnot(nrow(all_meta) == 56L, !anyDuplicated(all_meta$glottocode))
 
+ev_f3 <- subset(ex_v, set == "main" & measure == "f3_fixed")
+en_f3 <- subset(ex_n, set == "main" & measure == "f3_fixed")
+if ("min_n_ind" %in% names(ev_f3)) ev_f3 <- subset(ev_f3, min_n_ind == 3L)
+if ("min_n_ind" %in% names(en_f3)) en_f3 <- subset(en_f3, min_n_ind == 3L)
+ev_f3$f3_raw <- pmax(0, ev_f3$eta_mean * ev_f3$y_sd + ev_f3$y_mean)
+en_f3$f3_raw <- pmax(0, en_f3$eta_mean * en_f3$y_sd + en_f3$y_mean)
+
+f3_both <- rbind(
+  ev_f3[, c("glottocode", "f3_raw")],
+  en_f3[, c("glottocode", "f3_raw")]
+)
+f3_lang <- aggregate(f3_raw ~ glottocode, data = f3_both, FUN = mean)
+
+all_meta <- merge(all_meta, f3_lang, by = "glottocode", all.x = TRUE)
+all_meta$f3_scaled <- all_meta$f3_raw * 1e3
+
 in_v <- all_meta$glottocode %in% ld_v$glottocode
 in_n <- all_meta$glottocode %in% ld_n$glottocode
-all_meta$coverage <- ifelse(in_v & in_n, "Verbs & Nouns (38)",
-                     ifelse(in_v, "Verbs only (7)", "Nouns only (11)"))
-all_meta$coverage <- factor(all_meta$coverage,
-                            levels = c("Verbs & Nouns (38)", "Nouns only (11)", "Verbs only (7)"))
+n_vn <- sum(in_v & in_n)
+n_vo <- sum(in_v & !in_n)
+n_no <- sum(!in_v & in_n)
+lbl_vn <- sprintf("Verbs & Nouns (%d)", n_vn)
+lbl_no <- sprintf("Nouns only (%d)", n_no)
+lbl_vo <- sprintf("Verbs only (%d)", n_vo)
+
+all_meta$coverage <- ifelse(in_v & in_n, lbl_vn, ifelse(in_v, lbl_vo, lbl_no))
+all_meta$coverage <- factor(all_meta$coverage, levels = c(lbl_vn, lbl_no, lbl_vo))
+
+meta_has_f3 <- subset(all_meta, !is.na(f3_scaled))
+meta_no_f3  <- subset(all_meta, is.na(f3_scaled))
+n_with_f3   <- nrow(meta_has_f3)
+n_miss_f3   <- nrow(meta_no_f3)
 
 world_df <- subset(map_data("world"), region != "Antarctica")
 
 pA <- ggplot() +
   geom_polygon(data = world_df, aes(long, lat, group = group),
                fill = MAP_LAND, colour = "white", linewidth = 0.15) +
-  geom_point(data = all_meta[order(all_meta$ent), ],
-             aes(lon, lat, fill = ent, shape = coverage),
+  geom_point(data = meta_no_f3,
+             aes(lon, lat, shape = coverage),
+             size = 2.35, fill = "white", colour = INK2, stroke = 0.55) +
+  geom_point(data = meta_has_f3[order(meta_has_f3$f3_scaled), ],
+             aes(lon, lat, fill = f3_scaled, shape = coverage),
              size = 2.35, colour = "white", stroke = 0.35) +
-  scale_fill_gradientn(colours = SEQ_ENTROPY,
-                       name = "Ancestry entropy\n(nats)",
-                       guide = guide_colorbar(barheight = unit(2.5, "lines"),
-                                              barwidth = unit(0.45, "lines"),
-                                              order = 2)) +
-  scale_shape_manual(values = c("Verbs & Nouns (38)" = 21,
-                                "Nouns only (11)" = 22,
-                                "Verbs only (7)" = 23),
-                     name = "POS coverage",
-                     guide = guide_legend(
-                       order = 1,
-                       override.aes = list(fill = INK_BODY, colour = "white", size = 2.4, stroke = 0.35)
-                     )) +
+  annotate("text", x = -102, y = -35, hjust = 0, vjust = 0,
+           label = sprintf("Open markers: %d languages without f3 (n < 3 / isolate)", n_miss_f3),
+           size = 7.0 / .pt, colour = INK2, family = "Helvetica") +
+  scale_fill_gradientn(
+    colours = SEQ_F3,
+    trans = "sqrt",
+    limits = c(0, NA),
+    breaks = c(0, 0.5, 1.5, 3, 6),
+    labels = c("0", "0.5", "1.5", "3", "6"),
+    name = expression(atop("Cross-family " * italic(f)[3], "(\u00d7" * 10^-3 * ")")),
+    guide = guide_colorbar(barheight = unit(2.5, "lines"),
+                           barwidth = unit(0.45, "lines"),
+                           order = 2)
+  ) +
+  scale_shape_manual(
+    values = setNames(c(21, 22, 23), c(lbl_vn, lbl_no, lbl_vo)),
+    name = "POS coverage",
+    guide = guide_legend(
+      order = 1,
+      override.aes = list(fill = INK_BODY, colour = "white", size = 2.4, stroke = 0.35)
+    )
+  ) +
   coord_quickmap(xlim = c(-105, 155), ylim = c(-40, 75), expand = FALSE) +
   labs(
-    title = sprintf("a   %d GeLaTo languages (%d orthographic units, %d families)",
-                    nrow(all_meta), sum(u120$representation == "orth"), length(unique(all_meta$family)))
+    title = sprintf("a   %d GeLaTo languages (%d with cross-family f3; %d orth. units, %d families)",
+                    nrow(all_meta), n_with_f3, sum(u120$representation == "orth"), length(unique(all_meta$family)))
   ) +
   theme_track2() +
   theme(
@@ -76,11 +119,13 @@ orth <- merge(subset(u120, representation == "orth"),
               us[, c("unit_id", "language_name", "family_name")],
               by = "unit_id")
 stopifnot(nrow(orth) == 94L)
-orth$pos_lbl <- ifelse(orth$pos == "V", "Verbs (45)", "Nouns (49)")
-orth$pos_lbl <- factor(orth$pos_lbl, levels = c("Verbs (45)", "Nouns (49)"))
+n_v_orth <- sum(orth$pos == "V")
+n_n_orth <- sum(orth$pos == "N")
+lbl_v <- sprintf("Verbs (%d)", n_v_orth)
+lbl_n <- sprintf("Nouns (%d)", n_n_orth)
+orth$pos_lbl <- factor(ifelse(orth$pos == "V", lbl_v, lbl_n), levels = c(lbl_v, lbl_n))
 orth$txt_col <- ifelse(orth$pos == "V", COL_VERB, COL_NOUN_TXT)
 
-# Named lookup for exemplar label positions (explicit lx, ly so zero overlap or clipping)
 ex_specs <- data.frame(
   unit_id = c("moks1248_V_orth", "taga1270_V_orth", "mode1248_N_orth",
               "gulf1241_V_orth", "iris1253_N_orth", "stan1293_V_orth",
@@ -110,12 +155,12 @@ pB <- ggplot(orth, aes(x = n_cells_distinct, y = h_tree_bits, colour = pos_lbl, 
   scale_x_log10(breaks = c(2, 5, 10, 20, 50, 100, 250)) +
   scale_y_continuous(breaks = c(0, 2, 4, 6, 8)) +
   coord_cartesian(xlim = c(1.75, 300), ylim = c(-0.2, 8.1)) +
-  scale_colour_manual(values = c("Verbs (45)" = COL_VERB, "Nouns (49)" = COL_NOUN), name = NULL) +
-  scale_shape_manual(values = c("Verbs (45)" = 16, "Nouns (49)" = 17), name = NULL) +
+  scale_colour_manual(values = setNames(c(COL_VERB, COL_NOUN), c(lbl_v, lbl_n)), name = NULL) +
+  scale_shape_manual(values = setNames(c(16, 17), c(lbl_v, lbl_n)), name = NULL) +
   labs(
     title = "b   Paradigm size vs. conditional entropy",
     x = "Distinct synthetic cells (log scale)",
-    y = expression("MGL tree entropy " * italic(H)[tree] * " (bits ± SE)")
+    y = expression("MGL tree entropy " * italic(H)[tree] * " (bits " * "\u00b1" * " SE)")
   ) +
   theme_track2() +
   theme(
@@ -146,8 +191,8 @@ all_med <- aggregate(bits ~ stage, data = traj, FUN = median)
 
 end_labs <- subset(sum_df, stage == "Tree")
 end_labs$lab <- sprintf("%.2f", end_labs$med)
-end_labs$dy <- ifelse(end_labs$pos_lbl == "Verbs (45)", -0.35, 0.42)
-end_labs$col <- ifelse(end_labs$pos_lbl == "Verbs (45)", COL_VERB, COL_NOUN_TXT)
+end_labs$dy <- ifelse(end_labs$pos_lbl == lbl_v, -0.35, 0.42)
+end_labs$col <- ifelse(end_labs$pos_lbl == lbl_v, COL_VERB, COL_NOUN_TXT)
 
 pC <- ggplot() +
   geom_line(data = traj, aes(x = stage, y = bits, group = unit_id),
@@ -167,12 +212,12 @@ pC <- ggplot() +
             colour = end_labs$col, hjust = -0.18, size = 7.2 / .pt, fontface = "bold",
             family = "Helvetica") +
   annotate("text", x = 1.0, y = 7.9, hjust = 0, vjust = 1,
-           label = sprintf("Median (94 units):\nk=1: %.2f | k=3: %.2f\nTree: %.2f bits",
-                           all_med$bits[1], all_med$bits[2], all_med$bits[3]),
+           label = sprintf("Median (%d units):\nk=1: %.2f | k=3: %.2f\nTree: %.2f bits",
+                           nrow(orth), all_med$bits[1], all_med$bits[2], all_med$bits[3]),
            size = 7.0 / .pt, colour = INK_BODY, lineheight = 1.12, family = "Helvetica") +
-  scale_colour_manual(values = c("Verbs (45)" = COL_VERB, "Nouns (49)" = COL_NOUN), guide = "none") +
-  scale_shape_manual(values = c("Verbs (45)" = 16, "Nouns (49)" = 17), guide = "none") +
-  scale_linetype_manual(values = c("Verbs (45)" = "solid", "Nouns (49)" = "dashed"), guide = "none") +
+  scale_colour_manual(values = setNames(c(COL_VERB, COL_NOUN), c(lbl_v, lbl_n)), guide = "none") +
+  scale_shape_manual(values = setNames(c(16, 17), c(lbl_v, lbl_n)), guide = "none") +
+  scale_linetype_manual(values = setNames(c("solid", "dashed"), c(lbl_v, lbl_n)), guide = "none") +
   scale_x_discrete(expand = expansion(add = c(0.28, 0.58))) +
   scale_y_continuous(breaks = c(0, 2, 4, 6, 8)) +
   coord_cartesian(ylim = c(-0.2, 8.1)) +

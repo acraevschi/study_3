@@ -1,39 +1,30 @@
-item_order,item_id,item_group,in_cat12,in_irreg13,in_flex26,domain,testlet,is_agreement,sources,description
-1,tense,cat12,1,0,0,verbal_tam,verbal_tam,0,GB082;GB083;GB084,"GBI category: tense (GB082, GB083, GB084)"
-2,aspect,cat12,1,0,0,verbal_tam,verbal_tam,0,GB086,GBI category: aspect (GB086)
-3,mood,cat12,1,0,0,verbal_tam,verbal_tam,0,GB312,GBI category: mood (GB312)
-4,person_indexing,cat12,1,0,0,person_indexing,none,0,GB089;GB090;GB091;GB092;GB093;GB094,"GBI category: person_indexing (GB089, GB090, GB091, GB092, GB093, GB094)"
-5,negation,cat12,1,0,0,neg_interrog,neg_interrog,0,GB107,GBI category: negation (GB107)
-6,polar_interrogation,cat12,1,0,0,neg_interrog,neg_interrog,0,GB285;GB286,"GBI category: polar_interrogation (GB285, GB286)"
-7,nominal_number,cat12,1,0,0,nominal_number,none,0,GB042;GB043;GB044;GB165;GB166,"GBI category: nominal_number (GB042, GB043, GB044, GB165, GB166)"
-8,case,cat12,1,0,0,case,none,0,GB070;GB071;GB072;GB073,"GBI category: case (GB070, GB071, GB072, GB073)"
-9,possessor_affix,cat12,1,0,0,possession,possession,0,GB430;GB432,"GBI category: possessor_affix (GB430, GB432)"
-10,possessed_affix,cat12,1,0,0,possession,possession,0,GB431;GB433,"GBI category: possessed_affix (GB431, GB433)"
-11,gender_agreement,cat12,1,0,0,agreement,agreement,1,GB170;GB171;GB172;GB198,"GBI category: gender_agreement (GB170, GB171, GB172, GB198)"
-12,number_agreement,cat12,1,0,0,agreement,agreement,1,GB184;GB185;GB186,"GBI category: number_agreement (GB184, GB185, GB186)"
-13,GB030,flex26,0,0,1,gender_nc,gender_nc,0,GB030,Is there a gender distinction in independent 3rd person pronouns?
-14,GB038,flex26,0,0,1,classifiers,classifiers,0,GB038,Are there demonstrative classifiers?
-15,GB039,flex26,0,1,1,noun_irreg,noun_irreg,0,GB039,Is there nonphonological allomorphy of noun number markers?
-16,GB041,flex26,0,1,1,noun_irreg,noun_irreg,0,GB041,Are there several nouns (more than three) which are suppletive for number?
-17,GB051,flex26,0,0,1,gender_nc,gender_nc,0,GB051,Is there a gender/noun class system where sex is a factor in class assignment?
-18,GB052,flex26,0,0,1,gender_nc,gender_nc,0,GB052,Is there a gender/noun class system where shape is a factor in class assignment?
-19,GB053,flex26,0,0,1,gender_nc,gender_nc,0,GB053,Is there a gender/noun class system where animacy is a factor in class assignment?
-20,GB054,flex26,0,0,1,gender_nc,gender_nc,0,GB054,Is there a gender/noun class system where plant status is a factor in class assignment?
-21,GB057,flex26,0,0,1,classifiers,classifiers,0,GB057,Are there numeral classifiers?
-22,GB058,flex26,0,0,1,classifiers,classifiers,0,GB058,Are there possessive classifiers?
-23,GB095,flex26,0,1,1,arg_split_classes,arg_split_classes,0,GB095,Are variations in marking strategies of core participants based on TAM distinctions?
-24,GB096,flex26,0,1,1,arg_split_classes,arg_split_classes,0,GB096,Are variations in marking strategies of core participants based on verb classes?
-25,GB098,flex26,0,1,1,arg_split_classes,arg_split_classes,0,GB098,Are variations in marking strategies of core participants based on person distinctions?
-26,GB099,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB099,Can verb stems alter according to the person of a core participant?
-27,GB109,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB109,Is there verb suppletion for participant number?
-28,GB110,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB110,Is there verb suppletion for tense or aspect?
-29,GB111,flex26,0,1,1,arg_split_classes,arg_split_classes,0,GB111,Are there conjugation classes?
-30,GB116,flex26,0,0,1,classifiers,classifiers,0,GB116,"Do verbs classify the shape, size or consistency of absolutive arguments by means of incorporated nouns, verbal affixes or suppletive verb stems?"
-31,GB177,flex26,0,0,1,evaluative_anim,evaluative_anim,0,GB177,"Can the verb carry a marker of animacy of argument, unrelated to any gender/noun class of the argument visible in the NP domain?"
-32,GB187,flex26,0,0,1,evaluative_anim,evaluative_anim,0,GB187,Is there any productive diminutive marking on the noun (exclude marking by system of nominal classification only)?
-33,GB188,flex26,0,0,1,evaluative_anim,evaluative_anim,0,GB188,Is there any productive augmentative marking on the noun (exclude marking by system of nominal classification only)?
-34,GB192,flex26,0,0,1,gender_nc,gender_nc,0,GB192,Is there a gender system where a noun's phonological properties are a factor in class assignment?
-35,GB300,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB300,Does the verb for 'give' have suppletive verb forms?
-36,GB321,flex26,0,1,1,noun_irreg,noun_irreg,0,GB321,Is there a large class of nouns whose gender/noun class is not phonologically or semantically predictable?
-37,GB402,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB402,Does the verb for 'see' have suppletive verb forms?
-38,GB403,flex26,0,1,1,verb_suppletion_stem,verb_suppletion_stem,0,GB403,Does the verb for 'come' have suppletive verb forms?
+item_order,item_id,item_group,domain,testlet,agg_rule,prereq,sources,description
+1,present_tense,v_breadth,verbal_tense,verbal_tense,exact,none,GB082,Overt morphological present tense on verbs (GB082)
+2,past_tense,v_breadth,verbal_tense,verbal_tense,exact,none,GB083,Dedicated morphological past tense on verbs (GB083)
+3,future_tense,v_breadth,verbal_tense,verbal_tense,exact,none,GB084,Dedicated morphological future tense on verbs (GB084)
+4,aspect,v_breadth,verbal_aspect,none,exact,none,GB086,Morphological perfective/imperfective aspect on verbs (GB086)
+5,mood,v_breadth,verbal_mood,none,exact,none,GB312,Dedicated morphological mood marking on verbs (GB312)
+6,subj_indexing,v_breadth,verbal_subj_idx,none,or_exact,none,GB089;GB090;GB091;GB092,S or A prefix/suffix indexing on verbs (OR_exact GB089..GB092)
+7,obj_indexing,v_breadth,verbal_obj_idx,none,or_exact,none,GB093;GB094,"P prefix/suffix indexing on verbs (OR_exact GB093, GB094)"
+8,negation,v_breadth,verbal_neg,none,exact,none,GB107,"Bound verbal negation affix, clitic, or stem modification (GB107)"
+9,polar_q_bound,v_breadth,verbal_polar_q,none,exact,none,GB286,Polar interrogation via overt verbal morphology only (GB286)
+10,noun_plural,n_breadth,noun_plural,none,exact,none,GB044,Productive morphological plural on common nouns (GB044)
+11,noun_dual,n_breadth,noun_dual,none,exact,none,GB043,Productive morphological dual on common nouns (GB043)
+12,noun_case_core,n_breadth,noun_case,noun_case,exact,none,GB070,Non-pronominal core (S/A/P) morphological case on nouns (GB070)
+13,noun_case_oblique,n_breadth,noun_case,noun_case,exact,none,GB072,Non-pronominal oblique morphological case on nouns (GB072)
+14,possessed_affix,n_breadth,noun_possessed,none,or_exact,none,GB431;GB433,"Head-marked possessive prefix/suffix on possessed noun (OR_exact GB431, GB433)"
+15,conj_classes,v_irreg,v_conj_classes,none,exact,any_v_morph,GB111,Conjugation classes on verbs (GB111 | any_v_morph==1)
+16,tam_suppletion,v_irreg,v_tam_suppl,none,exact,any_v_tam,GB110,Verb stem suppletion for tense/aspect (GB110 | any_v_tam==1)
+17,pers_stem_alt,v_irreg,v_pers_stem_alt,none,exact,person_idx,GB099,Verb stem alternation by participant person (GB099 | person_idx==1)
+18,part_num_suppl,v_irreg,v_part_num_suppl,none,exact,any_v_morph,GB109,Verb stem suppletion for participant number (GB109 | any_v_morph==1)
+19,lex_verb_suppl,v_irreg,v_lex_suppl,none,or_lenient,any_v_morph,GB300;GB402;GB403,"Suppletive forms in give/see/come (OR_lenient GB300, GB402, GB403 | any_v_morph==1)"
+20,noun_num_allom,n_irreg,n_num_allom,none,exact,any_noun_num,GB039,Non-phonological allomorphy of noun number markers (GB039 | any_noun_num==1)
+21,noun_num_suppl,n_irreg,n_num_suppl,none,exact,any_noun_num,GB041,>3 nouns suppletive for number (GB041 | any_noun_num==1)
+22,opaque_gender,n_irreg,n_opaque_gender,none,exact,any_gender,GB321,Large class of nouns with unpredictable gender/noun-class (GB321 | any_gender==1)
+23,agr_gender_prop,np_agr,gender_agr,gender_agr,exact,none,GB170,Gender agreement on adnominal property words (GB170)
+24,agr_gender_dem,np_agr,gender_agr,gender_agr,exact,none,GB171,Gender agreement on adnominal demonstratives (GB171)
+25,agr_gender_art,np_agr,gender_agr,gender_agr,exact,none,GB172,Gender agreement on articles (GB172)
+26,agr_gender_num,np_agr,gender_agr,gender_agr,exact,none,GB198,Gender agreement on numerals (GB198)
+27,agr_num_prop,np_agr,num_agr,num_agr,exact,none,GB184,Number agreement on adnominal property words (GB184)
+28,agr_num_dem,np_agr,num_agr,num_agr,exact,none,GB185,Number agreement on adnominal demonstratives (GB185)
+29,agr_num_art,np_agr,num_agr,num_agr,exact,none,GB186,Number agreement on articles (GB186)
