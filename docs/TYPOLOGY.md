@@ -1,7 +1,8 @@
 # Grambank inflection-extent outcome (`typology` stage)
 
-Owner: typology component (`morph_ldl/typology/`). §1–§8 specify the sources, mapping
-rules, 12-category feature set, outputs, ancestry firewall and audit; §9 summarises the
+> **Scope note:** This document specifies the upstream `morph_ldl/typology/` stage (GeLaTo population–language linkage rules, confirmed decision sheet `morph_ldl/data/gelato_link_review.csv`, and the initial 12-category Grambank outcome). For the canonical Study 3 empirical pipelines—**Track 1** (`N = 225` Grambank languages across 5 clean domains with `f3_fixed` in [`analyses/grambank/`](../analyses/grambank/README.md)) and **Track 2** (`56` languages, `106` paradigm units in [`analyses/paradigm/`](../analyses/paradigm/README.md))—see [`analyses/README.md`](../analyses/README.md).
+
+§1–§8 specify the sources, mapping rules, 12-category feature set, outputs, ancestry firewall and audit; §9 summarises the
 outcome modeling design; §10–§12 record the missing-language audit, the 12-category
 `pcfp_v2` run, and the 2026-10-20 link-rules run (202 main-set languages).
 
@@ -338,9 +339,8 @@ genetic-value patterns (`*.Q`, `GeneticInfoID`, `best_runs/`, `*ancestry*`,
 `audit_typology` re-checks that list. No ancestry value, Q matrix or genetic summary is
 read, and no choice in this document was made after looking at one.
 
-**Update 2026-10-21.** The firewall still holds for this stage. Outside it, the exploratory
-admixture models (`analyses/draft_admixture_model_2026_10_10/` and
-`analyses/admixture_links_2026_10_21/`, now `analyses/grambank/baseline/`) read the ancestry
+**Update.** The firewall still holds for this stage. Outside it, the admixture modeling pipelines
+([`analyses/grambank/`](../analyses/grambank/README.md) and [`analyses/paradigm/`](../analyses/paradigm/README.md)) read the ancestry
 values. The choices in this document (12-category feature set, mapping rules, coverage
 threshold) predate those runs.
 
@@ -386,8 +386,7 @@ threshold) predate those runs.
 
 ## 10. Missing-language audit and dialect substitution (2026-10-08)
 
-**Are the missing languages really absent?** (checked 2026-10-08,
-`analyses/pcfp_v1_2026_10_08/grambank_missing_check.py` → `grambank_missing_check.csv`)
+**Are the missing languages really absent?** (archived `pcfp_v1` missing-language check)
 
 Each of the 127 languages in `missing_from_grambank.csv` (116 non-proxy, 11 proxy-only)
 was searched in Grambank v1.0.3 in four ways:

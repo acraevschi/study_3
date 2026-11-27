@@ -1,7 +1,6 @@
-# Report: LDL predictability under repeated random draws (pcfp_v2)
+# Report: LDL predictability under repeated random draws (`pcfp_v2` pilot)
 
-> **Preliminary** (work in progress; see the README banner). The LDL settings used here
-> were revised by the 2026-10-09 ablation (`analyses/ldl/ablation/`).
+> **Scope note:** Historical pilot report for the upstream `morph_ldl` / `pcfp_v2` repeated-random `JudiLing.jl` LDL run (Italian & Finnish). The LDL settings evaluated here were subsequently tested in [`analyses/ldl/ablation/`](../analyses/ldl/ablation/README.md), and the full Study 3 empirical pipelines—**Track 1** (`N = 225` Grambank languages, 5 clean domains, `f3_fixed`) and **Track 2** (`56` languages, `106` paradigm units, Vowel-Tier MGL + 3-seed Neural + Stage-2 `f3_fixed` & entrenchment)—are documented in [`analyses/README.md`](../analyses/README.md).
 
 Date: 2026-10-08. Config: `configs/pcfp_v2.yaml`. Outputs: `outputs/pcfp_v2/`.
 
@@ -145,8 +144,7 @@ still passes its audit (66 checks, 0 problems).
 
 ## 5. Typology in this run
 
-The typology stage ran under the parallel session's rule change,
-`typology.dialect_entries: substitute`. Under this rule, a language with no
+The typology stage ran with `typology.dialect_entries: substitute`. Under this rule, a language with no
 language-level Grambank entry is represented by its best-covered Grambank dialect entry;
 [TYPOLOGY.md](TYPOLOGY.md) §2 has the details.
 

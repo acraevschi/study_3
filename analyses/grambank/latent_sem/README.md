@@ -1,8 +1,56 @@
 # Latent-Variable and Multi-Item Morphological Models (`analyses/grambank/latent_sem/`)
 
-**Exploratory.** Extends [`analyses/grambank/baseline/`](../baseline/README.md) by replacing the equal-weight sum-score Beta-Binomial outcome (`n_present | trials(n_coded)`) with item-level latent-variable and hierarchical varying-slope models over the binary language $\times$ feature observation matrix $Y_{ik} \in \{0, 1\}$.
+## Primary Pipeline: 5 Clean Domains 2PL IRT-SEM & Within-POS 2-Factor SEM (`fit_domain_sem.R`)
 
-**Status 2026-10-31: fitted (`main`, Phylogeny `P`, 42 core models in §4 + 309 unique unifying synthesis models in §5).** All 42 core models converged with $\max \hat{R} \le 1.007$, minimum bulk ESS $\ge 554$, and $0$ divergent transitions; all 309 unique synthesis models (`237` SEM specs + `72` Beta-Binomial `brms` specs; `333` rows before deduplicating the 24 reused legacy `P` reference rows) converged with $\max \hat{R} \le 1.011$, minimum bulk ESS $\ge 228$, and only $3$ divergent transitions across $1.896 \times 10^6$ post-warmup SEM draws.
+The canonical Track 1 item-level modeling pipeline is implemented in [`fit_domain_sem.R`](fit_domain_sem.R) over the harmonized **$N = 225$ language, `29`-item, `5,411`-observation** five-domain schema (`analyses/grambank/data/`; see [`../README.md`](../README.md)), using fixed-reference cross-family **`f3_fixed`** (`min_n_ind = 3` primary, `5` sensitivity) with regularized 3D spherical spatial GP (`lscale ~ inv_gamma(3, 0.4)`), Glottolog/Bouckaert phylogeny, audited speaker demography (`z_pop`, `z_area`), and non-morphological Grambank documentation coverage (`z_doc`):
+
+- **1-Factor 2PL IRT-SEM & Item-DIF (`stan/item_domain_sem.stan`, `60` models $\to$ `results_domain/sem_1factor_results.csv`, `sem_item_dif.csv`, `sem_latent_eap.csv`):**
+  Fits `MA_2pl` across each of the 5 clean domains (`v_breadth`, `n_breadth`, `v_irreg`, `n_irreg`, `np_agr`) for Block-1 locked complete-case specifications (`maximal`, `loo_no_space`, `loo_no_demog`, `loo_no_doccov`, `mundlak_wb`) and Block-2 robustness checks (`full_sample_PS`, `cutoff_n5`, `strict_links`, `bouckaert_stem`, `bouckaert_crown`, `no_inner_asia`), plus 1 `MB_2pl` item-varying-slope DIF fit per domain (`55` `MA_2pl` + `5` `MB_2pl` = `60` models).
+- **Joint Within-POS 2-Factor 2PL SEM (`stan/item_pos_2factor_sem.stan`, `4` models $\to$ `results_domain/sem_2factor_pos_results.csv`):**
+  Jointly models `Verb_2fac` (`v_breadth` + `v_irreg`) and `Noun_2fac` (`n_breadth` + `n_irreg`) at $n_A \ge 3$ and $n_A \ge 5$, directly estimating `b_breadth`, `b_irreg`, the contrast $\Delta\beta = \beta_{\text{breadth}} - \beta_{\text{irreg}}$, and residual latent correlation $\rho_{\text{latent}}$.
+- **Additional tracked outputs in `results_domain/`:** `exposure_sem_f3_fixed.csv` (Stage-1 `f3_fixed` language posteriors) and `maximal_anatomy_summary.csv` (fixed effects, variance decomposition, and spatial GP correlation decay curves powering Figure 6).
+
+### Headline Focal 2PL IRT-SEM Results (`main`, `f3_fixed`, $n_A \ge 3$, `maximal`)
+
+| Model / Domain | $N$ | Slope $\beta$ [95% CrI] | $\text{BF}_{01}$ | ROPE `[-0.15, +0.15]` | Contrast / Notes |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **`v_breadth`** (`MA_2pl`, $k=9$) | `167` | `+0.087 [-0.183, +0.349]` | `3.01` | `0.640` | `0` divergences, $\max \hat{R} = 1.008$ |
+| **`n_breadth`** (`MA_2pl`, $k=5$) | `168` | `+0.260 [-0.091, +0.636]` | `0.99` | `0.266` | `0` divergences, $\max \hat{R} = 1.011$ |
+| **`v_irreg`** (`MA_2pl`, $k=5$) | `135` | `-0.247 [-0.716, +0.215]` | `1.23` | `0.308` | `0` divergences, $\max \hat{R} = 1.003$ |
+| **`n_irreg`** (`MA_2pl`, $k=3$) | `108` | `-0.229 [-0.734, +0.263]` | `1.31` | `0.310` | `0` divergences, $\max \hat{R} = 1.006$ |
+| **`np_agr`** (`MA_2pl`, $k=7$) | `158` | `-0.242 [-0.681, +0.198]` | `1.24` | `0.279` | `0` divergences, $\max \hat{R} = 1.015$ |
+| **`Verb_2fac`** (`v_breadth` + `v_irreg`) | `168` | $\beta_{\text{br}} = +0.087$, $\beta_{\text{ir}} = -0.237$ | — | — | $\Delta\beta = +0.325\;[-0.206, +0.881]$ ($P>0=0.882$), $\rho_{\text{latent}} = -0.004$ |
+| **`Noun_2fac`** (`n_breadth` + `n_irreg`) | `169` | $\beta_{\text{br}} = +0.242$, $\beta_{\text{ir}} = -0.236$ | — | — | $\Delta\beta = +0.479\;[-0.165, +1.140]$ ($P>0=0.919$), $\rho_{\text{latent}} = -0.269$ |
+
+### Usage & Environment Variables (`fit_domain_sem.R`)
+
+```bash
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
+
+# 1. Regenerate canonical 5-domain tables
+.venv/bin/python analyses/grambank/prepare.py
+
+# 2. Dry-run validation (compiles both Stan models & validates all 64 Stan data blocks; zero MCMC)
+SEM_DRY=1 Rscript analyses/grambank/latent_sem/fit_domain_sem.R
+
+# 3. Fast smoke test (400 iterations, 2 chains into fits/domain_smoke/ & results_domain_smoke/)
+SEM_SMOKE=1 SEM_CORES=4 Rscript analyses/grambank/latent_sem/fit_domain_sem.R
+
+# 4. Full canonical run (scale SEM_CORES or pass --cores=N as appropriate)
+SEM_CORES=4 Rscript analyses/grambank/latent_sem/fit_domain_sem.R
+```
+
+Supported environment variables: `SEM_DRY=1`, `SEM_SMOKE=1`, `SEM_CORES` (or `--cores=N`, default `4`), `SEM_THREADS` (or `--threads=N`, default `1`), `SEM_DOMAINS` (comma-separated subset of the 5 domains), `SEM_RUN_2FAC` (`1` default), and `SEM_TAG` (optional output suffix).
+
+---
+
+## Archived Earlier / Exploratory Phase (`N = 202`, `38`-Item Schema, Commit `e082562`)
+
+> **Historical snapshot:** The sections and scripts below (`fit_latent.R`, `fit_irreg13_mb2pl.R`, `fit_synthesis.R`, `stan/item_{1,2}factor*.stan`, and `results/`) document the earlier $N = 202$, `38`-item (`cat12` / `flex26` / `irreg13`, `ent` / `sqrt_het` / `f3k_est_pos`) exploratory phase (`e082562`). Because `analyses/grambank/data/items_metadata.csv` now holds the harmonized `29`-item 5-domain schema (without the legacy `in_cat12`/`in_irreg13`/`in_flex26`/`is_agreement` columns), re-running those earlier scripts requires checking out the `e082562` data snapshot; all summary CSVs in `results/` are preserved verbatim for provenance.
+
+**Exploratory (`e082562`).** Extends [`analyses/grambank/baseline/`](../baseline/README.md) by replacing the equal-weight sum-score Beta-Binomial outcome (`n_present | trials(n_coded)`) with item-level latent-variable and hierarchical varying-slope models over the binary language $\times$ feature observation matrix $Y_{ik} \in \{0, 1\}$.
+
+**Archived run summary (`main`, Phylogeny `P`, 42 core models in §4 + 309 unique unifying synthesis models in §5):** All 42 core models converged with $\max \hat{R} \le 1.007$, minimum bulk ESS $\ge 554$, and $0$ divergent transitions; all 309 unique synthesis models (`237` SEM specs + `72` Beta-Binomial `brms` specs; `333` rows before deduplicating the 24 reused legacy `P` reference rows) converged with $\max \hat{R} \le 1.011$, minimum bulk ESS $\ge 228$, and only $3$ divergent transitions across $1.896 \times 10^6$ post-warmup SEM draws.
 
 ## 1. Motivation
 
@@ -39,8 +87,9 @@ Jointly estimates **Factor 1 (Enumerative Breadth, $\theta_{i, 1}$)** on items $
 ## 3. Files and Usage
 
 ```bash
-# 1. Build item_observations.csv, items_metadata.csv, language_table.csv, latent_prep_summary.json
-/usr/bin/python3 analyses/grambank/prepare.py
+# Archived e082562 commands (require the archived N = 202 / 38-item data snapshot):
+# 1. Build legacy item_observations.csv, items_metadata.csv, language_table.csv
+.venv/bin/python analyses/grambank/prepare.py
 
 # 2. Dry-run validation (checks Stan syntax and all model data structures without sampling)
 LAT_DRY=1 Rscript analyses/grambank/latent_sem/fit_latent.R

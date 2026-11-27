@@ -1,8 +1,10 @@
-# Pipeline overview (`pcfp_v2`)
+# Pipeline overview (`morph_ldl` / `pcfp_v2` upstream pilot)
 
-High-level map of the stages; details in [PROTOCOL.md](PROTOCOL.md) and [TYPOLOGY.md](TYPOLOGY.md),
+> **Scope note:** This diagram documents the upstream `morph_ldl` / `pcfp_v2` pilot (Italian & Finnish `JudiLing.jl` LDL verbs and the GeLaTo–Grambank linkage stage). For the full Study 3 empirical pipelines—**Track 1** (`N = 225` Grambank languages, 5 clean domains, `f3_fixed`) and **Track 2** (`56` languages, `106` paradigm units, Vowel-Tier MGL + 3-seed Neural + Stage-2 `f3_fixed` & entrenchment)—see [`analyses/README.md`](../analyses/README.md).
+
+High-level map of the upstream `morph_ldl` stages; details in [PROTOCOL.md](PROTOCOL.md) and [TYPOLOGY.md](TYPOLOGY.md),
 results in [REPORT_pcfp_v2.md](REPORT_pcfp_v2.md) and
-[analyses/grambank/baseline/README.md](../analyses/grambank/baseline/README.md).
+[`analyses/grambank/README.md`](../analyses/grambank/README.md).
 
 ```mermaid
 flowchart TD
